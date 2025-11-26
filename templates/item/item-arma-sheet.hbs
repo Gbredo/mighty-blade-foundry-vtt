@@ -1,0 +1,85 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img
+      class="profile-img"
+      src="{{item.img}}"
+      data-edit="img"
+      title="{{item.name}}"
+    />
+    <div class="header-fields">
+      <h1 class="charname"><input
+          name="name"
+          type="text"
+          value="{{item.name}}"
+          placeholder="Nome da Arma"
+        /></h1>
+
+      {{! DADOS PRINCIPAIS }}
+      <div class="grid grid-2col">
+        <div class="resource">
+          <label class="resource-label">Tipo de Dano</label>
+          <input
+            type="text"
+            name="system.tipo"
+            value="{{system.tipo}}"
+            placeholder="Ex: Corte"
+          />
+        </div>
+        <div class="resource">
+          <label class="resource-label">Distância</label>
+          <input
+            type="text"
+            name="system.distancia"
+            value="{{system.distancia}}"
+            placeholder="Ex: Corpo-a-corpo"
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{! CORPO DA FICHA }}
+  <section class="sheet-body">
+
+    <div class="grid grid-3col">
+      <div class="resource flex-group-center">
+        <label class="resource-label">Dano</label>
+        <div class="flexrow flex-center">
+          {{! Se for baseado em força, colocamos "For+" }}
+          <span>For + </span>
+          <input
+            type="text"
+            name="system.dano"
+            value="{{system.dano}}"
+            data-dtype="String"
+          />
+        </div>
+      </div>
+
+      <div class="resource flex-group-center">
+        <label class="resource-label">FN (Força Nec.)</label>
+        <input type="number" name="system.fn" value="{{system.fn}}" />
+      </div>
+
+      <div class="resource flex-group-center">
+        <label class="resource-label">Peso (kg)</label>
+        <input type="number" name="system.peso" value="{{system.peso}}" />
+      </div>
+    </div>
+
+    <hr />
+
+    {{! ÁREA DE DESCRIÇÃO (Editor de Texto Rico) }}
+    <h3>Descrição / Observações</h3>
+    <div class="editor-box">
+      {{editor
+        system.description
+        target="system.description"
+        rollData=rollData
+        button=true
+        owner=owner
+        editable=editable
+      }}
+    </div>
+  </section>
+</form>

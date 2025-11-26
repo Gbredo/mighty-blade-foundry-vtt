@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+/* Aplica a fonte em toda a ficha */
+.boilerplate .window-content {
+  font-family: "MedievalSharp", cursive;
+  background: url("../assets/parchment.jpg"); /* Vamos falar disso depois */
+  font-size: 14px;
+}
+
+/* Tira a borda e o fundo branco dos inputs para parecer escrito no papel */
+.boilerplate input[type="text"],
+.boilerplate input[type="number"] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #444; /* Uma linha embaixo estilo formulário */
+  border-radius: 0;
+  font-family: "MedievalSharp", cursive;
+  color: #222;
+}
+
+// Add custom fonts by visiting and search https://fonts.google.com
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+// Import utilities.
+@import "utils/typography";
+@import "utils/colors";
+@import "utils/mixins";
+@import "utils/variables";
+
+/* Global styles */
+@import "global/window";
+@import "global/grid";
+@import "global/flex";
+
+/* Styles limited to boilerplate sheets */
+.boilerplate {
+  @import "components/forms";
+  @import "components/resource";
+  @import "components/items";
+  @import "components/effects";
+}
