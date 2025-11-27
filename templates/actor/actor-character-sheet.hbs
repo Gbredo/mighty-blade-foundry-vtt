@@ -9,120 +9,253 @@
       width="100"
     />
     <div class="header-fields">
-      <h1 class="charname"><input
+      <h1 class="charname">
+        {{#if flags.mighty-blade.isEditing}}
+        <input
           name="name"
           type="text"
           value="{{actor.name}}"
           placeholder="Name"
-        /></h1>
+        />
+        {{else}}
+        <span>{{actor.name}}</span>
+        {{/if}}
+      </h1>
+
+      {{! RAÇA E CLASSE }}
+      <div class="grid grid-2col">
+        <div class="resource flex-group-center">
+          <label class="resource-label">Raça</label>
+          <div class="resource-content">
+            {{#if raca}}
+              <div class="item flexrow flex-center" data-item-id="{{raca._id}}">
+                <span class="item-name" data-tooltip="<strong>Classes Comuns:</strong> {{raca.system.classesComuns}}">{{raca.name}}</span>
+                <div class="item-controls">
+                  <a class="item-control item-replace" title="Trocar Raça" data-type="raca"><i class="fas fa-exchange-alt"></i></a>
+                  <a class="item-control item-edit" title="Editar Item"><i
+                      class="fas fa-edit"
+                    ></i></a>
+                  {{#if flags.mighty-blade.isEditing}}
+                  <a class="item-control item-delete" title="Excluir Item"><i
+                      class="fas fa-trash"
+                    ></i></a>
+                  {{/if}}
+                </div>
+              </div>
+            {{else}}
+              <a class="item-create placeholder" data-type="raca" style="color: #777; font-style: italic; cursor: pointer;">
+                <i class="fas fa-plus"></i> Adicionar Raça
+              </a>
+            {{/if}}
+          </div>
+        </div>
+        <div class="resource flex-group-center">
+          <label class="resource-label">Classe</label>
+          <div class="resource-content">
+            {{#if classe}}
+              <div
+                class="item flexrow flex-center"
+                data-item-id="{{classe._id}}"
+              >
+                <span class="item-name">{{classe.name}}</span>
+                <div class="item-controls">
+                  <a class="item-control item-replace" title="Trocar Classe" data-type="classe"><i class="fas fa-exchange-alt"></i></a>
+                  <a class="item-control item-edit" title="Editar Item"><i
+                      class="fas fa-edit"
+                    ></i></a>
+                  {{#if flags.mighty-blade.isEditing}}
+                  <a class="item-control item-delete" title="Excluir Item"><i
+                      class="fas fa-trash"
+                    ></i></a>
+                  {{/if}}
+                </div>
+              </div>
+            {{else}}
+              <a class="item-create placeholder" data-type="classe" style="color: #777; font-style: italic; cursor: pointer;">
+                <i class="fas fa-plus"></i> Adicionar Classe
+              </a>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{!-- Config Button --}}
+    <div class="sheet-config-container">
+        <a class="sheet-config {{#if flags.mighty-blade.isEditing}}editing{{/if}}" title="{{#if flags.mighty-blade.isEditing}}Salvar Alterações{{else}}Habilitar Edição{{/if}}">
+            <i class="fas {{#if flags.mighty-blade.isEditing}}fa-check{{else}}fa-cog{{/if}}"></i>
+        </a>
     </div>
   </header>
 
-  <section class="grid grid-4col">
-    {{! FORÇA }}
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Forca"}}</label>
-      <input
-        type="text"
-        name="system.attributes.forca.value"
-        value="{{system.attributes.forca.value}}"
-        data-dtype="Number"
-      />
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="attributes">Atributos</a>
+    <a class="item" data-tab="features">Habilidades</a>
+    <a class="item" data-tab="spells">Magias</a>
+    <a class="item" data-tab="effects">Efeitos</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+
+    {{!-- Attributes Tab --}}
+    <div class="tab attributes" data-group="primary" data-tab="attributes">
+      <section class="grid grid-4col">
+        {{! FORÇA }}
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Forca"}}</label>
+          {{#if flags.mighty-blade.isEditing}}
+          <input
+            type="text"
+            name="system.attributes.forca.base"
+            value="{{system.attributes.forca.base}}"
+            data-dtype="Number"
+            placeholder="Base"
+          />
+          {{else}}
+          <span
+            class="resource-value"
+            title="Total (Base + Bônus)"
+          >{{system.attributes.forca.value}}</span>
+          {{/if}}
+        </div>
+
+        {{! AGILIDADE }}
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Agilidade"}}</label>
+          {{#if flags.mighty-blade.isEditing}}
+          <input
+            type="text"
+            name="system.attributes.agilidade.base"
+            value="{{system.attributes.agilidade.base}}"
+            data-dtype="Number"
+            placeholder="Base"
+          />
+          {{else}}
+          <span
+            class="resource-value"
+            title="Total (Base + Bônus)"
+          >{{system.attributes.agilidade.value}}</span>
+          {{/if}}
+        </div>
+
+        {{! INTELIGÊNCIA }}
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Inteligencia"}}</label>
+          {{#if flags.mighty-blade.isEditing}}
+          <input
+            type="text"
+            name="system.attributes.inteligencia.base"
+            value="{{system.attributes.inteligencia.base}}"
+            data-dtype="Number"
+            placeholder="Base"
+          />
+          {{else}}
+          <span
+            class="resource-value"
+            title="Total (Base + Bônus)"
+          >{{system.attributes.inteligencia.value}}</span>
+          {{/if}}
+        </div>
+
+        {{! VONTADE }}
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Vontade"}}</label>
+          {{#if flags.mighty-blade.isEditing}}
+          <input
+            type="text"
+            name="system.attributes.vontade.base"
+            value="{{system.attributes.vontade.base}}"
+            data-dtype="Number"
+            placeholder="Base"
+          />
+          {{else}}
+          <span
+            class="resource-value"
+            title="Total (Base + Bônus)"
+          >{{system.attributes.vontade.value}}</span>
+          {{/if}}
+        </div>
+      </section>
+
+      {{! RECURSOS (VIDA E MANA) }}
+      <section class="grid grid-2col">
+        <div class="resource flex-group-center">
+          <label class="resource-label">{{localize "MB.Vida"}}</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input
+              type="text"
+              name="system.resources.vida.value"
+              value="{{system.resources.vida.value}}"
+              data-dtype="Number"
+            />
+            <span> / </span>
+            <input
+              type="text"
+              name="system.resources.vida.max"
+              value="{{system.resources.vida.max}}"
+              data-dtype="Number"
+            />
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
+          <label class="resource-label">{{localize "MB.Mana"}}</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input
+              type="text"
+              name="system.resources.mana.value"
+              value="{{system.resources.mana.value}}"
+              data-dtype="Number"
+            />
+            <span> / </span>
+            <input
+              type="text"
+              name="system.resources.mana.max"
+              value="{{system.resources.mana.max}}"
+              data-dtype="Number"
+            />
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      {{! DEFESAS (BLOQUEIO, ESQUIVA, DETERMINAÇÃO) }}
+      <section class="grid grid-3col">
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Bloqueio"}}</label>
+          {{! Note que aqui usamos 'span' e não 'input', pois será calculado automaticamente }}
+          <span class="resource-value">{{system.defesas.bloqueio.value}}</span>
+        </div>
+
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Esquiva"}}</label>
+          <span class="resource-value">{{system.defesas.esquiva.value}}</span>
+        </div>
+
+        <div class="flex-group-center">
+          <label class="resource-label">{{localize "MB.Determinacao"}}</label>
+          <span class="resource-value">{{system.defesas.determinacao.value}}</span>
+        </div>
+      </section>
     </div>
 
-    {{! AGILIDADE }}
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Agilidade"}}</label>
-      <input
-        type="text"
-        name="system.attributes.agilidade.value"
-        value="{{system.attributes.agilidade.value}}"
-        data-dtype="Number"
-      />
+    {{!-- Features Tab --}}
+    <div class="tab features" data-group="primary" data-tab="features">
+      {{> "systems/mighty-blade/templates/actor/parts/actor-features.hbs"}}
     </div>
 
-    {{! INTELIGÊNCIA }}
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Inteligencia"}}</label>
-      <input
-        type="text"
-        name="system.attributes.inteligencia.value"
-        value="{{system.attributes.inteligencia.value}}"
-        data-dtype="Number"
-      />
+    {{!-- Spells Tab --}}
+    <div class="tab spells" data-group="primary" data-tab="spells">
+      {{> "systems/mighty-blade/templates/actor/parts/actor-spells.hbs"}}
     </div>
 
-    {{! VONTADE }}
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Vontade"}}</label>
-      <input
-        type="text"
-        name="system.attributes.vontade.value"
-        value="{{system.attributes.vontade.value}}"
-        data-dtype="Number"
-      />
-    </div>
-  </section>
-
-  {{! RECURSOS (VIDA E MANA) }}
-  <section class="grid grid-2col">
-    <div class="resource flex-group-center">
-      <label class="resource-label">{{localize "MB.Vida"}}</label>
-      <div class="resource-content flexrow flex-center flex-between">
-        <input
-          type="text"
-          name="system.resources.vida.value"
-          value="{{system.resources.vida.value}}"
-          data-dtype="Number"
-        />
-        <span> / </span>
-        <input
-          type="text"
-          name="system.resources.vida.max"
-          value="{{system.resources.vida.max}}"
-          data-dtype="Number"
-        />
-      </div>
+    {{!-- Effects Tab --}}
+    <div class="tab effects" data-group="primary" data-tab="effects">
+      {{> "systems/mighty-blade/templates/actor/parts/actor-effects.hbs"}}
     </div>
 
-    <div class="resource flex-group-center">
-      <label class="resource-label">{{localize "MB.Mana"}}</label>
-      <div class="resource-content flexrow flex-center flex-between">
-        <input
-          type="text"
-          name="system.resources.mana.value"
-          value="{{system.resources.mana.value}}"
-          data-dtype="Number"
-        />
-        <span> / </span>
-        <input
-          type="text"
-          name="system.resources.mana.max"
-          value="{{system.resources.mana.max}}"
-          data-dtype="Number"
-        />
-      </div>
-    </div>
-  </section>
-
-  <hr />
-
-  {{! DEFESAS (BLOQUEIO, ESQUIVA, DETERMINAÇÃO) }}
-  <section class="grid grid-3col">
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Bloqueio"}}</label>
-      {{! Note que aqui usamos 'span' e não 'input', pois será calculado automaticamente }}
-      <span class="resource-value">{{system.defesas.bloqueio.value}}</span>
-    </div>
-
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Esquiva"}}</label>
-      <span class="resource-value">{{system.defesas.esquiva.value}}</span>
-    </div>
-
-    <div class="flex-group-center">
-      <label class="resource-label">{{localize "MB.Determinacao"}}</label>
-      <span class="resource-value">{{system.defesas.determinacao.value}}</span>
-    </div>
   </section>
 </form>

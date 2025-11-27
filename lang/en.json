@@ -8,5 +8,11 @@
   "MB.Defesas": "Defesas",
   "MB.Bloqueio": "Bloqueio",
   "MB.Esquiva": "Esquiva",
-  "MB.Determinacao": "Determinação"
+  "MB.Determinacao": "Determinação",
+  "acao": "Ação",
+  "reacao": "Reação",
+  "suporte": "Suporte",
+  "tecnica": "Técnica",
+  "caracteristica": "Característica",
+  "magia": "Magia/Música"
 }

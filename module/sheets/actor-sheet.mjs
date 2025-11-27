@@ -2,6 +2,7 @@ import {
   onManageActiveEffect,
   prepareActiveEffectCategories,
 } from "../helpers/effects.mjs";
+import { MightyBladeCompendiumBrowser } from "../apps/compendium-browser.mjs";
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -18,7 +19,7 @@ export class MightyBladeActorSheet extends ActorSheet {
         {
           navSelector: ".sheet-tabs",
           contentSelector: ".sheet-body",
-          initial: "features",
+          initial: "attributes",
         },
       ],
     });
@@ -105,6 +106,8 @@ export class MightyBladeActorSheet extends ActorSheet {
     // Initialize containers.
     const gear = [];
     const features = [];
+    let raca = null;
+    let classe = null;
     const spells = {
       0: [],
       1: [],
@@ -122,18 +125,32 @@ export class MightyBladeActorSheet extends ActorSheet {
     for (let i of context.items) {
       i.img = i.img || Item.DEFAULT_ICON;
       // Append to gear.
-      if (i.type === "item") {
+      if (
+        i.type === "item" ||
+        i.type === "equipamento" ||
+        i.type === "arma" ||
+        i.type === "armadura"
+      ) {
         gear.push(i);
       }
       // Append to features.
-      else if (i.type === "feature") {
+      else if (i.type === "feature" || i.type === "habilidade") {
         features.push(i);
       }
       // Append to spells.
-      else if (i.type === "spell") {
-        if (i.system.spellLevel != undefined) {
-          spells[i.system.spellLevel].push(i);
+      else if (i.type === "spell" || i.type === "magia") {
+        if (i.system.circulo != undefined) {
+          spells[i.system.circulo].push(i);
         }
+      }
+      // Identify Race
+      else if (i.type === "raca") {
+        raca = i;
+        // features.push(i); // Removed: Race is displayed in header, linked ability is separate item
+      }
+      // Identify Class
+      else if (i.type === "classe") {
+        classe = i;
       }
     }
 
@@ -141,6 +158,8 @@ export class MightyBladeActorSheet extends ActorSheet {
     context.gear = gear;
     context.features = features;
     context.spells = spells;
+    context.raca = raca;
+    context.classe = classe;
   }
 
   /* -------------------------------------------- */
@@ -155,6 +174,12 @@ export class MightyBladeActorSheet extends ActorSheet {
       const item = this.actor.items.get(li.data("itemId"));
       item.sheet.render(true);
     });
+
+    // Toggle Edit Mode
+    html.find(".sheet-config").click(this._onSheetConfig.bind(this));
+
+    // Replace Race/Class
+    html.on("click", ".item-replace", this._onItemReplace.bind(this));
 
     // -------------------------------------------------------------
     // Everything below here is only needed if the sheet is editable
@@ -196,6 +221,23 @@ export class MightyBladeActorSheet extends ActorSheet {
   }
 
   /**
+   * Handle replacing an existing Race or Class
+   * @param {Event} event
+   * @private
+   */
+  async _onItemReplace(event) {
+    event.preventDefault();
+    const header = event.currentTarget;
+    const type = header.dataset.type;
+
+    // Open Compendium Browser directly
+    new MightyBladeCompendiumBrowser({
+      type: type,
+      actor: this.actor,
+    }).render(true);
+  }
+
+  /**
    * Handle creating a new Owned Item for the actor using initial data defined in the HTML dataset
    * @param {Event} event   The originating click event
    * @private
@@ -205,6 +247,24 @@ export class MightyBladeActorSheet extends ActorSheet {
     const header = event.currentTarget;
     // Get the type of item to create.
     const type = header.dataset.type;
+
+    // Check for existing Race or Class
+    if (type === "raca" || type === "classe") {
+      const existing = this.actor.items.find((i) => i.type === type);
+      if (existing) {
+        return ui.notifications.warn(
+          `Você já possui uma ${type}! Remova a atual antes de adicionar outra.`
+        );
+      }
+
+      // Open Compendium Browser
+      new MightyBladeCompendiumBrowser({
+        type: type,
+        actor: this.actor,
+      }).render(true);
+      return;
+    }
+
     // Grab any data associated with this control.
     const data = duplicate(header.dataset);
     // Initialize a default name.
@@ -252,5 +312,16 @@ export class MightyBladeActorSheet extends ActorSheet {
       });
       return roll;
     }
+  }
+
+  /**
+   * Toggle Edit Mode
+   * @param {Event} event
+   * @private
+   */
+  async _onSheetConfig(event) {
+    event.preventDefault();
+    const flag = this.actor.getFlag("mighty-blade", "isEditing");
+    await this.actor.setFlag("mighty-blade", "isEditing", !flag);
   }
 }

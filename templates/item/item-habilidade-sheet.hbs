@@ -1,0 +1,91 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img
+      class="profile-img"
+      src="{{item.img}}"
+      data-edit="img"
+      title="{{item.name}}"
+    />
+    <div class="header-fields">
+      <h1 class="charname"><input
+          name="name"
+          type="text"
+          value="{{item.name}}"
+          placeholder="Nome da Habilidade"
+        /></h1>
+      <div class="grid grid-2col">
+        <div class="resource">
+          <label class="resource-label">Tipo de Ação</label>
+          <select name="system.tipo">
+            {{selectOptions config.tipos selected=system.tipo localize=false}}
+          </select>
+        </div>
+        <div class="resource">
+          <label class="resource-label">Categoria</label>
+          <select name="system.categoria">
+            {{selectOptions
+              config.categorias
+              selected=system.categoria
+              localize=false
+            }}
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{! Sheet Tab Navigation }}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="description">Descrição</a>
+    <a class="item" data-tab="details">Detalhes</a>
+  </nav>
+
+  {{! Sheet Body }}
+  <section class="sheet-body">
+
+    {{! Description Tab }}
+    <div class="tab" data-group="primary" data-tab="description">
+      {{editor
+        system.description
+        target="system.description"
+        button=true
+        owner=owner
+        editable=editable
+      }}
+    </div>
+
+    {{! Details Tab }}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="form-group">
+        <label>Custo (Mana)</label>
+        <input
+          type="number"
+          name="system.custo"
+          value="{{system.custo}}"
+          data-dtype="Number"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Requisitos</label>
+        <input
+          type="text"
+          name="system.requisitos"
+          value="{{system.requisitos}}"
+          placeholder="Ex: Força 4, Nível 5"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Dificuldade</label>
+        <input
+          type="number"
+          name="system.dificuldade"
+          value="{{system.dificuldade}}"
+          data-dtype="Number"
+          placeholder="Ex: 8"
+        />
+      </div>
+    </div>
+  </section>
+</form>

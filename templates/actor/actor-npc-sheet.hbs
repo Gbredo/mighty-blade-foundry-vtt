@@ -4,7 +4,13 @@
   <header class="sheet-header">
     <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
     <div class="header-fields">
-      <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
+      <h1 class="charname">
+        {{#if flags.mighty-blade.isEditing}}
+        <input name="name" type="text" value="{{actor.name}}" placeholder="Name"/>
+        {{else}}
+        <span>{{actor.name}}</span>
+        {{/if}}
+      </h1>
       {{!-- The grid classes are defined in scss/global/_grid.scss. To use,
       use both the "grid" and "grid-Ncol" class where "N" can be any number
       from 1 to 12 and will create that number of columns.  --}}
@@ -16,31 +22,50 @@
         <div class="resource flex-group-center">
           <label for="system.health.value" class="resource-label">Health</label>
           <div class="resource-content flexrow flex-center flex-between">
+            {{#if flags.mighty-blade.isEditing}}
             <input type="text" name="system.health.value" value="{{system.health.value}}" data-dtype="Number"/>
             <span> / </span>
             <input type="text" name="system.health.max" value="{{system.health.max}}" data-dtype="Number"/>
+            {{else}}
+            <span>{{system.health.value}} / {{system.health.max}}</span>
+            {{/if}}
           </div>
         </div>
 
         <div class="resource flex-group-center">
           <label for="system.power.value" class="resource-label">Power</label>
           <div class="resource-content flexrow flex-center flex-between">
+            {{#if flags.mighty-blade.isEditing}}
             <input type="text" name="system.power.value" value="{{system.power.value}}" data-dtype="Number"/>
             <span> / </span>
             <input type="text" name="system.power.max" value="{{system.power.max}}" data-dtype="Number"/>
+            {{else}}
+            <span>{{system.power.value}} / {{system.power.max}}</span>
+            {{/if}}
           </div>
         </div>
 
         <div class="resource flex-group-center">
           <label for="system.cr" class="resource-label">CR / XP</label>
           <div class="resource-content flexrow flex-center flex-between">
+            {{#if flags.mighty-blade.isEditing}}
             <input type="text" name="system.cr" value="{{system.cr}}" data-dtype="Number"/>
             <span> / </span>
             <input type="text" disabled="true" name="system.xp" value="{{system.xp}}" data-dtype="Number"/>
+            {{else}}
+            <span>{{system.cr}} / {{system.xp}}</span>
+            {{/if}}
           </div>
         </div>
 
       </div>
+    </div>
+
+    {{!-- Config Button --}}
+    <div class="sheet-config-container">
+        <a class="sheet-config {{#if flags.mighty-blade.isEditing}}editing{{/if}}" title="{{#if flags.mighty-blade.isEditing}}Salvar Alterações{{else}}Habilitar Edição{{/if}}">
+            <i class="fas {{#if flags.mighty-blade.isEditing}}fa-check{{else}}fa-cog{{/if}}"></i>
+        </a>
     </div>
   </header>
 

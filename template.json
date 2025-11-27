@@ -9,10 +9,10 @@
     "character": {
       "templates": ["base"],
       "attributes": {
-        "forca": { "value": 0 },
-        "agilidade": { "value": 0 },
-        "inteligencia": { "value": 0 },
-        "vontade": { "value": 0 }
+        "forca": { "value": 0, "base": 0 },
+        "agilidade": { "value": 0, "base": 0 },
+        "inteligencia": { "value": 0, "base": 0 },
+        "vontade": { "value": 0, "base": 0 }
       },
       "resources": {
         "vida": { "value": 10, "max": 10 },
@@ -58,12 +58,32 @@
         "inteligencia": 0,
         "vontade": 0
       },
+      "habilidadeUuid": "",
+      "habilidadeAutomatica": {
+        "nome": "",
+        "descricao": "",
+        "tipo": "suporte",
+        "categoria": "caracteristica",
+        "custo": 0
+      },
+      "classesComuns": "",
       "description": ""
     },
     "classe": {
       "templates": [],
-      "bonusVida": 0,
-      "bonusMana": 0,
+      "atributos": {
+        "forca": 0,
+        "agilidade": 0,
+        "inteligencia": 0,
+        "vontade": 0
+      },
+      "habilidadeAutomatica": {
+        "nome": "",
+        "descricao": ""
+      },
+      "vida": 0,
+      "mana": 0,
+      "equipamentoInicial": "",
       "description": ""
     },
     "arma": {
@@ -85,10 +105,11 @@
     },
     "habilidade": {
       "templates": [],
+      "tipo": "acao",
       "custo": 0,
+      "requisitos": "",
+      "categoria": "tecnica",
       "dificuldade": 0,
-      "requisito": "",
-      "acao": "padrao",
       "description": ""
     },
     "magia": {

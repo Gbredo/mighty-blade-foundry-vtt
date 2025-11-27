@@ -9,6 +9,7 @@ import { MightyBladeItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { MIGHTY_BLADE } from "./helpers/config.mjs";
+import { createRaces } from "./helpers/create-races.mjs";
 
 /* -------------------------------------------- */
 /* Init Hook                                   */
@@ -19,9 +20,10 @@ Hooks.once("init", async function () {
 
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
-  game.mightyblade = {
+  game.mightyBlade = {
     MightyBladeActor,
     MightyBladeItem,
+    createRaces,
     // Removi o rollItemMacro daqui por enquanto para não dar erro
   };
 

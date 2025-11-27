@@ -41,4 +41,75 @@
   @import "components/resource";
   @import "components/items";
   @import "components/effects";
+  @import "components/browser";
+
+  .sheet-config-container {
+    flex: 0 0 30px;
+    text-align: right;
+    padding-top: 5px;
+  }
+
+  .sheet-config {
+    color: #444;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #000;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    &.editing {
+      color: #27ae60; /* Green for active editing/save */
+
+      &:hover {
+        color: #2ecc71;
+        text-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+      }
+    }
+  }
+
+  /* Tabs */
+  .sheet-tabs {
+    flex: 0 0 40px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+
+    .item {
+      display: inline-block;
+      padding: 0 10px;
+      border-bottom: 3px solid transparent;
+      color: #444;
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      &.active {
+        border-bottom: 3px solid #444;
+        color: #000;
+      }
+    }
+  }
+
+  /* Hover Effects */
+  input[type="text"]:hover,
+  input[type="number"]:hover {
+    border-bottom-color: #000;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .item-create:hover {
+    color: #000;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
 }

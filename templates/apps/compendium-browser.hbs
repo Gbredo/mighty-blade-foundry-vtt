@@ -1,0 +1,41 @@
+<div class="compendium-browser flexrow">
+  <section class="browser-sidebar">
+    <div class="search-bar">
+      <input
+        type="text"
+        name="search"
+        placeholder="Buscar..."
+        autocomplete="off"
+      />
+    </div>
+    <ul class="item-list">
+      {{#each items}}
+        <li class="item flexrow" data-item-id="{{this.id}}">
+          <img src="{{this.img}}" width="36" height="36" />
+          <span class="item-name">{{this.name}}</span>
+          <div class="item-controls">
+            <input type="radio" name="selected-item" value="{{this.id}}" />
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+  </section>
+  <section class="browser-details">
+    <div class="details-header">
+      <h2>Detalhes</h2>
+    </div>
+    <div class="details-content">
+      <p class="instruction">Passe o mouse sobre um item para ver os detalhes.</p>
+    </div>
+    <div class="browser-footer">
+      <div class="selection-status">
+        <i class="fas fa-info-circle"></i>
+        Selecione 1 opção
+      </div>
+      <button type="button" class="select-button" disabled>
+        <i class="fas fa-check"></i>
+        Selecionar
+      </button>
+    </div>
+  </section>
+</div>
