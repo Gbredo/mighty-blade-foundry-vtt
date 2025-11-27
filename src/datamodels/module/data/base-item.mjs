@@ -1,6 +1,6 @@
-import BoilerplateDataModel from "./base-model.mjs";
+import mighty-bladeDataModel from "./base-model.mjs";
 
-export default class BoilerplateItemBase extends BoilerplateDataModel {
+export default class mighty-bladeItemBase extends mighty-bladeDataModel {
 
   static defineSchema() {
     const fields = foundry.data.fields;

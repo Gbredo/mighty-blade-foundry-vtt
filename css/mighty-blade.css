@@ -1,4 +1,27 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+/* Aplica a fonte em toda a ficha */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.mighty-blade .window-content {
+  font-family: "MedievalSharp", cursive;
+  background-color: #e8e2c9; /* Cor de pergaminho (fallback) */
+  background-image: url("../assets/parchment.jpg");
+  background-repeat: repeat;
+  font-size: 14px;
+  color: #191813; /* Cor do texto padrão */
+}
+
+/* Tira a borda e o fundo branco dos inputs para parecer escrito no papel */
+.mighty-blade input[type=text],
+.mighty-blade input[type=number] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #444; /* Uma linha embaixo estilo formulário */
+  border-radius: 0;
+  font-family: "MedievalSharp", cursive;
+  color: #191813;
+}
+
 /* Global styles */
 .window-app {
   font-family: "Roboto", sans-serif;
@@ -203,11 +226,11 @@
   text-align: center;
 }
 
-/* Styles limited to boilerplate sheets */
-.boilerplate .item-form {
+/* Styles limited to mighty-blade sheets */
+.mighty-blade .item-form {
   font-family: "Roboto", sans-serif;
 }
-.boilerplate .sheet-header {
+.mighty-blade .sheet-header {
   flex: 0 auto;
   overflow: hidden;
   display: flex;
@@ -216,43 +239,43 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
-.boilerplate .sheet-header .profile-img {
+.mighty-blade .sheet-header .profile-img {
   flex: 0 0 100px;
   height: 100px;
   margin-right: 10px;
 }
-.boilerplate .sheet-header .header-fields {
+.mighty-blade .sheet-header .header-fields {
   flex: 1;
 }
-.boilerplate .sheet-header h1.charname {
+.mighty-blade .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
-.boilerplate .sheet-header h1.charname input {
+.mighty-blade .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
-.boilerplate .sheet-tabs {
+.mighty-blade .sheet-tabs {
   flex: 0;
 }
-.boilerplate .sheet-body,
-.boilerplate .sheet-body .tab,
-.boilerplate .sheet-body .tab .editor {
+.mighty-blade .sheet-body,
+.mighty-blade .sheet-body .tab,
+.mighty-blade .sheet-body .tab .editor {
   height: 100%;
 }
-.boilerplate .tox .tox-editor-container {
+.mighty-blade .tox .tox-editor-container {
   background: #fff;
 }
-.boilerplate .tox .tox-edit-area {
+.mighty-blade .tox .tox-edit-area {
   padding: 0 8px;
 }
-.boilerplate .resource-label {
+.mighty-blade .resource-label {
   font-weight: bold;
 }
-.boilerplate .items-header {
+.mighty-blade .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -261,17 +284,17 @@
   border: 2px groove #eeede0;
   font-weight: bold;
 }
-.boilerplate .items-header > * {
+.mighty-blade .items-header > * {
   font-size: 14px;
   text-align: center;
 }
-.boilerplate .items-header .item-name {
+.mighty-blade .items-header .item-name {
   font-weight: bold;
   padding-left: 5px;
   text-align: left;
   display: flex;
 }
-.boilerplate .items-list {
+.mighty-blade .items-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -279,12 +302,12 @@
   scrollbar-width: thin;
   color: #444;
 }
-.boilerplate .items-list .item-list {
+.mighty-blade .items-list .item-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.boilerplate .items-list .item-name {
+.mighty-blade .items-list .item-name {
   flex: 2;
   margin: 0;
   overflow: hidden;
@@ -293,46 +316,47 @@
   align-items: center;
   display: flex;
 }
-.boilerplate .items-list .item-name h3, .boilerplate .items-list .item-name h4 {
+.mighty-blade .items-list .item-name h3,
+.mighty-blade .items-list .item-name h4 {
   margin: 0;
   white-space: nowrap;
   overflow-x: hidden;
 }
-.boilerplate .items-list .item-controls {
+.mighty-blade .items-list .item-controls {
   display: flex;
   flex: 0 0 100px;
   justify-content: flex-end;
 }
-.boilerplate .items-list .item-controls a {
+.mighty-blade .items-list .item-controls a {
   font-size: 12px;
   text-align: center;
   margin: 0 6px;
 }
-.boilerplate .items-list .item {
+.mighty-blade .items-list .item {
   align-items: center;
   padding: 0 2px;
   border-bottom: 1px solid #c9c7b8;
 }
-.boilerplate .items-list .item:last-child {
+.mighty-blade .items-list .item:last-child {
   border-bottom: none;
 }
-.boilerplate .items-list .item .item-name {
+.mighty-blade .items-list .item .item-name {
   color: #191813;
 }
-.boilerplate .items-list .item .item-name .item-image {
+.mighty-blade .items-list .item .item-name .item-image {
   flex: 0 0 30px;
   height: 30px;
   background-size: 30px;
   border: none;
   margin-right: 5px;
 }
-.boilerplate .items-list .item-prop {
+.mighty-blade .items-list .item-prop {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
-.boilerplate .items-list .items-header {
+.mighty-blade .items-list .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -341,26 +365,26 @@
   border: 2px groove #eeede0;
   font-weight: bold;
 }
-.boilerplate .items-list .items-header > * {
+.mighty-blade .items-list .items-header > * {
   font-size: 12px;
   text-align: center;
 }
-.boilerplate .items-list .items-header .item-name {
+.mighty-blade .items-list .items-header .item-name {
   padding-left: 5px;
   text-align: left;
 }
-.boilerplate .item-formula {
+.mighty-blade .item-formula {
   flex: 0 0 200px;
   padding: 0 8px;
 }
-.boilerplate .effects .item .effect-source,
-.boilerplate .effects .item .effect-duration,
-.boilerplate .effects .item .effect-controls {
+.mighty-blade .effects .item .effect-source,
+.mighty-blade .effects .item .effect-duration,
+.mighty-blade .effects .item .effect-controls {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
-.boilerplate .effects .item .effect-controls {
+.mighty-blade .effects .item .effect-controls {
   border: none;
 }

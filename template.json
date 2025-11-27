@@ -3,49 +3,39 @@
     "types": ["character", "npc"],
     "templates": {
       "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
-        },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
-        },
         "biography": ""
       }
     },
     "character": {
       "templates": ["base"],
       "attributes": {
-        "level": {
-          "value": 1
-        }
+        "forca": { "value": 0 },
+        "agilidade": { "value": 0 },
+        "inteligencia": { "value": 0 },
+        "vontade": { "value": 0 }
       },
-      "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
-        }
+      "resources": {
+        "vida": { "value": 10, "max": 10 },
+        "mana": { "value": 5, "max": 5 }
+      },
+      "defesas": {
+        "bloqueio": { "value": 0 },
+        "esquiva": { "value": 0 },
+        "determinacao": { "value": 0 }
       }
     },
     "npc": {
       "templates": ["base"],
+      "health": {
+        "value": 10,
+        "min": 0,
+        "max": 10
+      },
+      "power": {
+        "value": 5,
+        "min": 0,
+        "max": 5
+      },
       "cr": 0
     }
   },
@@ -60,7 +50,6 @@
       "raca",
       "classe"
     ],
-
     "raca": {
       "templates": [],
       "atributos": {
@@ -71,14 +60,12 @@
       },
       "description": ""
     },
-
     "classe": {
       "templates": [],
       "bonusVida": 0,
       "bonusMana": 0,
       "description": ""
     },
-
     "arma": {
       "templates": [],
       "dano": "0",
@@ -88,7 +75,6 @@
       "peso": 0,
       "description": ""
     },
-
     "armadura": {
       "templates": [],
       "defesa": 0,
@@ -97,7 +83,6 @@
       "peso": 0,
       "description": ""
     },
-
     "habilidade": {
       "templates": [],
       "custo": 0,
@@ -106,7 +91,6 @@
       "acao": "padrao",
       "description": ""
     },
-
     "magia": {
       "templates": [],
       "custo": 0,
@@ -114,7 +98,6 @@
       "circulo": 1,
       "description": ""
     },
-
     "equipamento": {
       "templates": [],
       "quantidade": 1,
@@ -122,7 +105,6 @@
       "preco": 0,
       "description": ""
     },
-
     "item": {
       "templates": [],
       "description": ""

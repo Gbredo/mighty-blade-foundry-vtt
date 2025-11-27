@@ -1,21 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 
 /* Aplica a fonte em toda a ficha */
-.boilerplate .window-content {
+.mighty-blade .window-content {
   font-family: "MedievalSharp", cursive;
-  background: url("../assets/parchment.jpg"); /* Vamos falar disso depois */
+  background-color: #e8e2c9; /* Cor de pergaminho (fallback) */
+  background-image: url("../assets/parchment.jpg");
+  background-repeat: repeat;
   font-size: 14px;
+  color: #191813; /* Cor do texto padrão */
 }
 
 /* Tira a borda e o fundo branco dos inputs para parecer escrito no papel */
-.boilerplate input[type="text"],
-.boilerplate input[type="number"] {
+.mighty-blade input[type="text"],
+.mighty-blade input[type="number"] {
   background: none;
   border: none;
   border-bottom: 2px solid #444; /* Uma linha embaixo estilo formulário */
   border-radius: 0;
   font-family: "MedievalSharp", cursive;
-  color: #222;
+  color: #191813;
 }
 
 // Add custom fonts by visiting and search https://fonts.google.com
@@ -32,8 +35,8 @@
 @import "global/grid";
 @import "global/flex";
 
-/* Styles limited to boilerplate sheets */
-.boilerplate {
+/* Styles limited to mighty-blade sheets */
+.mighty-blade {
   @import "components/forms";
   @import "components/resource";
   @import "components/items";

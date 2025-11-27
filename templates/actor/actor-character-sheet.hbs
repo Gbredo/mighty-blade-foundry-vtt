@@ -1,107 +1,128 @@
-<section class="grid grid-4col">
-  {{! FORÇA }}
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Forca"}}</label>
-    <input
-      type="text"
-      name="system.attributes.forca.value"
-      value="{{system.attributes.forca.value}}"
-      data-dtype="Number"
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img
+      class="profile-img"
+      src="{{actor.img}}"
+      data-edit="img"
+      title="{{actor.name}}"
+      height="100"
+      width="100"
     />
-  </div>
+    <div class="header-fields">
+      <h1 class="charname"><input
+          name="name"
+          type="text"
+          value="{{actor.name}}"
+          placeholder="Name"
+        /></h1>
+    </div>
+  </header>
 
-  {{! AGILIDADE }}
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Agilidade"}}</label>
-    <input
-      type="text"
-      name="system.attributes.agilidade.value"
-      value="{{system.attributes.agilidade.value}}"
-      data-dtype="Number"
-    />
-  </div>
-
-  {{! INTELIGÊNCIA }}
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Inteligencia"}}</label>
-    <input
-      type="text"
-      name="system.attributes.inteligencia.value"
-      value="{{system.attributes.inteligencia.value}}"
-      data-dtype="Number"
-    />
-  </div>
-
-  {{! VONTADE }}
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Vontade"}}</label>
-    <input
-      type="text"
-      name="system.attributes.vontade.value"
-      value="{{system.attributes.vontade.value}}"
-      data-dtype="Number"
-    />
-  </div>
-</section>
-
-{{! RECURSOS (VIDA E MANA) }}
-<section class="grid grid-2col">
-  <div class="resource flex-group-center">
-    <label class="resource-label">{{localize "MB.Vida"}}</label>
-    <div class="resource-content flexrow flex-center flex-between">
+  <section class="grid grid-4col">
+    {{! FORÇA }}
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Forca"}}</label>
       <input
         type="text"
-        name="system.resources.vida.value"
-        value="{{system.resources.vida.value}}"
-        data-dtype="Number"
-      />
-      <span> / </span>
-      <input
-        type="text"
-        name="system.resources.vida.max"
-        value="{{system.resources.vida.max}}"
+        name="system.attributes.forca.value"
+        value="{{system.attributes.forca.value}}"
         data-dtype="Number"
       />
     </div>
-  </div>
 
-  <div class="resource flex-group-center">
-    <label class="resource-label">{{localize "MB.Mana"}}</label>
-    <div class="resource-content flexrow flex-center flex-between">
+    {{! AGILIDADE }}
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Agilidade"}}</label>
       <input
         type="text"
-        name="system.resources.mana.value"
-        value="{{system.resources.mana.value}}"
-        data-dtype="Number"
-      />
-      <span> / </span>
-      <input
-        type="text"
-        name="system.resources.mana.max"
-        value="{{system.resources.mana.max}}"
+        name="system.attributes.agilidade.value"
+        value="{{system.attributes.agilidade.value}}"
         data-dtype="Number"
       />
     </div>
-  </div>
-</section>
 
-<hr />
+    {{! INTELIGÊNCIA }}
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Inteligencia"}}</label>
+      <input
+        type="text"
+        name="system.attributes.inteligencia.value"
+        value="{{system.attributes.inteligencia.value}}"
+        data-dtype="Number"
+      />
+    </div>
 
-{{! DEFESAS (BLOQUEIO, ESQUIVA, DETERMINAÇÃO) }}
-<section class="grid grid-3col">
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Bloqueio"}}</label>
-    {{! Note que aqui usamos 'span' e não 'input', pois será calculado automaticamente }}
-    <span class="resource-value">{{system.defesas.bloqueio.value}}</span>
-  </div>
+    {{! VONTADE }}
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Vontade"}}</label>
+      <input
+        type="text"
+        name="system.attributes.vontade.value"
+        value="{{system.attributes.vontade.value}}"
+        data-dtype="Number"
+      />
+    </div>
+  </section>
 
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Esquiva"}}</label>
-    <span class="resource-value">{{system.defesas.esquiva.value}}</span>
-  </div>
+  {{! RECURSOS (VIDA E MANA) }}
+  <section class="grid grid-2col">
+    <div class="resource flex-group-center">
+      <label class="resource-label">{{localize "MB.Vida"}}</label>
+      <div class="resource-content flexrow flex-center flex-between">
+        <input
+          type="text"
+          name="system.resources.vida.value"
+          value="{{system.resources.vida.value}}"
+          data-dtype="Number"
+        />
+        <span> / </span>
+        <input
+          type="text"
+          name="system.resources.vida.max"
+          value="{{system.resources.vida.max}}"
+          data-dtype="Number"
+        />
+      </div>
+    </div>
 
-  <div class="flex-group-center">
-    <label class="resource-label">{{localize "MB.Determinacao"}}</label>
-    <span class="resource-value">{{system.defesas.determinacao.value}}</span>
-  </div>
-</section>
+    <div class="resource flex-group-center">
+      <label class="resource-label">{{localize "MB.Mana"}}</label>
+      <div class="resource-content flexrow flex-center flex-between">
+        <input
+          type="text"
+          name="system.resources.mana.value"
+          value="{{system.resources.mana.value}}"
+          data-dtype="Number"
+        />
+        <span> / </span>
+        <input
+          type="text"
+          name="system.resources.mana.max"
+          value="{{system.resources.mana.max}}"
+          data-dtype="Number"
+        />
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  {{! DEFESAS (BLOQUEIO, ESQUIVA, DETERMINAÇÃO) }}
+  <section class="grid grid-3col">
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Bloqueio"}}</label>
+      {{! Note que aqui usamos 'span' e não 'input', pois será calculado automaticamente }}
+      <span class="resource-value">{{system.defesas.bloqueio.value}}</span>
+    </div>
+
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Esquiva"}}</label>
+      <span class="resource-value">{{system.defesas.esquiva.value}}</span>
+    </div>
+
+    <div class="flex-group-center">
+      <label class="resource-label">{{localize "MB.Determinacao"}}</label>
+      <span class="resource-value">{{system.defesas.determinacao.value}}</span>
+    </div>
+  </section>
+</form>

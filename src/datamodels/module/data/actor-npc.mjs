@@ -1,6 +1,6 @@
-import BoilerplateActorBase from "./base-actor.mjs";
+import mighty-bladeActorBase from "./base-actor.mjs";
 
-export default class BoilerplateNPC extends BoilerplateActorBase {
+export default class mighty-bladeNPC extends mighty-bladeActorBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;

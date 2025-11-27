@@ -1,6 +1,6 @@
-import BoilerplateItemBase from "./base-item.mjs";
+import mighty-bladeItemBase from "./base-item.mjs";
 
-export default class BoilerplateSpell extends BoilerplateItemBase {
+export default class mighty-bladeSpell extends mighty-bladeItemBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;

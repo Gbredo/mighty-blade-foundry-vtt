@@ -1,11 +1,10 @@
 {
-  "name": "boilerplate",
+  "name": "mighty-blade",
   "version": "2.0.0",
-  "description": "CSS compiler for the Boilerplate system",
+  "description": "CSS compiler for the mighty-blade system",
   "scripts": {
-    "build": "sass src/scss/boilerplate.scss css/boilerplate.css --style=expanded --no-source-map",
-    "watch": "sass src/scss/boilerplate.scss css/boilerplate.css --style=expanded --source-map --watch",
-    "generate": "node src/generate-boilerplate-system.mjs"
+    "build": "sass src/scss/mighty-blade.scss css/mighty-blade.css --style=expanded --no-source-map",
+    "build:watch": "sass src/scss/mighty-blade.scss css/mighty-blade.css --watch"
   },
   "browserslist": [
     "last 3 versions"

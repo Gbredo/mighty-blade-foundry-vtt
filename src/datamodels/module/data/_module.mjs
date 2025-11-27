@@ -1,10 +1,10 @@
 // Export Actors
-export {default as BoilerplateActorBase} from "./base-actor.mjs";
-export {default as BoilerplateCharacter} from "./actor-character.mjs";
-export {default as BoilerplateNPC} from "./actor-npc.mjs";
+export {default as mighty-bladeActorBase} from "./base-actor.mjs";
+export {default as mighty-bladeCharacter} from "./actor-character.mjs";
+export {default as mighty-bladeNPC} from "./actor-npc.mjs";
 
 // Export Items
-export {default as BoilerplateItemBase} from "./base-item.mjs";
-export {default as BoilerplateItem} from "./item-item.mjs";
-export {default as BoilerplateFeature} from "./item-feature.mjs";
-export {default as BoilerplateSpell} from "./item-spell.mjs";
+export {default as mighty-bladeItemBase} from "./base-item.mjs";
+export {default as mighty-bladeItem} from "./item-item.mjs";
+export {default as mighty-bladeFeature} from "./item-feature.mjs";
+export {default as mighty-bladeSpell} from "./item-spell.mjs";

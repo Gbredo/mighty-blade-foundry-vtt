@@ -1,14 +1,14 @@
+import { MIGHTY_BLADE } from "../helpers/config.mjs";
+
 /**
  * Extend the base Actor document by defining a custom roll data structure which is ideal for the Simple system.
  * @extends {Actor}
  */
-export class BoilerplateActor extends Actor {
+export class MightyBladeActor extends Actor {
+  // <--- O NOME OBRIGATÓRIO É ESSE
+
   /** @override */
   prepareData() {
-    // Prepare data for the actor. Calling the super version of this executes
-    // the following, in order: data reset (to clear active effects),
-    // prepareBaseData(), prepareEmbeddedDocuments() (including active effects),
-    // prepareDerivedData().
     super.prepareData();
   }
 
@@ -20,17 +20,12 @@ export class BoilerplateActor extends Actor {
 
   /**
    * @override
-   * Augment the actor source data with additional dynamic data. Typically,
-   * you'll want to handle most of your calculated/derived data in this step.
-   * Data calculated in this step should generally not exist in template.json
-   * (such as ability modifiers rather than ability scores) and should be
-   * available both inside and outside of character sheets (such as if an actor
-   * is queried and has a roll executed directly from it).
+   * Augment the basic actor data with additional dynamic data.
    */
   prepareDerivedData() {
     const actorData = this;
-    const systemData = actorData.system;
-    const flags = actorData.flags.boilerplate || {};
+    const system = actorData.system;
+    const flags = actorData.flags["mighty-blade"] || {};
 
     // Make separate methods for each Actor type (character, npc, etc.) to keep
     // things organized.
@@ -42,69 +37,30 @@ export class BoilerplateActor extends Actor {
    * Prepare Character type specific data
    */
   _prepareCharacterData(actorData) {
-    if (actorData.type !== 'character') return;
+    if (actorData.type !== "character") return;
 
     // Make modifications to data here. For example:
-    const systemData = actorData.system;
+    const system = actorData.system;
 
-    // Loop through ability scores, and add their modifiers to our sheet output.
-    for (let [key, ability] of Object.entries(systemData.abilities)) {
-      // Calculate the modifier using d20 rules.
-      ability.mod = Math.floor((ability.value - 10) / 2);
-    }
+    // Calcular BLOQUEIO
+    system.defesas.bloqueio.value = 5 + system.attributes.forca.value;
+
+    // Calcular ESQUIVA
+    system.defesas.esquiva.value = 5 + system.attributes.agilidade.value;
+
+    // Calcular DETERMINAÇÃO
+    const maiorMental = Math.max(
+      system.attributes.inteligencia.value,
+      system.attributes.vontade.value
+    );
+    system.defesas.determinacao.value = 8 + maiorMental;
   }
 
   /**
    * Prepare NPC type specific data.
    */
   _prepareNpcData(actorData) {
-    if (actorData.type !== 'npc') return;
-
-    // Make modifications to data here. For example:
-    const systemData = actorData.system;
-    systemData.xp = systemData.cr * systemData.cr * 100;
-  }
-
-  /**
-   * Override getRollData() that's supplied to rolls.
-   */
-  getRollData() {
-    // Starts off by populating the roll data with a shallow copy of `this.system`
-    const data = { ...this.system };
-
-    // Prepare character roll data.
-    this._getCharacterRollData(data);
-    this._getNpcRollData(data);
-
-    return data;
-  }
-
-  /**
-   * Prepare character roll data.
-   */
-  _getCharacterRollData(data) {
-    if (this.type !== 'character') return;
-
-    // Copy the ability scores to the top level, so that rolls can use
-    // formulas like `@str.mod + 4`.
-    if (data.abilities) {
-      for (let [k, v] of Object.entries(data.abilities)) {
-        data[k] = foundry.utils.deepClone(v);
-      }
-    }
-
-    // Add level for easier access, or fall back to 0.
-    if (data.attributes.level) {
-      data.lvl = data.attributes.level.value ?? 0;
-    }
-  }
-
-  /**
-   * Prepare NPC roll data.
-   */
-  _getNpcRollData(data) {
-    if (this.type !== 'npc') return;
-
-    // Process additional NPC data here.
+    if (actorData.type !== "npc") return;
+    // Make modifications to data here.
   }
 }

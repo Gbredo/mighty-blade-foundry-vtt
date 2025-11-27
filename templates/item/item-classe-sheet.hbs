@@ -1,0 +1,21 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+        <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Nome da Classe"/></h1>
+    </header>
+
+    <section class="sheet-body">
+        <div class="grid grid-2col">
+            <div class="resource flex-group-center">
+                <label>Bônus de Vida</label>
+                <input type="number" name="system.bonusVida" value="{{system.bonusVida}}"/>
+            </div>
+            <div class="resource flex-group-center">
+                <label>Bônus de Mana</label>
+                <input type="number" name="system.bonusMana" value="{{system.bonusMana}}"/>
+            </div>
+        </div>
+        <hr>
+        {{editor system.description target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+    </section>
+</form>
