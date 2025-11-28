@@ -22,6 +22,25 @@
         "bloqueio": { "value": 0 },
         "esquiva": { "value": 0 },
         "determinacao": { "value": 0 }
+      },
+      "details": {
+        "aprendiz": "",
+        "caminho": "",
+        "nivel": 1,
+        "experiencia": 0,
+        "organizacao": "",
+        "antecedente": "",
+        "evolucao": "",
+        "idiomas": "",
+        "motivacao": "",
+        "condicao": "",
+        "dinheiro": 0
+      },
+      "subattributes": {
+        "carga": { "value": 0, "max": 0 },
+        "deslocamento": { "value": 0 },
+        "corrida": { "value": 0 },
+        "iniciativa": { "value": 0, "bonus": 0 }
       }
     },
     "npc": {
@@ -93,6 +112,8 @@
       "fn": 0,
       "distancia": "corpo",
       "peso": 0,
+      "quantidade": 1,
+      "custo": 0,
       "description": ""
     },
     "armadura": {
@@ -101,6 +122,15 @@
       "fn": 0,
       "pesada": false,
       "peso": 0,
+      "quantidade": 1,
+      "custo": 0,
+      "description": ""
+    },
+    "equipamento": {
+      "templates": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 0,
       "description": ""
     },
     "habilidade": {
