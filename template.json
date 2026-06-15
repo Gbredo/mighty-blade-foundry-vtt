@@ -96,10 +96,7 @@
         "inteligencia": 0,
         "vontade": 0
       },
-      "habilidadeAutomatica": {
-        "nome": "",
-        "descricao": ""
-      },
+      "habilidadeUuid": "",
       "vida": 0,
       "mana": 0,
       "equipamentoInicial": "",

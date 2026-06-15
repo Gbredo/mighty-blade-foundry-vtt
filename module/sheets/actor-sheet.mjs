@@ -3,12 +3,13 @@ import {
   prepareActiveEffectCategories,
 } from "../helpers/effects.mjs";
 import { MightyBladeCompendiumBrowser } from "../apps/compendium-browser.mjs";
+import { rollAttribute } from "../helpers/dice.mjs";
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class MightyBladeActorSheet extends ActorSheet {
+export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -38,13 +39,13 @@ export class MightyBladeActorSheet extends ActorSheet {
     // the context variable to see the structure, but some key properties for
     // sheets are the actor object, the data object, whether or not it's
     // editable, the items array, and the effects array.
-    const context = super.getData();
+    const context = await super.getData();
 
-    // Use a safe clone of the actor data for further operations.
     const actorData = this.document.toObject(false);
 
-    // Add the actor's data to context.data for easier access, as well as flags.
-    context.system = actorData.system;
+    // Usa os dados "vivos" do ator (inclui campos calculados em prepareDerivedData)
+    // em vez da cópia serializada, que só teria os campos salvos no banco.
+    context.system = this.actor.system;
     context.flags = actorData.flags;
 
     // Adding a pointer to CONFIG.MIGHTY_BLADE
@@ -63,16 +64,12 @@ export class MightyBladeActorSheet extends ActorSheet {
 
     // Enrich biography info for display
     // Enrichment turns text like `[[/r 1d20]]` into buttons
+    const TextEditor = foundry.applications.ux.TextEditor.implementation;
     context.enrichedBiography = await TextEditor.enrichHTML(
-      this.actor.system.biography,
+      this.actor.system.biography ?? "",
       {
-        // Whether to show secret blocks in the finished html
         secrets: this.document.isOwner,
-        // Necessary in v11, can be removed in v12
-        async: true,
-        // Data to fill in for inline rolls
         rollData: this.actor.getRollData(),
-        // Relative UUID resolution
         relativeTo: this.actor,
       }
     );
@@ -265,21 +262,13 @@ export class MightyBladeActorSheet extends ActorSheet {
       return;
     }
 
-    // Grab any data associated with this control.
-    const data = duplicate(header.dataset);
-    // Initialize a default name.
-    const name = `New ${type.capitalize()}`;
-    // Prepare the item object.
     const itemData = {
-      name: name,
+      name: `New ${type}`,
       type: type,
-      system: data,
+      system: {},
     };
-    // Remove the type from the dataset since it's in the itemData.type prop.
-    delete itemData.system["type"];
 
-    // Finally, create the item!
-    return await Item.create(itemData, { parent: this.actor });
+    return await this.actor.createEmbeddedDocuments("Item", [itemData]);
   }
 
   /**
@@ -291,14 +280,19 @@ export class MightyBladeActorSheet extends ActorSheet {
     event.preventDefault();
     const element = event.currentTarget;
     const dataset = element.dataset;
+    const skipDialog = event.shiftKey;
 
-    // Handle item rolls.
-    if (dataset.rollType) {
-      if (dataset.rollType == "item") {
-        const itemId = element.closest(".item").dataset.itemId;
-        const item = this.actor.items.get(itemId);
-        if (item) return item.roll();
-      }
+    // Rolagem de item (arma, habilidade, magia…). Shift pula o diálogo.
+    if (dataset.rollType === "item") {
+      const itemId = element.closest(".item")?.dataset.itemId;
+      const item = this.actor.items.get(itemId);
+      if (item) return item.roll({ skipDialog });
+      return;
+    }
+
+    // Teste de atributo (Força, Agilidade, Inteligência, Vontade).
+    if (dataset.rollType === "attribute") {
+      return rollAttribute(this.actor, dataset.attribute, { skipDialog });
     }
 
     // Handle rolls that supply the formula directly.

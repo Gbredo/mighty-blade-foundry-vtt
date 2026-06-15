@@ -4,7 +4,7 @@
  * @return {Promise}
  */
 export const preloadHandlebarsTemplates = async function () {
-  return loadTemplates([
+  return foundry.applications.handlebars.loadTemplates([
     // Caminhos parciais de Ator (Mantenha ou atualize se tiver renomeado)
     "systems/mighty-blade/templates/actor/parts/actor-features.hbs",
     "systems/mighty-blade/templates/actor/parts/actor-items.hbs",
@@ -18,5 +18,8 @@ export const preloadHandlebarsTemplates = async function () {
     "systems/mighty-blade/templates/item/item-classe-sheet.hbs",
     "systems/mighty-blade/templates/item/item-magia-sheet.hbs",
     "systems/mighty-blade/templates/item/item-equipamento-sheet.hbs",
+
+    // Card de rolagem no chat
+    "systems/mighty-blade/templates/chat/roll-card.hbs",
   ]);
 };

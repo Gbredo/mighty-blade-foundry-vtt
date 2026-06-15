@@ -5,135 +5,27 @@ import { MIGHTY_BLADE } from "../helpers/config.mjs";
  * @extends {Actor}
  */
 export class MightyBladeActor extends Actor {
-  // <--- O NOME OBRIGATÓRIO É ESSE
-
-  /** @override */
-  prepareData() {
-    super.prepareData();
-  }
-
-  /** @override */
-  prepareBaseData() {
-    // Data modifications in this step occur before processing embedded
-    // documents or derived data.
-  }
 
   /**
+   * Dados disponíveis em fórmulas de rolagem (ex.: "2d6 + @for", "2d6 + @init").
+   * Expõe atalhos curtos para os atributos e a iniciativa do Mighty Blade.
    * @override
-   * Augment the basic actor data with additional dynamic data.
    */
-  prepareDerivedData() {
-    const actorData = this;
-    const system = actorData.system;
-    const flags = actorData.flags["mighty-blade"] || {};
-
-    // Make separate methods for each Actor type (character, npc, etc.) to keep
-    // things organized.
-    this._prepareCharacterData(actorData);
-    this._prepareNpcData(actorData);
-  }
-
-  /**
-   * Prepare Character type specific data
-   */
-  _prepareCharacterData(actorData) {
-    if (actorData.type !== "character") return;
-
-    // Make modifications to data here. For example:
-    const system = actorData.system;
-
-    // -------------------------------------------------------
-    // 1. Calcular Atributos Finais (Base + Bônus + Raça)
-    // -------------------------------------------------------
-
-    // Verificar se existe uma Raça
-    const race = this.items.find((i) => i.type === "raca");
-    const raceAttrs = race
-      ? race.system.atributos
-      : { forca: 0, agilidade: 0, inteligencia: 0, vontade: 0 };
-
-    // Calcular valor final: Base (Pontos Gastos) + Raça
-    // Usamos atribuição direta para garantir que os valores sejam números
-    system.attributes.forca.value =
-      (Number(system.attributes.forca.base) || 0) +
-      (Number(raceAttrs.forca) || 0);
-    system.attributes.agilidade.value =
-      (Number(system.attributes.agilidade.base) || 0) +
-      (Number(raceAttrs.agilidade) || 0);
-    system.attributes.inteligencia.value =
-      (Number(system.attributes.inteligencia.base) || 0) +
-      (Number(raceAttrs.inteligencia) || 0);
-    system.attributes.vontade.value =
-      (Number(system.attributes.vontade.base) || 0) +
-      (Number(raceAttrs.vontade) || 0);
-
-    // -------------------------------------------------------
-    // 2. Calcular Defesas Derivadas
-    // -------------------------------------------------------
-
-    // Calcular BLOQUEIO
-    system.defesas.bloqueio.value = 5 + system.attributes.forca.value;
-
-    // Calcular ESQUIVA
-    system.defesas.esquiva.value = 5 + system.attributes.agilidade.value;
-
-    // Calcular DETERMINAÇÃO
-    const maiorMental = Math.max(
-      system.attributes.inteligencia.value,
-      system.attributes.vontade.value
-    );
-    system.defesas.determinacao.value = 8 + maiorMental;
-
-    // -------------------------------------------------------
-    // 3. Calcular Sub-atributos (Carga, Deslocamento, etc)
-    // -------------------------------------------------------
-
-    // Carga
-    let totalWeight = 0;
-    for (let item of this.items) {
-      // Check if item has weight and quantity
-      const weight = Number(item.system.peso) || 0;
-      const qty = Number(item.system.quantidade) || 1;
-      totalWeight += weight * qty;
+  getRollData() {
+    const data = { ...super.getRollData() };
+    const attrs = this.system?.attributes;
+    const agi = attrs?.agilidade?.value ?? 0;
+    const int = attrs?.inteligencia?.value ?? 0;
+    if (attrs) {
+      data.for = attrs.forca?.value ?? 0;
+      data.agi = agi;
+      data.int = int;
+      data.von = attrs.vontade?.value ?? 0;
     }
-    system.subattributes.carga.value = parseFloat(totalWeight.toFixed(2));
-
-    // Max Load Calculation
-    // Regra Padrão: Força x 3 (assumindo kg)
-    // Verificar bônus de Raça (Ex: Anão - Coração da Montanha)
-    let loadStrength = system.attributes.forca.value;
-    const heartOfTheMountain = this.items.find(
-      (i) => i.name === "Coração da Montanha"
-    );
-    if (heartOfTheMountain) {
-      loadStrength += 2;
-    }
-    system.subattributes.carga.max = loadStrength * 3;
-
-    // Deslocamento
-    let movement = 6; // Base 6m
-    // Verificar bônus de Raça (Ex: Fauno - Patas com Cascos)
-    const hooves = this.items.find((i) => i.name === "Patas com Cascos");
-    if (hooves) {
-      movement += 1;
-    }
-    system.subattributes.deslocamento.value = movement;
-
-    // Corrida
-    // Regra Padrão: Deslocamento x 4
-    system.subattributes.corrida.value = movement * 4;
-
-    // Iniciativa
-    // Regra Padrão: Igual à Agilidade (o teste é Agilidade + 1d6 ou 2d6 dependendo da regra)
-    system.subattributes.iniciativa.value = system.attributes.agilidade.value;
-  }
-
-  /**
-   * Prepare NPC type specific data.
-   */
-  _prepareNpcData(actorData) {
-    if (actorData.type !== "npc") return;
-    // Make modifications to data here.
+    // Iniciativa = 2d6 + menor entre Agilidade e Inteligência.
+    data.init = Math.min(agi, int);
+    data.nivel = this.system?.details?.nivel ?? 1;
+    return data;
   }
 
   /** @override */
@@ -154,11 +46,11 @@ export class MightyBladeActor extends Actor {
 
     if (embeddedName !== "Item") return;
 
-    // Check if a Race was created
     const race = documents.find((d) => d.type === "raca");
-    if (race) {
-      await this._onRaceCreated(race);
-    }
+    if (race) await this._onRaceCreated(race);
+
+    const classe = documents.find((d) => d.type === "classe");
+    if (classe) await this._onClassCreated(classe);
   }
 
   /** @override */
@@ -179,11 +71,11 @@ export class MightyBladeActor extends Actor {
 
     if (embeddedName !== "Item") return;
 
-    // Check if a Race was deleted
     const race = documents.find((d) => d.type === "raca");
-    if (race) {
-      await this._onRaceDeleted(race);
-    }
+    if (race) await this._onRaceDeleted(race);
+
+    const classe = documents.find((d) => d.type === "classe");
+    if (classe) await this._onClassDeleted(classe);
   }
 
   /**
@@ -254,14 +146,67 @@ export class MightyBladeActor extends Actor {
    * @param {Item} race The race item deleted
    */
   async _onRaceDeleted(race) {
-    // 1. Find and delete the linked Ability
     const ability = this.items.find(
       (i) => i.getFlag("mighty-blade", "sourceRaceId") === race.id
     );
-
     if (ability) {
       await ability.delete();
       ui.notifications.info(`Habilidade racial ${ability.name} removida.`);
+    }
+  }
+
+  async _onClassCreated(classe) {
+    const abilityUuid = classe.system.habilidadeUuid;
+    if (!abilityUuid) return;
+
+    const sourceAbility = await fromUuid(abilityUuid);
+    if (!sourceAbility) return;
+
+    const abilityData = sourceAbility.toObject();
+    abilityData.flags = abilityData.flags || {};
+    abilityData.flags["mighty-blade"] = abilityData.flags["mighty-blade"] || {};
+    abilityData.flags["mighty-blade"].sourceClasseId = classe.id;
+
+    await this.createEmbeddedDocuments("Item", [abilityData]);
+    ui.notifications.info(`Classe ${classe.name} aplicada! Habilidade ${abilityData.name} adicionada.`);
+  }
+
+  async _onClassDeleted(classe) {
+    const ability = this.items.find(
+      (i) => i.getFlag("mighty-blade", "sourceClasseId") === classe.id
+    );
+    if (ability) {
+      await ability.delete();
+      ui.notifications.info(`Habilidade de classe ${ability.name} removida.`);
+    }
+  }
+
+  /** @override */
+  async _onUpdateEmbeddedDocuments(embeddedName, documents, result, options, userId) {
+    await super._onUpdateEmbeddedDocuments(embeddedName, documents, result, options, userId);
+    if (embeddedName !== "Item") return;
+
+    for (const update of result) {
+      // O Foundry salva updates com chave textual pontuada: {"system.habilidadeUuid": "..."}
+      // então acessamos com colchetes, não com getProperty (que esperaria objeto aninhado)
+      const newUuid = update["system.habilidadeUuid"] ?? update.system?.habilidadeUuid;
+      if (newUuid === undefined) continue;
+
+      const doc = this.items.get(update._id);
+      if (!doc) continue;
+
+      if (doc.type === "raca") {
+        // Remove habilidade antiga vinculada a esta raça, se existir
+        const old = this.items.find(i => i.getFlag("mighty-blade", "sourceRaceId") === doc.id);
+        if (old) await old.delete();
+        // Adiciona a nova habilidade se o UUID foi preenchido
+        if (newUuid) await this._onRaceCreated(doc);
+      }
+      else if (doc.type === "classe") {
+        const old = this.items.find(i => i.getFlag("mighty-blade", "sourceClasseId") === doc.id);
+        if (old) await old.delete();
+        if (newUuid) await this._onClassCreated(doc);
+      }
     }
   }
 }

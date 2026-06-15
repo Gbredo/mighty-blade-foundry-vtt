@@ -2,7 +2,7 @@
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-export class MightyBladeItemSheet extends ItemSheet {
+export class MightyBladeItemSheet extends foundry.appv1.sheets.ItemSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -21,16 +21,7 @@ export class MightyBladeItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = "systems/mighty-blade/templates/item";
-    const templateName = `item-${this.item.type}-sheet.hbs`;
-    const fullPath = `${path}/${templateName}`;
-
-    // O DETETIVE: Isso vai imprimir no F12 o que o Foundry está tentando ler
-    console.log("--- MIGHTY BLADE DEBUG ---");
-    console.log("Tentando abrir o item tipo:", this.item.type);
-    console.log("Buscando arquivo em:", fullPath);
-
-    return fullPath;
+    return `systems/mighty-blade/templates/item/item-${this.item.type}-sheet.hbs`;
   }
 
   /** @override */
@@ -49,21 +40,16 @@ export class MightyBladeItemSheet extends ItemSheet {
     context.system = itemData.system;
     context.flags = itemData.flags;
 
-    // Enrich description
+    const TextEditor = foundry.applications.ux.TextEditor.implementation;
     context.enrichedDescription = await TextEditor.enrichHTML(
-      context.system.description,
-      {
-        async: true,
-        relativeTo: this.item,
-      }
+      context.system.description ?? "",
+      { relativeTo: this.item }
     );
 
-    // If this is a Race, try to find the linked Ability
-    if (this.item.type === "raca" && context.system.habilidadeUuid) {
+    // Para Raça e Classe, resolve a habilidade automática vinculada por UUID
+    if ((this.item.type === "raca" || this.item.type === "classe") && context.system.habilidadeUuid) {
       const ability = await fromUuid(context.system.habilidadeUuid);
-      if (ability) {
-        context.linkedAbility = ability;
-      }
+      if (ability) context.linkedAbility = ability;
     }
 
     // Add config data for Habilidade sheet
@@ -92,8 +78,8 @@ export class MightyBladeItemSheet extends ItemSheet {
     // Everything below here is only needed if the sheet is editable
     if (!this.isEditable) return;
 
-    // Drag and Drop for Race Sheet
-    if (this.item.type === "raca") {
+    // Drag and Drop para Raça e Classe (habilidade automática)
+    if (this.item.type === "raca" || this.item.type === "classe") {
       const dropZone = html.find(".drop-zone");
       dropZone.on("dragover", (ev) => {
         ev.preventDefault();
@@ -105,8 +91,7 @@ export class MightyBladeItemSheet extends ItemSheet {
       });
       dropZone.on("drop", this._onDropAbility.bind(this));
 
-      // Remove linked ability
-      html.find(".remove-link").click(async (ev) => {
+      html.find(".remove-link").click(async () => {
         await this.item.update({ "system.habilidadeUuid": "" });
       });
     }

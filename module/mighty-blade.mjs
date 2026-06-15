@@ -10,6 +10,10 @@ import { MightyBladeItemSheet } from "./sheets/item-sheet.mjs";
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { MIGHTY_BLADE } from "./helpers/config.mjs";
 import { createRaces } from "./helpers/create-races.mjs";
+import { rollTest, rollAttribute, requestTestOptions } from "./helpers/dice.mjs";
+
+// Import DataModels
+import MightyBladeCharacterData from "./data/actor-character.mjs";
 
 /* -------------------------------------------- */
 /* Init Hook                                   */
@@ -24,11 +28,22 @@ Hooks.once("init", async function () {
     MightyBladeActor,
     MightyBladeItem,
     createRaces,
-    // Removi o rollItemMacro daqui por enquanto para não dar erro
+    // API de rolagem (útil também em macros)
+    rollTest,
+    rollAttribute,
+    requestTestOptions,
   };
 
   // Add custom constants for configuration.
   CONFIG.MIGHTY_BLADE = MIGHTY_BLADE;
+
+  // Iniciativa do Mighty Blade: 2d6 + menor entre Agilidade e Inteligência (@init).
+  CONFIG.Combat.initiative = { formula: "2d6 + @init", decimals: 0 };
+
+  // Registrar DataModels por tipo de ator
+  CONFIG.Actor.dataModels = {
+    character: MightyBladeCharacterData,
+  };
 
   /**
    * Set an object as the MightyBladeActor class to define our Actor document.
@@ -41,13 +56,18 @@ Hooks.once("init", async function () {
   CONFIG.Item.documentClass = MightyBladeItem;
 
   // Register sheet application classes
-  Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("mighty-blade", MightyBladeActorSheet, {
+  const ActorSheetV1 = foundry.appv1.sheets.ActorSheet;
+  const ItemSheetV1  = foundry.appv1.sheets.ItemSheet;
+  const ActorsCol    = foundry.documents.collections.Actors;
+  const ItemsCol     = foundry.documents.collections.Items;
+
+  ActorsCol.unregisterSheet("core", ActorSheetV1);
+  ActorsCol.registerSheet("mighty-blade", MightyBladeActorSheet, {
     makeDefault: true,
   });
 
-  Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("mighty-blade", MightyBladeItemSheet, {
+  ItemsCol.unregisterSheet("core", ItemSheetV1);
+  ItemsCol.registerSheet("mighty-blade", MightyBladeItemSheet, {
     makeDefault: true,
   });
 

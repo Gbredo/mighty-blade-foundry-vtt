@@ -1,0 +1,43 @@
+{{!-- Card de rolagem do Mighty Blade. Estilos inline para funcionar sem build do CSS. --}}
+<div class="mighty-blade roll-card" style="border:1px solid var(--color-border-dark, #7a7971);border-radius:6px;overflow:hidden;font-size:13px;">
+
+  <header style="padding:6px 8px;background:rgba(0,0,0,0.08);border-bottom:1px solid var(--color-border-light, #b5b3a4);">
+    <div style="font-weight:bold;font-size:15px;line-height:1.2;">{{label}}</div>
+    {{#if flavor}}<div style="opacity:0.75;font-style:italic;">{{flavor}}</div>{{/if}}
+  </header>
+
+  <div style="padding:8px;">
+
+    {{!-- Dados rolados --}}
+    <div class="dice-faces" style="display:flex;flex-wrap:wrap;gap:5px;justify-content:center;margin-bottom:8px;">
+      {{#each dice}}
+        <span style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border:2px solid #999;border-radius:5px;font-weight:bold;font-size:16px;background:rgba(255,255,255,0.5);{{#if isMax}}border-color:#1b7f3b;color:#1b7f3b;background:rgba(27,127,59,0.12);{{/if}}{{#if isMin}}border-color:#9b1c1c;color:#9b1c1c;background:rgba(155,28,28,0.12);{{/if}}">{{value}}</span>
+      {{/each}}
+    </div>
+
+    {{!-- Total --}}
+    <div style="text-align:center;margin-bottom:6px;">
+      <span style="opacity:0.7;">{{formula}}</span>
+      <span style="font-size:22px;font-weight:bold;margin-left:6px;">{{total}}</span>
+    </div>
+
+    {{!-- Detalhes do cálculo --}}
+    <div style="text-align:center;font-size:11px;opacity:0.8;">
+      {{#if attributeLabel}}{{#if attribute}}<span>{{attributeLabel}}: +{{attribute}}</span>{{/if}}{{/if}}
+      {{#if bonus}}<span> · Bônus: {{bonus}}</span>{{/if}}
+      {{#if inapto}}<span> · <em>Inapto (1d6)</em></span>{{/if}}
+      {{#if difficulty}}<span> · DV: {{difficulty}}</span>{{/if}}
+    </div>
+
+    {{!-- Resultado (sucesso/falha/crítico) --}}
+    {{#if outcomeLabel}}
+    <div style="margin-top:8px;padding:5px;text-align:center;font-weight:bold;color:#fff;border-radius:4px;background:{{outcomeColor}};">
+      {{outcomeLabel}}
+    </div>
+    {{/if}}
+
+    {{!-- Conteúdo extra (ex.: dano da arma) --}}
+    {{#if extraContent}}<div style="text-align:center;">{{{extraContent}}}</div>{{/if}}
+
+  </div>
+</div>

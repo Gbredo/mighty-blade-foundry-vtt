@@ -26,8 +26,8 @@
   ],
   "version": "1.0.0",
   "compatibility": {
-    "minimum": 12,
-    "verified": "13.350"
+    "minimum": 14,
+    "verified": "14.359"
   },
   "esmodules": ["module/mighty-blade.mjs"],
   "styles": ["css/mighty-blade.css"],
@@ -46,6 +46,6 @@
   "background": "systems/mighty-blade/assets/anvil-impact.png",
   "gridDistance": 5,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power"
+  "primaryTokenAttribute": "resources.vida",
+  "secondaryTokenAttribute": "resources.mana"
 }
