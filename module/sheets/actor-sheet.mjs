@@ -103,6 +103,7 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
     // Initialize containers.
     const gear = [];
     const features = [];
+    const magias = [];
     let raca = null;
     let classe = null;
     const spells = {
@@ -136,7 +137,8 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
       }
       // Append to spells.
       else if (i.type === "spell" || i.type === "magia") {
-        if (i.system.circulo != undefined) {
+        magias.push(i);
+        if (spells[i.system.circulo] !== undefined) {
           spells[i.system.circulo].push(i);
         }
       }
@@ -155,6 +157,7 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
     context.gear = gear;
     context.features = features;
     context.spells = spells;
+    context.magias = magias;
     context.raca = raca;
     context.classe = classe;
   }
@@ -177,6 +180,10 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     // Replace Race/Class
     html.on("click", ".item-replace", this._onItemReplace.bind(this));
+
+    // Rolagens (atributos, armas, habilidades): disponíveis antes da trava de
+    // edição — um observador/jogador pode rolar mesmo sem o modo de edição ligado.
+    html.on("click", ".rollable", this._onRoll.bind(this));
 
     // -------------------------------------------------------------
     // Everything below here is only needed if the sheet is editable
@@ -202,9 +209,6 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
           : this.actor.items.get(row.dataset.parentId);
       onManageActiveEffect(ev, document);
     });
-
-    // Rollable abilities.
-    html.on("click", ".rollable", this._onRoll.bind(this));
 
     // Drag events for macros.
     if (this.actor.isOwner) {

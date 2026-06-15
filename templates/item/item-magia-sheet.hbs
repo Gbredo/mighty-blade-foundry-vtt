@@ -39,15 +39,26 @@
 
     {{! Attributes Tab }}
     <div class='tab attributes' data-group='primary' data-tab='attributes'>
-      {{! As you add new fields, add them in here! }}
-      <div class='resource'>
-        <label class='resource-label'>Spell Level</label>
-        <input
-          type='text'
-          name='system.spellLevel'
-          value='{{system.spellLevel}}'
-          data-dtype='Number'
-        />
+      <div class='grid grid-2col'>
+        <div class='resource'>
+          <label class='resource-label'>Fonte</label>
+          <select name='system.fonte'>
+            <option value='arcana' {{#if (eq system.fonte "arcana")}}selected{{/if}}>Arcana (Inteligência)</option>
+            <option value='mistica' {{#if (eq system.fonte "mistica")}}selected{{/if}}>Mística (Vontade)</option>
+          </select>
+        </div>
+        <div class='resource'>
+          <label class='resource-label'>Círculo</label>
+          <input type='number' name='system.circulo' value='{{system.circulo}}' data-dtype='Number'/>
+        </div>
+        <div class='resource'>
+          <label class='resource-label'>Custo (PM)</label>
+          <input type='number' name='system.custo' value='{{system.custo}}' data-dtype='Number'/>
+        </div>
+        <div class='resource'>
+          <label class='resource-label'>Dificuldade (DV)</label>
+          <input type='number' name='system.dificuldade' value='{{system.dificuldade}}' data-dtype='Number'/>
+        </div>
       </div>
     </div>
   </section>

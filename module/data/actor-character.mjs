@@ -72,11 +72,22 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const raceAttrs   = race?.system?.atributos   ?? {};
     const classeAttrs = classe?.system?.atributos ?? {};
 
+    // Bônus avulsos vindos de habilidades que carregam `system.bonusAtributo`
+    // (ex.: Adaptabilidade do Humano, escolhida pelo jogador).
+    const itemBonus = { forca: 0, agilidade: 0, inteligencia: 0, vontade: 0 };
+    for (const item of this.parent?.items ?? []) {
+      const b = item.system?.bonusAtributo;
+      if (b?.atributo && itemBonus[b.atributo] !== undefined) {
+        itemBonus[b.atributo] += Number(b.valor) || 0;
+      }
+    }
+
     for (const key of ["forca", "agilidade", "inteligencia", "vontade"]) {
       this.attributes[key].value =
         (this.attributes[key].base   ?? 0) +
         (Number(raceAttrs[key])   || 0) +
-        (Number(classeAttrs[key]) || 0);
+        (Number(classeAttrs[key]) || 0) +
+        itemBonus[key];
     }
   }
 
@@ -91,8 +102,9 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
 
   // Iniciativa, Deslocamento, Corrida e Carga
   _prepareSubattributes() {
-    const forca    = this.attributes.forca.value;
-    const agilidade = this.attributes.agilidade.value;
+    const forca        = this.attributes.forca.value;
+    const agilidade    = this.attributes.agilidade.value;
+    const inteligencia = this.attributes.inteligencia.value;
 
     // Deslocamento base 6m; Fauno com "Patas com Cascos" ganha +1m
     let deslocamento = 6;
@@ -110,7 +122,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     if (this.parent?.items?.find(i => i.name === "Coração da Montanha")) forcaCarga += 2;
 
     this.subattributes = {
-      iniciativa:   { value: agilidade },
+      iniciativa:   { value: Math.min(agilidade, inteligencia) },
       deslocamento: { value: deslocamento },
       corrida:      { value: deslocamento * 4 },
       carga: {

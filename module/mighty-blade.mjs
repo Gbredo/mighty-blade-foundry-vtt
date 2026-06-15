@@ -10,7 +10,7 @@ import { MightyBladeItemSheet } from "./sheets/item-sheet.mjs";
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { MIGHTY_BLADE } from "./helpers/config.mjs";
 import { createRaces } from "./helpers/create-races.mjs";
-import { rollTest, rollAttribute, requestTestOptions } from "./helpers/dice.mjs";
+import { rollTest, rollAttribute, requestTestOptions, castSpell } from "./helpers/dice.mjs";
 
 // Import DataModels
 import MightyBladeCharacterData from "./data/actor-character.mjs";
@@ -32,6 +32,7 @@ Hooks.once("init", async function () {
     rollTest,
     rollAttribute,
     requestTestOptions,
+    castSpell,
   };
 
   // Add custom constants for configuration.

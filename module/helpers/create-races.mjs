@@ -231,19 +231,32 @@ export async function createRaces() {
       }
     }
 
-    // 2. Prepare Race Data
+    // 2. Build concessões. O Humano usa "escolhaAtributo" (Adaptabilidade: +1
+    //    num atributo à escolha do jogador); as demais raças concedem a
+    //    habilidade automática de forma fixa.
+    const concessoes = [];
+    if (abilityUuid) {
+      if (raceData.name === "Humano") {
+        concessoes.push({ tipo: "escolhaAtributo", uuid: abilityUuid, valor: 1 });
+      } else {
+        concessoes.push({ tipo: "habilidade", uuid: abilityUuid });
+      }
+    }
+
+    // 3. Prepare Race Data
     const newRaceData = {
       ...raceData,
       system: {
         ...raceData.system,
-        habilidadeUuid: abilityUuid, // Link the created ability
+        habilidadeUuid: abilityUuid, // mantido para compatibilidade
+        concessoes,
       },
     };
 
     // Remove the old embedded data to keep it clean
     // delete newRaceData.system.habilidadeAutomatica;
 
-    // 3. Create Race Item
+    // 4. Create Race Item
     await Item.create(newRaceData);
     createdRacesCount++;
   }

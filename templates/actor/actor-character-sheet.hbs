@@ -160,7 +160,7 @@
       <section class="grid grid-4col">
         {{! FORÇA }}
         <div class="flex-group-center">
-          <label class="resource-label">{{localize "MB.Forca"}}</label>
+          <label class="resource-label rollable" data-roll-type="attribute" data-attribute="forca" title="Rolar Teste de Força (Shift = sem diálogo)" style="cursor:pointer;">{{localize "MB.Forca"}}</label>
           {{#if flags.mighty-blade.isEditing}}
           <input
             type="text"
@@ -182,7 +182,7 @@
 
         {{! AGILIDADE }}
         <div class="flex-group-center">
-          <label class="resource-label">{{localize "MB.Agilidade"}}</label>
+          <label class="resource-label rollable" data-roll-type="attribute" data-attribute="agilidade" title="Rolar Teste de Agilidade (Shift = sem diálogo)" style="cursor:pointer;">{{localize "MB.Agilidade"}}</label>
           {{#if flags.mighty-blade.isEditing}}
           <input
             type="text"
@@ -204,7 +204,7 @@
 
         {{! INTELIGÊNCIA }}
         <div class="flex-group-center">
-          <label class="resource-label">{{localize "MB.Inteligencia"}}</label>
+          <label class="resource-label rollable" data-roll-type="attribute" data-attribute="inteligencia" title="Rolar Teste de Inteligência (Shift = sem diálogo)" style="cursor:pointer;">{{localize "MB.Inteligencia"}}</label>
           {{#if flags.mighty-blade.isEditing}}
           <input
             type="text"
@@ -226,7 +226,7 @@
 
         {{! VONTADE }}
         <div class="flex-group-center">
-          <label class="resource-label">{{localize "MB.Vontade"}}</label>
+          <label class="resource-label rollable" data-roll-type="attribute" data-attribute="vontade" title="Rolar Teste de Vontade (Shift = sem diálogo)" style="cursor:pointer;">{{localize "MB.Vontade"}}</label>
           {{#if flags.mighty-blade.isEditing}}
           <input
             type="text"

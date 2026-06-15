@@ -1,4 +1,10 @@
 import { MIGHTY_BLADE } from "../helpers/config.mjs";
+import {
+  getConcessoes,
+  escolherAtributo,
+  escolherHabilidades,
+  resolveOpcoes,
+} from "../helpers/concessoes.mjs";
 
 /**
  * Extend the base Actor document by defining a custom roll data structure which is ideal for the Simple system.
@@ -79,106 +85,132 @@ export class MightyBladeActor extends Actor {
   }
 
   /**
-   * Handle logic when a Race item is added to the actor
-   * @param {Item} race The race item created
+   * Aplica as concessões de uma raça quando ela é adicionada à ficha.
+   * @param {Item} race
    */
   async _onRaceCreated(race) {
-    // 1. Try to find a linked Ability via UUID (New System)
-    const abilityUuid = race.system.habilidadeUuid;
-    if (abilityUuid) {
-      const sourceAbility = await fromUuid(abilityUuid);
-      if (sourceAbility) {
-        const abilityData = sourceAbility.toObject();
-
-        // Prepare flags to link back to the race
-        abilityData.flags = abilityData.flags || {};
-        abilityData.flags["mighty-blade"] =
-          abilityData.flags["mighty-blade"] || {};
-        abilityData.flags["mighty-blade"].sourceRaceId = race.id;
-
-        // Optional: Update requirements to show origin
-        // abilityData.system.requisitos = `Raça: ${race.name}`;
-
-        await this.createEmbeddedDocuments("Item", [abilityData]);
-        ui.notifications.info(
-          `Raça ${race.name} aplicada! Habilidade ${abilityData.name} adicionada.`
-        );
-        return;
-      }
+    const concessoes = getConcessoes(race);
+    if (concessoes.length) {
+      await this._processConcessoes(race, "sourceRaceId");
+      ui.notifications.info(`Raça ${race.name} aplicada.`);
+      return;
     }
 
-    // 2. Fallback: Create from embedded text data (Old System)
-    if (
-      race.system.habilidadeAutomatica &&
-      race.system.habilidadeAutomatica.nome
-    ) {
-      const abilityData = {
-        name: race.system.habilidadeAutomatica.nome,
-        type: "habilidade",
-        img: race.img,
-        system: {
-          description: race.system.habilidadeAutomatica.descricao,
-          tipo: race.system.habilidadeAutomatica.tipo || "suporte",
-          categoria:
-            race.system.habilidadeAutomatica.categoria || "caracteristica",
-          custo: race.system.habilidadeAutomatica.custo || 0,
-          requisitos: `Raça: ${race.name}`,
-        },
-        flags: {
-          "mighty-blade": {
-            sourceRaceId: race.id, // Link to the race item
+    // Fallback legado: habilidade automática embutida como texto (sem UUID).
+    const auto = race.system.habilidadeAutomatica;
+    if (auto?.nome) {
+      await this.createEmbeddedDocuments("Item", [
+        {
+          name: auto.nome,
+          type: "habilidade",
+          img: race.img,
+          system: {
+            description: auto.descricao,
+            tipo: auto.tipo || "suporte",
+            categoria: auto.categoria || "caracteristica",
+            custo: auto.custo || 0,
+            requisitos: `Raça: ${race.name}`,
           },
+          flags: { "mighty-blade": { sourceRaceId: race.id } },
         },
-      };
-
-      // Create the item
-      await this.createEmbeddedDocuments("Item", [abilityData]);
-
-      // Notify user
-      ui.notifications.info(
-        `Raça ${race.name} aplicada! Habilidade ${abilityData.name} adicionada (Legado).`
-      );
+      ]);
+      ui.notifications.info(`Raça ${race.name} aplicada (Legado).`);
     }
+  }
+
+  /** Remove todas as habilidades concedidas por uma raça quando ela é removida. */
+  async _onRaceDeleted(race) {
+    await this._removeConcessoes("sourceRaceId", race.id);
   }
 
   /**
-   * Handle logic when a Race item is removed from the actor
-   * @param {Item} race The race item deleted
+   * Aplica as concessões de uma classe quando ela é adicionada à ficha.
+   * @param {Item} classe
    */
-  async _onRaceDeleted(race) {
-    const ability = this.items.find(
-      (i) => i.getFlag("mighty-blade", "sourceRaceId") === race.id
-    );
-    if (ability) {
-      await ability.delete();
-      ui.notifications.info(`Habilidade racial ${ability.name} removida.`);
-    }
-  }
-
   async _onClassCreated(classe) {
-    const abilityUuid = classe.system.habilidadeUuid;
-    if (!abilityUuid) return;
-
-    const sourceAbility = await fromUuid(abilityUuid);
-    if (!sourceAbility) return;
-
-    const abilityData = sourceAbility.toObject();
-    abilityData.flags = abilityData.flags || {};
-    abilityData.flags["mighty-blade"] = abilityData.flags["mighty-blade"] || {};
-    abilityData.flags["mighty-blade"].sourceClasseId = classe.id;
-
-    await this.createEmbeddedDocuments("Item", [abilityData]);
-    ui.notifications.info(`Classe ${classe.name} aplicada! Habilidade ${abilityData.name} adicionada.`);
+    if (!getConcessoes(classe).length) return;
+    await this._processConcessoes(classe, "sourceClasseId");
+    ui.notifications.info(`Classe ${classe.name} aplicada.`);
   }
 
+  /** Remove todas as habilidades concedidas por uma classe quando ela é removida. */
   async _onClassDeleted(classe) {
-    const ability = this.items.find(
-      (i) => i.getFlag("mighty-blade", "sourceClasseId") === classe.id
-    );
-    if (ability) {
-      await ability.delete();
-      ui.notifications.info(`Habilidade de classe ${ability.name} removida.`);
+    await this._removeConcessoes("sourceClasseId", classe.id);
+  }
+
+  /* -------------------------------------------- */
+  /*  Motor de concessões                         */
+  /* -------------------------------------------- */
+
+  /**
+   * Percorre as concessões de um item (raça/classe), pedindo escolhas ao
+   * jogador quando necessário, e cria as habilidades resultantes na ficha.
+   * @param {Item} item       Raça ou classe de origem.
+   * @param {string} sourceKey Flag de vínculo ("sourceRaceId" | "sourceClasseId").
+   */
+  async _processConcessoes(item, sourceKey) {
+    const toCreate = [];
+
+    for (const c of getConcessoes(item)) {
+      switch (c.tipo) {
+        case "escolhaAtributo": {
+          const data = await this._prepareGrantedAbility(c.uuid, item, sourceKey);
+          if (!data) break;
+          const attr = await escolherAtributo({ titulo: item.name, valor: c.valor ?? 1 });
+          if (attr) {
+            data.system = data.system || {};
+            data.system.bonusAtributo = { atributo: attr, valor: c.valor ?? 1 };
+          }
+          toCreate.push(data);
+          break;
+        }
+        case "escolhaHabilidade": {
+          const opcoes = await resolveOpcoes(c.opcoes ?? []);
+          const escolhidas = await escolherHabilidades({
+            titulo: item.name,
+            opcoes,
+            quantidade: c.quantidade ?? 1,
+          });
+          for (const uuid of escolhidas ?? []) {
+            const data = await this._prepareGrantedAbility(uuid, item, sourceKey);
+            if (data) toCreate.push(data);
+          }
+          break;
+        }
+        case "habilidade":
+        default: {
+          const data = await this._prepareGrantedAbility(c.uuid, item, sourceKey);
+          if (data) toCreate.push(data);
+          break;
+        }
+      }
     }
+
+    if (toCreate.length) await this.createEmbeddedDocuments("Item", toCreate);
+  }
+
+  /**
+   * Carrega uma habilidade por UUID e a prepara para virar item embutido,
+   * com a flag de origem que permite removê-la junto da raça/classe.
+   * @returns {Promise<object|null>}
+   */
+  async _prepareGrantedAbility(uuid, source, sourceKey) {
+    if (!uuid) return null;
+    const src = await fromUuid(uuid);
+    if (!src) return null;
+    const data = src.toObject();
+    data.flags = data.flags ?? {};
+    data.flags["mighty-blade"] = data.flags["mighty-blade"] ?? {};
+    data.flags["mighty-blade"][sourceKey] = source.id;
+    return data;
+  }
+
+  /** Remove todos os itens cuja flag de origem aponte para `sourceId`. */
+  async _removeConcessoes(sourceKey, sourceId) {
+    const ids = this.items
+      .filter((i) => i.getFlag("mighty-blade", sourceKey) === sourceId)
+      .map((i) => i.id);
+    if (ids.length) await this.deleteEmbeddedDocuments("Item", ids);
   }
 
   /** @override */
@@ -196,15 +228,12 @@ export class MightyBladeActor extends Actor {
       if (!doc) continue;
 
       if (doc.type === "raca") {
-        // Remove habilidade antiga vinculada a esta raça, se existir
-        const old = this.items.find(i => i.getFlag("mighty-blade", "sourceRaceId") === doc.id);
-        if (old) await old.delete();
-        // Adiciona a nova habilidade se o UUID foi preenchido
+        // Remove as habilidades antigas vinculadas a esta raça e reaplica.
+        await this._removeConcessoes("sourceRaceId", doc.id);
         if (newUuid) await this._onRaceCreated(doc);
       }
       else if (doc.type === "classe") {
-        const old = this.items.find(i => i.getFlag("mighty-blade", "sourceClasseId") === doc.id);
-        if (old) await old.delete();
+        await this._removeConcessoes("sourceClasseId", doc.id);
         if (newUuid) await this._onClassCreated(doc);
       }
     }

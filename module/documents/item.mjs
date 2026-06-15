@@ -1,4 +1,4 @@
-import { rollTest } from "../helpers/dice.mjs";
+import { rollTest, castSpell } from "../helpers/dice.mjs";
 
 /**
  * Extend the basic Item document.
@@ -30,6 +30,7 @@ export class MightyBladeItem extends Item {
    */
   async roll(options = {}) {
     if (this.type === "arma") return this._rollWeapon(options);
+    if (this.type === "magia") return castSpell(this, options);
     return this._postItemCard();
   }
 

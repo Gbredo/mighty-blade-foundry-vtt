@@ -85,6 +85,7 @@
         "categoria": "caracteristica",
         "custo": 0
       },
+      "concessoes": [],
       "classesComuns": "",
       "description": ""
     },
@@ -97,6 +98,7 @@
         "vontade": 0
       },
       "habilidadeUuid": "",
+      "concessoes": [],
       "vida": 0,
       "mana": 0,
       "equipamentoInicial": "",
@@ -137,10 +139,12 @@
       "requisitos": "",
       "categoria": "tecnica",
       "dificuldade": 0,
+      "bonusAtributo": { "atributo": "", "valor": 0 },
       "description": ""
     },
     "magia": {
       "templates": [],
+      "fonte": "arcana",
       "custo": 0,
       "dificuldade": 0,
       "circulo": 1,
