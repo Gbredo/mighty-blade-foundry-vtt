@@ -67,6 +67,19 @@
       </div>
     </div>
 
+    <div class="grid grid-2col">
+      <div class="resource flex-group-center">
+        <label class="resource-label">Mãos</label>
+        <select name="system.maos" data-dtype="Number">
+          <option value="1" {{#if (eq system.maos 1)}}selected{{/if}}>Uma mão</option>
+          <option value="2" {{#if (eq system.maos 2)}}selected{{/if}}>Duas mãos</option>
+        </select>
+      </div>
+      <label class="resource-label" style="display:flex;align-items:center;gap:6px;">
+        <input type="checkbox" name="system.canalizador" {{checked system.canalizador}} style="width:auto;" /> Canalizador (permite conjurar)
+      </label>
+    </div>
+
     <hr />
 
     {{! ÁREA DE DESCRIÇÃO (Editor de Texto Rico) }}

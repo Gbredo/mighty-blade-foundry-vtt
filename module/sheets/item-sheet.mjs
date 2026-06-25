@@ -64,6 +64,7 @@ export class MightyBladeItemSheet extends foundry.appv1.sheets.ItemSheet {
           tecnica: "Técnica",
           caracteristica: "Característica",
           magia: "Magia",
+          antecedente: "Antecedente",
         },
       };
     }

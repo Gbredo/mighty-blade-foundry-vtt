@@ -124,12 +124,24 @@
           />
         </div>
         <div class="resource flex-group-center">
-          <label class="resource-label">Antecedente</label>
-          <input
-            type="text"
-            name="system.details.antecedente"
-            value="{{system.details.antecedente}}"
-          />
+          <label class="resource-label">Antecedente(s)</label>
+          <div class="resource-content" style="flex:1; display:flex; flex-direction:column; gap:4px; width: 100%;">
+            {{#if antecedentes.length}}
+              {{#each antecedentes as |ant|}}
+                <div class="item flexrow flex-center" data-item-id="{{ant._id}}" style="border: 1px solid #ccc; padding: 2px 4px; border-radius: 4px;">
+                  <span class="item-name" style="flex:1;text-align:left;">{{ant.name}}</span>
+                  <div class="item-controls" style="flex:0 0 auto;">
+                    <a class="item-control item-edit" title="Editar"><i class="fas fa-edit"></i></a>
+                    {{#if ../flags.mighty-blade.isEditing}}
+                    <a class="item-control item-delete" title="Excluir"><i class="fas fa-trash"></i></a>
+                    {{/if}}
+                  </div>
+                </div>
+              {{/each}}
+            {{else}}
+              <span style="color:#777; font-style:italic;">Nenhum</span>
+            {{/if}}
+          </div>
         </div>
       </div>
 
@@ -294,11 +306,11 @@
       <section class="grid grid-4col">
         <div class="flex-group-center">
           <label class="resource-label">Iniciativa</label>
-          <span class="resource-value">{{system.subattributes.iniciativa.value}}</span>
+          <span class="resource-value" style="font-size: 1rem;">2d6 + {{system.subattributes.iniciativa.value}}</span>
         </div>
         <div class="flex-group-center">
           <label class="resource-label">Deslocamento</label>
-          <span class="resource-value">{{system.subattributes.deslocamento.value}}</span>
+          <span class="resource-value" style="font-size: 1rem;">{{{system.subattributes.deslocamento.formulaVisual}}} = <strong>{{system.subattributes.deslocamento.value}}</strong></span>
         </div>
         <div class="flex-group-center">
           <label class="resource-label">Corrida</label>
@@ -317,17 +329,17 @@
         <div class="flex-group-center">
           <label class="resource-label">{{localize "MB.Bloqueio"}}</label>
           {{! Note que aqui usamos 'span' e não 'input', pois será calculado automaticamente }}
-          <span class="resource-value">{{system.defesas.bloqueio.value}}</span>
+          <span class="resource-value" style="font-size: 1rem;">{{{system.defesas.bloqueio.formulaVisual}}} = <strong>{{system.defesas.bloqueio.value}}</strong></span>
         </div>
 
         <div class="flex-group-center">
           <label class="resource-label">{{localize "MB.Esquiva"}}</label>
-          <span class="resource-value">{{system.defesas.esquiva.value}}</span>
+          <span class="resource-value" style="font-size: 1rem;">{{{system.defesas.esquiva.formulaVisual}}} = <strong>{{system.defesas.esquiva.value}}</strong></span>
         </div>
 
         <div class="flex-group-center">
           <label class="resource-label">{{localize "MB.Determinacao"}}</label>
-          <span class="resource-value">{{system.defesas.determinacao.value}}</span>
+          <span class="resource-value" style="font-size: 1rem;">{{{system.defesas.determinacao.formulaVisual}}} = <strong>{{system.defesas.determinacao.value}}</strong></span>
         </div>
       </section>
 

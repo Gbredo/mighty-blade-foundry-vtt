@@ -11,9 +11,12 @@ import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { MIGHTY_BLADE } from "./helpers/config.mjs";
 import { createRaces } from "./helpers/create-races.mjs";
 import { rollTest, rollAttribute, requestTestOptions, castSpell } from "./helpers/dice.mjs";
+import { importCharacter, importCharacterFromJSON, openImportDialog } from "./helpers/import.mjs";
+import { buildCompendios } from "./helpers/packs.mjs";
 
 // Import DataModels
 import MightyBladeCharacterData from "./data/actor-character.mjs";
+import MightyBladeNpcData from "./data/actor-npc.mjs";
 
 /* -------------------------------------------- */
 /* Init Hook                                   */
@@ -33,6 +36,12 @@ Hooks.once("init", async function () {
     rollAttribute,
     requestTestOptions,
     castSpell,
+    // Importação de fichas do gerador (JSON canônico)
+    importCharacter,
+    importCharacterFromJSON,
+    openImportDialog,
+    // Compêndios de conteúdo
+    buildCompendios,
   };
 
   // Add custom constants for configuration.
@@ -44,6 +53,7 @@ Hooks.once("init", async function () {
   // Registrar DataModels por tipo de ator
   CONFIG.Actor.dataModels = {
     character: MightyBladeCharacterData,
+    npc: MightyBladeNpcData,
   };
 
   /**
@@ -74,4 +84,22 @@ Hooks.once("init", async function () {
 
   // Preload Handlebars templates.
   return preloadHandlebarsTemplates();
+});
+
+/* -------------------------------------------- */
+/* Botão "Importar Ficha" na aba de Atores      */
+/* -------------------------------------------- */
+Hooks.on("renderActorDirectory", (app, html) => {
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root) return;
+  const header = root.querySelector(".directory-header") ?? root.querySelector("header");
+  if (!header || header.querySelector(".mb-import-character")) return;
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "mb-import-character";
+  btn.style.cssText = "flex:0 0 auto;margin-top:4px;";
+  btn.innerHTML = `<i class="fas fa-file-import"></i> Importar Ficha`;
+  btn.addEventListener("click", () => openImportDialog());
+  header.appendChild(btn);
 });

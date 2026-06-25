@@ -18,15 +18,14 @@ export class MightyBladeCompendiumBrowser extends Application {
     });
   }
 
-  getData() {
-    // Fetch items from world items
-    // TODO: Add support for Compendium packs later
-    const items = game.items
-      .filter((i) => i.type === this.filterType)
-      .sort((a, b) => a.name.localeCompare(b.name));
-    return {
-      items: items,
-    };
+  async getData() {
+    // Prioriza o compêndio do sistema; cai nos itens do mundo se o pack estiver vazio.
+    const packName = { raca: "mighty-blade.racas", classe: "mighty-blade.classes" }[this.filterType];
+    const pack = packName ? game.packs.get(packName) : null;
+    let items = pack ? await pack.getDocuments() : [];
+    if (!items.length) items = game.items.filter((i) => i.type === this.filterType);
+    items = items.sort((a, b) => a.name.localeCompare(b.name));
+    return { items };
   }
 
   activateListeners(html) {
@@ -54,15 +53,13 @@ export class MightyBladeCompendiumBrowser extends Application {
     // Hover effect to show details
     listItems.hover(async (ev) => {
       const li = $(ev.currentTarget);
-      const itemId = li.data("item-id");
-      const item = game.items.get(itemId);
+      const item = await fromUuid(li.data("item-id"));
 
       if (!item) return;
 
       // Render description
-      const description = await TextEditor.enrichHTML(item.system.description, {
-        async: true,
-      });
+      const TextEditor = foundry.applications.ux.TextEditor.implementation;
+      const description = await TextEditor.enrichHTML(item.system.description ?? "");
 
       // Build details HTML
       let detailsHtml = `
@@ -97,7 +94,7 @@ export class MightyBladeCompendiumBrowser extends Application {
     // Confirm selection
     selectButton.click(async (ev) => {
       if (!this.selectedId) return;
-      const item = game.items.get(this.selectedId);
+      const item = await fromUuid(this.selectedId);
       if (item && this.targetActor) {
         // Check if actor already has an item of this type
         const existing = this.targetActor.items.find(

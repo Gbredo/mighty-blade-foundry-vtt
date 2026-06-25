@@ -286,6 +286,14 @@ export async function castSpell(item, { skipDialog = false, difficultyMod = 0, c
   const dificuldade = Math.max(0, (Number(sys.dificuldade) || 0) + (Number(difficultyMod) || 0));
   const custo = Math.max(0, (Number(sys.custo) || 0) - (Number(costMod) || 0));
 
+  // Mãos: para conjurar é preciso 1 mão livre OU um item Canalizador equipado.
+  const eq = actor.system?.equipamento ?? {};
+  if ((eq.maosLivres ?? 2) < 1 && !eq.temCanalizador) {
+    return ui.notifications.warn(
+      `${actor.name} não pode conjurar: precisa de uma mão livre ou de um item Canalizador equipado.`
+    );
+  }
+
   let opts = { extraDice: 0, bonus: 0, inapto: false };
   if (!skipDialog) {
     const chosen = await requestTestOptions({
@@ -297,9 +305,12 @@ export async function castSpell(item, { skipDialog = false, difficultyMod = 0, c
     opts = chosen;
   }
 
+  // Armadura equipada com FN > Força → conjura como Inapto.
+  const inapto = opts.inapto || !!eq.inaptoArmadura;
+
   const r = await evaluatePool({
     attribute: attrValue,
-    inapto: opts.inapto,
+    inapto,
     extraDice: opts.extraDice,
     bonus: opts.bonus,
   });
@@ -355,7 +366,7 @@ export async function castSpell(item, { skipDialog = false, difficultyMod = 0, c
     bonus: r.effectiveBonus,
     inaptoNote: r.inaptoNote,
     difficulty: dificuldade,
-    inapto: opts.inapto,
+    inapto,
     dice: r.faces.map((v) => ({ value: v, isMax: v === 6, isMin: v === 1 })),
     formula: r.formula,
     total: r.total,

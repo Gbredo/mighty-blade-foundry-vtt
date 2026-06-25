@@ -40,15 +40,19 @@
       </div>
 
       <div class="resource flex-group-center">
-        <label class="resource-label">Preço (PO)</label>
+        <label class="resource-label">Custo</label>
         <input
           type="text"
-          name="system.preco"
-          value="{{system.preco}}"
+          name="system.custo"
+          value="{{system.custo}}"
           data-dtype="Number"
         />
       </div>
     </div>
+
+    <label class="resource-label" style="display:flex;align-items:center;gap:6px;margin-top:8px;">
+      <input type="checkbox" name="system.canalizador" {{checked system.canalizador}} style="width:auto;" /> Canalizador (orbe/cajado — permite conjurar)
+    </label>
 
     <hr />
 

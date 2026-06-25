@@ -10,11 +10,11 @@
     </div>
     <ul class="item-list">
       {{#each items}}
-        <li class="item flexrow" data-item-id="{{this.id}}">
+        <li class="item flexrow" data-item-id="{{this.uuid}}">
           <img src="{{this.img}}" width="36" height="36" />
           <span class="item-name">{{this.name}}</span>
           <div class="item-controls">
-            <input type="radio" name="selected-item" value="{{this.id}}" />
+            <input type="radio" name="selected-item" value="{{this.uuid}}" />
           </div>
         </li>
       {{/each}}

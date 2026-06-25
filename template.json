@@ -45,17 +45,18 @@
     },
     "npc": {
       "templates": ["base"],
-      "health": {
-        "value": 10,
-        "min": 0,
-        "max": 10
+      "attributes": {
+        "forca": { "value": 0 },
+        "agilidade": { "value": 0 },
+        "inteligencia": { "value": 0 },
+        "vontade": { "value": 0 }
       },
-      "power": {
-        "value": 5,
-        "min": 0,
-        "max": 5
+      "resources": {
+        "vida": { "value": 10, "max": 10 },
+        "mana": { "value": 0, "max": 0 }
       },
-      "cr": 0
+      "details": { "tipo": "", "nivel": 1, "descricao": "" },
+      "defesasBonus": { "bloqueio": 0, "esquiva": 0, "determinacao": 0 }
     }
   },
   "Item": {
@@ -110,6 +111,10 @@
       "tipo": "corte",
       "fn": 0,
       "distancia": "corpo",
+      "maos": 1,
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
       "peso": 0,
       "quantidade": 1,
       "custo": 0,
@@ -119,7 +124,11 @@
       "templates": [],
       "defesa": 0,
       "fn": 0,
+      "subtipo": "armadura",
       "pesada": false,
+      "rigida": false,
+      "equipado": false,
+      "efeitos": [],
       "peso": 0,
       "quantidade": 1,
       "custo": 0,
@@ -127,6 +136,9 @@
     },
     "equipamento": {
       "templates": [],
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
       "peso": 0,
       "quantidade": 1,
       "custo": 0,
@@ -140,6 +152,7 @@
       "categoria": "tecnica",
       "dificuldade": 0,
       "bonusAtributo": { "atributo": "", "valor": 0 },
+      "efeitos": [],
       "description": ""
     },
     "magia": {
@@ -148,13 +161,6 @@
       "custo": 0,
       "dificuldade": 0,
       "circulo": 1,
-      "description": ""
-    },
-    "equipamento": {
-      "templates": [],
-      "quantidade": 1,
-      "peso": 0,
-      "preco": 0,
       "description": ""
     },
     "item": {

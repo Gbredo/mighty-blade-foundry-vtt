@@ -4,6 +4,7 @@ import {
   escolherAtributo,
   escolherHabilidades,
   resolveOpcoes,
+  resolveRef,
 } from "../helpers/concessoes.mjs";
 
 /**
@@ -28,8 +29,8 @@ export class MightyBladeActor extends Actor {
       data.int = int;
       data.von = attrs.vontade?.value ?? 0;
     }
-    // Iniciativa = 2d6 + menor entre Agilidade e Inteligência.
-    data.init = Math.min(agi, int);
+    // Iniciativa = 2d6 + maior entre Agilidade e Inteligência.
+    data.init = Math.max(agi, int);
     data.nivel = this.system?.details?.nivel ?? 1;
     return data;
   }
@@ -51,6 +52,9 @@ export class MightyBladeActor extends Actor {
     );
 
     if (embeddedName !== "Item") return;
+    // Durante a importação de uma ficha pronta, as habilidades escolhidas já vêm
+    // embutidas — não reprocessar as concessões (evita duplicar / re-perguntar).
+    if (MightyBladeActor._suppressConcessoes) return;
 
     const race = documents.find((d) => d.type === "raca");
     if (race) await this._onRaceCreated(race);
@@ -154,12 +158,12 @@ export class MightyBladeActor extends Actor {
     for (const c of getConcessoes(item)) {
       switch (c.tipo) {
         case "escolhaAtributo": {
-          const data = await this._prepareGrantedAbility(c.uuid, item, sourceKey);
+          const data = await this._prepareGrantedAbility(c.ref ?? c.uuid, item, sourceKey);
           if (!data) break;
           const attr = await escolherAtributo({ titulo: item.name, valor: c.valor ?? 1 });
           if (attr) {
             data.system = data.system || {};
-            data.system.bonusAtributo = { atributo: attr, valor: c.valor ?? 1 };
+            data.system.efeitos = [{ tipo: "bonusAtributo", atributo: attr, valor: c.valor ?? 1 }];
           }
           toCreate.push(data);
           break;
@@ -170,6 +174,7 @@ export class MightyBladeActor extends Actor {
             titulo: item.name,
             opcoes,
             quantidade: c.quantidade ?? 1,
+            actor: this
           });
           for (const uuid of escolhidas ?? []) {
             const data = await this._prepareGrantedAbility(uuid, item, sourceKey);
@@ -179,7 +184,7 @@ export class MightyBladeActor extends Actor {
         }
         case "habilidade":
         default: {
-          const data = await this._prepareGrantedAbility(c.uuid, item, sourceKey);
+          const data = await this._prepareGrantedAbility(c.ref ?? c.uuid, item, sourceKey);
           if (data) toCreate.push(data);
           break;
         }
@@ -194,9 +199,9 @@ export class MightyBladeActor extends Actor {
    * com a flag de origem que permite removê-la junto da raça/classe.
    * @returns {Promise<object|null>}
    */
-  async _prepareGrantedAbility(uuid, source, sourceKey) {
-    if (!uuid) return null;
-    const src = await fromUuid(uuid);
+  async _prepareGrantedAbility(ref, source, sourceKey) {
+    if (!ref) return null;
+    const src = await resolveRef(ref);
     if (!src) return null;
     const data = src.toObject();
     data.flags = data.flags ?? {};

@@ -103,6 +103,7 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
     // Initialize containers.
     const gear = [];
     const features = [];
+    const antecedentes = [];
     const magias = [];
     let raca = null;
     let classe = null;
@@ -133,7 +134,11 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
       }
       // Append to features.
       else if (i.type === "feature" || i.type === "habilidade") {
-        features.push(i);
+        if (i.system.categoria === "antecedente") {
+          antecedentes.push(i);
+        } else {
+          features.push(i);
+        }
       }
       // Append to spells.
       else if (i.type === "spell" || i.type === "magia") {
@@ -156,6 +161,7 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
     // Assign and return
     context.gear = gear;
     context.features = features;
+    context.antecedentes = antecedentes;
     context.spells = spells;
     context.magias = magias;
     context.raca = raca;
@@ -191,6 +197,13 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     // Add Inventory Item
     html.on("click", ".item-create", this._onItemCreate.bind(this));
+
+    // Equipar / desequipar item (atualiza defesas, mãos, etc.)
+    html.on("click", ".item-equip", (ev) => {
+      const li = ev.currentTarget.closest(".item");
+      const item = this.actor.items.get(li?.dataset.itemId);
+      if (item) item.update({ "system.equipado": !item.system.equipado });
+    });
 
     // Delete Inventory Item
     html.on("click", ".item-delete", (ev) => {

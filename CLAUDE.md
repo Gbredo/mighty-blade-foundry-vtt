@@ -153,18 +153,31 @@ Determinação  = 8 + Vontade   + Bônus de Determinação
 - Em combate físico, o alvo usa sua **maior** Defesa (Bloqueio ou Esquiva)
 - **Determinação** é usada contra efeitos mágicos que afetam a mente
 - Bônus de Armadura soma em ambas as defesas físicas; bônus de Escudo soma só no Bloqueio
+- **Empilhamento:** bônus do **mesmo tipo NÃO acumulam** — usando 2 armaduras, vale só a de
+  maior Defesa; com 2 escudos, idem. (Exceção: a característica **Túnica** — Gambeson/Aramida —
+  pode ser usada por baixo de outra armadura; soma as FNs, mas pra Defesa mantém só a maior RD.)
+- Bônus vindos de **Habilidades/Caminhos** (Aparar, Movimentos Evasivos, etc.) **acumulam**
+  livremente entre si e com armadura/escudo (são os "Bônus de Bloqueio/Esquiva/Determinação").
 
 ### Carga
-- Básica = Força × 10 kg (acima disso: Inapto)
-- Máxima = Força × 20 kg (acima disso: não consegue se mover)
+- Básica = Força × 5 kg (acima disso: Inapto)
+- Máxima = Força × 10 kg (acima disso: não consegue se mover)
+- A **FN de tudo que está equipado/vestido** também ocupa Carga. Se a soma dessas FN passar
+  da Carga Básica (Força × 5), o Deslocamento cai para **2 m**, sem correr/saltar, e o
+  personagem fica **Inapto em todos os testes de Agilidade**.
+- ⚠️ Código antigo usava ×10/×20 — corrigido para ×5/×10 (confere com a Forja e a errata).
 
 ### Combate
 - **Ataque:** 2d6 + Força (ou Agilidade) vs Defesa do alvo
 - **Dano corporal:** dano da arma + Força do atacante
 - **Dano à distância:** valor fixo da arma ou For+ conforme tabela
 - **Iniciativa:** 2d6 + menor entre (Agilidade, Inteligência)
+- **Deslocamento:** `floor(Agilidade / 2) + 4` m (NotebookLM). ⚠️ A Forja usa `+5`; o código antigo
+  usa base fixa 6. **Pendente confirmar +4 vs +5 antes de mexer no código.** Bônus raciais
+  (Fauno/Tailox +1) somam em cima.
+- **Corrida:** Deslocamento × 4 (cai pra × 2 com armadura **Pesada** ou **Rígida**).
 - Ações por turno: livre / padrão / movimento / rodada completa (escolher combinação)
-- Força Necessária (FN): se FN da arma > Força do personagem → Inapto para atacar
+- Força Necessária (FN): se FN da arma > Força do personagem → aquele ataque é Inapto
 
 ### Magias
 - Feiticeiro usa **Runas Arcanas**; Sacerdote usa **Selos Místicos**
@@ -172,12 +185,47 @@ Determinação  = 8 + Vontade   + Bônus de Determinação
 - **PM só é gasto se a magia for bem-sucedida** (diferente de Habilidades de Ação/Reação, que gastam antes)
 - Sucesso Crítico em magia: escolher entre não gastar PM OU dobrar dano/área/duração
 
+### Equipamento, Defesas e Mãos (regras detalhadas — base do próximo sistema)
+- **Equipar:** itens têm estado **equipado** (booleano). Só os equipados contam nas defesas/mãos.
+- **Armadura:** Defesa soma em Bloqueio **e** Esquiva. Só uma armadura "vale" (a de maior Defesa);
+  exceção Túnica (ver acima).
+- **Escudo:** "Ocupa uma mão"; Defesa soma **só no Bloqueio**; com 2 escudos vale só o maior.
+- **Propriedade "Pesada":** RD 1 (reduz todo dano sofrido em 1); −1 m de salto; Corrida vira × 2.
+  NÃO reduz o andar base nem causa Inaptidão em Agilidade por si só.
+- **Propriedade "Rígida"** (Guia Básico): RD 2 (cumulativo com Pesada); Corrida × 2; montado reduz
+  a FN da armadura em 1. No Manual do Combatente virou **"Restritiva"**: percepção e furtividade
+  feitas como Inapto.
+- **FN (Força Necessária):**
+  - Armadura com FN > Força → **todos** os testes como Inapto (Força, Agilidade **e conjuração**).
+  - Escudo com FN > Força → segura mas **não recebe bônus** de defesa.
+  - Arma com FN > Força → aquele ataque como Inapto.
+- **Mãos:** 2 por padrão. Arma "Duas Mãos" precisa das duas (senão ataca Inapto). "Mão-e-Meia"
+  pode 1 ou 2 mãos (com 2: FN cai pela metade e ganha bônus de dano). Escudo ocupa 1 mão fixa.
+- **Conjuração e mãos:** precisa de **1 mão totalmente livre** OU de um item **Canalizador**
+  (cajado, cetro, varinha, orbe, adaga runada) empunhado. Mão com escudo/espada comum não conjura.
+  Canalizador com FN > Força → conjura como Inapto.
+
+### Progressão avançada (roadmap — ainda não implementado)
+- **Nível 0:** *Aspirantes* (40 PV/PM, +1 em 1 atributo de classe, 1 habilidade) e *Desclassificados*
+  (30 PV/PM, sem classe). Sugerido booleano `isAspirante`. Aos 10 XP viram nível 1.
+- **Aprendiz de Classe / Caminhos:** custam **Ponto de Evolução** (ganho por nível a partir do 2).
+  Caminhos (Alquimista, Assassino, Necromante, Cultista…) têm **Requisitos** e habilidades
+  Básicas/Avançadas/Finais. Só 1 classe extra OU 1 Caminho na carreira.
+- **Antecedentes:** custam **1 ponto de atributo da Classe**; dão habilidade/bônus + equipamento extra.
+- **Entidades separadas no banco:** `Classe`, `Caminho` e `Antecedente` consomem recursos diferentes.
+- **Economia:** dinheiro inicial de nível 1 = **500 moedas**. Materiais brutos (½ preço, 3–7 dias pra
+  processar) e qualidade (Baixa/Mediana/Alta/Obra-Prima).
+
 ### Tipos de Item (chaves em português)
 `arma`, `armadura`, `equipamento`, `magia`, `habilidade`, `classe`, `raca`, `feature`
 
-### Raças (Guia para Iniciantes)
-Anão, Elfo, Fauno, Humano, Juban, Tailox
-- Cada raça: atributos iniciais + 1 Habilidade Automática (Suporte)
+### Raças (19 oficiais)
+- **Guia Básico (11):** Aesir, Anão, Elfo, Faen, Fauno, Fira, Humano, Juban, Levent, Mahok, Tailox
+- **Guia do Herói (3):** Astérios Parbani, Centauros, Metadílios
+- **Guia do Vilão (5):** Draganos, Gnolls, Hamelins, Naga, Orcs das Terras Secas
+- Cada raça: atributos iniciais + 1 Habilidade Automática + **lista de habilidades raciais extras**
+  selecionáveis (ex.: "Nanismo" do Anão) — modeláveis como concessão `escolhaHabilidade`.
+- O `create-races.mjs` já tem as 11 do Guia Básico.
 
 ### Classes (Guia para Iniciantes)
 Feiticeiro, Guerreiro, Ladino, Paladino, Patrulheiro, Sacerdote
@@ -192,27 +240,53 @@ Feiticeiro, Guerreiro, Ladino, Paladino, Patrulheiro, Sacerdote
 - [x] Entry point registrando Actor, Item, Sheets
 - [x] Templates HBS para personagem, NPC e todos os tipos de item
 - [x] DataModel do personagem (`module/data/actor-character.mjs`) com mecânicas reais do MB:
-      atributos base+bônus de raça/classe, PV/PM (60), defesas derivadas (Bloqueio/Esquiva/Determinação),
-      carga (Força×10/×20), deslocamento, corrida e iniciativa — **integrado e em uso**
+      atributos base+bônus de raça/classe + bônus de habilidades, PV/PM (60), defesas derivadas,
+      carga (Força×5/×10), deslocamento, corrida e iniciativa (menor de Agi/Int) — **integrado e em uso**
+- [x] **Sistema de rolagem** (`module/helpers/dice.mjs`): 2d6+atributo, críticos, Inapto (1d6 +
+      conversão de dado extra em +2), diálogo de opções, cards no chat, ataque de arma, iniciativa.
+- [x] **Conjuração de magias** (`castSpell`): Arcana→INT / Mística→VON, PM só no sucesso, modal de
+      Sucesso Crítico (4 efeitos), Inapto manual; pronta pra mods (`difficultyMod`/`costMod`).
+- [x] **Motor de concessões** (`module/helpers/concessoes.mjs`): habilidade fixa / escolhaAtributo
+      (Humano/Adaptabilidade) / escolhaHabilidade (Dogma, Pacto…). Bônus de atributo via `bonusAtributo`.
 - [x] Sistema de raça com habilidade automática vinculada por UUID + navegador de compêndio
 - [x] Arquitetura consolidada: todo o JS ativo em `module/`; `src/` é só SCSS
+- [x] **Equipamento:** estado `equipado`; armadura→Bloqueio+Esquiva e escudo→Bloqueio (só a de maior valor);
+      mãos livres + Canalizador (destrava conjuração); FN > Força → Inapto; Pesada/Rígida → Corrida ×2.
+- [x] **NPC:** DataModel pt-BR (`module/data/actor-npc.mjs`) + ficha (atributos/PV/PM/defesas/iniciativa/
+      deslocamento); barras de token alinhadas em `resources.vida`/`resources.mana`.
+- [x] **Importação do JSON canônico** (`module/helpers/import.mjs`): `efeitos[]` lidos no DataModel,
+      concessões suprimidas no import, botão "Importar Ficha" na aba de Atores.
+- [x] **Compêndios (packs):** 4 packs declarados (racas/classes/habilidades/magias) + pasta "Mighty Blade".
+      `game.mightyBlade.buildCompendios()` popula racas+habilidades com `flags.mighty-blade.slug`. Concessões
+      resolvem `ref`(slug)→Item via packs (`resolveRef`). Navegador lê dos packs (fallback p/ itens-do-mundo).
 
 ### Próximos passos (em ordem)
-1. **Sistema de rolagem:** 2d6 + atributo com resultado no chat (críticos: 2+ seis = Sucesso Crítico,
-   todos 1 = Falha Crítica; inapto = 1d6; habilidades podem somar +1d6). Hoje a ficha chama
-   `item.roll()` mas `module/documents/item.mjs` não implementa `roll()` — clicar numa arma quebra.
-2. **NPC:** dar um DataModel próprio em pt-BR (hoje usa schema legado do template.json em inglês) e
-   alinhar as barras de token do system.json (apontam para `resources.vida`/`resources.mana`, que o NPC não tem).
-3. **Localização pt-BR** (`lang/pt-br.json`) e registro no system.json.
-4. **Compêndios (packs):** mover raças/classes/habilidades de itens-do-mundo para packs.
+1. **Conteúdo dos packs:** semear classes e magias (e habilidades de classe p/ `escolhaHabilidade`/Dogma);
+   consumir o conteúdo exportado pelo site. (racas+habilidades já populadas via `buildCompendios`.)
+2. **Localização pt-BR** (`lang/pt-br.json`) e registro no system.json.
+3. **Progressão avançada:** Nível 0 (Aspirantes/Desclassificados), Caminhos, Antecedentes, Pontos de Evolução.
+4. **Nuances adiadas:** sistema de dano/RD (Pesada/Rígida), Túnica, Mão-e-Meia, mods mágicos
+   (Asseste/Foco/Cerne); FN somada > Carga Básica → Deslocamento 2 m.
 
-### Bugs conhecidos a corrigir
-- `module/documents/item.mjs` não tem `roll()`, mas `actor-sheet.mjs` o chama → erro ao clicar em arma.
-- `compendium-browser.mjs` usa o `TextEditor` global (removido no V13+) → preview no hover pode quebrar;
-  usar `foundry.applications.ux.TextEditor.implementation`.
-- `template.json` define `equipamento` duas vezes (a 2ª sobrescreve e perde `custo`).
+### Bugs conhecidos
+- (resolvidos) `item.roll()` implementado; `equipamento` duplicado no `template.json` unificado;
+  `compendium-browser.mjs` migrado para `foundry.applications.ux.TextEditor.implementation`.
 
 ---
+
+## Integração com o gerador de fichas (JSON canônico — contrato compartilhado)
+
+Projeto-irmão (site/Forja, monorepo TS) e este módulo compartilham **só o formato de dados** (sem código). O site (`rules-core`) é a **fonte da verdade do conteúdo**; o Foundry é **consumidor + comportamento** (fórmulas derivadas, sheets, concessões, rolagens). Importador: `game.mightyBlade.importCharacter(obj)` / `importCharacterFromJSON(texto)` e `openImportDialog()` (botão "Importar Ficha" na aba de Atores) — `module/helpers/import.mjs`.
+
+**Contrato v1.0 ESTÁVEL (jun/2026).** Workflow: o contrato é o trilho; cada projeto anda no seu ritmo; só re-sincronizar quando o formato mudar (com **bump de `schemaVersion`** se for breaking).
+
+- **Envelope:** `{ schemaVersion:"1.0", slug, name, type:"character", img, system:{...}, items:[...], flags }`. O `slug` (raiz e de cada item) vai para `flags["mighty-blade"].slug`.
+- **Identidade por slug, nunca UUID.** Concessões referenciam por `ref` (slug); o importador resolve slug→UUID via índice. (`uuid` ainda aceito como legado.)
+- **Atributos — só enviar `base`.** ⚠️ **`base` deve ser 0 no nível 1**: a raça é quem fornece o valor inicial (via `raca.system.atributos`). Fórmula: `value = base + raça + classe + Σefeitos`. (Se `base` vier com o valor racial, dobra — ver simulação.) Reservar `base` para bônus manuais/progressão (nível 4, Aspirante, homebrew).
+- **Efeitos declarativos** em `system.efeitos[]` (habilidade/item), formato `{ tipo, ...params }`. Vocabulário v1.0 (congelado): `bonusAtributo`, `bonusDefesa`, `bonusDeslocamento`, `cargaComoForca`, `bonusDadoTeste`, `reduzCustoMana`, `reduzDificuldadeMagia`, `bonusDanoMagia`, `reducaoDano`, `resistencia`. **Auto-aplicados hoje:** os 4 primeiros. Demais = reservados (armazenados/exibidos, não aplicados). `tipo` desconhecido é tolerado (forward-compatible).
+- **Concessões na importação NÃO são reprocessadas** (`MightyBladeActor._suppressConcessoes`): a ficha já vem montada, com as habilidades escolhidas embutidas em `items[]`.
+- **Não enviar campos derivados** (recalculados): `attributes.*.value`, `defesas.*`, `subattributes.*` (incl. `carga.max/maxAbsoluto`), `equipamento.*`.
+- **Fórmulas derivadas** são reimplementadas dos dois lados; este CLAUDE.md (seção de mecânicas) é a **spec canônica** — mudou aqui, avisar o site.
 
 ## Notas de desenvolvimento
 

@@ -59,6 +59,10 @@ export class MightyBladeItem extends Item {
         `${this.name}: Força Necessária ${fn} maior que sua Força ${forca}. Você ataca como Inapto (1d6).`
       );
     }
+    // Armadura equipada com FN > Força deixa o personagem Inapto em todos os testes.
+    if (actor.system?.equipamento?.inaptoArmadura) {
+      inapto = true;
+    }
 
     // Dano: corpo a corpo = dano da arma + Força; à distância = dano fixo.
     const danoBase = Number(sys.dano) || 0;

@@ -14,6 +14,7 @@ export const preloadHandlebarsTemplates = async function () {
     // --- AQUI ESTÁ O SEGREDO ---
     // Adicione os caminhos completos das fichas de item que criamos:
     "systems/mighty-blade/templates/item/item-arma-sheet.hbs",
+    "systems/mighty-blade/templates/item/item-armadura-sheet.hbs",
     "systems/mighty-blade/templates/item/item-raca-sheet.hbs",
     "systems/mighty-blade/templates/item/item-classe-sheet.hbs",
     "systems/mighty-blade/templates/item/item-magia-sheet.hbs",
