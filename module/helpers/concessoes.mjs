@@ -198,7 +198,7 @@ export async function escolherHabilidades({ titulo = "Concessão", opcoes = [], 
           const results = [];
           checked.forEach(el => {
              results.push(el.value);
-             const subContainer = root.querySelector(\`.sub-choice-container[data-parent="\${el.value}"]\`);
+             const subContainer = root.querySelector(`.sub-choice-container[data-parent="${el.value}"]`);
              if (subContainer) {
                 const select = subContainer.querySelector('select');
                 if (!select.disabled && select.value) {

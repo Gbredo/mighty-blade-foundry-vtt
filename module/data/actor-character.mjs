@@ -38,7 +38,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       // Detalhes do personagem (texto e números editáveis diretamente)
       // -----------------------------------------------------------------------
       details: new SchemaField({
-        nivel:       new NumberField({ required: true, nullable: false, integer: true, initial: 1, min: 1 }),
+        nivel:       new NumberField({ required: true, nullable: false, integer: true, initial: 1, min: 0 }),
         experiencia: new NumberField(int(0)),
         aprendiz:    new StringField({ initial: "" }),
         caminho:     new StringField({ initial: "" }),
@@ -48,6 +48,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
         idiomas:     new StringField({ initial: "", blank: true }),
         motivacao:   new StringField({ initial: "", blank: true }),
         condicao:    new StringField({ initial: "", blank: true }),
+        idade:       new StringField({ initial: "", blank: true }),
         dinheiro:    new NumberField({ required: true, nullable: false, initial: 0, min: 0 }),
       }),
 

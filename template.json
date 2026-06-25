@@ -34,6 +34,7 @@
         "idiomas": "",
         "motivacao": "",
         "condicao": "",
+        "idade": "",
         "dinheiro": 0
       },
       "subattributes": {
@@ -68,7 +69,8 @@
       "arma",
       "armadura",
       "raca",
-      "classe"
+      "classe",
+      "idioma"
     ],
     "raca": {
       "templates": [],
@@ -164,6 +166,10 @@
       "description": ""
     },
     "item": {
+      "templates": [],
+      "description": ""
+    },
+    "idioma": {
       "templates": [],
       "description": ""
     }
