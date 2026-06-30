@@ -33,6 +33,19 @@ export default class MightyBladeNpcData extends foundry.abstract.TypeDataModel {
         determinacao: new NumberField(signed()),
       }),
 
+      afinidades: new SchemaField({
+        resistencias:     new StringField({ initial: "", blank: true }),
+        vulnerabilidades: new StringField({ initial: "", blank: true }),
+        imunidades:       new StringField({ initial: "", blank: true }),
+      }),
+
+      aflicoes: new SchemaField({
+        doencas:      new StringField({ initial: "", blank: true }),
+        maldicoes:    new StringField({ initial: "", blank: true }),
+        sangramentos: new StringField({ initial: "", blank: true }),
+        venenos:      new StringField({ initial: "", blank: true }),
+      }),
+
       biography: new StringField({ initial: "", blank: true }),
     };
   }

@@ -42,6 +42,17 @@
         "deslocamento": { "value": 0 },
         "corrida": { "value": 0 },
         "iniciativa": { "value": 0, "bonus": 0 }
+      },
+      "afinidades": {
+        "resistencias": "",
+        "vulnerabilidades": "",
+        "imunidades": ""
+      },
+      "aflicoes": {
+        "doencas": "",
+        "maldicoes": "",
+        "sangramentos": "",
+        "venenos": ""
       }
     },
     "npc": {
@@ -57,7 +68,18 @@
         "mana": { "value": 0, "max": 0 }
       },
       "details": { "tipo": "", "nivel": 1, "descricao": "" },
-      "defesasBonus": { "bloqueio": 0, "esquiva": 0, "determinacao": 0 }
+      "defesasBonus": { "bloqueio": 0, "esquiva": 0, "determinacao": 0 },
+      "afinidades": {
+        "resistencias": "",
+        "vulnerabilidades": "",
+        "imunidades": ""
+      },
+      "aflicoes": {
+        "doencas": "",
+        "maldicoes": "",
+        "sangramentos": "",
+        "venenos": ""
+      }
     }
   },
   "Item": {

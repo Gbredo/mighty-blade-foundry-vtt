@@ -52,6 +52,19 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
         dinheiro:    new NumberField({ required: true, nullable: false, initial: 0, min: 0 }),
       }),
 
+      afinidades: new SchemaField({
+        resistencias:     new StringField({ initial: "", blank: true }),
+        vulnerabilidades: new StringField({ initial: "", blank: true }),
+        imunidades:       new StringField({ initial: "", blank: true }),
+      }),
+
+      aflicoes: new SchemaField({
+        doencas:      new StringField({ initial: "", blank: true }),
+        maldicoes:    new StringField({ initial: "", blank: true }),
+        sangramentos: new StringField({ initial: "", blank: true }),
+        venenos:      new StringField({ initial: "", blank: true }),
+      }),
+
       biography: new StringField({ initial: "", blank: true }),
     };
   }

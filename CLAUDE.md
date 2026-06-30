@@ -205,13 +205,17 @@ Determinação  = 8 + Vontade   + Bônus de Determinação
   (cajado, cetro, varinha, orbe, adaga runada) empunhado. Mão com escudo/espada comum não conjura.
   Canalizador com FN > Força → conjura como Inapto.
 
-### Progressão avançada (roadmap — ainda não implementado)
+### Afinidades e Aflições
+- **Afinidades:** 6 tipos base de dano (Elementais: Fogo, Frio, Eletricidade; Físicos: Corte, Contusão, Perfuração). Um ator pode ter Resistência, Vulnerabilidade ou Imunidade a cada um.
+- **Cânone das Aflições (Condições Contínuas):** Modelado estruturalmente para suportar Doenças (Naturais e Mágicas), Maldições, Sangramentos e Venenos Contínuos.
+
+### Progressão avançada (em andamento)
 - **Nível 0:** *Aspirantes* (40 PV/PM, +1 em 1 atributo de classe, 1 habilidade) e *Desclassificados*
   (30 PV/PM, sem classe). Sugerido booleano `isAspirante`. Aos 10 XP viram nível 1.
+- **Nível Máximo:** 20.
 - **Aprendiz de Classe / Caminhos:** custam **Ponto de Evolução** (ganho por nível a partir do 2).
-  Caminhos (Alquimista, Assassino, Necromante, Cultista…) têm **Requisitos** e habilidades
-  Básicas/Avançadas/Finais. Só 1 classe extra OU 1 Caminho na carreira.
-- **Antecedentes:** custam **1 ponto de atributo da Classe**; dão habilidade/bônus + equipamento extra.
+  Caminhos têm **Pré-Requisitos** e habilidades (Básicas/Avançadas/Finais). Só 1 classe extra OU 1 Caminho na carreira.
+- **Antecedentes:** custam **1 ponto de atributo da Classe** (Gating); dão habilidade/bônus + equipamento extra.
 - **Entidades separadas no banco:** `Classe`, `Caminho` e `Antecedente` consomem recursos diferentes.
 - **Economia:** dinheiro inicial de nível 1 = **500 moedas**. Materiais brutos (½ preço, 3–7 dias pra
   processar) e qualidade (Baixa/Mediana/Alta/Obra-Prima).
@@ -260,12 +264,15 @@ Feiticeiro, Guerreiro, Ladino, Paladino, Patrulheiro, Sacerdote
       `game.mightyBlade.buildCompendios()` popula racas+habilidades com `flags.mighty-blade.slug`. Concessões
       resolvem `ref`(slug)→Item via packs (`resolveRef`). Navegador lê dos packs (fallback p/ itens-do-mundo).
 
+- [x] **DataModels (Afinidades e Aflições):** `afinidades` (resistências, imunidades, vulnerabilidades) e `aflicoes` (doenças, maldições, sangramentos, venenos) adicionados nativamente em Actors e NPCs (sincronizado com Forja v1.0).
+
 ### Próximos passos (em ordem)
 1. **Conteúdo dos packs:** semear classes e magias (e habilidades de classe p/ `escolhaHabilidade`/Dogma);
    consumir o conteúdo exportado pelo site. (racas+habilidades já populadas via `buildCompendios`.)
 2. **Localização pt-BR** (`lang/pt-br.json`) e registro no system.json.
-3. **Progressão avançada:** Nível 0 (Aspirantes/Desclassificados), Caminhos, Antecedentes, Pontos de Evolução.
-4. **Nuances adiadas:** sistema de dano/RD (Pesada/Rígida), Túnica, Mão-e-Meia, mods mágicos
+3. **Progressão avançada:** Nível 0 (Aspirantes/Desclassificados), Gating em UI, Pontos de Evolução e bloqueios de Caminhos/Antecedentes.
+4. **Fichas e UI:** Atualizar os templates HBS para renderizar as novas Afinidades e Aflições.
+5. **Nuances adiadas:** sistema de dano/RD (Pesada/Rígida), Túnica, Mão-e-Meia, mods mágicos
    (Asseste/Foco/Cerne); FN somada > Carga Básica → Deslocamento 2 m.
 
 ### Bugs conhecidos
