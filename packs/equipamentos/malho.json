@@ -1,0 +1,25 @@
+{
+  "name": "Malho",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 5,
+    "peso": 1,
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "propriedades": [],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "malho"
+    }
+  }
+}

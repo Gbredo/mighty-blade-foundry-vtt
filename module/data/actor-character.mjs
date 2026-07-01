@@ -169,10 +169,14 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
           if (s.pesada || s.rigida) pesadaEquipada = true;
         }
       } else if (item.type === "arma") {
-        maosOcupadas += Number(s.maos) || 1;
-        if (s.canalizador) temCanalizador = true;
+        const props = Array.isArray(s.propriedades) ? s.propriedades : [];
+        if (props.includes("DuasMaos")) maosOcupadas += 2;
+        else maosOcupadas += 1;
+        
+        if (props.includes("Canalizador") || s.canalizador) temCanalizador = true;
       } else if (item.type === "equipamento") {
-        if (s.canalizador) temCanalizador = true;
+        const props = Array.isArray(s.propriedades) ? s.propriedades : [];
+        if (props.includes("Canalizador") || s.canalizador) temCanalizador = true;
       }
     }
 

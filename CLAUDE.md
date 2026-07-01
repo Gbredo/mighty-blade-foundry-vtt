@@ -253,9 +253,9 @@ Feiticeiro, Guerreiro, Ladino, Paladino, Patrulheiro, Sacerdote
 - [x] **Motor de concessões** (`module/helpers/concessoes.mjs`): habilidade fixa / escolhaAtributo
       (Humano/Adaptabilidade) / escolhaHabilidade (Dogma, Pacto…). Bônus de atributo via `bonusAtributo`.
 - [x] Sistema de raça com habilidade automática vinculada por UUID + navegador de compêndio
-- [x] Arquitetura consolidada: todo o JS ativo em `module/`; `src/` é só SCSS
+- [x] **Arquitetura consolidada:** todo o JS ativo em `module/`; `src/` é só SCSS
 - [x] **Equipamento:** estado `equipado`; armadura→Bloqueio+Esquiva e escudo→Bloqueio (só a de maior valor);
-      mãos livres + Canalizador (destrava conjuração); FN > Força → Inapto; Pesada/Rígida → Corrida ×2.
+      mãos livres + Canalizador (destrava conjuração); FN > Força → Inapto; Pesada/Rígida → Corrida ×2. O item de Arma no DataModel agora espelha 1:1 o `Equipamento` canônico do site, contendo um array rico de `tipoDano` e de `propriedades` (DuasMaos, Arremessavel, etc). As mecânicas derivadas de armas agora dependem inteiramente de `propriedades`.
 - [x] **NPC:** DataModel pt-BR (`module/data/actor-npc.mjs`) + ficha (atributos/PV/PM/defesas/iniciativa/
       deslocamento); barras de token alinhadas em `resources.vida`/`resources.mana`.
 - [x] **Importação do JSON canônico** (`module/helpers/import.mjs`): `efeitos[]` lidos no DataModel,

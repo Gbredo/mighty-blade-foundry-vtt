@@ -1,0 +1,28 @@
+{
+  "name": "Gadanha",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 25,
+    "peso": 2,
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+5",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "gadanha"
+    }
+  }
+}

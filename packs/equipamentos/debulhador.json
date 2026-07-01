@@ -1,0 +1,25 @@
+{
+  "name": "Debulhador",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 5,
+    "peso": 4,
+    "fn": 4,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+2",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "propriedades": [],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "debulhador"
+    }
+  }
+}

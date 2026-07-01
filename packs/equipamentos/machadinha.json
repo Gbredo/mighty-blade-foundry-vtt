@@ -1,0 +1,27 @@
+{
+  "name": "Machadinha",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 100,
+    "peso": 1,
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+6",
+    "tipoDano": [
+      "Corte"
+    ],
+    "propriedades": [
+      "Arremessavel"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "machadinha"
+    }
+  }
+}

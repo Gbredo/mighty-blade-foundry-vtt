@@ -1,0 +1,28 @@
+{
+  "name": "Lança",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 100,
+    "peso": 2,
+    "fn": 3,
+    "alcance": "Haste (3m)",
+    "dano": "FOR+7",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "propriedades": [
+      "DuasMaos",
+      "Arremessavel"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lanca"
+    }
+  }
+}

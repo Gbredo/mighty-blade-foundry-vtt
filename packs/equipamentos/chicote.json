@@ -1,0 +1,25 @@
+{
+  "name": "Chicote",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 5,
+    "peso": 0.5,
+    "fn": 1,
+    "alcance": "Haste (3m)",
+    "dano": "FOR+1",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "propriedades": [],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chicote"
+    }
+  }
+}

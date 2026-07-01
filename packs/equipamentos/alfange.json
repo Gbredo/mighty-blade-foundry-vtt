@@ -1,0 +1,28 @@
+{
+  "name": "Alfange",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 125,
+    "peso": 2,
+    "fn": 4,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "alfange"
+    }
+  }
+}

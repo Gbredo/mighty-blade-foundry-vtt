@@ -1,0 +1,28 @@
+{
+  "name": "Enxada",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 5,
+    "peso": 1.5,
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Corte",
+      "Contusao"
+    ],
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "enxada"
+    }
+  }
+}

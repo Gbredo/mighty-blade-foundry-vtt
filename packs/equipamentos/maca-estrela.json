@@ -1,0 +1,27 @@
+{
+  "name": "Maça Estrela",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 100,
+    "peso": 2,
+    "fn": 4,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+7",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "propriedades": [
+      "Arremessavel"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "maca-estrela"
+    }
+  }
+}

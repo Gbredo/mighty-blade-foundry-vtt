@@ -1,0 +1,27 @@
+{
+  "name": "Machado de Batalha",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 150,
+    "peso": 3,
+    "fn": 5,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Corte"
+    ],
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "machado-de-batalha"
+    }
+  }
+}

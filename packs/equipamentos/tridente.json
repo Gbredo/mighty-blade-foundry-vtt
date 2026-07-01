@@ -1,0 +1,28 @@
+{
+  "name": "Tridente",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 175,
+    "peso": 3,
+    "fn": 5,
+    "alcance": "Haste (3m)",
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "propriedades": [
+      "MaoEMeia",
+      "Arremessavel"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tridente"
+    }
+  }
+}

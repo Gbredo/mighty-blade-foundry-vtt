@@ -1,0 +1,26 @@
+{
+  "name": "Martelo Lucerno",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 275,
+    "peso": 5,
+    "fn": 7,
+    "alcance": "Haste (3m)",
+    "dano": "FOR+11",
+    "tipoDano": [
+      "Perfuracao",
+      "Contusao"
+    ],
+    "propriedades": [],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "martelo-lucerno"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Foice",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 12,
+    "peso": 0.5,
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "propriedades": [
+      "Canalizador"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "foice"
+    }
+  }
+}

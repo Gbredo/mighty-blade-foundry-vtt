@@ -1,0 +1,26 @@
+{
+  "name": "Espada Vingadora +1",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "Item mágico (+1).",
+    "custo": 4500,
+    "peso": 3,
+    "fn": 5,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+12",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "propriedades": [],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espada-vingadora-1"
+    }
+  }
+}

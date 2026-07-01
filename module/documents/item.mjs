@@ -44,7 +44,7 @@ export class MightyBladeItem extends Item {
     if (!actor) return this._postItemCard();
 
     const sys = this.system;
-    const melee = (sys.distancia ?? "corpo") === "corpo";
+    const melee = (sys.alcance ?? "Adjacente (1m)") === "Adjacente (1m)";
     const attrKey = melee ? "forca" : "agilidade";
     const attrLabel = melee ? "Força" : "Agilidade";
     const attrValue = actor.system?.attributes?.[attrKey]?.value ?? 0;
@@ -67,7 +67,8 @@ export class MightyBladeItem extends Item {
     // Dano: corpo a corpo = dano da arma + Força; à distância = dano fixo.
     const danoBase = Number(sys.dano) || 0;
     const dano = melee ? danoBase + forca : danoBase;
-    const tipo = sys.tipo ? ` / ${sys.tipo}` : "";
+    const tipoArr = Array.isArray(sys.tipoDano) ? sys.tipoDano : [];
+    const tipo = tipoArr.length ? ` / ${tipoArr.join(" e ")}` : "";
     const breakdown = melee
       ? `<span style="opacity:0.7;">(${danoBase} arma + ${forca} Força)</span>`
       : `<span style="opacity:0.7;">(distância)</span>`;

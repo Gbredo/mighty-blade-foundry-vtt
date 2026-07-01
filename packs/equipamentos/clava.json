@@ -1,0 +1,27 @@
+{
+  "name": "Clava",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "custo": 75,
+    "peso": 1.5,
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+6",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "propriedades": [
+      "Canalizador"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "clava"
+    }
+  }
+}

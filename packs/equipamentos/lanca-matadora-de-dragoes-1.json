@@ -1,0 +1,25 @@
+{
+  "name": "Lança Matadora de Dragões +1",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "Item mágico (+1).",
+    "custo": 6000,
+    "peso": 2,
+    "fn": 3,
+    "alcance": "Haste (3m)",
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "propriedades": [],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lanca-matadora-de-dragoes-1"
+    }
+  }
+}

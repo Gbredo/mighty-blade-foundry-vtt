@@ -1,0 +1,27 @@
+{
+  "name": "Machado do Gelo +1",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "Item mágico (+1).",
+    "custo": 3000,
+    "peso": 3.75,
+    "fn": 5,
+    "alcance": "Adjacente (1m)",
+    "dano": "FOR+9",
+    "tipoDano": [
+      "Corte"
+    ],
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "quantidade": 1,
+    "equipado": false,
+    "efeitos": []
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "machado-do-gelo-1"
+    }
+  }
+}
