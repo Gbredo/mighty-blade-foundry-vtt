@@ -42,10 +42,11 @@
     { "name": "racas",       "label": "Raças",       "path": "packs/racas",       "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "classes",     "label": "Classes",     "path": "packs/classes",     "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "habilidades", "label": "Habilidades", "path": "packs/habilidades", "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "magias",      "label": "Magias",      "path": "packs/magias",      "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    { "name": "magias",      "label": "Magias",      "path": "packs/magias",      "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "equipamentos","label": "Equipamentos","path": "packs/equipamentos","type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
   "packFolders": [
-    { "name": "Mighty Blade", "sorting": "m", "packs": ["racas", "classes", "habilidades", "magias"] }
+    { "name": "Mighty Blade", "sorting": "m", "packs": ["racas", "classes", "habilidades", "magias", "equipamentos"] }
   ],
   "socket": false,
   "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
