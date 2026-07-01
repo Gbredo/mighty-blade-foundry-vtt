@@ -206,8 +206,8 @@ Determinação  = 8 + Vontade   + Bônus de Determinação
   Canalizador com FN > Força → conjura como Inapto.
 
 ### Afinidades e Aflições
-- **Afinidades:** 6 tipos base de dano (Elementais: Fogo, Frio, Eletricidade; Físicos: Corte, Contusão, Perfuração). Um ator pode ter Resistência, Vulnerabilidade ou Imunidade a cada um.
-- **Cânone das Aflições (Condições Contínuas):** Modelado estruturalmente para suportar Doenças (Naturais e Mágicas), Maldições, Sangramentos e Venenos Contínuos.
+- **Afinidades:** 6 tipos base de dano (Elementais: Fogo, Frio, Eletricidade; Físicos: Corte, Contusão, Perfuração). Um ator pode ter Resistência, Vulnerabilidade ou Imunidade a cada um. **Afinidades permanentes são puramente derivadas** a partir dos Efeitos do Ator, não sendo armazenadas no DataModel (alinhado com o princípio de que valores derivados não devem ser armazenados). Afinidades temporárias deverão ser modeladas através de Active Effects no Foundry.
+- **Cânone das Aflições (Condições Contínuas):** Modelado estruturalmente para suportar Doenças (Naturais e Mágicas), Maldições, Sangramentos e Venenos Contínuos. Armazenado como um array de objetos rico (`system.details.aflicoes: [{ id, nome, efeito, duracao }]`), idêntico à Forja.
 
 ### Progressão avançada (em andamento)
 - **Nível 0:** *Aspirantes* (40 PV/PM, +1 em 1 atributo de classe, 1 habilidade) e *Desclassificados*
@@ -264,7 +264,7 @@ Feiticeiro, Guerreiro, Ladino, Paladino, Patrulheiro, Sacerdote
       `game.mightyBlade.buildCompendios()` popula racas+habilidades com `flags.mighty-blade.slug`. Concessões
       resolvem `ref`(slug)→Item via packs (`resolveRef`). Navegador lê dos packs (fallback p/ itens-do-mundo).
 
-- [x] **DataModels (Afinidades e Aflições):** `afinidades` (resistências, imunidades, vulnerabilidades) e `aflicoes` (doenças, maldições, sangramentos, venenos) adicionados nativamente em Actors e NPCs (sincronizado com Forja v1.0).
+- [x] **DataModels (Afinidades e Aflições):** `aflicoes` (doenças, maldições, sangramentos, venenos) armazenado nativamente em Actors e NPCs como um array de objetos em `details` (sincronizado com Forja v1.0). Afinidades (resistências, imunidades, vulnerabilidades) não são armazenadas, devendo ser derivadas a partir dos Efeitos.
 
 ### Próximos passos (em ordem)
 1. **Conteúdo dos packs:** semear classes e magias (e habilidades de classe p/ `escolhaHabilidade`/Dogma);

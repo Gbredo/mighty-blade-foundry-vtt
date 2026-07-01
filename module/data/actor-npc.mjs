@@ -1,7 +1,7 @@
 export default class MightyBladeNpcData extends foundry.abstract.TypeDataModel {
 
   static defineSchema() {
-    const { SchemaField, NumberField, StringField } = foundry.data.fields;
+    const { SchemaField, NumberField, StringField, ArrayField } = foundry.data.fields;
     const int    = (initial = 0, min = 0) => ({ required: true, nullable: false, integer: true, initial, min });
     const signed = (initial = 0)          => ({ required: true, nullable: false, integer: true, initial });
 
@@ -24,6 +24,12 @@ export default class MightyBladeNpcData extends foundry.abstract.TypeDataModel {
         tipo:      new StringField({ initial: "", blank: true }), // ex.: Fera, Humanoide, Morto-vivo
         nivel:     new NumberField({ required: true, nullable: false, integer: true, initial: 1, min: 0 }),
         descricao: new StringField({ initial: "", blank: true }),
+        aflicoes:  new ArrayField(new SchemaField({
+          id:      new StringField({ required: true }),
+          nome:    new StringField({ initial: "" }),
+          efeito:  new StringField({ initial: "" }),
+          duracao: new StringField({ initial: "" })
+        })),
       }),
 
       // Ajustes manuais de defesa (stat blocks de monstros podem ter bônus/penalidade).
@@ -31,19 +37,6 @@ export default class MightyBladeNpcData extends foundry.abstract.TypeDataModel {
         bloqueio:     new NumberField(signed()),
         esquiva:      new NumberField(signed()),
         determinacao: new NumberField(signed()),
-      }),
-
-      afinidades: new SchemaField({
-        resistencias:     new StringField({ initial: "", blank: true }),
-        vulnerabilidades: new StringField({ initial: "", blank: true }),
-        imunidades:       new StringField({ initial: "", blank: true }),
-      }),
-
-      aflicoes: new SchemaField({
-        doencas:      new StringField({ initial: "", blank: true }),
-        maldicoes:    new StringField({ initial: "", blank: true }),
-        sangramentos: new StringField({ initial: "", blank: true }),
-        venenos:      new StringField({ initial: "", blank: true }),
       }),
 
       biography: new StringField({ initial: "", blank: true }),

@@ -1,7 +1,7 @@
 export default class MightyBladeCharacterData extends foundry.abstract.TypeDataModel {
 
   static defineSchema() {
-    const { SchemaField, NumberField, StringField } = foundry.data.fields;
+    const { SchemaField, NumberField, StringField, ArrayField } = foundry.data.fields;
 
     // Atalho para campos de número inteiro não-nulo
     const int = (initial = 0, min = 0) => ({
@@ -50,19 +50,12 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
         condicao:    new StringField({ initial: "", blank: true }),
         idade:       new StringField({ initial: "", blank: true }),
         dinheiro:    new NumberField({ required: true, nullable: false, initial: 0, min: 0 }),
-      }),
-
-      afinidades: new SchemaField({
-        resistencias:     new StringField({ initial: "", blank: true }),
-        vulnerabilidades: new StringField({ initial: "", blank: true }),
-        imunidades:       new StringField({ initial: "", blank: true }),
-      }),
-
-      aflicoes: new SchemaField({
-        doencas:      new StringField({ initial: "", blank: true }),
-        maldicoes:    new StringField({ initial: "", blank: true }),
-        sangramentos: new StringField({ initial: "", blank: true }),
-        venenos:      new StringField({ initial: "", blank: true }),
+        aflicoes:    new ArrayField(new SchemaField({
+          id:      new StringField({ required: true }),
+          nome:    new StringField({ initial: "" }),
+          efeito:  new StringField({ initial: "" }),
+          duracao: new StringField({ initial: "" })
+        })),
       }),
 
       biography: new StringField({ initial: "", blank: true }),
