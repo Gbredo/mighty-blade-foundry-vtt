@@ -4,7 +4,12 @@
   "description": "CSS compiler for the mighty-blade system",
   "scripts": {
     "build": "sass src/scss/mighty-blade.scss css/mighty-blade.css --style=expanded --no-source-map",
-    "build:watch": "sass src/scss/mighty-blade.scss css/mighty-blade.css --watch"
+    "build:watch": "sass src/scss/mighty-blade.scss css/mighty-blade.css --watch",
+    "build:packs": "node scripts/import_all.mjs",
+    "build:equipamentos": "node scripts/import_equipamentos.mjs",
+    "build:racas": "node scripts/import_racas.mjs",
+    "build:classes": "node scripts/import_classes.mjs",
+    "build:habilidades": "node scripts/import_habilidades_e_magias.mjs"
   },
   "browserslist": [
     "last 3 versions"
