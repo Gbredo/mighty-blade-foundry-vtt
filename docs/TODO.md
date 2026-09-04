@@ -176,34 +176,152 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 
 ---
 
-## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
+## 🎯 Pacote de Quick Wins & Polimento Tático (Feedback dos Prints & Moretto)
+
+### 1. 🏹 Sistema Tático de Munição & Flechas no Modal de Ataque — ✅ [CONCLUÍDO]
+* **Objetivo:** Rastrear o consumo real de flechas/virotes ao atacar com arcos e bestas:
+  * Motor `@mighty-blade/rules-core`: Módulo `municao.ts` com validação universal de armas e tipos compatíveis (arcos usam flechas, bestas usam virotes, fundas usam balas, zarabatanas usam dardos), com 100% de testes unitários.
+  * Dropdown para selecionar o tipo de flecha carregada (Comum, Garateia, Explosiva, etc.).
+  * Contador dinâmico com steppers `[ - ] {qtd} [ + ]` e checkbox `[x] Descontar 1 ao disparar (Zero Fricção)`.
+  * Botão de recuperação rápida `[ ♻️ Recuperar do Chão ]` (metade das flechas gastas no combate recuperadas sem burocracia).
+  * Checkbox de **Ataque Preciso / Golpe Localizado (+4 na Dificuldade)** para mirar em pontos vitais ou através de cobertura, com selo tático no teste.
+
+### 2. ⚡ Mochila Interativa na Visualização da Ficha (`FichaDetalhe.tsx`) — ✅ [CONCLUÍDO]
+* **Objetivo:** Eliminar a necessidade de entrar no modo de edição apenas para trocar de arma ou consultar itens:
+  * Exibição completa da mochila diretamente na tela de jogo com pesos, categorias, notas e steppers de quantidade.
+  * Sub-painel tático em combate com armas na bainha e botão rápido `[ ⚔️ Empunhar ]` para troca instantânea de arma em 1 clique.
+  * Botões de 1 clique `[ Equipar ]` / `[ Desequipar ]` e `[ Usar ]` para consumíveis (elixires de vida/mana).
+  * Auto-regras inteligentes: equipar nova armadura desequipa a anterior; equipar arma de 2 mãos desequipa escudo.
+
+### 3. 🎒 10º Slot de Costas (Mochila / Aljava / Capa) no Paperdoll — ✅ [CONCLUÍDO]
+* **Objetivo:** Adicionar no boneco de equipamentos (`Paperdoll.tsx`) o slot dedicado para itens dorsais:
+  * Grid 5x5 perfeitamente simétrico (5 slots na coluna esquerda, 5 slots na coluna direita).
+  * Respeito à regra canônica estrita do livro de regras: mochila e aljava competem pelo mesmo espaço nas costas.
+
+### 4. 📜 Tabela Oficial de Dificuldades do MB 3e Integrada nos Testes — ✅ [CONCLUÍDO]
+* **Objetivo:** Incorporar a tabela canônica do livro de regras como presets rápidos e modal de consulta com exemplos oficiais:
+  * Módulo `@mighty-blade/rules-core/data/dificuldades.ts` com todos os exemplos canônicos do livro.
+  * Modal interativo `ModalTabelaDificuldade.tsx` e chips de seleção rápida em `TestesModal.tsx` e `AtributosPreview.tsx`:
+    * Corriqueiro ($\le 7$) • Fácil ($8$) • Moderado ($10$) • Desafiador ($12$) • Difícil ($14$) • Muito Difícil ($16$) • Lendário ($\ge 18$).
+
+### 5. 🖼️ Moldura e Fim do Letterboxing no Modal de Ilustração (`OriginToken.tsx`) — ✅ [CONCLUÍDO]
+* **Objetivo:** Corrigir as faixas pretas ociosas nas laterais da ilustração do Sacerdote/Classes.
+  * Modal compactado e proporções otimizadas para 280x360px eliminando completamente o letterboxing cinza/preto.
+
+### 6. 🪙 Alerta Visual de Orçamento Estourado (500 Moedas Iniciais) — ✅ [CONCLUÍDO]
+* **Objetivo:** Alerta visual proeminente quando o custo dos itens comprados na criação ultrapassar os fundos disponíveis:
+  * Banner de destaque vermelho/dourado com ícone de alerta em `InventarioPainel.tsx` informando o valor exato excedido e orientações sobre espólio/dívida.
+
+### 7. 🔄 Correção do Loop de Navegação Pós-Edição (`Ficha.tsx`) — ✅ [CONCLUÍDO]
+* **Objetivo:** Ao salvar a edição de um personagem, retornar diretamente para a ficha ativa (`/ficha/:id`) em vez de chutar o usuário para o dashboard geral.
+
+### 8. 🗺️ Compêndio Canônico de Termos Geográficos & Relevo — ✅ [CONCLUÍDO]
+* **Objetivo:** Enciclopédia canônica com os 42 termos geográficos e de relevo de Drakon, com infográfico em alta resolução, zoom lightbox e links no glossário.
+
+### 9. 🗂️ Dashboard Pro: Filtros Avançados, Ordenação, Paginação e Drag-and-Drop — ✅ [CONCLUÍDO]
+* **Objetivo:** Gestão completa de múltiplas fichas de personagens com:
+  * **Filtros Avançados:** Dropdowns dedicados para Raça, Classe, Caminho e Organização, com botão "Limpar Filtros" e busca textual unificada.
+  * **Ordenação Flexível:** Alfabética (A-Z e Z-A), Nível (Maior-Menor e Menor-Maior), Data de Criação (Mais Recente e Mais Antigo) e Manual.
+  * **Drag & Drop Nativo:** Reordenação de cards por arraste com persistência instantânea em `localStorage` (`personagemStorage.reordenar`).
+  * **Paginação Completa:** Integração de `Paginacao.tsx` com seletor de itens por página (8, 16, 24, "todos") e indicador de contagem.
+  * **Colunas e Badges de Caminho & Organização:** Exibição enriquecida nos cards da grade e colunas dedicadas na visualização em tabela.
+
+### 10. ☀️/🌙 Modo Claro e Escuro: Toggle de Iluminação na Aparência — ✅ [CONCLUÍDO]
+* **Objetivo:** Suporte a Modo Claro (Pergaminho Solar) preservando o Modo Escuro (Dark Obsidian) como padrão oficial:
+  * Novo seletor de iluminação na aba "Aparência e Temas" de `SettingsModal.tsx`.
+  * Tokens adaptativos em `tokens.css` para `body.theme-claro`, com estilização dedicada em `layout.css`, `dashboard.css` e `settingsModal.css`.
+  * Persistência da preferência em `localStorage` (`mb_modo_tema`).
+
+### 11. 📝 Anotações & Diários de Campanha no Estilo Foundry VTT — ✅ [CONCLUÍDO]
+* **Objetivo:** Resolver em definitivo o alerta de erro na Vercel e implementar sistema modular de organização estilo Foundry VTT:
+  * Novo motor de persistência offline-first (`anotacaoStorage.ts`) sem bloqueios de rede.
+  * Pastas personalizadas para agrupar anotações por sessão ou campanha, com contadores e filtro por abas no topo.
+  * Múltiplas páginas por anotação com títulos próprios, navegação por abas laterais e botões `< Página Anterior` / `Próxima Página >`.
+  * Visualização de alta fidelidade com Markdown e `<LoreRenderer>`.
+
+### 12. 🎯 Centralização da Paginação no Rodapé — ✅ [CONCLUÍDO]
+* **Objetivo:** Posicionamento simétrico e equilibrado dos controles de navegação:
+  * CSS Grid (`1fr auto 1fr`) centralizando os botões (`◀ [1] [2] ▶`) no canto inferior das páginas.
+  * Contagem de itens posicionada à esquerda e seletor de itens por página à direita.
+
+### 13. 🎒 UX da Loja de Equipamentos na Ficha — ✅ [CONCLUÍDO]
+* **Objetivo:** Evitar que o jogador ache que o botão `+` não funcionou ao adicionar equipamentos na ficha:
+  * Alternância automática para a aba "Inventário" ao adicionar itens.
+  * Badge visual indicando a quantidade total de itens no inventário.
+
+### 14. ⚔️ Correções de Equipamentos Canônicos & Bestiário — ✅ [CONCLUÍDO]
+* **Objetivo:** Alinhamento 100% rigoroso com as regras canônicas do livro básico:
+  * Remoção da propriedade errônea `Canalizador` das armas mundanas (`foice`, `bordao`, `clava`, `adaga`).
+  * Chicote corrigido para Custo 50 moedas, Dano FOR+2 corte/contusão e propriedades `Segurar`, `Transpor` e `Gancho`.
+  * Propriedade `DuasMaos` adicionada ao `martelo-lucerno` e `debulhador`.
+  * Criação da categoria canônica `"Montaria"` para animais e veículos (`bolanta`, `burro`, `carroca`, `cavalo-comum`, `cavalo-de-guerra`, etc.).
+  * Fichas completas de `BURRO` e `CAVALO_DE_GUERRA` integradas ao Bestiário oficial.
+
+### 15. 🛡️ Simetria da Ficha de Personagem & Condição "Por um Fio" — ✅ [CONCLUÍDO]
+* **Objetivo:** Proporções harmônicas de 3 colunas e automação de quase-morte:
+  * Remoção de duplicidade da mochila na visualização detalhada.
+  * Aplicação automática da condição `por-um-fio` quando a Vida atinge `0 PV`, com tarja de aviso vermelha em destaque.
+  * Remoção automática da condição ao recuperar PV (> 0).
+  * Integração de `resolverPenalidades` nos cálculos de Defesa e Movimentação sob condições restritivas.
+
+### 16. 📐 Otimização de Espaço nos Compêndios (Zero Redundâncias) — ✅ [CONCLUÍDO]
+* **Objetivo:** Eliminar poluição visual e ganhar espaço horizontal nas tabelas e cards:
+  * Remoção da coluna redundante "Ação" e do botão "Ver" nas tabelas de Habilidades, Equipamentos e Bestiário.
+  * Remoção do botão "Ver Detalhes" do rodapé de cada card, mantendo o card limpo e com altura dinâmica.
+  * Linhas e cards 100% interativos por inteiro, com transição suave, elevação no hover (`translateY(-2px)`), borda dourada e tooltips informativos.
+
+### 17. 🔀 Drag & Drop Bidirecional: Cards & Linhas de Tabela — ✅ [CONCLUÍDO]
+* **Objetivo:** Permitir ao usuário reordenar livremente suas fichas tanto no modo Grade quanto no modo Tabela:
+  * **API Nativa HTML5:** Solução leve (0 KB de dependências externas) usando `draggable={true}`, `handleDragStart`, `handleDragOver` e `handleDrop`.
+  * **Paridade de Modos:** Alça de pegada (`⠿`) dedicada na primeira coluna da tabela (`<td className="dash-td-drag">`) e no cabeçalho de cada card.
+  * **Feedback Visual:** Linha ou card de destino destacado com bordas douradas reluzentes e sombra de encaixe; elemento arrastado fica com 35% de opacidade.
+  * **Persistência Imediata:** Atualização do array no storage (`personagemStorage.reordenar`) com troca automática do seletor para "Ordem Manual".
+  * **Proteção de Ações:** Cliques em botões de visualizar, editar e excluir protegidos contra disparo indevido de arraste (`target.closest(...)`).
+
+### 18. 🔍 Dashboard Pro: Filtros Avançados & Modos de Ordenação — ✅ [CONCLUÍDO]
+* **Objetivo:** Localização instantânea de personagens em contas com dezenas de fichas:
+  * **Barra de Filtros:** Seletores rápidos por Raça, Classe, Caminho e Organização com indicação de filtros ativos.
+  * **Modos de Ordenação:** 7 opções canônicas (*Ordem Manual*, *Nome A-Z / Z-A*, *Nível Maior / Menor*, *Mais Recente / Mais Antigo*).
+  * **Botão Reset:** Limpeza de todos os filtros e busca com 1 clique (`Limpar Filtros`).
+
+### 19. 🌓 Modo Claro / Escuro (Design System Semântico) — ✅ [CONCLUÍDO]
+* **Objetivo:** Conforto visual para diferentes ambientes de iluminação (escuro imersivo vs leitura solar):
+  * **Tokens Semânticos:** Variáveis centralizadas em `tokens.css` com override via classe `.theme-claro` no `<body>`.
+  * **Alternador Integrado:** Switch dedicado nas Configurações (aba "Aparência e Temas") com persistência em `localStorage`.
+  * **Contraste Aprovado:** Suporte refinado a cards, tabelas, modais, inputs e cabeçalhos.
+
+### 20. 🎒 Auto-Stacking & Consolidação Automática de Inventário — ✅ [CONCLUÍDO]
+* **Objetivo:** Agrupar automaticamente itens consumíveis idênticos (flechas, virotes, poções, itens mundanos):
+  * **Na Loja:** Incremento direto de quantidade (`qtd += 1`) quando o item já existir desequipado na mochila, sem gerar linhas repetidas.
+  * **Ao Carregar a Ficha:** Varredura automática em `FichaDetalhe.tsx` consolidando múltiplos itens idênticos (`refId`, `material`, `qualidade`) em uma linha única e persistindo no storage.
+  * **Exclusão Segura:** Diálogo de confirmação para exclusão ao decrementar a quantidade até 0.
+
+### 21. 🎲 Painel de Testes Mobile-First (Zero Scroll) & Acentuação Canônica — ✅ [CONCLUÍDO]
+* **Objetivo:** Experiência tátil fluida de rolagens de combate/testes em smartphones e acentuação canônica impecável:
+  * **Zero Scroll:** Modal fixado em `max-height: 92vh` contido na tela sem barra de rolagem vertical.
+  * **Touch Targets Generosos:** Botões táteis com altura mínima de 42px e seletor nativo `<select>` para dificuldade sem toques acidentais.
+  * **Fluxo em Abas (Configuração ➔ Resultado):** Ao rolar, o modal transiciona para a visualização limpa de resultado (dados 48px, banner de sucesso/crítico/falha, dano total e botão de 1-toque `[ 🎲 Rolar Novamente ]`).
+  * **Acentuação Canônica:** `Inteligência` no modal de testes, `Anão` e `Xamã` no Dashboard, tags da ficha e exportação em PDF, mais `Oráculo`, `Capitão`, `Espadachim` e `Rúnico`.
+
+---
+
+
+## 🎯 Próximas Implementações Priorizadas (Roadmap Geral)
 
 ### 1. 📐 Triagem & Filtro das 33 Anotações do Excalidraw
-* **Objetivo:** Revisar as 33 anotações pendentes da prancheta do Excalidraw para:
-  * Separar o que é essencial para o VTT do que é secundário/ideia futura.
-  * Eliminar redundâncias com as mecânicas já concluídas no site.
-  * Estruturar um backlog limpo e priorizado por valor de entrega.
+* **Objetivo:** Separar itens essenciais para o VTT e consolidar débitos de longo prazo.
 
 ### 2. 🌌 Pesquisa & Aplicação dos Guias Obsidian TTRPG
-* **Links de Referência:**
-  * [Obsidian Hub (Official Community)](https://publish.obsidian.md/hub/00+-+Start+here)
-  * [Obsidian TTRPG Tutorials (Josh Plunkett)](https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Obsidian+TTRPG+Tutorials)
-* **Objetivo:** Avaliar plugins e padrões arquiteturais da comunidade Obsidian (Dataview, Fantasy Statblocks, Leaflet para mapas, Canvas para árvores de NPCs) para turbinar o cofre do mestre e aproveitar padrões para o simulador web e o VTT.
+* **Objetivo:** Incorporar padrões de Dataview, Statblocks e Leaflet nos compêndios do cofre.
 
 ### 3. ⚔️ Filtro Avançado de Equipamentos
-* **Objetivo:** Atender à solicitação do Roadmap:
-  * Ordenação dinâmica por **Dano Total Somado** (Dano base da arma + modificador de atributo da ficha).
-  * Segregação tática clara entre **Armas de Combate** (Corpo a Corpo, À Distância, Hastes) e **Ferramentas de Ofício / Kits de Aventura**.
+* **Objetivo:** Ordenação por Dano Total Somado e segregação tática entre armas e kits utilitários.
 
 ### 4. 🔍 Autocomplete Fuzzy Pop-up de `[[` durante a Digitação
-* **Objetivo:** Exibir menu flutuante instantâneo ao digitar `[[` nos campos de História e Anotações da ficha, sugerindo nomes de personagens, monstros, perícias e facções com preenchimento em 1 clique.
+* **Objetivo:** Menu flutuante instantâneo para referências rápidas na ficha.
 
-### 5. 🌐 Comunidade & Redes: Criação do Subreddit Oficial (`r/MesasDoBreder`)
-* **Objetivo:** Criar a presença no Reddit para divulgação de homebrews, builds da comunidade e notícias do projeto.
+### 5. 🌐 Comunidade: Criação do Subreddit Oficial (`r/MesasDoBreder`)
 
-### 6. 💰 Planos Financeiros & Tabela de Assinatura (Mestre Pro / Apoiador da Forja) — ⏳ [CONGELADO NO BACKLOG]
-* **Objetivo:** Estruturar futuramente o modelo de sustentabilidade da plataforma mantendo todas as ferramentas essenciais (criação de ficha, cálculo canônico, compêndios e PDF A4) 100% gratuitas para sempre.
-* **Ideias Catalogadas para Validação Futura:**
-  * **Nível Aventureiro (R$ 0 / Gratuito Vitalício):** Personagens ilimitados locais, compêndio oficial completo de regras, exportação para Foundry VTT e ficha clássica A4.
-  * **Nível Mestre Pro / Patrono da Mesa (R$ X / mês):** Sincronização em nuvem multi-dispositivos estendida, templates customizados ilimitados de monstros (Build-a-Beast), compartilhamento de campanhas em tempo real com os jogadores e badge exclusivo de Patrono no Discord.
-  * **Status:** Registrado no backlog conforme alinhamento estratégico; implementação visual na landing page congelada até a conclusão dos quick wins essenciais.
+### 6. 💰 Planos Financeiros & Tabela de Assinatura — ⏳ [CONGELADO NO BACKLOG]
+
+
