@@ -146,6 +146,7 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
     * `Habilidades.tsx`: Paginação tanto na visão em Grid de Cards quanto na Tabela detalhada.
     * `Monstros.tsx`: Paginação no Bestiário (Cards de monstros e Tabela tática).
     * `Equipamentos.tsx`: Paginação no Arsenal (Grid e Tabela) e no catálogo de Ingredientes Alquímicos.
+  * **Refinamento Visual (Feedback Comunitário):** Remoção de poluição visual e redundâncias (texto duplicado de página no topo e contador de range à esquerda), mantendo exclusivamente os controles de navegação limpos no canto inferior direito (`« ‹ 1 2 3 ... 46 › »`).
 
 ### 16. 📱 Otimização Mobile DMV-Style e Dock Social Linktree — ✅ [CONCLUÍDO]
 * **Objetivo:** Resolver feedbacks cruciais da comunidade (Miguel Neto / Hunt) sobre usabilidade mobile:
