@@ -167,6 +167,13 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
   * **Dock Social "Lazy Linktree" na Landing Page (`LandingPage.tsx` / `landing.css`):**
     * 7 botões squircle elegantes com ícones SVG nítidos: Discord (ativo com link oficial do Mighty Blade), Telegram, YouTube, Instagram, X/Twitter, Facebook e Twitch (em modo mock disabled).
 
+### 17. 🔗 Hipertexto e Wikilinks Recursivos com Histórico de Navegação — ✅ [CONCLUÍDO]
+* **Objetivo:** Atender ao feedback sobre a ausência de links clicáveis dentro dos modais de lore (especificamente no popup do "Reino de Tebryn", onde `Cassiopéia`, `Stord`, `Miralda`, `Ektória` e `Rei Boren Strauss` eram texto estático não interativo).
+* **Implementação Realizada:**
+  * **Parser Recursivo de Wikilinks (`renderTextoWikilinks` em `LoreRenderer.tsx`):** Converte qualquer menção `[[Alvo|Display]]`, `[[Alvo]]` ou `[citação]` dentro dos modais de lore em botões dourados `✦ Wikilink` interativos com hover styling.
+  * **Pilha de Histórico de Navegação (`historicoModal`):** Permite navegar recursivamente de um artigo para o outro (ex: Tebryn ➔ Boren Strauss ➔ Stord ➔ Fingal Mata-Dragão) com botão elegante `[ ← Voltar para ... ]` para retornar ao artigo anterior sem perder o contexto.
+  * **Catalogação de Entradas Canônicas Fundacionais:** Adição no `LORE_GLOSSARIO` das cidades-estado fundadoras de Tebryn (`Stord`, `Miralda`, `Ektória`) e enriquecimento de `Rei Boren Strauss`, `Cassiopéia` e `Reino de Tebryn` com links recíprocos e suporte a busca resiliente a hífens e títulos completos.
+
 ---
 
 ## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
