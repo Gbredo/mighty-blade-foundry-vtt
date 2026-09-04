@@ -118,6 +118,19 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
   * **Sinergia Acadêmica com a PUC:** Orientação para focar a matéria de Kotlin em microsserviços/apps utilitários (Rolador 3d6 e Calculadora de Recursos) sem sobrecarregar o monorepo principal.
   * **Sincronização Bidirecional:** Documento espelhado em ambos os repositórios com MOCs atualizados em `Home.md`.
 
+### 14. 👑 Landing Page: Seções "Sobre Nós (Quem é o Bredo?)", "Apoiadores" e "FAQ Copilot-Style" (Item 3/33 Excalidraw) — ✅ [CONCLUÍDO]
+* **Objetivo:** Trazer identidade autêntica, história humana do criador, espaço para parcerias e autoridade técnica para a landing page de `https://mesasdobreder.vercel.app`.
+* **Implementação Realizada:**
+  * **Apoiadores & Parcerias (`#apoiadores`):** Vitrine no estilo logo cloud para comunidades (Mighty Blade Brasil, Foundry VTT Brasil, Coisinha Verde, Canais de RPG Indie, Financiamentos Coletivos no Catarse) com card de CTA `Sua Marca ou Canal Aqui` direcionando para parceria via Discord.
+  * **Sobre Nós / Quem é o Bredo? (`#sobre`):**
+    * Card de perfil com avatar oficial do GitHub (`https://github.com/Gbredo.png`), aura neon e status dinâmico.
+    * Ticker / Typewriter rotativo (`useTypewriter`) alternando entre as facetas: `Advogado & Jurista`, `Dev Fullstack`, `Filho da PUC`, `Mestre de RPG desde 2012` e `Criador do Mesas do Breder`.
+    * Storytelling autêntico destacando o encontro entre o rigor normativo do Direito, a engenharia de software da PUC e a paixão pelo Mighty Blade 3e.
+    * **Menção Honrosa aos Primeiros Contribuidores (Print 1):** Badges dedicados para Gabriel Ykaro (`@ScarletYkaro10`), Enzo (`@Enzito03`) e a parceria de programação com IA.
+    * Grid de métricas do projeto (100% canônico, v14 nativo no Foundry, PUC e R$ 0).
+  * **Perguntas Frequentes (`#faq`):** Acordeão interativo Copilot-style com as 6 dúvidas cruciais (Gratuidade vitalícia, Direitos autorais e respeito ao Coisinha Verde, Integração com Foundry VTT v14, Impressão em PDF A4 Clássico, App PWA no celular e Ferramentas Homebrew).
+  * **Animações Fluídas de Scroll:** Compatibilidade total com `.reveal-on-scroll` com suporte a subida e descida reativa.
+
 ---
 
 ## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
@@ -144,3 +157,10 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 
 ### 5. 🌐 Comunidade & Redes: Criação do Subreddit Oficial (`r/MesasDoBreder`)
 * **Objetivo:** Criar a presença no Reddit para divulgação de homebrews, builds da comunidade e notícias do projeto.
+
+### 6. 💰 Planos Financeiros & Tabela de Assinatura (Mestre Pro / Apoiador da Forja) — ⏳ [CONGELADO NO BACKLOG]
+* **Objetivo:** Estruturar futuramente o modelo de sustentabilidade da plataforma mantendo todas as ferramentas essenciais (criação de ficha, cálculo canônico, compêndios e PDF A4) 100% gratuitas para sempre.
+* **Ideias Catalogadas para Validação Futura:**
+  * **Nível Aventureiro (R$ 0 / Gratuito Vitalício):** Personagens ilimitados locais, compêndio oficial completo de regras, exportação para Foundry VTT e ficha clássica A4.
+  * **Nível Mestre Pro / Patrono da Mesa (R$ X / mês):** Sincronização em nuvem multi-dispositivos estendida, templates customizados ilimitados de monstros (Build-a-Beast), compartilhamento de campanhas em tempo real com os jogadores e badge exclusivo de Patrono no Discord.
+  * **Status:** Registrado no backlog conforme alinhamento estratégico; implementação visual na landing page congelada até a conclusão dos quick wins essenciais.
