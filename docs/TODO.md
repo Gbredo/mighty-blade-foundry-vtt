@@ -133,6 +133,22 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 
 ---
 
+### 15. 📄 Paginação de Alta Performance: Habilidades (722), Bestiário e Equipamentos — ✅ [CONCLUÍDO]
+* **Objetivo:** Resolver a sobrecarga visual e cognitiva de centenas de registros renderizados de uma só vez (reclamado nos testes com as 722 habilidades), permitindo navegação fluída, ágil e customizável.
+* **Implementação Realizada:**
+  * **Componente Modular `Paginacao.tsx` (`paginacao.css`):**
+    * Controles de página: `Primeira (⏮)`, `Anterior (◀)`, botões numéricos com janela inteligente de elipses (`1 ... 4 5 6 ... 46`), `Próxima (▶)` e `Última (⏭)`.
+    * **Seletor de Itens por Página:** Opções de `16 por página (Padrão 4x4)`, `32 por página`, `64 por página` e `Ver Todos (100%)` para quem deseja a lista completa sem paginação.
+    * **Persistência de Preferência:** Armazenamento automático da escolha de itens por página no `localStorage` (`mb_compendio_hab_por_pagina`, `mb_compendio_monstros_por_pagina`, `mb_compendio_equip_por_pagina`).
+    * **Resete Reativo:** Resete automático para a página 1 ao digitar na busca ou alterar filtros.
+    * **Scroll Suave:** Rola suavemente para o topo do catálogo ao mudar de página.
+  * **Integração nas 3 Páginas de Compêndio:**
+    * `Habilidades.tsx`: Paginação tanto na visão em Grid de Cards quanto na Tabela detalhada.
+    * `Monstros.tsx`: Paginação no Bestiário (Cards de monstros e Tabela tática).
+    * `Equipamentos.tsx`: Paginação no Arsenal (Grid e Tabela) e no catálogo de Ingredientes Alquímicos.
+
+---
+
 ## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
 
 ### 1. 📐 Triagem & Filtro das 33 Anotações do Excalidraw
