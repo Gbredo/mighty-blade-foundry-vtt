@@ -54,6 +54,7 @@ Bem-vindo ao segundo cérebro digital do projeto **Mesas do Breder** e do ecossi
 
 ### 8. 🤝 Sistema Social, Karma & Relacionamentos
 * [[sistema-karma-relacionamentos]] — Arquitetura da Bússola Moral (-100 a +100), Matriz de Relacionamentos e Afinidade, prevenção de conflitos semânticos, gestão de Pastas de Parties e hiperlinks Markdown bidirecionais (`[[Nome]]`).
+* [[tabela-2d6-easter-egg-perfil]] — **Tabela 2d6 do Bredo (Landing Page):** Easter egg gamificado no card de perfil com animação de dados 3D, curva de Gauss de 2 a 12 e títulos dinâmicos.
 
 ---
 
