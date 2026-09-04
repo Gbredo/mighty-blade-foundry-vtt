@@ -147,6 +147,25 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
     * `Monstros.tsx`: Paginação no Bestiário (Cards de monstros e Tabela tática).
     * `Equipamentos.tsx`: Paginação no Arsenal (Grid e Tabela) e no catálogo de Ingredientes Alquímicos.
 
+### 16. 📱 Otimização Mobile DMV-Style e Dock Social Linktree — ✅ [CONCLUÍDO]
+* **Objetivo:** Resolver feedbacks cruciais da comunidade (Miguel Neto / Hunt) sobre usabilidade mobile:
+  * Corrigir o bug de zoom automático e corte lateral no mobile que distorcia o layout da ficha.
+  * Reduzir a fadiga de scroll vertical infinito na escolha de Identidade (Raça, Classe, Antecedente, Caminho).
+  * Adicionar barra social "Lazy Linktree" na Landing Page com botões mock/ativos solicitados no Excalidraw.
+* **Implementação Realizada:**
+  * **Fix de Viewport e Zoom Mobile:**
+    * Atualização da meta tag de viewport para `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />` em `index.html`.
+    * Regra global `@media (max-width: 768px)` com `font-size: 16px !important` em `input, select, textarea` para bloquear o auto-zoom do Safari iOS e Chrome Android.
+    * Contenção de transbordamento horizontal (`overflow-x: hidden`) e suavização no carrossel de passos da ficha.
+  * **Modo Compacto DMV / Nitsoa-Style na Criação de Ficha (`Ficha.tsx` / `ficha.css`):**
+    * Barra de alternância rápida entre `[ 📑 Compacto (DMV) ]` e `[ 🎴 Cards Detalhados ]` com persistência em `localStorage` (`mb_builder_modo_compacto`) e ativação padrão automática em telas menores que 768px.
+    * Painel unificado em grid com selects suspensos para Raça, Classe, Antecedente e Caminho.
+    * Botões rápidos `[ 📖 ]` ao lado de cada select que abrem diretamente os modais ricos de lore e regras sem necessidade de scroll.
+    * Botões canônicos rápidos `♂` e `♀` ao lado do nome do PJ gerando nomes de acordo com a raça e sexo selecionados.
+    * Chips dinâmicos para escolhas raciais (ex: Linhagem Dracônica, Adaptabilidade Humana) e débitos de atributos de antecedentes.
+  * **Dock Social "Lazy Linktree" na Landing Page (`LandingPage.tsx` / `landing.css`):**
+    * 7 botões squircle elegantes com ícones SVG nítidos: Discord (ativo com link oficial do Mighty Blade), Telegram, YouTube, Instagram, X/Twitter, Facebook e Twitch (em modo mock disabled).
+
 ---
 
 ## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
