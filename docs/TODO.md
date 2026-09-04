@@ -1,10 +1,10 @@
 # 📋 Backlog & To-Do List do Projeto — Mesas do Breder
 
-Este documento centraliza as funcionalidades planejadas, melhorias de experiência de usuário (UX) e débitos técnicos priorizados para o ecossistema **Mesas do Breder** e **Mighty Blade 3e**.
+Este documento centraliza as funcionalidades planejadas, melhorias de experiência de usuário (UX), compêndios canônicos e débitos técnicos priorizados para o ecossistema **Mesas do Breder** e **Mighty Blade 3e**.
 
 ---
 
-## 🎯 Próximas Implementações (Prioridade Máxima)
+## 🎯 Implementações Concluídas Recentemente
 
 ### 1. 🧙 Gerador de Nomes: Filtro por Gênero (Masculino / Feminino) — ✅ [CONCLUÍDO]
 * **Objetivo:** Permitir ao usuário escolher gerar nomes especificamente masculinos, femininos ou aleatórios mistos com base na cultura de cada raça.
@@ -24,12 +24,9 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 ---
 
 ### 3. 🏷️ Etiquetas Táticas: Aliado, Neutro e Inimigo — ✅ [CONCLUÍDO]
-* **Objetivo:** Marcação visual clara da postura tática de cada indivíduo, criatura ou facção:
-  * 🟢 **Aliado (Ally):** Integrantes do grupo de heróis, companheiros animais e NPCs parceiros.
-  * ⚪ **Neutro (Neutral):** Criaturas pacíficas, mercadores, plebeus e terceiros.
-  * 🔴 **Inimigo (Enemy / Rival):** Oponentes em combate, monstros hostis e vilões.
+* **Objetivo:** Marcação visual clara da postura tática de cada indivíduo, criatura ou facção (🟢 Aliado, ⚪ Neutro, 🔴 Inimigo).
 * **Implementação Realizada:**
-  * Alternador dinâmico de postura tática `🟢 / ⚪ / 🔴` no card de relacionamento do modal e na sanfona de detalhes da ficha.
+  * Alternador dinâmico de postura tática no card de relacionamento do modal e na sanfona de detalhes da ficha.
 
 ---
 
@@ -38,7 +35,7 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 * **Implementação Realizada:**
   * Slider de -100 (Ódio/Inimizade 👎) a +100 (Amizade/Lealdade 👍) com valor neutro em 0.
   * Seleção dinâmica por categoria: Personagens do Dashboard, Parties/Pastas, Organizações Canônicas de Drakon ou NPCs customizados.
-  * **Prevenção de Conflitos:** Filtro nos selects para alvos já vinculados e bloqueio contra duplicatas (impedindo que um mesmo herói seja amado e odiado simultaneamente).
+  * **Prevenção de Conflitos:** Filtro nos selects para alvos já vinculados e bloqueio contra duplicatas.
 
 ---
 
@@ -46,47 +43,94 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 * **Objetivo:** Rastrear a bússola ética do personagem ao longo da campanha.
 * **Implementação Realizada:**
   * Escala de -100 (Diabólico / Cruel 😈) a +100 (Altruísta / Luminoso 😇).
-  * Botão de acesso rápido no cabeçalho da ficha (`[ 🤝 Karma: +25 😇 | 2 relações ✏️ ]`) e sanfona de visualização em `FichaDetalhe.tsx`.
+  * Slider `.mb-range-slider` em escala completa de 100% a 100%, sem travamentos visuais.
 
 ---
 
 ### 6. 📖 Markdown & Wikilinks Bidirecionais ([[Nome]]) — ✅ [CONCLUÍDO]
 * **Objetivo:** Anotações ricas estilo Obsidian com navegação entre fichas.
 * **Implementação Realizada:**
-  * Componente `MarkdownWikilinks.tsx` com parsing de Markdown (negrito, itálico, listas, código).
-  * Sintaxe `[[Nome]]` converte automaticamente em botões interativos `[ 👤 Nome ]` que abrem a ficha do personagem referenciado, ou `[ 🏛️ Organização ]` para facções canônicas.
-  * Renderização de História/Biografia, Motivação e Anotações na visualização de detalhes da ficha.
+  * Componente `MarkdownWikilinks.tsx` com parsing de Markdown e resolução de `[[Nome]]` em botões interativos para heróis e organizações.
 
 ---
 
-### 7. 🛡️ Prevenção de Fichas Duplicadas no Dashboard — ✅ [CONCLUÍDO]
-* **Objetivo:** Garantir nomes exclusivos para heróis no painel.
+### 7. 🪙 Fluxo de Caixa, Extrato de Moedas & Polimento Visual — ✅ [CONCLUÍDO]
+* **Objetivo:** Gestão financeira de ganhos e gastos com histórico e estorno por `[✕]`.
 * **Implementação Realizada:**
-  * Validação com `personagemStorage.verificarNomeExistente()` no salvamento da ficha e na importação JSON, com alertas claros e amigáveis ao usuário.
+  * Schema canônico `transacaoDinheiroSchema` em `@mighty-blade/rules-core`.
+  * Modal `ModalFluxoCaixa.tsx` com extrato cronológico e estorno com confirmação.
+  * Correção de duplo tooltip e centralização dos cabeçalhos das sanfonas.
 
 ---
 
-## 🎯 Próximas Implementações Priorizadas
-
-### 1. 🔍 Autocomplete Fuzzy Pop-up de `[[` durante a Digitação
-* **Objetivo:** Exibir menu flutuante em tempo real ao digitar `[[` no campo de história e anotações, listando personagens, monstros, magias e organizações para preenchimento com 1 clique (estilo Obsidian / Notion).
-
-### 2. ⚔️ Filtro por Pastas no Rastreador de Encontros & Combate
-* **Objetivo:** Permitir carregar uma party inteira para um encontro de combate com um único clique a partir da pasta do Dashboard.
-
-### 3. 📄 Exportação de Ficha Completa para PDF Oficial A4
-* **Objetivo:** Integrar os campos de Karma, Relacionamentos e Notas Markdown diretamente no gerador de PDF oficial para impressão de mesa.
+### 8. ⚡ Sincronização Atômica de Nível e Telas de Evolução — ✅ [CONCLUÍDO]
+* **Objetivo:** Reset atômico do XP para 0 ao aceitar level up e abertura imediata nos painéis de Habilidades da Classe (esquerda) e Evolução (direita).
+* **Implementação Realizada:**
+  * Persistência assíncrona com `key` dinâmica de remount no `BuilderFicha`.
+  * Efeito festivo de confetes comemorativos (`canvas-confetti`) disparado no aceite da evolução.
 
 ---
 
-## 📦 Backlog Geral do Ecossistema
+### 9. 🎨 Estrutura em Grid de 2 Linhas no Cabeçalho da Ficha — ✅ [CONCLUÍDO]
+* **Objetivo:** Separar ações de sistema (Linha 1: Voltar, Notas, Moedas, Editar, Imprimir) dos atributos vivos de jogo (Linha 2: Nome, Nível, XP, Raça, Classe).
+* **Implementação Realizada:**
+  * Grid CSS dedicado `.ficha-header-grid` contido em 1400px de largura máxima.
+  * Cartão compacto e unificado de Nível e XP com botões de incremento `(-)` `(+)` e círculos dinâmicos de progresso sem quebra de palavras.
 
-### VTT & Foundry
-* [ ] Integrar compêndios compilados do Codex Monstrorum no Foundry v14.
-* [ ] Conectar o motor `@mighty-blade/rules-core` diretamente nos DataModels do Foundry.
-* [ ] Sincronizar tokens e anotações de alinhamento com os novos campos de relacionamento canônicos.
+---
 
-### Construtor de Fichas & Comunidade
-* [ ] Implementar exportação de ficha em PDF oficial A4 incluindo módulo social.
-* [ ] Adicionar suporte a múltiplos companheiros animais para personagens com habilidades específicas.
-* [ ] Sistema de privacidade granular (Fichas Públicas com link compartilhado vs Fichas Privadas de campanha).
+### 10. 📜 Compêndio Canônico Oficial de Drakon & Cassiopéia (Fases 1 a 5) — ✅ [CONCLUÍDO]
+* **Objetivo:** Integrar todo o lore oficial do cenário com links bidirecionais (`[[Wikilinks]]`) e citações canônicas de livros/páginas.
+* **Implementação Realizada:**
+  * **Fase 1 — Cronologia & Linha do Tempo (`cronologia.md`):** Os 3 calendários (Conto das Rochas, Arkanita e Tebryniano), as 5 Eras e a linha de tempo (-3000 a 521).
+  * **Fase 2 — O Reino de Tebryn (`reino-de-tebryn.md`):** Geopolítica, Meritocracia Titular, Moeda Tebryniana, os 11 Condados detalhados e nações vizinhas. Mocks removidos.
+  * **Fase 3 — Personagens & Linhagens (`personagens.md`):** Dinastia Strauss, nobreza regional (Gardóvia/Obrien/Esterlin), heróis históricos e mestres da Academia Argêntea.
+  * **Fase 4 — Organizações & Leis (`organizacoes-leis.md`):** Sistema de justiça com 3 instâncias, Arcontes e Oráculos, Matriz Canônica de Crimes e Penas, e as 13 organizações com sinergias e rivalidades.
+  * **Fase 5 — Conflitos Recentes & Ganchos 521 (`conflitos-ganchos.md`):** Morte de Honório, juventude de Rob van Strauss, crise com anões de Dagothar, guerra fria arkanita, 5 ganchos regionais e Tabela 1d6 de Rumores de Taverna.
+  * **Renderizador Avançado (`LoreRenderer.tsx`):** Preprocessador de Wikilinks para Bestiário, Raças, Classes, Organizações e Glossário extenso, badges flutuantes para referências bibliográficas (`[25]`, `[Guia de Tebryn]`) e suporte completo a tabelas GFM (`remark-gfm`).
+
+---
+
+### 11. 🐾 Compêndio de Criaturas: Monstrum Codex (2012) & Expansões — ✅ [CONCLUÍDO]
+* **Objetivo:** Disponibilizar o bestiário clássico e regras legadas com conectividade total com o Obsidian e o VTT.
+* **Implementação Realizada:**
+  * **Capítulo I a IV:** Animais mundanos com atributos F/A/I/V, monstros dracônicos ([[Canidrako]]), povos inteligentes ([[Ygdrus]], Halflings) e seres artificiais ([[Elementais]] de Fogo/Gelo de Pequeno a Gigante, [[Golens]] de Ferro).
+  * **Capítulo V — Seres Sobrenaturais:** [[Cão Infernal]] (Pequeno e Grande), [[Espectro Perdido]] e a bruxa necromante [[Gubaba, A Yaga]] (80 PV, 200 PM).
+  * **Capítulo VI — O Codex Extra de Criaturas:** [[Golem de Lama]] e [[Golem de Madeira]] (Pequeno a Colossal) e o **Modelo Matemático de Zumbificação** (-1 Agi, -1 Int, -10 PV/PM, Imunidade a Frio, Mente Vazia, Corpo Amórfico) com o [[Cão Mastim Zumbi]].
+  * **Capítulo VII — Variações do Codex Monstrorum (2022):** O [[Leão]] resgatado (Ameaça 2, pág. 94) e tabela de variações biológicas (Lince, Caracal, Víbora, Orca, Pégaso, Hipoalectrion, Rena, Salamandra, Yaguaro).
+
+---
+
+### 12. 🎲 Foundry VTT v14: Manuais Oficiais & Arquitetura Obsidian Bases (Item 1/33 Excalidraw) — ✅ [CONCLUÍDO]
+* **Objetivo:** Estabelecer a documentação técnica definitiva e canônica do sistema Mighty Blade 3.5 para Foundry VTT v14, estruturada no padrão **Obsidian Bases** (YAML Frontmatter tipado) e conectada por links bidirecionais (`[[...]]`).
+* **Implementação Realizada:**
+  * **Manual do Sistema (`manual-do-sistema.md`):** Guia completo de regras e operação em mesa virtual (Atores `character` e `npc`, 9 tipos de Itens, rolagens de dados $X\text{d6}$, iniciativa $2\text{d6} + \max(\text{Agi}, \text{Int})$, defesas ativas triplas, cálculo de carga e importador 1-clique de JSON canônico do site).
+  * **Manual Técnico de Engenharia (`manual-tecnico.md`):** Guia aprofundado para o mantenedor (Guilherme Breder) detalhando manifesto `system.json`, DataModels tipados (`TypeDataModel`), concessões automáticas em `MightyBladeActor`, pipeline ClassicLevel/LevelDB para compilação dos compêndios (`scripts/import_all.mjs`), compilação SASS, testes locais no Foundry v14 e checklist de releases.
+  * **Sincronização Bidirecional:** Arquivos criados e sincronizados tanto em `mighty-blade-foundry-vtt/docs/` quanto em `MightyBlade3eWebsite/docs/obsidian/`, com MOCs e grafos Mermaid atualizados em `Home.md`.
+
+---
+
+## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
+
+### 1. 📐 Triagem & Filtro das 33 Anotações do Excalidraw
+* **Objetivo:** Revisar as 33 anotações pendentes da prancheta do Excalidraw para:
+  * Separar o que é essencial para o VTT do que é secundário/ideia futura.
+  * Eliminar redundâncias com as mecânicas já concluídas no site.
+  * Estruturar um backlog limpo e priorizado por valor de entrega.
+
+### 2. 🌌 Pesquisa & Aplicação dos Guias Obsidian TTRPG
+* **Links de Referência:**
+  * [Obsidian Hub (Official Community)](https://publish.obsidian.md/hub/00+-+Start+here)
+  * [Obsidian TTRPG Tutorials (Josh Plunkett)](https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Obsidian+TTRPG+Tutorials)
+* **Objetivo:** Avaliar plugins e padrões arquiteturais da comunidade Obsidian (Dataview, Fantasy Statblocks, Leaflet para mapas, Canvas para árvores de NPCs) para turbinar o cofre do mestre e aproveitar padrões para o simulador web e o VTT.
+
+### 3. ⚔️ Filtro Avançado de Equipamentos
+* **Objetivo:** Atender à solicitação do Roadmap:
+  * Ordenação dinâmica por **Dano Total Somado** (Dano base da arma + modificador de atributo da ficha).
+  * Segregação tática clara entre **Armas de Combate** (Corpo a Corpo, À Distância, Hastes) e **Ferramentas de Ofício / Kits de Aventura**.
+
+### 4. 🔍 Autocomplete Fuzzy Pop-up de `[[` durante a Digitação
+* **Objetivo:** Exibir menu flutuante instantâneo ao digitar `[[` nos campos de História e Anotações da ficha, sugerindo nomes de personagens, monstros, perícias e facções com preenchimento em 1 clique.
+
+### 5. 🌐 Comunidade & Redes: Criação do Subreddit Oficial (`r/MesasDoBreder`)
+* **Objetivo:** Criar a presença no Reddit para divulgação de homebrews, builds da comunidade e notícias do projeto.

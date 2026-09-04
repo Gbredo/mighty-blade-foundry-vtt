@@ -28,6 +28,8 @@ Bem-vindo ao segundo cérebro digital do projeto **Mesas do Breder** e do ecossi
 ---
 
 ### 4. 🎲 Foundry Virtual Tabletop (v14+)
+* [[manual-do-sistema]] — **Manual Oficial do Sistema:** Fichas de heróis e NPCs, rolagens ($X\text{d6}$), defesas ativas, cálculo de carga e importador 1-clique do Web App.
+* [[manual-tecnico]] — **Manual Técnico de Engenharia:** Arquitetura interna, DataModels tipados (`TypeDataModel`), pipeline de compêndios LevelDB (`ClassicLevel`), compilação SASS e guia de manutenção/releases.
 * [[foundry-v14-architecture]] — Arquitetura de sistemas modernos para **Foundry VTT v14**, ciclo de vida de Sheets, automação de dados e empacotamento de LevelDB.
 * Repositório oficial do sistema VTT: `https://github.com/Gbredo/mighty-blade-foundry-vtt`.
 
