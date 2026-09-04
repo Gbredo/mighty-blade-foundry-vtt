@@ -110,6 +110,16 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
 
 ---
 
+### 13. 📱 Estratégia Mobile: PWA, Android (Google Play) & iOS no Backlog (Item 2/33 Excalidraw) — ✅ [CONCLUÍDO]
+* **Objetivo:** Definir e registrar as diretrizes arquiteturais, financeiras e educacionais para a presença móvel da plataforma Mesas do Breder.
+* **Implementação Realizada:**
+  * **Documentação Oficial (`estrategia-mobile-pwa-android.md`):** Mapeamento comparativo das lojas (Google Play taxa única US$ 25 vitalícia vs Apple App Store US$ 99 anuais + exigência de Mac físico).
+  * **Arquitetura Anti-Duplicação:** Decisão técnica de não reescrever o sistema em Kotlin nativo; uso de **PWA (Progressive Web App)** imediato com custo zero (botão nativo de instalação e modo offline em Android e iOS) e empacotamento com **Capacitor / TWA** para publicação do `.aab` no Google Play Console.
+  * **Sinergia Acadêmica com a PUC:** Orientação para focar a matéria de Kotlin em microsserviços/apps utilitários (Rolador 3d6 e Calculadora de Recursos) sem sobrecarregar o monorepo principal.
+  * **Sincronização Bidirecional:** Documento espelhado em ambos os repositórios com MOCs atualizados em `Home.md`.
+
+---
+
 ## 🎯 Próximas Implementações Priorizadas (Próxima Sessão)
 
 ### 1. 📐 Triagem & Filtro das 33 Anotações do Excalidraw

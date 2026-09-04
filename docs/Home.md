@@ -46,8 +46,9 @@ Bem-vindo ao segundo cérebro digital do projeto **Mesas do Breder** e do ecossi
 
 ---
 
-### 7. 💼 Estratégia de Negócio, Monetização & LGPD
+### 7. 💼 Estratégia de Negócio, Monetização, Mobile & LGPD
 * [[estrategia-de-negocio-e-lgpd]] — Registro de software e marca no INPI, conformidade com a LGPD (Lei nº 13.709/2018), modelo de monetização ética (Tier Free, Mestre Premium, "Faça Seu Jogo / Me Contrate") e proteção de propriedade intelectual.
+* [[estrategia-mobile-pwa-android]] — **Estratégia Mobile (Item 2/33 Excalidraw):** PWA instantâneo (Android & iOS via Safari), publicação Google Play (Capacitor/TWA), iOS congelado no backlog e sinergia acadêmica com Kotlin na PUC.
 
 ---
 
