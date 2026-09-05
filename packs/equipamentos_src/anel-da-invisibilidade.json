@@ -1,0 +1,20 @@
+{
+  "name": "Anel da Invisibilidade",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 2500,
+    "description": "<p>Um anel simples de prata que, quando colocado no dedo de uma criatura, a torna – assim como todas as suas posses - invisível.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "anel-da-invisibilidade",
+      "categoria": "Especial"
+    }
+  }
+}

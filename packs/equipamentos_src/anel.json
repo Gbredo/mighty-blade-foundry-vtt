@@ -1,0 +1,20 @@
+{
+  "name": "Anel",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Tira de metal para ser usada ao redor de um dedo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "anel",
+      "categoria": "Mundano"
+    }
+  }
+}

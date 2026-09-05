@@ -1,0 +1,18 @@
+{
+  "name": "Maldição da Cegueira",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 45,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>alvo Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela se torne incapaz de ver. Seus olhos ficam leitosos e sem cor, e a vítima fica cega. Esse Símbolo Profano dura um número de horas igual à sua Determinação. Este é considerado um efeito de dreno de energia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "maldicao-da-cegueira",
+      "tipo": "Acao"
+    }
+  }
+}

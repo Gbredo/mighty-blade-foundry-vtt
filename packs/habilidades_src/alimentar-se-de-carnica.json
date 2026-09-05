@@ -1,0 +1,31 @@
+{
+  "name": "Alimentar-se de Carniça",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Gnoll",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "resistencia",
+        "dano": "veneno",
+        "grau": "imune"
+      }
+    ],
+    "description": "<p>Você possui um sistema digestivo formidável, capaz de processar matéria orgânica em decomposição. Você é imune a venenos e doenças naturais transmitidos por ingestão, e recupera o dobro de Pontos de Vida e Mana por repouso se consumir carne podre ou carniça antes de descansar.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "alimentar-se-de-carnica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

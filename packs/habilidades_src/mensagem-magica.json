@@ -1,0 +1,25 @@
+{
+  "name": "Mensagem Mágica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Erudito",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que escrever em um item com a Característica Registro, você pode fazer com que o texto que está escrevendo apareça em quaisquer outros itens com a Característica Registro que possuam sua Runa ou Selo pessoais, à sua escolha quando escreve a mensagem. Se o item não possuir espaço para o texto que você está escrevendo, o texto irá aparecer até onde for possível. Além de escrita, desenhos podem ser enviados dessa forma, mas não é possível transferir Magias com uma Mensagem Mágica. A escrita é permanente tanto no item no qual você está escrevendo quanto nos itens que estão recebendo a mensagem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mensagem-magica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

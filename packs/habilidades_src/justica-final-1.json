@@ -1,0 +1,25 @@
+{
+  "name": "Justiça Final 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 25,
+    "dificuldade": 0,
+    "requisitos": "Código da Justiça",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um demônio, morto-vivo ou espírito.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "justica-final-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

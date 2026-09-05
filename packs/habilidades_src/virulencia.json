@@ -1,0 +1,25 @@
+{
+  "name": "Virulência",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Pacto da Pestilência",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua presença diminui a imunidade das criaturas vivas ao redor. Todas as criaturas vivas a uma quantidade de metros igual à sua Determinação ao seu redor fazem seus testes para resistir a infecções e aos efeitos de doenças e venenos como se fossem Inaptas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "virulencia",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

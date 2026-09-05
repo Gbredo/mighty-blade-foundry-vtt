@@ -1,0 +1,20 @@
+{
+  "name": "Quarto grande para oito pessoas",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 40,
+    "description": "<p>Preço da Diária. Igual ao quarto grande, mas com quatro camas, uma mesa com quatro cadeiras e uma sala com latrina e tina de banho separada.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "quarto-grande-para-oito-pessoas",
+      "categoria": "Mundano"
+    }
+  }
+}

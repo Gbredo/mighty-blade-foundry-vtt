@@ -1,0 +1,20 @@
+{
+  "name": "Pena",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Pena usada para escrever.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pena",
+      "categoria": "Mundano"
+    }
+  }
+}

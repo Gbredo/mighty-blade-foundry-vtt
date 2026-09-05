@@ -1,0 +1,18 @@
+{
+  "name": "Bafo do Dragão Negro",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 25,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Dificuldade da magia: 11 Desenhando um Selo Místico no ar, você projeta uma rajada de fumaça que se espalha rapidamente por uma área igual à sua Determinação à sua frente. Todas as criaturas ficam cegas e distraídas e são consideradas Invisíveis enquanto estiverem dentro da área. Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a fumaça dura por 1 minuto – metade disso em climas quentes ou o dobro disso em climas frios. Ventos intensos dissipam a neblina mais rapidamente, dependendo da sua intensidade – a critério do Mestre.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bafo-do-dragao-negro",
+      "tipo": "Acao"
+    }
+  }
+}

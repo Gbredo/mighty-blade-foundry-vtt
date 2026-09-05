@@ -1,0 +1,18 @@
+{
+  "name": "Invocar Espectro",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>do Alvo Desenhando uma Runa Arcana sobre uma Sombra, você a transforma</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-espectro",
+      "tipo": "Acao"
+    }
+  }
+}

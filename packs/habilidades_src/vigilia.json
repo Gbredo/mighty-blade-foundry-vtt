@@ -1,0 +1,25 @@
+{
+  "name": "Vigília",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está sempre atento e preparado para qualquer coisa. Você rola +1d6 em seus testes de percepção e de iniciativa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vigilia",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Flecha Farpada",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Causa o mesmo dano ao ser removida + sangramento de metade do dano por 3 turnos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flecha-farpada",
+      "categoria": "Municao"
+    }
+  }
+}

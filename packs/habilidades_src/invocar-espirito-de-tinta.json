@@ -1,0 +1,25 @@
+{
+  "name": "Invocar Espírito de Tinta",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Tribal de Proteção",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você tem uma tatuagem que representa seu espírito animal. Enquanto esta tatuagem estiver visível, você pode invocar 1 espírito animal a partir dela. Esse espírito tem a forma do animal tatuado, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades apropriadas ao animal, todos os Espíritos Animais têm Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Corte, Perfuração ou Esmagamento – o que for mais apropriado, de acordo com os ataques do animal – e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana e são sempre Bestas do tipo Espírito com o temperamento Servo. Essa magia dura 1 minuto ou até o animal espectral ser destruído. Especial: Se você tiver a Habilidade Espírito Animal (veja o Guia Básico página 169 para detalhes) os seus bônus serão aplicados aos espíritos invocados com esta Habilidade. Espírito Animal: Águia garante um bônus de +1 nos ataques corporais de espíritos invocados, ao invés do bônus normal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-espirito-de-tinta",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

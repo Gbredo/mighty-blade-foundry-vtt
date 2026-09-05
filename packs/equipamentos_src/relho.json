@@ -1,0 +1,26 @@
+{
+  "name": "Relho",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+1",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "relho",
+      "categoria": "Arma"
+    }
+  }
+}

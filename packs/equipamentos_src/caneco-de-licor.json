@@ -1,0 +1,20 @@
+{
+  "name": "Caneco de Licor",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 7,
+    "description": "<p>Qualquer bebida destilada de boa qualidade</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "caneco-de-licor",
+      "categoria": "Servico"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Passagem Especial",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Preço por dia de viagem. Como acima, mas você vai em uma carroça mais confortável e com poucas pessoas. Sua tenda é providenciada pela organização da caravana, normalmente dividida com outra pessoa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "passagem-especial",
+      "categoria": "Servico"
+    }
+  }
+}

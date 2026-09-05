@@ -1,0 +1,18 @@
+{
+  "name": "Invocar Elemental do Fogo 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental do</p><p>Fogo 1 Descrição: Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo grande custa 50 Pontos de Mana e um elemental do fogo gigante custa 100 Pontos de Mana. A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-elemental-do-fogo-2",
+      "tipo": "Acao"
+    }
+  }
+}

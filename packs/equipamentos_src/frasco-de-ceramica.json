@@ -1,0 +1,20 @@
+{
+  "name": "Frasco de Cerâmica",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Frasco de cerâmica para poções. Comporta 100 ml de líquido.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "frasco-de-ceramica",
+      "categoria": "Mundano"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Orc",
+  "type": "raca",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "atributos": {
+      "forca": 4,
+      "agilidade": 3,
+      "inteligencia": 2,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Sangue Orc",
+      "descricao": "+10 Pontos de Vida. Visão na completa escuridão (sem distinguir cores).",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "sangue-orc"
+      }
+    ],
+    "classesComuns": "Druida, Guerreiro, Patrulheiro e Xamã",
+    "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (12 anos) · Idoso (30(6) anos) · Ancião (60(1) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de compleição física muito muscular e hábitos predatórios, medindo em média entre 1,7 e 1,9 metros e pesando entre 90 e 110 quilos. Sua característica mais notável são os grandes caninos maxilares, extremamente afiados e proeminentes, montados sobre uma estrutura óssea craniana muito forte. Graças ao sangue orc e seus hábitos noturnos, conseguem enxergar na completa escuridão, embora não consigam distinguir cores nesse ambiente.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do verde oliva ao castanho. O corpo possui uma pelagem negra grossa e esparsa, sendo mais densa no topo da cabeça e ao longo da coluna.</li><br><li><strong>Olhos:</strong> As pupilas são amarelas, variando de muito brilhantes até tão opacas e brancas que muitas vezes apenas a íris do olho é perceptível.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem pelos no pescoço e sob o rosto (uma espécie de barba). As fêmeas são distinguidas por não possuírem esses pelos faciais e cervicais, além de apresentarem um par de mamas que variam de pequenas a grandes.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das fêmeas dura de sete a oito meses e os Orcs são considerados adultos com apenas 12 anos. Os sinais da velhice, marcados pela perda de pigmentação do cabelo e da pele, surgem aos 30 anos. É muito raro um orc passar dos 60 anos, embora surpreendentemente a raça quase não perca tônus muscular em idades avançadas.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativos principalmente das Terras Secas, organizam-se em pequenas tribos nômades com hierarquia baseada na força bruta. Têm poucas cidades permanentes, construindo seus assentamentos sobre as ruínas de antigas civilizações (principalmente nas ruínas de Mankosh). Respeitam imensamente a força e o poder individual; a magia é temida e respeitada, mas o \"conhecimento\" e estudo intelectual puros são renegados aos fisicamente inaptos (o que ironicamente permite que orcs mais fracos ascendam socialmente usando magia e sabedoria).</li><br><li><strong>Sistema de Castas:</strong> O topo é liderado por um Xamã, Druida ou Guerreiro experiente com seus irmãos-de-armas (filhos e guarda-costas). Abaixo ficam os caçadores, guerreiros e acólitos; seguidos pelos pastores, ferreiros e artesãos; e na base, os aprendizes, prisioneiros e escravos. Os membros podem desafiar seus superiores para subir de patente. Derrotados descem um degrau, e as lutas não precisam ser até a morte, a não ser que os desafiantes sejam escravos em busca de liberdade, que são invariavelmente mortos se perderem.</li><br><li><strong>O Papel Feminino:</strong> A sociedade é estritamente igualitária e as fêmeas assumem e disputam qualquer cargo. A única regra é que as grávidas e as fêmeas com filhotes pequenos são temporariamente afastadas das atividades da tribo e não podem ser desafiadas por castas inferiores até o desmame das crianças.</li><br><li><strong>Orcs Civilizados:</strong> Aqueles orcs que abandonam o nomadismo e se fixam em reinos como Arkânia ou Parband são integrados de forma muito eficiente, geralmente ingressando nas fileiras militares e da guarda do reino, já que encontram dificuldades em competir nas fileiras acadêmicas e políticas.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Orcs é o Ravorka, um idioma cru, agressivo e difícil que não possui uma versão escrita própria, e que é falado também por Ogros e Trolls. O idioma de referência no mundo real para os Orcs é a língua Bielorrussa. Os nomes Orcs são curtos, contendo uma ou duas sílabas, e dão extrema preferência às consoantes velares como o “K”, “G” e “RR” (sendo que qualquer “R” no início de um nome tem sempre som de \"RR\"). As fêmeas diferenciam-se dos machos porque seus nomes sempre terminam com a letra \"A\". Nas Terras Secas, os Orcs usam puramente os nomes de seus Clãs como sobrenome. Já os orcs que vivem em Parband e Arkânia costumam adotar as mesmas regras de nomes Astérios, identificando-se através da sua organização e patente militar (Ex: \"Legionário Stog da Armada da Aurora\", ou \"Ura do Templo de Ahogr\").</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Agro, Bugmug, Falag, Gog, Gograk, Grigkal, Grimthark, Grishog<br><b>Femininos:</b> Aga, Agra, Agrunta, Darga, Drakena, Falanga, Gralnaka, Grika</div>\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "orc"
+    }
+  }
+}

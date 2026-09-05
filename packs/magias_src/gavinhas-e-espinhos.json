@@ -1,0 +1,18 @@
+{
+  "name": "Gavinhas e Espinhos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 25,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Entrelaçar, Rajada</p><p>de Espinhos Desenhando um Selo Místico sobre o solo você faz com que plantas espinhosas comecem a brotar e agarrem um alvo que esteja com os pés no chão. O alvo fica com Deslocamento 0, é considerado Desprevenido e sofre uma quantidade de dano igual a 10/Perfuração. Para se soltar ele (ou outro personagem) deve passar uma quantidade de turnos igual à sua Vontade cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador). Toda vez que ataca as plantas ou fracassa no teste de Força, o alvo sofre dano igual a 10/Perfuração. As plantas murcham e se desfazem após 1 minuto. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "gavinhas-e-espinhos",
+      "tipo": "Acao"
+    }
+  }
+}

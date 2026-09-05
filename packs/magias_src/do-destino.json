@@ -1,0 +1,18 @@
+{
+  "name": "do Destino",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Exorcismo</p><p>Você desenha um Selo Místico no ar que assume a forma de uma lança de luz. A lança arremete na direção de um alvo que você possa ver e causa dano igual a 10/Perfuração. Se a criatura for um demônio, morto-vivo ou espírito a lança causa o dobro do dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à sua Determinação) ou fica Distraído por 1 turno (ver Condições, pág. 169). Demônios, mortos-vivos ou espíritos não têm direito ao teste para evitar ficarem Distraídos. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "do-destino",
+      "tipo": "Acao"
+    }
+  }
+}

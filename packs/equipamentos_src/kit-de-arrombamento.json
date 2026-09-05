@@ -1,0 +1,20 @@
+{
+  "name": "Kit de Arrombamento",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.4,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Bainha com varias gazuas. Necessário para arrombar fechaduras.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "kit-de-arrombamento",
+      "categoria": "Mundano"
+    }
+  }
+}

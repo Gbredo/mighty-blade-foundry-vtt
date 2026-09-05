@@ -1,0 +1,25 @@
+{
+  "name": "Coração da Batalha",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando sofrer algum dano proveniente de um ataque, Magia, ou Música você recupera 5 Pontos de Mana. Você só pode usar esta Habilidade uma vez por turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coracao-da-batalha",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

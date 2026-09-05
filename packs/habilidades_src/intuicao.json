@@ -1,0 +1,25 @@
+{
+  "name": "Intuição",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Exceto Astério, Exceto Astéria",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu instinto prevê perigos. Você usa sua Vontade ao invés de Agilidade para calcular sua Iniciativa e seu bônus básico de Esquiva. Além disso, recebe um bônus estático de +2 em testes de Iniciativa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "intuicao",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

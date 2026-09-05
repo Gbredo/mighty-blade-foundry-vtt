@@ -1,0 +1,25 @@
+{
+  "name": "Olhar de Virzú",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Pacto da Tirania",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que uma criatura viva fitar você nos olhos, você pode invocar a majestade de Virzú para subjugar a vontade do alvo. Enquanto fitar o alvo nos olhos, ele não pode se mover, ficando paralisado. Você pode manter esse efeito por tanto tempo quanto quiser, desde que se mantenha fitando o alvo e não realize qualquer ação padrão – você ainda pode usar ações livres e ações de movimento, desde que continue sempre fitando o alvo. Este efeito também é dissipado imediatamente se você ou o alvo sofrerem dano. Especial: Lutar contra uma criatura sem fitá-la faz com que a Defesa base do alvo tenha um acréscimo de +4 contra seus ataques, e a dificuldade de conjurar magias contra ele tem sua Dificuldade aumentada em 2. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "olhar-de-virzu",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

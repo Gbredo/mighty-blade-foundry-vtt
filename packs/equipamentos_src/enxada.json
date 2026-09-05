@@ -1,0 +1,29 @@
+{
+  "name": "Enxada",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Corte",
+      "Contusao"
+    ],
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1.5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Ferramenta clássica de lavoura adaptada para golpes descendentes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "enxada",
+      "categoria": "Arma"
+    }
+  }
+}

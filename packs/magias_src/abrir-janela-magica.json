@@ -1,0 +1,18 @@
+{
+  "name": "Abrir Janela Mágica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Janela Mágica</p><p>Desenhando um Selo Místico sobre uma Janela Mágica, você cria uma segunda Janela Mágica diretamente a frente da criatura, objeto ou superfície que você estiver observando, efetivamente criando um canal de comunicação em tempo real. Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "abrir-janela-magica",
+      "tipo": "Acao"
+    }
+  }
+}

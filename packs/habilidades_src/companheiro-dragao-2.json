@@ -1,0 +1,25 @@
+{
+  "name": "Companheiro Dragão 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Companheiro Dragão 1.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode transmutar seu ovo em um pequeno Dragão. Você possui um contato telepático com o</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "companheiro-dragao-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

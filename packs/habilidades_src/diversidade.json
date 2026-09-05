@@ -1,0 +1,25 @@
+{
+  "name": "Diversidade",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Humano",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você expandiu seus talentos em múltiplas áreas. Escolha um Atributo diferente do selecionado na habilidade Adaptabilidade; você ganha permanentemente +1 nesse Atributo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "diversidade",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

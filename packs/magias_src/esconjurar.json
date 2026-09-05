@@ -1,0 +1,18 @@
+{
+  "name": "Esconjurar",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura, você desfaz quaisquer ligações sobrenaturais que ela possua. Se a criatura estiver sendo controlada, o controlador do alvo imediatamente perde 10 Pontos de Mana e fica Atordoada por um número de turnos igual à sua Vontade. Se o alvo for um elemental, infernal, deva, espírito ou criatura invocada, ela é imediatamente banida para seu plano de origem. Se for uma criatura convocada, ela retorna ao seu comportamento normal – geralmente fugindo em confusão. Se o alvo for um construto, todos os Selos Místicos e Runas Arcanas sobre ele são dissipados. Se o alvo for um morto-vivo, ele se torna um cadáver inanimado e não pode mais ser reanimado. A dificuldade desta magia é igual à Determinação da criatura OU da criatura controlando o alvo, se ele estiver sendo controlado. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "esconjurar",
+      "tipo": "Acao"
+    }
+  }
+}

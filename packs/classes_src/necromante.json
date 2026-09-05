@@ -1,0 +1,30 @@
+{
+  "name": "Necromante",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "conhecimento-arcano"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><p>Necromantes geralmente estão rodeados de objetos que lembram a morte, e são particularmente afeitos de locais considerados sombrios – como cemitérios, tumbas e necrotérios – onde realizam suas pesquisas e por vezes adquirem matéria prima para experiências. A maioria deles também costuma trabalhar e viver isolada de outras criaturas vivas, às vezes por opção, às vezes por necessidade, às vezes por imposição. Devido a essas características, Necromantes são mal vistos como frios, egoístas e geralmente, malignos – e, de fato, muitos Necromantes demonstram essas características. O poder que as energias necromânticas fornecem é certamente sedutor e, para a maioria, corruptor, já que oferece uma grande quantidade de possibilidades para manipular, destruir e distorcer, o que pode tornar seus usuários insensíveis ou até mesmo cruéis. Por outro lado, porém, um bom número de Necromantes de dedica à preservação dos locais onde os mortos repousam, não permitindo que essas mesmas forças que controlam corrompam tais locais, e muitos deles se tornam estudiosos dos mortos-vivos e espíritos no intuito de combatê-los com mais eficiência.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-arcano, absorver-alma, aparar-magia, armadura-necromantica, comunhao-com-espiritos, condenar-o-corpo, condenar-a-alma, contato-com-espiritos, controlar-mortos-vivos, cranio-sentinela, cura-sombria, despertar-dos-mortos-1, detectar-magia, energia-sombria-1, esconjurar, invocar-espectro, sustentar-mortos-vivos, transferencia-espiritual, aptidao-necromantica, caminhada-fantasma, lanterna-dos-mortos, mente-disciplinada, protecao-cadaverica, dissipar-magia, encarnar-espirito, cranio-guardiao, despertar-dos-mortos-2, bloqueio-necromantico, energia-sombria-2, imunidade-espiritual, resistencia-dos-mortos, resistencia-necromantica, necromanto, sabedoria-sobrenatural\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "necromante",
+      "conjurador": true
+    }
+  }
+}

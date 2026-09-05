@@ -1,0 +1,18 @@
+{
+  "name": "Aparência Ilusória",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre um Humanóide, você pode modificar quaisquer características da aparência do alvo (raça, gênero, constituição, etc.) incluindo suas roupas, mas não seu tamanho relativo (um Metadílio não poderia se parecer com um Humano, nem um Elfo com um Mahok, por exemplo). Para copiar a aparência de alguém específico você precisa estar olhando para o alvo. A Runa Arcana dura até que a criatura afetada durma, mas se dissipa imediatamente se ela sofrer qualquer dano.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aparencia-ilusoria",
+      "tipo": "Acao"
+    }
+  }
+}

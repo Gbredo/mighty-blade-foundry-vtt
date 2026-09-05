@@ -1,0 +1,18 @@
+{
+  "name": "Enfeitiçar Armadura",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre uma armadura ou vestimenta, você aumenta o bônus de defesa do item em +1 (ou confere +1 de Armadura para uma peça de roupa comum). Essa Runa Arcana dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "enfeiticar-armadura",
+      "tipo": "Acao"
+    }
+  }
+}

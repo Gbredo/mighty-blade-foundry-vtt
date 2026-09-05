@@ -1,0 +1,20 @@
+{
+  "name": "Carroça",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Carroças são normalmente usadas para transportar pessoas, além do banco frontal, na parte interna ela tem mais dois bancos. Capaz de transportar 8 pessoas. Deve ser puxada por dois cavalos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carroca",
+      "categoria": "Montaria"
+    }
+  }
+}

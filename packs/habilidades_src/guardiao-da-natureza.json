@@ -1,0 +1,25 @@
+{
+  "name": "Guardião da Natureza",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Forma Animal 2",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua capacidade de assumir a forma de um animal permite que você se transforme em qualquer Besta dos tipos Mamífero, Ave, Réptil ou Peixe de qualquer tamanho. O custo de Mana e a Dificuldade de qualquer Habilidade relacionada a animais também são reduzidos à metade – Transformar-se em qualquer Besta maior do que 3 metros consome 20 pontos de Mana. Finalmente, todas as habilidades de assumir formas animais passam a ter duração permanente – mas você pode cancelar seus efeitos a qualquer mo-</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guardiao-da-natureza",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

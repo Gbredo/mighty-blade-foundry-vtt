@@ -1,0 +1,25 @@
+{
+  "name": "Contra-Carga",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que você estiver empunhando uma arma de haste e um adversário realizar uma manobra de encontrão contra você, considere que Manter a Linha causa um dano extra igual à FN da arma que você estiver empunhando e, se o ataque acertar, o alvo deve ser bem sucedido em um teste de Força (dificuldade igual à sua Determinação mais a FN da arma que você estiver utilizando) ou fica Paralisado (Veja Condições na página 169 do Guia Básico) por 1 turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "contra-carga",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

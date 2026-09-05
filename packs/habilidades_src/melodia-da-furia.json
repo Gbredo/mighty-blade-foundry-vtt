@@ -1,0 +1,25 @@
+{
+  "name": "Melodia da Fúria",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Melodia Dançante",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você toca um ritmo primitivo, que faz com que todos os Humanoides que o escutem sintam seus instintos mais violentos aflorarem. Todos os Humanoides capazes de escutar essa canção desferem seus ataques com mais selvageria, causando +5 de dano, mas sofrendo um redutor de -2 em sua Defesa enquanto você continuar a tocar essa música. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-da-furia",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

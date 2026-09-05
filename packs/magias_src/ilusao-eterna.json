@@ -1,0 +1,18 @@
+{
+  "name": "Ilusão Eterna",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 100,
+    "dificuldade": 16,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 10, Ilusão Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, ela passa a ter duração permanente e você não precisa manter contato visual para que ela continue ativa. Além disso, ela não se dissipa sob condições em que isso normalmente aconteceria (como alguém sob efeito de Aparência Ilusória sofrer dano, por exemplo). O conjurador pode dissipar a ilusão a qualquer momento ou adicionar uma condição para que ela se dissipe (uma frase, uma conjunção astral, um prazo, etc.).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ilusao-eterna",
+      "tipo": "Acao"
+    }
+  }
+}

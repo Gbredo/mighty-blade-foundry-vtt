@@ -1,0 +1,18 @@
+{
+  "name": "Cariátide",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p>Você pode dar movimentos para uma estátua desenhando um Selo Místico sobre ela. A estátua precisa ter uma forma aproximadamente humanoide e toda feita de um mesmo material. O custo da magia depende do tamanho da estátua: 20 Pontos de Mana para uma estátua pequena, 40 Pontos de Mana para uma estátua média e 80 Pontos de Mana para uma estátua grande. A estátua terá as características de um Golem do material e tamanho apropriados. Esse Selo Místico dura 1 Minuto. Veja os dados dos Golens no Monstrum Codex para mais detalhes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cariatide",
+      "tipo": "Acao"
+    }
+  }
+}

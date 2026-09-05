@@ -1,0 +1,25 @@
+{
+  "name": "Ataque Simultâneo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Combate em Grupo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a lutar em grupo e sabe como abrir a guarda de um adversário para que seus aliados possam atingi-lo. Faça um ataque corporal contra um oponente. Se acertar, todos aliados que estiverem adjacentes ao mesmo oponente poderão fazer um ataque corporal normal contra ele imediatamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-simultaneo",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

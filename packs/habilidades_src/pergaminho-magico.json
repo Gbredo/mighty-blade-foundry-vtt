@@ -1,0 +1,25 @@
+{
+  "name": "Pergaminho Mágico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Escrivão Mágico",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode registrar uma magia em um pergaminho, papiro, ou tecido, como se o item possuísse a Característica Registro. Qualquer um que seja capaz de ler o texto pode utilizar a magia contida no pergaminho sem qualquer teste - mas ele ainda precisa fornecer o Mana necessário - com uma ação de rodada completa. Assim que a magia é conjurada, ela é imediatamente apagada do pergaminho - o item permanece inalterado, mas o texto registrado se dissipa. Habilidades ou itens que alteram propriedades de uma Magia não têm efeito na magia a ser registrada no pergaminho e nem têm efeito sobre uma Magia conjurada a partir do pergaminho.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pergaminho-magico",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

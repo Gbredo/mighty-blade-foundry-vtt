@@ -1,0 +1,30 @@
+{
+  "name": "Artavus",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+4",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "Canalizador",
+      "CerneArcano"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 25,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "artavus",
+      "categoria": "Arma"
+    }
+  }
+}

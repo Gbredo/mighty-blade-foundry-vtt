@@ -1,12 +1,21 @@
 <div class="compendium-browser flexrow">
   <section class="browser-sidebar">
-    <div class="search-bar">
+    <div class="search-bar" style="display:flex;gap:6px;align-items:center;">
       <input
         type="text"
         name="search"
         placeholder="Buscar..."
         autocomplete="off"
+        style="flex:1;"
       />
+      <button
+        type="button"
+        class="sync-packs-button"
+        title="Reconstruir e sincronizar compêndios com o catálogo canônico de regras"
+        style="flex:0 0 auto;width:auto;padding:0 8px;height:28px;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;border-radius:4px;cursor:pointer;"
+      >
+        <i class="fas fa-arrows-rotate"></i>
+      </button>
     </div>
     <ul class="item-list">
       {{#each items}}

@@ -1,0 +1,20 @@
+{
+  "name": "Extrato Ácido",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 500,
+    "description": "<p>Causa a perda de 20 Pontos de Vida numa área de 1 metro.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-acido",
+      "categoria": "Pocao"
+    }
+  }
+}

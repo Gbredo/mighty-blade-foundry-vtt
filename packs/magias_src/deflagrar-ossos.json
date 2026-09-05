@@ -1,0 +1,18 @@
+{
+  "name": "Deflagrar Ossos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana entre você e uma pilha de ossos ou um cadáver dentro da sua linha de visão, você faz com que os ossos explodam lançando estilhaços em todas as direções. Todas as criaturas a uma quantidade de metros igual à sua Determinação ao redor da pilha de ossos sofrem dano por Corte dependendo da quantidade de ossos afetados – o que também afeta o custo em Mana da magia. Um único osso grande (Fêmur, caixa torácica ou crânio) de uma criatura média terá um custo em Mana de 5 e causa 10 de dano. Restos de uma criatura pequena ou o único osso de uma criatura grande terá um custo em Mana de 10 e causa 15 de dano. Restos de uma criatura média ou o único osso de uma criatura enorme terá um custo de 15 pontos de Mana e causa 20 de dano. Restos de uma criatura grande terá um custo de 20 pontos de Mana e causa 25 pontos de dano. Restos de uma criatura colossal terá um custo de Mana de 25 e causa 30 pontos de dano. Mortos-vivos com Mente Vazia podem ser afetados por essa magia, e contam como restos de uma criatura de seu tamanho. Eles perdem uma quantidade de Pontos de Vida igual à quantidade de dano que causam, mais uma quantidade de Pontos de Vida iguais à sua Determinação. . Essa Runa Arcana se dissipa assim que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "deflagrar-ossos",
+      "tipo": "Acao"
+    }
+  }
+}

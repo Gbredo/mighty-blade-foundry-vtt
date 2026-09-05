@@ -1,0 +1,25 @@
+{
+  "name": "Sentidos de Caçador",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui uma audição aguçada e uma visão treinada. Você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos. Sexto Sentido Habilidade – Suporte Descrição: Você é capaz de sentir a presença de qualquer criatura dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo que se aproxime de você a uma distância em metros igual à sua Determinação. 118 Capítulo 4 Capítulo 4 Vontade Sobrenatural Habilidade – Suporte Descrição: Você possui uma incrível resistência a efeitos sobrenaturais e influência mental. Você tem Determinação +2 e recebe +1d6 em todos os seus Confrontos contra criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sentidos-de-cacador",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

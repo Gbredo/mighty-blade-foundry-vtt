@@ -1,0 +1,25 @@
+{
+  "name": "Sem Escapatória",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Combate Tático",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Se um oponente que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer um ataque corporal normal contra ele. Se acertar, além de sofrer o dano normal pelo ataque, o oponente não poderá se movimentar neste turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sem-escapatoria",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

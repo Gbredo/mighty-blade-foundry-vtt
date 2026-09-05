@@ -1,0 +1,25 @@
+{
+  "name": "Armadilheiro",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Se encontrar armadilhas, você pode fazer testes de Inteligência para desarmá-las. Além disso, se tiver os materiais e o tempo necessários, você pode armar uma armadilha. Faça um teste de Inteligência: O resultado do teste será a dificuldade para a armadilha ser percebida e desarmada.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadilheiro",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

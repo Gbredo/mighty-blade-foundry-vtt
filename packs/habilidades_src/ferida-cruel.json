@@ -1,0 +1,25 @@
+{
+  "name": "Ferida Cruel",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Ferimentos Abertos.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Suas magias ou ataques causam ferimentos brutais que vertem sangue. Sempre que um de suas Magias ou ataques corporais cause dano por Corte/Perfuração em um alvo, aquele</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ferida-cruel",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

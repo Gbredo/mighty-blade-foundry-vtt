@@ -1,0 +1,20 @@
+{
+  "name": "Flor de Argusia",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 500,
+    "description": "<p>Componente. Forrageamento em Litoral.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flor-de-argusia",
+      "categoria": "Ingrediente"
+    }
+  }
+}

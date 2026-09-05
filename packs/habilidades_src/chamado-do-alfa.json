@@ -1,0 +1,25 @@
+{
+  "name": "Chamado do Alfa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Uivo que atrai bestas (Ameaça 0) de um tipo escolhido num raio de 500m por ponto de Força. Inclinadas a ajudar conforme temperamento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chamado-do-alfa",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

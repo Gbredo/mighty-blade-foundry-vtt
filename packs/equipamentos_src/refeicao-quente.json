@@ -1,0 +1,20 @@
+{
+  "name": "Refeição Quente",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 4,
+    "description": "<p>Um pedaço de carne e pão ou uma sopa grossa de vegetais, além de frutas frescas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "refeicao-quente",
+      "categoria": "Servico"
+    }
+  }
+}

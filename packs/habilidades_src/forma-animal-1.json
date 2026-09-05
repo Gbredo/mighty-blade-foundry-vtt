@@ -1,0 +1,25 @@
+{
+  "name": "Forma Animal 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Metamorfose em Besta de até 1,5m. Mantém Inteligência, Vontade, PV e PM. Retorna à forma normal como Ação Livre.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "forma-animal-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

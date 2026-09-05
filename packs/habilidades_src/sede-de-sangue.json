@@ -1,0 +1,25 @@
+{
+  "name": "Sede de Sangue",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Gnoll",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que causar dano com um ataque desarmado de mordida ou golpe corporal em uma criatura viva com sangue, você pode beber o sangue da vítima. Você recebe +1 em um Atributo à sua escolha até o final do combate (cumulativo até o limite da sua Inteligência). Se o bônus exceder sua Inteligência, você entra em um frenesi sanguinário.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sede-de-sangue",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

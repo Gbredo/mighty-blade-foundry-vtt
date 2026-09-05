@@ -1,0 +1,20 @@
+{
+  "name": "Carruagem",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 250,
+    "description": "<p>Uma carroça fechada, geralmente possui uma porta lateral e comporta até quatro pessoas dentro. O condutor vai do lado de fora em cima. Pode ser puxada por dois ou quatro cavalos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carruagem",
+      "categoria": "Montaria"
+    }
+  }
+}

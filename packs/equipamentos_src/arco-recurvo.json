@@ -1,0 +1,28 @@
+{
+  "name": "Arco Recurvo",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "FOR+7",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Disparo Longo (200m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1.5,
+    "quantidade": 1,
+    "custo": 250,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arco-recurvo",
+      "categoria": "Projetil"
+    }
+  }
+}

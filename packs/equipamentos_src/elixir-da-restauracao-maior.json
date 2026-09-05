@@ -1,0 +1,20 @@
+{
+  "name": "Elixir da Restauração Maior",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 260,
+    "description": "<p>Recupera 50 Pontos de Vida e 50 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-da-restauracao-maior",
+      "categoria": "Pocao"
+    }
+  }
+}

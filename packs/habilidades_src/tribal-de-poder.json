@@ -1,0 +1,25 @@
+{
+  "name": "Tribal de Poder",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você tatuou um tribal que lhe confere resistência e tenacidade em combate. Enquanto esta tatuagem estiver visível, você tem +2 em suas rolagens de ataques corporais e não precisa estar usando armaduras ou armas para bloquear. Além disso, seus ataques desarmados causam +2 de dano. Você só pode receber o beneficio dessa tatuagem uma vez.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tribal-de-poder",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

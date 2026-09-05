@@ -1,0 +1,18 @@
+{
+  "name": "Invisibilidade 1",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura, você a torna – assim como todas as suas posses – invisível. Essa Runa Arcana ou Selo Místico dura por uma quantidade de minutos igual à Inteligência do conjurador.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invisibilidade-1",
+      "tipo": "Acao"
+    }
+  }
+}

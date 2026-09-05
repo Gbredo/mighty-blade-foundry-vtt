@@ -1,0 +1,31 @@
+{
+  "name": "Membrana Nictitante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Olhos Dracônicos",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de Percepção que envolvam a visão"
+      }
+    ],
+    "description": "<p>Seus olhos possuem uma segunda pálpebra que serve para manter seus olhos limpos e ampliar a visão. Você consegue enxergar normalmente no escuro e não é afetado por efeitos não mágicos que restrinjam a visão – como água lamacenta, fumaça, poeira, areia, chuva, etc. – e você também recebe +2 em todos os seus testes de Percepção que envolvam a visão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "membrana-nictitante",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

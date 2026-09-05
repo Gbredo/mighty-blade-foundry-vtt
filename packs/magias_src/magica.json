@@ -1,0 +1,18 @@
+{
+  "name": "Mágica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 5,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana ou Selo Místico sobre um objeto, você imbui ele com uma luz própria. A duração dessa magia depende da intensidade da luz: uma luz fraca como de uma vela dura 6 horas, uma luz moderada semelhante à de uma tocha dura 1 hora, e uma luz intensa como a do sol dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "magica",
+      "tipo": "Acao"
+    }
+  }
+}

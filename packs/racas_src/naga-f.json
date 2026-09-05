@@ -1,0 +1,34 @@
+{
+  "name": "Naga (Fêmea)",
+  "type": "raca",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "atributos": {
+      "forca": 2,
+      "agilidade": 3,
+      "inteligencia": 4,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Corpo Ofídio",
+      "descricao": "+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "corpo-ofidio"
+      }
+    ],
+    "classesComuns": "Feiticeiro, Necromante e Rúnico",
+    "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-9 anos) · Adulto (10 anos) · Idoso (70 anos) · Ancião (71+ anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges reptilianas que, abaixo do tórax, não possuem pernas, sustentando-se numa grossa e poderosa cauda de 4 a 5 metros composta por coluna vertebral e costelas. As fêmeas são visivelmente menores e mais delgadas que os machos (que pesam em média entre 200 e 250 quilos). A cabeça é ofídica, possuindo focinho longo e mandíbulas que, embora não se separem, possuem abertura de 90º. Quando alertas, ficam com 2 metros de altura; correndo inclinadas, baixam para 1 metro; e em combate, podem se apoiar na cauda para alcançar 3 metros de altura. A sua fisiologia impede completamente que elas realizem saltos ou usem escadas.</li><br><li><strong>Pele e Pelagem:</strong> O corpo é revestido inteiramente por escamas que variam do quase negro ao verde-limão. O padrão das fêmeas é notório por apresentar padrões muito mais amplos de cores do que os machos.</li><br><li><strong>Olhos:</strong> Suas pálpebras são formadas por uma escama especial e transparente, que permanece o tempo todo fechada para proteger o olho.</li><br><li><strong>Dimorfismo Sexual:</strong> É extremamente marcante na face; além de serem mais delicadas, as fêmeas ostentam ao redor do pescoço e cabeça uma estrutura muscular larga, semelhante a um capuz (como as najas), que exibe fortes manchas e padrões coloridos na parte interna.</li><br><li><strong>Ciclo de Vida:</strong> Possuem uma gestação curtíssima de 5 meses. Elas produzem de três a quatro ovos, mas não os botam; mantêm-os dentro de seus corpos até a eclosão. Os bebês nascem minúsculos (com um centésimo do tamanho normal), mas totalmente formados e desenvolvem-se de forma veloz até a idade adulta, aos 10 anos. As fêmeas vivem consideravelmente mais que os machos, podendo chegar aos 70 anos com facilidade; no entanto, após essa idade, entram em um processo de envelhecimento acentuadamente rápido e raramente vivem por mais 20 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas de Ofidien, as Naga criam cidades nas encostas ou escavadas na rocha das montanhas, valorizando estruturas com defesa extrema e muitas rotas de fuga. Seu império é rigidamente matriarcal e \"arcanocrático\", moldado pela xenofobia e lealdade fanática à própria raça, a qual elas consideram superior a todas as outras.</li><br><li><strong>Papel Feminino (Magia e Teocracia):</strong> Toda a sociedade orbita o Primordial Glycon, e todas as fêmeas da espécie são consideradas suas consortes. Elas detêm o monopólio místico: apenas fêmeas podem ser Conjuradoras, e atuar como reprodutoras, artistas, boticárias e professoras é privilégio delas. Além disso, raras são as fêmeas que não possuem conhecimento arcano rudimentar. As mais formidáveis entram para o culto de feiticeiras Nachash, que comandam as alas militares, sacerdotais e sociais do império. Atividades braçais e agricultura pesada são consideradas tarefas degradantes e destinadas apenas aos escravos e, em parte, aos machos.</li><br><li><strong>Sociedade e Necromancia:</strong> A raça não possui o conceito de unidade familiar; todas as crianças são cuidadas de forma geral pela comunidade, e a lealdade extrema do povo baseia-se em amizades formadas com companheiras da mesma idade. A necromancia é amplamente aceita, não havendo pudor em transformar corpos alheios em construtos ou laboratórios. O sepultamento de uma Naga intacta é tido como uma enorme desonra, sendo a tradição consumir o cérebro da falecida para honrar seus feitos.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa da raça é o Asá-Avája, composta por sibilos, estalos e expressões corporais virtualmente impossíveis de serem reproduzidas por outras espécies sem magia. Os nomes Naga possuem pelo menos três sílabas e são inspirados na mitologia egípcia e hindu. Ao contrário dos machos (que usam hífen), as fêmeas adicionam radicais de reverência aos seus nomes separados por um apóstrofo. Os radicais femininos são 'AKIS (superiora), 'AXAR (guerreira) e 'KAR ou 'KIR (ambos significando abençoada). Naga não usam nenhum tipo de sobrenome, crendo que usar a influência de famílias limitaria o mérito do indivíduo.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Femininos:</b> Anphisbaenea, Azhi’Dahaka, Brakaelurydea, Draig’Goch, Erenkilgorinish, Esderha’Evren, Eupodophis, Galeshn’Kar</div>\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "naga-f"
+    }
+  }
+}

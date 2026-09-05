@@ -1,0 +1,25 @@
+{
+  "name": "Sopro Dracônico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Dragano",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Dispara uma rajada elemental numa distância igual à sua Vontade em metros. O efeito varia pela Linhagem: 20/Fogo (vermelhos), 10/Frio + alvo Enregelado (brancos) ou 15/Eletricidade + alvo Atordoado por 1 turno (verdes).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sopro-draconico",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

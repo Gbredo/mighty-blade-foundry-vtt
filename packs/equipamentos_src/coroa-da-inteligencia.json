@@ -1,0 +1,20 @@
+{
+  "name": "Coroa da Inteligência",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 4200,
+    "description": "<p>Um diadema de aço com uma gema incrustada (geralmente um quartzo) que concede +2 de Inteligência para seu usuário.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coroa-da-inteligencia",
+      "categoria": "Especial"
+    }
+  }
+}

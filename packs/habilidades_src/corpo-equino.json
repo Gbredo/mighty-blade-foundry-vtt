@@ -1,0 +1,49 @@
+{
+  "name": "Corpo Equino",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "multiplicador",
+        "alvo": "carga",
+        "multiplicador": 2,
+        "baseAtributo": "forca"
+      },
+      {
+        "tipo": "multiplicador",
+        "alvo": "deslocamento",
+        "multiplicador": 2,
+        "baseAtributo": "agilidade"
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "correr, saltar ou evitar ser derrubado"
+      },
+      {
+        "tipo": "ataqueNatural",
+        "parte": "cascos",
+        "dano": "Forca+2",
+        "tipoDano": "Contusao"
+      }
+    ],
+    "description": "<p>Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Por seu tamanho, você é considerado Inapto para nadar, escalar ou se segurar apenas com os braços.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corpo-equino",
+      "automatica": true,
+      "opcoes": []
+    }
+  }
+}

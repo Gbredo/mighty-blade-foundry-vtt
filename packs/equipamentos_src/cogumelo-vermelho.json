@@ -1,0 +1,20 @@
+{
+  "name": "Cogumelo Vermelho",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Componente. Forrageamento em Planícies.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cogumelo-vermelho",
+      "categoria": "Ingrediente"
+    }
+  }
+}

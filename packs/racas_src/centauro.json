@@ -1,0 +1,34 @@
+{
+  "name": "Centauro",
+  "type": "raca",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "atributos": {
+      "forca": 4,
+      "agilidade": 2,
+      "inteligencia": 3,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Corpo Equino",
+      "descricao": "Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Por seu tamanho, você é considerado Inapto para nadar, escalar ou se segurar apenas com os braços.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "corpo-equino"
+      }
+    ],
+    "classesComuns": "Druida, Guerreiro, Patrulheiro, Xamã",
+    "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (10 anos) · Idoso (80(12) anos) · Ancião (120(2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com torso humanoide e corpo equino, apresentando cinco dedos nas mãos e quatro pernas digitígradas terminadas em cascos. Possuem uma cauda curta e são tão altos quanto longos (medindo entre 2 e 2,4 metros nas duas direções). Pesam em média de 450 a 500 quilos e possuem pouco tecido adiposo. Devido ao peso e estatura, possuem imensa dificuldade para nadar ou escalar (sendo Inaptos), e manobras como cambalhotas são virtualmente impossíveis.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do pardo ao marrom claro, sendo a parte inferior do corpo e as costas cobertas por um couro mais duro e escuro. A pelagem sobre o corpo é curta e dura, tornando-se bem mais densa e longa na cabeça, ao longo da coluna e na cauda. As cores variam do pardo ao negro, passando por castanho, sendo comum a presença de manchas, e os pelos vão ficando acinzentados com a idade.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas (Centáurides) são diferenciadas dos machos por não desenvolverem pelos no rosto e apresentarem duas pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 11 meses e os filhotes são capazes de andar em apenas alguns dias. Atingem o tamanho máximo e a vida adulta aos 10 anos, com os primeiros sinais de envelhecimento aparecendo aos 80 anos. Vivem até os 120 anos, e os mais velhos costumam se isolar da comunidade ao ficarem fracos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Geralmente se instalam em grandes clareiras nas bordas de florestas (como a Floresta da Névoa e a Floresta da Borda). Sua maior comunidade em Tebryn chama-se Yak (na Floresta dos Antigos), uma aldeia sem centro comercial rígido. Não possuem estruturas de liderança além do respeito à sabedoria dos mais velhos da região.</li><br><li><strong>Lazer e Festividades:</strong> Possuem um humor simples e dão preferência a atividades físicas para diversão, como corridas, demonstrações de força e competições de salto. Reúnem-se nos equinócios para grandes festividades que duram uma semana. Nessas festas, o consumo de bebida é alto, e embriaguez e surtos de violência são muito comuns, tornando o ambiente arriscado para forasteiros que aceitam o convite para participar.</li><br><li><strong>Táticas e Combate:</strong> Apesar de conhecidos por suas ferozes cargas corporais, a lança e o arco são suas armas mais tradicionais. A arqueria é tão intrínseca que praticamente todos os jovens praticam, e seus Arqueiros revezam as funções de caçadores e vigias.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de convidarem viajantes para suas competições amigáveis, são profundamente desconfiados dos elfos (principalmente da região de Ambrook) após uma guerra sangrenta e assimétrica no passado que quase exterminou as tribos da Floresta dos Antigos.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Centauros é o Silvestre, uma linguagem de estrutura caótica e muitas variações regionais. Seus nomes são criados com a aglutinação de duas ou três palavras desse idioma, o qual é fortemente embasado no grupo Tupi-Guarani (ou em outros idiomas indígenas brasileiros). Centauros não usam sobrenomes de qualquer tipo.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi<br><b>Femininos:</b> Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi</div>\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "centauro"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Instrumentos de Escrita",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 29,
+    "description": "<p>Frasco de tinta, pena, mata-borrão, pincel, buril.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "instrumentos-de-escrita",
+      "categoria": "Mundano"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Machado de Lenha",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+5",
+    "tipoDano": [
+      "Corte",
+      "Contusao"
+    ],
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 25,
+    "description": "<p>Ferramenta de lenhador de cabo longo, excelente para derrubadas e golpes pesados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "machado-de-lenha",
+      "categoria": "Arma"
+    }
+  }
+}

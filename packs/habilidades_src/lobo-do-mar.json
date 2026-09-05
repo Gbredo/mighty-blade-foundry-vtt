@@ -1,0 +1,25 @@
+{
+  "name": "Lobo do Mar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Lobo do Mar — habilidade da organização (ver livro).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lobo-do-mar",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

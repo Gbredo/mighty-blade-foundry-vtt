@@ -1,0 +1,25 @@
+{
+  "name": "Presença Inspiradora",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você inspira confiança em seus aliados com sua mera presença. Todos os seus aliados, mas não você, recebem Determinação +2 e +1 em todos os seus testes enquanto você estiver dentro do seu alcance de visão. Esses benefícios deixam de ter efeito se você ficar desacordado ou sob um efeito de Medo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "presenca-inspiradora",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Druida",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "conhecimento-mistico"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><p>Em geral, comunidades druídicas ou grupos próximos compartilham alguns rituais comuns, mas mesmo dentro de comunidades com rituais bem definidos, quase todos possuem práticas e definições individuais consideravelmente diferente dos demais. Essas diferenças de visão, crença e prática não são apenas toleradas, mas também encorajadas, e a individualidade e a busca por um entendimento particular da natureza são extremamente bem vistas pelos Druida.</p><p>Diferente dos Sacerdotes, os Druidas não reúnem congregações nem espalham a palavra de suas divindades. Ao invés disso, eles oferecem seu conhecimento sobre flora, fauna e fenômenos naturais àqueles ao seu redor, por vezes de forma concreta, auxiliando fazendeiros com suas plantações e animais, às vezes de forma simbólica, realizando rituais de boa colheita ou plantio, casamentos e funerais.</p><p>Apesar dessa diferença considerável entre o uso de seus conhecimentos de clericato com relação àqueles demonstrados pelos Sacerdotes, eles entendem a natureza dos rituais, das fórmulas e formas dos mesmos utilizados em outras formas de sacerdócio, e são capazes de compreender e reconhecer perfeitamente os processos e objetivos dos rituais realizados por qualquer outra religião.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-mistico, aparar-magia, asas-celestiais, bencao-de-ellenis, bestializar, bons-frutos, caminhada-magica, companheiro-animal-1, companheiro-animal-2, convocar-animais, detectar-magia, entrelacar, espirito-animal, evocar-temporal, herbalismo, mover-terra, principio-natural, rajada-de-agua, rajada-de-espinhos, sabedoria-selvagem, turbilhao, companheiro-animal-3, conjurar-abrigo, despertar-a-flora, dissipar-magia, evocar-nevasca, gavinhas-e-espinhos, olho-do-furacao, orbe-de-contencao, punho-de-pedra, veneficio, hierofante\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "druida",
+      "conjurador": true
+    }
+  }
+}

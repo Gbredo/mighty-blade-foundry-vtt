@@ -1,0 +1,25 @@
+{
+  "name": "Canção da Provocação",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Alvos num raio de DET metros rolam Vontade vs você. Se falharem, sofrem -2 na Defesa enquanto a Música for mantida.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cancao-da-provocacao",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

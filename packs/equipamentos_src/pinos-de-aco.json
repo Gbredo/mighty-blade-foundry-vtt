@@ -1,0 +1,20 @@
+{
+  "name": "Pinos de Aço",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Usados para abrir fendas retas em pedras grandes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pinos-de-aco",
+      "categoria": "Mundano"
+    }
+  }
+}

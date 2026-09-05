@@ -1,0 +1,18 @@
+{
+  "name": "Asas Celestiais",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva, você faz surgir em suas costas um grande par de asas. O alvo ganha a Habilidade Asas Pesadas. Esse Selo Místico dura por 1 Hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "asas-celestiais",
+      "tipo": "Acao"
+    }
+  }
+}

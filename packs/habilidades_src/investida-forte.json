@@ -1,0 +1,25 @@
+{
+  "name": "Investida Forte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Golpe com Escudo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que acertar uma manobra de encontrão usando um escudo, o alvo precisa vencer um teste de Resistência (Dificuldade igual à sua Determinação + a FN do escudo que você estiver usando) ou será derrubado. Alvos com o dobro do seu peso não são afetados. Um ataque com um escudo causa dano igual à Força + FN do escudo/Contusão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "investida-forte",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

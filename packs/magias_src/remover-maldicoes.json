@@ -1,0 +1,18 @@
+{
+  "name": "Remover Maldições",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você faz com que todos os um Símbolo Profano da categoria Maldição e Doenças Mágicas que estejam afetando a criatura sejam removidas imediatamente. Este Símbolo funciona sobre efeitos perenes que sejam considerados Maldições (como licantropia, Doença Carniçal ou criaturas afetadas por Eternizar Maldição), mas não alteram o Tipo da criatura afetada – Vampiros, Lobisomens e outros mortos-vivos ou amaldiçoados não são revertidos ao seu estado natural, mas essas criaturas ficam Amedrontadas com relação a você por um número de turnos igual à sua Vontade. O custo em Mana desta Magia será igual ao custo mais alto entre todas as Maldições afetando o alvo, ou, no caso de um efeito sem custo em Mana, 30. A dificuldade desta magia será igual à Determinação do conjurador da Maldição, ou, no caso de Doenças Mágicas, a dificuldade de contaminação da doença. Este Símbolo Profano se dissipa assim que seus efeitos forem desencadeados. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "remover-maldicoes",
+      "tipo": "Acao"
+    }
+  }
+}

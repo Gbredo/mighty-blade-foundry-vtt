@@ -1,0 +1,18 @@
+{
+  "name": "Teleporte 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 50,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Teleporte 1</p><p>Desenhando uma runa arcana sobre si mesmo enquanto se concentra em um local qualquer que já tenha visitado pelo menos uma vez, você se teleportar imediatamente para o local pretendido. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "teleporte-2",
+      "tipo": "Acao"
+    }
+  }
+}

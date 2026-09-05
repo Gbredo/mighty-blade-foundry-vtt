@@ -1,0 +1,25 @@
+{
+  "name": "Nocautear",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Faça um ataque corporal que cause dano por Contusão. Se acertar, além de sofrer o dano normal do ataque, o alvo fica Paralisado por 1 turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "nocautear",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

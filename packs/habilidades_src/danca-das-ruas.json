@@ -1,0 +1,31 @@
+{
+  "name": "Dança das Ruas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "esquiva",
+        "valor": 2
+      }
+    ],
+    "description": "<p>Enquanto dançando: +2 de Esquiva e a dificuldade de conjurar magias inimigas contra você aumenta em 1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "danca-das-ruas",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

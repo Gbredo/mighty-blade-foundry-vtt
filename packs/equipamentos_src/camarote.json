@@ -1,0 +1,20 @@
+{
+  "name": "Camarote",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Um espaço privativo para até 6 pessoas. Custo por hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "camarote",
+      "categoria": "Servico"
+    }
+  }
+}

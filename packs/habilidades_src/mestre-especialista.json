@@ -1,0 +1,25 @@
+{
+  "name": "Mestre Especialista",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que uma Habilidade oferecer um bônus de +1d6 em uma determinada ação, você recebe +2d6 para aquela ação ao invés disso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mestre-especialista",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

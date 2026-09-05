@@ -1,0 +1,18 @@
+{
+  "name": "Manto Crepitante",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 9,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Eletricidade Estática</p><p>Você desenha uma Runa Arcana sobre uma criatura, envolvendo-a numa aura elétrica extremamente brilhante. A aura ilumina uma área de 20 metros ao seu redor, tornando-a clara como se fosse dia, de forma que, qualquer um tentando acertar você à distância (com ataques ou magias) fica ofuscado, realizando seus ataques como se fossem Inaptos. Além disso, a aura elétrica causa dano igual a 10/Eletricidade em qualquer um que tocar em você ou golpeá-lo com ataques corporais. Essa Runa dura 1 minuto, mas pode ser dissipada a qualquer momento pela criatura sobre a qual foi desenhada.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "manto-crepitante",
+      "tipo": "Acao"
+    }
+  }
+}

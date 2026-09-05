@@ -1,0 +1,25 @@
+{
+  "name": "Mastim",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a lidar com criminosos e raramente se deixa enganar ou amedrontar. Você tem Determinação +2 e recebe +1d6 em todos os Confrontos e testes para resistir a tentativas de persuasão e intimidação, perceber mentiras e resistir a efeitos mentais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mastim",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

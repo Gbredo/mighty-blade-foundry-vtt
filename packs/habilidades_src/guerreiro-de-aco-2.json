@@ -1,0 +1,25 @@
+{
+  "name": "Guerreiro de Aço 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Guerreiro de Aço 1",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos. Essa redução se acumula com a redução fornecida por</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guerreiro-de-aco-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

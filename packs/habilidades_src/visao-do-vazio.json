@@ -1,0 +1,25 @@
+{
+  "name": "Visão do Vazio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 60,
+    "dificuldade": 0,
+    "requisitos": "Nível 10; Pacto da Loucura.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Tocando um alvo, você faz com que ele seja capaz de perceber o Vazio regido pelo Inominável por um breve momento. O alvo deve fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se o alvo tiver sucesso, ele será considerado Amedrontado com relação a você por um número de turnos igual à sua Vontade. Se falhar no teste, o alvo ficará catatônico durante um número de turnos igual a sua Vontade, enquanto seus sentidos são enviados para o Vazio Inominável. O alvo é considerado Indefeso durante esse período, e quando o efeito terminar, ele estará horrorizado, incapaz de compreender as coisas que viu, com um redutor de -1 em sua Inteligência e Vontade por um número de dias igual à sua Vontade – e durante esse período, sempre que tentar dormir, terá pesadelos terríveis, devendo fazer um teste de Vontade (dificuldade igual à sua Determinação) para não acordar em pânico a cada hora de descanso – e sem recuperar PVs e PMs referentes ao descanso daquela hora. Pacto da Pestilência Ereshkigal, A Impura, Aquela que Polui, é responsável por trazer doença e sofrimento. Aqueles que procuram pactos com ela tanto podem desejar infligir violentas moléstias sobre outros quanto ficarem intocados pela carícia de Ereshkigal. Muitos doentes terminais também procuram A Impura na tentativa de sobreviver às suas enfermidades. Sempre que for exposto a uma doença (natural ou mágica), você falha automaticamente no teste de infecção e nos testes para resistir aos sintomas da doença (mesmo que seja imune a doenças). No entanto, você não é afetado pelos sintomas da doença (embora possa apresentar manifestações estéticas dela) e pode transmiti-la normalmente. Além disso, você sempre sabe quais doenças o estão infectando, assim como é capaz de detectar doenças em outras criaturas apenas com um toque. Se você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "visao-do-vazio",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

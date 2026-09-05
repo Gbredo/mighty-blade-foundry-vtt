@@ -1,0 +1,25 @@
+{
+  "name": "Canção do Triunfo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 25,
+    "dificuldade": 0,
+    "requisitos": "Melodia do Repouso",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você canta uma música relembrando os êxitos e vitórias do grupo, seus feitos mais memoráveis e exaltando seus laços de amizade, aumentando a moral do grupo. Todos os seus aliados (incluindo você) que puderem ouvir essa canção recuperam 5 Pontos de Vida por turno, enquanto você continuar a tocar essa Música.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cancao-do-triunfo",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

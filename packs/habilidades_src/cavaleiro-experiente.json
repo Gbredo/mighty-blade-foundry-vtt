@@ -1,0 +1,25 @@
+{
+  "name": "Cavaleiro Experiente",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você passou muito tempo com animais de montaria e conhece seus hábitos, características e como lidar com eles. Você recebe +1d6 em todas as suas rolagens referentes à criaturas com a Habilidade Montaria – incluindo cavalgar, treinar e atacar.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cavaleiro-experiente",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

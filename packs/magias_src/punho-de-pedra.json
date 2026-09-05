@@ -1,0 +1,18 @@
+{
+  "name": "Punho de Pedra",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Mover Terra</p><p>Você desenha um Selo Místico sobre o solo (ou em uma estrutura de pedra como Paredes de alvenaria, estátuas de pedra e tetos de cavernas), fazendo com que uma coluna se projete violentamente da estrutura. Um alvo dessa magia sofre dano igual à 30/Contusão e precisa vencer um teste de Força (dificuldade igual à Determinação do conjurador) para não ser derrubado. A coluna tem cerca de 1 metro de diâmetro e uma extensão em metros igual à Vontade do conjurador. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a coluna de pedra é permanente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punho-de-pedra",
+      "tipo": "Acao"
+    }
+  }
+}

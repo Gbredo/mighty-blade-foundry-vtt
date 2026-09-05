@@ -1,0 +1,25 @@
+{
+  "name": "Médico de Campo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você remendou uma boa quantidade de ferimentos tanto durante quanto depois de combates e sabe o que precisa ser consertado primeiro. Logo depois de um combate, você pode realizar um teste de Cuidados Médicos (Dificuldade 12) em qualquer personagem que tenha sofrido dano. Se for bem-sucedido, aquele personagem recupera 5 Pontos de Vida. Você pode usar este efeito apenas uma vez em um personagem a cada vez que ele sofrer dano. Além disso, toda vez que você for bem- -sucedido em um teste para remover efeitos de sangramento, venenos ou estabilizar um personagem Por um Fio, aquele personagem recupera 5 Pontos de Vida adicionais além dos efeitos normais do seu teste de Cuidados Médicos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "medico-de-campo",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

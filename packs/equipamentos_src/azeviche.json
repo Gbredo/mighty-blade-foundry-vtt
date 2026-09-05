@@ -1,0 +1,20 @@
+{
+  "name": "Azeviche",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Componente. Garimpo em qualquer terreno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "azeviche",
+      "categoria": "Ingrediente"
+    }
+  }
+}

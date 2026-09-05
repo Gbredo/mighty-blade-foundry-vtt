@@ -1,0 +1,25 @@
+{
+  "name": "Arcipreste",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui um considerável conhecimento e uma compreensão intuitiva sobre os desígnios da Aurora dos Dragões. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e criaturas dracônicas. Além disso, o custo em Mana de todas as Habilidades do tipo Magia que você conjurar é diminuído em 5.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arcipreste",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

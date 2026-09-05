@@ -1,0 +1,18 @@
+{
+  "name": "Percepção Sanguínea",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você faz com que ela ganhe uma percepção sobre o fluxo de sangue e batimentos cardíacos ao seu redor. Ele consegue perceber se uma criatura está viva, morta, se é um morto-vivo, espírito ou se possui Corpo Amórfico dentro de uma área em metros igual à Vontade do Conjurador ao seu redor. Além disso, o alvo recebe +2 em todos os seus testes de ataque contra criaturas vivas que não possuam Corpo Amórfico dentro dessa área, e não nunca é considerado Distraído ou Cego em relação a elas. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "percepcao-sanguinea",
+      "tipo": "Acao"
+    }
+  }
+}

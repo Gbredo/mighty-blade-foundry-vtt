@@ -1,0 +1,25 @@
+{
+  "name": "Pedra Filosofal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Alquimia Avan-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>çada Você adquiriu um conhecimento tal sobre os fenômenos físicos e químicos, que tornou-se capaz de alterar as características de substâncias inanimada. Além dos seis processos usados na produção de poções, você pode usar um sétimo processo, Magnum Opus, descrito abaixo. Magnum Opus: é um processo através do qual as propriedades de uma substância são transmutadas em outra. Os procedimentos específicos do Magnum Opus são conhecidos apenas por Alquimistas extremamente talentosos, e cuidadosamente mantidos em segredo. Através desse processo, um Alquimista pode transformar até 1 quilo de uma substância em outra, desde que sejam da mesma origem (substâncias de origem animal podem ser transformadas em outras substâncias animais, minerais podem ser transformados em outros minerais e vegetais em outros vegetais) com um procedimento que leva 1 semana. O alquimista precisa verificar o processo diariamente, ou a transformação falhará e os ingredientes serão perdidos, mas nenhum teste é necessário. O ingrediente utilizado precisa ter um custo igual à 10 vezes maior ou menor do que o ingrediente que o Alquimista quer produzir. Essa transformação é permanente, mas pode ser revertida através do mesmo processo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pedra-filosofal",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Aura de Cura 1",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "mistica",
+    "custo": 10,
+    "dificuldade": 9,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Curar Ferimentos 1</p><p>Você desenha um Selo Místico sobre sí mesmo que recupera 10 Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este selo também são afetados por ele. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Caminhada Mágica Habilidade (Magia) – Ação Desenhando um Selo Místico sobre uma criatura viva, você permite que ela possa caminhar sobre qualquer tipo de superfície (incluindo líquidos), paredes ou teto e não sofre nenhum tipo de redutor ou penalidade de movimentação por terrenos difíceis ou acidentados. Finalmente, o alvo pode escolher á vontade se vai deixar rastros ou não enquanto esta runa estiver ativa sobre ele. Esse Selo Místico dura 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aura-de-cura-1",
+      "tipo": "Acao"
+    }
+  }
+}

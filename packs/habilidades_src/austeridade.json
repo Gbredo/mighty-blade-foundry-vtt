@@ -1,0 +1,25 @@
+{
+  "name": "Austeridade",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Código da Honestidade",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua integridade e retidão são tão inabaláveis que é impossível para outros influenciarem suas decisões. Você é imune a efeitos mentais (mas não Ilusões ou efeitos de Medo) e tentativas de influenciar sua opinião com persuasão e manipulação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "austeridade",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Dados Viciados",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.01,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Par de dados com um peso interno em um dos lados, para fazer com que o resultado oposto saia com mais frequência (adiciona +1 em testes de jogos de azar).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dados-viciados",
+      "categoria": "Mundano"
+    }
+  }
+}

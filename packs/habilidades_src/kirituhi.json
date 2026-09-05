@@ -1,0 +1,25 @@
+{
+  "name": "Kirituhi",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 60,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Tamoko",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de realizar uma tatuagem em um Humanoide ou Esfinge com os efeitos de qualquer uma de suas Habilidades de Tohunga que não tenham Requisitos. O processo leva um dia inteiro, e você precisa ser capaz de falar em uma língua que o alvo entenda, explicando sobre os significados e propriedades da tatuagem que está produzindo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "kirituhi",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

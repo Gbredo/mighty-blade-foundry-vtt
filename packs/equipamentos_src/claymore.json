@@ -1,0 +1,29 @@
+{
+  "name": "Claymore",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+11",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 5,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 250,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "claymore",
+      "categoria": "Arma"
+    }
+  }
+}

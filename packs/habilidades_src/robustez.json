@@ -1,0 +1,30 @@
+{
+  "name": "Robustez",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Aesir",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusPV",
+        "valor": 5
+      }
+    ],
+    "description": "<p>Possuindo uma constituição muito vigorosa, você ganha +5 Pontos de Vida máximos e rola +1d6 extra em testes de Força para resistir à fadiga, venenos e doenças.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "robustez",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Besta Leve",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "10",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Disparo Médio (100m)",
+    "propriedades": [
+      "Carregar",
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 175,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "besta-leve",
+      "categoria": "Projetil"
+    }
+  }
+}

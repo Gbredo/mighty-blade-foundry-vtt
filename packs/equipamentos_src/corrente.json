@@ -1,0 +1,20 @@
+{
+  "name": "Corrente",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Cadeia de elos de metal para ser usada no pescoço.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corrente",
+      "categoria": "Mundano"
+    }
+  }
+}

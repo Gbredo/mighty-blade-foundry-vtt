@@ -1,0 +1,25 @@
+{
+  "name": "Movimentos Evasivos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Acrobata",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você ganha +1 na sua defesa para cada 2 pontos que tiver em Agilidade. Esta habilidade só funciona se você estiver sem armadura. Esse é um bônus de Esquiva.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "movimentos-evasivos",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

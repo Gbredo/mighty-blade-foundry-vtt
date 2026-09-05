@@ -1,0 +1,25 @@
+{
+  "name": "Poesia dos Bardos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "musica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade base do Bardo. Você pode rolar +1d6 quando fizer testes referentes à qualquer tipo de conhecimento (história, geografia, lendas, política, etc) por conta de suas vastas viagens. Além disso, permite ativar e manter Músicas (Canções e Melodias) enquanto estiver tocando ou cantando.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "poesia-dos-bardos",
+      "automatica": true,
+      "opcoes": []
+    }
+  }
+}

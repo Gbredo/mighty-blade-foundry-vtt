@@ -1,0 +1,20 @@
+{
+  "name": "Barra de Giz",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.006,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Um bastão de calcário prensado utilizado para desenhar e escrever.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "barra-de-giz",
+      "categoria": "Mundano"
+    }
+  }
+}

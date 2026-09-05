@@ -1,0 +1,25 @@
+{
+  "name": "Navegador",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você sabe o que é necessário para pilotar um navio com eficiência. Você rola +1d6 em todos os testes ligados a navegação, incluindo ler mapas marítimos, fazer qualquer serviço de convés, escalar cordames, pescar, se localizar no mar e nadar. Pernas do</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "navegador",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

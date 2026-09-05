@@ -1,0 +1,25 @@
+{
+  "name": "Montaria Especial 3",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Montaria Especial 2",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Código da Honestidade Sua montaria desenvolveu um vínculo profundo com você, permitindo que você veja pelos olhos dela apenas se concentrando. Ela também recebe +1 em Força e +1 em Vontade e é capaz de enxergar criaturas invisíveis.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "montaria-especial-3",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Veneno Torturante",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 900,
+    "description": "<p>Alvo torna-se Inapto em todos os testes por 1 hora. Este veneno é considerado mágico.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-torturante",
+      "categoria": "Pocao"
+    }
+  }
+}

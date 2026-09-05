@@ -1,0 +1,20 @@
+{
+  "name": "Almofariz",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.002,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Usado para macerar ou moer pequenas quantidades de produtos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "almofariz",
+      "categoria": "Mundano"
+    }
+  }
+}

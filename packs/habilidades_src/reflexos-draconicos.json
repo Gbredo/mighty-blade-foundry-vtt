@@ -1,0 +1,25 @@
+{
+  "name": "Reflexos Dracônicos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Cauda",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Utiliza os reflexos dos ancestrais dracônicos. Se uma criatura entrar no seu alcance corporal, você pode usar uma Reação para atacar imediatamente com sua cauda (dano: Força/Contusão). Limite de uma vez por rodada.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "reflexos-draconicos",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

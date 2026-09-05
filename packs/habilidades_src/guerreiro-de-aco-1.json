@@ -1,0 +1,25 @@
+{
+  "name": "Guerreiro de Aço 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a usar armaduras pesadas. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guerreiro-de-aco-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

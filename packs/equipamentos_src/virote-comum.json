@@ -1,0 +1,20 @@
+{
+  "name": "Virote Comum",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.04,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Seta usada em todos os tipos de besta e Plumbata.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "virote-comum",
+      "categoria": "Municao"
+    }
+  }
+}

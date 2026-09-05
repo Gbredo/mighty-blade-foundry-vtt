@@ -1,0 +1,25 @@
+{
+  "name": "Ataque Giratório",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você realiza um ataque amplo, girando sua arma para atingir todos os oponentes próximos. Faça um ataque corporal contra cada alvo dentro do seu alcance corporal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-giratorio",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

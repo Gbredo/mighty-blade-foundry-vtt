@@ -1,0 +1,25 @@
+{
+  "name": "Visão de Nehemoth",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 40,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Pacto da Escuridão.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você envia a percepção dela para o Grande Abismo em sua completa escuridão. O alvo deve fazer um teste de Vontade (dificuldade igual à sua Determinação). Se tiver sucesso, ele será considerado Cego até que possa olhar diretamente para o sol. Se falhar, será considerado Cego permanentemente. Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados. Este efeito é considerado uma Maldição. Pacto da Loucura O Inominável, Aquele Cujo Nome Não Deve Ser Pronunciado, senhor da loucura, aquele que traz o horror. A maioria dos que cultuam o Inominável possuem algum desequilíbrio mental ou uma visão particularmente distorcida sobre o mundo ao seu redor. Sua mente possui uma compreensão estranha da realidade. Graças a isso, você tem Determinação +2 e é imune a efeitos mentais e efeitos de Medo, mas você tem Inteligência -1 (você não perde idiomas nesse processo). Especial: Se sua Inteligência for reduzida a 1 devido a este Pacto, você estará reduzido aos seus instintos mais básicos. Você ainda é capaz de raciocinar, mas sempre procurará a resposta mais simples para qualquer problema. Você não é capaz de se concentrar para ler textos (embora ainda possa ler avisos e compreender sinais gráficos) e nem usar Habilidades dos tipos Magia ou Música.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "visao-de-nehemoth",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Laboratório de Alquimia Portátil",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.014,
+    "quantidade": 1,
+    "custo": 140,
+    "description": "<p>Almofariz, espiriteira, condensador, balão de vidro, bule de peltre, Balança (guia do herói), Frasco de cerâmica, perderneira e isqueiro</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "laboratorio-de-alquimia-portatil",
+      "categoria": "Mundano"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Reposicionar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Verificando a melhor disposição de seus aliados em campo, você dá ordens para que eles se posicionem melhor. Um número de aliados igual à sua Vontade pode, imediatamente, realizar uma Ação de Movimento. Nenhuma criatura pode usar Habilidades do tipo Reação contra estes aliados durante essa movimentação. Utilizar esta Habilidade requer uma Ação de Rodada Completa, e você não se beneficia dos efeitos da Habilidade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "reposicionar",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

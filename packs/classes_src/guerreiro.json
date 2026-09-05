@@ -1,0 +1,30 @@
+{
+  "name": "Guerreiro",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 1,
+      "agilidade": 1,
+      "inteligencia": 0,
+      "vontade": 0
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "mestre-de-armas-1"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><p>De fato, a maioria das cidades mantém um pequeno contingente de guardas, treinado no uso de armaduras pesadas, escudos e armas corporais e a maioria dos reinos de Cassiopéia mantém um exército permanente de combatentes especializados para lidarem com invasões e fazer frente aos ataques de nações hostis. Além disso, muitas companhias de mercenários treinam e mantêm um bom número de guerreiros a soldo, prontos para empreenderem todo tipo de conflito armado. Finalmente, histórias de aldeões obrigados a pegarem em armas para defenderem seus lares contra bandidos ou, em alguns casos, monstros e que acabam por seguir nos caminhos dos homens de armas são relativamente comuns em Drakon.</p><p>Considerando a abundância de minérios em Cassiopéia, mesmo um guerreiro com pouco treinamento pode sobreviver no caminho da guerra, comprando armas e equipamentos adequados de proteção. Graças a isso, os exércitos, guardas e companhias de mercenários costumam manter seus homens bem equipados, e a profissão de Guerreiro é vista como digna e estável, fazendo com que muitos escolham segui-la em busca de glória e fama – apesar de poucos conseguirem tais distinções.</p><p>Apesar das guardas e exércitos não pagarem muito bem, elas oferecem alojamento, alimentação e manutenção de armas, armaduras e equipamentos necessários para o cumprimento do dever, enquanto companhias mercenárias pagam mais, mas apresentam riscos bem maiores – já que costumam ser procuradas para resolver problemas difíceis, geralmente envolvendo monstros, ou para engrossar as linhas de frente dos exércitos, no caso de conflitos em larga escala.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio, ataque-simultaneo, brigao, combate-em-grupo, armas-1, combate-pesado, combate-tatico, defesa-agressiva, estabilidade, golpe-devastador-1, golpe-com-escudo, grito-de-guerra-1, guerreiro-de-aco-1, investida-mortal, nocautear, parede-de-escudos, sem-escapatoria, transpor, combate-com-duas-armas-2, forca-de-explosao, golpe-devastador-2, grito-de-guerra-2, grito-de-intimidacao, guerreiro-de-aco-2, implacavel, investida-forte, mestre-de-armas-2, valor-da-vitoria, mestre-de-armas-3, gatuno\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guerreiro",
+      "conjurador": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Velino",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.02,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Uma folha. Pele de feto de boi ou cordeiro, preparada para receber tinta. Mais lisa e macia do que pergaminho comum, depois de seca a tinta resiste mesmo que a folha seja molhada. Grimórios a prova d’água podem ser feitos desse material.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "velino",
+      "categoria": "Mundano"
+    }
+  }
+}

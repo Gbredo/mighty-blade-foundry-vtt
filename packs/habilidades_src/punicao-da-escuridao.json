@@ -1,0 +1,25 @@
+{
+  "name": "Punição da Escuridão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Usada para punir espiões e pervertidos, esta é uma pena mais comum nas regiões de fronteira ou para prisioneiros de guerra, por deixá-los mais fáceis de controlar. Tocando em um alvo, você faz com que ele fique Cego por 1 turno. Se o alvo estiver Indefeso, você determina uma duração para o efeito – até no máximo uma quantidade de meses igual à sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punicao-da-escuridao",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

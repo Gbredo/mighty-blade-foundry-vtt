@@ -1,0 +1,35 @@
+{
+  "name": "Falsete",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "musica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDano",
+        "valor": 5,
+        "contexto": "Gritos e Rugidos"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "limitação de alcance normal em Gritos e Rugidos (alcance dobrado)"
+      }
+    ],
+    "description": "<p>Dobra o alcance de todos os Gritos e Rugidos. Acrescenta +5 de dano em cada um deles.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "falsete",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

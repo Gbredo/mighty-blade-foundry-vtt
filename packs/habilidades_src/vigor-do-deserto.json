@@ -1,0 +1,25 @@
+{
+  "name": "Vigor do Deserto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Fira",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu corpo é plenamente adaptado ao calor inclemente. Você é Imune a Fogo e retira umidade suficiente dos alimentos, nunca precisando beber líquidos para se hidratar.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vigor-do-deserto",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

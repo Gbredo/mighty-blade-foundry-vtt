@@ -1,0 +1,20 @@
+{
+  "name": "Pandeiro",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Couro esticado numa moldura, percutido com a mão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pandeiro",
+      "categoria": "Musical"
+    }
+  }
+}

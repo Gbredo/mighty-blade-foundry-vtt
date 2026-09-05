@@ -1,0 +1,25 @@
+{
+  "name": "Conhecimento Regional [Tebryn]",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Conhecimento Regional [Tebryn] — habilidade da organização (ver livro).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conhecimento-regional-tebryn",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

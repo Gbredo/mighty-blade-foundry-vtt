@@ -1,0 +1,20 @@
+{
+  "name": "Corda (10m)",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Uma corda resistente de cânhamo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corda-10m",
+      "categoria": "Mundano"
+    }
+  }
+}

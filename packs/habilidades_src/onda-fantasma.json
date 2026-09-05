@@ -1,0 +1,25 @@
+{
+  "name": "Onda Fantasma",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "dificuldade": 0,
+    "requisitos": "Ataque Fantasma",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Faça um ataque corporal contra um alvo que possa ver. Você precisa estar usando uma arma que esteja marcada com sua Runa pessoal. Esse ataque produz uma onda espectral que ignora paredes, portas, armaduras, escudos e quaisquer outros obstáculos inorgânicos. Essa rajada causa 10 de dano (o tipo de dano causado pelo ataque será o mesmo do tipo que a arma usada puder causar normalmente) e afeta criaturas incorpóreas como se elas fossem sólidas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "onda-fantasma",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

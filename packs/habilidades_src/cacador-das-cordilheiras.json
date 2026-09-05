@@ -1,0 +1,25 @@
+{
+  "name": "Caçador das Cordilheiras",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você se especializou em combater as criaturas mais comuns das Cordilheiras dos Cristais e das terras ao redor. Você recebe +2 em seus testes e causa +2 pontos de dano em todos os ataques contra a Raça Orcs e criaturas do tipo Gigante e Artrópode.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cacador-das-cordilheiras",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

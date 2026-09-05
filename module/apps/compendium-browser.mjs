@@ -20,10 +20,29 @@ export class MightyBladeCompendiumBrowser extends Application {
 
   async getData() {
     // Prioriza o compêndio do sistema; cai nos itens do mundo se o pack estiver vazio.
-    const packName = { raca: "mighty-blade.racas", classe: "mighty-blade.classes" }[this.filterType];
-    const pack = packName ? game.packs.get(packName) : null;
+    const packMap = {
+      raca: "mighty-blade.racas",
+      classe: "mighty-blade.classes",
+      habilidade: "mighty-blade.habilidades",
+      magia: "mighty-blade.magias",
+      equipamento: "mighty-blade.equipamentos",
+      arma: "mighty-blade.equipamentos",
+      armadura: "mighty-blade.equipamentos",
+    };
+
+    const packName = packMap[this.filterType] || "mighty-blade.racas";
+    const pack = game.packs.get(packName);
     let items = pack ? await pack.getDocuments() : [];
-    if (!items.length) items = game.items.filter((i) => i.type === this.filterType);
+    if (!items.length) {
+      items = game.items.filter((i) => i.type === this.filterType);
+    }
+
+    if (this.filterType === "arma" || this.filterType === "armadura") {
+      items = items.filter((i) => i.type === this.filterType);
+    } else if (this.filterType === "equipamento") {
+      items = items.filter((i) => i.type === "equipamento" || i.type === "arma" || i.type === "armadura");
+    }
+
     items = items.sort((a, b) => a.name.localeCompare(b.name));
     return { items };
   }
@@ -35,6 +54,16 @@ export class MightyBladeCompendiumBrowser extends Application {
     const detailsContent = html.find(".details-content");
     const selectButton = html.find(".select-button");
     const searchInput = html.find("input[name='search']");
+    const syncButton = html.find(".sync-packs-button");
+
+    // Botão de Sincronização direta
+    syncButton.on("click", async (ev) => {
+      ev.preventDefault();
+      if (game.mightyBlade?.buildCompendios) {
+        await game.mightyBlade.buildCompendios();
+        this.render(true);
+      }
+    });
 
     // Search Filter
     searchInput.on("keyup", (ev) => {
@@ -63,13 +92,52 @@ export class MightyBladeCompendiumBrowser extends Application {
 
       // Build details HTML
       let detailsHtml = `
-                <h2>${item.name}</h2>
-                <div class="item-description">${description}</div>
-            `;
+        <h2>${item.name}</h2>
+        <div class="item-description">${description}</div>
+      `;
 
-      // Add specific details based on type
-      if (item.type === "raca" && item.system.classesComuns) {
-        detailsHtml += `<div class="item-meta"><strong>Classes Comuns:</strong> ${item.system.classesComuns}</div>`;
+      // Specific details based on item type
+      if (item.type === "raca") {
+        const at = item.system.atributos || {};
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Atributos Iniciais:</b> FOR ${at.forca || 0} | AGI ${at.agilidade || 0} | INT ${at.inteligencia || 0} | VON ${at.vontade || 0}
+          </div>`;
+        if (item.system.habilidadeAutomatica?.nome) {
+          detailsHtml += `
+            <div class="item-meta" style="margin-top:4px;">
+              <b>Habilidade Automática:</b> ${item.system.habilidadeAutomatica.nome}
+            </div>`;
+        }
+        if (item.system.classesComuns) {
+          detailsHtml += `<div class="item-meta" style="margin-top:4px;"><strong>Classes Comuns:</strong> ${item.system.classesComuns}</div>`;
+        }
+      } else if (item.type === "classe") {
+        const at = item.system.atributos || {};
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Bônus de Atributos:</b> FOR +${at.forca || 0} | AGI +${at.agilidade || 0} | INT +${at.inteligencia || 0} | VON +${at.vontade || 0}
+          </div>`;
+      } else if (item.type === "magia") {
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Círculo:</b> ${item.system.circulo || 1} · <b>Fonte:</b> ${item.system.fonte === "mistica" ? "Mística" : "Arcana"} · <b>Custo:</b> ${item.system.custo || 0} PM · <b>DV:</b> ${item.system.dificuldade || 8}
+          </div>`;
+      } else if (item.type === "arma") {
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Dano:</b> ${item.system.dano || "0"} · <b>FN:</b> ${item.system.fn || 0} · <b>Alcance:</b> ${item.system.alcance || "Adjacente (1m)"}
+          </div>`;
+      } else if (item.type === "armadura") {
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Defesa:</b> +${item.system.defesa || 0} · <b>FN:</b> ${item.system.fn || 0} · <b>Tipo:</b> ${item.system.subtipo || "armadura"}
+          </div>`;
+      } else if (item.type === "habilidade") {
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Tipo:</b> ${item.system.tipo || "suporte"} · <b>Categoria:</b> ${item.system.categoria || "tecnica"} · <b>Custo:</b> ${item.system.custo || 0} PM
+          </div>`;
       }
 
       detailsContent.html(detailsHtml);
@@ -96,16 +164,16 @@ export class MightyBladeCompendiumBrowser extends Application {
       if (!this.selectedId) return;
       const item = await fromUuid(this.selectedId);
       if (item && this.targetActor) {
-        // Check if actor already has an item of this type
-        const existing = this.targetActor.items.find(
-          (i) => i.type === this.filterType
-        );
-        if (existing) {
-          // Delete existing item first
-          await existing.delete();
+        if (this.filterType === "raca" || this.filterType === "classe") {
+          const existing = this.targetActor.items.find(
+            (i) => i.type === this.filterType
+          );
+          if (existing) {
+            await existing.delete();
+          }
         }
 
-        // Create a copy of the item on the actor
+        // Cria uma cópia do item no ator
         await this.targetActor.createEmbeddedDocuments("Item", [
           item.toObject(),
         ]);

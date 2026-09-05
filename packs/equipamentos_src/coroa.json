@@ -1,0 +1,20 @@
+{
+  "name": "Coroa",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Adorno decorado para ser usada na cabeça.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coroa",
+      "categoria": "Mundano"
+    }
+  }
+}

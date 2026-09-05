@@ -1,0 +1,20 @@
+{
+  "name": "Papiro",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Uma folha. Papel de baixa qualidade feito a partir de uma pasta de junco seco. 100 dessas pesam 1kg.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "papiro",
+      "categoria": "Mundano"
+    }
+  }
+}

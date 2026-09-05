@@ -1,0 +1,20 @@
+{
+  "name": "Elixir dos Deuses",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 10000,
+    "description": "<p>O personagem que beber a poção recebe +3 em todos os seus Atributos por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-dos-deuses",
+      "categoria": "Pocao"
+    }
+  }
+}

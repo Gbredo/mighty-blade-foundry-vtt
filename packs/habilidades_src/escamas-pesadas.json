@@ -1,0 +1,31 @@
+{
+  "name": "Escamas Pesadas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Escamas",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "reducaoDano",
+        "valor": 2,
+        "contra": "qualquer fonte"
+      }
+    ],
+    "description": "<p>Suas escamas se tornam mais grossas, garantindo Redução de Dano (RD) 2 contra qualquer fonte. Só pode ser selecionada durante a criação do personagem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "escamas-pesadas",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Flecha Rede",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Rede de Prata Fria. Mira Int(14); dispara ignorando Armadura/Bloqueio p/ prender. Arrebentar For(14); falha causa 6/Corte.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flecha-rede",
+      "categoria": "Municao"
+    }
+  }
+}

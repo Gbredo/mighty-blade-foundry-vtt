@@ -1,0 +1,30 @@
+{
+  "name": "Duro como Pedra",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Anão",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusPV",
+        "valor": 10
+      }
+    ],
+    "description": "<p>Sua pele é mais grossa e resistente que a da maioria dos outros Anões. Você recebe +10 Pontos de Vida máximos e todos os danos que o personagem sofre são reduzidos em 1 (RD 1). Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "duro-como-pedra",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

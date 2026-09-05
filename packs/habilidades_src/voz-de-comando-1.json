@@ -1,0 +1,25 @@
+{
+  "name": "Voz de Comando 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Presença Inspiradora",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a dar ordens – e ser prontamente obedecido! Você ordena um aliado a fazer uma ação, e ele imediatamente realiza aquela ação. O alvo pode se recusar, se desejar. Essa deve ser uma ação simples – o alvo não pode usar nenhuma Habilidade do tipo Ação quando realizá-la. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "voz-de-comando-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

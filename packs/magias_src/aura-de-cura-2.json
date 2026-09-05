@@ -1,0 +1,18 @@
+{
+  "name": "Aura de Cura 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "mistica",
+    "custo": 30,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Aura de Cura 1</p><p>Você desenha um Selo Místico sobre sí mesmo que recupera 30 Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aura-de-cura-2",
+      "tipo": "Acao"
+    }
+  }
+}

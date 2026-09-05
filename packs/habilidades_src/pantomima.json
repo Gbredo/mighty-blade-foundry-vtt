@@ -1,0 +1,25 @@
+{
+  "name": "Pantomima",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade de performance do Bardo. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pantomima",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

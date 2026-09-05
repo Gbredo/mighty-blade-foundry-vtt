@@ -1,0 +1,18 @@
+{
+  "name": "Proteção Cadavérica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre o cadáver de uma criatura você o protege de efeitos de apodrecimento e impede que ele seja transformado em um morto-vivo por qualquer efeito. Essa magia pode ser conjurada sobre um corpo completo ou sobre partes removidas dele – útil para transportar cadáveres, manter partes decepadas inteiras para serem colocadas de volta no lugar ou mesmo para preservar comida! Mortos-vivos afetados por esta Magia recebem Redução de Dano 2. Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador. apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras ou dificuldades para realizar certas ações. O morto-vivo criado é permanente, e será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia – quando a Runa se dissipa, o morto-vivo passa a agir de forma independente. Essa Runa Arcana dura uma quantidade de horas igual à sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "protecao-cadaverica",
+      "tipo": "Acao"
+    }
+  }
+}

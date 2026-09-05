@@ -1,0 +1,25 @@
+{
+  "name": "Ripostar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Ataque Redirecionado",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está sempre atento à guarda do oponente, esperando uma falha para contra-atacar de modo oportuno. Sempre que um oponente fizer um ataque contra você e errar, você pode imediatamente fazer um ataque normal contra aquele oponente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ripostar",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

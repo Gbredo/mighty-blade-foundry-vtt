@@ -1,0 +1,20 @@
+{
+  "name": "Baú Pequeno",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 20,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Baú de madeira reforçado. Com alça para cadeado. 50 cm da largura, 25 cm de profundidade e 25 cm de altura.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bau-pequeno",
+      "categoria": "Mundano"
+    }
+  }
+}

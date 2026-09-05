@@ -1,0 +1,20 @@
+{
+  "name": "Corda Grossa (15m)",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 6,
+    "description": "<p>Corda reforçada aguenta 500kg.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corda-grossa-15m",
+      "categoria": "Mundano"
+    }
+  }
+}

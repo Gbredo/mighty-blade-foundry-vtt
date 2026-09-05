@@ -1,0 +1,31 @@
+{
+  "name": "Contos da Estrada",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Tailox",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "testes de Inteligência para obter conhecimento"
+      }
+    ],
+    "description": "<p>Com base em histórias ouvidas em caravanas e fogueiras, você possui um vasto repertório de lendas e fatos. Rola +1d6 em todos os testes de Inteligência voltados para obter ou lembrar qualquer tipo de conhecimento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "contos-da-estrada",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

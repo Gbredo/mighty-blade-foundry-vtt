@@ -1,0 +1,25 @@
+{
+  "name": "Clarividência",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Fechando os olhos e concentrando-se em uma criatura, item ou superfície onde haja um Selo Místico que você tenha desenhado, você é capaz de ver e ouvir o que estiver ocorrendo nos arredores daquele Selo. Você vê e ouve com suas próprias capacidades, e não pode usar seus outros sentidos para perceber o ambiente ao redor do Selo. Tanto Selos usados para conjurar magias ou Selos Místicos simples podem ser usados como alvos dessa Habilidade. Essa Habilidade funciona por tanto tempo quanto você se concentrar, mas se o Selo que você estiver observando for dissipado esse efeito é cancelado imediatamente. abertos à discussão e estão tão interessados em disseminar o conhecimento quanto em adquirí-lo. Não é surpresa alguma que a um grande número desses Oráculos sejam Sacerdotes dedicados à Sarfion. Sacerdotes de Taranis também são comuns nesse grupo, já que o próprio conceito de liberdade está ligada ao conhecimento – “não há prisão mais terrível do que a ignorância” é um dito comum entre eles. Druidas são conhecidos por engrossar essas fileiras de Oráculos, as vezes para melhor servir à seus propósitos, mas geralmente por uma curiosidade inata comum à todos os membros da Classe. Muitos Sacerdotes de Mirah e Hou, por outro lado, se tornam Oráculos em busca de conhecimentos específicos. Sacerdotes de Mirah costumam procurar um meio de chegar à paz absoluta, enquanto Sacerdotes de Hou muitas vezes se dedicam à encontrar respostas relacionadas à grandes artefatos perdidos – como a Mighty Blade – ou civilizações esquecidas – como Mankosh. Sua busca pode ser pelo objeto em si, seu método de construção, o motivo por trás de sua criação ou a identidade e natureza de seus criadores. Apesar de raramente serem capazes de obter a grande resposta que buscam, estes Oráculos costumam reunir informações significativas com relação à sua área de interesse.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "clarividencia",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

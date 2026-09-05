@@ -1,0 +1,20 @@
+{
+  "name": "Elixir do Dragão Vermelho",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 250,
+    "description": "<p>Permite disparar um sopro de fogo que causa dano igual à 20/Fogo num alcance de 10 metros.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-do-dragao-vermelho",
+      "categoria": "Pocao"
+    }
+  }
+}

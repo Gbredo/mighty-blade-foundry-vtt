@@ -1,0 +1,20 @@
+{
+  "name": "Compasso",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 6,
+    "description": "<p>Instrumento em formato de “V” com uma pena em um dos extremos usado para desenhar círculos e realizar medições.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "compasso",
+      "categoria": "Mundano"
+    }
+  }
+}

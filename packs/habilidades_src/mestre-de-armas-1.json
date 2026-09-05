@@ -1,0 +1,25 @@
+{
+  "name": "Mestre de Armas 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é particularmente eficiente no uso de armas brancas. Sempre que realizar um ataque corporal bem sucedido, adicione 3 ao dano do ataque. Descrição O</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mestre-de-armas-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

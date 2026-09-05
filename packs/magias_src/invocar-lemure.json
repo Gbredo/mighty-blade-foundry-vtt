@@ -1,0 +1,18 @@
+{
+  "name": "Invocar Lemure",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p>Traçando um Círculo de Invocação você invoca um Lemure (um Sabujo Infernal ou Diabrete se seu nível for menor do que 5 ou Mastim Infernal ou uma Malora se seu nível for 5 ou maior). O Lemure permanece no plano material por um número de horas igual à sua Determinação mais um número de horas igual à Vontade da criatura sacrificada para invoca-lo, mas você pode acender um braseiro quando invocá-lo, derramando o sangue da criatura sacrificada nele. Sacrificando outra criatura (não é preciso um novo ritual, mas a criatura ainda precisa estar Indefesa) e derramando seu sangue no braseiro, você renova a duração da invocação por uma quantidade de Horas igual à Determinação da criatura sacrificada. Essa operação pode ser realizada indefinidamente, e muitos Cultistas mantêm o mesmo Lemure por anos a frio sob seus serviços dessa forma. Se o braseiro for apagado ou você falhar em derramar mais sangue nas brasas dele quando o tempo de invocação acabar, o Lemure será imediatamente banido para o Inferno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-lemure",
+      "tipo": "Acao"
+    }
+  }
+}

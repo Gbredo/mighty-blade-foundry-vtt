@@ -1,0 +1,18 @@
+{
+  "name": "Sustentar Mortos-Vivos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana sobre um morto-vivo, você o imbui com energias necromânticas que o tornam mais resistente. – e reforça seu controle. O morto-vivo recebe +10 Pontos de Vida e Força +2. Além disso, se o alvo estiver sob controle de uma criatura (incluindo você), o tempo de controle se estende pela duração dessa Runa ao invés do tempo normal. Essa Runa Arcana dura uma quantidade de dias igual à sua Vontade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sustentar-mortos-vivos",
+      "tipo": "Acao"
+    }
+  }
+}

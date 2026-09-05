@@ -1,0 +1,25 @@
+{
+  "name": "Arte da Forja 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você exercitou sua maestria sobre a forja de metais e é capaz de criar itens mais eficientes do que os normais. Você pode criar ou modificar itens de metal de forma que eles tenham FN -1, ou, no caso de armas, causem Dano +1. Itens de qualidade baixa não podem ser modificados e itens de qualidade alta ou obra-prima acumulam seus benefícios de qualidade com essas modificações. Se estiver modificando um item, você deve fazer um teste de ferraria e o resultado precisa ser igual ou superior ao necessário para criar aquele item. Veja o Guia do Herói (página 52) para maiores detalhes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arte-da-forja-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

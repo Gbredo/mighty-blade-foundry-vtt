@@ -1,0 +1,25 @@
+{
+  "name": "Palavra Tóxica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade de debuff verbal do Bardo. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "palavra-toxica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

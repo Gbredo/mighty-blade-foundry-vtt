@@ -1,0 +1,24 @@
+{
+  "name": "Túnica do Norte",
+  "type": "armadura",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "defesa": 4,
+    "fn": 1,
+    "subtipo": "armadura",
+    "pesada": false,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2.5,
+    "quantidade": 1,
+    "custo": 3700,
+    "description": "<p>Item mágico (+1).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tunica-do-norte",
+      "categoria": "Defesa"
+    }
+  }
+}

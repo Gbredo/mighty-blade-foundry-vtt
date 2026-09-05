@@ -1,0 +1,20 @@
+{
+  "name": "Armadura Animal (Completa)",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 100,
+    "quantidade": 1,
+    "custo": 1800,
+    "description": "<p>Concede +4 de defesa ao animal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadura-animal-completa",
+      "categoria": "Mundano"
+    }
+  }
+}

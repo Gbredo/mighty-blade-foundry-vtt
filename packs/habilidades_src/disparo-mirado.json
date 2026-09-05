@@ -1,0 +1,25 @@
+{
+  "name": "Disparo Mirado",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Se você usar uma ação padrão mirando em um alvo, você pode rolar +1d6 no seu primeiro ataque à distância contra aquele alvo no seu próximo turno. Especial: Mirar mais de um turno não adiciona nenhum benefício extra.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "disparo-mirado",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Couro Infernal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua pele se torna mais rija e grossa e adquire uma aparência não natural (escamas disformes, manchas de hematomas, crostas ósseas…). Você tem um bônus de Defesa +2 (este bônus conta como Armadura), se torna Resistente a [Corte, Contusão ou Perfuração]. Esta escolha é permanente e não pode ser mudada mais tarde. Especial: Se você já for resistente a algum tipo de dano físico, você não pode selecionar aquele tipo de dano para se tornar Imune a ele. Ao invés disso, escolha um tipo de dano diferente para se tornar Resistente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "couro-infernal",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

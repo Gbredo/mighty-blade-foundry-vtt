@@ -1,0 +1,25 @@
+{
+  "name": "Invocação Versátil",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Invocação Per-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>sistente Você pode invocar criaturas nas mais diversas formas. Criaturas invocadas por você podem ter uma Habilidade extra dependendo de sua forma, e seu bônus automático de Defesa é aumentado em 2. Golens e Elementais de Gelo podem ter Chifres Poderosos, Corpo Equino, Montaria, garras ou Braços Extras 2. Elementais de Fogo e Golens de Madeira podem ter Asas Pesadas ou Asas Leves. Especial: Uma criatura com a Habilidade Montaria precisa ser pelo menos da mesma categoria de tamanho do seu cavaleiro. Assim, a maioria das raças (exceto Metadílios e Goblins) só poderá montar em Golens ou Elementais de categoria de tamanho Média ou maior.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocacao-versatil",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

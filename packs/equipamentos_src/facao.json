@@ -1,0 +1,27 @@
+{
+  "name": "Facão",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+4",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 25,
+    "description": "<p>Lâmina pesada de mata e colheita de cana/vegetação densa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "facao",
+      "categoria": "Arma"
+    }
+  }
+}

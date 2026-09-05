@@ -1,0 +1,20 @@
+{
+  "name": "Ossos de Hidra",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 200,
+    "description": "<p>Componente. Caça em Cavernas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ossos-de-hidra",
+      "categoria": "Ingrediente"
+    }
+  }
+}

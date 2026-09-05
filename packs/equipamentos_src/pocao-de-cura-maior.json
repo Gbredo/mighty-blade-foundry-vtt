@@ -1,0 +1,20 @@
+{
+  "name": "Poção de Cura Maior",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 200,
+    "description": "<p>Recupera 25 Pontos de Vida (PV) e estanca sangramentos ativos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-de-cura-maior",
+      "categoria": "Pocao"
+    }
+  }
+}

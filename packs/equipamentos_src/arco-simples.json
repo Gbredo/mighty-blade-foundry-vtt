@@ -1,0 +1,28 @@
+{
+  "name": "Arco Simples",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "FOR+4",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Disparo Médio (100m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.75,
+    "quantidade": 1,
+    "custo": 75,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arco-simples",
+      "categoria": "Projetil"
+    }
+  }
+}

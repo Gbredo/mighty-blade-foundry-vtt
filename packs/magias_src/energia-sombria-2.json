@@ -1,0 +1,18 @@
+{
+  "name": "Energia Sombria 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Energia Sombria 1.</p><p>Desenhando uma Runa Arcana no ar, você projeta uma rajada de energia espectral que, ao atingir uma criatura viva, faz com que ela perca uma quantidade de Pontos de Vida e Pontos de Mana igual à sua Determinação – se o alvo for um morto-vivo ou espírito, ele recupera uma quantidade de Pontos de Vida igual à sua Determinação ao invés disso. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados. Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "energia-sombria-2",
+      "tipo": "Acao"
+    }
+  }
+}

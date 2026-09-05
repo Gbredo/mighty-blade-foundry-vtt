@@ -1,0 +1,35 @@
+{
+  "name": "Mente Iluminada",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Fira, Levent",
+    "bonusAtributo": {
+      "atributo": "vontade",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "vontade",
+        "valor": 1
+      },
+      {
+        "tipo": "bonusPM",
+        "valor": 5
+      }
+    ],
+    "description": "<p>Você possui uma clareza única de raciocínio e serenidade de espírito. Você ganha permanentemente Vontade +1 e +5 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mente-iluminada",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

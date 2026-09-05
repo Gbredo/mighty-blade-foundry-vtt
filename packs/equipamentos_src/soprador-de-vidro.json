@@ -1,0 +1,20 @@
+{
+  "name": "Soprador de vidro",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Tubo de aço usado para soprar vidro em formas variadas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "soprador-de-vidro",
+      "categoria": "Mundano"
+    }
+  }
+}

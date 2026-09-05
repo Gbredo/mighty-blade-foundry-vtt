@@ -1,0 +1,25 @@
+{
+  "name": "Cavaleiro da Morte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Vigor Necro-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>mântico, Devorador dos Mortos. A frieza da sua alma é tão extrema que se torna um farol para espíritos perdidos. Você é Imune ao Frio e é constantemente acompanhado por uma quantidade de Sombras igual à sua Vontade (que, caso sejam destruídas de alguma forma, serão substituídas assim que você estiver em um local onde existam Sombras). Além disso, Devorador dos Mortos passa a ser considerada uma ação livre para você. Descrição Aziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção. Embora lidem diretamente com magia infernal, Aziagos não são, necessariamente, infernalistas. Eles não precisam possuir nenhum Pacto – embora muitos conjuradores que possuem Pactos utilizem a ligação criada com seu patrono para canalizar energias infernais, tornando-se Aziagos. No entanto, alguns conjuradores arcanos decidem estudar a canalização das energias infernais simplesmente para ampliar seu arsenal mágico, mesmo que não tenham qualquer intenção de realizar pactos com criaturas infernais, enquanto outros se tornam Aziagos para combater outros infernalistas de forma mais eficiente. Independente dos motivos que levem um conjurador a se tornar um Aziago, conjurar Maldições é considerado como um ato vil em qualquer cultura de Cassiopéia, e aqueles capazes de fazê-lo são considerados como Cultistas. É importante observar, também, que canalizar energias infernais é extremamente prejudicial, e conjuradores que não sejam Aziagos ou possuam Pactos têm dificuldades em conjurar Maldições de forma eficiente. Além disso, conjurar uma maldição pode atrair a atenção de criaturas infernais, o que pode ter resultados desastrosos. Raças Humanos são a Raça mais inclinada à procura pelos usos de Maldições, tanto por uma curiosidade natural quanto por uma busca de poder intrínseca de sua cultura. Além deles, as Naga, cuja cultura revolve ao redor da adoração de uma entidade infernal, também se tornam Aziagas com frequência. Entre as outras Raças, Aziagos são extremamente raros, já que, assim como no caso dos Cultistas, trilhar esse Caminho é uma decisão extremamente pessoal que vai Aziago Singular masculino: Aziago; Singular feminino: Aziaga; Plural masculino: Aziagos; Plural feminino: Aziagas Requisitos Para seguir este Caminho você precisa preencher os seguintes Requisitos: • Conhecimento Arcano (Habilidade) • Vontade 5 Habilidade Automática</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cavaleiro-da-morte",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

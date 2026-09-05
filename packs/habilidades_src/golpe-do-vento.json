@@ -1,0 +1,25 @@
+{
+  "name": "Golpe do Vento",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Enfeitiçar Arma 1",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de cortar o ar, enviando uma rajada de vento mágico que corta alvos distantes. Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal contra um alvo dentro da sua linha de visão. Esse ataque causa o dano normal da arma.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "golpe-do-vento",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

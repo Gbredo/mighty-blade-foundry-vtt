@@ -1,0 +1,18 @@
+{
+  "name": "Olho do Furacão",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 40,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Evocar Temporal</p><p>Desenhando um Selo Místico sobre si mesmo, você cria um poderoso turbilhão de vento em uma área com um diâmetro em metros igual à sua Vontade e uma altura igual à 10 vezes sua Vontade. Essa área tem um olho central com cerca de 2 metros de diâmetro onde não há vento. O furacão se move conforme você se desloca, permanecendo centrado em você. Todos dentro da área do furacão devem fazer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade, ficando caídos. Vencendo 2 testes consecutivos um personagem consegue chegar ao olho do furacão – mas o conjurador pode se deslocar para tentar engolfar personagens na parede de vento outra vez. O furacão impede a linha de visão através dele. Este Selo Místico dura uma quantidade de turnos igual à Vontade do conjurador.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "olho-do-furacao",
+      "tipo": "Acao"
+    }
+  }
+}

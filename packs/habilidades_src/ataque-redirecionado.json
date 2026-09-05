@@ -1,0 +1,25 @@
+{
+  "name": "Ataque Redirecionado",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Evasão",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando um oponente errar um ataque corporal contra você, você pode direcionar o ataque dele para outro alvo. O novo alvo precisa estar adjacente a você ou ao oponente que errou o ataque. Esse ataque acerta automaticamente – sem chance de errar ou de ser um sucesso decisivo. Esta Habilidade só pode ser usada uma vez por rodada. Combate com Duas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-redirecionado",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

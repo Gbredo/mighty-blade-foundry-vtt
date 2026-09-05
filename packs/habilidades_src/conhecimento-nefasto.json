@@ -1,0 +1,25 @@
+{
+  "name": "Conhecimento Nefasto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui um conhecimento considerável sobre os fluxos das energias infernais e como elas funcionam no plano material. Você não perde Pontos de Vida quando realiza uma magia que exija um Símbolo Profano – mas ainda sofre perda de PVs para realizar magias que envolvam Círculo de Invocação (veja Contactando o Inferno na página 9 para mais detalhes). Além disso, você é imune a Maldições, recebe +2 em todos os seus testes envolvendo criaturas infernais e a dificuldade de todos os testes de uma criatura infernal envolvendo você é aumentada em 1. Especial: Como parte dos seus estudos, o personagem também aprende o idioma Ctónico como um idioma extra. contra todos os ditames normais de suas culturas. É interessante observar, no entanto, que, independente da Raça, conjuradores dedicados à Sarfion e Mirah tendem a se tornar Aziagos com alguma frequência. Entre os seguidores de Sarfion, isso geralmente é devido a uma curiosidade inata, enquanto que entre os seguidores de Mirah é uma questão de estar mais preparados para lidarem com Cultistas e Infernais. Em ambos os casos, ingressar nesse Caminho geralmente é uma escolha feita com intuitos defensivos (como a imunidade a Maldições e a capacidade de remover maldições de outros) mais do que ofensivos (embora as magias dos Aziagos sejam muito mais eficientes contra infernais), e embora estes Aziagos dedicados a celestiais sejam plenamente capazes de conjurar Maldições, existem pouquíssimos registros de isso ter sido feito. Habilidades Básicas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conhecimento-nefasto",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Atacar Pelas Costas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é particularmente bom em atacar alvos desprevenidos. Quando fizer um ataque corporal contra um alvo que esteja Desprevenido com relação a você, role +2d6 em seus ataques corporais ao invés de +1d6. Especial: Este benefício se aplica apenas a ataques corporais. Outras ações contra alvos Surpresos/Desprevenidos (como furtar bolsos ou ataques à distância) recebem apenas o bônus normal pela condição. ver a vida se esvaindo do corpo do alvo. Os Assassinos gostam de verificar com seus próprios olhos que o alvo está, de fato, bem morto. Por conta disso, Assassinos desdenham armas de distância, magia e alquimia como método de eliminação de alvos, e embora possam empregar esses subterfúgios para auxiliar a cumprir suas missões, sempre dão preferência a armas brancas para terminar com um alvo – afinal, mesmo uma flecha entre os olhos ou uma bola de fogo pode deixar o alvo com um suspiro de vida que pode ser utilizado por um Sacerdote para evitar que o alvo morra. Uma decapitação, por outro lado, não pode ser curada. A maioria dos Assassinos dá valor à discrição com o intuito de pegar seus alvos com a guarda baixa. O método empregado para isso varia bastante, no entanto. Alguns deles preferem táticas de desorientação utilizando magias ou alquimia para desnortear seus alvos antes de atacá-los, enquanto outros preferem estudar sistematicamente seus alvos para pegá-los em momentos vulneráveis e há Assassinos que simplesmente tentarão se aproximar silenciosamente de seus alvos na primeira oportunidade possível, geralmente utilizando o manto da noite como cobertura. A paciência também é uma arma muito utilizada pelos Assassinos, já que a preparação para o ataque, o estudo do alvo, ou a simples espera pelo momento certo para atacar são ferramentas tão importantes como uma espada afiada. Embora Assassinos às vezes sejam empregados como uma ferramenta política, isso é raro, já que em geral métodos mais sutis – como fazer uma morte parecer um acidente ou deixar evidências que levem a pistas falsas – não são o tipo de atuação que se espera de um Assassino. Assassino Singular masculino: Assassino; Singular feminino: Assassina; Plural masculino: Assassinos; Plural feminino: Assassinas Além disso, nem todos os Assassinos trabalham como matadores de aluguel. Muitos deles se tornam matadores eficientes para lidar com ameaças específicas ou para levar a cabo juramentos de vingança. E embora a ocupação geralmente seja vista como maligna, há um bom número de Assassinos que emprega suas habilidades para o bem de um grupo ou nação. Os Sabres Flamejantes são um grupo de Assassinos de Parband que se orgulham de terem eliminado muitos líderes de tribos Orcs e terem feito com que grupos enormes debandassem sem causar maiores inconvenientes, enquanto os Dunmharfoir são um grupo de elite escolhidos entre os patrulheiros de Ambrook utilizados na eliminação de criaturas específicas que lideram grupos de monstros perigosos dentro da Floresta do Antigos, como líderes de tribos selvagens, vampiros ancestrais ou mesmo Druidas enlouquecidos. Raças Humanos, Elfos e Firas são as Raças que produzem mais Assassinos. Eliminar alvos de forma limpa e eficiente é visto, entre essas Raças, como uma espécie de arte refinada, e suas culturas consideram que os Assassinos são um mal necessário, já que muitas vezes uma única morte pode evitar batalhas, guerras e cercos – que tendem a custar números consideráveis de vidas. Os Metadílios e os Tailox contam com alguns Assassinos famosos também, já que a jovialidade, empatia e gentileza atribuída a essas Raças lhes oferece um disfarce extremamente convincente. Entre os Gnolls, Assassinos são considerados como grandes heróis, sendo capazes de eliminar – ainda que indiretamente – vários oponentes com apenas um golpe. Eles prezam a astúcia e a ardileza necessárias para se tornar um Assassino. Não se tem notícias de um Juban, Astério ou Mahok Assassinos. A cultura dessas Raças vai diametralmente contra a ideia de Assassinatos, prezando pela honra, retidão e principalmente simplicidade, o que os torna absolutamente incapazes (alguns diriam que por falta de refinamento) para se tornarem Assassinos. Entre as outras Raças, Assassinos são raros, mas não totalmente desconhecidos. Habilidades Básicas Apunhale primeiro,</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "atacar-pelas-costas",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

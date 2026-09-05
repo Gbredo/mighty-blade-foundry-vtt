@@ -1,0 +1,20 @@
+{
+  "name": "Cantil",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Recipiente para carregar líquidos feito com couro e armação de madeira e/ou metal. Mais fácil de carregar do que o odre. Cheio de líquido pesa 1kg a mais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cantil",
+      "categoria": "Mundano"
+    }
+  }
+}

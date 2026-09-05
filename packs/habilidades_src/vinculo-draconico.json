@@ -1,0 +1,25 @@
+{
+  "name": "Vínculo Dracônico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você passou muito tempo lidando com nexos dracônicos e/ou com Dragões em pessoa e foi alterado pelas energias que eles emanam. Seus olhos se tornaram semelhantes aos de um dragão, e você consegue enxergar no escuro com perfeição. Além disso, você ignora efeitos de climas extremos e não é afetado por efeitos de envelhecimento. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vinculo-draconico",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

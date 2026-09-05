@@ -1,0 +1,20 @@
+{
+  "name": "Cavalo Comum",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Versão treinada do cavalo descrito no Monstrum Codex p. 9</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cavalo-comum",
+      "categoria": "Montaria"
+    }
+  }
+}

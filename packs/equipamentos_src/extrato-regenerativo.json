@@ -1,0 +1,20 @@
+{
+  "name": "Extrato Regenerativo",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 2000,
+    "description": "<p>Cura ou regenera membros decepados, mas apenas de ferimentos não cicatrizados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-regenerativo",
+      "categoria": "Pocao"
+    }
+  }
+}

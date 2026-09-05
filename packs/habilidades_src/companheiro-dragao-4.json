@@ -1,0 +1,25 @@
+{
+  "name": "Companheiro Dragão 4",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Companheiro Dragão 3.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu Companheiro Dragão se torna uma criatura formidável com a qual você possui uma ligação profunda. Enquanto estiver em contato físico direto com seu Companheiro Dragão vocês compartilham seus Pontos de Mana e podem transferir Pontos de Mana um para o outro como uma Ação livre. Seu companheiro se torna uma criatura de tamanho Grande, ganha +1 em todos os seus Atributos, +1 em 2 Atributos à sua escolha. Além disso, ele recebe a Habilidade Montaria e mais 1 Habilidade da lista do Dragano (pagina 26) à sua escolha.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "companheiro-dragao-4",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Aporte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui um conhecimento considerável sobre Magias e efeitos sobrenaturais dedicados a mover criaturas e objetos. Telecinese e Caminhada Mágica (ou qualquer Magia que tenha uma dessas magias como Requisito mesmo que retroativamente) tem sua dificuldade diminuída em 2 para você e custam 5 Pontos de Mana a menos para conjurar. Além disso, a dificuldade para um alvo resistir aos efeitos dessas magias é sempre aumentado em 2 quando você as conjura.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aporte",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

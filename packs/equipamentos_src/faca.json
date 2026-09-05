@@ -1,0 +1,20 @@
+{
+  "name": "Faca",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Faca sólida para propósitos variados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "faca",
+      "categoria": "Mundano"
+    }
+  }
+}

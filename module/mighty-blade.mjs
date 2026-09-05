@@ -87,6 +87,7 @@ Hooks.once("init", async function () {
 });
 
 /* -------------------------------------------- */
+/* -------------------------------------------- */
 /* Botão "Importar Ficha" na aba de Atores      */
 /* -------------------------------------------- */
 Hooks.on("renderActorDirectory", (app, html) => {
@@ -103,3 +104,42 @@ Hooks.on("renderActorDirectory", (app, html) => {
   btn.addEventListener("click", () => openImportDialog());
   header.appendChild(btn);
 });
+
+/* -------------------------------------------- */
+/* Botão "Sincronizar Compêndios" na aba de Packs */
+/* -------------------------------------------- */
+Hooks.on("renderCompendiumDirectory", (app, html) => {
+  if (!game.user.isGM) return;
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root) return;
+  const header = root.querySelector(".directory-header") ?? root.querySelector("header");
+  if (!header || header.querySelector(".mb-sync-compendiums")) return;
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "mb-sync-compendiums";
+  btn.style.cssText = "flex:0 0 auto;margin-top:4px;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;";
+  btn.innerHTML = `<i class="fas fa-arrows-rotate"></i> Sincronizar Compêndios`;
+  btn.title = "Reconstrói os 5 compêndios canônicos (Raças, Classes, Habilidades, Magias e Equipamentos)";
+  btn.addEventListener("click", () => buildCompendios());
+  header.appendChild(btn);
+});
+
+/* -------------------------------------------- */
+/* Verificação Inicial no hook 'ready'          */
+/* -------------------------------------------- */
+Hooks.once("ready", async () => {
+  if (!game.user.isGM) return;
+
+  const racasPack = game.packs.get("mighty-blade.racas");
+  if (racasPack) {
+    const index = await racasPack.getIndex();
+    if (index.size === 0) {
+      ui.notifications.warn(
+        "Os compêndios canônicos do Mighty Blade estão vazios. Clique no botão 'Sincronizar Compêndios' na aba de Compêndios ou execute game.mightyBlade.buildCompendios().",
+        { permanent: true }
+      );
+    }
+  }
+});
+

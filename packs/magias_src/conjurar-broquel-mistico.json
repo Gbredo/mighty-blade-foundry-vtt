@@ -1,0 +1,18 @@
+{
+  "name": "Conjurar Broquel Místico",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Você desenha um Selo Místico sobre uma criatura que se materializa na forma de um escudo que flutua ao redor do alvo defletindo ataques, mas pode ser segurado como um escudo normal. Ele garante Esquiva +2, e se for segurado tem FN 2, ocupa 1 mão e seu bônus passa a ser de Bloqueio. Esse Selo Místico dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurar-broquel-mistico",
+      "tipo": "Acao"
+    }
+  }
+}

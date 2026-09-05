@@ -1,0 +1,25 @@
+{
+  "name": "Caça Sobrenatural",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você recebe +2 em todas as suas rolagens relativas a criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Você também causa +3 de dano em todos os seus ataques contra essas criaturas. 116 Capítulo 4 Capítulo 4 das Ordens oficiais de Tebryn, e atualmente a quantidade de Estrigoi vindos de outras Ordens é uma minoria dentro dela. De fato, a maioria dos Sacerdotes que ingressa na Ordem segue os Dogmas de Sarfion. Patrulheiros, Xamãs e Druidas também são comuns na Ordem, acostumados em rastrear e caçar – ou lidar com espíritos e criaturas sobrenaturais. Há um bom número de Ladinos na Ordem também, já que habilidades de infiltração são extremamente valorizadas pelos Estrigoi.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "caca-sobrenatural",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

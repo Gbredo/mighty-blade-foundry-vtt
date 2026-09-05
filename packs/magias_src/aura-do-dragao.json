@@ -1,0 +1,18 @@
+{
+  "name": "Aura do Dragão",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando um Selo Místico sobre si mesmo, você gera uma aura de energia elemental (Fogo, Frio ou Eletricidade) – essa escolha é feita quando você conjura a magia. Qualquer criatura que esteja adjacente a você quando conjurar esta magia, quando ela terminar seu deslocamento ou quando ela iniciar seu turno sofrem uma quantidade de dano do elemento selecionado igual à sua Vontade. Este Selo Místico dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aura-do-dragao",
+      "tipo": "Acao"
+    }
+  }
+}

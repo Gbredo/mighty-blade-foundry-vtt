@@ -1,0 +1,20 @@
+{
+  "name": "Pele de Camaleão",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Componente. Caça.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pele-de-camaleao",
+      "categoria": "Ingrediente"
+    }
+  }
+}

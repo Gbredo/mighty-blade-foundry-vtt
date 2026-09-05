@@ -1,0 +1,31 @@
+{
+  "name": "Arborícola",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Elfo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes nas copas das árvores"
+      }
+    ],
+    "description": "<p>Você passou muitos anos explorando as copas das árvores. Você é automaticamente bem-sucedido em testes para escalar árvores, seu Deslocamento não é reduzido na copa das árvores e você recebe +2 em testes para mover-se em silêncio, esconder-se e equilibrar-se nelas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arboricola",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

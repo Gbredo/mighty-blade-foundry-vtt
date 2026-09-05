@@ -1,0 +1,25 @@
+{
+  "name": "Canção Exultante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Melodia do Repouso",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você canta uma música exaltando as capacidades e qualidades dos seus aliados, deixando-os confiantes. Todos os seus aliados (incluindo você) que puderem ouvir essa canção recebem +1 em todos os seus testes enquanto você continuar a tocar essa Música.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cancao-exultante",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

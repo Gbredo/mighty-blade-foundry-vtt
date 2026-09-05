@@ -1,0 +1,20 @@
+{
+  "name": "Sela e estribos",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 80,
+    "description": "<p>Confere um bônus de +2 em todos os testes de Cavalgar.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sela-e-estribos",
+      "categoria": "Mundano"
+    }
+  }
+}

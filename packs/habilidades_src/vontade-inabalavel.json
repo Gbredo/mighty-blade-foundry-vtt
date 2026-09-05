@@ -1,0 +1,25 @@
+{
+  "name": "Vontade Inabalável",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que você for alvo de qualquer Habilidade que o fizer perder Pontos de Mana, você nega todos os efeitos daquela Habilidade, automaticamente. Além disso, você gasta 5 Pontos de Mana a menos para usar qualquer Habilidade – até um custo mínimo de 5 Pontos de Mana. Habilidade Final Golpe Justo Habilidade – Reação Requisito: Nível 10 Mana: 30 Descrição: Sempre que realizar um ataque corporal contra uma criatura, você pode mudar o resultado de um dos dados para 6.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vontade-inabalavel",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

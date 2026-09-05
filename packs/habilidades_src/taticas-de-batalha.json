@@ -1,0 +1,25 @@
+{
+  "name": "Táticas de Batalha",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Discutindo táticas militares básicas com seus aliados ao longo de suas jornadas, você permite que eles fiquem mais bem preparados para entrarem em combate. Todos os seus aliados, incluindo você, recebem um bônus de +2 em seus testes de Iniciativa enquanto você estiver dentro do seu alcance de visão. Eles também recebem +2 na sua Defesa quando estiverem Surpresos ou Desprevenidos (esse bônus de Defesa pode ser tanto de Bloqueio quanto de Esquiva, à escolha do jogador que recebe o bônus), e podem utilizar suas Habilidades de Reação normalmente quando estiverem Cegos ou Distraídos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "taticas-de-batalha",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

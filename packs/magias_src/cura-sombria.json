@@ -1,0 +1,18 @@
+{
+  "name": "Cura Sombria",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "mistica",
+    "custo": 10,
+    "dificuldade": 9,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura, você a envolve em energia espectral que cura uma quantidade de Pontos de Vida igual à sua Determinação se o alvo for um morto-vivo ou espírito. Se o alvo for uma criatura viva, ele perde uma quantidade de Pontos de Vida igual à sua Determinação e você recupera uma quantidade de Pontos de Vida igual à quantidade perdida pelo alvo. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados. Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cura-sombria",
+      "tipo": "Acao"
+    }
+  }
+}

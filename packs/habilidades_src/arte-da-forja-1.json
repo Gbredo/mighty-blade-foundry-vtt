@@ -1,0 +1,25 @@
+{
+  "name": "Arte da Forja 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você recebeu treinamento formal nas técnicas mais avançadas de trabalho com metais. Sempre que fizer um teste de ferraria, você recebe um bônus de +2. Além disso, você gasta metade do tempo normal para criar ou consertar itens de metal, e metade do material normalmente necessário para consertar itens de metal – ou seja, um quarto do peso do item ao ser consertado, ao invés de metade do peso daquele item. Finalmente, quando desconstruir um item de metal, você pode reaproveitar todo o metal do item ao invés de apenas metade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arte-da-forja-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

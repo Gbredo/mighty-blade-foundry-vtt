@@ -1,0 +1,18 @@
+{
+  "name": "Rajada de Espinhos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Sabedoria Selvagem</p><p>Desenhando um Selo Místico em um item de madeira você faz com que ele desenvolva espinhos longos e afiados que se projetam atingindo um número de alvos igual à sua Vontade que estiverem à uma distância de até 10 metros à sua frente, causando dano igual à 12/Perfuração. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rajada-de-espinhos",
+      "tipo": "Acao"
+    }
+  }
+}

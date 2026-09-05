@@ -1,0 +1,25 @@
+{
+  "name": "Dança do Ventre",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Dança vs Vontade de todos que possam ver. Quem falhar fica Distraído enquanto o Bardo continuar dançando.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "danca-do-ventre",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

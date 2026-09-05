@@ -1,0 +1,25 @@
+{
+  "name": "Círculo de Invocação Infernal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de ler magias em itens com a característica Registro e pode conjurar Magias que exijam um Círculo de Invocação como se você possuísse Conhecimento Arcano – mas realiza magias Arcanas como se fosse Inapto e não pode realizar Magias Místicas. Além disso, você não perde Pontos de Vida devido à conjuração de Círculos de Invocação (veja Contactando o Inferno na página 9 para mais detalhes). Além disso, quando invocar um Infernal utilizando um Círculo de Invocação, além das restrições normais, a criatura invocada não pode mentir para você (mas pode omitir informações) enquanto estiver dentro de um Círculo de Invocação que você traçou ou enquanto estiver realizando uma tarefa para você. geralmente buscando vingança sobre aqueles que os atacaram. Cultistas seguem uma mecânica um pouco diferente de outros Caminhos. Eles possuem algumas Habilidades em comum, que podem ser selecionadas por qualquer Cultista, mas também possuem uma lista de Habilidades exclusivas para cada um dos Pactos existentes. Após a descrição das Habilidades Básicas e Avançadas comuns a todos os Cultistas, estão listados os efeitos de cada um dos Pactos, e então uma lista de Habilidades exclusivas para Cultistas que fizeram aquele Pacto. Raças As Naga são, certamente, a Raça que mais possui Cultistas – e também a única que não considera esta prática como tabu ou crime, já que sua cultura revolve ao redor da adoração de uma entidade infernal, Glycon. Humanos também são conhecidos pela procura por Pactos, devido à intrínseca ambição de sua natureza e de uma cultura extremamente voltada para a conquista de poder pessoal. Entre as outras Raças, Cultistas são relativamente raros, e as culturas de Cassiopéia em geral – mesmo em Arkânia – consideram que o pacto com criaturas infernais é considerado um crime hediondo. Habilidades Básicas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "circulo-de-invocacao-infernal",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

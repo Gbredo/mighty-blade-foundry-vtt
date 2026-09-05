@@ -1,0 +1,25 @@
+{
+  "name": "Precognição",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Psicometria, Retro-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>cognição Fechando os olhos e concentrando-se por 1 hora, você visualiza eventos</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "precognicao",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

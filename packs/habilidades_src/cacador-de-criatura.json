@@ -1,0 +1,25 @@
+{
+  "name": "Caçador de [Criatura]",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Armadilheiro",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você se especializou em caçar um tipo de criatura. Escolha entre Humanoides, Trogloditas, Bestas ou Esfinges. Você sempre causa +2 pontos de dano em todos os ataques contra este tipo de criatura. Além disso, você recebe +2 em todos os seus testes relacionados a esse tipo de criatura.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cacador-de-criatura",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

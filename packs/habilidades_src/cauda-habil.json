@@ -1,0 +1,31 @@
+{
+  "name": "Cauda Hábil",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Hamelin",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes com auxílio da cauda (escalar, agarrar, equilibrar)"
+      }
+    ],
+    "description": "<p>Você treinou para usar sua cauda para ajudar em diversas atividades cotidianas e acrobáticas. Sempre que puder usar sua cauda como auxílio (como em testes de escalar, equilibrar-se ou agarrar), você recebe +2 no teste. Sua cauda também pode segurar objetos leves e desenhar Runas ou Selos Místicos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cauda-habil",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

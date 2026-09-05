@@ -1,0 +1,25 @@
+{
+  "name": "Parede de Escudos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a lutar em grupo e usar seu escudo para proteger seus aliados. Enquanto você estiver usando um escudo, todos os aliados adjacentes a você recebem um bônus de +1 na Defesa. Este é um bônus de Bloqueio.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "parede-de-escudos",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

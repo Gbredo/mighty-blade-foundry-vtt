@@ -1,0 +1,36 @@
+{
+  "name": "Pele de Pedra",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "esquiva",
+        "valor": 4
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "evitar queda, resistir a venenos/doenças, empurrar/segurar peso"
+      }
+    ],
+    "description": "<p>Pele rígida fornece Defesa +4 (conta como Armadura Pesada; não pode usar armaduras). +1d6 para evitar queda, resistir a venenos/doenças, empurrar/segurar peso. Inapto em escalar, saltar e correr.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pele-de-pedra",
+      "automatica": true,
+      "opcoes": []
+    }
+  }
+}

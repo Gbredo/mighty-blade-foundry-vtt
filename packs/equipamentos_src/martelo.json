@@ -1,0 +1,26 @@
+{
+  "name": "Martelo",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+2",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Ferramenta comum de carpintaria e ferraria doméstica.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "martelo",
+      "categoria": "Arma"
+    }
+  }
+}

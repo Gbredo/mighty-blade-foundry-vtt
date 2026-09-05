@@ -1,0 +1,20 @@
+{
+  "name": "Veneno da Lentidão",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 250,
+    "description": "<p>Causa 3 pontos de dano se o alvo estiver ativo, e 1 se descansando. Esse veneno é considerado natural.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-da-lentidao",
+      "categoria": "Pocao"
+    }
+  }
+}

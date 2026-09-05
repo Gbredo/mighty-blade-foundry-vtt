@@ -1,0 +1,25 @@
+{
+  "name": "Presença de Ereshkigal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Pacto da Pesti-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>lência Você emana um característico odor sulfúrico que não chega a ser incômodo, apesar de facilmente notável – e qualquer criatura que receba bônus para farejar pode escolher 6 como resultado de 1 de seus dados extras com relação a você. Você pode, no entanto, intensificar este odor ao ponto dele se tornar praticamente insuportável, fazendo com que todas as criaturas vivas a uma quantidade de metros de você iguais à sua Vontade precisem fazer um teste de Força (Dificuldade igual à sua Determinação) ou ficarão Distraídos por 1 turno. Criaturas que tiverem uma Falha Crítica neste teste ficam Paralisadas por 1 turno, incapazes de realizar qualquer ação exceto esvaziarem o conteúdo de seus estômagos sobre os próprios pés. Passando ou falhando no teste, todas as criaturas vivas na área ficam Atordoadas por 2 turnos. Este efeito é considerado uma doença mágica.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "presenca-de-ereshkigal",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

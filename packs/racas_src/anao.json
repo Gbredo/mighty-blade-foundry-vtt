@@ -1,0 +1,34 @@
+{
+  "name": "Anão",
+  "type": "raca",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "atributos": {
+      "forca": 4,
+      "agilidade": 2,
+      "inteligencia": 3,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Coração da Montanha",
+      "descricao": "Imune a venenos (naturais e mágicos). +1d6 em testes para resistir a fadiga, doenças e efeitos físicos. Carga calculada como se tivesse Força +2.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "coracao-da-montanha"
+      }
+    ],
+    "classesComuns": "Guerreiro, Paladino, Sacerdote e Rúnico",
+    "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-4 anos) · Adulto (20 anos) · Idoso (100(20) anos) · Ancião (200(3) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.</li><br><li><strong>Pele e Pelagem:</strong> Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).</li><br><li><strong>Ciclo de Vida:</strong> A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.</li><br><li><strong>Tradição, Ofícios e Religião:</strong> A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.</li><br><li><strong>Casamento e Clãs:</strong> O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Alberik, Alvis, Andavari, Brok, Bror, Brunkil, Durin, Dvalin<br><b>Femininos:</b> Agda, Brena, Brunhild, Dagma, Disa, Ead, Edila, Eirild</div>\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "anao"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Poção da Restauração",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 120,
+    "description": "<p>Recupera 30 Pontos de Vida e 30 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-da-restauracao",
+      "categoria": "Pocao"
+    }
+  }
+}

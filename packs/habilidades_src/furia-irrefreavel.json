@@ -1,0 +1,25 @@
+{
+  "name": "Fúria Irrefreável",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando você está em fúria, não há como pará-lo! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +2 e enquanto você estiver sob um efeito de Fúria você fica imune a efeitos</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "furia-irrefreavel",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

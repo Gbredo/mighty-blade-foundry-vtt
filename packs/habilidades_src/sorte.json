@@ -1,0 +1,25 @@
+{
+  "name": "Sorte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Metadílio",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a contar com a sorte – e ela costuma lhe sorrir. Você pode rolar novamente um dado cujo resultado seja 1. Você só pode usar essa Habilidade uma vez por turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sorte",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Explosão Profana",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Pacto da",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de causar uma explosão de destruição profana. Você e todas as criaturas a uma distância em metros igual à sua Vontade sofrem uma quantidade de dano igual à sua Determinação/Contusão. Criaturas que possuam um Dogma, Código ou Conhecimento Místico sofrem o dobro do dano. Flagelo de Shyama Habilidade (Característica) – Suporte Destruição. Você possui uma aura de violência ao seu redor que faz com que você e todas as criaturas vivas numa área em metros igual à sua Determinação ao seu redor recebam +2 nas suas rolagens e danos em ataques corporais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "explosao-profana",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

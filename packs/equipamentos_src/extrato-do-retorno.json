@@ -1,0 +1,20 @@
+{
+  "name": "Extrato do Retorno",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 750,
+    "description": "<p>Teleporta quem a ingerir (e até mais duas pessoas, se abraçadas) para o último local em que dormiu.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-do-retorno",
+      "categoria": "Pocao"
+    }
+  }
+}

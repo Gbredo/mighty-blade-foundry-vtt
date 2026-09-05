@@ -1,0 +1,20 @@
+{
+  "name": "Tenda Grande (Quatro Pessoas)",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 13,
+    "quantidade": 1,
+    "custo": 85,
+    "description": "<p>Tenda simples para quatro pessoas, 1,8m de altura por 4m de comprimentos e 4m de largura. Essa tenda é muito grande para ser carregada por apenas uma pessoa, ela deve ser posta em uma carroça ou, ao menos, em um cavalo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tenda-grande-quatro-pessoas",
+      "categoria": "Mundano"
+    }
+  }
+}

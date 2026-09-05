@@ -1,0 +1,20 @@
+{
+  "name": "Carretel",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Pequeno cilindro de madeira para armazenar linha de costura. Cada carretel é suficiente para 5 peças de roupa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carretel",
+      "categoria": "Mundano"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Matador Sobrenatural",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que acertar um ataque corporal em criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo, some sua Vontade ao dano daquele ataque. Além disso, você recebe +2 em todas as suas rolagens relacionadas a essas criaturas. Perceber Corrupção Habilidade – Suporte Requisitos: Nível 5, Sexto Sentido. Descrição: Criaturas sobrenaturais não são capazes de esconder sua natureza de você. Sempre que você estiver diante de uma criatura amaldiçoada, um morto-vivo, Infernal ou espírito, você é capaz de perceber a natureza sobrenatural daquela criatura imediatamente, mesmo que ela esteja disfarçada, transformada ou sob algum efeito ilusório – incluindo qualquer forma de invisibilidade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "matador-sobrenatural",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

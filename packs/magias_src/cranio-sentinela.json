@@ -1,0 +1,18 @@
+{
+  "name": "Crânio Sentinela",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre um crânio intacto, você cria uma ligação necromântica com ele. Um Crânio Sentinela tem uma quantidade de Pontos de Vida igual à sua Determinação, e você pode ver através dos olhos dele (a visão será em preto-e-branco, mas funciona mesmo na escuridão completa), ouvir o que se passa em seus arredores e falar através dele (isso exige concentração e impede que você faça qualquer ação e o deixa Desprevenido). Além disso, sempre que uma criatura se aproxima a uma quantidade de metros do crânio igual à sua Determinação, ou se o crânio for destruído ou a Runa Arcana nele for dissipada, você ficará ciente disso imediatamente. Se estiver dormindo ou desacordado, você ainda pode interagir com o crânio (como uma espécie de sonho consciente). Você pode ter uma quantidade máxima de Crânios Sentinelas ativos igual à sua Vontade. Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cranio-sentinela",
+      "tipo": "Acao"
+    }
+  }
+}

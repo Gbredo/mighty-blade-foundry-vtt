@@ -1,0 +1,25 @@
+{
+  "name": "Espelhar Loucura",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Pacto da Loucura",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você tem Determinação +2, e qualquer criatura que tente afetar você com um efeito mental ou um efeito de medo deve fazer um teste de Vontade (Dificuldade igual à sua Determinação) ou será ele próprio afetado pelo efeito que estava tentando usar sobre você – o alvo é afetado automaticamente, e se resistir ao efeito for possível, ele será afetado com se tivesse tido uma falha crítica no teste. Se a criatura for imune ao efeito, ela perde uma quantidade de Pontos de Mana igual à sua Vontade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espelhar-loucura",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

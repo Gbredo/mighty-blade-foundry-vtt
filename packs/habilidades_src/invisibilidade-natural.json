@@ -1,0 +1,25 @@
+{
+  "name": "Invisibilidade Natural",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Elfo, Faen, Herança Feérica",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de se mesclar à vegetação ao seu redor em áreas de vegetação densa, ficando invisível por até 1 hora. O efeito é cancelado se sair da vegetação, sofrer dano, atacar ou lançar magia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invisibilidade-natural",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

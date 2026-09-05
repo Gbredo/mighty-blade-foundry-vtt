@@ -1,0 +1,18 @@
+{
+  "name": "Controlar Mortos-Vivos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>do Alvo Desenhando uma Runa Arcana sobre um morto-vivo ou espírito, ele fica sob seu controle. Se o morto-vivo estiver sendo controlado por outra criatura, a dificuldade será igual à Determinação do controlador. Um morto-vivo ou espírito controlado dessa forma será completamente leal ao conjurador e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.). Alvos com Mente Bloqueada são imunes a este efeito. Essa Runa Arcana dura por uma quantidade de horas igual à sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "controlar-mortos-vivos",
+      "tipo": "Acao"
+    }
+  }
+}

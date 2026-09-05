@@ -1,0 +1,25 @@
+{
+  "name": "Soprista",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "musica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade de Música do Bardo. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "soprista",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

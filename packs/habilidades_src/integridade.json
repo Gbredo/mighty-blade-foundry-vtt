@@ -1,0 +1,25 @@
+{
+  "name": "Integridade",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Austeridade, Destemor",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua inflexibilidade moral é tanta, que você não se dá por vencido nem diante da morte certa. Quando um ataque, magia, música ou técnica reduziriam seus Pontos de Vida a ponto de deixá-lo “Por Um Fio” (ver pág, 15), você ignora totalmente seu dano e quaisquer outros efeitos. Essa Habilidade não tem efeito em venenos, doenças ou fatores ambientais que causem dano.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "integridade",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Patrulheiro",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 1,
+      "inteligencia": 1,
+      "vontade": 0
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "arqueria"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><p>A maioria dos Patrulheiros está intrinsecamente ligada às regiões selvagens, preferindo atuar em florestas, pântanos, bosques, selvas e regiões montanhosas, onde podem usar o ambiente para abater presas à distância, montar armadilhas com facilidade e rastrear de modo eficiente. De fato, muitos Patrulheiros não gostam das regiões urbanas, com gente demais, cheiros demais, rastros demais e regras demais. A liberdade das regiões florestais geralmente faz parte de um Patrulheiro tanto quanto um bom arco, e a grande maioria deles possui uma profunda ligação com a natureza, geralmente de forma reverente.</p><p>No entanto, por mais que essa seja a regra, há uma boa quantidade de exceções. Patrulheiros podem ser encontrados em cidades, trabalhando como caçadores de recompensa, dedicando-se a caçar criminosos ao invés de criaturas selvagens ou como guardas e vigias, com suas habilidades focadas em percepção e uso de arcos. Além disso, muitos Patrulheiros concentram seu treinamento apenas no manejo do arco e ingressam nas linhas de arqueiros de exércitos, milícias ou companhias mercenárias. Enquanto Druidas geralmente usam Companheiros Animais como sentinelas e vigias, e Xamãs geralmente possuem ligações quase familiares com seus Companheiros Animais, a maioria dos Patrulheiros usa essas criaturas como uma ferramenta. Muitos, claro, criam poderosos vínculos afetivos com seus Companheiros, e podem manter um mesmo Companheiro Animal por muitos anos. A maioria, porém, possui Companheiros Animais por curtos períodos de tempo, geralmente pela duração de uma tarefa, devolvendo-o à natureza depois disso.</p><p>Em áreas selvagens que não conhecem bem o bastante, é comum que um Patrulheiro convoque uma criatura da região para lhe servir como guia, enquanto caçadores de recompensa geralmente usam Companheiros Animais para obter informações de seus alvos ao planejar a captura. Muitos convocam Companheiros Animais para apenas uma tarefa, como um pássaro para lhe fornecer informações sobre uma área, um animal de hábitos noturnos para servir de vigia por uma noite ou um animal de montaria para levá-lo a um determinado destino, e alguns Patrulheiros menos escrupulosos usam predadores para auxiliá-los em combates mais perigosos. A maioria dos Patrulheiros, no entanto, prefere não envolver animais em tarefas perigosas, dado seu profundo respeito pela natureza.</p><p>É comum, também, que um Patrulheiro mantenha um Companheiro Animal por mais tempo se dedicar-se a uma mesma tarefa com frequência. Caçadores muitas vezes estão acompanhados de lobos ou águias, enquanto guardas e vigias costumam ter corujas, morcegos e felinos ao seu lado, e a maioria dos caçadores de recompensa usa cães e ratazanas para seguir seus alvos. Muitos acabam se afeiçoando a esses animais, e os mantém por perto mesmo quando sua tarefa foi cumprida, quase como animais de estimação.</p><p>Além disso, muitos Patrulheiros mantêm animais de montaria como Companheiro Animal, o que lhes garante um meio rápido e seguro de transporte em uma emergência.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> acrobata, armadilheiro, ataque-aleijador, cacador-de-criatura, chuva-de-flechas, companheiro-animal-1, companheiro-animal-2, disparo-forte, disparo-certeiro, evasao, falhas-da-armadura, flechas-rapidas, furtivo, herbalismo, precisao, retesar-eficiente, sabedoria-selvagem, truque-sujo, cacador-de-monstro, camuflagem, chuva-de-flechas-2, companheiro-animal-3, emboscar, empalar, matador-de-criatura, olho-da-aguia, passo-leve, veneficio, arqueria-de-mestre, conhecimento-arcano\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "patrulheiro",
+      "conjurador": false
+    }
+  }
+}

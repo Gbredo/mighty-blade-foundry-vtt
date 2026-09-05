@@ -1,0 +1,25 @@
+{
+  "name": "Alquimista de Combate",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você tem vasta experiência no uso de poções no calor do combate, e se tornou particularmente eficiente nisso. Você pode arremessar uma poção como uma ação livre, desde que possa saca-la como uma ação Íris de Maltas 79 Organizações Organizações livre no mesmo turno – ou seja, a poção deve estar em uma bandoleira ou cinto. Além disso, você recebe +1 em seus testes de arremesso – esse bônus se acumula com o bônus de Alquimista de Campo. Finalmente, você passa a poder beber uma poção como uma ação de movimento ao invés de uma ação padrão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "alquimista-de-combate",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

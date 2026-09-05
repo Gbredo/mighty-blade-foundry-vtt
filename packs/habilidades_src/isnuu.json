@@ -1,0 +1,25 @@
+{
+  "name": "Isnuu",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Faen",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você nasceu com uma profunda afinidade com a magia elemental e primordial. Sua pele e cabelos exibem tons esverdeados, você pode selecionar Habilidades da lista do Feiticeiro como se fossem da sua Classe e as dificuldades de todas as suas Magias são diminuídas em 1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "isnuu",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

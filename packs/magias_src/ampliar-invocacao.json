@@ -1,0 +1,18 @@
+{
+  "name": "Ampliar Invocação",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 15,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocação Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre um Elemental ou Golem, você pode fazer com ele aumente de tamanho uma categoria. A Runa ou Selo se mantém ativa por tanto tempo quanto o elemental ou golem estiver coeso, mas você pode dissipá-la a qualquer momento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ampliar-invocacao",
+      "tipo": "Acao"
+    }
+  }
+}

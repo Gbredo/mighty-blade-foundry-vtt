@@ -1,0 +1,25 @@
+{
+  "name": "Corrente de Loucura",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Espelhar Loucura.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você tem Determinação +2, e sempre que um efeito mental ou um efeito de medo for usado em você ou por você, ele afetará todas as criaturas a uma distância em metros do alvo e de você igual à sua Vontade. Se uma criatura afetada por esse efeito for imune ao efeito, ela perde uma quantidade de Pontos de Mana igual à sua Vontade. Além disso, qualquer criatura capaz de perceber mentiras automaticamente precisará fazer testes para perceber qualquer mentira que você disser. Criaturas que não forem capazes de perceber mentiras automaticamente não perceberão suas mentiras de forma alguma.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corrente-de-loucura",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Disparo Certeiro",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você realiza um ataque à distância rolando +1d6.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "disparo-certeiro",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

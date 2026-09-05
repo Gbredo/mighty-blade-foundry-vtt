@@ -1,0 +1,35 @@
+{
+  "name": "Pernas Vulpinas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "saltar, correr e mover em silêncio"
+      },
+      {
+        "tipo": "bonusDeslocamento",
+        "valor": 1
+      }
+    ],
+    "description": "<p>+1d6 para saltar, correr e mover em silêncio. Deslocamento +1. Distância de saltos aumentada em 1 metro.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pernas-vulpinas",
+      "automatica": true,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dança da Guerra",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Reação ao realizar um ataque. Se estiver sob efeito de uma Técnica de Dança, adiciona o bônus de Dança ao resultado do ataque.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "danca-da-guerra",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

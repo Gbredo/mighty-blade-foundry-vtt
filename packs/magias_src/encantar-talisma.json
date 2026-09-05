@@ -1,0 +1,18 @@
+{
+  "name": "Encantar Talismã",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre um item, você faz com que a próxima Magia conjurada sobre o item fique armazenada nele, podendo ser utilizada por seu portador como uma ação padrão. Habilidades e itens que alterem propriedades de uma Magia não tem efeitos sobre uma Magia conjurada a partir do Talismã. Esta Runa Arcana dura indefinidamente (mas pode ser dissipada a qualquer momento pelo conjurador) se dissipando quando os efeitos da magia armazenada no item forem desencadeados. Enquanto uma Magia estiver armazenada no item, os Pontos de Mana usados para conjurar Encantar Talismã não podem ser recuperados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "encantar-talisma",
+      "tipo": "Acao"
+    }
+  }
+}

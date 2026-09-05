@@ -1,0 +1,20 @@
+{
+  "name": "Luvas de Couro",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Para trabalho pesado ou climas muito frios.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "luvas-de-couro",
+      "categoria": "Mundano"
+    }
+  }
+}

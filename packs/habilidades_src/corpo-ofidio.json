@@ -1,0 +1,41 @@
+{
+  "name": "Corpo Ofídio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "nadar e agarrar com a cauda"
+      },
+      {
+        "tipo": "ataqueNatural",
+        "parte": "cauda",
+        "dano": "Forca",
+        "tipoDano": "Contusao"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "restrição de visão mundana (penalidades de escuridão não mágica)"
+      }
+    ],
+    "description": "<p>+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corpo-ofidio",
+      "automatica": true,
+      "opcoes": []
+    }
+  }
+}

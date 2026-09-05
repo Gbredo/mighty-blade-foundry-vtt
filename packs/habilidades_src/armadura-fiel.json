@@ -1,0 +1,25 @@
+{
+  "name": "Armadura Fiel",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Vincula uma armadura específica ao Rúnico com bônus adicionais. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadura-fiel",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

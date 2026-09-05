@@ -1,0 +1,20 @@
+{
+  "name": "Manto da Proteção",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 3000,
+    "description": "<p>Um manto de tecido leve que volita e esvoaça de forma sobrenatural quando o usuário é atacado, atrapalhando os golpes direcionados contra ele, o que concede um bônus de +3 na esquiva de quem estiver trajando o manto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "manto-da-protecao",
+      "categoria": "Especial"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Anfíbio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Barbatanas",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "resistir a venenos, doenças e exaustão"
+      }
+    ],
+    "description": "<p>Organismo adaptado para ambientes subaquáticos. Respira e move-se sob a água normalmente e recebe +2 para resistir a venenos, doenças e exaustão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "anfibio",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

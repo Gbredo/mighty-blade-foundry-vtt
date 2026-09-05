@@ -1,0 +1,25 @@
+{
+  "name": "Mestre de Armas 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é extremamente eficaz no uso de armas brancas. Sempre que acertar um ataque corporal adicione 3 ao dano do ataque. Esse bônus de dano se acumula com o bônus fornecido por Mestre de armas 1. Habilidade Final</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mestre-de-armas-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

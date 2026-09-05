@@ -1,0 +1,25 @@
+{
+  "name": "Companheiro Dragão 3",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Companheiro Dragão 2",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui uma ligação ainda mais potente com seu Companheiro Dragão – que agora também possui uma forma maior e mais robusta. Fechando os olhos e se concentrando, você pode assumir o controle do corpo de seu companheiro como se fosse seu (ficando Desprevenido com relação ao seu próprio corpo enquanto isso). Seu companheiro se torna uma criatura de tamanho Médio, ganha +1 em todos os seus Atributos, +1 em 2 Atributos à sua escolha. Além disso, você pode escolher 2 Habilidades da lista das Habilidades Raciais dos Draganos para seu Companheiro Dragão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "companheiro-dragao-3",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Punição do Silêncio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Usada para punir crimes menores, normalmente relacionados a difamação ou outras formas de mentira (como o perjúrio). Tocando em um alvo, você faz com que ele fique mudo por uma quantidade de turnos igual à sua Vontade. Se o alvo estiver Indefeso, você determina uma duração para o efeito – até no máximo uma quantidade de meses igual à sua Determinação. O alvo ainda pode grunhir e gritar, mas não consegue formular palavras coerentes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punicao-do-silencio",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

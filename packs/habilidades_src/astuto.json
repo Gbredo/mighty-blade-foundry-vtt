@@ -1,0 +1,36 @@
+{
+  "name": "Astuto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Metadílio",
+    "bonusAtributo": {
+      "atributo": "inteligencia",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "inteligencia",
+        "valor": 1
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "percepção, mover-se em silêncio, camuflagem e furtar bolsos"
+      }
+    ],
+    "description": "<p>Você é mais astuto que a maioria dos indivíduos da sua raça. Você tem Inteligência +1 e recebe +2 em todos os testes de Inteligência e Agilidade que envolvam percepção, mover-se em silêncio, camuflagem, furtar bolsos e testes semelhantes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "astuto",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

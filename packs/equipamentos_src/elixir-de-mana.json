@@ -1,0 +1,20 @@
+{
+  "name": "Elixir de Mana",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Recupera 30 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-de-mana",
+      "categoria": "Pocao"
+    }
+  }
+}

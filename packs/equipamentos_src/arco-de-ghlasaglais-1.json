@@ -1,0 +1,28 @@
+{
+  "name": "Arco de Ghlasaglais +1",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Disparo Longo (200m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1.5,
+    "quantidade": 1,
+    "custo": 2700,
+    "description": "<p>Item mágico (+1).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arco-de-ghlasaglais-1",
+      "categoria": "Projetil"
+    }
+  }
+}

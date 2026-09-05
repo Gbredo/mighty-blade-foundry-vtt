@@ -1,0 +1,18 @@
+{
+  "name": "Porta Oculta",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Sala Oculta</p><p>Desenhando uma Runa Arcana sobre uma porta, você cria um acesso permanente para a sua Sala Oculta. A porta em que você desenhar esta Runa aparece numa das paredes da sua Sala Oculta, e sempre que você abrir a porta por dentro da Sala Oculta, você sairá pela porta marcada. Assim que a porta for fechada, no entanto, ela não levará mais para a Sala Oculta – ou seja, ela serve para sair da Sala Oculta em um lugar fixo, mas não serve de entrada de emergência. Você pode ter um número de Portas Ocultas igual à sua Inteligência. Essa Runa Arcana é perene.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "porta-oculta",
+      "tipo": "Acao"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Estatueta",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Pequena figura esculpida para representar uma pessoa, animal ou divindade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "estatueta",
+      "categoria": "Mundano"
+    }
+  }
+}

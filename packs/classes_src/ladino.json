@@ -1,0 +1,30 @@
+{
+  "name": "Ladino",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 1,
+      "inteligencia": 1,
+      "vontade": 0
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "gatuno"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><p>Apesar de muitos verem os Ladinos com desconfiança, muitas vezes considerando seus meios pouco honrados ou mesmo vis, a grande maioria dos Ladinos de Cassiopéia atua ao lado da lei. Eles costumam trabalhar como batedores, espiões, investigadores e exploradores. Eles auxiliam ordens militares com informações sobre movimentos de tropas inimigas e obtendo informações secretas ou plantando informações falsas, usam suas redes de contatos para descobrir criminosos ou apurar veracidade de informações e são particularmente apreciados em exploração de ruínas e tumbas (particularmente comuns em Tebryn e nas Terras Secas, onde grandes civilizações ergueram imensos complexos que foram devastados ao logo dos séculos, durante a Revoada dos Dragões e o Expurgo) e na invasão de cavernas e complexos subterrâneos habitados por raças ou monstros hostis.</p><p>Muitos Ladinos também trabalham como marinheiros, piratas e corsários, assim como os Espadachins. Eles podem ser combatentes eficientes em condições onde agilidade, velocidade e versatilidade são mais importantes do que simples proeza marcial, como no convés de um navio.</p><p>É claro, muitos Ladinos usam seus conhecimentos e aptidões para cometer crimes. Além de um bom número de piratas, Ladinos são conhecidos por engrossarem bastante as fileiras de ladrões, embusteiros, atravessadores e traficantes de toda Cassiopéia.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, armas-1, contatos-no-crime, corte-arterial, evasao, falhas-da-armadura, flanquear, flexivel, furtivo, golpes-rapidos, mestre-das-adagas-1, mestre-das-adagas-2, movimentos-evasivos, malabarista, truque-sujo, camuflagem, combate-com-duas-armas-2, emboscar, en-passant, explorar-surpresa, improvisacao-ladina, mestre-das-adagas-3, passo-leve, ripostar, trapaceiro-impecavel, mestre-especialista, mestre-de-armas-1\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ladino",
+      "conjurador": false
+    }
+  }
+}

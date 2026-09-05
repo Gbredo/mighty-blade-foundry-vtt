@@ -1,0 +1,25 @@
+{
+  "name": "Toque da Morte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Com seu toque você pode absorver parte da energia espiritual de uma criatura viva. Quando tocar ou acertar um ataque desarmado contra uma criatura, você pode fazer alvo perder uma quantidade de Pontos de Vida iguais à sua Determinação. Você recupera uma quantidade de Pontos de Vida igual à quantidade de Pontos de Vida que o alvo perder. Esse é um efeito de dreno de energia. Habilidades Avançadas Canalização</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "toque-da-morte",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

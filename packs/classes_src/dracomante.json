@@ -1,0 +1,30 @@
+{
+  "name": "Dracomante",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 1,
+      "agilidade": 0,
+      "inteligencia": 0,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "conhecimento-mistico"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><p>A maioria dos Dracomantes é ligada à Aurora dos Dragões, um culto religioso fundado em Arkânia séculos atrás e que se concentra na ideia de que os dragões, e não as divindades exteriores, devem ser adorados e seus exemplos seguidos. Seu corpo de crença gira ao redor de que a sabedoria, majestade e poder dos dragões os tornam os líderes ideais para as raças mortais, além do fato dos dragões estarem, em termos planares, mais próximos aos mortais e, portanto serem menos alienígenas à mentalidade de seus acólitos.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica, companheiro-dragao-1, companheiro-dragao-2, defesa-do-dragao-do-relampago, detectar-magia, escamas-draconicas, exalacao-do-dragao-do-frio, folego-do-dragao-marinho, furia-do-dragao, halito-do-dragao, rugido-do-dragao-do-deserto, sintonia-draconica, travessia-do-dragao-do-fogo, vinculo-draconico, asas-draconicas, companheiro-dragao-4, dissipar-magia, exarca, atrio-elemental, bencao-do-dragao, companheiro-dragao-3, forma-draconica, halito-do-dragao-anciao, presenca-draconica, flagelo-da-aurora\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dracomante",
+      "conjurador": true
+    }
+  }
+}

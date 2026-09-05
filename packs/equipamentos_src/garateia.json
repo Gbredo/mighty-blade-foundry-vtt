@@ -1,0 +1,20 @@
+{
+  "name": "Garatéia",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 12,
+    "description": "<p>Gancho para escalar muros e paredes com 3 anzóis grandes juntos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "garateia",
+      "categoria": "Mundano"
+    }
+  }
+}

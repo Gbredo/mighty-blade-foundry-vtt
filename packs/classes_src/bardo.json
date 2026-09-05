@@ -1,0 +1,30 @@
+{
+  "name": "Bardo",
+  "type": "classe",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "poesia-dos-bardos"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"lore\"><p>Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><p>Apesar do estudo das artes musicais dos Bardos geralmente ser ensinado na estrada, em companhias de cantores itinerantes, poetas ambulantes ou mesmo de pai para filho, há vários Liceus de Bardos em Cassiopéia, que formam um grande número de Bardos – que em geral trabalham para a corte desses reinos. Os mais famosos são o Liceu de Tebrinia, em Tebryn e o Salão dos Bardos, em Bryne.</p><p>Além disso, graças ao amplo conhecimento de diversas músicas, histórias e poemas, Bardos são depositários de uma enorme quantidade de conhecimento teórico, às vezes superiores àqueles de estudiosos formais e suas imensas bibliotecas. Seu conhecimento vivo, construído durante suas andanças pelo mundo, está em constante processo de atualização e um bom Bardo sabe diferenciar os fatos reais da fantasia, filtrando as histórias que lhes são contadas e destilando a verdade na forma de novas composições cujo conteúdo, além de entreter plateias, serve para carregar conhecimento. Essas histórias, tocadas ao redor de fogueiras entre Bardos que se encontram nas estradas ou cantadas nos grandes salões reais fornecem aos Bardos um vasto conhecimento sobre história, lendas e até mesmo geografia e política.</p><p>Graças à isso, muitos Bardos são empregados em cortes como conselheiros, e a maioria dos vilarejos, cidades e metrópoles vibra com a chegada de companhias de menestréis e trovadores ambulantes, sabendo que eles trarão, além de entretenimento, notícias de outras áreas do reino.</p><p>Grupos de aventureiros, de forma semelhante, apreciam a presença de Bardos não apenas pelos benefícios que eles trazem à moral do grupo e pelos efeitos que eles são capazes de produzir em combate, mas também porque eles são a melhor fonte de notícias – e possíveis novas aventuras! – que um grupo pode esperar.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> poesia-dos-bardos, aparar, ataque-redirecionado, cancao-da-provocacao, cancao-desesperadora, cancao-do-triunfo, cancao-exultante, eloquente, evasao, furtivo, gregario, grito-de-guerra-1, grito-ensurdecedor, grito-estilhacador, lingua-afiada, malabarista, melodia-dancante, melodia-do-enjoo, melodia-do-repouso, melodia-sonifera, mestre-das-notas, truque-sujo, cancao-da-sereia, cancao-desconcentrante, coracao-da-batalha, grito-de-guerra-2, grito-de-intimidacao, melodia-da-furia, melodia-dos-animais, trapaceiro-impecavel, virtuoso, vocalista, cancao-do-requiem, conhecimento-mistico, distracao, instrumentista, lirico, ritmo-dos-animais, grito-contundente, falsete, repentista, soprista, mimicar, pantomima, beijo-sufocante, chega-mais, requebrado, danca-das-ruas, danca-da-guerra, danca-do-ventre, solo, palavra-toxica, charada-obtusa, golpe-inspirador, grito-retumbante, presenca-inspiradora, um-bom-conselho-1\n      </div>\n    "
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bardo",
+      "conjurador": false
+    }
+  }
+}

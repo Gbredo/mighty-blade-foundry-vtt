@@ -1,0 +1,31 @@
+{
+  "name": "Gregário",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Humano, Mahok",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de interação social"
+      }
+    ],
+    "description": "<p>Você é altamente sociável e faz amizades com facilidade em qualquer cultura. Ganha +2 em testes sociais (seduzir, mentir, negociar, diplomacia) e consegue favores simples após breves minutos de conversa amigável.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "gregario",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

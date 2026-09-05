@@ -1,0 +1,31 @@
+{
+  "name": "Vontade Heróica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "vontade",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "vontade",
+        "valor": 1
+      }
+    ],
+    "description": "<p>Concede Vontade +1 permanentemente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vontade-heroica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

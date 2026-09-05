@@ -1,0 +1,20 @@
+{
+  "name": "Poção da Explosão",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 200,
+    "description": "<p>Se este frasco romper, causa 10/fogo de dano em tudo e todos que estiverem a até 3 metros de distância.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-da-explosao",
+      "categoria": "Pocao"
+    }
+  }
+}

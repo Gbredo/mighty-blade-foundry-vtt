@@ -1,0 +1,18 @@
+{
+  "name": "Invocar Familiar",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Você conjura um golem ou elemental pequeno (de qualquer tipo) desenhando uma Runa Arcana ou Selo Místico sobre uma gema com valor de pelo menos 400 moedas. Enquanto a gema encantada estiver intacta, o Familiar tem duração permanente. Se o Familiar for destruído, a Runa ou Selo na gema se dissipa, mas a gema pode ser utilizada novamente. Se a gema for destruída ou se a Runa ou Selo for dissipada, o Familiar se dissipa imediatamente. Veja os dados dos Elementais e Golens no Monstrum Codex para mais detalhes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-familiar",
+      "tipo": "Acao"
+    }
+  }
+}

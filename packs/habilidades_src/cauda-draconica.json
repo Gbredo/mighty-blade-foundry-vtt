@@ -1,0 +1,25 @@
+{
+  "name": "Cauda Dracônica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Vínculo Dracônico",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua sintonia dracônica faz com que você desenvolva uma cauda dracônica forte e muscular. Sua cauda não é hábil suficiente para manipular itens com destreza, mas pode ser usada para segurar e arrastar objetos e é capaz de realizar ataques desarmados (dano igual à Força/Contusão). A cauda oferece um bônus de +2 em testes de nadar e agarrar e, uma vez por rodada, quando uma criatura se aproximar do seu alcance corpo-a-corpo, você pode imediatamente realizar um ataque desarmado com sua cauda contra o alvo, como uma Reação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cauda-draconica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

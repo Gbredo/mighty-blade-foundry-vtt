@@ -1,0 +1,31 @@
+{
+  "name": "Abraço de Pedra",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Mahok",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de agarrar, apertar, escalar e resistir a desarmar"
+      }
+    ],
+    "description": "<p>Você possui mãos maciças feitas para agarrar e esmagar. Recebe +2 em testes de agarrar, apertar, escalar e resistir a desarmar. Além disso, causa +2 de dano ao apertar um alvo agarrado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "abraco-de-pedra",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

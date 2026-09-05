@@ -1,0 +1,25 @@
+{
+  "name": "Aptidão Necromântica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Mente Disciplinada",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui um domínio considerável sobre os fluxos de energias necromânticas. Todas as suas magias custam 5 Pontos de Mana a menos para serem conjuradas e todas as suas magias que causam perda de vida ou Perda de Mana causam uma perda adicional igual à sua Vontade. Além disso, você é imune a efeitos de dreno de energia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aptidao-necromantica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

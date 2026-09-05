@@ -1,0 +1,25 @@
+{
+  "name": "Passo Leve",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Furtivo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que você fizer um teste para mover-se em silencio, se esconder ou camuflar ou bater carteiras você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Esta Habilidade só pode ser usada uma vez por turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "passo-leve",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

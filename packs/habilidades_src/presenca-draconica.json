@@ -1,0 +1,25 @@
+{
+  "name": "Presença Dracônica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Exarca, Vínculo Dracônico",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu vínculo com as energias dracônicas faz com que você exale uma aura que faz com a maioria das criaturas se sinta perturbada em sua presença. Você tem Determinação +2 e em testes para perceber mentiras, intimidar e barganhar. Além disso, você é imune a efeitos de medo e efeitos mentais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "presenca-draconica",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

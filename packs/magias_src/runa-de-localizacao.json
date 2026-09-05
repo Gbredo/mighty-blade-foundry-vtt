@@ -1,0 +1,18 @@
+{
+  "name": "Runa de Localização",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Você pode desenhar uma Runa Arcana em um item com a Característica Registro. Esta Runa fica ligada ao local geográfico em que você se encontra quando a conjura, e se torna um “atalho mágico” para o local. Você pode conjurar uma magia locomoção (Teleportar Objeto, Portal, Levitar, etc.) sobre esta Runa, indo para o local onde ela foi desenhada. A magia de locomoção conjurada sobre essa Runa custa metade dos Pontos de Mana normais para se a duração for menor do que o tempo necessário para chegar ao local, ela irá durar pelo tempo da viagem – mas será imediatamente dissipada se o personagem parar ou desviar da direção da Runa de Localização.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "runa-de-localizacao",
+      "tipo": "Acao"
+    }
+  }
+}

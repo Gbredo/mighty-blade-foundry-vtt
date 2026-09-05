@@ -1,0 +1,20 @@
+{
+  "name": "Hurd Guli",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1.5,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Corda com manivela que gira as cordas enquanto teclas geram notas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "hurd-guli",
+      "categoria": "Musical"
+    }
+  }
+}

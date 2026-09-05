@@ -1,0 +1,20 @@
+{
+  "name": "Poção do Caos",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Efeito aleatório. Role 2d6 e verifique o efeito da poção na tabela na pg.76 do Guia do Herói.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-do-caos",
+      "categoria": "Pocao"
+    }
+  }
+}

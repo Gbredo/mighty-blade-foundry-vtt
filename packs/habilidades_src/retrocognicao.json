@@ -1,0 +1,25 @@
+{
+  "name": "Retrocognição",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Fechando os olhos e tocando uma criatura, você consegue ver e ouvir os eventos vividos por ela. Apesar da memória da criatura em questão ser essencial, a maioria dos acontecimentos importantes (do ponto de vista da criatura) tendem a se manter relativamente intactos em sua memória. Os eventos são vistos em tempo real e na ordem inversa em que ocorreram, mas se a criatura estiver relembrando um evento específico, essa memória será o que o Oráculo irá ver. Se o alvo quiser bloquear uma determinada memória, o Oráculo precisa ter um sucesso em um teste de Vontade (dificuldade igual à Determinação do alvo) para acessá-la. Se falhar em acessar uma determinada memória, o efeito dessa Habilidade cessa imediatamente. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "retrocognicao",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

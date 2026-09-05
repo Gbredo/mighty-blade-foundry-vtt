@@ -1,0 +1,29 @@
+{
+  "name": "Arpão",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+7",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 4,
+    "alcance": "Haste (3m)",
+    "propriedades": [
+      "MaoEMeia",
+      "Arremessavel"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 150,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arpao",
+      "categoria": "Arma"
+    }
+  }
+}

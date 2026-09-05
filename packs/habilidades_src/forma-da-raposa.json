@@ -1,0 +1,25 @@
+{
+  "name": "Forma da Raposa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Tailox, Raça Florestal, Vontade 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Em comunhão profunda com o Mtii'Ruah e a deusa Ellenis, você transmuta seu corpo na forma de uma raposa. Ganha +2 em percepção, furtividade e saltos, Deslocamento +1, bônus de Defesa base 7 (em vez de 5) e mordida causando Força +2/Corte.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "forma-da-raposa",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}

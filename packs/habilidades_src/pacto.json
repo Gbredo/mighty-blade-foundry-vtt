@@ -1,0 +1,56 @@
+{
+  "name": "Pacto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você fez um pacto com uma entidade infernal e recebeu um favor em troca. Escolha um Pacto. Esta escolha é permanente – para selecionar quaisquer outras Habilidades que tenham um Pacto como requisito, o personagem precisa seguir o Caminho Cultista.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pacto",
+      "automatica": false,
+      "opcoes": [
+        {
+          "id": "pacto-da-ambicao",
+          "nome": "Pacto da Ambição",
+          "descricao": "Glycon, A Serpente da Visão, responsável por providenciar os meios, independente das consequências, que provê uma vida material plena em detrimento da espiritualidade. Glycon é um dos Primordiais mais cultuados no plano material, já que, além de toda a cultura Naga ter se desenvolvido ao redor dele, a ambição é, certamente, um dos maiores motivadores dos mortais.\nSempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada Pontos de Vida equivale a 1 Ponto de Mana. Sempre que conjurar uma Magia, você precisa gastar pelo menos metade do seu Custo em Mana (arredondado para baixo) com Pontos de Vida. Se a Magia tiver um custo de Mana igual à Zero, você precisa gastar 1 Ponto de Vida para conjurá-la. Para cada 5 Pontos de Mana gastos dessa forma, a dificuldade da magia é reduzida em 1."
+        },
+        {
+          "id": "pacto-da-destruicao",
+          "nome": "Pacto da Destruição",
+          "descricao": "Shyama, a Destruidora, Aquela que Provê a Morte, A que Quebra em Pedaços, cuja força não pode ser restrita. Aqueles que buscam este pacto geralmente são inclinados à violência de forma obsessiva ou possuem um desejo maníaco de destruir algo ou alguém. Seu simples toque causa uma quantidade de dano igual à sua Vontade em qualquer criatura ou objeto. Esse dano extra se aplica sempre que você tocar ou fizer um ataque corporal – armado ou desarmado – contra uma criatura ou objeto.\nVocê pode suprimir este efeito com relação a objetos ou Construtos (mas não às criaturas), mas precisa se concentrar na tarefa, e, portanto não pode usar nenhuma Habilidade de Ação ou Reação enquanto fizer isso. Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não são afetados por este efeito."
+        },
+        {
+          "id": "pacto-da-escuridao",
+          "nome": "Pacto da Escuridão",
+          "descricao": "Nehemoth, Aquela Que Sussurra na Escuridão, senhora dos segredos, da cegueira e do conhecimento perdido. Muitas vezes procurada por aqueles que perderam a visão, muitos Cultistas de Nehemoth são aqueles que se favorecem da escuridão – como ladrões, assassinos, Vampiros e Necromantes.\nVocê não precisa mais de seus olhos para enxergar, e pode ver, normalmente, mesmo com os olhos fechados ou vendados – ou mesmo se eles forem removidos. Além disso, você consegue ver através de ilusões e distingue criaturas invisíveis sem dificuldades. No entanto, sempre que estiver sob luz direta do sol, todos os seus testes são realizados como se você fosse Inapto."
+        },
+        {
+          "id": "pacto-da-loucura",
+          "nome": "Pacto da Loucura",
+          "descricao": "O Inominável, Aquele Cujo Nome Não Deve Ser Pronunciado, senhor da loucura, aquele que traz o horror. A maioria dos que cultuam o Inominável possuem algum desequilíbrio mental ou uma visão particularmente distorcida sobre o mundo ao seu redor.\nSua mente possui uma compreensão estranha da realidade. Graças a isso, você tem Determinação +2 e é imune a efeitos mentais e efeitos de Medo, mas você tem Inteligência -1 (você não perde idiomas nesse processo).\n\nEspecial: Se sua Inteligência for reduzida a 1 devido a este Pacto, você estará reduzido aos seus instintos mais básicos. Você ainda é capaz de raciocinar, mas sempre procurará a resposta mais simples para qualquer problema. Você não é capaz de se concentrar para ler textos (embora ainda possa ler avisos e compreender sinais gráficos) e nem usar Habilidades dos tipos Magia ou Música."
+        },
+        {
+          "id": "pacto-da-pestilencia",
+          "nome": "Pacto da Pestilência",
+          "descricao": "Ereshkigal, A Impura, Aquela que Polui, é responsável por trazer doença e sofrimento. Aqueles que procuram pactos com ela tanto podem desejar infligir violentas moléstias sobre outros quanto ficarem intocados pela carícia de Ereshkigal. Muitos doentes terminais também procuram A Impura na tentativa de sobreviver às suas enfermidades.\nSempre que for exposto a uma doença (natural ou mágica), você falha automaticamente no teste de infecção e nos testes para resistir aos sintomas da doença (mesmo que seja imune a doenças). No entanto, você não é afetado pelos sintomas da doença (embora possa apresentar manifestações estéticas dela) e pode transmiti-la normalmente. Além disso, você sempre sabe quais doenças o estão infectando, assim como é capaz de detectar doenças em outras criaturas apenas com um toque.\nSe você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos."
+        },
+        {
+          "id": "pacto-da-tirania",
+          "nome": "Pacto da Tirania",
+          "descricao": "Virzú, Aquele que Rege, A Palavra que Não Pode ser Desafiada, O Trono Acima, é o Primordial da tirania e da regência pela força. Cultistas que procuram Virzú quase sempre são aqueles que se sentem inferiorizados quando acreditam que deveriam ser reconhecidos.\nSempre que uma criatura viva for atacar você (ou utilizar algum efeito que cause dano, como Magias, algumas Músicas e Gritos), ela precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se for bem sucedida, ela o ataca com um redutor igual à sua Vontade no seu teste. Se falhar, ela não pode atacar. Depois que passar no teste, uma criatura não é mais afetada até o próximo nascer ou por do sol.\nEste é um efeito mental."
+        }
+      ]
+    }
+  }
+}

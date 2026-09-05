@@ -1,0 +1,18 @@
+{
+  "name": "Maldição da Assombração",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 35,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>alvo Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela tenha alucinações visuais e auditivas – geralmente de figuras infernais ou fantasmagóricas. Enquanto estiver sob efeito dessa maldição, o alvo é considerado Distraído. Esse Símbolo Profano dura uma quantidade de minutos igual à sua Vontade. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "maldicao-da-assombracao",
+      "tipo": "Acao"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Resistência Necromântica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Armadura Necro-</p><p>mântica. Desenhando uma Runa Arcana sobre uma Sombra, você drena a energia dela e a redireciona para uma criatura que possa tocar. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A criatura para qual a energia for redirecionada recebe as Habilidades Corpo Amórfico e Mente Bloqueada. Essa Runa Arcana dura 1 minuto. Habilidade Final</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "resistencia-necromantica",
+      "tipo": "Acao"
+    }
+  }
+}

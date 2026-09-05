@@ -1,0 +1,20 @@
+{
+  "name": "Extrato do Espião",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 600,
+    "description": "<p>Invisibilidade por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-do-espiao",
+      "categoria": "Pocao"
+    }
+  }
+}

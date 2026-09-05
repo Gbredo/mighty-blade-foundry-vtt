@@ -1,0 +1,20 @@
+{
+  "name": "Tabarda",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 25,
+    "description": "<p>Túnica curta usada sobre armaduras e vestimentas formais, indicando a Ordem, Igreja ou posto do usuário.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tabarda",
+      "categoria": "Mundano"
+    }
+  }
+}

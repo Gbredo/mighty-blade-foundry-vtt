@@ -1,0 +1,35 @@
+{
+  "name": "Ataque Fantasma",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDano",
+        "valor": 8,
+        "contexto": "arma marcada com Runa pessoal"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "penalidade de atacar alvos Intangíveis e Incorpóreos"
+      }
+    ],
+    "description": "<p>+8 de dano com arma marcada por Runa pessoal. Afeta alvos Intangíveis e Incorpóreos como se fossem físicos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-fantasma",
+      "automatica": false,
+      "opcoes": []
+    }
+  }
+}
