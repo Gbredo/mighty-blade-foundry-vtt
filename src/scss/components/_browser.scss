@@ -24,31 +24,50 @@
       flex: 1;
 
       .item {
-        padding: 5px;
-        border-bottom: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
         align-items: center;
+        gap: 8px;
+        padding: 5px 8px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
         cursor: pointer;
         transition: background-color 0.2s;
 
         &:hover {
-          background-color: rgba(0, 0, 0, 0.05);
+          background-color: rgba(255, 255, 255, 0.06);
         }
 
         &.selected {
-          background-color: rgba(0, 0, 0, 0.1);
+          background-color: rgba(245, 158, 11, 0.15);
           font-weight: bold;
         }
 
         img {
-          margin-right: 10px;
+          flex: 0 0 36px !important;
+          width: 36px !important;
+          height: 36px !important;
+          min-width: 36px !important;
+          max-width: 36px !important;
+          min-height: 36px !important;
+          max-height: 36px !important;
+          object-fit: contain !important;
+          border-radius: 4px;
+          margin-right: 6px;
           border: none;
+          display: block;
         }
 
         .item-name {
-          flex: 1;
+          flex: 1 1 auto;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
         }
 
         .item-controls {
+          flex: 0 0 auto;
+          display: flex;
+          align-items: center;
           input[type="radio"] {
             cursor: pointer;
           }
