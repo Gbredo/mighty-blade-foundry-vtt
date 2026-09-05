@@ -1,41 +1,41 @@
-<div class="compendium-browser" style="display:flex;flex-direction:row;height:100%;min-height:480px;max-height:85vh;overflow:hidden;gap:12px;">
-  <section class="browser-sidebar" style="flex:0 0 280px;width:280px;max-width:280px;min-width:280px;display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,0.1);padding-right:10px;overflow:hidden;">
+<div class="compendium-browser" style="display:flex;flex-direction:row;height:100%;min-height:380px;overflow:hidden;gap:10px;">
+  <section class="browser-sidebar" style="flex:0 0 250px;width:250px;min-width:250px;max-width:250px;display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,0.1);padding-right:8px;overflow:hidden;">
     {{!-- Abas de Categorias --}}
-    <nav class="browser-categories-bar" style="display:flex;gap:4px;margin-bottom:8px;overflow-x:auto;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.08);">
+    <nav class="browser-categories-bar" style="display:flex;gap:4px;margin-bottom:8px;overflow-x:auto;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.08);flex-shrink:0;">
       {{#each categories}}
         <button
           type="button"
           class="browser-tab-btn {{#if this.active}}active{{/if}}"
           data-tab="{{this.id}}"
-          style="padding:3px 8px;font-size:0.75rem;border-radius:12px;border:1px solid {{#if this.active}}#f59e0b{{else}}rgba(255,255,255,0.15){{/if}};background:{{#if this.active}}rgba(245,158,11,0.2){{else}}rgba(0,0,0,0.2){{/if}};color:{{#if this.active}}#fbbf24{{else}}#cbd5e1{{/if}};font-weight:{{#if this.active}}700{{else}}500{{/if}};cursor:pointer;white-space:nowrap;"
+          style="padding:3px 8px;font-size:0.75rem;border-radius:12px;border:1px solid {{#if this.active}}#f59e0b{{else}}rgba(255,255,255,0.15){{/if}};background:{{#if this.active}}rgba(245,158,11,0.2){{else}}rgba(0,0,0,0.2){{/if}};color:{{#if this.active}}#fbbf24{{else}}#cbd5e1{{/if}};font-weight:{{#if this.active}}700{{else}}500{{/if}};cursor:pointer;white-space:nowrap;flex-shrink:0;"
         >
           {{this.label}}
         </button>
       {{/each}}
     </nav>
 
-    <div class="search-bar" style="display:flex;gap:6px;align-items:center;margin-bottom:8px;">
+    <div class="search-bar" style="display:flex;gap:6px;align-items:center;margin-bottom:8px;flex-shrink:0;">
       <input
         type="text"
         name="search"
         placeholder="Buscar..."
         autocomplete="off"
-        style="flex:1;"
+        style="flex:1;min-width:0;height:28px;padding:2px 8px;font-size:0.85rem;"
       />
       <button
         type="button"
         class="sync-packs-button"
         title="Reconstruir e sincronizar compêndios com o catálogo canônico de regras"
-        style="flex:0 0 auto;width:auto;padding:0 8px;height:28px;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;border-radius:4px;cursor:pointer;"
+        style="flex:0 0 28px;width:28px;height:28px;padding:0;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;border-radius:4px;cursor:pointer;display:flex;align-items:center;justify-content:center;"
       >
         <i class="fas fa-arrows-rotate"></i>
       </button>
     </div>
-    <ul class="item-list" style="list-style:none;margin:0;padding:0;overflow-y:auto;flex:1;">
+    <ul class="item-list" style="list-style:none;margin:0;padding:0;overflow-y:auto;flex:1 1 auto;">
       {{#each items}}
-        <li class="item" data-item-id="{{this.uuid}}" style="display:flex;flex-direction:row;align-items:center;gap:10px;padding:6px 8px;border-bottom:1px solid rgba(255,255,255,0.06);cursor:pointer;border-radius:6px;margin-bottom:2px;">
-          <img src="{{this.img}}" width="36" height="36" style="flex:0 0 36px !important;width:36px !important;height:36px !important;min-width:36px !important;max-width:36px !important;min-height:36px !important;max-height:36px !important;object-fit:contain !important;border-radius:4px;display:block;border:none;" />
-          <span class="item-name" style="flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.85rem;font-weight:600;color:#f1f5f9;">{{this.name}}</span>
+        <li class="item browser-item" data-item-id="{{this.uuid}}" style="display:flex;align-items:center;gap:8px;padding:4px 6px;border-bottom:1px solid rgba(255,255,255,0.06);cursor:pointer;border-radius:4px;margin-bottom:2px;">
+          <img src="{{this.img}}" alt="{{this.name}}" width="36" height="36" style="flex:0 0 36px !important;width:36px !important;height:36px !important;min-width:36px !important;max-width:36px !important;min-height:36px !important;max-height:36px !important;object-fit:contain !important;border-radius:4px;display:block;border:none;background:rgba(0,0,0,0.2);" />
+          <span class="item-name" style="flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.85rem;font-weight:600;color:#f1f5f9;">{{this.name}}</span>
           <div class="item-controls" style="flex:0 0 auto;display:flex;align-items:center;">
             <input type="radio" name="selected-item" value="{{this.uuid}}" style="cursor:pointer;margin:0;" />
           </div>
@@ -44,18 +44,18 @@
     </ul>
   </section>
   <section class="browser-details" style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;overflow:hidden;padding-left:4px;">
-    <div class="details-header" style="border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:8px;padding-bottom:4px;">
+    <div class="details-header" style="border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:8px;padding-bottom:4px;flex-shrink:0;">
       <h2 style="margin:0;font-size:1.15rem;font-weight:700;color:#fbbf24;">Detalhes</h2>
     </div>
     <div class="details-content" style="flex:1 1 auto;overflow-y:auto;padding-right:6px;">
       <p class="instruction" style="font-style:italic;color:#94a3b8;text-align:center;margin-top:40px;">Passe o mouse sobre um item para ver os detalhes.</p>
     </div>
-    <div class="browser-footer" style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1);display:flex;justify-content:space-between;align-items:center;">
-      <div class="selection-status" style="font-style:italic;color:#94a3b8;font-size:0.85rem;">
+    <div class="browser-footer" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.1);display:flex;justify-content:space-between;align-items:center;flex-shrink:0;">
+      <div class="selection-status" style="font-style:italic;color:#94a3b8;font-size:0.82rem;">
         <i class="fas fa-info-circle"></i>
         Selecione 1 opção
       </div>
-      <button type="button" class="select-button" disabled style="padding:6px 18px;border-radius:6px;font-weight:700;cursor:pointer;">
+      <button type="button" class="select-button" disabled style="padding:5px 16px;border-radius:4px;font-weight:700;cursor:pointer;font-size:0.85rem;">
         <i class="fas fa-check"></i>
         Selecionar
       </button>

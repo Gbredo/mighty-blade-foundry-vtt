@@ -62,6 +62,9 @@ const RACAS_FORJA_MAP = {
   aesir: "aesir.png",
   asterio: "asterio.png",
   asteria: "asterio.png",
+  "asterio-m": "asterio.png",
+  "asteria-f": "asterio.png",
+  raca: "asterio.png",
 };
 
 const CLASSES_FORJA_MAP = {

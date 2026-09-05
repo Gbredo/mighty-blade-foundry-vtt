@@ -22,10 +22,8 @@ export class MightyBladeCompendiumBrowser extends Application {
       id: "mighty-blade-browser",
       title: "Navegador de Compêndio",
       template: "systems/mighty-blade/templates/apps/compendium-browser.hbs",
-      width: 760,
-      height: 540,
-      top: 70,
-      left: Math.max(20, Math.floor(((typeof window !== "undefined" ? window.innerWidth : 1200) - 760) / 2)),
+      width: 720,
+      height: 480,
       resizable: true,
       classes: ["mighty-blade", "browser"],
     });

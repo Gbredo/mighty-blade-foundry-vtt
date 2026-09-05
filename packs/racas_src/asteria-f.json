@@ -1,7 +1,7 @@
 {
   "name": "Astéria",
   "type": "raca",
-  "img": "systems/mighty-blade/assets/forja/raca.png",
+  "img": "systems/mighty-blade/assets/forja/asterio.png",
   "system": {
     "atributos": {
       "forca": 3,

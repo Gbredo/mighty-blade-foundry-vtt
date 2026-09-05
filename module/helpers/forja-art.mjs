@@ -37,13 +37,9 @@ export const RACAS_FORJA_MAP = {
   asteria: "asterio.png",
   "asterio-m": "asterio.png",
   "asteria-f": "asterio.png",
-  raca: "humano.png",
-  "nova-raca": "humano.png",
 };
 
 export const CLASSES_FORJA_MAP = {
-  classe: "guerreiro1.png",
-  "nova-classe": "guerreiro1.png",
   bardo: "bardo2.png",
   dracomante: "dracomante.png",
   druida: "druida2.png",
@@ -115,19 +111,19 @@ export function resolveItemImage(item) {
   const type = item.type;
 
   if (type === "raca" || RACAS_FORJA_MAP[slug]) {
-    const file = RACAS_FORJA_MAP[slug] || "humano.png";
+    const file = RACAS_FORJA_MAP[slug] || (slug + ".png");
     return "systems/mighty-blade/assets/forja/" + file;
   }
   if (type === "classe" || CLASSES_FORJA_MAP[slug]) {
-    const file = CLASSES_FORJA_MAP[slug] || "guerreiro1.png";
+    const file = CLASSES_FORJA_MAP[slug] || (slug + ".png");
     return "systems/mighty-blade/assets/forja/" + file;
   }
   if (type === "caminho" || CAMINHOS_FORJA_SLUGS.has(slug)) {
-    const file = CAMINHOS_FORJA_SLUGS.has(slug) ? (slug + ".png") : (CLASSES_FORJA_MAP[slug] || "espadachim2.png");
+    const file = CAMINHOS_FORJA_SLUGS.has(slug) ? (slug + ".png") : (CLASSES_FORJA_MAP[slug] || "caminho.png");
     return "systems/mighty-blade/assets/forja/" + file;
   }
   if (type === "organizacao" || ORGANIZACOES_FORJA_MAP[slug]) {
-    const file = ORGANIZACOES_FORJA_MAP[slug] || "org_espada.png";
+    const file = ORGANIZACOES_FORJA_MAP[slug] || ("org_" + slug + ".png");
     return "systems/mighty-blade/assets/forja/" + file;
   }
 
