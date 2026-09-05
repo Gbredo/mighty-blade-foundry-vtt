@@ -1,0 +1,20 @@
+{
+  "name": "Condenar a Alma",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>do Alvo Desenhando uma Runa Arcana entre você e uma criatura viva consciente, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente tornando-se uma Sombra que virá até você o mais rápido que puder. Ela permanecerá sob seu controle até ser destruída de alguma forma. Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "condenar-a-alma",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "887071234ff70867",
+  "_key": "!items!887071234ff70867"
+}

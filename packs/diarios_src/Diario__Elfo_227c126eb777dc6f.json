@@ -1,0 +1,28 @@
+{
+  "_id": "227c126eb777dc6f",
+  "name": "Diário: Elfo",
+  "pages": [
+    {
+      "_id": "6e935ecec39ad5b8",
+      "name": "Elfo — Biologia, Cultura e Nomes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/elfo.png\" alt=\"Elfo\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-14 anos</li><li><strong>Adolescente:</strong> 15-24 anos</li><li><strong>Adulto:</strong> 25 anos</li><li><strong>Idoso:</strong> 400(50) anos</li><li><strong>Ancião:</strong> — anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de estatura mediana, esbeltos e com traços delicados, medindo entre 1,60 e 1,70 metros de altura e pesando de 50 a 60 quilos. Sua característica mais marcante são as longas orelhas pontudas, que lhes conferem audição superior.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem tonalidades douradas ou bronzeadas. A pelagem do corpo é muito fina, e os cabelos são tradicionalmente mantidos muito longos (em tranças ou amarrações). Os fios são de cores muito claras, como louro ou branco, e diferente de outras raças, a cor não muda com o tempo ou com a idade.</li><br><li><strong>Olhos:</strong> Apresentam cores claras, sendo verde, lilás e azul os mais comuns, com alguns raros indivíduos de olhos âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam mamas pequenas. Como os machos não desenvolvem barba e ambos os gêneros têm corpos esbeltos e feições delicadas, raças não-mamíferas (ou pessoas pouco atentas) têm grande dificuldade para distinguir machos de fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação élfica dura longos 18 meses. O desenvolvimento físico da raça atinge o ápice aos 25 anos. A partir daí, a \"Bênção de Lathellanis\" impede que o corpo sofra os efeitos de desgaste do envelhecimento natural. Vivem em média 500 anos, podendo alcançar os 700. Elfos não sofrem os efeitos comuns do envelhecimento e não entram na categoria Ancião. A partir da idade de Idoso, ao invés de perderem atributos físicos, eles acumulam falhas e, em dado momento, entram em um estado plácido onde se preparam para morrer em poucos dias.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> O reino natal dos elfos é Londérien, mas eles habitam as profundezas de florestas, como em Ambrook (Tebryn). A sociedade é estritamente matriarcal, com fêmeas liderando as comunidades, e sacerdotisas e druidesas de Lathellanis ocupando as posições de maior prestígio. A arquitetura se molda à natureza sem derrubar as matas, esculpindo domos em plantas e grutas para formarem cidades perfeitamente camufladas, com baixa densidade populacional.</li><br><li><strong>Sustento e Tecnologia:</strong> Não domesticam animais para abate e evitam plantações em larga escala. Especialistas em forrageio e caça sustentável, extraem o que precisam direto da natureza (carne, lã, frutos) de modo a não abalar o ecossistema. São a única raça que se recusa a minerar as entranhas da terra; todo o metal élfico é obtido por garimpo de aluvião (peneirando a terra superficial). Devido a isso, armas élficas geralmente são de madeiras exóticas como a Kraneia, e os metais são usados em detalhes e joias belíssimas.</li><br><li><strong>Estilo de Vida (Lazer):</strong> São práticos, frugais e caridosos. Não acreditam em acúmulo de bens pessoais. Preferem o compartilhamento de conhecimento, e seu lazer gira em torno de filosofia, literatura, arte e canções.</li><br><li><strong>Relações Interpessoais:</strong> Apesar do isolacionismo em suas florestas (sendo bastante restritos com forasteiros em Londérien), eles mantêm relações diplomáticas e comerciais pacíficas de séculos com Humanos, Anões e Metadílios. Contudo, mantêm uma profunda desconfiança com os Centauros devido a guerras passadas em Tebryn.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>O idioma oficial dos elfos é o Caint (com sonoridade similar ao Gaélico Irlandês). É uma língua complexa e melodiosa, mas sua escrita visual parece um pequeno bosque de árvores estilizadas. Os nomes élficos seguem regras rígidas e geralmente contêm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Qualquer nome anglo-saxão adaptado funciona. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Elfos não usam sobrenomes de família. Eles usam o local onde nasceram ou a organização/religião para a qual trabalham. Exemplo: Aesc Floresta da Névoa, Cerdic Kead de Lathellanis.</p><h4>Nomes Masculinos</h4><p>Aelred, Aeteltan, Cerdic, Dunstan, Fianoc, Godric, Keleoc, Landric, Lanevar, Leofric, Lewyd, Uhtric</p><h4>Nomes Femininos</h4><p>Aedil, Alfrith, Careth, Deorwin, Ealhedil, Edith, Faedil, Gleadwin, Leofwin, Rivelwin, Saewin, Valedith, Vanedwin</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!227c126eb777dc6f.6e935ecec39ad5b8"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/elfo.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "elfo",
+      "tipo": "raca"
+    }
+  },
+  "_key": "!journal!227c126eb777dc6f"
+}

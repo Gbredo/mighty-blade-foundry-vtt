@@ -1,0 +1,22 @@
+{
+  "name": "Carruagem Nobre",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 600,
+    "description": "<p>Uma versão requintada e mais confortável, com estofamento, forro e outas frivolidades. Pode ser puxada por dois ou quatro cavalos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carruagem-nobre",
+      "categoria": "Montaria"
+    }
+  },
+  "_id": "265791cd02dd445b",
+  "_key": "!items!265791cd02dd445b"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Poção de Mana",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Recupera 30 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-de-mana",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "9ddce7632e728c97",
+  "_key": "!items!9ddce7632e728c97"
+}

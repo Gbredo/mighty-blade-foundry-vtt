@@ -1,0 +1,22 @@
+{
+  "name": "Instrumentos de Forja",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 5,
+    "quantidade": 1,
+    "custo": 60,
+    "description": "<p>Malho, tenazes, cadinho, buril.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "instrumentos-de-forja",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "ae767fffa8c3b1c5",
+  "_key": "!items!ae767fffa8c3b1c5"
+}

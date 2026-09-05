@@ -916,3 +916,114 @@
   background-color: #f59e0b !important;
   color: #0f172a !important;
 }
+
+/* ════════════════════════════════════════════════════════════════════
+   ITEM SHEETS (MIGHTY BLADE DARK OBSIDIAN DESIGN)
+   ════════════════════════════════════════════════════════════════════ */
+.mighty-blade.sheet.item {
+  min-width: 480px;
+}
+
+.mighty-blade.sheet.item .sheet-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  background: var(--mb-bg-card);
+  border: 1px solid var(--mb-border);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.mighty-blade.sheet.item .sheet-header .profile-img {
+  width: 64px !important;
+  height: 64px !important;
+  max-width: 64px !important;
+  max-height: 64px !important;
+  flex: 0 0 64px !important;
+  object-fit: cover;
+  border: 2px solid var(--mb-border-gold);
+  border-radius: 8px;
+  background: #000;
+  box-shadow: 0 0 10px var(--mb-gold-glow);
+  cursor: pointer;
+}
+
+.mighty-blade.sheet.item .sheet-header .header-fields {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mighty-blade.sheet.item .sheet-header h1.charname {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.mighty-blade.sheet.item .sheet-header h1.charname input {
+  width: 100%;
+  font-family: var(--mb-font-title);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--mb-gold);
+  background: var(--mb-bg-input);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+.mighty-blade.sheet.item .sheet-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--mb-border);
+  margin-bottom: 12px;
+}
+
+.mighty-blade.sheet.item .sheet-tabs .item {
+  font-family: var(--mb-font-title);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--mb-text-muted);
+  padding: 6px 14px;
+  border-radius: 6px 6px 0 0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.mighty-blade.sheet.item .sheet-tabs .item.active {
+  color: var(--mb-gold);
+  border-bottom: 2px solid var(--mb-gold);
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.mighty-blade.sheet.item .sheet-body {
+  overflow-y: auto;
+  min-height: 250px;
+}
+
+.mighty-blade.sheet.item .sheet-body .tab {
+  padding: 4px;
+}
+
+.mighty-blade.sheet.item .resource-label {
+  font-family: var(--mb-font-title);
+  font-size: 0.75rem;
+  color: var(--mb-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.mighty-blade.sheet.item .grid {
+  display: grid;
+  gap: 8px;
+}
+.mighty-blade.sheet.item .grid-2col { grid-template-columns: repeat(2, 1fr); }
+.mighty-blade.sheet.item .grid-3col { grid-template-columns: repeat(3, 1fr); }
+.mighty-blade.sheet.item .grid-4col { grid-template-columns: repeat(4, 1fr); }
+

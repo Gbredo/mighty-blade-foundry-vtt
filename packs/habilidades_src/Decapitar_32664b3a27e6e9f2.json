@@ -1,0 +1,27 @@
+{
+  "name": "Decapitar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Retalhar",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando fizer ataques contra alvos específicos (veja o Guia Básico página 35) visando áreas vitais, todo dano de Corte que você causar será o triplo do normal, ao invés do dobro. Se você tiver um sucesso crítico nesse ataque, o alvo morre imediatamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "decapitar",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "32664b3a27e6e9f2",
+  "_key": "!items!32664b3a27e6e9f2"
+}

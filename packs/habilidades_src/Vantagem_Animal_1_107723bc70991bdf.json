@@ -1,0 +1,27 @@
+{
+  "name": "Vantagem Animal 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade de combate selvagem do Xamã. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vantagem-animal-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "107723bc70991bdf",
+  "_key": "!items!107723bc70991bdf"
+}

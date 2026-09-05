@@ -1,0 +1,22 @@
+{
+  "name": "Pinos Para escalada",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.4,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>10 pinos para escaladas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pinos-para-escalada",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "722d214d0b621abb",
+  "_key": "!items!722d214d0b621abb"
+}

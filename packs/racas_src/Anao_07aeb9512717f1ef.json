@@ -1,0 +1,118 @@
+{
+  "name": "Anão",
+  "type": "raca",
+  "img": "systems/mighty-blade/assets/forja/anao.png",
+  "system": {
+    "atributos": {
+      "forca": 4,
+      "agilidade": 2,
+      "inteligencia": 3,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Coração da Montanha",
+      "descricao": "Imune a venenos (naturais e mágicos). +1d6 em testes para resistir a fadiga, doenças e efeitos físicos. Carga calculada como se tivesse Força +2.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "coracao-da-montanha"
+      }
+    ],
+    "classesComuns": "Guerreiro, Paladino, Sacerdote e Rúnico",
+    "description": "<div class=\"mb-item-summary\"><p>Raça Anão de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.d76f05d05c0b4754\" data-slug=\"anao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"classes-comuns\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Guerreiro, Paladino, Sacerdote e Rúnico</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "anao",
+      "diarioId": "d76f05d05c0b4754",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.\n* **Pele e Pelagem:** Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).\n* **Ciclo de Vida:** A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.",
+        "cultura": "* **Habitat e Estrutura Política:** Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.\n* **Tradição, Ofícios e Religião:** A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.\n* **Casamento e Clãs:** O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.\n* **Relações Interpessoais:** Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.",
+        "faixasEtarias": {
+          "filhote": "0-4",
+          "crianca": "5-14",
+          "adolescente": "15-19",
+          "adulto": "20",
+          "idoso": "100(20)",
+          "anciao": "200(3)"
+        },
+        "nomes": {
+          "lore": "Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.",
+          "masculinos": [
+            "Alberik",
+            "Alvis",
+            "Andavari",
+            "Brok",
+            "Bror",
+            "Brunkil",
+            "Durin",
+            "Dvalin",
+            "Eitri",
+            "Fialar",
+            "Filibar",
+            "Fingal",
+            "Fulgrin",
+            "Galar",
+            "Hengal",
+            "Honir",
+            "Imborg",
+            "Ivaldi",
+            "Lofar",
+            "Magni",
+            "Módi",
+            "Mosonir",
+            "Narfi",
+            "Nari",
+            "Olrik",
+            "Regin",
+            "Rurik",
+            "Storlin",
+            "Torveg",
+            "Vali",
+            "Vik",
+            "Zarlin"
+          ],
+          "femininos": [
+            "Agda",
+            "Brena",
+            "Brunhild",
+            "Dagma",
+            "Disa",
+            "Ead",
+            "Edila",
+            "Eirild",
+            "Embla",
+            "Fria",
+            "Hnossa",
+            "Ida",
+            "Idhuna",
+            "Indunna",
+            "Ingrid",
+            "Ingvild",
+            "Irpa",
+            "Kelda",
+            "Nagla",
+            "Nanna",
+            "Niela",
+            "Nornild",
+            "Ostara",
+            "Rind",
+            "Skulda",
+            "Thorhild",
+            "Urda",
+            "Valla",
+            "Verdanda",
+            "Voluspa"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "07aeb9512717f1ef",
+  "_key": "!items!07aeb9512717f1ef"
+}

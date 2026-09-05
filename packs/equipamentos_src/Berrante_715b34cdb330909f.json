@@ -1,0 +1,22 @@
+{
+  "name": "Berrante",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Instrumento de sopro feito de um grande chifre.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "berrante",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "715b34cdb330909f",
+  "_key": "!items!715b34cdb330909f"
+}

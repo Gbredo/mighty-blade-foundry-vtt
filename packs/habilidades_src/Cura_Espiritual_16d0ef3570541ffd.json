@@ -1,0 +1,27 @@
+{
+  "name": "Cura Espiritual",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Cura até 40 PV de uma criatura com Corpo Intangível. Remove efeitos mentais, Medo, Selos Místicos e Runas Arcanas do alvo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cura-espiritual",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "16d0ef3570541ffd",
+  "_key": "!items!16d0ef3570541ffd"
+}

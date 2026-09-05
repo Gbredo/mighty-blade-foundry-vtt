@@ -1,0 +1,22 @@
+{
+  "name": "Antídoto Básico",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Remove todos os efeitos de venenos naturais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "antidoto-basico",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "cb35bb2b4349c09d",
+  "_key": "!items!cb35bb2b4349c09d"
+}

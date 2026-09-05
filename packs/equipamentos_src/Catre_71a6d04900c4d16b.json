@@ -1,0 +1,22 @@
+{
+  "name": "Catre",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Preço da Diária. Uma cama de peles e um baú em um pequeno quarto particular</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "catre",
+      "categoria": "Servico"
+    }
+  },
+  "_id": "71a6d04900c4d16b",
+  "_key": "!items!71a6d04900c4d16b"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Mochila Grande",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Mochila reforçada de viagem. Comporta até 20 quilos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mochila-grande",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "34f11f2e1abebb86",
+  "_key": "!items!34f11f2e1abebb86"
+}

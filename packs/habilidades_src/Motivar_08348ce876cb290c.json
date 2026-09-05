@@ -1,0 +1,27 @@
+{
+  "name": "Motivar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Código da Lealdade",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você profere palavras de encorajamento que inspiram seus aliados, recuperando sua moral e vontade. Todos os aliados num raio de 1 metro por ponto de Vontade que você tiver e que puderem lhe ouvir recuperam imediatamente 10 Pontos de Vida e quaisquer efeitos de Medo que os estiver afetando é removido. Estes efeitos não afetam o personagem usando essa Habilidade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "motivar",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "08348ce876cb290c",
+  "_key": "!items!08348ce876cb290c"
+}

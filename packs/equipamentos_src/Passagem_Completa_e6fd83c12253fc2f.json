@@ -1,0 +1,22 @@
+{
+  "name": "Passagem Completa",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Preço por dia de viagem. Como acima, mas com todas as refeições inclusas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "passagem-completa",
+      "categoria": "Servico"
+    }
+  },
+  "_id": "e6fd83c12253fc2f",
+  "_key": "!items!e6fd83c12253fc2f"
+}

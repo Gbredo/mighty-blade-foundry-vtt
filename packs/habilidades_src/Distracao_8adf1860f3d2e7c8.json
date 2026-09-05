@@ -1,0 +1,27 @@
+{
+  "name": "Distração",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Eloquente",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de usar sua oratória para chamar a atenção de um alvo para você e confundi-lo no processo. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura precisa passar em um teste de Inteligência (Dificuldade igual à sua Determinação) ou ficará Distraída por 1 turno. Esse é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "distracao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "8adf1860f3d2e7c8",
+  "_key": "!items!8adf1860f3d2e7c8"
+}

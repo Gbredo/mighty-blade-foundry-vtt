@@ -1,0 +1,33 @@
+{
+  "name": "Patas Fortes",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Centauro",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "testes de corrida, salto e para evitar quedas"
+      }
+    ],
+    "description": "<p>Você possui pernas musculares e mais fortes do que a média. Você rola +1d6 quando fizer testes de corrida, salto e para evitar quedas. Além disso, o dano dos seus ataques desarmados com cascos é aumentado em +2.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "patas-fortes",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "1e60a2aaec0cbc08",
+  "_key": "!items!1e60a2aaec0cbc08"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Escamas Grossas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "bloqueio",
+        "valor": 2
+      },
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "esquiva",
+        "valor": 2
+      },
+      {
+        "tipo": "reducaoDano",
+        "valor": 2,
+        "contra": "qualquer fonte"
+      }
+    ],
+    "description": "<p>Suas escamas são particularmente resistentes e duras. Você ganha Defesa +2 e Redução de Dano (RD) 2 contra qualquer fonte de dano (conta como Armadura). Só pode ser selecionada durante a criação do personagem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "escamas-grossas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "6a788691afe67873",
+  "_key": "!items!6a788691afe67873"
+}

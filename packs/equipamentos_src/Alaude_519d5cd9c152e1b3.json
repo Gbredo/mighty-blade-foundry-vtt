@@ -1,0 +1,22 @@
+{
+  "name": "Alaúde",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Instrumento de corda que pode ter 15 a 24 cordas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "alaude",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "519d5cd9c152e1b3",
+  "_key": "!items!519d5cd9c152e1b3"
+}

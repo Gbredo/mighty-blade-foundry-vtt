@@ -1,0 +1,27 @@
+{
+  "name": "Valor da Vitória",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Cada vez que você derrota um oponente (isso inclui se ele se render ou fugir após a batalha) você recupera 5 pontos de vida e 5 pontos de mana. Habilidade Final</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "valor-da-vitoria",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "95969db3f8615ee0",
+  "_key": "!items!95969db3f8615ee0"
+}

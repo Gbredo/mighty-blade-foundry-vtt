@@ -1,0 +1,22 @@
+{
+  "name": "Burro",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Versão treinada do Burro descrito no Monstrum Codex p. 9</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "burro",
+      "categoria": "Montaria"
+    }
+  },
+  "_id": "f1c86513b13b962b",
+  "_key": "!items!f1c86513b13b962b"
+}

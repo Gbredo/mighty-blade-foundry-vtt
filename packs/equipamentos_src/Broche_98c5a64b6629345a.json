@@ -1,0 +1,22 @@
+{
+  "name": "Broche",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Adorno com alfinete para prender em tecido.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "broche",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "98c5a64b6629345a",
+  "_key": "!items!98c5a64b6629345a"
+}

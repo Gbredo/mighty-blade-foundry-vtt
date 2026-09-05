@@ -1,0 +1,22 @@
+{
+  "name": "Barril",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 20,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Barril de madeira para liquidos. Comporta 50 litros de liquido.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "barril",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "9fd32b1055ecc43b",
+  "_key": "!items!9fd32b1055ecc43b"
+}

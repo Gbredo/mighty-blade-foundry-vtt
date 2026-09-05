@@ -1,0 +1,20 @@
+{
+  "name": "Janela Mágica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p>Desenhando um Selo Místico sobre uma superfície, você é capaz de canalizar os efeitos de Clarividência, Psicometria ou Retrocognição, criando uma espécie de janela onde os eventos que o Oráculo perceberia podem ser visualizados por qualquer um ao seu redor. O custo dessa Magia será igual ao custo da Habilidade canalizada. Esse Selo Místico dura 10 minutos, mas se o Selo Místico que estiver sendo observado com Clarividência for dissipado ou o conjurador perder contato com o objeto, superfície ou criatura na qual está usando Psicometria ou Retrocognição, o efeito é cancelado imediatamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "janela-magica",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "1b6b7cd49895914e",
+  "_key": "!items!1b6b7cd49895914e"
+}

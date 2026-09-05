@@ -1,0 +1,27 @@
+{
+  "name": "Arqueria de Mestre",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Olho da Águia",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você sempre rola +1d6 para ataques à distância (incluindo arremessos).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arqueria-de-mestre",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "8005d36dad9abd47",
+  "_key": "!items!8005d36dad9abd47"
+}

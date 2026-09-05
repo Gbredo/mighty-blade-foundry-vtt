@@ -1,0 +1,37 @@
+{
+  "name": "Lírico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "fala (mentir, seduzir) e canto"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "custo de 1 Música de Canção (repertório permanente)"
+      }
+    ],
+    "description": "<p>+2 em testes de fala (mentir, seduzir) e canto. Adiciona 1 Música de Canção permanentemente ao repertório.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lirico",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "299c7a954759c2f1",
+  "_key": "!items!299c7a954759c2f1"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Dragano",
+  "type": "raca",
+  "img": "systems/mighty-blade/assets/forja/dragano.png",
+  "system": {
+    "atributos": {
+      "forca": 4,
+      "agilidade": 3,
+      "inteligencia": 2,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Linhagem Dracônica",
+      "descricao": "Concede a herança elemental de seus ancestrais. Escolha feita na seleção da raça.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "linhagem-draconica"
+      }
+    ],
+    "classesComuns": "Guerreiro, Dracomante, Patrulheiro",
+    "description": "<div class=\"mb-item-summary\"><p>Raça Dragano de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.51a7e16e8acc60c7\" data-slug=\"dragano\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"classes-comuns\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Guerreiro, Dracomante, Patrulheiro</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dragano",
+      "diarioId": "51a7e16e8acc60c7",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** São dragões humanoides extremamente diversos. A cabeça assemelha-se à de dragões, com focinho curto e presas afiadas, podendo apresentar protrusões ósseas e chifres de formatos variados (retos ou torcidos). As mãos e os pés têm quatro dedos com garras robustas. A presença de asas e cauda longa é comum, embora possam ser vestigiais ou inúteis em alguns indivíduos. A altura média varia de 1,6m a 2m (podendo atingir até 3m), e o peso médio é de 90 a 100 quilos (indivíduos com asas e cauda pesam até 160kg, e os maiores até 250kg).\n* **Pele e Pelagem:** Possuem couro grosso, áspero e totalmente desprovido de pelos, frequentemente coberto por escamas queratinosas. A coloração varia drasticamente: do branco ao preto, passando por tons de azul, verde e vermelho.\n* **Olhos:** Podem ser fendidos ou ter pupilas redondas. Alguns indivíduos, especialmente de origem Ofidiana, têm olhos dourados, vermelhos ou esbranquiçados protegidos permanentemente por uma membrana nictitante.\n* **Dimorfismo Sexual:** Diferenciar machos e fêmeas é quase impossível para outras raças; apenas Naga, outros Draganos e criaturas do tipo Dragão conseguem distingui-los facilmente.\n* **Ciclo de Vida:** As fêmeas são férteis apenas uma vez por ano. A gestação dura cerca de 1 ano, gerando apenas 1 ovo que eclode em três meses. Cerca de 25% dos ovos geram natimortos ou crias deformadas. Atingem a maturidade aos 20 anos e vivem plenamente até os 200 anos. Na velhice, as escamas enfraquecem e os alados perdem a capacidade de voar.",
+        "cultura": "* **Habitat e Estrutura Política (A Dualidade):** A cultura da raça é dividida. Em Ofidien, eles foram criados artificialmente pelas Naga há cerca de 2000 anos por meio de experimentos em raças escravizadas com sangue de dragão. Lá, não possuem identidade cultural própria e formam uma sub-raça servil trabalhando como soldados de elite e guarda-costas das Naga. Já em Arkânia, eles existiam antes mesmo da chegada das Naga. Os Draganos Arkanitas formam a base da cultura do império escravagista e ocupam os mais altos postos (Armada da Aurora, Conselho Regente), possuindo enorme orgulho de sua ancestralidade dracônica.\n* **Idiomas:** Não possuem língua própria. Em Ofidien, falam Asá-Avája (idioma Naga). Em Arkânia, são as únicas criaturas fisicamente capazes de falar o Track'kar'a (Língua dos Dragões) com perfeição, além de usarem o Burguês Arkanita e o Arkadis (Língua da Magia).\n* **Relações Interpessoais:** Fora de Arkânia e Ofidien, são vistos com medo e desconfiança. Tendem a se isolar como ermitões ou a viver próximos a raças com traços afins (Reptilianos, Tritões, Grotons). Possuem atitude rude e arrogante: apesar de racionais, usam intimidação, coerção e força física por se sentirem superiores aos outros.",
+        "faixasEtarias": {
+          "filhote": "0-4",
+          "crianca": "5-10",
+          "adolescente": "11-19",
+          "adulto": "20",
+          "idoso": "200(25)",
+          "anciao": "250(4)"
+        },
+        "nomes": {
+          "lore": "Assim como o idioma, eles adotam as regras das culturas em que estão inseridos, ou usam Nomes Dracônicos puros. Para serem imponentes, os nomes costumam ser longos (pelo menos três sílabas). Diferente das Naga (que usam sufixos como -Drek ou -Sur em seus nomes), os Draganos contraem os nomes dracônicos e nunca utilizam esses radicais ofidianos. Também, ao contrário das Naga, os Draganos adotam sobrenomes dependendo do reino onde vivem. Costumam utilizar os sobrenomes da cultura humana/arkanita em que foram criados ou adotar nomes de linhagens dracônicas.",
+          "masculinos": [
+            "Ahamthrul",
+            "Anphisbaenea",
+            "Azdahazahak",
+            "Balaurbondoc",
+            "Brignor",
+            "Bristerne",
+            "Dragua",
+            "Flamerax",
+            "Komerex",
+            "Lagarfliotsormurinn",
+            "Scathel",
+            "Shivnarvex",
+            "Smeygorinish",
+            "Zannar",
+            "Zirnitrarex"
+          ],
+          "femininos": [
+            "Ahamthrul",
+            "Anphisbaenea",
+            "Azdahazahak",
+            "Balaurbondoc",
+            "Brignor",
+            "Bristerne",
+            "Dragua",
+            "Flamerax",
+            "Komerex",
+            "Lagarfliotsormurinn",
+            "Scathel",
+            "Shivnarvex",
+            "Smeygorinish",
+            "Zannar",
+            "Zirnitrarex"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "233fec115e4422ca",
+  "_key": "!items!233fec115e4422ca"
+}

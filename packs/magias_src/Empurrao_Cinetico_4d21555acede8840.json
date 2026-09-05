@@ -1,0 +1,20 @@
+{
+  "name": "Empurrão Cinético",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana entre você e um alvo, você faz com que ele seja projetado em linha reta um número de metros igual à Vontade do conjurador. Se o alvo atingir uma superfície sólida ou outra criatura no trajeto que foi projetado, ele (e qualquer criatura que atinja no trajeto) sofre dano como se tivesse caído aquela distância. O alvo empurra tudo o que atingir no trajeto, que só será interrompido se o alvo atingir um objeto que não possa ser empurrado – como uma parede ou árvore.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "empurrao-cinetico",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "4d21555acede8840",
+  "_key": "!items!4d21555acede8840"
+}

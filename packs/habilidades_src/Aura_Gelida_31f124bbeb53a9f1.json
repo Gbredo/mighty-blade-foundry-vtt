@@ -1,0 +1,27 @@
+{
+  "name": "Aura Gélida",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui uma aura de frio intenso ao seu redor. Essa aura é suficientemente fria para cobrir itens com uma fina camada de gelo se você permanecer muito tempo em um mesmo local, mas não suficiente para causar dano. Você pode, no entanto, tornar sua aura muito mais gelada, fazendo com que tudo e todos à sua volta a até uma distância em metros igual à sua Vontade sofram uma quantidade de dano por Frio igual à sua Vontade quando você ativa esta Habilidade, quando uma criatura termina seu deslocamento ou quando ela iniciar seu turno dentro dessa área. Este efeito dura por 1 minuto. Bloqueio Necromântico Habilidade (Característica) – Suporte Você é imune a efeitos mentais e efeitos de medo e não precisa dormir (e é imune a efeitos que o façam dormir). Você ainda precisa ficar sem realizar tarefas extenuantes para recuperar Pontos de Vida e Pontos de Mana por descanso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aura-gelida",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "31f124bbeb53a9f1",
+  "_key": "!items!31f124bbeb53a9f1"
+}

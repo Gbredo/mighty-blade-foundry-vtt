@@ -1,0 +1,27 @@
+{
+  "name": "Melodia Dançante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você toca ritmos empolgantes que fazem com que todos que escutarem esta música sintam uma vontade incontrolável de dançar. Todos os Humanoides que estiverem escutando sua música rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu começarão a dançar incontrolavelmente, realizando todos os seus testes baseados em Agilidade como se fosse Inábil e ficando com Defesa -1 enquanto você continuar a tocar essa Melodia. Este é um efeito mental. Especial: Personagens usando Dança das Espadas são imunes a esse efeito.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-dancante",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "487659407d589938",
+  "_key": "!items!487659407d589938"
+}

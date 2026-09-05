@@ -1,0 +1,20 @@
+{
+  "name": "Eletrosfera",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 40,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Relâmpago 2</p><p>Dificuldade da magia: 13 Você desenha uma Runa Arcana sobre si mesmo, fazendo um turbilhão de raios elétricos emanarem a partir dela. No final do seu turno, tudo e todos que estiver a uma quantidade de metros igual à sua Inteligência ao seu redor sofrem uma quantidade de dano igual a 20/Eletricidade. Alvos usando armaduras com a Característica Pesada que sofram esse dano também ficam Atordoadas por 1 turno. Essa Runa Arcana dura uma quantidade de turnos igual à sua Vontade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "eletrosfera",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "619921cb0c58459d",
+  "_key": "!items!619921cb0c58459d"
+}

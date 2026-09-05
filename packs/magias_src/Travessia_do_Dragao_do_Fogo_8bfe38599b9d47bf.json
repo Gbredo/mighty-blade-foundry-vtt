@@ -1,0 +1,20 @@
+{
+  "name": "Travessia do Dragão do Fogo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 40,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Aura do Dragão</p><p>Desenhando um Selo Místico sobre uma chama com tamanho equivalente a uma fogueira de acampamento ou maior enquanto se concentra em um local que já tenha visitado pelo menos uma vez. A chama sobre a qual você conjurou a magia explode engolfando você e causando uma quantidade de dano igual à sua Determinação/Fogo em tudo e todos numa área de 3 metros de raio. Você surge no local em que se concentrou com uma explosão flamejante que causa o mesmo dano. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "travessia-do-dragao-do-fogo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "8bfe38599b9d47bf",
+  "_key": "!items!8bfe38599b9d47bf"
+}

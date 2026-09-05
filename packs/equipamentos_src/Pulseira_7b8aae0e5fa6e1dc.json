@@ -1,0 +1,22 @@
+{
+  "name": "Pulseira",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Adorno decorado para ser usado no pulso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pulseira",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "7b8aae0e5fa6e1dc",
+  "_key": "!items!7b8aae0e5fa6e1dc"
+}

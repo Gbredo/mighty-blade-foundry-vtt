@@ -1,0 +1,27 @@
+{
+  "name": "Fúria de Batalha",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Todas exceto Aesires",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando você é ferido você é tomado por uma irrefreável fúria destrutiva, ficando neste estado até o final do combate – ou até ficar dois turnos sem atacar. Você precisa sofrer pelo menos 1 ponto de dano de qualquer fonte – inclusive auto-infligido – para que essa Habilidade possa ser ativada. Enquanto estiver em Fúria, você recebe Força +2 e fica imune a efeitos de Medo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "furia-de-batalha",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "fa5bc683133e527e",
+  "_key": "!items!fa5bc683133e527e"
+}

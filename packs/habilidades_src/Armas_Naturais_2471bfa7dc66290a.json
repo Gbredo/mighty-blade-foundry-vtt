@@ -1,0 +1,34 @@
+{
+  "name": "Armas Naturais",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Chifres, Garras e Presas",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "garras/chifres",
+        "dano": "Forca+3",
+        "tipoDano": "Corte/Contusão/Perfuração"
+      }
+    ],
+    "description": "<p>Desperta um arsenal natural (garras, chifres, espigões). Seus ataques desarmados passam a causar Força +3 de dano, podendo escolher entre Contusão, Corte ou Perfuração a cada golpe.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armas-naturais",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "2471bfa7dc66290a",
+  "_key": "!items!2471bfa7dc66290a"
+}

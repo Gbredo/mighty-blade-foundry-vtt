@@ -1,0 +1,22 @@
+{
+  "name": "Pó de Pirita",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Componente. Garimpo em qualquer terreno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "po-de-pirita",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "9dfa3b8c64ed05e2",
+  "_key": "!items!9dfa3b8c64ed05e2"
+}

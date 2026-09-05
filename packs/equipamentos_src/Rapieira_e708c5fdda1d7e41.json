@@ -1,0 +1,28 @@
+{
+  "name": "Rapieira",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+7",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 125,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rapieira",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "e708c5fdda1d7e41",
+  "_key": "!items!e708c5fdda1d7e41"
+}

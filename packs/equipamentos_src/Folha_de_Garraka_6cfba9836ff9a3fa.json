@@ -1,0 +1,22 @@
+{
+  "name": "Folha de Garraka",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Componente. Forrageamento em Pântanos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "folha-de-garraka",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "6cfba9836ff9a3fa",
+  "_key": "!items!6cfba9836ff9a3fa"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Caminhada Fantasma",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 40,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Comunhão com Es-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>píritos. Você tornou-se um canal entre o mundo físico e o mundo espiritual. Você em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia. A Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "caminhada-fantasma",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f0c4ba5b8852a323",
+  "_key": "!items!f0c4ba5b8852a323"
+}

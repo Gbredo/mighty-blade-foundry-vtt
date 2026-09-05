@@ -1,0 +1,33 @@
+{
+  "name": "Bardo",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/bardo2.png",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "poesia-dos-bardos"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a97cf858c04cd05a\" data-slug=\"bardo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (57 Habilidades):</strong> poesia-dos-bardos, aparar, ataque-redirecionado, cancao-da-provocacao, cancao-desesperadora, cancao-do-triunfo, cancao-exultante, eloquente...</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bardo",
+      "diarioId": "a97cf858c04cd05a",
+      "conjurador": false
+    }
+  },
+  "_id": "ca834623ee14b4ec",
+  "_key": "!items!ca834623ee14b4ec"
+}

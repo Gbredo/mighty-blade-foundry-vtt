@@ -1,0 +1,33 @@
+{
+  "name": "Constrição",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de agarrar para constringir"
+      }
+    ],
+    "description": "<p>Você pode utilizar seu corpo serpentiforme para agarrar e esmagar em combate. Você recebe +2 em testes de agarrar para constringir. Por constringir com a cauda e deixar os braços livres, você pode realizar ataques com armas de uma mão e usar sua Ação de Movimento para apertar a vítima.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "constricao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9d714bef1c14f15c",
+  "_key": "!items!9d714bef1c14f15c"
+}

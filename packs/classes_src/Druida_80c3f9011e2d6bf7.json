@@ -1,0 +1,33 @@
+{
+  "name": "Druida",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/druida2.png",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "conhecimento-mistico"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c087084a68e94b7b\" data-slug=\"druida\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, asas-celestiais, bencao-de-ellenis, bestializar, bons-frutos, caminhada-magica, companheiro-animal-1...</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "druida",
+      "diarioId": "c087084a68e94b7b",
+      "conjurador": true
+    }
+  },
+  "_id": "80c3f9011e2d6bf7",
+  "_key": "!items!80c3f9011e2d6bf7"
+}

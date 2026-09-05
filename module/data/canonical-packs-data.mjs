@@ -119,7 +119,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "07aeb9512717f1ef",
+    "_key": "!items!07aeb9512717f1ef"
   },
   {
     "name": "Elfo",
@@ -198,7 +200,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "1a210aac1b726a9a",
+    "_key": "!items!1a210aac1b726a9a"
   },
   {
     "name": "Fauno",
@@ -272,7 +276,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "0b181948ecd7e528",
+    "_key": "!items!0b181948ecd7e528"
   },
   {
     "name": "Humano",
@@ -393,7 +399,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "ed9a811d97c57b7c",
+    "_key": "!items!ed9a811d97c57b7c"
   },
   {
     "name": "Juban",
@@ -498,7 +506,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "28314960617c6d49",
+    "_key": "!items!28314960617c6d49"
   },
   {
     "name": "Tailox",
@@ -550,7 +560,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "a1b6353978b29863",
+    "_key": "!items!a1b6353978b29863"
   },
   {
     "name": "Aesir",
@@ -666,7 +678,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "397db3b1cbf16261",
+    "_key": "!items!397db3b1cbf16261"
   },
   {
     "name": "Astério",
@@ -749,7 +763,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "6e29af7b07bf4068",
+    "_key": "!items!6e29af7b07bf4068"
   },
   {
     "name": "Astéria",
@@ -813,7 +829,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "d0a0a50490899da7",
+    "_key": "!items!d0a0a50490899da7"
   },
   {
     "name": "Centauro",
@@ -893,7 +911,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "8fa22c875f9656f8",
+    "_key": "!items!8fa22c875f9656f8"
   },
   {
     "name": "Dragano",
@@ -977,7 +997,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "233fec115e4422ca",
+    "_key": "!items!233fec115e4422ca"
   },
   {
     "name": "Faen",
@@ -1048,7 +1070,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "2f70ce6f9a04ba13",
+    "_key": "!items!2f70ce6f9a04ba13"
   },
   {
     "name": "Fira",
@@ -1157,7 +1181,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "e105a595e5ad88dc",
+    "_key": "!items!e105a595e5ad88dc"
   },
   {
     "name": "Gnoll",
@@ -1222,7 +1248,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "4e48a0f28a6ce284",
+    "_key": "!items!4e48a0f28a6ce284"
   },
   {
     "name": "Hamelin",
@@ -1318,7 +1346,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "d56e6df3d1ffa097",
+    "_key": "!items!d56e6df3d1ffa097"
   },
   {
     "name": "Levent",
@@ -1419,7 +1449,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "ed7891853dd3dbce",
+    "_key": "!items!ed7891853dd3dbce"
   },
   {
     "name": "Mahok",
@@ -1524,7 +1556,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "578ed7f74cde5642",
+    "_key": "!items!578ed7f74cde5642"
   },
   {
     "name": "Metadílio",
@@ -1611,7 +1645,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "e006710a2c88221c",
+    "_key": "!items!e006710a2c88221c"
   },
   {
     "name": "Naga (Macho)",
@@ -1691,7 +1727,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "84cc08b72431d358",
+    "_key": "!items!84cc08b72431d358"
   },
   {
     "name": "Naga (Fêmea)",
@@ -1767,7 +1805,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "b8161b061ea5430f",
+    "_key": "!items!b8161b061ea5430f"
   },
   {
     "name": "Orc",
@@ -1873,7 +1913,9 @@ export const CANONICAL_RACAS = [
           }
         }
       }
-    }
+    },
+    "_id": "a5316f01f0316596",
+    "_key": "!items!a5316f01f0316596"
   }
 ];
 
@@ -1907,7 +1949,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "01f81cd5a919ee25",
         "conjurador": true
       }
-    }
+    },
+    "_id": "388323c80b41ba8d",
+    "_key": "!items!388323c80b41ba8d"
   },
   {
     "name": "Guerreiro",
@@ -1938,7 +1982,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "67c20d7803b462e2",
         "conjurador": false
       }
-    }
+    },
+    "_id": "75b84cba4996c84d",
+    "_key": "!items!75b84cba4996c84d"
   },
   {
     "name": "Ladino",
@@ -1969,7 +2015,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "28b8d9e8f991abe5",
         "conjurador": false
       }
-    }
+    },
+    "_id": "19a414f452ba732d",
+    "_key": "!items!19a414f452ba732d"
   },
   {
     "name": "Paladino",
@@ -2000,7 +2048,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "04269a145331afa6",
         "conjurador": false
       }
-    }
+    },
+    "_id": "c811bc5c97bed8c3",
+    "_key": "!items!c811bc5c97bed8c3"
   },
   {
     "name": "Patrulheiro",
@@ -2031,7 +2081,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "763480e886a66ce7",
         "conjurador": false
       }
-    }
+    },
+    "_id": "de7af69bd966de20",
+    "_key": "!items!de7af69bd966de20"
   },
   {
     "name": "Sacerdote",
@@ -2062,7 +2114,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "74f4eb07d3561470",
         "conjurador": true
       }
-    }
+    },
+    "_id": "a100ce119513a354",
+    "_key": "!items!a100ce119513a354"
   },
   {
     "name": "Bardo",
@@ -2093,7 +2147,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "a97cf858c04cd05a",
         "conjurador": false
       }
-    }
+    },
+    "_id": "ca834623ee14b4ec",
+    "_key": "!items!ca834623ee14b4ec"
   },
   {
     "name": "Druida",
@@ -2124,7 +2180,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "c087084a68e94b7b",
         "conjurador": true
       }
-    }
+    },
+    "_id": "80c3f9011e2d6bf7",
+    "_key": "!items!80c3f9011e2d6bf7"
   },
   {
     "name": "Espadachim",
@@ -2155,7 +2213,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "271a8d443f5c85f6",
         "conjurador": false
       }
-    }
+    },
+    "_id": "fa408fa6c07e3f4a",
+    "_key": "!items!fa408fa6c07e3f4a"
   },
   {
     "name": "Rúnico",
@@ -2186,7 +2246,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "4562a02d414f1816",
         "conjurador": true
       }
-    }
+    },
+    "_id": "698257602639ac34",
+    "_key": "!items!698257602639ac34"
   },
   {
     "name": "Dracomante",
@@ -2217,7 +2279,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "424f6b2129452ab1",
         "conjurador": true
       }
-    }
+    },
+    "_id": "0c7bbee64ada41c2",
+    "_key": "!items!0c7bbee64ada41c2"
   },
   {
     "name": "Necromante",
@@ -2248,7 +2312,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "457f1f8417f52a7e",
         "conjurador": true
       }
-    }
+    },
+    "_id": "89fff0071000c03d",
+    "_key": "!items!89fff0071000c03d"
   },
   {
     "name": "Senescal",
@@ -2279,7 +2345,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "064542aa1e26fcfe",
         "conjurador": false
       }
-    }
+    },
+    "_id": "bb10081329cace8d",
+    "_key": "!items!bb10081329cace8d"
   },
   {
     "name": "Xamã",
@@ -2310,7 +2378,9 @@ export const CANONICAL_CLASSES = [
         "diarioId": "b89d37f86c189b3e",
         "conjurador": false
       }
-    }
+    },
+    "_id": "a71ef414f3f584f7",
+    "_key": "!items!a71ef414f3f584f7"
   }
 ];
 
@@ -2330,7 +2400,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "amoque",
         "diarioId": "5483fa0277bff76e"
       }
-    }
+    },
+    "_id": "50179f687b1a6e8b",
+    "_key": "!items!50179f687b1a6e8b"
   },
   {
     "name": "Arconte",
@@ -2347,7 +2419,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "arconte",
         "diarioId": "caefda4857de50b1"
       }
-    }
+    },
+    "_id": "1a7cd26fd9f3b370",
+    "_key": "!items!1a7cd26fd9f3b370"
   },
   {
     "name": "Assassino",
@@ -2364,7 +2438,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "assassino",
         "diarioId": "c3073b46befe34a1"
       }
-    }
+    },
+    "_id": "14bda9c59e96d920",
+    "_key": "!items!14bda9c59e96d920"
   },
   {
     "name": "Avantesma",
@@ -2381,7 +2457,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "avantesma",
         "diarioId": "1ad387a37682d486"
       }
-    }
+    },
+    "_id": "3307e14d7961132e",
+    "_key": "!items!3307e14d7961132e"
   },
   {
     "name": "Aziago",
@@ -2398,7 +2476,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "aziago",
         "diarioId": "aa729f69111ff630"
       }
-    }
+    },
+    "_id": "9b3b1634e7f31a80",
+    "_key": "!items!9b3b1634e7f31a80"
   },
   {
     "name": "Alquimista",
@@ -2415,7 +2495,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "alquimista",
         "diarioId": "a93b2b300ce3fb9c"
       }
-    }
+    },
+    "_id": "dc4a2fb489672a25",
+    "_key": "!items!dc4a2fb489672a25"
   },
   {
     "name": "Argênteo",
@@ -2432,7 +2514,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "argenteo",
         "diarioId": "0ab960d2e795b6ce"
       }
-    }
+    },
+    "_id": "c1abdb9f1077b280",
+    "_key": "!items!c1abdb9f1077b280"
   },
   {
     "name": "Arqueiro",
@@ -2449,7 +2533,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "arqueiro",
         "diarioId": "1a4f5a5d76d435a0"
       }
-    }
+    },
+    "_id": "1b2a16f9098dbfd8",
+    "_key": "!items!1b2a16f9098dbfd8"
   },
   {
     "name": "Artífice",
@@ -2466,7 +2552,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "artifice",
         "diarioId": "72144f07e1e5047d"
       }
-    }
+    },
+    "_id": "23464a2b2c10bfdc",
+    "_key": "!items!23464a2b2c10bfdc"
   },
   {
     "name": "Cultista",
@@ -2483,7 +2571,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "cultista",
         "diarioId": "62e5078a5daba2bd"
       }
-    }
+    },
+    "_id": "042625d7bcd839e0",
+    "_key": "!items!042625d7bcd839e0"
   },
   {
     "name": "Cruzado",
@@ -2500,7 +2590,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "cruzado",
         "diarioId": "46dc69095da17431"
       }
-    }
+    },
+    "_id": "5e524570d933decd",
+    "_key": "!items!5e524570d933decd"
   },
   {
     "name": "Domador",
@@ -2517,7 +2609,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "domador",
         "diarioId": "6ebef2b7cb8f4737"
       }
-    }
+    },
+    "_id": "0768fa591bc43814",
+    "_key": "!items!0768fa591bc43814"
   },
   {
     "name": "Escriba",
@@ -2534,7 +2628,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "escriba",
         "diarioId": "8f06be0ffc374af7"
       }
-    }
+    },
+    "_id": "6777493e2503856d",
+    "_key": "!items!6777493e2503856d"
   },
   {
     "name": "Estrige",
@@ -2551,7 +2647,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "estrige",
         "diarioId": "94efab307dba9fd2"
       }
-    }
+    },
+    "_id": "14ce4f2de9000d77",
+    "_key": "!items!14ce4f2de9000d77"
   },
   {
     "name": "Ilusionista",
@@ -2568,7 +2666,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "ilusionista",
         "diarioId": "5fcd20ace39eef3b"
       }
-    }
+    },
+    "_id": "9cce4a264455542a",
+    "_key": "!items!9cce4a264455542a"
   },
   {
     "name": "Invocador",
@@ -2585,7 +2685,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "invocador",
         "diarioId": "9a48179272b7e7cb"
       }
-    }
+    },
+    "_id": "be7a960b729f4a3a",
+    "_key": "!items!be7a960b729f4a3a"
   },
   {
     "name": "Lanceiro",
@@ -2602,7 +2704,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "lanceiro",
         "diarioId": "b57e55f99ca1c3b7"
       }
-    }
+    },
+    "_id": "15fc0a02a1e8f4aa",
+    "_key": "!items!15fc0a02a1e8f4aa"
   },
   {
     "name": "Oráculo",
@@ -2619,7 +2723,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "oraculo",
         "diarioId": "315953a25883abba"
       }
-    }
+    },
+    "_id": "77c37048bf0b429f",
+    "_key": "!items!77c37048bf0b429f"
   },
   {
     "name": "Sanguíneo",
@@ -2636,7 +2742,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "sanguineo",
         "diarioId": "ae10c0e7b21d3531"
       }
-    }
+    },
+    "_id": "7078a7d1e81722f5",
+    "_key": "!items!7078a7d1e81722f5"
   },
   {
     "name": "Tohunga",
@@ -2653,7 +2761,9 @@ export const CANONICAL_CAMINHOS = [
         "slug": "tohunga",
         "diarioId": "61a019366e15ebfe"
       }
-    }
+    },
+    "_id": "348a2835b5c66fb8",
+    "_key": "!items!348a2835b5c66fb8"
   }
 ];
 
@@ -2674,7 +2784,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "irmandade-do-anel-de-bronze",
         "diarioId": "276f5d555b77d9e3"
       }
-    }
+    },
+    "_id": "f52515597868b740",
+    "_key": "!items!f52515597868b740"
   },
   {
     "name": "Espada de Mirah",
@@ -2692,7 +2804,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "espada-de-mirah",
         "diarioId": "5ce31fdfb296a239"
       }
-    }
+    },
+    "_id": "447aa6334dc50322",
+    "_key": "!items!447aa6334dc50322"
   },
   {
     "name": "Forjas de Hou",
@@ -2710,7 +2824,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "forjas-de-hou",
         "diarioId": "3e199f3077cca010"
       }
-    }
+    },
+    "_id": "d704598553e90235",
+    "_key": "!items!d704598553e90235"
   },
   {
     "name": "Íris de Maltas",
@@ -2728,7 +2844,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "iris-de-maltas",
         "diarioId": "05e801a84d8cfe98"
       }
-    }
+    },
+    "_id": "b2b7d837963a82fe",
+    "_key": "!items!b2b7d837963a82fe"
   },
   {
     "name": "O Arpão",
@@ -2746,7 +2864,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "o-arpao",
         "diarioId": "2845c3fb7e77d4f3"
       }
-    }
+    },
+    "_id": "47cd917e58009844",
+    "_key": "!items!47cd917e58009844"
   },
   {
     "name": "Capuzes Negros",
@@ -2764,7 +2884,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "capuzes-negros",
         "diarioId": "1d6e6781ed62f892"
       }
-    }
+    },
+    "_id": "1ba03990fc31859c",
+    "_key": "!items!1ba03990fc31859c"
   },
   {
     "name": "Cesto de Adagas",
@@ -2782,7 +2904,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "cesto-de-adagas",
         "diarioId": "8b8f8463666fe09b"
       }
-    }
+    },
+    "_id": "6596657721afb4d8",
+    "_key": "!items!6596657721afb4d8"
   },
   {
     "name": "Corvos Negros",
@@ -2800,7 +2924,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "corvos-negros",
         "diarioId": "4ede745be60451c1"
       }
-    }
+    },
+    "_id": "146f087c23a471e8",
+    "_key": "!items!146f087c23a471e8"
   },
   {
     "name": "Crânios Vermelhos",
@@ -2818,7 +2944,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "cranios-vermelhos",
         "diarioId": "edc9464c76248c66"
       }
-    }
+    },
+    "_id": "4bd235f300c46ab4",
+    "_key": "!items!4bd235f300c46ab4"
   },
   {
     "name": "Lobos dos Mares",
@@ -2836,7 +2964,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "lobos-dos-mares",
         "diarioId": "ac097694e091b93a"
       }
-    }
+    },
+    "_id": "330a7a03390a8697",
+    "_key": "!items!330a7a03390a8697"
   },
   {
     "name": "Hoste de Hadorn",
@@ -2854,7 +2984,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "hoste-de-hadorn",
         "diarioId": "bf8bbb2c05baa928"
       }
-    }
+    },
+    "_id": "1b60f2f82dad87f1",
+    "_key": "!items!1b60f2f82dad87f1"
   },
   {
     "name": "Guarda das Fronteiras Rochosas",
@@ -2872,7 +3004,9 @@ export const CANONICAL_ORGANIZACOES = [
         "slug": "guarda-das-fronteiras-rochosas",
         "diarioId": "3e384d6d238e49c8"
       }
-    }
+    },
+    "_id": "bba1bc9b195f3643",
+    "_key": "!items!bba1bc9b195f3643"
   }
 ];
 
@@ -2915,7 +3049,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ead87be3448e3887",
+    "_key": "!items!ead87be3448e3887"
   },
   {
     "name": "Chifres Poderosos",
@@ -2948,7 +3084,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a21e5463d3655ae5",
+    "_key": "!items!a21e5463d3655ae5"
   },
   {
     "name": "Faro",
@@ -2979,7 +3117,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "302b0f7f6fa1f623",
+    "_key": "!items!302b0f7f6fa1f623"
   },
   {
     "name": "Corpo Equino",
@@ -3028,7 +3168,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "42f6cd463078e7d7",
+    "_key": "!items!42f6cd463078e7d7"
   },
   {
     "name": "Linhagem Dracônica",
@@ -3053,7 +3195,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7eb93a2ad1372d55",
+    "_key": "!items!7eb93a2ad1372d55"
   },
   {
     "name": "Benção de Lathellanis",
@@ -3099,7 +3243,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0ca54373da7c7dda",
+    "_key": "!items!0ca54373da7c7dda"
   },
   {
     "name": "Constituição Feérica",
@@ -3130,7 +3276,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d641b1ef190cefe7",
+    "_key": "!items!d641b1ef190cefe7"
   },
   {
     "name": "Patas com Cascos",
@@ -3171,7 +3319,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dcd6b4da3bd28b9b",
+    "_key": "!items!dcd6b4da3bd28b9b"
   },
   {
     "name": "Habitante do Deserto",
@@ -3210,7 +3360,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "691dc94984992b91",
+    "_key": "!items!691dc94984992b91"
   },
   {
     "name": "Salteador",
@@ -3245,7 +3397,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "009ccf0db95c521e",
+    "_key": "!items!009ccf0db95c521e"
   },
   {
     "name": "Habitante do Esgoto",
@@ -3297,7 +3451,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4284e60eabdeb1f9",
+    "_key": "!items!4284e60eabdeb1f9"
   },
   {
     "name": "Adaptabilidade",
@@ -3367,7 +3523,9 @@ export const CANONICAL_HABILIDADES = [
           }
         ]
       }
-    }
+    },
+    "_id": "6d0e2fdf4361504b",
+    "_key": "!items!6d0e2fdf4361504b"
   },
   {
     "name": "Corpo Pesado",
@@ -3402,7 +3560,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e9a53dfcf94c2bb2",
+    "_key": "!items!e9a53dfcf94c2bb2"
   },
   {
     "name": "Asas Ancestrais",
@@ -3438,7 +3598,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "09a59b63d5976f03",
+    "_key": "!items!09a59b63d5976f03"
   },
   {
     "name": "Pele de Pedra",
@@ -3474,7 +3636,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0eb7ddd5c1b58cd6",
+    "_key": "!items!0eb7ddd5c1b58cd6"
   },
   {
     "name": "Tamanho Pequeno",
@@ -3513,7 +3677,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "20cabd9512e0e0b9",
+    "_key": "!items!20cabd9512e0e0b9"
   },
   {
     "name": "Corpo Ofídio",
@@ -3554,7 +3720,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f05dc51a766c20eb",
+    "_key": "!items!f05dc51a766c20eb"
   },
   {
     "name": "Sangue Orc",
@@ -3588,7 +3756,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "80403403d7f951ba",
+    "_key": "!items!80403403d7f951ba"
   },
   {
     "name": "Pernas Vulpinas",
@@ -3623,7 +3793,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "97debe8f0a0f17c7",
+    "_key": "!items!97debe8f0a0f17c7"
   },
   {
     "name": "Conhecimento Místico",
@@ -3648,7 +3820,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bb2c379aab9f8bd2",
+    "_key": "!items!bb2c379aab9f8bd2"
   },
   {
     "name": "Dogma",
@@ -3673,7 +3847,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "30778e73d19f0d40",
+    "_key": "!items!30778e73d19f0d40"
   },
   {
     "name": "Poesia dos Bardos",
@@ -3698,7 +3874,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "208c1c40aba4c1c5",
+    "_key": "!items!208c1c40aba4c1c5"
   },
   {
     "name": "Aparar",
@@ -3723,7 +3901,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "57dc166ad7ae89dd",
+    "_key": "!items!57dc166ad7ae89dd"
   },
   {
     "name": "Ataque Redirecionado",
@@ -3748,7 +3928,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b56296b1c29b2cc2",
+    "_key": "!items!b56296b1c29b2cc2"
   },
   {
     "name": "Canção da Provocação",
@@ -3773,7 +3955,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6d2fcfa62dddd7b0",
+    "_key": "!items!6d2fcfa62dddd7b0"
   },
   {
     "name": "Canção Desesperadora",
@@ -3798,7 +3982,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "df044437aef4d7cc",
+    "_key": "!items!df044437aef4d7cc"
   },
   {
     "name": "Canção do Triunfo",
@@ -3823,7 +4009,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2c97240c792e79f3",
+    "_key": "!items!2c97240c792e79f3"
   },
   {
     "name": "Canção Exultante",
@@ -3848,7 +4036,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b3fd58ba0d387975",
+    "_key": "!items!b3fd58ba0d387975"
   },
   {
     "name": "Eloquente",
@@ -3873,7 +4063,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "90286330f81b8e3c",
+    "_key": "!items!90286330f81b8e3c"
   },
   {
     "name": "Evasão",
@@ -3898,7 +4090,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ced8ebdcb8746f16",
+    "_key": "!items!ced8ebdcb8746f16"
   },
   {
     "name": "Furtivo",
@@ -3923,7 +4117,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fb135424a8f92fbc",
+    "_key": "!items!fb135424a8f92fbc"
   },
   {
     "name": "Gregário",
@@ -3954,7 +4150,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b9b5409e6948ba08",
+    "_key": "!items!b9b5409e6948ba08"
   },
   {
     "name": "Grito de Guerra 1",
@@ -3979,7 +4177,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "37f5d1508df4cbf8",
+    "_key": "!items!37f5d1508df4cbf8"
   },
   {
     "name": "Grito Ensurdecedor",
@@ -4004,7 +4204,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d4d914b0a2695d06",
+    "_key": "!items!d4d914b0a2695d06"
   },
   {
     "name": "Grito Estilhaçador",
@@ -4029,7 +4231,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4ccffaa3cf6800d9",
+    "_key": "!items!4ccffaa3cf6800d9"
   },
   {
     "name": "Língua Afiada",
@@ -4054,7 +4258,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9ebd95115e0a3cf1",
+    "_key": "!items!9ebd95115e0a3cf1"
   },
   {
     "name": "Malabarista",
@@ -4079,7 +4285,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8f05bee8325a0138",
+    "_key": "!items!8f05bee8325a0138"
   },
   {
     "name": "Melodia Dançante",
@@ -4104,7 +4312,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "487659407d589938",
+    "_key": "!items!487659407d589938"
   },
   {
     "name": "Melodia do Enjoo",
@@ -4129,7 +4339,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ca8d96dc7f7bdced",
+    "_key": "!items!ca8d96dc7f7bdced"
   },
   {
     "name": "Melodia do Repouso",
@@ -4154,7 +4366,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "72bf7fde1023d29a",
+    "_key": "!items!72bf7fde1023d29a"
   },
   {
     "name": "Melodia Sonífera",
@@ -4179,7 +4393,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a5d6b21e4032284e",
+    "_key": "!items!a5d6b21e4032284e"
   },
   {
     "name": "Mestre das Notas",
@@ -4204,7 +4420,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "18da58187db6429b",
+    "_key": "!items!18da58187db6429b"
   },
   {
     "name": "Truque Sujo",
@@ -4229,7 +4447,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "da9a183b032915c2",
+    "_key": "!items!da9a183b032915c2"
   },
   {
     "name": "Canção da Sereia",
@@ -4254,7 +4474,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6d892bd1760b1784",
+    "_key": "!items!6d892bd1760b1784"
   },
   {
     "name": "Canção Desconcentrante",
@@ -4279,7 +4501,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "22a1e5f2037f24ca",
+    "_key": "!items!22a1e5f2037f24ca"
   },
   {
     "name": "Coração da Batalha",
@@ -4304,7 +4528,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "aaf41845dccdcfc8",
+    "_key": "!items!aaf41845dccdcfc8"
   },
   {
     "name": "Grito de Guerra 2",
@@ -4329,7 +4555,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cbc0d73d3143c396",
+    "_key": "!items!cbc0d73d3143c396"
   },
   {
     "name": "Grito de Intimidação",
@@ -4354,7 +4582,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "753fcb2292408361",
+    "_key": "!items!753fcb2292408361"
   },
   {
     "name": "Melodia da Fúria",
@@ -4379,7 +4609,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7f41f4e79b6d8ff2",
+    "_key": "!items!7f41f4e79b6d8ff2"
   },
   {
     "name": "Melodia dos Animais",
@@ -4404,7 +4636,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "43bd37b2d31cbd1a",
+    "_key": "!items!43bd37b2d31cbd1a"
   },
   {
     "name": "Trapaceiro Impecável",
@@ -4429,7 +4663,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5d5c76fdf6119473",
+    "_key": "!items!5d5c76fdf6119473"
   },
   {
     "name": "Virtuoso",
@@ -4454,7 +4690,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "94d666a07839b994",
+    "_key": "!items!94d666a07839b994"
   },
   {
     "name": "Vocalista",
@@ -4479,7 +4717,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1d92c7068d865f55",
+    "_key": "!items!1d92c7068d865f55"
   },
   {
     "name": "Canção do Réquiem",
@@ -4504,7 +4744,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9c9767d84532053c",
+    "_key": "!items!9c9767d84532053c"
   },
   {
     "name": "Aparar Magia",
@@ -4529,7 +4771,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7ce042eb69727e8d",
+    "_key": "!items!7ce042eb69727e8d"
   },
   {
     "name": "Benção de Ellenis",
@@ -4554,7 +4798,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b0d923c3c5d757a1",
+    "_key": "!items!b0d923c3c5d757a1"
   },
   {
     "name": "Companheiro Animal 1",
@@ -4579,7 +4825,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d31831e5c6a2cabb",
+    "_key": "!items!d31831e5c6a2cabb"
   },
   {
     "name": "Companheiro Animal 2",
@@ -4604,7 +4852,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "84885b10411c60c6",
+    "_key": "!items!84885b10411c60c6"
   },
   {
     "name": "Detectar Magia",
@@ -4629,7 +4879,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "11231c573be4b9b5",
+    "_key": "!items!11231c573be4b9b5"
   },
   {
     "name": "Espírito Animal",
@@ -4654,7 +4906,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d908bf4ab12a8e8b",
+    "_key": "!items!d908bf4ab12a8e8b"
   },
   {
     "name": "Herbalismo",
@@ -4679,7 +4933,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "724a99296f39506a",
+    "_key": "!items!724a99296f39506a"
   },
   {
     "name": "Sabedoria Selvagem",
@@ -4704,7 +4960,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f90ec8c076020301",
+    "_key": "!items!f90ec8c076020301"
   },
   {
     "name": "Companheiro Animal 3",
@@ -4729,7 +4987,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2fe82b9abae432cc",
+    "_key": "!items!2fe82b9abae432cc"
   },
   {
     "name": "Dissipar Magia",
@@ -4754,7 +5014,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e47273a4b717923a",
+    "_key": "!items!e47273a4b717923a"
   },
   {
     "name": "Venefício",
@@ -4779,7 +5041,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5163d8f104ca1945",
+    "_key": "!items!5163d8f104ca1945"
   },
   {
     "name": "Hierofante",
@@ -4804,7 +5068,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bd7ce4f05700ceaa",
+    "_key": "!items!bd7ce4f05700ceaa"
   },
   {
     "name": "Mestre de Armas 1",
@@ -4829,7 +5095,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2f9d1aee55d5e60e",
+    "_key": "!items!2f9d1aee55d5e60e"
   },
   {
     "name": "Acrobata",
@@ -4854,7 +5122,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f2b2bc59abb8d0f0",
+    "_key": "!items!f2b2bc59abb8d0f0"
   },
   {
     "name": "Ataque Aleijador",
@@ -4879,7 +5149,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "84c384d6481b911a",
+    "_key": "!items!84c384d6481b911a"
   },
   {
     "name": "Ataque Giratório",
@@ -4904,7 +5176,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0bfc88d9a70e0c98",
+    "_key": "!items!0bfc88d9a70e0c98"
   },
   {
     "name": "Combate com Duas Armas 1",
@@ -4929,7 +5203,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b17bfde2357373ea",
+    "_key": "!items!b17bfde2357373ea"
   },
   {
     "name": "Combate Tático",
@@ -4954,7 +5230,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ed37384d0a2c317d",
+    "_key": "!items!ed37384d0a2c317d"
   },
   {
     "name": "Corte Arterial",
@@ -4979,7 +5257,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3e0232d9fb363b92",
+    "_key": "!items!3e0232d9fb363b92"
   },
   {
     "name": "Dança das Espadas 1",
@@ -5004,7 +5284,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4aae3a1945209ea4",
+    "_key": "!items!4aae3a1945209ea4"
   },
   {
     "name": "Desarmar Oponente",
@@ -5029,7 +5311,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7b975f2d14b23488",
+    "_key": "!items!7b975f2d14b23488"
   },
   {
     "name": "Falhas da Armadura",
@@ -5054,7 +5338,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4278b602e9ced8ef",
+    "_key": "!items!4278b602e9ced8ef"
   },
   {
     "name": "Golpes Rápidos",
@@ -5079,7 +5365,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a5fa5fe0eb84b6d2",
+    "_key": "!items!a5fa5fe0eb84b6d2"
   },
   {
     "name": "Investida Mortal",
@@ -5104,7 +5392,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ff4c04f028e2e5e8",
+    "_key": "!items!ff4c04f028e2e5e8"
   },
   {
     "name": "Movimentos Evasivos",
@@ -5129,7 +5419,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c835aca67a355f5a",
+    "_key": "!items!c835aca67a355f5a"
   },
   {
     "name": "Panache",
@@ -5154,7 +5446,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8f91cc0d9f5c77a1",
+    "_key": "!items!8f91cc0d9f5c77a1"
   },
   {
     "name": "Sem Escapatória",
@@ -5179,7 +5473,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0ccb7a979870c9f9",
+    "_key": "!items!0ccb7a979870c9f9"
   },
   {
     "name": "Touché",
@@ -5204,7 +5500,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "56269064368dda09",
+    "_key": "!items!56269064368dda09"
   },
   {
     "name": "Combate com Duas Armas 2",
@@ -5229,7 +5527,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4b78eb84a8884d00",
+    "_key": "!items!4b78eb84a8884d00"
   },
   {
     "name": "Dança das Espadas 2",
@@ -5254,7 +5554,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b7b5c821ce7ebeb5",
+    "_key": "!items!b7b5c821ce7ebeb5"
   },
   {
     "name": "Decapitar",
@@ -5279,7 +5581,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "32664b3a27e6e9f2",
+    "_key": "!items!32664b3a27e6e9f2"
   },
   {
     "name": "Implacável",
@@ -5304,7 +5608,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "88b6db6637ff0bff",
+    "_key": "!items!88b6db6637ff0bff"
   },
   {
     "name": "Mestre de Armas 2",
@@ -5329,7 +5635,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f6e9546aabf1dbe6",
+    "_key": "!items!f6e9546aabf1dbe6"
   },
   {
     "name": "Retalhar",
@@ -5354,7 +5662,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7423ec0592ee1b9d",
+    "_key": "!items!7423ec0592ee1b9d"
   },
   {
     "name": "Ripostar",
@@ -5379,7 +5689,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c86041e43afe19b3",
+    "_key": "!items!c86041e43afe19b3"
   },
   {
     "name": "Tempestade de Lâminas",
@@ -5415,7 +5727,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "da3306bca3c0f3ab",
+    "_key": "!items!da3306bca3c0f3ab"
   },
   {
     "name": "Valor da Vitória",
@@ -5440,7 +5754,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "95969db3f8615ee0",
+    "_key": "!items!95969db3f8615ee0"
   },
   {
     "name": "Senhor das Lâminas",
@@ -5465,7 +5781,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7a4da7ce778022b3",
+    "_key": "!items!7a4da7ce778022b3"
   },
   {
     "name": "Conhecimento Arcano",
@@ -5490,7 +5808,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c672e26e2811b360",
+    "_key": "!items!c672e26e2811b360"
   },
   {
     "name": "Mente Disciplinada",
@@ -5515,7 +5835,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7fff298f55fb5340",
+    "_key": "!items!7fff298f55fb5340"
   },
   {
     "name": "Aptidão Elemental",
@@ -5540,7 +5862,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a5158156d6e002c9",
+    "_key": "!items!a5158156d6e002c9"
   },
   {
     "name": "Maestria Elemental",
@@ -5565,7 +5889,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "caed2ddfc2d00919",
+    "_key": "!items!caed2ddfc2d00919"
   },
   {
     "name": "Anular Golpe",
@@ -5590,7 +5916,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c0d73c4e97a9adc1",
+    "_key": "!items!c0d73c4e97a9adc1"
   },
   {
     "name": "Ataque do Búfalo",
@@ -5615,7 +5943,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9c667af2dc179460",
+    "_key": "!items!9c667af2dc179460"
   },
   {
     "name": "Ataque Simultâneo",
@@ -5640,7 +5970,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "eb92165d731061a2",
+    "_key": "!items!eb92165d731061a2"
   },
   {
     "name": "Brigão",
@@ -5665,7 +5997,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3eccbc47f77928da",
+    "_key": "!items!3eccbc47f77928da"
   },
   {
     "name": "Combate em Grupo",
@@ -5690,7 +6024,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0e8b748df094a062",
+    "_key": "!items!0e8b748df094a062"
   },
   {
     "name": "Armas 1",
@@ -5715,7 +6051,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "90d3a5a5083f43c0",
+    "_key": "!items!90d3a5a5083f43c0"
   },
   {
     "name": "Combate Pesado",
@@ -5740,7 +6078,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "094c1de2f36dd261",
+    "_key": "!items!094c1de2f36dd261"
   },
   {
     "name": "Defesa Agressiva",
@@ -5765,7 +6105,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5145a14143d3f9ac",
+    "_key": "!items!5145a14143d3f9ac"
   },
   {
     "name": "Estabilidade",
@@ -5796,7 +6138,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ac26a7d487367b83",
+    "_key": "!items!ac26a7d487367b83"
   },
   {
     "name": "Golpe Devastador 1",
@@ -5821,7 +6165,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fd4d9e720f563e6e",
+    "_key": "!items!fd4d9e720f563e6e"
   },
   {
     "name": "Golpe com Escudo",
@@ -5846,7 +6192,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3d62455b5d510c35",
+    "_key": "!items!3d62455b5d510c35"
   },
   {
     "name": "Guerreiro de Aço 1",
@@ -5871,7 +6219,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "38e3aa4e1a587ba1",
+    "_key": "!items!38e3aa4e1a587ba1"
   },
   {
     "name": "Nocautear",
@@ -5896,7 +6246,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d0aa97f1e8ae33f1",
+    "_key": "!items!d0aa97f1e8ae33f1"
   },
   {
     "name": "Parede de Escudos",
@@ -5921,7 +6273,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "99fdd963a1fa8375",
+    "_key": "!items!99fdd963a1fa8375"
   },
   {
     "name": "Transpor",
@@ -5946,7 +6300,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f288e33f8f5ef2c7",
+    "_key": "!items!f288e33f8f5ef2c7"
   },
   {
     "name": "Força de Explosão",
@@ -5971,7 +6327,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dc13f36153ac5856",
+    "_key": "!items!dc13f36153ac5856"
   },
   {
     "name": "Golpe Devastador 2",
@@ -5996,7 +6354,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9d71370bf44b8a2e",
+    "_key": "!items!9d71370bf44b8a2e"
   },
   {
     "name": "Guerreiro de Aço 2",
@@ -6021,7 +6381,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5ee715dccbde75af",
+    "_key": "!items!5ee715dccbde75af"
   },
   {
     "name": "Investida Forte",
@@ -6046,7 +6408,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d64507236b52a143",
+    "_key": "!items!d64507236b52a143"
   },
   {
     "name": "Mestre de Armas 3",
@@ -6071,7 +6435,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9b3d07922434e571",
+    "_key": "!items!9b3d07922434e571"
   },
   {
     "name": "Gatuno",
@@ -6096,7 +6462,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a96d2b8bac500683",
+    "_key": "!items!a96d2b8bac500683"
   },
   {
     "name": "Ataque Evasivo",
@@ -6121,7 +6489,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5e35798105e3bc0e",
+    "_key": "!items!5e35798105e3bc0e"
   },
   {
     "name": "Contatos no Crime",
@@ -6146,7 +6516,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "96c54ddac43fa72b",
+    "_key": "!items!96c54ddac43fa72b"
   },
   {
     "name": "Flanquear",
@@ -6171,7 +6543,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9619574d2de955a1",
+    "_key": "!items!9619574d2de955a1"
   },
   {
     "name": "Flexível",
@@ -6202,7 +6576,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a277418accae3c2c",
+    "_key": "!items!a277418accae3c2c"
   },
   {
     "name": "Mestre das Adagas 1",
@@ -6227,7 +6603,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0c83b237a565c813",
+    "_key": "!items!0c83b237a565c813"
   },
   {
     "name": "Mestre das Adagas 2",
@@ -6252,7 +6630,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a23074f5781c25f6",
+    "_key": "!items!a23074f5781c25f6"
   },
   {
     "name": "Camuflagem",
@@ -6277,7 +6657,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "06308a74530c0ce1",
+    "_key": "!items!06308a74530c0ce1"
   },
   {
     "name": "Emboscar",
@@ -6302,7 +6684,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "72b5d9eb8667294a",
+    "_key": "!items!72b5d9eb8667294a"
   },
   {
     "name": "En Passant",
@@ -6327,7 +6711,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b4cbdce07667198f",
+    "_key": "!items!b4cbdce07667198f"
   },
   {
     "name": "Explorar Surpresa",
@@ -6352,7 +6738,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c579be070989d18f",
+    "_key": "!items!c579be070989d18f"
   },
   {
     "name": "Improvisação Ladina",
@@ -6377,7 +6765,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ad1956c7586e14ff",
+    "_key": "!items!ad1956c7586e14ff"
   },
   {
     "name": "Mestre das Adagas 3",
@@ -6402,7 +6792,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6a7700f2f11cfb61",
+    "_key": "!items!6a7700f2f11cfb61"
   },
   {
     "name": "Passo Leve",
@@ -6427,7 +6819,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "42dfc00a177d2737",
+    "_key": "!items!42dfc00a177d2737"
   },
   {
     "name": "Mestre Especialista",
@@ -6452,7 +6846,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8e6590abdea60bb1",
+    "_key": "!items!8e6590abdea60bb1"
   },
   {
     "name": "Austeridade",
@@ -6477,7 +6873,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "35e6d4588257991f",
+    "_key": "!items!35e6d4588257991f"
   },
   {
     "name": "Cavaleiro Experiente",
@@ -6502,7 +6900,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "29518983bf35319f",
+    "_key": "!items!29518983bf35319f"
   },
   {
     "name": "Código da Coragem",
@@ -6527,7 +6927,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "37eeb5f4e7b2e3a7",
+    "_key": "!items!37eeb5f4e7b2e3a7"
   },
   {
     "name": "Código da Honestidade",
@@ -6552,7 +6954,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "937b5b23422d657d",
+    "_key": "!items!937b5b23422d657d"
   },
   {
     "name": "Código da Justiça",
@@ -6577,7 +6981,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "81b913b6a1b11d7e",
+    "_key": "!items!81b913b6a1b11d7e"
   },
   {
     "name": "Combate Montado",
@@ -6602,7 +7008,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "db4f7998d13e96fe",
+    "_key": "!items!db4f7998d13e96fe"
   },
   {
     "name": "Defletor",
@@ -6627,7 +7035,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cc80e94914ee0058",
+    "_key": "!items!cc80e94914ee0058"
   },
   {
     "name": "Égide",
@@ -6652,7 +7062,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "813330a1081c0892",
+    "_key": "!items!813330a1081c0892"
   },
   {
     "name": "Justiça Final 1",
@@ -6677,7 +7089,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c7100be1d45b3504",
+    "_key": "!items!c7100be1d45b3504"
   },
   {
     "name": "Montaria Especial 1",
@@ -6702,7 +7116,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a69e6faa35b72d58",
+    "_key": "!items!a69e6faa35b72d58"
   },
   {
     "name": "Montaria Especial 2",
@@ -6727,7 +7143,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9a476ead3d2d4a14",
+    "_key": "!items!9a476ead3d2d4a14"
   },
   {
     "name": "Motivar",
@@ -6752,7 +7170,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "08348ce876cb290c",
+    "_key": "!items!08348ce876cb290c"
   },
   {
     "name": "Banir",
@@ -6777,7 +7197,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1bf86671880d7027",
+    "_key": "!items!1bf86671880d7027"
   },
   {
     "name": "Comando Heroico",
@@ -6802,7 +7224,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "60593bf9cb75ad81",
+    "_key": "!items!60593bf9cb75ad81"
   },
   {
     "name": "Destemor",
@@ -6827,7 +7251,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ec32f29ca03f7037",
+    "_key": "!items!ec32f29ca03f7037"
   },
   {
     "name": "Justiça Final 2",
@@ -6852,7 +7278,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3d903b77e30ff7db",
+    "_key": "!items!3d903b77e30ff7db"
   },
   {
     "name": "Montaria Especial 3",
@@ -6877,7 +7305,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "56d89beeca0a518e",
+    "_key": "!items!56d89beeca0a518e"
   },
   {
     "name": "Integridade",
@@ -6902,7 +7332,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "873f2363910af547",
+    "_key": "!items!873f2363910af547"
   },
   {
     "name": "Arqueria",
@@ -6927,7 +7359,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "826a0a28e29e4ac4",
+    "_key": "!items!826a0a28e29e4ac4"
   },
   {
     "name": "Armadilheiro",
@@ -6952,7 +7386,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6d8a33944ab87826",
+    "_key": "!items!6d8a33944ab87826"
   },
   {
     "name": "Caçador de [Criatura]",
@@ -6977,7 +7413,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3e4b62ba51130321",
+    "_key": "!items!3e4b62ba51130321"
   },
   {
     "name": "Chuva de Flechas",
@@ -7002,7 +7440,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2c641addf7b095d7",
+    "_key": "!items!2c641addf7b095d7"
   },
   {
     "name": "Disparo Forte",
@@ -7027,7 +7467,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b70cf79b0f47a625",
+    "_key": "!items!b70cf79b0f47a625"
   },
   {
     "name": "Disparo Certeiro",
@@ -7052,7 +7494,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "71736dbf7af1adb7",
+    "_key": "!items!71736dbf7af1adb7"
   },
   {
     "name": "Flechas Rápidas",
@@ -7077,7 +7521,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "835dd3c9a83fe738",
+    "_key": "!items!835dd3c9a83fe738"
   },
   {
     "name": "Precisão",
@@ -7102,7 +7548,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "87a0207a2daa53b9",
+    "_key": "!items!87a0207a2daa53b9"
   },
   {
     "name": "Retesar Eficiente",
@@ -7127,7 +7575,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "774863719a7a4eaa",
+    "_key": "!items!774863719a7a4eaa"
   },
   {
     "name": "Caçador de [Monstro]",
@@ -7152,7 +7602,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "791946ce149f4df0",
+    "_key": "!items!791946ce149f4df0"
   },
   {
     "name": "Chuva de Flechas 2",
@@ -7177,7 +7629,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "018e7d86f4ed0fca",
+    "_key": "!items!018e7d86f4ed0fca"
   },
   {
     "name": "Empalar",
@@ -7202,7 +7656,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e5df1b007ffc853c",
+    "_key": "!items!e5df1b007ffc853c"
   },
   {
     "name": "Matador de [Criatura]",
@@ -7227,7 +7683,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4e6a924fdf429bc8",
+    "_key": "!items!4e6a924fdf429bc8"
   },
   {
     "name": "Olho da Águia",
@@ -7252,7 +7710,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f49cf0f9a3afa350",
+    "_key": "!items!f49cf0f9a3afa350"
   },
   {
     "name": "Arqueria de Mestre",
@@ -7277,7 +7737,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8005d36dad9abd47",
+    "_key": "!items!8005d36dad9abd47"
   },
   {
     "name": "Arma Fiel",
@@ -7302,7 +7764,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9b32671b1dfbbe54",
+    "_key": "!items!9b32671b1dfbbe54"
   },
   {
     "name": "Arma Gélida",
@@ -7327,7 +7791,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7e38e0fade31eb9e",
+    "_key": "!items!7e38e0fade31eb9e"
   },
   {
     "name": "Armadura Fiel",
@@ -7352,7 +7818,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b92b22f5ed88ba1e",
+    "_key": "!items!b92b22f5ed88ba1e"
   },
   {
     "name": "Ataque Fantasma",
@@ -7387,7 +7855,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f7459bf523667ec8",
+    "_key": "!items!f7459bf523667ec8"
   },
   {
     "name": "Onda de Chamas",
@@ -7412,7 +7882,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "779e623f11a63894",
+    "_key": "!items!779e623f11a63894"
   },
   {
     "name": "Onda de Frio",
@@ -7437,7 +7909,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "204869a5b4f04db4",
+    "_key": "!items!204869a5b4f04db4"
   },
   {
     "name": "Onda de Raios",
@@ -7462,7 +7936,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "630f915a67030ef5",
+    "_key": "!items!630f915a67030ef5"
   },
   {
     "name": "Onda Fantasma",
@@ -7487,7 +7963,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "722906f7fac7f7c4",
+    "_key": "!items!722906f7fac7f7c4"
   },
   {
     "name": "Ataque Chocante",
@@ -7512,7 +7990,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "be0de3388c1fcbf2",
+    "_key": "!items!be0de3388c1fcbf2"
   },
   {
     "name": "Ataque Congelante",
@@ -7537,7 +8017,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "256994dad8b70134",
+    "_key": "!items!256994dad8b70134"
   },
   {
     "name": "Ataque Flamejante",
@@ -7562,7 +8044,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8bf31f83dc83bf6e",
+    "_key": "!items!8bf31f83dc83bf6e"
   },
   {
     "name": "Golpe do Vento",
@@ -7587,7 +8071,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a08343b5642421f7",
+    "_key": "!items!a08343b5642421f7"
   },
   {
     "name": "Destruição Elemental",
@@ -7612,7 +8098,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3042661b4ba83856",
+    "_key": "!items!3042661b4ba83856"
   },
   {
     "name": "Asceta",
@@ -7637,7 +8125,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "61c895d16879398c",
+    "_key": "!items!61c895d16879398c"
   },
   {
     "name": "Primaz",
@@ -7662,7 +8152,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7c5baf045dc68f78",
+    "_key": "!items!7c5baf045dc68f78"
   },
   {
     "name": "Pontífice",
@@ -7687,7 +8179,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "85f28b2c0b556744",
+    "_key": "!items!85f28b2c0b556744"
   },
   {
     "name": "Guia Espiritual",
@@ -7718,7 +8212,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dbcda1e81f6b6016",
+    "_key": "!items!dbcda1e81f6b6016"
   },
   {
     "name": "Bravura Selvagem 1",
@@ -7743,7 +8239,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "73522f28357874bf",
+    "_key": "!items!73522f28357874bf"
   },
   {
     "name": "Comunhão com Espíritos",
@@ -7768,7 +8266,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "77a8f57293e23936",
+    "_key": "!items!77a8f57293e23936"
   },
   {
     "name": "Contato com Espíritos",
@@ -7793,7 +8293,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4e06ce0dbecb4889",
+    "_key": "!items!4e06ce0dbecb4889"
   },
   {
     "name": "Chamado do Alfa",
@@ -7818,7 +8320,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7b356f2c46e7f59d",
+    "_key": "!items!7b356f2c46e7f59d"
   },
   {
     "name": "Cura Espiritual",
@@ -7843,7 +8347,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "16d0ef3570541ffd",
+    "_key": "!items!16d0ef3570541ffd"
   },
   {
     "name": "Forma Animal 1",
@@ -7868,7 +8374,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7045876e815c7644",
+    "_key": "!items!7045876e815c7644"
   },
   {
     "name": "Invocar Espírito Animal",
@@ -7893,7 +8401,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "aa99d6c647f5eea9",
+    "_key": "!items!aa99d6c647f5eea9"
   },
   {
     "name": "Rugido do Alfa",
@@ -7918,7 +8428,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ed8ccc54c92b9332",
+    "_key": "!items!ed8ccc54c92b9332"
   },
   {
     "name": "Rugido do Predador",
@@ -7943,7 +8455,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a15a5cabfb2577c7",
+    "_key": "!items!a15a5cabfb2577c7"
   },
   {
     "name": "Vantagem Animal 1",
@@ -7968,7 +8482,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "107723bc70991bdf",
+    "_key": "!items!107723bc70991bdf"
   },
   {
     "name": "Atropelar",
@@ -7993,7 +8509,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7a4b24862f285e8c",
+    "_key": "!items!7a4b24862f285e8c"
   },
   {
     "name": "Caminhada Fantasma",
@@ -8018,7 +8536,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f0c4ba5b8852a323",
+    "_key": "!items!f0c4ba5b8852a323"
   },
   {
     "name": "Companheiro Espiritual",
@@ -8043,7 +8563,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1e6ab6084b184694",
+    "_key": "!items!1e6ab6084b184694"
   },
   {
     "name": "Estraçalhar",
@@ -8068,7 +8590,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "011119caa1574beb",
+    "_key": "!items!011119caa1574beb"
   },
   {
     "name": "Forma Animal 2",
@@ -8093,7 +8617,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "87ebcb6795427d34",
+    "_key": "!items!87ebcb6795427d34"
   },
   {
     "name": "Imunidade Espiritual",
@@ -8118,7 +8644,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "38e678cc56cdc2a3",
+    "_key": "!items!38e678cc56cdc2a3"
   },
   {
     "name": "Mestre Domador",
@@ -8143,7 +8671,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6c66fcf4dedd0b7f",
+    "_key": "!items!6c66fcf4dedd0b7f"
   },
   {
     "name": "Vantagem Animal 2",
@@ -8168,7 +8698,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "542811dc5111d3ec",
+    "_key": "!items!542811dc5111d3ec"
   },
   {
     "name": "Guardião da Natureza",
@@ -8193,7 +8725,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e3fbf83710c7e305",
+    "_key": "!items!e3fbf83710c7e305"
   },
   {
     "name": "Distração",
@@ -8218,7 +8752,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8adf1860f3d2e7c8",
+    "_key": "!items!8adf1860f3d2e7c8"
   },
   {
     "name": "Instrumentista",
@@ -8249,7 +8785,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "722a6212185ef9fd",
+    "_key": "!items!722a6212185ef9fd"
   },
   {
     "name": "Lírico",
@@ -8284,7 +8822,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "299c7a954759c2f1",
+    "_key": "!items!299c7a954759c2f1"
   },
   {
     "name": "Ritmo dos Animais",
@@ -8309,7 +8849,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "34bc2aec2e55d268",
+    "_key": "!items!34bc2aec2e55d268"
   },
   {
     "name": "Grito Contundente",
@@ -8334,7 +8876,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e43191ec193074c9",
+    "_key": "!items!e43191ec193074c9"
   },
   {
     "name": "Falsete",
@@ -8369,7 +8913,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fb08a06ced18dc5d",
+    "_key": "!items!fb08a06ced18dc5d"
   },
   {
     "name": "Repentista",
@@ -8409,7 +8955,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3348a1b3d6b6cf01",
+    "_key": "!items!3348a1b3d6b6cf01"
   },
   {
     "name": "Soprista",
@@ -8434,7 +8982,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "848122856307840b",
+    "_key": "!items!848122856307840b"
   },
   {
     "name": "Mimicar",
@@ -8464,7 +9014,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1a6e35cd63d6fdc7",
+    "_key": "!items!1a6e35cd63d6fdc7"
   },
   {
     "name": "Pantomima",
@@ -8489,7 +9041,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bbc1cae4936334e5",
+    "_key": "!items!bbc1cae4936334e5"
   },
   {
     "name": "Beijo Sufocante",
@@ -8514,7 +9068,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b2dffeff1a524d22",
+    "_key": "!items!b2dffeff1a524d22"
   },
   {
     "name": "Chega Mais",
@@ -8539,7 +9095,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1cd817d975b229cc",
+    "_key": "!items!1cd817d975b229cc"
   },
   {
     "name": "Requebrado",
@@ -8569,7 +9127,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "51e31638d1bff54c",
+    "_key": "!items!51e31638d1bff54c"
   },
   {
     "name": "Dança das Ruas",
@@ -8600,7 +9160,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2b8c3392c50e3b7e",
+    "_key": "!items!2b8c3392c50e3b7e"
   },
   {
     "name": "Dança da Guerra",
@@ -8625,7 +9187,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8385a589f98caccc",
+    "_key": "!items!8385a589f98caccc"
   },
   {
     "name": "Dança do Ventre",
@@ -8650,7 +9214,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4f81fe483e560272",
+    "_key": "!items!4f81fe483e560272"
   },
   {
     "name": "Necromanto",
@@ -8685,7 +9251,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a8c95351565a092d",
+    "_key": "!items!a8c95351565a092d"
   },
   {
     "name": "Sabedoria Sobrenatural",
@@ -8710,7 +9278,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "07f6c5b2daca00b7",
+    "_key": "!items!07f6c5b2daca00b7"
   },
   {
     "name": "Solo",
@@ -8735,7 +9305,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e9782cdc7e9c0c59",
+    "_key": "!items!e9782cdc7e9c0c59"
   },
   {
     "name": "Palavra Tóxica",
@@ -8760,7 +9332,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8d60fc0836d43387",
+    "_key": "!items!8d60fc0836d43387"
   },
   {
     "name": "Charada Obtusa",
@@ -8785,7 +9359,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "03cbb5d117b22b2e",
+    "_key": "!items!03cbb5d117b22b2e"
   },
   {
     "name": "Golpe Inspirador",
@@ -8810,7 +9386,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7059a160dcc2088c",
+    "_key": "!items!7059a160dcc2088c"
   },
   {
     "name": "Grito Retumbante",
@@ -8835,7 +9413,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3d99d9ea1ecf4332",
+    "_key": "!items!3d99d9ea1ecf4332"
   },
   {
     "name": "Presença Inspiradora",
@@ -8860,7 +9440,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "25c13c9a7d32b1e4",
+    "_key": "!items!25c13c9a7d32b1e4"
   },
   {
     "name": "Um Bom Conselho 1",
@@ -8885,7 +9467,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f8317a1315cb2b3a",
+    "_key": "!items!f8317a1315cb2b3a"
   },
   {
     "name": "Arcipreste",
@@ -8910,7 +9494,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "af204d61d9e503da",
+    "_key": "!items!af204d61d9e503da"
   },
   {
     "name": "Arsenal Dracônico",
@@ -8935,7 +9521,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8e39b6cef167e87d",
+    "_key": "!items!8e39b6cef167e87d"
   },
   {
     "name": "Escamas Dracônicas",
@@ -8960,7 +9548,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4d241ee4a44b37c9",
+    "_key": "!items!4d241ee4a44b37c9"
   },
   {
     "name": "Fúria do Dragão",
@@ -8985,7 +9575,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7796e5aa0a538164",
+    "_key": "!items!7796e5aa0a538164"
   },
   {
     "name": "Exarca",
@@ -9010,7 +9602,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ad63c97aef022403",
+    "_key": "!items!ad63c97aef022403"
   },
   {
     "name": "Forma Dracônica",
@@ -9035,7 +9629,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "146a26e86527d761",
+    "_key": "!items!146a26e86527d761"
   },
   {
     "name": "Bloqueio Necromântico",
@@ -9075,7 +9671,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0b16cb7a07054f42",
+    "_key": "!items!0b16cb7a07054f42"
   },
   {
     "name": "Resistência dos Mortos",
@@ -9100,7 +9698,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "859d1e45a48d8a7a",
+    "_key": "!items!859d1e45a48d8a7a"
   },
   {
     "name": "Aptidão Necromântica",
@@ -9125,7 +9725,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ddc9d4bd4a725a58",
+    "_key": "!items!ddc9d4bd4a725a58"
   },
   {
     "name": "Posição Distinta",
@@ -9150,7 +9752,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "16ffdf920f6957f5",
+    "_key": "!items!16ffdf920f6957f5"
   },
   {
     "name": "Abrir a Guarda",
@@ -9175,7 +9779,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d16b70e8ef44c70d",
+    "_key": "!items!d16b70e8ef44c70d"
   },
   {
     "name": "Erudito",
@@ -9200,7 +9806,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f31dff516b393844",
+    "_key": "!items!f31dff516b393844"
   },
   {
     "name": "Farda",
@@ -9225,7 +9833,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "be713f1e15b23ee9",
+    "_key": "!items!be713f1e15b23ee9"
   },
   {
     "name": "Formação de Batalha 1",
@@ -9250,7 +9860,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b14d15a6787b0100",
+    "_key": "!items!b14d15a6787b0100"
   },
   {
     "name": "Formação de Batalha 2",
@@ -9275,7 +9887,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5188f6d500c3da95",
+    "_key": "!items!5188f6d500c3da95"
   },
   {
     "name": "Guarda de Honra",
@@ -9300,7 +9914,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1ee7fda46a56f4c0",
+    "_key": "!items!1ee7fda46a56f4c0"
   },
   {
     "name": "Juiz",
@@ -9325,7 +9941,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7ae021db720e11ee",
+    "_key": "!items!7ae021db720e11ee"
   },
   {
     "name": "Reposicionar",
@@ -9350,7 +9968,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cd1323ccbe29bb66",
+    "_key": "!items!cd1323ccbe29bb66"
   },
   {
     "name": "Um Bom Conselho 2",
@@ -9375,7 +9995,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bfeb13350ae55811",
+    "_key": "!items!bfeb13350ae55811"
   },
   {
     "name": "Voz de Comando 1",
@@ -9400,7 +10022,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7dee5b9cec3820ae",
+    "_key": "!items!7dee5b9cec3820ae"
   },
   {
     "name": "Conselheiro Pessoal",
@@ -9425,7 +10049,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "55a97abc9ea4a12b",
+    "_key": "!items!55a97abc9ea4a12b"
   },
   {
     "name": "Cauda Dracônica",
@@ -9450,7 +10076,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8984bd2bf0c4d3fb",
+    "_key": "!items!8984bd2bf0c4d3fb"
   },
   {
     "name": "Companheiro Dragão 1",
@@ -9475,7 +10103,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "afb9b60eeb3c8d19",
+    "_key": "!items!afb9b60eeb3c8d19"
   },
   {
     "name": "Companheiro Dragão 2",
@@ -9500,7 +10130,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "aed54e67dd5a546d",
+    "_key": "!items!aed54e67dd5a546d"
   },
   {
     "name": "Sintonia Dracônica",
@@ -9525,7 +10157,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f36942ee8f300b79",
+    "_key": "!items!f36942ee8f300b79"
   },
   {
     "name": "Vínculo Dracônico",
@@ -9550,7 +10184,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "326c7769109ce552",
+    "_key": "!items!326c7769109ce552"
   },
   {
     "name": "Asas Dracônicas",
@@ -9575,7 +10211,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1af2cc8651037ebf",
+    "_key": "!items!1af2cc8651037ebf"
   },
   {
     "name": "Companheiro Dragão 4",
@@ -9600,7 +10238,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "920039337f4bc6f6",
+    "_key": "!items!920039337f4bc6f6"
   },
   {
     "name": "Companheiro Dragão 3",
@@ -9625,7 +10265,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3efa490ba95e0c74",
+    "_key": "!items!3efa490ba95e0c74"
   },
   {
     "name": "Presença Dracônica",
@@ -9650,7 +10292,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ed52d37cdc4cc5f6",
+    "_key": "!items!ed52d37cdc4cc5f6"
   },
   {
     "name": "Lanterna dos Mortos",
@@ -9675,7 +10319,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d18154767e6e7d3c",
+    "_key": "!items!d18154767e6e7d3c"
   },
   {
     "name": "Mestre dos Mortos",
@@ -9700,7 +10346,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0694969f38605b2d",
+    "_key": "!items!0694969f38605b2d"
   },
   {
     "name": "Contatos na Corte",
@@ -9725,7 +10373,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bab2f8c3beb2347b",
+    "_key": "!items!bab2f8c3beb2347b"
   },
   {
     "name": "Contatos Políticos",
@@ -9750,7 +10400,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "03a28bb3ed0a0c59",
+    "_key": "!items!03a28bb3ed0a0c59"
   },
   {
     "name": "Distintivo de Ofício",
@@ -9775,7 +10427,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9c96da8907ce4664",
+    "_key": "!items!9c96da8907ce4664"
   },
   {
     "name": "Guarda-Costas",
@@ -9800,7 +10454,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d7fcb63ca499ef90",
+    "_key": "!items!d7fcb63ca499ef90"
   },
   {
     "name": "Inspirar Coragem",
@@ -9825,7 +10481,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "96c3fff569793db5",
+    "_key": "!items!96c3fff569793db5"
   },
   {
     "name": "Mastim",
@@ -9850,7 +10508,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b7da2a0f0aa7778c",
+    "_key": "!items!b7da2a0f0aa7778c"
   },
   {
     "name": "Presença Confiante",
@@ -9875,7 +10535,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "312051ab14477274",
+    "_key": "!items!312051ab14477274"
   },
   {
     "name": "Séquito",
@@ -9900,7 +10562,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ef86df439eae3df1",
+    "_key": "!items!ef86df439eae3df1"
   },
   {
     "name": "Táticas de Batalha",
@@ -9925,7 +10589,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ae727930cb4e7f4e",
+    "_key": "!items!ae727930cb4e7f4e"
   },
   {
     "name": "Persuadir",
@@ -9950,7 +10616,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "38d65faa385f78c6",
+    "_key": "!items!38d65faa385f78c6"
   },
   {
     "name": "Restaurar Convicção",
@@ -9975,7 +10643,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7f6e14e4d76f3665",
+    "_key": "!items!7f6e14e4d76f3665"
   },
   {
     "name": "Magistrado",
@@ -10000,7 +10670,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "53d8eac7451ce08c",
+    "_key": "!items!53d8eac7451ce08c"
   },
   {
     "name": "Voz de Comando 2",
@@ -10025,7 +10697,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "80df863263b6547d",
+    "_key": "!items!80df863263b6547d"
   },
   {
     "name": "Anão de Guerra",
@@ -10050,7 +10724,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a0114f388f002a8b",
+    "_key": "!items!a0114f388f002a8b"
   },
   {
     "name": "Faz-Tudo",
@@ -10075,7 +10751,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "058bf77b3fe526c6",
+    "_key": "!items!058bf77b3fe526c6"
   },
   {
     "name": "Coração da Montanha 2",
@@ -10110,7 +10788,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ac51567859ed93f9",
+    "_key": "!items!ac51567859ed93f9"
   },
   {
     "name": "Duro como Pedra",
@@ -10140,7 +10820,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cfe43ebf7c31bca0",
+    "_key": "!items!cfe43ebf7c31bca0"
   },
   {
     "name": "Forjado à Fogo",
@@ -10175,7 +10857,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ea5a1ba64335a66c",
+    "_key": "!items!ea5a1ba64335a66c"
   },
   {
     "name": "Nascido nas Montanhas",
@@ -10206,7 +10890,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f846a579611c832c",
+    "_key": "!items!f846a579611c832c"
   },
   {
     "name": "Raça Subterrânea",
@@ -10241,7 +10927,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5643c0f80ad6ed17",
+    "_key": "!items!5643c0f80ad6ed17"
   },
   {
     "name": "Cabeça Dura",
@@ -10277,7 +10965,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cbbd0387d8376483",
+    "_key": "!items!cbbd0387d8376483"
   },
   {
     "name": "Competidor",
@@ -10308,7 +10998,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6ceeedbea6786de3",
+    "_key": "!items!6ceeedbea6786de3"
   },
   {
     "name": "Fortaleza",
@@ -10343,7 +11035,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2ec80da54f788caa",
+    "_key": "!items!2ec80da54f788caa"
   },
   {
     "name": "Imparável",
@@ -10368,7 +11062,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0afd55c45b2d4e68",
+    "_key": "!items!0afd55c45b2d4e68"
   },
   {
     "name": "Potência",
@@ -10403,7 +11099,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "08dc5dd9ae0db7f6",
+    "_key": "!items!08dc5dd9ae0db7f6"
   },
   {
     "name": "Robustez",
@@ -10433,7 +11131,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "17b1ef85ef5c9ed0",
+    "_key": "!items!17b1ef85ef5c9ed0"
   },
   {
     "name": "Bravura Selvagem 2",
@@ -10458,7 +11158,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "95537dddfe9d7fa6",
+    "_key": "!items!95537dddfe9d7fa6"
   },
   {
     "name": "Patas Fortes",
@@ -10489,7 +11191,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1e60a2aaec0cbc08",
+    "_key": "!items!1e60a2aaec0cbc08"
   },
   {
     "name": "Raça Florestal",
@@ -10520,7 +11224,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fe23785fc5383081",
+    "_key": "!items!fe23785fc5383081"
   },
   {
     "name": "Anfíbio",
@@ -10551,7 +11257,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5287ac132e412f85",
+    "_key": "!items!5287ac132e412f85"
   },
   {
     "name": "Armas Naturais",
@@ -10583,7 +11291,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2471bfa7dc66290a",
+    "_key": "!items!2471bfa7dc66290a"
   },
   {
     "name": "Asas Pesadas",
@@ -10613,7 +11323,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6df4731dda84d48b",
+    "_key": "!items!6df4731dda84d48b"
   },
   {
     "name": "Escamas Pesadas",
@@ -10644,7 +11356,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8595c978704ee00a",
+    "_key": "!items!8595c978704ee00a"
   },
   {
     "name": "Membrana Nictitante",
@@ -10675,7 +11389,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a975508d43d3cf47",
+    "_key": "!items!a975508d43d3cf47"
   },
   {
     "name": "Linhagem Dracônica 2",
@@ -10705,7 +11421,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "562fb5b70499344d",
+    "_key": "!items!562fb5b70499344d"
   },
   {
     "name": "Reflexos Dracônicos",
@@ -10730,7 +11448,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0cfb098a356bdf40",
+    "_key": "!items!0cfb098a356bdf40"
   },
   {
     "name": "Sopro Dracônico",
@@ -10755,7 +11475,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a5d512d18ca387ce",
+    "_key": "!items!a5d512d18ca387ce"
   },
   {
     "name": "Vigor Nórdico",
@@ -10790,7 +11512,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "opcoes": []
       }
-    }
+    },
+    "_id": "62244f50b12adc0f",
+    "_key": "!items!62244f50b12adc0f"
   },
   {
     "name": "Berserkir",
@@ -10815,7 +11539,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "94e454e0a465d659",
+    "_key": "!items!94e454e0a465d659"
   },
   {
     "name": "Fúria Bestial",
@@ -10840,7 +11566,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cf0d6027dc612482",
+    "_key": "!items!cf0d6027dc612482"
   },
   {
     "name": "Ulfhednar",
@@ -10865,7 +11593,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fe4127c38f21c7ad",
+    "_key": "!items!fe4127c38f21c7ad"
   },
   {
     "name": "Astuto",
@@ -10901,7 +11631,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "24a1c8b1c6d2d65c",
+    "_key": "!items!24a1c8b1c6d2d65c"
   },
   {
     "name": "Balofo",
@@ -10932,7 +11664,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a2971907ecf9456b",
+    "_key": "!items!a2971907ecf9456b"
   },
   {
     "name": "Barriga Cheia",
@@ -10957,7 +11691,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "156a4000d30a3ade",
+    "_key": "!items!156a4000d30a3ade"
   },
   {
     "name": "Esconderijo Invisível",
@@ -10982,7 +11718,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cea457d96dc3fc25",
+    "_key": "!items!cea457d96dc3fc25"
   },
   {
     "name": "Barganha",
@@ -11007,7 +11745,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d50beae9cd11fb3b",
+    "_key": "!items!d50beae9cd11fb3b"
   },
   {
     "name": "Sorte",
@@ -11032,7 +11772,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5b6c7442c4ccaa48",
+    "_key": "!items!5b6c7442c4ccaa48"
   },
   {
     "name": "Táticas de Guerrilha",
@@ -11063,7 +11805,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6f751efe224e28ef",
+    "_key": "!items!6f751efe224e28ef"
   },
   {
     "name": "Alimentar-se de Carniça",
@@ -11094,7 +11838,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "20b16fee82cc87f8",
+    "_key": "!items!20b16fee82cc87f8"
   },
   {
     "name": "Hiena Risonha",
@@ -11119,7 +11865,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "63054a89b870c715",
+    "_key": "!items!63054a89b870c715"
   },
   {
     "name": "Mordida Poderosa",
@@ -11151,7 +11899,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ca662bc700646d85",
+    "_key": "!items!ca662bc700646d85"
   },
   {
     "name": "Sede de Sangue",
@@ -11176,7 +11926,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "acfa04d4e572defe",
+    "_key": "!items!acfa04d4e572defe"
   },
   {
     "name": "Sentidos de Caçador",
@@ -11201,7 +11953,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dcb6e1db2ac869b4",
+    "_key": "!items!dcb6e1db2ac869b4"
   },
   {
     "name": "Cauda Hábil",
@@ -11232,7 +11986,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "33a9b7a6266899c2",
+    "_key": "!items!33a9b7a6266899c2"
   },
   {
     "name": "Infecção Grave",
@@ -11257,7 +12013,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "67cf37e16eb22986",
+    "_key": "!items!67cf37e16eb22986"
   },
   {
     "name": "Rei dos Ratos",
@@ -11282,7 +12040,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "14053a91fe2256f9",
+    "_key": "!items!14053a91fe2256f9"
   },
   {
     "name": "Vetor de Pragas",
@@ -11307,7 +12067,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ca82202c9916809e",
+    "_key": "!items!ca82202c9916809e"
   },
   {
     "name": "Constrição",
@@ -11338,7 +12100,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9d714bef1c14f15c",
+    "_key": "!items!9d714bef1c14f15c"
   },
   {
     "name": "Escamas Grossas",
@@ -11379,7 +12143,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6a788691afe67873",
+    "_key": "!items!6a788691afe67873"
   },
   {
     "name": "Mordida Venenosa",
@@ -11411,7 +12177,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6956adfebb3349e9",
+    "_key": "!items!6956adfebb3349e9"
   },
   {
     "name": "Regeneração Instantânea",
@@ -11436,7 +12204,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a9ee23dc5ab4e398",
+    "_key": "!items!a9ee23dc5ab4e398"
   },
   {
     "name": "Visão Olfativa",
@@ -11467,7 +12237,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bbaf396b634b05c6",
+    "_key": "!items!bbaf396b634b05c6"
   },
   {
     "name": "Ameaçador",
@@ -11498,7 +12270,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "081abf328c645bc2",
+    "_key": "!items!081abf328c645bc2"
   },
   {
     "name": "Fúria Orc",
@@ -11529,7 +12303,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "25b754ff0003aea9",
+    "_key": "!items!25b754ff0003aea9"
   },
   {
     "name": "Intimidador",
@@ -11554,7 +12330,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f3795854d6a96e91",
+    "_key": "!items!f3795854d6a96e91"
   },
   {
     "name": "Mordida Poderosa",
@@ -11586,7 +12364,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ca662bc700646d85",
+    "_key": "!items!ca662bc700646d85"
   },
   {
     "name": "Nômade do Deserto",
@@ -11617,7 +12397,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "42eded25b87dcecc",
+    "_key": "!items!42eded25b87dcecc"
   },
   {
     "name": "Sangue Orc 2",
@@ -11647,7 +12429,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "036f8fa192ff0e22",
+    "_key": "!items!036f8fa192ff0e22"
   },
   {
     "name": "Arborícola",
@@ -11678,7 +12462,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5ddb139efe7bb869",
+    "_key": "!items!5ddb139efe7bb869"
   },
   {
     "name": "Dom da Magia",
@@ -11708,7 +12494,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "231192a5f1537395",
+    "_key": "!items!231192a5f1537395"
   },
   {
     "name": "Herança Feérica",
@@ -11738,7 +12526,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b9c5ab31b4ab7abb",
+    "_key": "!items!b9c5ab31b4ab7abb"
   },
   {
     "name": "Intelecto Élfico",
@@ -11773,7 +12563,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e5214d262192acbc",
+    "_key": "!items!e5214d262192acbc"
   },
   {
     "name": "Invisibilidade Natural",
@@ -11798,7 +12590,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6d346dc67ac708d0",
+    "_key": "!items!6d346dc67ac708d0"
   },
   {
     "name": "Luzes das Fadas",
@@ -11823,7 +12617,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8cee9603ee9e823d",
+    "_key": "!items!8cee9603ee9e823d"
   },
   {
     "name": "Isnuu",
@@ -11848,7 +12644,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "834509582a26d74c",
+    "_key": "!items!834509582a26d74c"
   },
   {
     "name": "Pequeno e Ágil",
@@ -11884,7 +12682,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c2de367088347ec9",
+    "_key": "!items!c2de367088347ec9"
   },
   {
     "name": "Cascos Ágeis",
@@ -11915,7 +12715,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f42c0350dd2939dc",
+    "_key": "!items!f42c0350dd2939dc"
   },
   {
     "name": "Flauta de Pã",
@@ -11946,7 +12748,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a4e7d4bcec4f611b",
+    "_key": "!items!a4e7d4bcec4f611b"
   },
   {
     "name": "Marrada",
@@ -11978,7 +12782,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "30d64c30ebb1496b",
+    "_key": "!items!30d64c30ebb1496b"
   },
   {
     "name": "Pintura Corporal",
@@ -12003,7 +12809,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9b4ebae7154c0b9c",
+    "_key": "!items!9b4ebae7154c0b9c"
   },
   {
     "name": "Chamas Internas 1",
@@ -12028,7 +12836,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "67e5d64d74793c8b",
+    "_key": "!items!67e5d64d74793c8b"
   },
   {
     "name": "Fulgurante",
@@ -12053,7 +12863,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "10e1266518872fd1",
+    "_key": "!items!10e1266518872fd1"
   },
   {
     "name": "Mente Iluminada",
@@ -12088,7 +12900,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0e7dddd39e36b440",
+    "_key": "!items!0e7dddd39e36b440"
   },
   {
     "name": "Sopro de Fogo",
@@ -12113,7 +12927,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2cd5e9b81cf2a98d",
+    "_key": "!items!2cd5e9b81cf2a98d"
   },
   {
     "name": "Vigor do Deserto",
@@ -12138,7 +12954,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c65123df8fd88a12",
+    "_key": "!items!c65123df8fd88a12"
   },
   {
     "name": "Assuntos Diversos",
@@ -12163,7 +12981,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0241429b26f4be11",
+    "_key": "!items!0241429b26f4be11"
   },
   {
     "name": "Audácia",
@@ -12188,7 +13008,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c0bb9e7c12952282",
+    "_key": "!items!c0bb9e7c12952282"
   },
   {
     "name": "Diversidade",
@@ -12213,7 +13035,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "93d23a73a4cc7552",
+    "_key": "!items!93d23a73a4cc7552"
   },
   {
     "name": "O Dobro ou Nada",
@@ -12238,7 +13062,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e7164eb2653acfad",
+    "_key": "!items!e7164eb2653acfad"
   },
   {
     "name": "Garras",
@@ -12275,7 +13101,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f523cf6f20307b05",
+    "_key": "!items!f523cf6f20307b05"
   },
   {
     "name": "Rugido de Ahogr",
@@ -12300,7 +13128,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "63fa38be40d06c19",
+    "_key": "!items!63fa38be40d06c19"
   },
   {
     "name": "Asas Fortes",
@@ -12331,7 +13161,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "083e0f5a86de48c3",
+    "_key": "!items!083e0f5a86de48c3"
   },
   {
     "name": "Dançarino do Ar",
@@ -12362,7 +13194,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0e155cab870ae6fa",
+    "_key": "!items!0e155cab870ae6fa"
   },
   {
     "name": "Movimento Brusco",
@@ -12387,7 +13221,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2dd0642ab4b48a7b",
+    "_key": "!items!2dd0642ab4b48a7b"
   },
   {
     "name": "Olhos de Águia",
@@ -12418,7 +13254,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1a20a85a9a00d712",
+    "_key": "!items!1a20a85a9a00d712"
   },
   {
     "name": "Abraço de Pedra",
@@ -12449,7 +13287,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "91dc9346be8f190a",
+    "_key": "!items!91dc9346be8f190a"
   },
   {
     "name": "Braços Extras",
@@ -12480,7 +13320,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e0b7105969a0305d",
+    "_key": "!items!e0b7105969a0305d"
   },
   {
     "name": "Estabilidade",
@@ -12511,7 +13353,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ac26a7d487367b83",
+    "_key": "!items!ac26a7d487367b83"
   },
   {
     "name": "Pele de Pedra 2",
@@ -12546,7 +13390,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c819ddcb1207b4f9",
+    "_key": "!items!c819ddcb1207b4f9"
   },
   {
     "name": "Contos da Estrada",
@@ -12577,7 +13423,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "49e212acf226f4fa",
+    "_key": "!items!49e212acf226f4fa"
   },
   {
     "name": "Forma da Raposa",
@@ -12602,7 +13450,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ff09da4c28fed4a9",
+    "_key": "!items!ff09da4c28fed4a9"
   },
   {
     "name": "Visão Auditiva",
@@ -12633,7 +13483,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e3373c1cf5eb83c4",
+    "_key": "!items!e3373c1cf5eb83c4"
   },
   {
     "name": "Atletismo",
@@ -12658,7 +13510,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cc5ba2a55ebe93d2",
+    "_key": "!items!cc5ba2a55ebe93d2"
   },
   {
     "name": "Nanismo",
@@ -12683,7 +13537,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c651ba99cf0768e1",
+    "_key": "!items!c651ba99cf0768e1"
   },
   {
     "name": "Gigantismo",
@@ -12708,7 +13564,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "43834237faca56e3",
+    "_key": "!items!43834237faca56e3"
   },
   {
     "name": "Recursos",
@@ -12733,7 +13591,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a04bb9b911479297",
+    "_key": "!items!a04bb9b911479297"
   },
   {
     "name": "Fúria de Batalha",
@@ -12758,7 +13618,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fa5bc683133e527e",
+    "_key": "!items!fa5bc683133e527e"
   },
   {
     "name": "Sentidos Apurados",
@@ -12783,7 +13645,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7ba629b542fa96c1",
+    "_key": "!items!7ba629b542fa96c1"
   },
   {
     "name": "Intuição",
@@ -12808,7 +13672,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "41dc04825518ee85",
+    "_key": "!items!41dc04825518ee85"
   },
   {
     "name": "Força Interior",
@@ -12833,7 +13699,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "284b9d3ca0730422",
+    "_key": "!items!284b9d3ca0730422"
   },
   {
     "name": "Força Heróica",
@@ -12864,7 +13732,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e3cc2c17f56d1855",
+    "_key": "!items!e3cc2c17f56d1855"
   },
   {
     "name": "Agilidade Heróica",
@@ -12895,7 +13765,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "78f16963d5ed9185",
+    "_key": "!items!78f16963d5ed9185"
   },
   {
     "name": "Inteligência Heróica",
@@ -12926,7 +13798,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9d8fb04d9c2f8635",
+    "_key": "!items!9d8fb04d9c2f8635"
   },
   {
     "name": "Vontade Heróica",
@@ -12957,7 +13831,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "553a2a1387841b2b",
+    "_key": "!items!553a2a1387841b2b"
   },
   {
     "name": "Nervos de Aço",
@@ -12987,7 +13863,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "44666389235f99f3",
+    "_key": "!items!44666389235f99f3"
   },
   {
     "name": "Vontade de Ferro",
@@ -13017,7 +13895,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "149cea00f30d4d64",
+    "_key": "!items!149cea00f30d4d64"
   },
   {
     "name": "Mimetismo Social",
@@ -13042,7 +13922,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "bc6d700ed8215023",
+    "_key": "!items!bc6d700ed8215023"
   },
   {
     "name": "Teurgia",
@@ -13067,7 +13949,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "58868017bc0072e7",
+    "_key": "!items!58868017bc0072e7"
   },
   {
     "name": "Apóstata",
@@ -13098,7 +13982,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b861d91d2b2ada2f",
+    "_key": "!items!b861d91d2b2ada2f"
   },
   {
     "name": "Pacto",
@@ -13154,7 +14040,9 @@ export const CANONICAL_HABILIDADES = [
           }
         ]
       }
-    }
+    },
+    "_id": "79a39b51383af1f8",
+    "_key": "!items!79a39b51383af1f8"
   },
   {
     "name": "Alquimia Básica",
@@ -13179,7 +14067,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f0eb767a370a8f96",
+    "_key": "!items!f0eb767a370a8f96"
   },
   {
     "name": "Iátrica",
@@ -13204,7 +14094,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8e22f0ed72fc52db",
+    "_key": "!items!8e22f0ed72fc52db"
   },
   {
     "name": "Espagiria",
@@ -13229,7 +14121,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4d8782aa2b4e32e0",
+    "_key": "!items!4d8782aa2b4e32e0"
   },
   {
     "name": "Nigredo",
@@ -13254,7 +14148,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ce89652331ee832e",
+    "_key": "!items!ce89652331ee832e"
   },
   {
     "name": "Alquimia Avançada",
@@ -13279,7 +14175,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dd68b4cab060e3f6",
+    "_key": "!items!dd68b4cab060e3f6"
   },
   {
     "name": "Elixir da Longa Vida",
@@ -13304,7 +14202,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "85e22d3629e0de55",
+    "_key": "!items!85e22d3629e0de55"
   },
   {
     "name": "Citrinitas",
@@ -13329,7 +14229,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0a903b7958ffa4b2",
+    "_key": "!items!0a903b7958ffa4b2"
   },
   {
     "name": "Toxicólogo",
@@ -13354,7 +14256,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "04d66f7e0452e212",
+    "_key": "!items!04d66f7e0452e212"
   },
   {
     "name": "Pedra Filosofal",
@@ -13379,7 +14283,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e31213f45f6a594f",
+    "_key": "!items!e31213f45f6a594f"
   },
   {
     "name": "Aplicar Força",
@@ -13404,7 +14310,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5fcb97e809f47d89",
+    "_key": "!items!5fcb97e809f47d89"
   },
   {
     "name": "Disparo Mirado",
@@ -13429,7 +14337,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c2a7c8206e1eb084",
+    "_key": "!items!c2a7c8206e1eb084"
   },
   {
     "name": "Prever Posição",
@@ -13454,7 +14364,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "66c1226615b5b0d1",
+    "_key": "!items!66c1226615b5b0d1"
   },
   {
     "name": "Vigília",
@@ -13479,7 +14391,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f5380c7faad08413",
+    "_key": "!items!f5380c7faad08413"
   },
   {
     "name": "Agarra Flechas",
@@ -13504,7 +14418,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c955673d2fa8f27c",
+    "_key": "!items!c955673d2fa8f27c"
   },
   {
     "name": "Disparo Cego",
@@ -13529,7 +14445,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "21bc3fbb403ca5b0",
+    "_key": "!items!21bc3fbb403ca5b0"
   },
   {
     "name": "Disparo Devastador",
@@ -13554,7 +14472,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1eebae3dfceacc8f",
+    "_key": "!items!1eebae3dfceacc8f"
   },
   {
     "name": "Disparo Perfeito",
@@ -13579,7 +14499,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "64054042487b021c",
+    "_key": "!items!64054042487b021c"
   },
   {
     "name": "Horda Selvagem",
@@ -13604,7 +14526,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d774ffd776cae11c",
+    "_key": "!items!d774ffd776cae11c"
   },
   {
     "name": "Comando do Alfa",
@@ -13629,7 +14553,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1f50d4f320361a6a",
+    "_key": "!items!1f50d4f320361a6a"
   },
   {
     "name": "Ilusão Sonora",
@@ -13654,7 +14580,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5b5b0c8d0733a827",
+    "_key": "!items!5b5b0c8d0733a827"
   },
   {
     "name": "Invocação Persistente",
@@ -13679,7 +14607,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "baf70d98d053725e",
+    "_key": "!items!baf70d98d053725e"
   },
   {
     "name": "Invocação Versátil",
@@ -13704,7 +14634,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e226bb58a567709a",
+    "_key": "!items!e226bb58a567709a"
   },
   {
     "name": "Invocação Prodigiosa",
@@ -13729,7 +14661,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4f3cf0aa1ff06a46",
+    "_key": "!items!4f3cf0aa1ff06a46"
   },
   {
     "name": "Clarividência",
@@ -13754,7 +14688,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e10e00fc6d7add26",
+    "_key": "!items!e10e00fc6d7add26"
   },
   {
     "name": "Psicometria",
@@ -13779,7 +14715,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6ef379102eaf2f87",
+    "_key": "!items!6ef379102eaf2f87"
   },
   {
     "name": "Retrocognição",
@@ -13804,7 +14742,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "18243c84bdea902f",
+    "_key": "!items!18243c84bdea902f"
   },
   {
     "name": "Precognição",
@@ -13829,7 +14769,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ebc0c943981b350f",
+    "_key": "!items!ebc0c943981b350f"
   },
   {
     "name": "Interferir no Fluxo",
@@ -13854,7 +14796,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "497db6749576fb6e",
+    "_key": "!items!497db6749576fb6e"
   },
   {
     "name": "Primeira Marca",
@@ -13879,7 +14823,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6247fd19cdf2a25f",
+    "_key": "!items!6247fd19cdf2a25f"
   },
   {
     "name": "Tamoko",
@@ -13904,7 +14850,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "140ab97bd851a5ee",
+    "_key": "!items!140ab97bd851a5ee"
   },
   {
     "name": "Tribal de Proteção",
@@ -13929,7 +14877,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b1f29f8a24a76204",
+    "_key": "!items!b1f29f8a24a76204"
   },
   {
     "name": "Tribal de Poder",
@@ -13954,7 +14904,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "417684f1b9641427",
+    "_key": "!items!417684f1b9641427"
   },
   {
     "name": "Invocar Espírito de Tinta",
@@ -13979,7 +14931,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "24f6e59b02c66510",
+    "_key": "!items!24f6e59b02c66510"
   },
   {
     "name": "Tatuar Objeto",
@@ -14004,7 +14958,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a581d98229421a19",
+    "_key": "!items!a581d98229421a19"
   },
   {
     "name": "Tatuar Magia",
@@ -14029,7 +14985,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f8413b1044baa77c",
+    "_key": "!items!f8413b1044baa77c"
   },
   {
     "name": "Coração de Tinta",
@@ -14054,7 +15012,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "540aec3ca6a06f62",
+    "_key": "!items!540aec3ca6a06f62"
   },
   {
     "name": "Kirituhi",
@@ -14079,7 +15039,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1175c1c9f5efdb93",
+    "_key": "!items!1175c1c9f5efdb93"
   },
   {
     "name": "Tatuar Efeito",
@@ -14104,7 +15066,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "37a4a89247659def",
+    "_key": "!items!37a4a89247659def"
   },
   {
     "name": "Invocar Exército de Tinta",
@@ -14129,7 +15093,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d45d6279f0956053",
+    "_key": "!items!d45d6279f0956053"
   },
   {
     "name": "Invocação Infernal",
@@ -14154,7 +15120,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "858a9bbcc824f295",
+    "_key": "!items!858a9bbcc824f295"
   },
   {
     "name": "Cauda Farpada",
@@ -14179,7 +15147,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ec76e431168d943f",
+    "_key": "!items!ec76e431168d943f"
   },
   {
     "name": "Chifres Pequenos",
@@ -14204,7 +15174,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "fa9f2631ac7480c9",
+    "_key": "!items!fa9f2631ac7480c9"
   },
   {
     "name": "Couro Infernal",
@@ -14229,7 +15201,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ac45a785c320b206",
+    "_key": "!items!ac45a785c320b206"
   },
   {
     "name": "Olhos Infernais",
@@ -14254,7 +15228,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "997352859fd4858e",
+    "_key": "!items!997352859fd4858e"
   },
   {
     "name": "Patas Infernais",
@@ -14279,7 +15255,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9dcf7f199e91bb19",
+    "_key": "!items!9dcf7f199e91bb19"
   },
   {
     "name": "Resistência Infernal",
@@ -14304,7 +15282,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5bf6b3b1e3641a66",
+    "_key": "!items!5bf6b3b1e3641a66"
   },
   {
     "name": "Asas Infernais",
@@ -14329,7 +15309,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0ff093aaa26df425",
+    "_key": "!items!0ff093aaa26df425"
   },
   {
     "name": "Coroa Infernal",
@@ -14354,7 +15336,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "01d134795b5450c4",
+    "_key": "!items!01d134795b5450c4"
   },
   {
     "name": "Chifres Grandes",
@@ -14379,7 +15363,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5e9987f241bd74b6",
+    "_key": "!items!5e9987f241bd74b6"
   },
   {
     "name": "Sacrifício das Trevas",
@@ -14404,7 +15390,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d1aca033045af80d",
+    "_key": "!items!d1aca033045af80d"
   },
   {
     "name": "Olhar da Serpente",
@@ -14429,7 +15417,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c0980af19ef6c33d",
+    "_key": "!items!c0980af19ef6c33d"
   },
   {
     "name": "Toque de Glycon",
@@ -14454,7 +15444,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4962bbd4ebf0376c",
+    "_key": "!items!4962bbd4ebf0376c"
   },
   {
     "name": "Garantir o Planejamento",
@@ -14479,7 +15471,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "cfef9884005b9ceb",
+    "_key": "!items!cfef9884005b9ceb"
   },
   {
     "name": "Explosão Profana",
@@ -14504,7 +15498,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3b2c8c8a0d1dc3f9",
+    "_key": "!items!3b2c8c8a0d1dc3f9"
   },
   {
     "name": "Flagelo de Shyama",
@@ -14529,7 +15525,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d012cc49a551d524",
+    "_key": "!items!d012cc49a551d524"
   },
   {
     "name": "Execrar",
@@ -14554,7 +15552,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0787fd9eefe4a131",
+    "_key": "!items!0787fd9eefe4a131"
   },
   {
     "name": "Abraço da Escuridão",
@@ -14579,7 +15579,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "431a1ffdfc43fa4d",
+    "_key": "!items!431a1ffdfc43fa4d"
   },
   {
     "name": "Servo de Nehemoth",
@@ -14604,7 +15606,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "deb15553ee919560",
+    "_key": "!items!deb15553ee919560"
   },
   {
     "name": "Visão de Nehemoth",
@@ -14629,7 +15633,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0261c4ca966169ef",
+    "_key": "!items!0261c4ca966169ef"
   },
   {
     "name": "Loucura Revelada",
@@ -14654,7 +15660,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d5a577c589880861",
+    "_key": "!items!d5a577c589880861"
   },
   {
     "name": "Espelhar Loucura",
@@ -14679,7 +15687,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1d24b89ce75813c2",
+    "_key": "!items!1d24b89ce75813c2"
   },
   {
     "name": "Corrente de Loucura",
@@ -14704,7 +15714,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f77e96e876e08603",
+    "_key": "!items!f77e96e876e08603"
   },
   {
     "name": "Visão do Vazio",
@@ -14729,7 +15741,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "45aae65765c63902",
+    "_key": "!items!45aae65765c63902"
   },
   {
     "name": "Olhar de Virzú",
@@ -14754,7 +15768,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "927241369c64106f",
+    "_key": "!items!927241369c64106f"
   },
   {
     "name": "Voz de Virzú",
@@ -14779,7 +15795,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b554a96e938b9e4a",
+    "_key": "!items!b554a96e938b9e4a"
   },
   {
     "name": "Frio Cadavérico",
@@ -14804,7 +15822,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8002d596fc36da5e",
+    "_key": "!items!8002d596fc36da5e"
   },
   {
     "name": "Aura Gélida",
@@ -14829,7 +15849,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "31f124bbeb53a9f1",
+    "_key": "!items!31f124bbeb53a9f1"
   },
   {
     "name": "Canalização Necromântica",
@@ -14854,7 +15876,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a7e9afb52a72444a",
+    "_key": "!items!a7e9afb52a72444a"
   },
   {
     "name": "Toque da Morte",
@@ -14879,7 +15903,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b93991d34f7e0311",
+    "_key": "!items!b93991d34f7e0311"
   },
   {
     "name": "Canalização Necromântica Maior",
@@ -14904,7 +15930,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "54039565cb06af4d",
+    "_key": "!items!54039565cb06af4d"
   },
   {
     "name": "Devorador dos Mortos",
@@ -14929,7 +15957,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2b57463c201d5db2",
+    "_key": "!items!2b57463c201d5db2"
   },
   {
     "name": "Fúria Fria",
@@ -14954,7 +15984,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2d23946736d8f4de",
+    "_key": "!items!2d23946736d8f4de"
   },
   {
     "name": "Vigor Necromântico",
@@ -14979,7 +16011,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8298d688e88518d0",
+    "_key": "!items!8298d688e88518d0"
   },
   {
     "name": "Irrefreável",
@@ -15004,7 +16038,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7c68b5848cecb3e2",
+    "_key": "!items!7c68b5848cecb3e2"
   },
   {
     "name": "Ataque Brutal",
@@ -15029,7 +16065,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ffab551730b69347",
+    "_key": "!items!ffab551730b69347"
   },
   {
     "name": "Fúria Irrefreável",
@@ -15054,7 +16092,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1d0eda1b8a11dfc5",
+    "_key": "!items!1d0eda1b8a11dfc5"
   },
   {
     "name": "Retribuição Furiosa",
@@ -15079,7 +16119,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "570988c64bb403a8",
+    "_key": "!items!570988c64bb403a8"
   },
   {
     "name": "Investida Brutal",
@@ -15104,7 +16146,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "88eb01bc71629fb2",
+    "_key": "!items!88eb01bc71629fb2"
   },
   {
     "name": "Ataque Furioso",
@@ -15129,7 +16173,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "38a7b8fe61de632d",
+    "_key": "!items!38a7b8fe61de632d"
   },
   {
     "name": "Fúria Colérica",
@@ -15154,7 +16200,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dcfa235b2f810ea3",
+    "_key": "!items!dcfa235b2f810ea3"
   },
   {
     "name": "Fúria Brutal",
@@ -15179,7 +16227,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "0d18568a2df30d9f",
+    "_key": "!items!0d18568a2df30d9f"
   },
   {
     "name": "Atacar Pelas Costas",
@@ -15204,7 +16254,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2aac8a89a9c241e3",
+    "_key": "!items!2aac8a89a9c241e3"
   },
   {
     "name": "Sangrar",
@@ -15229,7 +16281,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2c82bb27cf844665",
+    "_key": "!items!2c82bb27cf844665"
   },
   {
     "name": "Reflexos Assassinos",
@@ -15254,7 +16308,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ab898ef11742b412",
+    "_key": "!items!ab898ef11742b412"
   },
   {
     "name": "Esquartejar",
@@ -15279,7 +16335,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "665489b5ab960a05",
+    "_key": "!items!665489b5ab960a05"
   },
   {
     "name": "Olho da Serpente",
@@ -15304,7 +16362,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "64607cefda6c48e2",
+    "_key": "!items!64607cefda6c48e2"
   },
   {
     "name": "Mestre Assassino",
@@ -15329,7 +16389,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "405451ecd15b546a",
+    "_key": "!items!405451ecd15b546a"
   },
   {
     "name": "Magia Sanguínea",
@@ -15354,7 +16416,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2ac21077bf848a66",
+    "_key": "!items!2ac21077bf848a66"
   },
   {
     "name": "Conhecimento Nefasto",
@@ -15379,7 +16443,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f2dd24d55c8d5725",
+    "_key": "!items!f2dd24d55c8d5725"
   },
   {
     "name": "Autoridade Legal",
@@ -15404,7 +16470,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a4a70fed30ebf400",
+    "_key": "!items!a4a70fed30ebf400"
   },
   {
     "name": "Punição da Escuridão",
@@ -15429,7 +16497,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5cf4d1c65d2c9baf",
+    "_key": "!items!5cf4d1c65d2c9baf"
   },
   {
     "name": "Punição da Execução",
@@ -15454,7 +16524,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3a3b1c9dffaf99a6",
+    "_key": "!items!3a3b1c9dffaf99a6"
   },
   {
     "name": "Punição do Silêncio",
@@ -15479,7 +16551,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b0a39648d9bc2310",
+    "_key": "!items!b0a39648d9bc2310"
   },
   {
     "name": "Punição do Suplício",
@@ -15504,7 +16578,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d8222d7ccd7094ed",
+    "_key": "!items!d8222d7ccd7094ed"
   },
   {
     "name": "Punição do Açoite",
@@ -15529,7 +16605,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "6df15cb38205201f",
+    "_key": "!items!6df15cb38205201f"
   },
   {
     "name": "Punição da Amputação",
@@ -15554,7 +16632,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5b94bae62d79a9cc",
+    "_key": "!items!5b94bae62d79a9cc"
   },
   {
     "name": "Punição do Exílio",
@@ -15579,7 +16659,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "15b5f615312a94e5",
+    "_key": "!items!15b5f615312a94e5"
   },
   {
     "name": "Punição da Confissão",
@@ -15604,7 +16686,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b1de9d9427941f81",
+    "_key": "!items!b1de9d9427941f81"
   },
   {
     "name": "Aporte",
@@ -15629,7 +16713,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3c6bac5554a18823",
+    "_key": "!items!3c6bac5554a18823"
   },
   {
     "name": "Analisar Magia",
@@ -15654,7 +16740,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "52881eb24ea71cb7",
+    "_key": "!items!52881eb24ea71cb7"
   },
   {
     "name": "Teólogo",
@@ -15679,7 +16767,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "24420e55b7e18712",
+    "_key": "!items!24420e55b7e18712"
   },
   {
     "name": "Força Divina",
@@ -15704,7 +16794,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "33dcb24f62bfcbc3",
+    "_key": "!items!33dcb24f62bfcbc3"
   },
   {
     "name": "Ataque Fervoroso",
@@ -15729,7 +16821,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b5205e4a94fa0697",
+    "_key": "!items!b5205e4a94fa0697"
   },
   {
     "name": "Expurgo Elemental",
@@ -15754,7 +16848,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a72f016a8219db8c",
+    "_key": "!items!a72f016a8219db8c"
   },
   {
     "name": "Seguir em Frente",
@@ -15779,7 +16875,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d7e391ae7df9edf8",
+    "_key": "!items!d7e391ae7df9edf8"
   },
   {
     "name": "Vontade Inabalável",
@@ -15804,7 +16902,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "92b404a6c3e2d4d5",
+    "_key": "!items!92b404a6c3e2d4d5"
   },
   {
     "name": "Caça Sobrenatural",
@@ -15829,7 +16929,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8a0d61787ba7c290",
+    "_key": "!items!8a0d61787ba7c290"
   },
   {
     "name": "Matador Sobrenatural",
@@ -15854,7 +16956,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "104db16027e0696c",
+    "_key": "!items!104db16027e0696c"
   },
   {
     "name": "Quebrar a Defesa Sombria",
@@ -15879,7 +16983,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "702600c1eb8feda2",
+    "_key": "!items!702600c1eb8feda2"
   },
   {
     "name": "Manter a Linha",
@@ -15904,7 +17010,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9954849343fe5ab8",
+    "_key": "!items!9954849343fe5ab8"
   },
   {
     "name": "Contra-Carga",
@@ -15929,7 +17037,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "147c738daabe349a",
+    "_key": "!items!147c738daabe349a"
   },
   {
     "name": "Derrubar",
@@ -15954,7 +17064,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ff835bf16f832be1",
+    "_key": "!items!ff835bf16f832be1"
   },
   {
     "name": "Empunhadura Flexível",
@@ -15979,7 +17091,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "2f3b561dbf26bad0",
+    "_key": "!items!2f3b561dbf26bad0"
   },
   {
     "name": "Manter à Distância",
@@ -16004,7 +17118,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5e9ef9f4420be974",
+    "_key": "!items!5e9ef9f4420be974"
   },
   {
     "name": "Acuar",
@@ -16029,7 +17145,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "e9b8cf46a0ee4fd0",
+    "_key": "!items!e9b8cf46a0ee4fd0"
   },
   {
     "name": "Fique Longe",
@@ -16054,7 +17172,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8b19d432b843fd15",
+    "_key": "!items!8b19d432b843fd15"
   },
   {
     "name": "Virar o Jogo",
@@ -16079,7 +17199,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f8cb3bf9ddcdb176",
+    "_key": "!items!f8cb3bf9ddcdb176"
   },
   {
     "name": "Mestre da Lança",
@@ -16104,7 +17226,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a61da0464450149b",
+    "_key": "!items!a61da0464450149b"
   },
   {
     "name": "Escrivão Mágico",
@@ -16129,7 +17253,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9d3cd87f6dbb10ef",
+    "_key": "!items!9d3cd87f6dbb10ef"
   },
   {
     "name": "Gnóstico",
@@ -16154,7 +17280,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9803332bef50f1a2",
+    "_key": "!items!9803332bef50f1a2"
   },
   {
     "name": "Luminar",
@@ -16179,7 +17307,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "78fa98f70370fbeb",
+    "_key": "!items!78fa98f70370fbeb"
   },
   {
     "name": "Prosa e Verso",
@@ -16204,7 +17334,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9457383210625f12",
+    "_key": "!items!9457383210625f12"
   },
   {
     "name": "Pergaminho Mágico",
@@ -16229,7 +17361,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "06856bf7a57e40e1",
+    "_key": "!items!06856bf7a57e40e1"
   },
   {
     "name": "Mensagem Mágica",
@@ -16254,7 +17388,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "33c68f32eb733c85",
+    "_key": "!items!33c68f32eb733c85"
   },
   {
     "name": "A Verdade das Palavras",
@@ -16279,7 +17415,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f58287cee59f5e81",
+    "_key": "!items!f58287cee59f5e81"
   },
   {
     "name": "Companheiro Animal 4",
@@ -16304,7 +17442,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b5e93421772ab62a",
+    "_key": "!items!b5e93421772ab62a"
   },
   {
     "name": "pergunte depois",
@@ -16329,7 +17469,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "18c0c39a359cedc1",
+    "_key": "!items!18c0c39a359cedc1"
   },
   {
     "name": "Faça-os Sangrar",
@@ -16354,7 +17496,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "b86718d1c1b2d426",
+    "_key": "!items!b86718d1c1b2d426"
   },
   {
     "name": "Necromântica Maior",
@@ -16379,7 +17523,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "96f834055f1f7bcb",
+    "_key": "!items!96f834055f1f7bcb"
   },
   {
     "name": "Cavaleiro da Morte",
@@ -16404,7 +17550,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "34b59643d12cb10e",
+    "_key": "!items!34b59643d12cb10e"
   },
   {
     "name": "Círculo de Invocação Infernal",
@@ -16429,7 +17577,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "5a69a7a3a63ab576",
+    "_key": "!items!5a69a7a3a63ab576"
   },
   {
     "name": "Presença de Ereshkigal",
@@ -16454,7 +17604,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "de5ab05c9fd88176",
+    "_key": "!items!de5ab05c9fd88176"
   },
   {
     "name": "Virulência",
@@ -16479,7 +17631,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9e246487bad57977",
+    "_key": "!items!9e246487bad57977"
   },
   {
     "name": "Carícia de Ereshkigal",
@@ -16504,7 +17658,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7417d93844e112c9",
+    "_key": "!items!7417d93844e112c9"
   },
   {
     "name": "Manto de Ereshkigal",
@@ -16529,7 +17685,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "c5d2869c4b9152eb",
+    "_key": "!items!c5d2869c4b9152eb"
   },
   {
     "name": "Pacto da Tirania",
@@ -16554,7 +17712,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "76c1b6b85314dd3f",
+    "_key": "!items!76c1b6b85314dd3f"
   },
   {
     "name": "Ajoelhem-se!",
@@ -16579,7 +17739,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a1c2dbfde7ae416a",
+    "_key": "!items!a1c2dbfde7ae416a"
   },
   {
     "name": "Ferimentos Abertos",
@@ -16604,7 +17766,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4c5d67248c399ea6",
+    "_key": "!items!4c5d67248c399ea6"
   },
   {
     "name": "Ferida Cruel",
@@ -16629,7 +17793,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "9d321d92208f4f2e",
+    "_key": "!items!9d321d92208f4f2e"
   },
   {
     "name": "Alquimista de Campo",
@@ -16654,7 +17820,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "d727313478d38c20",
+    "_key": "!items!d727313478d38c20"
   },
   {
     "name": "Alquimista de Combate",
@@ -16679,7 +17847,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "86cab6fdf079766e",
+    "_key": "!items!86cab6fdf079766e"
   },
   {
     "name": "Arma da Ordem",
@@ -16704,7 +17874,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dab9b9128ae1e3d1",
+    "_key": "!items!dab9b9128ae1e3d1"
   },
   {
     "name": "Arte da Forja 1",
@@ -16729,7 +17901,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f7778ff59b9624bc",
+    "_key": "!items!f7778ff59b9624bc"
   },
   {
     "name": "Arte da Forja 2",
@@ -16754,7 +17928,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "dee3fe8c940f7f9c",
+    "_key": "!items!dee3fe8c940f7f9c"
   },
   {
     "name": "Arte da Forja 3",
@@ -16779,7 +17955,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "83bdba84ce24a824",
+    "_key": "!items!83bdba84ce24a824"
   },
   {
     "name": "Caçador das Cordilheiras",
@@ -16804,7 +17982,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "58eb1b2c4f079163",
+    "_key": "!items!58eb1b2c4f079163"
   },
   {
     "name": "Cartografia",
@@ -16829,7 +18009,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "1d373aa6a1ab9133",
+    "_key": "!items!1d373aa6a1ab9133"
   },
   {
     "name": "Conhecimento Regional [Tebryn]",
@@ -16854,7 +18036,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7cb5488db4716363",
+    "_key": "!items!7cb5488db4716363"
   },
   {
     "name": "Crânio Vermelho",
@@ -16879,7 +18063,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "892ae976b40549a4",
+    "_key": "!items!892ae976b40549a4"
   },
   {
     "name": "Durão",
@@ -16904,7 +18090,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "febe7c469ab01179",
+    "_key": "!items!febe7c469ab01179"
   },
   {
     "name": "Falsificador",
@@ -16929,7 +18117,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8833d7374a08cbd6",
+    "_key": "!items!8833d7374a08cbd6"
   },
   {
     "name": "Forjado à Fogo",
@@ -16954,7 +18144,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "ea5a1ba64335a66c",
+    "_key": "!items!ea5a1ba64335a66c"
   },
   {
     "name": "Frio Intenso",
@@ -16979,7 +18171,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "4a92e9d92f6fa1e7",
+    "_key": "!items!4a92e9d92f6fa1e7"
   },
   {
     "name": "Intimidar",
@@ -17004,7 +18198,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3366fe89fe5d107b",
+    "_key": "!items!3366fe89fe5d107b"
   },
   {
     "name": "Investida Acrobática",
@@ -17029,7 +18225,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "44d14c9b83b44bc5",
+    "_key": "!items!44d14c9b83b44bc5"
   },
   {
     "name": "Lobo do Mar",
@@ -17054,7 +18252,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "f3cc3350873312cf",
+    "_key": "!items!f3cc3350873312cf"
   },
   {
     "name": "Lutar no Convés",
@@ -17079,7 +18279,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "7c4897bf961b26a4",
+    "_key": "!items!7c4897bf961b26a4"
   },
   {
     "name": "Mandíbula Vermelha",
@@ -17104,7 +18306,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8d72dac2b61ab402",
+    "_key": "!items!8d72dac2b61ab402"
   },
   {
     "name": "Matador das Cordilheiras",
@@ -17129,7 +18333,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "8c6fb002883e86d9",
+    "_key": "!items!8c6fb002883e86d9"
   },
   {
     "name": "Médico de Campo",
@@ -17154,7 +18360,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "3f169a371caa735e",
+    "_key": "!items!3f169a371caa735e"
   },
   {
     "name": "Militar",
@@ -17179,7 +18387,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "557bb9b8dfe38e71",
+    "_key": "!items!557bb9b8dfe38e71"
   },
   {
     "name": "Navegador",
@@ -17204,7 +18414,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "822f8791d52c0b00",
+    "_key": "!items!822f8791d52c0b00"
   },
   {
     "name": "Pernas do Mar",
@@ -17229,7 +18441,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "172854950ccde3df",
+    "_key": "!items!172854950ccde3df"
   },
   {
     "name": "Presas Vermelhas",
@@ -17254,7 +18468,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "a8e3869064ee5b34",
+    "_key": "!items!a8e3869064ee5b34"
   },
   {
     "name": "Tatuador da Guilda",
@@ -17279,7 +18495,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "opcoes": []
       }
-    }
+    },
+    "_id": "49533d951dee2151",
+    "_key": "!items!49533d951dee2151"
   }
 ];
 
@@ -17300,7 +18518,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "asas-celestiais",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "433fe90ad1547bbb",
+    "_key": "!items!433fe90ad1547bbb"
   },
   {
     "name": "Bestializar",
@@ -17318,7 +18538,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "bestializar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d548d855005f2fc5",
+    "_key": "!items!d548d855005f2fc5"
   },
   {
     "name": "Bons Frutos",
@@ -17336,7 +18558,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "bons-frutos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "422d2e703b522a0a",
+    "_key": "!items!422d2e703b522a0a"
   },
   {
     "name": "Caminhada Mágica",
@@ -17354,7 +18578,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "caminhada-magica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d2dff23d0da71420",
+    "_key": "!items!d2dff23d0da71420"
   },
   {
     "name": "Convocar Animais",
@@ -17372,7 +18598,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "convocar-animais",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "dfb842da3946e62c",
+    "_key": "!items!dfb842da3946e62c"
   },
   {
     "name": "Entrelaçar",
@@ -17390,7 +18618,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "entrelacar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4525dfe48512e619",
+    "_key": "!items!4525dfe48512e619"
   },
   {
     "name": "Evocar Temporal",
@@ -17408,7 +18638,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "evocar-temporal",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a4582f51ae1da730",
+    "_key": "!items!a4582f51ae1da730"
   },
   {
     "name": "Mover Terra",
@@ -17426,7 +18658,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "mover-terra",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "41efa83e8d428861",
+    "_key": "!items!41efa83e8d428861"
   },
   {
     "name": "Princípio Natural",
@@ -17444,7 +18678,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "principio-natural",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7b7604b35d8fb541",
+    "_key": "!items!7b7604b35d8fb541"
   },
   {
     "name": "Rajada de Água",
@@ -17462,7 +18698,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "rajada-de-agua",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d41548f191d6504b",
+    "_key": "!items!d41548f191d6504b"
   },
   {
     "name": "Rajada de Espinhos",
@@ -17480,7 +18718,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "rajada-de-espinhos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "64ce88f7d9b4be1f",
+    "_key": "!items!64ce88f7d9b4be1f"
   },
   {
     "name": "Turbilhão",
@@ -17498,7 +18738,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "turbilhao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6375683e70e2e23d",
+    "_key": "!items!6375683e70e2e23d"
   },
   {
     "name": "Conjurar Abrigo",
@@ -17516,7 +18758,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "conjurar-abrigo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "352bac5a021c1a9f",
+    "_key": "!items!352bac5a021c1a9f"
   },
   {
     "name": "Despertar a Flora",
@@ -17534,7 +18778,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "despertar-a-flora",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4555705df65541bc",
+    "_key": "!items!4555705df65541bc"
   },
   {
     "name": "Evocar Nevasca",
@@ -17552,7 +18798,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "evocar-nevasca",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1c9c1e86972e69a7",
+    "_key": "!items!1c9c1e86972e69a7"
   },
   {
     "name": "Gavinhas e Espinhos",
@@ -17570,7 +18818,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "gavinhas-e-espinhos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "3cc0a9a4675f253f",
+    "_key": "!items!3cc0a9a4675f253f"
   },
   {
     "name": "Olho do Furacão",
@@ -17588,7 +18838,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "olho-do-furacao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "3e02aae5961d81a5",
+    "_key": "!items!3e02aae5961d81a5"
   },
   {
     "name": "Orbe de Contenção",
@@ -17606,7 +18858,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "orbe-de-contencao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "55a8e1d74de83a21",
+    "_key": "!items!55a8e1d74de83a21"
   },
   {
     "name": "Punho de Pedra",
@@ -17624,7 +18878,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "punho-de-pedra",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7132f28fa8f07292",
+    "_key": "!items!7132f28fa8f07292"
   },
   {
     "name": "Aríete Mágico",
@@ -17642,7 +18898,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ariete-magico",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "bb11feac277f41bd",
+    "_key": "!items!bb11feac277f41bd"
   },
   {
     "name": "Bola de Fogo",
@@ -17660,7 +18918,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "bola-de-fogo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "353be04dd5536950",
+    "_key": "!items!353be04dd5536950"
   },
   {
     "name": "Congelar",
@@ -17678,7 +18938,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "congelar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b33476352a4c0165",
+    "_key": "!items!b33476352a4c0165"
   },
   {
     "name": "Eletricidade Estática",
@@ -17696,7 +18958,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "eletricidade-estatica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "287b4fe2d0b5fe82",
+    "_key": "!items!287b4fe2d0b5fe82"
   },
   {
     "name": "Inflamar",
@@ -17714,7 +18978,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "inflamar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "c576f1155d6ea6f4",
+    "_key": "!items!c576f1155d6ea6f4"
   },
   {
     "name": "Infravisão",
@@ -17732,7 +18998,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "infravisao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6501138cc587ba2f",
+    "_key": "!items!6501138cc587ba2f"
   },
   {
     "name": "Invocar Elemental 1",
@@ -17750,7 +19018,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6e5a6fac72f8e3ba",
+    "_key": "!items!6e5a6fac72f8e3ba"
   },
   {
     "name": "Invocar Elemental 2",
@@ -17768,7 +19038,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "dc244b2aa8b45635",
+    "_key": "!items!dc244b2aa8b45635"
   },
   {
     "name": "Levitar",
@@ -17786,7 +19058,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "levitar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a4175954effaf931",
+    "_key": "!items!a4175954effaf931"
   },
   {
     "name": "Manto Crepitante",
@@ -17804,7 +19078,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "manto-crepitante",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "ce45db6078bfc3b1",
+    "_key": "!items!ce45db6078bfc3b1"
   },
   {
     "name": "Parede de Gelo",
@@ -17822,7 +19098,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "parede-de-gelo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "cf993982ffc0b8aa",
+    "_key": "!items!cf993982ffc0b8aa"
   },
   {
     "name": "Rajada de Gelo",
@@ -17840,7 +19118,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "rajada-de-gelo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5b6a8d1a5cbc3986",
+    "_key": "!items!5b6a8d1a5cbc3986"
   },
   {
     "name": "Relâmpago 1",
@@ -17858,7 +19138,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "relampago-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "3b54f2d59e560ac0",
+    "_key": "!items!3b54f2d59e560ac0"
   },
   {
     "name": "Rajada Elemental",
@@ -17876,7 +19158,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "rajada-elemental",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5292181f8e50bb09",
+    "_key": "!items!5292181f8e50bb09"
   },
   {
     "name": "Resistência Elemental",
@@ -17894,7 +19178,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "resistencia-elemental",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "443e30418cdd62a1",
+    "_key": "!items!443e30418cdd62a1"
   },
   {
     "name": "Telecinésia",
@@ -17912,7 +19198,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "telecinesia",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1d444d811ac77f46",
+    "_key": "!items!1d444d811ac77f46"
   },
   {
     "name": "Teleporte 1",
@@ -17930,7 +19218,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "teleporte-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8f5816ab49b469e2",
+    "_key": "!items!8f5816ab49b469e2"
   },
   {
     "name": "Eletrosfera",
@@ -17948,7 +19238,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "eletrosfera",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "619921cb0c58459d",
+    "_key": "!items!619921cb0c58459d"
   },
   {
     "name": "Incandescer",
@@ -17966,7 +19258,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "incandescer",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7eb2307c8767c50d",
+    "_key": "!items!7eb2307c8767c50d"
   },
   {
     "name": "Inferno",
@@ -17984,7 +19278,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "inferno",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "9832745befba0c1f",
+    "_key": "!items!9832745befba0c1f"
   },
   {
     "name": "Invocar Elemental 3",
@@ -18002,7 +19298,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-3",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e0f2ed66117bb694",
+    "_key": "!items!e0f2ed66117bb694"
   },
   {
     "name": "Prisão de Gelo",
@@ -18020,7 +19318,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "prisao-de-gelo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "13fe9ad86d55e881",
+    "_key": "!items!13fe9ad86d55e881"
   },
   {
     "name": "Relâmpago 2",
@@ -18038,7 +19338,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "relampago-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "42e74682a8255426",
+    "_key": "!items!42e74682a8255426"
   },
   {
     "name": "Teleporte 2",
@@ -18056,7 +19358,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "teleporte-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5be3bfcbbeb8d8fb",
+    "_key": "!items!5be3bfcbbeb8d8fb"
   },
   {
     "name": "Tempestade de Gelo",
@@ -18074,7 +19378,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "tempestade-de-gelo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a9b69c60f6813091",
+    "_key": "!items!a9b69c60f6813091"
   },
   {
     "name": "Arma Incandescente",
@@ -18092,7 +19398,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "arma-incandescente",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "ec0f2dd5df710824",
+    "_key": "!items!ec0f2dd5df710824"
   },
   {
     "name": "Arma Relampejante",
@@ -18110,7 +19418,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "arma-relampejante",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "223332f43feca4c0",
+    "_key": "!items!223332f43feca4c0"
   },
   {
     "name": "Conjurar Escudo",
@@ -18128,7 +19438,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "conjurar-escudo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "f9901f2dc51543e7",
+    "_key": "!items!f9901f2dc51543e7"
   },
   {
     "name": "Desativar Item",
@@ -18146,7 +19458,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "desativar-item",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7174f63c93ea46cf",
+    "_key": "!items!7174f63c93ea46cf"
   },
   {
     "name": "Enfeitiçar Arma 1",
@@ -18164,7 +19478,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "enfeiticar-arma-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a3cb9ec4faa6bac6",
+    "_key": "!items!a3cb9ec4faa6bac6"
   },
   {
     "name": "Enfeitiçar Armadura",
@@ -18182,7 +19498,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "enfeiticar-armadura",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a8093e7dbf39809b",
+    "_key": "!items!a8093e7dbf39809b"
   },
   {
     "name": "Enfeitiçar Arma 2",
@@ -18200,7 +19518,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "enfeiticar-arma-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "0f5402f23d9388bd",
+    "_key": "!items!0f5402f23d9388bd"
   },
   {
     "name": "Abençoar Aliados 1",
@@ -18218,7 +19538,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "abencoar-aliados-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "47123d04958fec00",
+    "_key": "!items!47123d04958fec00"
   },
   {
     "name": "Abençoar Objeto",
@@ -18236,7 +19558,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "abencoar-objeto",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "c1e60c623ceaa851",
+    "_key": "!items!c1e60c623ceaa851"
   },
   {
     "name": "Aura de Cura 1",
@@ -18254,7 +19578,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "aura-de-cura-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e409a4463bbe1bb5",
+    "_key": "!items!e409a4463bbe1bb5"
   },
   {
     "name": "Cariátide",
@@ -18272,7 +19598,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "cariatide",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8a2255cafdc40a52",
+    "_key": "!items!8a2255cafdc40a52"
   },
   {
     "name": "Conjurar Arma dos Deuses",
@@ -18290,7 +19618,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "conjurar-arma-dos-deuses",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b2a166c8ccb3519e",
+    "_key": "!items!b2a166c8ccb3519e"
   },
   {
     "name": "do Destino",
@@ -18308,7 +19638,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "do-destino",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "bd814d4ecff045b1",
+    "_key": "!items!bd814d4ecff045b1"
   },
   {
     "name": "Conjurar Broquel Místico",
@@ -18326,7 +19658,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "conjurar-broquel-mistico",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "46370d8127fefd44",
+    "_key": "!items!46370d8127fefd44"
   },
   {
     "name": "Corpo Fechado",
@@ -18344,7 +19678,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "corpo-fechado",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "c49f7bf9f0129358",
+    "_key": "!items!c49f7bf9f0129358"
   },
   {
     "name": "Curar Ferimentos 1",
@@ -18362,7 +19698,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "curar-ferimentos-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "306d3d611e20bfc6",
+    "_key": "!items!306d3d611e20bfc6"
   },
   {
     "name": "Exorcismo",
@@ -18380,7 +19718,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "exorcismo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "079fb987944c8def",
+    "_key": "!items!079fb987944c8def"
   },
   {
     "name": "Graça Divina",
@@ -18398,7 +19738,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "graca-divina",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "291dcc39a38377b2",
+    "_key": "!items!291dcc39a38377b2"
   },
   {
     "name": "Proteção Mística",
@@ -18416,7 +19758,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "protecao-mistica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1d8ae0144a99387b",
+    "_key": "!items!1d8ae0144a99387b"
   },
   {
     "name": "Purgar",
@@ -18434,7 +19778,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "purgar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "cf3628b43079dda5",
+    "_key": "!items!cf3628b43079dda5"
   },
   {
     "name": "Toque Místico",
@@ -18452,7 +19798,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "toque-mistico",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "56cc9dc2e18ad7f0",
+    "_key": "!items!56cc9dc2e18ad7f0"
   },
   {
     "name": "Velocidade",
@@ -18470,7 +19818,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "velocidade",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "912fed8e9cf971b7",
+    "_key": "!items!912fed8e9cf971b7"
   },
   {
     "name": "Abençoar Aliados 2",
@@ -18488,7 +19838,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "abencoar-aliados-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "fa3271a7dcdee706",
+    "_key": "!items!fa3271a7dcdee706"
   },
   {
     "name": "Aura de Cura 2",
@@ -18506,7 +19858,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "aura-de-cura-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5a7af76c18a94eca",
+    "_key": "!items!5a7af76c18a94eca"
   },
   {
     "name": "Círculo da Proteção",
@@ -18524,7 +19878,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "circulo-da-protecao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "f595c4c31ec8ed00",
+    "_key": "!items!f595c4c31ec8ed00"
   },
   {
     "name": "Conjurar Falange do Destino",
@@ -18542,7 +19898,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "conjurar-falange-do-destino",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4140cd2a8d476d31",
+    "_key": "!items!4140cd2a8d476d31"
   },
   {
     "name": "Criar Golem",
@@ -18560,7 +19918,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "criar-golem",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "31d033a858e1d608",
+    "_key": "!items!31d033a858e1d608"
   },
   {
     "name": "Curar Ferimentos 2",
@@ -18578,7 +19938,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "curar-ferimentos-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d6348c24ca97d7cb",
+    "_key": "!items!d6348c24ca97d7cb"
   },
   {
     "name": "Manter Golem",
@@ -18596,7 +19958,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "manter-golem",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b4cb63890577c401",
+    "_key": "!items!b4cb63890577c401"
   },
   {
     "name": "Portal",
@@ -18614,7 +19978,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "portal",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "046f364971b3fd57",
+    "_key": "!items!046f364971b3fd57"
   },
   {
     "name": "Asas Elementais",
@@ -18632,7 +19998,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "asas-elementais",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8afc7585e2ad3aae",
+    "_key": "!items!8afc7585e2ad3aae"
   },
   {
     "name": "Aura do Dragão",
@@ -18650,7 +20018,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "aura-do-dragao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6422e3ae2a9f0378",
+    "_key": "!items!6422e3ae2a9f0378"
   },
   {
     "name": "Hálito do Dragão",
@@ -18668,7 +20038,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "halito-do-dragao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "3187a3e009b41475",
+    "_key": "!items!3187a3e009b41475"
   },
   {
     "name": "Absorver Alma",
@@ -18686,7 +20058,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "absorver-alma",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "084ab88249d1db1a",
+    "_key": "!items!084ab88249d1db1a"
   },
   {
     "name": "Armadura Necromântica",
@@ -18704,7 +20078,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "armadura-necromantica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4fd2b67b9ad542ae",
+    "_key": "!items!4fd2b67b9ad542ae"
   },
   {
     "name": "Condenar o Corpo",
@@ -18722,7 +20098,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "condenar-o-corpo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b7ef6dfbaf01a936",
+    "_key": "!items!b7ef6dfbaf01a936"
   },
   {
     "name": "Cura Sombria",
@@ -18740,7 +20118,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "cura-sombria",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "58c390dece87bfdc",
+    "_key": "!items!58c390dece87bfdc"
   },
   {
     "name": "Crânio Guardião",
@@ -18758,7 +20138,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "cranio-guardiao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "784b3d608cf33045",
+    "_key": "!items!784b3d608cf33045"
   },
   {
     "name": "Despertar dos Mortos 1",
@@ -18776,7 +20158,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "despertar-dos-mortos-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "431f12b9b234e75e",
+    "_key": "!items!431f12b9b234e75e"
   },
   {
     "name": "Despertar dos Mortos 2",
@@ -18794,7 +20178,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "despertar-dos-mortos-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1b4bf38a6a2e6354",
+    "_key": "!items!1b4bf38a6a2e6354"
   },
   {
     "name": "Encarnar Espírito",
@@ -18812,7 +20198,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "encarnar-espirito",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b353c4bc957f58a6",
+    "_key": "!items!b353c4bc957f58a6"
   },
   {
     "name": "Energia Sombria 1",
@@ -18830,7 +20218,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "energia-sombria-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e4b98fe53385242b",
+    "_key": "!items!e4b98fe53385242b"
   },
   {
     "name": "Energia Sombria 2",
@@ -18848,7 +20238,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "energia-sombria-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "93a30696b7ca8b36",
+    "_key": "!items!93a30696b7ca8b36"
   },
   {
     "name": "Esconjurar",
@@ -18866,7 +20258,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "esconjurar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1c644fc2d55a1e93",
+    "_key": "!items!1c644fc2d55a1e93"
   },
   {
     "name": "Invocar Espectro",
@@ -18884,7 +20278,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-espectro",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "19cc48842936f3d2",
+    "_key": "!items!19cc48842936f3d2"
   },
   {
     "name": "Proteção Cadavérica",
@@ -18902,7 +20298,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "protecao-cadaverica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "32e096f70b76c23c",
+    "_key": "!items!32e096f70b76c23c"
   },
   {
     "name": "Resistência Necromântica",
@@ -18920,7 +20318,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "resistencia-necromantica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1bbf63bfa42c9803",
+    "_key": "!items!1bbf63bfa42c9803"
   },
   {
     "name": "Sustentar Mortos-Vivos",
@@ -18938,7 +20338,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "sustentar-mortos-vivos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "592e5911a43ddbe2",
+    "_key": "!items!592e5911a43ddbe2"
   },
   {
     "name": "Bafo do Dragão Negro",
@@ -18956,7 +20358,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "bafo-do-dragao-negro",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a5c227c494fcf7e1",
+    "_key": "!items!a5c227c494fcf7e1"
   },
   {
     "name": "Defesa do Dragão do Relâmpago",
@@ -18974,7 +20378,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "defesa-do-dragao-do-relampago",
         "tipo": "Reacao"
       }
-    }
+    },
+    "_id": "1fd955483820f8f8",
+    "_key": "!items!1fd955483820f8f8"
   },
   {
     "name": "Exalação do Dragão do Frio",
@@ -18992,7 +20398,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "exalacao-do-dragao-do-frio",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "00bb02f5161b64ab",
+    "_key": "!items!00bb02f5161b64ab"
   },
   {
     "name": "Fôlego do Dragão Marinho",
@@ -19010,7 +20418,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "folego-do-dragao-marinho",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "bc7bd2b10b674db0",
+    "_key": "!items!bc7bd2b10b674db0"
   },
   {
     "name": "Rugido do Dragão do Deserto",
@@ -19028,7 +20438,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "rugido-do-dragao-do-deserto",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "82aab5ec27e1633f",
+    "_key": "!items!82aab5ec27e1633f"
   },
   {
     "name": "Travessia do Dragão do Fogo",
@@ -19046,7 +20458,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "travessia-do-dragao-do-fogo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8bfe38599b9d47bf",
+    "_key": "!items!8bfe38599b9d47bf"
   },
   {
     "name": "Átrio Elemental",
@@ -19064,7 +20478,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "atrio-elemental",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e3512f2817b7593d",
+    "_key": "!items!e3512f2817b7593d"
   },
   {
     "name": "Benção do Dragão",
@@ -19082,7 +20498,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "bencao-do-dragao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "90f66779066334af",
+    "_key": "!items!90f66779066334af"
   },
   {
     "name": "Hálito do Dragão Ancião",
@@ -19100,7 +20518,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "halito-do-dragao-anciao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b6165904c6cf63e2",
+    "_key": "!items!b6165904c6cf63e2"
   },
   {
     "name": "Flagelo da Aurora",
@@ -19118,7 +20538,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "flagelo-da-aurora",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d96fd9406860841c",
+    "_key": "!items!d96fd9406860841c"
   },
   {
     "name": "Condenar a Alma",
@@ -19136,7 +20558,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "condenar-a-alma",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "887071234ff70867",
+    "_key": "!items!887071234ff70867"
   },
   {
     "name": "Controlar Mortos-Vivos",
@@ -19154,7 +20578,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "controlar-mortos-vivos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "139a87f163cc2c20",
+    "_key": "!items!139a87f163cc2c20"
   },
   {
     "name": "Crânio Sentinela",
@@ -19172,7 +20598,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "cranio-sentinela",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7bf4104dace7b30f",
+    "_key": "!items!7bf4104dace7b30f"
   },
   {
     "name": "Transferência Espiritual",
@@ -19190,7 +20618,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "transferencia-espiritual",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "470b991459187b81",
+    "_key": "!items!470b991459187b81"
   },
   {
     "name": "Encantar Talismã",
@@ -19208,7 +20638,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "encantar-talisma",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "cff9cee8c6b0615f",
+    "_key": "!items!cff9cee8c6b0615f"
   },
   {
     "name": "Conjurar Objeto",
@@ -19226,7 +20658,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "conjurar-objeto",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4ccd917ce969cfbc",
+    "_key": "!items!4ccd917ce969cfbc"
   },
   {
     "name": "Soldar Magia",
@@ -19244,7 +20678,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "soldar-magia",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "07f967422139a1e9",
+    "_key": "!items!07f967422139a1e9"
   },
   {
     "name": "Abrir Encantamento",
@@ -19262,7 +20698,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "abrir-encantamento",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "c9a059e830cf562e",
+    "_key": "!items!c9a059e830cf562e"
   },
   {
     "name": "Aparência Ilusória",
@@ -19280,7 +20718,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "aparencia-ilusoria",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8f54b987f5eb73b3",
+    "_key": "!items!8f54b987f5eb73b3"
   },
   {
     "name": "Mágica",
@@ -19298,7 +20738,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "magica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "085ff78c1e8231f3",
+    "_key": "!items!085ff78c1e8231f3"
   },
   {
     "name": "Ilusório",
@@ -19316,7 +20758,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ilusorio",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "c30462b95519dc82",
+    "_key": "!items!c30462b95519dc82"
   },
   {
     "name": "Abrigo Invisível",
@@ -19334,7 +20778,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "abrigo-invisivel",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "952e0d7513e08f54",
+    "_key": "!items!952e0d7513e08f54"
   },
   {
     "name": "Ilusão Persistente",
@@ -19352,7 +20798,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ilusao-persistente",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "623fc41364fa18e5",
+    "_key": "!items!623fc41364fa18e5"
   },
   {
     "name": "Ilusão Eterna",
@@ -19370,7 +20818,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ilusao-eterna",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "f07be48fa75b369f",
+    "_key": "!items!f07be48fa75b369f"
   },
   {
     "name": "Invocar Familiar",
@@ -19388,7 +20838,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-familiar",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8dbc677467da9d1d",
+    "_key": "!items!8dbc677467da9d1d"
   },
   {
     "name": "Ampliar Invocação",
@@ -19406,7 +20858,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ampliar-invocacao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7d7736fb9ec0d57a",
+    "_key": "!items!7d7736fb9ec0d57a"
   },
   {
     "name": "Manter Invocação",
@@ -19424,7 +20878,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "manter-invocacao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6ee1f35f58b11cd9",
+    "_key": "!items!6ee1f35f58b11cd9"
   },
   {
     "name": "Janela Mágica",
@@ -19442,7 +20898,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "janela-magica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "1b6b7cd49895914e",
+    "_key": "!items!1b6b7cd49895914e"
   },
   {
     "name": "Abrir Janela Mágica",
@@ -19460,7 +20918,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "abrir-janela-magica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "873cabcb0fd94d83",
+    "_key": "!items!873cabcb0fd94d83"
   },
   {
     "name": "Atravessar Janela Mágica",
@@ -19478,7 +20938,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "atravessar-janela-magica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "aba25b0857138ad4",
+    "_key": "!items!aba25b0857138ad4"
   },
   {
     "name": "Invocar Lemure",
@@ -19496,7 +20958,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-lemure",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "0c318f5aa28b78e5",
+    "_key": "!items!0c318f5aa28b78e5"
   },
   {
     "name": "Invocar Shedin",
@@ -19514,7 +20978,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-shedin",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a8f0e3a7644e52cc",
+    "_key": "!items!a8f0e3a7644e52cc"
   },
   {
     "name": "Invocar Asura",
@@ -19532,7 +20998,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-asura",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "2b29752a9f8ef769",
+    "_key": "!items!2b29752a9f8ef769"
   },
   {
     "name": "Portal Infernal",
@@ -19550,7 +21018,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "portal-infernal",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "82a11da02a9378e7",
+    "_key": "!items!82a11da02a9378e7"
   },
   {
     "name": "Arma dos Mortos",
@@ -19568,7 +21038,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "arma-dos-mortos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "faf59b8ced075ba5",
+    "_key": "!items!faf59b8ced075ba5"
   },
   {
     "name": "Deflagrar Ossos",
@@ -19586,7 +21058,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "deflagrar-ossos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "18d2d5ce3d18bed5",
+    "_key": "!items!18d2d5ce3d18bed5"
   },
   {
     "name": "Ligação de Sangue",
@@ -19604,7 +21078,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ligacao-de-sangue",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "074aed9444107b3e",
+    "_key": "!items!074aed9444107b3e"
   },
   {
     "name": "Percepção Sanguínea",
@@ -19622,7 +21098,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "percepcao-sanguinea",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6629d2b9dbb402ca",
+    "_key": "!items!6629d2b9dbb402ca"
   },
   {
     "name": "Coagular Sangue",
@@ -19640,7 +21118,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "coagular-sangue",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b4ba8065cf08e558",
+    "_key": "!items!b4ba8065cf08e558"
   },
   {
     "name": "Fonte de Sangue",
@@ -19658,7 +21138,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "fonte-de-sangue",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "f78b1f968333cbb2",
+    "_key": "!items!f78b1f968333cbb2"
   },
   {
     "name": "Sifão de Sangue",
@@ -19676,7 +21158,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "sifao-de-sangue",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7a59c131e59154c3",
+    "_key": "!items!7a59c131e59154c3"
   },
   {
     "name": "Vibrar os Ossos",
@@ -19694,7 +21178,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "vibrar-os-ossos",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "33e83bb3b514dabe",
+    "_key": "!items!33e83bb3b514dabe"
   },
   {
     "name": "Causar Horror",
@@ -19712,7 +21198,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "causar-horror",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "26dd4952ac431cc4",
+    "_key": "!items!26dd4952ac431cc4"
   },
   {
     "name": "Maldição da Assombração",
@@ -19730,7 +21218,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-da-assombracao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e8d77394b005659f",
+    "_key": "!items!e8d77394b005659f"
   },
   {
     "name": "Maldição da Debilidade",
@@ -19748,7 +21238,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-da-debilidade",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "571563bccd2c00cf",
+    "_key": "!items!571563bccd2c00cf"
   },
   {
     "name": "Maldição da Dor",
@@ -19766,7 +21258,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-da-dor",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "7846ecd1a0cd793c",
+    "_key": "!items!7846ecd1a0cd793c"
   },
   {
     "name": "Maldição do Medo",
@@ -19784,7 +21278,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-do-medo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "9b166659330285c7",
+    "_key": "!items!9b166659330285c7"
   },
   {
     "name": "Remover Maldições",
@@ -19802,7 +21298,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "remover-maldicoes",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "422bc59c470602f9",
+    "_key": "!items!422bc59c470602f9"
   },
   {
     "name": "Maldição da Cegueira",
@@ -19820,7 +21318,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-da-cegueira",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "f2cfb7382ffaf51d",
+    "_key": "!items!f2cfb7382ffaf51d"
   },
   {
     "name": "Maldição do Canibalismo",
@@ -19838,7 +21338,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-do-canibalismo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d8279ed54172ba60",
+    "_key": "!items!d8279ed54172ba60"
   },
   {
     "name": "Maldição da Dominação",
@@ -19856,7 +21358,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "maldicao-da-dominacao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "08b69d2c4044e4dd",
+    "_key": "!items!08b69d2c4044e4dd"
   },
   {
     "name": "Eternizar Maldição",
@@ -19874,7 +21378,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "eternizar-maldicao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4f5449c99e384bba",
+    "_key": "!items!4f5449c99e384bba"
   },
   {
     "name": "Empurrão Cinético",
@@ -19892,7 +21398,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "empurrao-cinetico",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "4d21555acede8840",
+    "_key": "!items!4d21555acede8840"
   },
   {
     "name": "Permutação Instantânea",
@@ -19910,7 +21418,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "permutacao-instantanea",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "6313018d7a42ef58",
+    "_key": "!items!6313018d7a42ef58"
   },
   {
     "name": "Runa de Localização",
@@ -19928,7 +21438,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "runa-de-localizacao",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "d5a589989eefb440",
+    "_key": "!items!d5a589989eefb440"
   },
   {
     "name": "Teleportar Objeto",
@@ -19946,7 +21458,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "teleportar-objeto",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a53bf205a7c8bedd",
+    "_key": "!items!a53bf205a7c8bedd"
   },
   {
     "name": "Área de Anti-Magia",
@@ -19964,7 +21478,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "area-de-anti-magia",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "530fbc900b5f8155",
+    "_key": "!items!530fbc900b5f8155"
   },
   {
     "name": "Arremesso Cinético",
@@ -19982,7 +21498,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "arremesso-cinetico",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "bf4ffaaf85817c91",
+    "_key": "!items!bf4ffaaf85817c91"
   },
   {
     "name": "Porta Oculta",
@@ -20000,7 +21518,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "porta-oculta",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8fc21b525e501be7",
+    "_key": "!items!8fc21b525e501be7"
   },
   {
     "name": "Sala Oculta",
@@ -20018,7 +21538,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "sala-oculta",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "b1104c3a81d525a7",
+    "_key": "!items!b1104c3a81d525a7"
   },
   {
     "name": "Dom do Artífice",
@@ -20036,7 +21558,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "dom-do-artifice",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5ec967d2c905d4cd",
+    "_key": "!items!5ec967d2c905d4cd"
   },
   {
     "name": "Ilusão 1",
@@ -20054,7 +21578,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ilusao-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "0a10ea636ed4e361",
+    "_key": "!items!0a10ea636ed4e361"
   },
   {
     "name": "Ilusão 2",
@@ -20072,7 +21598,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ilusao-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "8428a3d936793fda",
+    "_key": "!items!8428a3d936793fda"
   },
   {
     "name": "Invisibilidade 1",
@@ -20090,7 +21618,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invisibilidade-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e1436904752a56cd",
+    "_key": "!items!e1436904752a56cd"
   },
   {
     "name": "Luz Mágica",
@@ -20108,7 +21638,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "luz-magica",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "109502489079430b",
+    "_key": "!items!109502489079430b"
   },
   {
     "name": "Som Ilusório",
@@ -20126,7 +21658,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "som-ilusorio",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "da64b4abd2a7338d",
+    "_key": "!items!da64b4abd2a7338d"
   },
   {
     "name": "Ilusão 3",
@@ -20144,7 +21678,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "ilusao-3",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5cdd8fb8ea897110",
+    "_key": "!items!5cdd8fb8ea897110"
   },
   {
     "name": "Invisibilidade 2",
@@ -20162,7 +21698,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invisibilidade-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "2b731b5474f8a58d",
+    "_key": "!items!2b731b5474f8a58d"
   },
   {
     "name": "Invocar Elemental do Fogo 1",
@@ -20180,7 +21718,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-do-fogo-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "e2a52c6252d3c67c",
+    "_key": "!items!e2a52c6252d3c67c"
   },
   {
     "name": "Invocar Elemental do Gelo 1",
@@ -20198,7 +21738,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-do-gelo-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "84d7b53600d9a1d9",
+    "_key": "!items!84d7b53600d9a1d9"
   },
   {
     "name": "Invocar Golem 1",
@@ -20216,7 +21758,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-golem-1",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "c2a0e4b5c8e6450d",
+    "_key": "!items!c2a0e4b5c8e6450d"
   },
   {
     "name": "Invocar Elemental do Fogo 2",
@@ -20234,7 +21778,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-do-fogo-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "595655264134d6d6",
+    "_key": "!items!595655264134d6d6"
   },
   {
     "name": "Invocar Elemental do Gelo 2",
@@ -20252,7 +21798,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-elemental-do-gelo-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "5419c655c12bea52",
+    "_key": "!items!5419c655c12bea52"
   },
   {
     "name": "Invocar Golem 2",
@@ -20270,7 +21818,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "invocar-golem-2",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "32d69ddab7df3ded",
+    "_key": "!items!32d69ddab7df3ded"
   },
   {
     "name": "Armadura de Gelo",
@@ -20288,7 +21838,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "armadura-de-gelo",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "a44180cd88b0f42c",
+    "_key": "!items!a44180cd88b0f42c"
   },
   {
     "name": "Aura Congelante",
@@ -20306,7 +21858,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "aura-congelante",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "acb7f3dc0e9d11b6",
+    "_key": "!items!acb7f3dc0e9d11b6"
   },
   {
     "name": "Barreira de Gelo",
@@ -20324,7 +21878,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "barreira-de-gelo",
         "tipo": "Reacao"
       }
-    }
+    },
+    "_id": "b6c50249c504100e",
+    "_key": "!items!b6c50249c504100e"
   },
   {
     "name": "Sopro Gélido",
@@ -20342,7 +21898,9 @@ export const CANONICAL_MAGIAS = [
         "slug": "sopro-gelido",
         "tipo": "Acao"
       }
-    }
+    },
+    "_id": "12b96ea3e3330b5c",
+    "_key": "!items!12b96ea3e3330b5c"
   }
 ];
 
@@ -20374,7 +21932,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "espada-longa",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "66ce374f8c916e79",
+    "_key": "!items!66ce374f8c916e79"
   },
   {
     "name": "Arco Longo",
@@ -20402,7 +21962,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arco-longo",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "3fd7c15f3f71442f",
+    "_key": "!items!3fd7c15f3f71442f"
   },
   {
     "name": "Flecha Comum",
@@ -20422,7 +21984,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-comum",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "368e69dfd1dfafd8",
+    "_key": "!items!368e69dfd1dfafd8"
   },
   {
     "name": "Cajado",
@@ -20454,7 +22018,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cajado",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "a9f2ea8c4112cd11",
+    "_key": "!items!a9f2ea8c4112cd11"
   },
   {
     "name": "Armadura de Couro",
@@ -20478,7 +22044,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-de-couro",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "f39f42afeb4b4252",
+    "_key": "!items!f39f42afeb4b4252"
   },
   {
     "name": "Escudo Pequeno",
@@ -20502,7 +22070,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "escudo-pequeno",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "8bf67fa0832dd120",
+    "_key": "!items!8bf67fa0832dd120"
   },
   {
     "name": "Lira",
@@ -20522,7 +22092,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lira",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "e3f6fb4707a1ea17",
+    "_key": "!items!e3f6fb4707a1ea17"
   },
   {
     "name": "Antídoto Básico",
@@ -20542,7 +22114,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "antidoto-basico",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "cb35bb2b4349c09d",
+    "_key": "!items!cb35bb2b4349c09d"
   },
   {
     "name": "Poção de Cura Menor",
@@ -20562,7 +22136,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-de-cura-menor",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "4e991f7b133d26ff",
+    "_key": "!items!4e991f7b133d26ff"
   },
   {
     "name": "Poção de Cura Maior",
@@ -20582,7 +22158,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-de-cura-maior",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "81566fb141ad69fa",
+    "_key": "!items!81566fb141ad69fa"
   },
   {
     "name": "Poção de Mana Menor",
@@ -20602,7 +22180,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-de-mana-menor",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "ad6672f5a391f13e",
+    "_key": "!items!ad6672f5a391f13e"
   },
   {
     "name": "Óleo de Fogo Alquímico",
@@ -20622,7 +22202,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "oleo-de-fogo-alquimico",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "a38d9b441137c3d2",
+    "_key": "!items!a38d9b441137c3d2"
   },
   {
     "name": "Corda (10m)",
@@ -20642,7 +22224,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corda-10m",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "9ad8fd5dd6ce7671",
+    "_key": "!items!9ad8fd5dd6ce7671"
   },
   {
     "name": "Adaga",
@@ -20671,7 +22255,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "adaga",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "115142adf2535800",
+    "_key": "!items!115142adf2535800"
   },
   {
     "name": "Alabarda",
@@ -20699,7 +22285,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "alabarda",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "8346837d96bc1379",
+    "_key": "!items!8346837d96bc1379"
   },
   {
     "name": "Alfange",
@@ -20728,7 +22316,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "alfange",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "d439e333c8634bee",
+    "_key": "!items!d439e333c8634bee"
   },
   {
     "name": "Arpão",
@@ -20757,7 +22347,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arpao",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "33760dd9ec484b38",
+    "_key": "!items!33760dd9ec484b38"
   },
   {
     "name": "Artavus",
@@ -20787,7 +22379,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "artavus",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "abc036e5eac1e408",
+    "_key": "!items!abc036e5eac1e408"
   },
   {
     "name": "Azagaia",
@@ -20815,7 +22409,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "azagaia",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "fdff3d0b605c2ec0",
+    "_key": "!items!fdff3d0b605c2ec0"
   },
   {
     "name": "Bico-de-Corvo",
@@ -20844,7 +22440,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bico-de-corvo",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "252b8bb7d2ca069c",
+    "_key": "!items!252b8bb7d2ca069c"
   },
   {
     "name": "Bastão",
@@ -20870,7 +22468,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bastao",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "5ded76af20914e63",
+    "_key": "!items!5ded76af20914e63"
   },
   {
     "name": "Bordão",
@@ -20898,7 +22498,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bordao",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "b62175fde1481b02",
+    "_key": "!items!b62175fde1481b02"
   },
   {
     "name": "Chicote",
@@ -20929,7 +22531,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "chicote",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "9ef139cff79c1ab9",
+    "_key": "!items!9ef139cff79c1ab9"
   },
   {
     "name": "Cimitarra",
@@ -20958,7 +22562,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cimitarra",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "5b663004db472a31",
+    "_key": "!items!5b663004db472a31"
   },
   {
     "name": "Clava",
@@ -20984,7 +22590,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "clava",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "bfe6eea37fe6e3a6",
+    "_key": "!items!bfe6eea37fe6e3a6"
   },
   {
     "name": "Cutelo",
@@ -21010,7 +22618,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cutelo",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "a196801aa406a063",
+    "_key": "!items!a196801aa406a063"
   },
   {
     "name": "Claymore",
@@ -21039,7 +22649,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "claymore",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "3b71ba5c37be8ca7",
+    "_key": "!items!3b71ba5c37be8ca7"
   },
   {
     "name": "Debulhador",
@@ -21067,7 +22679,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "debulhador",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "1f3550807d852b1d",
+    "_key": "!items!1f3550807d852b1d"
   },
   {
     "name": "Enxada",
@@ -21096,7 +22710,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "enxada",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "090fa51c8815aa0b",
+    "_key": "!items!090fa51c8815aa0b"
   },
   {
     "name": "Espada Curta",
@@ -21123,7 +22739,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "espada-curta",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "2e63f1871712fa7f",
+    "_key": "!items!2e63f1871712fa7f"
   },
   {
     "name": "Facão",
@@ -21150,7 +22768,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "facao",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "547a17b39800cba4",
+    "_key": "!items!547a17b39800cba4"
   },
   {
     "name": "Foice",
@@ -21177,7 +22797,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "foice",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "6000ac14cf78d179",
+    "_key": "!items!6000ac14cf78d179"
   },
   {
     "name": "Forcado",
@@ -21205,7 +22827,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "forcado",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "f0d89c2575eddcf3",
+    "_key": "!items!f0d89c2575eddcf3"
   },
   {
     "name": "Gadanha",
@@ -21234,7 +22858,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "gadanha",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "114e65c4cd90a4c5",
+    "_key": "!items!114e65c4cd90a4c5"
   },
   {
     "name": "Glaive",
@@ -21262,7 +22888,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "glaive",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "be8cb5ea0391e624",
+    "_key": "!items!be8cb5ea0391e624"
   },
   {
     "name": "Lança",
@@ -21291,7 +22919,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lanca",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "98da354e36cfdf8b",
+    "_key": "!items!98da354e36cfdf8b"
   },
   {
     "name": "Maça Leve",
@@ -21317,7 +22947,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "maca-leve",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "a55bdfe7319da610",
+    "_key": "!items!a55bdfe7319da610"
   },
   {
     "name": "Maça Pesada",
@@ -21345,7 +22977,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "maca-pesada",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "082f5b3fa8010253",
+    "_key": "!items!082f5b3fa8010253"
   },
   {
     "name": "Maça Estrela",
@@ -21373,7 +23007,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "maca-estrela",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "e81c0ccf717b4e83",
+    "_key": "!items!e81c0ccf717b4e83"
   },
   {
     "name": "Machadinha",
@@ -21401,7 +23037,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "machadinha",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "003ed015e311f62d",
+    "_key": "!items!003ed015e311f62d"
   },
   {
     "name": "Machado de Lenha",
@@ -21430,7 +23068,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "machado-de-lenha",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "6cff8dd1a03e220f",
+    "_key": "!items!6cff8dd1a03e220f"
   },
   {
     "name": "Machado de Batalha",
@@ -21458,7 +23098,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "machado-de-batalha",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "a14737b5632732c7",
+    "_key": "!items!a14737b5632732c7"
   },
   {
     "name": "Machado Pesado",
@@ -21486,7 +23128,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "machado-pesado",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "cba5dcc9bd11a91e",
+    "_key": "!items!cba5dcc9bd11a91e"
   },
   {
     "name": "Malho",
@@ -21512,7 +23156,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "malho",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "4cfc1e1b2a2369a1",
+    "_key": "!items!4cfc1e1b2a2369a1"
   },
   {
     "name": "Mangual",
@@ -21540,7 +23186,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "mangual",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "94eba13e7de7c95d",
+    "_key": "!items!94eba13e7de7c95d"
   },
   {
     "name": "Marreta",
@@ -21568,7 +23216,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "marreta",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "13078139091e2353",
+    "_key": "!items!13078139091e2353"
   },
   {
     "name": "Martelo",
@@ -21594,7 +23244,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "martelo",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "5cb850f09becb55d",
+    "_key": "!items!5cb850f09becb55d"
   },
   {
     "name": "Martelo Lucerno",
@@ -21623,7 +23275,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "martelo-lucerno",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "db9b5a0a6f3e6bf0",
+    "_key": "!items!db9b5a0a6f3e6bf0"
   },
   {
     "name": "Martelo de Guerra",
@@ -21652,7 +23306,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "martelo-de-guerra",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "757bc4ebb6e46492",
+    "_key": "!items!757bc4ebb6e46492"
   },
   {
     "name": "Picareta de Prospecção",
@@ -21680,7 +23336,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "picareta-de-prospeccao",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "d6f5944b30c880b0",
+    "_key": "!items!d6f5944b30c880b0"
   },
   {
     "name": "Picareta de Mineração",
@@ -21708,7 +23366,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "picareta-de-mineracao",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "2c69016984d3733f",
+    "_key": "!items!2c69016984d3733f"
   },
   {
     "name": "Pá",
@@ -21737,7 +23397,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pa",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "927db37b3fdfe30f",
+    "_key": "!items!927db37b3fdfe30f"
   },
   {
     "name": "Rapieira",
@@ -21763,7 +23425,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "rapieira",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "e708c5fdda1d7e41",
+    "_key": "!items!e708c5fdda1d7e41"
   },
   {
     "name": "Relho",
@@ -21789,7 +23453,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "relho",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "62b23a79c54cc894",
+    "_key": "!items!62b23a79c54cc894"
   },
   {
     "name": "Sabre",
@@ -21816,7 +23482,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "sabre",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "312b8bede4848968",
+    "_key": "!items!312b8bede4848968"
   },
   {
     "name": "Soqueira/Manopla",
@@ -21842,7 +23510,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "soqueira-manopla",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "45b1875125b3c790",
+    "_key": "!items!45b1875125b3c790"
   },
   {
     "name": "Tridente",
@@ -21871,7 +23541,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tridente",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "44c8f4f6f556b3ad",
+    "_key": "!items!44c8f4f6f556b3ad"
   },
   {
     "name": "Espada Vingadora +1",
@@ -21898,7 +23570,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "espada-vingadora-1",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "61d440a1b7c216d7",
+    "_key": "!items!61d440a1b7c216d7"
   },
   {
     "name": "Lança Matadora de Dragões +1",
@@ -21924,7 +23598,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lanca-matadora-de-dragoes-1",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "f698ada06a71f871",
+    "_key": "!items!f698ada06a71f871"
   },
   {
     "name": "Machado do Gelo +1",
@@ -21952,7 +23628,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "machado-do-gelo-1",
         "categoria": "Arma"
       }
-    }
+    },
+    "_id": "8b5dcc7b70a25544",
+    "_key": "!items!8b5dcc7b70a25544"
   },
   {
     "name": "Arco Simples",
@@ -21980,7 +23658,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arco-simples",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "1740c5546ba669fe",
+    "_key": "!items!1740c5546ba669fe"
   },
   {
     "name": "Arco Composto",
@@ -22008,7 +23688,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arco-composto",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "6e6b3fbd16b2dc1f",
+    "_key": "!items!6e6b3fbd16b2dc1f"
   },
   {
     "name": "Arco de Guerra",
@@ -22036,7 +23718,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arco-de-guerra",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "62ea93c699883eeb",
+    "_key": "!items!62ea93c699883eeb"
   },
   {
     "name": "Arco Recurvo",
@@ -22064,7 +23748,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arco-recurvo",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "4eabbe094505395c",
+    "_key": "!items!4eabbe094505395c"
   },
   {
     "name": "Besta Leve",
@@ -22093,7 +23779,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "besta-leve",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "8fea75db29ee704e",
+    "_key": "!items!8fea75db29ee704e"
   },
   {
     "name": "Besta Pesada",
@@ -22122,7 +23810,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "besta-pesada",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "d620060e2ef637c1",
+    "_key": "!items!d620060e2ef637c1"
   },
   {
     "name": "Funda/Estilingue",
@@ -22148,7 +23838,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "funda-estilingue",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "7cc9ebec7499256d",
+    "_key": "!items!7cc9ebec7499256d"
   },
   {
     "name": "Fustíbalo",
@@ -22176,7 +23868,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "fustibalo",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "cb14b682deacaa12",
+    "_key": "!items!cb14b682deacaa12"
   },
   {
     "name": "Plumbata",
@@ -22202,7 +23896,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "plumbata",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "fb651cb15c143c67",
+    "_key": "!items!fb651cb15c143c67"
   },
   {
     "name": "Prod",
@@ -22231,7 +23927,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "prod",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "b65fe46cfc9fce00",
+    "_key": "!items!b65fe46cfc9fce00"
   },
   {
     "name": "Zarabatana",
@@ -22257,7 +23955,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "zarabatana",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "b93e52fbefb8e206",
+    "_key": "!items!b93e52fbefb8e206"
   },
   {
     "name": "Arco de Ghlasaglais +1",
@@ -22285,7 +23985,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "arco-de-ghlasaglais-1",
         "categoria": "Projetil"
       }
-    }
+    },
+    "_id": "9f8be4b0eb43ce27",
+    "_key": "!items!9f8be4b0eb43ce27"
   },
   {
     "name": "Aljava Comum",
@@ -22305,7 +24007,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "aljava-comum",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "e336482240d8f2a9",
+    "_key": "!items!e336482240d8f2a9"
   },
   {
     "name": "Aljava Compartimentada",
@@ -22325,7 +24029,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "aljava-compartimentada",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "5e322a500f6d3caa",
+    "_key": "!items!5e322a500f6d3caa"
   },
   {
     "name": "Balas",
@@ -22345,7 +24051,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "balas",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "d0094f5c46f6484e",
+    "_key": "!items!d0094f5c46f6484e"
   },
   {
     "name": "Dardos",
@@ -22365,7 +24073,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "dardos",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "a775d3fc1189c8a6",
+    "_key": "!items!a775d3fc1189c8a6"
   },
   {
     "name": "Flecha Garateia",
@@ -22385,7 +24095,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-garateia",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "dccebb70e8c7acd9",
+    "_key": "!items!dccebb70e8c7acd9"
   },
   {
     "name": "Flecha Alarme",
@@ -22405,7 +24117,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-alarme",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "ee775825128b1de7",
+    "_key": "!items!ee775825128b1de7"
   },
   {
     "name": "Flecha Cortante",
@@ -22425,7 +24139,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-cortante",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "f8c73ca4b36d138c",
+    "_key": "!items!f8c73ca4b36d138c"
   },
   {
     "name": "Flecha de Prata",
@@ -22445,7 +24161,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-de-prata",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "47f8793f8d70095e",
+    "_key": "!items!47f8793f8d70095e"
   },
   {
     "name": "Flecha Envenenada",
@@ -22465,7 +24183,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-envenenada",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "146542724fc140c8",
+    "_key": "!items!146542724fc140c8"
   },
   {
     "name": "Flecha Explosiva",
@@ -22485,7 +24205,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-explosiva",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "c3a84f9afffe79d5",
+    "_key": "!items!c3a84f9afffe79d5"
   },
   {
     "name": "Flecha Farpada",
@@ -22505,7 +24227,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-farpada",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "a4d5ade211a2e32f",
+    "_key": "!items!a4d5ade211a2e32f"
   },
   {
     "name": "Flecha Incendiária",
@@ -22525,7 +24249,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-incendiaria",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "c9a7823a53a786e1",
+    "_key": "!items!c9a7823a53a786e1"
   },
   {
     "name": "Flecha Perfurante",
@@ -22545,7 +24271,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-perfurante",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "9d8621c256a78efd",
+    "_key": "!items!9d8621c256a78efd"
   },
   {
     "name": "Flecha Rede",
@@ -22565,7 +24293,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flecha-rede",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "18f88faf16a0cc46",
+    "_key": "!items!18f88faf16a0cc46"
   },
   {
     "name": "Virote Comum",
@@ -22585,7 +24315,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "virote-comum",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "0fb8832210a355f6",
+    "_key": "!items!0fb8832210a355f6"
   },
   {
     "name": "Virote Garateia",
@@ -22605,7 +24337,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "virote-garateia",
         "categoria": "Municao"
       }
-    }
+    },
+    "_id": "8225c416017d8240",
+    "_key": "!items!8225c416017d8240"
   },
   {
     "name": "Alaúde",
@@ -22625,7 +24359,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "alaude",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "519d5cd9c152e1b3",
+    "_key": "!items!519d5cd9c152e1b3"
   },
   {
     "name": "Berrante",
@@ -22645,7 +24381,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "berrante",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "715b34cdb330909f",
+    "_key": "!items!715b34cdb330909f"
   },
   {
     "name": "Bohdran",
@@ -22665,7 +24403,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bohdran",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "a832ba1b15d87050",
+    "_key": "!items!a832ba1b15d87050"
   },
   {
     "name": "Bongô",
@@ -22685,7 +24425,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bongo",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "87aea53e167e2cc2",
+    "_key": "!items!87aea53e167e2cc2"
   },
   {
     "name": "Chifre",
@@ -22705,7 +24447,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "chifre",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "f82439e9384b5a5c",
+    "_key": "!items!f82439e9384b5a5c"
   },
   {
     "name": "Flauta de Pã",
@@ -22725,7 +24469,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flauta-de-pa",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "39e9ff568b4fb274",
+    "_key": "!items!39e9ff568b4fb274"
   },
   {
     "name": "Flauta Doce",
@@ -22745,7 +24491,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flauta-doce",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "e61a217f6bbef415",
+    "_key": "!items!e61a217f6bbef415"
   },
   {
     "name": "Gaita de Fole",
@@ -22765,7 +24513,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "gaita-de-fole",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "1be794918e0dec95",
+    "_key": "!items!1be794918e0dec95"
   },
   {
     "name": "Hurd Guli",
@@ -22785,7 +24535,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "hurd-guli",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "a5872a00b3054b0e",
+    "_key": "!items!a5872a00b3054b0e"
   },
   {
     "name": "Jorvik",
@@ -22805,7 +24557,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "jorvik",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "9078e65a9630c7b0",
+    "_key": "!items!9078e65a9630c7b0"
   },
   {
     "name": "Pandeiro",
@@ -22825,7 +24579,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pandeiro",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "5a077e9226eb9b68",
+    "_key": "!items!5a077e9226eb9b68"
   },
   {
     "name": "Rabeca",
@@ -22845,7 +24601,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "rabeca",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "e3ba7d97d4a3470b",
+    "_key": "!items!e3ba7d97d4a3470b"
   },
   {
     "name": "Tamboril",
@@ -22865,7 +24623,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tamboril",
         "categoria": "Musical"
       }
-    }
+    },
+    "_id": "9cd545a43a3810e3",
+    "_key": "!items!9cd545a43a3810e3"
   },
   {
     "name": "Cetro",
@@ -22896,7 +24656,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cetro",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "3832578c24c04f76",
+    "_key": "!items!3832578c24c04f76"
   },
   {
     "name": "Grimório",
@@ -22916,7 +24678,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "grimorio",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "77825ff9672cb1a6",
+    "_key": "!items!77825ff9672cb1a6"
   },
   {
     "name": "Missal",
@@ -22936,7 +24700,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "missal",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "844dfcc26682ec07",
+    "_key": "!items!844dfcc26682ec07"
   },
   {
     "name": "Orbe de Cristal",
@@ -22956,7 +24722,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "orbe-de-cristal",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "b4cf3d2bf2baee43",
+    "_key": "!items!b4cf3d2bf2baee43"
   },
   {
     "name": "Punhal",
@@ -22985,7 +24753,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "punhal",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "aa832b35e2a891cb",
+    "_key": "!items!aa832b35e2a891cb"
   },
   {
     "name": "Símbolo Sagrado",
@@ -23005,7 +24775,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "simbolo-sagrado",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "d240a88810646f09",
+    "_key": "!items!d240a88810646f09"
   },
   {
     "name": "Varinha",
@@ -23025,7 +24797,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "varinha",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "fbe9bdfe46acca7e",
+    "_key": "!items!fbe9bdfe46acca7e"
   },
   {
     "name": "Adaga-de-Dente",
@@ -23054,7 +24828,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "adaga-de-dente",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "6f5b8f10aa722dfe",
+    "_key": "!items!6f5b8f10aa722dfe"
   },
   {
     "name": "Sabre-de-Dente",
@@ -23083,7 +24859,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "sabre-de-dente",
         "categoria": "Conjuracao"
       }
-    }
+    },
+    "_id": "ad59c52c450c7042",
+    "_key": "!items!ad59c52c450c7042"
   },
   {
     "name": "Túnica Pesada",
@@ -23107,7 +24885,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tunica-pesada",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "46389eac1a507479",
+    "_key": "!items!46389eac1a507479"
   },
   {
     "name": "Armadura Simples",
@@ -23131,7 +24911,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-simples",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "85fa6d25038c8aa5",
+    "_key": "!items!85fa6d25038c8aa5"
   },
   {
     "name": "Armadura de Batalha",
@@ -23155,7 +24937,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-de-batalha",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "ef18e83fbb57d425",
+    "_key": "!items!ef18e83fbb57d425"
   },
   {
     "name": "Armadura Completa",
@@ -23179,7 +24963,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-completa",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "d916916d24213800",
+    "_key": "!items!d916916d24213800"
   },
   {
     "name": "Escudo Médio",
@@ -23203,7 +24989,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "escudo-medio",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "64eb74d744849f79",
+    "_key": "!items!64eb74d744849f79"
   },
   {
     "name": "Escudo de Corpo",
@@ -23227,7 +25015,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "escudo-de-corpo",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "bdeb9c878402480f",
+    "_key": "!items!bdeb9c878402480f"
   },
   {
     "name": "Armadura de Tubarão",
@@ -23251,7 +25041,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-de-tubarao",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "2f634874d18313f7",
+    "_key": "!items!2f634874d18313f7"
   },
   {
     "name": "Túnica do Norte",
@@ -23275,7 +25067,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tunica-do-norte",
         "categoria": "Defesa"
       }
-    }
+    },
+    "_id": "d87d9c128d9ab83d",
+    "_key": "!items!d87d9c128d9ab83d"
   },
   {
     "name": "Poção Antidoto",
@@ -23295,7 +25089,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-antidoto",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "c60b9de0cd1276e4",
+    "_key": "!items!c60b9de0cd1276e4"
   },
   {
     "name": "Poção da Explosão",
@@ -23315,7 +25111,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-da-explosao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "0a3646a3c0c8dc24",
+    "_key": "!items!0a3646a3c0c8dc24"
   },
   {
     "name": "Poção da Restauração",
@@ -23335,7 +25133,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-da-restauracao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "77a8b13b76a859a8",
+    "_key": "!items!77a8b13b76a859a8"
   },
   {
     "name": "Poção de Mana",
@@ -23355,7 +25155,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-de-mana",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "9ddce7632e728c97",
+    "_key": "!items!9ddce7632e728c97"
   },
   {
     "name": "Poção de Vida",
@@ -23375,7 +25177,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-de-vida",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "16928282de36246d",
+    "_key": "!items!16928282de36246d"
   },
   {
     "name": "Alforge",
@@ -23395,7 +25199,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "alforge",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "51fa04f1950b41e9",
+    "_key": "!items!51fa04f1950b41e9"
   },
   {
     "name": "Anzol e Linha",
@@ -23415,7 +25221,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "anzol-e-linha",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2b0596a05e241820",
+    "_key": "!items!2b0596a05e241820"
   },
   {
     "name": "Armadura para animais (Couro)",
@@ -23435,7 +25243,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-para-animais-couro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "dafd3aeda4303f57",
+    "_key": "!items!dafd3aeda4303f57"
   },
   {
     "name": "Armadura para animais (Simples)",
@@ -23455,7 +25265,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-para-animais-simples",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "17863589af124d64",
+    "_key": "!items!17863589af124d64"
   },
   {
     "name": "Armadura para animais (Batalha)",
@@ -23475,7 +25287,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-para-animais-batalha",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c9643e7df1e4a470",
+    "_key": "!items!c9643e7df1e4a470"
   },
   {
     "name": "Armadura para animais (Completa)",
@@ -23495,7 +25309,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-para-animais-completa",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "e0b1852e3336cd4a",
+    "_key": "!items!e0b1852e3336cd4a"
   },
   {
     "name": "Barril",
@@ -23515,7 +25331,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "barril",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "9fd32b1055ecc43b",
+    "_key": "!items!9fd32b1055ecc43b"
   },
   {
     "name": "Barrilete",
@@ -23535,7 +25353,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "barrilete",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "6b8eade6ea875395",
+    "_key": "!items!6b8eade6ea875395"
   },
   {
     "name": "Baú Pequeno",
@@ -23555,7 +25375,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bau-pequeno",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "afedd6b1dd47ee43",
+    "_key": "!items!afedd6b1dd47ee43"
   },
   {
     "name": "Baú Grande",
@@ -23575,7 +25397,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bau-grande",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c41e817eafe66465",
+    "_key": "!items!c41e817eafe66465"
   },
   {
     "name": "Caixa Pequena",
@@ -23595,7 +25419,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "caixa-pequena",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "a64bfdb1c3d65354",
+    "_key": "!items!a64bfdb1c3d65354"
   },
   {
     "name": "Caixa Grande",
@@ -23615,7 +25441,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "caixa-grande",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "a2e545cec58a0281",
+    "_key": "!items!a2e545cec58a0281"
   },
   {
     "name": "Cantil",
@@ -23635,7 +25463,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cantil",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "aa507909d5fed885",
+    "_key": "!items!aa507909d5fed885"
   },
   {
     "name": "Capa de lã",
@@ -23655,7 +25485,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "capa-de-la",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "ff30d81e9b6891be",
+    "_key": "!items!ff30d81e9b6891be"
   },
   {
     "name": "Capa de pele",
@@ -23675,7 +25507,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "capa-de-pele",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "1d493cb73e0059b6",
+    "_key": "!items!1d493cb73e0059b6"
   },
   {
     "name": "Chapéu",
@@ -23695,7 +25529,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "chapeu",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2b39c65dafb37247",
+    "_key": "!items!2b39c65dafb37247"
   },
   {
     "name": "Cinto oculto",
@@ -23715,7 +25551,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cinto-oculto",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "8d3743f07253f8c3",
+    "_key": "!items!8d3743f07253f8c3"
   },
   {
     "name": "Cinturão de Adagas",
@@ -23735,7 +25573,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cinturao-de-adagas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "73ce0e39731ea133",
+    "_key": "!items!73ce0e39731ea133"
   },
   {
     "name": "Cinto de Ferramentas",
@@ -23755,7 +25595,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cinto-de-ferramentas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "03c663dfc2bf1b6a",
+    "_key": "!items!03c663dfc2bf1b6a"
   },
   {
     "name": "Corda Grossa (15m)",
@@ -23775,7 +25617,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corda-grossa-15m",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "cc2c1f03e6020d78",
+    "_key": "!items!cc2c1f03e6020d78"
   },
   {
     "name": "Corda simples (15m)",
@@ -23795,7 +25639,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corda-simples-15m",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "58daddc10d828110",
+    "_key": "!items!58daddc10d828110"
   },
   {
     "name": "Kit de Arrombamento",
@@ -23815,7 +25661,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "kit-de-arrombamento",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "1faf3ea510ebde09",
+    "_key": "!items!1faf3ea510ebde09"
   },
   {
     "name": "Kit de Cura",
@@ -23835,7 +25683,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "kit-de-cura",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "d6ce42d976820f8f",
+    "_key": "!items!d6ce42d976820f8f"
   },
   {
     "name": "Martelete",
@@ -23855,7 +25705,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "martelete",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c732a3d12a23ba30",
+    "_key": "!items!c732a3d12a23ba30"
   },
   {
     "name": "Mochila Pequena/embornal",
@@ -23875,7 +25727,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "mochila-pequena-embornal",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "3e30eb2e0a2def0e",
+    "_key": "!items!3e30eb2e0a2def0e"
   },
   {
     "name": "Mochila Grande",
@@ -23895,7 +25749,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "mochila-grande",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "34f11f2e1abebb86",
+    "_key": "!items!34f11f2e1abebb86"
   },
   {
     "name": "Frasco de Cerâmica",
@@ -23915,7 +25771,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "frasco-de-ceramica",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "47ac52a400833cc0",
+    "_key": "!items!47ac52a400833cc0"
   },
   {
     "name": "Frasco de Tinta",
@@ -23935,7 +25793,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "frasco-de-tinta",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "e3e10b9a715c7460",
+    "_key": "!items!e3e10b9a715c7460"
   },
   {
     "name": "Frasco de Vidro",
@@ -23955,7 +25815,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "frasco-de-vidro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "0b6bad14dde14f88",
+    "_key": "!items!0b6bad14dde14f88"
   },
   {
     "name": "Freio, Rédeas e Bocal",
@@ -23975,7 +25837,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "freio-redeas-e-bocal",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "9fe0e1d644d122a8",
+    "_key": "!items!9fe0e1d644d122a8"
   },
   {
     "name": "Garatéia",
@@ -23995,7 +25859,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "garateia",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "573c11337d2be684",
+    "_key": "!items!573c11337d2be684"
   },
   {
     "name": "Garatéia Furtiva",
@@ -24015,7 +25881,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "garateia-furtiva",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2841383afd5ea2f6",
+    "_key": "!items!2841383afd5ea2f6"
   },
   {
     "name": "Garrafa de Cerâmica",
@@ -24035,7 +25903,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "garrafa-de-ceramica",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "acfc596231eefab7",
+    "_key": "!items!acfc596231eefab7"
   },
   {
     "name": "Lampião",
@@ -24055,7 +25925,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lampiao",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "fd9158394afbc1fb",
+    "_key": "!items!fd9158394afbc1fb"
   },
   {
     "name": "Luvas",
@@ -24075,7 +25947,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "luvas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "aee04be57c358c4d",
+    "_key": "!items!aee04be57c358c4d"
   },
   {
     "name": "Luvas de Couro",
@@ -24095,7 +25969,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "luvas-de-couro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "fd8b52acce83f563",
+    "_key": "!items!fd8b52acce83f563"
   },
   {
     "name": "Manto",
@@ -24115,7 +25991,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "manto",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "888e1db1dd564b53",
+    "_key": "!items!888e1db1dd564b53"
   },
   {
     "name": "Mata Borrão",
@@ -24135,7 +26013,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "mata-borrao",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "d52674bbf118dddb",
+    "_key": "!items!d52674bbf118dddb"
   },
   {
     "name": "Odre",
@@ -24155,7 +26035,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "odre",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "f5520a771398b690",
+    "_key": "!items!f5520a771398b690"
   },
   {
     "name": "Óleo combustível",
@@ -24175,7 +26057,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "oleo-combustivel",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "0a6385483e8210cd",
+    "_key": "!items!0a6385483e8210cd"
   },
   {
     "name": "Pá de Acampamento",
@@ -24195,7 +26079,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pa-de-acampamento",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2e65af96866f433f",
+    "_key": "!items!2e65af96866f433f"
   },
   {
     "name": "Papiro",
@@ -24215,7 +26101,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "papiro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "6df79829ae5d2c1d",
+    "_key": "!items!6df79829ae5d2c1d"
   },
   {
     "name": "Pederneira e isqueiro",
@@ -24235,7 +26123,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pederneira-e-isqueiro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "ff2fdd4c7a3f0e1e",
+    "_key": "!items!ff2fdd4c7a3f0e1e"
   },
   {
     "name": "Pelego",
@@ -24255,7 +26145,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pelego",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "78e41b676b8693b2",
+    "_key": "!items!78e41b676b8693b2"
   },
   {
     "name": "Pena",
@@ -24275,7 +26167,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pena",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "d6cde35945f8c37e",
+    "_key": "!items!d6cde35945f8c37e"
   },
   {
     "name": "Pergaminho",
@@ -24295,7 +26189,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pergaminho",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2b8c95e77c3b5320",
+    "_key": "!items!2b8c95e77c3b5320"
   },
   {
     "name": "Pinos Para escalada",
@@ -24315,7 +26211,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pinos-para-escalada",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "722d214d0b621abb",
+    "_key": "!items!722d214d0b621abb"
   },
   {
     "name": "Provisões",
@@ -24335,7 +26233,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "provisoes",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "21511e7cef1f6b24",
+    "_key": "!items!21511e7cef1f6b24"
   },
   {
     "name": "Roupas comuns",
@@ -24355,7 +26255,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "roupas-comuns",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "5b5271188f316951",
+    "_key": "!items!5b5271188f316951"
   },
   {
     "name": "Roupas de festa",
@@ -24375,7 +26277,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "roupas-de-festa",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "5accfef4a8948535",
+    "_key": "!items!5accfef4a8948535"
   },
   {
     "name": "Roupas de viagem",
@@ -24395,7 +26299,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "roupas-de-viagem",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "55cdf444d190f5b9",
+    "_key": "!items!55cdf444d190f5b9"
   },
   {
     "name": "Sela e estribos",
@@ -24415,7 +26321,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "sela-e-estribos",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "7782c06918598f19",
+    "_key": "!items!7782c06918598f19"
   },
   {
     "name": "Tenda Pequena (Uma Pessoa)",
@@ -24435,7 +26343,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tenda-pequena-uma-pessoa",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "6987cde6dc6a07a8",
+    "_key": "!items!6987cde6dc6a07a8"
   },
   {
     "name": "Tenda Média (Duas Pessoas)",
@@ -24455,7 +26365,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tenda-media-duas-pessoas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "22959fe900f69e99",
+    "_key": "!items!22959fe900f69e99"
   },
   {
     "name": "Tenda Grande (Quatro Pessoas)",
@@ -24475,7 +26387,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tenda-grande-quatro-pessoas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "063a76743397bf12",
+    "_key": "!items!063a76743397bf12"
   },
   {
     "name": "Tenda Grupo (Dez Pessoas)",
@@ -24495,7 +26409,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tenda-grupo-dez-pessoas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "30df98aab7fe0c43",
+    "_key": "!items!30df98aab7fe0c43"
   },
   {
     "name": "Tocha",
@@ -24515,7 +26431,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tocha",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "06c4a03ecada029d",
+    "_key": "!items!06c4a03ecada029d"
   },
   {
     "name": "Túnica",
@@ -24535,7 +26453,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tunica",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "848f5fb52f584c91",
+    "_key": "!items!848f5fb52f584c91"
   },
   {
     "name": "Velino",
@@ -24555,7 +26475,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "velino",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2cd9275457ab7106",
+    "_key": "!items!2cd9275457ab7106"
   },
   {
     "name": "Bolanta",
@@ -24575,7 +26497,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bolanta",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "d25adfb71ce83e45",
+    "_key": "!items!d25adfb71ce83e45"
   },
   {
     "name": "Burro",
@@ -24595,7 +26519,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "burro",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "f1c86513b13b962b",
+    "_key": "!items!f1c86513b13b962b"
   },
   {
     "name": "Cavalo Comum",
@@ -24615,7 +26541,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cavalo-comum",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "51a7dd2b0b7b04ed",
+    "_key": "!items!51a7dd2b0b7b04ed"
   },
   {
     "name": "Cavalo de Guerra",
@@ -24635,7 +26563,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cavalo-de-guerra",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "fcf4e359b8f9ec08",
+    "_key": "!items!fcf4e359b8f9ec08"
   },
   {
     "name": "Carroção",
@@ -24655,7 +26585,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "carrocao",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "889f60fc4eedc24b",
+    "_key": "!items!889f60fc4eedc24b"
   },
   {
     "name": "Carroça",
@@ -24675,7 +26607,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "carroca",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "e91794d1b8fdcab9",
+    "_key": "!items!e91794d1b8fdcab9"
   },
   {
     "name": "Carroça Coberta",
@@ -24695,7 +26629,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "carroca-coberta",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "d7d7beb0caca8d40",
+    "_key": "!items!d7d7beb0caca8d40"
   },
   {
     "name": "Carruagem",
@@ -24715,7 +26651,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "carruagem",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "702dedc81294087d",
+    "_key": "!items!702dedc81294087d"
   },
   {
     "name": "Carruagem Nobre",
@@ -24735,7 +26673,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "carruagem-nobre",
         "categoria": "Montaria"
       }
-    }
+    },
+    "_id": "265791cd02dd445b",
+    "_key": "!items!265791cd02dd445b"
   },
   {
     "name": "Banho Frio",
@@ -24755,7 +26695,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "banho-frio",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "995063d25ddbd50f",
+    "_key": "!items!995063d25ddbd50f"
   },
   {
     "name": "Banho Quente",
@@ -24775,7 +26717,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "banho-quente",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "db97ad70ef902583",
+    "_key": "!items!db97ad70ef902583"
   },
   {
     "name": "Caneco de Cerveja",
@@ -24795,7 +26739,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "caneco-de-cerveja",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "b2222624ff03278c",
+    "_key": "!items!b2222624ff03278c"
   },
   {
     "name": "Caneco de Vinho",
@@ -24815,7 +26761,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "caneco-de-vinho",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "655d4f806483b52a",
+    "_key": "!items!655d4f806483b52a"
   },
   {
     "name": "Caneco de Grog",
@@ -24835,7 +26783,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "caneco-de-grog",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "81149b6dcaa8b312",
+    "_key": "!items!81149b6dcaa8b312"
   },
   {
     "name": "Caneco de Licor",
@@ -24855,7 +26805,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "caneco-de-licor",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "96559c64fe559982",
+    "_key": "!items!96559c64fe559982"
   },
   {
     "name": "Catre",
@@ -24875,7 +26827,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "catre",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "71a6d04900c4d16b",
+    "_key": "!items!71a6d04900c4d16b"
   },
   {
     "name": "Estábulo",
@@ -24895,7 +26849,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "estabulo",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "0eaa2836e99ac045",
+    "_key": "!items!0eaa2836e99ac045"
   },
   {
     "name": "Provisão para Viagem",
@@ -24915,7 +26871,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "provisao-para-viagem",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "fe84a1f425c4f248",
+    "_key": "!items!fe84a1f425c4f248"
   },
   {
     "name": "Refeição Simples",
@@ -24935,7 +26893,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "refeicao-simples",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "d49c5ba69c15a90b",
+    "_key": "!items!d49c5ba69c15a90b"
   },
   {
     "name": "Refeição Quente",
@@ -24955,7 +26915,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "refeicao-quente",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "79491c52a81f4393",
+    "_key": "!items!79491c52a81f4393"
   },
   {
     "name": "Refeição Completa",
@@ -24975,7 +26937,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "refeicao-completa",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "b04dda2e9284027c",
+    "_key": "!items!b04dda2e9284027c"
   },
   {
     "name": "Banquete",
@@ -24995,7 +26959,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "banquete",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "86542e200ad5bd2e",
+    "_key": "!items!86542e200ad5bd2e"
   },
   {
     "name": "Camarote",
@@ -25015,7 +26981,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "camarote",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "11a7a96536c6f7b6",
+    "_key": "!items!11a7a96536c6f7b6"
   },
   {
     "name": "Comida e água para cavalos",
@@ -25035,7 +27003,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "comida-e-agua-para-cavalos",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "9a5241a60decd110",
+    "_key": "!items!9a5241a60decd110"
   },
   {
     "name": "Lavanderia",
@@ -25055,7 +27025,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lavanderia",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "7959577f75e21432",
+    "_key": "!items!7959577f75e21432"
   },
   {
     "name": "Passagem Comum",
@@ -25075,7 +27047,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "passagem-comum",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "75d42957649850bb",
+    "_key": "!items!75d42957649850bb"
   },
   {
     "name": "Passagem Completa",
@@ -25095,7 +27069,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "passagem-completa",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "e6fd83c12253fc2f",
+    "_key": "!items!e6fd83c12253fc2f"
   },
   {
     "name": "Passagem Especial",
@@ -25115,7 +27091,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "passagem-especial",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "c7c5af9b898642fd",
+    "_key": "!items!c7c5af9b898642fd"
   },
   {
     "name": "Passagem Privativa",
@@ -25135,7 +27113,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "passagem-privativa",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "0f07486c494aecbb",
+    "_key": "!items!0f07486c494aecbb"
   },
   {
     "name": "Quarto Comunal",
@@ -25155,7 +27135,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "quarto-comunal",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "0bb845559c0ce795",
+    "_key": "!items!0bb845559c0ce795"
   },
   {
     "name": "Quarto comum",
@@ -25175,7 +27157,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "quarto-comum",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "2b65558e979418ea",
+    "_key": "!items!2b65558e979418ea"
   },
   {
     "name": "Quarto grande",
@@ -25195,7 +27179,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "quarto-grande",
         "categoria": "Servico"
       }
-    }
+    },
+    "_id": "f76856732708b99b",
+    "_key": "!items!f76856732708b99b"
   },
   {
     "name": "Quarto comum para quatro pessoas",
@@ -25215,7 +27201,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "quarto-comum-para-quatro-pessoas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "baf8bfb4b4984c94",
+    "_key": "!items!baf8bfb4b4984c94"
   },
   {
     "name": "Quarto grande para oito pessoas",
@@ -25235,7 +27223,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "quarto-grande-para-oito-pessoas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "e2e2416b16cad503",
+    "_key": "!items!e2e2416b16cad503"
   },
   {
     "name": "Antídoto Avançado",
@@ -25255,7 +27245,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "antidoto-avancado",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "61360036cc5ad5d5",
+    "_key": "!items!61360036cc5ad5d5"
   },
   {
     "name": "Antídoto Cola-Carne",
@@ -25275,7 +27267,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "antidoto-cola-carne",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "a138a39ba64e8e45",
+    "_key": "!items!a138a39ba64e8e45"
   },
   {
     "name": "Antídoto Universal",
@@ -25295,7 +27289,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "antidoto-universal",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "1dddfead8706e4d4",
+    "_key": "!items!1dddfead8706e4d4"
   },
   {
     "name": "Elixir da Agilidade",
@@ -25315,7 +27311,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-agilidade",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "7425c3a6a15b948c",
+    "_key": "!items!7425c3a6a15b948c"
   },
   {
     "name": "Elixir da Força",
@@ -25335,7 +27333,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-forca",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "265466b482c25cc2",
+    "_key": "!items!265466b482c25cc2"
   },
   {
     "name": "Elixir da Inteligência",
@@ -25355,7 +27355,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-inteligencia",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "49aeef0fbfd4cf0d",
+    "_key": "!items!49aeef0fbfd4cf0d"
   },
   {
     "name": "Elixir da Restauração",
@@ -25375,7 +27377,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-restauracao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "13262915a3b31ce5",
+    "_key": "!items!13262915a3b31ce5"
   },
   {
     "name": "Elixir da Restauração Maior",
@@ -25395,7 +27399,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-restauracao-maior",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "fdc2b3ceaef6db95",
+    "_key": "!items!fdc2b3ceaef6db95"
   },
   {
     "name": "Elixir da Praga",
@@ -25415,7 +27421,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-praga",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "6604186bf4d84a0b",
+    "_key": "!items!6604186bf4d84a0b"
   },
   {
     "name": "Extrato da Praga",
@@ -25435,7 +27443,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-da-praga",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "16146956d765a7c1",
+    "_key": "!items!16146956d765a7c1"
   },
   {
     "name": "Extrato do Espião",
@@ -25455,7 +27465,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-do-espiao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "bbf7508a3c9b85f6",
+    "_key": "!items!bbf7508a3c9b85f6"
   },
   {
     "name": "Extrato da Petrificação",
@@ -25475,7 +27487,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-da-petrificacao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "f33c082b075807d9",
+    "_key": "!items!f33c082b075807d9"
   },
   {
     "name": "Extrato Fantasma",
@@ -25495,7 +27509,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-fantasma",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "64ee2a0c0570ecf2",
+    "_key": "!items!64ee2a0c0570ecf2"
   },
   {
     "name": "Veneno da Podridão",
@@ -25515,7 +27531,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-da-podridao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "f41c8068394fcc5b",
+    "_key": "!items!f41c8068394fcc5b"
   },
   {
     "name": "Veneno de Glycon",
@@ -25535,7 +27553,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-de-glycon",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "cc716f8f6e0612f7",
+    "_key": "!items!cc716f8f6e0612f7"
   },
   {
     "name": "Veneno de Koth",
@@ -25555,7 +27575,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-de-koth",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "7c7a626ff9619959",
+    "_key": "!items!7c7a626ff9619959"
   },
   {
     "name": "Elixir da Levitação",
@@ -25575,7 +27597,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-levitacao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "b74fb5c74fbe17e6",
+    "_key": "!items!b74fb5c74fbe17e6"
   },
   {
     "name": "Elixir da Velocidade",
@@ -25595,7 +27619,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-velocidade",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "8f02ebe4e4d7f512",
+    "_key": "!items!8f02ebe4e4d7f512"
   },
   {
     "name": "Elixir da Vontade",
@@ -25615,7 +27641,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-da-vontade",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "d4b1814346cfd365",
+    "_key": "!items!d4b1814346cfd365"
   },
   {
     "name": "Elixir de Axalote",
@@ -25635,7 +27663,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-de-axalote",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "ad9a281a3ca51a88",
+    "_key": "!items!ad9a281a3ca51a88"
   },
   {
     "name": "Elixir de Cura",
@@ -25655,7 +27685,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-de-cura",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "66f6c584a4835167",
+    "_key": "!items!66f6c584a4835167"
   },
   {
     "name": "Elixir de Cura Maior",
@@ -25675,7 +27707,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-de-cura-maior",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "fa4a86af3f60fb23",
+    "_key": "!items!fa4a86af3f60fb23"
   },
   {
     "name": "Elixir de Mana",
@@ -25695,7 +27729,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-de-mana",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "ddce3d8694936334",
+    "_key": "!items!ddce3d8694936334"
   },
   {
     "name": "Elixir de Mana Maior",
@@ -25715,7 +27751,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-de-mana-maior",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "60588b372f338e80",
+    "_key": "!items!60588b372f338e80"
   },
   {
     "name": "Elixir do Dragão Branco",
@@ -25735,7 +27773,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-do-dragao-branco",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "8432c661075777e7",
+    "_key": "!items!8432c661075777e7"
   },
   {
     "name": "Elixir do Dragão Vermelho",
@@ -25755,7 +27795,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-do-dragao-vermelho",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "c8679910de8a51e2",
+    "_key": "!items!c8679910de8a51e2"
   },
   {
     "name": "Elixir dos Deuses",
@@ -25775,7 +27817,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "elixir-dos-deuses",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "eba28bcdbd6e0e6a",
+    "_key": "!items!eba28bcdbd6e0e6a"
   },
   {
     "name": "Extrato Ácido",
@@ -25795,7 +27839,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-acido",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "1ce3cc830b17fc1d",
+    "_key": "!items!1ce3cc830b17fc1d"
   },
   {
     "name": "Extrato Congelante",
@@ -25815,7 +27861,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-congelante",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "27a9ce5c783fdb7e",
+    "_key": "!items!27a9ce5c783fdb7e"
   },
   {
     "name": "Extrato da Res. à Eletricidade",
@@ -25835,7 +27883,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-da-res-a-eletricidade",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "0d203989835ea4e0",
+    "_key": "!items!0d203989835ea4e0"
   },
   {
     "name": "Extrato da Resistência ao Fogo",
@@ -25855,7 +27905,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-da-resistencia-ao-fogo",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "fb43368a7d432e10",
+    "_key": "!items!fb43368a7d432e10"
   },
   {
     "name": "Extrato da Resistência ao Frio",
@@ -25875,7 +27927,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-da-resistencia-ao-frio",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "61ad947d89e184ad",
+    "_key": "!items!61ad947d89e184ad"
   },
   {
     "name": "Extrato do Retorno",
@@ -25895,7 +27949,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-do-retorno",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "aca9d9c656062b44",
+    "_key": "!items!aca9d9c656062b44"
   },
   {
     "name": "Extrato Explosivo Maior",
@@ -25915,7 +27971,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-explosivo-maior",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "38696d074f619c4a",
+    "_key": "!items!38696d074f619c4a"
   },
   {
     "name": "Extrato Explosivo Menor",
@@ -25935,7 +27993,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-explosivo-menor",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "c8c02bc64ee2261d",
+    "_key": "!items!c8c02bc64ee2261d"
   },
   {
     "name": "Extrato Luminoso",
@@ -25955,7 +28015,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-luminoso",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "3803cb837241a5b0",
+    "_key": "!items!3803cb837241a5b0"
   },
   {
     "name": "Extrato Regenerativo",
@@ -25975,7 +28037,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "extrato-regenerativo",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "866372e9af3b2bea",
+    "_key": "!items!866372e9af3b2bea"
   },
   {
     "name": "Poção do Caos",
@@ -25995,7 +28059,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pocao-do-caos",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "3f03659899a55302",
+    "_key": "!items!3f03659899a55302"
   },
   {
     "name": "Veneno da Lentidão",
@@ -26015,7 +28081,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-da-lentidao",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "85720803f985e2dd",
+    "_key": "!items!85720803f985e2dd"
   },
   {
     "name": "Veneno da Verdade",
@@ -26035,7 +28103,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-da-verdade",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "6eac2cca08ed49c1",
+    "_key": "!items!6eac2cca08ed49c1"
   },
   {
     "name": "Veneno Paralisante",
@@ -26055,7 +28125,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-paralisante",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "5229901e1c6dec0a",
+    "_key": "!items!5229901e1c6dec0a"
   },
   {
     "name": "Veneno Potente",
@@ -26075,7 +28147,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-potente",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "ab08151c8eaca50a",
+    "_key": "!items!ab08151c8eaca50a"
   },
   {
     "name": "Veneno Real",
@@ -26095,7 +28169,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-real",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "1fa6011e5fe91df0",
+    "_key": "!items!1fa6011e5fe91df0"
   },
   {
     "name": "Veneno Sonífero",
@@ -26115,7 +28191,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-sonifero",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "5e496669756afc52",
+    "_key": "!items!5e496669756afc52"
   },
   {
     "name": "Veneno Torturante",
@@ -26135,7 +28213,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-torturante",
         "categoria": "Pocao"
       }
-    }
+    },
+    "_id": "4d56b9a20cd38d57",
+    "_key": "!items!4d56b9a20cd38d57"
   },
   {
     "name": "Asa de Morcego",
@@ -26155,7 +28235,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "asa-de-morcego",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "ce6c87694c6f94f5",
+    "_key": "!items!ce6c87694c6f94f5"
   },
   {
     "name": "Azeviche",
@@ -26175,7 +28257,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "azeviche",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "eddbc2aeaf8d73b3",
+    "_key": "!items!eddbc2aeaf8d73b3"
   },
   {
     "name": "Cogumelo Vermelho",
@@ -26195,7 +28279,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cogumelo-vermelho",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "9bc8c51d0754456b",
+    "_key": "!items!9bc8c51d0754456b"
   },
   {
     "name": "Coração de Grifo",
@@ -26215,7 +28301,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "coracao-de-grifo",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "a6b17b8cc614949e",
+    "_key": "!items!a6b17b8cc614949e"
   },
   {
     "name": "Dente de Dragão",
@@ -26235,7 +28323,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "dente-de-dragao",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "dd38ec94fd313db4",
+    "_key": "!items!dd38ec94fd313db4"
   },
   {
     "name": "Enxofre",
@@ -26255,7 +28345,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "enxofre",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "b7a4c298f31f2813",
+    "_key": "!items!b7a4c298f31f2813"
   },
   {
     "name": "Erva da Lua",
@@ -26275,7 +28367,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "erva-da-lua",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "02f848d9c5fdff74",
+    "_key": "!items!02f848d9c5fdff74"
   },
   {
     "name": "Erva dos Passos",
@@ -26295,7 +28389,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "erva-dos-passos",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "dbcd5a6581b946ea",
+    "_key": "!items!dbcd5a6581b946ea"
   },
   {
     "name": "Flor de Argusia",
@@ -26315,7 +28411,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flor-de-argusia",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "a6d58f435b669eda",
+    "_key": "!items!a6d58f435b669eda"
   },
   {
     "name": "Flor de Isura",
@@ -26335,7 +28433,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "flor-de-isura",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "d584d95db211a530",
+    "_key": "!items!d584d95db211a530"
   },
   {
     "name": "Folha de Eucalipto",
@@ -26355,7 +28455,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "folha-de-eucalipto",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "8ee3ee105e9f0b9c",
+    "_key": "!items!8ee3ee105e9f0b9c"
   },
   {
     "name": "Folha de Garraka",
@@ -26375,7 +28477,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "folha-de-garraka",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "6cfba9836ff9a3fa",
+    "_key": "!items!6cfba9836ff9a3fa"
   },
   {
     "name": "Folha de Oliveira",
@@ -26395,7 +28499,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "folha-de-oliveira",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "1d772619e12734c4",
+    "_key": "!items!1d772619e12734c4"
   },
   {
     "name": "Glândula de Pirilampo",
@@ -26415,7 +28521,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "glandula-de-pirilampo",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "ca5b780bf39fb56d",
+    "_key": "!items!ca5b780bf39fb56d"
   },
   {
     "name": "Olho de Basilisco",
@@ -26435,7 +28543,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "olho-de-basilisco",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "5656a4a42f6c2670",
+    "_key": "!items!5656a4a42f6c2670"
   },
   {
     "name": "Ossos de Hidra",
@@ -26455,7 +28565,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "ossos-de-hidra",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "ec126631f4fcf6a1",
+    "_key": "!items!ec126631f4fcf6a1"
   },
   {
     "name": "Pele de Camaleão",
@@ -26475,7 +28587,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pele-de-camaleao",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "a074afc0ec87cb1a",
+    "_key": "!items!a074afc0ec87cb1a"
   },
   {
     "name": "Pó de Âmbar",
@@ -26495,7 +28609,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "po-de-ambar",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "5b42fc7e361d2371",
+    "_key": "!items!5b42fc7e361d2371"
   },
   {
     "name": "Pó de Obsidiana",
@@ -26515,7 +28631,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "po-de-obsidiana",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "90c5fb307792ca63",
+    "_key": "!items!90c5fb307792ca63"
   },
   {
     "name": "Pó de Pirita",
@@ -26535,7 +28653,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "po-de-pirita",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "9dfa3b8c64ed05e2",
+    "_key": "!items!9dfa3b8c64ed05e2"
   },
   {
     "name": "Rabo de Salamandra",
@@ -26555,7 +28675,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "rabo-de-salamandra",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "0432a0429c5dedc0",
+    "_key": "!items!0432a0429c5dedc0"
   },
   {
     "name": "Raiz de Carvalho",
@@ -26575,7 +28697,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "raiz-de-carvalho",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "c89fcbdf6e5892f7",
+    "_key": "!items!c89fcbdf6e5892f7"
   },
   {
     "name": "Raiz de Mandrágora",
@@ -26595,7 +28719,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "raiz-de-mandragora",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "36f254a649133a41",
+    "_key": "!items!36f254a649133a41"
   },
   {
     "name": "Tarântula",
@@ -26615,7 +28741,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tarantula",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "a8b9cf2354803aad",
+    "_key": "!items!a8b9cf2354803aad"
   },
   {
     "name": "Trevo de Quatro Folhas",
@@ -26635,7 +28763,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "trevo-de-quatro-folhas",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "e56365c9588ab55a",
+    "_key": "!items!e56365c9588ab55a"
   },
   {
     "name": "Veneno de Cobra",
@@ -26655,7 +28785,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-de-cobra",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "a65a0298a8e2d0ad",
+    "_key": "!items!a65a0298a8e2d0ad"
   },
   {
     "name": "Veneno de Escorpião",
@@ -26675,7 +28807,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-de-escorpiao",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "90186b78cea29cbe",
+    "_key": "!items!90186b78cea29cbe"
   },
   {
     "name": "Veneno de Planta Assassina",
@@ -26695,7 +28829,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "veneno-de-planta-assassina",
         "categoria": "Ingrediente"
       }
-    }
+    },
+    "_id": "9d7f712b0b9daf27",
+    "_key": "!items!9d7f712b0b9daf27"
   },
   {
     "name": "Agulhas",
@@ -26715,7 +28851,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "agulhas",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "620be3e4b5026478",
+    "_key": "!items!620be3e4b5026478"
   },
   {
     "name": "Almofariz",
@@ -26735,7 +28873,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "almofariz",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "a33c52221510cd8e",
+    "_key": "!items!a33c52221510cd8e"
   },
   {
     "name": "Ampulheta",
@@ -26755,7 +28895,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "ampulheta",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "25c4b0fc1e515580",
+    "_key": "!items!25c4b0fc1e515580"
   },
   {
     "name": "Anel",
@@ -26775,7 +28917,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "anel",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c5bb8a3325a4a6d0",
+    "_key": "!items!c5bb8a3325a4a6d0"
   },
   {
     "name": "Armadura Animal (Batalha)",
@@ -26795,7 +28939,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-animal-batalha",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "95ee503d031d2fb9",
+    "_key": "!items!95ee503d031d2fb9"
   },
   {
     "name": "Armadura Animal (Completa)",
@@ -26815,7 +28961,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-animal-completa",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c6811fdcd4d3f715",
+    "_key": "!items!c6811fdcd4d3f715"
   },
   {
     "name": "Armadura Animal (Couro)",
@@ -26835,7 +28983,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-animal-couro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "5404ca4fbb73cec4",
+    "_key": "!items!5404ca4fbb73cec4"
   },
   {
     "name": "Armadura Animal (Simples)",
@@ -26855,7 +29005,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "armadura-animal-simples",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "92bc2883c28b824d",
+    "_key": "!items!92bc2883c28b824d"
   },
   {
     "name": "Astrolábio",
@@ -26875,7 +29027,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "astrolabio",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "cf4662d34c7783fa",
+    "_key": "!items!cf4662d34c7783fa"
   },
   {
     "name": "Balança",
@@ -26895,7 +29049,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "balanca",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "716145d733302fca",
+    "_key": "!items!716145d733302fca"
   },
   {
     "name": "Balão de Vidro",
@@ -26915,7 +29071,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "balao-de-vidro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "4e95411fe247357b",
+    "_key": "!items!4e95411fe247357b"
   },
   {
     "name": "Baralho",
@@ -26935,7 +29093,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "baralho",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "a8e032e870ded85b",
+    "_key": "!items!a8e032e870ded85b"
   },
   {
     "name": "Barra de Giz",
@@ -26955,7 +29115,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "barra-de-giz",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "42706cf984dfdac5",
+    "_key": "!items!42706cf984dfdac5"
   },
   {
     "name": "Brinco",
@@ -26975,7 +29137,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "brinco",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "6bea91ebe128c5d3",
+    "_key": "!items!6bea91ebe128c5d3"
   },
   {
     "name": "Broche",
@@ -26995,7 +29159,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "broche",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "98c5a64b6629345a",
+    "_key": "!items!98c5a64b6629345a"
   },
   {
     "name": "Bule de Peltre",
@@ -27015,7 +29181,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bule-de-peltre",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "4f0f503bdb577e1b",
+    "_key": "!items!4f0f503bdb577e1b"
   },
   {
     "name": "Buril",
@@ -27035,7 +29203,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "buril",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "8d7a53de86903b2c",
+    "_key": "!items!8d7a53de86903b2c"
   },
   {
     "name": "Bússola",
@@ -27055,7 +29225,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bussola",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "e699b74c7498abde",
+    "_key": "!items!e699b74c7498abde"
   },
   {
     "name": "Cadinho",
@@ -27075,7 +29247,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cadinho",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "d764cac1765a12ec",
+    "_key": "!items!d764cac1765a12ec"
   },
   {
     "name": "Carretel",
@@ -27095,7 +29269,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "carretel",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "d5f1ae4c51a93628",
+    "_key": "!items!d5f1ae4c51a93628"
   },
   {
     "name": "Compasso",
@@ -27115,7 +29291,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "compasso",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "1ac9b4ccd149dcdc",
+    "_key": "!items!1ac9b4ccd149dcdc"
   },
   {
     "name": "Condensador",
@@ -27135,7 +29313,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "condensador",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "cd22e4ee5809aa7a",
+    "_key": "!items!cd22e4ee5809aa7a"
   },
   {
     "name": "Corda Grossa (15m)",
@@ -27155,7 +29335,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corda-grossa-15m",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "cc2c1f03e6020d78",
+    "_key": "!items!cc2c1f03e6020d78"
   },
   {
     "name": "Corda simples (15m)",
@@ -27175,7 +29357,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corda-simples-15m",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "58daddc10d828110",
+    "_key": "!items!58daddc10d828110"
   },
   {
     "name": "Coroa",
@@ -27195,7 +29379,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "coroa",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "aefeebc5c8ad9eca",
+    "_key": "!items!aefeebc5c8ad9eca"
   },
   {
     "name": "Corrente",
@@ -27215,7 +29401,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corrente",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "988691bd66464b11",
+    "_key": "!items!988691bd66464b11"
   },
   {
     "name": "Dados",
@@ -27235,7 +29423,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "dados",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "9227cab2edaf20fd",
+    "_key": "!items!9227cab2edaf20fd"
   },
   {
     "name": "Dados Viciados",
@@ -27255,7 +29445,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "dados-viciados",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "792aa5b75b6e735a",
+    "_key": "!items!792aa5b75b6e735a"
   },
   {
     "name": "Diadema",
@@ -27275,7 +29467,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "diadema",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "f4de34e68bec03a4",
+    "_key": "!items!f4de34e68bec03a4"
   },
   {
     "name": "Diamante",
@@ -27295,7 +29489,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "diamante",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "4a16209da9e51f85",
+    "_key": "!items!4a16209da9e51f85"
   },
   {
     "name": "Distintivo",
@@ -27315,7 +29511,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "distintivo",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "0a0df4477461dba0",
+    "_key": "!items!0a0df4477461dba0"
   },
   {
     "name": "Esmeralda",
@@ -27335,7 +29533,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "esmeralda",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "b5d78027fe299347",
+    "_key": "!items!b5d78027fe299347"
   },
   {
     "name": "Espelho",
@@ -27355,7 +29555,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "espelho",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "6762a03634c74167",
+    "_key": "!items!6762a03634c74167"
   },
   {
     "name": "Espiriteira",
@@ -27375,7 +29577,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "espiriteira",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "6b077ed0723cdaf0",
+    "_key": "!items!6b077ed0723cdaf0"
   },
   {
     "name": "Esquadro",
@@ -27395,7 +29599,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "esquadro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "51dc0eb9cbe49ba8",
+    "_key": "!items!51dc0eb9cbe49ba8"
   },
   {
     "name": "Estatueta",
@@ -27415,7 +29621,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "estatueta",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "5865a6984f2f01b3",
+    "_key": "!items!5865a6984f2f01b3"
   },
   {
     "name": "Faca",
@@ -27435,7 +29643,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "faca",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "52876f000910e938",
+    "_key": "!items!52876f000910e938"
   },
   {
     "name": "Formão/cinzel",
@@ -27455,7 +29665,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "formao-cinzel",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "178f56ebc7c04e82",
+    "_key": "!items!178f56ebc7c04e82"
   },
   {
     "name": "Guaiaca",
@@ -27475,7 +29687,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "guaiaca",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c77a6992033495ba",
+    "_key": "!items!c77a6992033495ba"
   },
   {
     "name": "Instrumentos de Alvenaria",
@@ -27495,7 +29709,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-alvenaria",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "fff17f18c7986c12",
+    "_key": "!items!fff17f18c7986c12"
   },
   {
     "name": "Instrumentos de Cartografia",
@@ -27515,7 +29731,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-cartografia",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "33435787f5c0b14d",
+    "_key": "!items!33435787f5c0b14d"
   },
   {
     "name": "Instrumentos de Cerâmica",
@@ -27535,7 +29753,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-ceramica",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "b46ab952f8340eb8",
+    "_key": "!items!b46ab952f8340eb8"
   },
   {
     "name": "Instrumentos de Costura",
@@ -27555,7 +29775,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-costura",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "3f4f5a0386d39b8c",
+    "_key": "!items!3f4f5a0386d39b8c"
   },
   {
     "name": "Instrumentos de Escrita",
@@ -27575,7 +29797,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-escrita",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "2ce2b47b178901f8",
+    "_key": "!items!2ce2b47b178901f8"
   },
   {
     "name": "Instrumentos de Forja",
@@ -27595,7 +29819,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-forja",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "ae767fffa8c3b1c5",
+    "_key": "!items!ae767fffa8c3b1c5"
   },
   {
     "name": "Instrumentos de Precisão",
@@ -27615,7 +29841,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-precisao",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "75329a3dc33b59f1",
+    "_key": "!items!75329a3dc33b59f1"
   },
   {
     "name": "Instrumentos de Talha",
@@ -27635,7 +29863,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "instrumentos-de-talha",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "698339263817e284",
+    "_key": "!items!698339263817e284"
   },
   {
     "name": "Kit de Cartografia",
@@ -27655,7 +29885,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "kit-de-cartografia",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "99119105f63db8c3",
+    "_key": "!items!99119105f63db8c3"
   },
   {
     "name": "Kit de Escalada",
@@ -27675,7 +29907,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "kit-de-escalada",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "ad9d0a274aec4404",
+    "_key": "!items!ad9d0a274aec4404"
   },
   {
     "name": "Laboratório de Alquimia Portátil",
@@ -27695,7 +29929,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "laboratorio-de-alquimia-portatil",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "f49efb30c897fd18",
+    "_key": "!items!f49efb30c897fd18"
   },
   {
     "name": "Lima",
@@ -27715,7 +29951,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lima",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c51c6bcf94a200db",
+    "_key": "!items!c51c6bcf94a200db"
   },
   {
     "name": "Lupa",
@@ -27735,7 +29973,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "lupa",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "75c10e6bbdf0ccb0",
+    "_key": "!items!75c10e6bbdf0ccb0"
   },
   {
     "name": "Manto da Fênix",
@@ -27755,7 +29995,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "manto-da-fenix",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "b0a1af182cafdc21",
+    "_key": "!items!b0a1af182cafdc21"
   },
   {
     "name": "Medalhão",
@@ -27775,7 +30017,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "medalhao",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "de659a65fd95c0d0",
+    "_key": "!items!de659a65fd95c0d0"
   },
   {
     "name": "Mochila Pequena/Embornal",
@@ -27795,7 +30039,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "mochila-pequena-embornal",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "3e30eb2e0a2def0e",
+    "_key": "!items!3e30eb2e0a2def0e"
   },
   {
     "name": "Pente",
@@ -27815,7 +30061,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pente",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "0b9e89ecd4f2f96a",
+    "_key": "!items!0b9e89ecd4f2f96a"
   },
   {
     "name": "Picareta",
@@ -27835,7 +30083,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "picareta",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "e14bb61feff0bf93",
+    "_key": "!items!e14bb61feff0bf93"
   },
   {
     "name": "Pincel",
@@ -27855,7 +30105,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pincel",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "598c0a31e6c9061b",
+    "_key": "!items!598c0a31e6c9061b"
   },
   {
     "name": "Pingente",
@@ -27875,7 +30127,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pingente",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "c355c8d27ac8173e",
+    "_key": "!items!c355c8d27ac8173e"
   },
   {
     "name": "Pinos de Aço",
@@ -27895,7 +30149,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pinos-de-aco",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "a277f61ccc5a86e5",
+    "_key": "!items!a277f61ccc5a86e5"
   },
   {
     "name": "Pregos",
@@ -27915,7 +30171,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pregos",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "d76980df44ae84bf",
+    "_key": "!items!d76980df44ae84bf"
   },
   {
     "name": "Pulseira",
@@ -27935,7 +30193,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "pulseira",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "7b8aae0e5fa6e1dc",
+    "_key": "!items!7b8aae0e5fa6e1dc"
   },
   {
     "name": "Quartzo",
@@ -27955,7 +30215,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "quartzo",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "569563ab73dca917",
+    "_key": "!items!569563ab73dca917"
   },
   {
     "name": "Regua",
@@ -27975,7 +30237,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "regua",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "747c09b276491269",
+    "_key": "!items!747c09b276491269"
   },
   {
     "name": "Rubi",
@@ -27995,7 +30259,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "rubi",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "0de60409a1d40e90",
+    "_key": "!items!0de60409a1d40e90"
   },
   {
     "name": "Safira",
@@ -28015,7 +30281,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "safira",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "1ee45d511a92ba69",
+    "_key": "!items!1ee45d511a92ba69"
   },
   {
     "name": "Sextante",
@@ -28035,7 +30303,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "sextante",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "92dbfbc055c6020d",
+    "_key": "!items!92dbfbc055c6020d"
   },
   {
     "name": "Soprador de vidro",
@@ -28055,7 +30325,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "soprador-de-vidro",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "870635e8aeb85f89",
+    "_key": "!items!870635e8aeb85f89"
   },
   {
     "name": "Sovela",
@@ -28075,7 +30347,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "sovela",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "a5c40dcfd4d3c5bb",
+    "_key": "!items!a5c40dcfd4d3c5bb"
   },
   {
     "name": "Tabarda",
@@ -28095,7 +30369,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tabarda",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "e1957a13ab248676",
+    "_key": "!items!e1957a13ab248676"
   },
   {
     "name": "Tenazes",
@@ -28115,7 +30391,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "tenazes",
         "categoria": "Mundano"
       }
-    }
+    },
+    "_id": "664ffc1712f52c0c",
+    "_key": "!items!664ffc1712f52c0c"
   },
   {
     "name": "Amuleto Holdan",
@@ -28135,7 +30413,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "amuleto-holdan",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "f7764bca3cd65eeb",
+    "_key": "!items!f7764bca3cd65eeb"
   },
   {
     "name": "Amuleto dos Mortos",
@@ -28155,7 +30435,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "amuleto-dos-mortos",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "6b0069bc9e9d1d80",
+    "_key": "!items!6b0069bc9e9d1d80"
   },
   {
     "name": "Anel da Invisibilidade",
@@ -28175,7 +30457,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "anel-da-invisibilidade",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "46745d3eba54bd12",
+    "_key": "!items!46745d3eba54bd12"
   },
   {
     "name": "Bolsa do Espaço Infinito",
@@ -28195,7 +30479,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "bolsa-do-espaco-infinito",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "66d4b65b12776740",
+    "_key": "!items!66d4b65b12776740"
   },
   {
     "name": "Botas da Furtividade",
@@ -28215,7 +30501,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "botas-da-furtividade",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "3846652fdaca7a53",
+    "_key": "!items!3846652fdaca7a53"
   },
   {
     "name": "Cesta das Infinitas Tortas",
@@ -28235,7 +30523,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cesta-das-infinitas-tortas",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "410cb6e2110c15f4",
+    "_key": "!items!410cb6e2110c15f4"
   },
   {
     "name": "Cinto da Força",
@@ -28255,7 +30545,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "cinto-da-forca",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "20c4b28ec04e5395",
+    "_key": "!items!20c4b28ec04e5395"
   },
   {
     "name": "Coroa da Inteligência",
@@ -28275,7 +30567,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "coroa-da-inteligencia",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "4651a94c8aca25cf",
+    "_key": "!items!4651a94c8aca25cf"
   },
   {
     "name": "Corrente da Vontade",
@@ -28295,7 +30589,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "corrente-da-vontade",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "e3d5c48aceb6f8fb",
+    "_key": "!items!e3d5c48aceb6f8fb"
   },
   {
     "name": "Grevas de Chutar Goblins",
@@ -28315,7 +30611,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "grevas-de-chutar-goblins",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "de3d0c80e757ccaa",
+    "_key": "!items!de3d0c80e757ccaa"
   },
   {
     "name": "Espelhos Mensageiros",
@@ -28335,7 +30633,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "espelhos-mensageiros",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "3752c4003de57ba3",
+    "_key": "!items!3752c4003de57ba3"
   },
   {
     "name": "Luvas da Agilidade",
@@ -28355,7 +30655,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "luvas-da-agilidade",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "197626d3b698b746",
+    "_key": "!items!197626d3b698b746"
   },
   {
     "name": "Manto da Proteção",
@@ -28375,7 +30677,9 @@ export const CANONICAL_EQUIPAMENTOS = [
         "slug": "manto-da-protecao",
         "categoria": "Especial"
       }
-    }
+    },
+    "_id": "b56f43540c5166ac",
+    "_key": "!items!b56f43540c5166ac"
   }
 ];
 
@@ -28400,7 +30704,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "anao"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.2144ce127b87fcd3"
       },
       {
         "_id": "32d8d2a16222e5ca",
@@ -28418,7 +30723,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "elfo"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.32d8d2a16222e5ca"
       },
       {
         "_id": "e76099ac2e088c48",
@@ -28436,7 +30742,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "fauno"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.e76099ac2e088c48"
       },
       {
         "_id": "bafa9beb4b611778",
@@ -28454,7 +30761,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "humano"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.bafa9beb4b611778"
       },
       {
         "_id": "1e6181688e19d803",
@@ -28472,7 +30780,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "juban"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.1e6181688e19d803"
       },
       {
         "_id": "9600fa2def3af564",
@@ -28490,7 +30799,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "tailox"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.9600fa2def3af564"
       },
       {
         "_id": "d3e4671913f71c18",
@@ -28508,7 +30818,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "aesir"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.d3e4671913f71c18"
       },
       {
         "_id": "1e532d2d63cf799b",
@@ -28526,7 +30837,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "asterio-m"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.1e532d2d63cf799b"
       },
       {
         "_id": "f9dd890defe35b71",
@@ -28544,7 +30856,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "asteria-f"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.f9dd890defe35b71"
       },
       {
         "_id": "4a7565af3ced09f4",
@@ -28562,7 +30875,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "centauro"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.4a7565af3ced09f4"
       },
       {
         "_id": "8397aefff567f867",
@@ -28580,7 +30894,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "dragano"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.8397aefff567f867"
       },
       {
         "_id": "0d19393e4e285a31",
@@ -28598,7 +30913,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "faen"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.0d19393e4e285a31"
       },
       {
         "_id": "261ff246bf08876a",
@@ -28616,7 +30932,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "fira"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.261ff246bf08876a"
       },
       {
         "_id": "a84dac05a21b9575",
@@ -28634,7 +30951,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "gnoll"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.a84dac05a21b9575"
       },
       {
         "_id": "8b673a23c001d582",
@@ -28652,7 +30970,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "hamelin"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.8b673a23c001d582"
       },
       {
         "_id": "ba462cf65bd221a5",
@@ -28670,7 +30989,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "levent"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.ba462cf65bd221a5"
       },
       {
         "_id": "6f5998579bd0fc9d",
@@ -28688,7 +31008,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "mahok"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.6f5998579bd0fc9d"
       },
       {
         "_id": "5ba6331c7dc8b0ce",
@@ -28706,7 +31027,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "metadilio"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.5ba6331c7dc8b0ce"
       },
       {
         "_id": "d678eb3ea0010778",
@@ -28724,7 +31046,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "naga-m"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.d678eb3ea0010778"
       },
       {
         "_id": "010bb6b48e754390",
@@ -28742,7 +31065,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "naga-f"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.010bb6b48e754390"
       },
       {
         "_id": "e03f615d9138acc8",
@@ -28760,7 +31084,8 @@ export const CANONICAL_DIARIOS = [
           "mighty-blade": {
             "slug": "orc"
           }
-        }
+        },
+        "_key": "!journal.pages!f70bdfc14c6c2910.e03f615d9138acc8"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/aesir.png",
@@ -28769,7 +31094,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "bio-e-cultura",
         "master": true
       }
-    }
+    },
+    "_key": "!journal!f70bdfc14c6c2910"
   },
   {
     "_id": "d76f05d05c0b4754",
@@ -28786,7 +31112,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/anao.png\" alt=\"Anão\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-14 anos</li><li><strong>Adolescente:</strong> 15-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.</li><br><li><strong>Pele e Pelagem:</strong> Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).</li><br><li><strong>Ciclo de Vida:</strong> A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.</li><br><li><strong>Tradição, Ofícios e Religião:</strong> A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.</li><br><li><strong>Casamento e Clãs:</strong> O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.</p><h4>Nomes Masculinos</h4><p>Alberik, Alvis, Andavari, Brok, Bror, Brunkil, Durin, Dvalin, Eitri, Fialar, Filibar, Fingal, Fulgrin, Galar, Hengal, Honir, Imborg, Ivaldi, Lofar, Magni, Módi, Mosonir, Narfi, Nari, Olrik, Regin, Rurik, Storlin, Torveg, Vali, Vik, Zarlin</p><h4>Nomes Femininos</h4><p>Agda, Brena, Brunhild, Dagma, Disa, Ead, Edila, Eirild, Embla, Fria, Hnossa, Ida, Idhuna, Indunna, Ingrid, Ingvild, Irpa, Kelda, Nagla, Nanna, Niela, Nornild, Ostara, Rind, Skulda, Thorhild, Urda, Valla, Verdanda, Voluspa</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!d76f05d05c0b4754.3b60496a15a4f5ce"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/anao.png",
@@ -28795,7 +31122,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "anao",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!d76f05d05c0b4754"
   },
   {
     "_id": "227c126eb777dc6f",
@@ -28812,7 +31140,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/elfo.png\" alt=\"Elfo\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-14 anos</li><li><strong>Adolescente:</strong> 15-24 anos</li><li><strong>Adulto:</strong> 25 anos</li><li><strong>Idoso:</strong> 400(50) anos</li><li><strong>Ancião:</strong> — anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de estatura mediana, esbeltos e com traços delicados, medindo entre 1,60 e 1,70 metros de altura e pesando de 50 a 60 quilos. Sua característica mais marcante são as longas orelhas pontudas, que lhes conferem audição superior.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem tonalidades douradas ou bronzeadas. A pelagem do corpo é muito fina, e os cabelos são tradicionalmente mantidos muito longos (em tranças ou amarrações). Os fios são de cores muito claras, como louro ou branco, e diferente de outras raças, a cor não muda com o tempo ou com a idade.</li><br><li><strong>Olhos:</strong> Apresentam cores claras, sendo verde, lilás e azul os mais comuns, com alguns raros indivíduos de olhos âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam mamas pequenas. Como os machos não desenvolvem barba e ambos os gêneros têm corpos esbeltos e feições delicadas, raças não-mamíferas (ou pessoas pouco atentas) têm grande dificuldade para distinguir machos de fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação élfica dura longos 18 meses. O desenvolvimento físico da raça atinge o ápice aos 25 anos. A partir daí, a \"Bênção de Lathellanis\" impede que o corpo sofra os efeitos de desgaste do envelhecimento natural. Vivem em média 500 anos, podendo alcançar os 700. Elfos não sofrem os efeitos comuns do envelhecimento e não entram na categoria Ancião. A partir da idade de Idoso, ao invés de perderem atributos físicos, eles acumulam falhas e, em dado momento, entram em um estado plácido onde se preparam para morrer em poucos dias.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> O reino natal dos elfos é Londérien, mas eles habitam as profundezas de florestas, como em Ambrook (Tebryn). A sociedade é estritamente matriarcal, com fêmeas liderando as comunidades, e sacerdotisas e druidesas de Lathellanis ocupando as posições de maior prestígio. A arquitetura se molda à natureza sem derrubar as matas, esculpindo domos em plantas e grutas para formarem cidades perfeitamente camufladas, com baixa densidade populacional.</li><br><li><strong>Sustento e Tecnologia:</strong> Não domesticam animais para abate e evitam plantações em larga escala. Especialistas em forrageio e caça sustentável, extraem o que precisam direto da natureza (carne, lã, frutos) de modo a não abalar o ecossistema. São a única raça que se recusa a minerar as entranhas da terra; todo o metal élfico é obtido por garimpo de aluvião (peneirando a terra superficial). Devido a isso, armas élficas geralmente são de madeiras exóticas como a Kraneia, e os metais são usados em detalhes e joias belíssimas.</li><br><li><strong>Estilo de Vida (Lazer):</strong> São práticos, frugais e caridosos. Não acreditam em acúmulo de bens pessoais. Preferem o compartilhamento de conhecimento, e seu lazer gira em torno de filosofia, literatura, arte e canções.</li><br><li><strong>Relações Interpessoais:</strong> Apesar do isolacionismo em suas florestas (sendo bastante restritos com forasteiros em Londérien), eles mantêm relações diplomáticas e comerciais pacíficas de séculos com Humanos, Anões e Metadílios. Contudo, mantêm uma profunda desconfiança com os Centauros devido a guerras passadas em Tebryn.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>O idioma oficial dos elfos é o Caint (com sonoridade similar ao Gaélico Irlandês). É uma língua complexa e melodiosa, mas sua escrita visual parece um pequeno bosque de árvores estilizadas. Os nomes élficos seguem regras rígidas e geralmente contêm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Qualquer nome anglo-saxão adaptado funciona. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Elfos não usam sobrenomes de família. Eles usam o local onde nasceram ou a organização/religião para a qual trabalham. Exemplo: Aesc Floresta da Névoa, Cerdic Kead de Lathellanis.</p><h4>Nomes Masculinos</h4><p>Aelred, Aeteltan, Cerdic, Dunstan, Fianoc, Godric, Keleoc, Landric, Lanevar, Leofric, Lewyd, Uhtric</p><h4>Nomes Femininos</h4><p>Aedil, Alfrith, Careth, Deorwin, Ealhedil, Edith, Faedil, Gleadwin, Leofwin, Rivelwin, Saewin, Valedith, Vanedwin</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!227c126eb777dc6f.6e935ecec39ad5b8"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/elfo.png",
@@ -28821,7 +31150,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "elfo",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!227c126eb777dc6f"
   },
   {
     "_id": "bcc2fcd84a4c4bf3",
@@ -28838,7 +31168,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/fauno.png\" alt=\"Fauno\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-17 anos</li><li><strong>Adulto:</strong> 18 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides com pernas longas e musculosas; eles são digitígrados e seus pés terminam em dois dedos, cada um protegido por um forte casco. Possuem pouquíssima gordura corporal, costumam ter uma estatura variando entre 1,5 a 1,7 metros e pesam de 50 a 60 quilos. No alto da cabeça desenvolvem chifres queratinosos que crescem paralelos à testa e se inclinam para trás, podendo ter formato espiralado (e que crescem de novo caso sejam cortados).</li><br><li><strong>Pele e Pelagem:</strong> A pele é parda ou bronzeada e quase todo o corpo, com exceção da palma das mãos, é coberto por uma pelagem fina, curta e densa. Essa pelagem é sólida, não possuindo manchas ou padrões, e os tons variam do louro-palha a um castanho tão escuro que chega perto do preto. Quando ficam velhos, os pelos vão desbotando até o cinza ou o branco puro.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam chifres mais curtos, duas mamas pequenas e feições faciais muito mais delicadas. Além disso, elas possuem menos pelos corporais e, diferentemente dos machos, não desenvolvem barba.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das faunesas dura em torno de oito meses. As crianças andam já por volta do primeiro ano de idade, e o formato de seus chifres seguirá exatamente e sem exceções o mesmo padrão do pai. A maioridade ocorre aos 18 anos e envelhecem devagar, podendo chegar até os 200 anos de idade – embora fiquem muito frágeis e fracos nessa etapa da vida.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> São silvícolas por natureza, preferindo viver em matas e selvas fechadas, construindo grandes casas comunais. Originalmente teriam migrado para as terras que hoje pertencem a Londérien (onde são muito numerosos) e na região de Tebryn ocupam principalmente a Floresta da Borda e partes da Floresta dos Antigos. Se houver inimigos ao redor de suas casas, costumam montar paliçadas com troncos e fazer armadilhas rudimentares, como fossos cheios de estacas.</li><br><li><strong>Papéis Sociais e Educação:</strong> Existe uma clara separação de papéis práticos: machos caçam, pescam, constroem e fazem manutenção de estruturas; fêmeas cuidam das plantações, alimentos, tecidos e utensílios. Já práticas intelectuais como ritos xamânicos, medicina e artes são tarefas divididas independentemente de gênero. A criação dos filhos é livre e feita coletivamente por toda a tribo, estimulando autonomia. Um casal recém-formado amamenta e cria seus recém-nascidos por vários anos de forma próxima, contudo, é raro que os laços matrimoniais se mantenham após o período inicial da criação do filho.</li><br><li><strong>Arte, Música e Combate:</strong> A música é o pilar da cultura dos faunos. Sem o costume de ler e escrever, eles dependem de seus Bardos para a manutenção de sua história. Seus Druidas também conjuram utilizando melodias musicais, e eles fazem uso intenso de pinturas corporais em suas atividades artísticas e místicas. Além disso, o estilo de luta dos Capoeiristas surgiu entre os Faunos, inicialmente usando seu movimento rítmico para confundir os ataques de animais selvagens.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Faunos (falada também por Centauros e alguns Faens) é o Silvestre, que os Faunos preferem chamar de Nheengatu. Esse idioma tem raízes atreladas ao grupo Tupi-Guarani, e a formação de seus nomes é caracterizada pela aglutinação de duas ou três palavras do dialeto. Assim como os Centauros, os Faunos não usam sobrenomes de família em nenhuma hipótese.</p><h4>Nomes Masculinos</h4><p>Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi, Katubira, Katuibipuí, Puiubitu, So’obixabasu, Usubixaba</p><h4>Nomes Femininos</h4><p>Airatatá, Esayubá, Jubotira, Kuamukaa, Kurataiberaba, Sokunhã, Suiara</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!bcc2fcd84a4c4bf3.4218f511d36c5b02"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/fauno.png",
@@ -28847,7 +31178,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "fauno",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!bcc2fcd84a4c4bf3"
   },
   {
     "_id": "32a7aec4fca470b7",
@@ -28864,7 +31196,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/humano.png\" alt=\"Humano\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 50(8) anos</li><li><strong>Ancião:</strong> 80(1) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Por serem os humanoides mais numerosos de Drakon, servem como a base biológica de comparação para as outras raças. Possuem estatura mediana (entre 1,5 e 1,9 metros) e um peso que varia consideravelmente de acordo com seu estilo de vida, indo de 40 a até 140 quilos (com a média girando entre 60 e 80 quilos). Indivíduos que fogem muito dessa média geralmente são portadores de deficiências de nascença.</li><br><li><strong>Pele e Pelagem:</strong> A pele apresenta uma grande diversidade, variando do rosado ao negro, passando por várias tonalidades de pardo. O corpo é recoberto por uma pelagem rala e fina (mais abundante nos machos), com grande concentração de pelos no alto da cabeça. A coloração dos cabelos vai do amarelo palha ao negro, incluindo louro, castanho e, mais raramente, ruivo.</li><br><li><strong>Olhos:</strong> A cor costuma ser castanha, verde ou, mais raramente, azul.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas se distinguem por não possuírem pelos faciais (barba), por serem geralmente um pouco menores e por possuírem traços mais delicados. Elas também apresentam mamas que variam de pequenas a grandes, que costumam aumentar de tamanho após a primeira gestação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e atingem a maioridade biológica aos 16 anos. Vivem em média até os 80 anos (raramente chegando aos 100), com os primeiros sinais do envelhecimento surgindo por volta dos 50 anos de idade.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Expansão:</strong> É a raça mais expansionista do continente, estando presente em todos os reinos conhecidos. Apreciam tratados, trocas de conhecimentos acadêmicos e, quando vivem fora de seu reino nativo (Tebryn), tendem a adotar os costumes da cultura local.</li><br><li><strong>Estrutura Política e Social:</strong> Costumam organizar-se em um sistema de meritocracia titular, onde funções e propriedades são garantidas por mérito pessoal através de títulos não-hereditários. No entanto, na prática, é extremamente comum que parte do prestígio e as responsabilidades passem de pai para filho.</li><br><li><strong>Sustento e Arquitetura:</strong> Assentam suas cidades próximas a recursos cruciais (como rios e bosques) e exploram a natureza ao máximo. Embora civilizações humanas antigas tenham perecido por esgotarem seu ambiente, os humanos contemporâneos aprenderam com os Elfos a gerenciar os recursos de forma sustentável. A arquitetura foca na funcionalidade: usam madeira ou barro para construções rápidas, que depois são substituídas por sólidas estruturas de pedra. Residências de nobres, castelos e bibliotecas possuem estética requintada, frequentemente influenciada pela engenharia anã.</li><br><li><strong>Religião:</strong> A reverência à Tríade Divina é unânime, mas indivíduos e comunidades escolhem padroeiros ligados às suas profissões (por exemplo, magistrados e soldados cultuam Mirah; já carpinteiros e druidas preferem Ellenis).</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa da humanidade é o Burguês Tebryniano (o idioma análogo ao Português). Nomes humanos têm de duas a quatro sílabas e não possuem regras de criação rígidas. Eles frequentemente adaptam palavras estrangeiras apenas por acharem a sonoridade atraente. O método oficial para criar nomes é alterar, adicionar ou remover letras de um nome brasileiro comum (Ex: Trocando letras de Rodrigo, obtém-se o nome Lodrago). Os Humanos dão imenso valor a sobrenomes familiares (diferente de faunos ou astérios). No casamento, os cônjuges podem manter o nome de solteiro, adotar o do outro ou, mais raramente, unir ambos.</p><h4>Nomes Masculinos</h4><p>Alford, Arn, Arnulfo, Balto, Brando, Bredo, Brunn, Cladro, Daland, Dineon, Fastolfo, Fengran, Garet, Gastav, Gultan, Jorand, Lars, Leivis, Lodrago, Lorval, Marino, Nil, Penard, Randal, Rob, Rodric, Rubert, Stefan, Tair, Talin, Teon, Torbeno, Vendal, Viliano</p><h4>Nomes Femininos</h4><p>Albina, Alise, Cindal, Cirela, Elmeara, Emadeline, Farla, Galena, Garlana, Herana, Ianca, Isobela, Janiele, Laria, Laudra, Licila, Lilidia, Locasta, Loren, Lorini, Matilda, Nina, Robena, Rosa, Sabana, Sindel, Taliana, Thail, Tilia, Valsina, Vedra, Violeta</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!32a7aec4fca470b7.c94a1e494c7f79ed"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/humano.png",
@@ -28873,7 +31206,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "humano",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!32a7aec4fca470b7"
   },
   {
     "_id": "6552939f6d14d4bf",
@@ -28890,7 +31224,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/juban.png\" alt=\"Juban\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-13 anos</li><li><strong>Adolescente:</strong> 14-17 anos</li><li><strong>Adulto:</strong> 18 anos</li><li><strong>Idoso:</strong> 80(14) anos</li><li><strong>Ancião:</strong> 140(2) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides com pernas digitígradas e feições que lembram grandes felinos. Possuem uma estatura que varia de 1,8 a 2 metros, e sua musculatura densa e pesada faz com que cheguem facilmente a 140 quilos (com média de 120 kg). Possuem um focinho curto munido de presas fortes, quatro dedos nos pés e mãos com garras curvas curtas, e uma cauda de cerca de um metro, cuja utilidade para o equilíbrio se perdeu na evolução da raça.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, encoberta quase inteiramente por uma pelagem fina e cerrada que varia do dourado ao marrom escuro (os tons castanho-avermelhados são os mais comuns, existindo ocorrências de manchas e listras). Alguns raríssimos Jubans apresentam pelo inteiramente branco, o que é uma anomalia parecida com o albinismo, porém sem a sensibilidade ao sol de outras raças.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são facilmente reconhecíveis por ostentarem uma pelagem bem mais densa e abundante no pescoço e alto da cabeça (uma juba), geralmente numa tonalidade mais escura que o resto do corpo. As fêmeas são distinguidas por não desenvolverem jubas e por apresentarem duas mamas diminutas, geralmente difíceis de notar por conta da forte constituição muscular da raça.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em média nove meses e a maturidade chega aos 18 anos. O declínio da idade (que se mostra primeiro pelo enfraquecimento das garras e presas) começa por volta dos 80 anos, e vivem em média até os 140 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Costumam se estabelecer em planícies e savanas. Valorizam enormemente estruturas militares, e frequentemente aplainam o cume de colinas próximas aos seus assentamentos para a construção de praças fortificadas (como Kommos, a capital administrativa do reino de Parband, que repousa segura sobre um planalto).</li><br><li><strong>Disciplina, Religião e Justiça:</strong> A sociedade é disciplinada e embasada nos dogmas de seu padroeiro e criador, Ahogr, o Ruge-Mundos. Eles prezam a força nos campos físico, espiritual e de caráter. A mentira, a intriga e a covardia são consideradas falhas de caráter inaceitáveis e são punidas mais severamente do que roubos ou homicídios. Ironicamente, eles tendem a ser lenientes ao julgarem membros de outras raças por atos covardes, pois acreditam que quem não foi criado por Ahogr possui um \"espírito fraco\" e não pode ser culpado de sua natureza.</li><br><li><strong>Treinamento e Armas Naturais:</strong> Desde os 8 anos até os 14 anos, todos os Jubans recebem rígido treinamento em quartéis (aprendendo táticas, armas, matemática, história e literatura) para forjar um caráter inquebrável. Os civilizados adotaram o hábito social de manter suas garras curtas e polidas, acreditando que usá-las como armas (e as presas também) é um ato desesperado, bárbaro e extremamente desonroso (apesar de caçadores e rastreadores não compartilharem dessa visão de desonra). O rugido, no entanto, é a arma natural respeitada e adorada por todos, e seus bardos e guerreiros fazem intenso uso dele em batalha para encorajar os companheiros e causar medo nos oponentes.</li><br><li><strong>Relações Interpessoais (Família e Assimilação):</strong> Existe total igualdade entre gêneros em sua sociedade; ambos passam por exatamente o mesmo duro treinamento e atuam nas mesmas posições e patentes militares sem restrições. Os casais não veem a necessidade de terem dezenas de filhos, pois abominam a ideia de serem \"fardos para a sociedade\" (sendo comum que, quando engravidam, o casal seja liberado de seus postos por um ano, tendo duas ou três crias seguidas, e então voltando à rotina para não se manterem improdutivos). Eles também acolheram os furtivos Tailox de Gaian, que fugiam das ameaças Gnolls, assimilando sua sociedade em uma união produtiva, onde a agilidade pequena do Tailox serve como espiões perfeitos para a força do Juban.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A criação de nomes Jubans (e de seus aliados Tailox) gera palavras de uma a três sílabas, em que os nomes iídiches do mundo real funcionam com perfeição. Jubans nunca utilizam sobrenomes, e não são definidos por suas linhagens ou famílias. Em seu lugar, identificam-se dizendo a sua patente ou função somada ao nome da guilda ou ordem a qual pertencem.</p><h4>Nomes Masculinos</h4><p>Anshel, Avro, Benesh, Celegur, Chatzkel, Erek, Ferato, Gavrel, Havanker, Hirsh, Inkur, Issur, Kirmadek, Koppel, Laion, Menahek, Motker, Raziel, Rubio, Sender, Urkon, Yanko, Ysroel, Zalmo, Zelek</p><h4>Nomes Femininos</h4><p>Alte, Beyle, Beylke, Bluma, Breida, Faiga, Faiva, Freyde, Glyka, Hadassa, Haska, Henda, Hirsha, Inka, Isa, Kreine, Liba, Merra, Rayna, Rifka, Riha, Shainda, Sirague, Sura, Yuda, Zelde</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!6552939f6d14d4bf.57cd810ce380fdaa"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/juban.png",
@@ -28899,7 +31234,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "juban",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!6552939f6d14d4bf"
   },
   {
     "_id": "599ee5d9ef1e34e5",
@@ -28916,7 +31252,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/tailox.png\" alt=\"Tailox\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-14 anos</li><li><strong>Criança:</strong> 0-14 anos</li><li><strong>Adolescente:</strong> 0-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 40 anos</li><li><strong>Ancião:</strong> 80-90 anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de pequena estatura, medindo entre 1,4 e 1,6 metros e pesando apenas de 40 a 50 quilos. Apresentam marcantes características vulpinas (de raposa): focinho curto e fino, orelhas grandes e uma cauda pequena e felpuda. São digitígrados com solas dos pés muito bem acolchoadas que lhes permitem se locomover quase sem fazer sons, além de pernas flexíveis próprias para grandes saltos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem pele rosada coberta por uma pelagem espessa, macia e curta por quase todo o corpo (exceto nas palmas e solas). A cor dos pelos varia em tons de castanho ou ruivo, sempre com padrões de manchas negras e brancas que se concentram muito mais no rosto, na cauda, nas mãos e nos pés.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas são virtualmente idênticos, não havendo qualquer diferença física notável. As fêmeas apresentam apenas duas mamas extremamente pequenas, difíceis de serem notadas até na época da amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura entre sete e oito meses, sendo a ocorrência de gêmeos relativamente frequente. A vida adulta se inicia aos 15 anos, mas o declínio físico (marcado pela despigmentação do pelo) começa cedo, aos 40 anos, fazendo com que a maioria falteças antes de chegar aos 90.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e A Simbiose com os Jubans:</strong> Originários dos bosques gelados do sul de Gaian, quase todos os Tailox foram obrigados a fugir para o norte por conta da perseguição predatória e dos ataques dos Gnolls locais. Eles foram prontamente assimilados pela sociedade dos enormes Jubans. Onde a força bruta Juban esbarra nos seus limites, entra a furtividade, a espionagem e o reconhecimento dos esbeltos Tailox, formando uma das simbioses raciais mais prósperas de toda a região.</li><br><li><strong>Espírito Selvagem (Mtii’Ruah):</strong> Embora a maioria prefira o conforto das civilizações, existem comunidades que buscam a vida silvestre para cultivar o contato ancestral com a deusa Ellenis, visando alcançar o Mtii’Ruah (o Espírito Verdadeiro). A expressão física máxima dessa comunhão intensa é a habilidade mística de transmutar seu corpo inteiramente na forma de uma raposa.</li><br><li><strong>Preconceito, Heroísmo e Promiscuidade:</strong> Por serem incrivelmente práticos na resolução de problemas, rápidos e furtivos, os Tailox receberam a fama imerecida de serem preguiçosos, trapaceiros e ladrões. Na verdade, os Tailox ensinam códigos de honra estritos aos seus filhos (influência Juban) e a maioria é extremamente honesta, criando amizades intensas e duradouras. Contudo, no campo amoroso, são abertamente promíscuos e quase nunca mantêm laços estáveis. O peso do preconceito de outras raças, somado à perda de sua terra natal, despertou neles uma necessidade quase instintiva de serem aceitos e admirados pelas outras culturas, o que frequentemente os lança em comportamentos de um \"heroísmo romântico\" completamente descabido (como arriscar a vida apenas para realizar salvamentos heroicos ou para inspirar canções épicas de bardos).</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua original dos Tailox foi completamente perdida em Gaian durante a Grande Revoada, e hoje é considerada uma língua morta de conhecimento extinto. Atualmente, eles adotaram de forma absoluta o L’ányn (o idioma oficial dos Jubans e de Parband) como sua língua primária. A peculiaridade da língua L’ányn é que as palavras em uma sentença não precisam seguir uma ordem estabelecida (ex: \"Foi a ordem executada\" e \"A ordem foi executada\" estão igualmente corretas), o que faz com que os Tailox falem outros idiomas com sotaques sintáticos estranhos ou engraçados para seus ouvintes. Como não possuem mais o idioma base, os Tailox não seguem nenhuma regra própria de nomes ou sobrenomes. Eles adotam e adaptam livremente os padrões de nomes, sufixos e sobrenomes da cultura humanóide com a qual mais convivem ou se sintam mais confortáveis no momento.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!599ee5d9ef1e34e5.1b9ec09bb4e25db6"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/tailox.png",
@@ -28925,7 +31262,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "tailox",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!599ee5d9ef1e34e5"
   },
   {
     "_id": "ea43782b13052c91",
@@ -28942,7 +31280,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/aesir.png\" alt=\"Aesir\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 60(9) anos</li><li><strong>Ancião:</strong> 90(2) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Os Aesires são humanoides altos e robustos, com uma <strong>fisiologia adaptada para climas extremamente frios</strong>. Sua altura mediana fica entre 1,9 e 2,2 metros, com um peso médio de 100 a 130 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem pele e olhos extremamente claros, adaptados à luz intensa de suas regiões de gelo eterno. A <strong>pele quase não possui pigmentação</strong>, exibindo uma matiz levemente azulada ou esverdeada. O corpo é coberto por uma pelagem rala e fina (quase branca, com matizes azuis, verdes ou cinzas), que se concentra mais no alto da cabeça e, no caso dos machos, ao redor e abaixo do rosto formando barbas.</li><br><li><strong>Olhos:</strong> São extremamente bem adaptados e <strong>protegidos por uma finíssima membrana que reflete completamente a luz</strong>. Isso faz com que os olhos pareçam ter uma cor única, refletindo a luz do ambiente (geralmente branco, ou dourado quando perto do fogo).</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas diferem dos machos por não desenvolverem pelos faciais, possuírem traços mais delicados, serem ligeiramente menores e apresentarem mamas que podem variar de tamanho médio a grande.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os bebês são completamente dependentes da mãe em seus primeiros anos. Atingem a <strong>fase adulta por volta dos 16 anos</strong> (embora alguns alcancem a maioridade antes). Podem viver até os 90 anos (raramente chegando aos 120), mas começam a apresentar sinais de envelhecimento, como perda de massa muscular e diminuição da percepção, a partir dos 60 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem na região gelada de <strong>Eishelm</strong>, localizada no extremo norte do continente de Cassiopéia (ao norte de Londérien), isolados pela Cordilheira Cnoc Oighir. É uma área de estepes e tundras, varrida por nevascas. Eishelm não é um reino unificado com um rei; em vez disso, <strong>cada grande comunidade é regida por um Jarl</strong>, que conta com o aconselhamento de bardos, druidas e sacerdotes.</li><br><em>   <strong>Navegação e Comércio:</strong> Os Aesires são <strong>grandes navegadores</strong>, utilizando seus </em>Drakkar* para viajar longas distâncias. Como não desenvolveram navegação oceânica, limitam-se à navegação de cabotagem. Mantêm comércios no norte até Aet’Muuri (em Arkânia) e nunca se aventuraram além do Grande Pântano do Leste ou chegaram a reinos como Bryne e Parband, embora sejam presença comum nos demais portos de Cassiopéia.<br><li><strong>Relações Interpessoais:</strong> Embora muitos os considerem ríspidos e broncos, eles têm uma <strong>boa relação com os Anões e são muito respeitados pelos Elfos</strong> (com quem nutrem grande reverência). São muito respeitados comercialmente por honrarem sua palavra e por fazerem paradas portuárias muito breves, o que evita atritos locais.</li><br><li><strong>Isolamento e Aventureiros:</strong> A sociedade Aesir acha a política de outros povos muito complicada e desnecessária. Aqueles poucos jovens que decidem explorar o sul geralmente fazem isso sozinhos, tornando-se andarilhos ou aventureiros.</li><br><li><strong>A Regra da Hospitalidade (e da Invasão):</strong> Na cultura Aesir, <strong>visitantes e invasores são classificados pela quantidade</strong>. Um ou dois forasteiros costumam ser bem-vindos nas suas comunidades, mas grupos maiores são vistos automaticamente como invasores e rechaçados. Pelo mesmo motivo, eles evitam andar em grandes contingentes quando visitam outros povos, a menos, é claro, que a sua intenção seja pilhar e invadir.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Os nomes Aesires não possuem regras muito específicas. Nomes masculinos nunca terminam em vogais, e costumeiramente são constituídos de duas sílabas. Os nomes femininos podem terminar em “A”, “E”, “I” ou “Y”, mas muitos terminam em consoantes e podem ter duas ou três vogais.<br>Os Aesires utilizam sobrenomes patronímicos, com os sufixos “-son” usado para homens e “-dotir” para mulheres - estes sufixos às vezes suprimem a última letra ou sílaba do nome do pai/mãe. Assim, se um Aesir chamado Harag tiver um filho chamado Olav e uma filha chamada Anja, seus nomes serão, respectivamente: Olav Haragson e Anja Haradotir. Não há preferências entre a utilização do nome do pai ou da mãe - os filhos geralmente utilizam um patronímico baseado em qual dos seus pais é mais influente ou o que eles consideram mais relevantes em sua criação.<br>Em geral nomes nórdicos dentro das especificações acima (como Ragnar) ou adaptados para estarem dentro dessas especificações (como Flokir) funcionam para nomes Aesires.</p><h4>Nomes Masculinos</h4><p>Armod, Arnbjorn, Bodvar, Bram, Egil, Erik, Gardar, Grim, Gundur, Halfdan, Harag, Harald, Helgil, Hengist, Heolf, Igolf, Ingwulf, Kereval, Ketil, Lengar, Olaf, Olav, Rogvald, Sigurd, Sigvard, Skalagrim, Svein, Thorbard, Thorstein, Trygvas, Vanar, Yngvar</p><h4>Nomes Femininos</h4><p>Anja, Aslaug, Astrid, Aud, Drewenna, Ealswith, Eira, Elisef, Ellisif, Eyvind, Freydis, Gisla, Gyda, Hildegard, Indra, Inga, Ingrimund, Ingvild, Kilda, Ksenjia, Lagherta, Rafarta, Siggy, Sigtrygg, Snaefrid, Sylvi, Thora, Thyri, Vigrid, Yiduna</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!ea43782b13052c91.247ba17fd65c8cd0"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/aesir.png",
@@ -28951,7 +31290,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "aesir",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!ea43782b13052c91"
   },
   {
     "_id": "c4a1cfbb8e75690e",
@@ -28968,7 +31308,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/asterio.png\" alt=\"Astério\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 80 anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides colossais, medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos. Apresentam cabeçorras pesadas ornadas de cornos sólidos. Possuem quatro dedos nas mãos e pés, sendo que os dedos dos pés são unidos sob uma estrutura queratinosa, formando um casco fendido.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado coberto por uma pelagem grossa e esparsa, sendo mais cerrada na cabeça, pescoço, ombros e costas, em tonalidades que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Diferente das fêmeas, que são frágeis e diminutas, os machos são brutamontes pesados e os únicos que desenvolvem chifres na espécie.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os machos já nascem com pequenos cornos rombudos. Esses cornos atingem o tamanho máximo aos 15 anos de idade, quando então eles passam a ser oficialmente considerados adultos. Vivem em média até os 80 anos, com os primeiros sinais de envelhecimento começando aos 50.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Originários do reino de Parband. A cultura segue regras simples onde o mérito pessoal é colocado acima de noções de raça, cultura ou gênero. Não existem cargos hereditários e a obtenção de postos ocorre por meio de demonstrações de força ou habilidade, além de desafios de combate direto.</li><br><li><strong>O Papel Masculino (Trabalho e Lazer):</strong> A maioria dos machos jovens trabalha com atividades braçais e pesadas (como estivadores, fazendeiros, marceneiros, ferreiros e mineiros) antes de se engajarem obrigatoriamente no serviço militar na fase adulta. Em seu tempo de lazer, apreciam prazeres simples como comer, beber, exibir sua força e realizar trabalhos artesanais, notavelmente na forja e no entalhe.</li><br><li><strong>A Guerra e o Kapa-Haka:</strong> Devido à forte disciplina militar, os guerreiros Astérios praticam uma intensa dança tribal chamada Kapa-Haka. Essa dança tem o objetivo expresso de intimidar os inimigos no campo de batalha e fortalecer os laços e a coordenação dos guerreiros através de vigorosas demonstrações de força.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de manterem excelentes relações em seu reino, os Astérios evitam visitar as terras centrais de Tebryn. Lá, eles sofrem fortes preconceitos por causa das violentas incursões vindas do império escravagista de Arkânia, sendo pejorativamente chamados de \"minotauros\" e temidos como monstros sanguinários.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Seu idioma original é o Reo, uma língua simples e utilitária que não possui o som de \"G\", \"J\" e nem utiliza a letra \"B\". Para os machos, os nomes têm de uma a três sílabas e obrigatoriamente terminam em “E”, “O” ou “U”. Na prática, qualquer nome nativo havaiano ou maori, adaptado sob essas restrições, funciona de maneira perfeita para a raça. Astérios não usam sobrenomes de famílias. Eles se identificam utilizando os nomes das corporações ou ofícios em que trabalham, acompanhado de sua patente. Sobrenomes (Organizações) conhecidos: da Armada da Aurora, das Forjas de Hou. (Ex: \"Centurião Tane da Armada da Aurora\" ou \"Hanno das Forjas de Hou\").</p><h4>Nomes Masculinos</h4><p>Akahate, Akahau, Amahau, Amire, Anewo, Dawharu, Hahono, Hanauhou, Hanno, Hare, Hehu, Hemu, Henare, Hokuoke, Hookohoie, Lahanau, Lamake, Lokene, Maako, Mahuto, Maramo, Matiu, Nohouke, Oko, Ondaku, Rawire, Ronto, Ruru, Tanaro, Tane</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!c4a1cfbb8e75690e.10a8a9cd8d144853"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/asterio.png",
@@ -28977,7 +31318,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "asterio-m",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!c4a1cfbb8e75690e"
   },
   {
     "_id": "b268cf97c7600b48",
@@ -28994,7 +31336,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/asterio.png\" alt=\"Astéria\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 80 anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Mamíferos humanoides com quatro dedos nas mãos e pés, sendo que os dos pés são unidos em dois pares sob uma grossa estrutura queratinosa formando um casco fendido. Diferente dos machos, as fêmeas possuem um crânio muito mais frágil e desprovido de cornos, não passando de 1,60m de altura e 80 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado. A pelagem é grossa e esparsa (sendo mais cerrada na cabeça, pescoço, ombros e costas), com tonalidades marrons que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Enquanto os machos são brutamontes pesados que chegam a 2,30m e possuem grandes cornos, as Astérias são diminutas, frágeis e não desenvolvem chifres.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses. As fêmeas são consideradas adultas aos 15 anos de idade, começam a apresentar os primeiros sinais de envelhecimento aos 50 anos e vivem, em média, até os 80 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> São nativos do reino de Parband. Sua sociedade segue regras simples que colocam o mérito pessoal acima de gênero ou raça. Não existem cargos hereditários; tudo é conquistado por demonstração de habilidade ou desafios. Na academia e nos liceus, os cargos de liderança são modificados e reavaliados anualmente por um conselho.</li><br><li><strong>O Papel Feminino (Liderança e Intelecto):</strong> Por serem fisicamente menores e mais frágeis, as fêmeas (junto a machos deformados) são enviadas ainda jovens para liceus onde aprendem matemática, engenharia e história. Na fase adulta, estudam estratégia, comércio e marinhagem. São as fêmeas que decidem o uso dos recursos da comunidade, criam as leis e aconselham os líderes militares. Para lazer, as fêmeas geralmente se dedicam a trabalhos artesanais como cerâmica e costura, os quais exibem com muito orgulho e certa timidez.</li><br><li><strong>Relações Interpessoais:</strong> Mantêm ótimas relações em Parband, mas evitam as terras de Tebryn. Lá, sofrem imenso preconceito e são pejorativamente chamadas de \"minotauros\", fama herdada das incursões violentas dos Astérios de Arkânia, que renderam à raça a reputação de monstros sanguinários.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua oficial da raça é o Reo. O idioma não possui os sons de “G”, “J” e a letra \"B\" não é usada em palavras tradicionais. Os nomes possuem de uma a três sílabas, sendo raros os monossílabos. Para as fêmeas, os nomes obrigatoriamente terminam em “A” ou “I”. Em geral, qualquer nome de origem havaiana ou maori adaptado para essas regras fonéticas funciona perfeitamente. Astérios não usam sobrenomes. Eles se identificam citando a organização para a qual trabalham ou seu ofício (ex: \"das Forjas de Hou\", \"da Armada da Aurora\"), adicionando também o seu posto e patente se houver.</p><h4>Nomes Femininos</h4><p>Akina, Hina, Kaili, Kairi, Lani, Mahina, Malia, Moana, Nani, Oliana, Ulani</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!b268cf97c7600b48.3a1c79e1c56077cc"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/asterio.png",
@@ -29003,7 +31346,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "asteria-f",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!b268cf97c7600b48"
   },
   {
     "_id": "cb406dfa8d43993c",
@@ -29020,7 +31364,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/centauro.png\" alt=\"Centauro\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-8 anos</li><li><strong>Adolescente:</strong> 7-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 80(12) anos</li><li><strong>Ancião:</strong> 120(2) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com torso humanoide e corpo equino, apresentando cinco dedos nas mãos e quatro pernas digitígradas terminadas em cascos. Possuem uma cauda curta e são tão altos quanto longos (medindo entre 2 e 2,4 metros nas duas direções). Pesam em média de 450 a 500 quilos e possuem pouco tecido adiposo. Devido ao peso e estatura, possuem imensa dificuldade para nadar ou escalar (sendo Inaptos), e manobras como cambalhotas são virtualmente impossíveis.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do pardo ao marrom claro, sendo a parte inferior do corpo e as costas cobertas por um couro mais duro e escuro. A pelagem sobre o corpo é curta e dura, tornando-se bem mais densa e longa na cabeça, ao longo da coluna e na cauda. As cores variam do pardo ao negro, passando por castanho, sendo comum a presença de manchas, e os pelos vão ficando acinzentados com a idade.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas (Centáurides) são diferenciadas dos machos por não desenvolverem pelos no rosto e apresentarem duas pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 11 meses e os filhotes são capazes de andar em apenas alguns dias. Atingem o tamanho máximo e a vida adulta aos 10 anos, com os primeiros sinais de envelhecimento aparecendo aos 80 anos. Vivem até os 120 anos, e os mais velhos costumam se isolar da comunidade ao ficarem fracos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Geralmente se instalam em grandes clareiras nas bordas de florestas (como a Floresta da Névoa e a Floresta da Borda). Sua maior comunidade em Tebryn chama-se Yak (na Floresta dos Antigos), uma aldeia sem centro comercial rígido. Não possuem estruturas de liderança além do respeito à sabedoria dos mais velhos da região.</li><br><li><strong>Lazer e Festividades:</strong> Possuem um humor simples e dão preferência a atividades físicas para diversão, como corridas, demonstrações de força e competições de salto. Reúnem-se nos equinócios para grandes festividades que duram uma semana. Nessas festas, o consumo de bebida é alto, e embriaguez e surtos de violência são muito comuns, tornando o ambiente arriscado para forasteiros que aceitam o convite para participar.</li><br><li><strong>Táticas e Combate:</strong> Apesar de conhecidos por suas ferozes cargas corporais, a lança e o arco são suas armas mais tradicionais. A arqueria é tão intrínseca que praticamente todos os jovens praticam, e seus Arqueiros revezam as funções de caçadores e vigias.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de convidarem viajantes para suas competições amigáveis, são profundamente desconfiados dos elfos (principalmente da região de Ambrook) após uma guerra sangrenta e assimétrica no passado que quase exterminou as tribos da Floresta dos Antigos.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Centauros é o Silvestre, uma linguagem de estrutura caótica e muitas variações regionais. Seus nomes são criados com a aglutinação de duas ou três palavras desse idioma, o qual é fortemente embasado no grupo Tupi-Guarani (ou em outros idiomas indígenas brasileiros). Centauros não usam sobrenomes de qualquer tipo.</p><h4>Nomes Masculinos</h4><p>Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi, Katubira, Katuibipuí, Puiubitu, So’obixabasu, Usubixaba</p><h4>Nomes Femininos</h4><p>Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi, Katubira, Katuibipuí, Puiubitu, So’obixabasu, Usubixaba</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!cb406dfa8d43993c.edb759e7bdd5bd93"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/centauro.png",
@@ -29029,7 +31374,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "centauro",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!cb406dfa8d43993c"
   },
   {
     "_id": "51a7e16e8acc60c7",
@@ -29046,7 +31392,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/dragano.png\" alt=\"Dragano\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-10 anos</li><li><strong>Adolescente:</strong> 11-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 200(25) anos</li><li><strong>Ancião:</strong> 250(4) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São dragões humanoides extremamente diversos. A cabeça assemelha-se à de dragões, com focinho curto e presas afiadas, podendo apresentar protrusões ósseas e chifres de formatos variados (retos ou torcidos). As mãos e os pés têm quatro dedos com garras robustas. A presença de asas e cauda longa é comum, embora possam ser vestigiais ou inúteis em alguns indivíduos. A altura média varia de 1,6m a 2m (podendo atingir até 3m), e o peso médio é de 90 a 100 quilos (indivíduos com asas e cauda pesam até 160kg, e os maiores até 250kg).</li><br><li><strong>Pele e Pelagem:</strong> Possuem couro grosso, áspero e totalmente desprovido de pelos, frequentemente coberto por escamas queratinosas. A coloração varia drasticamente: do branco ao preto, passando por tons de azul, verde e vermelho.</li><br><li><strong>Olhos:</strong> Podem ser fendidos ou ter pupilas redondas. Alguns indivíduos, especialmente de origem Ofidiana, têm olhos dourados, vermelhos ou esbranquiçados protegidos permanentemente por uma membrana nictitante.</li><br><li><strong>Dimorfismo Sexual:</strong> Diferenciar machos e fêmeas é quase impossível para outras raças; apenas Naga, outros Draganos e criaturas do tipo Dragão conseguem distingui-los facilmente.</li><br><li><strong>Ciclo de Vida:</strong> As fêmeas são férteis apenas uma vez por ano. A gestação dura cerca de 1 ano, gerando apenas 1 ovo que eclode em três meses. Cerca de 25% dos ovos geram natimortos ou crias deformadas. Atingem a maturidade aos 20 anos e vivem plenamente até os 200 anos. Na velhice, as escamas enfraquecem e os alados perdem a capacidade de voar.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política (A Dualidade):</strong> A cultura da raça é dividida. Em Ofidien, eles foram criados artificialmente pelas Naga há cerca de 2000 anos por meio de experimentos em raças escravizadas com sangue de dragão. Lá, não possuem identidade cultural própria e formam uma sub-raça servil trabalhando como soldados de elite e guarda-costas das Naga. Já em Arkânia, eles existiam antes mesmo da chegada das Naga. Os Draganos Arkanitas formam a base da cultura do império escravagista e ocupam os mais altos postos (Armada da Aurora, Conselho Regente), possuindo enorme orgulho de sua ancestralidade dracônica.</li><br><li><strong>Idiomas:</strong> Não possuem língua própria. Em Ofidien, falam Asá-Avája (idioma Naga). Em Arkânia, são as únicas criaturas fisicamente capazes de falar o Track'kar'a (Língua dos Dragões) com perfeição, além de usarem o Burguês Arkanita e o Arkadis (Língua da Magia).</li><br><li><strong>Relações Interpessoais:</strong> Fora de Arkânia e Ofidien, são vistos com medo e desconfiança. Tendem a se isolar como ermitões ou a viver próximos a raças com traços afins (Reptilianos, Tritões, Grotons). Possuem atitude rude e arrogante: apesar de racionais, usam intimidação, coerção e força física por se sentirem superiores aos outros.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Assim como o idioma, eles adotam as regras das culturas em que estão inseridos, ou usam Nomes Dracônicos puros. Para serem imponentes, os nomes costumam ser longos (pelo menos três sílabas). Diferente das Naga (que usam sufixos como -Drek ou -Sur em seus nomes), os Draganos contraem os nomes dracônicos e nunca utilizam esses radicais ofidianos. Também, ao contrário das Naga, os Draganos adotam sobrenomes dependendo do reino onde vivem. Costumam utilizar os sobrenomes da cultura humana/arkanita em que foram criados ou adotar nomes de linhagens dracônicas.</p><h4>Nomes Masculinos</h4><p>Ahamthrul, Anphisbaenea, Azdahazahak, Balaurbondoc, Brignor, Bristerne, Dragua, Flamerax, Komerex, Lagarfliotsormurinn, Scathel, Shivnarvex, Smeygorinish, Zannar, Zirnitrarex</p><h4>Nomes Femininos</h4><p>Ahamthrul, Anphisbaenea, Azdahazahak, Balaurbondoc, Brignor, Bristerne, Dragua, Flamerax, Komerex, Lagarfliotsormurinn, Scathel, Shivnarvex, Smeygorinish, Zannar, Zirnitrarex</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!51a7e16e8acc60c7.266e5819ab644716"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/dragano.png",
@@ -29055,7 +31402,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "dragano",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!51a7e16e8acc60c7"
   },
   {
     "_id": "f207a648060fa00c",
@@ -29072,7 +31420,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/faen.png\" alt=\"Faen\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-12 anos</li><li><strong>Adolescente:</strong> 13-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides pequeninos com traços feéricos, medindo em torno de 1,3 e 1,4 metros (podendo chegar a 1,5m) e pesando no máximo 35 quilos. A sua característica mais marcante é o par de asas leves e semitransparentes nas costas, cuja envergadura é igual à altura do corpo. Também possuem um par de antenas na testa que lhes permite comunicação rudimentar com insetos.</li><br><li><strong>Pele e Pelagem:</strong> A pele é lisa, desprovida de pelos corporais, e possui tons que variam do róseo-amarelado até o dourado e bronzeado. Os cabelos são finos e macios, com colorações exóticas como louro claro, ruivo, azul e lilás. Alguns raros indivíduos, chamados de \"Isnuu\" (nascidos nas folhas), nascem com a pele e cabelos esverdeados e possuem uma imensa afinidade inata com magias.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas possuem menos massa muscular, contornos mais arredondados e apresentam um par de pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação é curtíssima (cerca de 3 meses) e um quinto dos nascimentos resulta em gêmeos ou trigêmeos. Nascem sem asas, que crescem ao longo da infância até atingirem o tamanho pleno na puberdade (aos 16 anos), tornando-se adultos aos 20. Podem viver até 200 anos sem sofrer envelhecimento severo. Quando morrem de velhice, passam por um fenômeno bizarro: a carne torna-se uma massa vegetal que se enraíza e vira uma árvore (frutífera se fêmea, com flores se macho), onde o espírito do Faen repousa até a árvore morrer naturalmente e ele renascer.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem em colônias bem escondidas e camufladas dentro de matas fechadas, como na Floresta dos Antigos e no Vale do Dragão. A sociedade é totalmente livre e desleixada: não há líderes fixos nem hierarquias. Decisões são tomadas no coletivo e os indivíduos mais velhos — ou os Isnuu, no caso de problemas mágicos — são consultados por respeito.</li><br><li><strong>Sustento e Criação de Insetos:</strong> São estritamente herbívoros, alimentando-se de castanhas, raízes e frutas forrageadas. Em vez de gado, os Faens domesticam artrópodes gigantes: criam abelhas para mel, lagartas para seda, besouros gigantes como animais de tração e vespas para a caça.</li><br><li><strong>Arquitetura e Magia:</strong> Usam seu talento mágico com as plantas para esculpir o crescimento da vegetação, formando suas casas e estruturas em harmonia com a floresta. Possuem grande paixão pela arte, pelas magias de movimento e são amantes de ilusões, sendo considerados artistas e \"trapaceiros\" pelas outras raças da floresta.</li><br><li><strong>Táticas e Combate:</strong> Preferem sempre fugir voando ao invés de lutar. Não são covardes, apenas não veem sentido no confronto desnecessário. Contudo, se sua colônia ou entes queridos forem ameaçados, lutam até que o inimigo esteja morto usando qualquer recurso à disposição.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Assim como os Elfos, os Faens geralmente adotam as regras rígidas de nomes élficos (podendo também usar os nomes aglutinados e indígenas da língua Silvestre falada pelos Centauros e Faunos). Os nomes têm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Não usam nomes de família tradicionais. Um Faen adiciona o nome do local onde nasceu ou viveu como se fosse um sobrenome (Ex: Aesc Floresta da Névoa ou simplesmente Aesc Névoa).</p><h4>Nomes Masculinos</h4><p>Aelflaed, Aesc, Cerdic, Fianoc, Keleoc, Landric, Lewyd, Uhtric</p><h4>Nomes Femininos</h4><p>Aedil, Alfrith, Careth, Edith, Faedil, Gleadwin, Leofwin, Saewin, Vanedwin</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!f207a648060fa00c.588dd64dcb1cc7e5"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/faen.png",
@@ -29081,7 +31430,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "faen",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!f207a648060fa00c"
   },
   {
     "_id": "f5a9c39ccfdc37aa",
@@ -29098,7 +31448,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/fira.png\" alt=\"Fira\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-10 anos</li><li><strong>Adolescente:</strong> 11-17 anos</li><li><strong>Adulto:</strong> 18 anos</li><li><strong>Idoso:</strong> 70(12) anos</li><li><strong>Ancião:</strong> 120(2) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de estatura e constituição medianas (entre 1,6 e 1,9 metros de altura e pesando entre 70 e 80 quilos), perfeitamente adaptados à vida em regiões quentes e áridas. Possuem um reflexo biológico único: sob muito calor, os batimentos cardíacos e a respiração diminuem drasticamente, reduzindo a temperatura do corpo, o que lhes permite suportar temperaturas que seriam mortais para outras raças.</li><br><li><strong>Pele e Pelagem:</strong> A pele é escura, geralmente em tons de cobre fosco ou marrom-oliva, e ajuda a refletir o calor do ambiente de forma eficiente. O corpo é coberto por uma pelagem grossa e esparsa (mais espessa na cabeça e sob o queixo dos machos), geralmente negra com tons avermelhados, castanhos ou, muito raramente, ruivos.</li><br><li><strong>Olhos:</strong> São desprovidos de íris ou pupila, sendo geralmente brancos, mas podem apresentar variações em amarelo e dourado. Alguns indivíduos possuem olhos com uma luminescência semelhante ao brilho de uma chama, capaz até mesmo de fornecer iluminação em ambientes escuros.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas são diferenciadas dos machos por não desenvolverem pelos sob o queixo (barba) e por apresentarem um par de mamas de tamanho pequeno ou médio.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses, e a incidência de gêmeos é extremamente incomum na raça. As crianças ficam sob a supervisão dos pais até a idade adulta, que ocorre aos 18 anos. Vivem em média até os 120 anos, e os primeiros sinais da velhice — como acessos de letargia causados pelo reflexo térmico desregulado do corpo — começam a surgir apenas depois dos 70 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Preferem locais abertos e de clima árido, como o Grande Planalto do Leste e as cidades de Sa’es Yasgaroth e Tell’es Triadha em Parband. Suas construções são geralmente de pedras e rochas, de formato piramidal, possuindo uma pequena área interna (usada apenas como depósito ou refúgio contra tempestades) e uma grande área externa no topo. Os Firas preferem viver a céu aberto, usando essas áreas superiores até mesmo para dormir e trabalhar.</li><br><li><strong>Religião e Magia:</strong> A sociedade Fira é quase sem exceções teocrática, estruturando toda a sua vida e cultura em torno da adoração a Hou, o deus-fogo. Os seus dogmas exigem que nunca faltem com a palavra, jamais comam alimentos crus e que mantenham lareiras constantemente acesas. Os prédios e templos que mantêm essas lareiras podem alcançar entre 70 ou 80 graus, temperaturas insuportáveis e mortais para as outras raças. Eles veem uma ligação intrínseca entre magia arcana e mística, logo, seus Conjuradores Arcanos (Feiticeiros) são treinados nos próprios templos religiosos.</li><br><li><strong>Forja e Adestramento:</strong> Como uma extensão de sua adoração a Hou, os Firas são grandes ferreiros e cozinheiros. Suas armas e utensílios metálicos são extremamente elaborados (como a invenção do Aço Crisol), mas, diferentemente de Anões e Elfos, os Firas raramente aplicam gemas e pedras preciosas em metais, preferindo lapidá-las para uso exclusivo como moedas. Além disso, são exímios adestradores; a maioria possui animais de tração ou montaria e apreciam enormemente a falcoaria, a equitação e o uso de montarias aladas (como hipogrifos e ethons).</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua oficial dos Firas é o Camaka. O idioma e as regras para nomes são fortemente embasados na sonoridade árabe. Os nomes possuem poucas regras, sendo a maioria formada por palavras do Camaka que os pais acreditam atrair boa sorte à criança, além de existirem alguns nomes muito tradicionais cujos significados se perderam no tempo. Os Firas utilizam um sobrenome familiar. Quando dois Firas se casam, o casal deve escolher apenas um dos sobrenomes para ser usado por ambos — é totalmente indiferente para a raça se o nome escolhido será o do marido ou o da esposa. Sobrenomes seguem exatamente a mesma lógica dos primeiros nomes (palavras do Camaka com bons significados ou origens árabes).</p><h4>Nomes Masculinos</h4><p>Abhir, Ahmose, Akaar, Almiraj, Anakaar, Aradullah, Arkamed, Azif, Barakah, Camaban, Elzid, Essam, Faysal, Gerdes, Hallan, Isax, Ishak, Kazir, Malkin, Meldaikis, Mihalis, Morzar, Mubarak, Myrkal, Nawfal, Noa, Shadir, Uriah</p><h4>Nomes Femininos</h4><p>Adara, Amandla, Amara, Ashanti, Ashira, Ayisha, Casamira, Cytara, Dhejja, Fawzyia, Haifa, Inaya, Israa, Kaya, Lahana, Lakeisha, Midieda, Myra, Nathifa, Onika, Shanika, Tanisha, Tinashe, Yassana, Zendaya, Zola, Zuri</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!f5a9c39ccfdc37aa.d9f4d38db0a6fe0d"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/fira.png",
@@ -29107,7 +31458,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "fira",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!f5a9c39ccfdc37aa"
   },
   {
     "_id": "d63471c6571504cf",
@@ -29124,7 +31476,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/gnoll.png\" alt=\"Gnoll\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-7 anos</li><li><strong>Adolescente:</strong> 8-11 anos</li><li><strong>Adulto:</strong> 12 anos</li><li><strong>Idoso:</strong> 30(5) anos</li><li><strong>Ancião:</strong> 50(1) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides exclusivamente carnívoros, com constituição atlética, chegando a uma altura entre 1,8 e 2 metros (embora pareçam 20 centímetros mais baixos devido à postura fortemente encurvada) e pesando de 90 a 100 quilos. Suas pernas são curtas, e a união da coluna encurvada com braços e tronco longos lhes dá um centro de gravidade incrivelmente estável, dificultando muito que sejam derrubados. Possuem uma pequena cauda inútil, e suas mãos e pés (digitígrados) possuem quatro dedos com almofadas protetoras e fortes unhas adaptadas para correr e escalar, mas não afiadas o suficiente para servirem de armas.</li><br><li><strong>Pele e Pelagem:</strong> A pele é acinzentada com manchas não uniformes. Quase todo o corpo é recoberto por uma pelagem grossa e curta, num tom castanho-acinzentado cujas manchas seguem os padrões da pele, além de desenvolverem tufos de pelos grossos e bem mais escuros no topo da cabeça e ao longo de toda a coluna.</li><br><li><strong>Olhos:</strong> Pequenos e bem fundos no crânio.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura entre 6 e 7 meses, possuindo uma taxa assustadora de gêmeos e trigêmeos a cada ninhada. Atingem a vida adulta muito rápido, aos 12 anos, e os primeiros sinais biológicos da velhice (como o desbotamento e despigmentação do pelo) começam logo aos 30. Embora tentem se manter ativos na velhice, o severo enfraquecimento de seus organismos — notavelmente ossos e dentes — impede que os membros da raça vivam além dos 70 anos de idade.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> São originários de Gaian e altamente assustadiços e desconfiados, sobrevivendo na maioria das vezes através de pilhagens em rotas de comércio, agindo em bandos nômades. A raça não possui uma cultura definida e sempre assimila os traços dos povos com quem convivem (como os Gnolls silvícolas de Anarien, na Floresta da Névoa, que adotaram práticas rústicas dos Faunos e Centauros). Em seus bandos tradicionais não existe hierarquia rígida, sendo liderados por quem demonstrar mais iniciativa.</li><br><li><strong>Sustento e Sociedade:</strong> Como não existe pensamento a longo prazo em um bando, todos os recursos ou comidas são divididos estritamente em partes iguais. Indivíduos feridos, fracos ou fêmeas grávidas não recebem comida extra ou tratamentos especiais, apenas sendo alocados para atividades mais mundanas como dividir os espólios, cozinhar ou ficar de vigia para os que vão caçar.</li><br><li><strong>O Bufão:</strong> O único posto social digno de nota além do líder é o de \"Bufão\". O Bufão do bando é invariavelmente um macho adulto considerado o mais fraco ou medroso do grupo, servindo de alvo de humilhações, espancamentos e chacota constante por parte de seus pares. Curiosamente, apesar dos abusos, o Bufão possui os mesmos direitos alimentares e dorme na mesma fogueira que os outros, com a única diferença de nunca receber o encargo perigoso de agir como um batedor militar.</li><br><li><strong>Táticas de Combate e Canibalismo:</strong> Por serem essencialmente covardes, evitam lutar em desvantagem numérica, favorecendo o uso de armadilhas. A arma culturalmente favorita da raça é a Lança (que usam para manter inimigos longe). É comum que não limpem suas armas de propósito, servindo de vetores para transmissão do Tétano. Não possuem escrúpulos, não praticam escravidão e veem os inimigos caídos puramente como comida: não é raro que Gnolls percam o controle em combate para disputar pedaços da carne e sangue de aventureiros recém-abatidos no chão. No entanto, se o embate virar contra o bando, os Gnolls fogem instintivamente; e caso acuados, imploram por rendição, entregam todo o dinheiro sem resistir, e escapam na primeira quebra de atenção do inimigo.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Assim como os Hamelins, os Gnolls falam majoritariamente a língua Zihassás, além do idioma da região onde vivem. É um idioma sem forma escrita, cujo som principal vem da pronúncia extremamente chiada, baseada no som de \"S\", \"Z\", \"F\", \"CH\" e \"X\". Gnolls quase nunca utilizam sobrenomes, recebendo da tribo apenas \"Títulos\" descritivos referentes a algum feito. Para gerar os seus nomes na língua chiada, traduz-se uma palavra para o Árabe e aplicam-se suas letras fonéticas. Masculinos têm de duas a quatro sílabas e sempre terminam em consoante. Femininos têm de duas a quatro sílabas e sempre terminam em vogal (\"A\", \"E\" ou \"I\"). Não utilizam sobrenomes tradicionalmente, adotando apenas os Títulos conquistados em combate (Ex: Alfirani Orelha-Rasca, Mukhif o Rápido).</p><h4>Nomes Masculinos</h4><p>Mukhif, Xarif, Chamil, Zaleel, Fariq, Safir</p><h4>Nomes Femininos</h4><p>Alfirani, Xarifa, Zaleela, Fariqa, Chamila</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!d63471c6571504cf.5e96bad0c06c70dc"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/gnoll.png",
@@ -29133,7 +31486,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "gnoll",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!d63471c6571504cf"
   },
   {
     "_id": "6ad900578dbca255",
@@ -29150,7 +31504,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/hamelin.png\" alt=\"Hamelin\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-5 anos</li><li><strong>Adolescente:</strong> 6-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 30(4) anos</li><li><strong>Ancião:</strong> 40(1/2) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.</li><br><li><strong>Dimorfismo Sexual:</strong> Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.</li><br><li><strong>Comportamento:</strong> Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.</li><br><li><strong>Aventureiros:</strong> Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".</p><h4>Nomes Masculinos</h4><p>Aldabauss, Assaris, Baltosh, Catemoc, Fuzal, Haribus, Mahajuss, Muheiefos, Mukhif, Munsifin, Ratharyn, Retch, Savis, Sefnus, Shimoshi, Treffen, Zagig, Zaszafizle, Zatmec, Zazempur, Zotspox</p><h4>Nomes Femininos</h4><p>Alfirani, Alharibina, Alraufa, Chunchia, Faquiri, Hissa, Isazi, Jabeni, Lezisle, Nassifa, Neezza, Pasha, Piferva, Sazila, Shike, Shoola, Siska, Szaidzisnska, Tisha, Tsintsi, Zusza</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!6ad900578dbca255.fa7e4c795cff360f"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/hamelin.png",
@@ -29159,7 +31514,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "hamelin",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!6ad900578dbca255"
   },
   {
     "_id": "4f5f3a73e5194065",
@@ -29176,7 +31532,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/levent.png\" alt=\"Levent\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 450(25) anos</li><li><strong>Ancião:</strong> — anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides dotados de grandes asas nas costas, com uma envergadura que chega a ser o dobro da altura do indivíduo. São menores e menos corpulentos que os humanos, medindo de 1,5 a 1,6 metros e pesando de 60 a 70 quilos. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem uma tonalidade bronzeada clara. Possuem uma penugem fina que cobre do alto da cabeça até a base das asas, ombros e antebraços. O resto do corpo é recoberto por penas pequenas e macias, com uma plumagem que varia do branco ao castanho escuro (sendo amarelo e castanho-claro os mais comuns).</li><br><li><strong>Olhos:</strong> São grandes e de coloração clara, variando entre azul, verde e âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem penas mais longas e grossas na cabeça, formando grandes penachos. As fêmeas, por sua vez, não possuem esse penacho, exibem traços mais delicados em geral e possuem duas pequenas mamas no peito.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em torno de 10 meses e gêmeos são extremamente raros. Os bebês nascem sem penas, mas desenvolvem uma plumagem branca logo no início, trocando-a pela versão adulta em torno dos cinco anos (período no qual ficam reclusos). Atingem a maioridade aos 16 anos, quando suas asas se desenvolvem para permitir o voo, e podem viver plenamente até os 500 anos de idade. Levents, assim como os Elfos, não sofrem os efeitos comuns de perda de vigor pelo envelhecimento e não entram na categoria Ancião. A partir da fase de Idoso, fazem testes a cada 25 anos; ao falharem repetidas vezes, têm ciência de sua partida iminente e se preparam para morrer placidamente.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Habitam picos montanhosos e suas cidades são construídas em torres altas ou escavadas na rocha. A arquitetura não utiliza escadas; em vez disso, os ambientes possuem grandes balcões e vastos vãos livres e verticais feitos especificamente para o voo. Em Cassiopéia, vivem sobretudo no Arquipélago das Três Irmãs, na Ilha do Lagarto e na cadeia de Cnoc Ard (em Londérien). Politicamente, são regidos por conselhos teocráticos formados por Druidas, Sacerdotes e Magos, com os líderes militares tendo apenas caráter de conselheiros.</li><br><li><strong>Religião e Estilo de Vida:</strong> Notoriamente pacíficos e devotos de Taranis (o Primordial da Liberdade), preferem a diplomacia ao combate. Caçar e abater pássaros é um tabu gigantesco, fazendo com que sua sociedade dependa enormemente da pesca – que praticam nas costas e rios das montanhas – para se sustentar.</li><br><li><strong>Ritos de Passagem e Luto:</strong> Aos 16 anos, os jovens entram num rito de passagem onde se isolam por dois meses com dois tutores para aprenderem pesca, vida sexual e o controle do voo. Em contrapartida, quando ocorre uma fatalidade, o cônjuge do falecido entra num rígido luto isolado de um mês, acompanhado apenas por um guia espiritual para entrar em contato com o desencarnado e buscar um novo rumo na vida.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Levents é o Samyia. O idioma é falado com trinados e arrulhados que se assemelham melodiosamente ao canto dos pássaros canoros, sendo quase impossível para outras raças falarem perfeitamente. Para os nomes da raça, o idioma Indiano atua como o comparativo perfeito, contendo nomes de duas ou três sílabas. Por acreditarem que um indivíduo deve ser medido estritamente pelas próprias capacidades e não pelas origens, os Levent nunca usam sobrenomes. Somente em cerimônias raríssimas eles se identificarão pela sua organização militar ou por seus postos.</p><h4>Nomes Masculinos</h4><p>Anand, Arkilan, Avanur, Chetan, Darshan, Deepak, Dhaval, Harshal, Kamal, Kiran, Mayur, Mitul, Morphias, Prakash, Pranav, Pravin, Rahul, Rajendran, Rajesh, Ravil, Sandip, Shekar, Sonal, Suraj</p><h4>Nomes Femininos</h4><p>Ajaia, Ankita, Ashoka, Dineasha, Harisha, Hira, Jaiesha, Kamala, Kumara, Kunala, Mahendra, Mahesha, Mia, Narensra, Nishanta, Radha, Rajia, Rohita, Sanjaia, Satia, Shaiera, Vasanta, Yasha</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!4f5f3a73e5194065.65a035b6196b9091"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/levent.png",
@@ -29185,7 +31542,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "levent",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!4f5f3a73e5194065"
   },
   {
     "_id": "04ee764d26c2b72b",
@@ -29202,7 +31560,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/mahok.png\" alt=\"Mahok\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-15 anos</li><li><strong>Adolescente:</strong> 16-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 60(8) anos</li><li><strong>Ancião:</strong> 80(1) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de constituição sólida, medindo cerca de 2,5 metros de altura e pesando por volta de 300 quilos na idade adulta. Esse peso pode chegar ao dobro com o passar do tempo. Sua característica mais notável é a pele formada por grossas placas de rocha. Possuem quatro dedos nas mãos e nos pés (onde os dedos são unidos sob um bloco único de pedra). Em raros casos, podem nascer com um par extra de braços, que, com treinamento, conseguem usar eficientemente em combate.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem cor e textura granítica, embora possa apresentar variações semelhantes a mármore ou alabastro. Os bebês nascem com uma fina camada rochosa que racha e cai nos primeiros dias, dando lugar a uma nova. A pele atinge sua configuração ideal na fase adulta e continua engrossando progressivamente durante o resto da vida.</li><br><li><strong>Sentidos Precários:</strong> Devido às formações rochosas, a pele não transmite o tato. Eles também não possuem pavilhões auditivos externos, e o crescimento de rochas ao redor das narinas e olhos limita consideravelmente o olfato e a visão.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas da espécie são virtualmente idênticos, não havendo qualquer diferença física notável que outras raças consigam distinguir.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 10 meses (gerando apenas um bebê). Crescem de forma acelerada, atingindo o tamanho máximo já aos 10 anos e sendo adultos aos 20. Aos 60 anos, o peso excessivo da pele causa severas dificuldades de locomoção. Ao atingir os 80 anos, perdem completamente a mobilidade e se fundem em rocha sólida, tornando-se monumentos conhecidos como \"Menires\".</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> Vivem em cidades escavadas em montanhas ou galerias cavernosas. Muitas de suas comunidades são nômades que viajam por cadeias de montanhas, fixando-se por curtos períodos. Não possuem um reino próprio, mas são vistos como cidadãos plenos em Parband, Dagothar e Tebryn. Escolhem minuciosamente o local onde repousarão ao fim da vida, formando vastos campos monolíticos chamados cromlechs nos picos de Cassiopéia.</li><br><li><strong>Sustento e Dieta:</strong> Sua dieta é altamente exótica, pois necessitam de muito silício, carbono e minerais. Alimentam-se de biscoitos cozidos de argila e cal, vegetais crus, insetos (considerados iguarias) e assam seus alimentos normais até que virem puramente carvão.</li><br><li><strong>Temperamento:</strong> São extremamente gregários e sociáveis, criando grupos familiares fortes e conversando até com trogloditas e ogros (que outras raças julgam irracionais). Como são estoicos, indiferentes a intempéries ou falta de conforto, as raças mais requintadas muitas vezes os julgam erroneamente como incivilizados ou pouco sofisticados.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Mahoks é o Triet, que compartilha a mesma estrutura de escrita do Futhark (runas anãs). O idioma comparativo real para essa língua é o Esloveno. Os nomes Mahoks possuem de duas a quatro sílabas e são criados a partir do nome de um mineral com a última letra alterada. Para o sobrenome, um Mahok sempre utiliza o nome de um acidente geográfico muito específico do local onde ele nasceu.</p><h4>Nomes Masculinos</h4><p>Ambar, Argilas, Azuritor, Berilor, Carvor, Citrinos, Cromas, Culon, Geldoron, Giendros, Iridior, Jaspos, Koumor, Mineran, Modron, Nefelinor, Obsidianos, Ombar, Opalon, Ouros, Piritor, Quartzon, Roblor, Xiselmor, Xistor</p><h4>Nomes Femininos</h4><p>Alabastra, Alunitil, Ametista, Ankerita, Areil, Azurita, Bronzil, Carva, Copal, Coral, Cristal, Diamanta, Esmeralda, Galena, Gema, Gipsita, Goliata, Jadel, Lazulil, Mercuria, Mical, Prata, Rubil, Terrekal, Titanita, Zinca</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!04ee764d26c2b72b.3a80a873daea3c2f"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/mahok.png",
@@ -29211,7 +31570,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "mahok",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!04ee764d26c2b72b"
   },
   {
     "_id": "d4b6d8e6fdfe32b2",
@@ -29228,7 +31588,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/metadilio.png\" alt=\"Metadílio\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-19 anos</li><li><strong>Criança:</strong> 0-19 anos</li><li><strong>Adolescente:</strong> 0-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 70 anos</li><li><strong>Ancião:</strong> 100 anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de baixa estatura, medindo entre 1 e 1,2 metro, com crânios levemente alongados, maxilares pequenos e orelhas levemente pontudas. A constituição física é mediana, mas o peso varia de 30 a 70 quilos devido à forte tendência da raça ao sobrepeso. Seus corpos são classificados biologicamente como rotundos e macios, o que lhes confere uma capacidade inata de rolar e quicar ao sofrerem quedas, além de conseguirem escorregar com extrema facilidade de amarras e agarrões.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, podendo ficar intensamente bronzeada devido à exposição ao sol. O corpo é recoberto por uma pelagem fina e esparsa em tons de castanho (que fica grisalha ou branca na velhice), concentrando-se fortemente no topo e nas laterais da cabeça e na parte superior dos pés.</li><br><li><strong>Dimorfismo Sexual:</strong> Não há diferença corporal na pelagem ou constituição entre os gêneros. No entanto, culturalmente, as fêmeas mantêm cabelos longos e aparam os pelos faciais, enquanto os machos preferem cabelos curtos e ostentam costeletas abundantes. As fêmeas também desenvolvem mamas de tamanho médio a grande.</li><br><li><strong>Ciclo de Vida:</strong> Chegam à maioridade aos 20 anos. Os primeiros sinais da velhice — como perda de tônus muscular, despigmentação dos pelos e aumento da obesidade — começam a aparecer a partir dos 70 anos. Devido a um metabolismo bastante adaptado à fartura, sempre que descansam após uma refeição farta (condição Barriga Cheia), eles conseguem recuperar o dobro de Pontos de Vida e Mana. A gestação dura em média 10 meses e a vida útil chega normalmente aos 100 anos, com indivíduos saudáveis conseguindo alcançar os 130 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> O grande reino de Bryne é povoado em sua quase totalidade por Metadílios. Eles vivem em moradias muito espaçosas alocadas em grandes terrenos usados para plantações e criação animal, e frequentemente abrigam seus próprios comércios e oficinas dentro de casa. Uma vez que assumir um cargo administrativo (como trabalhar num salão de burgo) exige que o Metadílio se mude para o seu local de trabalho e as funções geralmente se tornam vitalícias, as áreas urbanas da raça mudam muito pouco estruturalmente com o passar do tempo.</li><br><li><strong>Temperamento e Negócios:</strong> Preferem levar uma vida pacata e tranquila, sendo imensamente cautelosos no comércio e evitando negócios que envolvam grandes riscos. Naturalmente sociáveis, amam a ordem, a civilidade e o conforto, o que os torna excelentes Senescais administrando pequenas fazendas ou oficinas. Também são domadores por excelência (usando suas feras como força de trabalho e montaria adaptada ao seu tamanho), mantendo companhias montadas em pôneis, babirusas domadas e, particularmente, carneiros gigantes chamados Aríetes.</li><br><li><strong>Arte e Religião:</strong> São um povo altamente inventivo, dedicando-se com paixão a atividades criativas como escultura, pintura, apresentações de ilusionismo e música. Seus Bardos são formados em Liceus e notoriamente reconhecidos por sua virtuosidade e métrica precisa nas canções. Contudo, a vasta maioria não possui nenhuma inclinação religiosa, considerando dogmas teológicos e debates filosóficos como assuntos enfadonhos e desprovidos de propósitos práticos.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>Assim como os humanos, os Metadílios falam o Burguês Tebryniano. Seus nomes possuem de duas a quatro sílabas e são criados a partir de adaptações de palavras do nosso mundo real. O método para se criar nomes de Metadílios é trocar, suprimir ou adicionar uma ou duas letras de um nome comum brasileiro. Uma tradição muito marcante do povo é que as fêmeas Metadílias quase sempre recebem nomes de flores. Diferente de outras raças silvestres ou bestiais, eles preservam rigidamente seus sobrenomes familiares, que costumam refletir o ambiente geográfico, a natureza e os ofícios rurais de sua cultura.</p><h4>Nomes Masculinos</h4><p>Alford, Arnulfo, Brando, Bredo, Cladro, Jorand, Lodrago, Nil, Torbeno, Viliano</p><h4>Nomes Femininos</h4><p>Rosa, Violeta, Tilia, Albina, Cindal, Galena, Isobela, Matilda</p><h4>Sobrenomes e Clãs</h4><p>Alpestre, Boteiro, Campina, Floreiro, Jardim, Lenheiro, Lenhoso, Montanhesco, Neves, Ovelheiro, Riberinho, Rústico, Torreiro</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!d4b6d8e6fdfe32b2.a0f0f95567819d6e"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/metadilio.png",
@@ -29237,7 +31598,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "metadilio",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!d4b6d8e6fdfe32b2"
   },
   {
     "_id": "a568c1b37c47d255",
@@ -29254,7 +31616,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/naga.png\" alt=\"Naga (Macho)\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 51+ anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com pesadas características ofídicas. A cabeça possui um focinho longo e mandíbulas que, embora não sejam separáveis como a das cobras comuns, possuem uma abertura enorme de 90º. Apresentam torso e braços humanoides, mas abaixo da caixa torácica a estrutura é formada apenas por coluna vertebral e costelas, originando uma grossa cauda muscular que pode ter de 4 a 5 metros de comprimento. Uma Naga pesa em média de 200 a 250 quilos. Costumam ficar com 2 metros de altura em posição ereta, mas podem inclinar o torso para perto do chão (1 metro de altura) para se movimentarem mais rapidamente, ou se apoiarem na cauda para erguerem-se a até 3 metros de altura num combate. Devido à sua fisionomia, elas não conseguem pular nem escalar escadas de mão.</li><br><li><strong>Pele e Pelagem:</strong> Totalmente desprovidas de pelos, possuem o corpo revestido por escamas de tons verdes (variando do quase negro ao verde-limão). Curiosamente, suas pálpebras são compostas por escamas transparentes que ficam o tempo todo fechadas.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são consideravelmente maiores e mais robustos que as fêmeas. Eles não possuem a larga estrutura muscular (semelhante ao capuz de uma naja) em volta do pescoço e da cabeça que caracteriza as fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A reprodução das Naga possui uma gestação curtíssima de cerca de 5 meses, e os ovos não são botados, eclodindo diretamente de dentro do corpo da fêmea. As crias nascem plenamente formadas (mas com tamanho minúsculo), alcançando a maturidade num desenvolvimento veloz de apenas 10 anos. Diferente das fêmeas, a expectativa de vida normal dos machos é de 50 anos, após os quais eles envelhecem vertiginosamente e acabam falecendo em poucas décadas.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas do temível continente de Ofidien, as Naga são fanáticas e profundamente xenófobas. Elas menosprezam qualquer outra forma de vida, tratando as outras raças apenas como matéria-prima de laboratório, recursos consumíveis ou escravos (\"gado\"). Assentam suas cidades dentro de montanhas rochosas, valorizando acima de tudo esquemas de segurança e abundância de rotas de fuga. A sua sociedade não valoriza a unidade familiar tradicional (as crianças são responsabilidade da comunidade, não dos pais); as suas maiores ligações e amizades formam-se fortemente entre indivíduos que têm a mesma idade.</li><br><li><strong>O Papel Masculino:</strong> Como o seu império é de ordem matriarcal e comandado por feiticeiras fiéis ao Primordial Glycon, aos machos são reservadas as funções de defesa da sociedade e da estrutura do império. Quase todos eles são treinados nas artes bélicas como soldados. Adicionalmente à proteção, os machos encarregam-se de supervisionar o trabalho braçal dos escravos, comandar a engenharia cívica e também cuidar das fazendas da raça (onde cultivam fungos e criam pequenas aves). Vale ressaltar que a prática do artesanato, da alquimia e a medicina são altamente valorizadas e praticadas por ambos os gêneros.</li><br><li><strong>Necromancia:</strong> Diferente de outras culturas, o uso de magia necromântica para reviver cadáveres de outras criaturas não é um tabu, uma vez que elas separam a visão do corpo e do espírito de modo prático. Com relação à própria raça, enterrar os seus mortos de maneira intacta é a maior das desonras; para os Naga, devorar o cérebro do ente querido falecido é a forma padrão de se demonstrar profunda honra aos seus feitos.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua das Naga é o Asá-Avája, um dialeto exótico preenchido com sibilos e estalos corporais, o que o torna uma língua absurdamente difícil e quase impossível de ser pronunciada por outras raças. Para definir nomes do povo Naga (que habitualmente possuem 3 sílabas ou mais), usam-se deuses históricos do hinduísmo e nomes da cultura egípcia. Uma característica única dos nomes masculinos Naga é a utilização de poderosos sufixos separados por um hífen (-DREK significando Temível, -SUR para Grandioso, e -VITRA para Iluminado). E, diferente dos seus construtos (os Draganos), as Naga nunca em nenhuma hipótese usam sobrenomes, por acreditarem que um indivíduo tem que provar seu próprio mérito.</p><h4>Nomes Masculinos</h4><p>Ahamthrul, Ahi-Vitra, Akuloth-Sur, Asdaha-Drek, Brignor, Bristerne, Dahag-Drek, Dragua-Vitra, Flamerax, Fzalleobliviax, Hatshersup, Inferniscargilex, Kolkhikus-Sur, Komerex, Kulshedra-Drek, Lagarfliotsormurinn, Meisterstur, Nidhog-Sur, Phorkys-Vitra, Rothenkolkis, Sarakus, Sarcopis-Sur, Sarkany-Drek, Sarmyn-Sur, Scathel, Shivnarvex, Smeygorinish, Thevetat-Sur, Typhaon, Zirnitrarex</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!a568c1b37c47d255.4c8dbb3b1ac18a50"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/naga.png",
@@ -29263,7 +31626,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "naga-m",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!a568c1b37c47d255"
   },
   {
     "_id": "442eb5200fab3685",
@@ -29280,7 +31644,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/naga.png\" alt=\"Naga (Fêmea)\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 70 anos</li><li><strong>Ancião:</strong> 71+ anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges reptilianas que, abaixo do tórax, não possuem pernas, sustentando-se numa grossa e poderosa cauda de 4 a 5 metros composta por coluna vertebral e costelas. As fêmeas são visivelmente menores e mais delgadas que os machos (que pesam em média entre 200 e 250 quilos). A cabeça é ofídica, possuindo focinho longo e mandíbulas que, embora não se separem, possuem abertura de 90º. Quando alertas, ficam com 2 metros de altura; correndo inclinadas, baixam para 1 metro; e em combate, podem se apoiar na cauda para alcançar 3 metros de altura. A sua fisiologia impede completamente que elas realizem saltos ou usem escadas.</li><br><li><strong>Pele e Pelagem:</strong> O corpo é revestido inteiramente por escamas que variam do quase negro ao verde-limão. O padrão das fêmeas é notório por apresentar padrões muito mais amplos de cores do que os machos.</li><br><li><strong>Olhos:</strong> Suas pálpebras são formadas por uma escama especial e transparente, que permanece o tempo todo fechada para proteger o olho.</li><br><li><strong>Dimorfismo Sexual:</strong> É extremamente marcante na face; além de serem mais delicadas, as fêmeas ostentam ao redor do pescoço e cabeça uma estrutura muscular larga, semelhante a um capuz (como as najas), que exibe fortes manchas e padrões coloridos na parte interna.</li><br><li><strong>Ciclo de Vida:</strong> Possuem uma gestação curtíssima de 5 meses. Elas produzem de três a quatro ovos, mas não os botam; mantêm-os dentro de seus corpos até a eclosão. Os bebês nascem minúsculos (com um centésimo do tamanho normal), mas totalmente formados e desenvolvem-se de forma veloz até a idade adulta, aos 10 anos. As fêmeas vivem consideravelmente mais que os machos, podendo chegar aos 70 anos com facilidade; no entanto, após essa idade, entram em um processo de envelhecimento acentuadamente rápido e raramente vivem por mais 20 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas de Ofidien, as Naga criam cidades nas encostas ou escavadas na rocha das montanhas, valorizando estruturas com defesa extrema e muitas rotas de fuga. Seu império é rigidamente matriarcal e \"arcanocrático\", moldado pela xenofobia e lealdade fanática à própria raça, a qual elas consideram superior a todas as outras.</li><br><li><strong>Papel Feminino (Magia e Teocracia):</strong> Toda a sociedade orbita o Primordial Glycon, e todas as fêmeas da espécie são consideradas suas consortes. Elas detêm o monopólio místico: apenas fêmeas podem ser Conjuradoras, e atuar como reprodutoras, artistas, boticárias e professoras é privilégio delas. Além disso, raras são as fêmeas que não possuem conhecimento arcano rudimentar. As mais formidáveis entram para o culto de feiticeiras Nachash, que comandam as alas militares, sacerdotais e sociais do império. Atividades braçais e agricultura pesada são consideradas tarefas degradantes e destinadas apenas aos escravos e, em parte, aos machos.</li><br><li><strong>Sociedade e Necromancia:</strong> A raça não possui o conceito de unidade familiar; todas as crianças são cuidadas de forma geral pela comunidade, e a lealdade extrema do povo baseia-se em amizades formadas com companheiras da mesma idade. A necromancia é amplamente aceita, não havendo pudor em transformar corpos alheios em construtos ou laboratórios. O sepultamento de uma Naga intacta é tido como uma enorme desonra, sendo a tradição consumir o cérebro da falecida para honrar seus feitos.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa da raça é o Asá-Avája, composta por sibilos, estalos e expressões corporais virtualmente impossíveis de serem reproduzidas por outras espécies sem magia. Os nomes Naga possuem pelo menos três sílabas e são inspirados na mitologia egípcia e hindu. Ao contrário dos machos (que usam hífen), as fêmeas adicionam radicais de reverência aos seus nomes separados por um apóstrofo. Os radicais femininos são 'AKIS (superiora), 'AXAR (guerreira) e 'KAR ou 'KIR (ambos significando abençoada). Naga não usam nenhum tipo de sobrenome, crendo que usar a influência de famílias limitaria o mérito do indivíduo.</p><h4>Nomes Femininos</h4><p>Anphisbaenea, Azhi’Dahaka, Brakaelurydea, Draig’Goch, Erenkilgorinish, Esderha’Evren, Eupodophis, Galeshn’Kar, Haasiophis, Illuyankas, Kimaera’Axar, Kur’Irkalla, Leidivashy, Nagavanshi, Nahash, Najashn’Kir, Pachyr’Akis, Scythia’Hylaea, Simoliophidea, Stakis, Susna’dasa, Suthek’Heru, Venrathay, Verecelen, Weista’Axar, Yam’Litanu</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!442eb5200fab3685.b110216ef01ceb57"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/naga.png",
@@ -29289,7 +31654,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "naga-f",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!442eb5200fab3685"
   },
   {
     "_id": "34960e6eed67cbb9",
@@ -29306,7 +31672,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/orc.png\" alt=\"Orc\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-8 anos</li><li><strong>Adolescente:</strong> 9-11 anos</li><li><strong>Adulto:</strong> 12 anos</li><li><strong>Idoso:</strong> 30(6) anos</li><li><strong>Ancião:</strong> 60(1) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de compleição física muito muscular e hábitos predatórios, medindo em média entre 1,7 e 1,9 metros e pesando entre 90 e 110 quilos. Sua característica mais notável são os grandes caninos maxilares, extremamente afiados e proeminentes, montados sobre uma estrutura óssea craniana muito forte. Graças ao sangue orc e seus hábitos noturnos, conseguem enxergar na completa escuridão, embora não consigam distinguir cores nesse ambiente.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do verde oliva ao castanho. O corpo possui uma pelagem negra grossa e esparsa, sendo mais densa no topo da cabeça e ao longo da coluna.</li><br><li><strong>Olhos:</strong> As pupilas são amarelas, variando de muito brilhantes até tão opacas e brancas que muitas vezes apenas a íris do olho é perceptível.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem pelos no pescoço e sob o rosto (uma espécie de barba). As fêmeas são distinguidas por não possuírem esses pelos faciais e cervicais, além de apresentarem um par de mamas que variam de pequenas a grandes.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das fêmeas dura de sete a oito meses e os Orcs são considerados adultos com apenas 12 anos. Os sinais da velhice, marcados pela perda de pigmentação do cabelo e da pele, surgem aos 30 anos. É muito raro um orc passar dos 60 anos, embora surpreendentemente a raça quase não perca tônus muscular em idades avançadas.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativos principalmente das Terras Secas, organizam-se em pequenas tribos nômades com hierarquia baseada na força bruta. Têm poucas cidades permanentes, construindo seus assentamentos sobre as ruínas de antigas civilizações (principalmente nas ruínas de Mankosh). Respeitam imensamente a força e o poder individual; a magia é temida e respeitada, mas o \"conhecimento\" e estudo intelectual puros são renegados aos fisicamente inaptos (o que ironicamente permite que orcs mais fracos ascendam socialmente usando magia e sabedoria).</li><br><li><strong>Sistema de Castas:</strong> O topo é liderado por um Xamã, Druida ou Guerreiro experiente com seus irmãos-de-armas (filhos e guarda-costas). Abaixo ficam os caçadores, guerreiros e acólitos; seguidos pelos pastores, ferreiros e artesãos; e na base, os aprendizes, prisioneiros e escravos. Os membros podem desafiar seus superiores para subir de patente. Derrotados descem um degrau, e as lutas não precisam ser até a morte, a não ser que os desafiantes sejam escravos em busca de liberdade, que são invariavelmente mortos se perderem.</li><br><li><strong>O Papel Feminino:</strong> A sociedade é estritamente igualitária e as fêmeas assumem e disputam qualquer cargo. A única regra é que as grávidas e as fêmeas com filhotes pequenos são temporariamente afastadas das atividades da tribo e não podem ser desafiadas por castas inferiores até o desmame das crianças.</li><br><li><strong>Orcs Civilizados:</strong> Aqueles orcs que abandonam o nomadismo e se fixam em reinos como Arkânia ou Parband são integrados de forma muito eficiente, geralmente ingressando nas fileiras militares e da guarda do reino, já que encontram dificuldades em competir nas fileiras acadêmicas e políticas.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Orcs é o Ravorka, um idioma cru, agressivo e difícil que não possui uma versão escrita própria, e que é falado também por Ogros e Trolls. O idioma de referência no mundo real para os Orcs é a língua Bielorrussa. Os nomes Orcs são curtos, contendo uma ou duas sílabas, e dão extrema preferência às consoantes velares como o “K”, “G” e “RR” (sendo que qualquer “R” no início de um nome tem sempre som de \"RR\"). As fêmeas diferenciam-se dos machos porque seus nomes sempre terminam com a letra \"A\". Nas Terras Secas, os Orcs usam puramente os nomes de seus Clãs como sobrenome. Já os orcs que vivem em Parband e Arkânia costumam adotar as mesmas regras de nomes Astérios, identificando-se através da sua organização e patente militar (Ex: \"Legionário Stog da Armada da Aurora\", ou \"Ura do Templo de Ahogr\").</p><h4>Nomes Masculinos</h4><p>Agro, Bugmug, Falag, Gog, Gograk, Grigkal, Grimthark, Grishog, Grost, Grundel, Kerno, Kerogre, Krugak, Magog, Mortor, Nofgor, Rorst, Rurlag, Shelitarg, Stog, Sukor, Tugut, Turg, Urglak, Xargok, Yakar</p><h4>Nomes Femininos</h4><p>Aga, Agra, Agrunta, Darga, Drakena, Falanga, Gralnaka, Grika, Gulda, Horsta, Kendra, Kleva, Kruga, Magla, Nevra, Reptila, Rorda, Runta, Stoga, Tamuska, Tuguta, Turga, Ura, Urgla, Valsina, Xarga</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!34960e6eed67cbb9.1385956a099695c7"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/orc.png",
@@ -29315,7 +31682,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "orc",
         "tipo": "raca"
       }
-    }
+    },
+    "_key": "!journal!34960e6eed67cbb9"
   },
   {
     "_id": "01f81cd5a919ee25",
@@ -29332,7 +31700,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/feiticeiro2.png\" alt=\"Feiticeiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><p>Apesar de possuírem um domínio considerável sobre a teoria geral da magia arcana, os Feiticeiros focam seus esforços no domínio e manipulação dessas energias brutas, geralmente para fins combativos. Muitos Feiticeiros ocupam posições em exércitos ou guardas organizadas, às vezes na linha de frente, às vezes como conselheiros ou em posições de liderança. Em geral, aqueles que decidem seguir o aprendizado de Feiticeiro são pessoas com sede de aventura ou de poder, o que geralmente lhes rende bons frutos em organizações com cadeias de comando bem estruturadas.</p><p>No entanto, muitos Feiticeiros estudam as teorias elementais da magia em busca de significados mais filosóficos. Esses Feiticeiros geralmente evitam usar magias de forma destrutiva, procurando usá-las de modo mais brando, usualmente preferindo magias defensivas e utilitárias em lugar de magias puramente ofensivas.</p><p><strong>Raças Mais Frequentes:</strong> Elfo, Faen, Fira, Humano e Metadílio</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!01f81cd5a919ee25.a42a95c3b864e636"
       },
       {
         "_id": "a573a8b7f6af9784",
@@ -29345,7 +31714,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>aparar-magia</strong></li><li><strong>ariete-magico</strong></li><li><strong>bola-de-fogo</strong></li><li><strong>congelar</strong></li><li><strong>detectar-magia</strong></li><li><strong>eletricidade-estatica</strong></li><li><strong>inflamar</strong></li><li><strong>infravisao</strong></li><li><strong>invocar-elemental-1</strong></li><li><strong>invocar-elemental-2</strong></li><li><strong>levitar</strong></li><li><strong>manto-crepitante</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>parede-de-gelo</strong></li><li><strong>rajada-de-gelo</strong></li><li><strong>relampago-1</strong></li><li><strong>rajada-elemental</strong></li><li><strong>resistencia-elemental</strong></li><li><strong>telecinesia</strong></li><li><strong>teleporte-1</strong></li><li><strong>aptidao-elemental</strong></li><li><strong>dissipar-magia</strong></li><li><strong>eletrosfera</strong></li><li><strong>incandescer</strong></li><li><strong>inferno</strong></li><li><strong>invocar-elemental-3</strong></li><li><strong>prisao-de-gelo</strong></li><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!01f81cd5a919ee25.a573a8b7f6af9784"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/feiticeiro2.png",
@@ -29354,7 +31724,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "feiticeiro",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!01f81cd5a919ee25"
   },
   {
     "_id": "67c20d7803b462e2",
@@ -29371,7 +31742,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/guerreiro1.png\" alt=\"Guerreiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><p>De fato, a maioria das cidades mantém um pequeno contingente de guardas, treinado no uso de armaduras pesadas, escudos e armas corporais e a maioria dos reinos de Cassiopéia mantém um exército permanente de combatentes especializados para lidarem com invasões e fazer frente aos ataques de nações hostis. Além disso, muitas companhias de mercenários treinam e mantêm um bom número de guerreiros a soldo, prontos para empreenderem todo tipo de conflito armado. Finalmente, histórias de aldeões obrigados a pegarem em armas para defenderem seus lares contra bandidos ou, em alguns casos, monstros e que acabam por seguir nos caminhos dos homens de armas são relativamente comuns em Drakon.</p><p>Considerando a abundância de minérios em Cassiopéia, mesmo um guerreiro com pouco treinamento pode sobreviver no caminho da guerra, comprando armas e equipamentos adequados de proteção. Graças a isso, os exércitos, guardas e companhias de mercenários costumam manter seus homens bem equipados, e a profissão de Guerreiro é vista como digna e estável, fazendo com que muitos escolham segui-la em busca de glória e fama – apesar de poucos conseguirem tais distinções.</p><p>Apesar das guardas e exércitos não pagarem muito bem, elas oferecem alojamento, alimentação e manutenção de armas, armaduras e equipamentos necessários para o cumprimento do dever, enquanto companhias mercenárias pagam mais, mas apresentam riscos bem maiores – já que costumam ser procuradas para resolver problemas difíceis, geralmente envolvendo monstros, ou para engrossar as linhas de frente dos exércitos, no caso de conflitos em larga escala.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!67c20d7803b462e2.afabe7db21755d4b"
       },
       {
         "_id": "118ff6ada080631d",
@@ -29384,7 +31756,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (37 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>anular-golpe</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-simultaneo</strong></li><li><strong>brigao</strong></li><li><strong>combate-em-grupo</strong></li><li><strong>armas-1</strong></li><li><strong>combate-pesado</strong></li><li><strong>combate-tatico</strong></li><li><strong>defesa-agressiva</strong></li><li><strong>estabilidade</strong></li><li><strong>golpe-devastador-1</strong></li><li><strong>golpe-com-escudo</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>investida-mortal</strong></li><li><strong>nocautear</strong></li><li><strong>parede-de-escudos</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>transpor</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>forca-de-explosao</strong></li><li><strong>golpe-devastador-2</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>investida-forte</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>mestre-de-armas-3</strong></li><li><strong>gatuno</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!67c20d7803b462e2.118ff6ada080631d"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/guerreiro1.png",
@@ -29393,7 +31766,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "guerreiro",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!67c20d7803b462e2"
   },
   {
     "_id": "28b8d9e8f991abe5",
@@ -29410,7 +31784,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/ladino2.png\" alt=\"Ladino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><p>Apesar de muitos verem os Ladinos com desconfiança, muitas vezes considerando seus meios pouco honrados ou mesmo vis, a grande maioria dos Ladinos de Cassiopéia atua ao lado da lei. Eles costumam trabalhar como batedores, espiões, investigadores e exploradores. Eles auxiliam ordens militares com informações sobre movimentos de tropas inimigas e obtendo informações secretas ou plantando informações falsas, usam suas redes de contatos para descobrir criminosos ou apurar veracidade de informações e são particularmente apreciados em exploração de ruínas e tumbas (particularmente comuns em Tebryn e nas Terras Secas, onde grandes civilizações ergueram imensos complexos que foram devastados ao logo dos séculos, durante a Revoada dos Dragões e o Expurgo) e na invasão de cavernas e complexos subterrâneos habitados por raças ou monstros hostis.</p><p>Muitos Ladinos também trabalham como marinheiros, piratas e corsários, assim como os Espadachins. Eles podem ser combatentes eficientes em condições onde agilidade, velocidade e versatilidade são mais importantes do que simples proeza marcial, como no convés de um navio.</p><p>É claro, muitos Ladinos usam seus conhecimentos e aptidões para cometer crimes. Além de um bom número de piratas, Ladinos são conhecidos por engrossarem bastante as fileiras de ladrões, embusteiros, atravessadores e traficantes de toda Cassiopéia.</p><p><strong>Raças Mais Frequentes:</strong> Astéria, Faen, Humano e Metadílio</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!28b8d9e8f991abe5.7bae8c319435c6bd"
       },
       {
         "_id": "2bc29accb6e76b74",
@@ -29423,7 +31798,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>gatuno</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-evasivo</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>armas-1</strong></li><li><strong>contatos-no-crime</strong></li><li><strong>corte-arterial</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flanquear</strong></li><li><strong>flexivel</strong></li><li><strong>furtivo</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>mestre-das-adagas-1</strong></li><li><strong>mestre-das-adagas-2</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>malabarista</strong></li><li><strong>truque-sujo</strong></li><li><strong>camuflagem</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>emboscar</strong></li><li><strong>en-passant</strong></li><li><strong>explorar-surpresa</strong></li><li><strong>improvisacao-ladina</strong></li><li><strong>mestre-das-adagas-3</strong></li><li><strong>passo-leve</strong></li><li><strong>ripostar</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>mestre-especialista</strong></li><li><strong>mestre-de-armas-1</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!28b8d9e8f991abe5.2bc29accb6e76b74"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/ladino2.png",
@@ -29432,7 +31808,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "ladino",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!28b8d9e8f991abe5"
   },
   {
     "_id": "04269a145331afa6",
@@ -29449,7 +31826,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/paladino2.png\" alt=\"Paladino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>O Paladino é um guerreiro movido por um conjunto de códigos de conduta que usa para disciplinar seu espírito e realizar feitos que muitos veriam como sobrenaturais.</p><p>A maioria dos Códigos de um Paladino são autoimpostos; regras de conduta sob as quais ele escolhe viver considerando que são o único caminho realmente digno de existir ou para expiar algum grande erro que cometeu e não deseja jamais repetir. Alguns, no entanto, carregam códigos impostos por forças externas, como dogmas espirituais determinados por uma crença da qual ele comunga ou princípios sob os quais o Paladino deve viver por fazer parte de uma ordem. De toda forma, esses Códigos exigem uma grande disciplina para serem observados completamente a cada momento, o que fortalece grandemente à vontade e o espírito do Paladino no processo.</p><p>Alguns Paladinos vivem sob um único Código, estando ligados apenas a uma obrigação específica, enquanto outros adotam vários Códigos em uma tentativa de se aperfeiçoar e se tornar cada vez mais puros, dignos ou simplesmente por possuírem uma índole que naturalmente os leva em direção a eles. Não há limites para o número de Códigos que cada Paladino pode possuir, mas obviamente, quanto mais Códigos um Paladino precisa observar, mais limitado ele fica em relação aos rumos que pode tomar diante de uma determinada situação – e alguns deles podem gerar conflitos (por exemplo, um Paladino com o Código da Honestidade e o Código da Coragem diante de uma situação em que apenas uma mentira poderia salvar a vida de um indefeso) o que pode quebrar o espírito de um Paladino permanentemente, caso não consiga seguir os ditames de um ou mais de seus Códigos.</p><p>Apesar de todos os Paladinos serem, obviamente, honrados, isso não significa que não possam ser malignos. Tiranos que impões sua força sobre os mais fracos podem perfeitamente seguir o Código da Lealdade, estando cercado de impiedosos (e fiéis) aliados, e guerreiros sanguinários que seguem estritamente o Código da Coragem são inimigos absolutamente terríveis no campo de batalha. Mas, é claro, estas são exceções à regra. Em geral, Paladinos são heróis que lutam pela manutenção do Status Quo, pela defesa dos inocentes e pela manutenção das leis.</p><p>Muitas ordens de Paladinos exigem que seus membros observem obrigatoriamente um Código específico, ao menos – todos os Paladinos da Ordem da Espada de Mirah precisam seguir o Código da Justiça, e a Hoste de Hadorn é formada por Paladinos que seguem o Código da Coragem – e a observação desses Códigos é ostensivamente ensinada aos escudeiros que desejam ingressar na Ordem, enquanto outras são mais flexíveis – os Paladinos da Mão Ígnea precisam seguir o Código da Honestidade ou o Código da Lealdade e os Faris exigem que seus membros sigam o Código da Cortesia ou o Código da Lealdade, apesar deles comumente seguirem ambos – e são, geralmente, menos severos em suas doutrinas.</p><p><strong>Raças Mais Frequentes:</strong> Anão, Astério, Fira e Juban</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!04269a145331afa6.2cf6a178586a4f7d"
       },
       {
         "_id": "5acbc6e3f81df810",
@@ -29462,7 +31840,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>mestre-de-armas-1</strong></li><li><strong>austeridade</strong></li><li><strong>cavaleiro-experiente</strong></li><li><strong>codigo-da-coragem</strong></li><li><strong>codigo-da-honestidade</strong></li><li><strong>codigo-da-justica</strong></li><li><strong>combate-montado</strong></li><li><strong>combate-tatico</strong></li><li><strong>defletor</strong></li><li><strong>egide</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>justica-final-1</strong></li><li><strong>montaria-especial-1</strong></li><li><strong>montaria-especial-2</strong></li><li><strong>motivar</strong></li><li><strong>nocautear</strong></li><li><strong>parede-de-escudos</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>banir</strong></li><li><strong>comando-heroico</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>destemor</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>justica-final-2</strong></li><li><strong>montaria-especial-3</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>integridade</strong></li><li><strong>arqueria</strong></li><li><strong>acrobata</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!04269a145331afa6.5acbc6e3f81df810"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/paladino2.png",
@@ -29471,7 +31850,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "paladino",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!04269a145331afa6"
   },
   {
     "_id": "763480e886a66ce7",
@@ -29488,7 +31868,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/patrulheiro2.png\" alt=\"Patrulheiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><p>A maioria dos Patrulheiros está intrinsecamente ligada às regiões selvagens, preferindo atuar em florestas, pântanos, bosques, selvas e regiões montanhosas, onde podem usar o ambiente para abater presas à distância, montar armadilhas com facilidade e rastrear de modo eficiente. De fato, muitos Patrulheiros não gostam das regiões urbanas, com gente demais, cheiros demais, rastros demais e regras demais. A liberdade das regiões florestais geralmente faz parte de um Patrulheiro tanto quanto um bom arco, e a grande maioria deles possui uma profunda ligação com a natureza, geralmente de forma reverente.</p><p>No entanto, por mais que essa seja a regra, há uma boa quantidade de exceções. Patrulheiros podem ser encontrados em cidades, trabalhando como caçadores de recompensa, dedicando-se a caçar criminosos ao invés de criaturas selvagens ou como guardas e vigias, com suas habilidades focadas em percepção e uso de arcos. Além disso, muitos Patrulheiros concentram seu treinamento apenas no manejo do arco e ingressam nas linhas de arqueiros de exércitos, milícias ou companhias mercenárias. Enquanto Druidas geralmente usam Companheiros Animais como sentinelas e vigias, e Xamãs geralmente possuem ligações quase familiares com seus Companheiros Animais, a maioria dos Patrulheiros usa essas criaturas como uma ferramenta. Muitos, claro, criam poderosos vínculos afetivos com seus Companheiros, e podem manter um mesmo Companheiro Animal por muitos anos. A maioria, porém, possui Companheiros Animais por curtos períodos de tempo, geralmente pela duração de uma tarefa, devolvendo-o à natureza depois disso.</p><p>Em áreas selvagens que não conhecem bem o bastante, é comum que um Patrulheiro convoque uma criatura da região para lhe servir como guia, enquanto caçadores de recompensa geralmente usam Companheiros Animais para obter informações de seus alvos ao planejar a captura. Muitos convocam Companheiros Animais para apenas uma tarefa, como um pássaro para lhe fornecer informações sobre uma área, um animal de hábitos noturnos para servir de vigia por uma noite ou um animal de montaria para levá-lo a um determinado destino, e alguns Patrulheiros menos escrupulosos usam predadores para auxiliá-los em combates mais perigosos. A maioria dos Patrulheiros, no entanto, prefere não envolver animais em tarefas perigosas, dado seu profundo respeito pela natureza.</p><p>É comum, também, que um Patrulheiro mantenha um Companheiro Animal por mais tempo se dedicar-se a uma mesma tarefa com frequência. Caçadores muitas vezes estão acompanhados de lobos ou águias, enquanto guardas e vigias costumam ter corujas, morcegos e felinos ao seu lado, e a maioria dos caçadores de recompensa usa cães e ratazanas para seguir seus alvos. Muitos acabam se afeiçoando a esses animais, e os mantém por perto mesmo quando sua tarefa foi cumprida, quase como animais de estimação.</p><p>Além disso, muitos Patrulheiros mantêm animais de montaria como Companheiro Animal, o que lhes garante um meio rápido e seguro de transporte em uma emergência.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!763480e886a66ce7.decfc2089a2d0cec"
       },
       {
         "_id": "561d866ec639f4ee",
@@ -29501,7 +31882,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (30 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>acrobata</strong></li><li><strong>armadilheiro</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>cacador-de-criatura</strong></li><li><strong>chuva-de-flechas</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>disparo-forte</strong></li><li><strong>disparo-certeiro</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flechas-rapidas</strong></li><li><strong>furtivo</strong></li><li><strong>herbalismo</strong></li><li><strong>precisao</strong></li><li><strong>retesar-eficiente</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>truque-sujo</strong></li><li><strong>cacador-de-monstro</strong></li><li><strong>camuflagem</strong></li><li><strong>chuva-de-flechas-2</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>emboscar</strong></li><li><strong>empalar</strong></li><li><strong>matador-de-criatura</strong></li><li><strong>olho-da-aguia</strong></li><li><strong>passo-leve</strong></li><li><strong>veneficio</strong></li><li><strong>arqueria-de-mestre</strong></li><li><strong>conhecimento-arcano</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!763480e886a66ce7.561d866ec639f4ee"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/patrulheiro2.png",
@@ -29510,7 +31892,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "patrulheiro",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!763480e886a66ce7"
   },
   {
     "_id": "74f4eb07d3561470",
@@ -29527,7 +31910,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sacerdote2.png\" alt=\"Sacerdote\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><p>A grande maioria dos Sacerdotes dedica suas vidas ao estudo e proteção de sua fé, à manutenção dos templos de sua divindade patrona, ao estudo de suas escrituras sagradas, comungando com outros professantes da mesma fé ou transmitindo seus conhecimentos para outros membros da comunidade onde habitam. A maioria deles, ainda, exerce alguma função na comunidade de acordo com as doutrinas de sua divindade: Sacerdotes de Mirah muitas vezes ocupam cargos de juízes ou conselheiros de burgomestres ou mesmo monarcas, Sacerdotes de Ellenis geralmente auxiliam os fazendeiros e caçadores em suas funções, Sacerdotes de Denalla costumam trabalhar como parteiros ou curandeiros, Sacerdotes de Sarfion trabalham em bibliotecas, escolas ou como conselheiros civis, Sacerdotes de Hadorn aconselham generais e costumam acompanhar tropas em conflitos tanto como médicos de fronte quanto como combatentes, Sacerdotes de Ran e Taranis muitas vezes embarcam em navios (tanto de guerra quanto de comércio ou mesmo de pesca) para proteger e aconselhar a tripulação, Sacerdotes de Hou podem ser encontrados em guildas de ferreiros realizando funções como artesões ou tesoureiros e Sacerdotes de Ahrogr podem tanto exercer funções de aconselhamento em assuntos civis ou militares como exercer funções de legisladores.</p><p>Muitos Sacerdotes, no entanto, preferem uma vida mais autônoma, viajando constantemente para aumentar sua compreensão do mundo ao seu redor na tentativa de encontrar uma coesão entre as teorias que estudam e o reflexo prático delas no mundo. Entre estes, um bom número de Sacerdotes se aventura de modo menos passivo, procurando aqueles fenômenos considerados antinaturais pela sua fé para expurgá-los do mundo, ou exercendo a as doutrinas de sua divindade patrona – enquanto Sacerdotes de Marah, Ahogr, Taranis e Hou se sentem compelidos a combater por grupos ou indivíduos em perigo, os de Denalla e Ellenis são particularmente conhecidos por combater mortos-vivos, demônios e outras criaturas sobrenaturais, os de Hadorn e Ran podem se interessar por qualquer situação de conflito e Sacerdotes de Sarfion são célebres exploradores e investigadores.</p><p><strong>Raças Mais Frequentes:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!74f4eb07d3561470.80e466331f317eb8"
       },
       {
         "_id": "31ecbe24931aaf65",
@@ -29540,7 +31924,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>abencoar-aliados-1</strong></li><li><strong>abencoar-objeto</strong></li><li><strong>aparar-magia</strong></li><li><strong>asas-celestiais</strong></li><li><strong>asceta</strong></li><li><strong>aura-de-cura-1</strong></li><li><strong>cariatide</strong></li><li><strong>conjurar-arma-dos-deuses</strong></li><li><strong>do-destino</strong></li><li><strong>conjurar-broquel-mistico</strong></li><li><strong>corpo-fechado</strong></li><li><strong>curar-ferimentos-1</strong></li><li><strong>detectar-magia</strong></li><li><strong>dogma</strong></li><li><strong>exorcismo</strong></li><li><strong>graca-divina</strong></li><li><strong>protecao-mistica</strong></li><li><strong>purgar</strong></li><li><strong>toque-mistico</strong></li><li><strong>velocidade</strong></li><li><strong>abencoar-aliados-2</strong></li><li><strong>aura-de-cura-2</strong></li><li><strong>circulo-da-protecao</strong></li><li><strong>conjurar-falange-do-destino</strong></li><li><strong>criar-golem</strong></li><li><strong>curar-ferimentos-2</strong></li><li><strong>dissipar-magia</strong></li><li><strong>manter-golem</strong></li><li><strong>portal</strong></li><li><strong>primaz</strong></li><li><strong>pontifice</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!74f4eb07d3561470.31ecbe24931aaf65"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/sacerdote2.png",
@@ -29549,7 +31934,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "sacerdote",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!74f4eb07d3561470"
   },
   {
     "_id": "a97cf858c04cd05a",
@@ -29566,7 +31952,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/bardo2.png\" alt=\"Bardo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><p>Apesar do estudo das artes musicais dos Bardos geralmente ser ensinado na estrada, em companhias de cantores itinerantes, poetas ambulantes ou mesmo de pai para filho, há vários Liceus de Bardos em Cassiopéia, que formam um grande número de Bardos – que em geral trabalham para a corte desses reinos. Os mais famosos são o Liceu de Tebrinia, em Tebryn e o Salão dos Bardos, em Bryne.</p><p>Além disso, graças ao amplo conhecimento de diversas músicas, histórias e poemas, Bardos são depositários de uma enorme quantidade de conhecimento teórico, às vezes superiores àqueles de estudiosos formais e suas imensas bibliotecas. Seu conhecimento vivo, construído durante suas andanças pelo mundo, está em constante processo de atualização e um bom Bardo sabe diferenciar os fatos reais da fantasia, filtrando as histórias que lhes são contadas e destilando a verdade na forma de novas composições cujo conteúdo, além de entreter plateias, serve para carregar conhecimento. Essas histórias, tocadas ao redor de fogueiras entre Bardos que se encontram nas estradas ou cantadas nos grandes salões reais fornecem aos Bardos um vasto conhecimento sobre história, lendas e até mesmo geografia e política.</p><p>Graças à isso, muitos Bardos são empregados em cortes como conselheiros, e a maioria dos vilarejos, cidades e metrópoles vibra com a chegada de companhias de menestréis e trovadores ambulantes, sabendo que eles trarão, além de entretenimento, notícias de outras áreas do reino.</p><p>Grupos de aventureiros, de forma semelhante, apreciam a presença de Bardos não apenas pelos benefícios que eles trazem à moral do grupo e pelos efeitos que eles são capazes de produzir em combate, mas também porque eles são a melhor fonte de notícias – e possíveis novas aventuras! – que um grupo pode esperar.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!a97cf858c04cd05a.cdacf824876e68d5"
       },
       {
         "_id": "c4dffd4e670f0a4d",
@@ -29579,7 +31966,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (57 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>poesia-dos-bardos</strong></li><li><strong>aparar</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>cancao-da-provocacao</strong></li><li><strong>cancao-desesperadora</strong></li><li><strong>cancao-do-triunfo</strong></li><li><strong>cancao-exultante</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>furtivo</strong></li><li><strong>gregario</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>grito-ensurdecedor</strong></li><li><strong>grito-estilhacador</strong></li><li><strong>lingua-afiada</strong></li><li><strong>malabarista</strong></li><li><strong>melodia-dancante</strong></li><li><strong>melodia-do-enjoo</strong></li><li><strong>melodia-do-repouso</strong></li><li><strong>melodia-sonifera</strong></li><li><strong>mestre-das-notas</strong></li><li><strong>truque-sujo</strong></li><li><strong>cancao-da-sereia</strong></li><li><strong>cancao-desconcentrante</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>melodia-da-furia</strong></li><li><strong>melodia-dos-animais</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>virtuoso</strong></li><li><strong>vocalista</strong></li><li><strong>cancao-do-requiem</strong></li><li><strong>conhecimento-mistico</strong></li><li><strong>distracao</strong></li><li><strong>instrumentista</strong></li><li><strong>lirico</strong></li><li><strong>ritmo-dos-animais</strong></li><li><strong>grito-contundente</strong></li><li><strong>falsete</strong></li><li><strong>repentista</strong></li><li><strong>soprista</strong></li><li><strong>mimicar</strong></li><li><strong>pantomima</strong></li><li><strong>beijo-sufocante</strong></li><li><strong>chega-mais</strong></li><li><strong>requebrado</strong></li><li><strong>danca-das-ruas</strong></li><li><strong>danca-da-guerra</strong></li><li><strong>danca-do-ventre</strong></li><li><strong>solo</strong></li><li><strong>palavra-toxica</strong></li><li><strong>charada-obtusa</strong></li><li><strong>golpe-inspirador</strong></li><li><strong>grito-retumbante</strong></li><li><strong>presenca-inspiradora</strong></li><li><strong>um-bom-conselho-1</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!a97cf858c04cd05a.c4dffd4e670f0a4d"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/bardo2.png",
@@ -29588,7 +31976,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "bardo",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!a97cf858c04cd05a"
   },
   {
     "_id": "c087084a68e94b7b",
@@ -29605,7 +31994,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/druida2.png\" alt=\"Druida\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><p>Em geral, comunidades druídicas ou grupos próximos compartilham alguns rituais comuns, mas mesmo dentro de comunidades com rituais bem definidos, quase todos possuem práticas e definições individuais consideravelmente diferente dos demais. Essas diferenças de visão, crença e prática não são apenas toleradas, mas também encorajadas, e a individualidade e a busca por um entendimento particular da natureza são extremamente bem vistas pelos Druida.</p><p>Diferente dos Sacerdotes, os Druidas não reúnem congregações nem espalham a palavra de suas divindades. Ao invés disso, eles oferecem seu conhecimento sobre flora, fauna e fenômenos naturais àqueles ao seu redor, por vezes de forma concreta, auxiliando fazendeiros com suas plantações e animais, às vezes de forma simbólica, realizando rituais de boa colheita ou plantio, casamentos e funerais.</p><p>Apesar dessa diferença considerável entre o uso de seus conhecimentos de clericato com relação àqueles demonstrados pelos Sacerdotes, eles entendem a natureza dos rituais, das fórmulas e formas dos mesmos utilizados em outras formas de sacerdócio, e são capazes de compreender e reconhecer perfeitamente os processos e objetivos dos rituais realizados por qualquer outra religião.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!c087084a68e94b7b.b8edd03f2a66344e"
       },
       {
         "_id": "b515a7ae02779e9f",
@@ -29618,7 +32008,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>aparar-magia</strong></li><li><strong>asas-celestiais</strong></li><li><strong>bencao-de-ellenis</strong></li><li><strong>bestializar</strong></li><li><strong>bons-frutos</strong></li><li><strong>caminhada-magica</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>convocar-animais</strong></li><li><strong>detectar-magia</strong></li><li><strong>entrelacar</strong></li><li><strong>espirito-animal</strong></li><li><strong>evocar-temporal</strong></li><li><strong>herbalismo</strong></li><li><strong>mover-terra</strong></li><li><strong>principio-natural</strong></li><li><strong>rajada-de-agua</strong></li><li><strong>rajada-de-espinhos</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>turbilhao</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>conjurar-abrigo</strong></li><li><strong>despertar-a-flora</strong></li><li><strong>dissipar-magia</strong></li><li><strong>evocar-nevasca</strong></li><li><strong>gavinhas-e-espinhos</strong></li><li><strong>olho-do-furacao</strong></li><li><strong>orbe-de-contencao</strong></li><li><strong>punho-de-pedra</strong></li><li><strong>veneficio</strong></li><li><strong>hierofante</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!c087084a68e94b7b.b515a7ae02779e9f"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/druida2.png",
@@ -29627,7 +32018,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "druida",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!c087084a68e94b7b"
   },
   {
     "_id": "271a8d443f5c85f6",
@@ -29644,7 +32036,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/espadachim2.png\" alt=\"Espadachim\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><p>Apesar da maioria dos Espadachins concentrar seu treinamento na maestria e proeza física, muitos deles preferem lançar mão de artifícios variados, truques sujos, enganação e até mesmo verborragia intensa para vencer desafios – de fato, muitos deles possuem línguas mais hábeis do que suas espadas! Um bom número de Espadachins é capaz de simplesmente abrir caminho através de inimigos simplesmente com sua capacidade de persuasão.</p><p>Além disso, Espadachins sempre preferem armaduras que restrinjam minimamente sua movimentação. Muitos até mesmo preferem não usar nenhum tipo de armadura, confiando puramente em seus reflexos para se defender.</p><p>Essas características somadas, muitas vezes fazem com que os Espadachins sejam vistos como medrosos, espertalhões ou, no mínimo, fanfarrões imprudentes – rótulos que, aliás, a maioria deles tende a incentivar, já que isso faz com que a maioria dos seus oponentes os subestimem em combate (geralmente apenas uma vez).</p><p>No entanto, existe um considerável número de Espadachins que veem os subterfúgios como uma maneira realmente covarde de lidar com inimigos e situações de perigo. Para estes, a proeza em combate e a coragem diante de qualquer desafio são as melhores armas à sua disposição. Esses Espadachins, em geral, são mais sérios e compenetrados, treinando incessantemente para aprimorar sua técnica de combate e tornar seus reflexos tão afiados quanto às lâminas que empunham, desdenhando de artifícios e artimanhas para vencer obstáculos – mas jamais subestimando aqueles que lançam mão de tais estratagemas.</p><p>Certamente a maioria dos combatentes que navegam pelos mares de Drakon são Espadachins. Além da agilidade necessária para se manter equilibrado em um convés durante uma batalha naval, poucos seriam ousados – ou estúpidos – para vergar armaduras pesadas em um ambiente que pode transformar a proteção que elas oferecem em uma lenta e agonizante morte por afogamento.</p><p>Apesar deles não serem a maioria absoluta – Ladinos, Patrulheiros, Magos e Sacerdotes tanto de Ran quanto de Taranis são bastante numerosos nos conveses de navios mercantes ou de combate – os Espadachins certamente são os mais famosos marinheiros de Drakon. De fato, na maioria das áreas costeiras, Espadachim é sinônimo de Marinheiro.</p><p><strong>Raças Mais Frequentes:</strong> Fira, Humano, Levent e Tailox</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!271a8d443f5c85f6.4468a73edde1ad19"
       },
       {
         "_id": "48141e9734fb2b91",
@@ -29657,7 +32050,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (38 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>orbe-de-contencao</strong></li><li><strong>punho-de-pedra</strong></li><li><strong>veneficio</strong></li><li><strong>hierofante</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>combate-com-duas-armas-1</strong></li><li><strong>combate-tatico</strong></li><li><strong>corte-arterial</strong></li><li><strong>danca-das-espadas-1</strong></li><li><strong>desarmar-oponente</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>investida-mortal</strong></li><li><strong>lingua-afiada</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>panache</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>touche</strong></li><li><strong>truque-sujo</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>danca-das-espadas-2</strong></li><li><strong>decapitar</strong></li><li><strong>implacavel</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>retalhar</strong></li><li><strong>ripostar</strong></li><li><strong>tempestade-de-laminas</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>senhor-das-laminas</strong></li><li><strong>conhecimento-arcano</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!271a8d443f5c85f6.48141e9734fb2b91"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/espadachim2.png",
@@ -29666,7 +32060,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "espadachim",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!271a8d443f5c85f6"
   },
   {
     "_id": "4562a02d414f1816",
@@ -29683,7 +32078,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/runico2.png\" alt=\"Rúnico\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><p>Além disso, muitos Rúnicos concentram parte de sua atenção especificamente ao uso de itens mágicos, particularmente armas mágicas, não só para aumentar seu arsenal mas também quando combatem outros conjuradores, que podem ser eficientes na defesa contra conjurações mas geralmente não podem se defender tão bem de itens mágicos permanente. Muitos Rúnicos também focam seus interesses em itens mágicos na direção oposta, usando habilidades que desativem itens mágicos temporariamente e eliminem Selos e Runas de seus inimigos, como uma forma de eliminar as vantagens de seus oponentes quando os mesmos são outros Rúnicos ou quando fazem uso extensivo de itens mágicos e encantamentos.</p><p>Rúnicos possuem, no entanto, um conhecimento teórico sobre o uso de magia arcana do mesmo modo que qualquer outro conjurador, e além de terem alguns conhecimentos de magias mais básicas – principalmente defensivas – são capazes de conjurar qualquer magia arcana a partir de um tomo, e muitos deles carregam consigo um grimório com algumas magias que podem ser úteis (como Levitar ou Teleporte) ou que podem lhes fornecer mais opções em combate (como Ariete Mágico ou Manto Crepitante).</p><p>Essas características somadas tornam os Rúnicos combatentes competentes, particularmente eficientes contra conjuradores e criaturas sobrenaturais. De fato, alguns reinos – como Parband, Dagothar e Bryne – mantém contingentes de Rúnicos para lidar especificamente com conjuradores malignos e ameaças mágicas.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Astério, Fira e Mahok</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!4562a02d414f1816.e8adfeba1334b38a"
       },
       {
         "_id": "e208170a5d85814d",
@@ -29696,7 +32092,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (34 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>aparar-magia</strong></li><li><strong>arma-fiel</strong></li><li><strong>arma-incandescente</strong></li><li><strong>arma-gelida</strong></li><li><strong>arma-relampejante</strong></li><li><strong>armadura-fiel</strong></li><li><strong>ataque-fantasma</strong></li><li><strong>combate-tatico</strong></li><li><strong>conjurar-escudo</strong></li><li><strong>desativar-item</strong></li><li><strong>detectar-magia</strong></li><li><strong>enfeiticar-arma-1</strong></li><li><strong>enfeiticar-armadura</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>onda-de-chamas</strong></li><li><strong>onda-de-frio</strong></li><li><strong>onda-de-raios</strong></li><li><strong>onda-fantasma</strong></li><li><strong>resistencia-elemental</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>aptidao-elemental</strong></li><li><strong>ataque-chocante</strong></li><li><strong>ataque-congelante</strong></li><li><strong>ataque-flamejante</strong></li><li><strong>golpe-do-vento</strong></li><li><strong>dissipar-magia</strong></li><li><strong>enfeiticar-arma-2</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>destruicao-elemental</strong></li><li><strong>conhecimento-mistico</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!4562a02d414f1816.e208170a5d85814d"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/runico2.png",
@@ -29705,7 +32102,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "runico",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!4562a02d414f1816"
   },
   {
     "_id": "424f6b2129452ab1",
@@ -29722,7 +32120,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/dracomante.png\" alt=\"Dracomante\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><p>A maioria dos Dracomantes é ligada à Aurora dos Dragões, um culto religioso fundado em Arkânia séculos atrás e que se concentra na ideia de que os dragões, e não as divindades exteriores, devem ser adorados e seus exemplos seguidos. Seu corpo de crença gira ao redor de que a sabedoria, majestade e poder dos dragões os tornam os líderes ideais para as raças mortais, além do fato dos dragões estarem, em termos planares, mais próximos aos mortais e, portanto serem menos alienígenas à mentalidade de seus acólitos.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!424f6b2129452ab1.171f8b56b75a29ef"
       },
       {
         "_id": "c9d23fae6fe98f5b",
@@ -29735,7 +32134,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>aparar-magia</strong></li><li><strong>arcipreste</strong></li><li><strong>arsenal-draconico</strong></li><li><strong>asas-elementais</strong></li><li><strong>aura-do-dragao</strong></li><li><strong>bafo-do-dragao-negro</strong></li><li><strong>cauda-draconica</strong></li><li><strong>companheiro-dragao-1</strong></li><li><strong>companheiro-dragao-2</strong></li><li><strong>defesa-do-dragao-do-relampago</strong></li><li><strong>detectar-magia</strong></li><li><strong>escamas-draconicas</strong></li><li><strong>exalacao-do-dragao-do-frio</strong></li><li><strong>folego-do-dragao-marinho</strong></li><li><strong>furia-do-dragao</strong></li><li><strong>halito-do-dragao</strong></li><li><strong>rugido-do-dragao-do-deserto</strong></li><li><strong>sintonia-draconica</strong></li><li><strong>travessia-do-dragao-do-fogo</strong></li><li><strong>vinculo-draconico</strong></li><li><strong>asas-draconicas</strong></li><li><strong>companheiro-dragao-4</strong></li><li><strong>dissipar-magia</strong></li><li><strong>exarca</strong></li><li><strong>atrio-elemental</strong></li><li><strong>bencao-do-dragao</strong></li><li><strong>companheiro-dragao-3</strong></li><li><strong>forma-draconica</strong></li><li><strong>halito-do-dragao-anciao</strong></li><li><strong>presenca-draconica</strong></li><li><strong>flagelo-da-aurora</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!424f6b2129452ab1.c9d23fae6fe98f5b"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/dracomante.png",
@@ -29744,7 +32144,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "dracomante",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!424f6b2129452ab1"
   },
   {
     "_id": "457f1f8417f52a7e",
@@ -29761,7 +32162,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/necromante.png\" alt=\"Necromante\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><p>Necromantes geralmente estão rodeados de objetos que lembram a morte, e são particularmente afeitos de locais considerados sombrios – como cemitérios, tumbas e necrotérios – onde realizam suas pesquisas e por vezes adquirem matéria prima para experiências. A maioria deles também costuma trabalhar e viver isolada de outras criaturas vivas, às vezes por opção, às vezes por necessidade, às vezes por imposição. Devido a essas características, Necromantes são mal vistos como frios, egoístas e geralmente, malignos – e, de fato, muitos Necromantes demonstram essas características. O poder que as energias necromânticas fornecem é certamente sedutor e, para a maioria, corruptor, já que oferece uma grande quantidade de possibilidades para manipular, destruir e distorcer, o que pode tornar seus usuários insensíveis ou até mesmo cruéis. Por outro lado, porém, um bom número de Necromantes de dedica à preservação dos locais onde os mortos repousam, não permitindo que essas mesmas forças que controlam corrompam tais locais, e muitos deles se tornam estudiosos dos mortos-vivos e espíritos no intuito de combatê-los com mais eficiência.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!457f1f8417f52a7e.a123f7f0b80e987e"
       },
       {
         "_id": "add560ae3c052ad2",
@@ -29774,7 +32176,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (34 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>absorver-alma</strong></li><li><strong>aparar-magia</strong></li><li><strong>armadura-necromantica</strong></li><li><strong>comunhao-com-espiritos</strong></li><li><strong>condenar-o-corpo</strong></li><li><strong>condenar-a-alma</strong></li><li><strong>contato-com-espiritos</strong></li><li><strong>controlar-mortos-vivos</strong></li><li><strong>cranio-sentinela</strong></li><li><strong>cura-sombria</strong></li><li><strong>despertar-dos-mortos-1</strong></li><li><strong>detectar-magia</strong></li><li><strong>energia-sombria-1</strong></li><li><strong>esconjurar</strong></li><li><strong>invocar-espectro</strong></li><li><strong>sustentar-mortos-vivos</strong></li><li><strong>transferencia-espiritual</strong></li><li><strong>aptidao-necromantica</strong></li><li><strong>caminhada-fantasma</strong></li><li><strong>lanterna-dos-mortos</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>protecao-cadaverica</strong></li><li><strong>dissipar-magia</strong></li><li><strong>encarnar-espirito</strong></li><li><strong>cranio-guardiao</strong></li><li><strong>despertar-dos-mortos-2</strong></li><li><strong>bloqueio-necromantico</strong></li><li><strong>energia-sombria-2</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>resistencia-dos-mortos</strong></li><li><strong>resistencia-necromantica</strong></li><li><strong>necromanto</strong></li><li><strong>sabedoria-sobrenatural</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!457f1f8417f52a7e.add560ae3c052ad2"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/necromante.png",
@@ -29783,7 +32186,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "necromante",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!457f1f8417f52a7e"
   },
   {
     "_id": "064542aa1e26fcfe",
@@ -29800,7 +32204,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/senescal.png\" alt=\"Senescal\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><p>Senescais não lideram necessariamente pelo exemplo. Eles sabem tirar o melhor de cada indivíduo em sua área de atuação específica, direcionando-os para que melhorem suas próprias capacidades para que elas adicionem ao grupo de forma efetiva, ao invés de tentar padronizar as aptidões de um grupo. Fortalecer o papel de um indivíduo num grupo para que ele seja eficiente – e se sinta útil – é muito mais eficiente aos olhos de um bom Senescal do que fazer com que todos se foquem em melhorar uma área específica de atuação.</p><p>Essa capacidade de tirar o melhor de cada indivíduo torna os Senescais extremamente eficientes em grupos de aventureiros. Embora seja bastante incomum a um Senescal se aventurar, preferindo atuar em áreas administrativas ou lidando diretamente com a coordenação de pessoas dentro de uma organização, alguns deles, eventualmente, o fazem. Enquanto por um lado Senescais com treinamento militar possam desejar uma experiência diferente para aplicar suas táticas e melhorar suas capacidades como um todo, muitos nobres treinados para se tornarem administradores acabam ouvindo o chamado da aventura – e descobrem que suas habilidades podem, realmente, ser eficientes para manter grupos de aventureiros com moral alto e uma organização eficiente dentro e fora de combate. Sua influência e contatos também fazem deles excelentes para encontrar as pessoas certas para serviços que o grupo precise – ou para descobrir pistas sobre o paradeiro de alvos que o grupo esteja procurando.</p><p>A maioria dos Senescais que se aventuram, no entanto, fazem isso por um curto espaço de tempo. A maioria acaba se aborrecendo com as longas viagens, as infindáveis explorações de masmorras e os encontros com mortos-vivos, bestas e outras criaturas contra as quais suas capacidades têm pouca eficiência. É muito mais comum, no entanto, que aventureiros aposentados se tornem Aprendizes de Senescal para afiar suas capacidades de administrar os bens que conseguiram ao longo de suas aventuras.</p><p><strong>Raças Mais Frequentes:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!064542aa1e26fcfe.59fffd0a97167e97"
       },
       {
         "_id": "ade2cf21af385b29",
@@ -29813,7 +32218,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (37 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>energia-sombria-2</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>resistencia-dos-mortos</strong></li><li><strong>resistencia-necromantica</strong></li><li><strong>mestre-dos-mortos</strong></li><li><strong>posicao-distinta</strong></li><li><strong>contatos-na-corte</strong></li><li><strong>contatos-politicos</strong></li><li><strong>distintivo-de-oficio</strong></li><li><strong>distracao</strong></li><li><strong>eloquente</strong></li><li><strong>erudito</strong></li><li><strong>farda</strong></li><li><strong>formacao-de-batalha-1</strong></li><li><strong>gregario</strong></li><li><strong>guarda-costas</strong></li><li><strong>inspirar-coragem</strong></li><li><strong>lingua-afiada</strong></li><li><strong>mastim</strong></li><li><strong>presenca-confiante</strong></li><li><strong>presenca-inspiradora</strong></li><li><strong>reposicionar</strong></li><li><strong>sequito</strong></li><li><strong>taticas-de-batalha</strong></li><li><strong>um-bom-conselho-1</strong></li><li><strong>voz-de-comando-1</strong></li><li><strong>abrir-a-guarda</strong></li><li><strong>conselheiro-pessoal</strong></li><li><strong>formacao-de-batalha-2</strong></li><li><strong>guarda-de-honra</strong></li><li><strong>juiz</strong></li><li><strong>persuadir</strong></li><li><strong>restaurar-conviccao</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>magistrado</strong></li><li><strong>um-bom-conselho-2</strong></li><li><strong>voz-de-comando-2</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!064542aa1e26fcfe.ade2cf21af385b29"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/senescal.png",
@@ -29822,7 +32228,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "senescal",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!064542aa1e26fcfe"
   },
   {
     "_id": "b89d37f86c189b3e",
@@ -29839,7 +32246,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/xama1.png\" alt=\"Xamã\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><p>A ligação com os espíritos naturais permite que muitos Xamãs sejam capazes de se comunicar com os animais, comandá-los e criar poderosos vínculos com eles. Xamãs particularmente conectados aos animais são capazes de tomar a forma destes, transformando-se completamente ou adquirindo características animalescas – como guelras, garras e asas.</p><p>Xamãs ligados aos espíritos dos mortos costumam assumir posições de conselheiros nas comunidades onde habitam, enquanto aqueles ligados a espíritos animais tendem a assumir posições como caçadores ou campeões tribais. Em Ambrook, Lorde Narat mantém uma guarda pessoal de Xamãs especializados em metamorfose, e é dito que o rei Honório Van Strauss fazia uso de xamãs metamorfos como espiões e sentinelas.</p><p>Apesar de comumente serem encontrados em comunidades tribais, afastadas da civilização, é possível encontrar xamãs em grandes metrópoles, às vezes simplesmente de passagem, lidando com alguma área assombrada por espíritos, ou, mais raramente como residentes de áreas infestadas de espíritos – às vezes agindo como guardiões, às vezes como carcereiros.</p><p><strong>Raças Mais Frequentes:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!b89d37f86c189b3e.d6bbf5d222b10572"
       },
       {
         "_id": "e0c48e2045c86079",
@@ -29852,7 +32260,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<h2>Arsenal da Classe (35 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>primaz</strong></li><li><strong>pontifice</strong></li><li><strong>guia-espiritual</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>bencao-de-ellenis</strong></li><li><strong>brigao</strong></li><li><strong>bravura-selvagem-1</strong></li><li><strong>combate-tatico</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>comunhao-com-espiritos</strong></li><li><strong>contato-com-espiritos</strong></li><li><strong>chamado-do-alfa</strong></li><li><strong>combate-com-duas-armas-1</strong></li><li><strong>cura-espiritual</strong></li><li><strong>espirito-animal</strong></li><li><strong>forma-animal-1</strong></li><li><strong>herbalismo</strong></li><li><strong>invocar-espirito-animal</strong></li><li><strong>rugido-do-alfa</strong></li><li><strong>rugido-do-predador</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>vantagem-animal-1</strong></li><li><strong>atropelar</strong></li><li><strong>caminhada-fantasma</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>companheiro-espiritual</strong></li><li><strong>estracalhar</strong></li><li><strong>forma-animal-2</strong></li><li><strong>implacavel</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>mestre-domador</strong></li><li><strong>vantagem-animal-2</strong></li><li><strong>guardiao-da-natureza</strong></li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!b89d37f86c189b3e.e0c48e2045c86079"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/xama1.png",
@@ -29861,7 +32270,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "xama",
         "tipo": "classe"
       }
-    }
+    },
+    "_key": "!journal!b89d37f86c189b3e"
   },
   {
     "_id": "5483fa0277bff76e",
@@ -29878,7 +32288,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/amoque.png\" alt=\"Amoque\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Amoques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.</p><p>Amoques tendem a se juntar a tropas menos organizadas, como grupos de assalto, guerrilheiros e até mesmo batedores, já que estas tropas costumam ter uma organização menos regular, permitindo que eles utilizem sua fúria com menos moderação. No entanto, a maioria dos Amoques não faz parte de tropas regulares. A maioria deles será encontrada em grupos de mercenários, piratas, leões de chácara ou algum outro posto onde a força-bruta é o requisito mais importante.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 6, Uma habilidade de Fúria qualquer.</p><p><strong>Raças Comuns:</strong> Aesir, Centauro, Fauno e Orc.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!5483fa0277bff76e.e231a01e7d570db5"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/amoque.png",
@@ -29887,7 +32298,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "amoque",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!5483fa0277bff76e"
   },
   {
     "_id": "caefda4857de50b1",
@@ -29904,7 +32316,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/arconte.png\" alt=\"Arconte\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da Espada de Mirah, e precisam ser admitidos como Irmãos dentro da ordem – embora não precisem se tornar Jurados ou Priores, muitos deles também almejam estes títulos dentro da Ordem.</p><p>O Arconte que dá a sentença não precisa ser o mesmo que aplica a punição, mas normalmente é assim. Arcontes têm acesso a Punições, que são Habilidades especificamente conferidas aos Arconte pelos Celestiais. Estas Habilidades são dons sobrenaturais que produzem efeitos similares às magias e servem para impingir a sentença adequada ao réu de forma padronizada, sem erros humanos. Dessa forma a Magia Punição do Açoite não será mais dolorosa ou menos, dependendo da mão do carrasco, ela será sempre igual.</p><p>Utilizar Punições fora de um tribunal é considerado crime, e qualquer Arconte que utilize essas Habilidades sem que tenha havido um julgamento pode ser julgado, ele próprio, como se tivesse cometido tortura. É possível tentar contornar os efeitos de uma Punição, mas quando isso ocorre, o Arconte que aplicou a Punição imediatamente fica sabendo da transgressão e da localização do alvo no momento da quebra. Tentar contornar os efeitos de uma Punição é considerado um ato de Traição.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.</p><p><strong>Raças Comuns:</strong> Fira, Juban e Humano.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!caefda4857de50b1.25a9b564736f8492"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/arconte.png",
@@ -29913,7 +32326,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "arconte",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!caefda4857de50b1"
   },
   {
     "_id": "c3073b46befe34a1",
@@ -29930,7 +32344,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/assassino.png\" alt=\"Assassino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar.</p><p>Embora alguns matadores de aluguel utilizem táticas diversificadas para eliminar seus alvos, usando venenos ingeríveis, disparos de pontos imperceptíveis ou até mesmo magia, um Assassino prefere o método mais direto e pessoal. Ele gosta de ter certeza de que o seu alvo está morto, de fato, e o único meio de ter certeza é ver a vida se esvaindo do corpo do alvo. Os Assassinos gostam de verificar com seus próprios olhos que o alvo está, de fato, bem morto. Por conta disso, Assassinos desdenham armas de distância, magia e alquimia como método de eliminação de alvos, e embora possam empregar esses subterfúgios para auxiliar a cumprir suas missões, sempre dão preferência a armas brancas para terminar com um alvo – afinal, mesmo uma flecha entre os olhos ou uma bola de fogo pode deixar o alvo com um suspiro de vida que pode ser utilizado por um Sacerdote para evitar que o alvo morra. Uma decapitação, por outro lado, não pode ser curada.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Agilidade 4, Ataque Aleijador.</p><p><strong>Raças Comuns:</strong> Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!c3073b46befe34a1.3c6e54dcac76e2eb"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/assassino.png",
@@ -29939,7 +32354,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "assassino",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!c3073b46befe34a1"
   },
   {
     "_id": "1ad387a37682d486",
@@ -29956,7 +32372,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/avantesma.png\" alt=\"Avantesma\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Avantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio.</p><p>A conexão deles com as energias espirituais ainda é um mistério para a maioria dos estudiosos, e embora seja necessário passar por algum tipo de contato com energias necromânticas, nem todos aqueles que são afetados por estas energias desenvolvem esta conexão com o plano espiritual.</p><p>Embora a maioria dos Avantesmas sejam gerados por acidente, geralmente envolvendo encontros com um Necromante ou morto-vivo, existem casos de Necromantes que usam seus poderes em si próprios na tentativa de criar a distinta ligação que os Avantesmas possuem com o plano espiritual, enquanto alguns registros indicam que Necromantes também utilizam esta mesma tática para criar guarda-costas e campeões mais eficientes, utilizando magias específicas em seus aliados.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.</p><p><strong>Raças Comuns:</strong> Humano, por chance.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!1ad387a37682d486.37af565eda27d4f7"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/avantesma.png",
@@ -29965,7 +32382,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "avantesma",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!1ad387a37682d486"
   },
   {
     "_id": "aa729f69111ff630",
@@ -29982,7 +32400,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/aziago.png\" alt=\"Aziago\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Aziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção.</p><p>Embora lidem diretamente com magia infernal, Aziagos não são, necessariamente, infernalistas. Eles não precisam possuir nenhum Pacto – embora muitos conjuradores que possuem Pactos utilizem a ligação criada com seu patrono para canalizar energias infernais, tornando-se Aziagos. No entanto, alguns conjuradores arcanos decidem estudar a canalização das energias infernais simplesmente para ampliar seu arsenal mágico, mesmo que não tenham qualquer intenção de realizar pactos com criaturas infernais, enquanto outros se tornam Aziagos para combater outros infernalistas de forma mais eficiente.</p><p>É importante observar, também, que canalizar energias infernais é extremamente prejudicial, e conjuradores que não sejam Aziagos ou possuam Pactos têm dificuldades em conjurar Maldições de forma eficiente. Além disso, conjurar uma maldição pode atrair a atenção de criaturas infernais, o que pode ter resultados desastrosos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Conhecimento Arcano.</p><p><strong>Raças Comuns:</strong> Humano e Naga.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!aa729f69111ff630.ad1bb37b5cdbd0cf"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/aziago.png",
@@ -29991,7 +32410,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "aziago",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!aa729f69111ff630"
   },
   {
     "_id": "a93b2b300ce3fb9c",
@@ -30008,7 +32428,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/alquimista.png\" alt=\"Alquimista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.</p><p>Apesar de ser possível aprender alquimia apenas através de livros, a maioria dos Alquimistas encoraja o aprendizado dentro de um laboratório, com a supervisão de Alquimistas experientes, uma vez que, principalmente durante suas primeiras experiências, as chances de cometer erros perigosos é considerável. Além disso, muitas poções simplesmente não são possíveis de realizar fora de um laboratório, e tentativas de simular os procedimentos sem os materiais necessários quase sempre geram reações desastrosas.</p><p>A maioria dos Alquimistas trabalha em grandes cidades com lojas anexas aos seus laboratórios ou mesmo exclusivamente para a corte. Estes Alquimistas mercantes geralmente produzem poções práticas para o dia-a-dia, como elixires do sono, poções contra dores e antídotos variados, mas a maioria deles mantém um estoque de poções destinadas especificamente para aventureiros.</p><p>Outros trabalham para conjuradores – ou mesmo são conjuradores! – ou para criminosos, produzindo poções muito mais complexas e perigosas. Estes Alquimistas quase nunca negociam suas mercadorias, produzindo poções para fins específicos e com demandas consideráveis.</p><p>E há, é claro, aqueles Alquimistas que se aventuram. Alguns deles aprenderam alquimia para complementar suas habilidades, ou como uma “progressão natural” delas, enquanto outros são curiosos por natureza, e o mesmo impulso que os faz estudar sobre reações químicas e físicas também os impulsionam para ver fenômenos pelo mundo em primeira mão – as vezes para estudá-los e tentar aprender com eles, as vezes apenas pela curiosidade.</p><p>Embora a maioria dos Alquimistas trabalhe de forma abrangente, ou seja, produzindo todo tipo de poções, há aqueles que se especializam em tipos determinados de misturas. Algun deles se especializam em produzir elixires, poções criadas especificamente para curar, fortalecer ou acalmar o corpo e a mente. Os iátricos ou curandeiros, como geralmente são chamados, são bastante comuns entre Xamãs e Sacerdotes. Toxicólogos ou envenenadores, como costumeiramente são chamados os Alquimistas especializados em venenos, são comuns entre os Patrulheiros, Druidas e Ladinos, apesar destes últimos também serem adeptos ao uso de Extratos. Espagiristas, como são conhecidos os Alquimistas que produzem Extratos, costumam ser tão variados e excêntricos quanto as poções que produzem, mas os Ladinos e os Feiticeiros são, de longe, os mais inclinados à adotarem essa especialidade da alquimia.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Herbalismo.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Elfo, Faen, Humano.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!a93b2b300ce3fb9c.024f781c4e7c3bbf"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/alquimista.png",
@@ -30017,7 +32438,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "alquimista",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!a93b2b300ce3fb9c"
   },
   {
     "_id": "0ab960d2e795b6ce",
@@ -30034,7 +32456,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/argenteo.png\" alt=\"Argênteo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Argênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.</p><p>Como passam muito tempo estudando dentro das fronteiras da Ilha da Prata antes de fazerem pesquisas de campo propriamente ditas, a maioria dos Argênteos nutre um profundo sentimento de familiaridade com a Academia Argêntea, e é difícil encontrar algum deles que não esteja vergando o robe do corpo acadêmico – um robe azul escuro com o símbolo da Academia em prata no peito e nas costas – e é bastante simples identificar um deles graças a isso. Mesmo quando estão realizando alguma pesquisa de natureza sigilosa, eles geralmente o fazem de forma tão conspícua quanto estes trajes permitem.</p><p>Argênteos estão no mesmo nível hierárquico dos professores da Academia Argêntea, e respondem diretamente ao Departamento de Astronomia e Movimento Dimensional, tendo as mesmas regalias, direitos e deveres do corpo docente – têm acesso a praticamente toda a Ilha da Prata, exceto aos gabinetes de outros departamentos e aposentos pessoas de outros funcionários da Academia, podem solicitar equipamento quando estiverem em missões e viagens estritamente relacionadas à Academia e devem apresentar relatórios semestrais sobre suas atividades.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Teleporte 1.</p><p><strong>Raças Comuns:</strong> Elfo, Faen, Humano, Levent, Tailox.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!0ab960d2e795b6ce.c34e0a8409bda293"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/argenteo.png",
@@ -30043,7 +32466,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "argenteo",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!0ab960d2e795b6ce"
   },
   {
     "_id": "1a4f5a5d76d435a0",
@@ -30060,7 +32484,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/arqueiro.png\" alt=\"Arqueiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Em Cassiopéia, um Arqueiro é qualquer especialista no uso de um arco, seja o tradicional arco de caça ou guerra, o arco horizontal montado sobre um cabo como no caso das bestas ou mesmo os arcos das forquilhas de bodoques. No entanto, como muitos caçadores, rastreadores e batedores costumam usar essas armas, o termo Arqueiro é utilizado entre Patrulheiros, Guerreiros e outros homens-de-armas para definir um grupo mais restrito de soldados: aqueles usuários de arcos que guardam e vigiam.</p><p>Enquanto os Patrulheiros geralmente concentram suas habilidades em rastrear e emboscar seus alvos, usando ataques à distância para derrotar rapidamente inimigos desatentos, o Arqueiro se concentra em perceber e contra-atacar alvos escondidos e se defender contra eles de forma eficiente. Em essência, os Arqueiros são a antítese dos Patrulheiros.</p><p>Além disso, os Arqueiros costumam também concentrar-se em praticar para manter os músculos fortes e rijos. Como não têm a disposição dos Patrulheiros para se esgueirar e encontrar locais apertados para se esconderem, Arqueiros têm muito menos necessidade de flexibilidade e agilidade. De fato, eles preferem ficar em áreas abertas, onde podem vigiar áreas mais amplas, e geralmente não se incomodam em passar horas patrulhando uma mesma área. A maioria dos Arqueiros valoriza um braço firme para uma mira precisa e uma constituição robusta para aguentar horas sem precisar de sono ou descanso.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 4, Inteligência 4, Sentidos Apurados.</p><p><strong>Raças Comuns:</strong> Anão, Centauro, Humano, Juban.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!1a4f5a5d76d435a0.181fee4c0231d651"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/arqueiro.png",
@@ -30069,7 +32494,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "arqueiro",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!1a4f5a5d76d435a0"
   },
   {
     "_id": "72144f07e1e5047d",
@@ -30086,7 +32512,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/artifice.png\" alt=\"Artífice\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Artífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.</p><p>A grande maioria dos Artífices cria apenas itens de pouco poder, rápidos e fáceis de produzir, enquanto alguns se especializam em itens com fins específicos, geralmente trabalhando para a corte de um determinado reino ou metrópole. Na Academia Argêntea há Artífices especializados em itens de proteção, usados por estudantes durante seus primeiros testes (e pela maioria dos professores) enquanto Tebrynia, Arbrat e Tell’Est Triadha mantém Artífices que produzem armas e armaduras mágicas para as tropas que protegem essas capitais, e Arkânia possui Artífices que produzem itens mágicos exclusivamente para a Aurora dos Dragões.</p><p>Há ainda alguns Artífices que dedicam suas vidas à produção de itens mágicos com propriedades realmente impressionantes, e que requerem anos para serem produzidos. Em geral estes itens que consomem grandes quantidades de energia e recursos são criados com um propósito bastante específico – derrotar um perigo particularmente terrível, defender um reino de uma ameaça específica ou produzir uma ameaça ou perigo terríveis! Estes itens mágicos via de regra não estão à disposição de aventureiros, exceto, eventualmente, como pilhagem de suas aventuras.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Conhecimento Arcano.</p><p><strong>Raças Comuns:</strong> Aesir, Anão, Elfo, Fira, Metadílio.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!72144f07e1e5047d.74bd4a565f29140a"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/artifice.png",
@@ -30095,7 +32522,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "artifice",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!72144f07e1e5047d"
   },
   {
     "_id": "62e5078a5daba2bd",
@@ -30112,7 +32540,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cultista.png\" alt=\"Cultista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Cultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Pacto.</p><p><strong>Raças Comuns:</strong> Humano e Naga.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!62e5078a5daba2bd.a4cbf7011431de26"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/cultista.png",
@@ -30121,7 +32550,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "cultista",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!62e5078a5daba2bd"
   },
   {
     "_id": "46dc69095da17431",
@@ -30138,7 +32568,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cruzado.png\" alt=\"Cruzado\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Cruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.</p><p>Enquanto dentro da Ordem da Espada de Mirah realizar uma cruzada é praticamente mandatório para ser aceito – exceto no caso de alguns cargos destinados especificamente a Sacerdotes – dentro da Hoste de Hadorn não existe uma obrigatoriedade de tornar-se um Cruzado, mas estes guerreiros são amplamente respeitados e gozam de certos privilégios. Posições de liderança são geralmente atribuídos a Cruzados, e eles levam ampla vantagem na disputa para maioria das promoções para cargos elevados dentro da Ordem. Apesar de gozarem de certo respeito dentro de instituições ligadas a outras divindades, Cruzados não recebem nenhum privilégio especial em igrejas que não sejam ligadas a Hadorn ou Mirah.</p><p>Cruzados não formam um grupo coeso, e embora muitos pertençam a uma Ordem, há um bom número de Cruzados solitários que cruzam Tebryn caçando criaturas malignas em nome de sua divindade de forma completamente independente. Não existe nenhuma organização oficial de seus membros, e enquanto alguns deles são orientados por Cruzados mais experientes, alguns trilham este Caminho de forma totalmente independente e espontânea.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 4, Dogma.</p><p><strong>Raças Comuns:</strong> Anão, Elfo, Humano, Juban, Levent, Tailox.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!46dc69095da17431.8b3169114ed3f121"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/cruzado.png",
@@ -30147,7 +32578,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "cruzado",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!46dc69095da17431"
   },
   {
     "_id": "6ebef2b7cb8f4737",
@@ -30164,7 +32596,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/domador.png\" alt=\"Domador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Domadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.</p><p>Alguns Domadores desenvolvem um elo com um animal em particular e extendem naturalmente esse elo às demais bestas que encontram. Outros, apesar de possuírem uma ligação maior com uma criatura em especial, dedicam sua atenção entre todos os animais que encontra, sejam selvagens ou domesticados, de forma imparcial, muitas vezes reunindo uma pequena horda de “seguidores” selvagens.</p><p>Outros utilizam sua afinidade natural com as feras, subjugando os animais à sua vontade, como uma espécie de alfa de um grupo. Estes Domadores não necessariamente possuem um comportamento vil ou cruel com relação aos animais sobre os quais possui dominância, literalmente liderando seu grupo, defendendo, ensinando e exigindo respeito dos animais em troca. Mas, obviamente, alguns Domadores com esse comportamento agem de forma agressiva com os animais (e, em geral, com todas as criaturas) sob sua influência ou não. Não raro, estes Domadores desenvolvem uma antipatia por grupos sociais civilizados, preferindo a companhia dos animais e daqueles que possuem um elo semelhante com estes.</p><p>E há ainda aqueles Domadores que apenas tratam e treinam animais brevemente, quebrando qualquer vínculo com o animal em seguida, criando vínculos efêmeros com dezenas – as vezes centenas – de animais por breves períodos de tempo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Benção de Ellenis.</p><p><strong>Raças Comuns:</strong> Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!6ebef2b7cb8f4737.94cd7031c3f12bcf"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/domador.png",
@@ -30173,7 +32606,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "domador",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!6ebef2b7cb8f4737"
   },
   {
     "_id": "8f06be0ffc374af7",
@@ -30190,7 +32624,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/escriba.png\" alt=\"Escriba\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Escribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.</p><p>Um número considerável de Escribas se dedica à escrita de livros, geralmente compilando contos folclóricos dos povos que falam os idiomas que estudam e imprimindo nessas histórias prosa e verso adequados àquelas culturas de onde vieram. A maioria das obras de folclore e poesia das diversas culturas de Cassiopéia foram escritas por Escribas, e eles também são responsáveis pela maioria dos livros copiados à mão - que vêm se tornando cada vez mais raros em Cassiopéia - e extremamente valorizados por colecionadores, conjuradores e pelas diversas igrejas do continente, não só pela qualidade do texto mas também pelo reconhecido trabalho de iluminura pelo qual os Escribas são conhecidos. De fato, o trabalho dos Escribas é tão apreciado pelas diversas igrejas de Cassiopéia que e bastante comum encontrar Escribas copistas especializados em textos religiosos em todas as igrejas de Cassiopéia, embora eles sejam mais comuns entre os seguidores de Sarfion, Denalla e Hou - e as igrejas dessas divindades costumam ter salas especialmente destinadas à copistas na maioria de seus templos.</p><p>Muitos Escribas se dedicam ao estudo de magias presentes em tomos, e é bastante comum encontra-los trabalhando para conjuradores de todos os tipos, seja como empregados de conjuradores abastados, membros de instituições - como a Academia Argêntea - ou como prestadores de serviço, copiando, reformando e revisando grimórios e missais para conjuradores. De fato, na maioria das metrópoles de Cassipéia é possível encontrar estúdios de Escribas especializados em produzir Grimórios e Missais - algumas vezes trabalhando em conjunto com oficinas de outros conjuradores e artesãos especializados, como Artífices e Alquimistas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Humano, Metadílio.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!8f06be0ffc374af7.d0211c359a27b6ef"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/escriba.png",
@@ -30199,7 +32634,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "escriba",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!8f06be0ffc374af7"
   },
   {
     "_id": "94efab307dba9fd2",
@@ -30216,7 +32652,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/estrige.png\" alt=\"Estrige\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Estrige é o nome dado aos membros da Ordem dos Caçadores Sobrenaturais, homens e mulheres que dedicam suas vidas para caçar e destruir criaturas amaldiçoadas de todos os tipos, como fantasmas, lobisomens, demônios e mortos-vivos – assim como aqueles que lidam com essas criaturas, como Cultistas e Necromantes.</p><p>A Ordem foi fundada depois uma epidemia de vampirismo que se abateu na região ao redor de Longuespera. A guarda da cidade estava completamente despreparada para lidar com a ameaça, e mesmo tendo recebido ajuda de membros da Hoste de Hadorn e Espada de Mirah, a ameaça só foi eliminada depois que Tames Harkel, um Patrulheiro membro da Ordem da Espada de Mirah, teve a iniciativa de procurar por aventureiros acostumados a lidar com vampiros.</p><p>Apesar de membros da Ordem da Espada de Mirah e da Hoste de Hadorn serem bastante eficientes para lidar com criaturas sobrenaturais, eles não recebem treinamento próprio contra esse tipo de criatura, focando seu treinamento em combate de forma mais ampla, e negligenciando quase completamente a necessidade de localizar, rastrear e perseguir essas criaturas.</p><p>Vendo o despreparo de ambas as Ordens em lidar com a ameaça, o conselho de Tebryn decidiu criar uma Ordem especializada em lidar com esse tipo de problema, e Harkel foi seu primeiro líder. Com a ajuda dos aventureiros que reuniu para lidar com a ameaça em Longuespera, Harkel passou a treinar membros da Ordem da Espada de Mirah e da Hoste de Hadorn para lidar com criaturas amaldiçoadas.</p><p>Apesar de não estar oficialmente ligadas a nenhuma igreja ou instituição religiosa, a Ordem dos Caçadores Sobrenaturais iniciou suas atividades nos monastérios de Sarfion ao redor de Tebryn. Essa decisão de Harkel tinha vários motivos, mas os principais deles era não demonstrar favoritismo em relação a uma ou outra das Ordens que enviavam seus membros para serem treinados para se tornarem Estrigoi, apesar das igrejas tanto de Mirah quanto de Hadorn possuírem quartéis mais bem equipados para treinamento militar, e o fato dos monastérios de Sarfion terem bibliotecas com quantidades enormes de informações que poderiam ser usadas não apenas no treinamento da Ordem, mas em futuras pesquisas; manter boas relações com os Sacerdotes do Conhecimento era fundamental aos olhos de Harkel.</p><p>Eventualmente a Ordem passou a treinar conjuradores, caçadores e combatentes que não vinham exclusivamente das Ordens oficiais de Tebryn, e atualmente a quantidade de Estrigoi vindos de outras Ordens é uma minoria dentro dela. De fato, a maioria dos Sacerdotes que ingressa na Ordem segue os Dogmas de Sarfion. Patrulheiros, Xamãs e Druidas também são comuns na Ordem, acostumados em rastrear e caçar – ou lidar com espíritos e criaturas sobrenaturais. Há um bom número de Ladinos na Ordem também, já que habilidades de infiltração são extremamente valorizadas pelos Estrigoi. O termo Estrige, que nomeia os membros da Ordem, vem do Quoratus e significa literalmente Coruja. O termo passou a ser usado pelos Sacerdotes de Sarfion pouco depois do surgimento da Ordem, já que seus membros, além de caçadores competentes, curiosos e silenciosos, geralmente apareciam nos monastérios apenas durante a noite. O termo acabou se tornando popular entre os membros da Ordem, que o adotou oficialmente, e atualmente é amplamente conhecido em toda Tebryn.</p><p>Qualquer pessoa com um mínimo de experiência lidando com criaturas sobrenaturais é aceita como membro da Ordem como um acólito, passando por treinamento supervisionado por um Estrige experiente. Esse treinamento geralmente envolve várias horas por dia de leitura em bibliotecas dos templos de Sarfion pesquisando sobre maldições, mortos-vivos, demônios e tudo que se possa conhecer sobre criaturas sobrenaturais – e com quem ter acesso a essas bibliotecas para futuras pesquisas. Depois disso o acólito é levado em uma caçada e, tendo destruído seu alvo, passa a ser considerado um membro da Ordem.</p><p>A estrutura da Ordem é pouco rígida, e embora os membros mais novos respeitem Estrigoi mais experientes, não há qualquer distinção hierárquica entre os membros. É exigido aos membros que apenas efetuem relatos detalhados de qualquer criatura que destruam e qualquer experiência com maldições ou com criaturas sobrenaturais, e que mantenham um diário com suas experiências – caso sejam mortos, suas experiências podem ser de grande valia para outros Estrigoi. Esses relatos devem ser entregues a Sacerdotes de Sarfion específicos, que mantém todos os relatos da Ordem em sessões privadas das bibliotecas de seus templos.</p><p>A atual líder da Ordem é Sirague de Longuespera (Levent Sacerdote Estrige 10) uma Sacerdotisa de Sarfion especializada em lidar com espíritos. Ela vive em Longuespera há anos, investigando o Campo dos Onze Segredos, e está sempre à procura de Estrigoi – ou aventureiros – que queiram desbravar o lugar. De fato, a Ordem mantém excelentes relações com aventureiros, vendo-os como fontes de informações e pistas sobre criaturas sobrenaturais, reforços contra essas criaturas e, claro, potenciais acólitos. A Ordem sempre tem trabalho a oferecer para grupos de aventureiros, particularmente na região oeste do reino.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Matado algo sobrenatural.</p><p><strong>Raças Comuns:</strong> Elfo, Fauno, Humano, Levent, Metadílio, Tailox.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!94efab307dba9fd2.83933efce6d49f5f"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/estrige.png",
@@ -30225,7 +32662,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "estrige",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!94efab307dba9fd2"
   },
   {
     "_id": "5fcd20ace39eef3b",
@@ -30242,7 +32680,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/ilusionista.png\" alt=\"Ilusionista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>O Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.</p><p>Graças à esse segundo grupo, alguns dizem que todo o Ilusionista é um trapaceiro, mentiroso e enganador. Os Astérios tem um ditado que diz: “Confie num ladrão antes de um Ilusionista ”.</p><p>Muitos burgomestres, capitães, nobres e até mesmo monarcas reconhecem as capacidades dos Ilusionistas, e usam os mesmos como conselheiros em questões de seguranças, ou até como conselheiros pessoais. Lorde Esterlin II, regente de Ektória, é conhecido por ter duas guarda-costas Ilusionistas, que estão sempre ao lado dele.</p><p>Independente de como utilizam suas habilidades, Ilusionistas comumente utilizam suas capacidades de conjuração para lidar com ameaça sem precisar recorrer à violência. Esse padrão às vezes fazem com que Ilusionistas sejam considerados covardes, mas eles próprios vêem o confronto físico como um desafio débil, a forma como pessoas pouco refinadas lidam com problemas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Detectar Magia.</p><p><strong>Raças Comuns:</strong> Elfo, Faen, Metadílio.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!5fcd20ace39eef3b.0e49754a6a073f38"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/ilusionista.png",
@@ -30251,7 +32690,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "ilusionista",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!5fcd20ace39eef3b"
   },
   {
     "_id": "9a48179272b7e7cb",
@@ -30268,7 +32708,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/invocador.png\" alt=\"Invocador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los. Apesar das óbvias aplicações combativas, muitos Invocadores na verdade usam suas habilidades para atividades mais mundanas. Como são incansáveis, seguem ordens com exatidão e não se distraem, golens e elementais são trabalhadores extremamente eficientes. A Academia Argêntea e algumas metrópoles de Tebryn, Parband e Dagothar empregam Invocadores como arquitetos e construtores, enquanto muitos utilizam suas invocações como auxiliares em laboratórios, forjas e oficinas.</p><p>Mas é obviamente em batalha que os Invocadores mais se destacam. Invocadores particularmente talentosos são capazes de dominar o campo de batalha praticamente sozinhos e sem precisar entrar em confronto direto com nenhum inimigo. Apesar do poder bruto de elementais e golens menores não serem particularmente impressionantes, um número considerável deles é capaz de manter ameaças consideráveis sob controle. De fato, um invocador cercado de elementais e golens – ou talvez espíritos, no caso de Necromantes e Xamãs invocadores – pode ser uma visão suficientemente amedrontadora para fazer com que alguns inimigos simplesmente decidam que não é uma boa idéia enfrentar o grupo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 6, Detectar Magia.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Mahok, Levent.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!9a48179272b7e7cb.5ce7fb258b85b849"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/invocador.png",
@@ -30277,7 +32718,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "invocador",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!9a48179272b7e7cb"
   },
   {
     "_id": "b57e55f99ca1c3b7",
@@ -30294,7 +32736,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/lanceiro.png\" alt=\"Lanceiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Lanceiros são especialistas no uso de armas de haste. Apesar de usualmente eles preferirem lanças, particularmente eficientes quando usadas em formação, muitos Lanceiros favorecem alabardas, glaives ou martelos lucernos ao invés de lanças.</p><p>Esse tipo de combate foi trazido de Dagothar, onde combate com armas de haste é tradicional, particularmente em formação – Anões possuem uma formação de combate chamada de “ouriço” que combina Lanceiros rodeados por Escudeiros. Graças a isso, Lanceiros são particularmente comuns entre os Anões de Stord, que utilizam a vantagem de túneis apertados para manterem adversários à distância de forma eficiente utilizando armas de haste. As guardas das terras dos vales, na fronteira com Arkânia também mantém uma tradição no uso de armas de haste, herdada dos combates contra as tropas arkanitas, conhecidas pela sua preferência por esse tipo de arma. De fato, as tropas de frente de Arkânia geralmente utilizam formações de várias linhas de Lanceiro, e para lidar contra essas formações as companhias de soldados das terras dos vales acabaram aprimorando o uso de armas de haste e eventualmente adotando esse tipo de formação em combate campal.</p><p>Apesar de suas vantagens em formação serem reconhecidas, Lanceiros solitários são excelentes combatentes, particularmente em campo aberto. Além disso, eles são excelentes como apoio para combatentes de linha de frente ou para manter vários adversários acuados ao mesmo tempo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 3, Sem Escapatória.</p><p><strong>Raças Comuns:</strong> Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!b57e55f99ca1c3b7.77ec9d2ca2d04717"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/lanceiro.png",
@@ -30303,7 +32746,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "lanceiro",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!b57e55f99ca1c3b7"
   },
   {
     "_id": "315953a25883abba",
@@ -30320,7 +32764,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/oraculo.png\" alt=\"Oráculo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Apesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.</p><p>Oráculos cujo interesse por uma compreensão maior do mundo costumam ser abertos à discussão e estão tão interessados em disseminar o conhecimento quanto em adquirí-lo. Não é surpresa alguma que a um grande número desses Oráculos sejam Sacerdotes dedicados à Sarfion. Sacerdotes de Taranis também são comuns nesse grupo, já que o próprio conceito de liberdade está ligada ao conhecimento – “não há prisão mais terrível do que a ignorância” é um dito comum entre eles. Druidas são conhecidos por engrossar essas fileiras de Oráculos, as vezes para melhor servir à seus propósitos, mas geralmente por uma curiosidade inata comum à todos os membros da Classe.</p><p>Muitos Sacerdotes de Mirah e Hou, por outro lado, se tornam Oráculos em busca de conhecimentos específicos. Sacerdotes de Mirah costumam procurar um meio de chegar à paz absoluta, enquanto Sacerdotes de Hou muitas vezes se dedicam à encontrar respostas relacionadas à grandes artefatos perdidos – como a Mighty Blade – ou civilizações esquecidas – como Mankosh. Sua busca pode ser pelo objeto em si, seu método de construção, o motivo por trás de sua criação ou a identidade e natureza de seus criadores. Apesar de raramente serem capazes de obter a grande resposta que buscam, estes Oráculos costumam reunir informações significativas com relação à sua área de interesse.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 6, Conhecimento Místico.</p><p><strong>Raças Comuns:</strong> Aesir, Humano, Juban, Levent, Metadílio, Tailox.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!315953a25883abba.06522be5be285c24"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/oraculo.png",
@@ -30329,7 +32774,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "oraculo",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!315953a25883abba"
   },
   {
     "_id": "ae10c0e7b21d3531",
@@ -30346,7 +32792,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sanguineo.png\" alt=\"Sanguíneo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Sanguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.</p><p>Essa manipulação dos fluxos das energias de criaturas vivas é considerada antinatural e mal vista pela maioria dos conjuradores – Arcanos e Místicos – embora indivíduos mais inescrupulosos ignorem essa noção e se utilizem das capacidades dos Sanguíneos quando tiverem a chance – não apenas como um Caminho, mas ao encontrar as Magias deles escritas em itens de Registro. Alguns Conjuradores mais curiosos também podem estudar estas magias e geralmente concordam que elas podem ser particularmente úteis contra mortos-vivos, utilizando elas apenas contra essas criaturas quando a oportunidade aparece. De fato, considerando que a maioria dos Feiticeiros e Rúnicos não possuem capacidades ofensivas para lidarem diretamente com essas criaturas, as Magias desenvolvidas pelos Sanguíneos costumam ser vistas como uma adição bem-vinda em seus arsenais – mas apenas os mais desesperados ou amorais utilizam estas magias contra criaturas vivas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.</p><p><strong>Raças Comuns:</strong> Aesir, Elfo, Fira e Humano.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!ae10c0e7b21d3531.9c8887c35c1db9f4"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/sanguineo.png",
@@ -30355,7 +32802,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "sanguineo",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!ae10c0e7b21d3531"
   },
   {
     "_id": "61a019366e15ebfe",
@@ -30372,7 +32820,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Em Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.</p><p>Apesar da maioria das qualidades que um Tohunga é capaz de exibir através de suas tatuagens serem um ato de pura determinação, algumas tatuagens podem possuir qualidades mágicas ou sobrenaturais. A maioria destes Tohunga é formada por Rúnicos, Xamãs e Druidas, mas mesmo Guerreiros ou Patrulheiros podem exibir essas capacidades extraordinárias.</p><p>Independente de suas crenças, a maioria dos Tohunga faz uso de suas habilidades como tatuadores de maneira ordinária, seja marcando membros de sua comunidade com tatuagens de guerra ou em rituais de passagens, seja tatuando por dinheiro. No entanto, um Tohunga capaz de imprimir poderes nas tatuagens que produzem em outros costuma ser extremamente seletivo ao fazer isso, não sendo afetado por influência ou poder aquisitivo nessa escolha – exceto no caso de um Tohunga desesperado ou com muito pouco escrúpulo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 3, Artesão.</p><p><strong>Raças Comuns:</strong> Aesir, Anão, Astério.</p>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!61a019366e15ebfe.2df940b381510f2c"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/tohunga.png",
@@ -30381,7 +32830,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "tohunga",
         "tipo": "caminho"
       }
-    }
+    },
+    "_key": "!journal!61a019366e15ebfe"
   },
   {
     "_id": "276f5d555b77d9e3",
@@ -30398,7 +32848,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_anel.png\" alt=\"Irmandade do Anel de Bronze\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Mercante</li><li><strong>Sede Oficial:</strong> Altéria</li><li><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</li><li><strong>Condições de Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!276f5d555b77d9e3.04895da6d5b24869"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_anel.png",
@@ -30407,7 +32858,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "irmandade-do-anel-de-bronze",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!276f5d555b77d9e3"
   },
   {
     "_id": "5ce31fdfb296a239",
@@ -30424,7 +32876,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_espada.png\" alt=\"Espada de Mirah\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Fundada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Ordem</li><li><strong>Sede Oficial:</strong> ?</li><li><strong>Liderança:</strong> Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)</li><li><strong>Condições de Ingresso:</strong> Período como escudeiro, seguido de uma sabatina perante os juízes.</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!5ce31fdfb296a239.23ddd53344e2542b"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_espada.png",
@@ -30433,7 +32886,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "espada-de-mirah",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!5ce31fdfb296a239"
   },
   {
     "_id": "3e199f3077cca010",
@@ -30450,7 +32904,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_forja.png\" alt=\"Forjas de Hou\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Fundada em Tebrynia pelo Rei Kirk van Strauss como parte da revitalização da cidade, o Rei de Ferro concedeu benefícios para os artesãos que quisessem estabelecer suas oficinas em uma das áreas mais pobres de Tebrynia na época. Em pouco tempo vários artesãos haviam criado suas oficinas na região, e uma grande maioria dessas oficinas eram forjas de Anões vindos de Stord e Forjaguardas. Esses ferreiros rapidamente se integraram formando uma guilda de ferreiros, e adotaram, eventualmente, o nome do deus patrono dos ferreiros para nomear sua guilda. O próprio nome do bairro onde hoje a guilda se instala se deve ao fato do primeiro grande contrato da guilda ter sido a fabricação de espadas para a guarda de Tebryn.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Guilda</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Noa Abir (Fira Senescal 7)</li><li><strong>Condições de Ingresso:</strong> Demonstração de habilidade</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!3e199f3077cca010.c7d1ba77333ca2d1"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_forja.png",
@@ -30459,7 +32914,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "forjas-de-hou",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!3e199f3077cca010"
   },
   {
     "_id": "05e801a84d8cfe98",
@@ -30476,7 +32932,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_iris.png\" alt=\"Íris de Maltas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Esta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Guilda</li><li><strong>Sede Oficial:</strong> Tebrynia, Ambrook e Braktar</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Habitante de Tebryn sem ofensas registradas contra o governo</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!05e801a84d8cfe98.7564e36d70bf53fd"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_iris.png",
@@ -30485,7 +32942,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "iris-de-maltas",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!05e801a84d8cfe98"
   },
   {
     "_id": "2845c3fb7e77d4f3",
@@ -30502,7 +32960,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_arpao.png\" alt=\"O Arpão\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Naval</li><li><strong>Sede Oficial:</strong> Lonjágua</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!2845c3fb7e77d4f3.70926f6b20073e0f"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_arpao.png",
@@ -30511,7 +32970,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "o-arpao",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!2845c3fb7e77d4f3"
   },
   {
     "_id": "1d6e6781ed62f892",
@@ -30528,7 +32988,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_capuz.png\" alt=\"Capuzes Negros\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Criminal</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Demonstração de habilidade</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!1d6e6781ed62f892.ca96a75a5a0930a6"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_capuz.png",
@@ -30537,7 +32998,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "capuzes-negros",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!1d6e6781ed62f892"
   },
   {
     "_id": "8b8f8463666fe09b",
@@ -30554,7 +33016,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_cesto.png\" alt=\"Cesto de Adagas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><p>Muitos membros menos escrupulosos de outras organizações reconhecidas – como a Iris de Maltas e as Forjas de Hou – mantem contato com o Cesto de Adagas, abastecendo a Guilda com poções (principalmente venenos) ou prestando serviços diversos – como reformar itens danificados ou removendo brasões de organizações conhecidas por engastar suas armas e armaduras com eles. De fato, o Cesto de Adagas pode até mesmo providenciar versões falsas destes mesmos itens caso alguém queira pagar por eles – e algumas vezes podem até mesmo ter itens legítimos desse tipo em estoque!</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Criminal</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!8b8f8463666fe09b.25a40346942aa106"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_cesto.png",
@@ -30563,7 +33026,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "cesto-de-adagas",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!8b8f8463666fe09b"
   },
   {
     "_id": "4ede745be60451c1",
@@ -30580,7 +33044,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_corvo.png\" alt=\"Corvos Negros\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>A Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Ordem</li><li><strong>Sede Oficial:</strong> Miralda</li><li><strong>Liderança:</strong> Brunn Fracta (Humano Feiticeiro 7)</li><li><strong>Condições de Ingresso:</strong> Ser um conjurador arcano e seis meses de serviço probatório</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!4ede745be60451c1.da09c9eee5039226"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_corvo.png",
@@ -30589,7 +33054,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "corvos-negros",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!4ede745be60451c1"
   },
   {
     "_id": "edc9464c76248c66",
@@ -30606,7 +33072,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_cranio.png\" alt=\"Crânios Vermelhos\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><p>Além de fornecer proteção para os Suburbanos – recebendo até mesmo uma contribuição das outras guildas do Submundo – os Crânios Vermelhos também agem no Anel Externo de Tebrynia, cobrando por “proteção” de alguns estabelecimentos dali – embora isso seja mais para lembrar os habitantes da superfície que a guilda está em atividade e observando, e menos para realmente captar dinheiro. De fato, muitas vezes a guilda cobra na forma de informações sobre pessoas influentes na região, mesmo que não sejam realmente alvos de nenhum contrato da Guilda, mas sim para manter uma certa tensão com relação ao trabalho de eliminação que realizam.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Criminal</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Desconhecido</li><li><strong>Condições de Ingresso:</strong> Combate, tortura e tatuagem</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!edc9464c76248c66.d7b138cb03a53b36"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_cranio.png",
@@ -30615,7 +33082,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "cranios-vermelhos",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!edc9464c76248c66"
   },
   {
     "_id": "ac097694e091b93a",
@@ -30632,7 +33100,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_lobo.png\" alt=\"Lobos dos Mares\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Os Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Naval</li><li><strong>Sede Oficial:</strong> Navio Lobo de Guerra, atracado no extremo do porto de Adieren</li><li><strong>Liderança:</strong> Não possui</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!ac097694e091b93a.7cca0769bfd1cd34"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_lobo.png",
@@ -30641,7 +33110,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "lobos-dos-mares",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!ac097694e091b93a"
   },
   {
     "_id": "bf8bbb2c05baa928",
@@ -30658,7 +33128,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_hoste.png\" alt=\"Hoste de Hadorn\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Sua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Militar</li><li><strong>Sede Oficial:</strong> ?</li><li><strong>Liderança:</strong> General Fengran Rosevox (Humano Sacerdote Cruzado 10)</li><li><strong>Condições de Ingresso:</strong> Treinamento, seguido de alistamento</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!bf8bbb2c05baa928.756299d2d3650b63"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_hoste.png",
@@ -30667,7 +33138,8 @@ export const CANONICAL_DIARIOS = [
         "slug": "hoste-de-hadorn",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!bf8bbb2c05baa928"
   },
   {
     "_id": "3e384d6d238e49c8",
@@ -30684,7 +33156,8 @@ export const CANONICAL_DIARIOS = [
         "text": {
           "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_guarda.png\" alt=\"Guarda das Fronteiras Rochosas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Militar</li><li><strong>Sede Oficial:</strong> Stord</li><li><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</li><li><strong>Condições de Ingresso:</strong> Treinamento, seguido de alistamento</li></ul>",
           "format": 1
-        }
+        },
+        "_key": "!journal.pages!3e384d6d238e49c8.7f8bbf1394a02b57"
       }
     ],
     "img": "systems/mighty-blade/assets/forja/org_guarda.png",
@@ -30693,6 +33166,7 @@ export const CANONICAL_DIARIOS = [
         "slug": "guarda-das-fronteiras-rochosas",
         "tipo": "organizacao"
       }
-    }
+    },
+    "_key": "!journal!3e384d6d238e49c8"
   }
 ];

@@ -1,0 +1,22 @@
+{
+  "name": "Elixir de Cura",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Recupera 30 Pontos de Vida.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-de-cura",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "66f6c584a4835167",
+  "_key": "!items!66f6c584a4835167"
+}

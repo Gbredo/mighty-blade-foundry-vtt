@@ -1,0 +1,27 @@
+{
+  "name": "Inspirar Coragem",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Presença Inspiradora",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você reforça a determinação de um aliado através de palavras inspiradoras. Aquele aliado recupera imediatamente 20 Pontos de Vida e quaisquer efeitos de Medo que o estiver afetando são removidos. Este efeito não pode ser utilizado em você mesmo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "inspirar-coragem",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "96c3fff569793db5",
+  "_key": "!items!96c3fff569793db5"
+}

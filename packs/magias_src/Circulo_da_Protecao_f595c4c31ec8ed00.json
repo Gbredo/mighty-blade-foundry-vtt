@@ -1,0 +1,20 @@
+{
+  "name": "Círculo da Proteção",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 40,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Conjurar Broquel</p><p>Místico, Exorcismo Você desenha um Selo Místico no ar que se transforma em uma barreira de energia centrada em você e com um diâmetro igual á sua Vontade. A barreira é imaterial, indestrutível, imóvel, translúcida e bloqueia qualquer magia (tanto de fora para dentro quanto de dentro para fora). Além disso, qualquer demônio, morto-vivo ou espírito perde 20 Pontos de Vida A cada turno em começar dentro da barreira. O Selo Místico dura tanto tempo quanto você se mantiver dentro da barreira e concentrado em mantê-la.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "circulo-da-protecao",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "f595c4c31ec8ed00",
+  "_key": "!items!f595c4c31ec8ed00"
+}

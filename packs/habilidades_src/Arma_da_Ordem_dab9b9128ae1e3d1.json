@@ -1,0 +1,27 @@
+{
+  "name": "Arma da Ordem",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de imbuir seus ataques com a energia da própria Mirah! Você pode fazer um ataque corporal que, se acertar, causa um dano adicional igual a 10/Eletricidade. Ignore bônus de Armadura e Bloqueio fornecidos por itens de metal. Criaturas do tipo Demônio, Morto-vivo ou Espírito sofrem um dano adicional de 10/Eletricidade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arma-da-ordem",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "dab9b9128ae1e3d1",
+  "_key": "!items!dab9b9128ae1e3d1"
+}

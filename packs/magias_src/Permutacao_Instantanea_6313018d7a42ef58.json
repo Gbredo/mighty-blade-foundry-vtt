@@ -1,0 +1,20 @@
+{
+  "name": "Permutação Instantânea",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Teleporte 1</p><p>Desenhando uma Runa Arcana entre você e um alvo, você é teleportado para a posição em que o alvo ocupa ao mesmo tempo em que o alvo é teleportado para o local que você está. Se por algum motivo o alvo ou não couber na área onde você está (e vice-versa), esta magia falha automaticamente. Se o alvo for uma criatura, a Dificuldade dessa magia será igual à Determinação do alvo. Se o alvo for um objeto, a Dificuldade será igual ao peso do objeto em quilos, dividido por 5 (arredondado para baixo). Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "permutacao-instantanea",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "6313018d7a42ef58",
+  "_key": "!items!6313018d7a42ef58"
+}

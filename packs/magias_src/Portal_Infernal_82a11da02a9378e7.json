@@ -1,0 +1,20 @@
+{
+  "name": "Portal Infernal",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 70,
+    "dificuldade": 20,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 10</p><p>Traçando um Círculo de Invocação, você abre um portal para o Inferno. O portal permite ver e ouvir o que acontece do outro lado sem impedimentos, mas criaturas, itens ou magias só podem atravessá-lo a partir do plano do qual ele foi aberto. Se este círculo de conjuração for utilizado no inferno, ele abre um portal para o plano de origem de seu conjurador, mas nesse caso apenas o próprio conjurador pode atravessá-lo – embora itens e magias conjuradas a partir do Inferno possam atravessar para o plano para onde o portal foi aberto. Se você souber o nome de uma criatura dentro do plano para o qual está abrindo o portal, ou se você for suficientemente familiar com um local dentro do plano para o qual está abrindo o portal, ele se abrirá diante dessa criatura ou no meio do local. Caso contrário, o portal se abrirá em um ponto aleatório dentro do plano. Este portal dura enquanto você se mantiver concentrado nele, mas se você atravessar o portal, ele imediatamente se fecha. Pactos Infernais A seguir estão descrito os Pactos Infernais que podem ser realizados com os Primordiais – Pactos com Barões Infernais não estão incluídos aqui, embora um Barão Infernal servo de um Primordial específico possa realizar o Pacto de seu senhor. Um personagem com um Pacto recebe suas vantagens – e desvantagens – como descrito, mas não podem selecionar as Habilidades que tenham seu Pacto como Requisito a menos que sigam o Caminho Cultista. Além disso, o Cultista, além das Habilidades do Caminho, só podem selecionar as Habilidades de Pacto que tenham o Pacto que possuam como Requisito. As Habilidades desta sessão não estão listadas em ordem alfabética. Ao invés disso, cada Pacto específico terá as Habilidades que o tenham como Requisito logo em seguida dele. Pacto da Ambição Glycon, A Serpente da Visão, responsável por providenciar os meios, independente das consequências, que provê uma vida material plena em detrimento da espiritualidade. Glycon é um dos Primordiais mais cultuados no plano material, já que, além de toda a cultura Naga ter se desenvolvido ao redor dele, a ambição é, certamente, um dos maiores motivadores dos mortais. Sempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada Pontos de Vida equivale a 1 Ponto de Mana. Sempre que conjurar uma Magia, você precisa gastar pelo menos metade do seu Custo em Mana (arredondado para baixo) com Pontos de Vida. Se a Magia tiver um custo de Mana igual à Zero, você precisa gastar 1 Ponto de Vida para conjurá-la. Para cada 5 Pontos de Mana gastos dessa forma, a dificuldade da magia é reduzida em 1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "portal-infernal",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "82a11da02a9378e7",
+  "_key": "!items!82a11da02a9378e7"
+}

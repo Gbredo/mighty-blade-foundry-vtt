@@ -1,0 +1,27 @@
+{
+  "name": "Invocação Persistente",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Suas Invocações duram mais e são mais resistentes. Criaturas invocadas por você têm +10 PVs e permanecem invocadas por até 1 hora ao invés da sua duração normal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocacao-persistente",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "baf70d98d053725e",
+  "_key": "!items!baf70d98d053725e"
+}

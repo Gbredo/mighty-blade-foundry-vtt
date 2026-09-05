@@ -1,0 +1,22 @@
+{
+  "name": "Túnica",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Camisa longa que fica sobre as calças.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tunica",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "848f5fb52f584c91",
+  "_key": "!items!848f5fb52f584c91"
+}

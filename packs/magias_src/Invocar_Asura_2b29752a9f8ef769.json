@@ -1,0 +1,20 @@
+{
+  "name": "Invocar Asura",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 200,
+    "dificuldade": 18,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Traçando um Círculo de Invocação (cujo sacrifício precisa ser, necessariamente, um Humanoide ou Esfinge) você invoca um Asura (Eligos sendo os mais comuns). Asuras não realizam qualquer ordem que não seja a de compartilhar conhecimento já que, se o Círculo de Invocação for rompido antes de ele ter atendido sua ordem, você perderá o controle sobre o Asura imediatamente – o que geralmente tem consequências bastante sérias! Você poderá fazer uma pergunta ou pedir um conhecimento específico ao Asura, que responderá o mais diretamente que puder, dentro de seu conhecimento. Assim que responder sua pergunta, ele retorna ao Inferno imediatamente se o Círculo de Invocação for rompido. Habilidade Final</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-asura",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "2b29752a9f8ef769",
+  "_key": "!items!2b29752a9f8ef769"
+}

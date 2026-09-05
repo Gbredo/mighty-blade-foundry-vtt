@@ -1,0 +1,27 @@
+{
+  "name": "Grito de Guerra 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Grito de Guerra 1",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Você e todos os seus aliados em um raio de 10 metros recebem +2 em todas as rolagens até o final da batalha. Além disso, remova todos os efeitos de Medo de todos os aliados dentro da área dessa Habilidade. Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "grito-de-guerra-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "cbc0d73d3143c396",
+  "_key": "!items!cbc0d73d3143c396"
+}

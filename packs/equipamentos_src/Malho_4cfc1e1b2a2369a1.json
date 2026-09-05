@@ -1,0 +1,28 @@
+{
+  "name": "Malho",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Martelo de madeira pesado de carpinteiro para encaixe de vigas e estacas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "malho",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "4cfc1e1b2a2369a1",
+  "_key": "!items!4cfc1e1b2a2369a1"
+}

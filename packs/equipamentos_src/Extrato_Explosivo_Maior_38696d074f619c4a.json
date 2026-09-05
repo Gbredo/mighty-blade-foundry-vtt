@@ -1,0 +1,22 @@
+{
+  "name": "Extrato Explosivo Maior",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 700,
+    "description": "<p>Explode causando dano igual à 30/fogo num raio de 5 metros.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-explosivo-maior",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "38696d074f619c4a",
+  "_key": "!items!38696d074f619c4a"
+}

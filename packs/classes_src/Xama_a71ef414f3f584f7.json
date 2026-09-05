@@ -1,0 +1,33 @@
+{
+  "name": "Xamã",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/xama1.png",
+  "system": {
+    "atributos": {
+      "forca": 1,
+      "agilidade": 0,
+      "inteligencia": 0,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "guia-espiritual"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b89d37f86c189b3e\" data-slug=\"xama\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (35 Habilidades):</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico...</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "xama",
+      "diarioId": "b89d37f86c189b3e",
+      "conjurador": false
+    }
+  },
+  "_id": "a71ef414f3f584f7",
+  "_key": "!items!a71ef414f3f584f7"
+}

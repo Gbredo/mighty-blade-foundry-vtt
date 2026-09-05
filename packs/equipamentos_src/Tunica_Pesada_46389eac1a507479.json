@@ -1,0 +1,26 @@
+{
+  "name": "Túnica Pesada",
+  "type": "armadura",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "defesa": 1,
+    "fn": 1,
+    "subtipo": "armadura",
+    "pesada": false,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2.5,
+    "quantidade": 1,
+    "custo": 50,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tunica-pesada",
+      "categoria": "Defesa"
+    }
+  },
+  "_id": "46389eac1a507479",
+  "_key": "!items!46389eac1a507479"
+}

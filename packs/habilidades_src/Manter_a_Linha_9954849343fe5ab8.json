@@ -1,0 +1,27 @@
+{
+  "name": "Manter a Linha",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você sabe como utilizar o alcance de uma arma de haste com eficiência. Sempre que estiver utilizando uma arma de haste e um oponente que esteja à distância de haste ou além dela se aproximar à distância corpo-a-corpo, você pode imediatamente realizar um ataque corporal normal contra ele. 120 Capítulo 4 Capítulo 4 Apesar dos Elfos geralmente darem preferência a arcos, alguns deles preferem o uso da azagaia pela versatilidade, e grupos de zagaieiros acompanhados por Lanceiros formam a linha de frente das defesas das cidades de Ambrook.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "manter-a-linha",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9954849343fe5ab8",
+  "_key": "!items!9954849343fe5ab8"
+}

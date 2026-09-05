@@ -1,0 +1,27 @@
+{
+  "name": "O Dobro ou Nada",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Humano, Sorte",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Ao falhar em um teste, você pode arriscar tudo e rerrolar. Com sucesso, dobra todos os valores numéricos do efeito (dano, cura, duração). Em contrapartida, qualquer falha torna-se automaticamente uma falha crítica devastadora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "o-dobro-ou-nada",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "e7164eb2653acfad",
+  "_key": "!items!e7164eb2653acfad"
+}

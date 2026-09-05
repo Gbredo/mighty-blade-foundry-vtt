@@ -1,0 +1,54 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img
+      class="profile-img"
+      src="{{item.img}}"
+      data-edit="img"
+      title="{{item.name}}"
+    />
+    <div class="header-fields">
+      <h1 class="charname"><input
+          name="name"
+          type="text"
+          value="{{item.name}}"
+          placeholder="Nome do Caminho"
+        /></h1>
+      <div class="grid grid-2col">
+        <div class="resource">
+          <label class="resource-label">Habilidade Automática</label>
+          <input
+            type="text"
+            name="system.habilidadeAutomatica"
+            value="{{system.habilidadeAutomatica}}"
+            placeholder="Ex: Alquimia Básica"
+          />
+        </div>
+        <div class="resource">
+          <label class="resource-label">Pré-Requisitos</label>
+          <input
+            type="text"
+            name="system.requisitos"
+            value="{{system.requisitos}}"
+            placeholder="Ex: Inteligência 5, Herbalismo"
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="description">Descrição & Lore</a>
+  </nav>
+
+  <section class="sheet-body">
+    <div class="tab" data-group="primary" data-tab="description">
+      {{editor
+        enrichedDescription
+        target="system.description"
+        engine="prosemirror"
+        button=true
+        editable=editable
+      }}
+    </div>
+  </section>
+</form>

@@ -1,0 +1,22 @@
+{
+  "name": "Flecha de Prata",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Flecha tradicional banhada em prata.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flecha-de-prata",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "47f8793f8d70095e",
+  "_key": "!items!47f8793f8d70095e"
+}

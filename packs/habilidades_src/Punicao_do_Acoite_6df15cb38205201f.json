@@ -1,0 +1,27 @@
+{
+  "name": "Punição do Açoite",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 25,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Punição do Suplício",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Tocando em um alvo e vencendo um confronto de Vontade contra ele, você faz com que ele seja imediatamente tomado por fortes dores em todo corpo que duram por 1 minuto, como se estivesse sendo chicoteado – você escolhe um número de chibatadas que serão infligidas durante este tempo, até o máximo de 60 (um por turno); o alvo ficará Distraído por toda a duração do efeito, além de perder 1 Ponto de Vida para cada chibatada aplicada ao longo do efeito. Se o alvo tiver um sucesso mais alto do que você no confronto de Vontade, as dores serão muito menos incômodas, mas o alvo ainda será considerado Distraído, embora não sofra perda de Pontos de Vida.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punicao-do-acoite",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "6df15cb38205201f",
+  "_key": "!items!6df15cb38205201f"
+}

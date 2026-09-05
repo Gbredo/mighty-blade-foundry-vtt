@@ -1,0 +1,27 @@
+{
+  "name": "Persuadir",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Gregário.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e lhe dá um comando. Se a criatura for capaz de compreender o que você disse, ela precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação; o alvo pode escolher realizar a ação sem resistir) ou realiza o comando imediatamente. O comando não tem efeito depois disso – assim, um alvo que seja comandado a deitar-se no chão pode se levantar no próximo turno, enquanto um alvo comandado para correr para longe pode se aproximar novamente na sua próxima ação. O comando deve poder ser realizado como uma Ação Livre ou como uma Ação de Movimento e não pode ter mais do que uma palavra por ponto de Vontade que você tiver (“largue a espada”, “deite no chão”, “corra para longe de mim”). Se o comando disser respeito a ações involuntárias do alvo ou se for contra suas crenças ou sua segurança (“durma”, “se jogue pela janela”, “empurre o Rei do parapeito”) o alvo é automaticamente bem sucedido no teste. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "persuadir",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "38d65faa385f78c6",
+  "_key": "!items!38d65faa385f78c6"
+}

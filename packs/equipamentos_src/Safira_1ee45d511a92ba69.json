@@ -1,0 +1,22 @@
+{
+  "name": "Safira",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Gema azul extremamente brilhante.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "safira",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "1ee45d511a92ba69",
+  "_key": "!items!1ee45d511a92ba69"
+}

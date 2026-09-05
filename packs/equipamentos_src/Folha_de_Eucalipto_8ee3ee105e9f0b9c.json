@@ -1,0 +1,22 @@
+{
+  "name": "Folha de Eucalipto",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Componente. Forrageamento em Florestas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "folha-de-eucalipto",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "8ee3ee105e9f0b9c",
+  "_key": "!items!8ee3ee105e9f0b9c"
+}

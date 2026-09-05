@@ -1,0 +1,31 @@
+{
+  "name": "Martelo de Guerra",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Perfuracao",
+      "Contusao"
+    ],
+    "fn": 4,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 175,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "martelo-de-guerra",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "757bc4ebb6e46492",
+  "_key": "!items!757bc4ebb6e46492"
+}

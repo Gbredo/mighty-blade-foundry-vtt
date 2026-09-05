@@ -1,0 +1,31 @@
+{
+  "name": "Pá",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+4",
+    "tipoDano": [
+      "Corte",
+      "Contusao"
+    ],
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2.5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Pá reforçada de escavação e jardinagem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pa",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "927db37b3fdfe30f",
+  "_key": "!items!927db37b3fdfe30f"
+}

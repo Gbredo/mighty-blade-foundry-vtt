@@ -1,0 +1,22 @@
+{
+  "name": "Barrilete",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 6,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Barril de madeira para liquidos. Comporta 10 litros de líquido.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "barrilete",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "6b8eade6ea875395",
+  "_key": "!items!6b8eade6ea875395"
+}

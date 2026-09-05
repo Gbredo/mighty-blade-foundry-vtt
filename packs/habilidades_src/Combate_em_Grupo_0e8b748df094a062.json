@@ -1,0 +1,27 @@
+{
+  "name": "Combate em Grupo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você ganha +1 nos testes de ataques corporais para cada aliado que esteja em combate corporal com o alvo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "combate-em-grupo",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "0e8b748df094a062",
+  "_key": "!items!0e8b748df094a062"
+}

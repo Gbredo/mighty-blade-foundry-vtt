@@ -1,0 +1,27 @@
+{
+  "name": "Companheiro Animal 3",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Companheiro animal 2",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu Companheiro Animal recebe +1 em todos os seus Atributos e +10 Pontos de Vida ou +10 Pontos de Mana à sua escolha. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "companheiro-animal-3",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "2fe82b9abae432cc",
+  "_key": "!items!2fe82b9abae432cc"
+}

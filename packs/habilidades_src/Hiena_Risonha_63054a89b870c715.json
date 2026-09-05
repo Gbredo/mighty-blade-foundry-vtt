@@ -1,0 +1,27 @@
+{
+  "name": "Hiena Risonha",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Gnoll",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de emitir uma risada estridente, perturbadora e assustadora. Todos os oponentes a até 10 metros que puderem ouvi-lo devem fazer um Confronto de Vontade contra a sua Vontade (+1d6 para você). Alvos derrotados ficam Amedrontados com relação a você até o final do combate (efeito de Medo).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "hiena-risonha",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "63054a89b870c715",
+  "_key": "!items!63054a89b870c715"
+}

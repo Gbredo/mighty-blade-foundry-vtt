@@ -1,0 +1,27 @@
+{
+  "name": "Arsenal Dracônico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Vínculo Dracônico",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você desenvolve garras, presas, chifres, escamas afiadas e espigões pontudos que podem ser usados como armas naturais. Seus ataques desarmados sempre causam dano igual à Força +2 (ou Força +4 em manobras de Encontrão), e você sempre pode escolher se esse dano será por Contusão, Corte ou Perfuração.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arsenal-draconico",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "8e39b6cef167e87d",
+  "_key": "!items!8e39b6cef167e87d"
+}

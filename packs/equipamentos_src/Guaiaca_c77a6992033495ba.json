@@ -1,0 +1,22 @@
+{
+  "name": "Guaiaca",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.012,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Cinturão de couro com vários bolsos pequenos – pode conter até 20 itens de peso insignificante.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guaiaca",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "c77a6992033495ba",
+  "_key": "!items!c77a6992033495ba"
+}

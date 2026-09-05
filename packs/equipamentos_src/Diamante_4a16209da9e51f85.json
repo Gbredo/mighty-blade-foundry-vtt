@@ -1,0 +1,22 @@
+{
+  "name": "Diamante",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 240,
+    "description": "<p>Gema transparente que reflete luz em uma miríade de cores.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "diamante",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "4a16209da9e51f85",
+  "_key": "!items!4a16209da9e51f85"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Rubi",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 180,
+    "description": "<p>Gema vermelha extremamente brilhante.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rubi",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "0de60409a1d40e90",
+  "_key": "!items!0de60409a1d40e90"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Óleo combustível",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Serve para recarregar lampiões. Se exposto ao fogo, explode (dano igual à 10/fogo em uma área de 2 metros de raio).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "oleo-combustivel",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "0a6385483e8210cd",
+  "_key": "!items!0a6385483e8210cd"
+}

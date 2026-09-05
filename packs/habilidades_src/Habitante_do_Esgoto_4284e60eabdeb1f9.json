@@ -1,0 +1,54 @@
+{
+  "name": "Habitante do Esgoto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "visaoEscuro",
+        "grau": "perfeita"
+      },
+      {
+        "tipo": "resistencia",
+        "dano": "doenca-natural",
+        "grau": "imune"
+      },
+      {
+        "tipo": "resistencia",
+        "dano": "veneno-natural",
+        "grau": "imune"
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "resistir a doenças e venenos mágicos"
+      },
+      {
+        "tipo": "ataqueNatural",
+        "parte": "mordida",
+        "dano": "Forca",
+        "tipoDano": "Perfuracao",
+        "efeitoAdicional": "Alvo ferido testa Força ou contrai doença natural"
+      }
+    ],
+    "description": "<p>Visão no escuro perfeita. Imune a doenças e venenos naturais. +1d6 para resistir a doenças e venenos mágicos. Alvos feridos pela mordida devem testar Força para não contrair uma doença natural.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "habitante-do-esgoto",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "4284e60eabdeb1f9",
+  "_key": "!items!4284e60eabdeb1f9"
+}

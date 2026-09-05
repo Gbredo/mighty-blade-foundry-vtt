@@ -1,0 +1,27 @@
+{
+  "name": "Coração de Tinta",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Invocar Espírito de Tinta",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Através da tatuagem do seu espírito animal, você é capaz de fortalecer sua determinação e em contrapartida seu espírito animal também se fortalece. Enquanto a tatuagem do seu espírito animal estiver à mostra, você (e quaisquer criaturas que você invocar) recebe +10 Pontos de Vida e +1 em Bloqueio, Esquiva e Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coracao-de-tinta",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "540aec3ca6a06f62",
+  "_key": "!items!540aec3ca6a06f62"
+}

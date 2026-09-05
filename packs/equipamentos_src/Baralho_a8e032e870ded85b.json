@@ -1,0 +1,22 @@
+{
+  "name": "Baralho",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.005,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Baralho comum para jogos de carta.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "baralho",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "a8e032e870ded85b",
+  "_key": "!items!a8e032e870ded85b"
+}

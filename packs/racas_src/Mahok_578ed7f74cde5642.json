@@ -1,0 +1,107 @@
+{
+  "name": "Mahok",
+  "type": "raca",
+  "img": "systems/mighty-blade/assets/forja/mahok.png",
+  "system": {
+    "atributos": {
+      "forca": 5,
+      "agilidade": 2,
+      "inteligencia": 2,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Pele de Pedra",
+      "descricao": "Pele rígida fornece Defesa +4 (conta como Armadura Pesada; não pode usar armaduras). +1d6 para evitar queda, resistir a venenos/doenças, empurrar/segurar peso. Inapto em escalar, saltar e correr.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "pele-de-pedra"
+      }
+    ],
+    "classesComuns": "Druida, Invocador, Rúnico, Trovador e Xamã (Nota: Quando atuam como combatentes, a maioria opta por armas contundentes pesadas e produzem itens mágicos para uso cotidiano, sendo as armas mágicas Mahoks extremamente raras)",
+    "description": "<div class=\"mb-item-summary\"><p>Raça Mahok de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.04ee764d26c2b72b\" data-slug=\"mahok\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"classes-comuns\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Druida, Invocador, Rúnico, Trovador e Xamã (Nota: Quando atuam como combatentes, a maioria opta por armas contundentes pesadas e produzem itens mágicos para uso cotidiano, sendo as armas mágicas Mahoks extremamente raras)</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mahok",
+      "diarioId": "04ee764d26c2b72b",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** São humanoides de constituição sólida, medindo cerca de 2,5 metros de altura e pesando por volta de 300 quilos na idade adulta. Esse peso pode chegar ao dobro com o passar do tempo. Sua característica mais notável é a pele formada por grossas placas de rocha. Possuem quatro dedos nas mãos e nos pés (onde os dedos são unidos sob um bloco único de pedra). Em raros casos, podem nascer com um par extra de braços, que, com treinamento, conseguem usar eficientemente em combate.\n* **Pele e Pelagem:** A pele tem cor e textura granítica, embora possa apresentar variações semelhantes a mármore ou alabastro. Os bebês nascem com uma fina camada rochosa que racha e cai nos primeiros dias, dando lugar a uma nova. A pele atinge sua configuração ideal na fase adulta e continua engrossando progressivamente durante o resto da vida.\n* **Sentidos Precários:** Devido às formações rochosas, a pele não transmite o tato. Eles também não possuem pavilhões auditivos externos, e o crescimento de rochas ao redor das narinas e olhos limita consideravelmente o olfato e a visão.\n* **Dimorfismo Sexual:** Machos e fêmeas da espécie são virtualmente idênticos, não havendo qualquer diferença física notável que outras raças consigam distinguir.\n* **Ciclo de Vida:** A gestação dura cerca de 10 meses (gerando apenas um bebê). Crescem de forma acelerada, atingindo o tamanho máximo já aos 10 anos e sendo adultos aos 20. Aos 60 anos, o peso excessivo da pele causa severas dificuldades de locomoção. Ao atingir os 80 anos, perdem completamente a mobilidade e se fundem em rocha sólida, tornando-se monumentos conhecidos como \"Menires\".",
+        "cultura": "* **Habitat e Organização:** Vivem em cidades escavadas em montanhas ou galerias cavernosas. Muitas de suas comunidades são nômades que viajam por cadeias de montanhas, fixando-se por curtos períodos. Não possuem um reino próprio, mas são vistos como cidadãos plenos em Parband, Dagothar e Tebryn. Escolhem minuciosamente o local onde repousarão ao fim da vida, formando vastos campos monolíticos chamados cromlechs nos picos de Cassiopéia.\n* **Sustento e Dieta:** Sua dieta é altamente exótica, pois necessitam de muito silício, carbono e minerais. Alimentam-se de biscoitos cozidos de argila e cal, vegetais crus, insetos (considerados iguarias) e assam seus alimentos normais até que virem puramente carvão.\n* **Temperamento:** São extremamente gregários e sociáveis, criando grupos familiares fortes e conversando até com trogloditas e ogros (que outras raças julgam irracionais). Como são estoicos, indiferentes a intempéries ou falta de conforto, as raças mais requintadas muitas vezes os julgam erroneamente como incivilizados ou pouco sofisticados.",
+        "faixasEtarias": {
+          "filhote": "0-4",
+          "crianca": "5-15",
+          "adolescente": "16-19",
+          "adulto": "20",
+          "idoso": "60(8)",
+          "anciao": "80(1)"
+        },
+        "nomes": {
+          "lore": "A língua nativa dos Mahoks é o Triet, que compartilha a mesma estrutura de escrita do Futhark (runas anãs). O idioma comparativo real para essa língua é o Esloveno. Os nomes Mahoks possuem de duas a quatro sílabas e são criados a partir do nome de um mineral com a última letra alterada. Para o sobrenome, um Mahok sempre utiliza o nome de um acidente geográfico muito específico do local onde ele nasceu.",
+          "masculinos": [
+            "Ambar",
+            "Argilas",
+            "Azuritor",
+            "Berilor",
+            "Carvor",
+            "Citrinos",
+            "Cromas",
+            "Culon",
+            "Geldoron",
+            "Giendros",
+            "Iridior",
+            "Jaspos",
+            "Koumor",
+            "Mineran",
+            "Modron",
+            "Nefelinor",
+            "Obsidianos",
+            "Ombar",
+            "Opalon",
+            "Ouros",
+            "Piritor",
+            "Quartzon",
+            "Roblor",
+            "Xiselmor",
+            "Xistor"
+          ],
+          "femininos": [
+            "Alabastra",
+            "Alunitil",
+            "Ametista",
+            "Ankerita",
+            "Areil",
+            "Azurita",
+            "Bronzil",
+            "Carva",
+            "Copal",
+            "Coral",
+            "Cristal",
+            "Diamanta",
+            "Esmeralda",
+            "Galena",
+            "Gema",
+            "Gipsita",
+            "Goliata",
+            "Jadel",
+            "Lazulil",
+            "Mercuria",
+            "Mical",
+            "Prata",
+            "Rubil",
+            "Terrekal",
+            "Titanita",
+            "Zinca"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "578ed7f74cde5642",
+  "_key": "!items!578ed7f74cde5642"
+}

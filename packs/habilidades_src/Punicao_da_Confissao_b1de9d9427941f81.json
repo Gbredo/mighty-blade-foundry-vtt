@@ -1,0 +1,27 @@
+{
+  "name": "Punição da Confissão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 60,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Punição do Silêncio",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Tocando em um alvo e vencendo um confronto de Vontade contra ele, você faz com que ele recite, em detalhes, todos os crimes – ações que ele saiba que para você sejam considerados crimes, mesmo que ele próprio não os considere dessa forma – que ele tenha cometido que não tenham sido julgados. Se o alvo tiver um resultado mais alto do que o seu no confronto de Vontade, ele não será obrigado a confessar seus crimes, mas se tentar falar qualquer outra coisa, não será capaz de produzir palavras coerentes – esse efeito dura por um número de minutos igual à sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punicao-da-confissao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "b1de9d9427941f81",
+  "_key": "!items!b1de9d9427941f81"
+}

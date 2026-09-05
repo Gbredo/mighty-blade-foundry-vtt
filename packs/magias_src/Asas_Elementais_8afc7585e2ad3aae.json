@@ -1,0 +1,20 @@
+{
+  "name": "Asas Elementais",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você faz com que um par de asas de energia surjam em suas costas. O alvo ganha a Habilidade Asas Fortes. Esse Selo Místico dura uma quantidade de minutos igual à Determinação do conjurador.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "asas-elementais",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "8afc7585e2ad3aae",
+  "_key": "!items!8afc7585e2ad3aae"
+}

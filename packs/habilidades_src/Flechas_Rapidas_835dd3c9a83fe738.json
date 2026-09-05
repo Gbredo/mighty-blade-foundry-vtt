@@ -1,0 +1,27 @@
+{
+  "name": "Flechas Rápidas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Após fazer um ataque normal usando um arco, você pode fazer imediatamente outro ataque normal com o arco. Especial: Esta Habilidade só pode ser usada 1 vez por turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flechas-rapidas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "835dd3c9a83fe738",
+  "_key": "!items!835dd3c9a83fe738"
+}

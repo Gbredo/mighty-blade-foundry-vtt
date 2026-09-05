@@ -1,0 +1,20 @@
+{
+  "name": "Criar Golem",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 60,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Cariátide</p><p>Você pode dar movimentos para um receptáculo especialmente preparado. Você precisa de um receptáculo de forma aproximadamente humanoide todo feito de um mesmo material com uma pedra preciosa incrustada nele. A pedra preciosa precisa ter um valor de 400 moedas para cada metro de altura do Golem. Você então desenha um Selo Místico sobre o receptáculo, que se torna um Golem do material e tamanho apropriados. O Selo Místico que mantém o Golem dura 1 hora. Veja os dados de diversos tipos de Golens no Monstrum Codex para mais detalhes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "criar-golem",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "31d033a858e1d608",
+  "_key": "!items!31d033a858e1d608"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Espadachim",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/espadachim2.png",
+  "system": {
+    "atributos": {
+      "forca": 1,
+      "agilidade": 1,
+      "inteligencia": 0,
+      "vontade": 0
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "mestre-de-armas-1"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.271a8d443f5c85f6\" data-slug=\"espadachim\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Humano, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (38 Habilidades):</strong> orbe-de-contencao, punho-de-pedra, veneficio, hierofante, mestre-de-armas-1, acrobata, aparar, ataque-aleijador...</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espadachim",
+      "diarioId": "271a8d443f5c85f6",
+      "conjurador": false
+    }
+  },
+  "_id": "fa408fa6c07e3f4a",
+  "_key": "!items!fa408fa6c07e3f4a"
+}

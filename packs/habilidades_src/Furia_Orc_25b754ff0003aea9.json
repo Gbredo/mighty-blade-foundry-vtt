@@ -1,0 +1,33 @@
+{
+  "name": "Fúria Orc",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Orc",
+    "bonusAtributo": {
+      "atributo": "forca",
+      "valor": 2
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "forca",
+        "valor": 2
+      }
+    ],
+    "description": "<p>Seu sangue ferve em combate, entrando em fúria destrutiva ao ser atacado, sofrer dano ou ser alvo de magia. Enquanto estiver em Fúria, você recebe +2 em Força, Determinação e Deslocamento até o final do combate (ou até ficar 2 turnos sem atacar). Incompatível com Fúria de Batalha.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "furia-orc",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "25b754ff0003aea9",
+  "_key": "!items!25b754ff0003aea9"
+}

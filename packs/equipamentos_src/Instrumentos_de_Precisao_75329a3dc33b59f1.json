@@ -1,0 +1,22 @@
+{
+  "name": "Instrumentos de Precisão",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 63,
+    "description": "<p>Régua, esquadro, compasso e balança.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "instrumentos-de-precisao",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "75329a3dc33b59f1",
+  "_key": "!items!75329a3dc33b59f1"
+}

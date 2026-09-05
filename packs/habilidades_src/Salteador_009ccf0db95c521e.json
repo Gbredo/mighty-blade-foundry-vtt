@@ -1,0 +1,37 @@
+{
+  "name": "Salteador",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "percepção, esconder-se, correr, escalar, equilibrar e Iniciativa"
+      },
+      {
+        "tipo": "bonusDeslocamento",
+        "valor": 1
+      }
+    ],
+    "description": "<p>+2 em testes de percepção, esconder-se, correr, escalar, equilibrar e Iniciativa. Deslocamento +1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "salteador",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "009ccf0db95c521e",
+  "_key": "!items!009ccf0db95c521e"
+}

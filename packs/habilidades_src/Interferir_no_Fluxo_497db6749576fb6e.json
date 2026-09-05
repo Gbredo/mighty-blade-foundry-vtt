@@ -1,0 +1,27 @@
+{
+  "name": "Interferir no Fluxo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Precognição",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você vislumbrou vários futuros possíveis e consegue forçar determinados eventos a se tornarem realidade. Sempre que uma ação dentro da sua linha de visão exigir uma rolagem de dados, você pode modificar o resultado daquela rolagem em um grau para melhor ou pior – uma falha crítica se torna uma falha normal, uma falha se torna um sucesso ou um sucesso se torna um sucesso crítico, ou vice-versa. Você não interfere no resultado dos dados, apenas no resultado do teste. Essa Habilidade só pode ser usada uma vez por turno. que podem acontecer. As informações obtidas são vagas e não fazem sentido até que os eventos vislumbrados comecem a se desenrolar de fato. Durante um período em dias igual à sua Vontade depois de ter usado essa Habilidade, você recebe um bônus de +1d6 em 1 rolagem qualquer – você sabe o que vai acontecer e consegue reagir com eficiência. Somente depois que tiver usado esse bônus ou que a duração do efeito tenha passado você pode usar esta Habilidade novamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "interferir-no-fluxo",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "497db6749576fb6e",
+  "_key": "!items!497db6749576fb6e"
+}

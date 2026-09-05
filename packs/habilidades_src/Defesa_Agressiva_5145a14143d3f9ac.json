@@ -1,0 +1,27 @@
+{
+  "name": "Defesa Agressiva",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Defletor",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você entende que a melhor defesa é um ataque eficiente. Quando estiver empunhando uma arma corporal de duas mãos, duas armas corporais ou um escudo, você recebe +1 em seus testes de ataque corporal e +1 na sua Defesa. Esse bônus de Defesa é considerado um bônus de Bloqueio. Defletor Habilidade (Técnica) – Suporte Você está acostumado a se defender de projéteis. Enquanto estiver empunhando uma arma corporal de duas mãos, duas armas corporais ou um escudo, você recebe +2 no seu bônus de Bloqueio contra ataques à distância. Esse bônus de Defesa é considerado um bônus de Bloqueio.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "defesa-agressiva",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "5145a14143d3f9ac",
+  "_key": "!items!5145a14143d3f9ac"
+}

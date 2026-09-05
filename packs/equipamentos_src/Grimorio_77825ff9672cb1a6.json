@@ -1,0 +1,22 @@
+{
+  "name": "Grimório",
+  "type": "equipamento",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "canalizador": true,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Livro usado por conjuradores arcanos para registrar magias.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "grimorio",
+      "categoria": "Conjuracao"
+    }
+  },
+  "_id": "77825ff9672cb1a6",
+  "_key": "!items!77825ff9672cb1a6"
+}

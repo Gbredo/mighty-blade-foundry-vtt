@@ -1,0 +1,22 @@
+{
+  "name": "Trevo de Quatro Folhas",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Componente. Forrageamento em qualquer terreno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "trevo-de-quatro-folhas",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "e56365c9588ab55a",
+  "_key": "!items!e56365c9588ab55a"
+}

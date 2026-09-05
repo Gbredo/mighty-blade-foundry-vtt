@@ -1,0 +1,28 @@
+{
+  "_id": "315953a25883abba",
+  "name": "Diário: Oráculo",
+  "pages": [
+    {
+      "_id": "06522be5be285c24",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/oraculo.png\" alt=\"Oráculo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Apesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.</p><p>Oráculos cujo interesse por uma compreensão maior do mundo costumam ser abertos à discussão e estão tão interessados em disseminar o conhecimento quanto em adquirí-lo. Não é surpresa alguma que a um grande número desses Oráculos sejam Sacerdotes dedicados à Sarfion. Sacerdotes de Taranis também são comuns nesse grupo, já que o próprio conceito de liberdade está ligada ao conhecimento – “não há prisão mais terrível do que a ignorância” é um dito comum entre eles. Druidas são conhecidos por engrossar essas fileiras de Oráculos, as vezes para melhor servir à seus propósitos, mas geralmente por uma curiosidade inata comum à todos os membros da Classe.</p><p>Muitos Sacerdotes de Mirah e Hou, por outro lado, se tornam Oráculos em busca de conhecimentos específicos. Sacerdotes de Mirah costumam procurar um meio de chegar à paz absoluta, enquanto Sacerdotes de Hou muitas vezes se dedicam à encontrar respostas relacionadas à grandes artefatos perdidos – como a Mighty Blade – ou civilizações esquecidas – como Mankosh. Sua busca pode ser pelo objeto em si, seu método de construção, o motivo por trás de sua criação ou a identidade e natureza de seus criadores. Apesar de raramente serem capazes de obter a grande resposta que buscam, estes Oráculos costumam reunir informações significativas com relação à sua área de interesse.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 6, Conhecimento Místico.</p><p><strong>Raças Comuns:</strong> Aesir, Humano, Juban, Levent, Metadílio, Tailox.</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!315953a25883abba.06522be5be285c24"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/oraculo.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "oraculo",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!315953a25883abba"
+}

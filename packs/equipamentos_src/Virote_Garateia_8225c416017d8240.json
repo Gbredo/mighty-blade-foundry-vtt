@@ -1,0 +1,22 @@
+{
+  "name": "Virote Garateia",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Virote para acoplar uma garatéia na ponta e uma corda.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "virote-garateia",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "8225c416017d8240",
+  "_key": "!items!8225c416017d8240"
+}

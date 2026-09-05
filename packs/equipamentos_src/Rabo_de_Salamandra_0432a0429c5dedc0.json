@@ -1,0 +1,22 @@
+{
+  "name": "Rabo de Salamandra",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 75,
+    "description": "<p>Componente. Caça em Florestas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rabo-de-salamandra",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "0432a0429c5dedc0",
+  "_key": "!items!0432a0429c5dedc0"
+}

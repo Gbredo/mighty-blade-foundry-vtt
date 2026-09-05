@@ -1,0 +1,27 @@
+{
+  "name": "Chega Mais",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade social/tática do Bardo. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chega-mais",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "1cd817d975b229cc",
+  "_key": "!items!1cd817d975b229cc"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Comunhão com Espíritos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Levent, Contato com Espíritos",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Enquanto mantiver Contato com Espíritos, pode tocar um aliado para conceder-lhe a mesma visão e audição espiritual por 10 minutos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "comunhao-com-espiritos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "77a8f57293e23936",
+  "_key": "!items!77a8f57293e23936"
+}

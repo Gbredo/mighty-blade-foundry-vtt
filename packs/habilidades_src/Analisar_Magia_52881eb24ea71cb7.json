@@ -1,0 +1,27 @@
+{
+  "name": "Analisar Magia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Detectar Magia",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Concentrando-se nos fluxos de energia mágica como uma ação de rodada completa, você é capaz de entender seus efeitos com precisão. Desenvolvida para lidar com portais especificamente, essa técnica é extremamente útil para compreender o funcionamento de itens mágicos e de magias conjuradas para funcionarem como armadilhas mágicas. Você é capaz de dizer exatamente há quanto tempo o item/Runa/Selo foi criado, por quanto tempo ainda irá durar, quanto de Mana foi gasto para produzi-lo e quais seus efeitos exatos – incluindo quaisquer possíveis gatilhos necessários para ativá-lo ou se ele está ligado a alguma outra Runa ou Selo (e nesse caso onde se encontra esta outra Runa ou Selo).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "analisar-magia",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "52881eb24ea71cb7",
+  "_key": "!items!52881eb24ea71cb7"
+}

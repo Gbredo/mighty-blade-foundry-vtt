@@ -1,0 +1,37 @@
+{
+  "name": "Coração da Montanha 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Anão",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusPV",
+        "valor": 5
+      },
+      {
+        "tipo": "resistencia",
+        "dano": "doenca",
+        "grau": "imune"
+      }
+    ],
+    "description": "<p>Você é ainda mais vigoroso e resistente que a maioria dos Anões. Você ganha +5 Pontos de Vida, torna-se imune à todas as doenças de origem natural ou mágica e passa a rolar +1d6 em todos os testes para resistir a quaisquer efeitos de fadiga ou outros efeitos físicos. Esse bônus se acumula com o bônus de Coração da Montanha 1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coracao-da-montanha-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "ac51567859ed93f9",
+  "_key": "!items!ac51567859ed93f9"
+}

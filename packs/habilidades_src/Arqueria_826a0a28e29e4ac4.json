@@ -1,0 +1,27 @@
+{
+  "name": "Arqueria",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você recebe +2 em todos os seus ataques à distância (incluindo arremessos) e em testes envolvendo Arcos, Bestas, Prodds e fundas de todos os tipos. Você sabe como consertar essas armas e como fabricar a munição para elas. Especial: para consertar as armas ou fabricar a munição, veja Entalhe, na página 50.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arqueria",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "826a0a28e29e4ac4",
+  "_key": "!items!826a0a28e29e4ac4"
+}

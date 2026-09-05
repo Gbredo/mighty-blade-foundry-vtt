@@ -1,0 +1,22 @@
+{
+  "name": "Aljava Compartimentada",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Dividida em quatro bolsos, cada um comportando 5 flechas, para separar tipos diferentes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aljava-compartimentada",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "5e322a500f6d3caa",
+  "_key": "!items!5e322a500f6d3caa"
+}

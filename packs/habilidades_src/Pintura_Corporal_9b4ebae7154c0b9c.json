@@ -1,0 +1,27 @@
+{
+  "name": "Pintura Corporal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Fauno",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você utiliza pigmentos e símbolos tribais no corpo. Escolha uma pintura ativa: Pintura de Caça (+1 em visão e ataques à distância, +1 de dano à distância), Pintura de Guerra (+2 de dano corporal e Defesa +1), Pintura de Oração (+2 em voz/músicas) ou Pintura Ritual (+1 em linguagem corporal e Magias).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pintura-corporal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9b4ebae7154c0b9c",
+  "_key": "!items!9b4ebae7154c0b9c"
+}

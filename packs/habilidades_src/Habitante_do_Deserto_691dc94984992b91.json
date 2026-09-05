@@ -1,0 +1,41 @@
+{
+  "name": "Habitante do Deserto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "resistencia",
+        "dano": "fogo",
+        "grau": "resistente"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "efeitos de calor natural e climas quentes ou áridos"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "privação de água por até 5 dias"
+      }
+    ],
+    "description": "<p>Resistente a Fogo. Pode passar até 5 dias sem água sem penalidades. Não sofre efeitos de climas quentes ou áridos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "habitante-do-deserto",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "691dc94984992b91",
+  "_key": "!items!691dc94984992b91"
+}

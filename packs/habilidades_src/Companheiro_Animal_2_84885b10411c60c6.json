@@ -1,0 +1,27 @@
+{
+  "name": "Companheiro Animal 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Companheiro animal 1",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu companheiro animal recebe +1 em 2 Atributos à sua escolha, +5 Pontos de vida e +5 Pontos de Mana. Além disso, seu companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "companheiro-animal-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "84885b10411c60c6",
+  "_key": "!items!84885b10411c60c6"
+}

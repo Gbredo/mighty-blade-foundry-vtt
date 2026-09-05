@@ -1,0 +1,22 @@
+{
+  "name": "Tocha",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Dura uma hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tocha",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "06c4a03ecada029d",
+  "_key": "!items!06c4a03ecada029d"
+}

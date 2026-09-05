@@ -1,0 +1,27 @@
+{
+  "name": "Empalar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Ataque Aleijador",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Disparo Certeiro Se você rolar um Sucesso Crítico em um ataque à distância (incluindo arremessos) usando uma arma que cause dano por Perfuração, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "empalar",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "e5df1b007ffc853c",
+  "_key": "!items!e5df1b007ffc853c"
+}

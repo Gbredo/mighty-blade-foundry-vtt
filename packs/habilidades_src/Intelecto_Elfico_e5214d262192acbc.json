@@ -1,0 +1,37 @@
+{
+  "name": "Intelecto Élfico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Elfo",
+    "bonusAtributo": {
+      "atributo": "inteligencia",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "inteligencia",
+        "valor": 1
+      },
+      {
+        "tipo": "bonusPM",
+        "valor": 5
+      }
+    ],
+    "description": "<p>Seu raciocínio é veloz, centenário e objetivo. Você ganha permanentemente Inteligência +1 e +5 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "intelecto-elfico",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "e5214d262192acbc",
+  "_key": "!items!e5214d262192acbc"
+}

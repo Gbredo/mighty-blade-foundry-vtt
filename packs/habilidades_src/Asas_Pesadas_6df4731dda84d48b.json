@@ -1,0 +1,32 @@
+{
+  "name": "Asas Pesadas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Asas",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "voo",
+        "velocidade": "dobro"
+      }
+    ],
+    "description": "<p>Desenvolve asas grandes. Você não pode parar no ar, mas sua velocidade de voo é o dobro do seu deslocamento normal. Manobras de Encontrão realizadas em voo têm o dano duplicado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "asas-pesadas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "6df4731dda84d48b",
+  "_key": "!items!6df4731dda84d48b"
+}

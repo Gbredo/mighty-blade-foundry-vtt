@@ -1,0 +1,22 @@
+{
+  "name": "Manto",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Capa de lã ou lona com capuz, para proteger do frio.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "manto",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "888e1db1dd564b53",
+  "_key": "!items!888e1db1dd564b53"
+}

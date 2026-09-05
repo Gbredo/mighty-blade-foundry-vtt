@@ -1,0 +1,42 @@
+{
+  "_id": "457f1f8417f52a7e",
+  "name": "Diário: Necromante",
+  "pages": [
+    {
+      "_id": "a123f7f0b80e987e",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/necromante.png\" alt=\"Necromante\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><p>Necromantes geralmente estão rodeados de objetos que lembram a morte, e são particularmente afeitos de locais considerados sombrios – como cemitérios, tumbas e necrotérios – onde realizam suas pesquisas e por vezes adquirem matéria prima para experiências. A maioria deles também costuma trabalhar e viver isolada de outras criaturas vivas, às vezes por opção, às vezes por necessidade, às vezes por imposição. Devido a essas características, Necromantes são mal vistos como frios, egoístas e geralmente, malignos – e, de fato, muitos Necromantes demonstram essas características. O poder que as energias necromânticas fornecem é certamente sedutor e, para a maioria, corruptor, já que oferece uma grande quantidade de possibilidades para manipular, destruir e distorcer, o que pode tornar seus usuários insensíveis ou até mesmo cruéis. Por outro lado, porém, um bom número de Necromantes de dedica à preservação dos locais onde os mortos repousam, não permitindo que essas mesmas forças que controlam corrompam tais locais, e muitos deles se tornam estudiosos dos mortos-vivos e espíritos no intuito de combatê-los com mais eficiência.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!457f1f8417f52a7e.a123f7f0b80e987e"
+    },
+    {
+      "_id": "add560ae3c052ad2",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (34 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>absorver-alma</strong></li><li><strong>aparar-magia</strong></li><li><strong>armadura-necromantica</strong></li><li><strong>comunhao-com-espiritos</strong></li><li><strong>condenar-o-corpo</strong></li><li><strong>condenar-a-alma</strong></li><li><strong>contato-com-espiritos</strong></li><li><strong>controlar-mortos-vivos</strong></li><li><strong>cranio-sentinela</strong></li><li><strong>cura-sombria</strong></li><li><strong>despertar-dos-mortos-1</strong></li><li><strong>detectar-magia</strong></li><li><strong>energia-sombria-1</strong></li><li><strong>esconjurar</strong></li><li><strong>invocar-espectro</strong></li><li><strong>sustentar-mortos-vivos</strong></li><li><strong>transferencia-espiritual</strong></li><li><strong>aptidao-necromantica</strong></li><li><strong>caminhada-fantasma</strong></li><li><strong>lanterna-dos-mortos</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>protecao-cadaverica</strong></li><li><strong>dissipar-magia</strong></li><li><strong>encarnar-espirito</strong></li><li><strong>cranio-guardiao</strong></li><li><strong>despertar-dos-mortos-2</strong></li><li><strong>bloqueio-necromantico</strong></li><li><strong>energia-sombria-2</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>resistencia-dos-mortos</strong></li><li><strong>resistencia-necromantica</strong></li><li><strong>necromanto</strong></li><li><strong>sabedoria-sobrenatural</strong></li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!457f1f8417f52a7e.add560ae3c052ad2"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/necromante.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "necromante",
+      "tipo": "classe"
+    }
+  },
+  "_key": "!journal!457f1f8417f52a7e"
+}

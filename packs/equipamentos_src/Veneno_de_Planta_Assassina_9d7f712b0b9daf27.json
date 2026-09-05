@@ -1,0 +1,22 @@
+{
+  "name": "Veneno de Planta Assassina",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Componente. Forrageamento em Florestas e Selvas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-de-planta-assassina",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "9d7f712b0b9daf27",
+  "_key": "!items!9d7f712b0b9daf27"
+}

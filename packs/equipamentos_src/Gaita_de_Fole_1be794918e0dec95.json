@@ -1,0 +1,22 @@
+{
+  "name": "Gaita de Fole",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Reservatório de ar com tubo melódico, bocal e válvulas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "gaita-de-fole",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "1be794918e0dec95",
+  "_key": "!items!1be794918e0dec95"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "8f06be0ffc374af7",
+  "name": "Diário: Escriba",
+  "pages": [
+    {
+      "_id": "d0211c359a27b6ef",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/escriba.png\" alt=\"Escriba\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Escribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.</p><p>Um número considerável de Escribas se dedica à escrita de livros, geralmente compilando contos folclóricos dos povos que falam os idiomas que estudam e imprimindo nessas histórias prosa e verso adequados àquelas culturas de onde vieram. A maioria das obras de folclore e poesia das diversas culturas de Cassiopéia foram escritas por Escribas, e eles também são responsáveis pela maioria dos livros copiados à mão - que vêm se tornando cada vez mais raros em Cassiopéia - e extremamente valorizados por colecionadores, conjuradores e pelas diversas igrejas do continente, não só pela qualidade do texto mas também pelo reconhecido trabalho de iluminura pelo qual os Escribas são conhecidos. De fato, o trabalho dos Escribas é tão apreciado pelas diversas igrejas de Cassiopéia que e bastante comum encontrar Escribas copistas especializados em textos religiosos em todas as igrejas de Cassiopéia, embora eles sejam mais comuns entre os seguidores de Sarfion, Denalla e Hou - e as igrejas dessas divindades costumam ter salas especialmente destinadas à copistas na maioria de seus templos.</p><p>Muitos Escribas se dedicam ao estudo de magias presentes em tomos, e é bastante comum encontra-los trabalhando para conjuradores de todos os tipos, seja como empregados de conjuradores abastados, membros de instituições - como a Academia Argêntea - ou como prestadores de serviço, copiando, reformando e revisando grimórios e missais para conjuradores. De fato, na maioria das metrópoles de Cassipéia é possível encontrar estúdios de Escribas especializados em produzir Grimórios e Missais - algumas vezes trabalhando em conjunto com oficinas de outros conjuradores e artesãos especializados, como Artífices e Alquimistas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Humano, Metadílio.</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!8f06be0ffc374af7.d0211c359a27b6ef"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/escriba.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "escriba",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!8f06be0ffc374af7"
+}

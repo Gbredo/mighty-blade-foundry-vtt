@@ -1,0 +1,41 @@
+{
+  "name": "Tamanho Pequeno",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "Furtividade"
+      },
+      {
+        "tipo": "defesaBase",
+        "valor": 6
+      },
+      {
+        "tipo": "restricaoArma",
+        "condicao": "Armas com FN 5 ou mais exigem duas mãos"
+      }
+    ],
+    "description": "<p>+1d6 em testes de Furtividade. Defesa base 6. Usa duas mãos para empunhar armas com FN 5 ou mais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tamanho-pequeno",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "20cabd9512e0e0b9",
+  "_key": "!items!20cabd9512e0e0b9"
+}

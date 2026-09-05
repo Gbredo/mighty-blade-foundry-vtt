@@ -1,0 +1,27 @@
+{
+  "name": "Horda Selvagem",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui um magnetismo especial para um tipo de animal. Escolha uma espécie qualquer de Besta do tipo Mamífero, Ave, Réptil ou Peixe com menos de 1 metro (gatos, corvos, sapos ou carpas, por exemplo). Uma quantidade de animais do tipo escolhido igual a duas vezes a sua Vontade estão constantemente te acompanhando e, caso morram, outros aparecerão assim que você estiver em um local onde existam animais daquele tipo. Você pode convencê-los a realizar pequenos favores, mas eles não irão se colocar em perigo por você. Além disso, nenhum animal do tipo escolhido vai atacar você a menos que você o ataque primeiro.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "horda-selvagem",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d774ffd776cae11c",
+  "_key": "!items!d774ffd776cae11c"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Nômade do Deserto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Orc, Gnoll",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "testes em ambiente de deserto ou savana"
+      }
+    ],
+    "description": "<p>Acostumado a terras áridas e estepes, você recebe +1 em todos os seus testes quando estiver em ambiente de deserto ou savana, suporta uma quantidade de dias igual à sua Força sem água antes de desidratar e é imune aos efeitos de calor extremo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "nomade-do-deserto",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "42eded25b87dcecc",
+  "_key": "!items!42eded25b87dcecc"
+}

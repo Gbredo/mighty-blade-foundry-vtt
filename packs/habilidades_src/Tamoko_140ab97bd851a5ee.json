@@ -1,0 +1,27 @@
+{
+  "name": "Tamoko",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você ostenta uma tatuagem que o imbuí de um poderoso senso pessoal. Escolha um Atributo. Enquanto esta tatuagem estiver visível, você tem +1 naquele Atributo (essa escolha é feita quando você seleciona essa Habilidade e não pode ser mudada mais tarde). Você só pode receber o beneficio dessa tatuagem uma vez.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tamoko",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "140ab97bd851a5ee",
+  "_key": "!items!140ab97bd851a5ee"
+}

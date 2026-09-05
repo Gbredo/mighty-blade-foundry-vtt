@@ -1,0 +1,27 @@
+{
+  "name": "Sabedoria Sobrenatural",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Habilidade de conhecimento místico do Bardo. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sabedoria-sobrenatural",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "07f6c5b2daca00b7",
+  "_key": "!items!07f6c5b2daca00b7"
+}

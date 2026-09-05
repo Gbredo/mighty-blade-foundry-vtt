@@ -1,0 +1,22 @@
+{
+  "name": "Símbolo Sagrado",
+  "type": "equipamento",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "canalizador": true,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.1,
+    "quantidade": 1,
+    "custo": 25,
+    "description": "<p>Um medalhão com o símbolo de uma divindade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "simbolo-sagrado",
+      "categoria": "Conjuracao"
+    }
+  },
+  "_id": "d240a88810646f09",
+  "_key": "!items!d240a88810646f09"
+}

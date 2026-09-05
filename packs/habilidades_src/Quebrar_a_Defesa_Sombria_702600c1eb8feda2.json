@@ -1,0 +1,27 @@
+{
+  "name": "Quebrar a Defesa Sombria",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de atravessar as defesas sobrenaturais de seus alvos. Sempre que causar dano em um alvo, você pode ignorar quaisquer Resistências à Dano que aquela criatura possua – se o alvo tiver Imunidade à Dano, considere que ela tem apenas Resistência àquele tipo de dano. Além disso, seus acertos críticos causam dano dobrado mesmo em criaturas imunes a danos críticos – como mortos-vivos com a Habilidade Corpo Vazio. Sentido de Alerta Habilidade – Reação Requisitos: Nível 5, Sentidos do Caçador. Descrição: Seus sentidos são sobrenaturalmente afiados e seu sono é extremamente leve. Você nunca é considerado Surpreso ou Desprevenido e recebe +2 em suas rolagens de Iniciativa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "quebrar-a-defesa-sombria",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "702600c1eb8feda2",
+  "_key": "!items!702600c1eb8feda2"
+}

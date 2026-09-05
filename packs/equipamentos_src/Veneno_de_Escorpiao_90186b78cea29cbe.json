@@ -1,0 +1,22 @@
+{
+  "name": "Veneno de Escorpião",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Componente. Caça em qualquer terreno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-de-escorpiao",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "90186b78cea29cbe",
+  "_key": "!items!90186b78cea29cbe"
+}

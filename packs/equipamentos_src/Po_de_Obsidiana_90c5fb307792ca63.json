@@ -1,0 +1,22 @@
+{
+  "name": "Pó de Obsidiana",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Componente. Garimpo em Montanhas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "po-de-obsidiana",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "90c5fb307792ca63",
+  "_key": "!items!90c5fb307792ca63"
+}

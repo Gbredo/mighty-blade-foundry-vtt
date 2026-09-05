@@ -1,0 +1,27 @@
+{
+  "name": "Ataque Congelante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Arma Gélida",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma além de 8/Frio e congela dentro de um bloco de gelo (o alvo é considerado Paralisado e só pode ser afetado por efeitos Mentais) e sofre dano igual a 8/Frio no começo de seu turno. Esse efeito dura uma quantidade de turnos igual à sua Inteligência. Especial: O bloco de gelo contendo o personagem pode ser destruído se sofrer uma quantidade de dano igual à Determinação do conjurador da magia. O bloco de gelo é imune a ataques que causem dano por Frio e ataques que causam dano por Eletricidade também afetam o alvo congelado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-congelante",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "256994dad8b70134",
+  "_key": "!items!256994dad8b70134"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Armadura Simples",
+  "type": "armadura",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "defesa": 3,
+    "fn": 4,
+    "subtipo": "armadura",
+    "pesada": true,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 18,
+    "quantidade": 1,
+    "custo": 200,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadura-simples",
+      "categoria": "Defesa"
+    }
+  },
+  "_id": "85fa6d25038c8aa5",
+  "_key": "!items!85fa6d25038c8aa5"
+}

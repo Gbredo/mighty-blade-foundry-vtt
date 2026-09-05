@@ -1,0 +1,22 @@
+{
+  "name": "Tamboril",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Tubo de madeira com couro esticado, percutido com baqueta.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tamboril",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "9cd545a43a3810e3",
+  "_key": "!items!9cd545a43a3810e3"
+}

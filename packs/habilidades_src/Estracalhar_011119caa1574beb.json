@@ -1,0 +1,27 @@
+{
+  "name": "Estraçalhar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 35,
+    "dificuldade": 0,
+    "requisitos": "brigao",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Salta e realiza Encontrão com todos os ataques corporais possíveis ao mesmo tempo (garras, mordida, chutes).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "estracalhar",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "011119caa1574beb",
+  "_key": "!items!011119caa1574beb"
+}

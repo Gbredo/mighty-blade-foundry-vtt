@@ -1,0 +1,78 @@
+{
+  "name": "Naga (Fêmea)",
+  "type": "raca",
+  "img": "systems/mighty-blade/assets/forja/naga.png",
+  "system": {
+    "atributos": {
+      "forca": 2,
+      "agilidade": 3,
+      "inteligencia": 4,
+      "vontade": 3
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Corpo Ofídio",
+      "descricao": "+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "corpo-ofidio"
+      }
+    ],
+    "classesComuns": "Feiticeiro, Necromante e Rúnico",
+    "description": "<div class=\"mb-item-summary\"><p>Raça Naga (Fêmea) de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.442eb5200fab3685\" data-slug=\"naga-f\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"classes-comuns\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Feiticeiro, Necromante e Rúnico</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "naga-f",
+      "diarioId": "442eb5200fab3685",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** São esfinges reptilianas que, abaixo do tórax, não possuem pernas, sustentando-se numa grossa e poderosa cauda de 4 a 5 metros composta por coluna vertebral e costelas. As fêmeas são visivelmente menores e mais delgadas que os machos (que pesam em média entre 200 e 250 quilos). A cabeça é ofídica, possuindo focinho longo e mandíbulas que, embora não se separem, possuem abertura de 90º. Quando alertas, ficam com 2 metros de altura; correndo inclinadas, baixam para 1 metro; e em combate, podem se apoiar na cauda para alcançar 3 metros de altura. A sua fisiologia impede completamente que elas realizem saltos ou usem escadas.\n* **Pele e Pelagem:** O corpo é revestido inteiramente por escamas que variam do quase negro ao verde-limão. O padrão das fêmeas é notório por apresentar padrões muito mais amplos de cores do que os machos.\n* **Olhos:** Suas pálpebras são formadas por uma escama especial e transparente, que permanece o tempo todo fechada para proteger o olho.\n* **Dimorfismo Sexual:** É extremamente marcante na face; além de serem mais delicadas, as fêmeas ostentam ao redor do pescoço e cabeça uma estrutura muscular larga, semelhante a um capuz (como as najas), que exibe fortes manchas e padrões coloridos na parte interna.\n* **Ciclo de Vida:** Possuem uma gestação curtíssima de 5 meses. Elas produzem de três a quatro ovos, mas não os botam; mantêm-os dentro de seus corpos até a eclosão. Os bebês nascem minúsculos (com um centésimo do tamanho normal), mas totalmente formados e desenvolvem-se de forma veloz até a idade adulta, aos 10 anos. As fêmeas vivem consideravelmente mais que os machos, podendo chegar aos 70 anos com facilidade; no entanto, após essa idade, entram em um processo de envelhecimento acentuadamente rápido e raramente vivem por mais 20 anos.",
+        "cultura": "* **Habitat e Estrutura Política:** Nativas de Ofidien, as Naga criam cidades nas encostas ou escavadas na rocha das montanhas, valorizando estruturas com defesa extrema e muitas rotas de fuga. Seu império é rigidamente matriarcal e \"arcanocrático\", moldado pela xenofobia e lealdade fanática à própria raça, a qual elas consideram superior a todas as outras.\n* **Papel Feminino (Magia e Teocracia):** Toda a sociedade orbita o Primordial Glycon, e todas as fêmeas da espécie são consideradas suas consortes. Elas detêm o monopólio místico: apenas fêmeas podem ser Conjuradoras, e atuar como reprodutoras, artistas, boticárias e professoras é privilégio delas. Além disso, raras são as fêmeas que não possuem conhecimento arcano rudimentar. As mais formidáveis entram para o culto de feiticeiras Nachash, que comandam as alas militares, sacerdotais e sociais do império. Atividades braçais e agricultura pesada são consideradas tarefas degradantes e destinadas apenas aos escravos e, em parte, aos machos.\n* **Sociedade e Necromancia:** A raça não possui o conceito de unidade familiar; todas as crianças são cuidadas de forma geral pela comunidade, e a lealdade extrema do povo baseia-se em amizades formadas com companheiras da mesma idade. A necromancia é amplamente aceita, não havendo pudor em transformar corpos alheios em construtos ou laboratórios. O sepultamento de uma Naga intacta é tido como uma enorme desonra, sendo a tradição consumir o cérebro da falecida para honrar seus feitos.",
+        "faixasEtarias": {
+          "filhote": "0-9",
+          "adulto": "10",
+          "idoso": "70",
+          "anciao": "71+"
+        },
+        "nomes": {
+          "lore": "A língua nativa da raça é o Asá-Avája, composta por sibilos, estalos e expressões corporais virtualmente impossíveis de serem reproduzidas por outras espécies sem magia. Os nomes Naga possuem pelo menos três sílabas e são inspirados na mitologia egípcia e hindu. Ao contrário dos machos (que usam hífen), as fêmeas adicionam radicais de reverência aos seus nomes separados por um apóstrofo. Os radicais femininos são 'AKIS (superiora), 'AXAR (guerreira) e 'KAR ou 'KIR (ambos significando abençoada). Naga não usam nenhum tipo de sobrenome, crendo que usar a influência de famílias limitaria o mérito do indivíduo.",
+          "femininos": [
+            "Anphisbaenea",
+            "Azhi’Dahaka",
+            "Brakaelurydea",
+            "Draig’Goch",
+            "Erenkilgorinish",
+            "Esderha’Evren",
+            "Eupodophis",
+            "Galeshn’Kar",
+            "Haasiophis",
+            "Illuyankas",
+            "Kimaera’Axar",
+            "Kur’Irkalla",
+            "Leidivashy",
+            "Nagavanshi",
+            "Nahash",
+            "Najashn’Kir",
+            "Pachyr’Akis",
+            "Scythia’Hylaea",
+            "Simoliophidea",
+            "Stakis",
+            "Susna’dasa",
+            "Suthek’Heru",
+            "Venrathay",
+            "Verecelen",
+            "Weista’Axar",
+            "Yam’Litanu"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "b8161b061ea5430f",
+  "_key": "!items!b8161b061ea5430f"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Escrivão Mágico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado a ler e escrever é extremamente eficiente nisso. Você pode copiar magias de um item com Registro para outro. Para isso, você deve estudar aquela magia – mesmo que já tenha estudado ela antes – e então escrevê-la em um item com Registro usando as regras normais para isso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "escrivao-magico",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9d3cd87f6dbb10ef",
+  "_key": "!items!9d3cd87f6dbb10ef"
+}

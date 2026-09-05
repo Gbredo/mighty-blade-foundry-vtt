@@ -1,0 +1,33 @@
+{
+  "name": "Flauta de Pã",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Fauno",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de instrumentos de sopro e Músicas de Bardo"
+      }
+    ],
+    "description": "<p>Você adquiriu maestria em instrumentos de sopro. Sempre que estiver utilizando flautas ou instrumentos semelhantes, recebe +2 em testes para executar canções e habilidades do tipo Música.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flauta-de-pa",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a4e7d4bcec4f611b",
+  "_key": "!items!a4e7d4bcec4f611b"
+}

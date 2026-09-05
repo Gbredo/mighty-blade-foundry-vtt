@@ -1,0 +1,20 @@
+{
+  "name": "Rajada de Gelo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa arcana no ar você projeta a partir dela uma rajada de energia mágica que causa dano igual a 20/Frio em um alvo dentro da sua linha de visão. Se o alvo for uma criatura viva, ele fica Enregelado por 1 turno. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rajada-de-gelo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "5b6a8d1a5cbc3986",
+  "_key": "!items!5b6a8d1a5cbc3986"
+}

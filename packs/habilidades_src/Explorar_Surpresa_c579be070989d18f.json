@@ -1,0 +1,27 @@
+{
+  "name": "Explorar Surpresa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Nível 5 Flanquear",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando um oponente está de guarda baixa você sempre consegue aproveitar a abertura! Faça um ataque contra um alvo que esteja Desprevenido em relação a você. Esse ataque causa o dobro do dano normal. Este é um efeito de Sangramento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "explorar-surpresa",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "c579be070989d18f",
+  "_key": "!items!c579be070989d18f"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Flauta de Pã",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.2,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Sopro de madeira com vários tubos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flauta-de-pa",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "39e9ff568b4fb274",
+  "_key": "!items!39e9ff568b4fb274"
+}

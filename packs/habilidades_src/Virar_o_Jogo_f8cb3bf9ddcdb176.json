@@ -1,0 +1,27 @@
+{
+  "name": "Virar o Jogo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Contra-Carga",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Se um oponente não for paralisado por sua Contra-Carga, você recebe um bônus de Defesa igual à sua Inteligência contra o ataque de encontrão (este é um bônus de esquiva ou bloqueio, à sua escolha). Além disso, se esse ataque de encontrão errar, você pode imediatamente utilizar Manter à Distância como uma Reação contra o oponente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "virar-o-jogo",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f8cb3bf9ddcdb176",
+  "_key": "!items!f8cb3bf9ddcdb176"
+}

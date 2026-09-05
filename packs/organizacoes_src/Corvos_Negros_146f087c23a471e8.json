@@ -1,0 +1,20 @@
+{
+  "name": "Corvos Negros",
+  "type": "organizacao",
+  "img": "systems/mighty-blade/assets/forja/org_corvo.png",
+  "system": {
+    "tipo": "Ordem",
+    "sede": "Miralda",
+    "lideranca": "Brunn Fracta (Humano Feiticeiro 7)",
+    "ingresso": "Ser um conjurador arcano e seis meses de serviço probatório",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4ede745be60451c1\" data-slug=\"corvos-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Miralda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Brunn Fracta (Humano Feiticeiro 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Ser um conjurador arcano e seis meses de serviço probatório</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corvos-negros",
+      "diarioId": "4ede745be60451c1"
+    }
+  },
+  "_id": "146f087c23a471e8",
+  "_key": "!items!146f087c23a471e8"
+}

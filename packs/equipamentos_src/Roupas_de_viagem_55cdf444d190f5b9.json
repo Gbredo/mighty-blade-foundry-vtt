@@ -1,0 +1,22 @@
+{
+  "name": "Roupas de viagem",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Camisa e calças de lona e botas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "roupas-de-viagem",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "55cdf444d190f5b9",
+  "_key": "!items!55cdf444d190f5b9"
+}

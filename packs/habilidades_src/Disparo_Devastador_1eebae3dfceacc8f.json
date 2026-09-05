@@ -1,0 +1,27 @@
+{
+  "name": "Disparo Devastador",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Disparo Forte",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Aplicar Força Se você rolar um Sucesso Crítico em um ataque à distância, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "disparo-devastador",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "1eebae3dfceacc8f",
+  "_key": "!items!1eebae3dfceacc8f"
+}

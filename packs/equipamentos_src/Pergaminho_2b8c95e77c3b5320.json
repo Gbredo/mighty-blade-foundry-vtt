@@ -1,0 +1,22 @@
+{
+  "name": "Pergaminho",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Uma folha. Pele de cordeiro preparada para receber tinta. E desse material que os grimórios são feitos. 20 dessas pesam 1kg.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pergaminho",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "2b8c95e77c3b5320",
+  "_key": "!items!2b8c95e77c3b5320"
+}

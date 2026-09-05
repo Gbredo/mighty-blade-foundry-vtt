@@ -1,0 +1,20 @@
+{
+  "name": "Turbilhão",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 25,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Rajada de àgua</p><p>Desenhando um Selo Místico sobre você mesmo e em seguida realizando um rápido movimento circular com as mãos você dispara poderosas rajadas de água. Todas as criaturas a até 10 metros de você sofrem um dano igual à 6/contusão e precisam vencer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade e ficando caídos. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de água criada é permanente. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "turbilhao",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "6375683e70e2e23d",
+  "_key": "!items!6375683e70e2e23d"
+}

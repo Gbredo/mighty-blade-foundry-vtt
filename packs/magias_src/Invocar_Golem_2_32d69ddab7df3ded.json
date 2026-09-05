@@ -1,0 +1,20 @@
+{
+  "name": "Invocar Golem 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 16,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Golem 1</p><p>Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. um golem grande custa 60 Pontos de Mana e um golem gigante custa 120 Pontos de Mana. A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-golem-2",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "32d69ddab7df3ded",
+  "_key": "!items!32d69ddab7df3ded"
+}

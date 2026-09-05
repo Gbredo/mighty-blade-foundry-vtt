@@ -1,0 +1,22 @@
+{
+  "name": "Poção Antidoto",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 25,
+    "description": "<p>Anula os efeitos de qualquer veneno natural.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-antidoto",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "c60b9de0cd1276e4",
+  "_key": "!items!c60b9de0cd1276e4"
+}

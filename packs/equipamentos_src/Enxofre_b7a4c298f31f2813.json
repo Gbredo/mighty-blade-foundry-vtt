@@ -1,0 +1,22 @@
+{
+  "name": "Enxofre",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Componente. Garimpo em Montanhas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "enxofre",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "b7a4c298f31f2813",
+  "_key": "!items!b7a4c298f31f2813"
+}

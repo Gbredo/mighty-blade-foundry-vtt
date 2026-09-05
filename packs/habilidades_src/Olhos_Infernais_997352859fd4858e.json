@@ -1,0 +1,27 @@
+{
+  "name": "Olhos Infernais",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seus olhos adquirem um distinto brilho vermelho, e você se torna capaz de enxergar perfeitamente na mais completa escuridão. No entanto, você se torna incapaz de distinguir cores, e percebe tudo em tons de vermelho. Além disso, você consegue perceber Sombras e outros espíritos invisíveis como leves contornos bruxuleantes e é capaz de conversar com eles – mas não interagir fisicamente, a menos que eles possuam Corpo Intangível.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "olhos-infernais",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "997352859fd4858e",
+  "_key": "!items!997352859fd4858e"
+}

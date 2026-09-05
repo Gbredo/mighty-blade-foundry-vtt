@@ -1,0 +1,22 @@
+{
+  "name": "Dente de Dragão",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 200,
+    "description": "<p>Componente. Caçado em qualquer criatura Draconica.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dente-de-dragao",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "dd38ec94fd313db4",
+  "_key": "!items!dd38ec94fd313db4"
+}

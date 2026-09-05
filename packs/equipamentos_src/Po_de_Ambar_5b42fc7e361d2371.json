@@ -1,0 +1,22 @@
+{
+  "name": "Pó de Âmbar",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Componente. Garimpo em Montanhas e Colinas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "po-de-ambar",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "5b42fc7e361d2371",
+  "_key": "!items!5b42fc7e361d2371"
+}

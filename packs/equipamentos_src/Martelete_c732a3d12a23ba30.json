@@ -1,0 +1,22 @@
+{
+  "name": "Martelete",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 24,
+    "description": "<p>Pequeno martelo usado para fixar os pinos de escalada, a cabeça do martelo é dividida em uma ponta de martelo e outra de picareta.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "martelete",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "c732a3d12a23ba30",
+  "_key": "!items!c732a3d12a23ba30"
+}

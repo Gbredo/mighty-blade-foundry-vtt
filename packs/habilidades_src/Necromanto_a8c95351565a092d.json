@@ -1,0 +1,37 @@
+{
+  "name": "Necromanto",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "musica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "Intimidação (manto de sombras ativo)"
+      },
+      {
+        "tipo": "restricaoArma",
+        "condicao": "Inapto em testes sociais exceto Intimidação enquanto o manto de sombras estiver ativo"
+      }
+    ],
+    "description": "<p>Ação livre: veste um manto de sombras que adiciona +1d6 em testes de Intimidação. Enquanto o manto estiver ativo, fica Inapto em todos os demais testes sociais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "necromanto",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a8c95351565a092d",
+  "_key": "!items!a8c95351565a092d"
+}

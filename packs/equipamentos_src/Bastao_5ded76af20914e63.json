@@ -1,0 +1,28 @@
+{
+  "name": "Bastão",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 2,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bastao",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "5ded76af20914e63",
+  "_key": "!items!5ded76af20914e63"
+}

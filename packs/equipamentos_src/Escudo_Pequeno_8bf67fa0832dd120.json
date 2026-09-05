@@ -1,0 +1,26 @@
+{
+  "name": "Escudo Pequeno",
+  "type": "armadura",
+  "img": "icons/equipment/shield/heater-wooden-brown.webp",
+  "system": {
+    "defesa": 1,
+    "fn": 2,
+    "subtipo": "escudo",
+    "pesada": false,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 4,
+    "quantidade": 1,
+    "custo": 50,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "escudo-pequeno",
+      "categoria": "Defesa"
+    }
+  },
+  "_id": "8bf67fa0832dd120",
+  "_key": "!items!8bf67fa0832dd120"
+}

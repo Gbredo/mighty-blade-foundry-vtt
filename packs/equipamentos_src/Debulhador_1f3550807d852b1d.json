@@ -1,0 +1,30 @@
+{
+  "name": "Debulhador",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+2",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 4,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 4,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Ferramenta agrícola articulada usada para separar grãos da palha.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "debulhador",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "1f3550807d852b1d",
+  "_key": "!items!1f3550807d852b1d"
+}

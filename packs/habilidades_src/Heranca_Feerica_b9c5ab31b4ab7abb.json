@@ -1,0 +1,32 @@
+{
+  "name": "Herança Feérica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Elfo, Faen",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusPM",
+        "valor": 5
+      }
+    ],
+    "description": "<p>Você preserva traços puros de seus ancestrais feéricos. Você é imune a efeitos mentais e efeitos de Medo, percebe automaticamente ilusões e ganha +5 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "heranca-feerica",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "b9c5ab31b4ab7abb",
+  "_key": "!items!b9c5ab31b4ab7abb"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Espada Longa",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 4,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 175,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espada-longa",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "66ce374f8c916e79",
+  "_key": "!items!66ce374f8c916e79"
+}

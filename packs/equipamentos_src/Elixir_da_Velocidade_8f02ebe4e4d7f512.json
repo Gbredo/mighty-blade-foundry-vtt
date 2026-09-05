@@ -1,0 +1,22 @@
+{
+  "name": "Elixir da Velocidade",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 1600,
+    "description": "<p>Garante uma ação padrão a mais por turno, durante 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-da-velocidade",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "8f02ebe4e4d7f512",
+  "_key": "!items!8f02ebe4e4d7f512"
+}

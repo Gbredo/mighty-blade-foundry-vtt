@@ -1,0 +1,27 @@
+{
+  "name": "Toxicólogo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Nigredo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é um especialista na fabricação, aplicação e cura de venenos. Você recebe +1d6 em rolagens para produzir venenos e antídotos, e venenos produzidos por você tem sua dificuldade para serem resistidos aumentada em +4.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "toxicologo",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "04d66f7e0452e212",
+  "_key": "!items!04d66f7e0452e212"
+}

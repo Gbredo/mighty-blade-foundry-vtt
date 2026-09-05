@@ -1,0 +1,38 @@
+{
+  "name": "Tempestade de Lâminas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "danca-das-espadas-1",
+    "bonusAtributo": {
+      "atributo": "agilidade",
+      "valor": 2
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "agilidade",
+        "valor": 2
+      },
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "determinacao",
+        "valor": 2
+      }
+    ],
+    "description": "<p>Evolução final da Dança das Espadas. AGI +2 e DET +2. Pode ser ativada como Reação ao se mover.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tempestade-de-laminas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "da3306bca3c0f3ab",
+  "_key": "!items!da3306bca3c0f3ab"
+}

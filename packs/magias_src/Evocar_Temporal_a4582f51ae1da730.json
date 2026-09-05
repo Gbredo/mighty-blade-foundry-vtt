@@ -1,0 +1,20 @@
+{
+  "name": "Evocar Temporal",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Conjura tempestade sobrenatural na área. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "evocar-temporal",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "a4582f51ae1da730",
+  "_key": "!items!a4582f51ae1da730"
+}

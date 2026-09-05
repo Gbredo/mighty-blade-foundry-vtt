@@ -1,0 +1,20 @@
+{
+  "name": "Hálito do Dragão Ancião",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 45,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Hálito do Dragão</p><p>Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental com o poder da baforada de um grande dragão! – essa escolha é feita quando você conjura a magia. Esta magia atinge tudo e todos a uma distância em metros igual à sua Determinação à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 40/Fogo. Hálito de Frio causa dano igual a 20/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado. Hálito de Eletricidade causa dano igual a 30/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por um número de turnos igual à sua Vontade. Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "halito-do-dragao-anciao",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "b6165904c6cf63e2",
+  "_key": "!items!b6165904c6cf63e2"
+}

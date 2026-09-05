@@ -1,0 +1,31 @@
+{
+  "name": "Besta Pesada",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "14",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 5,
+    "alcance": "Disparo Médio (100m)",
+    "propriedades": [
+      "Carregar",
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 225,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "besta-pesada",
+      "categoria": "Projetil"
+    }
+  },
+  "_id": "d620060e2ef637c1",
+  "_key": "!items!d620060e2ef637c1"
+}

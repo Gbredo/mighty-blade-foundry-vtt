@@ -1,0 +1,30 @@
+{
+  "name": "Bordão",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+5",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 50,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bordao",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "b62175fde1481b02",
+  "_key": "!items!b62175fde1481b02"
+}

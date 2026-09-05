@@ -1,0 +1,27 @@
+{
+  "name": "Conselheiro Pessoal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Séquito.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você tem um conselheiro fiel dentro do seu séquito. Um de seus seguidores passa a ser um PdM Bardo, Xamã ou de uma Classe conjuradora com metade do nível do</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conselheiro-pessoal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "55a97abc9ea4a12b",
+  "_key": "!items!55a97abc9ea4a12b"
+}

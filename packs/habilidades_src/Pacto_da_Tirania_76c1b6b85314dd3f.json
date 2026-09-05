@@ -1,0 +1,27 @@
+{
+  "name": "Pacto da Tirania",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Virzú, Aquele que Rege, A Palavra que Não Pode ser Desafiada, O Trono Acima, é o Primordial da tirania e da regência pela força. Cultistas que procuram Virzú quase sempre são aqueles que se sentem inferiorizados quando acreditam que deveriam ser reconhecidos. Sempre que uma criatura viva for atacar você (ou utilizar algum efeito que cause dano, como Magias, algumas Músicas e Gritos), ela precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se for bem sucedida, ela o ataca com um redutor igual à sua Vontade no seu teste. Se falhar, ela não pode atacar. Depois que passar no teste, uma criatura não é mais afetada até o próximo nascer ou por do sol. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pacto-da-tirania",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "76c1b6b85314dd3f",
+  "_key": "!items!76c1b6b85314dd3f"
+}

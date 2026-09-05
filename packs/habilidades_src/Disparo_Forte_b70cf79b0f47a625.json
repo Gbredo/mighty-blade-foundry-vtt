@@ -1,0 +1,27 @@
+{
+  "name": "Disparo Forte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Retesar Eficiente",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Faça um ataque à distância. Se acertar, some +8 ao dano da arma.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "disparo-forte",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "b70cf79b0f47a625",
+  "_key": "!items!b70cf79b0f47a625"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Condenar o Corpo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>do Alvo Desenhando uma Runa Arcana entre você e uma criatura viva, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente, indo para o Plano Espiritual, enquanto o corpo se erguerá como um zumbi. Se o alvo desta magia estiver dentro da sua linha de visão no momento em que morrer, o zumbi estará automaticamente sob seu controle – caso contrário, ele se erguerá como um morto-vivo errante. Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação, mas assim que o corpo morrer, ela se torna uma Runa Arcana idêntica àquela de Despertar dos Mortos 1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "condenar-o-corpo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "b7ef6dfbaf01a936",
+  "_key": "!items!b7ef6dfbaf01a936"
+}

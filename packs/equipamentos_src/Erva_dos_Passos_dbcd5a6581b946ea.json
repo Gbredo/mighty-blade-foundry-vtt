@@ -1,0 +1,22 @@
+{
+  "name": "Erva dos Passos",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Componente. Forrageamento em Florestas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "erva-dos-passos",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "dbcd5a6581b946ea",
+  "_key": "!items!dbcd5a6581b946ea"
+}

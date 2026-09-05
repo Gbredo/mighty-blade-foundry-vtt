@@ -1,0 +1,27 @@
+{
+  "name": "Chifres Pequenos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você desenvolveu um pequeno par de chifres que, além de permitirem que você realize ataques desarmados com eficiência – causando dano igual à Força +2/Perfuração – lhe conferem uma capacidade intrínseca de perceber e esconder emoções, e você recebe +2 em todos os seus testes sociais e em sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chifres-pequenos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "fa9f2631ac7480c9",
+  "_key": "!items!fa9f2631ac7480c9"
+}

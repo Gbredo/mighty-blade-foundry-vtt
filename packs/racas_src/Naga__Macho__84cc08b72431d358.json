@@ -1,0 +1,82 @@
+{
+  "name": "Naga (Macho)",
+  "type": "raca",
+  "img": "systems/mighty-blade/assets/forja/naga.png",
+  "system": {
+    "atributos": {
+      "forca": 3,
+      "agilidade": 4,
+      "inteligencia": 3,
+      "vontade": 2
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Corpo Ofídio",
+      "descricao": "+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "corpo-ofidio"
+      }
+    ],
+    "classesComuns": "Espadachim, Rúnico e Paladino",
+    "description": "<div class=\"mb-item-summary\"><p>Raça Naga (Macho) de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a568c1b37c47d255\" data-slug=\"naga-m\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"classes-comuns\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Espadachim, Rúnico e Paladino</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "naga-m",
+      "diarioId": "a568c1b37c47d255",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** São esfinges com pesadas características ofídicas. A cabeça possui um focinho longo e mandíbulas que, embora não sejam separáveis como a das cobras comuns, possuem uma abertura enorme de 90º. Apresentam torso e braços humanoides, mas abaixo da caixa torácica a estrutura é formada apenas por coluna vertebral e costelas, originando uma grossa cauda muscular que pode ter de 4 a 5 metros de comprimento. Uma Naga pesa em média de 200 a 250 quilos. Costumam ficar com 2 metros de altura em posição ereta, mas podem inclinar o torso para perto do chão (1 metro de altura) para se movimentarem mais rapidamente, ou se apoiarem na cauda para erguerem-se a até 3 metros de altura num combate. Devido à sua fisionomia, elas não conseguem pular nem escalar escadas de mão.\n* **Pele e Pelagem:** Totalmente desprovidas de pelos, possuem o corpo revestido por escamas de tons verdes (variando do quase negro ao verde-limão). Curiosamente, suas pálpebras são compostas por escamas transparentes que ficam o tempo todo fechadas.\n* **Dimorfismo Sexual:** Os machos são consideravelmente maiores e mais robustos que as fêmeas. Eles não possuem a larga estrutura muscular (semelhante ao capuz de uma naja) em volta do pescoço e da cabeça que caracteriza as fêmeas.\n* **Ciclo de Vida:** A reprodução das Naga possui uma gestação curtíssima de cerca de 5 meses, e os ovos não são botados, eclodindo diretamente de dentro do corpo da fêmea. As crias nascem plenamente formadas (mas com tamanho minúsculo), alcançando a maturidade num desenvolvimento veloz de apenas 10 anos. Diferente das fêmeas, a expectativa de vida normal dos machos é de 50 anos, após os quais eles envelhecem vertiginosamente e acabam falecendo em poucas décadas.",
+        "cultura": "* **Habitat e Estrutura Política:** Nativas do temível continente de Ofidien, as Naga são fanáticas e profundamente xenófobas. Elas menosprezam qualquer outra forma de vida, tratando as outras raças apenas como matéria-prima de laboratório, recursos consumíveis ou escravos (\"gado\"). Assentam suas cidades dentro de montanhas rochosas, valorizando acima de tudo esquemas de segurança e abundância de rotas de fuga. A sua sociedade não valoriza a unidade familiar tradicional (as crianças são responsabilidade da comunidade, não dos pais); as suas maiores ligações e amizades formam-se fortemente entre indivíduos que têm a mesma idade.\n* **O Papel Masculino:** Como o seu império é de ordem matriarcal e comandado por feiticeiras fiéis ao Primordial Glycon, aos machos são reservadas as funções de defesa da sociedade e da estrutura do império. Quase todos eles são treinados nas artes bélicas como soldados. Adicionalmente à proteção, os machos encarregam-se de supervisionar o trabalho braçal dos escravos, comandar a engenharia cívica e também cuidar das fazendas da raça (onde cultivam fungos e criam pequenas aves). Vale ressaltar que a prática do artesanato, da alquimia e a medicina são altamente valorizadas e praticadas por ambos os gêneros.\n* **Necromancia:** Diferente de outras culturas, o uso de magia necromântica para reviver cadáveres de outras criaturas não é um tabu, uma vez que elas separam a visão do corpo e do espírito de modo prático. Com relação à própria raça, enterrar os seus mortos de maneira intacta é a maior das desonras; para os Naga, devorar o cérebro do ente querido falecido é a forma padrão de se demonstrar profunda honra aos seus feitos.",
+        "faixasEtarias": {
+          "filhote": "0-9",
+          "adulto": "10",
+          "idoso": "50",
+          "anciao": "51+"
+        },
+        "nomes": {
+          "lore": "A língua das Naga é o Asá-Avája, um dialeto exótico preenchido com sibilos e estalos corporais, o que o torna uma língua absurdamente difícil e quase impossível de ser pronunciada por outras raças. Para definir nomes do povo Naga (que habitualmente possuem 3 sílabas ou mais), usam-se deuses históricos do hinduísmo e nomes da cultura egípcia. Uma característica única dos nomes masculinos Naga é a utilização de poderosos sufixos separados por um hífen (-DREK significando Temível, -SUR para Grandioso, e -VITRA para Iluminado). E, diferente dos seus construtos (os Draganos), as Naga nunca em nenhuma hipótese usam sobrenomes, por acreditarem que um indivíduo tem que provar seu próprio mérito.",
+          "masculinos": [
+            "Ahamthrul",
+            "Ahi-Vitra",
+            "Akuloth-Sur",
+            "Asdaha-Drek",
+            "Brignor",
+            "Bristerne",
+            "Dahag-Drek",
+            "Dragua-Vitra",
+            "Flamerax",
+            "Fzalleobliviax",
+            "Hatshersup",
+            "Inferniscargilex",
+            "Kolkhikus-Sur",
+            "Komerex",
+            "Kulshedra-Drek",
+            "Lagarfliotsormurinn",
+            "Meisterstur",
+            "Nidhog-Sur",
+            "Phorkys-Vitra",
+            "Rothenkolkis",
+            "Sarakus",
+            "Sarcopis-Sur",
+            "Sarkany-Drek",
+            "Sarmyn-Sur",
+            "Scathel",
+            "Shivnarvex",
+            "Smeygorinish",
+            "Thevetat-Sur",
+            "Typhaon",
+            "Zirnitrarex"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "84cc08b72431d358",
+  "_key": "!items!84cc08b72431d358"
+}

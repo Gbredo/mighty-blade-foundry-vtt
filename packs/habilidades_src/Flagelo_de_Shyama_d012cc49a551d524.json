@@ -1,0 +1,27 @@
+{
+  "name": "Flagelo de Shyama",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Pacto da Destruição",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui uma aura de violência ao seu redor que faz com que você e todas as criaturas vivas numa área em metros igual à sua Determinação ao seu redor recebam +2 nas suas rolagens e danos em ataques corporais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flagelo-de-shyama",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d012cc49a551d524",
+  "_key": "!items!d012cc49a551d524"
+}

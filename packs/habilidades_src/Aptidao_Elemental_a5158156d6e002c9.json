@@ -1,0 +1,27 @@
+{
+  "name": "Aptidão Elemental",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Mente Disciplinada",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui um domínio considerável sobre as energias mais elementares da magia. Todas as suas magias custam 5 Pontos de Mana a menos para serem conjuradas e todas as suas magias e técnicas que causam dano por Fogo, Frio ou Eletricidade causam 5 pontos de dano a mais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aptidao-elemental",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a5158156d6e002c9",
+  "_key": "!items!a5158156d6e002c9"
+}

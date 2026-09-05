@@ -1,0 +1,27 @@
+{
+  "name": "Linhagem Dracônica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Concede a herança elemental de seus ancestrais. Escolha feita na seleção da raça.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "linhagem-draconica",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "7eb93a2ad1372d55",
+  "_key": "!items!7eb93a2ad1372d55"
+}

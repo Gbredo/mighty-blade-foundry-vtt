@@ -1,0 +1,20 @@
+{
+  "name": "Rajada Elemental",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Desenhando uma runa Arcana no ar você pode disparar uma rajada de energia elemental em qualquer alvo que possa ver. Essa magia causa 8 pontos de dano elemental (Fogo, Frio ou Eletricidade) escolhido no momento que o conjurador lança a magia. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rajada-elemental",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "5292181f8e50bb09",
+  "_key": "!items!5292181f8e50bb09"
+}

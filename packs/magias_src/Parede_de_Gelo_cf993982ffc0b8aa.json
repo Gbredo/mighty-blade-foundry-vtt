@@ -1,0 +1,20 @@
+{
+  "name": "Parede de Gelo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa Arcana no ar, você congela a umidade do ambiente na forma de uma grossa parede de gelo. A parede tem 3 metros de altura por 3 metros de largura e 1 metro de espessura, e deve ser conjurada diretamente sobre uma superfície firme, mas pode ser criada em qualquer ângulo ou formato desde que respeite seu volume e fique firmemente presa na posição onde foi conjurada. A parede tem 60 Pontos de Vida, Defesa 10, é Vulnerável ao Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ela pode suportar até 500 quilos de peso sobre ela antes de quebrar. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "parede-de-gelo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "cf993982ffc0b8aa",
+  "_key": "!items!cf993982ffc0b8aa"
+}

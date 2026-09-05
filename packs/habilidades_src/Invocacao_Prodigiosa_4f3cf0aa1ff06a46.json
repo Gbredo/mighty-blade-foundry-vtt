@@ -1,0 +1,27 @@
+{
+  "name": "Invocação Prodigiosa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Manter Invoca-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>ção Você é extremamente talentoso em realizar magias de Invocação. Todas as suas magias de Invocação têm sua Dificuldade reduzida em 2 e custam 5 Pontos de Mana a menos. Além disso, você pode realizar suas magias de Invocação como ações de turno completo ao invés ações padrão, conjurando aquela magia duas vezes simultaneamente. Você precisa fazer o teste e pagar o custo em mana de cada magia separadamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocacao-prodigiosa",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "4f3cf0aa1ff06a46",
+  "_key": "!items!4f3cf0aa1ff06a46"
+}

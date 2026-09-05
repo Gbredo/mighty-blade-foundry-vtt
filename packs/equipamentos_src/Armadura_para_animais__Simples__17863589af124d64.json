@@ -1,0 +1,22 @@
+{
+  "name": "Armadura para animais (Simples)",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 50,
+    "quantidade": 1,
+    "custo": 600,
+    "description": "<p>Concede +2 de defesa ao animal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadura-para-animais-simples",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "17863589af124d64",
+  "_key": "!items!17863589af124d64"
+}

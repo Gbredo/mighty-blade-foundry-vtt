@@ -1,0 +1,33 @@
+{
+  "name": "Instrumentista",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "tocar instrumentos musicais"
+      }
+    ],
+    "description": "<p>+2 em todos os testes para tocar instrumentos musicais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "instrumentista",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "722a6212185ef9fd",
+  "_key": "!items!722a6212185ef9fd"
+}

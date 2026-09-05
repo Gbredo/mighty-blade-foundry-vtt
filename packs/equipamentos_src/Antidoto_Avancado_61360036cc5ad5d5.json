@@ -1,0 +1,22 @@
+{
+  "name": "Antídoto Avançado",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Remove todos os efeitos de venenos naturais e mágicos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "antidoto-avancado",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "61360036cc5ad5d5",
+  "_key": "!items!61360036cc5ad5d5"
+}

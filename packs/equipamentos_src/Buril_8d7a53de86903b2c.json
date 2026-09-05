@@ -1,0 +1,22 @@
+{
+  "name": "Buril",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Instrumento usado para gravar em metal ou madeira e tatuagem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "buril",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "8d7a53de86903b2c",
+  "_key": "!items!8d7a53de86903b2c"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Armadura de Tubarão",
+  "type": "armadura",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "defesa": 2,
+    "fn": 2,
+    "subtipo": "armadura",
+    "pesada": false,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 12,
+    "quantidade": 1,
+    "custo": 150,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadura-de-tubarao",
+      "categoria": "Defesa"
+    }
+  },
+  "_id": "2f634874d18313f7",
+  "_key": "!items!2f634874d18313f7"
+}

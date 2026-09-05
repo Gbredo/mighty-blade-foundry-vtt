@@ -1,0 +1,20 @@
+{
+  "name": "Arma dos Mortos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre um osso, você o imbuí com energia espiritual, transformando-o em uma arma necromântica. A Arma dos Mortos será uma arma corporal com FN 1 que causa dano igual à Força + Inteligência do conjurador – o tipo de dano deve ser escolhido entre contusão, corte ou perfuração, no momento em que a magia é conjurada. A arma é considerada como tendo a sua Runa pessoal desenhada sobre ela, e, enquanto você estiver usando a Arma dos Mortos, qualquer ataque que atinja uma criatura viva faz com que o alvo perca uma quantidade de Pontos de Vida iguais à sua Vontade além do dano normal da arma (este é um efeito de sangramento). Esta Runa Arcana dura 1 minuto, e quando se dissipa, o osso volta à sua forma original.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arma-dos-mortos",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "faf59b8ced075ba5",
+  "_key": "!items!faf59b8ced075ba5"
+}

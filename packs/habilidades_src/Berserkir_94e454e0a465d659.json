@@ -1,0 +1,27 @@
+{
+  "name": "Berserkir",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Aesir, Fúria Bestial, Vontade 4",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é protegido pelo espírito do Urso. Enquanto estiver em Fúria Bestial, você fica Resistente à Corte, Resistente à Perfuração e Resistente à Contusão. Para receber esse benefício, você não pode estar usando armaduras ou escudos.<br>Especial: Você só pode escolher o Urso como seu Espírito Animal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "berserkir",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "94e454e0a465d659",
+  "_key": "!items!94e454e0a465d659"
+}

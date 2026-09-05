@@ -1,0 +1,27 @@
+{
+  "name": "Olho da Águia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Disparo Certeiro",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que você fizer um ataque à distância (incluindo arremessos) você pode rolar novamente um dos dados. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade uma vez por turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "olho-da-aguia",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f49cf0f9a3afa350",
+  "_key": "!items!f49cf0f9a3afa350"
+}

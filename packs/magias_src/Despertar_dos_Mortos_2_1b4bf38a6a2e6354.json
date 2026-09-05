@@ -1,0 +1,20 @@
+{
+  "name": "Despertar dos Mortos 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana sobre os restos de uma criatura qualquer,</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "despertar-dos-mortos-2",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "1b4bf38a6a2e6354",
+  "_key": "!items!1b4bf38a6a2e6354"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Restaurar Convicção",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Eloquente.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você revigora o foco de um aliado através de palavras inspiradoras. Um aliado que possa lhe ouvir e que esteja a uma distância em metros igual à sua Vontade imediatamente recupera metade dos Pontos de Mana que tiver gastado e/ou perdido em seu último turno. Este efeito não pode ser utilizado em você mesmo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "restaurar-conviccao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "7f6e14e4d76f3665",
+  "_key": "!items!7f6e14e4d76f3665"
+}

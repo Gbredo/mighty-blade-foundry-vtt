@@ -1,0 +1,28 @@
+{
+  "_id": "ae10c0e7b21d3531",
+  "name": "Diário: Sanguíneo",
+  "pages": [
+    {
+      "_id": "9c8887c35c1db9f4",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sanguineo.png\" alt=\"Sanguíneo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Sanguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.</p><p>Essa manipulação dos fluxos das energias de criaturas vivas é considerada antinatural e mal vista pela maioria dos conjuradores – Arcanos e Místicos – embora indivíduos mais inescrupulosos ignorem essa noção e se utilizem das capacidades dos Sanguíneos quando tiverem a chance – não apenas como um Caminho, mas ao encontrar as Magias deles escritas em itens de Registro. Alguns Conjuradores mais curiosos também podem estudar estas magias e geralmente concordam que elas podem ser particularmente úteis contra mortos-vivos, utilizando elas apenas contra essas criaturas quando a oportunidade aparece. De fato, considerando que a maioria dos Feiticeiros e Rúnicos não possuem capacidades ofensivas para lidarem diretamente com essas criaturas, as Magias desenvolvidas pelos Sanguíneos costumam ser vistas como uma adição bem-vinda em seus arsenais – mas apenas os mais desesperados ou amorais utilizam estas magias contra criaturas vivas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.</p><p><strong>Raças Comuns:</strong> Aesir, Elfo, Fira e Humano.</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!ae10c0e7b21d3531.9c8887c35c1db9f4"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/sanguineo.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "sanguineo",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!ae10c0e7b21d3531"
+}

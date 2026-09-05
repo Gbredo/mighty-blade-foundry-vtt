@@ -1,0 +1,27 @@
+{
+  "name": "Matador das Cordilheiras",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você sempre causa +2 pontos de dano em todos os ataques contra a Raça Orc e criaturas dos tipos Gigante e Artrópode (esse bônus se acumula com o bônus de Caçador das Cordilheiras). Além disso, você passa a rola +1d6 em todos os testes relacionados a essa criatura (esse bônus substitui o bônus de Caçador das Cordilheiras). Nascido nas Montanhas Habilidade – Suporte Descrição: Você nasceu ou passou grande parte da sua vida em ambientes montanhosos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "matador-das-cordilheiras",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "8c6fb002883e86d9",
+  "_key": "!items!8c6fb002883e86d9"
+}

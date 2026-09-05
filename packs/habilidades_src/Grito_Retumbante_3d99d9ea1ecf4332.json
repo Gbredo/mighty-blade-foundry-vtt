@@ -1,0 +1,27 @@
+{
+  "name": "Grito Retumbante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Versão avançada do Grito Estilhaçador do Bardo. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "grito-retumbante",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "3d99d9ea1ecf4332",
+  "_key": "!items!3d99d9ea1ecf4332"
+}

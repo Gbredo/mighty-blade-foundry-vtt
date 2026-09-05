@@ -1,0 +1,27 @@
+{
+  "name": "Ataque Brutal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode realizar ataques brutais se concentrando apenas em derrotar o oponente em detrimento da sua defesa. Faça um ataque corporal contra o alvo, adicionando uma quantidade extra de dano igual ao triplo do seu bônus de Bloqueio. Se o alvo for atingido, além do dano extra ele é arremessado para trás uma quantidade de metros igual ao valor do bônus escolhido e precisa fazer um teste de Agilidade (Dificuldade igual à sua Determinação) para não cair. Até o início do seu próximo turno você não soma o bônus de Bloqueio na sua Defesa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-brutal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "ffab551730b69347",
+  "_key": "!items!ffab551730b69347"
+}

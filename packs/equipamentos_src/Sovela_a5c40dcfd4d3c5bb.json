@@ -1,0 +1,22 @@
+{
+  "name": "Sovela",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Instrumento utilizado para perfurar couro para costura-lo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sovela",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "a5c40dcfd4d3c5bb",
+  "_key": "!items!a5c40dcfd4d3c5bb"
+}

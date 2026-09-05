@@ -1,0 +1,20 @@
+{
+  "name": "Enfeitiçar Arma 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 25,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Enfeitiçar Arma</p><p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +3 nas rolagens de ataque e nos danos dessa arma. Essa Runa Arcana dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "enfeiticar-arma-2",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "0f5402f23d9388bd",
+  "_key": "!items!0f5402f23d9388bd"
+}

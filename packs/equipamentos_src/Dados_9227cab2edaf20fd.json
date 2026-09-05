@@ -1,0 +1,22 @@
+{
+  "name": "Dados",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.009,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Conjunto de 5 dados comuns, usados para jogos de azar.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dados",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "9227cab2edaf20fd",
+  "_key": "!items!9227cab2edaf20fd"
+}

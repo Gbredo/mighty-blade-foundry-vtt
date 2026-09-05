@@ -1,0 +1,20 @@
+{
+  "name": "Conjurar Escudo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Cria barreira de força flutuante temporária. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurar-escudo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "f9901f2dc51543e7",
+  "_key": "!items!f9901f2dc51543e7"
+}

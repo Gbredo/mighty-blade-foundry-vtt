@@ -1,0 +1,27 @@
+{
+  "name": "Esquartejar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que fizer um ataque contra um Alvo Específico, a Defesa do alvo é aumentada em +2 ao invés de +4. Além disso, sempre que você rolar um sucesso decisivo em um ataque corporal usando uma arma que cause dano por Corte ou Perfuração, o multiplicador de dano do seu ataque será igual ao número de dados que tiverem um resultado 6, ao invés do multiplicador normal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "esquartejar",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "665489b5ab960a05",
+  "_key": "!items!665489b5ab960a05"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "A Verdade das Palavras",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Mensagem Mágica",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você consegue passar uma mensagem tão poderosa com suas palavras, que é impossível não ser afetado pelo que você escreve. Você é capaz de escrever uma afirmação em um pergaminho, papiro, tecido ou item com a característica Registro, e qualquer um que ler a frase passa a considerar aquela afirmação como verdade absoluta. É possível escrever ordens diretas (como por exemplo “mate o rei”), conhecimentos específicos (“Mirah é uma mentira”) ou mesmo idéias abstratas (“A verdade está lá fora”).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "a-verdade-das-palavras",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f58287cee59f5e81",
+  "_key": "!items!f58287cee59f5e81"
+}

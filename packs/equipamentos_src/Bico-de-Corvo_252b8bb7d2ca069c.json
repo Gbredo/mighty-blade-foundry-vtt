@@ -1,0 +1,31 @@
+{
+  "name": "Bico-de-Corvo",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+6",
+    "tipoDano": [
+      "Perfuracao",
+      "Contusao"
+    ],
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "Arremessavel"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 125,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bico-de-corvo",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "252b8bb7d2ca069c",
+  "_key": "!items!252b8bb7d2ca069c"
+}

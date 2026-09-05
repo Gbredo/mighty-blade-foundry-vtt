@@ -1,0 +1,22 @@
+{
+  "name": "Bússola",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.1,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Uma agulha magnetizada presa em um eixo que aponta para norte-sul.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bussola",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "e699b74c7498abde",
+  "_key": "!items!e699b74c7498abde"
+}

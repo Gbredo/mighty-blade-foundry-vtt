@@ -1,0 +1,33 @@
+{
+  "name": "Rúnico",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/runico2.png",
+  "system": {
+    "atributos": {
+      "forca": 1,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 0
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "conhecimento-arcano"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4562a02d414f1816\" data-slug=\"runico\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Astério, Fira e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, aparar-magia, arma-fiel, arma-incandescente, arma-gelida, arma-relampejante, armadura-fiel, ataque-fantasma...</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "runico",
+      "diarioId": "4562a02d414f1816",
+      "conjurador": true
+    }
+  },
+  "_id": "698257602639ac34",
+  "_key": "!items!698257602639ac34"
+}

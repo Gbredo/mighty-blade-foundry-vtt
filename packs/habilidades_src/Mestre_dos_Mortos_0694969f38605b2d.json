@@ -1,0 +1,27 @@
+{
+  "name": "Mestre dos Mortos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Resistência dos",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Mortos. Todos os mortos-vivos criados por você duram indefinidamente enquanto estiverem a uma quantidade de metros igual ao triplo da sua Determinação ao seu redor. Se forem destruídos enquanto estiverem dentro dessa área, eles retornam após 1 minuto (com todos os Pontos de Vida e Pontos de Mana). Além disso, todas as Runas Arcanas que você tiver conjurado sobre um morto-vivo dentro desta área (incluindo aquelas que foram utilizadas para criá-los) são consideradas perenes, e se o morto-vivo deixar a área, sua duração é renovada (como se você tivesse acabado de conjurar a magia sobre ele). Bônus de Atributos: Inteligência +1 Vontade +1 Habilidade Automática:</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mestre-dos-mortos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "0694969f38605b2d",
+  "_key": "!items!0694969f38605b2d"
+}

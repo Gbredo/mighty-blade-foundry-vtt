@@ -1,0 +1,22 @@
+{
+  "name": "Provisões",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Suficiente para 2 refeições.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "provisoes",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "21511e7cef1f6b24",
+  "_key": "!items!21511e7cef1f6b24"
+}

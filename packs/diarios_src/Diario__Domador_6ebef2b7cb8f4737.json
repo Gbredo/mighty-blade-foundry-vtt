@@ -1,0 +1,28 @@
+{
+  "_id": "6ebef2b7cb8f4737",
+  "name": "Diário: Domador",
+  "pages": [
+    {
+      "_id": "94cd7031c3f12bcf",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/domador.png\" alt=\"Domador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Domadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.</p><p>Alguns Domadores desenvolvem um elo com um animal em particular e extendem naturalmente esse elo às demais bestas que encontram. Outros, apesar de possuírem uma ligação maior com uma criatura em especial, dedicam sua atenção entre todos os animais que encontra, sejam selvagens ou domesticados, de forma imparcial, muitas vezes reunindo uma pequena horda de “seguidores” selvagens.</p><p>Outros utilizam sua afinidade natural com as feras, subjugando os animais à sua vontade, como uma espécie de alfa de um grupo. Estes Domadores não necessariamente possuem um comportamento vil ou cruel com relação aos animais sobre os quais possui dominância, literalmente liderando seu grupo, defendendo, ensinando e exigindo respeito dos animais em troca. Mas, obviamente, alguns Domadores com esse comportamento agem de forma agressiva com os animais (e, em geral, com todas as criaturas) sob sua influência ou não. Não raro, estes Domadores desenvolvem uma antipatia por grupos sociais civilizados, preferindo a companhia dos animais e daqueles que possuem um elo semelhante com estes.</p><p>E há ainda aqueles Domadores que apenas tratam e treinam animais brevemente, quebrando qualquer vínculo com o animal em seguida, criando vínculos efêmeros com dezenas – as vezes centenas – de animais por breves períodos de tempo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Benção de Ellenis.</p><p><strong>Raças Comuns:</strong> Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!6ebef2b7cb8f4737.94cd7031c3f12bcf"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/domador.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "domador",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!6ebef2b7cb8f4737"
+}

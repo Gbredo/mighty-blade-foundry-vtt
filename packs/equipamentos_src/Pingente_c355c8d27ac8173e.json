@@ -1,0 +1,22 @@
+{
+  "name": "Pingente",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Pequeno adorno decorado para ser usado em uma corrente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pingente",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "c355c8d27ac8173e",
+  "_key": "!items!c355c8d27ac8173e"
+}

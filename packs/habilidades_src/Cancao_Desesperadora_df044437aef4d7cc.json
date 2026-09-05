@@ -1,0 +1,27 @@
+{
+  "name": "Canção Desesperadora",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Canção da",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Provocação Você canta uma música que fala sobre a morte, destruição e derrotas dos seus adversários, instilando medo em seus corações. Escolha uma profissão, raça, cultura ou classe social. Todas as criaturas do grupo escolhido que puderem entendê-lo e ouvirem sua música por pelo menos 2 turnos rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado menor que o seu precisam usar sua ação de movimento para tentar se afastar de você enquanto você continuar a tocar essa Música. Este é um efeito de medo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cancao-desesperadora",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "df044437aef4d7cc",
+  "_key": "!items!df044437aef4d7cc"
+}

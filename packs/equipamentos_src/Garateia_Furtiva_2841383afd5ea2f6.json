@@ -1,0 +1,22 @@
+{
+  "name": "Garatéia Furtiva",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Garatéia forrada com tecido grosso para diminuir o barulho.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "garateia-furtiva",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "2841383afd5ea2f6",
+  "_key": "!items!2841383afd5ea2f6"
+}

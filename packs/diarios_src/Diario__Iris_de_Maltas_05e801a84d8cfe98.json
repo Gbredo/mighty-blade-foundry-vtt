@@ -1,0 +1,28 @@
+{
+  "_id": "05e801a84d8cfe98",
+  "name": "Diário: Íris de Maltas",
+  "pages": [
+    {
+      "_id": "7564e36d70bf53fd",
+      "name": "Crônicas e Estatuto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_iris.png\" alt=\"Íris de Maltas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Esta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Guilda</li><li><strong>Sede Oficial:</strong> Tebrynia, Ambrook e Braktar</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Habitante de Tebryn sem ofensas registradas contra o governo</li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!05e801a84d8cfe98.7564e36d70bf53fd"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/org_iris.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "iris-de-maltas",
+      "tipo": "organizacao"
+    }
+  },
+  "_key": "!journal!05e801a84d8cfe98"
+}

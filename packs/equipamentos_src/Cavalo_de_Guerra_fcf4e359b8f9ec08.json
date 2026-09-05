@@ -1,0 +1,22 @@
+{
+  "name": "Cavalo de Guerra",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 300,
+    "description": "<p>Cavalo de Guerra descrito no Monstrum Codex p. 10</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cavalo-de-guerra",
+      "categoria": "Montaria"
+    }
+  },
+  "_id": "fcf4e359b8f9ec08",
+  "_key": "!items!fcf4e359b8f9ec08"
+}

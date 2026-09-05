@@ -1,0 +1,33 @@
+{
+  "name": "Cascos Ágeis",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Fauno",
+    "bonusAtributo": {
+      "atributo": "agilidade",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "agilidade",
+        "valor": 1
+      }
+    ],
+    "description": "<p>Você é mais ágil e veloz do que a maioria dos Faunos. Você ganha Agilidade +1, Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cascos-ageis",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f42c0350dd2939dc",
+  "_key": "!items!f42c0350dd2939dc"
+}

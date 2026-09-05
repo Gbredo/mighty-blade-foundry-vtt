@@ -1,0 +1,22 @@
+{
+  "name": "Amuleto dos Mortos",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.1,
+    "quantidade": 1,
+    "custo": 2250,
+    "description": "<p>Um amuleto com um crânio em baixo relevo em um dos lados e o símbolo de uma divindade (geralmente Denalla) do outro. Qualquer morto-vivo, demônio ou espírito que estiverem a uma distância em metros igual à Determinação do usuário perdem 10 Pontos de Vida e 10 Pontos de Mana no final de cada um dos seus turnos. Criaturas afetadas que tenham Mente Vazia perdem todos os seus Pontos de Vida e Mana. Mortos-vivos destruídos devido à esse efeito voltam a ser cadáveres inanimados e não poderão ser reanimados. Demônios destruídos por este efeito são enviados de volta ao inferno e não podem sair de lá por 1 ano. Espíritos destruídos por este efeito são permanentemente dissipados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "amuleto-dos-mortos",
+      "categoria": "Especial"
+    }
+  },
+  "_id": "6b0069bc9e9d1d80",
+  "_key": "!items!6b0069bc9e9d1d80"
+}

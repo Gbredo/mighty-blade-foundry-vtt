@@ -1,0 +1,22 @@
+{
+  "name": "Lira",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Instrumento de cordas dedilhadas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lira",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "e3f6fb4707a1ea17",
+  "_key": "!items!e3f6fb4707a1ea17"
+}

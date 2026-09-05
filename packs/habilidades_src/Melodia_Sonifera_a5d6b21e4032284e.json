@@ -1,0 +1,27 @@
+{
+  "name": "Melodia Sonífera",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 15,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Após tocar por 3 turnos, alvos rolam Vontade contra você. Quem perder cai em sono profundo (Efeito Mental) por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-sonifera",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a5d6b21e4032284e",
+  "_key": "!items!a5d6b21e4032284e"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Maldição da Dominação",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 60,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia.</p><p>alvo Desenhando um Símbolo Pro-</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "maldicao-da-dominacao",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "08b69d2c4044e4dd",
+  "_key": "!items!08b69d2c4044e4dd"
+}

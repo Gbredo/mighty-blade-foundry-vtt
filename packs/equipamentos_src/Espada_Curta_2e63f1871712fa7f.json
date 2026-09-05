@@ -1,0 +1,29 @@
+{
+  "name": "Espada Curta",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+6",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 100,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espada-curta",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "2e63f1871712fa7f",
+  "_key": "!items!2e63f1871712fa7f"
+}

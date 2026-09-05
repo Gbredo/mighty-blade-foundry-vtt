@@ -1,0 +1,22 @@
+{
+  "name": "Garrafa de Cerâmica",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Garrafa para vinho e cerveja. Comporta 1 litro de líquido.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "garrafa-de-ceramica",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "acfc596231eefab7",
+  "_key": "!items!acfc596231eefab7"
+}

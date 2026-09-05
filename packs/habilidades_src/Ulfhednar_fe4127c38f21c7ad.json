@@ -1,0 +1,27 @@
+{
+  "name": "Ulfhednar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Aesir, Fúria Bestial, Vontade 4",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Imbuído da selvageria do Lobo, o seu bônus de Força concedido pela Fúria Bestial aumenta para +4, e seus ataques desarmados passam a causar +2 de dano. Você não pode estar usando armadura ou escudo para que esta habilidade tenha efeito.<br>Especial: Você só pode escolher o Lobo como seu Espírito Animal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ulfhednar",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "fe4127c38f21c7ad",
+  "_key": "!items!fe4127c38f21c7ad"
+}

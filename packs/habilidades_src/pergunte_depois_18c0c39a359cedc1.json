@@ -1,0 +1,27 @@
+{
+  "name": "pergunte depois",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está sempre pronto pra ação, e essa ação quase sempre é agressiva! Você rola +1d6 em seus testes de iniciativa e todos os outros personagens são considerados Desprevenidos com relação a você até que tenham feito uma Ação durante um combate.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pergunte-depois",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "18c0c39a359cedc1",
+  "_key": "!items!18c0c39a359cedc1"
+}

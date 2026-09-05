@@ -1,0 +1,27 @@
+{
+  "name": "Espagiria",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você se especializou na produção e utilização de Extratos – o que, via de regra, significa jogar frascos de poção à uma boa distância! Você recebe +2 nos seus testes para produzir Extratos e em seus teses de arremesso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espagiria",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "4d8782aa2b4e32e0",
+  "_key": "!items!4d8782aa2b4e32e0"
+}

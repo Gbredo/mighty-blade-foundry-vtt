@@ -1,0 +1,22 @@
+{
+  "name": "Caixa Grande",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 45,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Caixa retangular de madeira com 1m de largura e altura, e 2m de comprimento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "caixa-grande",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "a2e545cec58a0281",
+  "_key": "!items!a2e545cec58a0281"
+}

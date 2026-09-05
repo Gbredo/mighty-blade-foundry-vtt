@@ -1,0 +1,33 @@
+{
+  "name": "Visão Olfativa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "testes de faro, olfato e rastreamento"
+      }
+    ],
+    "description": "<p>Você possui olfato tão aguçado que percebe a localização e o tamanho aproximado de criaturas e objetos ao redor, não sendo considerado cego a menos que seu olfato também seja anulado. Além disso, rola +1d6 em testes de rastreio e olfato.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "visao-olfativa",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "bbaf396b634b05c6",
+  "_key": "!items!bbaf396b634b05c6"
+}

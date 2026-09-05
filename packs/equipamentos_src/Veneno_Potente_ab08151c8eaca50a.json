@@ -1,0 +1,22 @@
+{
+  "name": "Veneno Potente",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 500,
+    "description": "<p>Causa 5 pontos de dano por turno. Esse veneno é considerado mágico.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-potente",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "ab08151c8eaca50a",
+  "_key": "!items!ab08151c8eaca50a"
+}

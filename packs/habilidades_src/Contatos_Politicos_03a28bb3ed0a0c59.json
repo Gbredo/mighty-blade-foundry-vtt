@@ -1,0 +1,27 @@
+{
+  "name": "Contatos Políticos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui muitos contatos entre os oficiais da maioria dos locais, e o símbolo da sua guilda é reconhecido por todos. Graças a isso você pode descobrir informações privilegiadas ou evitar problemas com a lei. Com um sucesso bem sucedido de Vontade (dificuldade igual à Determinação do alvo) você pode conseguir que um guarda decida não lhe levar preso ou até mesmo uma saída da prisão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "contatos-politicos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "03a28bb3ed0a0c59",
+  "_key": "!items!03a28bb3ed0a0c59"
+}

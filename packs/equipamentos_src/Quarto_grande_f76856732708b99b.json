@@ -1,0 +1,22 @@
+{
+  "name": "Quarto grande",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Preço da Diária. Uma cama com colchão de penas para duas pessoas, guarda-roupas, baú, escrivaninha com cadeira, lareira e uma tina para banho.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "quarto-grande",
+      "categoria": "Servico"
+    }
+  },
+  "_id": "f76856732708b99b",
+  "_key": "!items!f76856732708b99b"
+}

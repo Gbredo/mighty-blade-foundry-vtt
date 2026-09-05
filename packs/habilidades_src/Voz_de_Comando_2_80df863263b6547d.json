@@ -1,0 +1,27 @@
+{
+  "name": "Voz de Comando 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Voz de Comando 1.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Suas ordens sempre são obedecidas com eficiência! Você ordena um aliado a fazer uma ação, e ele imediatamente realiza aquela ação com um bônus de +1d6. Se a ação for de movimento, o aliado não poderá ser alvo de Reações durante essa ação. O alvo pode se recusar, se desejar. Essa deve ser uma ação simples – o alvo não pode usar nenhuma Habilida-</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "voz-de-comando-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "80df863263b6547d",
+  "_key": "!items!80df863263b6547d"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Raça Florestal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Centauro",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes dentro de floresta, bosque ou selva"
+      }
+    ],
+    "description": "<p>Você se sente extremamente confortável e renovado sob a proteção da vegetação. Quando estiver dentro de uma floresta, bosque ou selva, você recebe um bônus estático de +2 em todos os seus testes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "raca-florestal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "fe23785fc5383081",
+  "_key": "!items!fe23785fc5383081"
+}

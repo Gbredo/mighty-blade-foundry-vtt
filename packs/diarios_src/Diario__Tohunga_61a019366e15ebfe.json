@@ -1,0 +1,28 @@
+{
+  "_id": "61a019366e15ebfe",
+  "name": "Diário: Tohunga",
+  "pages": [
+    {
+      "_id": "2df940b381510f2c",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Em Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.</p><p>Apesar da maioria das qualidades que um Tohunga é capaz de exibir através de suas tatuagens serem um ato de pura determinação, algumas tatuagens podem possuir qualidades mágicas ou sobrenaturais. A maioria destes Tohunga é formada por Rúnicos, Xamãs e Druidas, mas mesmo Guerreiros ou Patrulheiros podem exibir essas capacidades extraordinárias.</p><p>Independente de suas crenças, a maioria dos Tohunga faz uso de suas habilidades como tatuadores de maneira ordinária, seja marcando membros de sua comunidade com tatuagens de guerra ou em rituais de passagens, seja tatuando por dinheiro. No entanto, um Tohunga capaz de imprimir poderes nas tatuagens que produzem em outros costuma ser extremamente seletivo ao fazer isso, não sendo afetado por influência ou poder aquisitivo nessa escolha – exceto no caso de um Tohunga desesperado ou com muito pouco escrúpulo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 3, Artesão.</p><p><strong>Raças Comuns:</strong> Aesir, Anão, Astério.</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!61a019366e15ebfe.2df940b381510f2c"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/tohunga.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "tohunga",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!61a019366e15ebfe"
+}

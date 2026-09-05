@@ -1,0 +1,31 @@
+{
+  "name": "Adaga-de-Dente",
+  "type": "arma",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "Canalizador",
+      "CerneArcano"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.25,
+    "quantidade": 1,
+    "custo": 40,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "adaga-de-dente",
+      "categoria": "Conjuracao"
+    }
+  },
+  "_id": "6f5b8f10aa722dfe",
+  "_key": "!items!6f5b8f10aa722dfe"
+}

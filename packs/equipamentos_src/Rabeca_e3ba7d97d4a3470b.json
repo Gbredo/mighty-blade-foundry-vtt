@@ -1,0 +1,22 @@
+{
+  "name": "Rabeca",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Corda tocada esfregando um arco sobre as cordas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rabeca",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "e3ba7d97d4a3470b",
+  "_key": "!items!e3ba7d97d4a3470b"
+}

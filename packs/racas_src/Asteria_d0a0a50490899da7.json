@@ -1,0 +1,66 @@
+{
+  "name": "Astéria",
+  "type": "raca",
+  "img": "systems/mighty-blade/assets/forja/asterio.png",
+  "system": {
+    "atributos": {
+      "forca": 3,
+      "agilidade": 2,
+      "inteligencia": 3,
+      "vontade": 2
+    },
+    "habilidadeUuid": "",
+    "habilidadeAutomatica": {
+      "nome": "Faro",
+      "descricao": "Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.",
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0
+    },
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "faro"
+      }
+    ],
+    "classesComuns": "Ladino, Xamã",
+    "description": "<div class=\"mb-item-summary\"><p>Raça Astéria de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b268cf97c7600b48\" data-slug=\"asteria-f\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"classes-comuns\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Ladino, Xamã</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "asteria-f",
+      "diarioId": "b268cf97c7600b48",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** Mamíferos humanoides com quatro dedos nas mãos e pés, sendo que os dos pés são unidos em dois pares sob uma grossa estrutura queratinosa formando um casco fendido. Diferente dos machos, as fêmeas possuem um crânio muito mais frágil e desprovido de cornos, não passando de 1,60m de altura e 80 quilos.\n* **Pele e Pelagem:** Possuem um couro macio de tom acobreado. A pelagem é grossa e esparsa (sendo mais cerrada na cabeça, pescoço, ombros e costas), com tonalidades marrons que variam do castanho claro até quase o negro.\n* **Dimorfismo Sexual:** Extremamente marcante. Enquanto os machos são brutamontes pesados que chegam a 2,30m e possuem grandes cornos, as Astérias são diminutas, frágeis e não desenvolvem chifres.\n* **Ciclo de Vida:** A gestação dura cerca de nove meses. As fêmeas são consideradas adultas aos 15 anos de idade, começam a apresentar os primeiros sinais de envelhecimento aos 50 anos e vivem, em média, até os 80 anos.",
+        "cultura": "* **Habitat e Estrutura Política:** São nativos do reino de Parband. Sua sociedade segue regras simples que colocam o mérito pessoal acima de gênero ou raça. Não existem cargos hereditários; tudo é conquistado por demonstração de habilidade ou desafios. Na academia e nos liceus, os cargos de liderança são modificados e reavaliados anualmente por um conselho.\n* **O Papel Feminino (Liderança e Intelecto):** Por serem fisicamente menores e mais frágeis, as fêmeas (junto a machos deformados) são enviadas ainda jovens para liceus onde aprendem matemática, engenharia e história. Na fase adulta, estudam estratégia, comércio e marinhagem. São as fêmeas que decidem o uso dos recursos da comunidade, criam as leis e aconselham os líderes militares. Para lazer, as fêmeas geralmente se dedicam a trabalhos artesanais como cerâmica e costura, os quais exibem com muito orgulho e certa timidez.\n* **Relações Interpessoais:** Mantêm ótimas relações em Parband, mas evitam as terras de Tebryn. Lá, sofrem imenso preconceito e são pejorativamente chamadas de \"minotauros\", fama herdada das incursões violentas dos Astérios de Arkânia, que renderam à raça a reputação de monstros sanguinários.",
+        "faixasEtarias": {
+          "filhote": "0-3",
+          "crianca": "4-11",
+          "adolescente": "12-14",
+          "adulto": "15",
+          "idoso": "50",
+          "anciao": "80"
+        },
+        "nomes": {
+          "lore": "A língua oficial da raça é o Reo. O idioma não possui os sons de “G”, “J” e a letra \"B\" não é usada em palavras tradicionais. Os nomes possuem de uma a três sílabas, sendo raros os monossílabos. Para as fêmeas, os nomes obrigatoriamente terminam em “A” ou “I”. Em geral, qualquer nome de origem havaiana ou maori adaptado para essas regras fonéticas funciona perfeitamente. Astérios não usam sobrenomes. Eles se identificam citando a organização para a qual trabalham ou seu ofício (ex: \"das Forjas de Hou\", \"da Armada da Aurora\"), adicionando também o seu posto e patente se houver.",
+          "masculinos": [],
+          "femininos": [
+            "Akina",
+            "Hina",
+            "Kaili",
+            "Kairi",
+            "Lani",
+            "Mahina",
+            "Malia",
+            "Moana",
+            "Nani",
+            "Oliana",
+            "Ulani"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "d0a0a50490899da7",
+  "_key": "!items!d0a0a50490899da7"
+}

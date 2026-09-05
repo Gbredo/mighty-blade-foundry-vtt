@@ -1,0 +1,27 @@
+{
+  "name": "Punição do Exílio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 40,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Tocando em um alvo, você define uma quantidade de tempo de no máximo sua Determinação em anos. Durante este tempo, enquanto o alvo estiver em uma região geográfica definida por você (uma Metrópole, Condado ou mesmo o Reino de Tebryn são os mais comuns) ele é assolado por dores terríveis que o deixam Distraído e faz com que ele perca 10 Pontos de Vida e Mana por minuto. Você pode estabelecer uma quantidade de tempo em dias igual à, no máximo sua Vontade para que este efeito tenha início – dando tempo, assim, para que o alvo possa deixar a área definida, caso esteja dentro dela.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punicao-do-exilio",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "15b5f615312a94e5",
+  "_key": "!items!15b5f615312a94e5"
+}

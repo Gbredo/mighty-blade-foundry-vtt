@@ -1,0 +1,22 @@
+{
+  "name": "Extrato Explosivo Menor",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 250,
+    "description": "<p>Explode causando dano igual à 10/Fogo num raio de 3 metros.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-explosivo-menor",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "c8c02bc64ee2261d",
+  "_key": "!items!c8c02bc64ee2261d"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Velocidade",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva você aumenta a velocidade dela, deixando-a com o dobro do Deslocamento e de ações. Este Selo Místico se dissipa no final do próximo turno do alvo. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "velocidade",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "912fed8e9cf971b7",
+  "_key": "!items!912fed8e9cf971b7"
+}

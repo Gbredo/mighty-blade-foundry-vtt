@@ -1,0 +1,42 @@
+{
+  "_id": "b89d37f86c189b3e",
+  "name": "Diário: Xamã",
+  "pages": [
+    {
+      "_id": "d6bbf5d222b10572",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/xama1.png\" alt=\"Xamã\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><p>A ligação com os espíritos naturais permite que muitos Xamãs sejam capazes de se comunicar com os animais, comandá-los e criar poderosos vínculos com eles. Xamãs particularmente conectados aos animais são capazes de tomar a forma destes, transformando-se completamente ou adquirindo características animalescas – como guelras, garras e asas.</p><p>Xamãs ligados aos espíritos dos mortos costumam assumir posições de conselheiros nas comunidades onde habitam, enquanto aqueles ligados a espíritos animais tendem a assumir posições como caçadores ou campeões tribais. Em Ambrook, Lorde Narat mantém uma guarda pessoal de Xamãs especializados em metamorfose, e é dito que o rei Honório Van Strauss fazia uso de xamãs metamorfos como espiões e sentinelas.</p><p>Apesar de comumente serem encontrados em comunidades tribais, afastadas da civilização, é possível encontrar xamãs em grandes metrópoles, às vezes simplesmente de passagem, lidando com alguma área assombrada por espíritos, ou, mais raramente como residentes de áreas infestadas de espíritos – às vezes agindo como guardiões, às vezes como carcereiros.</p><p><strong>Raças Mais Frequentes:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!b89d37f86c189b3e.d6bbf5d222b10572"
+    },
+    {
+      "_id": "e0c48e2045c86079",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (35 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>primaz</strong></li><li><strong>pontifice</strong></li><li><strong>guia-espiritual</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>bencao-de-ellenis</strong></li><li><strong>brigao</strong></li><li><strong>bravura-selvagem-1</strong></li><li><strong>combate-tatico</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>comunhao-com-espiritos</strong></li><li><strong>contato-com-espiritos</strong></li><li><strong>chamado-do-alfa</strong></li><li><strong>combate-com-duas-armas-1</strong></li><li><strong>cura-espiritual</strong></li><li><strong>espirito-animal</strong></li><li><strong>forma-animal-1</strong></li><li><strong>herbalismo</strong></li><li><strong>invocar-espirito-animal</strong></li><li><strong>rugido-do-alfa</strong></li><li><strong>rugido-do-predador</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>vantagem-animal-1</strong></li><li><strong>atropelar</strong></li><li><strong>caminhada-fantasma</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>companheiro-espiritual</strong></li><li><strong>estracalhar</strong></li><li><strong>forma-animal-2</strong></li><li><strong>implacavel</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>mestre-domador</strong></li><li><strong>vantagem-animal-2</strong></li><li><strong>guardiao-da-natureza</strong></li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!b89d37f86c189b3e.e0c48e2045c86079"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/xama1.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "xama",
+      "tipo": "classe"
+    }
+  },
+  "_key": "!journal!b89d37f86c189b3e"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Levitar",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 11,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana sobre uma criatura, você faz com que ela seja capaz de voar livremente no ar para qualquer direção no seu deslocamento normal. Essa Runa Arcana dura 1 hora, mas se dissipa automaticamente se alvo tocar o solo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "levitar",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "a4175954effaf931",
+  "_key": "!items!a4175954effaf931"
+}

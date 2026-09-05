@@ -1,0 +1,34 @@
+{
+  "name": "Marrada",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Fauno",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "chifres",
+        "dano": "Forca+2",
+        "tipoDano": "Contusao"
+      }
+    ],
+    "description": "<p>Você desfere um golpe poderoso com seus chifres. Este ataque desarmado causa Força +2/Contusão. Se usado em uma manobra de Encontrão, o alvo deve vencer um teste de Força contra sua Determinação +2 ou será derrubado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "marrada",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "30d64c30ebb1496b",
+  "_key": "!items!30d64c30ebb1496b"
+}

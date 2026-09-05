@@ -1,0 +1,27 @@
+{
+  "name": "Um Bom Conselho 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 40,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Um Bom Con-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>selho 1. Você incentiva um aliado exultando suas capacidades de modo excepcional. Aquele aliado recebe +2 em sua determinação e em todos os seus testes por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "um-bom-conselho-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "bfeb13350ae55811",
+  "_key": "!items!bfeb13350ae55811"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Punição da Amputação",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Punição da Escuridão",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Tocando um membro de uma criatura viva que esteja Indefesa você faz com que aquele membro vire cinzas deixando apenas um cotoco no lugar. Você pode definir uma quantidade de tempo máxima igual à sua Vontade em anos durante a qual, se o membro for regenerado de alguma forma, você se tornará imediatamente ciente que a Punição foi interrompida, qual a duração que ainda restava e qual a direção e distância do alvo em relação à você no momento em que essa Punição tiver sido interrompida.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "punicao-da-amputacao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "5b94bae62d79a9cc",
+  "_key": "!items!5b94bae62d79a9cc"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Regeneração Instantânea",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 5,
+    "dificuldade": 0,
+    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu corpo fecha ferimentos em velocidade impressionante. Sempre que sofrer dano, você pode gastar 5 PM como Reação para recuperar uma quantidade de Pontos de Vida igual à sua Vontade (limitado ao dano sofrido no ataque).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "regeneracao-instantanea",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a9ee23dc5ab4e398",
+  "_key": "!items!a9ee23dc5ab4e398"
+}

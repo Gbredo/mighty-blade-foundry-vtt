@@ -1,0 +1,20 @@
+{
+  "name": "Abrir Encantamento",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 100,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 10, Dom do Artí-</p><p>fice. Desenhando uma Runa sobre um item mágico, o Artífice pode desestabilizar o encantamento do item temporariamente, permitindo que um segundo encantamento seja iniciado sobre o item enquanto esta Runa estiver ativa. A Dificuldade dessa Magia é igual à dificuldade do encantamento original do item. Um item só pode ser afetado por Abrir Encantamento uma vez. Esta Runa Arcana dura 12 horas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "abrir-encantamento",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "c9a059e830cf562e",
+  "_key": "!items!c9a059e830cf562e"
+}

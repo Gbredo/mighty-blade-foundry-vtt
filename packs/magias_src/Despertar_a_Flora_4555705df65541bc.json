@@ -1,0 +1,20 @@
+{
+  "name": "Despertar a Flora",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Anima plantas do ambiente para prender ou atacar inimigos. Poder escalona pelo custo de PM.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "despertar-a-flora",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "4555705df65541bc",
+  "_key": "!items!4555705df65541bc"
+}

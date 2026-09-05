@@ -1,0 +1,20 @@
+{
+  "name": "Conjurar Objeto",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre um item, você o envia para o plano etéreo. Qualquer item cujo peso seja igual ou menor do que a Carga Básica (Guia Básico, pág. 20) do conjurador pode ser afetado por essa Magia. Quando a Runa desenhada sobre o item for dissipada, o objeto aparece imediatamente nas mãos do conjurador. Esta Runa Arcana dura indefinidamente, mas pode ser dissipada a qualquer momento pelo conjurador. Enquanto estiver ativa, os Pontos de Mana usados para Conjurar Objeto não podem ser recuperados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurar-objeto",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "4ccd917ce969cfbc",
+  "_key": "!items!4ccd917ce969cfbc"
+}

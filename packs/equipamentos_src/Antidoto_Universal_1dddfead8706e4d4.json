@@ -1,0 +1,22 @@
+{
+  "name": "Antídoto Universal",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 300,
+    "description": "<p>Remove todos os efeitos de venenos naturais e mágicos, doenças naturais e mágicas e efeitos de sangramento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "antidoto-universal",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "1dddfead8706e4d4",
+  "_key": "!items!1dddfead8706e4d4"
+}

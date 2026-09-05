@@ -1,0 +1,27 @@
+{
+  "name": "Magia Sanguínea",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que você usar seus Pontos de Vida no lugar de seus Pontos de Mana para abastecer magias, considere que 1 Ponto de Vida equivale a 1 Ponto de Mana. Além disso, sempre que abastecer uma Magia com pelo menos 5 Pontos de Vida dessa forma, a Dificuldade daquela Magia é reduzida em 2. Raças Não existe uma Raça mais inclinada a se tornar um Sanguíneo do que os Humanos. Eles são curiosos por natureza, e formam a maioria dos Feiticeiros, Rúnicos e – principalmente –</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "magia-sanguinea",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "2ac21077bf848a66",
+  "_key": "!items!2ac21077bf848a66"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Mestre de Armas 3",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 50,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Mestre de Armas 2",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Faça um ataque corporal contra uma criatura. Se o ataque acertar o alvo, ao invés do dano normal da arma, os Pontos de Vida atuais dele são reduzidos à metade. No caso de um sucesso crítico no ataque, o oponente é morto instantaneamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mestre-de-armas-3",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9b3d07922434e571",
+  "_key": "!items!9b3d07922434e571"
+}

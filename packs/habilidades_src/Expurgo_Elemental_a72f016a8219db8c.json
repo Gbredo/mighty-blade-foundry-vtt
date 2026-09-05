@@ -1,0 +1,27 @@
+{
+  "name": "Expurgo Elemental",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 25,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você canaliza a energia de sua divindade através de sua arma em um ataque inescapável. Quando ativar esta Habilidade, selecione um tipo de dano elemental (Frio, Fogo ou Eletricidade). Este golpe causa uma quantidade de dano extra do tipo selecionado igual à sua Determinação. Mesmo se o golpe errar o dano elemental ainda atinge o alvo – a menos que o ataque seja uma falha crítica.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "expurgo-elemental",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a72f016a8219db8c",
+  "_key": "!items!a72f016a8219db8c"
+}

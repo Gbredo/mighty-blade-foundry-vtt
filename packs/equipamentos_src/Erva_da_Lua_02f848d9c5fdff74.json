@@ -1,0 +1,22 @@
+{
+  "name": "Erva da Lua",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 75,
+    "description": "<p>Componente. Forrageamento em Florestas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "erva-da-lua",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "02f848d9c5fdff74",
+  "_key": "!items!02f848d9c5fdff74"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Vibrar os Ossos",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 10, Deflagrar Ossos</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro de sua linha de visão, você faz com que os ossos do alvo vibrem violentamente sob seus músculos, fazendo o alvo perder 30 Pontos de Vida e fique Atordoado por uma quantidade de turnos igual à sua Inteligência. Se o alvo for um morto-vivo, ele sofre uma quantidade de dano adicional igual à sua Determinação. Se o alvo ficar sem Pontos de Vida graças a esse efeito, seus ossos explodem através da carne, matando o alvo imediatamente e causando dano como descrito em Deflagrar Ossos. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vibrar-os-ossos",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "33e83bb3b514dabe",
+  "_key": "!items!33e83bb3b514dabe"
+}

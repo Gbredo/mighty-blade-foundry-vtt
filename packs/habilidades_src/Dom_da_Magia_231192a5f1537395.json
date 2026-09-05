@@ -1,0 +1,32 @@
+{
+  "name": "Dom da Magia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Elfo, Faen",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusPM",
+        "valor": 5
+      }
+    ],
+    "description": "<p>Você canaliza energias arcanas com extrema fluidez. As dificuldades de todas as suas Magias são diminuídas em 1 e você recebe permanentemente +5 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dom-da-magia",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "231192a5f1537395",
+  "_key": "!items!231192a5f1537395"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Devorador dos Mortos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Contato com Espíritos.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de drenar a energia necromântica de espíritos ao seu redor, restaurando suas próprias energias no processo. Quando toca em uma sombra, você pode absorver todos os seus Pontos de Mana (a Sombra é imediatamente enviada para o plano espiritual), e você recupera uma quantidade de Pontos de Vida iguais à quantidade de Pontos de Mana retirada da Sombra. Além disso, quando tocar ou acertar um ataque desarmado contra uma criatura do tipo Espírito, você pode fazer alvo perder uma quantidade de Pontos de Mana iguais à sua Determinação. Você recupera uma quantidade de Pontos de Vida igual à quantidade de Pontos de Vida que o alvo perder. Se o alvo perder todos os Pontos de Mana dessa forma, ela é imediatamente enviada para o plano espiritual.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "devorador-dos-mortos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "2b57463c201d5db2",
+  "_key": "!items!2b57463c201d5db2"
+}

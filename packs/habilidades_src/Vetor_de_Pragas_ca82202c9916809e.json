@@ -1,0 +1,27 @@
+{
+  "name": "Vetor de Pragas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Hamelin, Rei dos Ratos",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Os roedores que o acompanham tornam-se vetores da sua infecção. No início de cada um dos seus turnos, qualquer criatura que tiver realizado ataques corporais contra você será atacada por um roedor, sofrendo dano e risco de contaminação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vetor-de-pragas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "ca82202c9916809e",
+  "_key": "!items!ca82202c9916809e"
+}

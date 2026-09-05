@@ -1,0 +1,20 @@
+{
+  "name": "Resistência Elemental",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 9,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura ou objeto, você confere Resistência a Fogo, Frio ou Eletricidade (o alvo sofre apenas metade do dano proveniente desse tipo de energia) a ele. Essa Runa Arcana dura por 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "resistencia-elemental",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "443e30418cdd62a1",
+  "_key": "!items!443e30418cdd62a1"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Fúria do Dragão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de canalizar a fúria elemental dos Dragões com seus ataques! Quando fizer um ataque desarmado, você pode adicionar uma quantidade de dano elemental (Fogo, Frio ou Eletricidade) àquele ataque igual à sua Vontade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "furia-do-dragao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "7796e5aa0a538164",
+  "_key": "!items!7796e5aa0a538164"
+}

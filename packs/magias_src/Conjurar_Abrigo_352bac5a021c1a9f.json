@@ -1,0 +1,20 @@
+{
+  "name": "Conjurar Abrigo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p>Cria abrigo natural mágico. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurar-abrigo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "352bac5a021c1a9f",
+  "_key": "!items!352bac5a021c1a9f"
+}

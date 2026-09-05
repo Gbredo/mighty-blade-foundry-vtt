@@ -1,0 +1,20 @@
+{
+  "name": "Inferno",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 40,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Bola de Fogo</p><p>Desenhando uma Runa arcana sobre o solo, você faz com que uma área de 4 metros de diâmetro dentro da sua linha de visão entre em combustão enquanto é atingido por uma chuva de brasas e fogo. Todos que tiverem nessa área sofrem dano igual a 30/Fogo quando essa magia for lançada e mais 30/Fogo no início de cada turno que iniciarem dentro da área. Esta Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você posse dissipá-la a qualquer momento. Material inflamável na área irrompe em chamas instantaneamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "inferno",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "9832745befba0c1f",
+  "_key": "!items!9832745befba0c1f"
+}

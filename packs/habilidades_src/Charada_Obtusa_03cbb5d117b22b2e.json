@@ -1,0 +1,27 @@
+{
+  "name": "Charada Obtusa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 35,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>INT do Bardo vs Determinação dos ouvintes. Inimigos que falharem ficam Paralisados por 1 turno; aliados recebem +2 em todos os testes nesse turno e ficam Paralisados por apenas 1 turno se falharem.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "charada-obtusa",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "03cbb5d117b22b2e",
+  "_key": "!items!03cbb5d117b22b2e"
+}

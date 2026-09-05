@@ -21,8 +21,8 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["mighty-blade", "sheet", "actor"],
-      width: 740,
-      height: 780,
+      width: 840,
+      height: 860,
       tabs: [
         {
           navSelector: ".sheet-tabs",
@@ -225,6 +225,16 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     // Replace Race/Class
     html.on("click", ".item-replace", this._onItemReplace.bind(this));
+
+    // Navegador de Compêndio direto da ficha
+    html.on("click", ".open-compendium-browser", (ev) => {
+      ev.preventDefault();
+      const type = ev.currentTarget.dataset.type || null;
+      new MightyBladeCompendiumBrowser({
+        type: type,
+        actor: this.actor,
+      }).render(true);
+    });
 
     // Rolagens (atributos, armas, habilidades): disponíveis antes da trava de
     // edição — um observador/jogador pode rolar mesmo sem o modo de edição ligado.

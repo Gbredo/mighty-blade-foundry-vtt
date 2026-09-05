@@ -1,0 +1,30 @@
+{
+  "name": "Mangual",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+9",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 6,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 200,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mangual",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "94eba13e7de7c95d",
+  "_key": "!items!94eba13e7de7c95d"
+}

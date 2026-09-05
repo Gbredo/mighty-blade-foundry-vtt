@@ -1,0 +1,22 @@
+{
+  "name": "Pelego",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 4,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Couro com lã de ovelha para dormir em cima. Bom para noites frias.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pelego",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "78e41b676b8693b2",
+  "_key": "!items!78e41b676b8693b2"
+}

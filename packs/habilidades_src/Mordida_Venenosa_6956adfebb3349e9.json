@@ -1,0 +1,34 @@
+{
+  "name": "Mordida Venenosa",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "mordida",
+        "dano": "Forca+2",
+        "tipoDano": "Perfuracao"
+      }
+    ],
+    "description": "<p>Você possui glândulas que produzem veneno natural. Seus ataques desarmados com mordida causam Força +2/Perfuração e injetam uma dose de Veneno Paralisante natural na vítima.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mordida-venenosa",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "6956adfebb3349e9",
+  "_key": "!items!6956adfebb3349e9"
+}

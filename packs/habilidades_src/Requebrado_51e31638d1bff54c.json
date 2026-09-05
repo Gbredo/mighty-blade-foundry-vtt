@@ -1,0 +1,32 @@
+{
+  "name": "Requebrado",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDeslocamento",
+        "valor": 2
+      }
+    ],
+    "description": "<p>Enquanto dançando: Deslocamento +2 e pode usar o valor de Deslocamento no lugar de Agilidade no cálculo de Esquiva.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "requebrado",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "51e31638d1bff54c",
+  "_key": "!items!51e31638d1bff54c"
+}

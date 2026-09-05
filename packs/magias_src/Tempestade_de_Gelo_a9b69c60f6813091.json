@@ -1,0 +1,20 @@
+{
+  "name": "Tempestade de Gelo",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 40,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Rajada de Gelo</p><p>Desenhando uma runa Arcana sobre o solo você pode evocar uma tempestade de gelo em uma área circular de 10 metros de diâmetro que você possa ver. Uma chuva de pedaços finos e afiados de gelo cai sobre a área. Todos que estiverem na área escolhida sofrerão dano igual a 10/Corte + 10/Frio quando essa magia for lançada. A cada turno em começar dentro da área de efeito um personagem sofre dano igual a 10/Corte + 10/Frio e fica Enregelado por 1 rodada. A Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você pode dissipá-la a qualquer momento. Habilidade Final</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tempestade-de-gelo",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "a9b69c60f6813091",
+  "_key": "!items!a9b69c60f6813091"
+}

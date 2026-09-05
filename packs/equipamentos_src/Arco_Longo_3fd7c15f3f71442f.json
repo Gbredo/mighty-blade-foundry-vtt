@@ -1,0 +1,30 @@
+{
+  "name": "Arco Longo",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "10",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 5,
+    "alcance": "Disparo Longo (200m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 200,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arco-longo",
+      "categoria": "Projetil"
+    }
+  },
+  "_id": "3fd7c15f3f71442f",
+  "_key": "!items!3fd7c15f3f71442f"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Cinto de Ferramentas",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.4,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Cinto com pequenos bolsos para guardar ferramentas e utensílios.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cinto-de-ferramentas",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "03c663dfc2bf1b6a",
+  "_key": "!items!03c663dfc2bf1b6a"
+}

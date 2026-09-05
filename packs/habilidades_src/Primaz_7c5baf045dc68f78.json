@@ -1,0 +1,27 @@
+{
+  "name": "Primaz",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Asceta",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é uma autoridade religiosa reconhecida e tem um status considerável entre os membros de sua fé. Você pode solicitar abrigo, provisões e ajuda simples para qualquer templo, monastério ou seguidor de sua fé sem custos. Além disso, você tem +2 em testes sociais ao lidar com seguidores de sua fé.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "primaz",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "7c5baf045dc68f78",
+  "_key": "!items!7c5baf045dc68f78"
+}

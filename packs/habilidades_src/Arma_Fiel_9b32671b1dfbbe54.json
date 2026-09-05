@@ -1,0 +1,27 @@
+{
+  "name": "Arma Fiel",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Vincula uma arma específica ao Rúnico. Habilidades Rúnicas só funcionam plenamente com ela. Efeito mecânico exato pendente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arma-fiel",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9b32671b1dfbbe54",
+  "_key": "!items!9b32671b1dfbbe54"
+}

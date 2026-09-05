@@ -1,0 +1,22 @@
+{
+  "name": "Roupas comuns",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Camisa ou túnica, calções ou saia e sandálias.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "roupas-comuns",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "5b5271188f316951",
+  "_key": "!items!5b5271188f316951"
+}

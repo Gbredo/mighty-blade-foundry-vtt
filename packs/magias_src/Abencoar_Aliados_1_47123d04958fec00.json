@@ -1,0 +1,20 @@
+{
+  "name": "Abençoar Aliados 1",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre sí mesmo que concede um bônus de +1 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. Esse Selo Místico dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "abencoar-aliados-1",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "47123d04958fec00",
+  "_key": "!items!47123d04958fec00"
+}

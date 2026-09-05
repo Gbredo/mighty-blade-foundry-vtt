@@ -1,0 +1,27 @@
+{
+  "name": "Durão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você viu e fez muita coisa na vida, e poucas situações o abalam. Você recebe +1d6 em todos os seus testes para resistir a efeitos de medo. Além disso, você tem Determinação +2 e +5 Pontos de Vida.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "durao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "febe7c469ab01179",
+  "_key": "!items!febe7c469ab01179"
+}

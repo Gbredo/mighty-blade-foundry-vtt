@@ -1,0 +1,27 @@
+{
+  "name": "Destemor",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Código da Coragem",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sua coragem o impulsiona em situações de perigo para si e para seus companheiros. Sempre que for realizar um teste que represente um risco direto para você ou para um amigo (incluindo praticamente todas as situações de combate), você soma +2 ao resultado de todas as suas rolagens.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "destemor",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "ec32f29ca03f7037",
+  "_key": "!items!ec32f29ca03f7037"
+}

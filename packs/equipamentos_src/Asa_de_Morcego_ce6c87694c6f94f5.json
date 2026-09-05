@@ -1,0 +1,22 @@
+{
+  "name": "Asa de Morcego",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Componente. Caça em Cavernas, Florestas e Selvas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "asa-de-morcego",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "ce6c87694c6f94f5",
+  "_key": "!items!ce6c87694c6f94f5"
+}

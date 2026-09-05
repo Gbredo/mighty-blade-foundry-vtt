@@ -1,0 +1,27 @@
+{
+  "name": "Invocação Infernal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de ler magias em itens com a característica Registro e pode conjurar Magias que exijam um Círculo de Invocação como se você possuísse Conhecimento Arcano – mas realiza magias Arcanas como se fosse Inapto e não pode realizar Magias Místicas. Além disso, você não perde Pontos de Vida devido à conjuração de Círculos de Invocação (veja Contactando o Inferno na página 9 para mais detalhes).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocacao-infernal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "858a9bbcc824f295",
+  "_key": "!items!858a9bbcc824f295"
+}

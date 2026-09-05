@@ -1,0 +1,20 @@
+{
+  "name": "Abençoar Aliados 2",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 15,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Abençoar Aliados 1</p><p>Você desenha um Selo Místico sobre sí mesmo que concede um bônus de +2 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. Esse Selo Místico dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "abencoar-aliados-2",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "fa3271a7dcdee706",
+  "_key": "!items!fa3271a7dcdee706"
+}

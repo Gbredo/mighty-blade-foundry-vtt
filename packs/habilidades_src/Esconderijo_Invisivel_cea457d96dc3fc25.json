@@ -1,0 +1,27 @@
+{
+  "name": "Esconderijo Invisível",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Metadílio",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é extremamente hábil em se esconder, e consegue fazer isso de modo quase sobrenatural! O custo dessa Habilidade varia de acordo com o esconderijo à disposição, entre 10 (um local escuro ou com boa cobertura) e 30 (atrás de uma pedra do seu tamanho, num dia ensolarado). Você pode permanecer no esconderijo por até 1 hora e, enquanto fizer isso, é considerado Invisível.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "esconderijo-invisivel",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "cea457d96dc3fc25",
+  "_key": "!items!cea457d96dc3fc25"
+}

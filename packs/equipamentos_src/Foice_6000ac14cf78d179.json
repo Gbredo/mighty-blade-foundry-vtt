@@ -1,0 +1,29 @@
+{
+  "name": "Foice",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 12,
+    "description": "<p>Ferramenta de colheita manual e símbolo druídico.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "foice",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "6000ac14cf78d179",
+  "_key": "!items!6000ac14cf78d179"
+}

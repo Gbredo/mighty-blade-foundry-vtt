@@ -1,0 +1,27 @@
+{
+  "name": "Destruição Elemental",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Todo dano de Fogo, Frio ou Eletricidade causado pelo Rúnico (em magias e ataques elementares) é dobrado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "destruicao-elemental",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "3042661b4ba83856",
+  "_key": "!items!3042661b4ba83856"
+}

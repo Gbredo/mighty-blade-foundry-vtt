@@ -1,0 +1,27 @@
+{
+  "name": "Coroa Infernal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Conhecimento Arcano.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Os pelos, penas, rochas ou pele do alto da sua cabeça se transformam em uma profusão de pequenos chifres que lembram, vagamente, uma coroa. Você passa a ser capaz de realizar Círculos de Invocação como uma Ação Padrão ao invés de uma Ação de Turno Completo, desenhando o Círculo como traçaria uma Runa Arcana – geralmente no ar à sua frente, ao invés de sobre uma superfície. Além disso, você recebe +2 para realizar Magias que exijam um Círculo de Invocação, e estas magias custam 5 Pontos de Mana a menos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coroa-infernal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "01d134795b5450c4",
+  "_key": "!items!01d134795b5450c4"
+}

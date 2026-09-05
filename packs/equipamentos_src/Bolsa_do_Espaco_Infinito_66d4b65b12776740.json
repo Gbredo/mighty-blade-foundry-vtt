@@ -1,0 +1,22 @@
+{
+  "name": "Bolsa do Espaço Infinito",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 3400,
+    "description": "<p>Apesar do nome, este embornal de couro tem um espaço interno de 2 metros cúbicos (1 metro de largura, 1 de altura e 2 de profundidade). Independente do que estiver guardado dentro do embornal, ele sempre parece estar vazio – e o peso dos itens em seu interior é ignorado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bolsa-do-espaco-infinito",
+      "categoria": "Especial"
+    }
+  },
+  "_id": "66d4b65b12776740",
+  "_key": "!items!66d4b65b12776740"
+}

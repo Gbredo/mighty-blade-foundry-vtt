@@ -1,0 +1,27 @@
+{
+  "name": "Grito Contundente",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "padrao",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Versão física do grito sônico. Dano de Contusão em área.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "grito-contundente",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "e43191ec193074c9",
+  "_key": "!items!e43191ec193074c9"
+}

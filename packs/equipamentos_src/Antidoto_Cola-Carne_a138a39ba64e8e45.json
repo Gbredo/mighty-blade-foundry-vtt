@@ -1,0 +1,22 @@
+{
+  "name": "Antídoto Cola-Carne",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Remove infecções naturais e estanca efeitos de sangramento do alvo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "antidoto-cola-carne",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "a138a39ba64e8e45",
+  "_key": "!items!a138a39ba64e8e45"
+}

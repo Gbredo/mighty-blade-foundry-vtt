@@ -1,0 +1,31 @@
+{
+  "name": "Prod",
+  "type": "arma",
+  "img": "icons/weapons/bows/bow-short-wood.webp",
+  "system": {
+    "dano": "12",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 4,
+    "alcance": "Disparo Médio (100m)",
+    "propriedades": [
+      "Carregar",
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 100,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "prod",
+      "categoria": "Projetil"
+    }
+  },
+  "_id": "b65fe46cfc9fce00",
+  "_key": "!items!b65fe46cfc9fce00"
+}

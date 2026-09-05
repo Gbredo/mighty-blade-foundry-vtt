@@ -1,0 +1,27 @@
+{
+  "name": "Loucura Revelada",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Pacto da Loucura",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Qualquer criatura que tente afetar você com um efeito mental ou um efeito de medo perde, imediatamente, uma quantidade de Pontos de Vida iguais à sua Vontade e uma quantidade de Pontos de Mana iguais à sua Determinação enquanto a sua própria loucura toca a mente do alvo. Além disso, graças à sua natureza instável, é muito difícil perceber os padrões em seu comportamento, e você recebe +1d6 quando tentar mentir ou esconder a verdade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "loucura-revelada",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d5a577c589880861",
+  "_key": "!items!d5a577c589880861"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Intimidador",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "dificuldade": 0,
+    "requisitos": "Orc, Gnoll, Naga (Macho), Naga (Fêmea)",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você intimida um oponente a até 3 metros de você. Faça um Confronto de Força ou Vontade contra a Vontade do alvo (+1d6 para você). Com sucesso, o alvo fica Amedrontado enquanto você estiver na linha de visão dele e é forçado a responder a uma pergunta direta sem mentir (efeito de Medo).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "intimidador",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f3795854d6a96e91",
+  "_key": "!items!f3795854d6a96e91"
+}

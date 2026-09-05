@@ -1,0 +1,22 @@
+{
+  "name": "Lupa",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.015,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Uma lente de aumento para realizar trabalhos detalhados ou fazer avaliações.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lupa",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "75c10e6bbdf0ccb0",
+  "_key": "!items!75c10e6bbdf0ccb0"
+}

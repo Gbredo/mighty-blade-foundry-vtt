@@ -1,0 +1,37 @@
+{
+  "name": "Potência",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Aesir",
+    "bonusAtributo": {
+      "atributo": "forca",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "forca",
+        "valor": 1
+      },
+      {
+        "tipo": "bonusPV",
+        "valor": 5
+      }
+    ],
+    "description": "<p>Você é mais forte e resistente do que a maioria dos indivíduos da sua raça. Você ganha permanentemente Força +1 e +5 Pontos de Vida máximos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "potencia",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "08dc5dd9ae0db7f6",
+  "_key": "!items!08dc5dd9ae0db7f6"
+}

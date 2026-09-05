@@ -1,0 +1,42 @@
+{
+  "name": "Repentista",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "musica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "tocar e cantar"
+      },
+      {
+        "tipo": "reduzCustoMana",
+        "valor": 5,
+        "escopo": "Melodias"
+      },
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "custo de 1 Melodia (repertório permanente)"
+      }
+    ],
+    "description": "<p>+2 em testes de tocar e cantar. Todas as Melodias custam 5 PM a menos. Adiciona 1 Melodia permanentemente ao repertório.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "repentista",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "3348a1b3d6b6cf01",
+  "_key": "!items!3348a1b3d6b6cf01"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Mimetismo Social",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você consegue se adaptar rapidamente aos trejeitos, dialetos, costumes e linguagem corporal de qualquer grupo social ou cultura após poucos minutos de observação, recebendo +2 em testes de interação social e disfarce com aquele grupo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "mimetismo-social",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "bc6d700ed8215023",
+  "_key": "!items!bc6d700ed8215023"
+}

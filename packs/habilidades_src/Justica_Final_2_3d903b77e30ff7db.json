@@ -1,0 +1,27 @@
+{
+  "name": "Justiça Final 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 50,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Justiça Final 1",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um demônio, morto-vivo ou espírito.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "justica-final-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "3d903b77e30ff7db",
+  "_key": "!items!3d903b77e30ff7db"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Martelo Lucerno",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+11",
+    "tipoDano": [
+      "Perfuracao",
+      "Contusao"
+    ],
+    "fn": 7,
+    "alcance": "Haste (3m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 5,
+    "quantidade": 1,
+    "custo": 275,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "martelo-lucerno",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "db9b5a0a6f3e6bf0",
+  "_key": "!items!db9b5a0a6f3e6bf0"
+}

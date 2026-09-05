@@ -6,9 +6,9 @@ export class MightyBladeItemSheet extends foundry.appv1.sheets.ItemSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["mighty-blade", "sheet", "item"], // Aqui já mudamos para mighty-blade
-      width: 520,
-      height: 480,
+      classes: ["mighty-blade", "sheet", "item"],
+      width: 560,
+      height: 520,
       tabs: [
         {
           navSelector: ".sheet-tabs",
@@ -21,7 +21,23 @@ export class MightyBladeItemSheet extends foundry.appv1.sheets.ItemSheet {
 
   /** @override */
   get template() {
-    return `systems/mighty-blade/templates/item/item-${this.item.type}-sheet.hbs`;
+    const knownTypes = [
+      "arma",
+      "armadura",
+      "caminho",
+      "classe",
+      "equipamento",
+      "habilidade",
+      "idioma",
+      "item",
+      "magia",
+      "organizacao",
+      "raca",
+    ];
+    if (knownTypes.includes(this.item.type)) {
+      return `systems/mighty-blade/templates/item/item-${this.item.type}-sheet.hbs`;
+    }
+    return `systems/mighty-blade/templates/item/item-sheet.hbs`;
   }
 
   /** @override */

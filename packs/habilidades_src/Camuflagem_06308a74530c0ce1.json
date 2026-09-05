@@ -1,0 +1,27 @@
+{
+  "name": "Camuflagem",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Furtivo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode se camuflar em florestas usando galhos, folhas e lama, ou nas sombras de becos e ruas usando uma capa preta e talvez fuligem ou barro. Quando puder usar o ambiente a seu favor dessa forma, você pode rolar +1d6 nos testes para se esconder.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "camuflagem",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "06308a74530c0ce1",
+  "_key": "!items!06308a74530c0ce1"
+}

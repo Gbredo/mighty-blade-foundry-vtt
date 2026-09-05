@@ -1,0 +1,27 @@
+{
+  "name": "Rei dos Ratos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Hamelin",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de se comunicar com roedores e essas criaturas são naturalmente atraídas por você. Uma quantidade de roedores igual a duas vezes a sua Vontade o acompanha constantemente com temperamento Protetor, realizando pequenas tarefas e auxiliando na sua defesa.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "rei-dos-ratos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "14053a91fe2256f9",
+  "_key": "!items!14053a91fe2256f9"
+}

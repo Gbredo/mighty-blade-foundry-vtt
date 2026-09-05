@@ -1,0 +1,27 @@
+{
+  "name": "Arte da Forja 3",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é capaz de adicionar uma complexidade maior em suas criações. Você pode criar armas com lâminas flamberges, dotadas de ondulações – que dão uma semelhança às chamas – que diminuem a superfície de contato, assim facilitando o corte. Lâminas flamantes fazem com que qualquer arma de corte tenha +2 de dano, mas aumenta sua FN em 1. Você pode também aplicar estrias nas placas de alguns tipos de armaduras (excetuando-se cotas de malha ou armaduras de escamas). Estas estrias aumentam a resistência do metal e diminuem sua superfície de contato, mas não aumentam significativamente o peso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arte-da-forja-3",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "83bdba84ce24a824",
+  "_key": "!items!83bdba84ce24a824"
+}

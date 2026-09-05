@@ -1,0 +1,22 @@
+{
+  "name": "Veneno de Cobra",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 70,
+    "description": "<p>Componente. Caça em qualquer terreno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-de-cobra",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "a65a0298a8e2d0ad",
+  "_key": "!items!a65a0298a8e2d0ad"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Tatuador da Guilda",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você aprendeu a realizar tatuagens de forma eficiente e sabe fazer isso da forma mais indolor – ou dolorosa – que desejar. Você recebe +2 em seus testes para realizar tatuagens e quando fizer testes para detectar mentiras de um alvo Indefeso que você possa interrogar. O bônus de detectar mentiras aumenta para +1d6 caso você tenha acesso à ferramentas adequadas (instrumentos de escrita, de talha, de forja ou de costura).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tatuador-da-guilda",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "49533d951dee2151",
+  "_key": "!items!49533d951dee2151"
+}

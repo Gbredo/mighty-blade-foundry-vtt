@@ -1,0 +1,20 @@
+{
+  "name": "Manter Golem",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 12,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Criar Golem</p><p>Você desenha um Selo Místico sobre um Golem que você tenha criado, com o objetivo de fortalecer sua coesão. Cada vez que você desenhar este Selo Místico sobre o Golem, a duração do Selo que o mantém ativo será duplicada. Você pode desenhar quantos selos desses quiser sobre um Golem, e seus efeitos são cumulativos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "manter-golem",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "b4cb63890577c401",
+  "_key": "!items!b4cb63890577c401"
+}

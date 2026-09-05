@@ -1,0 +1,22 @@
+{
+  "name": "Bule de Peltre",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.007,
+    "quantidade": 1,
+    "custo": 12,
+    "description": "<p>Bule para ferver líquidos dentro. Comporta 500ml.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bule-de-peltre",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "4f0f503bdb577e1b",
+  "_key": "!items!4f0f503bdb577e1b"
+}

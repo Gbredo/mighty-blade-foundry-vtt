@@ -1,0 +1,22 @@
+{
+  "name": "Pá de Acampamento",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Pá pequena para ajudar na montagem do acampamento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pa-de-acampamento",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "2e65af96866f433f",
+  "_key": "!items!2e65af96866f433f"
+}

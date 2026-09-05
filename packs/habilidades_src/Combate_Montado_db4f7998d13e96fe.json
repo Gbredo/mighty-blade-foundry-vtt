@@ -1,0 +1,27 @@
+{
+  "name": "Combate Montado",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Cavaleiro Experiente",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que fizer um ataque corporal enquanto estiver sobre uma montaria, acrescente +6 de dano ao ataque.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "combate-montado",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "db4f7998d13e96fe",
+  "_key": "!items!db4f7998d13e96fe"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Extrato Fantasma",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 650,
+    "description": "<p>Corpo Intangível por 5 minutos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-fantasma",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "64ee2a0c0570ecf2",
+  "_key": "!items!64ee2a0c0570ecf2"
+}

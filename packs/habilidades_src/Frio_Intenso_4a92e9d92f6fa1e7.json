@@ -1,0 +1,27 @@
+{
+  "name": "Frio Intenso",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você aprendeu a produzir magias que produzem um frio muito mais intenso. Suas magias que causem dano pro Frio causam 6 pontos de dano adicionais. Além disso, se uma magia congelar objetos ou criaturas, elas permanecerão congeladas por uma quantidade de horas igual à sua Vontade antes de começarem a descongelar normalmente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "frio-intenso",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "4a92e9d92f6fa1e7",
+  "_key": "!items!4a92e9d92f6fa1e7"
+}

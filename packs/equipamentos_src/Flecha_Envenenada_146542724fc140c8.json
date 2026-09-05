@@ -1,0 +1,22 @@
+{
+  "name": "Flecha Envenenada",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Comporta e inocula veneno (uma dose para 3 flechas).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flecha-envenenada",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "146542724fc140c8",
+  "_key": "!items!146542724fc140c8"
+}

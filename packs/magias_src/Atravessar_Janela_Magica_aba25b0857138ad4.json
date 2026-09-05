@@ -1,0 +1,20 @@
+{
+  "name": "Atravessar Janela Mágica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 30,
+    "dificuldade": 16,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Janela Mágica</p><p>Desenhando um Selo Místico sobre uma Janela Mágica, você cria um portal diretamente a frente da criatura, objeto ou superfície que você estiver observando, que pode ser atravessado em ambas as direções. Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "atravessar-janela-magica",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "aba25b0857138ad4",
+  "_key": "!items!aba25b0857138ad4"
+}

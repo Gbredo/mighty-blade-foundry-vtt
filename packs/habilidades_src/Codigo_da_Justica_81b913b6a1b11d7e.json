@@ -1,0 +1,27 @@
+{
+  "name": "Código da Justiça",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você confia nas leis para se apoiar e possui uma crença inabalável na ordem. Você sempre respeita as leis vigentes nos locais onde está e não permite que outros as descumpram impunemente. Sua fé na ordem faz com que criaturas geradas no caos se sintam repelidas por você. Todo demônio, morto-vivo ou espírito deve ser bem sucedido em um teste Vontade (Dificuldade igual à sua Determinação) ou não será capaz de se aproximar ou atacar você. Criaturas desses tipos com Mente Vazia fazem seus testes de baseados em Força, e se falhar serão completamente destruídas. Conhecimento Regional [Tebryn] Habilidade – Suporte Descrição: Você conhece profundamente a história e características de Tebryn.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "codigo-da-justica",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "81b913b6a1b11d7e",
+  "_key": "!items!81b913b6a1b11d7e"
+}

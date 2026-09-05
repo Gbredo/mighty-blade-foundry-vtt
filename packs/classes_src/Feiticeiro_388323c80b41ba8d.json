@@ -1,0 +1,33 @@
+{
+  "name": "Feiticeiro",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/feiticeiro2.png",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 0,
+      "inteligencia": 1,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "conhecimento-arcano"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.01f81cd5a919ee25\" data-slug=\"feiticeiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar...</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "feiticeiro",
+      "diarioId": "01f81cd5a919ee25",
+      "conjurador": true
+    }
+  },
+  "_id": "388323c80b41ba8d",
+  "_key": "!items!388323c80b41ba8d"
+}

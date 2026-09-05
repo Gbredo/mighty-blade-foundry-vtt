@@ -1,0 +1,22 @@
+{
+  "name": "Flecha Alarme",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 4,
+    "description": "<p>Metade do dano, mas produz som estridente audível a mais de 1km.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flecha-alarme",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "ee775825128b1de7",
+  "_key": "!items!ee775825128b1de7"
+}

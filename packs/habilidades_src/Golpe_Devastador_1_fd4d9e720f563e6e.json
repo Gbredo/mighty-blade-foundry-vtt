@@ -1,0 +1,27 @@
+{
+  "name": "Golpe Devastador 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Nocautear",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode fazer um ataque corporal que causa o dobro de dano, e se acertar, o alvo precisa vencer um confronto de Força (adicione a FN da arma que estiver usando no seu teste) contra você ou ficará Paralisado (veja Condições na página 169) por um turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "golpe-devastador-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "fd4d9e720f563e6e",
+  "_key": "!items!fd4d9e720f563e6e"
+}

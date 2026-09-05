@@ -1,0 +1,22 @@
+{
+  "name": "Missal",
+  "type": "equipamento",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "canalizador": true,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Livro usado por conjuradores místicos para registrar magias.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "missal",
+      "categoria": "Conjuracao"
+    }
+  },
+  "_id": "844dfcc26682ec07",
+  "_key": "!items!844dfcc26682ec07"
+}

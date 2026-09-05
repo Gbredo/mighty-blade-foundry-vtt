@@ -1,0 +1,27 @@
+{
+  "name": "Cartografia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você nunca se perde em qualquer área que já tenha estado ao menos uma vez ou que tenha podido estudar em mapas adequados. Pode desenhar mapas acurados de áreas que estudou e rabiscar de memória mapas eficientes de qualquer área por onde tenha viajado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cartografia",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "1d373aa6a1ab9133",
+  "_key": "!items!1d373aa6a1ab9133"
+}

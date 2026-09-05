@@ -1,0 +1,22 @@
+{
+  "name": "Coração de Grifo",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 1000,
+    "description": "<p>Componente. Caça em Colinas e Planícies.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coracao-de-grifo",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "a6b17b8cc614949e",
+  "_key": "!items!a6b17b8cc614949e"
+}

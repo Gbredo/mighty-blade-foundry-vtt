@@ -1,0 +1,38 @@
+{
+  "name": "Cabeça Dura",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Anão, Astério, Astéria, Centauro",
+    "bonusAtributo": {
+      "atributo": "vontade",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "vontade",
+        "valor": 1
+      },
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "determinacao",
+        "valor": 2
+      }
+    ],
+    "description": "<p>Você é extremamente teimoso e é muito difícil dissuadi-lo de uma opinião, intimidá-lo, controlar sua mente ou manipulá-lo de qualquer forma. Você ganha permanentemente Vontade +1 e Determinação +2.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cabeca-dura",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "cbbd0387d8376483",
+  "_key": "!items!cbbd0387d8376483"
+}

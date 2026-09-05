@@ -1,0 +1,22 @@
+{
+  "name": "Ampulheta",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Usado para marcar uma passagem de tempo específica. Os mais comuns são os de 1 minuto, 10 minutos e 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ampulheta",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "25c4b0fc1e515580",
+  "_key": "!items!25c4b0fc1e515580"
+}

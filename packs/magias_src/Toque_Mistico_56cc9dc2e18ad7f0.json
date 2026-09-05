@@ -1,0 +1,20 @@
+{
+  "name": "Toque Místico",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva você a infunde com inspiração momentânea. Se o alvo usar uma Habilidade com Custo de Mana igual ou menor a 30, ele não gasta nenhum Ponto de Mana. Essa magia não tem efeito em Habilidades com Custo de Mana maiores do que 30 e não pode ser usada sobre você mesmo. Este Selo Místico dura até o final do próximo turno do alvo, mas se ele gastar Pontos de Mana antes disso, o Selo se dissipa imediatamente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "toque-mistico",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "56cc9dc2e18ad7f0",
+  "_key": "!items!56cc9dc2e18ad7f0"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Veneno de Koth",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 9999,
+    "description": "<p>Veneno Mágico. For(12)/dia por 10 dias. Falha envelhece 10 anos. Sucesso crítico cura. Falha Crítica deixa Por um Fio.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-de-koth",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "7c7a626ff9619959",
+  "_key": "!items!7c7a626ff9619959"
+}

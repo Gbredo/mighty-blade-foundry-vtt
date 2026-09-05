@@ -1,0 +1,28 @@
+{
+  "name": "Clava",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+6",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1.5,
+    "quantidade": 1,
+    "custo": 75,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "clava",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "bfe6eea37fe6e3a6",
+  "_key": "!items!bfe6eea37fe6e3a6"
+}

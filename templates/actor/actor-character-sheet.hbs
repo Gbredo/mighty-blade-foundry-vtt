@@ -221,7 +221,7 @@
       <section class="attributes-boxes-grid">
         
         {{!-- FORÇA --}}
-        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="forca" title="Rolar Teste de Força (3d6 + Força)">
+        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="forca" title="Rolar Teste de Força (2d6 + Força)">
           <div class="attr-card-header">
             <span class="attr-name">{{localize "MB.Forca"}}</span>
             <i class="fas fa-dice-d6 attr-dice-icon"></i>
@@ -240,11 +240,11 @@
               <span class="attr-number">{{system.attributes.forca.value}}</span>
             {{/if}}
           </div>
-          <span class="attr-badge-sub">3d6 + FOR</span>
+          <span class="attr-badge-sub">2d6 + FOR</span>
         </div>
 
         {{!-- AGILIDADE --}}
-        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="agilidade" title="Rolar Teste de Agilidade (3d6 + Agilidade)">
+        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="agilidade" title="Rolar Teste de Agilidade (2d6 + Agilidade)">
           <div class="attr-card-header">
             <span class="attr-name">{{localize "MB.Agilidade"}}</span>
             <i class="fas fa-dice-d6 attr-dice-icon"></i>
@@ -263,11 +263,11 @@
               <span class="attr-number">{{system.attributes.agilidade.value}}</span>
             {{/if}}
           </div>
-          <span class="attr-badge-sub">3d6 + AGI</span>
+          <span class="attr-badge-sub">2d6 + AGI</span>
         </div>
 
         {{!-- INTELIGÊNCIA --}}
-        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="inteligencia" title="Rolar Teste de Inteligência (3d6 + Inteligência)">
+        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="inteligencia" title="Rolar Teste de Inteligência (2d6 + Inteligência)">
           <div class="attr-card-header">
             <span class="attr-name">{{localize "MB.Inteligencia"}}</span>
             <i class="fas fa-dice-d6 attr-dice-icon"></i>
@@ -286,11 +286,11 @@
               <span class="attr-number">{{system.attributes.inteligencia.value}}</span>
             {{/if}}
           </div>
-          <span class="attr-badge-sub">3d6 + INT</span>
+          <span class="attr-badge-sub">2d6 + INT</span>
         </div>
 
         {{!-- VONTADE --}}
-        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="vontade" title="Rolar Teste de Vontade (3d6 + Vontade)">
+        <div class="attr-card rollable" data-roll-type="attribute" data-attribute="vontade" title="Rolar Teste de Vontade (2d6 + Vontade)">
           <div class="attr-card-header">
             <span class="attr-name">{{localize "MB.Vontade"}}</span>
             <i class="fas fa-dice-d6 attr-dice-icon"></i>
@@ -309,7 +309,7 @@
               <span class="attr-number">{{system.attributes.vontade.value}}</span>
             {{/if}}
           </div>
-          <span class="attr-badge-sub">3d6 + VON</span>
+          <span class="attr-badge-sub">2d6 + VON</span>
         </div>
 
       </section>
@@ -323,21 +323,24 @@
             <span class="res-title"><i class="fas fa-heart"></i> Pontos de Vida (PV)</span>
             <div class="res-inputs-group">
               <input
-                type="text"
+                type="number"
                 name="system.resources.vida.value"
                 value="{{system.resources.vida.value}}"
                 data-dtype="Number"
                 class="res-input-current"
-                title="Vida Atual"
+                title="Vida Atual (0 a {{system.resources.vida.max}})"
+                min="0"
+                max="{{system.resources.vida.max}}"
               />
               <span class="res-slash">/</span>
               <input
-                type="text"
+                type="number"
                 name="system.resources.vida.max"
                 value="{{system.resources.vida.max}}"
                 data-dtype="Number"
                 class="res-input-max"
                 title="Vida Máxima"
+                min="0"
               />
             </div>
           </div>
@@ -352,21 +355,24 @@
             <span class="res-title"><i class="fas fa-fire-flame-curved"></i> Pontos de Mana (PM)</span>
             <div class="res-inputs-group">
               <input
-                type="text"
+                type="number"
                 name="system.resources.mana.value"
                 value="{{system.resources.mana.value}}"
                 data-dtype="Number"
                 class="res-input-current"
-                title="Mana Atual"
+                title="Mana Atual (0 a {{system.resources.mana.max}})"
+                min="0"
+                max="{{system.resources.mana.max}}"
               />
               <span class="res-slash">/</span>
               <input
-                type="text"
+                type="number"
                 name="system.resources.mana.max"
                 value="{{system.resources.mana.max}}"
                 data-dtype="Number"
                 class="res-input-max"
                 title="Mana Máxima"
+                min="0"
               />
             </div>
           </div>
@@ -435,8 +441,11 @@
 
       {{!-- ARMAS & ATAQUES TÁTICOS --}}
       <section class="attacks-section">
-        <div class="section-title-bar">
+        <div class="section-title-bar" style="display:flex;align-items:center;justify-content:space-between;">
           <span><i class="fas fa-swords"></i> Armas & Ataques</span>
+          <a class="open-compendium-browser" data-type="arma" title="Explorar Armas no Compêndio" style="font-size:0.75rem;color:#fbbf24;cursor:pointer;font-weight:normal;text-decoration:none;">
+            <i class="fas fa-book-open"></i> Compêndio de Armas
+          </a>
         </div>
         <ol class="items-list attacks-list">
           <li class="item flexrow items-header">

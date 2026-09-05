@@ -1,0 +1,26 @@
+{
+  "name": "Escudo de Corpo",
+  "type": "armadura",
+  "img": "icons/equipment/shield/heater-wooden-brown.webp",
+  "system": {
+    "defesa": 3,
+    "fn": 5,
+    "subtipo": "escudo",
+    "pesada": false,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 9,
+    "quantidade": 1,
+    "custo": 200,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "escudo-de-corpo",
+      "categoria": "Defesa"
+    }
+  },
+  "_id": "bdeb9c878402480f",
+  "_key": "!items!bdeb9c878402480f"
+}

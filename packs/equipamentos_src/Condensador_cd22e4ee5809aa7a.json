@@ -1,0 +1,22 @@
+{
+  "name": "Condensador",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.008,
+    "quantidade": 1,
+    "custo": 10,
+    "description": "<p>Tubo de vidro com suporte, usado para destilação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "condensador",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "cd22e4ee5809aa7a",
+  "_key": "!items!cd22e4ee5809aa7a"
+}

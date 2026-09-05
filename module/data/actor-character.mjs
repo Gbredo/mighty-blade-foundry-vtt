@@ -72,6 +72,12 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     this._prepareEquipamento();
     this._prepareDefesas();
     this._prepareSubattributes();
+    if (this.resources?.vida) {
+      this.resources.vida.value = Math.min(Math.max(Number(this.resources.vida.value) || 0, 0), Number(this.resources.vida.max) || 60);
+    }
+    if (this.resources?.mana) {
+      this.resources.mana.value = Math.min(Math.max(Number(this.resources.mana.value) || 0, 0), Number(this.resources.mana.max) || 60);
+    }
   }
 
   // ---------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+{
+  "name": "Cultista",
+  "type": "caminho",
+  "img": "systems/mighty-blade/assets/forja/cultista.png",
+  "system": {
+    "requisitos": "Pacto.",
+    "habilidadeAutomatica": "Invocação Infernal",
+    "racasComuns": "Humano e Naga.",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.62e5078a5daba2bd\" data-slug=\"cultista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Pacto.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cultista",
+      "diarioId": "62e5078a5daba2bd"
+    }
+  },
+  "_id": "042625d7bcd839e0",
+  "_key": "!items!042625d7bcd839e0"
+}

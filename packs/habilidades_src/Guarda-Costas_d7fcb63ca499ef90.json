@@ -1,0 +1,27 @@
+{
+  "name": "Guarda-Costas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Séquito",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você promoveu um de seus seguidores – ou dispensou um deles para contratar outro – para que ele pudesse oferecer efetivamente alguma proteção para você. Um de seus seguidores passa a ser um PDM de nível 1 de uma Classe que não seja conjuradora. Você pode criar a ficha do seu guarda-costas ou optar que o Mestre faça isso – um Paladino com o Código da Coragem é a opção mais indicada. O guarda-costas é um PDM controlado pelo Mestre, mas ele seguirá suas ordens desde que possa manter você dentro da sua linha de visão. Caso seu guarda-costas morra, seja dispensado, lhe abandone ou de alguma outra forma deixe de servir você, você pode contratar ou atrair um novo guarda-costas usando as mesmas regras listadas. O guarda-costas terá equipamentos adequados à sua Classe que não ultrapassem 200 moedas, mas você pode fornecer equipamentos melhores se tiver condições.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guarda-costas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d7fcb63ca499ef90",
+  "_key": "!items!d7fcb63ca499ef90"
+}

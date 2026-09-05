@@ -1,0 +1,22 @@
+{
+  "name": "Banquete",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 75,
+    "description": "<p>Uma lauta refeição contendo vinhos, carnes, pães doces e salgados, queijos, vegetais frescos, saladas e frutas frescas e cristalizadas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "banquete",
+      "categoria": "Servico"
+    }
+  },
+  "_id": "86542e200ad5bd2e",
+  "_key": "!items!86542e200ad5bd2e"
+}

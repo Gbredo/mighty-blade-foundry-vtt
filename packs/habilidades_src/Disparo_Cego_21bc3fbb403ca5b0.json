@@ -1,0 +1,27 @@
+{
+  "name": "Disparo Cego",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Prever Posição",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Se você sabe que o alvo está lá, você pode acertá-lo! Se você sabe que um alvo invisível ou camuflado existe, você pode fazer um ataque à distância contra ele sem qualquer penalidade. Essa Habilidade também se aplica quando o personagem está cego ou de outra forma impedido de perceber inimigos – ele sempre pode fazer ataques à distância sem penalidades devido à visão impedida ou ruim.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "disparo-cego",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "21bc3fbb403ca5b0",
+  "_key": "!items!21bc3fbb403ca5b0"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Picareta de Prospecção",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+3",
+    "tipoDano": [
+      "Perfuracao"
+    ],
+    "fn": 2,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "DuasMaos"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Ferramenta geológica leve para quebrar amostras de minério e prospecção.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "picareta-de-prospeccao",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "d6f5944b30c880b0",
+  "_key": "!items!d6f5944b30c880b0"
+}

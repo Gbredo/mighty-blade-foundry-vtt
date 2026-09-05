@@ -1,0 +1,27 @@
+{
+  "name": "Imunidade Espiritual",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Comunhão com Es-",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>píritos. Você não recebe nenhum dano de criaturas etéreas (fantasmas, espectros, etc.), e rola +1d6 em todos os testes de Vontade ligados a estas criaturas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "imunidade-espiritual",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "38e678cc56cdc2a3",
+  "_key": "!items!38e678cc56cdc2a3"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Código da Coragem",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você não teme a morte, principalmente na proteção dos indefesos. Você nunca pode fugir de uma luta justa e deve sempre proteger os mais fracos – com a vida, se necessário. Você é imune a todos os efeitos de Medo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "codigo-da-coragem",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "37eeb5f4e7b2e3a7",
+  "_key": "!items!37eeb5f4e7b2e3a7"
+}

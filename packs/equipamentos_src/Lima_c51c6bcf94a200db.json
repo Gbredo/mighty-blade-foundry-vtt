@@ -1,0 +1,22 @@
+{
+  "name": "Lima",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.25,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Haste de aço dentado usado para desbate de madeira e metal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lima",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "c51c6bcf94a200db",
+  "_key": "!items!c51c6bcf94a200db"
+}

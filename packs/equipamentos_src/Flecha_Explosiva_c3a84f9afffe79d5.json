@@ -1,0 +1,22 @@
+{
+  "name": "Flecha Explosiva",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Causa dano adicional igual a 12/Fogo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flecha-explosiva",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "c3a84f9afffe79d5",
+  "_key": "!items!c3a84f9afffe79d5"
+}

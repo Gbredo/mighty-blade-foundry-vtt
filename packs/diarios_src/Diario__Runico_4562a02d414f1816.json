@@ -1,0 +1,42 @@
+{
+  "_id": "4562a02d414f1816",
+  "name": "Diário: Rúnico",
+  "pages": [
+    {
+      "_id": "e8adfeba1334b38a",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/runico2.png\" alt=\"Rúnico\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><p>Além disso, muitos Rúnicos concentram parte de sua atenção especificamente ao uso de itens mágicos, particularmente armas mágicas, não só para aumentar seu arsenal mas também quando combatem outros conjuradores, que podem ser eficientes na defesa contra conjurações mas geralmente não podem se defender tão bem de itens mágicos permanente. Muitos Rúnicos também focam seus interesses em itens mágicos na direção oposta, usando habilidades que desativem itens mágicos temporariamente e eliminem Selos e Runas de seus inimigos, como uma forma de eliminar as vantagens de seus oponentes quando os mesmos são outros Rúnicos ou quando fazem uso extensivo de itens mágicos e encantamentos.</p><p>Rúnicos possuem, no entanto, um conhecimento teórico sobre o uso de magia arcana do mesmo modo que qualquer outro conjurador, e além de terem alguns conhecimentos de magias mais básicas – principalmente defensivas – são capazes de conjurar qualquer magia arcana a partir de um tomo, e muitos deles carregam consigo um grimório com algumas magias que podem ser úteis (como Levitar ou Teleporte) ou que podem lhes fornecer mais opções em combate (como Ariete Mágico ou Manto Crepitante).</p><p>Essas características somadas tornam os Rúnicos combatentes competentes, particularmente eficientes contra conjuradores e criaturas sobrenaturais. De fato, alguns reinos – como Parband, Dagothar e Bryne – mantém contingentes de Rúnicos para lidar especificamente com conjuradores malignos e ameaças mágicas.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Astério, Fira e Mahok</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!4562a02d414f1816.e8adfeba1334b38a"
+    },
+    {
+      "_id": "e208170a5d85814d",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (34 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>aparar-magia</strong></li><li><strong>arma-fiel</strong></li><li><strong>arma-incandescente</strong></li><li><strong>arma-gelida</strong></li><li><strong>arma-relampejante</strong></li><li><strong>armadura-fiel</strong></li><li><strong>ataque-fantasma</strong></li><li><strong>combate-tatico</strong></li><li><strong>conjurar-escudo</strong></li><li><strong>desativar-item</strong></li><li><strong>detectar-magia</strong></li><li><strong>enfeiticar-arma-1</strong></li><li><strong>enfeiticar-armadura</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>onda-de-chamas</strong></li><li><strong>onda-de-frio</strong></li><li><strong>onda-de-raios</strong></li><li><strong>onda-fantasma</strong></li><li><strong>resistencia-elemental</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>aptidao-elemental</strong></li><li><strong>ataque-chocante</strong></li><li><strong>ataque-congelante</strong></li><li><strong>ataque-flamejante</strong></li><li><strong>golpe-do-vento</strong></li><li><strong>dissipar-magia</strong></li><li><strong>enfeiticar-arma-2</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>destruicao-elemental</strong></li><li><strong>conhecimento-mistico</strong></li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!4562a02d414f1816.e208170a5d85814d"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/runico2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "runico",
+      "tipo": "classe"
+    }
+  },
+  "_key": "!journal!4562a02d414f1816"
+}

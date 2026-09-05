@@ -1,0 +1,30 @@
+{
+  "name": "Maça Pesada",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+8",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 5,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2.5,
+    "quantidade": 1,
+    "custo": 150,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "maca-pesada",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "082f5b3fa8010253",
+  "_key": "!items!082f5b3fa8010253"
+}

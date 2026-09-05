@@ -1,0 +1,20 @@
+{
+  "name": "Infravisão",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 5,
+    "dificuldade": 9,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Detectar Magia</p><p>Inflamar Você desenha uma Runa Arcana sobre um alvo, que passa a perceber o calor que emana dos objetos e criaturas sobrepondo a sua visão normal. Ele pode enxergar normalmente em locais sem iluminação nenhuma, pode perceber criaturas invisíveis pelo calor (ou frio) que elas emanam e consegue identificar ilusões, já que elas não emanam calor nem frio. Essa Runa Arcana dura 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "infravisao",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "6501138cc587ba2f",
+  "_key": "!items!6501138cc587ba2f"
+}

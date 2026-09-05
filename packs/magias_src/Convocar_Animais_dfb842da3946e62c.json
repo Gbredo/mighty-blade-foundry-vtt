@@ -1,0 +1,20 @@
+{
+  "name": "Convocar Animais",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre si mesmo, você consegue atrair todas as Bestas escolhidas entre Mamífero, Ave, Réptil ou Peixe que estejam a até 1 km de você. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais sobreviventes ou agressivos não terão problemas com isso. Esse Selo Místico dura 1 hora. Depois disso, as Bestas afetadas voltarão pacificamente para os locais de onde vieram. Especial: Você pode refinar o tipo específico de animal (“Ursos”, “Marsupiais”, “Batráquios”) ou até mesmo um animal específico (“Aquele esquilo com quem eu conversei ontem”, “meu Companheiro Animal”, “O cão do guarda-caça”) quando conjurar essa magia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "convocar-animais",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "dfb842da3946e62c",
+  "_key": "!items!dfb842da3946e62c"
+}

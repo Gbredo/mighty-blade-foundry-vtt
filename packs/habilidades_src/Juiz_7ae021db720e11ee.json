@@ -1,0 +1,27 @@
+{
+  "name": "Juiz",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 25,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Mastim.",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é muito bom em extrair a verdade de seus interlocutores. Quando tiver detectado uma mentira, você pode ordenar ao alvo que diga a verdade. O alvo realiza um teste de Vontade (dificuldade igual à sua Determinação) e se falhar ele deve, imediatamente, contar a verdade dentro dos seus conhecimentos (o alvo não pode modificar nenhum fato nem suprimir nenhuma informação que souber). Além disso, o alvo também fica Amedrontado em relação a você por um número de minutos igual à sua Vontade. Este é um efeito mental.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "juiz",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "7ae021db720e11ee",
+  "_key": "!items!7ae021db720e11ee"
+}

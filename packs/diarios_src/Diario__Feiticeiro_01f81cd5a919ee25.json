@@ -1,0 +1,42 @@
+{
+  "_id": "01f81cd5a919ee25",
+  "name": "Diário: Feiticeiro",
+  "pages": [
+    {
+      "_id": "a42a95c3b864e636",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/feiticeiro2.png\" alt=\"Feiticeiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><p>Apesar de possuírem um domínio considerável sobre a teoria geral da magia arcana, os Feiticeiros focam seus esforços no domínio e manipulação dessas energias brutas, geralmente para fins combativos. Muitos Feiticeiros ocupam posições em exércitos ou guardas organizadas, às vezes na linha de frente, às vezes como conselheiros ou em posições de liderança. Em geral, aqueles que decidem seguir o aprendizado de Feiticeiro são pessoas com sede de aventura ou de poder, o que geralmente lhes rende bons frutos em organizações com cadeias de comando bem estruturadas.</p><p>No entanto, muitos Feiticeiros estudam as teorias elementais da magia em busca de significados mais filosóficos. Esses Feiticeiros geralmente evitam usar magias de forma destrutiva, procurando usá-las de modo mais brando, usualmente preferindo magias defensivas e utilitárias em lugar de magias puramente ofensivas.</p><p><strong>Raças Mais Frequentes:</strong> Elfo, Faen, Fira, Humano e Metadílio</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!01f81cd5a919ee25.a42a95c3b864e636"
+    },
+    {
+      "_id": "a573a8b7f6af9784",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>aparar-magia</strong></li><li><strong>ariete-magico</strong></li><li><strong>bola-de-fogo</strong></li><li><strong>congelar</strong></li><li><strong>detectar-magia</strong></li><li><strong>eletricidade-estatica</strong></li><li><strong>inflamar</strong></li><li><strong>infravisao</strong></li><li><strong>invocar-elemental-1</strong></li><li><strong>invocar-elemental-2</strong></li><li><strong>levitar</strong></li><li><strong>manto-crepitante</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>parede-de-gelo</strong></li><li><strong>rajada-de-gelo</strong></li><li><strong>relampago-1</strong></li><li><strong>rajada-elemental</strong></li><li><strong>resistencia-elemental</strong></li><li><strong>telecinesia</strong></li><li><strong>teleporte-1</strong></li><li><strong>aptidao-elemental</strong></li><li><strong>dissipar-magia</strong></li><li><strong>eletrosfera</strong></li><li><strong>incandescer</strong></li><li><strong>inferno</strong></li><li><strong>invocar-elemental-3</strong></li><li><strong>prisao-de-gelo</strong></li><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!01f81cd5a919ee25.a573a8b7f6af9784"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/feiticeiro2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "feiticeiro",
+      "tipo": "classe"
+    }
+  },
+  "_key": "!journal!01f81cd5a919ee25"
+}

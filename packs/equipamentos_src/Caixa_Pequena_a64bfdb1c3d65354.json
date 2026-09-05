@@ -1,0 +1,22 @@
+{
+  "name": "Caixa Pequena",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 8,
+    "quantidade": 1,
+    "custo": 2,
+    "description": "<p>Caixa quadrada de madeira com 50 cm de lado.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "caixa-pequena",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "a64bfdb1c3d65354",
+  "_key": "!items!a64bfdb1c3d65354"
+}

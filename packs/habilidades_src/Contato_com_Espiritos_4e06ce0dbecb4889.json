@@ -1,0 +1,27 @@
+{
+  "name": "Contato com Espíritos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 5,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode se comunicar com os espíritos que estejam próximos. Você é capaz de ouvir e ver qualquer espírito num raio de 20 metros. Esse efeito dura 10 minutos. Você pode gastar 10 Pontos de Mana enquanto estiver sob o efeito dessa Habilidade para ser capaz de tocar espíritos por 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "contato-com-espiritos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "4e06ce0dbecb4889",
+  "_key": "!items!4e06ce0dbecb4889"
+}

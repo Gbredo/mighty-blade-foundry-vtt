@@ -1,0 +1,43 @@
+{
+  "name": "Patas com Cascos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "correr, saltar ou desviar de obstáculos"
+      },
+      {
+        "tipo": "bonusDeslocamento",
+        "valor": 1
+      },
+      {
+        "tipo": "ataqueNatural",
+        "parte": "cascos",
+        "dano": "Forca+2",
+        "tipoDano": "Contusao"
+      }
+    ],
+    "description": "<p>+1d6 para correr, saltar ou desviar de obstáculos. Deslocamento +1. Ataque desarmado com cascos causa Força+2/Contusão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "patas-com-cascos",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "dcd6b4da3bd28b9b",
+  "_key": "!items!dcd6b4da3bd28b9b"
+}

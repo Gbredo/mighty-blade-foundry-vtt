@@ -1,0 +1,22 @@
+{
+  "name": "Balas",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.02,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Esferas de metal ou pedra para Fustíbalo, Prodd e Funda.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "balas",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "d0094f5c46f6484e",
+  "_key": "!items!d0094f5c46f6484e"
+}

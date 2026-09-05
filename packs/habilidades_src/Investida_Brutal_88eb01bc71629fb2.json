@@ -1,0 +1,27 @@
+{
+  "name": "Investida Brutal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Dizem que a melhor defesa é o ataque – e você sabe como tornar essa máxima em realidade! Sempre que fizer um ataque de encontrão ou utilizar uma Habilidade que exija uma manobra de encontrão como parte de sua ativação, adicione o seu bônus de Bloqueio ao dano do seu ataque. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "investida-brutal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "88eb01bc71629fb2",
+  "_key": "!items!88eb01bc71629fb2"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Instrumentos de Cartografia",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.053,
+    "quantidade": 1,
+    "custo": 25,
+    "description": "<p>Pena, frasco de tinta, régua e compasso.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "instrumentos-de-cartografia",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "33435787f5c0b14d",
+  "_key": "!items!33435787f5c0b14d"
+}

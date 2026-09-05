@@ -1,0 +1,27 @@
+{
+  "name": "Combate Pesado",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "Combate Tático",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que você fizer uma manobra de encontrão ou um ataque corporal enquanto estiver portando uma arma de duas mãos ou um escudo, você pode rolar novamente 1 dos dados em seus testes de ataque. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade 1 vez por turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "combate-pesado",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "094c1de2f36dd261",
+  "_key": "!items!094c1de2f36dd261"
+}

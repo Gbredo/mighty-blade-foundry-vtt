@@ -1,0 +1,22 @@
+{
+  "name": "Luvas",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>De lã ou pelica, para proteger do frio.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "luvas",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "aee04be57c358c4d",
+  "_key": "!items!aee04be57c358c4d"
+}

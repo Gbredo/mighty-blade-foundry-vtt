@@ -1,0 +1,33 @@
+{
+  "name": "Constituição Feérica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "voo",
+        "velocidade": "dobro",
+        "restricoes": "Não pode planar; deve bater asas continuamente; requer descanso após 1 hora de voo"
+      }
+    ],
+    "description": "<p>Voo livre com dobro do deslocamento normal. Deve bater asas continuamente: não pode planar e deve descansar após 1 hora de voo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "constituicao-feerica",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "d641b1ef190cefe7",
+  "_key": "!items!d641b1ef190cefe7"
+}

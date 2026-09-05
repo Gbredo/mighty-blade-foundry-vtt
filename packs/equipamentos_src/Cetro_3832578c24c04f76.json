@@ -1,0 +1,33 @@
+{
+  "name": "Cetro",
+  "type": "arma",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "dano": "FOR+6",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "Canalizador",
+      "CerneArcano",
+      "CerneMistico",
+      "Registro"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1.5,
+    "quantidade": 1,
+    "custo": 75,
+    "description": "<p>Cetros são clavas sintonizadas a um conjurador por sua runa pessoal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cetro",
+      "categoria": "Conjuracao"
+    }
+  },
+  "_id": "3832578c24c04f76",
+  "_key": "!items!3832578c24c04f76"
+}

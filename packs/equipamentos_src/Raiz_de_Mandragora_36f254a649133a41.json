@@ -1,0 +1,22 @@
+{
+  "name": "Raiz de Mandrágora",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 1600,
+    "description": "<p>Componente. Forrageamento, Pântanos e Selvas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "raiz-de-mandragora",
+      "categoria": "Ingrediente"
+    }
+  },
+  "_id": "36f254a649133a41",
+  "_key": "!items!36f254a649133a41"
+}

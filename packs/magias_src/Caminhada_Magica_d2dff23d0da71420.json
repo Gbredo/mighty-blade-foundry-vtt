@@ -1,0 +1,20 @@
+{
+  "name": "Caminhada Mágica",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 9,
+    "circulo": 1,
+    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você permite que ela possa caminhar sobre qualquer tipo de superfície (incluindo líquidos), paredes ou teto e não sofre nenhum tipo de redutor ou penalidade de movimentação por terrenos difíceis ou acidentados. Finalmente, o alvo pode escolher á vontade se vai deixar rastros ou não enquanto esta runa estiver ativa sobre ele. Esse Selo Místico dura 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "caminhada-magica",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "d2dff23d0da71420",
+  "_key": "!items!d2dff23d0da71420"
+}

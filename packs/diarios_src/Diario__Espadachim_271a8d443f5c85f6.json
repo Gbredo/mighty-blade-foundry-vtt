@@ -1,0 +1,42 @@
+{
+  "_id": "271a8d443f5c85f6",
+  "name": "Diário: Espadachim",
+  "pages": [
+    {
+      "_id": "4468a73edde1ad19",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/espadachim2.png\" alt=\"Espadachim\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><p>Apesar da maioria dos Espadachins concentrar seu treinamento na maestria e proeza física, muitos deles preferem lançar mão de artifícios variados, truques sujos, enganação e até mesmo verborragia intensa para vencer desafios – de fato, muitos deles possuem línguas mais hábeis do que suas espadas! Um bom número de Espadachins é capaz de simplesmente abrir caminho através de inimigos simplesmente com sua capacidade de persuasão.</p><p>Além disso, Espadachins sempre preferem armaduras que restrinjam minimamente sua movimentação. Muitos até mesmo preferem não usar nenhum tipo de armadura, confiando puramente em seus reflexos para se defender.</p><p>Essas características somadas, muitas vezes fazem com que os Espadachins sejam vistos como medrosos, espertalhões ou, no mínimo, fanfarrões imprudentes – rótulos que, aliás, a maioria deles tende a incentivar, já que isso faz com que a maioria dos seus oponentes os subestimem em combate (geralmente apenas uma vez).</p><p>No entanto, existe um considerável número de Espadachins que veem os subterfúgios como uma maneira realmente covarde de lidar com inimigos e situações de perigo. Para estes, a proeza em combate e a coragem diante de qualquer desafio são as melhores armas à sua disposição. Esses Espadachins, em geral, são mais sérios e compenetrados, treinando incessantemente para aprimorar sua técnica de combate e tornar seus reflexos tão afiados quanto às lâminas que empunham, desdenhando de artifícios e artimanhas para vencer obstáculos – mas jamais subestimando aqueles que lançam mão de tais estratagemas.</p><p>Certamente a maioria dos combatentes que navegam pelos mares de Drakon são Espadachins. Além da agilidade necessária para se manter equilibrado em um convés durante uma batalha naval, poucos seriam ousados – ou estúpidos – para vergar armaduras pesadas em um ambiente que pode transformar a proteção que elas oferecem em uma lenta e agonizante morte por afogamento.</p><p>Apesar deles não serem a maioria absoluta – Ladinos, Patrulheiros, Magos e Sacerdotes tanto de Ran quanto de Taranis são bastante numerosos nos conveses de navios mercantes ou de combate – os Espadachins certamente são os mais famosos marinheiros de Drakon. De fato, na maioria das áreas costeiras, Espadachim é sinônimo de Marinheiro.</p><p><strong>Raças Mais Frequentes:</strong> Fira, Humano, Levent e Tailox</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!271a8d443f5c85f6.4468a73edde1ad19"
+    },
+    {
+      "_id": "48141e9734fb2b91",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (38 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>orbe-de-contencao</strong></li><li><strong>punho-de-pedra</strong></li><li><strong>veneficio</strong></li><li><strong>hierofante</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>combate-com-duas-armas-1</strong></li><li><strong>combate-tatico</strong></li><li><strong>corte-arterial</strong></li><li><strong>danca-das-espadas-1</strong></li><li><strong>desarmar-oponente</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>investida-mortal</strong></li><li><strong>lingua-afiada</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>panache</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>touche</strong></li><li><strong>truque-sujo</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>danca-das-espadas-2</strong></li><li><strong>decapitar</strong></li><li><strong>implacavel</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>retalhar</strong></li><li><strong>ripostar</strong></li><li><strong>tempestade-de-laminas</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>senhor-das-laminas</strong></li><li><strong>conhecimento-arcano</strong></li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!271a8d443f5c85f6.48141e9734fb2b91"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/espadachim2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "espadachim",
+      "tipo": "classe"
+    }
+  },
+  "_key": "!journal!271a8d443f5c85f6"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Um Bom Conselho 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você incentiva um aliado com palavras de encorajamento sobre as aptidões dele. Aquele aliado recebe +1 sua Determinação e em todas as suas rolagens por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "um-bom-conselho-1",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f8317a1315cb2b3a",
+  "_key": "!items!f8317a1315cb2b3a"
+}

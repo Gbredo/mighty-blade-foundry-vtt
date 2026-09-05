@@ -1,0 +1,33 @@
+{
+  "name": "Força Heróica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "forca",
+      "valor": 1
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusAtributo",
+        "atributo": "forca",
+        "valor": 1
+      }
+    ],
+    "description": "<p>Concede Força +1 permanentemente.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "forca-heroica",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "e3cc2c17f56d1855",
+  "_key": "!items!e3cc2c17f56d1855"
+}

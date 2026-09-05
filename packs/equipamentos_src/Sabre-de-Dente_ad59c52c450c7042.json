@@ -1,0 +1,31 @@
+{
+  "name": "Sabre-de-Dente",
+  "type": "arma",
+  "img": "icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "dano": "FOR+7",
+    "tipoDano": [
+      "Corte"
+    ],
+    "fn": 3,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "Canalizador",
+      "CerneArcano"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 300,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sabre-de-dente",
+      "categoria": "Conjuracao"
+    }
+  },
+  "_id": "ad59c52c450c7042",
+  "_key": "!items!ad59c52c450c7042"
+}

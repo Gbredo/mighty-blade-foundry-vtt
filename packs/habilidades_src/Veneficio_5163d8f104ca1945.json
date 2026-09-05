@@ -1,0 +1,27 @@
+{
+  "name": "Venefício",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Herbalismo",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é um especialista na fabricação, aplicação e cura de venenos. Você pode produzir qualquer veneno ou antídoto mágico. Especial: Se você tiver alguma Habilidade do tipo Magia que cause dano por Perfuração ou Corte em um alvo, ela também aplicam um efeito de veneno potente (O alvo perde 5 Pontos de Vida por turno) além do dano normal. Esse veneno é considerado mágico e permanece ativo por uma quantidade de turnos igual à sua Vontade ou até ser curado. Habilidade Final</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneficio",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "5163d8f104ca1945",
+  "_key": "!items!5163d8f104ca1945"
+}

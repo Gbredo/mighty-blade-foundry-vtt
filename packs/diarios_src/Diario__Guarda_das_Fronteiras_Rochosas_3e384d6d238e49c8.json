@@ -1,0 +1,28 @@
+{
+  "_id": "3e384d6d238e49c8",
+  "name": "Diário: Guarda das Fronteiras Rochosas",
+  "pages": [
+    {
+      "_id": "7f8bbf1394a02b57",
+      "name": "Crônicas e Estatuto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_guarda.png\" alt=\"Guarda das Fronteiras Rochosas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Militar</li><li><strong>Sede Oficial:</strong> Stord</li><li><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</li><li><strong>Condições de Ingresso:</strong> Treinamento, seguido de alistamento</li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!3e384d6d238e49c8.7f8bbf1394a02b57"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/org_guarda.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "guarda-das-fronteiras-rochosas",
+      "tipo": "organizacao"
+    }
+  },
+  "_key": "!journal!3e384d6d238e49c8"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Flexível",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Hamelin",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "correr, escalar, equilibrar e escapar de amarras/agarrões"
+      }
+    ],
+    "description": "<p>Você tem o corpo extremamente flexível. Você pode passar por aberturas como se tivesse metade do seu tamanho, escorrega facilmente de grilhões e amarras, e recebe +2 em testes de correr, escalar, equilibrar e escapar de agarrões. Armaduras Pesadas anulam este benefício.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "flexivel",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a277418accae3c2c",
+  "_key": "!items!a277418accae3c2c"
+}

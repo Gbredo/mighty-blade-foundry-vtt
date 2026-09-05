@@ -1,0 +1,27 @@
+{
+  "name": "Malabarista",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Raças: Todas Você tem uma ótima coordenação para jogar e pegar objetos no ar. Além de poder realizar malabarismos – mesmo usando objetos perigosos como adagas ou tochas – como entretenimento, você recebe +2 em todas as suas jogadas para arremessar objetos e +1 na Defesa contra ataques à distância. Esse bônus de Defesa conta como Esquiva.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "malabarista",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "8f05bee8325a0138",
+  "_key": "!items!8f05bee8325a0138"
+}

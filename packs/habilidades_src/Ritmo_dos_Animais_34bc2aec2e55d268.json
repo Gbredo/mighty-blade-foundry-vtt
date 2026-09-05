@@ -1,0 +1,27 @@
+{
+  "name": "Ritmo dos Animais",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Bestas de um tipo específico a até 2× DET metros seguem você docilmente enquanto tocar. Efeito quebra se elas sofrerem dano.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ritmo-dos-animais",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "34bc2aec2e55d268",
+  "_key": "!items!34bc2aec2e55d268"
+}

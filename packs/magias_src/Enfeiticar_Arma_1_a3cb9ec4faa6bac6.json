@@ -1,0 +1,20 @@
+{
+  "name": "Enfeitiçar Arma 1",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +1 nas rolagens de ataque e nos danos dessa arma. Essa Runa Arcana dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "enfeiticar-arma-1",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "a3cb9ec4faa6bac6",
+  "_key": "!items!a3cb9ec4faa6bac6"
+}

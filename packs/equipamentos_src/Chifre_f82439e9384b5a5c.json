@@ -1,0 +1,22 @@
+{
+  "name": "Chifre",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Sopro feito de um pequeno chifre ou metal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chifre",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "f82439e9384b5a5c",
+  "_key": "!items!f82439e9384b5a5c"
+}

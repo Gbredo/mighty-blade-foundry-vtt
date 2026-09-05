@@ -1,0 +1,22 @@
+{
+  "name": "Óleo de Fogo Alquímico",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.3,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Pode ser untado em uma arma por 10 rodadas (+3 de dano por Fogo) ou arremessado como granada incendiária.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "oleo-de-fogo-alquimico",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "a38d9b441137c3d2",
+  "_key": "!items!a38d9b441137c3d2"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Invocar Exército de Tinta",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Espírito de",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Tinta Enquanto a tatuagem do seu Espírito Animal estiver à mostra, você pode invocar múltiplos espíritos animais espectrais a partir dela. Você pode invocar múltiplos espíritos de uma só vez usando Espírito de Tinta, mas só pode manter simultaneamente um número de espíritos igual à sua Vontade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-exercito-de-tinta",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d45d6279f0956053",
+  "_key": "!items!d45d6279f0956053"
+}

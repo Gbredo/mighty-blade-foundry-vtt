@@ -1,0 +1,27 @@
+{
+  "name": "Faz-Tudo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Humano",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>+1 em qualquer rolagem de habilidade não treinada.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "faz-tudo",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "058bf77b3fe526c6",
+  "_key": "!items!058bf77b3fe526c6"
+}

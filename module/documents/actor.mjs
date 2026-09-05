@@ -36,6 +36,26 @@ export class MightyBladeActor extends Actor {
   }
 
   /** @override */
+  async _preUpdate(changed, options, user) {
+    await super._preUpdate(changed, options, user);
+
+    // Clampa vida (PV) e mana (PM) automaticamente para não exceder o máximo nem ser menor que zero
+    const vidaVal = foundry.utils.getProperty(changed, "system.resources.vida.value");
+    const vidaMax = foundry.utils.getProperty(changed, "system.resources.vida.max") ?? this.system?.resources?.vida?.max ?? 60;
+    if (vidaVal !== undefined) {
+      const clamped = Math.min(Math.max(Number(vidaVal) || 0, 0), Number(vidaMax) || 60);
+      foundry.utils.setProperty(changed, "system.resources.vida.value", clamped);
+    }
+
+    const manaVal = foundry.utils.getProperty(changed, "system.resources.mana.value");
+    const manaMax = foundry.utils.getProperty(changed, "system.resources.mana.max") ?? this.system?.resources?.mana?.max ?? 60;
+    if (manaVal !== undefined) {
+      const clamped = Math.min(Math.max(Number(manaVal) || 0, 0), Number(manaMax) || 60);
+      foundry.utils.setProperty(changed, "system.resources.mana.value", clamped);
+    }
+  }
+
+  /** @override */
   async _onCreateEmbeddedDocuments(
     embeddedName,
     documents,

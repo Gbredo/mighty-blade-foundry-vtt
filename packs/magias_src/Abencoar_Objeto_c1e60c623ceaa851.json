@@ -1,0 +1,20 @@
+{
+  "name": "Abençoar Objeto",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 10,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre uma arma ou armadura para que ela se torne mais eficiente contra criaturas sobrenaturais. Uma arma abençoada causa +6 de dano contra demônios, mortos-vivos e espíritos, além de atingir criaturas incorpóreas como se elas não tivessem a Habilidade Corpo Intangível. Se você abençoar uma armadura, qualquer demônio, morto-vivo ou espírito que tocá-la (incluindo com ataques desarmados) perde imediatamente 6 Pontos de Vida – e perde 6 Pontos de vida a cada turno que comece em contato com a armadura. Esse Selo Místico dura 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "abencoar-objeto",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "c1e60c623ceaa851",
+  "_key": "!items!c1e60c623ceaa851"
+}

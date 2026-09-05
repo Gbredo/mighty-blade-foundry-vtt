@@ -1,0 +1,20 @@
+{
+  "name": "Conjurar Arma dos Deuses",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 10,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Dogma</p><p>Você desenha um Selo Místico no ar que se materializa na forma da arma favorecida pela sua divindade (consulte a lista de Dogmas na página 143 para ver a arma de sua divindade). O Selo Místico que conjura a arma se dissipa após 1 minuto, mas se você soltar a arma ele se dissipa imediatamente. Conjurar Lança</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurar-arma-dos-deuses",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "b2a166c8ccb3519e",
+  "_key": "!items!b2a166c8ccb3519e"
+}

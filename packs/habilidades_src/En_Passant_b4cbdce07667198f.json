@@ -1,0 +1,27 @@
+{
+  "name": "En Passant",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5 Flanquear",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Se um alvo que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer uma ação normal contra ele. O alvo é considerado Desprevenido contra essa ação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "en-passant",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "b4cbdce07667198f",
+  "_key": "!items!b4cbdce07667198f"
+}

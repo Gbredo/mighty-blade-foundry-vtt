@@ -1,0 +1,27 @@
+{
+  "name": "Investida Mortal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Faça uma manobra de encontrão contra um alvo. Se acertar, esse ataque causa +10 de dano e deixa o alvo Atordoado (veja Condições na página 169) por 1 turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "investida-mortal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "ff4c04f028e2e5e8",
+  "_key": "!items!ff4c04f028e2e5e8"
+}

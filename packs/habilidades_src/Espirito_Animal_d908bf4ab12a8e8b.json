@@ -1,0 +1,27 @@
+{
+  "name": "Espírito Animal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu espírito possui a forma de um animal. Escolha um Espírito Animal para ser seu guia. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Espíritos Animais na pág. 169.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espirito-animal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d908bf4ab12a8e8b",
+  "_key": "!items!d908bf4ab12a8e8b"
+}

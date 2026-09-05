@@ -1,0 +1,20 @@
+{
+  "name": "Coagular Sangue",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 0,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Percepção Sanguínea.</p><p>Desenhando uma Runa Arcana sobre uma criatura viva, você pode engrossar seu sangue com efeitos benéficos – ou mortais! Você pode coagular apenas sangue exposto, cessando assim todos os efeitos de Sangramento que a criatura estiver sofrendo por um custo de 5 Pontos de Mana. Você pode engrossar levemente o sangue dentro das veias da criatura fazendo com que ela fique desorientada, ficando Atordoada por um número de turnos igual à Vontade do Conjurador por 15 Pontos de Mana. Ou você pode coagular o sangue do alvo, fazendo com que o alvo perca 30 Pontos de Vida e fique Distraído por 1 turno devido ao mal estar súbito por um custo de 30 Pontos de Mana.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coagular-sangue",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "b4ba8065cf08e558",
+  "_key": "!items!b4ba8065cf08e558"
+}

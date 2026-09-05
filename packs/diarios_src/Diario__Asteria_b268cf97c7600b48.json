@@ -1,0 +1,28 @@
+{
+  "_id": "b268cf97c7600b48",
+  "name": "Diário: Astéria",
+  "pages": [
+    {
+      "_id": "3a1c79e1c56077cc",
+      "name": "Astéria — Biologia, Cultura e Nomes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/asterio.png\" alt=\"Astéria\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 80 anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Mamíferos humanoides com quatro dedos nas mãos e pés, sendo que os dos pés são unidos em dois pares sob uma grossa estrutura queratinosa formando um casco fendido. Diferente dos machos, as fêmeas possuem um crânio muito mais frágil e desprovido de cornos, não passando de 1,60m de altura e 80 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado. A pelagem é grossa e esparsa (sendo mais cerrada na cabeça, pescoço, ombros e costas), com tonalidades marrons que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Enquanto os machos são brutamontes pesados que chegam a 2,30m e possuem grandes cornos, as Astérias são diminutas, frágeis e não desenvolvem chifres.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses. As fêmeas são consideradas adultas aos 15 anos de idade, começam a apresentar os primeiros sinais de envelhecimento aos 50 anos e vivem, em média, até os 80 anos.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> São nativos do reino de Parband. Sua sociedade segue regras simples que colocam o mérito pessoal acima de gênero ou raça. Não existem cargos hereditários; tudo é conquistado por demonstração de habilidade ou desafios. Na academia e nos liceus, os cargos de liderança são modificados e reavaliados anualmente por um conselho.</li><br><li><strong>O Papel Feminino (Liderança e Intelecto):</strong> Por serem fisicamente menores e mais frágeis, as fêmeas (junto a machos deformados) são enviadas ainda jovens para liceus onde aprendem matemática, engenharia e história. Na fase adulta, estudam estratégia, comércio e marinhagem. São as fêmeas que decidem o uso dos recursos da comunidade, criam as leis e aconselham os líderes militares. Para lazer, as fêmeas geralmente se dedicam a trabalhos artesanais como cerâmica e costura, os quais exibem com muito orgulho e certa timidez.</li><br><li><strong>Relações Interpessoais:</strong> Mantêm ótimas relações em Parband, mas evitam as terras de Tebryn. Lá, sofrem imenso preconceito e são pejorativamente chamadas de \"minotauros\", fama herdada das incursões violentas dos Astérios de Arkânia, que renderam à raça a reputação de monstros sanguinários.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua oficial da raça é o Reo. O idioma não possui os sons de “G”, “J” e a letra \"B\" não é usada em palavras tradicionais. Os nomes possuem de uma a três sílabas, sendo raros os monossílabos. Para as fêmeas, os nomes obrigatoriamente terminam em “A” ou “I”. Em geral, qualquer nome de origem havaiana ou maori adaptado para essas regras fonéticas funciona perfeitamente. Astérios não usam sobrenomes. Eles se identificam citando a organização para a qual trabalham ou seu ofício (ex: \"das Forjas de Hou\", \"da Armada da Aurora\"), adicionando também o seu posto e patente se houver.</p><h4>Nomes Femininos</h4><p>Akina, Hina, Kaili, Kairi, Lani, Mahina, Malia, Moana, Nani, Oliana, Ulani</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!b268cf97c7600b48.3a1c79e1c56077cc"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/asterio.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "asteria-f",
+      "tipo": "raca"
+    }
+  },
+  "_key": "!journal!b268cf97c7600b48"
+}

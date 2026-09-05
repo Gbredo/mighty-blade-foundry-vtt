@@ -1,0 +1,22 @@
+{
+  "name": "Veneno da Podridão",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 9999,
+    "description": "<p>Doença mágica decompõe o corpo do alvo For(12) a cada 12 horas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-da-podridao",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "f41c8068394fcc5b",
+  "_key": "!items!f41c8068394fcc5b"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Cimitarra",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+9",
+    "tipoDano": [
+      "Corte",
+      "Perfuracao"
+    ],
+    "fn": 5,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [
+      "MaoEMeia"
+    ],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2.5,
+    "quantidade": 1,
+    "custo": 225,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cimitarra",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "5b663004db472a31",
+  "_key": "!items!5b663004db472a31"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Bongô",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Dois pequenos tambores unidos, percutidos com as mãos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bongo",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "87aea53e167e2cc2",
+  "_key": "!items!87aea53e167e2cc2"
+}

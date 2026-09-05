@@ -1,0 +1,28 @@
+{
+  "_id": "4f5f3a73e5194065",
+  "name": "Diário: Levent",
+  "pages": [
+    {
+      "_id": "65a035b6196b9091",
+      "name": "Levent — Biologia, Cultura e Nomes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/levent.png\" alt=\"Levent\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 450(25) anos</li><li><strong>Ancião:</strong> — anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides dotados de grandes asas nas costas, com uma envergadura que chega a ser o dobro da altura do indivíduo. São menores e menos corpulentos que os humanos, medindo de 1,5 a 1,6 metros e pesando de 60 a 70 quilos. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem uma tonalidade bronzeada clara. Possuem uma penugem fina que cobre do alto da cabeça até a base das asas, ombros e antebraços. O resto do corpo é recoberto por penas pequenas e macias, com uma plumagem que varia do branco ao castanho escuro (sendo amarelo e castanho-claro os mais comuns).</li><br><li><strong>Olhos:</strong> São grandes e de coloração clara, variando entre azul, verde e âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem penas mais longas e grossas na cabeça, formando grandes penachos. As fêmeas, por sua vez, não possuem esse penacho, exibem traços mais delicados em geral e possuem duas pequenas mamas no peito.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em torno de 10 meses e gêmeos são extremamente raros. Os bebês nascem sem penas, mas desenvolvem uma plumagem branca logo no início, trocando-a pela versão adulta em torno dos cinco anos (período no qual ficam reclusos). Atingem a maioridade aos 16 anos, quando suas asas se desenvolvem para permitir o voo, e podem viver plenamente até os 500 anos de idade. Levents, assim como os Elfos, não sofrem os efeitos comuns de perda de vigor pelo envelhecimento e não entram na categoria Ancião. A partir da fase de Idoso, fazem testes a cada 25 anos; ao falharem repetidas vezes, têm ciência de sua partida iminente e se preparam para morrer placidamente.</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Habitam picos montanhosos e suas cidades são construídas em torres altas ou escavadas na rocha. A arquitetura não utiliza escadas; em vez disso, os ambientes possuem grandes balcões e vastos vãos livres e verticais feitos especificamente para o voo. Em Cassiopéia, vivem sobretudo no Arquipélago das Três Irmãs, na Ilha do Lagarto e na cadeia de Cnoc Ard (em Londérien). Politicamente, são regidos por conselhos teocráticos formados por Druidas, Sacerdotes e Magos, com os líderes militares tendo apenas caráter de conselheiros.</li><br><li><strong>Religião e Estilo de Vida:</strong> Notoriamente pacíficos e devotos de Taranis (o Primordial da Liberdade), preferem a diplomacia ao combate. Caçar e abater pássaros é um tabu gigantesco, fazendo com que sua sociedade dependa enormemente da pesca – que praticam nas costas e rios das montanhas – para se sustentar.</li><br><li><strong>Ritos de Passagem e Luto:</strong> Aos 16 anos, os jovens entram num rito de passagem onde se isolam por dois meses com dois tutores para aprenderem pesca, vida sexual e o controle do voo. Em contrapartida, quando ocorre uma fatalidade, o cônjuge do falecido entra num rígido luto isolado de um mês, acompanhado apenas por um guia espiritual para entrar em contato com o desencarnado e buscar um novo rumo na vida.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Levents é o Samyia. O idioma é falado com trinados e arrulhados que se assemelham melodiosamente ao canto dos pássaros canoros, sendo quase impossível para outras raças falarem perfeitamente. Para os nomes da raça, o idioma Indiano atua como o comparativo perfeito, contendo nomes de duas ou três sílabas. Por acreditarem que um indivíduo deve ser medido estritamente pelas próprias capacidades e não pelas origens, os Levent nunca usam sobrenomes. Somente em cerimônias raríssimas eles se identificarão pela sua organização militar ou por seus postos.</p><h4>Nomes Masculinos</h4><p>Anand, Arkilan, Avanur, Chetan, Darshan, Deepak, Dhaval, Harshal, Kamal, Kiran, Mayur, Mitul, Morphias, Prakash, Pranav, Pravin, Rahul, Rajendran, Rajesh, Ravil, Sandip, Shekar, Sonal, Suraj</p><h4>Nomes Femininos</h4><p>Ajaia, Ankita, Ashoka, Dineasha, Harisha, Hira, Jaiesha, Kamala, Kumara, Kunala, Mahendra, Mahesha, Mia, Narensra, Nishanta, Radha, Rajia, Rohita, Sanjaia, Satia, Shaiera, Vasanta, Yasha</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!4f5f3a73e5194065.65a035b6196b9091"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/levent.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "levent",
+      "tipo": "raca"
+    }
+  },
+  "_key": "!journal!4f5f3a73e5194065"
+}

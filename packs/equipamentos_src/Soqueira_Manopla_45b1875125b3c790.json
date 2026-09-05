@@ -1,0 +1,28 @@
+{
+  "name": "Soqueira/Manopla",
+  "type": "arma",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "dano": "FOR+2",
+    "tipoDano": [
+      "Contusao"
+    ],
+    "fn": 1,
+    "alcance": "Adjacente (1m)",
+    "propriedades": [],
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.25,
+    "quantidade": 1,
+    "custo": 25,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "soqueira-manopla",
+      "categoria": "Arma"
+    }
+  },
+  "_id": "45b1875125b3c790",
+  "_key": "!items!45b1875125b3c790"
+}

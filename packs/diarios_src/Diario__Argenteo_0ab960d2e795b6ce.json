@@ -1,0 +1,28 @@
+{
+  "_id": "0ab960d2e795b6ce",
+  "name": "Diário: Argênteo",
+  "pages": [
+    {
+      "_id": "c34e0a8409bda293",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/argenteo.png\" alt=\"Argênteo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Argênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.</p><p>Como passam muito tempo estudando dentro das fronteiras da Ilha da Prata antes de fazerem pesquisas de campo propriamente ditas, a maioria dos Argênteos nutre um profundo sentimento de familiaridade com a Academia Argêntea, e é difícil encontrar algum deles que não esteja vergando o robe do corpo acadêmico – um robe azul escuro com o símbolo da Academia em prata no peito e nas costas – e é bastante simples identificar um deles graças a isso. Mesmo quando estão realizando alguma pesquisa de natureza sigilosa, eles geralmente o fazem de forma tão conspícua quanto estes trajes permitem.</p><p>Argênteos estão no mesmo nível hierárquico dos professores da Academia Argêntea, e respondem diretamente ao Departamento de Astronomia e Movimento Dimensional, tendo as mesmas regalias, direitos e deveres do corpo docente – têm acesso a praticamente toda a Ilha da Prata, exceto aos gabinetes de outros departamentos e aposentos pessoas de outros funcionários da Academia, podem solicitar equipamento quando estiverem em missões e viagens estritamente relacionadas à Academia e devem apresentar relatórios semestrais sobre suas atividades.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Teleporte 1.</p><p><strong>Raças Comuns:</strong> Elfo, Faen, Humano, Levent, Tailox.</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!0ab960d2e795b6ce.c34e0a8409bda293"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/argenteo.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "argenteo",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!0ab960d2e795b6ce"
+}

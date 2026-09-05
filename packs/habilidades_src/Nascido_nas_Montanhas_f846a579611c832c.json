@@ -1,0 +1,33 @@
+{
+  "name": "Nascido nas Montanhas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Mahok",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes em ambientes rochosos e minerais"
+      }
+    ],
+    "description": "<p>Recebe +2 em todos os testes ligados a ambientes rochosos e montanhosos: escalada, sobrevivência em montanhas, avaliação de gemas/rochas e perícias em alvenaria e joalheria.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "nascido-nas-montanhas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f846a579611c832c",
+  "_key": "!items!f846a579611c832c"
+}

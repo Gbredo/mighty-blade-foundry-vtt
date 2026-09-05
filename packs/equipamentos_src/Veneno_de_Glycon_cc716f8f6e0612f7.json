@@ -1,0 +1,22 @@
+{
+  "name": "Veneno de Glycon",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 6000,
+    "description": "<p>Veneno Mágico. For(12) ou -10PV a cada minuto. Após 10min For(13) ou -10 PV a cada 10min por 1h.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "veneno-de-glycon",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "cc716f8f6e0612f7",
+  "_key": "!items!cc716f8f6e0612f7"
+}

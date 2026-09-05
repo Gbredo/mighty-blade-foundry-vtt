@@ -1,0 +1,22 @@
+{
+  "name": "Carroça Coberta",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 180,
+    "description": "<p>Essa versão possui uma armação de metal ou madeira, onde um tecido grosso é esticado. Normalmente usada em viagens longas. Deve ser puxada por dois cavalos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carroca-coberta",
+      "categoria": "Montaria"
+    }
+  },
+  "_id": "d7d7beb0caca8d40",
+  "_key": "!items!d7d7beb0caca8d40"
+}

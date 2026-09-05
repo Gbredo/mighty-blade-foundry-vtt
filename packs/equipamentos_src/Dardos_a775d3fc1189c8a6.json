@@ -1,0 +1,22 @@
+{
+  "name": "Dardos",
+  "type": "equipamento",
+  "img": "icons/weapons/ammunition/arrow-head-steel.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.05,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Agulhas para zarabatana; 200 pesam 1kg.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dardos",
+      "categoria": "Municao"
+    }
+  },
+  "_id": "a775d3fc1189c8a6",
+  "_key": "!items!a775d3fc1189c8a6"
+}

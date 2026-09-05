@@ -1,0 +1,27 @@
+{
+  "name": "Investida Acrobática",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode usar o ambiente para ganhar impulso e desferir um ataque de uma direção inusitada. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode fazer uma manobra de encontrão contra o alvo mesmo que esteja à menos de 3 metros dele. Esse ataque causa +10 de dano e ignora quaisquer bônus de escudo e Esquiva do alvo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "investida-acrobatica",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "44d14c9b83b44bc5",
+  "_key": "!items!44d14c9b83b44bc5"
+}

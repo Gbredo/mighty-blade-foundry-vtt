@@ -1,0 +1,22 @@
+{
+  "name": "Frasco de Tinta",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 15,
+    "description": "<p>Suficiente pra dez páginas de texto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "frasco-de-tinta",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "e3e10b9a715c7460",
+  "_key": "!items!e3e10b9a715c7460"
+}

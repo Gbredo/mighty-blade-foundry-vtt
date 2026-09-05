@@ -1,0 +1,27 @@
+{
+  "name": "Golpe Devastador 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 60,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Golpe",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Devastador 1 Faça um ataque corporal contra o alvo. Se acertar, o ataque causa o triplo do dano normal e o alvo precisa vencer um confronto de Força (adicione a FN da arma que estiver usando no seu teste) contra você ou ficará Paralisado (veja Condições na página 169) por um turno.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "golpe-devastador-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "9d71370bf44b8a2e",
+  "_key": "!items!9d71370bf44b8a2e"
+}

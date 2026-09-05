@@ -1,0 +1,22 @@
+{
+  "name": "Diadema",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.25,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Tira de metal para ser usada na cabeça.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "diadema",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "f4de34e68bec03a4",
+  "_key": "!items!f4de34e68bec03a4"
+}

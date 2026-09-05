@@ -1,0 +1,27 @@
+{
+  "name": "Presença Confiante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Farda",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você possui tanta confiança em sua posição – e compreende que ela gera respeito naqueles ao seu redor – que é capaz de trajá-la como uma armadura! Sempre que estiver utilizando uma vestimenta adequada ao seu posto você recebe +1 na Defesa para cada 2 pontos de Vontade. Esse é um bônus de Esquiva.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "presenca-confiante",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "312051ab14477274",
+  "_key": "!items!312051ab14477274"
+}

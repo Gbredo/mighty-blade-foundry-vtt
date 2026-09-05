@@ -1,0 +1,27 @@
+{
+  "name": "Dogma",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você segue estritamente os ensinamentos de uma divindade que, em troca, lhe concede um favor especial. Escolha um Dogma para seguir. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Dogmas no final desse capítulo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "30778e73d19f0d40",
+  "_key": "!items!30778e73d19f0d40"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Transpor",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Defesa Agressiva",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você sabe encontrar os espaços deixados pelo escudo do adversário. Ignore sempre o bônus de Bloqueio da Defesa do oponente. Habilidades Avançadas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "transpor",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "f288e33f8f5ef2c7",
+  "_key": "!items!f288e33f8f5ef2c7"
+}

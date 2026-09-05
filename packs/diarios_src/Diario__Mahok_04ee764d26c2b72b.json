@@ -1,0 +1,28 @@
+{
+  "_id": "04ee764d26c2b72b",
+  "name": "Diário: Mahok",
+  "pages": [
+    {
+      "_id": "3a80a873daea3c2f",
+      "name": "Mahok — Biologia, Cultura e Nomes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:18px;\"><img src=\"systems/mighty-blade/assets/forja/mahok.png\" alt=\"Mahok\" style=\"max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;\" /></div><h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-15 anos</li><li><strong>Adolescente:</strong> 16-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 60(8) anos</li><li><strong>Ancião:</strong> 80(1) anos</li></ul><hr><h2>Biologia & Fisiologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de constituição sólida, medindo cerca de 2,5 metros de altura e pesando por volta de 300 quilos na idade adulta. Esse peso pode chegar ao dobro com o passar do tempo. Sua característica mais notável é a pele formada por grossas placas de rocha. Possuem quatro dedos nas mãos e nos pés (onde os dedos são unidos sob um bloco único de pedra). Em raros casos, podem nascer com um par extra de braços, que, com treinamento, conseguem usar eficientemente em combate.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem cor e textura granítica, embora possa apresentar variações semelhantes a mármore ou alabastro. Os bebês nascem com uma fina camada rochosa que racha e cai nos primeiros dias, dando lugar a uma nova. A pele atinge sua configuração ideal na fase adulta e continua engrossando progressivamente durante o resto da vida.</li><br><li><strong>Sentidos Precários:</strong> Devido às formações rochosas, a pele não transmite o tato. Eles também não possuem pavilhões auditivos externos, e o crescimento de rochas ao redor das narinas e olhos limita consideravelmente o olfato e a visão.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas da espécie são virtualmente idênticos, não havendo qualquer diferença física notável que outras raças consigam distinguir.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 10 meses (gerando apenas um bebê). Crescem de forma acelerada, atingindo o tamanho máximo já aos 10 anos e sendo adultos aos 20. Aos 60 anos, o peso excessivo da pele causa severas dificuldades de locomoção. Ao atingir os 80 anos, perdem completamente a mobilidade e se fundem em rocha sólida, tornando-se monumentos conhecidos como \"Menires\".</li></ul></p><hr><h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> Vivem em cidades escavadas em montanhas ou galerias cavernosas. Muitas de suas comunidades são nômades que viajam por cadeias de montanhas, fixando-se por curtos períodos. Não possuem um reino próprio, mas são vistos como cidadãos plenos em Parband, Dagothar e Tebryn. Escolhem minuciosamente o local onde repousarão ao fim da vida, formando vastos campos monolíticos chamados cromlechs nos picos de Cassiopéia.</li><br><li><strong>Sustento e Dieta:</strong> Sua dieta é altamente exótica, pois necessitam de muito silício, carbono e minerais. Alimentam-se de biscoitos cozidos de argila e cal, vegetais crus, insetos (considerados iguarias) e assam seus alimentos normais até que virem puramente carvão.</li><br><li><strong>Temperamento:</strong> São extremamente gregários e sociáveis, criando grupos familiares fortes e conversando até com trogloditas e ogros (que outras raças julgam irracionais). Como são estoicos, indiferentes a intempéries ou falta de conforto, as raças mais requintadas muitas vezes os julgam erroneamente como incivilizados ou pouco sofisticados.</li></ul></p><hr><h2>Nomes & Tradições</h2><p>A língua nativa dos Mahoks é o Triet, que compartilha a mesma estrutura de escrita do Futhark (runas anãs). O idioma comparativo real para essa língua é o Esloveno. Os nomes Mahoks possuem de duas a quatro sílabas e são criados a partir do nome de um mineral com a última letra alterada. Para o sobrenome, um Mahok sempre utiliza o nome de um acidente geográfico muito específico do local onde ele nasceu.</p><h4>Nomes Masculinos</h4><p>Ambar, Argilas, Azuritor, Berilor, Carvor, Citrinos, Cromas, Culon, Geldoron, Giendros, Iridior, Jaspos, Koumor, Mineran, Modron, Nefelinor, Obsidianos, Ombar, Opalon, Ouros, Piritor, Quartzon, Roblor, Xiselmor, Xistor</p><h4>Nomes Femininos</h4><p>Alabastra, Alunitil, Ametista, Ankerita, Areil, Azurita, Bronzil, Carva, Copal, Coral, Cristal, Diamanta, Esmeralda, Galena, Gema, Gipsita, Goliata, Jadel, Lazulil, Mercuria, Mical, Prata, Rubil, Terrekal, Titanita, Zinca</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!04ee764d26c2b72b.3a80a873daea3c2f"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/mahok.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "mahok",
+      "tipo": "raca"
+    }
+  },
+  "_key": "!journal!04ee764d26c2b72b"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Golpes Rápidos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode fazer dois ataques corporais com uma arma que estiver empunhando, desde que esteja empunhando a arma com apenas 1 mão.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "golpes-rapidos",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a5fa5fe0eb84b6d2",
+  "_key": "!items!a5fa5fe0eb84b6d2"
+}

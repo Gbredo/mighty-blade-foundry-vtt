@@ -1,0 +1,27 @@
+{
+  "name": "Elixir da Longa Vida",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Iátrico",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é um especialista na fabricação e aplicação de Elixires e antídotos e recebe +1d6 em rolagens para produzir esse tipo de poção. Além disso, elixires produzidos por você que recuperem Pontos de Vida ou Mana recuperam 10 Pontos de Vida ou Mana a mais, e elixires produzidos por você que causem dano causam 5 pontos de dano a mais.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-da-longa-vida",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "85e22d3629e0de55",
+  "_key": "!items!85e22d3629e0de55"
+}

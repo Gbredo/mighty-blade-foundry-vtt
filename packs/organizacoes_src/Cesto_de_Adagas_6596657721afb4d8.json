@@ -1,0 +1,20 @@
+{
+  "name": "Cesto de Adagas",
+  "type": "organizacao",
+  "img": "systems/mighty-blade/assets/forja/org_cesto.png",
+  "system": {
+    "tipo": "Criminal",
+    "sede": "Tebrynia",
+    "lideranca": "Não identificado",
+    "ingresso": "Não mencionado",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8b8f8463666fe09b\" data-slug=\"cesto-de-adagas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cesto-de-adagas",
+      "diarioId": "8b8f8463666fe09b"
+    }
+  },
+  "_id": "6596657721afb4d8",
+  "_key": "!items!6596657721afb4d8"
+}

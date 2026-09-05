@@ -1,0 +1,22 @@
+{
+  "name": "Banho Quente",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Uma tina de água quente em uma sala privada.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "banho-quente",
+      "categoria": "Servico"
+    }
+  },
+  "_id": "db97ad70ef902583",
+  "_key": "!items!db97ad70ef902583"
+}

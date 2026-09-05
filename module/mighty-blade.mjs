@@ -109,6 +109,25 @@ Hooks.on("renderActorDirectory", (app, html) => {
 });
 
 /* -------------------------------------------- */
+/* Botão "Compêndio de Itens" na aba de Itens   */
+/* -------------------------------------------- */
+Hooks.on("renderItemDirectory", (app, html) => {
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root) return;
+  const header = root.querySelector(".directory-header") ?? root.querySelector("header");
+  if (!header || header.querySelector(".mb-open-item-browser")) return;
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "mb-open-item-browser";
+  btn.style.cssText = "flex:0 0 auto;margin-top:4px;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;cursor:pointer;";
+  btn.innerHTML = `<i class="fas fa-book-sparkles"></i> Compêndio de Itens & Equipamentos`;
+  btn.title = "Abre o navegador de compêndios com todas as armas, armaduras e equipamentos oficiais";
+  btn.addEventListener("click", () => new MightyBladeCompendiumBrowser({ type: "equipamento" }).render(true));
+  header.appendChild(btn);
+});
+
+/* -------------------------------------------- */
 /* Botões na aba de Compêndios (Navegador e Sync)*/
 /* -------------------------------------------- */
 Hooks.on("renderCompendiumDirectory", (app, html) => {

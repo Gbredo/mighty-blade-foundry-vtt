@@ -1,0 +1,22 @@
+{
+  "name": "Agulhas",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.001,
+    "quantidade": 1,
+    "custo": 1,
+    "description": "<p>Conjunto de agulhas para costurar tecido e couro.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "agulhas",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "620be3e4b5026478",
+  "_key": "!items!620be3e4b5026478"
+}

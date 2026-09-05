@@ -1,0 +1,27 @@
+{
+  "name": "Aplicar Força",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você aprendeu a confiar em um braço forte e firme para obter uma mira precisa. Você pode usar Força para ataques à distância. Além disso, sempre que usar Força para realizar arremessos ou ataques à distância com arcos ou fundas, adicione +2 ao dano da arma.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aplicar-forca",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "5fcb97e809f47d89",
+  "_key": "!items!5fcb97e809f47d89"
+}

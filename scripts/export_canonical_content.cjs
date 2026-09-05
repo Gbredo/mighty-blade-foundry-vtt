@@ -867,6 +867,40 @@ async function run() {
   ];
   console.log("✓ Diários (JournalEntry) processados: " + canonicalDiarios.length);
 
+  const packsMap = {
+    racas: canonicalRacas,
+    classes: canonicalClasses,
+    caminhos: canonicalCaminhos,
+    organizacoes: canonicalOrganizacoes,
+    habilidades: canonicalHabilidades,
+    magias: canonicalMagias,
+    equipamentos: canonicalEquipamentos,
+    diarios: canonicalDiarios,
+  };
+
+  // Garante _id e _key padronizados em todos os itens e diários
+  for (const [packName, items] of Object.entries(packsMap)) {
+    for (const item of items) {
+      const itemSlug = item.flags?.["mighty-blade"]?.slug || slugify(item.name || item.id || "");
+      if (!item._id) {
+        item._id = deterministicId(packName, itemSlug);
+      }
+      if (!item._key) {
+        item._key = packName === "diarios" ? `!journal!${item._id}` : `!items!${item._id}`;
+      }
+      if (Array.isArray(item.pages)) {
+        for (const page of item.pages) {
+          if (!page._id) {
+            page._id = deterministicId("page", slugify(page.name || ""));
+          }
+          if (!page._key) {
+            page._key = `!journal.pages!${item._id}.${page._id}`;
+          }
+        }
+      }
+    }
+  }
+
   const dataOutputDir = path.join(FOUNDRY_DIR, "module", "data");
   if (!fs.existsSync(dataOutputDir)) fs.mkdirSync(dataOutputDir, { recursive: true });
 
@@ -897,16 +931,7 @@ async function run() {
   fs.writeFileSync(mjsPath, mjsContent, "utf-8");
   console.log("\n🎉 Arquivo ES Module gerado com sucesso: " + mjsPath);
 
-  const packsMap = {
-    racas: canonicalRacas,
-    classes: canonicalClasses,
-    caminhos: canonicalCaminhos,
-    organizacoes: canonicalOrganizacoes,
-    habilidades: canonicalHabilidades,
-    magias: canonicalMagias,
-    equipamentos: canonicalEquipamentos,
-    diarios: canonicalDiarios,
-  };
+  const { execSync } = require("child_process");
 
   for (const [packName, items] of Object.entries(packsMap)) {
     const packSrcDir = path.join(FOUNDRY_DIR, "packs", packName + "_src");
@@ -914,14 +939,26 @@ async function run() {
     fs.mkdirSync(packSrcDir, { recursive: true });
 
     for (const item of items) {
-      const itemSlug = item.flags?.["mighty-blade"]?.slug || item._id;
-      const itemPath = path.join(packSrcDir, itemSlug + ".json");
+      const itemSlug = item.flags?.["mighty-blade"]?.slug || slugify(item.name || item.id || "");
+      const safeName = (item.name || itemSlug).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z0-9_-]/g, "_");
+      const itemPath = path.join(packSrcDir, `${safeName}_${item._id}.json`);
       fs.writeFileSync(itemPath, JSON.stringify(item, null, 2), "utf-8");
     }
     console.log("📁 Exportados " + items.length + " itens para packs/" + packName + "_src");
+
+    try {
+      console.log("📦 Empacotando LevelDB para packs/" + packName + "...");
+      execSync(`npx fvtt package pack -n ${packName} --in packs/${packName}_src --out packs`, {
+        cwd: FOUNDRY_DIR,
+        stdio: "inherit",
+      });
+      console.log("✅ Compêndio " + packName + " empacotado com sucesso!");
+    } catch (e) {
+      console.error("⚠️ Erro ao empacotar " + packName + ":", e.message);
+    }
   }
 
-  console.log("\n✅ SUCESSO: Todos os " + totalItems + " itens e " + canonicalDiarios.length + " diários canônicos foram compilados e preparados!");
+  console.log("\n✅ SUCESSO: Todos os " + totalItems + " itens e " + canonicalDiarios.length + " diários canônicos foram compilados e empacotados no LevelDB!");
 }
 
 run().catch((err) => {

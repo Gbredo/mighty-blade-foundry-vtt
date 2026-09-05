@@ -1,0 +1,22 @@
+{
+  "name": "Lampião",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Este lampião funciona a óleo. Dura 6 horas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lampiao",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "fd9158394afbc1fb",
+  "_key": "!items!fd9158394afbc1fb"
+}

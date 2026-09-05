@@ -1,0 +1,38 @@
+{
+  "name": "Asas Ancestrais",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "resistencia",
+        "dano": "envelhecimento",
+        "grau": "imune"
+      },
+      {
+        "tipo": "voo",
+        "velocidade": "dobro",
+        "restricoes": "Pode planar; não pode parar no ar — deve manter movimento constante"
+      }
+    ],
+    "description": "<p>Imune a envelhecimento. Voo com 2× o Deslocamento normal. Pode planar, mas não pode parar no ar (precisa manter movimento).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "asas-ancestrais",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "09a59b63d5976f03",
+  "_key": "!items!09a59b63d5976f03"
+}

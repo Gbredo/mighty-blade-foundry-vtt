@@ -1,0 +1,27 @@
+{
+  "name": "Grito Ensurdecedor",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você solta um grito tão alto e poderoso que faz com que todos ao redor fiquem atordoados. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "grito-ensurdecedor",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "d4d914b0a2695d06",
+  "_key": "!items!d4d914b0a2695d06"
+}

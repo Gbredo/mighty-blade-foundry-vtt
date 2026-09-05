@@ -1,0 +1,32 @@
+{
+  "name": "Linhagem Dracônica 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Dragano, Linhagem Dracônica",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "Elemento da sua Linhagem Dracônica (Fogo, Frio ou Eletricidade)"
+      }
+    ],
+    "description": "<p>A linhagem dracônica dos seus ancestrais é ainda mais perceptível em você. Se você tiver Resistência a Fogo você recebe Imunidade a Fogo, se você tiver Resistência a Frio você recebe Imunidade a Frio e se você for Resistente à Eletricidade você recebe Imunidade à Eletricidade.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "linhagem-draconica-2",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "562fb5b70499344d",
+  "_key": "!items!562fb5b70499344d"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Benção de Lathellanis",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "resistencia",
+        "dano": "doenca",
+        "grau": "imune"
+      },
+      {
+        "tipo": "resistencia",
+        "dano": "dreno-de-energia",
+        "grau": "imune"
+      },
+      {
+        "tipo": "resistencia",
+        "dano": "envelhecimento",
+        "grau": "imune"
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "perceber e rastrear alvos (Inteligência)"
+      }
+    ],
+    "description": "<p>Imune a doenças (naturais e mágicas), Dreno de Energia e efeitos de Envelhecimento. +1d6 em testes de Inteligência para perceber e rastrear alvos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "bencao-de-lathellanis",
+      "automatica": true,
+      "opcoes": []
+    }
+  },
+  "_id": "0ca54373da7c7dda",
+  "_key": "!items!0ca54373da7c7dda"
+}

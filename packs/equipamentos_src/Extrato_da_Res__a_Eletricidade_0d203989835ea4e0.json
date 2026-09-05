@@ -1,0 +1,22 @@
+{
+  "name": "Extrato da Res. à Eletricidade",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 150,
+    "description": "<p>Confere Resistência à Eletricidade por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "extrato-da-res-a-eletricidade",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "0d203989835ea4e0",
+  "_key": "!items!0d203989835ea4e0"
+}

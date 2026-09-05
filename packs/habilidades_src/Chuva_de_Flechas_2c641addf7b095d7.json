@@ -1,0 +1,27 @@
+{
+  "name": "Chuva de Flechas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "dificuldade": 0,
+    "requisitos": "Flechas Rápidas",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode atirar até 4 flechas em um só ataque em múltiplos oponentes. Faça uma rolagem para cada flecha, que devem ter alvos diferentes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chuva-de-flechas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "2c641addf7b095d7",
+  "_key": "!items!2c641addf7b095d7"
+}

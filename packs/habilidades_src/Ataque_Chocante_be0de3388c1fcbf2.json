@@ -1,0 +1,27 @@
+{
+  "name": "Ataque Chocante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 25,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Imbui eletricidade na arma junto ao golpe físico. Causa dano de Eletricidade adicional.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-chocante",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "be0de3388c1fcbf2",
+  "_key": "!items!be0de3388c1fcbf2"
+}

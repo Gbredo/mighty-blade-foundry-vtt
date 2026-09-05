@@ -1,0 +1,27 @@
+{
+  "name": "Lutar no Convés",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você usa o que tiver a mão para vencer suas lutas. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode usar o ambiente para se proteger e atrapalhar o adversário, recebendo +1 em seus ataques corporais e +2 em Esquiva. Navegador Habilidade – Suporte Descrição: Você sabe o que é necessário para pilotar um navio com eficiência. Você rola +1d6 em todos os testes ligados a navegação, incluindo ler mapas marítimos, fazer qualquer serviço de convés, escalar cordames, pescar, se localizar no mar e nadar.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lutar-no-conves",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "7c4897bf961b26a4",
+  "_key": "!items!7c4897bf961b26a4"
+}

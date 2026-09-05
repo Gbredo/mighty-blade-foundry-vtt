@@ -1,0 +1,27 @@
+{
+  "name": "Ataque Fervoroso",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-fervoroso",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "b5205e4a94fa0697",
+  "_key": "!items!b5205e4a94fa0697"
+}

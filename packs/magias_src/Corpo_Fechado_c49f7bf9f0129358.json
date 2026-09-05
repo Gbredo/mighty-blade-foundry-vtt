@@ -1,0 +1,20 @@
+{
+  "name": "Corpo Fechado",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "mistica",
+    "custo": 20,
+    "dificuldade": 8,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Proteção Mística</p><p>Dificuldade da Magia: 12 Desenhando um Selo Místico sobre um alvo, você confere Resistência à Contusão, Corte ou Perfuração a ele. Esse Selo Místico dura por 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corpo-fechado",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "c49f7bf9f0129358",
+  "_key": "!items!c49f7bf9f0129358"
+}

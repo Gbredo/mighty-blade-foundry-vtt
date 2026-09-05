@@ -1,0 +1,27 @@
+{
+  "name": "Tatuar Efeito",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Tatuar Magia",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Quando conjurar sobre si mesmo uma Magia que tenha tatuado em sua pele, a conjuração é realizada como uma ação livre. Você não pode usar conjurar outras Magias em turnos em que utilizar esta Habilidade nem pode utilizar esta Habilidade em turnos que já tiver conjurado uma Magia.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tatuar-efeito",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "37a4a89247659def",
+  "_key": "!items!37a4a89247659def"
+}

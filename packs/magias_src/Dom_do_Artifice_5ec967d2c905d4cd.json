@@ -1,0 +1,20 @@
+{
+  "name": "Dom do Artífice",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 14,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Mente Disciplinada</p><p>Desenhando uma Runa Arcana sobre si mesmo, o conjurador recebe +2 em um Atributo à sua escolha. Além disso, se essa Runa for realizada antes de uma sessão de encantamento, o Artífice não fica exausto no fim do dia, recuperando metade dos seus Pontos de Mana totais durante o ritual. Isso não permite ao Artífice apressar o processo de um encantamento, mas ele pode se dedicar à dois encantamentos ao mesmo tempo. Essa Runa Arcana dura 1 minuto.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dom-do-artifice",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "5ec967d2c905d4cd",
+  "_key": "!items!5ec967d2c905d4cd"
+}

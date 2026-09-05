@@ -1,0 +1,27 @@
+{
+  "name": "Ataque Furioso",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que estiver usando uma arma que possua dois números de FN, se você tiver força para usar a arma com apenas uma mão, mas a empunhar com as duas, some a sua Força ao dano da arma ao invés do bônus normal de +2. Você também aplica esse bônus de dano às armas que tenham a Característica Duas Mãos, desde que você possua Força suficiente para usá-la.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ataque-furioso",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "38a7b8fe61de632d",
+  "_key": "!items!38a7b8fe61de632d"
+}

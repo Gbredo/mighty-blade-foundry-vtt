@@ -1,0 +1,27 @@
+{
+  "name": "Invocar Espírito Animal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Invoca espectro físico na forma do Espírito Animal (30 PV, 30 PM, Mente Bloqueada; atributos = sua Vontade).</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "invocar-espirito-animal",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "aa99d6c647f5eea9",
+  "_key": "!items!aa99d6c647f5eea9"
+}

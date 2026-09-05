@@ -1,0 +1,22 @@
+{
+  "name": "Picareta",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 3,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Ferramenta para desbastar solo e rochas.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "picareta",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "e14bb61feff0bf93",
+  "_key": "!items!e14bb61feff0bf93"
+}

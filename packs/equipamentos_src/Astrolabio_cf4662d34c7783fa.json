@@ -1,0 +1,22 @@
+{
+  "name": "Astrolábio",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.003,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Instrumento de navegação para fazer medições e localizações de rumos e rotas para se seguir usando os astros como referência.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "astrolabio",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "cf4662d34c7783fa",
+  "_key": "!items!cf4662d34c7783fa"
+}

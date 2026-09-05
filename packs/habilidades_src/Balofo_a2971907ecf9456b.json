@@ -1,0 +1,33 @@
+{
+  "name": "Balofo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Metadílio",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "escapar de amarras, algemas e constrição"
+      }
+    ],
+    "description": "<p>Você é um exímio exemplar dos Metadílios: rotundo e macio. Graças a isso, quando você cai, tende a rolar e quicar ao invés de se espatifar, sofrendo metade do dano por quedas. Além disso, é relativamente fácil para você escorregar de dentro de um aperto. Você rola +1d6 para escapar de amarras, algemas e adversários que o estejam constringindo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "balofo",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "a2971907ecf9456b",
+  "_key": "!items!a2971907ecf9456b"
+}

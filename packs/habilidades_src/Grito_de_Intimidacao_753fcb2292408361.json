@@ -1,0 +1,27 @@
+{
+  "name": "Grito de Intimidação",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 35,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Grito de Guerra 1",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você pode dar um grito para intimidar seus inimigos. Todos os oponentes que estiverem a até 10 metros à sua frente que tiverem uma Determinação menor do que a sua ficam Paralisados (veja Condições na página 169) por 2 turnos. Esse é um efeito de Medo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "grito-de-intimidacao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "753fcb2292408361",
+  "_key": "!items!753fcb2292408361"
+}

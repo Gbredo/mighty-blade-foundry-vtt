@@ -1,0 +1,27 @@
+{
+  "name": "Senhor das Lâminas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 10, Touché",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Sempre que for realizar um teste de ataque corpo-a-corpo usando uma arma que cause dano por corte ou perfuração, você pode rolar +1d6.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "senhor-das-laminas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "7a4da7ce778022b3",
+  "_key": "!items!7a4da7ce778022b3"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Armadura de Batalha",
+  "type": "armadura",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "defesa": 4,
+    "fn": 6,
+    "subtipo": "armadura",
+    "pesada": true,
+    "rigida": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 27,
+    "quantidade": 1,
+    "custo": 600,
+    "description": ""
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "armadura-de-batalha",
+      "categoria": "Defesa"
+    }
+  },
+  "_id": "ef18e83fbb57d425",
+  "_key": "!items!ef18e83fbb57d425"
+}

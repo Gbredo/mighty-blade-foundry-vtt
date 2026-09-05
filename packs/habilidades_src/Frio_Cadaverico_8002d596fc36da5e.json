@@ -1,0 +1,27 @@
+{
+  "name": "Frio Cadavérico",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Seu organismo foi profundamente afetado por energias necromânticas e não funciona de forma similar ao de outras criaturas vivas. Seu corpo não produz qualquer tipo de calor, e você é Resistente ao Frio e imune a efeitos de Enregelar, além de não ser afetado por efeitos nocivos de climas frios. Você também é imune a doenças (naturais e mágicas), venenos (naturais ou mágicos) e efeitos de dreno de energia. Além disso, qualquer efeito de sangramento causa apenas metade da perda de vida normal em você e você pode passar três vezes mais tempo sem alimento e água do que um membro da sua raça normalmente poderia. Finalmente, sempre que for afetado por uma Habilidade, Magia, Música ou qualquer tipo de efeito, você pode escolher ser considerado como um morto-vivo. Habilidades Básicas</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "frio-cadaverico",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "8002d596fc36da5e",
+  "_key": "!items!8002d596fc36da5e"
+}

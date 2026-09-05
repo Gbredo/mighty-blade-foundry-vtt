@@ -1,0 +1,22 @@
+{
+  "name": "Cinto da Força",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.15,
+    "quantidade": 1,
+    "custo": 4000,
+    "description": "<p>Um cinto de couro com uma fivela decorada com uma Runa Arcana que concede +2 de Força para seu usuário.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cinto-da-forca",
+      "categoria": "Especial"
+    }
+  },
+  "_id": "20c4b28ec04e5395",
+  "_key": "!items!20c4b28ec04e5395"
+}

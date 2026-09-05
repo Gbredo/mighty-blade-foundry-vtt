@@ -1,0 +1,22 @@
+{
+  "name": "Poção de Cura Menor",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.15,
+    "quantidade": 1,
+    "custo": 60,
+    "description": "<p>Recupera 10 Pontos de Vida (PV) imediatamente ao ser ingerida.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pocao-de-cura-menor",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "4e991f7b133d26ff",
+  "_key": "!items!4e991f7b133d26ff"
+}

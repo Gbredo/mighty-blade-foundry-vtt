@@ -1,0 +1,22 @@
+{
+  "name": "Elixir da Agilidade",
+  "type": "equipamento",
+  "img": "icons/consumables/potions/potion-flask-corked-red.webp",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.12,
+    "quantidade": 1,
+    "custo": 1000,
+    "description": "<p>O personagem que beber a poção recebe Agilidade +3 por 1 hora.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "elixir-da-agilidade",
+      "categoria": "Pocao"
+    }
+  },
+  "_id": "7425c3a6a15b948c",
+  "_key": "!items!7425c3a6a15b948c"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Brigão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você está acostumado à combater desarmado. Você rola +1 em seus ataques desarmados e adiciona +2 nos danos desses ataques.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "brigao",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "3eccbc47f77928da",
+  "_key": "!items!3eccbc47f77928da"
+}

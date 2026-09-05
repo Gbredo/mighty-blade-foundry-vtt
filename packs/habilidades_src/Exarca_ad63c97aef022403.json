@@ -1,0 +1,27 @@
+{
+  "name": "Exarca",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Arcipreste",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você acumulou um grande conhecimento sobre os desígnios da Aurora dos Dragões. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e criaturas dracônicas. Além disso, o dano causado por todas as Habilidades do tipo Magia e Característica que causem dano elemental (Fogo, Frio e Eletricidade) causam uma quantidade de dano extra igual à sua Vontade. Estes bônus se acumulam com os bônus de Arcipreste.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "exarca",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "ad63c97aef022403",
+  "_key": "!items!ad63c97aef022403"
+}

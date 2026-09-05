@@ -1,0 +1,27 @@
+{
+  "name": "Citrinitas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "dificuldade": 0,
+    "requisitos": "Nível 5, Espagíria",
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "description": "<p>Você é um especialista na fabricação e uso de Extratos e recebe +1d6 em rolagens para produzir esse tipo de poção. Além disso, extratos produzidos por você que causem dano causam 10 pontos de dano a mais, e aqueles que tiverem um teste para serem resistidos tem sua dificuldade aumentada em +2.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "citrinitas",
+      "automatica": false,
+      "opcoes": []
+    }
+  },
+  "_id": "0a903b7958ffa4b2",
+  "_key": "!items!0a903b7958ffa4b2"
+}

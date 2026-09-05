@@ -1,0 +1,20 @@
+{
+  "name": "Crânio Guardião",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "fonte": "arcana",
+    "custo": 20,
+    "dificuldade": 13,
+    "circulo": 1,
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Crânio Sentinela.</p><p>Desenhando uma Runa Arcana sobre um crânio que esteja sob efeito de Crânio Sentinela, o Conjurador cria um elo poderoso entre si mesmo e o crânio. Além de todos os efeitos de um Crânio Vigia, o Conjurador será capaz de conjurar magias através dele – embora seja impossível fazer isso enquanto estiver dormindo ou desacordado. Um Crânio Guardião é considerado como um de seus Crânios Vigias para propósitos de definir o limite de Crânios ativos ao mesmo tempo. Essa Runa Arcana é perene.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cranio-guardiao",
+      "tipo": "Acao"
+    }
+  },
+  "_id": "784b3d608cf33045",
+  "_key": "!items!784b3d608cf33045"
+}

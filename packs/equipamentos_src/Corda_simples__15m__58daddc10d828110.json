@@ -1,0 +1,22 @@
+{
+  "name": "Corda simples (15m)",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 2,
+    "quantidade": 1,
+    "custo": 3,
+    "description": "<p>Suporta 200kg.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "corda-simples-15m",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "58daddc10d828110",
+  "_key": "!items!58daddc10d828110"
+}
