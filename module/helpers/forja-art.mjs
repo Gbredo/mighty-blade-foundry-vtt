@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Utilitários e Mapeamentos Canônicos de Ilustrações da Forja do Mighty Blade 3e.
  */
 
@@ -111,20 +111,20 @@ export function resolveItemImage(item) {
   const type = item.type;
 
   if (type === "raca" || RACAS_FORJA_MAP[slug]) {
-    const file = RACAS_FORJA_MAP[slug] || ${slug}.png;
-    return systems/mighty-blade/assets/forja/;
+    const file = RACAS_FORJA_MAP[slug] || (slug + ".png");
+    return "systems/mighty-blade/assets/forja/" + file;
   }
   if (type === "classe" || CLASSES_FORJA_MAP[slug]) {
-    const file = CLASSES_FORJA_MAP[slug] || ${slug}.png;
-    return systems/mighty-blade/assets/forja/;
+    const file = CLASSES_FORJA_MAP[slug] || (slug + ".png");
+    return "systems/mighty-blade/assets/forja/" + file;
   }
   if (type === "caminho" || CAMINHOS_FORJA_SLUGS.has(slug)) {
-    const file = CAMINHOS_FORJA_SLUGS.has(slug) ? ${slug}.png : (CLASSES_FORJA_MAP[slug] || "caminho.png");
-    return systems/mighty-blade/assets/forja/;
+    const file = CAMINHOS_FORJA_SLUGS.has(slug) ? (slug + ".png") : (CLASSES_FORJA_MAP[slug] || "caminho.png");
+    return "systems/mighty-blade/assets/forja/" + file;
   }
   if (type === "organizacao" || ORGANIZACOES_FORJA_MAP[slug]) {
-    const file = ORGANIZACOES_FORJA_MAP[slug] || org_.png;
-    return systems/mighty-blade/assets/forja/;
+    const file = ORGANIZACOES_FORJA_MAP[slug] || ("org_" + slug + ".png");
+    return "systems/mighty-blade/assets/forja/" + file;
   }
 
   return item.img || "icons/svg/item-bag.svg";
