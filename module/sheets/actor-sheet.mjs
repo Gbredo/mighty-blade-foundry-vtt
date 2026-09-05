@@ -14,8 +14,8 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["mighty-blade", "sheet", "actor"],
-      width: 600,
-      height: 600,
+      width: 740,
+      height: 780,
       tabs: [
         {
           navSelector: ".sheet-tabs",
@@ -90,8 +90,26 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
    * @param {object} context The context object to mutate
    */
   _prepareCharacterData(context) {
-    // This is where you can enrich character-specific editor fields
-    // or setup anything else that's specific to this type
+    // Cálculo de porcentagem de recursos para barras de progresso visual
+    const vidaVal = Number(context.system?.resources?.vida?.value) || 0;
+    const vidaMax = Number(context.system?.resources?.vida?.max) || 1;
+    context.vidaPct = Math.min(Math.max(Math.round((vidaVal / vidaMax) * 100), 0), 100);
+
+    const manaVal = Number(context.system?.resources?.mana?.value) || 0;
+    const manaMax = Number(context.system?.resources?.mana?.max) || 1;
+    context.manaPct = Math.min(Math.max(Math.round((manaVal / manaMax) * 100), 0), 100);
+
+    // Formatação amigável de slugs para exibição nobre
+    const formatSlug = (val) => {
+      if (!val || typeof val !== "string") return "";
+      return val
+        .split("-")
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+        .join(" ");
+    };
+    context.formattedOrganizacao = formatSlug(context.system?.details?.organizacao);
+    context.formattedCaminho = formatSlug(context.system?.details?.caminho);
+    context.formattedAprendiz = formatSlug(context.system?.details?.aprendiz);
   }
 
   /**
