@@ -185,7 +185,7 @@ Hooks.on("renderItemDirectory", (app, html) => {
 Hooks.once("ready", async () => {
   if (!game.user.isGM) return;
 
-  const LAST_PACKS_VERSION = "2.2.0-forja-complete";
+  const LAST_PACKS_VERSION = "2.3.0-clean-lore";
   const racasPack = game.packs.get("mighty-blade.racas");
   if (racasPack) {
     const index = await racasPack.getIndex();

@@ -127,9 +127,36 @@ export class MightyBladeCompendiumBrowser extends Application {
 
       if (!item) return;
 
-      // Render description
+      // Render description com sanitização de lore crua legada
       const TextEditor = foundry.applications.ux.TextEditor.implementation;
-      const description = await TextEditor.enrichHTML(item.system.description ?? "");
+      let rawDesc = item.system?.description ?? "";
+
+      // Se a descrição contém faixas etárias até nomes (lore crua que deve ficar no diário)
+      if (item.type === "raca" && (rawDesc.includes("Faixas Etárias") || rawDesc.includes("Biologia:") || rawDesc.includes("Dimorfismo Sexual") || rawDesc.includes("Nomes e Tradições"))) {
+        const slug = item.flags?.["mighty-blade"]?.slug || slugify(item.name);
+        rawDesc = `
+          <div class="mb-item-summary">
+            <p class="mb-lead-lore" style="font-size:0.95rem;color:#cbd5e1;margin-bottom:8px;">
+              Raça canônica <strong>${item.name}</strong> de Mighty Blade 3e.
+            </p>
+            <div class="mb-journal-link-card" style="margin: 12px 0; padding: 12px 14px; background: rgba(217, 119, 6, 0.14); border: 1px solid rgba(217, 119, 6, 0.45); border-radius: 8px; display: flex; align-items: center; justify-content: space-between; gap: 12px;">
+              <div>
+                <div style="font-weight: 700; color: #f59e0b; font-size: 0.95rem;">
+                  <i class="fas fa-book-open"></i> Biologia, Cultura e Nomes
+                </div>
+                <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 2px;">
+                  Faixas etárias, anatomia, sociedade e regras de patronímicos.
+                </div>
+              </div>
+              <a class="content-link open-lore-journal-btn" data-slug="${slug}" data-type="JournalEntry" style="background:#d97706;color:#0f172a;padding:6px 14px;border-radius:6px;font-weight:700;text-decoration:none;cursor:pointer;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+                <i class="fas fa-book"></i> Abrir Diário
+              </a>
+            </div>
+          </div>
+        `;
+      }
+
+      const description = await TextEditor.enrichHTML(rawDesc);
 
       // Arte oficial com destaque Dark Obsidian
       const itemImg = resolveItemImage(item);
@@ -272,6 +299,44 @@ export class MightyBladeCompendiumBrowser extends Application {
             }
             masterDoc.sheet.render(true);
             return;
+          }
+        }
+
+        // 4. Fallback absoluto: Criar diário no mundo na hora com a lore canônica
+        if (item.type === "raca") {
+          const lore = item.flags?.["mighty-blade"]?.lore;
+          let content = `<div style="text-align:center;margin-bottom:16px;"><img src="${resolveItemImage(item)}" alt="${item.name}" style="max-height:260px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);" /></div>`;
+          if (lore?.faixasEtarias) {
+            const f = lore.faixasEtarias;
+            content += `<h2>Faixas Etárias & Ciclo de Vida</h2><ul><li><strong>Filhote:</strong> ${f.filhote} anos</li><li><strong>Adulto:</strong> ${f.adulto} anos</li><li><strong>Idoso:</strong> ${f.idoso} anos</li><li><strong>Ancião:</strong> ${f.anciao} anos</li></ul><hr>`;
+          }
+          if (lore?.biologia) {
+            content += `<h2>Biologia & Fisiologia</h2><p>${lore.biologia.replace(/\n/g, '<br>')}</p><hr>`;
+          }
+          if (lore?.cultura) {
+            content += `<h2>Cultura & Sociedade</h2><p>${lore.cultura.replace(/\n/g, '<br>')}</p><hr>`;
+          }
+          if (lore?.nomes) {
+            content += `<h2>Nomes & Tradições</h2>`;
+            if (lore.nomes.lore) content += `<p>${lore.nomes.lore}</p>`;
+            if (lore.nomes.masculinos?.length) content += `<h4>Masculinos:</h4><p>${lore.nomes.masculinos.join(", ")}</p>`;
+            if (lore.nomes.femininos?.length) content += `<h4>Femininos:</h4><p>${lore.nomes.femininos.join(", ")}</p>`;
+          }
+
+          try {
+            const newDoc = await JournalEntry.create({
+              name: `Diário: ${item.name}`,
+              pages: [{
+                name: `${item.name} — Biologia, Cultura e Nomes`,
+                type: "text",
+                text: { content, format: 1 }
+              }]
+            });
+            if (newDoc) {
+              newDoc.sheet.render(true);
+            }
+          } catch (e) {
+            console.error("MIGHTY BLADE: Erro ao criar diário sob demanda:", e);
           }
         }
       });
