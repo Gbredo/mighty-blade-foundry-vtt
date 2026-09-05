@@ -148,14 +148,9 @@ function buildRaceItem(raca) {
   descHtml += '<a class="content-link open-lore-journal-btn" draggable="true" data-uuid="Compendium.mighty-blade.diarios.' + diarioId + '" data-slug="' + slug + '" data-type="JournalEntry" style="background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;"><i class="fas fa-book"></i> Abrir Diário</a>';
   descHtml += '</div>';
 
-  if (raca.faixasEtarias) {
-    const f = raca.faixasEtarias;
-    descHtml += '<div class="faixas-etarias" style="margin-top:6px; font-size:0.85rem; color:#94a3b8;"><strong>Faixas Etárias:</strong> Filhote (' + f.filhote + 'a) · Adulto (' + f.adulto + 'a) · Idoso (' + f.idoso + 'a) · Ancião (' + f.anciao + 'a)</div>';
-  }
-
   if (raca.classesComuns) {
     const cc = Array.isArray(raca.classesComuns) ? raca.classesComuns.join(", ") : raca.classesComuns;
-    descHtml += '<div class="classes-comuns" style="margin-top:4px; font-size:0.85rem; color:#94a3b8;"><strong>Classes Comuns:</strong> ' + cc + '</div>';
+    descHtml += '<div class="classes-comuns" style="margin-top:6px; font-size:0.85rem; color:#94a3b8;"><strong>Classes Comuns:</strong> ' + cc + '</div>';
   }
   descHtml += '</div>';
 
@@ -572,76 +567,113 @@ function buildEquipmentItem(eqp) {
   };
 }
 
-function buildJournalEntryForRace(raca) {
+function buildRaceLorePageHtml(raca) {
   const slug = slugify(raca.id);
-  const diarioId = deterministicId("diario-raca", slug);
   const imgFile = RACAS_FORJA_MAP[slug] || "raca.png";
   const imgPath = "systems/mighty-blade/assets/forja/" + imgFile;
 
-  const pages = [];
-
-  let bioHtml = '<div style="text-align:center;margin-bottom:16px;">' +
-    '<img src="' + imgPath + '" alt="' + raca.nome + '" style="max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;" />' +
-    '</div>' +
-    '<h2>Visão Geral & Biologia</h2>' +
-    (raca.biologia ? mdToHtml(raca.biologia) : (raca.descricao ? mdToHtml(raca.descricao) : "<p>Sem registros biológicos.</p>"));
+  let html = '<div style="text-align:center;margin-bottom:18px;">' +
+    '<img src="' + imgPath + '" alt="' + raca.nome + '" style="max-height:280px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 14px rgba(0,0,0,0.5);border:2px solid #30363d;display:inline-block;" />' +
+    '</div>';
 
   if (raca.faixasEtarias) {
     const f = raca.faixasEtarias;
-    bioHtml += '<hr><h3>Faixas Etárias & Ciclos</h3><ul>' +
+    html += '<h2>Faixas Etárias & Ciclo de Vida</h2><ul>' +
       '<li><strong>Filhote:</strong> ' + f.filhote + ' anos</li>' +
       (f.crianca ? '<li><strong>Criança:</strong> ' + f.crianca + ' anos</li>' : '') +
       (f.adolescente ? '<li><strong>Adolescente:</strong> ' + f.adolescente + ' anos</li>' : '') +
       '<li><strong>Adulto:</strong> ' + f.adulto + ' anos</li>' +
       '<li><strong>Idoso:</strong> ' + f.idoso + ' anos</li>' +
       '<li><strong>Ancião:</strong> ' + f.anciao + ' anos</li>' +
-      '</ul>';
+      '</ul><hr>';
   }
-  pages.push({
-    _id: deterministicId("p1-bio", slug),
-    name: "Biologia & Fisiologia",
-    type: "text",
-    title: { show: true, level: 1 },
-    text: { content: bioHtml, format: 1 },
-  });
+
+  if (raca.biologia || raca.descricao) {
+    html += '<h2>Biologia & Fisiologia</h2>' +
+      (raca.biologia ? mdToHtml(raca.biologia) : mdToHtml(raca.descricao || "")) +
+      '<hr>';
+  }
 
   if (raca.cultura) {
-    pages.push({
-      _id: deterministicId("p2-cul", slug),
-      name: "Cultura & Sociedade",
-      type: "text",
-      title: { show: true, level: 1 },
-      text: { content: "<h2>Cultura & Sociedade</h2>" + mdToHtml(raca.cultura), format: 1 },
-    });
+    html += '<h2>Cultura & Sociedade</h2>' +
+      mdToHtml(raca.cultura) +
+      '<hr>';
   }
 
   if (raca.nomes) {
-    let nomesEx = [];
-    if (raca.nomes.masculinos?.length) nomesEx.push("<h4>Nomes Masculinos</h4><p>" + raca.nomes.masculinos.join(", ") + "</p>");
-    if (raca.nomes.femininos?.length) nomesEx.push("<h4>Nomes Femininos</h4><p>" + raca.nomes.femininos.join(", ") + "</p>");
-    if (raca.nomes.sobrenomes?.length) nomesEx.push("<h4>Sobrenomes e Clãs</h4><p>" + raca.nomes.sobrenomes.join(", ") + "</p>");
-
-    pages.push({
-      _id: deterministicId("p3-nom", slug),
-      name: "Nomes & Tradições",
-      type: "text",
-      title: { show: true, level: 1 },
-      text: {
-        content: "<h2>Nomes & Tradições</h2>" + (raca.nomes.lore ? mdToHtml(raca.nomes.lore) : "") + nomesEx.join(""),
-        format: 1,
-      },
-    });
+    html += '<h2>Nomes & Tradições</h2>';
+    if (raca.nomes.lore) {
+      html += mdToHtml(raca.nomes.lore);
+    }
+    if (raca.nomes.masculinos?.length) {
+      html += '<h4>Nomes Masculinos</h4><p>' + raca.nomes.masculinos.join(", ") + '</p>';
+    }
+    if (raca.nomes.femininos?.length) {
+      html += '<h4>Nomes Femininos</h4><p>' + raca.nomes.femininos.join(", ") + '</p>';
+    }
+    if (raca.nomes.sobrenomes?.length) {
+      html += '<h4>Sobrenomes e Clãs</h4><p>' + raca.nomes.sobrenomes.join(", ") + '</p>';
+    }
   }
+
+  return html;
+}
+
+function buildJournalEntryForRace(raca) {
+  const slug = slugify(raca.id);
+  const diarioId = deterministicId("diario-raca", slug);
+  const imgFile = RACAS_FORJA_MAP[slug] || "raca.png";
+  const imgPath = "systems/mighty-blade/assets/forja/" + imgFile;
 
   return {
     _id: diarioId,
     name: "Diário: " + raca.nome,
-    pages,
+    pages: [
+      {
+        _id: deterministicId("p1-lore", slug),
+        name: raca.nome + " — Biologia, Cultura e Nomes",
+        type: "text",
+        title: { show: true, level: 1 },
+        text: { content: buildRaceLorePageHtml(raca), format: 1 },
+      },
+    ],
     img: imgPath,
     flags: {
       "mighty-blade": {
         slug,
         tipo: "raca",
+      },
+    },
+  };
+}
+
+function buildMasterRacasJournal(racasList) {
+  const masterId = deterministicId("master-diario", "bio-e-cultura");
+  const pages = racasList.map((raca) => {
+    const slug = slugify(raca.id);
+    return {
+      _id: deterministicId("p-master-raca", slug),
+      name: raca.nome.toLowerCase(),
+      type: "text",
+      title: { show: true, level: 1 },
+      text: { content: buildRaceLorePageHtml(raca), format: 1 },
+      flags: {
+        "mighty-blade": {
+          slug,
+        },
+      },
+    };
+  });
+
+  return {
+    _id: masterId,
+    name: "bio e cultura",
+    pages,
+    img: "systems/mighty-blade/assets/forja/aesir.png",
+    flags: {
+      "mighty-blade": {
+        slug: "bio-e-cultura",
+        master: true,
       },
     },
   };
@@ -824,6 +856,7 @@ async function run() {
   console.log("✓ Equipamentos processados: " + canonicalEquipamentos.length);
 
   const canonicalDiarios = [
+    buildMasterRacasJournal(racasList),
     ...racasList.map(buildJournalEntryForRace),
     ...classesList.map(buildJournalEntryForClass),
     ...caminhosList.map(buildJournalEntryForCaminho),

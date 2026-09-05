@@ -1,7 +1,18 @@
+import {
+  slugify,
+  RACAS_FORJA_MAP,
+  CLASSES_FORJA_MAP,
+  CAMINHOS_FORJA_SLUGS,
+  ORGANIZACOES_FORJA_MAP,
+  resolveItemImage,
+} from "../helpers/forja-art.mjs";
+
+export { resolveItemImage };
+
 export class MightyBladeCompendiumBrowser extends Application {
   constructor(options = {}) {
     super(options);
-    this.filterType = options.type; // 'raca' or 'classe'
+    this.filterType = options.type || "raca"; // 'raca', 'classe', 'caminho', etc.
     this.targetActor = options.actor;
     this.selectedId = null;
   }
@@ -45,8 +56,26 @@ export class MightyBladeCompendiumBrowser extends Application {
       items = items.filter((i) => i.type === "equipamento" || i.type === "arma" || i.type === "armadura");
     }
 
+    items = items.map((i) => {
+      const obj = (typeof i.toObject === "function") ? i.toObject() : { ...i };
+      obj.img = resolveItemImage(i);
+      obj.uuid = i.uuid;
+      return obj;
+    });
+
     items = items.sort((a, b) => a.name.localeCompare(b.name));
-    return { items };
+
+    const categories = [
+      { id: "raca", label: "Raças", active: this.filterType === "raca" },
+      { id: "classe", label: "Classes", active: this.filterType === "classe" },
+      { id: "caminho", label: "Caminhos", active: this.filterType === "caminho" },
+      { id: "organizacao", label: "Organizações", active: this.filterType === "organizacao" },
+      { id: "habilidade", label: "Habilidades", active: this.filterType === "habilidade" },
+      { id: "magia", label: "Magias", active: this.filterType === "magia" },
+      { id: "equipamento", label: "Equipamentos", active: this.filterType === "equipamento" },
+    ];
+
+    return { items, categories, activeType: this.filterType };
   }
 
   activateListeners(html) {
@@ -57,6 +86,16 @@ export class MightyBladeCompendiumBrowser extends Application {
     const selectButton = html.find(".select-button");
     const searchInput = html.find("input[name='search']");
     const syncButton = html.find(".sync-packs-button");
+
+    // Alternar abas de categorias
+    html.find(".browser-tab-btn").on("click", (ev) => {
+      ev.preventDefault();
+      const tab = ev.currentTarget.dataset.tab;
+      if (tab && tab !== this.filterType) {
+        this.filterType = tab;
+        this.render(false);
+      }
+    });
 
     // Botão de Sincronização direta
     syncButton.on("click", async (ev) => {
@@ -93,12 +132,13 @@ export class MightyBladeCompendiumBrowser extends Application {
       const description = await TextEditor.enrichHTML(item.system.description ?? "");
 
       // Arte oficial com destaque Dark Obsidian
-      const hasForjaImg = item.img && !item.img.includes("mystery-man.svg") && !item.img.includes("item-bag.svg");
+      const itemImg = resolveItemImage(item);
+      const hasForjaImg = itemImg && !itemImg.includes("mystery-man.svg") && !itemImg.includes("item-bag.svg");
       let imgBanner = "";
       if (hasForjaImg) {
         imgBanner = `
           <div class="browser-hero-art" style="text-align:center;margin-bottom:12px;padding:8px;background:rgba(0,0,0,0.35);border:1px solid rgba(255,255,255,0.1);border-radius:8px;">
-            <img src="${item.img}" alt="${item.name}" style="max-height:160px;max-width:100%;object-fit:contain;background:#ffffff;border-radius:4px;padding:6px;box-shadow:0 4px 10px rgba(0,0,0,0.5);display:inline-block;" />
+            <img src="${itemImg}" alt="${item.name}" style="max-height:170px;max-width:100%;object-fit:contain;background:#ffffff;border-radius:6px;padding:6px;box-shadow:0 4px 12px rgba(0,0,0,0.5);display:inline-block;" />
           </div>
         `;
       }
@@ -177,6 +217,29 @@ export class MightyBladeCompendiumBrowser extends Application {
         evClick.preventDefault();
         evClick.stopPropagation();
         const target = $(evClick.currentTarget);
+        const slug = target.data("slug") || item.flags?.["mighty-blade"]?.slug || slugify(item.name);
+        const nameLower = item.name.toLowerCase();
+
+        // 1. Prioridade: Buscar no Diário do mundo (ex: "bio e cultura" ou "Biologia e Cultura das Raças")
+        const worldJournal = game.journal.getName("bio e cultura") ||
+          game.journal.getName("Biologia e Cultura das Raças") ||
+          game.journal.find((j) => {
+            const jName = j.name.toLowerCase();
+            return jName.includes("bio") || jName.includes("cultura");
+          });
+
+        if (worldJournal) {
+          const page = worldJournal.pages.find((p) => {
+            const pName = p.name.toLowerCase();
+            return pName === nameLower || pName === slug || p.flags?.["mighty-blade"]?.slug === slug;
+          });
+          if (page) {
+            worldJournal.sheet.render(true, { pageId: page.id });
+            return;
+          }
+        }
+
+        // 2. Tentar UUID direto fornecido
         const uuid = target.data("uuid") || target.attr("data-uuid");
         if (uuid) {
           const doc = await fromUuid(uuid);
@@ -185,16 +248,30 @@ export class MightyBladeCompendiumBrowser extends Application {
             return;
           }
         }
-        // Fallback: buscar pelo slug do item no compêndio de diários
-        const slug = target.data("slug") || item.flags?.["mighty-blade"]?.slug;
-        if (slug) {
-          const diariosPack = game.packs.get("mighty-blade.diarios");
-          if (diariosPack) {
-            const docs = await diariosPack.getDocuments();
-            const match = docs.find((d) => d.flags?.["mighty-blade"]?.slug === slug);
-            if (match) {
-              match.sheet.render(true);
+
+        // 3. Fallback: buscar no compêndio de diários (mighty-blade.diarios)
+        const diariosPack = game.packs.get("mighty-blade.diarios");
+        if (diariosPack) {
+          const docs = await diariosPack.getDocuments();
+          // A) Procurar diário individual
+          const match = docs.find((d) => d.flags?.["mighty-blade"]?.slug === slug || d.name.toLowerCase().includes(nameLower));
+          if (match) {
+            match.sheet.render(true);
+            return;
+          }
+          // B) Procurar página dentro do master journal consolidado
+          const masterDoc = docs.find((d) => d.flags?.["mighty-blade"]?.master || d.name.toLowerCase().includes("bio"));
+          if (masterDoc) {
+            const page = masterDoc.pages.find((p) => {
+              const pName = p.name.toLowerCase();
+              return pName === nameLower || pName === slug;
+            });
+            if (page) {
+              masterDoc.sheet.render(true, { pageId: page.id });
+              return;
             }
+            masterDoc.sheet.render(true);
+            return;
           }
         }
       });

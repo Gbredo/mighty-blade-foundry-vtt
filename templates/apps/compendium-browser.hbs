@@ -1,5 +1,19 @@
 <div class="compendium-browser flexrow">
   <section class="browser-sidebar">
+    {{!-- Abas de Categorias --}}
+    <nav class="browser-categories-bar" style="display:flex;gap:4px;margin-bottom:8px;overflow-x:auto;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.08);">
+      {{#each categories}}
+        <button
+          type="button"
+          class="browser-tab-btn {{#if this.active}}active{{/if}}"
+          data-tab="{{this.id}}"
+          style="padding:3px 8px;font-size:0.75rem;border-radius:12px;border:1px solid {{#if this.active}}#f59e0b{{else}}rgba(255,255,255,0.15){{/if}};background:{{#if this.active}}rgba(245,158,11,0.2){{else}}rgba(0,0,0,0.2){{/if}};color:{{#if this.active}}#fbbf24{{else}}#cbd5e1{{/if}};font-weight:{{#if this.active}}700{{else}}500{{/if}};cursor:pointer;white-space:nowrap;"
+        >
+          {{this.label}}
+        </button>
+      {{/each}}
+    </nav>
+
     <div class="search-bar" style="display:flex;gap:6px;align-items:center;">
       <input
         type="text"

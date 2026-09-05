@@ -4,6 +4,13 @@ import {
 } from "../helpers/effects.mjs";
 import { MightyBladeCompendiumBrowser } from "../apps/compendium-browser.mjs";
 import { rollAttribute } from "../helpers/dice.mjs";
+import {
+  resolveItemImage,
+  slugify,
+  CAMINHOS_FORJA_SLUGS,
+  CLASSES_FORJA_MAP,
+  ORGANIZACOES_FORJA_MAP,
+} from "../helpers/forja-art.mjs";
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -110,6 +117,18 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
     context.formattedOrganizacao = formatSlug(context.system?.details?.organizacao);
     context.formattedCaminho = formatSlug(context.system?.details?.caminho);
     context.formattedAprendiz = formatSlug(context.system?.details?.aprendiz);
+
+    // Resolução de arte oficial para Caminho e Organização no cabeçalho
+    if (context.system?.details?.caminho) {
+      const cSlug = slugify(context.system.details.caminho);
+      const cFile = CAMINHOS_FORJA_SLUGS.has(cSlug) ? `${cSlug}.png` : (CLASSES_FORJA_MAP[cSlug] || "caminho.png");
+      context.caminhoImg = `systems/mighty-blade/assets/forja/${cFile}`;
+    }
+    if (context.system?.details?.organizacao) {
+      const oSlug = slugify(context.system.details.organizacao);
+      const oFile = ORGANIZACOES_FORJA_MAP[oSlug] || `org_${oSlug}.png`;
+      context.organizacaoImg = `systems/mighty-blade/assets/forja/${oFile}`;
+    }
   }
 
   /**
@@ -167,11 +186,13 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
       }
       // Identify Race
       else if (i.type === "raca") {
+        i.img = resolveItemImage(i);
         raca = i;
         // features.push(i); // Removed: Race is displayed in header, linked ability is separate item
       }
       // Identify Class
       else if (i.type === "classe") {
+        i.img = resolveItemImage(i);
         classe = i;
       }
     }

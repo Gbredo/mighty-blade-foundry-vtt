@@ -13,6 +13,7 @@ import { createRaces } from "./helpers/create-races.mjs";
 import { rollTest, rollAttribute, requestTestOptions, castSpell } from "./helpers/dice.mjs";
 import { importCharacter, importCharacterFromJSON, openImportDialog } from "./helpers/import.mjs";
 import { buildCompendios } from "./helpers/packs.mjs";
+import { MightyBladeCompendiumBrowser, resolveItemImage } from "./apps/compendium-browser.mjs";
 
 // Import DataModels
 import MightyBladeCharacterData from "./data/actor-character.mjs";
@@ -40,8 +41,10 @@ Hooks.once("init", async function () {
     importCharacter,
     importCharacterFromJSON,
     openImportDialog,
-    // Compêndios de conteúdo
+    // Compêndios e Navegador Visual
     buildCompendios,
+    CompendiumBrowser: MightyBladeCompendiumBrowser,
+    openCompendiumBrowser: (options = {}) => new MightyBladeCompendiumBrowser(options).render(true),
   };
 
   // Add custom constants for configuration.
@@ -106,23 +109,74 @@ Hooks.on("renderActorDirectory", (app, html) => {
 });
 
 /* -------------------------------------------- */
-/* Botão "Sincronizar Compêndios" na aba de Packs */
+/* Botões na aba de Compêndios (Navegador e Sync)*/
 /* -------------------------------------------- */
 Hooks.on("renderCompendiumDirectory", (app, html) => {
-  if (!game.user.isGM) return;
   const root = html instanceof HTMLElement ? html : html?.[0];
   if (!root) return;
   const header = root.querySelector(".directory-header") ?? root.querySelector("header");
-  if (!header || header.querySelector(".mb-sync-compendiums")) return;
+  if (!header) return;
 
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = "mb-sync-compendiums";
-  btn.style.cssText = "flex:0 0 auto;margin-top:4px;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;";
-  btn.innerHTML = `<i class="fas fa-arrows-rotate"></i> Sincronizar Compêndios`;
-  btn.title = "Reconstrói os 5 compêndios canônicos (Raças, Classes, Habilidades, Magias e Equipamentos)";
-  btn.addEventListener("click", () => buildCompendios());
-  header.appendChild(btn);
+  if (!header.querySelector(".mb-open-browser")) {
+    const browserBtn = document.createElement("button");
+    browserBtn.type = "button";
+    browserBtn.className = "mb-open-browser";
+    browserBtn.style.cssText = "flex:0 0 auto;margin-top:4px;background:rgba(124,58,237,0.25);border:1px solid #7c3aed;color:#c084fc;cursor:pointer;";
+    browserBtn.innerHTML = `<i class="fas fa-book-sparkles"></i> Navegador Mighty Blade`;
+    browserBtn.title = "Abre o navegador visual ilustrado de Raças, Classes, Caminhos e Itens";
+    browserBtn.addEventListener("click", () => new MightyBladeCompendiumBrowser().render(true));
+    header.appendChild(browserBtn);
+  }
+
+  if (game.user.isGM && !header.querySelector(".mb-sync-compendiums")) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "mb-sync-compendiums";
+    btn.style.cssText = "flex:0 0 auto;margin-top:4px;background:rgba(217,119,6,0.2);border:1px solid #d97706;color:#f59e0b;cursor:pointer;";
+    btn.innerHTML = `<i class="fas fa-arrows-rotate"></i> Sincronizar Compêndios`;
+    btn.title = "Reconstrói os compêndios canônicos com dados oficiais e diários de Lore";
+    btn.addEventListener("click", () => buildCompendios());
+    header.appendChild(btn);
+  }
+});
+
+/* -------------------------------------------- */
+/* Interceptores de Interface: Arte Oficial     */
+/* -------------------------------------------- */
+Hooks.on("renderCompendium", (app, html) => {
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root) return;
+  root.querySelectorAll(".directory-item, .entry").forEach((el) => {
+    const img = el.querySelector("img");
+    if (!img) return;
+    if (img.src && (img.src.includes("mystery-man") || img.src.includes("item-bag"))) {
+      const name = el.querySelector(".entry-name, .document-name, h4")?.textContent?.trim();
+      if (name) {
+        const resolved = resolveItemImage({ name, type: app.metadata?.type || app.metadata?.name });
+        if (resolved && !resolved.includes("mystery-man") && !resolved.includes("item-bag")) {
+          img.src = resolved;
+        }
+      }
+    }
+  });
+});
+
+Hooks.on("renderItemDirectory", (app, html) => {
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root) return;
+  root.querySelectorAll(".directory-item").forEach((el) => {
+    const img = el.querySelector("img");
+    if (!img) return;
+    if (img.src && (img.src.includes("mystery-man") || img.src.includes("item-bag"))) {
+      const name = el.querySelector(".document-name, .entry-name, h4")?.textContent?.trim();
+      if (name) {
+        const resolved = resolveItemImage({ name, type: "raca" });
+        if (resolved && !resolved.includes("mystery-man") && !resolved.includes("item-bag")) {
+          img.src = resolved;
+        }
+      }
+    }
+  });
 });
 
 /* -------------------------------------------- */
@@ -131,13 +185,26 @@ Hooks.on("renderCompendiumDirectory", (app, html) => {
 Hooks.once("ready", async () => {
   if (!game.user.isGM) return;
 
+  const LAST_PACKS_VERSION = "2.2.0-forja-complete";
   const racasPack = game.packs.get("mighty-blade.racas");
   if (racasPack) {
     const index = await racasPack.getIndex();
-    if (index.size === 0) {
-      console.log("MIGHTY BLADE: Compêndios vazios detectados. Populando automaticamente...");
-      ui.notifications.info("Detectados compêndios vazios. Populando 1.120+ itens canônicos automaticamente...");
+    const storedVersion = localStorage.getItem("mb_packs_version");
+
+    // Verificar se o compêndio está vazio, se a versão mudou ou se possui mystery-man
+    let needsUpdate = index.size === 0 || storedVersion !== LAST_PACKS_VERSION;
+    if (!needsUpdate && index.size > 0) {
+      const firstEntry = index.contents[0];
+      if (firstEntry && (firstEntry.img?.includes("mystery-man") || !firstEntry.img?.includes("forja"))) {
+        needsUpdate = true;
+      }
+    }
+
+    if (needsUpdate) {
+      console.log("MIGHTY BLADE: Atualizando compêndios para versão com ilustrações da Forja e Diários de Lore...");
+      ui.notifications.info("Sincronizando 1.150+ itens canônicos e 68 diários de Lore com ilustrações da Forja...");
       await buildCompendios();
+      localStorage.setItem("mb_packs_version", LAST_PACKS_VERSION);
     }
   }
 });

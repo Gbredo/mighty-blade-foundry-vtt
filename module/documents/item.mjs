@@ -1,10 +1,22 @@
 import { rollTest, castSpell } from "../helpers/dice.mjs";
+import { resolveItemImage } from "../helpers/forja-art.mjs";
 
 /**
  * Extend the basic Item document.
  * @extends {Item}
  */
 export class MightyBladeItem extends Item {
+  /** @override */
+  prepareBaseData() {
+    super.prepareBaseData();
+    if (!this.img || this.img.includes("mystery-man") || this.img.includes("item-bag")) {
+      const resolved = resolveItemImage(this);
+      if (resolved && !resolved.includes("mystery-man") && !resolved.includes("item-bag")) {
+        this.img = resolved;
+      }
+    }
+  }
+
   /**
    * Augment the basic Item data model with additional dynamic data.
    */
