@@ -71,6 +71,8 @@
       "armadura",
       "raca",
       "classe",
+      "caminho",
+      "organizacao",
       "idioma"
     ],
     "raca": {
@@ -167,6 +169,21 @@
     },
     "item": {
       "templates": [],
+      "description": ""
+    },
+    "caminho": {
+      "templates": [],
+      "requisitos": "",
+      "habilidadeAutomatica": "",
+      "racasComuns": "",
+      "description": ""
+    },
+    "organizacao": {
+      "templates": [],
+      "tipo": "",
+      "sede": "",
+      "lideranca": "",
+      "ingresso": "",
       "description": ""
     },
     "idioma": {

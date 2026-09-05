@@ -1,0 +1,52 @@
+{
+  "_id": "c4a1cfbb8e75690e",
+  "name": "Diário: Astério",
+  "pages": [
+    {
+      "_id": "943bb62e8ff37f64",
+      "name": "Biologia & Fisiologia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/raca.png\" alt=\"Astério\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides colossais, medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos. Apresentam cabeçorras pesadas ornadas de cornos sólidos. Possuem quatro dedos nas mãos e pés, sendo que os dedos dos pés são unidos sob uma estrutura queratinosa, formando um casco fendido.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado coberto por uma pelagem grossa e esparsa, sendo mais cerrada na cabeça, pescoço, ombros e costas, em tonalidades que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Diferente das fêmeas, que são frágeis e diminutas, os machos são brutamontes pesados e os únicos que desenvolvem chifres na espécie.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os machos já nascem com pequenos cornos rombudos. Esses cornos atingem o tamanho máximo aos 15 anos de idade, quando então eles passam a ser oficialmente considerados adultos. Vivem em média até os 80 anos, com os primeiros sinais de envelhecimento começando aos 50.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 80 anos</li></ul>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "c27258ca9738f364",
+      "name": "Cultura & Sociedade",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Originários do reino de Parband. A cultura segue regras simples onde o mérito pessoal é colocado acima de noções de raça, cultura ou gênero. Não existem cargos hereditários e a obtenção de postos ocorre por meio de demonstrações de força ou habilidade, além de desafios de combate direto.</li><br><li><strong>O Papel Masculino (Trabalho e Lazer):</strong> A maioria dos machos jovens trabalha com atividades braçais e pesadas (como estivadores, fazendeiros, marceneiros, ferreiros e mineiros) antes de se engajarem obrigatoriamente no serviço militar na fase adulta. Em seu tempo de lazer, apreciam prazeres simples como comer, beber, exibir sua força e realizar trabalhos artesanais, notavelmente na forja e no entalhe.</li><br><li><strong>A Guerra e o Kapa-Haka:</strong> Devido à forte disciplina militar, os guerreiros Astérios praticam uma intensa dança tribal chamada Kapa-Haka. Essa dança tem o objetivo expresso de intimidar os inimigos no campo de batalha e fortalecer os laços e a coordenação dos guerreiros através de vigorosas demonstrações de força.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de manterem excelentes relações em seu reino, os Astérios evitam visitar as terras centrais de Tebryn. Lá, eles sofrem fortes preconceitos por causa das violentas incursões vindas do império escravagista de Arkânia, sendo pejorativamente chamados de \"minotauros\" e temidos como monstros sanguinários.</li></ul></p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "b4de8a36e0afa773",
+      "name": "Nomes & Tradições",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Nomes & Tradições</h2><p>Seu idioma original é o Reo, uma língua simples e utilitária que não possui o som de \"G\", \"J\" e nem utiliza a letra \"B\". Para os machos, os nomes têm de uma a três sílabas e obrigatoriamente terminam em “E”, “O” ou “U”. Na prática, qualquer nome nativo havaiano ou maori, adaptado sob essas restrições, funciona de maneira perfeita para a raça. Astérios não usam sobrenomes de famílias. Eles se identificam utilizando os nomes das corporações ou ofícios em que trabalham, acompanhado de sua patente. Sobrenomes (Organizações) conhecidos: da Armada da Aurora, das Forjas de Hou. (Ex: \"Centurião Tane da Armada da Aurora\" ou \"Hanno das Forjas de Hou\").</p><h4>Nomes Masculinos</h4><p>Akahate, Akahau, Amahau, Amire, Anewo, Dawharu, Hahono, Hanauhou, Hanno, Hare, Hehu, Hemu, Henare, Hokuoke, Hookohoie, Lahanau, Lamake, Lokene, Maako, Mahuto, Maramo, Matiu, Nohouke, Oko, Ondaku, Rawire, Ronto, Ruru, Tanaro, Tane</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/raca.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "asterio-m",
+      "tipo": "raca"
+    }
+  }
+}

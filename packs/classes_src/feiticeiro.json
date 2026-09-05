@@ -1,7 +1,7 @@
 {
   "name": "Feiticeiro",
   "type": "classe",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/mighty-blade/assets/forja/feiticeiro2.png",
   "system": {
     "atributos": {
       "forca": 0,
@@ -19,11 +19,12 @@
     "vida": 60,
     "mana": 60,
     "equipamentoInicial": "",
-    "description": "<div class=\"lore\"><p>Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><p>Apesar de possuírem um domínio considerável sobre a teoria geral da magia arcana, os Feiticeiros focam seus esforços no domínio e manipulação dessas energias brutas, geralmente para fins combativos. Muitos Feiticeiros ocupam posições em exércitos ou guardas organizadas, às vezes na linha de frente, às vezes como conselheiros ou em posições de liderança. Em geral, aqueles que decidem seguir o aprendizado de Feiticeiro são pessoas com sede de aventura ou de poder, o que geralmente lhes rende bons frutos em organizações com cadeias de comando bem estruturadas.</p><p>No entanto, muitos Feiticeiros estudam as teorias elementais da magia em busca de significados mais filosóficos. Esses Feiticeiros geralmente evitam usar magias de forma destrutiva, procurando usá-las de modo mais brando, usualmente preferindo magias defensivas e utilitárias em lugar de magias puramente ofensivas.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar, infravisao, invocar-elemental-1, invocar-elemental-2, levitar, manto-crepitante, mente-disciplinada, parede-de-gelo, rajada-de-gelo, relampago-1, rajada-elemental, resistencia-elemental, telecinesia, teleporte-1, aptidao-elemental, dissipar-magia, eletrosfera, incandescer, inferno, invocar-elemental-3, prisao-de-gelo, relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental\n      </div>\n    "
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.01f81cd5a919ee25\" data-slug=\"feiticeiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar...</div></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "feiticeiro",
+      "diarioId": "01f81cd5a919ee25",
       "conjurador": true
     }
   }

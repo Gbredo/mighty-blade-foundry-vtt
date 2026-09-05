@@ -1,0 +1,52 @@
+{
+  "_id": "32a7aec4fca470b7",
+  "name": "Diário: Humano",
+  "pages": [
+    {
+      "_id": "68296b93c77d3c7e",
+      "name": "Biologia & Fisiologia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/humano.png\" alt=\"Humano\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Por serem os humanoides mais numerosos de Drakon, servem como a base biológica de comparação para as outras raças. Possuem estatura mediana (entre 1,5 e 1,9 metros) e um peso que varia consideravelmente de acordo com seu estilo de vida, indo de 40 a até 140 quilos (com a média girando entre 60 e 80 quilos). Indivíduos que fogem muito dessa média geralmente são portadores de deficiências de nascença.</li><br><li><strong>Pele e Pelagem:</strong> A pele apresenta uma grande diversidade, variando do rosado ao negro, passando por várias tonalidades de pardo. O corpo é recoberto por uma pelagem rala e fina (mais abundante nos machos), com grande concentração de pelos no alto da cabeça. A coloração dos cabelos vai do amarelo palha ao negro, incluindo louro, castanho e, mais raramente, ruivo.</li><br><li><strong>Olhos:</strong> A cor costuma ser castanha, verde ou, mais raramente, azul.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas se distinguem por não possuírem pelos faciais (barba), por serem geralmente um pouco menores e por possuírem traços mais delicados. Elas também apresentam mamas que variam de pequenas a grandes, que costumam aumentar de tamanho após a primeira gestação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e atingem a maioridade biológica aos 16 anos. Vivem em média até os 80 anos (raramente chegando aos 100), com os primeiros sinais do envelhecimento surgindo por volta dos 50 anos de idade.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 50(8) anos</li><li><strong>Ancião:</strong> 80(1) anos</li></ul>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "13ec95a57556de93",
+      "name": "Cultura & Sociedade",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Expansão:</strong> É a raça mais expansionista do continente, estando presente em todos os reinos conhecidos. Apreciam tratados, trocas de conhecimentos acadêmicos e, quando vivem fora de seu reino nativo (Tebryn), tendem a adotar os costumes da cultura local.</li><br><li><strong>Estrutura Política e Social:</strong> Costumam organizar-se em um sistema de meritocracia titular, onde funções e propriedades são garantidas por mérito pessoal através de títulos não-hereditários. No entanto, na prática, é extremamente comum que parte do prestígio e as responsabilidades passem de pai para filho.</li><br><li><strong>Sustento e Arquitetura:</strong> Assentam suas cidades próximas a recursos cruciais (como rios e bosques) e exploram a natureza ao máximo. Embora civilizações humanas antigas tenham perecido por esgotarem seu ambiente, os humanos contemporâneos aprenderam com os Elfos a gerenciar os recursos de forma sustentável. A arquitetura foca na funcionalidade: usam madeira ou barro para construções rápidas, que depois são substituídas por sólidas estruturas de pedra. Residências de nobres, castelos e bibliotecas possuem estética requintada, frequentemente influenciada pela engenharia anã.</li><br><li><strong>Religião:</strong> A reverência à Tríade Divina é unânime, mas indivíduos e comunidades escolhem padroeiros ligados às suas profissões (por exemplo, magistrados e soldados cultuam Mirah; já carpinteiros e druidas preferem Ellenis).</li></ul></p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "f60b2fbff87abc01",
+      "name": "Nomes & Tradições",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Nomes & Tradições</h2><p>A língua nativa da humanidade é o Burguês Tebryniano (o idioma análogo ao Português). Nomes humanos têm de duas a quatro sílabas e não possuem regras de criação rígidas. Eles frequentemente adaptam palavras estrangeiras apenas por acharem a sonoridade atraente. O método oficial para criar nomes é alterar, adicionar ou remover letras de um nome brasileiro comum (Ex: Trocando letras de Rodrigo, obtém-se o nome Lodrago). Os Humanos dão imenso valor a sobrenomes familiares (diferente de faunos ou astérios). No casamento, os cônjuges podem manter o nome de solteiro, adotar o do outro ou, mais raramente, unir ambos.</p><h4>Nomes Masculinos</h4><p>Alford, Arn, Arnulfo, Balto, Brando, Bredo, Brunn, Cladro, Daland, Dineon, Fastolfo, Fengran, Garet, Gastav, Gultan, Jorand, Lars, Leivis, Lodrago, Lorval, Marino, Nil, Penard, Randal, Rob, Rodric, Rubert, Stefan, Tair, Talin, Teon, Torbeno, Vendal, Viliano</p><h4>Nomes Femininos</h4><p>Albina, Alise, Cindal, Cirela, Elmeara, Emadeline, Farla, Galena, Garlana, Herana, Ianca, Isobela, Janiele, Laria, Laudra, Licila, Lilidia, Locasta, Loren, Lorini, Matilda, Nina, Robena, Rosa, Sabana, Sindel, Taliana, Thail, Tilia, Valsina, Vedra, Violeta</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/humano.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "humano",
+      "tipo": "raca"
+    }
+  }
+}

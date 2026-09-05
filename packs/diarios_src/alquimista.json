@@ -1,0 +1,26 @@
+{
+  "_id": "a93b2b300ce3fb9c",
+  "name": "Diário: Alquimista",
+  "pages": [
+    {
+      "_id": "024f781c4e7c3bbf",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/alquimista.png\" alt=\"Alquimista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.</p><p>Apesar de ser possível aprender alquimia apenas através de livros, a maioria dos Alquimistas encoraja o aprendizado dentro de um laboratório, com a supervisão de Alquimistas experientes, uma vez que, principalmente durante suas primeiras experiências, as chances de cometer erros perigosos é considerável. Além disso, muitas poções simplesmente não são possíveis de realizar fora de um laboratório, e tentativas de simular os procedimentos sem os materiais necessários quase sempre geram reações desastrosas.</p><p>A maioria dos Alquimistas trabalha em grandes cidades com lojas anexas aos seus laboratórios ou mesmo exclusivamente para a corte. Estes Alquimistas mercantes geralmente produzem poções práticas para o dia-a-dia, como elixires do sono, poções contra dores e antídotos variados, mas a maioria deles mantém um estoque de poções destinadas especificamente para aventureiros.</p><p>Outros trabalham para conjuradores – ou mesmo são conjuradores! – ou para criminosos, produzindo poções muito mais complexas e perigosas. Estes Alquimistas quase nunca negociam suas mercadorias, produzindo poções para fins específicos e com demandas consideráveis.</p><p>E há, é claro, aqueles Alquimistas que se aventuram. Alguns deles aprenderam alquimia para complementar suas habilidades, ou como uma “progressão natural” delas, enquanto outros são curiosos por natureza, e o mesmo impulso que os faz estudar sobre reações químicas e físicas também os impulsionam para ver fenômenos pelo mundo em primeira mão – as vezes para estudá-los e tentar aprender com eles, as vezes apenas pela curiosidade.</p><p>Embora a maioria dos Alquimistas trabalhe de forma abrangente, ou seja, produzindo todo tipo de poções, há aqueles que se especializam em tipos determinados de misturas. Algun deles se especializam em produzir elixires, poções criadas especificamente para curar, fortalecer ou acalmar o corpo e a mente. Os iátricos ou curandeiros, como geralmente são chamados, são bastante comuns entre Xamãs e Sacerdotes. Toxicólogos ou envenenadores, como costumeiramente são chamados os Alquimistas especializados em venenos, são comuns entre os Patrulheiros, Druidas e Ladinos, apesar destes últimos também serem adeptos ao uso de Extratos. Espagiristas, como são conhecidos os Alquimistas que produzem Extratos, costumam ser tão variados e excêntricos quanto as poções que produzem, mas os Ladinos e os Feiticeiros são, de longe, os mais inclinados à adotarem essa especialidade da alquimia.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Herbalismo.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Elfo, Faen, Humano.</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/alquimista.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "alquimista",
+      "tipo": "caminho"
+    }
+  }
+}

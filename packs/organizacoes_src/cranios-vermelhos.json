@@ -1,0 +1,18 @@
+{
+  "name": "Crânios Vermelhos",
+  "type": "organizacao",
+  "img": "systems/mighty-blade/assets/forja/org_cranio.png",
+  "system": {
+    "tipo": "Criminal",
+    "sede": "Tebrynia",
+    "lideranca": "Desconhecido",
+    "ingresso": "Combate, tortura e tatuagem",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.edc9464c76248c66\" data-slug=\"cranios-vermelhos\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Desconhecido</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Combate, tortura e tatuagem</div></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cranios-vermelhos",
+      "diarioId": "edc9464c76248c66"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "46dc69095da17431",
+  "name": "Diário: Cruzado",
+  "pages": [
+    {
+      "_id": "8b3169114ed3f121",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cruzado.png\" alt=\"Cruzado\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Cruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.</p><p>Enquanto dentro da Ordem da Espada de Mirah realizar uma cruzada é praticamente mandatório para ser aceito – exceto no caso de alguns cargos destinados especificamente a Sacerdotes – dentro da Hoste de Hadorn não existe uma obrigatoriedade de tornar-se um Cruzado, mas estes guerreiros são amplamente respeitados e gozam de certos privilégios. Posições de liderança são geralmente atribuídos a Cruzados, e eles levam ampla vantagem na disputa para maioria das promoções para cargos elevados dentro da Ordem. Apesar de gozarem de certo respeito dentro de instituições ligadas a outras divindades, Cruzados não recebem nenhum privilégio especial em igrejas que não sejam ligadas a Hadorn ou Mirah.</p><p>Cruzados não formam um grupo coeso, e embora muitos pertençam a uma Ordem, há um bom número de Cruzados solitários que cruzam Tebryn caçando criaturas malignas em nome de sua divindade de forma completamente independente. Não existe nenhuma organização oficial de seus membros, e enquanto alguns deles são orientados por Cruzados mais experientes, alguns trilham este Caminho de forma totalmente independente e espontânea.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 4, Dogma.</p><p><strong>Raças Comuns:</strong> Anão, Elfo, Humano, Juban, Levent, Tailox.</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/cruzado.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "cruzado",
+      "tipo": "caminho"
+    }
+  }
+}

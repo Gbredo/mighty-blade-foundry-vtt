@@ -1,7 +1,7 @@
 {
   "name": "Xamã",
   "type": "classe",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/mighty-blade/assets/forja/xama1.png",
   "system": {
     "atributos": {
       "forca": 1,
@@ -19,11 +19,12 @@
     "vida": 60,
     "mana": 60,
     "equipamentoInicial": "",
-    "description": "<div class=\"lore\"><p>Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><p>A ligação com os espíritos naturais permite que muitos Xamãs sejam capazes de se comunicar com os animais, comandá-los e criar poderosos vínculos com eles. Xamãs particularmente conectados aos animais são capazes de tomar a forma destes, transformando-se completamente ou adquirindo características animalescas – como guelras, garras e asas.</p><p>Xamãs ligados aos espíritos dos mortos costumam assumir posições de conselheiros nas comunidades onde habitam, enquanto aqueles ligados a espíritos animais tendem a assumir posições como caçadores ou campeões tribais. Em Ambrook, Lorde Narat mantém uma guarda pessoal de Xamãs especializados em metamorfose, e é dito que o rei Honório Van Strauss fazia uso de xamãs metamorfos como espiões e sentinelas.</p><p>Apesar de comumente serem encontrados em comunidades tribais, afastadas da civilização, é possível encontrar xamãs em grandes metrópoles, às vezes simplesmente de passagem, lidando com alguma área assombrada por espíritos, ou, mais raramente como residentes de áreas infestadas de espíritos – às vezes agindo como guardiões, às vezes como carcereiros.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico, companheiro-animal-1, companheiro-animal-2, comunhao-com-espiritos, contato-com-espiritos, chamado-do-alfa, combate-com-duas-armas-1, cura-espiritual, espirito-animal, forma-animal-1, herbalismo, invocar-espirito-animal, rugido-do-alfa, rugido-do-predador, sabedoria-selvagem, sem-escapatoria, vantagem-animal-1, atropelar, caminhada-fantasma, companheiro-animal-3, companheiro-espiritual, estracalhar, forma-animal-2, implacavel, imunidade-espiritual, mestre-domador, vantagem-animal-2, guardiao-da-natureza\n      </div>\n    "
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b89d37f86c189b3e\" data-slug=\"xama\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (35 Habilidades):</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico...</div></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "xama",
+      "diarioId": "b89d37f86c189b3e",
       "conjurador": false
     }
   }

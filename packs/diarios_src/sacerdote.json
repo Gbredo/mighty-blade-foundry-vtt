@@ -1,0 +1,39 @@
+{
+  "_id": "74f4eb07d3561470",
+  "name": "Diário: Sacerdote",
+  "pages": [
+    {
+      "_id": "80e466331f317eb8",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sacerdote2.png\" alt=\"Sacerdote\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><p>A grande maioria dos Sacerdotes dedica suas vidas ao estudo e proteção de sua fé, à manutenção dos templos de sua divindade patrona, ao estudo de suas escrituras sagradas, comungando com outros professantes da mesma fé ou transmitindo seus conhecimentos para outros membros da comunidade onde habitam. A maioria deles, ainda, exerce alguma função na comunidade de acordo com as doutrinas de sua divindade: Sacerdotes de Mirah muitas vezes ocupam cargos de juízes ou conselheiros de burgomestres ou mesmo monarcas, Sacerdotes de Ellenis geralmente auxiliam os fazendeiros e caçadores em suas funções, Sacerdotes de Denalla costumam trabalhar como parteiros ou curandeiros, Sacerdotes de Sarfion trabalham em bibliotecas, escolas ou como conselheiros civis, Sacerdotes de Hadorn aconselham generais e costumam acompanhar tropas em conflitos tanto como médicos de fronte quanto como combatentes, Sacerdotes de Ran e Taranis muitas vezes embarcam em navios (tanto de guerra quanto de comércio ou mesmo de pesca) para proteger e aconselhar a tripulação, Sacerdotes de Hou podem ser encontrados em guildas de ferreiros realizando funções como artesões ou tesoureiros e Sacerdotes de Ahrogr podem tanto exercer funções de aconselhamento em assuntos civis ou militares como exercer funções de legisladores.</p><p>Muitos Sacerdotes, no entanto, preferem uma vida mais autônoma, viajando constantemente para aumentar sua compreensão do mundo ao seu redor na tentativa de encontrar uma coesão entre as teorias que estudam e o reflexo prático delas no mundo. Entre estes, um bom número de Sacerdotes se aventura de modo menos passivo, procurando aqueles fenômenos considerados antinaturais pela sua fé para expurgá-los do mundo, ou exercendo a as doutrinas de sua divindade patrona – enquanto Sacerdotes de Marah, Ahogr, Taranis e Hou se sentem compelidos a combater por grupos ou indivíduos em perigo, os de Denalla e Ellenis são particularmente conhecidos por combater mortos-vivos, demônios e outras criaturas sobrenaturais, os de Hadorn e Ran podem se interessar por qualquer situação de conflito e Sacerdotes de Sarfion são célebres exploradores e investigadores.</p><p><strong>Raças Mais Frequentes:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "31ecbe24931aaf65",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>abencoar-aliados-1</strong></li><li><strong>abencoar-objeto</strong></li><li><strong>aparar-magia</strong></li><li><strong>asas-celestiais</strong></li><li><strong>asceta</strong></li><li><strong>aura-de-cura-1</strong></li><li><strong>cariatide</strong></li><li><strong>conjurar-arma-dos-deuses</strong></li><li><strong>do-destino</strong></li><li><strong>conjurar-broquel-mistico</strong></li><li><strong>corpo-fechado</strong></li><li><strong>curar-ferimentos-1</strong></li><li><strong>detectar-magia</strong></li><li><strong>dogma</strong></li><li><strong>exorcismo</strong></li><li><strong>graca-divina</strong></li><li><strong>protecao-mistica</strong></li><li><strong>purgar</strong></li><li><strong>toque-mistico</strong></li><li><strong>velocidade</strong></li><li><strong>abencoar-aliados-2</strong></li><li><strong>aura-de-cura-2</strong></li><li><strong>circulo-da-protecao</strong></li><li><strong>conjurar-falange-do-destino</strong></li><li><strong>criar-golem</strong></li><li><strong>curar-ferimentos-2</strong></li><li><strong>dissipar-magia</strong></li><li><strong>manter-golem</strong></li><li><strong>portal</strong></li><li><strong>primaz</strong></li><li><strong>pontifice</strong></li></ul>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/sacerdote2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "sacerdote",
+      "tipo": "classe"
+    }
+  }
+}

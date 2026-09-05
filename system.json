@@ -36,14 +36,17 @@
     }
   ],
   "packs": [
-    { "name": "racas",       "label": "Raças",       "path": "packs/racas",       "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "classes",     "label": "Classes",     "path": "packs/classes",     "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "habilidades", "label": "Habilidades", "path": "packs/habilidades", "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "magias",      "label": "Magias",      "path": "packs/magias",      "type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "equipamentos","label": "Equipamentos","path": "packs/equipamentos","type": "Item", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    { "name": "racas",        "label": "Raças",        "path": "packs/racas",        "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "classes",      "label": "Classes",      "path": "packs/classes",      "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "caminhos",     "label": "Caminhos",     "path": "packs/caminhos",     "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "organizacoes", "label": "Organizações", "path": "packs/organizacoes", "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "habilidades",  "label": "Habilidades",  "path": "packs/habilidades",  "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "magias",       "label": "Magias",       "path": "packs/magias",       "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "equipamentos", "label": "Equipamentos", "path": "packs/equipamentos", "type": "Item",         "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "diarios",      "label": "Diários & Lore", "path": "packs/diarios",    "type": "JournalEntry", "system": "mighty-blade", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
   "packFolders": [
-    { "name": "Mighty Blade", "sorting": "m", "packs": ["racas", "classes", "habilidades", "magias", "equipamentos"] }
+    { "name": "Mighty Blade", "sorting": "m", "packs": ["racas", "classes", "caminhos", "organizacoes", "habilidades", "magias", "equipamentos", "diarios"] }
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Gbredo/mighty-blade-foundry-vtt/main/system.json",

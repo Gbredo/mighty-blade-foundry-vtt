@@ -1,7 +1,7 @@
 {
   "name": "Dracomante",
   "type": "classe",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/mighty-blade/assets/forja/dracomante.png",
   "system": {
     "atributos": {
       "forca": 1,
@@ -19,11 +19,12 @@
     "vida": 60,
     "mana": 60,
     "equipamentoInicial": "",
-    "description": "<div class=\"lore\"><p>Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><p>A maioria dos Dracomantes é ligada à Aurora dos Dragões, um culto religioso fundado em Arkânia séculos atrás e que se concentra na ideia de que os dragões, e não as divindades exteriores, devem ser adorados e seus exemplos seguidos. Seu corpo de crença gira ao redor de que a sabedoria, majestade e poder dos dragões os tornam os líderes ideais para as raças mortais, além do fato dos dragões estarem, em termos planares, mais próximos aos mortais e, portanto serem menos alienígenas à mentalidade de seus acólitos.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica, companheiro-dragao-1, companheiro-dragao-2, defesa-do-dragao-do-relampago, detectar-magia, escamas-draconicas, exalacao-do-dragao-do-frio, folego-do-dragao-marinho, furia-do-dragao, halito-do-dragao, rugido-do-dragao-do-deserto, sintonia-draconica, travessia-do-dragao-do-fogo, vinculo-draconico, asas-draconicas, companheiro-dragao-4, dissipar-magia, exarca, atrio-elemental, bencao-do-dragao, companheiro-dragao-3, forma-draconica, halito-do-dragao-anciao, presenca-draconica, flagelo-da-aurora\n      </div>\n    "
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.424f6b2129452ab1\" data-slug=\"dracomante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica...</div></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "dracomante",
+      "diarioId": "424f6b2129452ab1",
       "conjurador": true
     }
   }

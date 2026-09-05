@@ -1,7 +1,7 @@
 {
   "name": "Hamelin",
   "type": "raca",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/mighty-blade/assets/forja/hamelin.png",
   "system": {
     "atributos": {
       "forca": 2,
@@ -24,11 +24,73 @@
       }
     ],
     "classesComuns": "Ladino, Necromante, Patrulheiro e Xamã",
-    "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (10 anos) · Idoso (30(4) anos) · Ancião (40(1/2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.</li><br><li><strong>Dimorfismo Sexual:</strong> Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Organização:</strong> Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.</li><br><li><strong>Comportamento:</strong> Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.</li><br><li><strong>Aventureiros:</strong> Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Aldabauss, Assaris, Baltosh, Catemoc, Fuzal, Haribus, Mahajuss, Muheiefos<br><b>Femininos:</b> Alfirani, Alharibina, Alraufa, Chunchia, Faquiri, Hissa, Isazi, Jabeni</div>\n      </div>\n    "
+    "description": "<div class=\"mb-item-summary\"><p>Raça Hamelin de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ad900578dbca255\" data-slug=\"hamelin\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-2a) · Adulto (10a) · Idoso (30(4)a) · Ancião (40(1/2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Ladino, Necromante, Patrulheiro e Xamã</div></div>"
   },
   "flags": {
     "mighty-blade": {
-      "slug": "hamelin"
+      "slug": "hamelin",
+      "diarioId": "6ad900578dbca255",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.\n* **Pele e Pelagem:** A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.\n* **Dimorfismo Sexual:** Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.\n* **Ciclo de Vida:** A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.",
+        "cultura": "* **Habitat e Organização:** Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.\n* **Comportamento:** Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.\n* **Aventureiros:** Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.",
+        "faixasEtarias": {
+          "filhote": "0-2",
+          "crianca": "3-5",
+          "adolescente": "6-9",
+          "adulto": "10",
+          "idoso": "30(4)",
+          "anciao": "40(1/2)"
+        },
+        "nomes": {
+          "lore": "Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".",
+          "masculinos": [
+            "Aldabauss",
+            "Assaris",
+            "Baltosh",
+            "Catemoc",
+            "Fuzal",
+            "Haribus",
+            "Mahajuss",
+            "Muheiefos",
+            "Mukhif",
+            "Munsifin",
+            "Ratharyn",
+            "Retch",
+            "Savis",
+            "Sefnus",
+            "Shimoshi",
+            "Treffen",
+            "Zagig",
+            "Zaszafizle",
+            "Zatmec",
+            "Zazempur",
+            "Zotspox"
+          ],
+          "femininos": [
+            "Alfirani",
+            "Alharibina",
+            "Alraufa",
+            "Chunchia",
+            "Faquiri",
+            "Hissa",
+            "Isazi",
+            "Jabeni",
+            "Lezisle",
+            "Nassifa",
+            "Neezza",
+            "Pasha",
+            "Piferva",
+            "Sazila",
+            "Shike",
+            "Shoola",
+            "Siska",
+            "Szaidzisnska",
+            "Tisha",
+            "Tsintsi",
+            "Zusza"
+          ]
+        }
+      }
     }
   }
 }

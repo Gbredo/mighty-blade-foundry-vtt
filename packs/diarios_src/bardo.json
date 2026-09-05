@@ -1,0 +1,39 @@
+{
+  "_id": "a97cf858c04cd05a",
+  "name": "Diário: Bardo",
+  "pages": [
+    {
+      "_id": "cdacf824876e68d5",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/bardo2.png\" alt=\"Bardo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><p>Apesar do estudo das artes musicais dos Bardos geralmente ser ensinado na estrada, em companhias de cantores itinerantes, poetas ambulantes ou mesmo de pai para filho, há vários Liceus de Bardos em Cassiopéia, que formam um grande número de Bardos – que em geral trabalham para a corte desses reinos. Os mais famosos são o Liceu de Tebrinia, em Tebryn e o Salão dos Bardos, em Bryne.</p><p>Além disso, graças ao amplo conhecimento de diversas músicas, histórias e poemas, Bardos são depositários de uma enorme quantidade de conhecimento teórico, às vezes superiores àqueles de estudiosos formais e suas imensas bibliotecas. Seu conhecimento vivo, construído durante suas andanças pelo mundo, está em constante processo de atualização e um bom Bardo sabe diferenciar os fatos reais da fantasia, filtrando as histórias que lhes são contadas e destilando a verdade na forma de novas composições cujo conteúdo, além de entreter plateias, serve para carregar conhecimento. Essas histórias, tocadas ao redor de fogueiras entre Bardos que se encontram nas estradas ou cantadas nos grandes salões reais fornecem aos Bardos um vasto conhecimento sobre história, lendas e até mesmo geografia e política.</p><p>Graças à isso, muitos Bardos são empregados em cortes como conselheiros, e a maioria dos vilarejos, cidades e metrópoles vibra com a chegada de companhias de menestréis e trovadores ambulantes, sabendo que eles trarão, além de entretenimento, notícias de outras áreas do reino.</p><p>Grupos de aventureiros, de forma semelhante, apreciam a presença de Bardos não apenas pelos benefícios que eles trazem à moral do grupo e pelos efeitos que eles são capazes de produzir em combate, mas também porque eles são a melhor fonte de notícias – e possíveis novas aventuras! – que um grupo pode esperar.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "c4dffd4e670f0a4d",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (57 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>poesia-dos-bardos</strong></li><li><strong>aparar</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>cancao-da-provocacao</strong></li><li><strong>cancao-desesperadora</strong></li><li><strong>cancao-do-triunfo</strong></li><li><strong>cancao-exultante</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>furtivo</strong></li><li><strong>gregario</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>grito-ensurdecedor</strong></li><li><strong>grito-estilhacador</strong></li><li><strong>lingua-afiada</strong></li><li><strong>malabarista</strong></li><li><strong>melodia-dancante</strong></li><li><strong>melodia-do-enjoo</strong></li><li><strong>melodia-do-repouso</strong></li><li><strong>melodia-sonifera</strong></li><li><strong>mestre-das-notas</strong></li><li><strong>truque-sujo</strong></li><li><strong>cancao-da-sereia</strong></li><li><strong>cancao-desconcentrante</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>melodia-da-furia</strong></li><li><strong>melodia-dos-animais</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>virtuoso</strong></li><li><strong>vocalista</strong></li><li><strong>cancao-do-requiem</strong></li><li><strong>conhecimento-mistico</strong></li><li><strong>distracao</strong></li><li><strong>instrumentista</strong></li><li><strong>lirico</strong></li><li><strong>ritmo-dos-animais</strong></li><li><strong>grito-contundente</strong></li><li><strong>falsete</strong></li><li><strong>repentista</strong></li><li><strong>soprista</strong></li><li><strong>mimicar</strong></li><li><strong>pantomima</strong></li><li><strong>beijo-sufocante</strong></li><li><strong>chega-mais</strong></li><li><strong>requebrado</strong></li><li><strong>danca-das-ruas</strong></li><li><strong>danca-da-guerra</strong></li><li><strong>danca-do-ventre</strong></li><li><strong>solo</strong></li><li><strong>palavra-toxica</strong></li><li><strong>charada-obtusa</strong></li><li><strong>golpe-inspirador</strong></li><li><strong>grito-retumbante</strong></li><li><strong>presenca-inspiradora</strong></li><li><strong>um-bom-conselho-1</strong></li></ul>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/bardo2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "bardo",
+      "tipo": "classe"
+    }
+  }
+}

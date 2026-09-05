@@ -1,0 +1,39 @@
+{
+  "_id": "28b8d9e8f991abe5",
+  "name": "Diário: Ladino",
+  "pages": [
+    {
+      "_id": "7bae8c319435c6bd",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/ladino2.png\" alt=\"Ladino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><p>Apesar de muitos verem os Ladinos com desconfiança, muitas vezes considerando seus meios pouco honrados ou mesmo vis, a grande maioria dos Ladinos de Cassiopéia atua ao lado da lei. Eles costumam trabalhar como batedores, espiões, investigadores e exploradores. Eles auxiliam ordens militares com informações sobre movimentos de tropas inimigas e obtendo informações secretas ou plantando informações falsas, usam suas redes de contatos para descobrir criminosos ou apurar veracidade de informações e são particularmente apreciados em exploração de ruínas e tumbas (particularmente comuns em Tebryn e nas Terras Secas, onde grandes civilizações ergueram imensos complexos que foram devastados ao logo dos séculos, durante a Revoada dos Dragões e o Expurgo) e na invasão de cavernas e complexos subterrâneos habitados por raças ou monstros hostis.</p><p>Muitos Ladinos também trabalham como marinheiros, piratas e corsários, assim como os Espadachins. Eles podem ser combatentes eficientes em condições onde agilidade, velocidade e versatilidade são mais importantes do que simples proeza marcial, como no convés de um navio.</p><p>É claro, muitos Ladinos usam seus conhecimentos e aptidões para cometer crimes. Além de um bom número de piratas, Ladinos são conhecidos por engrossarem bastante as fileiras de ladrões, embusteiros, atravessadores e traficantes de toda Cassiopéia.</p><p><strong>Raças Mais Frequentes:</strong> Astéria, Faen, Humano e Metadílio</p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "2bc29accb6e76b74",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>gatuno</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-evasivo</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>armas-1</strong></li><li><strong>contatos-no-crime</strong></li><li><strong>corte-arterial</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flanquear</strong></li><li><strong>flexivel</strong></li><li><strong>furtivo</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>mestre-das-adagas-1</strong></li><li><strong>mestre-das-adagas-2</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>malabarista</strong></li><li><strong>truque-sujo</strong></li><li><strong>camuflagem</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>emboscar</strong></li><li><strong>en-passant</strong></li><li><strong>explorar-surpresa</strong></li><li><strong>improvisacao-ladina</strong></li><li><strong>mestre-das-adagas-3</strong></li><li><strong>passo-leve</strong></li><li><strong>ripostar</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>mestre-especialista</strong></li><li><strong>mestre-de-armas-1</strong></li></ul>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/ladino2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "ladino",
+      "tipo": "classe"
+    }
+  }
+}

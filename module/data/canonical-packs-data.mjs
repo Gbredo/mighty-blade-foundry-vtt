@@ -1,14 +1,14 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1120
+ * Total de itens: 1152 | Diários: 67
  */
 
 export const CANONICAL_RACAS = [
   {
     "name": "Anão",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/anao.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -31,18 +31,100 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Guerreiro, Paladino, Sacerdote e Rúnico",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-4 anos) · Adulto (20 anos) · Idoso (100(20) anos) · Ancião (200(3) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.</li><br><li><strong>Pele e Pelagem:</strong> Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).</li><br><li><strong>Ciclo de Vida:</strong> A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.</li><br><li><strong>Tradição, Ofícios e Religião:</strong> A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.</li><br><li><strong>Casamento e Clãs:</strong> O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Alberik, Alvis, Andavari, Brok, Bror, Brunkil, Durin, Dvalin<br><b>Femininos:</b> Agda, Brena, Brunhild, Dagma, Disa, Ead, Edila, Eirild</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Anão de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.d76f05d05c0b4754\" data-slug=\"anao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-4a) · Adulto (20a) · Idoso (100(20)a) · Ancião (200(3)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Guerreiro, Paladino, Sacerdote e Rúnico</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "anao"
+        "slug": "anao",
+        "diarioId": "d76f05d05c0b4754",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.\n* **Pele e Pelagem:** Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).\n* **Ciclo de Vida:** A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.",
+          "cultura": "* **Habitat e Estrutura Política:** Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.\n* **Tradição, Ofícios e Religião:** A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.\n* **Casamento e Clãs:** O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.\n* **Relações Interpessoais:** Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.",
+          "faixasEtarias": {
+            "filhote": "0-4",
+            "crianca": "5-14",
+            "adolescente": "15-19",
+            "adulto": "20",
+            "idoso": "100(20)",
+            "anciao": "200(3)"
+          },
+          "nomes": {
+            "lore": "Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.",
+            "masculinos": [
+              "Alberik",
+              "Alvis",
+              "Andavari",
+              "Brok",
+              "Bror",
+              "Brunkil",
+              "Durin",
+              "Dvalin",
+              "Eitri",
+              "Fialar",
+              "Filibar",
+              "Fingal",
+              "Fulgrin",
+              "Galar",
+              "Hengal",
+              "Honir",
+              "Imborg",
+              "Ivaldi",
+              "Lofar",
+              "Magni",
+              "Módi",
+              "Mosonir",
+              "Narfi",
+              "Nari",
+              "Olrik",
+              "Regin",
+              "Rurik",
+              "Storlin",
+              "Torveg",
+              "Vali",
+              "Vik",
+              "Zarlin"
+            ],
+            "femininos": [
+              "Agda",
+              "Brena",
+              "Brunhild",
+              "Dagma",
+              "Disa",
+              "Ead",
+              "Edila",
+              "Eirild",
+              "Embla",
+              "Fria",
+              "Hnossa",
+              "Ida",
+              "Idhuna",
+              "Indunna",
+              "Ingrid",
+              "Ingvild",
+              "Irpa",
+              "Kelda",
+              "Nagla",
+              "Nanna",
+              "Niela",
+              "Nornild",
+              "Ostara",
+              "Rind",
+              "Skulda",
+              "Thorhild",
+              "Urda",
+              "Valla",
+              "Verdanda",
+              "Voluspa"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Elfo",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/elfo.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -65,18 +147,63 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Feiticeiro, Patrulheiro e Sacerdote (Nota: Também formam muitos Druidas, Bardos e Ilusionistas devido à sua forte ligação com a natureza e com a arte)",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (25 anos) · Idoso (400(50) anos) · Ancião (— anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de estatura mediana, esbeltos e com traços delicados, medindo entre 1,60 e 1,70 metros de altura e pesando de 50 a 60 quilos. Sua característica mais marcante são as longas orelhas pontudas, que lhes conferem audição superior.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem tonalidades douradas ou bronzeadas. A pelagem do corpo é muito fina, e os cabelos são tradicionalmente mantidos muito longos (em tranças ou amarrações). Os fios são de cores muito claras, como louro ou branco, e diferente de outras raças, a cor não muda com o tempo ou com a idade.</li><br><li><strong>Olhos:</strong> Apresentam cores claras, sendo verde, lilás e azul os mais comuns, com alguns raros indivíduos de olhos âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam mamas pequenas. Como os machos não desenvolvem barba e ambos os gêneros têm corpos esbeltos e feições delicadas, raças não-mamíferas (ou pessoas pouco atentas) têm grande dificuldade para distinguir machos de fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação élfica dura longos 18 meses. O desenvolvimento físico da raça atinge o ápice aos 25 anos. A partir daí, a \"Bênção de Lathellanis\" impede que o corpo sofra os efeitos de desgaste do envelhecimento natural. Vivem em média 500 anos, podendo alcançar os 700. Elfos não sofrem os efeitos comuns do envelhecimento e não entram na categoria Ancião. A partir da idade de Idoso, ao invés de perderem atributos físicos, eles acumulam falhas e, em dado momento, entram em um estado plácido onde se preparam para morrer em poucos dias.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> O reino natal dos elfos é Londérien, mas eles habitam as profundezas de florestas, como em Ambrook (Tebryn). A sociedade é estritamente matriarcal, com fêmeas liderando as comunidades, e sacerdotisas e druidesas de Lathellanis ocupando as posições de maior prestígio. A arquitetura se molda à natureza sem derrubar as matas, esculpindo domos em plantas e grutas para formarem cidades perfeitamente camufladas, com baixa densidade populacional.</li><br><li><strong>Sustento e Tecnologia:</strong> Não domesticam animais para abate e evitam plantações em larga escala. Especialistas em forrageio e caça sustentável, extraem o que precisam direto da natureza (carne, lã, frutos) de modo a não abalar o ecossistema. São a única raça que se recusa a minerar as entranhas da terra; todo o metal élfico é obtido por garimpo de aluvião (peneirando a terra superficial). Devido a isso, armas élficas geralmente são de madeiras exóticas como a Kraneia, e os metais são usados em detalhes e joias belíssimas.</li><br><li><strong>Estilo de Vida (Lazer):</strong> São práticos, frugais e caridosos. Não acreditam em acúmulo de bens pessoais. Preferem o compartilhamento de conhecimento, e seu lazer gira em torno de filosofia, literatura, arte e canções.</li><br><li><strong>Relações Interpessoais:</strong> Apesar do isolacionismo em suas florestas (sendo bastante restritos com forasteiros em Londérien), eles mantêm relações diplomáticas e comerciais pacíficas de séculos com Humanos, Anões e Metadílios. Contudo, mantêm uma profunda desconfiança com os Centauros devido a guerras passadas em Tebryn.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>O idioma oficial dos elfos é o Caint (com sonoridade similar ao Gaélico Irlandês). É uma língua complexa e melodiosa, mas sua escrita visual parece um pequeno bosque de árvores estilizadas. Os nomes élficos seguem regras rígidas e geralmente contêm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Qualquer nome anglo-saxão adaptado funciona. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Elfos não usam sobrenomes de família. Eles usam o local onde nasceram ou a organização/religião para a qual trabalham. Exemplo: Aesc Floresta da Névoa, Cerdic Kead de Lathellanis.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Aelred, Aeteltan, Cerdic, Dunstan, Fianoc, Godric, Keleoc, Landric<br><b>Femininos:</b> Aedil, Alfrith, Careth, Deorwin, Ealhedil, Edith, Faedil, Gleadwin</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Elfo de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.227c126eb777dc6f\" data-slug=\"elfo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (25a) · Idoso (400(50)a) · Ancião (—a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Feiticeiro, Patrulheiro e Sacerdote (Nota: Também formam muitos Druidas, Bardos e Ilusionistas devido à sua forte ligação com a natureza e com a arte)</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "elfo"
+        "slug": "elfo",
+        "diarioId": "227c126eb777dc6f",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Humanoides de estatura mediana, esbeltos e com traços delicados, medindo entre 1,60 e 1,70 metros de altura e pesando de 50 a 60 quilos. Sua característica mais marcante são as longas orelhas pontudas, que lhes conferem audição superior.\n* **Pele e Pelagem:** A pele tem tonalidades douradas ou bronzeadas. A pelagem do corpo é muito fina, e os cabelos são tradicionalmente mantidos muito longos (em tranças ou amarrações). Os fios são de cores muito claras, como louro ou branco, e diferente de outras raças, a cor não muda com o tempo ou com a idade.\n* **Olhos:** Apresentam cores claras, sendo verde, lilás e azul os mais comuns, com alguns raros indivíduos de olhos âmbar.\n* **Dimorfismo Sexual:** As fêmeas apresentam mamas pequenas. Como os machos não desenvolvem barba e ambos os gêneros têm corpos esbeltos e feições delicadas, raças não-mamíferas (ou pessoas pouco atentas) têm grande dificuldade para distinguir machos de fêmeas.\n* **Ciclo de Vida:** A gestação élfica dura longos 18 meses. O desenvolvimento físico da raça atinge o ápice aos 25 anos. A partir daí, a \"Bênção de Lathellanis\" impede que o corpo sofra os efeitos de desgaste do envelhecimento natural. Vivem em média 500 anos, podendo alcançar os 700. Elfos não sofrem os efeitos comuns do envelhecimento e não entram na categoria Ancião. A partir da idade de Idoso, ao invés de perderem atributos físicos, eles acumulam falhas e, em dado momento, entram em um estado plácido onde se preparam para morrer em poucos dias.",
+          "cultura": "* **Habitat e Estrutura Política:** O reino natal dos elfos é Londérien, mas eles habitam as profundezas de florestas, como em Ambrook (Tebryn). A sociedade é estritamente matriarcal, com fêmeas liderando as comunidades, e sacerdotisas e druidesas de Lathellanis ocupando as posições de maior prestígio. A arquitetura se molda à natureza sem derrubar as matas, esculpindo domos em plantas e grutas para formarem cidades perfeitamente camufladas, com baixa densidade populacional.\n* **Sustento e Tecnologia:** Não domesticam animais para abate e evitam plantações em larga escala. Especialistas em forrageio e caça sustentável, extraem o que precisam direto da natureza (carne, lã, frutos) de modo a não abalar o ecossistema. São a única raça que se recusa a minerar as entranhas da terra; todo o metal élfico é obtido por garimpo de aluvião (peneirando a terra superficial). Devido a isso, armas élficas geralmente são de madeiras exóticas como a Kraneia, e os metais são usados em detalhes e joias belíssimas.\n* **Estilo de Vida (Lazer):** São práticos, frugais e caridosos. Não acreditam em acúmulo de bens pessoais. Preferem o compartilhamento de conhecimento, e seu lazer gira em torno de filosofia, literatura, arte e canções.\n* **Relações Interpessoais:** Apesar do isolacionismo em suas florestas (sendo bastante restritos com forasteiros em Londérien), eles mantêm relações diplomáticas e comerciais pacíficas de séculos com Humanos, Anões e Metadílios. Contudo, mantêm uma profunda desconfiança com os Centauros devido a guerras passadas em Tebryn.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-14",
+            "adolescente": "15-24",
+            "adulto": "25",
+            "idoso": "400(50)",
+            "anciao": "—"
+          },
+          "nomes": {
+            "lore": "O idioma oficial dos elfos é o Caint (com sonoridade similar ao Gaélico Irlandês). É uma língua complexa e melodiosa, mas sua escrita visual parece um pequeno bosque de árvores estilizadas. Os nomes élficos seguem regras rígidas e geralmente contêm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Qualquer nome anglo-saxão adaptado funciona. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Elfos não usam sobrenomes de família. Eles usam o local onde nasceram ou a organização/religião para a qual trabalham. Exemplo: Aesc Floresta da Névoa, Cerdic Kead de Lathellanis.",
+            "masculinos": [
+              "Aelred",
+              "Aeteltan",
+              "Cerdic",
+              "Dunstan",
+              "Fianoc",
+              "Godric",
+              "Keleoc",
+              "Landric",
+              "Lanevar",
+              "Leofric",
+              "Lewyd",
+              "Uhtric"
+            ],
+            "femininos": [
+              "Aedil",
+              "Alfrith",
+              "Careth",
+              "Deorwin",
+              "Ealhedil",
+              "Edith",
+              "Faedil",
+              "Gleadwin",
+              "Leofwin",
+              "Rivelwin",
+              "Saewin",
+              "Valedith",
+              "Vanedwin"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Fauno",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/fauno.png",
     "system": {
       "atributos": {
         "forca": 3,
@@ -99,18 +226,58 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Bardo, Druida, Patrulheiro e Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (18 anos) · Idoso (100(20) anos) · Ancião (200(3) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides com pernas longas e musculosas; eles são digitígrados e seus pés terminam em dois dedos, cada um protegido por um forte casco. Possuem pouquíssima gordura corporal, costumam ter uma estatura variando entre 1,5 a 1,7 metros e pesam de 50 a 60 quilos. No alto da cabeça desenvolvem chifres queratinosos que crescem paralelos à testa e se inclinam para trás, podendo ter formato espiralado (e que crescem de novo caso sejam cortados).</li><br><li><strong>Pele e Pelagem:</strong> A pele é parda ou bronzeada e quase todo o corpo, com exceção da palma das mãos, é coberto por uma pelagem fina, curta e densa. Essa pelagem é sólida, não possuindo manchas ou padrões, e os tons variam do louro-palha a um castanho tão escuro que chega perto do preto. Quando ficam velhos, os pelos vão desbotando até o cinza ou o branco puro.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam chifres mais curtos, duas mamas pequenas e feições faciais muito mais delicadas. Além disso, elas possuem menos pelos corporais e, diferentemente dos machos, não desenvolvem barba.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das faunesas dura em torno de oito meses. As crianças andam já por volta do primeiro ano de idade, e o formato de seus chifres seguirá exatamente e sem exceções o mesmo padrão do pai. A maioridade ocorre aos 18 anos e envelhecem devagar, podendo chegar até os 200 anos de idade – embora fiquem muito frágeis e fracos nessa etapa da vida.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> São silvícolas por natureza, preferindo viver em matas e selvas fechadas, construindo grandes casas comunais. Originalmente teriam migrado para as terras que hoje pertencem a Londérien (onde são muito numerosos) e na região de Tebryn ocupam principalmente a Floresta da Borda e partes da Floresta dos Antigos. Se houver inimigos ao redor de suas casas, costumam montar paliçadas com troncos e fazer armadilhas rudimentares, como fossos cheios de estacas.</li><br><li><strong>Papéis Sociais e Educação:</strong> Existe uma clara separação de papéis práticos: machos caçam, pescam, constroem e fazem manutenção de estruturas; fêmeas cuidam das plantações, alimentos, tecidos e utensílios. Já práticas intelectuais como ritos xamânicos, medicina e artes são tarefas divididas independentemente de gênero. A criação dos filhos é livre e feita coletivamente por toda a tribo, estimulando autonomia. Um casal recém-formado amamenta e cria seus recém-nascidos por vários anos de forma próxima, contudo, é raro que os laços matrimoniais se mantenham após o período inicial da criação do filho.</li><br><li><strong>Arte, Música e Combate:</strong> A música é o pilar da cultura dos faunos. Sem o costume de ler e escrever, eles dependem de seus Bardos para a manutenção de sua história. Seus Druidas também conjuram utilizando melodias musicais, e eles fazem uso intenso de pinturas corporais em suas atividades artísticas e místicas. Além disso, o estilo de luta dos Capoeiristas surgiu entre os Faunos, inicialmente usando seu movimento rítmico para confundir os ataques de animais selvagens.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Faunos (falada também por Centauros e alguns Faens) é o Silvestre, que os Faunos preferem chamar de Nheengatu. Esse idioma tem raízes atreladas ao grupo Tupi-Guarani, e a formação de seus nomes é caracterizada pela aglutinação de duas ou três palavras do dialeto. Assim como os Centauros, os Faunos não usam sobrenomes de família em nenhuma hipótese.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi<br><b>Femininos:</b> Airatatá, Esayubá, Jubotira, Kuamukaa, Kurataiberaba, Sokunhã, Suiara</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Fauno de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.bcc2fcd84a4c4bf3\" data-slug=\"fauno\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (18a) · Idoso (100(20)a) · Ancião (200(3)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Bardo, Druida, Patrulheiro e Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "fauno"
+        "slug": "fauno",
+        "diarioId": "bcc2fcd84a4c4bf3",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São humanoides com pernas longas e musculosas; eles são digitígrados e seus pés terminam em dois dedos, cada um protegido por um forte casco. Possuem pouquíssima gordura corporal, costumam ter uma estatura variando entre 1,5 a 1,7 metros e pesam de 50 a 60 quilos. No alto da cabeça desenvolvem chifres queratinosos que crescem paralelos à testa e se inclinam para trás, podendo ter formato espiralado (e que crescem de novo caso sejam cortados).\n* **Pele e Pelagem:** A pele é parda ou bronzeada e quase todo o corpo, com exceção da palma das mãos, é coberto por uma pelagem fina, curta e densa. Essa pelagem é sólida, não possuindo manchas ou padrões, e os tons variam do louro-palha a um castanho tão escuro que chega perto do preto. Quando ficam velhos, os pelos vão desbotando até o cinza ou o branco puro.\n* **Dimorfismo Sexual:** As fêmeas apresentam chifres mais curtos, duas mamas pequenas e feições faciais muito mais delicadas. Além disso, elas possuem menos pelos corporais e, diferentemente dos machos, não desenvolvem barba.\n* **Ciclo de Vida:** A gestação das faunesas dura em torno de oito meses. As crianças andam já por volta do primeiro ano de idade, e o formato de seus chifres seguirá exatamente e sem exceções o mesmo padrão do pai. A maioridade ocorre aos 18 anos e envelhecem devagar, podendo chegar até os 200 anos de idade – embora fiquem muito frágeis e fracos nessa etapa da vida.",
+          "cultura": "* **Habitat e Estrutura Política:** São silvícolas por natureza, preferindo viver em matas e selvas fechadas, construindo grandes casas comunais. Originalmente teriam migrado para as terras que hoje pertencem a Londérien (onde são muito numerosos) e na região de Tebryn ocupam principalmente a Floresta da Borda e partes da Floresta dos Antigos. Se houver inimigos ao redor de suas casas, costumam montar paliçadas com troncos e fazer armadilhas rudimentares, como fossos cheios de estacas.\n* **Papéis Sociais e Educação:** Existe uma clara separação de papéis práticos: machos caçam, pescam, constroem e fazem manutenção de estruturas; fêmeas cuidam das plantações, alimentos, tecidos e utensílios. Já práticas intelectuais como ritos xamânicos, medicina e artes são tarefas divididas independentemente de gênero. A criação dos filhos é livre e feita coletivamente por toda a tribo, estimulando autonomia. Um casal recém-formado amamenta e cria seus recém-nascidos por vários anos de forma próxima, contudo, é raro que os laços matrimoniais se mantenham após o período inicial da criação do filho.\n* **Arte, Música e Combate:** A música é o pilar da cultura dos faunos. Sem o costume de ler e escrever, eles dependem de seus Bardos para a manutenção de sua história. Seus Druidas também conjuram utilizando melodias musicais, e eles fazem uso intenso de pinturas corporais em suas atividades artísticas e místicas. Além disso, o estilo de luta dos Capoeiristas surgiu entre os Faunos, inicialmente usando seu movimento rítmico para confundir os ataques de animais selvagens.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-12",
+            "adolescente": "13-17",
+            "adulto": "18",
+            "idoso": "100(20)",
+            "anciao": "200(3)"
+          },
+          "nomes": {
+            "lore": "A língua nativa dos Faunos (falada também por Centauros e alguns Faens) é o Silvestre, que os Faunos preferem chamar de Nheengatu. Esse idioma tem raízes atreladas ao grupo Tupi-Guarani, e a formação de seus nomes é caracterizada pela aglutinação de duas ou três palavras do dialeto. Assim como os Centauros, os Faunos não usam sobrenomes de família em nenhuma hipótese.",
+            "masculinos": [
+              "Abapuka",
+              "Esakatu",
+              "Etimatã",
+              "Itapek",
+              "Iukaiuba",
+              "Kaatuxaba",
+              "Kapisobui",
+              "Karaibasi",
+              "Katubira",
+              "Katuibipuí",
+              "Puiubitu",
+              "So’obixabasu",
+              "Usubixaba"
+            ],
+            "femininos": [
+              "Airatatá",
+              "Esayubá",
+              "Jubotira",
+              "Kuamukaa",
+              "Kurataiberaba",
+              "Sokunhã",
+              "Suiara"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Humano",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/humano.png",
     "system": {
       "atributos": {
         "forca": 3,
@@ -134,18 +301,104 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Bardo, Espadachim, Feiticeiro, Guerreiro, Ladino, Mago, Sacerdote e Rúnico",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (16 anos) · Idoso (50(8) anos) · Ancião (80(1) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Por serem os humanoides mais numerosos de Drakon, servem como a base biológica de comparação para as outras raças. Possuem estatura mediana (entre 1,5 e 1,9 metros) e um peso que varia consideravelmente de acordo com seu estilo de vida, indo de 40 a até 140 quilos (com a média girando entre 60 e 80 quilos). Indivíduos que fogem muito dessa média geralmente são portadores de deficiências de nascença.</li><br><li><strong>Pele e Pelagem:</strong> A pele apresenta uma grande diversidade, variando do rosado ao negro, passando por várias tonalidades de pardo. O corpo é recoberto por uma pelagem rala e fina (mais abundante nos machos), com grande concentração de pelos no alto da cabeça. A coloração dos cabelos vai do amarelo palha ao negro, incluindo louro, castanho e, mais raramente, ruivo.</li><br><li><strong>Olhos:</strong> A cor costuma ser castanha, verde ou, mais raramente, azul.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas se distinguem por não possuírem pelos faciais (barba), por serem geralmente um pouco menores e por possuírem traços mais delicados. Elas também apresentam mamas que variam de pequenas a grandes, que costumam aumentar de tamanho após a primeira gestação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e atingem a maioridade biológica aos 16 anos. Vivem em média até os 80 anos (raramente chegando aos 100), com os primeiros sinais do envelhecimento surgindo por volta dos 50 anos de idade.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Expansão:</strong> É a raça mais expansionista do continente, estando presente em todos os reinos conhecidos. Apreciam tratados, trocas de conhecimentos acadêmicos e, quando vivem fora de seu reino nativo (Tebryn), tendem a adotar os costumes da cultura local.</li><br><li><strong>Estrutura Política e Social:</strong> Costumam organizar-se em um sistema de meritocracia titular, onde funções e propriedades são garantidas por mérito pessoal através de títulos não-hereditários. No entanto, na prática, é extremamente comum que parte do prestígio e as responsabilidades passem de pai para filho.</li><br><li><strong>Sustento e Arquitetura:</strong> Assentam suas cidades próximas a recursos cruciais (como rios e bosques) e exploram a natureza ao máximo. Embora civilizações humanas antigas tenham perecido por esgotarem seu ambiente, os humanos contemporâneos aprenderam com os Elfos a gerenciar os recursos de forma sustentável. A arquitetura foca na funcionalidade: usam madeira ou barro para construções rápidas, que depois são substituídas por sólidas estruturas de pedra. Residências de nobres, castelos e bibliotecas possuem estética requintada, frequentemente influenciada pela engenharia anã.</li><br><li><strong>Religião:</strong> A reverência à Tríade Divina é unânime, mas indivíduos e comunidades escolhem padroeiros ligados às suas profissões (por exemplo, magistrados e soldados cultuam Mirah; já carpinteiros e druidas preferem Ellenis).</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa da humanidade é o Burguês Tebryniano (o idioma análogo ao Português). Nomes humanos têm de duas a quatro sílabas e não possuem regras de criação rígidas. Eles frequentemente adaptam palavras estrangeiras apenas por acharem a sonoridade atraente. O método oficial para criar nomes é alterar, adicionar ou remover letras de um nome brasileiro comum (Ex: Trocando letras de Rodrigo, obtém-se o nome Lodrago). Os Humanos dão imenso valor a sobrenomes familiares (diferente de faunos ou astérios). No casamento, os cônjuges podem manter o nome de solteiro, adotar o do outro ou, mais raramente, unir ambos.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Alford, Arn, Arnulfo, Balto, Brando, Bredo, Brunn, Cladro<br><b>Femininos:</b> Albina, Alise, Cindal, Cirela, Elmeara, Emadeline, Farla, Galena</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Humano de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.32a7aec4fca470b7\" data-slug=\"humano\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (16a) · Idoso (50(8)a) · Ancião (80(1)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Bardo, Espadachim, Feiticeiro, Guerreiro, Ladino, Mago, Sacerdote e Rúnico</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "humano"
+        "slug": "humano",
+        "diarioId": "32a7aec4fca470b7",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Por serem os humanoides mais numerosos de Drakon, servem como a base biológica de comparação para as outras raças. Possuem estatura mediana (entre 1,5 e 1,9 metros) e um peso que varia consideravelmente de acordo com seu estilo de vida, indo de 40 a até 140 quilos (com a média girando entre 60 e 80 quilos). Indivíduos que fogem muito dessa média geralmente são portadores de deficiências de nascença.\n* **Pele e Pelagem:** A pele apresenta uma grande diversidade, variando do rosado ao negro, passando por várias tonalidades de pardo. O corpo é recoberto por uma pelagem rala e fina (mais abundante nos machos), com grande concentração de pelos no alto da cabeça. A coloração dos cabelos vai do amarelo palha ao negro, incluindo louro, castanho e, mais raramente, ruivo.\n* **Olhos:** A cor costuma ser castanha, verde ou, mais raramente, azul.\n* **Dimorfismo Sexual:** As fêmeas se distinguem por não possuírem pelos faciais (barba), por serem geralmente um pouco menores e por possuírem traços mais delicados. Elas também apresentam mamas que variam de pequenas a grandes, que costumam aumentar de tamanho após a primeira gestação.\n* **Ciclo de Vida:** A gestação dura cerca de nove meses e atingem a maioridade biológica aos 16 anos. Vivem em média até os 80 anos (raramente chegando aos 100), com os primeiros sinais do envelhecimento surgindo por volta dos 50 anos de idade.",
+          "cultura": "* **Habitat e Expansão:** É a raça mais expansionista do continente, estando presente em todos os reinos conhecidos. Apreciam tratados, trocas de conhecimentos acadêmicos e, quando vivem fora de seu reino nativo (Tebryn), tendem a adotar os costumes da cultura local.\n* **Estrutura Política e Social:** Costumam organizar-se em um sistema de meritocracia titular, onde funções e propriedades são garantidas por mérito pessoal através de títulos não-hereditários. No entanto, na prática, é extremamente comum que parte do prestígio e as responsabilidades passem de pai para filho.\n* **Sustento e Arquitetura:** Assentam suas cidades próximas a recursos cruciais (como rios e bosques) e exploram a natureza ao máximo. Embora civilizações humanas antigas tenham perecido por esgotarem seu ambiente, os humanos contemporâneos aprenderam com os Elfos a gerenciar os recursos de forma sustentável. A arquitetura foca na funcionalidade: usam madeira ou barro para construções rápidas, que depois são substituídas por sólidas estruturas de pedra. Residências de nobres, castelos e bibliotecas possuem estética requintada, frequentemente influenciada pela engenharia anã.\n* **Religião:** A reverência à Tríade Divina é unânime, mas indivíduos e comunidades escolhem padroeiros ligados às suas profissões (por exemplo, magistrados e soldados cultuam Mirah; já carpinteiros e druidas preferem Ellenis).",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-12",
+            "adolescente": "13-15",
+            "adulto": "16",
+            "idoso": "50(8)",
+            "anciao": "80(1)"
+          },
+          "nomes": {
+            "lore": "A língua nativa da humanidade é o Burguês Tebryniano (o idioma análogo ao Português). Nomes humanos têm de duas a quatro sílabas e não possuem regras de criação rígidas. Eles frequentemente adaptam palavras estrangeiras apenas por acharem a sonoridade atraente. O método oficial para criar nomes é alterar, adicionar ou remover letras de um nome brasileiro comum (Ex: Trocando letras de Rodrigo, obtém-se o nome Lodrago). Os Humanos dão imenso valor a sobrenomes familiares (diferente de faunos ou astérios). No casamento, os cônjuges podem manter o nome de solteiro, adotar o do outro ou, mais raramente, unir ambos.",
+            "masculinos": [
+              "Alford",
+              "Arn",
+              "Arnulfo",
+              "Balto",
+              "Brando",
+              "Bredo",
+              "Brunn",
+              "Cladro",
+              "Daland",
+              "Dineon",
+              "Fastolfo",
+              "Fengran",
+              "Garet",
+              "Gastav",
+              "Gultan",
+              "Jorand",
+              "Lars",
+              "Leivis",
+              "Lodrago",
+              "Lorval",
+              "Marino",
+              "Nil",
+              "Penard",
+              "Randal",
+              "Rob",
+              "Rodric",
+              "Rubert",
+              "Stefan",
+              "Tair",
+              "Talin",
+              "Teon",
+              "Torbeno",
+              "Vendal",
+              "Viliano"
+            ],
+            "femininos": [
+              "Albina",
+              "Alise",
+              "Cindal",
+              "Cirela",
+              "Elmeara",
+              "Emadeline",
+              "Farla",
+              "Galena",
+              "Garlana",
+              "Herana",
+              "Ianca",
+              "Isobela",
+              "Janiele",
+              "Laria",
+              "Laudra",
+              "Licila",
+              "Lilidia",
+              "Locasta",
+              "Loren",
+              "Lorini",
+              "Matilda",
+              "Nina",
+              "Robena",
+              "Rosa",
+              "Sabana",
+              "Sindel",
+              "Taliana",
+              "Thail",
+              "Tilia",
+              "Valsina",
+              "Vedra",
+              "Violeta"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Juban",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/juban.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -168,18 +421,89 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Paladino, Sacerdote e Guerreiro (Nota: Também formam grandes e inspiradores Oradores e são frequentemente vistos atuando em exércitos como tropas de defesa Aegis)",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (18 anos) · Idoso (80(14) anos) · Ancião (140(2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides com pernas digitígradas e feições que lembram grandes felinos. Possuem uma estatura que varia de 1,8 a 2 metros, e sua musculatura densa e pesada faz com que cheguem facilmente a 140 quilos (com média de 120 kg). Possuem um focinho curto munido de presas fortes, quatro dedos nos pés e mãos com garras curvas curtas, e uma cauda de cerca de um metro, cuja utilidade para o equilíbrio se perdeu na evolução da raça.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, encoberta quase inteiramente por uma pelagem fina e cerrada que varia do dourado ao marrom escuro (os tons castanho-avermelhados são os mais comuns, existindo ocorrências de manchas e listras). Alguns raríssimos Jubans apresentam pelo inteiramente branco, o que é uma anomalia parecida com o albinismo, porém sem a sensibilidade ao sol de outras raças.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são facilmente reconhecíveis por ostentarem uma pelagem bem mais densa e abundante no pescoço e alto da cabeça (uma juba), geralmente numa tonalidade mais escura que o resto do corpo. As fêmeas são distinguidas por não desenvolverem jubas e por apresentarem duas mamas diminutas, geralmente difíceis de notar por conta da forte constituição muscular da raça.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em média nove meses e a maturidade chega aos 18 anos. O declínio da idade (que se mostra primeiro pelo enfraquecimento das garras e presas) começa por volta dos 80 anos, e vivem em média até os 140 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Costumam se estabelecer em planícies e savanas. Valorizam enormemente estruturas militares, e frequentemente aplainam o cume de colinas próximas aos seus assentamentos para a construção de praças fortificadas (como Kommos, a capital administrativa do reino de Parband, que repousa segura sobre um planalto).</li><br><li><strong>Disciplina, Religião e Justiça:</strong> A sociedade é disciplinada e embasada nos dogmas de seu padroeiro e criador, Ahogr, o Ruge-Mundos. Eles prezam a força nos campos físico, espiritual e de caráter. A mentira, a intriga e a covardia são consideradas falhas de caráter inaceitáveis e são punidas mais severamente do que roubos ou homicídios. Ironicamente, eles tendem a ser lenientes ao julgarem membros de outras raças por atos covardes, pois acreditam que quem não foi criado por Ahogr possui um \"espírito fraco\" e não pode ser culpado de sua natureza.</li><br><li><strong>Treinamento e Armas Naturais:</strong> Desde os 8 anos até os 14 anos, todos os Jubans recebem rígido treinamento em quartéis (aprendendo táticas, armas, matemática, história e literatura) para forjar um caráter inquebrável. Os civilizados adotaram o hábito social de manter suas garras curtas e polidas, acreditando que usá-las como armas (e as presas também) é um ato desesperado, bárbaro e extremamente desonroso (apesar de caçadores e rastreadores não compartilharem dessa visão de desonra). O rugido, no entanto, é a arma natural respeitada e adorada por todos, e seus bardos e guerreiros fazem intenso uso dele em batalha para encorajar os companheiros e causar medo nos oponentes.</li><br><li><strong>Relações Interpessoais (Família e Assimilação):</strong> Existe total igualdade entre gêneros em sua sociedade; ambos passam por exatamente o mesmo duro treinamento e atuam nas mesmas posições e patentes militares sem restrições. Os casais não veem a necessidade de terem dezenas de filhos, pois abominam a ideia de serem \"fardos para a sociedade\" (sendo comum que, quando engravidam, o casal seja liberado de seus postos por um ano, tendo duas ou três crias seguidas, e então voltando à rotina para não se manterem improdutivos). Eles também acolheram os furtivos Tailox de Gaian, que fugiam das ameaças Gnolls, assimilando sua sociedade em uma união produtiva, onde a agilidade pequena do Tailox serve como espiões perfeitos para a força do Juban.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A criação de nomes Jubans (e de seus aliados Tailox) gera palavras de uma a três sílabas, em que os nomes iídiches do mundo real funcionam com perfeição. Jubans nunca utilizam sobrenomes, e não são definidos por suas linhagens ou famílias. Em seu lugar, identificam-se dizendo a sua patente ou função somada ao nome da guilda ou ordem a qual pertencem.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Anshel, Avro, Benesh, Celegur, Chatzkel, Erek, Ferato, Gavrel<br><b>Femininos:</b> Alte, Beyle, Beylke, Bluma, Breida, Faiga, Faiva, Freyde</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Juban de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6552939f6d14d4bf\" data-slug=\"juban\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (18a) · Idoso (80(14)a) · Ancião (140(2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Paladino, Sacerdote e Guerreiro (Nota: Também formam grandes e inspiradores Oradores e são frequentemente vistos atuando em exércitos como tropas de defesa Aegis)</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "juban"
+        "slug": "juban",
+        "diarioId": "6552939f6d14d4bf",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Humanoides com pernas digitígradas e feições que lembram grandes felinos. Possuem uma estatura que varia de 1,8 a 2 metros, e sua musculatura densa e pesada faz com que cheguem facilmente a 140 quilos (com média de 120 kg). Possuem um focinho curto munido de presas fortes, quatro dedos nos pés e mãos com garras curvas curtas, e uma cauda de cerca de um metro, cuja utilidade para o equilíbrio se perdeu na evolução da raça.\n* **Pele e Pelagem:** A pele é rosada, encoberta quase inteiramente por uma pelagem fina e cerrada que varia do dourado ao marrom escuro (os tons castanho-avermelhados são os mais comuns, existindo ocorrências de manchas e listras). Alguns raríssimos Jubans apresentam pelo inteiramente branco, o que é uma anomalia parecida com o albinismo, porém sem a sensibilidade ao sol de outras raças.\n* **Dimorfismo Sexual:** Os machos são facilmente reconhecíveis por ostentarem uma pelagem bem mais densa e abundante no pescoço e alto da cabeça (uma juba), geralmente numa tonalidade mais escura que o resto do corpo. As fêmeas são distinguidas por não desenvolverem jubas e por apresentarem duas mamas diminutas, geralmente difíceis de notar por conta da forte constituição muscular da raça.\n* **Ciclo de Vida:** A gestação dura em média nove meses e a maturidade chega aos 18 anos. O declínio da idade (que se mostra primeiro pelo enfraquecimento das garras e presas) começa por volta dos 80 anos, e vivem em média até os 140 anos.",
+          "cultura": "* **Habitat e Estrutura Política:** Costumam se estabelecer em planícies e savanas. Valorizam enormemente estruturas militares, e frequentemente aplainam o cume de colinas próximas aos seus assentamentos para a construção de praças fortificadas (como Kommos, a capital administrativa do reino de Parband, que repousa segura sobre um planalto).\n* **Disciplina, Religião e Justiça:** A sociedade é disciplinada e embasada nos dogmas de seu padroeiro e criador, Ahogr, o Ruge-Mundos. Eles prezam a força nos campos físico, espiritual e de caráter. A mentira, a intriga e a covardia são consideradas falhas de caráter inaceitáveis e são punidas mais severamente do que roubos ou homicídios. Ironicamente, eles tendem a ser lenientes ao julgarem membros de outras raças por atos covardes, pois acreditam que quem não foi criado por Ahogr possui um \"espírito fraco\" e não pode ser culpado de sua natureza.\n* **Treinamento e Armas Naturais:** Desde os 8 anos até os 14 anos, todos os Jubans recebem rígido treinamento em quartéis (aprendendo táticas, armas, matemática, história e literatura) para forjar um caráter inquebrável. Os civilizados adotaram o hábito social de manter suas garras curtas e polidas, acreditando que usá-las como armas (e as presas também) é um ato desesperado, bárbaro e extremamente desonroso (apesar de caçadores e rastreadores não compartilharem dessa visão de desonra). O rugido, no entanto, é a arma natural respeitada e adorada por todos, e seus bardos e guerreiros fazem intenso uso dele em batalha para encorajar os companheiros e causar medo nos oponentes.\n* **Relações Interpessoais (Família e Assimilação):** Existe total igualdade entre gêneros em sua sociedade; ambos passam por exatamente o mesmo duro treinamento e atuam nas mesmas posições e patentes militares sem restrições. Os casais não veem a necessidade de terem dezenas de filhos, pois abominam a ideia de serem \"fardos para a sociedade\" (sendo comum que, quando engravidam, o casal seja liberado de seus postos por um ano, tendo duas ou três crias seguidas, e então voltando à rotina para não se manterem improdutivos). Eles também acolheram os furtivos Tailox de Gaian, que fugiam das ameaças Gnolls, assimilando sua sociedade em uma união produtiva, onde a agilidade pequena do Tailox serve como espiões perfeitos para a força do Juban.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-13",
+            "adolescente": "14-17",
+            "adulto": "18",
+            "idoso": "80(14)",
+            "anciao": "140(2)"
+          },
+          "nomes": {
+            "lore": "A criação de nomes Jubans (e de seus aliados Tailox) gera palavras de uma a três sílabas, em que os nomes iídiches do mundo real funcionam com perfeição. Jubans nunca utilizam sobrenomes, e não são definidos por suas linhagens ou famílias. Em seu lugar, identificam-se dizendo a sua patente ou função somada ao nome da guilda ou ordem a qual pertencem.",
+            "masculinos": [
+              "Anshel",
+              "Avro",
+              "Benesh",
+              "Celegur",
+              "Chatzkel",
+              "Erek",
+              "Ferato",
+              "Gavrel",
+              "Havanker",
+              "Hirsh",
+              "Inkur",
+              "Issur",
+              "Kirmadek",
+              "Koppel",
+              "Laion",
+              "Menahek",
+              "Motker",
+              "Raziel",
+              "Rubio",
+              "Sender",
+              "Urkon",
+              "Yanko",
+              "Ysroel",
+              "Zalmo",
+              "Zelek"
+            ],
+            "femininos": [
+              "Alte",
+              "Beyle",
+              "Beylke",
+              "Bluma",
+              "Breida",
+              "Faiga",
+              "Faiva",
+              "Freyde",
+              "Glyka",
+              "Hadassa",
+              "Haska",
+              "Henda",
+              "Hirsha",
+              "Inka",
+              "Isa",
+              "Kreine",
+              "Liba",
+              "Merra",
+              "Rayna",
+              "Rifka",
+              "Riha",
+              "Shainda",
+              "Sirague",
+              "Sura",
+              "Yuda",
+              "Zelde"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Tailox",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/tailox.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -202,18 +526,36 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Feiticeiro e Patrulheiro (Nota: Também atuam frequentemente como Ladinos, Capoeiristas e Bardos/Menestréis de estradas e companhias itinerantes)",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-14 anos) · Adulto (15 anos) · Idoso (40 anos) · Ancião (80-90 anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de pequena estatura, medindo entre 1,4 e 1,6 metros e pesando apenas de 40 a 50 quilos. Apresentam marcantes características vulpinas (de raposa): focinho curto e fino, orelhas grandes e uma cauda pequena e felpuda. São digitígrados com solas dos pés muito bem acolchoadas que lhes permitem se locomover quase sem fazer sons, além de pernas flexíveis próprias para grandes saltos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem pele rosada coberta por uma pelagem espessa, macia e curta por quase todo o corpo (exceto nas palmas e solas). A cor dos pelos varia em tons de castanho ou ruivo, sempre com padrões de manchas negras e brancas que se concentram muito mais no rosto, na cauda, nas mãos e nos pés.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas são virtualmente idênticos, não havendo qualquer diferença física notável. As fêmeas apresentam apenas duas mamas extremamente pequenas, difíceis de serem notadas até na época da amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura entre sete e oito meses, sendo a ocorrência de gêmeos relativamente frequente. A vida adulta se inicia aos 15 anos, mas o declínio físico (marcado pela despigmentação do pelo) começa cedo, aos 40 anos, fazendo com que a maioria falteças antes de chegar aos 90.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e A Simbiose com os Jubans:</strong> Originários dos bosques gelados do sul de Gaian, quase todos os Tailox foram obrigados a fugir para o norte por conta da perseguição predatória e dos ataques dos Gnolls locais. Eles foram prontamente assimilados pela sociedade dos enormes Jubans. Onde a força bruta Juban esbarra nos seus limites, entra a furtividade, a espionagem e o reconhecimento dos esbeltos Tailox, formando uma das simbioses raciais mais prósperas de toda a região.</li><br><li><strong>Espírito Selvagem (Mtii’Ruah):</strong> Embora a maioria prefira o conforto das civilizações, existem comunidades que buscam a vida silvestre para cultivar o contato ancestral com a deusa Ellenis, visando alcançar o Mtii’Ruah (o Espírito Verdadeiro). A expressão física máxima dessa comunhão intensa é a habilidade mística de transmutar seu corpo inteiramente na forma de uma raposa.</li><br><li><strong>Preconceito, Heroísmo e Promiscuidade:</strong> Por serem incrivelmente práticos na resolução de problemas, rápidos e furtivos, os Tailox receberam a fama imerecida de serem preguiçosos, trapaceiros e ladrões. Na verdade, os Tailox ensinam códigos de honra estritos aos seus filhos (influência Juban) e a maioria é extremamente honesta, criando amizades intensas e duradouras. Contudo, no campo amoroso, são abertamente promíscuos e quase nunca mantêm laços estáveis. O peso do preconceito de outras raças, somado à perda de sua terra natal, despertou neles uma necessidade quase instintiva de serem aceitos e admirados pelas outras culturas, o que frequentemente os lança em comportamentos de um \"heroísmo romântico\" completamente descabido (como arriscar a vida apenas para realizar salvamentos heroicos ou para inspirar canções épicas de bardos).</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua original dos Tailox foi completamente perdida em Gaian durante a Grande Revoada, e hoje é considerada uma língua morta de conhecimento extinto. Atualmente, eles adotaram de forma absoluta o L’ányn (o idioma oficial dos Jubans e de Parband) como sua língua primária. A peculiaridade da língua L’ányn é que as palavras em uma sentença não precisam seguir uma ordem estabelecida (ex: \"Foi a ordem executada\" e \"A ordem foi executada\" estão igualmente corretas), o que faz com que os Tailox falem outros idiomas com sotaques sintáticos estranhos ou engraçados para seus ouvintes. Como não possuem mais o idioma base, os Tailox não seguem nenhuma regra própria de nomes ou sobrenomes. Eles adotam e adaptam livremente os padrões de nomes, sufixos e sobrenomes da cultura humanóide com a qual mais convivem ou se sintam mais confortáveis no momento.</p>\n        \n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Tailox de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.599ee5d9ef1e34e5\" data-slug=\"tailox\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-14a) · Adulto (15a) · Idoso (40a) · Ancião (80-90a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Feiticeiro e Patrulheiro (Nota: Também atuam frequentemente como Ladinos, Capoeiristas e Bardos/Menestréis de estradas e companhias itinerantes)</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "tailox"
+        "slug": "tailox",
+        "diarioId": "599ee5d9ef1e34e5",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São humanoides de pequena estatura, medindo entre 1,4 e 1,6 metros e pesando apenas de 40 a 50 quilos. Apresentam marcantes características vulpinas (de raposa): focinho curto e fino, orelhas grandes e uma cauda pequena e felpuda. São digitígrados com solas dos pés muito bem acolchoadas que lhes permitem se locomover quase sem fazer sons, além de pernas flexíveis próprias para grandes saltos.\n* **Pele e Pelagem:** Possuem pele rosada coberta por uma pelagem espessa, macia e curta por quase todo o corpo (exceto nas palmas e solas). A cor dos pelos varia em tons de castanho ou ruivo, sempre com padrões de manchas negras e brancas que se concentram muito mais no rosto, na cauda, nas mãos e nos pés.\n* **Dimorfismo Sexual:** Machos e fêmeas são virtualmente idênticos, não havendo qualquer diferença física notável. As fêmeas apresentam apenas duas mamas extremamente pequenas, difíceis de serem notadas até na época da amamentação.\n* **Ciclo de Vida:** A gestação dura entre sete e oito meses, sendo a ocorrência de gêmeos relativamente frequente. A vida adulta se inicia aos 15 anos, mas o declínio físico (marcado pela despigmentação do pelo) começa cedo, aos 40 anos, fazendo com que a maioria falteças antes de chegar aos 90.",
+          "cultura": "* **Habitat e A Simbiose com os Jubans:** Originários dos bosques gelados do sul de Gaian, quase todos os Tailox foram obrigados a fugir para o norte por conta da perseguição predatória e dos ataques dos Gnolls locais. Eles foram prontamente assimilados pela sociedade dos enormes Jubans. Onde a força bruta Juban esbarra nos seus limites, entra a furtividade, a espionagem e o reconhecimento dos esbeltos Tailox, formando uma das simbioses raciais mais prósperas de toda a região.\n* **Espírito Selvagem (Mtii’Ruah):** Embora a maioria prefira o conforto das civilizações, existem comunidades que buscam a vida silvestre para cultivar o contato ancestral com a deusa Ellenis, visando alcançar o Mtii’Ruah (o Espírito Verdadeiro). A expressão física máxima dessa comunhão intensa é a habilidade mística de transmutar seu corpo inteiramente na forma de uma raposa.\n* **Preconceito, Heroísmo e Promiscuidade:** Por serem incrivelmente práticos na resolução de problemas, rápidos e furtivos, os Tailox receberam a fama imerecida de serem preguiçosos, trapaceiros e ladrões. Na verdade, os Tailox ensinam códigos de honra estritos aos seus filhos (influência Juban) e a maioria é extremamente honesta, criando amizades intensas e duradouras. Contudo, no campo amoroso, são abertamente promíscuos e quase nunca mantêm laços estáveis. O peso do preconceito de outras raças, somado à perda de sua terra natal, despertou neles uma necessidade quase instintiva de serem aceitos e admirados pelas outras culturas, o que frequentemente os lança em comportamentos de um \"heroísmo romântico\" completamente descabido (como arriscar a vida apenas para realizar salvamentos heroicos ou para inspirar canções épicas de bardos).",
+          "faixasEtarias": {
+            "filhote": "0-14",
+            "crianca": "0-14",
+            "adolescente": "0-14",
+            "adulto": "15",
+            "idoso": "40",
+            "anciao": "80-90"
+          },
+          "nomes": {
+            "lore": "A língua original dos Tailox foi completamente perdida em Gaian durante a Grande Revoada, e hoje é considerada uma língua morta de conhecimento extinto. Atualmente, eles adotaram de forma absoluta o L’ányn (o idioma oficial dos Jubans e de Parband) como sua língua primária. A peculiaridade da língua L’ányn é que as palavras em uma sentença não precisam seguir uma ordem estabelecida (ex: \"Foi a ordem executada\" e \"A ordem foi executada\" estão igualmente corretas), o que faz com que os Tailox falem outros idiomas com sotaques sintáticos estranhos ou engraçados para seus ouvintes. Como não possuem mais o idioma base, os Tailox não seguem nenhuma regra própria de nomes ou sobrenomes. Eles adotam e adaptam livremente os padrões de nomes, sufixos e sobrenomes da cultura humanóide com a qual mais convivem ou se sintam mais confortáveis no momento.",
+            "masculinos": [],
+            "femininos": []
+          }
+        }
       }
     }
   },
   {
     "name": "Aesir",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/aesir.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -236,18 +578,100 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Bardo, Druida, Guerreiro, Patrulheiro e Rúnico",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (16 anos) · Idoso (60(9) anos) · Ancião (90(2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Os Aesires são humanoides altos e robustos, com uma <strong>fisiologia adaptada para climas extremamente frios</strong>. Sua altura mediana fica entre 1,9 e 2,2 metros, com um peso médio de 100 a 130 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem pele e olhos extremamente claros, adaptados à luz intensa de suas regiões de gelo eterno. A <strong>pele quase não possui pigmentação</strong>, exibindo uma matiz levemente azulada ou esverdeada. O corpo é coberto por uma pelagem rala e fina (quase branca, com matizes azuis, verdes ou cinzas), que se concentra mais no alto da cabeça e, no caso dos machos, ao redor e abaixo do rosto formando barbas.</li><br><li><strong>Olhos:</strong> São extremamente bem adaptados e <strong>protegidos por uma finíssima membrana que reflete completamente a luz</strong>. Isso faz com que os olhos pareçam ter uma cor única, refletindo a luz do ambiente (geralmente branco, ou dourado quando perto do fogo).</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas diferem dos machos por não desenvolverem pelos faciais, possuírem traços mais delicados, serem ligeiramente menores e apresentarem mamas que podem variar de tamanho médio a grande.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os bebês são completamente dependentes da mãe em seus primeiros anos. Atingem a <strong>fase adulta por volta dos 16 anos</strong> (embora alguns alcancem a maioridade antes). Podem viver até os 90 anos (raramente chegando aos 120), mas começam a apresentar sinais de envelhecimento, como perda de massa muscular e diminuição da percepção, a partir dos 60 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem na região gelada de <strong>Eishelm</strong>, localizada no extremo norte do continente de Cassiopéia (ao norte de Londérien), isolados pela Cordilheira Cnoc Oighir. É uma área de estepes e tundras, varrida por nevascas. Eishelm não é um reino unificado com um rei; em vez disso, <strong>cada grande comunidade é regida por um Jarl</strong>, que conta com o aconselhamento de bardos, druidas e sacerdotes.</li><br><em>   <strong>Navegação e Comércio:</strong> Os Aesires são <strong>grandes navegadores</strong>, utilizando seus </em>Drakkar* para viajar longas distâncias. Como não desenvolveram navegação oceânica, limitam-se à navegação de cabotagem. Mantêm comércios no norte até Aet’Muuri (em Arkânia) e nunca se aventuraram além do Grande Pântano do Leste ou chegaram a reinos como Bryne e Parband, embora sejam presença comum nos demais portos de Cassiopéia.<br><li><strong>Relações Interpessoais:</strong> Embora muitos os considerem ríspidos e broncos, eles têm uma <strong>boa relação com os Anões e são muito respeitados pelos Elfos</strong> (com quem nutrem grande reverência). São muito respeitados comercialmente por honrarem sua palavra e por fazerem paradas portuárias muito breves, o que evita atritos locais.</li><br><li><strong>Isolamento e Aventureiros:</strong> A sociedade Aesir acha a política de outros povos muito complicada e desnecessária. Aqueles poucos jovens que decidem explorar o sul geralmente fazem isso sozinhos, tornando-se andarilhos ou aventureiros.</li><br><li><strong>A Regra da Hospitalidade (e da Invasão):</strong> Na cultura Aesir, <strong>visitantes e invasores são classificados pela quantidade</strong>. Um ou dois forasteiros costumam ser bem-vindos nas suas comunidades, mas grupos maiores são vistos automaticamente como invasores e rechaçados. Pelo mesmo motivo, eles evitam andar em grandes contingentes quando visitam outros povos, a menos, é claro, que a sua intenção seja pilhar e invadir.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Os nomes Aesires não possuem regras muito específicas. Nomes masculinos nunca terminam em vogais, e costumeiramente são constituídos de duas sílabas. Os nomes femininos podem terminar em “A”, “E”, “I” ou “Y”, mas muitos terminam em consoantes e podem ter duas ou três vogais.<br>Os Aesires utilizam sobrenomes patronímicos, com os sufixos “-son” usado para homens e “-dotir” para mulheres - estes sufixos às vezes suprimem a última letra ou sílaba do nome do pai/mãe. Assim, se um Aesir chamado Harag tiver um filho chamado Olav e uma filha chamada Anja, seus nomes serão, respectivamente: Olav Haragson e Anja Haradotir. Não há preferências entre a utilização do nome do pai ou da mãe - os filhos geralmente utilizam um patronímico baseado em qual dos seus pais é mais influente ou o que eles consideram mais relevantes em sua criação.<br>Em geral nomes nórdicos dentro das especificações acima (como Ragnar) ou adaptados para estarem dentro dessas especificações (como Flokir) funcionam para nomes Aesires.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Armod, Arnbjorn, Bodvar, Bram, Egil, Erik, Gardar, Grim<br><b>Femininos:</b> Anja, Aslaug, Astrid, Aud, Drewenna, Ealswith, Eira, Elisef</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Aesir de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ea43782b13052c91\" data-slug=\"aesir\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (16a) · Idoso (60(9)a) · Ancião (90(2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Bardo, Druida, Guerreiro, Patrulheiro e Rúnico</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "aesir"
+        "slug": "aesir",
+        "diarioId": "ea43782b13052c91",
+        "lore": {
+          "biologia": "*   **Fisiologia e Aparência:** Os Aesires são humanoides altos e robustos, com uma **fisiologia adaptada para climas extremamente frios**. Sua altura mediana fica entre 1,9 e 2,2 metros, com um peso médio de 100 a 130 quilos.\n*   **Pele e Pelagem:** Possuem pele e olhos extremamente claros, adaptados à luz intensa de suas regiões de gelo eterno. A **pele quase não possui pigmentação**, exibindo uma matiz levemente azulada ou esverdeada. O corpo é coberto por uma pelagem rala e fina (quase branca, com matizes azuis, verdes ou cinzas), que se concentra mais no alto da cabeça e, no caso dos machos, ao redor e abaixo do rosto formando barbas.\n*   **Olhos:** São extremamente bem adaptados e **protegidos por uma finíssima membrana que reflete completamente a luz**. Isso faz com que os olhos pareçam ter uma cor única, refletindo a luz do ambiente (geralmente branco, ou dourado quando perto do fogo).\n*   **Dimorfismo Sexual:** As fêmeas diferem dos machos por não desenvolverem pelos faciais, possuírem traços mais delicados, serem ligeiramente menores e apresentarem mamas que podem variar de tamanho médio a grande.\n*   **Ciclo de Vida:** A gestação dura cerca de nove meses e os bebês são completamente dependentes da mãe em seus primeiros anos. Atingem a **fase adulta por volta dos 16 anos** (embora alguns alcancem a maioridade antes). Podem viver até os 90 anos (raramente chegando aos 120), mas começam a apresentar sinais de envelhecimento, como perda de massa muscular e diminuição da percepção, a partir dos 60 anos.",
+          "cultura": "*   **Habitat e Estrutura Política:** Vivem na região gelada de **Eishelm**, localizada no extremo norte do continente de Cassiopéia (ao norte de Londérien), isolados pela Cordilheira Cnoc Oighir. É uma área de estepes e tundras, varrida por nevascas. Eishelm não é um reino unificado com um rei; em vez disso, **cada grande comunidade é regida por um Jarl**, que conta com o aconselhamento de bardos, druidas e sacerdotes.\n*   **Navegação e Comércio:** Os Aesires são **grandes navegadores**, utilizando seus *Drakkar* para viajar longas distâncias. Como não desenvolveram navegação oceânica, limitam-se à navegação de cabotagem. Mantêm comércios no norte até Aet’Muuri (em Arkânia) e nunca se aventuraram além do Grande Pântano do Leste ou chegaram a reinos como Bryne e Parband, embora sejam presença comum nos demais portos de Cassiopéia.\n*   **Relações Interpessoais:** Embora muitos os considerem ríspidos e broncos, eles têm uma **boa relação com os Anões e são muito respeitados pelos Elfos** (com quem nutrem grande reverência). São muito respeitados comercialmente por honrarem sua palavra e por fazerem paradas portuárias muito breves, o que evita atritos locais.\n*   **Isolamento e Aventureiros:** A sociedade Aesir acha a política de outros povos muito complicada e desnecessária. Aqueles poucos jovens que decidem explorar o sul geralmente fazem isso sozinhos, tornando-se andarilhos ou aventureiros.\n*   **A Regra da Hospitalidade (e da Invasão):** Na cultura Aesir, **visitantes e invasores são classificados pela quantidade**. Um ou dois forasteiros costumam ser bem-vindos nas suas comunidades, mas grupos maiores são vistos automaticamente como invasores e rechaçados. Pelo mesmo motivo, eles evitam andar em grandes contingentes quando visitam outros povos, a menos, é claro, que a sua intenção seja pilhar e invadir.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-12",
+            "adolescente": "13-15",
+            "adulto": "16",
+            "idoso": "60(9)",
+            "anciao": "90(2)"
+          },
+          "nomes": {
+            "lore": "Os nomes Aesires não possuem regras muito específicas. Nomes masculinos nunca terminam em vogais, e costumeiramente são constituídos de duas sílabas. Os nomes femininos podem terminar em “A”, “E”, “I” ou “Y”, mas muitos terminam em consoantes e podem ter duas ou três vogais.\nOs Aesires utilizam sobrenomes patronímicos, com os sufixos “-son” usado para homens e “-dotir” para mulheres - estes sufixos às vezes suprimem a última letra ou sílaba do nome do pai/mãe. Assim, se um Aesir chamado Harag tiver um filho chamado Olav e uma filha chamada Anja, seus nomes serão, respectivamente: Olav Haragson e Anja Haradotir. Não há preferências entre a utilização do nome do pai ou da mãe - os filhos geralmente utilizam um patronímico baseado em qual dos seus pais é mais influente ou o que eles consideram mais relevantes em sua criação.\nEm geral nomes nórdicos dentro das especificações acima (como Ragnar) ou adaptados para estarem dentro dessas especificações (como Flokir) funcionam para nomes Aesires.",
+            "masculinos": [
+              "Armod",
+              "Arnbjorn",
+              "Bodvar",
+              "Bram",
+              "Egil",
+              "Erik",
+              "Gardar",
+              "Grim",
+              "Gundur",
+              "Halfdan",
+              "Harag",
+              "Harald",
+              "Helgil",
+              "Hengist",
+              "Heolf",
+              "Igolf",
+              "Ingwulf",
+              "Kereval",
+              "Ketil",
+              "Lengar",
+              "Olaf",
+              "Olav",
+              "Rogvald",
+              "Sigurd",
+              "Sigvard",
+              "Skalagrim",
+              "Svein",
+              "Thorbard",
+              "Thorstein",
+              "Trygvas",
+              "Vanar",
+              "Yngvar"
+            ],
+            "femininos": [
+              "Anja",
+              "Aslaug",
+              "Astrid",
+              "Aud",
+              "Drewenna",
+              "Ealswith",
+              "Eira",
+              "Elisef",
+              "Ellisif",
+              "Eyvind",
+              "Freydis",
+              "Gisla",
+              "Gyda",
+              "Hildegard",
+              "Indra",
+              "Inga",
+              "Ingrimund",
+              "Ingvild",
+              "Kilda",
+              "Ksenjia",
+              "Lagherta",
+              "Rafarta",
+              "Siggy",
+              "Sigtrygg",
+              "Snaefrid",
+              "Sylvi",
+              "Thora",
+              "Thyri",
+              "Vigrid",
+              "Yiduna"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Astério",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/raca.png",
     "system": {
       "atributos": {
         "forca": 5,
@@ -270,18 +694,67 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Guerreiro, Paladino, Rúnico, Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (15 anos) · Idoso (50 anos) · Ancião (80 anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides colossais, medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos. Apresentam cabeçorras pesadas ornadas de cornos sólidos. Possuem quatro dedos nas mãos e pés, sendo que os dedos dos pés são unidos sob uma estrutura queratinosa, formando um casco fendido.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado coberto por uma pelagem grossa e esparsa, sendo mais cerrada na cabeça, pescoço, ombros e costas, em tonalidades que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Diferente das fêmeas, que são frágeis e diminutas, os machos são brutamontes pesados e os únicos que desenvolvem chifres na espécie.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os machos já nascem com pequenos cornos rombudos. Esses cornos atingem o tamanho máximo aos 15 anos de idade, quando então eles passam a ser oficialmente considerados adultos. Vivem em média até os 80 anos, com os primeiros sinais de envelhecimento começando aos 50.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Originários do reino de Parband. A cultura segue regras simples onde o mérito pessoal é colocado acima de noções de raça, cultura ou gênero. Não existem cargos hereditários e a obtenção de postos ocorre por meio de demonstrações de força ou habilidade, além de desafios de combate direto.</li><br><li><strong>O Papel Masculino (Trabalho e Lazer):</strong> A maioria dos machos jovens trabalha com atividades braçais e pesadas (como estivadores, fazendeiros, marceneiros, ferreiros e mineiros) antes de se engajarem obrigatoriamente no serviço militar na fase adulta. Em seu tempo de lazer, apreciam prazeres simples como comer, beber, exibir sua força e realizar trabalhos artesanais, notavelmente na forja e no entalhe.</li><br><li><strong>A Guerra e o Kapa-Haka:</strong> Devido à forte disciplina militar, os guerreiros Astérios praticam uma intensa dança tribal chamada Kapa-Haka. Essa dança tem o objetivo expresso de intimidar os inimigos no campo de batalha e fortalecer os laços e a coordenação dos guerreiros através de vigorosas demonstrações de força.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de manterem excelentes relações em seu reino, os Astérios evitam visitar as terras centrais de Tebryn. Lá, eles sofrem fortes preconceitos por causa das violentas incursões vindas do império escravagista de Arkânia, sendo pejorativamente chamados de \"minotauros\" e temidos como monstros sanguinários.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Seu idioma original é o Reo, uma língua simples e utilitária que não possui o som de \"G\", \"J\" e nem utiliza a letra \"B\". Para os machos, os nomes têm de uma a três sílabas e obrigatoriamente terminam em “E”, “O” ou “U”. Na prática, qualquer nome nativo havaiano ou maori, adaptado sob essas restrições, funciona de maneira perfeita para a raça. Astérios não usam sobrenomes de famílias. Eles se identificam utilizando os nomes das corporações ou ofícios em que trabalham, acompanhado de sua patente. Sobrenomes (Organizações) conhecidos: da Armada da Aurora, das Forjas de Hou. (Ex: \"Centurião Tane da Armada da Aurora\" ou \"Hanno das Forjas de Hou\").</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Akahate, Akahau, Amahau, Amire, Anewo, Dawharu, Hahono, Hanauhou</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Astério de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c4a1cfbb8e75690e\" data-slug=\"asterio-m\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (15a) · Idoso (50a) · Ancião (80a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Guerreiro, Paladino, Rúnico, Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "asterio-m"
+        "slug": "asterio-m",
+        "diarioId": "c4a1cfbb8e75690e",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São mamíferos humanoides colossais, medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos. Apresentam cabeçorras pesadas ornadas de cornos sólidos. Possuem quatro dedos nas mãos e pés, sendo que os dedos dos pés são unidos sob uma estrutura queratinosa, formando um casco fendido.\n* **Pele e Pelagem:** Possuem um couro macio de tom acobreado coberto por uma pelagem grossa e esparsa, sendo mais cerrada na cabeça, pescoço, ombros e costas, em tonalidades que variam do castanho claro até quase o negro.\n* **Dimorfismo Sexual:** Extremamente marcante. Diferente das fêmeas, que são frágeis e diminutas, os machos são brutamontes pesados e os únicos que desenvolvem chifres na espécie.\n* **Ciclo de Vida:** A gestação dura cerca de nove meses e os machos já nascem com pequenos cornos rombudos. Esses cornos atingem o tamanho máximo aos 15 anos de idade, quando então eles passam a ser oficialmente considerados adultos. Vivem em média até os 80 anos, com os primeiros sinais de envelhecimento começando aos 50.",
+          "cultura": "* **Habitat e Estrutura Política:** Originários do reino de Parband. A cultura segue regras simples onde o mérito pessoal é colocado acima de noções de raça, cultura ou gênero. Não existem cargos hereditários e a obtenção de postos ocorre por meio de demonstrações de força ou habilidade, além de desafios de combate direto.\n* **O Papel Masculino (Trabalho e Lazer):** A maioria dos machos jovens trabalha com atividades braçais e pesadas (como estivadores, fazendeiros, marceneiros, ferreiros e mineiros) antes de se engajarem obrigatoriamente no serviço militar na fase adulta. Em seu tempo de lazer, apreciam prazeres simples como comer, beber, exibir sua força e realizar trabalhos artesanais, notavelmente na forja e no entalhe.\n* **A Guerra e o Kapa-Haka:** Devido à forte disciplina militar, os guerreiros Astérios praticam uma intensa dança tribal chamada Kapa-Haka. Essa dança tem o objetivo expresso de intimidar os inimigos no campo de batalha e fortalecer os laços e a coordenação dos guerreiros através de vigorosas demonstrações de força.\n* **Relações Interpessoais:** Apesar de manterem excelentes relações em seu reino, os Astérios evitam visitar as terras centrais de Tebryn. Lá, eles sofrem fortes preconceitos por causa das violentas incursões vindas do império escravagista de Arkânia, sendo pejorativamente chamados de \"minotauros\" e temidos como monstros sanguinários.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-11",
+            "adolescente": "12-14",
+            "adulto": "15",
+            "idoso": "50",
+            "anciao": "80"
+          },
+          "nomes": {
+            "lore": "Seu idioma original é o Reo, uma língua simples e utilitária que não possui o som de \"G\", \"J\" e nem utiliza a letra \"B\". Para os machos, os nomes têm de uma a três sílabas e obrigatoriamente terminam em “E”, “O” ou “U”. Na prática, qualquer nome nativo havaiano ou maori, adaptado sob essas restrições, funciona de maneira perfeita para a raça. Astérios não usam sobrenomes de famílias. Eles se identificam utilizando os nomes das corporações ou ofícios em que trabalham, acompanhado de sua patente. Sobrenomes (Organizações) conhecidos: da Armada da Aurora, das Forjas de Hou. (Ex: \"Centurião Tane da Armada da Aurora\" ou \"Hanno das Forjas de Hou\").",
+            "masculinos": [
+              "Akahate",
+              "Akahau",
+              "Amahau",
+              "Amire",
+              "Anewo",
+              "Dawharu",
+              "Hahono",
+              "Hanauhou",
+              "Hanno",
+              "Hare",
+              "Hehu",
+              "Hemu",
+              "Henare",
+              "Hokuoke",
+              "Hookohoie",
+              "Lahanau",
+              "Lamake",
+              "Lokene",
+              "Maako",
+              "Mahuto",
+              "Maramo",
+              "Matiu",
+              "Nohouke",
+              "Oko",
+              "Ondaku",
+              "Rawire",
+              "Ronto",
+              "Ruru",
+              "Tanaro",
+              "Tane"
+            ],
+            "femininos": []
+          }
+        }
       }
     }
   },
   {
     "name": "Astéria",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/raca.png",
     "system": {
       "atributos": {
         "forca": 3,
@@ -304,18 +777,48 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Ladino, Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (15 anos) · Idoso (50 anos) · Ancião (80 anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Mamíferos humanoides com quatro dedos nas mãos e pés, sendo que os dos pés são unidos em dois pares sob uma grossa estrutura queratinosa formando um casco fendido. Diferente dos machos, as fêmeas possuem um crânio muito mais frágil e desprovido de cornos, não passando de 1,60m de altura e 80 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado. A pelagem é grossa e esparsa (sendo mais cerrada na cabeça, pescoço, ombros e costas), com tonalidades marrons que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Enquanto os machos são brutamontes pesados que chegam a 2,30m e possuem grandes cornos, as Astérias são diminutas, frágeis e não desenvolvem chifres.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses. As fêmeas são consideradas adultas aos 15 anos de idade, começam a apresentar os primeiros sinais de envelhecimento aos 50 anos e vivem, em média, até os 80 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> São nativos do reino de Parband. Sua sociedade segue regras simples que colocam o mérito pessoal acima de gênero ou raça. Não existem cargos hereditários; tudo é conquistado por demonstração de habilidade ou desafios. Na academia e nos liceus, os cargos de liderança são modificados e reavaliados anualmente por um conselho.</li><br><li><strong>O Papel Feminino (Liderança e Intelecto):</strong> Por serem fisicamente menores e mais frágeis, as fêmeas (junto a machos deformados) são enviadas ainda jovens para liceus onde aprendem matemática, engenharia e história. Na fase adulta, estudam estratégia, comércio e marinhagem. São as fêmeas que decidem o uso dos recursos da comunidade, criam as leis e aconselham os líderes militares. Para lazer, as fêmeas geralmente se dedicam a trabalhos artesanais como cerâmica e costura, os quais exibem com muito orgulho e certa timidez.</li><br><li><strong>Relações Interpessoais:</strong> Mantêm ótimas relações em Parband, mas evitam as terras de Tebryn. Lá, sofrem imenso preconceito e são pejorativamente chamadas de \"minotauros\", fama herdada das incursões violentas dos Astérios de Arkânia, que renderam à raça a reputação de monstros sanguinários.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua oficial da raça é o Reo. O idioma não possui os sons de “G”, “J” e a letra \"B\" não é usada em palavras tradicionais. Os nomes possuem de uma a três sílabas, sendo raros os monossílabos. Para as fêmeas, os nomes obrigatoriamente terminam em “A” ou “I”. Em geral, qualquer nome de origem havaiana ou maori adaptado para essas regras fonéticas funciona perfeitamente. Astérios não usam sobrenomes. Eles se identificam citando a organização para a qual trabalham ou seu ofício (ex: \"das Forjas de Hou\", \"da Armada da Aurora\"), adicionando também o seu posto e patente se houver.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Femininos:</b> Akina, Hina, Kaili, Kairi, Lani, Mahina, Malia, Moana</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Astéria de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b268cf97c7600b48\" data-slug=\"asteria-f\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (15a) · Idoso (50a) · Ancião (80a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Ladino, Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "asteria-f"
+        "slug": "asteria-f",
+        "diarioId": "b268cf97c7600b48",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Mamíferos humanoides com quatro dedos nas mãos e pés, sendo que os dos pés são unidos em dois pares sob uma grossa estrutura queratinosa formando um casco fendido. Diferente dos machos, as fêmeas possuem um crânio muito mais frágil e desprovido de cornos, não passando de 1,60m de altura e 80 quilos.\n* **Pele e Pelagem:** Possuem um couro macio de tom acobreado. A pelagem é grossa e esparsa (sendo mais cerrada na cabeça, pescoço, ombros e costas), com tonalidades marrons que variam do castanho claro até quase o negro.\n* **Dimorfismo Sexual:** Extremamente marcante. Enquanto os machos são brutamontes pesados que chegam a 2,30m e possuem grandes cornos, as Astérias são diminutas, frágeis e não desenvolvem chifres.\n* **Ciclo de Vida:** A gestação dura cerca de nove meses. As fêmeas são consideradas adultas aos 15 anos de idade, começam a apresentar os primeiros sinais de envelhecimento aos 50 anos e vivem, em média, até os 80 anos.",
+          "cultura": "* **Habitat e Estrutura Política:** São nativos do reino de Parband. Sua sociedade segue regras simples que colocam o mérito pessoal acima de gênero ou raça. Não existem cargos hereditários; tudo é conquistado por demonstração de habilidade ou desafios. Na academia e nos liceus, os cargos de liderança são modificados e reavaliados anualmente por um conselho.\n* **O Papel Feminino (Liderança e Intelecto):** Por serem fisicamente menores e mais frágeis, as fêmeas (junto a machos deformados) são enviadas ainda jovens para liceus onde aprendem matemática, engenharia e história. Na fase adulta, estudam estratégia, comércio e marinhagem. São as fêmeas que decidem o uso dos recursos da comunidade, criam as leis e aconselham os líderes militares. Para lazer, as fêmeas geralmente se dedicam a trabalhos artesanais como cerâmica e costura, os quais exibem com muito orgulho e certa timidez.\n* **Relações Interpessoais:** Mantêm ótimas relações em Parband, mas evitam as terras de Tebryn. Lá, sofrem imenso preconceito e são pejorativamente chamadas de \"minotauros\", fama herdada das incursões violentas dos Astérios de Arkânia, que renderam à raça a reputação de monstros sanguinários.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-11",
+            "adolescente": "12-14",
+            "adulto": "15",
+            "idoso": "50",
+            "anciao": "80"
+          },
+          "nomes": {
+            "lore": "A língua oficial da raça é o Reo. O idioma não possui os sons de “G”, “J” e a letra \"B\" não é usada em palavras tradicionais. Os nomes possuem de uma a três sílabas, sendo raros os monossílabos. Para as fêmeas, os nomes obrigatoriamente terminam em “A” ou “I”. Em geral, qualquer nome de origem havaiana ou maori adaptado para essas regras fonéticas funciona perfeitamente. Astérios não usam sobrenomes. Eles se identificam citando a organização para a qual trabalham ou seu ofício (ex: \"das Forjas de Hou\", \"da Armada da Aurora\"), adicionando também o seu posto e patente se houver.",
+            "masculinos": [],
+            "femininos": [
+              "Akina",
+              "Hina",
+              "Kaili",
+              "Kairi",
+              "Lani",
+              "Mahina",
+              "Malia",
+              "Moana",
+              "Nani",
+              "Oliana",
+              "Ulani"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Centauro",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/centauro.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -338,18 +841,64 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Druida, Guerreiro, Patrulheiro, Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (10 anos) · Idoso (80(12) anos) · Ancião (120(2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com torso humanoide e corpo equino, apresentando cinco dedos nas mãos e quatro pernas digitígradas terminadas em cascos. Possuem uma cauda curta e são tão altos quanto longos (medindo entre 2 e 2,4 metros nas duas direções). Pesam em média de 450 a 500 quilos e possuem pouco tecido adiposo. Devido ao peso e estatura, possuem imensa dificuldade para nadar ou escalar (sendo Inaptos), e manobras como cambalhotas são virtualmente impossíveis.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do pardo ao marrom claro, sendo a parte inferior do corpo e as costas cobertas por um couro mais duro e escuro. A pelagem sobre o corpo é curta e dura, tornando-se bem mais densa e longa na cabeça, ao longo da coluna e na cauda. As cores variam do pardo ao negro, passando por castanho, sendo comum a presença de manchas, e os pelos vão ficando acinzentados com a idade.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas (Centáurides) são diferenciadas dos machos por não desenvolverem pelos no rosto e apresentarem duas pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 11 meses e os filhotes são capazes de andar em apenas alguns dias. Atingem o tamanho máximo e a vida adulta aos 10 anos, com os primeiros sinais de envelhecimento aparecendo aos 80 anos. Vivem até os 120 anos, e os mais velhos costumam se isolar da comunidade ao ficarem fracos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Geralmente se instalam em grandes clareiras nas bordas de florestas (como a Floresta da Névoa e a Floresta da Borda). Sua maior comunidade em Tebryn chama-se Yak (na Floresta dos Antigos), uma aldeia sem centro comercial rígido. Não possuem estruturas de liderança além do respeito à sabedoria dos mais velhos da região.</li><br><li><strong>Lazer e Festividades:</strong> Possuem um humor simples e dão preferência a atividades físicas para diversão, como corridas, demonstrações de força e competições de salto. Reúnem-se nos equinócios para grandes festividades que duram uma semana. Nessas festas, o consumo de bebida é alto, e embriaguez e surtos de violência são muito comuns, tornando o ambiente arriscado para forasteiros que aceitam o convite para participar.</li><br><li><strong>Táticas e Combate:</strong> Apesar de conhecidos por suas ferozes cargas corporais, a lança e o arco são suas armas mais tradicionais. A arqueria é tão intrínseca que praticamente todos os jovens praticam, e seus Arqueiros revezam as funções de caçadores e vigias.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de convidarem viajantes para suas competições amigáveis, são profundamente desconfiados dos elfos (principalmente da região de Ambrook) após uma guerra sangrenta e assimétrica no passado que quase exterminou as tribos da Floresta dos Antigos.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Centauros é o Silvestre, uma linguagem de estrutura caótica e muitas variações regionais. Seus nomes são criados com a aglutinação de duas ou três palavras desse idioma, o qual é fortemente embasado no grupo Tupi-Guarani (ou em outros idiomas indígenas brasileiros). Centauros não usam sobrenomes de qualquer tipo.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi<br><b>Femininos:</b> Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Centauro de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.cb406dfa8d43993c\" data-slug=\"centauro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-2a) · Adulto (10a) · Idoso (80(12)a) · Ancião (120(2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Druida, Guerreiro, Patrulheiro, Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "centauro"
+        "slug": "centauro",
+        "diarioId": "cb406dfa8d43993c",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São esfinges com torso humanoide e corpo equino, apresentando cinco dedos nas mãos e quatro pernas digitígradas terminadas em cascos. Possuem uma cauda curta e são tão altos quanto longos (medindo entre 2 e 2,4 metros nas duas direções). Pesam em média de 450 a 500 quilos e possuem pouco tecido adiposo. Devido ao peso e estatura, possuem imensa dificuldade para nadar ou escalar (sendo Inaptos), e manobras como cambalhotas são virtualmente impossíveis.\n* **Pele e Pelagem:** A pele varia do pardo ao marrom claro, sendo a parte inferior do corpo e as costas cobertas por um couro mais duro e escuro. A pelagem sobre o corpo é curta e dura, tornando-se bem mais densa e longa na cabeça, ao longo da coluna e na cauda. As cores variam do pardo ao negro, passando por castanho, sendo comum a presença de manchas, e os pelos vão ficando acinzentados com a idade.\n* **Dimorfismo Sexual:** As fêmeas (Centáurides) são diferenciadas dos machos por não desenvolverem pelos no rosto e apresentarem duas pequenas mamas.\n* **Ciclo de Vida:** A gestação dura cerca de 11 meses e os filhotes são capazes de andar em apenas alguns dias. Atingem o tamanho máximo e a vida adulta aos 10 anos, com os primeiros sinais de envelhecimento aparecendo aos 80 anos. Vivem até os 120 anos, e os mais velhos costumam se isolar da comunidade ao ficarem fracos.",
+          "cultura": "* **Habitat e Estrutura Política:** Geralmente se instalam em grandes clareiras nas bordas de florestas (como a Floresta da Névoa e a Floresta da Borda). Sua maior comunidade em Tebryn chama-se Yak (na Floresta dos Antigos), uma aldeia sem centro comercial rígido. Não possuem estruturas de liderança além do respeito à sabedoria dos mais velhos da região.\n* **Lazer e Festividades:** Possuem um humor simples e dão preferência a atividades físicas para diversão, como corridas, demonstrações de força e competições de salto. Reúnem-se nos equinócios para grandes festividades que duram uma semana. Nessas festas, o consumo de bebida é alto, e embriaguez e surtos de violência são muito comuns, tornando o ambiente arriscado para forasteiros que aceitam o convite para participar.\n* **Táticas e Combate:** Apesar de conhecidos por suas ferozes cargas corporais, a lança e o arco são suas armas mais tradicionais. A arqueria é tão intrínseca que praticamente todos os jovens praticam, e seus Arqueiros revezam as funções de caçadores e vigias.\n* **Relações Interpessoais:** Apesar de convidarem viajantes para suas competições amigáveis, são profundamente desconfiados dos elfos (principalmente da região de Ambrook) após uma guerra sangrenta e assimétrica no passado que quase exterminou as tribos da Floresta dos Antigos.",
+          "faixasEtarias": {
+            "filhote": "0-2",
+            "crianca": "3-8",
+            "adolescente": "7-9",
+            "adulto": "10",
+            "idoso": "80(12)",
+            "anciao": "120(2)"
+          },
+          "nomes": {
+            "lore": "A língua nativa dos Centauros é o Silvestre, uma linguagem de estrutura caótica e muitas variações regionais. Seus nomes são criados com a aglutinação de duas ou três palavras desse idioma, o qual é fortemente embasado no grupo Tupi-Guarani (ou em outros idiomas indígenas brasileiros). Centauros não usam sobrenomes de qualquer tipo.",
+            "masculinos": [
+              "Abapuka",
+              "Esakatu",
+              "Etimatã",
+              "Itapek",
+              "Iukaiuba",
+              "Kaatuxaba",
+              "Kapisobui",
+              "Karaibasi",
+              "Katubira",
+              "Katuibipuí",
+              "Puiubitu",
+              "So’obixabasu",
+              "Usubixaba"
+            ],
+            "femininos": [
+              "Abapuka",
+              "Esakatu",
+              "Etimatã",
+              "Itapek",
+              "Iukaiuba",
+              "Kaatuxaba",
+              "Kapisobui",
+              "Karaibasi",
+              "Katubira",
+              "Katuibipuí",
+              "Puiubitu",
+              "So’obixabasu",
+              "Usubixaba"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Dragano",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/dragano.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -372,18 +921,68 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Guerreiro, Dracomante, Patrulheiro",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-4 anos) · Adulto (20 anos) · Idoso (200(25) anos) · Ancião (250(4) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São dragões humanoides extremamente diversos. A cabeça assemelha-se à de dragões, com focinho curto e presas afiadas, podendo apresentar protrusões ósseas e chifres de formatos variados (retos ou torcidos). As mãos e os pés têm quatro dedos com garras robustas. A presença de asas e cauda longa é comum, embora possam ser vestigiais ou inúteis em alguns indivíduos. A altura média varia de 1,6m a 2m (podendo atingir até 3m), e o peso médio é de 90 a 100 quilos (indivíduos com asas e cauda pesam até 160kg, e os maiores até 250kg).</li><br><li><strong>Pele e Pelagem:</strong> Possuem couro grosso, áspero e totalmente desprovido de pelos, frequentemente coberto por escamas queratinosas. A coloração varia drasticamente: do branco ao preto, passando por tons de azul, verde e vermelho.</li><br><li><strong>Olhos:</strong> Podem ser fendidos ou ter pupilas redondas. Alguns indivíduos, especialmente de origem Ofidiana, têm olhos dourados, vermelhos ou esbranquiçados protegidos permanentemente por uma membrana nictitante.</li><br><li><strong>Dimorfismo Sexual:</strong> Diferenciar machos e fêmeas é quase impossível para outras raças; apenas Naga, outros Draganos e criaturas do tipo Dragão conseguem distingui-los facilmente.</li><br><li><strong>Ciclo de Vida:</strong> As fêmeas são férteis apenas uma vez por ano. A gestação dura cerca de 1 ano, gerando apenas 1 ovo que eclode em três meses. Cerca de 25% dos ovos geram natimortos ou crias deformadas. Atingem a maturidade aos 20 anos e vivem plenamente até os 200 anos. Na velhice, as escamas enfraquecem e os alados perdem a capacidade de voar.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política (A Dualidade):</strong> A cultura da raça é dividida. Em Ofidien, eles foram criados artificialmente pelas Naga há cerca de 2000 anos por meio de experimentos em raças escravizadas com sangue de dragão. Lá, não possuem identidade cultural própria e formam uma sub-raça servil trabalhando como soldados de elite e guarda-costas das Naga. Já em Arkânia, eles existiam antes mesmo da chegada das Naga. Os Draganos Arkanitas formam a base da cultura do império escravagista e ocupam os mais altos postos (Armada da Aurora, Conselho Regente), possuindo enorme orgulho de sua ancestralidade dracônica.</li><br><li><strong>Idiomas:</strong> Não possuem língua própria. Em Ofidien, falam Asá-Avája (idioma Naga). Em Arkânia, são as únicas criaturas fisicamente capazes de falar o Track'kar'a (Língua dos Dragões) com perfeição, além de usarem o Burguês Arkanita e o Arkadis (Língua da Magia).</li><br><li><strong>Relações Interpessoais:</strong> Fora de Arkânia e Ofidien, são vistos com medo e desconfiança. Tendem a se isolar como ermitões ou a viver próximos a raças com traços afins (Reptilianos, Tritões, Grotons). Possuem atitude rude e arrogante: apesar de racionais, usam intimidação, coerção e força física por se sentirem superiores aos outros.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Assim como o idioma, eles adotam as regras das culturas em que estão inseridos, ou usam Nomes Dracônicos puros. Para serem imponentes, os nomes costumam ser longos (pelo menos três sílabas). Diferente das Naga (que usam sufixos como -Drek ou -Sur em seus nomes), os Draganos contraem os nomes dracônicos e nunca utilizam esses radicais ofidianos. Também, ao contrário das Naga, os Draganos adotam sobrenomes dependendo do reino onde vivem. Costumam utilizar os sobrenomes da cultura humana/arkanita em que foram criados ou adotar nomes de linhagens dracônicas.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Ahamthrul, Anphisbaenea, Azdahazahak, Balaurbondoc, Brignor, Bristerne, Dragua, Flamerax<br><b>Femininos:</b> Ahamthrul, Anphisbaenea, Azdahazahak, Balaurbondoc, Brignor, Bristerne, Dragua, Flamerax</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Dragano de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.51a7e16e8acc60c7\" data-slug=\"dragano\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-4a) · Adulto (20a) · Idoso (200(25)a) · Ancião (250(4)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Guerreiro, Dracomante, Patrulheiro</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "dragano"
+        "slug": "dragano",
+        "diarioId": "51a7e16e8acc60c7",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São dragões humanoides extremamente diversos. A cabeça assemelha-se à de dragões, com focinho curto e presas afiadas, podendo apresentar protrusões ósseas e chifres de formatos variados (retos ou torcidos). As mãos e os pés têm quatro dedos com garras robustas. A presença de asas e cauda longa é comum, embora possam ser vestigiais ou inúteis em alguns indivíduos. A altura média varia de 1,6m a 2m (podendo atingir até 3m), e o peso médio é de 90 a 100 quilos (indivíduos com asas e cauda pesam até 160kg, e os maiores até 250kg).\n* **Pele e Pelagem:** Possuem couro grosso, áspero e totalmente desprovido de pelos, frequentemente coberto por escamas queratinosas. A coloração varia drasticamente: do branco ao preto, passando por tons de azul, verde e vermelho.\n* **Olhos:** Podem ser fendidos ou ter pupilas redondas. Alguns indivíduos, especialmente de origem Ofidiana, têm olhos dourados, vermelhos ou esbranquiçados protegidos permanentemente por uma membrana nictitante.\n* **Dimorfismo Sexual:** Diferenciar machos e fêmeas é quase impossível para outras raças; apenas Naga, outros Draganos e criaturas do tipo Dragão conseguem distingui-los facilmente.\n* **Ciclo de Vida:** As fêmeas são férteis apenas uma vez por ano. A gestação dura cerca de 1 ano, gerando apenas 1 ovo que eclode em três meses. Cerca de 25% dos ovos geram natimortos ou crias deformadas. Atingem a maturidade aos 20 anos e vivem plenamente até os 200 anos. Na velhice, as escamas enfraquecem e os alados perdem a capacidade de voar.",
+          "cultura": "* **Habitat e Estrutura Política (A Dualidade):** A cultura da raça é dividida. Em Ofidien, eles foram criados artificialmente pelas Naga há cerca de 2000 anos por meio de experimentos em raças escravizadas com sangue de dragão. Lá, não possuem identidade cultural própria e formam uma sub-raça servil trabalhando como soldados de elite e guarda-costas das Naga. Já em Arkânia, eles existiam antes mesmo da chegada das Naga. Os Draganos Arkanitas formam a base da cultura do império escravagista e ocupam os mais altos postos (Armada da Aurora, Conselho Regente), possuindo enorme orgulho de sua ancestralidade dracônica.\n* **Idiomas:** Não possuem língua própria. Em Ofidien, falam Asá-Avája (idioma Naga). Em Arkânia, são as únicas criaturas fisicamente capazes de falar o Track'kar'a (Língua dos Dragões) com perfeição, além de usarem o Burguês Arkanita e o Arkadis (Língua da Magia).\n* **Relações Interpessoais:** Fora de Arkânia e Ofidien, são vistos com medo e desconfiança. Tendem a se isolar como ermitões ou a viver próximos a raças com traços afins (Reptilianos, Tritões, Grotons). Possuem atitude rude e arrogante: apesar de racionais, usam intimidação, coerção e força física por se sentirem superiores aos outros.",
+          "faixasEtarias": {
+            "filhote": "0-4",
+            "crianca": "5-10",
+            "adolescente": "11-19",
+            "adulto": "20",
+            "idoso": "200(25)",
+            "anciao": "250(4)"
+          },
+          "nomes": {
+            "lore": "Assim como o idioma, eles adotam as regras das culturas em que estão inseridos, ou usam Nomes Dracônicos puros. Para serem imponentes, os nomes costumam ser longos (pelo menos três sílabas). Diferente das Naga (que usam sufixos como -Drek ou -Sur em seus nomes), os Draganos contraem os nomes dracônicos e nunca utilizam esses radicais ofidianos. Também, ao contrário das Naga, os Draganos adotam sobrenomes dependendo do reino onde vivem. Costumam utilizar os sobrenomes da cultura humana/arkanita em que foram criados ou adotar nomes de linhagens dracônicas.",
+            "masculinos": [
+              "Ahamthrul",
+              "Anphisbaenea",
+              "Azdahazahak",
+              "Balaurbondoc",
+              "Brignor",
+              "Bristerne",
+              "Dragua",
+              "Flamerax",
+              "Komerex",
+              "Lagarfliotsormurinn",
+              "Scathel",
+              "Shivnarvex",
+              "Smeygorinish",
+              "Zannar",
+              "Zirnitrarex"
+            ],
+            "femininos": [
+              "Ahamthrul",
+              "Anphisbaenea",
+              "Azdahazahak",
+              "Balaurbondoc",
+              "Brignor",
+              "Bristerne",
+              "Dragua",
+              "Flamerax",
+              "Komerex",
+              "Lagarfliotsormurinn",
+              "Scathel",
+              "Shivnarvex",
+              "Smeygorinish",
+              "Zannar",
+              "Zirnitrarex"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Faen",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/faen.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -406,18 +1005,55 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Patrulheiro, Ladino, Mago e Ilusionista",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-4 anos) · Adulto (20 anos) · Idoso (100(20) anos) · Ancião (200(3) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides pequeninos com traços feéricos, medindo em torno de 1,3 e 1,4 metros (podendo chegar a 1,5m) e pesando no máximo 35 quilos. A sua característica mais marcante é o par de asas leves e semitransparentes nas costas, cuja envergadura é igual à altura do corpo. Também possuem um par de antenas na testa que lhes permite comunicação rudimentar com insetos.</li><br><li><strong>Pele e Pelagem:</strong> A pele é lisa, desprovida de pelos corporais, e possui tons que variam do róseo-amarelado até o dourado e bronzeado. Os cabelos são finos e macios, com colorações exóticas como louro claro, ruivo, azul e lilás. Alguns raros indivíduos, chamados de \"Isnuu\" (nascidos nas folhas), nascem com a pele e cabelos esverdeados e possuem uma imensa afinidade inata com magias.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas possuem menos massa muscular, contornos mais arredondados e apresentam um par de pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação é curtíssima (cerca de 3 meses) e um quinto dos nascimentos resulta em gêmeos ou trigêmeos. Nascem sem asas, que crescem ao longo da infância até atingirem o tamanho pleno na puberdade (aos 16 anos), tornando-se adultos aos 20. Podem viver até 200 anos sem sofrer envelhecimento severo. Quando morrem de velhice, passam por um fenômeno bizarro: a carne torna-se uma massa vegetal que se enraíza e vira uma árvore (frutífera se fêmea, com flores se macho), onde o espírito do Faen repousa até a árvore morrer naturalmente e ele renascer.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem em colônias bem escondidas e camufladas dentro de matas fechadas, como na Floresta dos Antigos e no Vale do Dragão. A sociedade é totalmente livre e desleixada: não há líderes fixos nem hierarquias. Decisões são tomadas no coletivo e os indivíduos mais velhos — ou os Isnuu, no caso de problemas mágicos — são consultados por respeito.</li><br><li><strong>Sustento e Criação de Insetos:</strong> São estritamente herbívoros, alimentando-se de castanhas, raízes e frutas forrageadas. Em vez de gado, os Faens domesticam artrópodes gigantes: criam abelhas para mel, lagartas para seda, besouros gigantes como animais de tração e vespas para a caça.</li><br><li><strong>Arquitetura e Magia:</strong> Usam seu talento mágico com as plantas para esculpir o crescimento da vegetação, formando suas casas e estruturas em harmonia com a floresta. Possuem grande paixão pela arte, pelas magias de movimento e são amantes de ilusões, sendo considerados artistas e \"trapaceiros\" pelas outras raças da floresta.</li><br><li><strong>Táticas e Combate:</strong> Preferem sempre fugir voando ao invés de lutar. Não são covardes, apenas não veem sentido no confronto desnecessário. Contudo, se sua colônia ou entes queridos forem ameaçados, lutam até que o inimigo esteja morto usando qualquer recurso à disposição.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Assim como os Elfos, os Faens geralmente adotam as regras rígidas de nomes élficos (podendo também usar os nomes aglutinados e indígenas da língua Silvestre falada pelos Centauros e Faunos). Os nomes têm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Não usam nomes de família tradicionais. Um Faen adiciona o nome do local onde nasceu ou viveu como se fosse um sobrenome (Ex: Aesc Floresta da Névoa ou simplesmente Aesc Névoa).</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Aelflaed, Aesc, Cerdic, Fianoc, Keleoc, Landric, Lewyd, Uhtric<br><b>Femininos:</b> Aedil, Alfrith, Careth, Edith, Faedil, Gleadwin, Leofwin, Saewin</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Faen de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.f207a648060fa00c\" data-slug=\"faen\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-4a) · Adulto (20a) · Idoso (100(20)a) · Ancião (200(3)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Patrulheiro, Ladino, Mago e Ilusionista</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "faen"
+        "slug": "faen",
+        "diarioId": "f207a648060fa00c",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Humanoides pequeninos com traços feéricos, medindo em torno de 1,3 e 1,4 metros (podendo chegar a 1,5m) e pesando no máximo 35 quilos. A sua característica mais marcante é o par de asas leves e semitransparentes nas costas, cuja envergadura é igual à altura do corpo. Também possuem um par de antenas na testa que lhes permite comunicação rudimentar com insetos.\n* **Pele e Pelagem:** A pele é lisa, desprovida de pelos corporais, e possui tons que variam do róseo-amarelado até o dourado e bronzeado. Os cabelos são finos e macios, com colorações exóticas como louro claro, ruivo, azul e lilás. Alguns raros indivíduos, chamados de \"Isnuu\" (nascidos nas folhas), nascem com a pele e cabelos esverdeados e possuem uma imensa afinidade inata com magias.\n* **Dimorfismo Sexual:** As fêmeas possuem menos massa muscular, contornos mais arredondados e apresentam um par de pequenas mamas.\n* **Ciclo de Vida:** A gestação é curtíssima (cerca de 3 meses) e um quinto dos nascimentos resulta em gêmeos ou trigêmeos. Nascem sem asas, que crescem ao longo da infância até atingirem o tamanho pleno na puberdade (aos 16 anos), tornando-se adultos aos 20. Podem viver até 200 anos sem sofrer envelhecimento severo. Quando morrem de velhice, passam por um fenômeno bizarro: a carne torna-se uma massa vegetal que se enraíza e vira uma árvore (frutífera se fêmea, com flores se macho), onde o espírito do Faen repousa até a árvore morrer naturalmente e ele renascer.",
+          "cultura": "* **Habitat e Estrutura Política:** Vivem em colônias bem escondidas e camufladas dentro de matas fechadas, como na Floresta dos Antigos e no Vale do Dragão. A sociedade é totalmente livre e desleixada: não há líderes fixos nem hierarquias. Decisões são tomadas no coletivo e os indivíduos mais velhos — ou os Isnuu, no caso de problemas mágicos — são consultados por respeito.\n* **Sustento e Criação de Insetos:** São estritamente herbívoros, alimentando-se de castanhas, raízes e frutas forrageadas. Em vez de gado, os Faens domesticam artrópodes gigantes: criam abelhas para mel, lagartas para seda, besouros gigantes como animais de tração e vespas para a caça.\n* **Arquitetura e Magia:** Usam seu talento mágico com as plantas para esculpir o crescimento da vegetação, formando suas casas e estruturas em harmonia com a floresta. Possuem grande paixão pela arte, pelas magias de movimento e são amantes de ilusões, sendo considerados artistas e \"trapaceiros\" pelas outras raças da floresta.\n* **Táticas e Combate:** Preferem sempre fugir voando ao invés de lutar. Não são covardes, apenas não veem sentido no confronto desnecessário. Contudo, se sua colônia ou entes queridos forem ameaçados, lutam até que o inimigo esteja morto usando qualquer recurso à disposição.",
+          "faixasEtarias": {
+            "filhote": "0-4",
+            "crianca": "5-12",
+            "adolescente": "13-19",
+            "adulto": "20",
+            "idoso": "100(20)",
+            "anciao": "200(3)"
+          },
+          "nomes": {
+            "lore": "Assim como os Elfos, os Faens geralmente adotam as regras rígidas de nomes élficos (podendo também usar os nomes aglutinados e indígenas da língua Silvestre falada pelos Centauros e Faunos). Os nomes têm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Não usam nomes de família tradicionais. Um Faen adiciona o nome do local onde nasceu ou viveu como se fosse um sobrenome (Ex: Aesc Floresta da Névoa ou simplesmente Aesc Névoa).",
+            "masculinos": [
+              "Aelflaed",
+              "Aesc",
+              "Cerdic",
+              "Fianoc",
+              "Keleoc",
+              "Landric",
+              "Lewyd",
+              "Uhtric"
+            ],
+            "femininos": [
+              "Aedil",
+              "Alfrith",
+              "Careth",
+              "Edith",
+              "Faedil",
+              "Gleadwin",
+              "Leofwin",
+              "Saewin",
+              "Vanedwin"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Fira",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/fira.png",
     "system": {
       "atributos": {
         "forca": 3,
@@ -440,18 +1076,93 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Espadachim, Feiticeiro, Paladino, Rúnico e Sacerdote",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (18 anos) · Idoso (70(12) anos) · Ancião (120(2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de estatura e constituição medianas (entre 1,6 e 1,9 metros de altura e pesando entre 70 e 80 quilos), perfeitamente adaptados à vida em regiões quentes e áridas. Possuem um reflexo biológico único: sob muito calor, os batimentos cardíacos e a respiração diminuem drasticamente, reduzindo a temperatura do corpo, o que lhes permite suportar temperaturas que seriam mortais para outras raças.</li><br><li><strong>Pele e Pelagem:</strong> A pele é escura, geralmente em tons de cobre fosco ou marrom-oliva, e ajuda a refletir o calor do ambiente de forma eficiente. O corpo é coberto por uma pelagem grossa e esparsa (mais espessa na cabeça e sob o queixo dos machos), geralmente negra com tons avermelhados, castanhos ou, muito raramente, ruivos.</li><br><li><strong>Olhos:</strong> São desprovidos de íris ou pupila, sendo geralmente brancos, mas podem apresentar variações em amarelo e dourado. Alguns indivíduos possuem olhos com uma luminescência semelhante ao brilho de uma chama, capaz até mesmo de fornecer iluminação em ambientes escuros.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas são diferenciadas dos machos por não desenvolverem pelos sob o queixo (barba) e por apresentarem um par de mamas de tamanho pequeno ou médio.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses, e a incidência de gêmeos é extremamente incomum na raça. As crianças ficam sob a supervisão dos pais até a idade adulta, que ocorre aos 18 anos. Vivem em média até os 120 anos, e os primeiros sinais da velhice — como acessos de letargia causados pelo reflexo térmico desregulado do corpo — começam a surgir apenas depois dos 70 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Preferem locais abertos e de clima árido, como o Grande Planalto do Leste e as cidades de Sa’es Yasgaroth e Tell’es Triadha em Parband. Suas construções são geralmente de pedras e rochas, de formato piramidal, possuindo uma pequena área interna (usada apenas como depósito ou refúgio contra tempestades) e uma grande área externa no topo. Os Firas preferem viver a céu aberto, usando essas áreas superiores até mesmo para dormir e trabalhar.</li><br><li><strong>Religião e Magia:</strong> A sociedade Fira é quase sem exceções teocrática, estruturando toda a sua vida e cultura em torno da adoração a Hou, o deus-fogo. Os seus dogmas exigem que nunca faltem com a palavra, jamais comam alimentos crus e que mantenham lareiras constantemente acesas. Os prédios e templos que mantêm essas lareiras podem alcançar entre 70 ou 80 graus, temperaturas insuportáveis e mortais para as outras raças. Eles veem uma ligação intrínseca entre magia arcana e mística, logo, seus Conjuradores Arcanos (Feiticeiros) são treinados nos próprios templos religiosos.</li><br><li><strong>Forja e Adestramento:</strong> Como uma extensão de sua adoração a Hou, os Firas são grandes ferreiros e cozinheiros. Suas armas e utensílios metálicos são extremamente elaborados (como a invenção do Aço Crisol), mas, diferentemente de Anões e Elfos, os Firas raramente aplicam gemas e pedras preciosas em metais, preferindo lapidá-las para uso exclusivo como moedas. Além disso, são exímios adestradores; a maioria possui animais de tração ou montaria e apreciam enormemente a falcoaria, a equitação e o uso de montarias aladas (como hipogrifos e ethons).</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua oficial dos Firas é o Camaka. O idioma e as regras para nomes são fortemente embasados na sonoridade árabe. Os nomes possuem poucas regras, sendo a maioria formada por palavras do Camaka que os pais acreditam atrair boa sorte à criança, além de existirem alguns nomes muito tradicionais cujos significados se perderam no tempo. Os Firas utilizam um sobrenome familiar. Quando dois Firas se casam, o casal deve escolher apenas um dos sobrenomes para ser usado por ambos — é totalmente indiferente para a raça se o nome escolhido será o do marido ou o da esposa. Sobrenomes seguem exatamente a mesma lógica dos primeiros nomes (palavras do Camaka com bons significados ou origens árabes).</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Abhir, Ahmose, Akaar, Almiraj, Anakaar, Aradullah, Arkamed, Azif<br><b>Femininos:</b> Adara, Amandla, Amara, Ashanti, Ashira, Ayisha, Casamira, Cytara</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Fira de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.f5a9c39ccfdc37aa\" data-slug=\"fira\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (18a) · Idoso (70(12)a) · Ancião (120(2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Espadachim, Feiticeiro, Paladino, Rúnico e Sacerdote</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "fira"
+        "slug": "fira",
+        "diarioId": "f5a9c39ccfdc37aa",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São humanoides de estatura e constituição medianas (entre 1,6 e 1,9 metros de altura e pesando entre 70 e 80 quilos), perfeitamente adaptados à vida em regiões quentes e áridas. Possuem um reflexo biológico único: sob muito calor, os batimentos cardíacos e a respiração diminuem drasticamente, reduzindo a temperatura do corpo, o que lhes permite suportar temperaturas que seriam mortais para outras raças.\n* **Pele e Pelagem:** A pele é escura, geralmente em tons de cobre fosco ou marrom-oliva, e ajuda a refletir o calor do ambiente de forma eficiente. O corpo é coberto por uma pelagem grossa e esparsa (mais espessa na cabeça e sob o queixo dos machos), geralmente negra com tons avermelhados, castanhos ou, muito raramente, ruivos.\n* **Olhos:** São desprovidos de íris ou pupila, sendo geralmente brancos, mas podem apresentar variações em amarelo e dourado. Alguns indivíduos possuem olhos com uma luminescência semelhante ao brilho de uma chama, capaz até mesmo de fornecer iluminação em ambientes escuros.\n* **Dimorfismo Sexual:** As fêmeas são diferenciadas dos machos por não desenvolverem pelos sob o queixo (barba) e por apresentarem um par de mamas de tamanho pequeno ou médio.\n* **Ciclo de Vida:** A gestação dura cerca de nove meses, e a incidência de gêmeos é extremamente incomum na raça. As crianças ficam sob a supervisão dos pais até a idade adulta, que ocorre aos 18 anos. Vivem em média até os 120 anos, e os primeiros sinais da velhice — como acessos de letargia causados pelo reflexo térmico desregulado do corpo — começam a surgir apenas depois dos 70 anos.",
+          "cultura": "* **Habitat e Estrutura Política:** Preferem locais abertos e de clima árido, como o Grande Planalto do Leste e as cidades de Sa’es Yasgaroth e Tell’es Triadha em Parband. Suas construções são geralmente de pedras e rochas, de formato piramidal, possuindo uma pequena área interna (usada apenas como depósito ou refúgio contra tempestades) e uma grande área externa no topo. Os Firas preferem viver a céu aberto, usando essas áreas superiores até mesmo para dormir e trabalhar.\n* **Religião e Magia:** A sociedade Fira é quase sem exceções teocrática, estruturando toda a sua vida e cultura em torno da adoração a Hou, o deus-fogo. Os seus dogmas exigem que nunca faltem com a palavra, jamais comam alimentos crus e que mantenham lareiras constantemente acesas. Os prédios e templos que mantêm essas lareiras podem alcançar entre 70 ou 80 graus, temperaturas insuportáveis e mortais para as outras raças. Eles veem uma ligação intrínseca entre magia arcana e mística, logo, seus Conjuradores Arcanos (Feiticeiros) são treinados nos próprios templos religiosos.\n* **Forja e Adestramento:** Como uma extensão de sua adoração a Hou, os Firas são grandes ferreiros e cozinheiros. Suas armas e utensílios metálicos são extremamente elaborados (como a invenção do Aço Crisol), mas, diferentemente de Anões e Elfos, os Firas raramente aplicam gemas e pedras preciosas em metais, preferindo lapidá-las para uso exclusivo como moedas. Além disso, são exímios adestradores; a maioria possui animais de tração ou montaria e apreciam enormemente a falcoaria, a equitação e o uso de montarias aladas (como hipogrifos e ethons).",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-10",
+            "adolescente": "11-17",
+            "adulto": "18",
+            "idoso": "70(12)",
+            "anciao": "120(2)"
+          },
+          "nomes": {
+            "lore": "A língua oficial dos Firas é o Camaka. O idioma e as regras para nomes são fortemente embasados na sonoridade árabe. Os nomes possuem poucas regras, sendo a maioria formada por palavras do Camaka que os pais acreditam atrair boa sorte à criança, além de existirem alguns nomes muito tradicionais cujos significados se perderam no tempo. Os Firas utilizam um sobrenome familiar. Quando dois Firas se casam, o casal deve escolher apenas um dos sobrenomes para ser usado por ambos — é totalmente indiferente para a raça se o nome escolhido será o do marido ou o da esposa. Sobrenomes seguem exatamente a mesma lógica dos primeiros nomes (palavras do Camaka com bons significados ou origens árabes).",
+            "masculinos": [
+              "Abhir",
+              "Ahmose",
+              "Akaar",
+              "Almiraj",
+              "Anakaar",
+              "Aradullah",
+              "Arkamed",
+              "Azif",
+              "Barakah",
+              "Camaban",
+              "Elzid",
+              "Essam",
+              "Faysal",
+              "Gerdes",
+              "Hallan",
+              "Isax",
+              "Ishak",
+              "Kazir",
+              "Malkin",
+              "Meldaikis",
+              "Mihalis",
+              "Morzar",
+              "Mubarak",
+              "Myrkal",
+              "Nawfal",
+              "Noa",
+              "Shadir",
+              "Uriah"
+            ],
+            "femininos": [
+              "Adara",
+              "Amandla",
+              "Amara",
+              "Ashanti",
+              "Ashira",
+              "Ayisha",
+              "Casamira",
+              "Cytara",
+              "Dhejja",
+              "Fawzyia",
+              "Haifa",
+              "Inaya",
+              "Israa",
+              "Kaya",
+              "Lahana",
+              "Lakeisha",
+              "Midieda",
+              "Myra",
+              "Nathifa",
+              "Onika",
+              "Shanika",
+              "Tanisha",
+              "Tinashe",
+              "Yassana",
+              "Zendaya",
+              "Zola",
+              "Zuri"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Gnoll",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/gnoll.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -474,18 +1185,49 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Assassino, Guerreiro (particularmente Lanceiro), Ladino, Necromante e Patrulheiro",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (12 anos) · Idoso (30(5) anos) · Ancião (50(1) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides exclusivamente carnívoros, com constituição atlética, chegando a uma altura entre 1,8 e 2 metros (embora pareçam 20 centímetros mais baixos devido à postura fortemente encurvada) e pesando de 90 a 100 quilos. Suas pernas são curtas, e a união da coluna encurvada com braços e tronco longos lhes dá um centro de gravidade incrivelmente estável, dificultando muito que sejam derrubados. Possuem uma pequena cauda inútil, e suas mãos e pés (digitígrados) possuem quatro dedos com almofadas protetoras e fortes unhas adaptadas para correr e escalar, mas não afiadas o suficiente para servirem de armas.</li><br><li><strong>Pele e Pelagem:</strong> A pele é acinzentada com manchas não uniformes. Quase todo o corpo é recoberto por uma pelagem grossa e curta, num tom castanho-acinzentado cujas manchas seguem os padrões da pele, além de desenvolverem tufos de pelos grossos e bem mais escuros no topo da cabeça e ao longo de toda a coluna.</li><br><li><strong>Olhos:</strong> Pequenos e bem fundos no crânio.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura entre 6 e 7 meses, possuindo uma taxa assustadora de gêmeos e trigêmeos a cada ninhada. Atingem a vida adulta muito rápido, aos 12 anos, e os primeiros sinais biológicos da velhice (como o desbotamento e despigmentação do pelo) começam logo aos 30. Embora tentem se manter ativos na velhice, o severo enfraquecimento de seus organismos — notavelmente ossos e dentes — impede que os membros da raça vivam além dos 70 anos de idade.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Organização:</strong> São originários de Gaian e altamente assustadiços e desconfiados, sobrevivendo na maioria das vezes através de pilhagens em rotas de comércio, agindo em bandos nômades. A raça não possui uma cultura definida e sempre assimila os traços dos povos com quem convivem (como os Gnolls silvícolas de Anarien, na Floresta da Névoa, que adotaram práticas rústicas dos Faunos e Centauros). Em seus bandos tradicionais não existe hierarquia rígida, sendo liderados por quem demonstrar mais iniciativa.</li><br><li><strong>Sustento e Sociedade:</strong> Como não existe pensamento a longo prazo em um bando, todos os recursos ou comidas são divididos estritamente em partes iguais. Indivíduos feridos, fracos ou fêmeas grávidas não recebem comida extra ou tratamentos especiais, apenas sendo alocados para atividades mais mundanas como dividir os espólios, cozinhar ou ficar de vigia para os que vão caçar.</li><br><li><strong>O Bufão:</strong> O único posto social digno de nota além do líder é o de \"Bufão\". O Bufão do bando é invariavelmente um macho adulto considerado o mais fraco ou medroso do grupo, servindo de alvo de humilhações, espancamentos e chacota constante por parte de seus pares. Curiosamente, apesar dos abusos, o Bufão possui os mesmos direitos alimentares e dorme na mesma fogueira que os outros, com a única diferença de nunca receber o encargo perigoso de agir como um batedor militar.</li><br><li><strong>Táticas de Combate e Canibalismo:</strong> Por serem essencialmente covardes, evitam lutar em desvantagem numérica, favorecendo o uso de armadilhas. A arma culturalmente favorita da raça é a Lança (que usam para manter inimigos longe). É comum que não limpem suas armas de propósito, servindo de vetores para transmissão do Tétano. Não possuem escrúpulos, não praticam escravidão e veem os inimigos caídos puramente como comida: não é raro que Gnolls percam o controle em combate para disputar pedaços da carne e sangue de aventureiros recém-abatidos no chão. No entanto, se o embate virar contra o bando, os Gnolls fogem instintivamente; e caso acuados, imploram por rendição, entregam todo o dinheiro sem resistir, e escapam na primeira quebra de atenção do inimigo.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Assim como os Hamelins, os Gnolls falam majoritariamente a língua Zihassás, além do idioma da região onde vivem. É um idioma sem forma escrita, cujo som principal vem da pronúncia extremamente chiada, baseada no som de \"S\", \"Z\", \"F\", \"CH\" e \"X\". Gnolls quase nunca utilizam sobrenomes, recebendo da tribo apenas \"Títulos\" descritivos referentes a algum feito. Para gerar os seus nomes na língua chiada, traduz-se uma palavra para o Árabe e aplicam-se suas letras fonéticas. Masculinos têm de duas a quatro sílabas e sempre terminam em consoante. Femininos têm de duas a quatro sílabas e sempre terminam em vogal (\"A\", \"E\" ou \"I\"). Não utilizam sobrenomes tradicionalmente, adotando apenas os Títulos conquistados em combate (Ex: Alfirani Orelha-Rasca, Mukhif o Rápido).</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Mukhif, Xarif, Chamil, Zaleel, Fariq, Safir<br><b>Femininos:</b> Alfirani, Xarifa, Zaleela, Fariqa, Chamila</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Gnoll de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.d63471c6571504cf\" data-slug=\"gnoll\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-2a) · Adulto (12a) · Idoso (30(5)a) · Ancião (50(1)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Assassino, Guerreiro (particularmente Lanceiro), Ladino, Necromante e Patrulheiro</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "gnoll"
+        "slug": "gnoll",
+        "diarioId": "d63471c6571504cf",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São mamíferos humanoides exclusivamente carnívoros, com constituição atlética, chegando a uma altura entre 1,8 e 2 metros (embora pareçam 20 centímetros mais baixos devido à postura fortemente encurvada) e pesando de 90 a 100 quilos. Suas pernas são curtas, e a união da coluna encurvada com braços e tronco longos lhes dá um centro de gravidade incrivelmente estável, dificultando muito que sejam derrubados. Possuem uma pequena cauda inútil, e suas mãos e pés (digitígrados) possuem quatro dedos com almofadas protetoras e fortes unhas adaptadas para correr e escalar, mas não afiadas o suficiente para servirem de armas.\n* **Pele e Pelagem:** A pele é acinzentada com manchas não uniformes. Quase todo o corpo é recoberto por uma pelagem grossa e curta, num tom castanho-acinzentado cujas manchas seguem os padrões da pele, além de desenvolverem tufos de pelos grossos e bem mais escuros no topo da cabeça e ao longo de toda a coluna.\n* **Olhos:** Pequenos e bem fundos no crânio.\n* **Ciclo de Vida:** A gestação dura entre 6 e 7 meses, possuindo uma taxa assustadora de gêmeos e trigêmeos a cada ninhada. Atingem a vida adulta muito rápido, aos 12 anos, e os primeiros sinais biológicos da velhice (como o desbotamento e despigmentação do pelo) começam logo aos 30. Embora tentem se manter ativos na velhice, o severo enfraquecimento de seus organismos — notavelmente ossos e dentes — impede que os membros da raça vivam além dos 70 anos de idade.",
+          "cultura": "* **Habitat e Organização:** São originários de Gaian e altamente assustadiços e desconfiados, sobrevivendo na maioria das vezes através de pilhagens em rotas de comércio, agindo em bandos nômades. A raça não possui uma cultura definida e sempre assimila os traços dos povos com quem convivem (como os Gnolls silvícolas de Anarien, na Floresta da Névoa, que adotaram práticas rústicas dos Faunos e Centauros). Em seus bandos tradicionais não existe hierarquia rígida, sendo liderados por quem demonstrar mais iniciativa.\n* **Sustento e Sociedade:** Como não existe pensamento a longo prazo em um bando, todos os recursos ou comidas são divididos estritamente em partes iguais. Indivíduos feridos, fracos ou fêmeas grávidas não recebem comida extra ou tratamentos especiais, apenas sendo alocados para atividades mais mundanas como dividir os espólios, cozinhar ou ficar de vigia para os que vão caçar.\n* **O Bufão:** O único posto social digno de nota além do líder é o de \"Bufão\". O Bufão do bando é invariavelmente um macho adulto considerado o mais fraco ou medroso do grupo, servindo de alvo de humilhações, espancamentos e chacota constante por parte de seus pares. Curiosamente, apesar dos abusos, o Bufão possui os mesmos direitos alimentares e dorme na mesma fogueira que os outros, com a única diferença de nunca receber o encargo perigoso de agir como um batedor militar.\n* **Táticas de Combate e Canibalismo:** Por serem essencialmente covardes, evitam lutar em desvantagem numérica, favorecendo o uso de armadilhas. A arma culturalmente favorita da raça é a Lança (que usam para manter inimigos longe). É comum que não limpem suas armas de propósito, servindo de vetores para transmissão do Tétano. Não possuem escrúpulos, não praticam escravidão e veem os inimigos caídos puramente como comida: não é raro que Gnolls percam o controle em combate para disputar pedaços da carne e sangue de aventureiros recém-abatidos no chão. No entanto, se o embate virar contra o bando, os Gnolls fogem instintivamente; e caso acuados, imploram por rendição, entregam todo o dinheiro sem resistir, e escapam na primeira quebra de atenção do inimigo.",
+          "faixasEtarias": {
+            "filhote": "0-2",
+            "crianca": "3-7",
+            "adolescente": "8-11",
+            "adulto": "12",
+            "idoso": "30(5)",
+            "anciao": "50(1)"
+          },
+          "nomes": {
+            "lore": "Assim como os Hamelins, os Gnolls falam majoritariamente a língua Zihassás, além do idioma da região onde vivem. É um idioma sem forma escrita, cujo som principal vem da pronúncia extremamente chiada, baseada no som de \"S\", \"Z\", \"F\", \"CH\" e \"X\". Gnolls quase nunca utilizam sobrenomes, recebendo da tribo apenas \"Títulos\" descritivos referentes a algum feito. Para gerar os seus nomes na língua chiada, traduz-se uma palavra para o Árabe e aplicam-se suas letras fonéticas. Masculinos têm de duas a quatro sílabas e sempre terminam em consoante. Femininos têm de duas a quatro sílabas e sempre terminam em vogal (\"A\", \"E\" ou \"I\"). Não utilizam sobrenomes tradicionalmente, adotando apenas os Títulos conquistados em combate (Ex: Alfirani Orelha-Rasca, Mukhif o Rápido).",
+            "masculinos": [
+              "Mukhif",
+              "Xarif",
+              "Chamil",
+              "Zaleel",
+              "Fariq",
+              "Safir"
+            ],
+            "femininos": [
+              "Alfirani",
+              "Xarifa",
+              "Zaleela",
+              "Fariqa",
+              "Chamila"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Hamelin",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/hamelin.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -508,18 +1250,80 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Ladino, Necromante, Patrulheiro e Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (10 anos) · Idoso (30(4) anos) · Ancião (40(1/2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.</li><br><li><strong>Dimorfismo Sexual:</strong> Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Organização:</strong> Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.</li><br><li><strong>Comportamento:</strong> Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.</li><br><li><strong>Aventureiros:</strong> Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Aldabauss, Assaris, Baltosh, Catemoc, Fuzal, Haribus, Mahajuss, Muheiefos<br><b>Femininos:</b> Alfirani, Alharibina, Alraufa, Chunchia, Faquiri, Hissa, Isazi, Jabeni</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Hamelin de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ad900578dbca255\" data-slug=\"hamelin\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-2a) · Adulto (10a) · Idoso (30(4)a) · Ancião (40(1/2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Ladino, Necromante, Patrulheiro e Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "hamelin"
+        "slug": "hamelin",
+        "diarioId": "6ad900578dbca255",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.\n* **Pele e Pelagem:** A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.\n* **Dimorfismo Sexual:** Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.\n* **Ciclo de Vida:** A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.",
+          "cultura": "* **Habitat e Organização:** Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.\n* **Comportamento:** Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.\n* **Aventureiros:** Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.",
+          "faixasEtarias": {
+            "filhote": "0-2",
+            "crianca": "3-5",
+            "adolescente": "6-9",
+            "adulto": "10",
+            "idoso": "30(4)",
+            "anciao": "40(1/2)"
+          },
+          "nomes": {
+            "lore": "Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".",
+            "masculinos": [
+              "Aldabauss",
+              "Assaris",
+              "Baltosh",
+              "Catemoc",
+              "Fuzal",
+              "Haribus",
+              "Mahajuss",
+              "Muheiefos",
+              "Mukhif",
+              "Munsifin",
+              "Ratharyn",
+              "Retch",
+              "Savis",
+              "Sefnus",
+              "Shimoshi",
+              "Treffen",
+              "Zagig",
+              "Zaszafizle",
+              "Zatmec",
+              "Zazempur",
+              "Zotspox"
+            ],
+            "femininos": [
+              "Alfirani",
+              "Alharibina",
+              "Alraufa",
+              "Chunchia",
+              "Faquiri",
+              "Hissa",
+              "Isazi",
+              "Jabeni",
+              "Lezisle",
+              "Nassifa",
+              "Neezza",
+              "Pasha",
+              "Piferva",
+              "Sazila",
+              "Shike",
+              "Shoola",
+              "Siska",
+              "Szaidzisnska",
+              "Tisha",
+              "Tsintsi",
+              "Zusza"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Levent",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/levent.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -542,18 +1346,85 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Dançarino, Feiticeiro (frequentemente Argênteos), Necromante, Oráculo, Sacerdote e Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (16 anos) · Idoso (450(25) anos) · Ancião (— anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides dotados de grandes asas nas costas, com uma envergadura que chega a ser o dobro da altura do indivíduo. São menores e menos corpulentos que os humanos, medindo de 1,5 a 1,6 metros e pesando de 60 a 70 quilos. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem uma tonalidade bronzeada clara. Possuem uma penugem fina que cobre do alto da cabeça até a base das asas, ombros e antebraços. O resto do corpo é recoberto por penas pequenas e macias, com uma plumagem que varia do branco ao castanho escuro (sendo amarelo e castanho-claro os mais comuns).</li><br><li><strong>Olhos:</strong> São grandes e de coloração clara, variando entre azul, verde e âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem penas mais longas e grossas na cabeça, formando grandes penachos. As fêmeas, por sua vez, não possuem esse penacho, exibem traços mais delicados em geral e possuem duas pequenas mamas no peito.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em torno de 10 meses e gêmeos são extremamente raros. Os bebês nascem sem penas, mas desenvolvem uma plumagem branca logo no início, trocando-a pela versão adulta em torno dos cinco anos (período no qual ficam reclusos). Atingem a maioridade aos 16 anos, quando suas asas se desenvolvem para permitir o voo, e podem viver plenamente até os 500 anos de idade. Levents, assim como os Elfos, não sofrem os efeitos comuns de perda de vigor pelo envelhecimento e não entram na categoria Ancião. A partir da fase de Idoso, fazem testes a cada 25 anos; ao falharem repetidas vezes, têm ciência de sua partida iminente e se preparam para morrer placidamente.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Habitam picos montanhosos e suas cidades são construídas em torres altas ou escavadas na rocha. A arquitetura não utiliza escadas; em vez disso, os ambientes possuem grandes balcões e vastos vãos livres e verticais feitos especificamente para o voo. Em Cassiopéia, vivem sobretudo no Arquipélago das Três Irmãs, na Ilha do Lagarto e na cadeia de Cnoc Ard (em Londérien). Politicamente, são regidos por conselhos teocráticos formados por Druidas, Sacerdotes e Magos, com os líderes militares tendo apenas caráter de conselheiros.</li><br><li><strong>Religião e Estilo de Vida:</strong> Notoriamente pacíficos e devotos de Taranis (o Primordial da Liberdade), preferem a diplomacia ao combate. Caçar e abater pássaros é um tabu gigantesco, fazendo com que sua sociedade dependa enormemente da pesca – que praticam nas costas e rios das montanhas – para se sustentar.</li><br><li><strong>Ritos de Passagem e Luto:</strong> Aos 16 anos, os jovens entram num rito de passagem onde se isolam por dois meses com dois tutores para aprenderem pesca, vida sexual e o controle do voo. Em contrapartida, quando ocorre uma fatalidade, o cônjuge do falecido entra num rígido luto isolado de um mês, acompanhado apenas por um guia espiritual para entrar em contato com o desencarnado e buscar um novo rumo na vida.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Levents é o Samyia. O idioma é falado com trinados e arrulhados que se assemelham melodiosamente ao canto dos pássaros canoros, sendo quase impossível para outras raças falarem perfeitamente. Para os nomes da raça, o idioma Indiano atua como o comparativo perfeito, contendo nomes de duas ou três sílabas. Por acreditarem que um indivíduo deve ser medido estritamente pelas próprias capacidades e não pelas origens, os Levent nunca usam sobrenomes. Somente em cerimônias raríssimas eles se identificarão pela sua organização militar ou por seus postos.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Anand, Arkilan, Avanur, Chetan, Darshan, Deepak, Dhaval, Harshal<br><b>Femininos:</b> Ajaia, Ankita, Ashoka, Dineasha, Harisha, Hira, Jaiesha, Kamala</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Levent de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4f5f3a73e5194065\" data-slug=\"levent\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (16a) · Idoso (450(25)a) · Ancião (—a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Dançarino, Feiticeiro (frequentemente Argênteos), Necromante, Oráculo, Sacerdote e Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "levent"
+        "slug": "levent",
+        "diarioId": "4f5f3a73e5194065",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São humanoides dotados de grandes asas nas costas, com uma envergadura que chega a ser o dobro da altura do indivíduo. São menores e menos corpulentos que os humanos, medindo de 1,5 a 1,6 metros e pesando de 60 a 70 quilos. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas.\n* **Pele e Pelagem:** A pele tem uma tonalidade bronzeada clara. Possuem uma penugem fina que cobre do alto da cabeça até a base das asas, ombros e antebraços. O resto do corpo é recoberto por penas pequenas e macias, com uma plumagem que varia do branco ao castanho escuro (sendo amarelo e castanho-claro os mais comuns).\n* **Olhos:** São grandes e de coloração clara, variando entre azul, verde e âmbar.\n* **Dimorfismo Sexual:** Os machos desenvolvem penas mais longas e grossas na cabeça, formando grandes penachos. As fêmeas, por sua vez, não possuem esse penacho, exibem traços mais delicados em geral e possuem duas pequenas mamas no peito.\n* **Ciclo de Vida:** A gestação dura em torno de 10 meses e gêmeos são extremamente raros. Os bebês nascem sem penas, mas desenvolvem uma plumagem branca logo no início, trocando-a pela versão adulta em torno dos cinco anos (período no qual ficam reclusos). Atingem a maioridade aos 16 anos, quando suas asas se desenvolvem para permitir o voo, e podem viver plenamente até os 500 anos de idade. Levents, assim como os Elfos, não sofrem os efeitos comuns de perda de vigor pelo envelhecimento e não entram na categoria Ancião. A partir da fase de Idoso, fazem testes a cada 25 anos; ao falharem repetidas vezes, têm ciência de sua partida iminente e se preparam para morrer placidamente.",
+          "cultura": "* **Habitat e Estrutura Política:** Habitam picos montanhosos e suas cidades são construídas em torres altas ou escavadas na rocha. A arquitetura não utiliza escadas; em vez disso, os ambientes possuem grandes balcões e vastos vãos livres e verticais feitos especificamente para o voo. Em Cassiopéia, vivem sobretudo no Arquipélago das Três Irmãs, na Ilha do Lagarto e na cadeia de Cnoc Ard (em Londérien). Politicamente, são regidos por conselhos teocráticos formados por Druidas, Sacerdotes e Magos, com os líderes militares tendo apenas caráter de conselheiros.\n* **Religião e Estilo de Vida:** Notoriamente pacíficos e devotos de Taranis (o Primordial da Liberdade), preferem a diplomacia ao combate. Caçar e abater pássaros é um tabu gigantesco, fazendo com que sua sociedade dependa enormemente da pesca – que praticam nas costas e rios das montanhas – para se sustentar.\n* **Ritos de Passagem e Luto:** Aos 16 anos, os jovens entram num rito de passagem onde se isolam por dois meses com dois tutores para aprenderem pesca, vida sexual e o controle do voo. Em contrapartida, quando ocorre uma fatalidade, o cônjuge do falecido entra num rígido luto isolado de um mês, acompanhado apenas por um guia espiritual para entrar em contato com o desencarnado e buscar um novo rumo na vida.",
+          "faixasEtarias": {
+            "filhote": "0-3",
+            "crianca": "4-11",
+            "adolescente": "12-15",
+            "adulto": "16",
+            "idoso": "450(25)",
+            "anciao": "—"
+          },
+          "nomes": {
+            "lore": "A língua nativa dos Levents é o Samyia. O idioma é falado com trinados e arrulhados que se assemelham melodiosamente ao canto dos pássaros canoros, sendo quase impossível para outras raças falarem perfeitamente. Para os nomes da raça, o idioma Indiano atua como o comparativo perfeito, contendo nomes de duas ou três sílabas. Por acreditarem que um indivíduo deve ser medido estritamente pelas próprias capacidades e não pelas origens, os Levent nunca usam sobrenomes. Somente em cerimônias raríssimas eles se identificarão pela sua organização militar ou por seus postos.",
+            "masculinos": [
+              "Anand",
+              "Arkilan",
+              "Avanur",
+              "Chetan",
+              "Darshan",
+              "Deepak",
+              "Dhaval",
+              "Harshal",
+              "Kamal",
+              "Kiran",
+              "Mayur",
+              "Mitul",
+              "Morphias",
+              "Prakash",
+              "Pranav",
+              "Pravin",
+              "Rahul",
+              "Rajendran",
+              "Rajesh",
+              "Ravil",
+              "Sandip",
+              "Shekar",
+              "Sonal",
+              "Suraj"
+            ],
+            "femininos": [
+              "Ajaia",
+              "Ankita",
+              "Ashoka",
+              "Dineasha",
+              "Harisha",
+              "Hira",
+              "Jaiesha",
+              "Kamala",
+              "Kumara",
+              "Kunala",
+              "Mahendra",
+              "Mahesha",
+              "Mia",
+              "Narensra",
+              "Nishanta",
+              "Radha",
+              "Rajia",
+              "Rohita",
+              "Sanjaia",
+              "Satia",
+              "Shaiera",
+              "Vasanta",
+              "Yasha"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Mahok",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/mahok.png",
     "system": {
       "atributos": {
         "forca": 5,
@@ -576,18 +1447,89 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Druida, Invocador, Rúnico, Trovador e Xamã (Nota: Quando atuam como combatentes, a maioria opta por armas contundentes pesadas e produzem itens mágicos para uso cotidiano, sendo as armas mágicas Mahoks extremamente raras)",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-4 anos) · Adulto (20 anos) · Idoso (60(8) anos) · Ancião (80(1) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de constituição sólida, medindo cerca de 2,5 metros de altura e pesando por volta de 300 quilos na idade adulta. Esse peso pode chegar ao dobro com o passar do tempo. Sua característica mais notável é a pele formada por grossas placas de rocha. Possuem quatro dedos nas mãos e nos pés (onde os dedos são unidos sob um bloco único de pedra). Em raros casos, podem nascer com um par extra de braços, que, com treinamento, conseguem usar eficientemente em combate.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem cor e textura granítica, embora possa apresentar variações semelhantes a mármore ou alabastro. Os bebês nascem com uma fina camada rochosa que racha e cai nos primeiros dias, dando lugar a uma nova. A pele atinge sua configuração ideal na fase adulta e continua engrossando progressivamente durante o resto da vida.</li><br><li><strong>Sentidos Precários:</strong> Devido às formações rochosas, a pele não transmite o tato. Eles também não possuem pavilhões auditivos externos, e o crescimento de rochas ao redor das narinas e olhos limita consideravelmente o olfato e a visão.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas da espécie são virtualmente idênticos, não havendo qualquer diferença física notável que outras raças consigam distinguir.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 10 meses (gerando apenas um bebê). Crescem de forma acelerada, atingindo o tamanho máximo já aos 10 anos e sendo adultos aos 20. Aos 60 anos, o peso excessivo da pele causa severas dificuldades de locomoção. Ao atingir os 80 anos, perdem completamente a mobilidade e se fundem em rocha sólida, tornando-se monumentos conhecidos como \"Menires\".</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Organização:</strong> Vivem em cidades escavadas em montanhas ou galerias cavernosas. Muitas de suas comunidades são nômades que viajam por cadeias de montanhas, fixando-se por curtos períodos. Não possuem um reino próprio, mas são vistos como cidadãos plenos em Parband, Dagothar e Tebryn. Escolhem minuciosamente o local onde repousarão ao fim da vida, formando vastos campos monolíticos chamados cromlechs nos picos de Cassiopéia.</li><br><li><strong>Sustento e Dieta:</strong> Sua dieta é altamente exótica, pois necessitam de muito silício, carbono e minerais. Alimentam-se de biscoitos cozidos de argila e cal, vegetais crus, insetos (considerados iguarias) e assam seus alimentos normais até que virem puramente carvão.</li><br><li><strong>Temperamento:</strong> São extremamente gregários e sociáveis, criando grupos familiares fortes e conversando até com trogloditas e ogros (que outras raças julgam irracionais). Como são estoicos, indiferentes a intempéries ou falta de conforto, as raças mais requintadas muitas vezes os julgam erroneamente como incivilizados ou pouco sofisticados.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Mahoks é o Triet, que compartilha a mesma estrutura de escrita do Futhark (runas anãs). O idioma comparativo real para essa língua é o Esloveno. Os nomes Mahoks possuem de duas a quatro sílabas e são criados a partir do nome de um mineral com a última letra alterada. Para o sobrenome, um Mahok sempre utiliza o nome de um acidente geográfico muito específico do local onde ele nasceu.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Ambar, Argilas, Azuritor, Berilor, Carvor, Citrinos, Cromas, Culon<br><b>Femininos:</b> Alabastra, Alunitil, Ametista, Ankerita, Areil, Azurita, Bronzil, Carva</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Mahok de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.04ee764d26c2b72b\" data-slug=\"mahok\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-4a) · Adulto (20a) · Idoso (60(8)a) · Ancião (80(1)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Druida, Invocador, Rúnico, Trovador e Xamã (Nota: Quando atuam como combatentes, a maioria opta por armas contundentes pesadas e produzem itens mágicos para uso cotidiano, sendo as armas mágicas Mahoks extremamente raras)</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "mahok"
+        "slug": "mahok",
+        "diarioId": "04ee764d26c2b72b",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São humanoides de constituição sólida, medindo cerca de 2,5 metros de altura e pesando por volta de 300 quilos na idade adulta. Esse peso pode chegar ao dobro com o passar do tempo. Sua característica mais notável é a pele formada por grossas placas de rocha. Possuem quatro dedos nas mãos e nos pés (onde os dedos são unidos sob um bloco único de pedra). Em raros casos, podem nascer com um par extra de braços, que, com treinamento, conseguem usar eficientemente em combate.\n* **Pele e Pelagem:** A pele tem cor e textura granítica, embora possa apresentar variações semelhantes a mármore ou alabastro. Os bebês nascem com uma fina camada rochosa que racha e cai nos primeiros dias, dando lugar a uma nova. A pele atinge sua configuração ideal na fase adulta e continua engrossando progressivamente durante o resto da vida.\n* **Sentidos Precários:** Devido às formações rochosas, a pele não transmite o tato. Eles também não possuem pavilhões auditivos externos, e o crescimento de rochas ao redor das narinas e olhos limita consideravelmente o olfato e a visão.\n* **Dimorfismo Sexual:** Machos e fêmeas da espécie são virtualmente idênticos, não havendo qualquer diferença física notável que outras raças consigam distinguir.\n* **Ciclo de Vida:** A gestação dura cerca de 10 meses (gerando apenas um bebê). Crescem de forma acelerada, atingindo o tamanho máximo já aos 10 anos e sendo adultos aos 20. Aos 60 anos, o peso excessivo da pele causa severas dificuldades de locomoção. Ao atingir os 80 anos, perdem completamente a mobilidade e se fundem em rocha sólida, tornando-se monumentos conhecidos como \"Menires\".",
+          "cultura": "* **Habitat e Organização:** Vivem em cidades escavadas em montanhas ou galerias cavernosas. Muitas de suas comunidades são nômades que viajam por cadeias de montanhas, fixando-se por curtos períodos. Não possuem um reino próprio, mas são vistos como cidadãos plenos em Parband, Dagothar e Tebryn. Escolhem minuciosamente o local onde repousarão ao fim da vida, formando vastos campos monolíticos chamados cromlechs nos picos de Cassiopéia.\n* **Sustento e Dieta:** Sua dieta é altamente exótica, pois necessitam de muito silício, carbono e minerais. Alimentam-se de biscoitos cozidos de argila e cal, vegetais crus, insetos (considerados iguarias) e assam seus alimentos normais até que virem puramente carvão.\n* **Temperamento:** São extremamente gregários e sociáveis, criando grupos familiares fortes e conversando até com trogloditas e ogros (que outras raças julgam irracionais). Como são estoicos, indiferentes a intempéries ou falta de conforto, as raças mais requintadas muitas vezes os julgam erroneamente como incivilizados ou pouco sofisticados.",
+          "faixasEtarias": {
+            "filhote": "0-4",
+            "crianca": "5-15",
+            "adolescente": "16-19",
+            "adulto": "20",
+            "idoso": "60(8)",
+            "anciao": "80(1)"
+          },
+          "nomes": {
+            "lore": "A língua nativa dos Mahoks é o Triet, que compartilha a mesma estrutura de escrita do Futhark (runas anãs). O idioma comparativo real para essa língua é o Esloveno. Os nomes Mahoks possuem de duas a quatro sílabas e são criados a partir do nome de um mineral com a última letra alterada. Para o sobrenome, um Mahok sempre utiliza o nome de um acidente geográfico muito específico do local onde ele nasceu.",
+            "masculinos": [
+              "Ambar",
+              "Argilas",
+              "Azuritor",
+              "Berilor",
+              "Carvor",
+              "Citrinos",
+              "Cromas",
+              "Culon",
+              "Geldoron",
+              "Giendros",
+              "Iridior",
+              "Jaspos",
+              "Koumor",
+              "Mineran",
+              "Modron",
+              "Nefelinor",
+              "Obsidianos",
+              "Ombar",
+              "Opalon",
+              "Ouros",
+              "Piritor",
+              "Quartzon",
+              "Roblor",
+              "Xiselmor",
+              "Xistor"
+            ],
+            "femininos": [
+              "Alabastra",
+              "Alunitil",
+              "Ametista",
+              "Ankerita",
+              "Areil",
+              "Azurita",
+              "Bronzil",
+              "Carva",
+              "Copal",
+              "Coral",
+              "Cristal",
+              "Diamanta",
+              "Esmeralda",
+              "Galena",
+              "Gema",
+              "Gipsita",
+              "Goliata",
+              "Jadel",
+              "Lazulil",
+              "Mercuria",
+              "Mical",
+              "Prata",
+              "Rubil",
+              "Terrekal",
+              "Titanita",
+              "Zinca"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Metadílio",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/metadilio.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -610,18 +1552,71 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Bardo, Druida, Feiticeiro, Ilusionista, Ladino e Senescal (Nota: Sacerdotes são extremamente raros devido à aversão natural da raça ao estudo da teologia e filosofia)",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-19 anos) · Adulto (20 anos) · Idoso (70 anos) · Ancião (100 anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de baixa estatura, medindo entre 1 e 1,2 metro, com crânios levemente alongados, maxilares pequenos e orelhas levemente pontudas. A constituição física é mediana, mas o peso varia de 30 a 70 quilos devido à forte tendência da raça ao sobrepeso. Seus corpos são classificados biologicamente como rotundos e macios, o que lhes confere uma capacidade inata de rolar e quicar ao sofrerem quedas, além de conseguirem escorregar com extrema facilidade de amarras e agarrões.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, podendo ficar intensamente bronzeada devido à exposição ao sol. O corpo é recoberto por uma pelagem fina e esparsa em tons de castanho (que fica grisalha ou branca na velhice), concentrando-se fortemente no topo e nas laterais da cabeça e na parte superior dos pés.</li><br><li><strong>Dimorfismo Sexual:</strong> Não há diferença corporal na pelagem ou constituição entre os gêneros. No entanto, culturalmente, as fêmeas mantêm cabelos longos e aparam os pelos faciais, enquanto os machos preferem cabelos curtos e ostentam costeletas abundantes. As fêmeas também desenvolvem mamas de tamanho médio a grande.</li><br><li><strong>Ciclo de Vida:</strong> Chegam à maioridade aos 20 anos. Os primeiros sinais da velhice — como perda de tônus muscular, despigmentação dos pelos e aumento da obesidade — começam a aparecer a partir dos 70 anos. Devido a um metabolismo bastante adaptado à fartura, sempre que descansam após uma refeição farta (condição Barriga Cheia), eles conseguem recuperar o dobro de Pontos de Vida e Mana. A gestação dura em média 10 meses e a vida útil chega normalmente aos 100 anos, com indivíduos saudáveis conseguindo alcançar os 130 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> O grande reino de Bryne é povoado em sua quase totalidade por Metadílios. Eles vivem em moradias muito espaçosas alocadas em grandes terrenos usados para plantações e criação animal, e frequentemente abrigam seus próprios comércios e oficinas dentro de casa. Uma vez que assumir um cargo administrativo (como trabalhar num salão de burgo) exige que o Metadílio se mude para o seu local de trabalho e as funções geralmente se tornam vitalícias, as áreas urbanas da raça mudam muito pouco estruturalmente com o passar do tempo.</li><br><li><strong>Temperamento e Negócios:</strong> Preferem levar uma vida pacata e tranquila, sendo imensamente cautelosos no comércio e evitando negócios que envolvam grandes riscos. Naturalmente sociáveis, amam a ordem, a civilidade e o conforto, o que os torna excelentes Senescais administrando pequenas fazendas ou oficinas. Também são domadores por excelência (usando suas feras como força de trabalho e montaria adaptada ao seu tamanho), mantendo companhias montadas em pôneis, babirusas domadas e, particularmente, carneiros gigantes chamados Aríetes.</li><br><li><strong>Arte e Religião:</strong> São um povo altamente inventivo, dedicando-se com paixão a atividades criativas como escultura, pintura, apresentações de ilusionismo e música. Seus Bardos são formados em Liceus e notoriamente reconhecidos por sua virtuosidade e métrica precisa nas canções. Contudo, a vasta maioria não possui nenhuma inclinação religiosa, considerando dogmas teológicos e debates filosóficos como assuntos enfadonhos e desprovidos de propósitos práticos.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>Assim como os humanos, os Metadílios falam o Burguês Tebryniano. Seus nomes possuem de duas a quatro sílabas e são criados a partir de adaptações de palavras do nosso mundo real. O método para se criar nomes de Metadílios é trocar, suprimir ou adicionar uma ou duas letras de um nome comum brasileiro. Uma tradição muito marcante do povo é que as fêmeas Metadílias quase sempre recebem nomes de flores. Diferente de outras raças silvestres ou bestiais, eles preservam rigidamente seus sobrenomes familiares, que costumam refletir o ambiente geográfico, a natureza e os ofícios rurais de sua cultura.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Alford, Arnulfo, Brando, Bredo, Cladro, Jorand, Lodrago, Nil<br><b>Femininos:</b> Rosa, Violeta, Tilia, Albina, Cindal, Galena, Isobela, Matilda<br><b>Sobrenomes:</b> Alpestre, Boteiro, Campina, Floreiro, Jardim, Lenheiro</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Metadílio de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.d4b6d8e6fdfe32b2\" data-slug=\"metadilio\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-19a) · Adulto (20a) · Idoso (70a) · Ancião (100a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Bardo, Druida, Feiticeiro, Ilusionista, Ladino e Senescal (Nota: Sacerdotes são extremamente raros devido à aversão natural da raça ao estudo da teologia e filosofia)</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "metadilio"
+        "slug": "metadilio",
+        "diarioId": "d4b6d8e6fdfe32b2",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São humanoides de baixa estatura, medindo entre 1 e 1,2 metro, com crânios levemente alongados, maxilares pequenos e orelhas levemente pontudas. A constituição física é mediana, mas o peso varia de 30 a 70 quilos devido à forte tendência da raça ao sobrepeso. Seus corpos são classificados biologicamente como rotundos e macios, o que lhes confere uma capacidade inata de rolar e quicar ao sofrerem quedas, além de conseguirem escorregar com extrema facilidade de amarras e agarrões.\n* **Pele e Pelagem:** A pele é rosada, podendo ficar intensamente bronzeada devido à exposição ao sol. O corpo é recoberto por uma pelagem fina e esparsa em tons de castanho (que fica grisalha ou branca na velhice), concentrando-se fortemente no topo e nas laterais da cabeça e na parte superior dos pés.\n* **Dimorfismo Sexual:** Não há diferença corporal na pelagem ou constituição entre os gêneros. No entanto, culturalmente, as fêmeas mantêm cabelos longos e aparam os pelos faciais, enquanto os machos preferem cabelos curtos e ostentam costeletas abundantes. As fêmeas também desenvolvem mamas de tamanho médio a grande.\n* **Ciclo de Vida:** Chegam à maioridade aos 20 anos. Os primeiros sinais da velhice — como perda de tônus muscular, despigmentação dos pelos e aumento da obesidade — começam a aparecer a partir dos 70 anos. Devido a um metabolismo bastante adaptado à fartura, sempre que descansam após uma refeição farta (condição Barriga Cheia), eles conseguem recuperar o dobro de Pontos de Vida e Mana. A gestação dura em média 10 meses e a vida útil chega normalmente aos 100 anos, com indivíduos saudáveis conseguindo alcançar os 130 anos.",
+          "cultura": "* **Habitat e Estrutura Política:** O grande reino de Bryne é povoado em sua quase totalidade por Metadílios. Eles vivem em moradias muito espaçosas alocadas em grandes terrenos usados para plantações e criação animal, e frequentemente abrigam seus próprios comércios e oficinas dentro de casa. Uma vez que assumir um cargo administrativo (como trabalhar num salão de burgo) exige que o Metadílio se mude para o seu local de trabalho e as funções geralmente se tornam vitalícias, as áreas urbanas da raça mudam muito pouco estruturalmente com o passar do tempo.\n* **Temperamento e Negócios:** Preferem levar uma vida pacata e tranquila, sendo imensamente cautelosos no comércio e evitando negócios que envolvam grandes riscos. Naturalmente sociáveis, amam a ordem, a civilidade e o conforto, o que os torna excelentes Senescais administrando pequenas fazendas ou oficinas. Também são domadores por excelência (usando suas feras como força de trabalho e montaria adaptada ao seu tamanho), mantendo companhias montadas em pôneis, babirusas domadas e, particularmente, carneiros gigantes chamados Aríetes.\n* **Arte e Religião:** São um povo altamente inventivo, dedicando-se com paixão a atividades criativas como escultura, pintura, apresentações de ilusionismo e música. Seus Bardos são formados em Liceus e notoriamente reconhecidos por sua virtuosidade e métrica precisa nas canções. Contudo, a vasta maioria não possui nenhuma inclinação religiosa, considerando dogmas teológicos e debates filosóficos como assuntos enfadonhos e desprovidos de propósitos práticos.",
+          "faixasEtarias": {
+            "filhote": "0-19",
+            "crianca": "0-19",
+            "adolescente": "0-19",
+            "adulto": "20",
+            "idoso": "70",
+            "anciao": "100"
+          },
+          "nomes": {
+            "lore": "Assim como os humanos, os Metadílios falam o Burguês Tebryniano. Seus nomes possuem de duas a quatro sílabas e são criados a partir de adaptações de palavras do nosso mundo real. O método para se criar nomes de Metadílios é trocar, suprimir ou adicionar uma ou duas letras de um nome comum brasileiro. Uma tradição muito marcante do povo é que as fêmeas Metadílias quase sempre recebem nomes de flores. Diferente de outras raças silvestres ou bestiais, eles preservam rigidamente seus sobrenomes familiares, que costumam refletir o ambiente geográfico, a natureza e os ofícios rurais de sua cultura.",
+            "masculinos": [
+              "Alford",
+              "Arnulfo",
+              "Brando",
+              "Bredo",
+              "Cladro",
+              "Jorand",
+              "Lodrago",
+              "Nil",
+              "Torbeno",
+              "Viliano"
+            ],
+            "femininos": [
+              "Rosa",
+              "Violeta",
+              "Tilia",
+              "Albina",
+              "Cindal",
+              "Galena",
+              "Isobela",
+              "Matilda"
+            ],
+            "sobrenomes": [
+              "Alpestre",
+              "Boteiro",
+              "Campina",
+              "Floreiro",
+              "Jardim",
+              "Lenheiro",
+              "Lenhoso",
+              "Montanhesco",
+              "Neves",
+              "Ovelheiro",
+              "Riberinho",
+              "Rústico",
+              "Torreiro"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Naga (Macho)",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/naga.png",
     "system": {
       "atributos": {
         "forca": 3,
@@ -644,18 +1639,64 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Espadachim, Rúnico e Paladino",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-9 anos) · Adulto (10 anos) · Idoso (50 anos) · Ancião (51+ anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com pesadas características ofídicas. A cabeça possui um focinho longo e mandíbulas que, embora não sejam separáveis como a das cobras comuns, possuem uma abertura enorme de 90º. Apresentam torso e braços humanoides, mas abaixo da caixa torácica a estrutura é formada apenas por coluna vertebral e costelas, originando uma grossa cauda muscular que pode ter de 4 a 5 metros de comprimento. Uma Naga pesa em média de 200 a 250 quilos. Costumam ficar com 2 metros de altura em posição ereta, mas podem inclinar o torso para perto do chão (1 metro de altura) para se movimentarem mais rapidamente, ou se apoiarem na cauda para erguerem-se a até 3 metros de altura num combate. Devido à sua fisionomia, elas não conseguem pular nem escalar escadas de mão.</li><br><li><strong>Pele e Pelagem:</strong> Totalmente desprovidas de pelos, possuem o corpo revestido por escamas de tons verdes (variando do quase negro ao verde-limão). Curiosamente, suas pálpebras são compostas por escamas transparentes que ficam o tempo todo fechadas.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são consideravelmente maiores e mais robustos que as fêmeas. Eles não possuem a larga estrutura muscular (semelhante ao capuz de uma naja) em volta do pescoço e da cabeça que caracteriza as fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A reprodução das Naga possui uma gestação curtíssima de cerca de 5 meses, e os ovos não são botados, eclodindo diretamente de dentro do corpo da fêmea. As crias nascem plenamente formadas (mas com tamanho minúsculo), alcançando a maturidade num desenvolvimento veloz de apenas 10 anos. Diferente das fêmeas, a expectativa de vida normal dos machos é de 50 anos, após os quais eles envelhecem vertiginosamente e acabam falecendo em poucas décadas.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas do temível continente de Ofidien, as Naga são fanáticas e profundamente xenófobas. Elas menosprezam qualquer outra forma de vida, tratando as outras raças apenas como matéria-prima de laboratório, recursos consumíveis ou escravos (\"gado\"). Assentam suas cidades dentro de montanhas rochosas, valorizando acima de tudo esquemas de segurança e abundância de rotas de fuga. A sua sociedade não valoriza a unidade familiar tradicional (as crianças são responsabilidade da comunidade, não dos pais); as suas maiores ligações e amizades formam-se fortemente entre indivíduos que têm a mesma idade.</li><br><li><strong>O Papel Masculino:</strong> Como o seu império é de ordem matriarcal e comandado por feiticeiras fiéis ao Primordial Glycon, aos machos são reservadas as funções de defesa da sociedade e da estrutura do império. Quase todos eles são treinados nas artes bélicas como soldados. Adicionalmente à proteção, os machos encarregam-se de supervisionar o trabalho braçal dos escravos, comandar a engenharia cívica e também cuidar das fazendas da raça (onde cultivam fungos e criam pequenas aves). Vale ressaltar que a prática do artesanato, da alquimia e a medicina são altamente valorizadas e praticadas por ambos os gêneros.</li><br><li><strong>Necromancia:</strong> Diferente de outras culturas, o uso de magia necromântica para reviver cadáveres de outras criaturas não é um tabu, uma vez que elas separam a visão do corpo e do espírito de modo prático. Com relação à própria raça, enterrar os seus mortos de maneira intacta é a maior das desonras; para os Naga, devorar o cérebro do ente querido falecido é a forma padrão de se demonstrar profunda honra aos seus feitos.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua das Naga é o Asá-Avája, um dialeto exótico preenchido com sibilos e estalos corporais, o que o torna uma língua absurdamente difícil e quase impossível de ser pronunciada por outras raças. Para definir nomes do povo Naga (que habitualmente possuem 3 sílabas ou mais), usam-se deuses históricos do hinduísmo e nomes da cultura egípcia. Uma característica única dos nomes masculinos Naga é a utilização de poderosos sufixos separados por um hífen (-DREK significando Temível, -SUR para Grandioso, e -VITRA para Iluminado). E, diferente dos seus construtos (os Draganos), as Naga nunca em nenhuma hipótese usam sobrenomes, por acreditarem que um indivíduo tem que provar seu próprio mérito.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Ahamthrul, Ahi-Vitra, Akuloth-Sur, Asdaha-Drek, Brignor, Bristerne, Dahag-Drek, Dragua-Vitra</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Naga (Macho) de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a568c1b37c47d255\" data-slug=\"naga-m\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-9a) · Adulto (10a) · Idoso (50a) · Ancião (51+a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Espadachim, Rúnico e Paladino</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "naga-m"
+        "slug": "naga-m",
+        "diarioId": "a568c1b37c47d255",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São esfinges com pesadas características ofídicas. A cabeça possui um focinho longo e mandíbulas que, embora não sejam separáveis como a das cobras comuns, possuem uma abertura enorme de 90º. Apresentam torso e braços humanoides, mas abaixo da caixa torácica a estrutura é formada apenas por coluna vertebral e costelas, originando uma grossa cauda muscular que pode ter de 4 a 5 metros de comprimento. Uma Naga pesa em média de 200 a 250 quilos. Costumam ficar com 2 metros de altura em posição ereta, mas podem inclinar o torso para perto do chão (1 metro de altura) para se movimentarem mais rapidamente, ou se apoiarem na cauda para erguerem-se a até 3 metros de altura num combate. Devido à sua fisionomia, elas não conseguem pular nem escalar escadas de mão.\n* **Pele e Pelagem:** Totalmente desprovidas de pelos, possuem o corpo revestido por escamas de tons verdes (variando do quase negro ao verde-limão). Curiosamente, suas pálpebras são compostas por escamas transparentes que ficam o tempo todo fechadas.\n* **Dimorfismo Sexual:** Os machos são consideravelmente maiores e mais robustos que as fêmeas. Eles não possuem a larga estrutura muscular (semelhante ao capuz de uma naja) em volta do pescoço e da cabeça que caracteriza as fêmeas.\n* **Ciclo de Vida:** A reprodução das Naga possui uma gestação curtíssima de cerca de 5 meses, e os ovos não são botados, eclodindo diretamente de dentro do corpo da fêmea. As crias nascem plenamente formadas (mas com tamanho minúsculo), alcançando a maturidade num desenvolvimento veloz de apenas 10 anos. Diferente das fêmeas, a expectativa de vida normal dos machos é de 50 anos, após os quais eles envelhecem vertiginosamente e acabam falecendo em poucas décadas.",
+          "cultura": "* **Habitat e Estrutura Política:** Nativas do temível continente de Ofidien, as Naga são fanáticas e profundamente xenófobas. Elas menosprezam qualquer outra forma de vida, tratando as outras raças apenas como matéria-prima de laboratório, recursos consumíveis ou escravos (\"gado\"). Assentam suas cidades dentro de montanhas rochosas, valorizando acima de tudo esquemas de segurança e abundância de rotas de fuga. A sua sociedade não valoriza a unidade familiar tradicional (as crianças são responsabilidade da comunidade, não dos pais); as suas maiores ligações e amizades formam-se fortemente entre indivíduos que têm a mesma idade.\n* **O Papel Masculino:** Como o seu império é de ordem matriarcal e comandado por feiticeiras fiéis ao Primordial Glycon, aos machos são reservadas as funções de defesa da sociedade e da estrutura do império. Quase todos eles são treinados nas artes bélicas como soldados. Adicionalmente à proteção, os machos encarregam-se de supervisionar o trabalho braçal dos escravos, comandar a engenharia cívica e também cuidar das fazendas da raça (onde cultivam fungos e criam pequenas aves). Vale ressaltar que a prática do artesanato, da alquimia e a medicina são altamente valorizadas e praticadas por ambos os gêneros.\n* **Necromancia:** Diferente de outras culturas, o uso de magia necromântica para reviver cadáveres de outras criaturas não é um tabu, uma vez que elas separam a visão do corpo e do espírito de modo prático. Com relação à própria raça, enterrar os seus mortos de maneira intacta é a maior das desonras; para os Naga, devorar o cérebro do ente querido falecido é a forma padrão de se demonstrar profunda honra aos seus feitos.",
+          "faixasEtarias": {
+            "filhote": "0-9",
+            "adulto": "10",
+            "idoso": "50",
+            "anciao": "51+"
+          },
+          "nomes": {
+            "lore": "A língua das Naga é o Asá-Avája, um dialeto exótico preenchido com sibilos e estalos corporais, o que o torna uma língua absurdamente difícil e quase impossível de ser pronunciada por outras raças. Para definir nomes do povo Naga (que habitualmente possuem 3 sílabas ou mais), usam-se deuses históricos do hinduísmo e nomes da cultura egípcia. Uma característica única dos nomes masculinos Naga é a utilização de poderosos sufixos separados por um hífen (-DREK significando Temível, -SUR para Grandioso, e -VITRA para Iluminado). E, diferente dos seus construtos (os Draganos), as Naga nunca em nenhuma hipótese usam sobrenomes, por acreditarem que um indivíduo tem que provar seu próprio mérito.",
+            "masculinos": [
+              "Ahamthrul",
+              "Ahi-Vitra",
+              "Akuloth-Sur",
+              "Asdaha-Drek",
+              "Brignor",
+              "Bristerne",
+              "Dahag-Drek",
+              "Dragua-Vitra",
+              "Flamerax",
+              "Fzalleobliviax",
+              "Hatshersup",
+              "Inferniscargilex",
+              "Kolkhikus-Sur",
+              "Komerex",
+              "Kulshedra-Drek",
+              "Lagarfliotsormurinn",
+              "Meisterstur",
+              "Nidhog-Sur",
+              "Phorkys-Vitra",
+              "Rothenkolkis",
+              "Sarakus",
+              "Sarcopis-Sur",
+              "Sarkany-Drek",
+              "Sarmyn-Sur",
+              "Scathel",
+              "Shivnarvex",
+              "Smeygorinish",
+              "Thevetat-Sur",
+              "Typhaon",
+              "Zirnitrarex"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Naga (Fêmea)",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/naga.png",
     "system": {
       "atributos": {
         "forca": 2,
@@ -678,18 +1719,60 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Feiticeiro, Necromante e Rúnico",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-9 anos) · Adulto (10 anos) · Idoso (70 anos) · Ancião (71+ anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges reptilianas que, abaixo do tórax, não possuem pernas, sustentando-se numa grossa e poderosa cauda de 4 a 5 metros composta por coluna vertebral e costelas. As fêmeas são visivelmente menores e mais delgadas que os machos (que pesam em média entre 200 e 250 quilos). A cabeça é ofídica, possuindo focinho longo e mandíbulas que, embora não se separem, possuem abertura de 90º. Quando alertas, ficam com 2 metros de altura; correndo inclinadas, baixam para 1 metro; e em combate, podem se apoiar na cauda para alcançar 3 metros de altura. A sua fisiologia impede completamente que elas realizem saltos ou usem escadas.</li><br><li><strong>Pele e Pelagem:</strong> O corpo é revestido inteiramente por escamas que variam do quase negro ao verde-limão. O padrão das fêmeas é notório por apresentar padrões muito mais amplos de cores do que os machos.</li><br><li><strong>Olhos:</strong> Suas pálpebras são formadas por uma escama especial e transparente, que permanece o tempo todo fechada para proteger o olho.</li><br><li><strong>Dimorfismo Sexual:</strong> É extremamente marcante na face; além de serem mais delicadas, as fêmeas ostentam ao redor do pescoço e cabeça uma estrutura muscular larga, semelhante a um capuz (como as najas), que exibe fortes manchas e padrões coloridos na parte interna.</li><br><li><strong>Ciclo de Vida:</strong> Possuem uma gestação curtíssima de 5 meses. Elas produzem de três a quatro ovos, mas não os botam; mantêm-os dentro de seus corpos até a eclosão. Os bebês nascem minúsculos (com um centésimo do tamanho normal), mas totalmente formados e desenvolvem-se de forma veloz até a idade adulta, aos 10 anos. As fêmeas vivem consideravelmente mais que os machos, podendo chegar aos 70 anos com facilidade; no entanto, após essa idade, entram em um processo de envelhecimento acentuadamente rápido e raramente vivem por mais 20 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas de Ofidien, as Naga criam cidades nas encostas ou escavadas na rocha das montanhas, valorizando estruturas com defesa extrema e muitas rotas de fuga. Seu império é rigidamente matriarcal e \"arcanocrático\", moldado pela xenofobia e lealdade fanática à própria raça, a qual elas consideram superior a todas as outras.</li><br><li><strong>Papel Feminino (Magia e Teocracia):</strong> Toda a sociedade orbita o Primordial Glycon, e todas as fêmeas da espécie são consideradas suas consortes. Elas detêm o monopólio místico: apenas fêmeas podem ser Conjuradoras, e atuar como reprodutoras, artistas, boticárias e professoras é privilégio delas. Além disso, raras são as fêmeas que não possuem conhecimento arcano rudimentar. As mais formidáveis entram para o culto de feiticeiras Nachash, que comandam as alas militares, sacerdotais e sociais do império. Atividades braçais e agricultura pesada são consideradas tarefas degradantes e destinadas apenas aos escravos e, em parte, aos machos.</li><br><li><strong>Sociedade e Necromancia:</strong> A raça não possui o conceito de unidade familiar; todas as crianças são cuidadas de forma geral pela comunidade, e a lealdade extrema do povo baseia-se em amizades formadas com companheiras da mesma idade. A necromancia é amplamente aceita, não havendo pudor em transformar corpos alheios em construtos ou laboratórios. O sepultamento de uma Naga intacta é tido como uma enorme desonra, sendo a tradição consumir o cérebro da falecida para honrar seus feitos.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa da raça é o Asá-Avája, composta por sibilos, estalos e expressões corporais virtualmente impossíveis de serem reproduzidas por outras espécies sem magia. Os nomes Naga possuem pelo menos três sílabas e são inspirados na mitologia egípcia e hindu. Ao contrário dos machos (que usam hífen), as fêmeas adicionam radicais de reverência aos seus nomes separados por um apóstrofo. Os radicais femininos são 'AKIS (superiora), 'AXAR (guerreira) e 'KAR ou 'KIR (ambos significando abençoada). Naga não usam nenhum tipo de sobrenome, crendo que usar a influência de famílias limitaria o mérito do indivíduo.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Femininos:</b> Anphisbaenea, Azhi’Dahaka, Brakaelurydea, Draig’Goch, Erenkilgorinish, Esderha’Evren, Eupodophis, Galeshn’Kar</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Naga (Fêmea) de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.442eb5200fab3685\" data-slug=\"naga-f\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-9a) · Adulto (10a) · Idoso (70a) · Ancião (71+a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Feiticeiro, Necromante e Rúnico</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "naga-f"
+        "slug": "naga-f",
+        "diarioId": "442eb5200fab3685",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** São esfinges reptilianas que, abaixo do tórax, não possuem pernas, sustentando-se numa grossa e poderosa cauda de 4 a 5 metros composta por coluna vertebral e costelas. As fêmeas são visivelmente menores e mais delgadas que os machos (que pesam em média entre 200 e 250 quilos). A cabeça é ofídica, possuindo focinho longo e mandíbulas que, embora não se separem, possuem abertura de 90º. Quando alertas, ficam com 2 metros de altura; correndo inclinadas, baixam para 1 metro; e em combate, podem se apoiar na cauda para alcançar 3 metros de altura. A sua fisiologia impede completamente que elas realizem saltos ou usem escadas.\n* **Pele e Pelagem:** O corpo é revestido inteiramente por escamas que variam do quase negro ao verde-limão. O padrão das fêmeas é notório por apresentar padrões muito mais amplos de cores do que os machos.\n* **Olhos:** Suas pálpebras são formadas por uma escama especial e transparente, que permanece o tempo todo fechada para proteger o olho.\n* **Dimorfismo Sexual:** É extremamente marcante na face; além de serem mais delicadas, as fêmeas ostentam ao redor do pescoço e cabeça uma estrutura muscular larga, semelhante a um capuz (como as najas), que exibe fortes manchas e padrões coloridos na parte interna.\n* **Ciclo de Vida:** Possuem uma gestação curtíssima de 5 meses. Elas produzem de três a quatro ovos, mas não os botam; mantêm-os dentro de seus corpos até a eclosão. Os bebês nascem minúsculos (com um centésimo do tamanho normal), mas totalmente formados e desenvolvem-se de forma veloz até a idade adulta, aos 10 anos. As fêmeas vivem consideravelmente mais que os machos, podendo chegar aos 70 anos com facilidade; no entanto, após essa idade, entram em um processo de envelhecimento acentuadamente rápido e raramente vivem por mais 20 anos.",
+          "cultura": "* **Habitat e Estrutura Política:** Nativas de Ofidien, as Naga criam cidades nas encostas ou escavadas na rocha das montanhas, valorizando estruturas com defesa extrema e muitas rotas de fuga. Seu império é rigidamente matriarcal e \"arcanocrático\", moldado pela xenofobia e lealdade fanática à própria raça, a qual elas consideram superior a todas as outras.\n* **Papel Feminino (Magia e Teocracia):** Toda a sociedade orbita o Primordial Glycon, e todas as fêmeas da espécie são consideradas suas consortes. Elas detêm o monopólio místico: apenas fêmeas podem ser Conjuradoras, e atuar como reprodutoras, artistas, boticárias e professoras é privilégio delas. Além disso, raras são as fêmeas que não possuem conhecimento arcano rudimentar. As mais formidáveis entram para o culto de feiticeiras Nachash, que comandam as alas militares, sacerdotais e sociais do império. Atividades braçais e agricultura pesada são consideradas tarefas degradantes e destinadas apenas aos escravos e, em parte, aos machos.\n* **Sociedade e Necromancia:** A raça não possui o conceito de unidade familiar; todas as crianças são cuidadas de forma geral pela comunidade, e a lealdade extrema do povo baseia-se em amizades formadas com companheiras da mesma idade. A necromancia é amplamente aceita, não havendo pudor em transformar corpos alheios em construtos ou laboratórios. O sepultamento de uma Naga intacta é tido como uma enorme desonra, sendo a tradição consumir o cérebro da falecida para honrar seus feitos.",
+          "faixasEtarias": {
+            "filhote": "0-9",
+            "adulto": "10",
+            "idoso": "70",
+            "anciao": "71+"
+          },
+          "nomes": {
+            "lore": "A língua nativa da raça é o Asá-Avája, composta por sibilos, estalos e expressões corporais virtualmente impossíveis de serem reproduzidas por outras espécies sem magia. Os nomes Naga possuem pelo menos três sílabas e são inspirados na mitologia egípcia e hindu. Ao contrário dos machos (que usam hífen), as fêmeas adicionam radicais de reverência aos seus nomes separados por um apóstrofo. Os radicais femininos são 'AKIS (superiora), 'AXAR (guerreira) e 'KAR ou 'KIR (ambos significando abençoada). Naga não usam nenhum tipo de sobrenome, crendo que usar a influência de famílias limitaria o mérito do indivíduo.",
+            "femininos": [
+              "Anphisbaenea",
+              "Azhi’Dahaka",
+              "Brakaelurydea",
+              "Draig’Goch",
+              "Erenkilgorinish",
+              "Esderha’Evren",
+              "Eupodophis",
+              "Galeshn’Kar",
+              "Haasiophis",
+              "Illuyankas",
+              "Kimaera’Axar",
+              "Kur’Irkalla",
+              "Leidivashy",
+              "Nagavanshi",
+              "Nahash",
+              "Najashn’Kir",
+              "Pachyr’Akis",
+              "Scythia’Hylaea",
+              "Simoliophidea",
+              "Stakis",
+              "Susna’dasa",
+              "Suthek’Heru",
+              "Venrathay",
+              "Verecelen",
+              "Weista’Axar",
+              "Yam’Litanu"
+            ]
+          }
+        }
       }
     }
   },
   {
     "name": "Orc",
     "type": "raca",
-    "img": "icons/svg/mystery-man.svg",
+    "img": "systems/mighty-blade/assets/forja/orc.png",
     "system": {
       "atributos": {
         "forca": 4,
@@ -712,11 +1795,83 @@ export const CANONICAL_RACAS = [
         }
       ],
       "classesComuns": "Druida, Guerreiro, Patrulheiro e Xamã",
-      "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-2 anos) · Adulto (12 anos) · Idoso (30(6) anos) · Ancião (60(1) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de compleição física muito muscular e hábitos predatórios, medindo em média entre 1,7 e 1,9 metros e pesando entre 90 e 110 quilos. Sua característica mais notável são os grandes caninos maxilares, extremamente afiados e proeminentes, montados sobre uma estrutura óssea craniana muito forte. Graças ao sangue orc e seus hábitos noturnos, conseguem enxergar na completa escuridão, embora não consigam distinguir cores nesse ambiente.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do verde oliva ao castanho. O corpo possui uma pelagem negra grossa e esparsa, sendo mais densa no topo da cabeça e ao longo da coluna.</li><br><li><strong>Olhos:</strong> As pupilas são amarelas, variando de muito brilhantes até tão opacas e brancas que muitas vezes apenas a íris do olho é perceptível.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem pelos no pescoço e sob o rosto (uma espécie de barba). As fêmeas são distinguidas por não possuírem esses pelos faciais e cervicais, além de apresentarem um par de mamas que variam de pequenas a grandes.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das fêmeas dura de sete a oito meses e os Orcs são considerados adultos com apenas 12 anos. Os sinais da velhice, marcados pela perda de pigmentação do cabelo e da pele, surgem aos 30 anos. É muito raro um orc passar dos 60 anos, embora surpreendentemente a raça quase não perca tônus muscular em idades avançadas.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativos principalmente das Terras Secas, organizam-se em pequenas tribos nômades com hierarquia baseada na força bruta. Têm poucas cidades permanentes, construindo seus assentamentos sobre as ruínas de antigas civilizações (principalmente nas ruínas de Mankosh). Respeitam imensamente a força e o poder individual; a magia é temida e respeitada, mas o \"conhecimento\" e estudo intelectual puros são renegados aos fisicamente inaptos (o que ironicamente permite que orcs mais fracos ascendam socialmente usando magia e sabedoria).</li><br><li><strong>Sistema de Castas:</strong> O topo é liderado por um Xamã, Druida ou Guerreiro experiente com seus irmãos-de-armas (filhos e guarda-costas). Abaixo ficam os caçadores, guerreiros e acólitos; seguidos pelos pastores, ferreiros e artesãos; e na base, os aprendizes, prisioneiros e escravos. Os membros podem desafiar seus superiores para subir de patente. Derrotados descem um degrau, e as lutas não precisam ser até a morte, a não ser que os desafiantes sejam escravos em busca de liberdade, que são invariavelmente mortos se perderem.</li><br><li><strong>O Papel Feminino:</strong> A sociedade é estritamente igualitária e as fêmeas assumem e disputam qualquer cargo. A única regra é que as grávidas e as fêmeas com filhotes pequenos são temporariamente afastadas das atividades da tribo e não podem ser desafiadas por castas inferiores até o desmame das crianças.</li><br><li><strong>Orcs Civilizados:</strong> Aqueles orcs que abandonam o nomadismo e se fixam em reinos como Arkânia ou Parband são integrados de forma muito eficiente, geralmente ingressando nas fileiras militares e da guarda do reino, já que encontram dificuldades em competir nas fileiras acadêmicas e políticas.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A língua nativa dos Orcs é o Ravorka, um idioma cru, agressivo e difícil que não possui uma versão escrita própria, e que é falado também por Ogros e Trolls. O idioma de referência no mundo real para os Orcs é a língua Bielorrussa. Os nomes Orcs são curtos, contendo uma ou duas sílabas, e dão extrema preferência às consoantes velares como o “K”, “G” e “RR” (sendo que qualquer “R” no início de um nome tem sempre som de \"RR\"). As fêmeas diferenciam-se dos machos porque seus nomes sempre terminam com a letra \"A\". Nas Terras Secas, os Orcs usam puramente os nomes de seus Clãs como sobrenome. Já os orcs que vivem em Parband e Arkânia costumam adotar as mesmas regras de nomes Astérios, identificando-se através da sua organização e patente militar (Ex: \"Legionário Stog da Armada da Aurora\", ou \"Ura do Templo de Ahogr\").</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Agro, Bugmug, Falag, Gog, Gograk, Grigkal, Grimthark, Grishog<br><b>Femininos:</b> Aga, Agra, Agrunta, Darga, Drakena, Falanga, Gralnaka, Grika</div>\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p>Raça Orc de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.34960e6eed67cbb9\" data-slug=\"orc\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-2a) · Adulto (12a) · Idoso (30(6)a) · Ancião (60(1)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Druida, Guerreiro, Patrulheiro e Xamã</div></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "orc"
+        "slug": "orc",
+        "diarioId": "34960e6eed67cbb9",
+        "lore": {
+          "biologia": "* **Fisiologia e Aparência:** Humanoides de compleição física muito muscular e hábitos predatórios, medindo em média entre 1,7 e 1,9 metros e pesando entre 90 e 110 quilos. Sua característica mais notável são os grandes caninos maxilares, extremamente afiados e proeminentes, montados sobre uma estrutura óssea craniana muito forte. Graças ao sangue orc e seus hábitos noturnos, conseguem enxergar na completa escuridão, embora não consigam distinguir cores nesse ambiente.\n* **Pele e Pelagem:** A pele varia do verde oliva ao castanho. O corpo possui uma pelagem negra grossa e esparsa, sendo mais densa no topo da cabeça e ao longo da coluna.\n* **Olhos:** As pupilas são amarelas, variando de muito brilhantes até tão opacas e brancas que muitas vezes apenas a íris do olho é perceptível.\n* **Dimorfismo Sexual:** Os machos desenvolvem pelos no pescoço e sob o rosto (uma espécie de barba). As fêmeas são distinguidas por não possuírem esses pelos faciais e cervicais, além de apresentarem um par de mamas que variam de pequenas a grandes.\n* **Ciclo de Vida:** A gestação das fêmeas dura de sete a oito meses e os Orcs são considerados adultos com apenas 12 anos. Os sinais da velhice, marcados pela perda de pigmentação do cabelo e da pele, surgem aos 30 anos. É muito raro um orc passar dos 60 anos, embora surpreendentemente a raça quase não perca tônus muscular em idades avançadas.",
+          "cultura": "* **Habitat e Estrutura Política:** Nativos principalmente das Terras Secas, organizam-se em pequenas tribos nômades com hierarquia baseada na força bruta. Têm poucas cidades permanentes, construindo seus assentamentos sobre as ruínas de antigas civilizações (principalmente nas ruínas de Mankosh). Respeitam imensamente a força e o poder individual; a magia é temida e respeitada, mas o \"conhecimento\" e estudo intelectual puros são renegados aos fisicamente inaptos (o que ironicamente permite que orcs mais fracos ascendam socialmente usando magia e sabedoria).\n* **Sistema de Castas:** O topo é liderado por um Xamã, Druida ou Guerreiro experiente com seus irmãos-de-armas (filhos e guarda-costas). Abaixo ficam os caçadores, guerreiros e acólitos; seguidos pelos pastores, ferreiros e artesãos; e na base, os aprendizes, prisioneiros e escravos. Os membros podem desafiar seus superiores para subir de patente. Derrotados descem um degrau, e as lutas não precisam ser até a morte, a não ser que os desafiantes sejam escravos em busca de liberdade, que são invariavelmente mortos se perderem.\n* **O Papel Feminino:** A sociedade é estritamente igualitária e as fêmeas assumem e disputam qualquer cargo. A única regra é que as grávidas e as fêmeas com filhotes pequenos são temporariamente afastadas das atividades da tribo e não podem ser desafiadas por castas inferiores até o desmame das crianças.\n* **Orcs Civilizados:** Aqueles orcs que abandonam o nomadismo e se fixam em reinos como Arkânia ou Parband são integrados de forma muito eficiente, geralmente ingressando nas fileiras militares e da guarda do reino, já que encontram dificuldades em competir nas fileiras acadêmicas e políticas.",
+          "faixasEtarias": {
+            "filhote": "0-2",
+            "crianca": "3-8",
+            "adolescente": "9-11",
+            "adulto": "12",
+            "idoso": "30(6)",
+            "anciao": "60(1)"
+          },
+          "nomes": {
+            "lore": "A língua nativa dos Orcs é o Ravorka, um idioma cru, agressivo e difícil que não possui uma versão escrita própria, e que é falado também por Ogros e Trolls. O idioma de referência no mundo real para os Orcs é a língua Bielorrussa. Os nomes Orcs são curtos, contendo uma ou duas sílabas, e dão extrema preferência às consoantes velares como o “K”, “G” e “RR” (sendo que qualquer “R” no início de um nome tem sempre som de \"RR\"). As fêmeas diferenciam-se dos machos porque seus nomes sempre terminam com a letra \"A\". Nas Terras Secas, os Orcs usam puramente os nomes de seus Clãs como sobrenome. Já os orcs que vivem em Parband e Arkânia costumam adotar as mesmas regras de nomes Astérios, identificando-se através da sua organização e patente militar (Ex: \"Legionário Stog da Armada da Aurora\", ou \"Ura do Templo de Ahogr\").",
+            "masculinos": [
+              "Agro",
+              "Bugmug",
+              "Falag",
+              "Gog",
+              "Gograk",
+              "Grigkal",
+              "Grimthark",
+              "Grishog",
+              "Grost",
+              "Grundel",
+              "Kerno",
+              "Kerogre",
+              "Krugak",
+              "Magog",
+              "Mortor",
+              "Nofgor",
+              "Rorst",
+              "Rurlag",
+              "Shelitarg",
+              "Stog",
+              "Sukor",
+              "Tugut",
+              "Turg",
+              "Urglak",
+              "Xargok",
+              "Yakar"
+            ],
+            "femininos": [
+              "Aga",
+              "Agra",
+              "Agrunta",
+              "Darga",
+              "Drakena",
+              "Falanga",
+              "Gralnaka",
+              "Grika",
+              "Gulda",
+              "Horsta",
+              "Kendra",
+              "Kleva",
+              "Kruga",
+              "Magla",
+              "Nevra",
+              "Reptila",
+              "Rorda",
+              "Runta",
+              "Stoga",
+              "Tamuska",
+              "Tuguta",
+              "Turga",
+              "Ura",
+              "Urgla",
+              "Valsina",
+              "Xarga"
+            ]
+          }
+        }
       }
     }
   }
@@ -726,7 +1881,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Feiticeiro",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/feiticeiro2.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -744,11 +1899,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><p>Apesar de possuírem um domínio considerável sobre a teoria geral da magia arcana, os Feiticeiros focam seus esforços no domínio e manipulação dessas energias brutas, geralmente para fins combativos. Muitos Feiticeiros ocupam posições em exércitos ou guardas organizadas, às vezes na linha de frente, às vezes como conselheiros ou em posições de liderança. Em geral, aqueles que decidem seguir o aprendizado de Feiticeiro são pessoas com sede de aventura ou de poder, o que geralmente lhes rende bons frutos em organizações com cadeias de comando bem estruturadas.</p><p>No entanto, muitos Feiticeiros estudam as teorias elementais da magia em busca de significados mais filosóficos. Esses Feiticeiros geralmente evitam usar magias de forma destrutiva, procurando usá-las de modo mais brando, usualmente preferindo magias defensivas e utilitárias em lugar de magias puramente ofensivas.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar, infravisao, invocar-elemental-1, invocar-elemental-2, levitar, manto-crepitante, mente-disciplinada, parede-de-gelo, rajada-de-gelo, relampago-1, rajada-elemental, resistencia-elemental, telecinesia, teleporte-1, aptidao-elemental, dissipar-magia, eletrosfera, incandescer, inferno, invocar-elemental-3, prisao-de-gelo, relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.01f81cd5a919ee25\" data-slug=\"feiticeiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "feiticeiro",
+        "diarioId": "01f81cd5a919ee25",
         "conjurador": true
       }
     }
@@ -756,7 +1912,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Guerreiro",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/guerreiro1.png",
     "system": {
       "atributos": {
         "forca": 1,
@@ -774,11 +1930,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><p>De fato, a maioria das cidades mantém um pequeno contingente de guardas, treinado no uso de armaduras pesadas, escudos e armas corporais e a maioria dos reinos de Cassiopéia mantém um exército permanente de combatentes especializados para lidarem com invasões e fazer frente aos ataques de nações hostis. Além disso, muitas companhias de mercenários treinam e mantêm um bom número de guerreiros a soldo, prontos para empreenderem todo tipo de conflito armado. Finalmente, histórias de aldeões obrigados a pegarem em armas para defenderem seus lares contra bandidos ou, em alguns casos, monstros e que acabam por seguir nos caminhos dos homens de armas são relativamente comuns em Drakon.</p><p>Considerando a abundância de minérios em Cassiopéia, mesmo um guerreiro com pouco treinamento pode sobreviver no caminho da guerra, comprando armas e equipamentos adequados de proteção. Graças a isso, os exércitos, guardas e companhias de mercenários costumam manter seus homens bem equipados, e a profissão de Guerreiro é vista como digna e estável, fazendo com que muitos escolham segui-la em busca de glória e fama – apesar de poucos conseguirem tais distinções.</p><p>Apesar das guardas e exércitos não pagarem muito bem, elas oferecem alojamento, alimentação e manutenção de armas, armaduras e equipamentos necessários para o cumprimento do dever, enquanto companhias mercenárias pagam mais, mas apresentam riscos bem maiores – já que costumam ser procuradas para resolver problemas difíceis, geralmente envolvendo monstros, ou para engrossar as linhas de frente dos exércitos, no caso de conflitos em larga escala.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio, ataque-simultaneo, brigao, combate-em-grupo, armas-1, combate-pesado, combate-tatico, defesa-agressiva, estabilidade, golpe-devastador-1, golpe-com-escudo, grito-de-guerra-1, guerreiro-de-aco-1, investida-mortal, nocautear, parede-de-escudos, sem-escapatoria, transpor, combate-com-duas-armas-2, forca-de-explosao, golpe-devastador-2, grito-de-guerra-2, grito-de-intimidacao, guerreiro-de-aco-2, implacavel, investida-forte, mestre-de-armas-2, valor-da-vitoria, mestre-de-armas-3, gatuno\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.67c20d7803b462e2\" data-slug=\"guerreiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "guerreiro",
+        "diarioId": "67c20d7803b462e2",
         "conjurador": false
       }
     }
@@ -786,7 +1943,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Ladino",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/ladino2.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -804,11 +1961,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><p>Apesar de muitos verem os Ladinos com desconfiança, muitas vezes considerando seus meios pouco honrados ou mesmo vis, a grande maioria dos Ladinos de Cassiopéia atua ao lado da lei. Eles costumam trabalhar como batedores, espiões, investigadores e exploradores. Eles auxiliam ordens militares com informações sobre movimentos de tropas inimigas e obtendo informações secretas ou plantando informações falsas, usam suas redes de contatos para descobrir criminosos ou apurar veracidade de informações e são particularmente apreciados em exploração de ruínas e tumbas (particularmente comuns em Tebryn e nas Terras Secas, onde grandes civilizações ergueram imensos complexos que foram devastados ao logo dos séculos, durante a Revoada dos Dragões e o Expurgo) e na invasão de cavernas e complexos subterrâneos habitados por raças ou monstros hostis.</p><p>Muitos Ladinos também trabalham como marinheiros, piratas e corsários, assim como os Espadachins. Eles podem ser combatentes eficientes em condições onde agilidade, velocidade e versatilidade são mais importantes do que simples proeza marcial, como no convés de um navio.</p><p>É claro, muitos Ladinos usam seus conhecimentos e aptidões para cometer crimes. Além de um bom número de piratas, Ladinos são conhecidos por engrossarem bastante as fileiras de ladrões, embusteiros, atravessadores e traficantes de toda Cassiopéia.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, armas-1, contatos-no-crime, corte-arterial, evasao, falhas-da-armadura, flanquear, flexivel, furtivo, golpes-rapidos, mestre-das-adagas-1, mestre-das-adagas-2, movimentos-evasivos, malabarista, truque-sujo, camuflagem, combate-com-duas-armas-2, emboscar, en-passant, explorar-surpresa, improvisacao-ladina, mestre-das-adagas-3, passo-leve, ripostar, trapaceiro-impecavel, mestre-especialista, mestre-de-armas-1\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.28b8d9e8f991abe5\" data-slug=\"ladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, armas-1, contatos-no-crime...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "ladino",
+        "diarioId": "28b8d9e8f991abe5",
         "conjurador": false
       }
     }
@@ -816,7 +1974,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Paladino",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/paladino2.png",
     "system": {
       "atributos": {
         "forca": 1,
@@ -834,11 +1992,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>O Paladino é um guerreiro movido por um conjunto de códigos de conduta que usa para disciplinar seu espírito e realizar feitos que muitos veriam como sobrenaturais.</p><p>A maioria dos Códigos de um Paladino são autoimpostos; regras de conduta sob as quais ele escolhe viver considerando que são o único caminho realmente digno de existir ou para expiar algum grande erro que cometeu e não deseja jamais repetir. Alguns, no entanto, carregam códigos impostos por forças externas, como dogmas espirituais determinados por uma crença da qual ele comunga ou princípios sob os quais o Paladino deve viver por fazer parte de uma ordem. De toda forma, esses Códigos exigem uma grande disciplina para serem observados completamente a cada momento, o que fortalece grandemente à vontade e o espírito do Paladino no processo.</p><p>Alguns Paladinos vivem sob um único Código, estando ligados apenas a uma obrigação específica, enquanto outros adotam vários Códigos em uma tentativa de se aperfeiçoar e se tornar cada vez mais puros, dignos ou simplesmente por possuírem uma índole que naturalmente os leva em direção a eles. Não há limites para o número de Códigos que cada Paladino pode possuir, mas obviamente, quanto mais Códigos um Paladino precisa observar, mais limitado ele fica em relação aos rumos que pode tomar diante de uma determinada situação – e alguns deles podem gerar conflitos (por exemplo, um Paladino com o Código da Honestidade e o Código da Coragem diante de uma situação em que apenas uma mentira poderia salvar a vida de um indefeso) o que pode quebrar o espírito de um Paladino permanentemente, caso não consiga seguir os ditames de um ou mais de seus Códigos.</p><p>Apesar de todos os Paladinos serem, obviamente, honrados, isso não significa que não possam ser malignos. Tiranos que impões sua força sobre os mais fracos podem perfeitamente seguir o Código da Lealdade, estando cercado de impiedosos (e fiéis) aliados, e guerreiros sanguinários que seguem estritamente o Código da Coragem são inimigos absolutamente terríveis no campo de batalha. Mas, é claro, estas são exceções à regra. Em geral, Paladinos são heróis que lutam pela manutenção do Status Quo, pela defesa dos inocentes e pela manutenção das leis.</p><p>Muitas ordens de Paladinos exigem que seus membros observem obrigatoriamente um Código específico, ao menos – todos os Paladinos da Ordem da Espada de Mirah precisam seguir o Código da Justiça, e a Hoste de Hadorn é formada por Paladinos que seguem o Código da Coragem – e a observação desses Códigos é ostensivamente ensinada aos escudeiros que desejam ingressar na Ordem, enquanto outras são mais flexíveis – os Paladinos da Mão Ígnea precisam seguir o Código da Honestidade ou o Código da Lealdade e os Faris exigem que seus membros sigam o Código da Cortesia ou o Código da Lealdade, apesar deles comumente seguirem ambos – e são, geralmente, menos severos em suas doutrinas.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Anão, Astério, Fira e Juban</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> mestre-de-armas-1, austeridade, cavaleiro-experiente, codigo-da-coragem, codigo-da-honestidade, codigo-da-justica, combate-montado, combate-tatico, defletor, egide, grito-de-guerra-1, guerreiro-de-aco-1, justica-final-1, montaria-especial-1, montaria-especial-2, motivar, nocautear, parede-de-escudos, sem-escapatoria, banir, comando-heroico, coracao-da-batalha, destemor, grito-de-guerra-2, guerreiro-de-aco-2, implacavel, justica-final-2, montaria-especial-3, valor-da-vitoria, integridade, arqueria, acrobata\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Paladino é um guerreiro movido por um conjunto de códigos de conduta que usa para disciplinar seu espírito e realizar feitos que muitos veriam como sobrenaturais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.04269a145331afa6\" data-slug=\"paladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Astério, Fira e Juban</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> mestre-de-armas-1, austeridade, cavaleiro-experiente, codigo-da-coragem, codigo-da-honestidade, codigo-da-justica, combate-montado, combate-tatico...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "paladino",
+        "diarioId": "04269a145331afa6",
         "conjurador": false
       }
     }
@@ -846,7 +2005,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Patrulheiro",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/patrulheiro2.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -864,11 +2023,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><p>A maioria dos Patrulheiros está intrinsecamente ligada às regiões selvagens, preferindo atuar em florestas, pântanos, bosques, selvas e regiões montanhosas, onde podem usar o ambiente para abater presas à distância, montar armadilhas com facilidade e rastrear de modo eficiente. De fato, muitos Patrulheiros não gostam das regiões urbanas, com gente demais, cheiros demais, rastros demais e regras demais. A liberdade das regiões florestais geralmente faz parte de um Patrulheiro tanto quanto um bom arco, e a grande maioria deles possui uma profunda ligação com a natureza, geralmente de forma reverente.</p><p>No entanto, por mais que essa seja a regra, há uma boa quantidade de exceções. Patrulheiros podem ser encontrados em cidades, trabalhando como caçadores de recompensa, dedicando-se a caçar criminosos ao invés de criaturas selvagens ou como guardas e vigias, com suas habilidades focadas em percepção e uso de arcos. Além disso, muitos Patrulheiros concentram seu treinamento apenas no manejo do arco e ingressam nas linhas de arqueiros de exércitos, milícias ou companhias mercenárias. Enquanto Druidas geralmente usam Companheiros Animais como sentinelas e vigias, e Xamãs geralmente possuem ligações quase familiares com seus Companheiros Animais, a maioria dos Patrulheiros usa essas criaturas como uma ferramenta. Muitos, claro, criam poderosos vínculos afetivos com seus Companheiros, e podem manter um mesmo Companheiro Animal por muitos anos. A maioria, porém, possui Companheiros Animais por curtos períodos de tempo, geralmente pela duração de uma tarefa, devolvendo-o à natureza depois disso.</p><p>Em áreas selvagens que não conhecem bem o bastante, é comum que um Patrulheiro convoque uma criatura da região para lhe servir como guia, enquanto caçadores de recompensa geralmente usam Companheiros Animais para obter informações de seus alvos ao planejar a captura. Muitos convocam Companheiros Animais para apenas uma tarefa, como um pássaro para lhe fornecer informações sobre uma área, um animal de hábitos noturnos para servir de vigia por uma noite ou um animal de montaria para levá-lo a um determinado destino, e alguns Patrulheiros menos escrupulosos usam predadores para auxiliá-los em combates mais perigosos. A maioria dos Patrulheiros, no entanto, prefere não envolver animais em tarefas perigosas, dado seu profundo respeito pela natureza.</p><p>É comum, também, que um Patrulheiro mantenha um Companheiro Animal por mais tempo se dedicar-se a uma mesma tarefa com frequência. Caçadores muitas vezes estão acompanhados de lobos ou águias, enquanto guardas e vigias costumam ter corujas, morcegos e felinos ao seu lado, e a maioria dos caçadores de recompensa usa cães e ratazanas para seguir seus alvos. Muitos acabam se afeiçoando a esses animais, e os mantém por perto mesmo quando sua tarefa foi cumprida, quase como animais de estimação.</p><p>Além disso, muitos Patrulheiros mantêm animais de montaria como Companheiro Animal, o que lhes garante um meio rápido e seguro de transporte em uma emergência.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> acrobata, armadilheiro, ataque-aleijador, cacador-de-criatura, chuva-de-flechas, companheiro-animal-1, companheiro-animal-2, disparo-forte, disparo-certeiro, evasao, falhas-da-armadura, flechas-rapidas, furtivo, herbalismo, precisao, retesar-eficiente, sabedoria-selvagem, truque-sujo, cacador-de-monstro, camuflagem, chuva-de-flechas-2, companheiro-animal-3, emboscar, empalar, matador-de-criatura, olho-da-aguia, passo-leve, veneficio, arqueria-de-mestre, conhecimento-arcano\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.763480e886a66ce7\" data-slug=\"patrulheiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (30 Habilidades):</strong> acrobata, armadilheiro, ataque-aleijador, cacador-de-criatura, chuva-de-flechas, companheiro-animal-1, companheiro-animal-2, disparo-forte...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "patrulheiro",
+        "diarioId": "763480e886a66ce7",
         "conjurador": false
       }
     }
@@ -876,7 +2036,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Sacerdote",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/sacerdote2.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -894,11 +2054,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><p>A grande maioria dos Sacerdotes dedica suas vidas ao estudo e proteção de sua fé, à manutenção dos templos de sua divindade patrona, ao estudo de suas escrituras sagradas, comungando com outros professantes da mesma fé ou transmitindo seus conhecimentos para outros membros da comunidade onde habitam. A maioria deles, ainda, exerce alguma função na comunidade de acordo com as doutrinas de sua divindade: Sacerdotes de Mirah muitas vezes ocupam cargos de juízes ou conselheiros de burgomestres ou mesmo monarcas, Sacerdotes de Ellenis geralmente auxiliam os fazendeiros e caçadores em suas funções, Sacerdotes de Denalla costumam trabalhar como parteiros ou curandeiros, Sacerdotes de Sarfion trabalham em bibliotecas, escolas ou como conselheiros civis, Sacerdotes de Hadorn aconselham generais e costumam acompanhar tropas em conflitos tanto como médicos de fronte quanto como combatentes, Sacerdotes de Ran e Taranis muitas vezes embarcam em navios (tanto de guerra quanto de comércio ou mesmo de pesca) para proteger e aconselhar a tripulação, Sacerdotes de Hou podem ser encontrados em guildas de ferreiros realizando funções como artesões ou tesoureiros e Sacerdotes de Ahrogr podem tanto exercer funções de aconselhamento em assuntos civis ou militares como exercer funções de legisladores.</p><p>Muitos Sacerdotes, no entanto, preferem uma vida mais autônoma, viajando constantemente para aumentar sua compreensão do mundo ao seu redor na tentativa de encontrar uma coesão entre as teorias que estudam e o reflexo prático delas no mundo. Entre estes, um bom número de Sacerdotes se aventura de modo menos passivo, procurando aqueles fenômenos considerados antinaturais pela sua fé para expurgá-los do mundo, ou exercendo a as doutrinas de sua divindade patrona – enquanto Sacerdotes de Marah, Ahogr, Taranis e Hou se sentem compelidos a combater por grupos ou indivíduos em perigo, os de Denalla e Ellenis são particularmente conhecidos por combater mortos-vivos, demônios e outras criaturas sobrenaturais, os de Hadorn e Ran podem se interessar por qualquer situação de conflito e Sacerdotes de Sarfion são célebres exploradores e investigadores.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-mistico, abencoar-aliados-1, abencoar-objeto, aparar-magia, asas-celestiais, asceta, aura-de-cura-1, cariatide, conjurar-arma-dos-deuses, do-destino, conjurar-broquel-mistico, corpo-fechado, curar-ferimentos-1, detectar-magia, dogma, exorcismo, graca-divina, protecao-mistica, purgar, toque-mistico, velocidade, abencoar-aliados-2, aura-de-cura-2, circulo-da-protecao, conjurar-falange-do-destino, criar-golem, curar-ferimentos-2, dissipar-magia, manter-golem, portal, primaz, pontifice\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.74f4eb07d3561470\" data-slug=\"sacerdote\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, abencoar-aliados-1, abencoar-objeto, aparar-magia, asas-celestiais, asceta, aura-de-cura-1, cariatide...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "sacerdote",
+        "diarioId": "74f4eb07d3561470",
         "conjurador": true
       }
     }
@@ -906,7 +2067,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Bardo",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/bardo2.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -924,11 +2085,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><p>Apesar do estudo das artes musicais dos Bardos geralmente ser ensinado na estrada, em companhias de cantores itinerantes, poetas ambulantes ou mesmo de pai para filho, há vários Liceus de Bardos em Cassiopéia, que formam um grande número de Bardos – que em geral trabalham para a corte desses reinos. Os mais famosos são o Liceu de Tebrinia, em Tebryn e o Salão dos Bardos, em Bryne.</p><p>Além disso, graças ao amplo conhecimento de diversas músicas, histórias e poemas, Bardos são depositários de uma enorme quantidade de conhecimento teórico, às vezes superiores àqueles de estudiosos formais e suas imensas bibliotecas. Seu conhecimento vivo, construído durante suas andanças pelo mundo, está em constante processo de atualização e um bom Bardo sabe diferenciar os fatos reais da fantasia, filtrando as histórias que lhes são contadas e destilando a verdade na forma de novas composições cujo conteúdo, além de entreter plateias, serve para carregar conhecimento. Essas histórias, tocadas ao redor de fogueiras entre Bardos que se encontram nas estradas ou cantadas nos grandes salões reais fornecem aos Bardos um vasto conhecimento sobre história, lendas e até mesmo geografia e política.</p><p>Graças à isso, muitos Bardos são empregados em cortes como conselheiros, e a maioria dos vilarejos, cidades e metrópoles vibra com a chegada de companhias de menestréis e trovadores ambulantes, sabendo que eles trarão, além de entretenimento, notícias de outras áreas do reino.</p><p>Grupos de aventureiros, de forma semelhante, apreciam a presença de Bardos não apenas pelos benefícios que eles trazem à moral do grupo e pelos efeitos que eles são capazes de produzir em combate, mas também porque eles são a melhor fonte de notícias – e possíveis novas aventuras! – que um grupo pode esperar.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> poesia-dos-bardos, aparar, ataque-redirecionado, cancao-da-provocacao, cancao-desesperadora, cancao-do-triunfo, cancao-exultante, eloquente, evasao, furtivo, gregario, grito-de-guerra-1, grito-ensurdecedor, grito-estilhacador, lingua-afiada, malabarista, melodia-dancante, melodia-do-enjoo, melodia-do-repouso, melodia-sonifera, mestre-das-notas, truque-sujo, cancao-da-sereia, cancao-desconcentrante, coracao-da-batalha, grito-de-guerra-2, grito-de-intimidacao, melodia-da-furia, melodia-dos-animais, trapaceiro-impecavel, virtuoso, vocalista, cancao-do-requiem, conhecimento-mistico, distracao, instrumentista, lirico, ritmo-dos-animais, grito-contundente, falsete, repentista, soprista, mimicar, pantomima, beijo-sufocante, chega-mais, requebrado, danca-das-ruas, danca-da-guerra, danca-do-ventre, solo, palavra-toxica, charada-obtusa, golpe-inspirador, grito-retumbante, presenca-inspiradora, um-bom-conselho-1\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a97cf858c04cd05a\" data-slug=\"bardo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (57 Habilidades):</strong> poesia-dos-bardos, aparar, ataque-redirecionado, cancao-da-provocacao, cancao-desesperadora, cancao-do-triunfo, cancao-exultante, eloquente...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "bardo",
+        "diarioId": "a97cf858c04cd05a",
         "conjurador": false
       }
     }
@@ -936,7 +2098,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Druida",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/druida2.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -954,11 +2116,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><p>Em geral, comunidades druídicas ou grupos próximos compartilham alguns rituais comuns, mas mesmo dentro de comunidades com rituais bem definidos, quase todos possuem práticas e definições individuais consideravelmente diferente dos demais. Essas diferenças de visão, crença e prática não são apenas toleradas, mas também encorajadas, e a individualidade e a busca por um entendimento particular da natureza são extremamente bem vistas pelos Druida.</p><p>Diferente dos Sacerdotes, os Druidas não reúnem congregações nem espalham a palavra de suas divindades. Ao invés disso, eles oferecem seu conhecimento sobre flora, fauna e fenômenos naturais àqueles ao seu redor, por vezes de forma concreta, auxiliando fazendeiros com suas plantações e animais, às vezes de forma simbólica, realizando rituais de boa colheita ou plantio, casamentos e funerais.</p><p>Apesar dessa diferença considerável entre o uso de seus conhecimentos de clericato com relação àqueles demonstrados pelos Sacerdotes, eles entendem a natureza dos rituais, das fórmulas e formas dos mesmos utilizados em outras formas de sacerdócio, e são capazes de compreender e reconhecer perfeitamente os processos e objetivos dos rituais realizados por qualquer outra religião.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-mistico, aparar-magia, asas-celestiais, bencao-de-ellenis, bestializar, bons-frutos, caminhada-magica, companheiro-animal-1, companheiro-animal-2, convocar-animais, detectar-magia, entrelacar, espirito-animal, evocar-temporal, herbalismo, mover-terra, principio-natural, rajada-de-agua, rajada-de-espinhos, sabedoria-selvagem, turbilhao, companheiro-animal-3, conjurar-abrigo, despertar-a-flora, dissipar-magia, evocar-nevasca, gavinhas-e-espinhos, olho-do-furacao, orbe-de-contencao, punho-de-pedra, veneficio, hierofante\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c087084a68e94b7b\" data-slug=\"druida\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, asas-celestiais, bencao-de-ellenis, bestializar, bons-frutos, caminhada-magica, companheiro-animal-1...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "druida",
+        "diarioId": "c087084a68e94b7b",
         "conjurador": true
       }
     }
@@ -966,7 +2129,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Espadachim",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/espadachim2.png",
     "system": {
       "atributos": {
         "forca": 1,
@@ -984,11 +2147,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><p>Apesar da maioria dos Espadachins concentrar seu treinamento na maestria e proeza física, muitos deles preferem lançar mão de artifícios variados, truques sujos, enganação e até mesmo verborragia intensa para vencer desafios – de fato, muitos deles possuem línguas mais hábeis do que suas espadas! Um bom número de Espadachins é capaz de simplesmente abrir caminho através de inimigos simplesmente com sua capacidade de persuasão.</p><p>Além disso, Espadachins sempre preferem armaduras que restrinjam minimamente sua movimentação. Muitos até mesmo preferem não usar nenhum tipo de armadura, confiando puramente em seus reflexos para se defender.</p><p>Essas características somadas, muitas vezes fazem com que os Espadachins sejam vistos como medrosos, espertalhões ou, no mínimo, fanfarrões imprudentes – rótulos que, aliás, a maioria deles tende a incentivar, já que isso faz com que a maioria dos seus oponentes os subestimem em combate (geralmente apenas uma vez).</p><p>No entanto, existe um considerável número de Espadachins que veem os subterfúgios como uma maneira realmente covarde de lidar com inimigos e situações de perigo. Para estes, a proeza em combate e a coragem diante de qualquer desafio são as melhores armas à sua disposição. Esses Espadachins, em geral, são mais sérios e compenetrados, treinando incessantemente para aprimorar sua técnica de combate e tornar seus reflexos tão afiados quanto às lâminas que empunham, desdenhando de artifícios e artimanhas para vencer obstáculos – mas jamais subestimando aqueles que lançam mão de tais estratagemas.</p><p>Certamente a maioria dos combatentes que navegam pelos mares de Drakon são Espadachins. Além da agilidade necessária para se manter equilibrado em um convés durante uma batalha naval, poucos seriam ousados – ou estúpidos – para vergar armaduras pesadas em um ambiente que pode transformar a proteção que elas oferecem em uma lenta e agonizante morte por afogamento.</p><p>Apesar deles não serem a maioria absoluta – Ladinos, Patrulheiros, Magos e Sacerdotes tanto de Ran quanto de Taranis são bastante numerosos nos conveses de navios mercantes ou de combate – os Espadachins certamente são os mais famosos marinheiros de Drakon. De fato, na maioria das áreas costeiras, Espadachim é sinônimo de Marinheiro.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Fira, Humano, Levent e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> orbe-de-contencao, punho-de-pedra, veneficio, hierofante, mestre-de-armas-1, acrobata, aparar, ataque-aleijador, ataque-giratorio, ataque-redirecionado, combate-com-duas-armas-1, combate-tatico, corte-arterial, danca-das-espadas-1, desarmar-oponente, eloquente, evasao, falhas-da-armadura, golpes-rapidos, investida-mortal, lingua-afiada, movimentos-evasivos, panache, sem-escapatoria, touche, truque-sujo, combate-com-duas-armas-2, coracao-da-batalha, danca-das-espadas-2, decapitar, implacavel, mestre-de-armas-2, retalhar, ripostar, tempestade-de-laminas, valor-da-vitoria, senhor-das-laminas, conhecimento-arcano\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.271a8d443f5c85f6\" data-slug=\"espadachim\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Humano, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (38 Habilidades):</strong> orbe-de-contencao, punho-de-pedra, veneficio, hierofante, mestre-de-armas-1, acrobata, aparar, ataque-aleijador...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "espadachim",
+        "diarioId": "271a8d443f5c85f6",
         "conjurador": false
       }
     }
@@ -996,7 +2160,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Rúnico",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/runico2.png",
     "system": {
       "atributos": {
         "forca": 1,
@@ -1014,11 +2178,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><p>Além disso, muitos Rúnicos concentram parte de sua atenção especificamente ao uso de itens mágicos, particularmente armas mágicas, não só para aumentar seu arsenal mas também quando combatem outros conjuradores, que podem ser eficientes na defesa contra conjurações mas geralmente não podem se defender tão bem de itens mágicos permanente. Muitos Rúnicos também focam seus interesses em itens mágicos na direção oposta, usando habilidades que desativem itens mágicos temporariamente e eliminem Selos e Runas de seus inimigos, como uma forma de eliminar as vantagens de seus oponentes quando os mesmos são outros Rúnicos ou quando fazem uso extensivo de itens mágicos e encantamentos.</p><p>Rúnicos possuem, no entanto, um conhecimento teórico sobre o uso de magia arcana do mesmo modo que qualquer outro conjurador, e além de terem alguns conhecimentos de magias mais básicas – principalmente defensivas – são capazes de conjurar qualquer magia arcana a partir de um tomo, e muitos deles carregam consigo um grimório com algumas magias que podem ser úteis (como Levitar ou Teleporte) ou que podem lhes fornecer mais opções em combate (como Ariete Mágico ou Manto Crepitante).</p><p>Essas características somadas tornam os Rúnicos combatentes competentes, particularmente eficientes contra conjuradores e criaturas sobrenaturais. De fato, alguns reinos – como Parband, Dagothar e Bryne – mantém contingentes de Rúnicos para lidar especificamente com conjuradores malignos e ameaças mágicas.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Astério, Fira e Mahok</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-arcano, aparar-magia, arma-fiel, arma-incandescente, arma-gelida, arma-relampejante, armadura-fiel, ataque-fantasma, combate-tatico, conjurar-escudo, desativar-item, detectar-magia, enfeiticar-arma-1, enfeiticar-armadura, guerreiro-de-aco-1, mente-disciplinada, onda-de-chamas, onda-de-frio, onda-de-raios, onda-fantasma, resistencia-elemental, sem-escapatoria, aptidao-elemental, ataque-chocante, ataque-congelante, ataque-flamejante, golpe-do-vento, dissipar-magia, enfeiticar-arma-2, guerreiro-de-aco-2, implacavel, mestre-de-armas-2, destruicao-elemental, conhecimento-mistico\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4562a02d414f1816\" data-slug=\"runico\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Astério, Fira e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, aparar-magia, arma-fiel, arma-incandescente, arma-gelida, arma-relampejante, armadura-fiel, ataque-fantasma...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "runico",
+        "diarioId": "4562a02d414f1816",
         "conjurador": true
       }
     }
@@ -1026,7 +2191,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Dracomante",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/dracomante.png",
     "system": {
       "atributos": {
         "forca": 1,
@@ -1044,11 +2209,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><p>A maioria dos Dracomantes é ligada à Aurora dos Dragões, um culto religioso fundado em Arkânia séculos atrás e que se concentra na ideia de que os dragões, e não as divindades exteriores, devem ser adorados e seus exemplos seguidos. Seu corpo de crença gira ao redor de que a sabedoria, majestade e poder dos dragões os tornam os líderes ideais para as raças mortais, além do fato dos dragões estarem, em termos planares, mais próximos aos mortais e, portanto serem menos alienígenas à mentalidade de seus acólitos.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica, companheiro-dragao-1, companheiro-dragao-2, defesa-do-dragao-do-relampago, detectar-magia, escamas-draconicas, exalacao-do-dragao-do-frio, folego-do-dragao-marinho, furia-do-dragao, halito-do-dragao, rugido-do-dragao-do-deserto, sintonia-draconica, travessia-do-dragao-do-fogo, vinculo-draconico, asas-draconicas, companheiro-dragao-4, dissipar-magia, exarca, atrio-elemental, bencao-do-dragao, companheiro-dragao-3, forma-draconica, halito-do-dragao-anciao, presenca-draconica, flagelo-da-aurora\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.424f6b2129452ab1\" data-slug=\"dracomante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "dracomante",
+        "diarioId": "424f6b2129452ab1",
         "conjurador": true
       }
     }
@@ -1056,7 +2222,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Necromante",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/necromante.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -1074,11 +2240,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><p>Necromantes geralmente estão rodeados de objetos que lembram a morte, e são particularmente afeitos de locais considerados sombrios – como cemitérios, tumbas e necrotérios – onde realizam suas pesquisas e por vezes adquirem matéria prima para experiências. A maioria deles também costuma trabalhar e viver isolada de outras criaturas vivas, às vezes por opção, às vezes por necessidade, às vezes por imposição. Devido a essas características, Necromantes são mal vistos como frios, egoístas e geralmente, malignos – e, de fato, muitos Necromantes demonstram essas características. O poder que as energias necromânticas fornecem é certamente sedutor e, para a maioria, corruptor, já que oferece uma grande quantidade de possibilidades para manipular, destruir e distorcer, o que pode tornar seus usuários insensíveis ou até mesmo cruéis. Por outro lado, porém, um bom número de Necromantes de dedica à preservação dos locais onde os mortos repousam, não permitindo que essas mesmas forças que controlam corrompam tais locais, e muitos deles se tornam estudiosos dos mortos-vivos e espíritos no intuito de combatê-los com mais eficiência.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> conhecimento-arcano, absorver-alma, aparar-magia, armadura-necromantica, comunhao-com-espiritos, condenar-o-corpo, condenar-a-alma, contato-com-espiritos, controlar-mortos-vivos, cranio-sentinela, cura-sombria, despertar-dos-mortos-1, detectar-magia, energia-sombria-1, esconjurar, invocar-espectro, sustentar-mortos-vivos, transferencia-espiritual, aptidao-necromantica, caminhada-fantasma, lanterna-dos-mortos, mente-disciplinada, protecao-cadaverica, dissipar-magia, encarnar-espirito, cranio-guardiao, despertar-dos-mortos-2, bloqueio-necromantico, energia-sombria-2, imunidade-espiritual, resistencia-dos-mortos, resistencia-necromantica, necromanto, sabedoria-sobrenatural\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.457f1f8417f52a7e\" data-slug=\"necromante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, absorver-alma, aparar-magia, armadura-necromantica, comunhao-com-espiritos, condenar-o-corpo, condenar-a-alma, contato-com-espiritos...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "necromante",
+        "diarioId": "457f1f8417f52a7e",
         "conjurador": true
       }
     }
@@ -1086,7 +2253,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Senescal",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/senescal.png",
     "system": {
       "atributos": {
         "forca": 0,
@@ -1104,11 +2271,12 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><p>Senescais não lideram necessariamente pelo exemplo. Eles sabem tirar o melhor de cada indivíduo em sua área de atuação específica, direcionando-os para que melhorem suas próprias capacidades para que elas adicionem ao grupo de forma efetiva, ao invés de tentar padronizar as aptidões de um grupo. Fortalecer o papel de um indivíduo num grupo para que ele seja eficiente – e se sinta útil – é muito mais eficiente aos olhos de um bom Senescal do que fazer com que todos se foquem em melhorar uma área específica de atuação.</p><p>Essa capacidade de tirar o melhor de cada indivíduo torna os Senescais extremamente eficientes em grupos de aventureiros. Embora seja bastante incomum a um Senescal se aventurar, preferindo atuar em áreas administrativas ou lidando diretamente com a coordenação de pessoas dentro de uma organização, alguns deles, eventualmente, o fazem. Enquanto por um lado Senescais com treinamento militar possam desejar uma experiência diferente para aplicar suas táticas e melhorar suas capacidades como um todo, muitos nobres treinados para se tornarem administradores acabam ouvindo o chamado da aventura – e descobrem que suas habilidades podem, realmente, ser eficientes para manter grupos de aventureiros com moral alto e uma organização eficiente dentro e fora de combate. Sua influência e contatos também fazem deles excelentes para encontrar as pessoas certas para serviços que o grupo precise – ou para descobrir pistas sobre o paradeiro de alvos que o grupo esteja procurando.</p><p>A maioria dos Senescais que se aventuram, no entanto, fazem isso por um curto espaço de tempo. A maioria acaba se aborrecendo com as longas viagens, as infindáveis explorações de masmorras e os encontros com mortos-vivos, bestas e outras criaturas contra as quais suas capacidades têm pouca eficiência. É muito mais comum, no entanto, que aventureiros aposentados se tornem Aprendizes de Senescal para afiar suas capacidades de administrar os bens que conseguiram ao longo de suas aventuras.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> energia-sombria-2, imunidade-espiritual, resistencia-dos-mortos, resistencia-necromantica, mestre-dos-mortos, posicao-distinta, contatos-na-corte, contatos-politicos, distintivo-de-oficio, distracao, eloquente, erudito, farda, formacao-de-batalha-1, gregario, guarda-costas, inspirar-coragem, lingua-afiada, mastim, presenca-confiante, presenca-inspiradora, reposicionar, sequito, taticas-de-batalha, um-bom-conselho-1, voz-de-comando-1, abrir-a-guarda, conselheiro-pessoal, formacao-de-batalha-2, guarda-de-honra, juiz, persuadir, restaurar-conviccao, trapaceiro-impecavel, magistrado, um-bom-conselho-2, voz-de-comando-2\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.064542aa1e26fcfe\" data-slug=\"senescal\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> energia-sombria-2, imunidade-espiritual, resistencia-dos-mortos, resistencia-necromantica, mestre-dos-mortos, posicao-distinta, contatos-na-corte, contatos-politicos...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "senescal",
+        "diarioId": "064542aa1e26fcfe",
         "conjurador": false
       }
     }
@@ -1116,7 +2284,7 @@ export const CANONICAL_CLASSES = [
   {
     "name": "Xamã",
     "type": "classe",
-    "img": "icons/svg/shield.svg",
+    "img": "systems/mighty-blade/assets/forja/xama1.png",
     "system": {
       "atributos": {
         "forca": 1,
@@ -1134,12 +2302,575 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"lore\"><p>Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><p>A ligação com os espíritos naturais permite que muitos Xamãs sejam capazes de se comunicar com os animais, comandá-los e criar poderosos vínculos com eles. Xamãs particularmente conectados aos animais são capazes de tomar a forma destes, transformando-se completamente ou adquirindo características animalescas – como guelras, garras e asas.</p><p>Xamãs ligados aos espíritos dos mortos costumam assumir posições de conselheiros nas comunidades onde habitam, enquanto aqueles ligados a espíritos animais tendem a assumir posições como caçadores ou campeões tribais. Em Ambrook, Lorde Narat mantém uma guarda pessoal de Xamãs especializados em metamorfose, e é dito que o rei Honório Van Strauss fazia uso de xamãs metamorfos como espiões e sentinelas.</p><p>Apesar de comumente serem encontrados em comunidades tribais, afastadas da civilização, é possível encontrar xamãs em grandes metrópoles, às vezes simplesmente de passagem, lidando com alguma área assombrada por espíritos, ou, mais raramente como residentes de áreas infestadas de espíritos – às vezes agindo como guardiões, às vezes como carcereiros.</p></div><div style=\"margin-top:8px;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div>\n      <div style=\"margin-top:8px;font-size:12px;opacity:0.9;\">\n        <strong>Habilidades Disponíveis:</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico, companheiro-animal-1, companheiro-animal-2, comunhao-com-espiritos, contato-com-espiritos, chamado-do-alfa, combate-com-duas-armas-1, cura-espiritual, espirito-animal, forma-animal-1, herbalismo, invocar-espirito-animal, rugido-do-alfa, rugido-do-predador, sabedoria-selvagem, sem-escapatoria, vantagem-animal-1, atropelar, caminhada-fantasma, companheiro-animal-3, companheiro-espiritual, estracalhar, forma-animal-2, implacavel, imunidade-espiritual, mestre-domador, vantagem-animal-2, guardiao-da-natureza\n      </div>\n    "
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b89d37f86c189b3e\" data-slug=\"xama\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (35 Habilidades):</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico...</div></div>"
     },
     "flags": {
       "mighty-blade": {
         "slug": "xama",
+        "diarioId": "b89d37f86c189b3e",
         "conjurador": false
+      }
+    }
+  }
+];
+
+export const CANONICAL_CAMINHOS = [
+  {
+    "name": "Amoque",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/amoque.png",
+    "system": {
+      "requisitos": "Força 6, Uma habilidade de Fúria qualquer.",
+      "habilidadeAutomatica": "Irrefreável",
+      "racasComuns": "Aesir, Centauro, Fauno e Orc.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Amoques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5483fa0277bff76e\" data-slug=\"amoque\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 6, Uma habilidade de Fúria qualquer.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Fauno e Orc.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "amoque",
+        "diarioId": "5483fa0277bff76e"
+      }
+    }
+  },
+  {
+    "name": "Arconte",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/arconte.png",
+    "system": {
+      "requisitos": "Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.",
+      "habilidadeAutomatica": "Autoridade Legal",
+      "racasComuns": "Fira, Juban e Humano.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da Espada de Mirah, e precisam ser admitidos como Irmãos dentro da ordem – embora não precisem se tornar Jurados ou Priores, muitos deles também almejam estes títulos dentro da Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.caefda4857de50b1\" data-slug=\"arconte\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Juban e Humano.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "arconte",
+        "diarioId": "caefda4857de50b1"
+      }
+    }
+  },
+  {
+    "name": "Assassino",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/assassino.png",
+    "system": {
+      "requisitos": "Agilidade 4, Ataque Aleijador.",
+      "habilidadeAutomatica": "Atacar pelas Costas",
+      "racasComuns": "Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c3073b46befe34a1\" data-slug=\"assassino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Agilidade 4, Ataque Aleijador.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "assassino",
+        "diarioId": "c3073b46befe34a1"
+      }
+    }
+  },
+  {
+    "name": "Avantesma",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/avantesma.png",
+    "system": {
+      "requisitos": "Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.",
+      "habilidadeAutomatica": "Frio Cadavérico",
+      "racasComuns": "Humano, por chance.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Avantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1ad387a37682d486\" data-slug=\"avantesma\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano, por chance.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "avantesma",
+        "diarioId": "1ad387a37682d486"
+      }
+    }
+  },
+  {
+    "name": "Aziago",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/aziago.png",
+    "system": {
+      "requisitos": "Vontade 5, Conhecimento Arcano.",
+      "habilidadeAutomatica": "Conhecimento Nefasto",
+      "racasComuns": "Humano e Naga.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Aziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.aa729f69111ff630\" data-slug=\"aziago\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "aziago",
+        "diarioId": "aa729f69111ff630"
+      }
+    }
+  },
+  {
+    "name": "Alquimista",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/alquimista.png",
+    "system": {
+      "requisitos": "Inteligência 5, Herbalismo.",
+      "habilidadeAutomatica": "Alquimia Básica",
+      "racasComuns": "Anão, Fira, Elfo, Faen, Humano.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a93b2b300ce3fb9c\" data-slug=\"alquimista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Herbalismo.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Elfo, Faen, Humano.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "alquimista",
+        "diarioId": "a93b2b300ce3fb9c"
+      }
+    }
+  },
+  {
+    "name": "Argênteo",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/argenteo.png",
+    "system": {
+      "requisitos": "Inteligência 5, Teleporte 1.",
+      "habilidadeAutomatica": "Aporte",
+      "racasComuns": "Elfo, Faen, Humano, Levent, Tailox.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Argênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.0ab960d2e795b6ce\" data-slug=\"argenteo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Teleporte 1.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Humano, Levent, Tailox.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "argenteo",
+        "diarioId": "0ab960d2e795b6ce"
+      }
+    }
+  },
+  {
+    "name": "Arqueiro",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/arqueiro.png",
+    "system": {
+      "requisitos": "Força 4, Inteligência 4, Sentidos Apurados.",
+      "habilidadeAutomatica": "Arqueria",
+      "racasComuns": "Anão, Centauro, Humano, Juban.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Em Cassiopéia, um Arqueiro é qualquer especialista no uso de um arco, seja o tradicional arco de caça ou guerra, o arco horizontal montado sobre um cabo como no caso das bestas ou mesmo os arcos das forquilhas de bodoques. No entanto, como muitos caçadores, rastreadores e batedores costumam usar essas armas, o termo Arqueiro é utilizado entre Patrulheiros, Guerreiros e outros homens-de-armas para definir um grupo mais restrito de soldados: aqueles usuários de arcos que guardam e vigiam.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1a4f5a5d76d435a0\" data-slug=\"arqueiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 4, Inteligência 4, Sentidos Apurados.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Centauro, Humano, Juban.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "arqueiro",
+        "diarioId": "1a4f5a5d76d435a0"
+      }
+    }
+  },
+  {
+    "name": "Artífice",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/artifice.png",
+    "system": {
+      "requisitos": "Inteligência 5, Conhecimento Arcano.",
+      "habilidadeAutomatica": "Encantar Talismã",
+      "racasComuns": "Aesir, Anão, Elfo, Fira, Metadílio.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Artífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.72144f07e1e5047d\" data-slug=\"artifice\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Conhecimento Arcano.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Elfo, Fira, Metadílio.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "artifice",
+        "diarioId": "72144f07e1e5047d"
+      }
+    }
+  },
+  {
+    "name": "Cultista",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/cultista.png",
+    "system": {
+      "requisitos": "Pacto.",
+      "habilidadeAutomatica": "Invocação Infernal",
+      "racasComuns": "Humano e Naga.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.62e5078a5daba2bd\" data-slug=\"cultista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Pacto.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cultista",
+        "diarioId": "62e5078a5daba2bd"
+      }
+    }
+  },
+  {
+    "name": "Cruzado",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/cruzado.png",
+    "system": {
+      "requisitos": "Vontade 4, Dogma.",
+      "habilidadeAutomatica": "Força Divina",
+      "racasComuns": "Anão, Elfo, Humano, Juban, Levent, Tailox.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.46dc69095da17431\" data-slug=\"cruzado\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 4, Dogma.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Elfo, Humano, Juban, Levent, Tailox.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cruzado",
+        "diarioId": "46dc69095da17431"
+      }
+    }
+  },
+  {
+    "name": "Domador",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/domador.png",
+    "system": {
+      "requisitos": "Vontade 5, Benção de Ellenis.",
+      "habilidadeAutomatica": "Companheiro Animal 1",
+      "racasComuns": "Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Domadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ebef2b7cb8f4737\" data-slug=\"domador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Benção de Ellenis.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "domador",
+        "diarioId": "6ebef2b7cb8f4737"
+      }
+    }
+  },
+  {
+    "name": "Escriba",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/escriba.png",
+    "system": {
+      "requisitos": "Inteligência 4.",
+      "habilidadeAutomatica": "Escrivão",
+      "racasComuns": "Anão, Fira, Humano, Metadílio.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Escribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8f06be0ffc374af7\" data-slug=\"escriba\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Humano, Metadílio.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "escriba",
+        "diarioId": "8f06be0ffc374af7"
+      }
+    }
+  },
+  {
+    "name": "Estrige",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/estrige.png",
+    "system": {
+      "requisitos": "Inteligência 4, Matado algo sobrenatural.",
+      "habilidadeAutomatica": "Caça Sobrenatural",
+      "racasComuns": "Elfo, Fauno, Humano, Levent, Metadílio, Tailox.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Estrige é o nome dado aos membros da Ordem dos Caçadores Sobrenaturais, homens e mulheres que dedicam suas vidas para caçar e destruir criaturas amaldiçoadas de todos os tipos, como fantasmas, lobisomens, demônios e mortos-vivos – assim como aqueles que lidam com essas criaturas, como Cultistas e Necromantes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.94efab307dba9fd2\" data-slug=\"estrige\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Matado algo sobrenatural.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Fauno, Humano, Levent, Metadílio, Tailox.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "estrige",
+        "diarioId": "94efab307dba9fd2"
+      }
+    }
+  },
+  {
+    "name": "Ilusionista",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/ilusionista.png",
+    "system": {
+      "requisitos": "Inteligência 5, Detectar Magia.",
+      "habilidadeAutomatica": "Ilusão 1",
+      "racasComuns": "Elfo, Faen, Metadílio.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5fcd20ace39eef3b\" data-slug=\"ilusionista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Detectar Magia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Metadílio.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "ilusionista",
+        "diarioId": "5fcd20ace39eef3b"
+      }
+    }
+  },
+  {
+    "name": "Invocador",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/invocador.png",
+    "system": {
+      "requisitos": "Vontade 6, Detectar Magia.",
+      "habilidadeAutomatica": "Invocar Familiar",
+      "racasComuns": "Anão, Fira, Mahok, Levent.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los. Apesar das óbvias aplicações combativas, muitos Invocadores na verdade usam suas habilidades para atividades mais mundanas. Como são incansáveis, seguem ordens com exatidão e não se distraem, golens e elementais são trabalhadores extremamente eficientes. A Academia Argêntea e algumas metrópoles de Tebryn, Parband e Dagothar empregam Invocadores como arquitetos e construtores, enquanto muitos utilizam suas invocações como auxiliares em laboratórios, forjas e oficinas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.9a48179272b7e7cb\" data-slug=\"invocador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 6, Detectar Magia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Mahok, Levent.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocador",
+        "diarioId": "9a48179272b7e7cb"
+      }
+    }
+  },
+  {
+    "name": "Lanceiro",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/lanceiro.png",
+    "system": {
+      "requisitos": "Força 3, Sem Escapatória.",
+      "habilidadeAutomatica": "Manter a Linha",
+      "racasComuns": "Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Lanceiros são especialistas no uso de armas de haste. Apesar de usualmente eles preferirem lanças, particularmente eficientes quando usadas em formação, muitos Lanceiros favorecem alabardas, glaives ou martelos lucernos ao invés de lanças.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b57e55f99ca1c3b7\" data-slug=\"lanceiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 3, Sem Escapatória.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "lanceiro",
+        "diarioId": "b57e55f99ca1c3b7"
+      }
+    }
+  },
+  {
+    "name": "Oráculo",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/oraculo.png",
+    "system": {
+      "requisitos": "Vontade 6, Conhecimento Místico.",
+      "habilidadeAutomatica": "Clarividência",
+      "racasComuns": "Aesir, Humano, Juban, Levent, Metadílio, Tailox.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.315953a25883abba\" data-slug=\"oraculo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 6, Conhecimento Místico.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Humano, Juban, Levent, Metadílio, Tailox.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "oraculo",
+        "diarioId": "315953a25883abba"
+      }
+    }
+  },
+  {
+    "name": "Sanguíneo",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/sanguineo.png",
+    "system": {
+      "requisitos": "Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.",
+      "habilidadeAutomatica": "Magia Sanguínea",
+      "racasComuns": "Aesir, Elfo, Fira e Humano.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sanguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ae10c0e7b21d3531\" data-slug=\"sanguineo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Elfo, Fira e Humano.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sanguineo",
+        "diarioId": "ae10c0e7b21d3531"
+      }
+    }
+  },
+  {
+    "name": "Tohunga",
+    "type": "caminho",
+    "img": "systems/mighty-blade/assets/forja/tohunga.png",
+    "system": {
+      "requisitos": "Vontade 3, Artesão.",
+      "habilidadeAutomatica": "Primeira Marca",
+      "racasComuns": "Aesir, Anão, Astério.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Em Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.61a019366e15ebfe\" data-slug=\"tohunga\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 3, Artesão.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "tohunga",
+        "diarioId": "61a019366e15ebfe"
+      }
+    }
+  }
+];
+
+export const CANONICAL_ORGANIZACOES = [
+  {
+    "name": "Irmandade do Anel de Bronze",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_anel.png",
+    "system": {
+      "tipo": "Mercante",
+      "sede": "Altéria",
+      "lideranca": "Lars Finnigan (Humano Ladino 8)",
+      "ingresso": "Indicação por um membro e aprovação de outros dois.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.276f5d555b77d9e3\" data-slug=\"irmandade-do-anel-de-bronze\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Mercante</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Altéria</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "irmandade-do-anel-de-bronze",
+        "diarioId": "276f5d555b77d9e3"
+      }
+    }
+  },
+  {
+    "name": "Espada de Mirah",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_espada.png",
+    "system": {
+      "tipo": "Ordem",
+      "sede": "?",
+      "lideranca": "Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)",
+      "ingresso": "Período como escudeiro, seguido de uma sabatina perante os juízes.",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5ce31fdfb296a239\" data-slug=\"espada-de-mirah\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Período como escudeiro, seguido de uma sabatina perante os juízes.</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "espada-de-mirah",
+        "diarioId": "5ce31fdfb296a239"
+      }
+    }
+  },
+  {
+    "name": "Forjas de Hou",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_forja.png",
+    "system": {
+      "tipo": "Guilda",
+      "sede": "Tebrynia",
+      "lideranca": "Noa Abir (Fira Senescal 7)",
+      "ingresso": "Demonstração de habilidade",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada em Tebrynia pelo Rei Kirk van Strauss como parte da revitalização da cidade, o Rei de Ferro concedeu benefícios para os artesãos que quisessem estabelecer suas oficinas em uma das áreas mais pobres de Tebrynia na época. Em pouco tempo vários artesãos haviam criado suas oficinas na região, e uma grande maioria dessas oficinas eram forjas de Anões vindos de Stord e Forjaguardas. Esses ferreiros rapidamente se integraram formando uma guilda de ferreiros, e adotaram, eventualmente, o nome do deus patrono dos ferreiros para nomear sua guilda. O próprio nome do bairro onde hoje a guilda se instala se deve ao fato do primeiro grande contrato da guilda ter sido a fabricação de espadas para a guarda de Tebryn.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e199f3077cca010\" data-slug=\"forjas-de-hou\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Guilda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Noa Abir (Fira Senescal 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "forjas-de-hou",
+        "diarioId": "3e199f3077cca010"
+      }
+    }
+  },
+  {
+    "name": "Íris de Maltas",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_iris.png",
+    "system": {
+      "tipo": "Guilda",
+      "sede": "Tebrynia, Ambrook e Braktar",
+      "lideranca": "Não identificado",
+      "ingresso": "Habitante de Tebryn sem ofensas registradas contra o governo",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Esta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.05e801a84d8cfe98\" data-slug=\"iris-de-maltas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Guilda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia, Ambrook e Braktar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Habitante de Tebryn sem ofensas registradas contra o governo</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "iris-de-maltas",
+        "diarioId": "05e801a84d8cfe98"
+      }
+    }
+  },
+  {
+    "name": "O Arpão",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_arpao.png",
+    "system": {
+      "tipo": "Naval",
+      "sede": "Lonjágua",
+      "lideranca": "Não identificado",
+      "ingresso": "Não mencionado",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.2845c3fb7e77d4f3\" data-slug=\"o-arpao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Lonjágua</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "o-arpao",
+        "diarioId": "2845c3fb7e77d4f3"
+      }
+    }
+  },
+  {
+    "name": "Capuzes Negros",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_capuz.png",
+    "system": {
+      "tipo": "Criminal",
+      "sede": "Tebrynia",
+      "lideranca": "Não identificado",
+      "ingresso": "Demonstração de habilidade",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1d6e6781ed62f892\" data-slug=\"capuzes-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "capuzes-negros",
+        "diarioId": "1d6e6781ed62f892"
+      }
+    }
+  },
+  {
+    "name": "Cesto de Adagas",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_cesto.png",
+    "system": {
+      "tipo": "Criminal",
+      "sede": "Tebrynia",
+      "lideranca": "Não identificado",
+      "ingresso": "Não mencionado",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8b8f8463666fe09b\" data-slug=\"cesto-de-adagas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cesto-de-adagas",
+        "diarioId": "8b8f8463666fe09b"
+      }
+    }
+  },
+  {
+    "name": "Corvos Negros",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_corvo.png",
+    "system": {
+      "tipo": "Ordem",
+      "sede": "Miralda",
+      "lideranca": "Brunn Fracta (Humano Feiticeiro 7)",
+      "ingresso": "Ser um conjurador arcano e seis meses de serviço probatório",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4ede745be60451c1\" data-slug=\"corvos-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Miralda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Brunn Fracta (Humano Feiticeiro 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Ser um conjurador arcano e seis meses de serviço probatório</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "corvos-negros",
+        "diarioId": "4ede745be60451c1"
+      }
+    }
+  },
+  {
+    "name": "Crânios Vermelhos",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_cranio.png",
+    "system": {
+      "tipo": "Criminal",
+      "sede": "Tebrynia",
+      "lideranca": "Desconhecido",
+      "ingresso": "Combate, tortura e tatuagem",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.edc9464c76248c66\" data-slug=\"cranios-vermelhos\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Desconhecido</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Combate, tortura e tatuagem</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cranios-vermelhos",
+        "diarioId": "edc9464c76248c66"
+      }
+    }
+  },
+  {
+    "name": "Lobos dos Mares",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_lobo.png",
+    "system": {
+      "tipo": "Naval",
+      "sede": "Navio Lobo de Guerra, atracado no extremo do porto de Adieren",
+      "lideranca": "Não possui",
+      "ingresso": "Não mencionado",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ac097694e091b93a\" data-slug=\"lobos-dos-mares\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Navio Lobo de Guerra, atracado no extremo do porto de Adieren</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não possui</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "lobos-dos-mares",
+        "diarioId": "ac097694e091b93a"
+      }
+    }
+  },
+  {
+    "name": "Hoste de Hadorn",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_hoste.png",
+    "system": {
+      "tipo": "Militar",
+      "sede": "?",
+      "lideranca": "General Fengran Rosevox (Humano Sacerdote Cruzado 10)",
+      "ingresso": "Treinamento, seguido de alistamento",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.bf8bbb2c05baa928\" data-slug=\"hoste-de-hadorn\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> General Fengran Rosevox (Humano Sacerdote Cruzado 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "hoste-de-hadorn",
+        "diarioId": "bf8bbb2c05baa928"
+      }
+    }
+  },
+  {
+    "name": "Guarda das Fronteiras Rochosas",
+    "type": "organizacao",
+    "img": "systems/mighty-blade/assets/forja/org_guarda.png",
+    "system": {
+      "tipo": "Militar",
+      "sede": "Stord",
+      "lideranca": "Ingvi Steinfinga (Anã Guerreira 10)",
+      "ingresso": "Treinamento, seguido de alistamento",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e384d6d238e49c8\" data-slug=\"guarda-das-fronteiras-rochosas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Stord</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "guarda-das-fronteiras-rochosas",
+        "diarioId": "3e384d6d238e49c8"
       }
     }
   }
@@ -26643,6 +28374,2479 @@ export const CANONICAL_EQUIPAMENTOS = [
       "mighty-blade": {
         "slug": "manto-da-protecao",
         "categoria": "Especial"
+      }
+    }
+  }
+];
+
+export const CANONICAL_DIARIOS = [
+  {
+    "_id": "d76f05d05c0b4754",
+    "name": "Diário: Anão",
+    "pages": [
+      {
+        "_id": "1124ec031f1715a9",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/anao.png\" alt=\"Anão\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.</li><br><li><strong>Pele e Pelagem:</strong> Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).</li><br><li><strong>Ciclo de Vida:</strong> A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-14 anos</li><li><strong>Adolescente:</strong> 15-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "f0485708b18deff1",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.</li><br><li><strong>Tradição, Ofícios e Religião:</strong> A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.</li><br><li><strong>Casamento e Clãs:</strong> O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "caee092d1b80f516",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.</p><h4>Nomes Masculinos</h4><p>Alberik, Alvis, Andavari, Brok, Bror, Brunkil, Durin, Dvalin, Eitri, Fialar, Filibar, Fingal, Fulgrin, Galar, Hengal, Honir, Imborg, Ivaldi, Lofar, Magni, Módi, Mosonir, Narfi, Nari, Olrik, Regin, Rurik, Storlin, Torveg, Vali, Vik, Zarlin</p><h4>Nomes Femininos</h4><p>Agda, Brena, Brunhild, Dagma, Disa, Ead, Edila, Eirild, Embla, Fria, Hnossa, Ida, Idhuna, Indunna, Ingrid, Ingvild, Irpa, Kelda, Nagla, Nanna, Niela, Nornild, Ostara, Rind, Skulda, Thorhild, Urda, Valla, Verdanda, Voluspa</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/anao.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "anao",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "227c126eb777dc6f",
+    "name": "Diário: Elfo",
+    "pages": [
+      {
+        "_id": "211bd5c3e03365d2",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/elfo.png\" alt=\"Elfo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de estatura mediana, esbeltos e com traços delicados, medindo entre 1,60 e 1,70 metros de altura e pesando de 50 a 60 quilos. Sua característica mais marcante são as longas orelhas pontudas, que lhes conferem audição superior.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem tonalidades douradas ou bronzeadas. A pelagem do corpo é muito fina, e os cabelos são tradicionalmente mantidos muito longos (em tranças ou amarrações). Os fios são de cores muito claras, como louro ou branco, e diferente de outras raças, a cor não muda com o tempo ou com a idade.</li><br><li><strong>Olhos:</strong> Apresentam cores claras, sendo verde, lilás e azul os mais comuns, com alguns raros indivíduos de olhos âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam mamas pequenas. Como os machos não desenvolvem barba e ambos os gêneros têm corpos esbeltos e feições delicadas, raças não-mamíferas (ou pessoas pouco atentas) têm grande dificuldade para distinguir machos de fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação élfica dura longos 18 meses. O desenvolvimento físico da raça atinge o ápice aos 25 anos. A partir daí, a \"Bênção de Lathellanis\" impede que o corpo sofra os efeitos de desgaste do envelhecimento natural. Vivem em média 500 anos, podendo alcançar os 700. Elfos não sofrem os efeitos comuns do envelhecimento e não entram na categoria Ancião. A partir da idade de Idoso, ao invés de perderem atributos físicos, eles acumulam falhas e, em dado momento, entram em um estado plácido onde se preparam para morrer em poucos dias.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-14 anos</li><li><strong>Adolescente:</strong> 15-24 anos</li><li><strong>Adulto:</strong> 25 anos</li><li><strong>Idoso:</strong> 400(50) anos</li><li><strong>Ancião:</strong> — anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "41a3b6f226aa1e12",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> O reino natal dos elfos é Londérien, mas eles habitam as profundezas de florestas, como em Ambrook (Tebryn). A sociedade é estritamente matriarcal, com fêmeas liderando as comunidades, e sacerdotisas e druidesas de Lathellanis ocupando as posições de maior prestígio. A arquitetura se molda à natureza sem derrubar as matas, esculpindo domos em plantas e grutas para formarem cidades perfeitamente camufladas, com baixa densidade populacional.</li><br><li><strong>Sustento e Tecnologia:</strong> Não domesticam animais para abate e evitam plantações em larga escala. Especialistas em forrageio e caça sustentável, extraem o que precisam direto da natureza (carne, lã, frutos) de modo a não abalar o ecossistema. São a única raça que se recusa a minerar as entranhas da terra; todo o metal élfico é obtido por garimpo de aluvião (peneirando a terra superficial). Devido a isso, armas élficas geralmente são de madeiras exóticas como a Kraneia, e os metais são usados em detalhes e joias belíssimas.</li><br><li><strong>Estilo de Vida (Lazer):</strong> São práticos, frugais e caridosos. Não acreditam em acúmulo de bens pessoais. Preferem o compartilhamento de conhecimento, e seu lazer gira em torno de filosofia, literatura, arte e canções.</li><br><li><strong>Relações Interpessoais:</strong> Apesar do isolacionismo em suas florestas (sendo bastante restritos com forasteiros em Londérien), eles mantêm relações diplomáticas e comerciais pacíficas de séculos com Humanos, Anões e Metadílios. Contudo, mantêm uma profunda desconfiança com os Centauros devido a guerras passadas em Tebryn.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "258cb1762fce22a2",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>O idioma oficial dos elfos é o Caint (com sonoridade similar ao Gaélico Irlandês). É uma língua complexa e melodiosa, mas sua escrita visual parece um pequeno bosque de árvores estilizadas. Os nomes élficos seguem regras rígidas e geralmente contêm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Qualquer nome anglo-saxão adaptado funciona. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Elfos não usam sobrenomes de família. Eles usam o local onde nasceram ou a organização/religião para a qual trabalham. Exemplo: Aesc Floresta da Névoa, Cerdic Kead de Lathellanis.</p><h4>Nomes Masculinos</h4><p>Aelred, Aeteltan, Cerdic, Dunstan, Fianoc, Godric, Keleoc, Landric, Lanevar, Leofric, Lewyd, Uhtric</p><h4>Nomes Femininos</h4><p>Aedil, Alfrith, Careth, Deorwin, Ealhedil, Edith, Faedil, Gleadwin, Leofwin, Rivelwin, Saewin, Valedith, Vanedwin</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/elfo.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "elfo",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "bcc2fcd84a4c4bf3",
+    "name": "Diário: Fauno",
+    "pages": [
+      {
+        "_id": "58a35a6096241d23",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/fauno.png\" alt=\"Fauno\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides com pernas longas e musculosas; eles são digitígrados e seus pés terminam em dois dedos, cada um protegido por um forte casco. Possuem pouquíssima gordura corporal, costumam ter uma estatura variando entre 1,5 a 1,7 metros e pesam de 50 a 60 quilos. No alto da cabeça desenvolvem chifres queratinosos que crescem paralelos à testa e se inclinam para trás, podendo ter formato espiralado (e que crescem de novo caso sejam cortados).</li><br><li><strong>Pele e Pelagem:</strong> A pele é parda ou bronzeada e quase todo o corpo, com exceção da palma das mãos, é coberto por uma pelagem fina, curta e densa. Essa pelagem é sólida, não possuindo manchas ou padrões, e os tons variam do louro-palha a um castanho tão escuro que chega perto do preto. Quando ficam velhos, os pelos vão desbotando até o cinza ou o branco puro.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas apresentam chifres mais curtos, duas mamas pequenas e feições faciais muito mais delicadas. Além disso, elas possuem menos pelos corporais e, diferentemente dos machos, não desenvolvem barba.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das faunesas dura em torno de oito meses. As crianças andam já por volta do primeiro ano de idade, e o formato de seus chifres seguirá exatamente e sem exceções o mesmo padrão do pai. A maioridade ocorre aos 18 anos e envelhecem devagar, podendo chegar até os 200 anos de idade – embora fiquem muito frágeis e fracos nessa etapa da vida.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-17 anos</li><li><strong>Adulto:</strong> 18 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "9d033c2b39353546",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> São silvícolas por natureza, preferindo viver em matas e selvas fechadas, construindo grandes casas comunais. Originalmente teriam migrado para as terras que hoje pertencem a Londérien (onde são muito numerosos) e na região de Tebryn ocupam principalmente a Floresta da Borda e partes da Floresta dos Antigos. Se houver inimigos ao redor de suas casas, costumam montar paliçadas com troncos e fazer armadilhas rudimentares, como fossos cheios de estacas.</li><br><li><strong>Papéis Sociais e Educação:</strong> Existe uma clara separação de papéis práticos: machos caçam, pescam, constroem e fazem manutenção de estruturas; fêmeas cuidam das plantações, alimentos, tecidos e utensílios. Já práticas intelectuais como ritos xamânicos, medicina e artes são tarefas divididas independentemente de gênero. A criação dos filhos é livre e feita coletivamente por toda a tribo, estimulando autonomia. Um casal recém-formado amamenta e cria seus recém-nascidos por vários anos de forma próxima, contudo, é raro que os laços matrimoniais se mantenham após o período inicial da criação do filho.</li><br><li><strong>Arte, Música e Combate:</strong> A música é o pilar da cultura dos faunos. Sem o costume de ler e escrever, eles dependem de seus Bardos para a manutenção de sua história. Seus Druidas também conjuram utilizando melodias musicais, e eles fazem uso intenso de pinturas corporais em suas atividades artísticas e místicas. Além disso, o estilo de luta dos Capoeiristas surgiu entre os Faunos, inicialmente usando seu movimento rítmico para confundir os ataques de animais selvagens.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "27f51b2226b10cf3",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa dos Faunos (falada também por Centauros e alguns Faens) é o Silvestre, que os Faunos preferem chamar de Nheengatu. Esse idioma tem raízes atreladas ao grupo Tupi-Guarani, e a formação de seus nomes é caracterizada pela aglutinação de duas ou três palavras do dialeto. Assim como os Centauros, os Faunos não usam sobrenomes de família em nenhuma hipótese.</p><h4>Nomes Masculinos</h4><p>Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi, Katubira, Katuibipuí, Puiubitu, So’obixabasu, Usubixaba</p><h4>Nomes Femininos</h4><p>Airatatá, Esayubá, Jubotira, Kuamukaa, Kurataiberaba, Sokunhã, Suiara</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/fauno.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "fauno",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "32a7aec4fca470b7",
+    "name": "Diário: Humano",
+    "pages": [
+      {
+        "_id": "68296b93c77d3c7e",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/humano.png\" alt=\"Humano\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Por serem os humanoides mais numerosos de Drakon, servem como a base biológica de comparação para as outras raças. Possuem estatura mediana (entre 1,5 e 1,9 metros) e um peso que varia consideravelmente de acordo com seu estilo de vida, indo de 40 a até 140 quilos (com a média girando entre 60 e 80 quilos). Indivíduos que fogem muito dessa média geralmente são portadores de deficiências de nascença.</li><br><li><strong>Pele e Pelagem:</strong> A pele apresenta uma grande diversidade, variando do rosado ao negro, passando por várias tonalidades de pardo. O corpo é recoberto por uma pelagem rala e fina (mais abundante nos machos), com grande concentração de pelos no alto da cabeça. A coloração dos cabelos vai do amarelo palha ao negro, incluindo louro, castanho e, mais raramente, ruivo.</li><br><li><strong>Olhos:</strong> A cor costuma ser castanha, verde ou, mais raramente, azul.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas se distinguem por não possuírem pelos faciais (barba), por serem geralmente um pouco menores e por possuírem traços mais delicados. Elas também apresentam mamas que variam de pequenas a grandes, que costumam aumentar de tamanho após a primeira gestação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e atingem a maioridade biológica aos 16 anos. Vivem em média até os 80 anos (raramente chegando aos 100), com os primeiros sinais do envelhecimento surgindo por volta dos 50 anos de idade.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 50(8) anos</li><li><strong>Ancião:</strong> 80(1) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "13ec95a57556de93",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Expansão:</strong> É a raça mais expansionista do continente, estando presente em todos os reinos conhecidos. Apreciam tratados, trocas de conhecimentos acadêmicos e, quando vivem fora de seu reino nativo (Tebryn), tendem a adotar os costumes da cultura local.</li><br><li><strong>Estrutura Política e Social:</strong> Costumam organizar-se em um sistema de meritocracia titular, onde funções e propriedades são garantidas por mérito pessoal através de títulos não-hereditários. No entanto, na prática, é extremamente comum que parte do prestígio e as responsabilidades passem de pai para filho.</li><br><li><strong>Sustento e Arquitetura:</strong> Assentam suas cidades próximas a recursos cruciais (como rios e bosques) e exploram a natureza ao máximo. Embora civilizações humanas antigas tenham perecido por esgotarem seu ambiente, os humanos contemporâneos aprenderam com os Elfos a gerenciar os recursos de forma sustentável. A arquitetura foca na funcionalidade: usam madeira ou barro para construções rápidas, que depois são substituídas por sólidas estruturas de pedra. Residências de nobres, castelos e bibliotecas possuem estética requintada, frequentemente influenciada pela engenharia anã.</li><br><li><strong>Religião:</strong> A reverência à Tríade Divina é unânime, mas indivíduos e comunidades escolhem padroeiros ligados às suas profissões (por exemplo, magistrados e soldados cultuam Mirah; já carpinteiros e druidas preferem Ellenis).</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "f60b2fbff87abc01",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa da humanidade é o Burguês Tebryniano (o idioma análogo ao Português). Nomes humanos têm de duas a quatro sílabas e não possuem regras de criação rígidas. Eles frequentemente adaptam palavras estrangeiras apenas por acharem a sonoridade atraente. O método oficial para criar nomes é alterar, adicionar ou remover letras de um nome brasileiro comum (Ex: Trocando letras de Rodrigo, obtém-se o nome Lodrago). Os Humanos dão imenso valor a sobrenomes familiares (diferente de faunos ou astérios). No casamento, os cônjuges podem manter o nome de solteiro, adotar o do outro ou, mais raramente, unir ambos.</p><h4>Nomes Masculinos</h4><p>Alford, Arn, Arnulfo, Balto, Brando, Bredo, Brunn, Cladro, Daland, Dineon, Fastolfo, Fengran, Garet, Gastav, Gultan, Jorand, Lars, Leivis, Lodrago, Lorval, Marino, Nil, Penard, Randal, Rob, Rodric, Rubert, Stefan, Tair, Talin, Teon, Torbeno, Vendal, Viliano</p><h4>Nomes Femininos</h4><p>Albina, Alise, Cindal, Cirela, Elmeara, Emadeline, Farla, Galena, Garlana, Herana, Ianca, Isobela, Janiele, Laria, Laudra, Licila, Lilidia, Locasta, Loren, Lorini, Matilda, Nina, Robena, Rosa, Sabana, Sindel, Taliana, Thail, Tilia, Valsina, Vedra, Violeta</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/humano.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "humano",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "6552939f6d14d4bf",
+    "name": "Diário: Juban",
+    "pages": [
+      {
+        "_id": "3c83e28cee907557",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/juban.png\" alt=\"Juban\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides com pernas digitígradas e feições que lembram grandes felinos. Possuem uma estatura que varia de 1,8 a 2 metros, e sua musculatura densa e pesada faz com que cheguem facilmente a 140 quilos (com média de 120 kg). Possuem um focinho curto munido de presas fortes, quatro dedos nos pés e mãos com garras curvas curtas, e uma cauda de cerca de um metro, cuja utilidade para o equilíbrio se perdeu na evolução da raça.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, encoberta quase inteiramente por uma pelagem fina e cerrada que varia do dourado ao marrom escuro (os tons castanho-avermelhados são os mais comuns, existindo ocorrências de manchas e listras). Alguns raríssimos Jubans apresentam pelo inteiramente branco, o que é uma anomalia parecida com o albinismo, porém sem a sensibilidade ao sol de outras raças.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são facilmente reconhecíveis por ostentarem uma pelagem bem mais densa e abundante no pescoço e alto da cabeça (uma juba), geralmente numa tonalidade mais escura que o resto do corpo. As fêmeas são distinguidas por não desenvolverem jubas e por apresentarem duas mamas diminutas, geralmente difíceis de notar por conta da forte constituição muscular da raça.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em média nove meses e a maturidade chega aos 18 anos. O declínio da idade (que se mostra primeiro pelo enfraquecimento das garras e presas) começa por volta dos 80 anos, e vivem em média até os 140 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-13 anos</li><li><strong>Adolescente:</strong> 14-17 anos</li><li><strong>Adulto:</strong> 18 anos</li><li><strong>Idoso:</strong> 80(14) anos</li><li><strong>Ancião:</strong> 140(2) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "8a6c89c041798efc",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Costumam se estabelecer em planícies e savanas. Valorizam enormemente estruturas militares, e frequentemente aplainam o cume de colinas próximas aos seus assentamentos para a construção de praças fortificadas (como Kommos, a capital administrativa do reino de Parband, que repousa segura sobre um planalto).</li><br><li><strong>Disciplina, Religião e Justiça:</strong> A sociedade é disciplinada e embasada nos dogmas de seu padroeiro e criador, Ahogr, o Ruge-Mundos. Eles prezam a força nos campos físico, espiritual e de caráter. A mentira, a intriga e a covardia são consideradas falhas de caráter inaceitáveis e são punidas mais severamente do que roubos ou homicídios. Ironicamente, eles tendem a ser lenientes ao julgarem membros de outras raças por atos covardes, pois acreditam que quem não foi criado por Ahogr possui um \"espírito fraco\" e não pode ser culpado de sua natureza.</li><br><li><strong>Treinamento e Armas Naturais:</strong> Desde os 8 anos até os 14 anos, todos os Jubans recebem rígido treinamento em quartéis (aprendendo táticas, armas, matemática, história e literatura) para forjar um caráter inquebrável. Os civilizados adotaram o hábito social de manter suas garras curtas e polidas, acreditando que usá-las como armas (e as presas também) é um ato desesperado, bárbaro e extremamente desonroso (apesar de caçadores e rastreadores não compartilharem dessa visão de desonra). O rugido, no entanto, é a arma natural respeitada e adorada por todos, e seus bardos e guerreiros fazem intenso uso dele em batalha para encorajar os companheiros e causar medo nos oponentes.</li><br><li><strong>Relações Interpessoais (Família e Assimilação):</strong> Existe total igualdade entre gêneros em sua sociedade; ambos passam por exatamente o mesmo duro treinamento e atuam nas mesmas posições e patentes militares sem restrições. Os casais não veem a necessidade de terem dezenas de filhos, pois abominam a ideia de serem \"fardos para a sociedade\" (sendo comum que, quando engravidam, o casal seja liberado de seus postos por um ano, tendo duas ou três crias seguidas, e então voltando à rotina para não se manterem improdutivos). Eles também acolheram os furtivos Tailox de Gaian, que fugiam das ameaças Gnolls, assimilando sua sociedade em uma união produtiva, onde a agilidade pequena do Tailox serve como espiões perfeitos para a força do Juban.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "771c6de5cd506f53",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A criação de nomes Jubans (e de seus aliados Tailox) gera palavras de uma a três sílabas, em que os nomes iídiches do mundo real funcionam com perfeição. Jubans nunca utilizam sobrenomes, e não são definidos por suas linhagens ou famílias. Em seu lugar, identificam-se dizendo a sua patente ou função somada ao nome da guilda ou ordem a qual pertencem.</p><h4>Nomes Masculinos</h4><p>Anshel, Avro, Benesh, Celegur, Chatzkel, Erek, Ferato, Gavrel, Havanker, Hirsh, Inkur, Issur, Kirmadek, Koppel, Laion, Menahek, Motker, Raziel, Rubio, Sender, Urkon, Yanko, Ysroel, Zalmo, Zelek</p><h4>Nomes Femininos</h4><p>Alte, Beyle, Beylke, Bluma, Breida, Faiga, Faiva, Freyde, Glyka, Hadassa, Haska, Henda, Hirsha, Inka, Isa, Kreine, Liba, Merra, Rayna, Rifka, Riha, Shainda, Sirague, Sura, Yuda, Zelde</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/juban.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "juban",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "599ee5d9ef1e34e5",
+    "name": "Diário: Tailox",
+    "pages": [
+      {
+        "_id": "b8444398aa9cb1ba",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tailox.png\" alt=\"Tailox\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de pequena estatura, medindo entre 1,4 e 1,6 metros e pesando apenas de 40 a 50 quilos. Apresentam marcantes características vulpinas (de raposa): focinho curto e fino, orelhas grandes e uma cauda pequena e felpuda. São digitígrados com solas dos pés muito bem acolchoadas que lhes permitem se locomover quase sem fazer sons, além de pernas flexíveis próprias para grandes saltos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem pele rosada coberta por uma pelagem espessa, macia e curta por quase todo o corpo (exceto nas palmas e solas). A cor dos pelos varia em tons de castanho ou ruivo, sempre com padrões de manchas negras e brancas que se concentram muito mais no rosto, na cauda, nas mãos e nos pés.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas são virtualmente idênticos, não havendo qualquer diferença física notável. As fêmeas apresentam apenas duas mamas extremamente pequenas, difíceis de serem notadas até na época da amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura entre sete e oito meses, sendo a ocorrência de gêmeos relativamente frequente. A vida adulta se inicia aos 15 anos, mas o declínio físico (marcado pela despigmentação do pelo) começa cedo, aos 40 anos, fazendo com que a maioria falteças antes de chegar aos 90.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-14 anos</li><li><strong>Criança:</strong> 0-14 anos</li><li><strong>Adolescente:</strong> 0-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 40 anos</li><li><strong>Ancião:</strong> 80-90 anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "f2b6ec888d5149fc",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e A Simbiose com os Jubans:</strong> Originários dos bosques gelados do sul de Gaian, quase todos os Tailox foram obrigados a fugir para o norte por conta da perseguição predatória e dos ataques dos Gnolls locais. Eles foram prontamente assimilados pela sociedade dos enormes Jubans. Onde a força bruta Juban esbarra nos seus limites, entra a furtividade, a espionagem e o reconhecimento dos esbeltos Tailox, formando uma das simbioses raciais mais prósperas de toda a região.</li><br><li><strong>Espírito Selvagem (Mtii’Ruah):</strong> Embora a maioria prefira o conforto das civilizações, existem comunidades que buscam a vida silvestre para cultivar o contato ancestral com a deusa Ellenis, visando alcançar o Mtii’Ruah (o Espírito Verdadeiro). A expressão física máxima dessa comunhão intensa é a habilidade mística de transmutar seu corpo inteiramente na forma de uma raposa.</li><br><li><strong>Preconceito, Heroísmo e Promiscuidade:</strong> Por serem incrivelmente práticos na resolução de problemas, rápidos e furtivos, os Tailox receberam a fama imerecida de serem preguiçosos, trapaceiros e ladrões. Na verdade, os Tailox ensinam códigos de honra estritos aos seus filhos (influência Juban) e a maioria é extremamente honesta, criando amizades intensas e duradouras. Contudo, no campo amoroso, são abertamente promíscuos e quase nunca mantêm laços estáveis. O peso do preconceito de outras raças, somado à perda de sua terra natal, despertou neles uma necessidade quase instintiva de serem aceitos e admirados pelas outras culturas, o que frequentemente os lança em comportamentos de um \"heroísmo romântico\" completamente descabido (como arriscar a vida apenas para realizar salvamentos heroicos ou para inspirar canções épicas de bardos).</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "5ed0447ba921ac30",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua original dos Tailox foi completamente perdida em Gaian durante a Grande Revoada, e hoje é considerada uma língua morta de conhecimento extinto. Atualmente, eles adotaram de forma absoluta o L’ányn (o idioma oficial dos Jubans e de Parband) como sua língua primária. A peculiaridade da língua L’ányn é que as palavras em uma sentença não precisam seguir uma ordem estabelecida (ex: \"Foi a ordem executada\" e \"A ordem foi executada\" estão igualmente corretas), o que faz com que os Tailox falem outros idiomas com sotaques sintáticos estranhos ou engraçados para seus ouvintes. Como não possuem mais o idioma base, os Tailox não seguem nenhuma regra própria de nomes ou sobrenomes. Eles adotam e adaptam livremente os padrões de nomes, sufixos e sobrenomes da cultura humanóide com a qual mais convivem ou se sintam mais confortáveis no momento.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/tailox.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "tailox",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "ea43782b13052c91",
+    "name": "Diário: Aesir",
+    "pages": [
+      {
+        "_id": "3e23281abdabd884",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/aesir.png\" alt=\"Aesir\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Os Aesires são humanoides altos e robustos, com uma <strong>fisiologia adaptada para climas extremamente frios</strong>. Sua altura mediana fica entre 1,9 e 2,2 metros, com um peso médio de 100 a 130 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem pele e olhos extremamente claros, adaptados à luz intensa de suas regiões de gelo eterno. A <strong>pele quase não possui pigmentação</strong>, exibindo uma matiz levemente azulada ou esverdeada. O corpo é coberto por uma pelagem rala e fina (quase branca, com matizes azuis, verdes ou cinzas), que se concentra mais no alto da cabeça e, no caso dos machos, ao redor e abaixo do rosto formando barbas.</li><br><li><strong>Olhos:</strong> São extremamente bem adaptados e <strong>protegidos por uma finíssima membrana que reflete completamente a luz</strong>. Isso faz com que os olhos pareçam ter uma cor única, refletindo a luz do ambiente (geralmente branco, ou dourado quando perto do fogo).</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas diferem dos machos por não desenvolverem pelos faciais, possuírem traços mais delicados, serem ligeiramente menores e apresentarem mamas que podem variar de tamanho médio a grande.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os bebês são completamente dependentes da mãe em seus primeiros anos. Atingem a <strong>fase adulta por volta dos 16 anos</strong> (embora alguns alcancem a maioridade antes). Podem viver até os 90 anos (raramente chegando aos 120), mas começam a apresentar sinais de envelhecimento, como perda de massa muscular e diminuição da percepção, a partir dos 60 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-12 anos</li><li><strong>Adolescente:</strong> 13-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 60(9) anos</li><li><strong>Ancião:</strong> 90(2) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "bdfc1ee5c6681e72",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem na região gelada de <strong>Eishelm</strong>, localizada no extremo norte do continente de Cassiopéia (ao norte de Londérien), isolados pela Cordilheira Cnoc Oighir. É uma área de estepes e tundras, varrida por nevascas. Eishelm não é um reino unificado com um rei; em vez disso, <strong>cada grande comunidade é regida por um Jarl</strong>, que conta com o aconselhamento de bardos, druidas e sacerdotes.</li><br><em>   <strong>Navegação e Comércio:</strong> Os Aesires são <strong>grandes navegadores</strong>, utilizando seus </em>Drakkar* para viajar longas distâncias. Como não desenvolveram navegação oceânica, limitam-se à navegação de cabotagem. Mantêm comércios no norte até Aet’Muuri (em Arkânia) e nunca se aventuraram além do Grande Pântano do Leste ou chegaram a reinos como Bryne e Parband, embora sejam presença comum nos demais portos de Cassiopéia.<br><li><strong>Relações Interpessoais:</strong> Embora muitos os considerem ríspidos e broncos, eles têm uma <strong>boa relação com os Anões e são muito respeitados pelos Elfos</strong> (com quem nutrem grande reverência). São muito respeitados comercialmente por honrarem sua palavra e por fazerem paradas portuárias muito breves, o que evita atritos locais.</li><br><li><strong>Isolamento e Aventureiros:</strong> A sociedade Aesir acha a política de outros povos muito complicada e desnecessária. Aqueles poucos jovens que decidem explorar o sul geralmente fazem isso sozinhos, tornando-se andarilhos ou aventureiros.</li><br><li><strong>A Regra da Hospitalidade (e da Invasão):</strong> Na cultura Aesir, <strong>visitantes e invasores são classificados pela quantidade</strong>. Um ou dois forasteiros costumam ser bem-vindos nas suas comunidades, mas grupos maiores são vistos automaticamente como invasores e rechaçados. Pelo mesmo motivo, eles evitam andar em grandes contingentes quando visitam outros povos, a menos, é claro, que a sua intenção seja pilhar e invadir.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "61032fbdfe24152d",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Os nomes Aesires não possuem regras muito específicas. Nomes masculinos nunca terminam em vogais, e costumeiramente são constituídos de duas sílabas. Os nomes femininos podem terminar em “A”, “E”, “I” ou “Y”, mas muitos terminam em consoantes e podem ter duas ou três vogais.<br>Os Aesires utilizam sobrenomes patronímicos, com os sufixos “-son” usado para homens e “-dotir” para mulheres - estes sufixos às vezes suprimem a última letra ou sílaba do nome do pai/mãe. Assim, se um Aesir chamado Harag tiver um filho chamado Olav e uma filha chamada Anja, seus nomes serão, respectivamente: Olav Haragson e Anja Haradotir. Não há preferências entre a utilização do nome do pai ou da mãe - os filhos geralmente utilizam um patronímico baseado em qual dos seus pais é mais influente ou o que eles consideram mais relevantes em sua criação.<br>Em geral nomes nórdicos dentro das especificações acima (como Ragnar) ou adaptados para estarem dentro dessas especificações (como Flokir) funcionam para nomes Aesires.</p><h4>Nomes Masculinos</h4><p>Armod, Arnbjorn, Bodvar, Bram, Egil, Erik, Gardar, Grim, Gundur, Halfdan, Harag, Harald, Helgil, Hengist, Heolf, Igolf, Ingwulf, Kereval, Ketil, Lengar, Olaf, Olav, Rogvald, Sigurd, Sigvard, Skalagrim, Svein, Thorbard, Thorstein, Trygvas, Vanar, Yngvar</p><h4>Nomes Femininos</h4><p>Anja, Aslaug, Astrid, Aud, Drewenna, Ealswith, Eira, Elisef, Ellisif, Eyvind, Freydis, Gisla, Gyda, Hildegard, Indra, Inga, Ingrimund, Ingvild, Kilda, Ksenjia, Lagherta, Rafarta, Siggy, Sigtrygg, Snaefrid, Sylvi, Thora, Thyri, Vigrid, Yiduna</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/aesir.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "aesir",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "c4a1cfbb8e75690e",
+    "name": "Diário: Astério",
+    "pages": [
+      {
+        "_id": "943bb62e8ff37f64",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/raca.png\" alt=\"Astério\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides colossais, medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos. Apresentam cabeçorras pesadas ornadas de cornos sólidos. Possuem quatro dedos nas mãos e pés, sendo que os dedos dos pés são unidos sob uma estrutura queratinosa, formando um casco fendido.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado coberto por uma pelagem grossa e esparsa, sendo mais cerrada na cabeça, pescoço, ombros e costas, em tonalidades que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Diferente das fêmeas, que são frágeis e diminutas, os machos são brutamontes pesados e os únicos que desenvolvem chifres na espécie.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses e os machos já nascem com pequenos cornos rombudos. Esses cornos atingem o tamanho máximo aos 15 anos de idade, quando então eles passam a ser oficialmente considerados adultos. Vivem em média até os 80 anos, com os primeiros sinais de envelhecimento começando aos 50.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 80 anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "c27258ca9738f364",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Originários do reino de Parband. A cultura segue regras simples onde o mérito pessoal é colocado acima de noções de raça, cultura ou gênero. Não existem cargos hereditários e a obtenção de postos ocorre por meio de demonstrações de força ou habilidade, além de desafios de combate direto.</li><br><li><strong>O Papel Masculino (Trabalho e Lazer):</strong> A maioria dos machos jovens trabalha com atividades braçais e pesadas (como estivadores, fazendeiros, marceneiros, ferreiros e mineiros) antes de se engajarem obrigatoriamente no serviço militar na fase adulta. Em seu tempo de lazer, apreciam prazeres simples como comer, beber, exibir sua força e realizar trabalhos artesanais, notavelmente na forja e no entalhe.</li><br><li><strong>A Guerra e o Kapa-Haka:</strong> Devido à forte disciplina militar, os guerreiros Astérios praticam uma intensa dança tribal chamada Kapa-Haka. Essa dança tem o objetivo expresso de intimidar os inimigos no campo de batalha e fortalecer os laços e a coordenação dos guerreiros através de vigorosas demonstrações de força.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de manterem excelentes relações em seu reino, os Astérios evitam visitar as terras centrais de Tebryn. Lá, eles sofrem fortes preconceitos por causa das violentas incursões vindas do império escravagista de Arkânia, sendo pejorativamente chamados de \"minotauros\" e temidos como monstros sanguinários.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "b4de8a36e0afa773",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Seu idioma original é o Reo, uma língua simples e utilitária que não possui o som de \"G\", \"J\" e nem utiliza a letra \"B\". Para os machos, os nomes têm de uma a três sílabas e obrigatoriamente terminam em “E”, “O” ou “U”. Na prática, qualquer nome nativo havaiano ou maori, adaptado sob essas restrições, funciona de maneira perfeita para a raça. Astérios não usam sobrenomes de famílias. Eles se identificam utilizando os nomes das corporações ou ofícios em que trabalham, acompanhado de sua patente. Sobrenomes (Organizações) conhecidos: da Armada da Aurora, das Forjas de Hou. (Ex: \"Centurião Tane da Armada da Aurora\" ou \"Hanno das Forjas de Hou\").</p><h4>Nomes Masculinos</h4><p>Akahate, Akahau, Amahau, Amire, Anewo, Dawharu, Hahono, Hanauhou, Hanno, Hare, Hehu, Hemu, Henare, Hokuoke, Hookohoie, Lahanau, Lamake, Lokene, Maako, Mahuto, Maramo, Matiu, Nohouke, Oko, Ondaku, Rawire, Ronto, Ruru, Tanaro, Tane</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/raca.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "asterio-m",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "b268cf97c7600b48",
+    "name": "Diário: Astéria",
+    "pages": [
+      {
+        "_id": "e51f7b41633bb645",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/raca.png\" alt=\"Astéria\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Mamíferos humanoides com quatro dedos nas mãos e pés, sendo que os dos pés são unidos em dois pares sob uma grossa estrutura queratinosa formando um casco fendido. Diferente dos machos, as fêmeas possuem um crânio muito mais frágil e desprovido de cornos, não passando de 1,60m de altura e 80 quilos.</li><br><li><strong>Pele e Pelagem:</strong> Possuem um couro macio de tom acobreado. A pelagem é grossa e esparsa (sendo mais cerrada na cabeça, pescoço, ombros e costas), com tonalidades marrons que variam do castanho claro até quase o negro.</li><br><li><strong>Dimorfismo Sexual:</strong> Extremamente marcante. Enquanto os machos são brutamontes pesados que chegam a 2,30m e possuem grandes cornos, as Astérias são diminutas, frágeis e não desenvolvem chifres.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses. As fêmeas são consideradas adultas aos 15 anos de idade, começam a apresentar os primeiros sinais de envelhecimento aos 50 anos e vivem, em média, até os 80 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-14 anos</li><li><strong>Adulto:</strong> 15 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 80 anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "1ca6f33dda32b0af",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> São nativos do reino de Parband. Sua sociedade segue regras simples que colocam o mérito pessoal acima de gênero ou raça. Não existem cargos hereditários; tudo é conquistado por demonstração de habilidade ou desafios. Na academia e nos liceus, os cargos de liderança são modificados e reavaliados anualmente por um conselho.</li><br><li><strong>O Papel Feminino (Liderança e Intelecto):</strong> Por serem fisicamente menores e mais frágeis, as fêmeas (junto a machos deformados) são enviadas ainda jovens para liceus onde aprendem matemática, engenharia e história. Na fase adulta, estudam estratégia, comércio e marinhagem. São as fêmeas que decidem o uso dos recursos da comunidade, criam as leis e aconselham os líderes militares. Para lazer, as fêmeas geralmente se dedicam a trabalhos artesanais como cerâmica e costura, os quais exibem com muito orgulho e certa timidez.</li><br><li><strong>Relações Interpessoais:</strong> Mantêm ótimas relações em Parband, mas evitam as terras de Tebryn. Lá, sofrem imenso preconceito e são pejorativamente chamadas de \"minotauros\", fama herdada das incursões violentas dos Astérios de Arkânia, que renderam à raça a reputação de monstros sanguinários.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "22d952508d875fed",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua oficial da raça é o Reo. O idioma não possui os sons de “G”, “J” e a letra \"B\" não é usada em palavras tradicionais. Os nomes possuem de uma a três sílabas, sendo raros os monossílabos. Para as fêmeas, os nomes obrigatoriamente terminam em “A” ou “I”. Em geral, qualquer nome de origem havaiana ou maori adaptado para essas regras fonéticas funciona perfeitamente. Astérios não usam sobrenomes. Eles se identificam citando a organização para a qual trabalham ou seu ofício (ex: \"das Forjas de Hou\", \"da Armada da Aurora\"), adicionando também o seu posto e patente se houver.</p><h4>Nomes Femininos</h4><p>Akina, Hina, Kaili, Kairi, Lani, Mahina, Malia, Moana, Nani, Oliana, Ulani</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/raca.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "asteria-f",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "cb406dfa8d43993c",
+    "name": "Diário: Centauro",
+    "pages": [
+      {
+        "_id": "ca54d636d258e90e",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/centauro.png\" alt=\"Centauro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com torso humanoide e corpo equino, apresentando cinco dedos nas mãos e quatro pernas digitígradas terminadas em cascos. Possuem uma cauda curta e são tão altos quanto longos (medindo entre 2 e 2,4 metros nas duas direções). Pesam em média de 450 a 500 quilos e possuem pouco tecido adiposo. Devido ao peso e estatura, possuem imensa dificuldade para nadar ou escalar (sendo Inaptos), e manobras como cambalhotas são virtualmente impossíveis.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do pardo ao marrom claro, sendo a parte inferior do corpo e as costas cobertas por um couro mais duro e escuro. A pelagem sobre o corpo é curta e dura, tornando-se bem mais densa e longa na cabeça, ao longo da coluna e na cauda. As cores variam do pardo ao negro, passando por castanho, sendo comum a presença de manchas, e os pelos vão ficando acinzentados com a idade.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas (Centáurides) são diferenciadas dos machos por não desenvolverem pelos no rosto e apresentarem duas pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 11 meses e os filhotes são capazes de andar em apenas alguns dias. Atingem o tamanho máximo e a vida adulta aos 10 anos, com os primeiros sinais de envelhecimento aparecendo aos 80 anos. Vivem até os 120 anos, e os mais velhos costumam se isolar da comunidade ao ficarem fracos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-8 anos</li><li><strong>Adolescente:</strong> 7-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 80(12) anos</li><li><strong>Ancião:</strong> 120(2) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "7d156d9ecb00dba6",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Geralmente se instalam em grandes clareiras nas bordas de florestas (como a Floresta da Névoa e a Floresta da Borda). Sua maior comunidade em Tebryn chama-se Yak (na Floresta dos Antigos), uma aldeia sem centro comercial rígido. Não possuem estruturas de liderança além do respeito à sabedoria dos mais velhos da região.</li><br><li><strong>Lazer e Festividades:</strong> Possuem um humor simples e dão preferência a atividades físicas para diversão, como corridas, demonstrações de força e competições de salto. Reúnem-se nos equinócios para grandes festividades que duram uma semana. Nessas festas, o consumo de bebida é alto, e embriaguez e surtos de violência são muito comuns, tornando o ambiente arriscado para forasteiros que aceitam o convite para participar.</li><br><li><strong>Táticas e Combate:</strong> Apesar de conhecidos por suas ferozes cargas corporais, a lança e o arco são suas armas mais tradicionais. A arqueria é tão intrínseca que praticamente todos os jovens praticam, e seus Arqueiros revezam as funções de caçadores e vigias.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de convidarem viajantes para suas competições amigáveis, são profundamente desconfiados dos elfos (principalmente da região de Ambrook) após uma guerra sangrenta e assimétrica no passado que quase exterminou as tribos da Floresta dos Antigos.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "c951f24dd4ae2298",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa dos Centauros é o Silvestre, uma linguagem de estrutura caótica e muitas variações regionais. Seus nomes são criados com a aglutinação de duas ou três palavras desse idioma, o qual é fortemente embasado no grupo Tupi-Guarani (ou em outros idiomas indígenas brasileiros). Centauros não usam sobrenomes de qualquer tipo.</p><h4>Nomes Masculinos</h4><p>Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi, Katubira, Katuibipuí, Puiubitu, So’obixabasu, Usubixaba</p><h4>Nomes Femininos</h4><p>Abapuka, Esakatu, Etimatã, Itapek, Iukaiuba, Kaatuxaba, Kapisobui, Karaibasi, Katubira, Katuibipuí, Puiubitu, So’obixabasu, Usubixaba</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/centauro.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "centauro",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "51a7e16e8acc60c7",
+    "name": "Diário: Dragano",
+    "pages": [
+      {
+        "_id": "fe298f54a2a8c8fe",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/dragano.png\" alt=\"Dragano\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São dragões humanoides extremamente diversos. A cabeça assemelha-se à de dragões, com focinho curto e presas afiadas, podendo apresentar protrusões ósseas e chifres de formatos variados (retos ou torcidos). As mãos e os pés têm quatro dedos com garras robustas. A presença de asas e cauda longa é comum, embora possam ser vestigiais ou inúteis em alguns indivíduos. A altura média varia de 1,6m a 2m (podendo atingir até 3m), e o peso médio é de 90 a 100 quilos (indivíduos com asas e cauda pesam até 160kg, e os maiores até 250kg).</li><br><li><strong>Pele e Pelagem:</strong> Possuem couro grosso, áspero e totalmente desprovido de pelos, frequentemente coberto por escamas queratinosas. A coloração varia drasticamente: do branco ao preto, passando por tons de azul, verde e vermelho.</li><br><li><strong>Olhos:</strong> Podem ser fendidos ou ter pupilas redondas. Alguns indivíduos, especialmente de origem Ofidiana, têm olhos dourados, vermelhos ou esbranquiçados protegidos permanentemente por uma membrana nictitante.</li><br><li><strong>Dimorfismo Sexual:</strong> Diferenciar machos e fêmeas é quase impossível para outras raças; apenas Naga, outros Draganos e criaturas do tipo Dragão conseguem distingui-los facilmente.</li><br><li><strong>Ciclo de Vida:</strong> As fêmeas são férteis apenas uma vez por ano. A gestação dura cerca de 1 ano, gerando apenas 1 ovo que eclode em três meses. Cerca de 25% dos ovos geram natimortos ou crias deformadas. Atingem a maturidade aos 20 anos e vivem plenamente até os 200 anos. Na velhice, as escamas enfraquecem e os alados perdem a capacidade de voar.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-10 anos</li><li><strong>Adolescente:</strong> 11-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 200(25) anos</li><li><strong>Ancião:</strong> 250(4) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "3bae61d223b8faf5",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política (A Dualidade):</strong> A cultura da raça é dividida. Em Ofidien, eles foram criados artificialmente pelas Naga há cerca de 2000 anos por meio de experimentos em raças escravizadas com sangue de dragão. Lá, não possuem identidade cultural própria e formam uma sub-raça servil trabalhando como soldados de elite e guarda-costas das Naga. Já em Arkânia, eles existiam antes mesmo da chegada das Naga. Os Draganos Arkanitas formam a base da cultura do império escravagista e ocupam os mais altos postos (Armada da Aurora, Conselho Regente), possuindo enorme orgulho de sua ancestralidade dracônica.</li><br><li><strong>Idiomas:</strong> Não possuem língua própria. Em Ofidien, falam Asá-Avája (idioma Naga). Em Arkânia, são as únicas criaturas fisicamente capazes de falar o Track'kar'a (Língua dos Dragões) com perfeição, além de usarem o Burguês Arkanita e o Arkadis (Língua da Magia).</li><br><li><strong>Relações Interpessoais:</strong> Fora de Arkânia e Ofidien, são vistos com medo e desconfiança. Tendem a se isolar como ermitões ou a viver próximos a raças com traços afins (Reptilianos, Tritões, Grotons). Possuem atitude rude e arrogante: apesar de racionais, usam intimidação, coerção e força física por se sentirem superiores aos outros.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "7cfd8931af8fd802",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Assim como o idioma, eles adotam as regras das culturas em que estão inseridos, ou usam Nomes Dracônicos puros. Para serem imponentes, os nomes costumam ser longos (pelo menos três sílabas). Diferente das Naga (que usam sufixos como -Drek ou -Sur em seus nomes), os Draganos contraem os nomes dracônicos e nunca utilizam esses radicais ofidianos. Também, ao contrário das Naga, os Draganos adotam sobrenomes dependendo do reino onde vivem. Costumam utilizar os sobrenomes da cultura humana/arkanita em que foram criados ou adotar nomes de linhagens dracônicas.</p><h4>Nomes Masculinos</h4><p>Ahamthrul, Anphisbaenea, Azdahazahak, Balaurbondoc, Brignor, Bristerne, Dragua, Flamerax, Komerex, Lagarfliotsormurinn, Scathel, Shivnarvex, Smeygorinish, Zannar, Zirnitrarex</p><h4>Nomes Femininos</h4><p>Ahamthrul, Anphisbaenea, Azdahazahak, Balaurbondoc, Brignor, Bristerne, Dragua, Flamerax, Komerex, Lagarfliotsormurinn, Scathel, Shivnarvex, Smeygorinish, Zannar, Zirnitrarex</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/dragano.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "dragano",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "f207a648060fa00c",
+    "name": "Diário: Faen",
+    "pages": [
+      {
+        "_id": "f3b25b480963ffef",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/faen.png\" alt=\"Faen\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides pequeninos com traços feéricos, medindo em torno de 1,3 e 1,4 metros (podendo chegar a 1,5m) e pesando no máximo 35 quilos. A sua característica mais marcante é o par de asas leves e semitransparentes nas costas, cuja envergadura é igual à altura do corpo. Também possuem um par de antenas na testa que lhes permite comunicação rudimentar com insetos.</li><br><li><strong>Pele e Pelagem:</strong> A pele é lisa, desprovida de pelos corporais, e possui tons que variam do róseo-amarelado até o dourado e bronzeado. Os cabelos são finos e macios, com colorações exóticas como louro claro, ruivo, azul e lilás. Alguns raros indivíduos, chamados de \"Isnuu\" (nascidos nas folhas), nascem com a pele e cabelos esverdeados e possuem uma imensa afinidade inata com magias.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas possuem menos massa muscular, contornos mais arredondados e apresentam um par de pequenas mamas.</li><br><li><strong>Ciclo de Vida:</strong> A gestação é curtíssima (cerca de 3 meses) e um quinto dos nascimentos resulta em gêmeos ou trigêmeos. Nascem sem asas, que crescem ao longo da infância até atingirem o tamanho pleno na puberdade (aos 16 anos), tornando-se adultos aos 20. Podem viver até 200 anos sem sofrer envelhecimento severo. Quando morrem de velhice, passam por um fenômeno bizarro: a carne torna-se uma massa vegetal que se enraíza e vira uma árvore (frutífera se fêmea, com flores se macho), onde o espírito do Faen repousa até a árvore morrer naturalmente e ele renascer.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-12 anos</li><li><strong>Adolescente:</strong> 13-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "779b4c43636604c1",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem em colônias bem escondidas e camufladas dentro de matas fechadas, como na Floresta dos Antigos e no Vale do Dragão. A sociedade é totalmente livre e desleixada: não há líderes fixos nem hierarquias. Decisões são tomadas no coletivo e os indivíduos mais velhos — ou os Isnuu, no caso de problemas mágicos — são consultados por respeito.</li><br><li><strong>Sustento e Criação de Insetos:</strong> São estritamente herbívoros, alimentando-se de castanhas, raízes e frutas forrageadas. Em vez de gado, os Faens domesticam artrópodes gigantes: criam abelhas para mel, lagartas para seda, besouros gigantes como animais de tração e vespas para a caça.</li><br><li><strong>Arquitetura e Magia:</strong> Usam seu talento mágico com as plantas para esculpir o crescimento da vegetação, formando suas casas e estruturas em harmonia com a floresta. Possuem grande paixão pela arte, pelas magias de movimento e são amantes de ilusões, sendo considerados artistas e \"trapaceiros\" pelas outras raças da floresta.</li><br><li><strong>Táticas e Combate:</strong> Preferem sempre fugir voando ao invés de lutar. Não são covardes, apenas não veem sentido no confronto desnecessário. Contudo, se sua colônia ou entes queridos forem ameaçados, lutam até que o inimigo esteja morto usando qualquer recurso à disposição.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "5dc8403a147afe79",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Assim como os Elfos, os Faens geralmente adotam as regras rígidas de nomes élficos (podendo também usar os nomes aglutinados e indígenas da língua Silvestre falada pelos Centauros e Faunos). Os nomes têm de duas a três sílabas. Nomes masculinos sempre terminam em consoantes, sendo \"-ED\", \"-AN\", \"-AR\", \"-IC\" e \"-OC\" os mais comuns. Nomes femininos geralmente terminam em \"-DIL\", \"-WIN\", \"-ITH\" ou \"-TH\". Não usam nomes de família tradicionais. Um Faen adiciona o nome do local onde nasceu ou viveu como se fosse um sobrenome (Ex: Aesc Floresta da Névoa ou simplesmente Aesc Névoa).</p><h4>Nomes Masculinos</h4><p>Aelflaed, Aesc, Cerdic, Fianoc, Keleoc, Landric, Lewyd, Uhtric</p><h4>Nomes Femininos</h4><p>Aedil, Alfrith, Careth, Edith, Faedil, Gleadwin, Leofwin, Saewin, Vanedwin</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/faen.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "faen",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "f5a9c39ccfdc37aa",
+    "name": "Diário: Fira",
+    "pages": [
+      {
+        "_id": "3ddd475770d28361",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/fira.png\" alt=\"Fira\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de estatura e constituição medianas (entre 1,6 e 1,9 metros de altura e pesando entre 70 e 80 quilos), perfeitamente adaptados à vida em regiões quentes e áridas. Possuem um reflexo biológico único: sob muito calor, os batimentos cardíacos e a respiração diminuem drasticamente, reduzindo a temperatura do corpo, o que lhes permite suportar temperaturas que seriam mortais para outras raças.</li><br><li><strong>Pele e Pelagem:</strong> A pele é escura, geralmente em tons de cobre fosco ou marrom-oliva, e ajuda a refletir o calor do ambiente de forma eficiente. O corpo é coberto por uma pelagem grossa e esparsa (mais espessa na cabeça e sob o queixo dos machos), geralmente negra com tons avermelhados, castanhos ou, muito raramente, ruivos.</li><br><li><strong>Olhos:</strong> São desprovidos de íris ou pupila, sendo geralmente brancos, mas podem apresentar variações em amarelo e dourado. Alguns indivíduos possuem olhos com uma luminescência semelhante ao brilho de uma chama, capaz até mesmo de fornecer iluminação em ambientes escuros.</li><br><li><strong>Dimorfismo Sexual:</strong> As fêmeas são diferenciadas dos machos por não desenvolverem pelos sob o queixo (barba) e por apresentarem um par de mamas de tamanho pequeno ou médio.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de nove meses, e a incidência de gêmeos é extremamente incomum na raça. As crianças ficam sob a supervisão dos pais até a idade adulta, que ocorre aos 18 anos. Vivem em média até os 120 anos, e os primeiros sinais da velhice — como acessos de letargia causados pelo reflexo térmico desregulado do corpo — começam a surgir apenas depois dos 70 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-10 anos</li><li><strong>Adolescente:</strong> 11-17 anos</li><li><strong>Adulto:</strong> 18 anos</li><li><strong>Idoso:</strong> 70(12) anos</li><li><strong>Ancião:</strong> 120(2) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "a9fca273aa1b6481",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Preferem locais abertos e de clima árido, como o Grande Planalto do Leste e as cidades de Sa’es Yasgaroth e Tell’es Triadha em Parband. Suas construções são geralmente de pedras e rochas, de formato piramidal, possuindo uma pequena área interna (usada apenas como depósito ou refúgio contra tempestades) e uma grande área externa no topo. Os Firas preferem viver a céu aberto, usando essas áreas superiores até mesmo para dormir e trabalhar.</li><br><li><strong>Religião e Magia:</strong> A sociedade Fira é quase sem exceções teocrática, estruturando toda a sua vida e cultura em torno da adoração a Hou, o deus-fogo. Os seus dogmas exigem que nunca faltem com a palavra, jamais comam alimentos crus e que mantenham lareiras constantemente acesas. Os prédios e templos que mantêm essas lareiras podem alcançar entre 70 ou 80 graus, temperaturas insuportáveis e mortais para as outras raças. Eles veem uma ligação intrínseca entre magia arcana e mística, logo, seus Conjuradores Arcanos (Feiticeiros) são treinados nos próprios templos religiosos.</li><br><li><strong>Forja e Adestramento:</strong> Como uma extensão de sua adoração a Hou, os Firas são grandes ferreiros e cozinheiros. Suas armas e utensílios metálicos são extremamente elaborados (como a invenção do Aço Crisol), mas, diferentemente de Anões e Elfos, os Firas raramente aplicam gemas e pedras preciosas em metais, preferindo lapidá-las para uso exclusivo como moedas. Além disso, são exímios adestradores; a maioria possui animais de tração ou montaria e apreciam enormemente a falcoaria, a equitação e o uso de montarias aladas (como hipogrifos e ethons).</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "6f58c7b1ed6d37ca",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua oficial dos Firas é o Camaka. O idioma e as regras para nomes são fortemente embasados na sonoridade árabe. Os nomes possuem poucas regras, sendo a maioria formada por palavras do Camaka que os pais acreditam atrair boa sorte à criança, além de existirem alguns nomes muito tradicionais cujos significados se perderam no tempo. Os Firas utilizam um sobrenome familiar. Quando dois Firas se casam, o casal deve escolher apenas um dos sobrenomes para ser usado por ambos — é totalmente indiferente para a raça se o nome escolhido será o do marido ou o da esposa. Sobrenomes seguem exatamente a mesma lógica dos primeiros nomes (palavras do Camaka com bons significados ou origens árabes).</p><h4>Nomes Masculinos</h4><p>Abhir, Ahmose, Akaar, Almiraj, Anakaar, Aradullah, Arkamed, Azif, Barakah, Camaban, Elzid, Essam, Faysal, Gerdes, Hallan, Isax, Ishak, Kazir, Malkin, Meldaikis, Mihalis, Morzar, Mubarak, Myrkal, Nawfal, Noa, Shadir, Uriah</p><h4>Nomes Femininos</h4><p>Adara, Amandla, Amara, Ashanti, Ashira, Ayisha, Casamira, Cytara, Dhejja, Fawzyia, Haifa, Inaya, Israa, Kaya, Lahana, Lakeisha, Midieda, Myra, Nathifa, Onika, Shanika, Tanisha, Tinashe, Yassana, Zendaya, Zola, Zuri</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/fira.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "fira",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "d63471c6571504cf",
+    "name": "Diário: Gnoll",
+    "pages": [
+      {
+        "_id": "a5c98f9628a04738",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/gnoll.png\" alt=\"Gnoll\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São mamíferos humanoides exclusivamente carnívoros, com constituição atlética, chegando a uma altura entre 1,8 e 2 metros (embora pareçam 20 centímetros mais baixos devido à postura fortemente encurvada) e pesando de 90 a 100 quilos. Suas pernas são curtas, e a união da coluna encurvada com braços e tronco longos lhes dá um centro de gravidade incrivelmente estável, dificultando muito que sejam derrubados. Possuem uma pequena cauda inútil, e suas mãos e pés (digitígrados) possuem quatro dedos com almofadas protetoras e fortes unhas adaptadas para correr e escalar, mas não afiadas o suficiente para servirem de armas.</li><br><li><strong>Pele e Pelagem:</strong> A pele é acinzentada com manchas não uniformes. Quase todo o corpo é recoberto por uma pelagem grossa e curta, num tom castanho-acinzentado cujas manchas seguem os padrões da pele, além de desenvolverem tufos de pelos grossos e bem mais escuros no topo da cabeça e ao longo de toda a coluna.</li><br><li><strong>Olhos:</strong> Pequenos e bem fundos no crânio.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura entre 6 e 7 meses, possuindo uma taxa assustadora de gêmeos e trigêmeos a cada ninhada. Atingem a vida adulta muito rápido, aos 12 anos, e os primeiros sinais biológicos da velhice (como o desbotamento e despigmentação do pelo) começam logo aos 30. Embora tentem se manter ativos na velhice, o severo enfraquecimento de seus organismos — notavelmente ossos e dentes — impede que os membros da raça vivam além dos 70 anos de idade.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-7 anos</li><li><strong>Adolescente:</strong> 8-11 anos</li><li><strong>Adulto:</strong> 12 anos</li><li><strong>Idoso:</strong> 30(5) anos</li><li><strong>Ancião:</strong> 50(1) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "9207887148254afd",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> São originários de Gaian e altamente assustadiços e desconfiados, sobrevivendo na maioria das vezes através de pilhagens em rotas de comércio, agindo em bandos nômades. A raça não possui uma cultura definida e sempre assimila os traços dos povos com quem convivem (como os Gnolls silvícolas de Anarien, na Floresta da Névoa, que adotaram práticas rústicas dos Faunos e Centauros). Em seus bandos tradicionais não existe hierarquia rígida, sendo liderados por quem demonstrar mais iniciativa.</li><br><li><strong>Sustento e Sociedade:</strong> Como não existe pensamento a longo prazo em um bando, todos os recursos ou comidas são divididos estritamente em partes iguais. Indivíduos feridos, fracos ou fêmeas grávidas não recebem comida extra ou tratamentos especiais, apenas sendo alocados para atividades mais mundanas como dividir os espólios, cozinhar ou ficar de vigia para os que vão caçar.</li><br><li><strong>O Bufão:</strong> O único posto social digno de nota além do líder é o de \"Bufão\". O Bufão do bando é invariavelmente um macho adulto considerado o mais fraco ou medroso do grupo, servindo de alvo de humilhações, espancamentos e chacota constante por parte de seus pares. Curiosamente, apesar dos abusos, o Bufão possui os mesmos direitos alimentares e dorme na mesma fogueira que os outros, com a única diferença de nunca receber o encargo perigoso de agir como um batedor militar.</li><br><li><strong>Táticas de Combate e Canibalismo:</strong> Por serem essencialmente covardes, evitam lutar em desvantagem numérica, favorecendo o uso de armadilhas. A arma culturalmente favorita da raça é a Lança (que usam para manter inimigos longe). É comum que não limpem suas armas de propósito, servindo de vetores para transmissão do Tétano. Não possuem escrúpulos, não praticam escravidão e veem os inimigos caídos puramente como comida: não é raro que Gnolls percam o controle em combate para disputar pedaços da carne e sangue de aventureiros recém-abatidos no chão. No entanto, se o embate virar contra o bando, os Gnolls fogem instintivamente; e caso acuados, imploram por rendição, entregam todo o dinheiro sem resistir, e escapam na primeira quebra de atenção do inimigo.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "c28a09ee0cb62e0e",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Assim como os Hamelins, os Gnolls falam majoritariamente a língua Zihassás, além do idioma da região onde vivem. É um idioma sem forma escrita, cujo som principal vem da pronúncia extremamente chiada, baseada no som de \"S\", \"Z\", \"F\", \"CH\" e \"X\". Gnolls quase nunca utilizam sobrenomes, recebendo da tribo apenas \"Títulos\" descritivos referentes a algum feito. Para gerar os seus nomes na língua chiada, traduz-se uma palavra para o Árabe e aplicam-se suas letras fonéticas. Masculinos têm de duas a quatro sílabas e sempre terminam em consoante. Femininos têm de duas a quatro sílabas e sempre terminam em vogal (\"A\", \"E\" ou \"I\"). Não utilizam sobrenomes tradicionalmente, adotando apenas os Títulos conquistados em combate (Ex: Alfirani Orelha-Rasca, Mukhif o Rápido).</p><h4>Nomes Masculinos</h4><p>Mukhif, Xarif, Chamil, Zaleel, Fariq, Safir</p><h4>Nomes Femininos</h4><p>Alfirani, Xarifa, Zaleela, Fariqa, Chamila</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/gnoll.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "gnoll",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "6ad900578dbca255",
+    "name": "Diário: Hamelin",
+    "pages": [
+      {
+        "_id": "fc6ac2ab60093a72",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/hamelin.png\" alt=\"Hamelin\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.</li><br><li><strong>Dimorfismo Sexual:</strong> Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-5 anos</li><li><strong>Adolescente:</strong> 6-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 30(4) anos</li><li><strong>Ancião:</strong> 40(1/2) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "78dd897c67d20243",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.</li><br><li><strong>Comportamento:</strong> Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.</li><br><li><strong>Aventureiros:</strong> Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "a971539e27895102",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".</p><h4>Nomes Masculinos</h4><p>Aldabauss, Assaris, Baltosh, Catemoc, Fuzal, Haribus, Mahajuss, Muheiefos, Mukhif, Munsifin, Ratharyn, Retch, Savis, Sefnus, Shimoshi, Treffen, Zagig, Zaszafizle, Zatmec, Zazempur, Zotspox</p><h4>Nomes Femininos</h4><p>Alfirani, Alharibina, Alraufa, Chunchia, Faquiri, Hissa, Isazi, Jabeni, Lezisle, Nassifa, Neezza, Pasha, Piferva, Sazila, Shike, Shoola, Siska, Szaidzisnska, Tisha, Tsintsi, Zusza</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/hamelin.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "hamelin",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "4f5f3a73e5194065",
+    "name": "Diário: Levent",
+    "pages": [
+      {
+        "_id": "989f4a0f177a5d98",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/levent.png\" alt=\"Levent\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides dotados de grandes asas nas costas, com uma envergadura que chega a ser o dobro da altura do indivíduo. São menores e menos corpulentos que os humanos, medindo de 1,5 a 1,6 metros e pesando de 60 a 70 quilos. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem uma tonalidade bronzeada clara. Possuem uma penugem fina que cobre do alto da cabeça até a base das asas, ombros e antebraços. O resto do corpo é recoberto por penas pequenas e macias, com uma plumagem que varia do branco ao castanho escuro (sendo amarelo e castanho-claro os mais comuns).</li><br><li><strong>Olhos:</strong> São grandes e de coloração clara, variando entre azul, verde e âmbar.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem penas mais longas e grossas na cabeça, formando grandes penachos. As fêmeas, por sua vez, não possuem esse penacho, exibem traços mais delicados em geral e possuem duas pequenas mamas no peito.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em torno de 10 meses e gêmeos são extremamente raros. Os bebês nascem sem penas, mas desenvolvem uma plumagem branca logo no início, trocando-a pela versão adulta em torno dos cinco anos (período no qual ficam reclusos). Atingem a maioridade aos 16 anos, quando suas asas se desenvolvem para permitir o voo, e podem viver plenamente até os 500 anos de idade. Levents, assim como os Elfos, não sofrem os efeitos comuns de perda de vigor pelo envelhecimento e não entram na categoria Ancião. A partir da fase de Idoso, fazem testes a cada 25 anos; ao falharem repetidas vezes, têm ciência de sua partida iminente e se preparam para morrer placidamente.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-3 anos</li><li><strong>Criança:</strong> 4-11 anos</li><li><strong>Adolescente:</strong> 12-15 anos</li><li><strong>Adulto:</strong> 16 anos</li><li><strong>Idoso:</strong> 450(25) anos</li><li><strong>Ancião:</strong> — anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "c1b8a32ccb968bf4",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Habitam picos montanhosos e suas cidades são construídas em torres altas ou escavadas na rocha. A arquitetura não utiliza escadas; em vez disso, os ambientes possuem grandes balcões e vastos vãos livres e verticais feitos especificamente para o voo. Em Cassiopéia, vivem sobretudo no Arquipélago das Três Irmãs, na Ilha do Lagarto e na cadeia de Cnoc Ard (em Londérien). Politicamente, são regidos por conselhos teocráticos formados por Druidas, Sacerdotes e Magos, com os líderes militares tendo apenas caráter de conselheiros.</li><br><li><strong>Religião e Estilo de Vida:</strong> Notoriamente pacíficos e devotos de Taranis (o Primordial da Liberdade), preferem a diplomacia ao combate. Caçar e abater pássaros é um tabu gigantesco, fazendo com que sua sociedade dependa enormemente da pesca – que praticam nas costas e rios das montanhas – para se sustentar.</li><br><li><strong>Ritos de Passagem e Luto:</strong> Aos 16 anos, os jovens entram num rito de passagem onde se isolam por dois meses com dois tutores para aprenderem pesca, vida sexual e o controle do voo. Em contrapartida, quando ocorre uma fatalidade, o cônjuge do falecido entra num rígido luto isolado de um mês, acompanhado apenas por um guia espiritual para entrar em contato com o desencarnado e buscar um novo rumo na vida.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "903620dee14d74f8",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa dos Levents é o Samyia. O idioma é falado com trinados e arrulhados que se assemelham melodiosamente ao canto dos pássaros canoros, sendo quase impossível para outras raças falarem perfeitamente. Para os nomes da raça, o idioma Indiano atua como o comparativo perfeito, contendo nomes de duas ou três sílabas. Por acreditarem que um indivíduo deve ser medido estritamente pelas próprias capacidades e não pelas origens, os Levent nunca usam sobrenomes. Somente em cerimônias raríssimas eles se identificarão pela sua organização militar ou por seus postos.</p><h4>Nomes Masculinos</h4><p>Anand, Arkilan, Avanur, Chetan, Darshan, Deepak, Dhaval, Harshal, Kamal, Kiran, Mayur, Mitul, Morphias, Prakash, Pranav, Pravin, Rahul, Rajendran, Rajesh, Ravil, Sandip, Shekar, Sonal, Suraj</p><h4>Nomes Femininos</h4><p>Ajaia, Ankita, Ashoka, Dineasha, Harisha, Hira, Jaiesha, Kamala, Kumara, Kunala, Mahendra, Mahesha, Mia, Narensra, Nishanta, Radha, Rajia, Rohita, Sanjaia, Satia, Shaiera, Vasanta, Yasha</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/levent.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "levent",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "04ee764d26c2b72b",
+    "name": "Diário: Mahok",
+    "pages": [
+      {
+        "_id": "732c15c1645a9866",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/mahok.png\" alt=\"Mahok\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de constituição sólida, medindo cerca de 2,5 metros de altura e pesando por volta de 300 quilos na idade adulta. Esse peso pode chegar ao dobro com o passar do tempo. Sua característica mais notável é a pele formada por grossas placas de rocha. Possuem quatro dedos nas mãos e nos pés (onde os dedos são unidos sob um bloco único de pedra). Em raros casos, podem nascer com um par extra de braços, que, com treinamento, conseguem usar eficientemente em combate.</li><br><li><strong>Pele e Pelagem:</strong> A pele tem cor e textura granítica, embora possa apresentar variações semelhantes a mármore ou alabastro. Os bebês nascem com uma fina camada rochosa que racha e cai nos primeiros dias, dando lugar a uma nova. A pele atinge sua configuração ideal na fase adulta e continua engrossando progressivamente durante o resto da vida.</li><br><li><strong>Sentidos Precários:</strong> Devido às formações rochosas, a pele não transmite o tato. Eles também não possuem pavilhões auditivos externos, e o crescimento de rochas ao redor das narinas e olhos limita consideravelmente o olfato e a visão.</li><br><li><strong>Dimorfismo Sexual:</strong> Machos e fêmeas da espécie são virtualmente idênticos, não havendo qualquer diferença física notável que outras raças consigam distinguir.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura cerca de 10 meses (gerando apenas um bebê). Crescem de forma acelerada, atingindo o tamanho máximo já aos 10 anos e sendo adultos aos 20. Aos 60 anos, o peso excessivo da pele causa severas dificuldades de locomoção. Ao atingir os 80 anos, perdem completamente a mobilidade e se fundem em rocha sólida, tornando-se monumentos conhecidos como \"Menires\".</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-15 anos</li><li><strong>Adolescente:</strong> 16-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 60(8) anos</li><li><strong>Ancião:</strong> 80(1) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "be630faa0840fbb0",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> Vivem em cidades escavadas em montanhas ou galerias cavernosas. Muitas de suas comunidades são nômades que viajam por cadeias de montanhas, fixando-se por curtos períodos. Não possuem um reino próprio, mas são vistos como cidadãos plenos em Parband, Dagothar e Tebryn. Escolhem minuciosamente o local onde repousarão ao fim da vida, formando vastos campos monolíticos chamados cromlechs nos picos de Cassiopéia.</li><br><li><strong>Sustento e Dieta:</strong> Sua dieta é altamente exótica, pois necessitam de muito silício, carbono e minerais. Alimentam-se de biscoitos cozidos de argila e cal, vegetais crus, insetos (considerados iguarias) e assam seus alimentos normais até que virem puramente carvão.</li><br><li><strong>Temperamento:</strong> São extremamente gregários e sociáveis, criando grupos familiares fortes e conversando até com trogloditas e ogros (que outras raças julgam irracionais). Como são estoicos, indiferentes a intempéries ou falta de conforto, as raças mais requintadas muitas vezes os julgam erroneamente como incivilizados ou pouco sofisticados.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "755e362228b1f77e",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa dos Mahoks é o Triet, que compartilha a mesma estrutura de escrita do Futhark (runas anãs). O idioma comparativo real para essa língua é o Esloveno. Os nomes Mahoks possuem de duas a quatro sílabas e são criados a partir do nome de um mineral com a última letra alterada. Para o sobrenome, um Mahok sempre utiliza o nome de um acidente geográfico muito específico do local onde ele nasceu.</p><h4>Nomes Masculinos</h4><p>Ambar, Argilas, Azuritor, Berilor, Carvor, Citrinos, Cromas, Culon, Geldoron, Giendros, Iridior, Jaspos, Koumor, Mineran, Modron, Nefelinor, Obsidianos, Ombar, Opalon, Ouros, Piritor, Quartzon, Roblor, Xiselmor, Xistor</p><h4>Nomes Femininos</h4><p>Alabastra, Alunitil, Ametista, Ankerita, Areil, Azurita, Bronzil, Carva, Copal, Coral, Cristal, Diamanta, Esmeralda, Galena, Gema, Gipsita, Goliata, Jadel, Lazulil, Mercuria, Mical, Prata, Rubil, Terrekal, Titanita, Zinca</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/mahok.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "mahok",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "d4b6d8e6fdfe32b2",
+    "name": "Diário: Metadílio",
+    "pages": [
+      {
+        "_id": "56b0e21f49a90f9b",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/metadilio.png\" alt=\"Metadílio\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São humanoides de baixa estatura, medindo entre 1 e 1,2 metro, com crânios levemente alongados, maxilares pequenos e orelhas levemente pontudas. A constituição física é mediana, mas o peso varia de 30 a 70 quilos devido à forte tendência da raça ao sobrepeso. Seus corpos são classificados biologicamente como rotundos e macios, o que lhes confere uma capacidade inata de rolar e quicar ao sofrerem quedas, além de conseguirem escorregar com extrema facilidade de amarras e agarrões.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, podendo ficar intensamente bronzeada devido à exposição ao sol. O corpo é recoberto por uma pelagem fina e esparsa em tons de castanho (que fica grisalha ou branca na velhice), concentrando-se fortemente no topo e nas laterais da cabeça e na parte superior dos pés.</li><br><li><strong>Dimorfismo Sexual:</strong> Não há diferença corporal na pelagem ou constituição entre os gêneros. No entanto, culturalmente, as fêmeas mantêm cabelos longos e aparam os pelos faciais, enquanto os machos preferem cabelos curtos e ostentam costeletas abundantes. As fêmeas também desenvolvem mamas de tamanho médio a grande.</li><br><li><strong>Ciclo de Vida:</strong> Chegam à maioridade aos 20 anos. Os primeiros sinais da velhice — como perda de tônus muscular, despigmentação dos pelos e aumento da obesidade — começam a aparecer a partir dos 70 anos. Devido a um metabolismo bastante adaptado à fartura, sempre que descansam após uma refeição farta (condição Barriga Cheia), eles conseguem recuperar o dobro de Pontos de Vida e Mana. A gestação dura em média 10 meses e a vida útil chega normalmente aos 100 anos, com indivíduos saudáveis conseguindo alcançar os 130 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-19 anos</li><li><strong>Criança:</strong> 0-19 anos</li><li><strong>Adolescente:</strong> 0-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 70 anos</li><li><strong>Ancião:</strong> 100 anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "9d6f9ade3d11eef1",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> O grande reino de Bryne é povoado em sua quase totalidade por Metadílios. Eles vivem em moradias muito espaçosas alocadas em grandes terrenos usados para plantações e criação animal, e frequentemente abrigam seus próprios comércios e oficinas dentro de casa. Uma vez que assumir um cargo administrativo (como trabalhar num salão de burgo) exige que o Metadílio se mude para o seu local de trabalho e as funções geralmente se tornam vitalícias, as áreas urbanas da raça mudam muito pouco estruturalmente com o passar do tempo.</li><br><li><strong>Temperamento e Negócios:</strong> Preferem levar uma vida pacata e tranquila, sendo imensamente cautelosos no comércio e evitando negócios que envolvam grandes riscos. Naturalmente sociáveis, amam a ordem, a civilidade e o conforto, o que os torna excelentes Senescais administrando pequenas fazendas ou oficinas. Também são domadores por excelência (usando suas feras como força de trabalho e montaria adaptada ao seu tamanho), mantendo companhias montadas em pôneis, babirusas domadas e, particularmente, carneiros gigantes chamados Aríetes.</li><br><li><strong>Arte e Religião:</strong> São um povo altamente inventivo, dedicando-se com paixão a atividades criativas como escultura, pintura, apresentações de ilusionismo e música. Seus Bardos são formados em Liceus e notoriamente reconhecidos por sua virtuosidade e métrica precisa nas canções. Contudo, a vasta maioria não possui nenhuma inclinação religiosa, considerando dogmas teológicos e debates filosóficos como assuntos enfadonhos e desprovidos de propósitos práticos.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "5ccc75ea353eb4e0",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>Assim como os humanos, os Metadílios falam o Burguês Tebryniano. Seus nomes possuem de duas a quatro sílabas e são criados a partir de adaptações de palavras do nosso mundo real. O método para se criar nomes de Metadílios é trocar, suprimir ou adicionar uma ou duas letras de um nome comum brasileiro. Uma tradição muito marcante do povo é que as fêmeas Metadílias quase sempre recebem nomes de flores. Diferente de outras raças silvestres ou bestiais, eles preservam rigidamente seus sobrenomes familiares, que costumam refletir o ambiente geográfico, a natureza e os ofícios rurais de sua cultura.</p><h4>Nomes Masculinos</h4><p>Alford, Arnulfo, Brando, Bredo, Cladro, Jorand, Lodrago, Nil, Torbeno, Viliano</p><h4>Nomes Femininos</h4><p>Rosa, Violeta, Tilia, Albina, Cindal, Galena, Isobela, Matilda</p><h4>Sobrenomes e Clãs</h4><p>Alpestre, Boteiro, Campina, Floreiro, Jardim, Lenheiro, Lenhoso, Montanhesco, Neves, Ovelheiro, Riberinho, Rústico, Torreiro</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/metadilio.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "metadilio",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "a568c1b37c47d255",
+    "name": "Diário: Naga (Macho)",
+    "pages": [
+      {
+        "_id": "3d8c6132f12c412f",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/naga.png\" alt=\"Naga (Macho)\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges com pesadas características ofídicas. A cabeça possui um focinho longo e mandíbulas que, embora não sejam separáveis como a das cobras comuns, possuem uma abertura enorme de 90º. Apresentam torso e braços humanoides, mas abaixo da caixa torácica a estrutura é formada apenas por coluna vertebral e costelas, originando uma grossa cauda muscular que pode ter de 4 a 5 metros de comprimento. Uma Naga pesa em média de 200 a 250 quilos. Costumam ficar com 2 metros de altura em posição ereta, mas podem inclinar o torso para perto do chão (1 metro de altura) para se movimentarem mais rapidamente, ou se apoiarem na cauda para erguerem-se a até 3 metros de altura num combate. Devido à sua fisionomia, elas não conseguem pular nem escalar escadas de mão.</li><br><li><strong>Pele e Pelagem:</strong> Totalmente desprovidas de pelos, possuem o corpo revestido por escamas de tons verdes (variando do quase negro ao verde-limão). Curiosamente, suas pálpebras são compostas por escamas transparentes que ficam o tempo todo fechadas.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são consideravelmente maiores e mais robustos que as fêmeas. Eles não possuem a larga estrutura muscular (semelhante ao capuz de uma naja) em volta do pescoço e da cabeça que caracteriza as fêmeas.</li><br><li><strong>Ciclo de Vida:</strong> A reprodução das Naga possui uma gestação curtíssima de cerca de 5 meses, e os ovos não são botados, eclodindo diretamente de dentro do corpo da fêmea. As crias nascem plenamente formadas (mas com tamanho minúsculo), alcançando a maturidade num desenvolvimento veloz de apenas 10 anos. Diferente das fêmeas, a expectativa de vida normal dos machos é de 50 anos, após os quais eles envelhecem vertiginosamente e acabam falecendo em poucas décadas.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 50 anos</li><li><strong>Ancião:</strong> 51+ anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "29eaf3c68a7b253e",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas do temível continente de Ofidien, as Naga são fanáticas e profundamente xenófobas. Elas menosprezam qualquer outra forma de vida, tratando as outras raças apenas como matéria-prima de laboratório, recursos consumíveis ou escravos (\"gado\"). Assentam suas cidades dentro de montanhas rochosas, valorizando acima de tudo esquemas de segurança e abundância de rotas de fuga. A sua sociedade não valoriza a unidade familiar tradicional (as crianças são responsabilidade da comunidade, não dos pais); as suas maiores ligações e amizades formam-se fortemente entre indivíduos que têm a mesma idade.</li><br><li><strong>O Papel Masculino:</strong> Como o seu império é de ordem matriarcal e comandado por feiticeiras fiéis ao Primordial Glycon, aos machos são reservadas as funções de defesa da sociedade e da estrutura do império. Quase todos eles são treinados nas artes bélicas como soldados. Adicionalmente à proteção, os machos encarregam-se de supervisionar o trabalho braçal dos escravos, comandar a engenharia cívica e também cuidar das fazendas da raça (onde cultivam fungos e criam pequenas aves). Vale ressaltar que a prática do artesanato, da alquimia e a medicina são altamente valorizadas e praticadas por ambos os gêneros.</li><br><li><strong>Necromancia:</strong> Diferente de outras culturas, o uso de magia necromântica para reviver cadáveres de outras criaturas não é um tabu, uma vez que elas separam a visão do corpo e do espírito de modo prático. Com relação à própria raça, enterrar os seus mortos de maneira intacta é a maior das desonras; para os Naga, devorar o cérebro do ente querido falecido é a forma padrão de se demonstrar profunda honra aos seus feitos.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "437609647b59e59f",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua das Naga é o Asá-Avája, um dialeto exótico preenchido com sibilos e estalos corporais, o que o torna uma língua absurdamente difícil e quase impossível de ser pronunciada por outras raças. Para definir nomes do povo Naga (que habitualmente possuem 3 sílabas ou mais), usam-se deuses históricos do hinduísmo e nomes da cultura egípcia. Uma característica única dos nomes masculinos Naga é a utilização de poderosos sufixos separados por um hífen (-DREK significando Temível, -SUR para Grandioso, e -VITRA para Iluminado). E, diferente dos seus construtos (os Draganos), as Naga nunca em nenhuma hipótese usam sobrenomes, por acreditarem que um indivíduo tem que provar seu próprio mérito.</p><h4>Nomes Masculinos</h4><p>Ahamthrul, Ahi-Vitra, Akuloth-Sur, Asdaha-Drek, Brignor, Bristerne, Dahag-Drek, Dragua-Vitra, Flamerax, Fzalleobliviax, Hatshersup, Inferniscargilex, Kolkhikus-Sur, Komerex, Kulshedra-Drek, Lagarfliotsormurinn, Meisterstur, Nidhog-Sur, Phorkys-Vitra, Rothenkolkis, Sarakus, Sarcopis-Sur, Sarkany-Drek, Sarmyn-Sur, Scathel, Shivnarvex, Smeygorinish, Thevetat-Sur, Typhaon, Zirnitrarex</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/naga.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "naga-m",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "442eb5200fab3685",
+    "name": "Diário: Naga (Fêmea)",
+    "pages": [
+      {
+        "_id": "80293eca1f5689db",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/naga.png\" alt=\"Naga (Fêmea)\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São esfinges reptilianas que, abaixo do tórax, não possuem pernas, sustentando-se numa grossa e poderosa cauda de 4 a 5 metros composta por coluna vertebral e costelas. As fêmeas são visivelmente menores e mais delgadas que os machos (que pesam em média entre 200 e 250 quilos). A cabeça é ofídica, possuindo focinho longo e mandíbulas que, embora não se separem, possuem abertura de 90º. Quando alertas, ficam com 2 metros de altura; correndo inclinadas, baixam para 1 metro; e em combate, podem se apoiar na cauda para alcançar 3 metros de altura. A sua fisiologia impede completamente que elas realizem saltos ou usem escadas.</li><br><li><strong>Pele e Pelagem:</strong> O corpo é revestido inteiramente por escamas que variam do quase negro ao verde-limão. O padrão das fêmeas é notório por apresentar padrões muito mais amplos de cores do que os machos.</li><br><li><strong>Olhos:</strong> Suas pálpebras são formadas por uma escama especial e transparente, que permanece o tempo todo fechada para proteger o olho.</li><br><li><strong>Dimorfismo Sexual:</strong> É extremamente marcante na face; além de serem mais delicadas, as fêmeas ostentam ao redor do pescoço e cabeça uma estrutura muscular larga, semelhante a um capuz (como as najas), que exibe fortes manchas e padrões coloridos na parte interna.</li><br><li><strong>Ciclo de Vida:</strong> Possuem uma gestação curtíssima de 5 meses. Elas produzem de três a quatro ovos, mas não os botam; mantêm-os dentro de seus corpos até a eclosão. Os bebês nascem minúsculos (com um centésimo do tamanho normal), mas totalmente formados e desenvolvem-se de forma veloz até a idade adulta, aos 10 anos. As fêmeas vivem consideravelmente mais que os machos, podendo chegar aos 70 anos com facilidade; no entanto, após essa idade, entram em um processo de envelhecimento acentuadamente rápido e raramente vivem por mais 20 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 70 anos</li><li><strong>Ancião:</strong> 71+ anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "9a8083adc00e09ab",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativas de Ofidien, as Naga criam cidades nas encostas ou escavadas na rocha das montanhas, valorizando estruturas com defesa extrema e muitas rotas de fuga. Seu império é rigidamente matriarcal e \"arcanocrático\", moldado pela xenofobia e lealdade fanática à própria raça, a qual elas consideram superior a todas as outras.</li><br><li><strong>Papel Feminino (Magia e Teocracia):</strong> Toda a sociedade orbita o Primordial Glycon, e todas as fêmeas da espécie são consideradas suas consortes. Elas detêm o monopólio místico: apenas fêmeas podem ser Conjuradoras, e atuar como reprodutoras, artistas, boticárias e professoras é privilégio delas. Além disso, raras são as fêmeas que não possuem conhecimento arcano rudimentar. As mais formidáveis entram para o culto de feiticeiras Nachash, que comandam as alas militares, sacerdotais e sociais do império. Atividades braçais e agricultura pesada são consideradas tarefas degradantes e destinadas apenas aos escravos e, em parte, aos machos.</li><br><li><strong>Sociedade e Necromancia:</strong> A raça não possui o conceito de unidade familiar; todas as crianças são cuidadas de forma geral pela comunidade, e a lealdade extrema do povo baseia-se em amizades formadas com companheiras da mesma idade. A necromancia é amplamente aceita, não havendo pudor em transformar corpos alheios em construtos ou laboratórios. O sepultamento de uma Naga intacta é tido como uma enorme desonra, sendo a tradição consumir o cérebro da falecida para honrar seus feitos.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "3fe1c40fd91af954",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa da raça é o Asá-Avája, composta por sibilos, estalos e expressões corporais virtualmente impossíveis de serem reproduzidas por outras espécies sem magia. Os nomes Naga possuem pelo menos três sílabas e são inspirados na mitologia egípcia e hindu. Ao contrário dos machos (que usam hífen), as fêmeas adicionam radicais de reverência aos seus nomes separados por um apóstrofo. Os radicais femininos são 'AKIS (superiora), 'AXAR (guerreira) e 'KAR ou 'KIR (ambos significando abençoada). Naga não usam nenhum tipo de sobrenome, crendo que usar a influência de famílias limitaria o mérito do indivíduo.</p><h4>Nomes Femininos</h4><p>Anphisbaenea, Azhi’Dahaka, Brakaelurydea, Draig’Goch, Erenkilgorinish, Esderha’Evren, Eupodophis, Galeshn’Kar, Haasiophis, Illuyankas, Kimaera’Axar, Kur’Irkalla, Leidivashy, Nagavanshi, Nahash, Najashn’Kir, Pachyr’Akis, Scythia’Hylaea, Simoliophidea, Stakis, Susna’dasa, Suthek’Heru, Venrathay, Verecelen, Weista’Axar, Yam’Litanu</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/naga.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "naga-f",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "34960e6eed67cbb9",
+    "name": "Diário: Orc",
+    "pages": [
+      {
+        "_id": "0cf35b011cc41fee",
+        "name": "Biologia & Fisiologia",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/orc.png\" alt=\"Orc\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides de compleição física muito muscular e hábitos predatórios, medindo em média entre 1,7 e 1,9 metros e pesando entre 90 e 110 quilos. Sua característica mais notável são os grandes caninos maxilares, extremamente afiados e proeminentes, montados sobre uma estrutura óssea craniana muito forte. Graças ao sangue orc e seus hábitos noturnos, conseguem enxergar na completa escuridão, embora não consigam distinguir cores nesse ambiente.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do verde oliva ao castanho. O corpo possui uma pelagem negra grossa e esparsa, sendo mais densa no topo da cabeça e ao longo da coluna.</li><br><li><strong>Olhos:</strong> As pupilas são amarelas, variando de muito brilhantes até tão opacas e brancas que muitas vezes apenas a íris do olho é perceptível.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos desenvolvem pelos no pescoço e sob o rosto (uma espécie de barba). As fêmeas são distinguidas por não possuírem esses pelos faciais e cervicais, além de apresentarem um par de mamas que variam de pequenas a grandes.</li><br><li><strong>Ciclo de Vida:</strong> A gestação das fêmeas dura de sete a oito meses e os Orcs são considerados adultos com apenas 12 anos. Os sinais da velhice, marcados pela perda de pigmentação do cabelo e da pele, surgem aos 30 anos. É muito raro um orc passar dos 60 anos, embora surpreendentemente a raça quase não perca tônus muscular em idades avançadas.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-8 anos</li><li><strong>Adolescente:</strong> 9-11 anos</li><li><strong>Adulto:</strong> 12 anos</li><li><strong>Idoso:</strong> 30(6) anos</li><li><strong>Ancião:</strong> 60(1) anos</li></ul>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "2c9bd23d8ef33e9a",
+        "name": "Cultura & Sociedade",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Nativos principalmente das Terras Secas, organizam-se em pequenas tribos nômades com hierarquia baseada na força bruta. Têm poucas cidades permanentes, construindo seus assentamentos sobre as ruínas de antigas civilizações (principalmente nas ruínas de Mankosh). Respeitam imensamente a força e o poder individual; a magia é temida e respeitada, mas o \"conhecimento\" e estudo intelectual puros são renegados aos fisicamente inaptos (o que ironicamente permite que orcs mais fracos ascendam socialmente usando magia e sabedoria).</li><br><li><strong>Sistema de Castas:</strong> O topo é liderado por um Xamã, Druida ou Guerreiro experiente com seus irmãos-de-armas (filhos e guarda-costas). Abaixo ficam os caçadores, guerreiros e acólitos; seguidos pelos pastores, ferreiros e artesãos; e na base, os aprendizes, prisioneiros e escravos. Os membros podem desafiar seus superiores para subir de patente. Derrotados descem um degrau, e as lutas não precisam ser até a morte, a não ser que os desafiantes sejam escravos em busca de liberdade, que são invariavelmente mortos se perderem.</li><br><li><strong>O Papel Feminino:</strong> A sociedade é estritamente igualitária e as fêmeas assumem e disputam qualquer cargo. A única regra é que as grávidas e as fêmeas com filhotes pequenos são temporariamente afastadas das atividades da tribo e não podem ser desafiadas por castas inferiores até o desmame das crianças.</li><br><li><strong>Orcs Civilizados:</strong> Aqueles orcs que abandonam o nomadismo e se fixam em reinos como Arkânia ou Parband são integrados de forma muito eficiente, geralmente ingressando nas fileiras militares e da guarda do reino, já que encontram dificuldades em competir nas fileiras acadêmicas e políticas.</li></ul></p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "88ec840e6fe05adb",
+        "name": "Nomes & Tradições",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Nomes & Tradições</h2><p>A língua nativa dos Orcs é o Ravorka, um idioma cru, agressivo e difícil que não possui uma versão escrita própria, e que é falado também por Ogros e Trolls. O idioma de referência no mundo real para os Orcs é a língua Bielorrussa. Os nomes Orcs são curtos, contendo uma ou duas sílabas, e dão extrema preferência às consoantes velares como o “K”, “G” e “RR” (sendo que qualquer “R” no início de um nome tem sempre som de \"RR\"). As fêmeas diferenciam-se dos machos porque seus nomes sempre terminam com a letra \"A\". Nas Terras Secas, os Orcs usam puramente os nomes de seus Clãs como sobrenome. Já os orcs que vivem em Parband e Arkânia costumam adotar as mesmas regras de nomes Astérios, identificando-se através da sua organização e patente militar (Ex: \"Legionário Stog da Armada da Aurora\", ou \"Ura do Templo de Ahogr\").</p><h4>Nomes Masculinos</h4><p>Agro, Bugmug, Falag, Gog, Gograk, Grigkal, Grimthark, Grishog, Grost, Grundel, Kerno, Kerogre, Krugak, Magog, Mortor, Nofgor, Rorst, Rurlag, Shelitarg, Stog, Sukor, Tugut, Turg, Urglak, Xargok, Yakar</p><h4>Nomes Femininos</h4><p>Aga, Agra, Agrunta, Darga, Drakena, Falanga, Gralnaka, Grika, Gulda, Horsta, Kendra, Kleva, Kruga, Magla, Nevra, Reptila, Rorda, Runta, Stoga, Tamuska, Tuguta, Turga, Ura, Urgla, Valsina, Xarga</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/orc.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "orc",
+        "tipo": "raca"
+      }
+    }
+  },
+  {
+    "_id": "01f81cd5a919ee25",
+    "name": "Diário: Feiticeiro",
+    "pages": [
+      {
+        "_id": "a42a95c3b864e636",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/feiticeiro2.png\" alt=\"Feiticeiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><p>Apesar de possuírem um domínio considerável sobre a teoria geral da magia arcana, os Feiticeiros focam seus esforços no domínio e manipulação dessas energias brutas, geralmente para fins combativos. Muitos Feiticeiros ocupam posições em exércitos ou guardas organizadas, às vezes na linha de frente, às vezes como conselheiros ou em posições de liderança. Em geral, aqueles que decidem seguir o aprendizado de Feiticeiro são pessoas com sede de aventura ou de poder, o que geralmente lhes rende bons frutos em organizações com cadeias de comando bem estruturadas.</p><p>No entanto, muitos Feiticeiros estudam as teorias elementais da magia em busca de significados mais filosóficos. Esses Feiticeiros geralmente evitam usar magias de forma destrutiva, procurando usá-las de modo mais brando, usualmente preferindo magias defensivas e utilitárias em lugar de magias puramente ofensivas.</p><p><strong>Raças Mais Frequentes:</strong> Elfo, Faen, Fira, Humano e Metadílio</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "a573a8b7f6af9784",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>aparar-magia</strong></li><li><strong>ariete-magico</strong></li><li><strong>bola-de-fogo</strong></li><li><strong>congelar</strong></li><li><strong>detectar-magia</strong></li><li><strong>eletricidade-estatica</strong></li><li><strong>inflamar</strong></li><li><strong>infravisao</strong></li><li><strong>invocar-elemental-1</strong></li><li><strong>invocar-elemental-2</strong></li><li><strong>levitar</strong></li><li><strong>manto-crepitante</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>parede-de-gelo</strong></li><li><strong>rajada-de-gelo</strong></li><li><strong>relampago-1</strong></li><li><strong>rajada-elemental</strong></li><li><strong>resistencia-elemental</strong></li><li><strong>telecinesia</strong></li><li><strong>teleporte-1</strong></li><li><strong>aptidao-elemental</strong></li><li><strong>dissipar-magia</strong></li><li><strong>eletrosfera</strong></li><li><strong>incandescer</strong></li><li><strong>inferno</strong></li><li><strong>invocar-elemental-3</strong></li><li><strong>prisao-de-gelo</strong></li><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/feiticeiro2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "feiticeiro",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "67c20d7803b462e2",
+    "name": "Diário: Guerreiro",
+    "pages": [
+      {
+        "_id": "afabe7db21755d4b",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/guerreiro1.png\" alt=\"Guerreiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><p>De fato, a maioria das cidades mantém um pequeno contingente de guardas, treinado no uso de armaduras pesadas, escudos e armas corporais e a maioria dos reinos de Cassiopéia mantém um exército permanente de combatentes especializados para lidarem com invasões e fazer frente aos ataques de nações hostis. Além disso, muitas companhias de mercenários treinam e mantêm um bom número de guerreiros a soldo, prontos para empreenderem todo tipo de conflito armado. Finalmente, histórias de aldeões obrigados a pegarem em armas para defenderem seus lares contra bandidos ou, em alguns casos, monstros e que acabam por seguir nos caminhos dos homens de armas são relativamente comuns em Drakon.</p><p>Considerando a abundância de minérios em Cassiopéia, mesmo um guerreiro com pouco treinamento pode sobreviver no caminho da guerra, comprando armas e equipamentos adequados de proteção. Graças a isso, os exércitos, guardas e companhias de mercenários costumam manter seus homens bem equipados, e a profissão de Guerreiro é vista como digna e estável, fazendo com que muitos escolham segui-la em busca de glória e fama – apesar de poucos conseguirem tais distinções.</p><p>Apesar das guardas e exércitos não pagarem muito bem, elas oferecem alojamento, alimentação e manutenção de armas, armaduras e equipamentos necessários para o cumprimento do dever, enquanto companhias mercenárias pagam mais, mas apresentam riscos bem maiores – já que costumam ser procuradas para resolver problemas difíceis, geralmente envolvendo monstros, ou para engrossar as linhas de frente dos exércitos, no caso de conflitos em larga escala.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "118ff6ada080631d",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (37 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>anular-golpe</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-simultaneo</strong></li><li><strong>brigao</strong></li><li><strong>combate-em-grupo</strong></li><li><strong>armas-1</strong></li><li><strong>combate-pesado</strong></li><li><strong>combate-tatico</strong></li><li><strong>defesa-agressiva</strong></li><li><strong>estabilidade</strong></li><li><strong>golpe-devastador-1</strong></li><li><strong>golpe-com-escudo</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>investida-mortal</strong></li><li><strong>nocautear</strong></li><li><strong>parede-de-escudos</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>transpor</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>forca-de-explosao</strong></li><li><strong>golpe-devastador-2</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>investida-forte</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>mestre-de-armas-3</strong></li><li><strong>gatuno</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/guerreiro1.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "guerreiro",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "28b8d9e8f991abe5",
+    "name": "Diário: Ladino",
+    "pages": [
+      {
+        "_id": "7bae8c319435c6bd",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/ladino2.png\" alt=\"Ladino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><p>Apesar de muitos verem os Ladinos com desconfiança, muitas vezes considerando seus meios pouco honrados ou mesmo vis, a grande maioria dos Ladinos de Cassiopéia atua ao lado da lei. Eles costumam trabalhar como batedores, espiões, investigadores e exploradores. Eles auxiliam ordens militares com informações sobre movimentos de tropas inimigas e obtendo informações secretas ou plantando informações falsas, usam suas redes de contatos para descobrir criminosos ou apurar veracidade de informações e são particularmente apreciados em exploração de ruínas e tumbas (particularmente comuns em Tebryn e nas Terras Secas, onde grandes civilizações ergueram imensos complexos que foram devastados ao logo dos séculos, durante a Revoada dos Dragões e o Expurgo) e na invasão de cavernas e complexos subterrâneos habitados por raças ou monstros hostis.</p><p>Muitos Ladinos também trabalham como marinheiros, piratas e corsários, assim como os Espadachins. Eles podem ser combatentes eficientes em condições onde agilidade, velocidade e versatilidade são mais importantes do que simples proeza marcial, como no convés de um navio.</p><p>É claro, muitos Ladinos usam seus conhecimentos e aptidões para cometer crimes. Além de um bom número de piratas, Ladinos são conhecidos por engrossarem bastante as fileiras de ladrões, embusteiros, atravessadores e traficantes de toda Cassiopéia.</p><p><strong>Raças Mais Frequentes:</strong> Astéria, Faen, Humano e Metadílio</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "2bc29accb6e76b74",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>gatuno</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-evasivo</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>armas-1</strong></li><li><strong>contatos-no-crime</strong></li><li><strong>corte-arterial</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flanquear</strong></li><li><strong>flexivel</strong></li><li><strong>furtivo</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>mestre-das-adagas-1</strong></li><li><strong>mestre-das-adagas-2</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>malabarista</strong></li><li><strong>truque-sujo</strong></li><li><strong>camuflagem</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>emboscar</strong></li><li><strong>en-passant</strong></li><li><strong>explorar-surpresa</strong></li><li><strong>improvisacao-ladina</strong></li><li><strong>mestre-das-adagas-3</strong></li><li><strong>passo-leve</strong></li><li><strong>ripostar</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>mestre-especialista</strong></li><li><strong>mestre-de-armas-1</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/ladino2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "ladino",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "04269a145331afa6",
+    "name": "Diário: Paladino",
+    "pages": [
+      {
+        "_id": "2cf6a178586a4f7d",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/paladino2.png\" alt=\"Paladino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>O Paladino é um guerreiro movido por um conjunto de códigos de conduta que usa para disciplinar seu espírito e realizar feitos que muitos veriam como sobrenaturais.</p><p>A maioria dos Códigos de um Paladino são autoimpostos; regras de conduta sob as quais ele escolhe viver considerando que são o único caminho realmente digno de existir ou para expiar algum grande erro que cometeu e não deseja jamais repetir. Alguns, no entanto, carregam códigos impostos por forças externas, como dogmas espirituais determinados por uma crença da qual ele comunga ou princípios sob os quais o Paladino deve viver por fazer parte de uma ordem. De toda forma, esses Códigos exigem uma grande disciplina para serem observados completamente a cada momento, o que fortalece grandemente à vontade e o espírito do Paladino no processo.</p><p>Alguns Paladinos vivem sob um único Código, estando ligados apenas a uma obrigação específica, enquanto outros adotam vários Códigos em uma tentativa de se aperfeiçoar e se tornar cada vez mais puros, dignos ou simplesmente por possuírem uma índole que naturalmente os leva em direção a eles. Não há limites para o número de Códigos que cada Paladino pode possuir, mas obviamente, quanto mais Códigos um Paladino precisa observar, mais limitado ele fica em relação aos rumos que pode tomar diante de uma determinada situação – e alguns deles podem gerar conflitos (por exemplo, um Paladino com o Código da Honestidade e o Código da Coragem diante de uma situação em que apenas uma mentira poderia salvar a vida de um indefeso) o que pode quebrar o espírito de um Paladino permanentemente, caso não consiga seguir os ditames de um ou mais de seus Códigos.</p><p>Apesar de todos os Paladinos serem, obviamente, honrados, isso não significa que não possam ser malignos. Tiranos que impões sua força sobre os mais fracos podem perfeitamente seguir o Código da Lealdade, estando cercado de impiedosos (e fiéis) aliados, e guerreiros sanguinários que seguem estritamente o Código da Coragem são inimigos absolutamente terríveis no campo de batalha. Mas, é claro, estas são exceções à regra. Em geral, Paladinos são heróis que lutam pela manutenção do Status Quo, pela defesa dos inocentes e pela manutenção das leis.</p><p>Muitas ordens de Paladinos exigem que seus membros observem obrigatoriamente um Código específico, ao menos – todos os Paladinos da Ordem da Espada de Mirah precisam seguir o Código da Justiça, e a Hoste de Hadorn é formada por Paladinos que seguem o Código da Coragem – e a observação desses Códigos é ostensivamente ensinada aos escudeiros que desejam ingressar na Ordem, enquanto outras são mais flexíveis – os Paladinos da Mão Ígnea precisam seguir o Código da Honestidade ou o Código da Lealdade e os Faris exigem que seus membros sigam o Código da Cortesia ou o Código da Lealdade, apesar deles comumente seguirem ambos – e são, geralmente, menos severos em suas doutrinas.</p><p><strong>Raças Mais Frequentes:</strong> Anão, Astério, Fira e Juban</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "5acbc6e3f81df810",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>mestre-de-armas-1</strong></li><li><strong>austeridade</strong></li><li><strong>cavaleiro-experiente</strong></li><li><strong>codigo-da-coragem</strong></li><li><strong>codigo-da-honestidade</strong></li><li><strong>codigo-da-justica</strong></li><li><strong>combate-montado</strong></li><li><strong>combate-tatico</strong></li><li><strong>defletor</strong></li><li><strong>egide</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>justica-final-1</strong></li><li><strong>montaria-especial-1</strong></li><li><strong>montaria-especial-2</strong></li><li><strong>motivar</strong></li><li><strong>nocautear</strong></li><li><strong>parede-de-escudos</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>banir</strong></li><li><strong>comando-heroico</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>destemor</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>justica-final-2</strong></li><li><strong>montaria-especial-3</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>integridade</strong></li><li><strong>arqueria</strong></li><li><strong>acrobata</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/paladino2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "paladino",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "763480e886a66ce7",
+    "name": "Diário: Patrulheiro",
+    "pages": [
+      {
+        "_id": "decfc2089a2d0cec",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/patrulheiro2.png\" alt=\"Patrulheiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><p>A maioria dos Patrulheiros está intrinsecamente ligada às regiões selvagens, preferindo atuar em florestas, pântanos, bosques, selvas e regiões montanhosas, onde podem usar o ambiente para abater presas à distância, montar armadilhas com facilidade e rastrear de modo eficiente. De fato, muitos Patrulheiros não gostam das regiões urbanas, com gente demais, cheiros demais, rastros demais e regras demais. A liberdade das regiões florestais geralmente faz parte de um Patrulheiro tanto quanto um bom arco, e a grande maioria deles possui uma profunda ligação com a natureza, geralmente de forma reverente.</p><p>No entanto, por mais que essa seja a regra, há uma boa quantidade de exceções. Patrulheiros podem ser encontrados em cidades, trabalhando como caçadores de recompensa, dedicando-se a caçar criminosos ao invés de criaturas selvagens ou como guardas e vigias, com suas habilidades focadas em percepção e uso de arcos. Além disso, muitos Patrulheiros concentram seu treinamento apenas no manejo do arco e ingressam nas linhas de arqueiros de exércitos, milícias ou companhias mercenárias. Enquanto Druidas geralmente usam Companheiros Animais como sentinelas e vigias, e Xamãs geralmente possuem ligações quase familiares com seus Companheiros Animais, a maioria dos Patrulheiros usa essas criaturas como uma ferramenta. Muitos, claro, criam poderosos vínculos afetivos com seus Companheiros, e podem manter um mesmo Companheiro Animal por muitos anos. A maioria, porém, possui Companheiros Animais por curtos períodos de tempo, geralmente pela duração de uma tarefa, devolvendo-o à natureza depois disso.</p><p>Em áreas selvagens que não conhecem bem o bastante, é comum que um Patrulheiro convoque uma criatura da região para lhe servir como guia, enquanto caçadores de recompensa geralmente usam Companheiros Animais para obter informações de seus alvos ao planejar a captura. Muitos convocam Companheiros Animais para apenas uma tarefa, como um pássaro para lhe fornecer informações sobre uma área, um animal de hábitos noturnos para servir de vigia por uma noite ou um animal de montaria para levá-lo a um determinado destino, e alguns Patrulheiros menos escrupulosos usam predadores para auxiliá-los em combates mais perigosos. A maioria dos Patrulheiros, no entanto, prefere não envolver animais em tarefas perigosas, dado seu profundo respeito pela natureza.</p><p>É comum, também, que um Patrulheiro mantenha um Companheiro Animal por mais tempo se dedicar-se a uma mesma tarefa com frequência. Caçadores muitas vezes estão acompanhados de lobos ou águias, enquanto guardas e vigias costumam ter corujas, morcegos e felinos ao seu lado, e a maioria dos caçadores de recompensa usa cães e ratazanas para seguir seus alvos. Muitos acabam se afeiçoando a esses animais, e os mantém por perto mesmo quando sua tarefa foi cumprida, quase como animais de estimação.</p><p>Além disso, muitos Patrulheiros mantêm animais de montaria como Companheiro Animal, o que lhes garante um meio rápido e seguro de transporte em uma emergência.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "561d866ec639f4ee",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (30 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>acrobata</strong></li><li><strong>armadilheiro</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>cacador-de-criatura</strong></li><li><strong>chuva-de-flechas</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>disparo-forte</strong></li><li><strong>disparo-certeiro</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flechas-rapidas</strong></li><li><strong>furtivo</strong></li><li><strong>herbalismo</strong></li><li><strong>precisao</strong></li><li><strong>retesar-eficiente</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>truque-sujo</strong></li><li><strong>cacador-de-monstro</strong></li><li><strong>camuflagem</strong></li><li><strong>chuva-de-flechas-2</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>emboscar</strong></li><li><strong>empalar</strong></li><li><strong>matador-de-criatura</strong></li><li><strong>olho-da-aguia</strong></li><li><strong>passo-leve</strong></li><li><strong>veneficio</strong></li><li><strong>arqueria-de-mestre</strong></li><li><strong>conhecimento-arcano</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/patrulheiro2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "patrulheiro",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "74f4eb07d3561470",
+    "name": "Diário: Sacerdote",
+    "pages": [
+      {
+        "_id": "80e466331f317eb8",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sacerdote2.png\" alt=\"Sacerdote\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><p>A grande maioria dos Sacerdotes dedica suas vidas ao estudo e proteção de sua fé, à manutenção dos templos de sua divindade patrona, ao estudo de suas escrituras sagradas, comungando com outros professantes da mesma fé ou transmitindo seus conhecimentos para outros membros da comunidade onde habitam. A maioria deles, ainda, exerce alguma função na comunidade de acordo com as doutrinas de sua divindade: Sacerdotes de Mirah muitas vezes ocupam cargos de juízes ou conselheiros de burgomestres ou mesmo monarcas, Sacerdotes de Ellenis geralmente auxiliam os fazendeiros e caçadores em suas funções, Sacerdotes de Denalla costumam trabalhar como parteiros ou curandeiros, Sacerdotes de Sarfion trabalham em bibliotecas, escolas ou como conselheiros civis, Sacerdotes de Hadorn aconselham generais e costumam acompanhar tropas em conflitos tanto como médicos de fronte quanto como combatentes, Sacerdotes de Ran e Taranis muitas vezes embarcam em navios (tanto de guerra quanto de comércio ou mesmo de pesca) para proteger e aconselhar a tripulação, Sacerdotes de Hou podem ser encontrados em guildas de ferreiros realizando funções como artesões ou tesoureiros e Sacerdotes de Ahrogr podem tanto exercer funções de aconselhamento em assuntos civis ou militares como exercer funções de legisladores.</p><p>Muitos Sacerdotes, no entanto, preferem uma vida mais autônoma, viajando constantemente para aumentar sua compreensão do mundo ao seu redor na tentativa de encontrar uma coesão entre as teorias que estudam e o reflexo prático delas no mundo. Entre estes, um bom número de Sacerdotes se aventura de modo menos passivo, procurando aqueles fenômenos considerados antinaturais pela sua fé para expurgá-los do mundo, ou exercendo a as doutrinas de sua divindade patrona – enquanto Sacerdotes de Marah, Ahogr, Taranis e Hou se sentem compelidos a combater por grupos ou indivíduos em perigo, os de Denalla e Ellenis são particularmente conhecidos por combater mortos-vivos, demônios e outras criaturas sobrenaturais, os de Hadorn e Ran podem se interessar por qualquer situação de conflito e Sacerdotes de Sarfion são célebres exploradores e investigadores.</p><p><strong>Raças Mais Frequentes:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "31ecbe24931aaf65",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>abencoar-aliados-1</strong></li><li><strong>abencoar-objeto</strong></li><li><strong>aparar-magia</strong></li><li><strong>asas-celestiais</strong></li><li><strong>asceta</strong></li><li><strong>aura-de-cura-1</strong></li><li><strong>cariatide</strong></li><li><strong>conjurar-arma-dos-deuses</strong></li><li><strong>do-destino</strong></li><li><strong>conjurar-broquel-mistico</strong></li><li><strong>corpo-fechado</strong></li><li><strong>curar-ferimentos-1</strong></li><li><strong>detectar-magia</strong></li><li><strong>dogma</strong></li><li><strong>exorcismo</strong></li><li><strong>graca-divina</strong></li><li><strong>protecao-mistica</strong></li><li><strong>purgar</strong></li><li><strong>toque-mistico</strong></li><li><strong>velocidade</strong></li><li><strong>abencoar-aliados-2</strong></li><li><strong>aura-de-cura-2</strong></li><li><strong>circulo-da-protecao</strong></li><li><strong>conjurar-falange-do-destino</strong></li><li><strong>criar-golem</strong></li><li><strong>curar-ferimentos-2</strong></li><li><strong>dissipar-magia</strong></li><li><strong>manter-golem</strong></li><li><strong>portal</strong></li><li><strong>primaz</strong></li><li><strong>pontifice</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/sacerdote2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "sacerdote",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "a97cf858c04cd05a",
+    "name": "Diário: Bardo",
+    "pages": [
+      {
+        "_id": "cdacf824876e68d5",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/bardo2.png\" alt=\"Bardo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><p>Apesar do estudo das artes musicais dos Bardos geralmente ser ensinado na estrada, em companhias de cantores itinerantes, poetas ambulantes ou mesmo de pai para filho, há vários Liceus de Bardos em Cassiopéia, que formam um grande número de Bardos – que em geral trabalham para a corte desses reinos. Os mais famosos são o Liceu de Tebrinia, em Tebryn e o Salão dos Bardos, em Bryne.</p><p>Além disso, graças ao amplo conhecimento de diversas músicas, histórias e poemas, Bardos são depositários de uma enorme quantidade de conhecimento teórico, às vezes superiores àqueles de estudiosos formais e suas imensas bibliotecas. Seu conhecimento vivo, construído durante suas andanças pelo mundo, está em constante processo de atualização e um bom Bardo sabe diferenciar os fatos reais da fantasia, filtrando as histórias que lhes são contadas e destilando a verdade na forma de novas composições cujo conteúdo, além de entreter plateias, serve para carregar conhecimento. Essas histórias, tocadas ao redor de fogueiras entre Bardos que se encontram nas estradas ou cantadas nos grandes salões reais fornecem aos Bardos um vasto conhecimento sobre história, lendas e até mesmo geografia e política.</p><p>Graças à isso, muitos Bardos são empregados em cortes como conselheiros, e a maioria dos vilarejos, cidades e metrópoles vibra com a chegada de companhias de menestréis e trovadores ambulantes, sabendo que eles trarão, além de entretenimento, notícias de outras áreas do reino.</p><p>Grupos de aventureiros, de forma semelhante, apreciam a presença de Bardos não apenas pelos benefícios que eles trazem à moral do grupo e pelos efeitos que eles são capazes de produzir em combate, mas também porque eles são a melhor fonte de notícias – e possíveis novas aventuras! – que um grupo pode esperar.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "c4dffd4e670f0a4d",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (57 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>poesia-dos-bardos</strong></li><li><strong>aparar</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>cancao-da-provocacao</strong></li><li><strong>cancao-desesperadora</strong></li><li><strong>cancao-do-triunfo</strong></li><li><strong>cancao-exultante</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>furtivo</strong></li><li><strong>gregario</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>grito-ensurdecedor</strong></li><li><strong>grito-estilhacador</strong></li><li><strong>lingua-afiada</strong></li><li><strong>malabarista</strong></li><li><strong>melodia-dancante</strong></li><li><strong>melodia-do-enjoo</strong></li><li><strong>melodia-do-repouso</strong></li><li><strong>melodia-sonifera</strong></li><li><strong>mestre-das-notas</strong></li><li><strong>truque-sujo</strong></li><li><strong>cancao-da-sereia</strong></li><li><strong>cancao-desconcentrante</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>melodia-da-furia</strong></li><li><strong>melodia-dos-animais</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>virtuoso</strong></li><li><strong>vocalista</strong></li><li><strong>cancao-do-requiem</strong></li><li><strong>conhecimento-mistico</strong></li><li><strong>distracao</strong></li><li><strong>instrumentista</strong></li><li><strong>lirico</strong></li><li><strong>ritmo-dos-animais</strong></li><li><strong>grito-contundente</strong></li><li><strong>falsete</strong></li><li><strong>repentista</strong></li><li><strong>soprista</strong></li><li><strong>mimicar</strong></li><li><strong>pantomima</strong></li><li><strong>beijo-sufocante</strong></li><li><strong>chega-mais</strong></li><li><strong>requebrado</strong></li><li><strong>danca-das-ruas</strong></li><li><strong>danca-da-guerra</strong></li><li><strong>danca-do-ventre</strong></li><li><strong>solo</strong></li><li><strong>palavra-toxica</strong></li><li><strong>charada-obtusa</strong></li><li><strong>golpe-inspirador</strong></li><li><strong>grito-retumbante</strong></li><li><strong>presenca-inspiradora</strong></li><li><strong>um-bom-conselho-1</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/bardo2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "bardo",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "c087084a68e94b7b",
+    "name": "Diário: Druida",
+    "pages": [
+      {
+        "_id": "b8edd03f2a66344e",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/druida2.png\" alt=\"Druida\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><p>Em geral, comunidades druídicas ou grupos próximos compartilham alguns rituais comuns, mas mesmo dentro de comunidades com rituais bem definidos, quase todos possuem práticas e definições individuais consideravelmente diferente dos demais. Essas diferenças de visão, crença e prática não são apenas toleradas, mas também encorajadas, e a individualidade e a busca por um entendimento particular da natureza são extremamente bem vistas pelos Druida.</p><p>Diferente dos Sacerdotes, os Druidas não reúnem congregações nem espalham a palavra de suas divindades. Ao invés disso, eles oferecem seu conhecimento sobre flora, fauna e fenômenos naturais àqueles ao seu redor, por vezes de forma concreta, auxiliando fazendeiros com suas plantações e animais, às vezes de forma simbólica, realizando rituais de boa colheita ou plantio, casamentos e funerais.</p><p>Apesar dessa diferença considerável entre o uso de seus conhecimentos de clericato com relação àqueles demonstrados pelos Sacerdotes, eles entendem a natureza dos rituais, das fórmulas e formas dos mesmos utilizados em outras formas de sacerdócio, e são capazes de compreender e reconhecer perfeitamente os processos e objetivos dos rituais realizados por qualquer outra religião.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "b515a7ae02779e9f",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>aparar-magia</strong></li><li><strong>asas-celestiais</strong></li><li><strong>bencao-de-ellenis</strong></li><li><strong>bestializar</strong></li><li><strong>bons-frutos</strong></li><li><strong>caminhada-magica</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>convocar-animais</strong></li><li><strong>detectar-magia</strong></li><li><strong>entrelacar</strong></li><li><strong>espirito-animal</strong></li><li><strong>evocar-temporal</strong></li><li><strong>herbalismo</strong></li><li><strong>mover-terra</strong></li><li><strong>principio-natural</strong></li><li><strong>rajada-de-agua</strong></li><li><strong>rajada-de-espinhos</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>turbilhao</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>conjurar-abrigo</strong></li><li><strong>despertar-a-flora</strong></li><li><strong>dissipar-magia</strong></li><li><strong>evocar-nevasca</strong></li><li><strong>gavinhas-e-espinhos</strong></li><li><strong>olho-do-furacao</strong></li><li><strong>orbe-de-contencao</strong></li><li><strong>punho-de-pedra</strong></li><li><strong>veneficio</strong></li><li><strong>hierofante</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/druida2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "druida",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "271a8d443f5c85f6",
+    "name": "Diário: Espadachim",
+    "pages": [
+      {
+        "_id": "4468a73edde1ad19",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/espadachim2.png\" alt=\"Espadachim\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><p>Apesar da maioria dos Espadachins concentrar seu treinamento na maestria e proeza física, muitos deles preferem lançar mão de artifícios variados, truques sujos, enganação e até mesmo verborragia intensa para vencer desafios – de fato, muitos deles possuem línguas mais hábeis do que suas espadas! Um bom número de Espadachins é capaz de simplesmente abrir caminho através de inimigos simplesmente com sua capacidade de persuasão.</p><p>Além disso, Espadachins sempre preferem armaduras que restrinjam minimamente sua movimentação. Muitos até mesmo preferem não usar nenhum tipo de armadura, confiando puramente em seus reflexos para se defender.</p><p>Essas características somadas, muitas vezes fazem com que os Espadachins sejam vistos como medrosos, espertalhões ou, no mínimo, fanfarrões imprudentes – rótulos que, aliás, a maioria deles tende a incentivar, já que isso faz com que a maioria dos seus oponentes os subestimem em combate (geralmente apenas uma vez).</p><p>No entanto, existe um considerável número de Espadachins que veem os subterfúgios como uma maneira realmente covarde de lidar com inimigos e situações de perigo. Para estes, a proeza em combate e a coragem diante de qualquer desafio são as melhores armas à sua disposição. Esses Espadachins, em geral, são mais sérios e compenetrados, treinando incessantemente para aprimorar sua técnica de combate e tornar seus reflexos tão afiados quanto às lâminas que empunham, desdenhando de artifícios e artimanhas para vencer obstáculos – mas jamais subestimando aqueles que lançam mão de tais estratagemas.</p><p>Certamente a maioria dos combatentes que navegam pelos mares de Drakon são Espadachins. Além da agilidade necessária para se manter equilibrado em um convés durante uma batalha naval, poucos seriam ousados – ou estúpidos – para vergar armaduras pesadas em um ambiente que pode transformar a proteção que elas oferecem em uma lenta e agonizante morte por afogamento.</p><p>Apesar deles não serem a maioria absoluta – Ladinos, Patrulheiros, Magos e Sacerdotes tanto de Ran quanto de Taranis são bastante numerosos nos conveses de navios mercantes ou de combate – os Espadachins certamente são os mais famosos marinheiros de Drakon. De fato, na maioria das áreas costeiras, Espadachim é sinônimo de Marinheiro.</p><p><strong>Raças Mais Frequentes:</strong> Fira, Humano, Levent e Tailox</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "48141e9734fb2b91",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (38 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>orbe-de-contencao</strong></li><li><strong>punho-de-pedra</strong></li><li><strong>veneficio</strong></li><li><strong>hierofante</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>combate-com-duas-armas-1</strong></li><li><strong>combate-tatico</strong></li><li><strong>corte-arterial</strong></li><li><strong>danca-das-espadas-1</strong></li><li><strong>desarmar-oponente</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>investida-mortal</strong></li><li><strong>lingua-afiada</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>panache</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>touche</strong></li><li><strong>truque-sujo</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>coracao-da-batalha</strong></li><li><strong>danca-das-espadas-2</strong></li><li><strong>decapitar</strong></li><li><strong>implacavel</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>retalhar</strong></li><li><strong>ripostar</strong></li><li><strong>tempestade-de-laminas</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>senhor-das-laminas</strong></li><li><strong>conhecimento-arcano</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/espadachim2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "espadachim",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "4562a02d414f1816",
+    "name": "Diário: Rúnico",
+    "pages": [
+      {
+        "_id": "e8adfeba1334b38a",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/runico2.png\" alt=\"Rúnico\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><p>Além disso, muitos Rúnicos concentram parte de sua atenção especificamente ao uso de itens mágicos, particularmente armas mágicas, não só para aumentar seu arsenal mas também quando combatem outros conjuradores, que podem ser eficientes na defesa contra conjurações mas geralmente não podem se defender tão bem de itens mágicos permanente. Muitos Rúnicos também focam seus interesses em itens mágicos na direção oposta, usando habilidades que desativem itens mágicos temporariamente e eliminem Selos e Runas de seus inimigos, como uma forma de eliminar as vantagens de seus oponentes quando os mesmos são outros Rúnicos ou quando fazem uso extensivo de itens mágicos e encantamentos.</p><p>Rúnicos possuem, no entanto, um conhecimento teórico sobre o uso de magia arcana do mesmo modo que qualquer outro conjurador, e além de terem alguns conhecimentos de magias mais básicas – principalmente defensivas – são capazes de conjurar qualquer magia arcana a partir de um tomo, e muitos deles carregam consigo um grimório com algumas magias que podem ser úteis (como Levitar ou Teleporte) ou que podem lhes fornecer mais opções em combate (como Ariete Mágico ou Manto Crepitante).</p><p>Essas características somadas tornam os Rúnicos combatentes competentes, particularmente eficientes contra conjuradores e criaturas sobrenaturais. De fato, alguns reinos – como Parband, Dagothar e Bryne – mantém contingentes de Rúnicos para lidar especificamente com conjuradores malignos e ameaças mágicas.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Astério, Fira e Mahok</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "e208170a5d85814d",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (34 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>aparar-magia</strong></li><li><strong>arma-fiel</strong></li><li><strong>arma-incandescente</strong></li><li><strong>arma-gelida</strong></li><li><strong>arma-relampejante</strong></li><li><strong>armadura-fiel</strong></li><li><strong>ataque-fantasma</strong></li><li><strong>combate-tatico</strong></li><li><strong>conjurar-escudo</strong></li><li><strong>desativar-item</strong></li><li><strong>detectar-magia</strong></li><li><strong>enfeiticar-arma-1</strong></li><li><strong>enfeiticar-armadura</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>onda-de-chamas</strong></li><li><strong>onda-de-frio</strong></li><li><strong>onda-de-raios</strong></li><li><strong>onda-fantasma</strong></li><li><strong>resistencia-elemental</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>aptidao-elemental</strong></li><li><strong>ataque-chocante</strong></li><li><strong>ataque-congelante</strong></li><li><strong>ataque-flamejante</strong></li><li><strong>golpe-do-vento</strong></li><li><strong>dissipar-magia</strong></li><li><strong>enfeiticar-arma-2</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>destruicao-elemental</strong></li><li><strong>conhecimento-mistico</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/runico2.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "runico",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "424f6b2129452ab1",
+    "name": "Diário: Dracomante",
+    "pages": [
+      {
+        "_id": "171f8b56b75a29ef",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/dracomante.png\" alt=\"Dracomante\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><p>A maioria dos Dracomantes é ligada à Aurora dos Dragões, um culto religioso fundado em Arkânia séculos atrás e que se concentra na ideia de que os dragões, e não as divindades exteriores, devem ser adorados e seus exemplos seguidos. Seu corpo de crença gira ao redor de que a sabedoria, majestade e poder dos dragões os tornam os líderes ideais para as raças mortais, além do fato dos dragões estarem, em termos planares, mais próximos aos mortais e, portanto serem menos alienígenas à mentalidade de seus acólitos.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "c9d23fae6fe98f5b",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-mistico</strong></li><li><strong>aparar-magia</strong></li><li><strong>arcipreste</strong></li><li><strong>arsenal-draconico</strong></li><li><strong>asas-elementais</strong></li><li><strong>aura-do-dragao</strong></li><li><strong>bafo-do-dragao-negro</strong></li><li><strong>cauda-draconica</strong></li><li><strong>companheiro-dragao-1</strong></li><li><strong>companheiro-dragao-2</strong></li><li><strong>defesa-do-dragao-do-relampago</strong></li><li><strong>detectar-magia</strong></li><li><strong>escamas-draconicas</strong></li><li><strong>exalacao-do-dragao-do-frio</strong></li><li><strong>folego-do-dragao-marinho</strong></li><li><strong>furia-do-dragao</strong></li><li><strong>halito-do-dragao</strong></li><li><strong>rugido-do-dragao-do-deserto</strong></li><li><strong>sintonia-draconica</strong></li><li><strong>travessia-do-dragao-do-fogo</strong></li><li><strong>vinculo-draconico</strong></li><li><strong>asas-draconicas</strong></li><li><strong>companheiro-dragao-4</strong></li><li><strong>dissipar-magia</strong></li><li><strong>exarca</strong></li><li><strong>atrio-elemental</strong></li><li><strong>bencao-do-dragao</strong></li><li><strong>companheiro-dragao-3</strong></li><li><strong>forma-draconica</strong></li><li><strong>halito-do-dragao-anciao</strong></li><li><strong>presenca-draconica</strong></li><li><strong>flagelo-da-aurora</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/dracomante.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "dracomante",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "457f1f8417f52a7e",
+    "name": "Diário: Necromante",
+    "pages": [
+      {
+        "_id": "a123f7f0b80e987e",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/necromante.png\" alt=\"Necromante\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><p>Necromantes geralmente estão rodeados de objetos que lembram a morte, e são particularmente afeitos de locais considerados sombrios – como cemitérios, tumbas e necrotérios – onde realizam suas pesquisas e por vezes adquirem matéria prima para experiências. A maioria deles também costuma trabalhar e viver isolada de outras criaturas vivas, às vezes por opção, às vezes por necessidade, às vezes por imposição. Devido a essas características, Necromantes são mal vistos como frios, egoístas e geralmente, malignos – e, de fato, muitos Necromantes demonstram essas características. O poder que as energias necromânticas fornecem é certamente sedutor e, para a maioria, corruptor, já que oferece uma grande quantidade de possibilidades para manipular, destruir e distorcer, o que pode tornar seus usuários insensíveis ou até mesmo cruéis. Por outro lado, porém, um bom número de Necromantes de dedica à preservação dos locais onde os mortos repousam, não permitindo que essas mesmas forças que controlam corrompam tais locais, e muitos deles se tornam estudiosos dos mortos-vivos e espíritos no intuito de combatê-los com mais eficiência.</p><p><strong>Raças Mais Frequentes:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "add560ae3c052ad2",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (34 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>conhecimento-arcano</strong></li><li><strong>absorver-alma</strong></li><li><strong>aparar-magia</strong></li><li><strong>armadura-necromantica</strong></li><li><strong>comunhao-com-espiritos</strong></li><li><strong>condenar-o-corpo</strong></li><li><strong>condenar-a-alma</strong></li><li><strong>contato-com-espiritos</strong></li><li><strong>controlar-mortos-vivos</strong></li><li><strong>cranio-sentinela</strong></li><li><strong>cura-sombria</strong></li><li><strong>despertar-dos-mortos-1</strong></li><li><strong>detectar-magia</strong></li><li><strong>energia-sombria-1</strong></li><li><strong>esconjurar</strong></li><li><strong>invocar-espectro</strong></li><li><strong>sustentar-mortos-vivos</strong></li><li><strong>transferencia-espiritual</strong></li><li><strong>aptidao-necromantica</strong></li><li><strong>caminhada-fantasma</strong></li><li><strong>lanterna-dos-mortos</strong></li><li><strong>mente-disciplinada</strong></li><li><strong>protecao-cadaverica</strong></li><li><strong>dissipar-magia</strong></li><li><strong>encarnar-espirito</strong></li><li><strong>cranio-guardiao</strong></li><li><strong>despertar-dos-mortos-2</strong></li><li><strong>bloqueio-necromantico</strong></li><li><strong>energia-sombria-2</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>resistencia-dos-mortos</strong></li><li><strong>resistencia-necromantica</strong></li><li><strong>necromanto</strong></li><li><strong>sabedoria-sobrenatural</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/necromante.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "necromante",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "064542aa1e26fcfe",
+    "name": "Diário: Senescal",
+    "pages": [
+      {
+        "_id": "59fffd0a97167e97",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/senescal.png\" alt=\"Senescal\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><p>Senescais não lideram necessariamente pelo exemplo. Eles sabem tirar o melhor de cada indivíduo em sua área de atuação específica, direcionando-os para que melhorem suas próprias capacidades para que elas adicionem ao grupo de forma efetiva, ao invés de tentar padronizar as aptidões de um grupo. Fortalecer o papel de um indivíduo num grupo para que ele seja eficiente – e se sinta útil – é muito mais eficiente aos olhos de um bom Senescal do que fazer com que todos se foquem em melhorar uma área específica de atuação.</p><p>Essa capacidade de tirar o melhor de cada indivíduo torna os Senescais extremamente eficientes em grupos de aventureiros. Embora seja bastante incomum a um Senescal se aventurar, preferindo atuar em áreas administrativas ou lidando diretamente com a coordenação de pessoas dentro de uma organização, alguns deles, eventualmente, o fazem. Enquanto por um lado Senescais com treinamento militar possam desejar uma experiência diferente para aplicar suas táticas e melhorar suas capacidades como um todo, muitos nobres treinados para se tornarem administradores acabam ouvindo o chamado da aventura – e descobrem que suas habilidades podem, realmente, ser eficientes para manter grupos de aventureiros com moral alto e uma organização eficiente dentro e fora de combate. Sua influência e contatos também fazem deles excelentes para encontrar as pessoas certas para serviços que o grupo precise – ou para descobrir pistas sobre o paradeiro de alvos que o grupo esteja procurando.</p><p>A maioria dos Senescais que se aventuram, no entanto, fazem isso por um curto espaço de tempo. A maioria acaba se aborrecendo com as longas viagens, as infindáveis explorações de masmorras e os encontros com mortos-vivos, bestas e outras criaturas contra as quais suas capacidades têm pouca eficiência. É muito mais comum, no entanto, que aventureiros aposentados se tornem Aprendizes de Senescal para afiar suas capacidades de administrar os bens que conseguiram ao longo de suas aventuras.</p><p><strong>Raças Mais Frequentes:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "ade2cf21af385b29",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (37 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>energia-sombria-2</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>resistencia-dos-mortos</strong></li><li><strong>resistencia-necromantica</strong></li><li><strong>mestre-dos-mortos</strong></li><li><strong>posicao-distinta</strong></li><li><strong>contatos-na-corte</strong></li><li><strong>contatos-politicos</strong></li><li><strong>distintivo-de-oficio</strong></li><li><strong>distracao</strong></li><li><strong>eloquente</strong></li><li><strong>erudito</strong></li><li><strong>farda</strong></li><li><strong>formacao-de-batalha-1</strong></li><li><strong>gregario</strong></li><li><strong>guarda-costas</strong></li><li><strong>inspirar-coragem</strong></li><li><strong>lingua-afiada</strong></li><li><strong>mastim</strong></li><li><strong>presenca-confiante</strong></li><li><strong>presenca-inspiradora</strong></li><li><strong>reposicionar</strong></li><li><strong>sequito</strong></li><li><strong>taticas-de-batalha</strong></li><li><strong>um-bom-conselho-1</strong></li><li><strong>voz-de-comando-1</strong></li><li><strong>abrir-a-guarda</strong></li><li><strong>conselheiro-pessoal</strong></li><li><strong>formacao-de-batalha-2</strong></li><li><strong>guarda-de-honra</strong></li><li><strong>juiz</strong></li><li><strong>persuadir</strong></li><li><strong>restaurar-conviccao</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>magistrado</strong></li><li><strong>um-bom-conselho-2</strong></li><li><strong>voz-de-comando-2</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/senescal.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "senescal",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "b89d37f86c189b3e",
+    "name": "Diário: Xamã",
+    "pages": [
+      {
+        "_id": "d6bbf5d222b10572",
+        "name": "História e Papel no Mundo",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/xama1.png\" alt=\"Xamã\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><p>A ligação com os espíritos naturais permite que muitos Xamãs sejam capazes de se comunicar com os animais, comandá-los e criar poderosos vínculos com eles. Xamãs particularmente conectados aos animais são capazes de tomar a forma destes, transformando-se completamente ou adquirindo características animalescas – como guelras, garras e asas.</p><p>Xamãs ligados aos espíritos dos mortos costumam assumir posições de conselheiros nas comunidades onde habitam, enquanto aqueles ligados a espíritos animais tendem a assumir posições como caçadores ou campeões tribais. Em Ambrook, Lorde Narat mantém uma guarda pessoal de Xamãs especializados em metamorfose, e é dito que o rei Honório Van Strauss fazia uso de xamãs metamorfos como espiões e sentinelas.</p><p>Apesar de comumente serem encontrados em comunidades tribais, afastadas da civilização, é possível encontrar xamãs em grandes metrópoles, às vezes simplesmente de passagem, lidando com alguma área assombrada por espíritos, ou, mais raramente como residentes de áreas infestadas de espíritos – às vezes agindo como guardiões, às vezes como carcereiros.</p><p><strong>Raças Mais Frequentes:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</p>",
+          "format": 1
+        }
+      },
+      {
+        "_id": "e0c48e2045c86079",
+        "name": "Arsenal & Habilidades",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<h2>Arsenal da Classe (35 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>primaz</strong></li><li><strong>pontifice</strong></li><li><strong>guia-espiritual</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>bencao-de-ellenis</strong></li><li><strong>brigao</strong></li><li><strong>bravura-selvagem-1</strong></li><li><strong>combate-tatico</strong></li><li><strong>companheiro-animal-1</strong></li><li><strong>companheiro-animal-2</strong></li><li><strong>comunhao-com-espiritos</strong></li><li><strong>contato-com-espiritos</strong></li><li><strong>chamado-do-alfa</strong></li><li><strong>combate-com-duas-armas-1</strong></li><li><strong>cura-espiritual</strong></li><li><strong>espirito-animal</strong></li><li><strong>forma-animal-1</strong></li><li><strong>herbalismo</strong></li><li><strong>invocar-espirito-animal</strong></li><li><strong>rugido-do-alfa</strong></li><li><strong>rugido-do-predador</strong></li><li><strong>sabedoria-selvagem</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>vantagem-animal-1</strong></li><li><strong>atropelar</strong></li><li><strong>caminhada-fantasma</strong></li><li><strong>companheiro-animal-3</strong></li><li><strong>companheiro-espiritual</strong></li><li><strong>estracalhar</strong></li><li><strong>forma-animal-2</strong></li><li><strong>implacavel</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>mestre-domador</strong></li><li><strong>vantagem-animal-2</strong></li><li><strong>guardiao-da-natureza</strong></li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/xama1.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "xama",
+        "tipo": "classe"
+      }
+    }
+  },
+  {
+    "_id": "5483fa0277bff76e",
+    "name": "Diário: Amoque",
+    "pages": [
+      {
+        "_id": "e231a01e7d570db5",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/amoque.png\" alt=\"Amoque\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Amoques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.</p><p>Amoques tendem a se juntar a tropas menos organizadas, como grupos de assalto, guerrilheiros e até mesmo batedores, já que estas tropas costumam ter uma organização menos regular, permitindo que eles utilizem sua fúria com menos moderação. No entanto, a maioria dos Amoques não faz parte de tropas regulares. A maioria deles será encontrada em grupos de mercenários, piratas, leões de chácara ou algum outro posto onde a força-bruta é o requisito mais importante.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 6, Uma habilidade de Fúria qualquer.</p><p><strong>Raças Comuns:</strong> Aesir, Centauro, Fauno e Orc.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/amoque.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "amoque",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "caefda4857de50b1",
+    "name": "Diário: Arconte",
+    "pages": [
+      {
+        "_id": "25a9b564736f8492",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/arconte.png\" alt=\"Arconte\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da Espada de Mirah, e precisam ser admitidos como Irmãos dentro da ordem – embora não precisem se tornar Jurados ou Priores, muitos deles também almejam estes títulos dentro da Ordem.</p><p>O Arconte que dá a sentença não precisa ser o mesmo que aplica a punição, mas normalmente é assim. Arcontes têm acesso a Punições, que são Habilidades especificamente conferidas aos Arconte pelos Celestiais. Estas Habilidades são dons sobrenaturais que produzem efeitos similares às magias e servem para impingir a sentença adequada ao réu de forma padronizada, sem erros humanos. Dessa forma a Magia Punição do Açoite não será mais dolorosa ou menos, dependendo da mão do carrasco, ela será sempre igual.</p><p>Utilizar Punições fora de um tribunal é considerado crime, e qualquer Arconte que utilize essas Habilidades sem que tenha havido um julgamento pode ser julgado, ele próprio, como se tivesse cometido tortura. É possível tentar contornar os efeitos de uma Punição, mas quando isso ocorre, o Arconte que aplicou a Punição imediatamente fica sabendo da transgressão e da localização do alvo no momento da quebra. Tentar contornar os efeitos de uma Punição é considerado um ato de Traição.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.</p><p><strong>Raças Comuns:</strong> Fira, Juban e Humano.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/arconte.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "arconte",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "c3073b46befe34a1",
+    "name": "Diário: Assassino",
+    "pages": [
+      {
+        "_id": "3c6e54dcac76e2eb",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/assassino.png\" alt=\"Assassino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar.</p><p>Embora alguns matadores de aluguel utilizem táticas diversificadas para eliminar seus alvos, usando venenos ingeríveis, disparos de pontos imperceptíveis ou até mesmo magia, um Assassino prefere o método mais direto e pessoal. Ele gosta de ter certeza de que o seu alvo está morto, de fato, e o único meio de ter certeza é ver a vida se esvaindo do corpo do alvo. Os Assassinos gostam de verificar com seus próprios olhos que o alvo está, de fato, bem morto. Por conta disso, Assassinos desdenham armas de distância, magia e alquimia como método de eliminação de alvos, e embora possam empregar esses subterfúgios para auxiliar a cumprir suas missões, sempre dão preferência a armas brancas para terminar com um alvo – afinal, mesmo uma flecha entre os olhos ou uma bola de fogo pode deixar o alvo com um suspiro de vida que pode ser utilizado por um Sacerdote para evitar que o alvo morra. Uma decapitação, por outro lado, não pode ser curada.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Agilidade 4, Ataque Aleijador.</p><p><strong>Raças Comuns:</strong> Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/assassino.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "assassino",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "1ad387a37682d486",
+    "name": "Diário: Avantesma",
+    "pages": [
+      {
+        "_id": "37af565eda27d4f7",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/avantesma.png\" alt=\"Avantesma\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Avantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio.</p><p>A conexão deles com as energias espirituais ainda é um mistério para a maioria dos estudiosos, e embora seja necessário passar por algum tipo de contato com energias necromânticas, nem todos aqueles que são afetados por estas energias desenvolvem esta conexão com o plano espiritual.</p><p>Embora a maioria dos Avantesmas sejam gerados por acidente, geralmente envolvendo encontros com um Necromante ou morto-vivo, existem casos de Necromantes que usam seus poderes em si próprios na tentativa de criar a distinta ligação que os Avantesmas possuem com o plano espiritual, enquanto alguns registros indicam que Necromantes também utilizam esta mesma tática para criar guarda-costas e campeões mais eficientes, utilizando magias específicas em seus aliados.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.</p><p><strong>Raças Comuns:</strong> Humano, por chance.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/avantesma.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "avantesma",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "aa729f69111ff630",
+    "name": "Diário: Aziago",
+    "pages": [
+      {
+        "_id": "ad1bb37b5cdbd0cf",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/aziago.png\" alt=\"Aziago\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Aziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção.</p><p>Embora lidem diretamente com magia infernal, Aziagos não são, necessariamente, infernalistas. Eles não precisam possuir nenhum Pacto – embora muitos conjuradores que possuem Pactos utilizem a ligação criada com seu patrono para canalizar energias infernais, tornando-se Aziagos. No entanto, alguns conjuradores arcanos decidem estudar a canalização das energias infernais simplesmente para ampliar seu arsenal mágico, mesmo que não tenham qualquer intenção de realizar pactos com criaturas infernais, enquanto outros se tornam Aziagos para combater outros infernalistas de forma mais eficiente.</p><p>É importante observar, também, que canalizar energias infernais é extremamente prejudicial, e conjuradores que não sejam Aziagos ou possuam Pactos têm dificuldades em conjurar Maldições de forma eficiente. Além disso, conjurar uma maldição pode atrair a atenção de criaturas infernais, o que pode ter resultados desastrosos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Conhecimento Arcano.</p><p><strong>Raças Comuns:</strong> Humano e Naga.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/aziago.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "aziago",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "a93b2b300ce3fb9c",
+    "name": "Diário: Alquimista",
+    "pages": [
+      {
+        "_id": "024f781c4e7c3bbf",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/alquimista.png\" alt=\"Alquimista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.</p><p>Apesar de ser possível aprender alquimia apenas através de livros, a maioria dos Alquimistas encoraja o aprendizado dentro de um laboratório, com a supervisão de Alquimistas experientes, uma vez que, principalmente durante suas primeiras experiências, as chances de cometer erros perigosos é considerável. Além disso, muitas poções simplesmente não são possíveis de realizar fora de um laboratório, e tentativas de simular os procedimentos sem os materiais necessários quase sempre geram reações desastrosas.</p><p>A maioria dos Alquimistas trabalha em grandes cidades com lojas anexas aos seus laboratórios ou mesmo exclusivamente para a corte. Estes Alquimistas mercantes geralmente produzem poções práticas para o dia-a-dia, como elixires do sono, poções contra dores e antídotos variados, mas a maioria deles mantém um estoque de poções destinadas especificamente para aventureiros.</p><p>Outros trabalham para conjuradores – ou mesmo são conjuradores! – ou para criminosos, produzindo poções muito mais complexas e perigosas. Estes Alquimistas quase nunca negociam suas mercadorias, produzindo poções para fins específicos e com demandas consideráveis.</p><p>E há, é claro, aqueles Alquimistas que se aventuram. Alguns deles aprenderam alquimia para complementar suas habilidades, ou como uma “progressão natural” delas, enquanto outros são curiosos por natureza, e o mesmo impulso que os faz estudar sobre reações químicas e físicas também os impulsionam para ver fenômenos pelo mundo em primeira mão – as vezes para estudá-los e tentar aprender com eles, as vezes apenas pela curiosidade.</p><p>Embora a maioria dos Alquimistas trabalhe de forma abrangente, ou seja, produzindo todo tipo de poções, há aqueles que se especializam em tipos determinados de misturas. Algun deles se especializam em produzir elixires, poções criadas especificamente para curar, fortalecer ou acalmar o corpo e a mente. Os iátricos ou curandeiros, como geralmente são chamados, são bastante comuns entre Xamãs e Sacerdotes. Toxicólogos ou envenenadores, como costumeiramente são chamados os Alquimistas especializados em venenos, são comuns entre os Patrulheiros, Druidas e Ladinos, apesar destes últimos também serem adeptos ao uso de Extratos. Espagiristas, como são conhecidos os Alquimistas que produzem Extratos, costumam ser tão variados e excêntricos quanto as poções que produzem, mas os Ladinos e os Feiticeiros são, de longe, os mais inclinados à adotarem essa especialidade da alquimia.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Herbalismo.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Elfo, Faen, Humano.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/alquimista.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "alquimista",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "0ab960d2e795b6ce",
+    "name": "Diário: Argênteo",
+    "pages": [
+      {
+        "_id": "c34e0a8409bda293",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/argenteo.png\" alt=\"Argênteo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Argênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.</p><p>Como passam muito tempo estudando dentro das fronteiras da Ilha da Prata antes de fazerem pesquisas de campo propriamente ditas, a maioria dos Argênteos nutre um profundo sentimento de familiaridade com a Academia Argêntea, e é difícil encontrar algum deles que não esteja vergando o robe do corpo acadêmico – um robe azul escuro com o símbolo da Academia em prata no peito e nas costas – e é bastante simples identificar um deles graças a isso. Mesmo quando estão realizando alguma pesquisa de natureza sigilosa, eles geralmente o fazem de forma tão conspícua quanto estes trajes permitem.</p><p>Argênteos estão no mesmo nível hierárquico dos professores da Academia Argêntea, e respondem diretamente ao Departamento de Astronomia e Movimento Dimensional, tendo as mesmas regalias, direitos e deveres do corpo docente – têm acesso a praticamente toda a Ilha da Prata, exceto aos gabinetes de outros departamentos e aposentos pessoas de outros funcionários da Academia, podem solicitar equipamento quando estiverem em missões e viagens estritamente relacionadas à Academia e devem apresentar relatórios semestrais sobre suas atividades.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Teleporte 1.</p><p><strong>Raças Comuns:</strong> Elfo, Faen, Humano, Levent, Tailox.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/argenteo.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "argenteo",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "1a4f5a5d76d435a0",
+    "name": "Diário: Arqueiro",
+    "pages": [
+      {
+        "_id": "181fee4c0231d651",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/arqueiro.png\" alt=\"Arqueiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Em Cassiopéia, um Arqueiro é qualquer especialista no uso de um arco, seja o tradicional arco de caça ou guerra, o arco horizontal montado sobre um cabo como no caso das bestas ou mesmo os arcos das forquilhas de bodoques. No entanto, como muitos caçadores, rastreadores e batedores costumam usar essas armas, o termo Arqueiro é utilizado entre Patrulheiros, Guerreiros e outros homens-de-armas para definir um grupo mais restrito de soldados: aqueles usuários de arcos que guardam e vigiam.</p><p>Enquanto os Patrulheiros geralmente concentram suas habilidades em rastrear e emboscar seus alvos, usando ataques à distância para derrotar rapidamente inimigos desatentos, o Arqueiro se concentra em perceber e contra-atacar alvos escondidos e se defender contra eles de forma eficiente. Em essência, os Arqueiros são a antítese dos Patrulheiros.</p><p>Além disso, os Arqueiros costumam também concentrar-se em praticar para manter os músculos fortes e rijos. Como não têm a disposição dos Patrulheiros para se esgueirar e encontrar locais apertados para se esconderem, Arqueiros têm muito menos necessidade de flexibilidade e agilidade. De fato, eles preferem ficar em áreas abertas, onde podem vigiar áreas mais amplas, e geralmente não se incomodam em passar horas patrulhando uma mesma área. A maioria dos Arqueiros valoriza um braço firme para uma mira precisa e uma constituição robusta para aguentar horas sem precisar de sono ou descanso.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 4, Inteligência 4, Sentidos Apurados.</p><p><strong>Raças Comuns:</strong> Anão, Centauro, Humano, Juban.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/arqueiro.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "arqueiro",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "72144f07e1e5047d",
+    "name": "Diário: Artífice",
+    "pages": [
+      {
+        "_id": "74bd4a565f29140a",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/artifice.png\" alt=\"Artífice\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Artífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.</p><p>A grande maioria dos Artífices cria apenas itens de pouco poder, rápidos e fáceis de produzir, enquanto alguns se especializam em itens com fins específicos, geralmente trabalhando para a corte de um determinado reino ou metrópole. Na Academia Argêntea há Artífices especializados em itens de proteção, usados por estudantes durante seus primeiros testes (e pela maioria dos professores) enquanto Tebrynia, Arbrat e Tell’Est Triadha mantém Artífices que produzem armas e armaduras mágicas para as tropas que protegem essas capitais, e Arkânia possui Artífices que produzem itens mágicos exclusivamente para a Aurora dos Dragões.</p><p>Há ainda alguns Artífices que dedicam suas vidas à produção de itens mágicos com propriedades realmente impressionantes, e que requerem anos para serem produzidos. Em geral estes itens que consomem grandes quantidades de energia e recursos são criados com um propósito bastante específico – derrotar um perigo particularmente terrível, defender um reino de uma ameaça específica ou produzir uma ameaça ou perigo terríveis! Estes itens mágicos via de regra não estão à disposição de aventureiros, exceto, eventualmente, como pilhagem de suas aventuras.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Conhecimento Arcano.</p><p><strong>Raças Comuns:</strong> Aesir, Anão, Elfo, Fira, Metadílio.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/artifice.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "artifice",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "62e5078a5daba2bd",
+    "name": "Diário: Cultista",
+    "pages": [
+      {
+        "_id": "a4cbf7011431de26",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cultista.png\" alt=\"Cultista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Cultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Pacto.</p><p><strong>Raças Comuns:</strong> Humano e Naga.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/cultista.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "cultista",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "46dc69095da17431",
+    "name": "Diário: Cruzado",
+    "pages": [
+      {
+        "_id": "8b3169114ed3f121",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cruzado.png\" alt=\"Cruzado\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Cruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.</p><p>Enquanto dentro da Ordem da Espada de Mirah realizar uma cruzada é praticamente mandatório para ser aceito – exceto no caso de alguns cargos destinados especificamente a Sacerdotes – dentro da Hoste de Hadorn não existe uma obrigatoriedade de tornar-se um Cruzado, mas estes guerreiros são amplamente respeitados e gozam de certos privilégios. Posições de liderança são geralmente atribuídos a Cruzados, e eles levam ampla vantagem na disputa para maioria das promoções para cargos elevados dentro da Ordem. Apesar de gozarem de certo respeito dentro de instituições ligadas a outras divindades, Cruzados não recebem nenhum privilégio especial em igrejas que não sejam ligadas a Hadorn ou Mirah.</p><p>Cruzados não formam um grupo coeso, e embora muitos pertençam a uma Ordem, há um bom número de Cruzados solitários que cruzam Tebryn caçando criaturas malignas em nome de sua divindade de forma completamente independente. Não existe nenhuma organização oficial de seus membros, e enquanto alguns deles são orientados por Cruzados mais experientes, alguns trilham este Caminho de forma totalmente independente e espontânea.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 4, Dogma.</p><p><strong>Raças Comuns:</strong> Anão, Elfo, Humano, Juban, Levent, Tailox.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/cruzado.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "cruzado",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "6ebef2b7cb8f4737",
+    "name": "Diário: Domador",
+    "pages": [
+      {
+        "_id": "94cd7031c3f12bcf",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/domador.png\" alt=\"Domador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Domadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.</p><p>Alguns Domadores desenvolvem um elo com um animal em particular e extendem naturalmente esse elo às demais bestas que encontram. Outros, apesar de possuírem uma ligação maior com uma criatura em especial, dedicam sua atenção entre todos os animais que encontra, sejam selvagens ou domesticados, de forma imparcial, muitas vezes reunindo uma pequena horda de “seguidores” selvagens.</p><p>Outros utilizam sua afinidade natural com as feras, subjugando os animais à sua vontade, como uma espécie de alfa de um grupo. Estes Domadores não necessariamente possuem um comportamento vil ou cruel com relação aos animais sobre os quais possui dominância, literalmente liderando seu grupo, defendendo, ensinando e exigindo respeito dos animais em troca. Mas, obviamente, alguns Domadores com esse comportamento agem de forma agressiva com os animais (e, em geral, com todas as criaturas) sob sua influência ou não. Não raro, estes Domadores desenvolvem uma antipatia por grupos sociais civilizados, preferindo a companhia dos animais e daqueles que possuem um elo semelhante com estes.</p><p>E há ainda aqueles Domadores que apenas tratam e treinam animais brevemente, quebrando qualquer vínculo com o animal em seguida, criando vínculos efêmeros com dezenas – as vezes centenas – de animais por breves períodos de tempo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Benção de Ellenis.</p><p><strong>Raças Comuns:</strong> Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/domador.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "domador",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "8f06be0ffc374af7",
+    "name": "Diário: Escriba",
+    "pages": [
+      {
+        "_id": "d0211c359a27b6ef",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/escriba.png\" alt=\"Escriba\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Escribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.</p><p>Um número considerável de Escribas se dedica à escrita de livros, geralmente compilando contos folclóricos dos povos que falam os idiomas que estudam e imprimindo nessas histórias prosa e verso adequados àquelas culturas de onde vieram. A maioria das obras de folclore e poesia das diversas culturas de Cassiopéia foram escritas por Escribas, e eles também são responsáveis pela maioria dos livros copiados à mão - que vêm se tornando cada vez mais raros em Cassiopéia - e extremamente valorizados por colecionadores, conjuradores e pelas diversas igrejas do continente, não só pela qualidade do texto mas também pelo reconhecido trabalho de iluminura pelo qual os Escribas são conhecidos. De fato, o trabalho dos Escribas é tão apreciado pelas diversas igrejas de Cassiopéia que e bastante comum encontrar Escribas copistas especializados em textos religiosos em todas as igrejas de Cassiopéia, embora eles sejam mais comuns entre os seguidores de Sarfion, Denalla e Hou - e as igrejas dessas divindades costumam ter salas especialmente destinadas à copistas na maioria de seus templos.</p><p>Muitos Escribas se dedicam ao estudo de magias presentes em tomos, e é bastante comum encontra-los trabalhando para conjuradores de todos os tipos, seja como empregados de conjuradores abastados, membros de instituições - como a Academia Argêntea - ou como prestadores de serviço, copiando, reformando e revisando grimórios e missais para conjuradores. De fato, na maioria das metrópoles de Cassipéia é possível encontrar estúdios de Escribas especializados em produzir Grimórios e Missais - algumas vezes trabalhando em conjunto com oficinas de outros conjuradores e artesãos especializados, como Artífices e Alquimistas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Humano, Metadílio.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/escriba.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "escriba",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "94efab307dba9fd2",
+    "name": "Diário: Estrige",
+    "pages": [
+      {
+        "_id": "83933efce6d49f5f",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/estrige.png\" alt=\"Estrige\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Estrige é o nome dado aos membros da Ordem dos Caçadores Sobrenaturais, homens e mulheres que dedicam suas vidas para caçar e destruir criaturas amaldiçoadas de todos os tipos, como fantasmas, lobisomens, demônios e mortos-vivos – assim como aqueles que lidam com essas criaturas, como Cultistas e Necromantes.</p><p>A Ordem foi fundada depois uma epidemia de vampirismo que se abateu na região ao redor de Longuespera. A guarda da cidade estava completamente despreparada para lidar com a ameaça, e mesmo tendo recebido ajuda de membros da Hoste de Hadorn e Espada de Mirah, a ameaça só foi eliminada depois que Tames Harkel, um Patrulheiro membro da Ordem da Espada de Mirah, teve a iniciativa de procurar por aventureiros acostumados a lidar com vampiros.</p><p>Apesar de membros da Ordem da Espada de Mirah e da Hoste de Hadorn serem bastante eficientes para lidar com criaturas sobrenaturais, eles não recebem treinamento próprio contra esse tipo de criatura, focando seu treinamento em combate de forma mais ampla, e negligenciando quase completamente a necessidade de localizar, rastrear e perseguir essas criaturas.</p><p>Vendo o despreparo de ambas as Ordens em lidar com a ameaça, o conselho de Tebryn decidiu criar uma Ordem especializada em lidar com esse tipo de problema, e Harkel foi seu primeiro líder. Com a ajuda dos aventureiros que reuniu para lidar com a ameaça em Longuespera, Harkel passou a treinar membros da Ordem da Espada de Mirah e da Hoste de Hadorn para lidar com criaturas amaldiçoadas.</p><p>Apesar de não estar oficialmente ligadas a nenhuma igreja ou instituição religiosa, a Ordem dos Caçadores Sobrenaturais iniciou suas atividades nos monastérios de Sarfion ao redor de Tebryn. Essa decisão de Harkel tinha vários motivos, mas os principais deles era não demonstrar favoritismo em relação a uma ou outra das Ordens que enviavam seus membros para serem treinados para se tornarem Estrigoi, apesar das igrejas tanto de Mirah quanto de Hadorn possuírem quartéis mais bem equipados para treinamento militar, e o fato dos monastérios de Sarfion terem bibliotecas com quantidades enormes de informações que poderiam ser usadas não apenas no treinamento da Ordem, mas em futuras pesquisas; manter boas relações com os Sacerdotes do Conhecimento era fundamental aos olhos de Harkel.</p><p>Eventualmente a Ordem passou a treinar conjuradores, caçadores e combatentes que não vinham exclusivamente das Ordens oficiais de Tebryn, e atualmente a quantidade de Estrigoi vindos de outras Ordens é uma minoria dentro dela. De fato, a maioria dos Sacerdotes que ingressa na Ordem segue os Dogmas de Sarfion. Patrulheiros, Xamãs e Druidas também são comuns na Ordem, acostumados em rastrear e caçar – ou lidar com espíritos e criaturas sobrenaturais. Há um bom número de Ladinos na Ordem também, já que habilidades de infiltração são extremamente valorizadas pelos Estrigoi. O termo Estrige, que nomeia os membros da Ordem, vem do Quoratus e significa literalmente Coruja. O termo passou a ser usado pelos Sacerdotes de Sarfion pouco depois do surgimento da Ordem, já que seus membros, além de caçadores competentes, curiosos e silenciosos, geralmente apareciam nos monastérios apenas durante a noite. O termo acabou se tornando popular entre os membros da Ordem, que o adotou oficialmente, e atualmente é amplamente conhecido em toda Tebryn.</p><p>Qualquer pessoa com um mínimo de experiência lidando com criaturas sobrenaturais é aceita como membro da Ordem como um acólito, passando por treinamento supervisionado por um Estrige experiente. Esse treinamento geralmente envolve várias horas por dia de leitura em bibliotecas dos templos de Sarfion pesquisando sobre maldições, mortos-vivos, demônios e tudo que se possa conhecer sobre criaturas sobrenaturais – e com quem ter acesso a essas bibliotecas para futuras pesquisas. Depois disso o acólito é levado em uma caçada e, tendo destruído seu alvo, passa a ser considerado um membro da Ordem.</p><p>A estrutura da Ordem é pouco rígida, e embora os membros mais novos respeitem Estrigoi mais experientes, não há qualquer distinção hierárquica entre os membros. É exigido aos membros que apenas efetuem relatos detalhados de qualquer criatura que destruam e qualquer experiência com maldições ou com criaturas sobrenaturais, e que mantenham um diário com suas experiências – caso sejam mortos, suas experiências podem ser de grande valia para outros Estrigoi. Esses relatos devem ser entregues a Sacerdotes de Sarfion específicos, que mantém todos os relatos da Ordem em sessões privadas das bibliotecas de seus templos.</p><p>A atual líder da Ordem é Sirague de Longuespera (Levent Sacerdote Estrige 10) uma Sacerdotisa de Sarfion especializada em lidar com espíritos. Ela vive em Longuespera há anos, investigando o Campo dos Onze Segredos, e está sempre à procura de Estrigoi – ou aventureiros – que queiram desbravar o lugar. De fato, a Ordem mantém excelentes relações com aventureiros, vendo-os como fontes de informações e pistas sobre criaturas sobrenaturais, reforços contra essas criaturas e, claro, potenciais acólitos. A Ordem sempre tem trabalho a oferecer para grupos de aventureiros, particularmente na região oeste do reino.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Matado algo sobrenatural.</p><p><strong>Raças Comuns:</strong> Elfo, Fauno, Humano, Levent, Metadílio, Tailox.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/estrige.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "estrige",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "5fcd20ace39eef3b",
+    "name": "Diário: Ilusionista",
+    "pages": [
+      {
+        "_id": "0e49754a6a073f38",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/ilusionista.png\" alt=\"Ilusionista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>O Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.</p><p>Graças à esse segundo grupo, alguns dizem que todo o Ilusionista é um trapaceiro, mentiroso e enganador. Os Astérios tem um ditado que diz: “Confie num ladrão antes de um Ilusionista ”.</p><p>Muitos burgomestres, capitães, nobres e até mesmo monarcas reconhecem as capacidades dos Ilusionistas, e usam os mesmos como conselheiros em questões de seguranças, ou até como conselheiros pessoais. Lorde Esterlin II, regente de Ektória, é conhecido por ter duas guarda-costas Ilusionistas, que estão sempre ao lado dele.</p><p>Independente de como utilizam suas habilidades, Ilusionistas comumente utilizam suas capacidades de conjuração para lidar com ameaça sem precisar recorrer à violência. Esse padrão às vezes fazem com que Ilusionistas sejam considerados covardes, mas eles próprios vêem o confronto físico como um desafio débil, a forma como pessoas pouco refinadas lidam com problemas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Detectar Magia.</p><p><strong>Raças Comuns:</strong> Elfo, Faen, Metadílio.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/ilusionista.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "ilusionista",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "9a48179272b7e7cb",
+    "name": "Diário: Invocador",
+    "pages": [
+      {
+        "_id": "5ce7fb258b85b849",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/invocador.png\" alt=\"Invocador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los. Apesar das óbvias aplicações combativas, muitos Invocadores na verdade usam suas habilidades para atividades mais mundanas. Como são incansáveis, seguem ordens com exatidão e não se distraem, golens e elementais são trabalhadores extremamente eficientes. A Academia Argêntea e algumas metrópoles de Tebryn, Parband e Dagothar empregam Invocadores como arquitetos e construtores, enquanto muitos utilizam suas invocações como auxiliares em laboratórios, forjas e oficinas.</p><p>Mas é obviamente em batalha que os Invocadores mais se destacam. Invocadores particularmente talentosos são capazes de dominar o campo de batalha praticamente sozinhos e sem precisar entrar em confronto direto com nenhum inimigo. Apesar do poder bruto de elementais e golens menores não serem particularmente impressionantes, um número considerável deles é capaz de manter ameaças consideráveis sob controle. De fato, um invocador cercado de elementais e golens – ou talvez espíritos, no caso de Necromantes e Xamãs invocadores – pode ser uma visão suficientemente amedrontadora para fazer com que alguns inimigos simplesmente decidam que não é uma boa idéia enfrentar o grupo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 6, Detectar Magia.</p><p><strong>Raças Comuns:</strong> Anão, Fira, Mahok, Levent.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/invocador.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocador",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "b57e55f99ca1c3b7",
+    "name": "Diário: Lanceiro",
+    "pages": [
+      {
+        "_id": "77ec9d2ca2d04717",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/lanceiro.png\" alt=\"Lanceiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Lanceiros são especialistas no uso de armas de haste. Apesar de usualmente eles preferirem lanças, particularmente eficientes quando usadas em formação, muitos Lanceiros favorecem alabardas, glaives ou martelos lucernos ao invés de lanças.</p><p>Esse tipo de combate foi trazido de Dagothar, onde combate com armas de haste é tradicional, particularmente em formação – Anões possuem uma formação de combate chamada de “ouriço” que combina Lanceiros rodeados por Escudeiros. Graças a isso, Lanceiros são particularmente comuns entre os Anões de Stord, que utilizam a vantagem de túneis apertados para manterem adversários à distância de forma eficiente utilizando armas de haste. As guardas das terras dos vales, na fronteira com Arkânia também mantém uma tradição no uso de armas de haste, herdada dos combates contra as tropas arkanitas, conhecidas pela sua preferência por esse tipo de arma. De fato, as tropas de frente de Arkânia geralmente utilizam formações de várias linhas de Lanceiro, e para lidar contra essas formações as companhias de soldados das terras dos vales acabaram aprimorando o uso de armas de haste e eventualmente adotando esse tipo de formação em combate campal.</p><p>Apesar de suas vantagens em formação serem reconhecidas, Lanceiros solitários são excelentes combatentes, particularmente em campo aberto. Além disso, eles são excelentes como apoio para combatentes de linha de frente ou para manter vários adversários acuados ao mesmo tempo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 3, Sem Escapatória.</p><p><strong>Raças Comuns:</strong> Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/lanceiro.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "lanceiro",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "315953a25883abba",
+    "name": "Diário: Oráculo",
+    "pages": [
+      {
+        "_id": "06522be5be285c24",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/oraculo.png\" alt=\"Oráculo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Apesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.</p><p>Oráculos cujo interesse por uma compreensão maior do mundo costumam ser abertos à discussão e estão tão interessados em disseminar o conhecimento quanto em adquirí-lo. Não é surpresa alguma que a um grande número desses Oráculos sejam Sacerdotes dedicados à Sarfion. Sacerdotes de Taranis também são comuns nesse grupo, já que o próprio conceito de liberdade está ligada ao conhecimento – “não há prisão mais terrível do que a ignorância” é um dito comum entre eles. Druidas são conhecidos por engrossar essas fileiras de Oráculos, as vezes para melhor servir à seus propósitos, mas geralmente por uma curiosidade inata comum à todos os membros da Classe.</p><p>Muitos Sacerdotes de Mirah e Hou, por outro lado, se tornam Oráculos em busca de conhecimentos específicos. Sacerdotes de Mirah costumam procurar um meio de chegar à paz absoluta, enquanto Sacerdotes de Hou muitas vezes se dedicam à encontrar respostas relacionadas à grandes artefatos perdidos – como a Mighty Blade – ou civilizações esquecidas – como Mankosh. Sua busca pode ser pelo objeto em si, seu método de construção, o motivo por trás de sua criação ou a identidade e natureza de seus criadores. Apesar de raramente serem capazes de obter a grande resposta que buscam, estes Oráculos costumam reunir informações significativas com relação à sua área de interesse.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 6, Conhecimento Místico.</p><p><strong>Raças Comuns:</strong> Aesir, Humano, Juban, Levent, Metadílio, Tailox.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/oraculo.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "oraculo",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "ae10c0e7b21d3531",
+    "name": "Diário: Sanguíneo",
+    "pages": [
+      {
+        "_id": "9c8887c35c1db9f4",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sanguineo.png\" alt=\"Sanguíneo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Sanguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.</p><p>Essa manipulação dos fluxos das energias de criaturas vivas é considerada antinatural e mal vista pela maioria dos conjuradores – Arcanos e Místicos – embora indivíduos mais inescrupulosos ignorem essa noção e se utilizem das capacidades dos Sanguíneos quando tiverem a chance – não apenas como um Caminho, mas ao encontrar as Magias deles escritas em itens de Registro. Alguns Conjuradores mais curiosos também podem estudar estas magias e geralmente concordam que elas podem ser particularmente úteis contra mortos-vivos, utilizando elas apenas contra essas criaturas quando a oportunidade aparece. De fato, considerando que a maioria dos Feiticeiros e Rúnicos não possuem capacidades ofensivas para lidarem diretamente com essas criaturas, as Magias desenvolvidas pelos Sanguíneos costumam ser vistas como uma adição bem-vinda em seus arsenais – mas apenas os mais desesperados ou amorais utilizam estas magias contra criaturas vivas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.</p><p><strong>Raças Comuns:</strong> Aesir, Elfo, Fira e Humano.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/sanguineo.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "sanguineo",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "61a019366e15ebfe",
+    "name": "Diário: Tohunga",
+    "pages": [
+      {
+        "_id": "2df940b381510f2c",
+        "name": "Tradição e Práticas",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Em Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.</p><p>Apesar da maioria das qualidades que um Tohunga é capaz de exibir através de suas tatuagens serem um ato de pura determinação, algumas tatuagens podem possuir qualidades mágicas ou sobrenaturais. A maioria destes Tohunga é formada por Rúnicos, Xamãs e Druidas, mas mesmo Guerreiros ou Patrulheiros podem exibir essas capacidades extraordinárias.</p><p>Independente de suas crenças, a maioria dos Tohunga faz uso de suas habilidades como tatuadores de maneira ordinária, seja marcando membros de sua comunidade com tatuagens de guerra ou em rituais de passagens, seja tatuando por dinheiro. No entanto, um Tohunga capaz de imprimir poderes nas tatuagens que produzem em outros costuma ser extremamente seletivo ao fazer isso, não sendo afetado por influência ou poder aquisitivo nessa escolha – exceto no caso de um Tohunga desesperado ou com muito pouco escrúpulo.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 3, Artesão.</p><p><strong>Raças Comuns:</strong> Aesir, Anão, Astério.</p>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/tohunga.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "tohunga",
+        "tipo": "caminho"
+      }
+    }
+  },
+  {
+    "_id": "276f5d555b77d9e3",
+    "name": "Diário: Irmandade do Anel de Bronze",
+    "pages": [
+      {
+        "_id": "04895da6d5b24869",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_anel.png\" alt=\"Irmandade do Anel de Bronze\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Mercante</li><li><strong>Sede Oficial:</strong> Altéria</li><li><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</li><li><strong>Condições de Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_anel.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "irmandade-do-anel-de-bronze",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "5ce31fdfb296a239",
+    "name": "Diário: Espada de Mirah",
+    "pages": [
+      {
+        "_id": "23ddd53344e2542b",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_espada.png\" alt=\"Espada de Mirah\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Fundada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Ordem</li><li><strong>Sede Oficial:</strong> ?</li><li><strong>Liderança:</strong> Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)</li><li><strong>Condições de Ingresso:</strong> Período como escudeiro, seguido de uma sabatina perante os juízes.</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_espada.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "espada-de-mirah",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "3e199f3077cca010",
+    "name": "Diário: Forjas de Hou",
+    "pages": [
+      {
+        "_id": "c7d1ba77333ca2d1",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_forja.png\" alt=\"Forjas de Hou\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Fundada em Tebrynia pelo Rei Kirk van Strauss como parte da revitalização da cidade, o Rei de Ferro concedeu benefícios para os artesãos que quisessem estabelecer suas oficinas em uma das áreas mais pobres de Tebrynia na época. Em pouco tempo vários artesãos haviam criado suas oficinas na região, e uma grande maioria dessas oficinas eram forjas de Anões vindos de Stord e Forjaguardas. Esses ferreiros rapidamente se integraram formando uma guilda de ferreiros, e adotaram, eventualmente, o nome do deus patrono dos ferreiros para nomear sua guilda. O próprio nome do bairro onde hoje a guilda se instala se deve ao fato do primeiro grande contrato da guilda ter sido a fabricação de espadas para a guarda de Tebryn.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Guilda</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Noa Abir (Fira Senescal 7)</li><li><strong>Condições de Ingresso:</strong> Demonstração de habilidade</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_forja.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "forjas-de-hou",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "05e801a84d8cfe98",
+    "name": "Diário: Íris de Maltas",
+    "pages": [
+      {
+        "_id": "7564e36d70bf53fd",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_iris.png\" alt=\"Íris de Maltas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Esta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Guilda</li><li><strong>Sede Oficial:</strong> Tebrynia, Ambrook e Braktar</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Habitante de Tebryn sem ofensas registradas contra o governo</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_iris.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "iris-de-maltas",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "2845c3fb7e77d4f3",
+    "name": "Diário: O Arpão",
+    "pages": [
+      {
+        "_id": "70926f6b20073e0f",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_arpao.png\" alt=\"O Arpão\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Naval</li><li><strong>Sede Oficial:</strong> Lonjágua</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_arpao.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "o-arpao",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "1d6e6781ed62f892",
+    "name": "Diário: Capuzes Negros",
+    "pages": [
+      {
+        "_id": "ca96a75a5a0930a6",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_capuz.png\" alt=\"Capuzes Negros\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Criminal</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Demonstração de habilidade</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_capuz.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "capuzes-negros",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "8b8f8463666fe09b",
+    "name": "Diário: Cesto de Adagas",
+    "pages": [
+      {
+        "_id": "25a40346942aa106",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_cesto.png\" alt=\"Cesto de Adagas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><p>Muitos membros menos escrupulosos de outras organizações reconhecidas – como a Iris de Maltas e as Forjas de Hou – mantem contato com o Cesto de Adagas, abastecendo a Guilda com poções (principalmente venenos) ou prestando serviços diversos – como reformar itens danificados ou removendo brasões de organizações conhecidas por engastar suas armas e armaduras com eles. De fato, o Cesto de Adagas pode até mesmo providenciar versões falsas destes mesmos itens caso alguém queira pagar por eles – e algumas vezes podem até mesmo ter itens legítimos desse tipo em estoque!</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Criminal</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_cesto.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "cesto-de-adagas",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "4ede745be60451c1",
+    "name": "Diário: Corvos Negros",
+    "pages": [
+      {
+        "_id": "da09c9eee5039226",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_corvo.png\" alt=\"Corvos Negros\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>A Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Ordem</li><li><strong>Sede Oficial:</strong> Miralda</li><li><strong>Liderança:</strong> Brunn Fracta (Humano Feiticeiro 7)</li><li><strong>Condições de Ingresso:</strong> Ser um conjurador arcano e seis meses de serviço probatório</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_corvo.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "corvos-negros",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "edc9464c76248c66",
+    "name": "Diário: Crânios Vermelhos",
+    "pages": [
+      {
+        "_id": "d7b138cb03a53b36",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_cranio.png\" alt=\"Crânios Vermelhos\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><p>Além de fornecer proteção para os Suburbanos – recebendo até mesmo uma contribuição das outras guildas do Submundo – os Crânios Vermelhos também agem no Anel Externo de Tebrynia, cobrando por “proteção” de alguns estabelecimentos dali – embora isso seja mais para lembrar os habitantes da superfície que a guilda está em atividade e observando, e menos para realmente captar dinheiro. De fato, muitas vezes a guilda cobra na forma de informações sobre pessoas influentes na região, mesmo que não sejam realmente alvos de nenhum contrato da Guilda, mas sim para manter uma certa tensão com relação ao trabalho de eliminação que realizam.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Criminal</li><li><strong>Sede Oficial:</strong> Tebrynia</li><li><strong>Liderança:</strong> Desconhecido</li><li><strong>Condições de Ingresso:</strong> Combate, tortura e tatuagem</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_cranio.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "cranios-vermelhos",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "ac097694e091b93a",
+    "name": "Diário: Lobos dos Mares",
+    "pages": [
+      {
+        "_id": "7cca0769bfd1cd34",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_lobo.png\" alt=\"Lobos dos Mares\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Os Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Naval</li><li><strong>Sede Oficial:</strong> Navio Lobo de Guerra, atracado no extremo do porto de Adieren</li><li><strong>Liderança:</strong> Não possui</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_lobo.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "lobos-dos-mares",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "bf8bbb2c05baa928",
+    "name": "Diário: Hoste de Hadorn",
+    "pages": [
+      {
+        "_id": "756299d2d3650b63",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_hoste.png\" alt=\"Hoste de Hadorn\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Sua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Militar</li><li><strong>Sede Oficial:</strong> ?</li><li><strong>Liderança:</strong> General Fengran Rosevox (Humano Sacerdote Cruzado 10)</li><li><strong>Condições de Ingresso:</strong> Treinamento, seguido de alistamento</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_hoste.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "hoste-de-hadorn",
+        "tipo": "organizacao"
+      }
+    }
+  },
+  {
+    "_id": "3e384d6d238e49c8",
+    "name": "Diário: Guarda das Fronteiras Rochosas",
+    "pages": [
+      {
+        "_id": "7f8bbf1394a02b57",
+        "name": "Crônicas e Estatuto",
+        "type": "text",
+        "title": {
+          "show": true,
+          "level": 1
+        },
+        "text": {
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_guarda.png\" alt=\"Guarda das Fronteiras Rochosas\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Militar</li><li><strong>Sede Oficial:</strong> Stord</li><li><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</li><li><strong>Condições de Ingresso:</strong> Treinamento, seguido de alistamento</li></ul>",
+          "format": 1
+        }
+      }
+    ],
+    "img": "systems/mighty-blade/assets/forja/org_guarda.png",
+    "flags": {
+      "mighty-blade": {
+        "slug": "guarda-das-fronteiras-rochosas",
+        "tipo": "organizacao"
       }
     }
   }

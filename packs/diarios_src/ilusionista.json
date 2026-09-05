@@ -1,0 +1,26 @@
+{
+  "_id": "5fcd20ace39eef3b",
+  "name": "Diário: Ilusionista",
+  "pages": [
+    {
+      "_id": "0e49754a6a073f38",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/ilusionista.png\" alt=\"Ilusionista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>O Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.</p><p>Graças à esse segundo grupo, alguns dizem que todo o Ilusionista é um trapaceiro, mentiroso e enganador. Os Astérios tem um ditado que diz: “Confie num ladrão antes de um Ilusionista ”.</p><p>Muitos burgomestres, capitães, nobres e até mesmo monarcas reconhecem as capacidades dos Ilusionistas, e usam os mesmos como conselheiros em questões de seguranças, ou até como conselheiros pessoais. Lorde Esterlin II, regente de Ektória, é conhecido por ter duas guarda-costas Ilusionistas, que estão sempre ao lado dele.</p><p>Independente de como utilizam suas habilidades, Ilusionistas comumente utilizam suas capacidades de conjuração para lidar com ameaça sem precisar recorrer à violência. Esse padrão às vezes fazem com que Ilusionistas sejam considerados covardes, mas eles próprios vêem o confronto físico como um desafio débil, a forma como pessoas pouco refinadas lidam com problemas.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Detectar Magia.</p><p><strong>Raças Comuns:</strong> Elfo, Faen, Metadílio.</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/ilusionista.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "ilusionista",
+      "tipo": "caminho"
+    }
+  }
+}

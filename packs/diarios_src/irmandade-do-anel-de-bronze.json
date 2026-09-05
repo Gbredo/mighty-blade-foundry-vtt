@@ -1,0 +1,26 @@
+{
+  "_id": "276f5d555b77d9e3",
+  "name": "Diário: Irmandade do Anel de Bronze",
+  "pages": [
+    {
+      "_id": "04895da6d5b24869",
+      "name": "Crônicas e Estatuto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_anel.png\" alt=\"Irmandade do Anel de Bronze\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Mercante</li><li><strong>Sede Oficial:</strong> Altéria</li><li><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</li><li><strong>Condições de Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</li></ul>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/org_anel.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "irmandade-do-anel-de-bronze",
+      "tipo": "organizacao"
+    }
+  }
+}

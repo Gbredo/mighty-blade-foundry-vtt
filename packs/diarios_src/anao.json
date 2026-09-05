@@ -1,0 +1,52 @@
+{
+  "_id": "d76f05d05c0b4754",
+  "name": "Diário: Anão",
+  "pages": [
+    {
+      "_id": "1124ec031f1715a9",
+      "name": "Biologia & Fisiologia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/anao.png\" alt=\"Anão\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> Possuem constituição forjada nos subterrâneos agrestes, sendo extremamente resistentes.</li><br><li><strong>Pele e Pelagem:</strong> Começam a apresentar perda na pigmentação dos pelos apenas após a idade de Idoso (100 anos).</li><br><li><strong>Ciclo de Vida:</strong> A gestação das Anãs dura cerca de 10 meses e as crianças são totalmente dependentes dos pais até os 10 anos. Atingem a maturidade por volta dos 20 anos e mantêm-se saudáveis e ativos até os 200 anos. Apenas anciões acima dessa idade costumam se tornar mais fracos e obesos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-4 anos</li><li><strong>Criança:</strong> 5-14 anos</li><li><strong>Adolescente:</strong> 15-19 anos</li><li><strong>Adulto:</strong> 20 anos</li><li><strong>Idoso:</strong> 100(20) anos</li><li><strong>Ancião:</strong> 200(3) anos</li></ul>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "f0485708b18deff1",
+      "name": "Cultura & Sociedade",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Estrutura Política:</strong> Vivem no reino de Dagothar, em cidades subterrâneas onde as casas particulares são construídas em túneis ligados a grandes espaços comunais chamados de salões. A política foi estruturada há mais de sete mil anos e é baseada em Clãs. As famílias elegem um representante para a liderança do Clã, que por sua vez disputa a regência de Dagothar. Atualmente, existem exatos cem clãs ancestrais com influência equilibrada.</li><br><li><strong>Tradição, Ofícios e Religião:</strong> A sociedade é amplamente disciplinada e estruturada em torno de fortes ideais de honra e valor. Possuem profunda ligação religiosa com o deus Hou (o deus da Forja), considerado o criador da raça. Devido a isso, a raça produz muitos Artífices e comerciantes extremamente habilidosos.</li><br><li><strong>Casamento e Clãs:</strong> O casamento é um processo importante onde um dos cônjuges deve abrir mão do seu sobrenome de Clã em favor do outro. Como os clãs mantêm ofícios específicos (ex: forja de cobre, panifício), o cônjuge que muda de nome abandona sua tarefa tradicional para ingressar no ofício do clã que adotou.</li><br><li><strong>Relações Interpessoais:</strong> Apesar de sua reputação austera, eles mantêm relações muito boas e amigáveis com Humanos, Metadílios, Aesires, Firas e Jubans.</li></ul></p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "caee092d1b80f516",
+      "name": "Nomes & Tradições",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Nomes & Tradições</h2><p>Os nomes Anões têm duas ou três sílabas, com nomes masculinos geralmente terminando em consoantes (tradicionalmente “L”, “N”, “R”, “G” ou “K”) ou, em alguns casos, em “I”. Muitos nomes femininos terminam em “-HILD” (que significa \"donzela\"), mas terminações em “-ILD”, “D” e “A” também são muito comuns. Os sobrenomes referem-se aos seus Clãs (e seus respectivos ofícios). Para criar sobrenomes anões, traduz-se duas palavras ligadas a um bem ou serviço para a língua sueca, remove-se acentuações, transforma-se os \"J\" em \"I\" e junta-se tudo (ex: um clã de cuteleiros unindo kniv e finslipa resulta em Finslipakniv). Em geral, nomes nórdicos reais ou adaptados funcionam perfeitamente para eles. Sobrenomes (Clãs) conhecidos: Aisenaugue, Eisenfuss, Slaggahanden, Kopparrygg, Giutiarn, Dorrutkik, Halmvavare, Bronstang, Traformnig, Delatrah, Valikott, Badflod.</p><h4>Nomes Masculinos</h4><p>Alberik, Alvis, Andavari, Brok, Bror, Brunkil, Durin, Dvalin, Eitri, Fialar, Filibar, Fingal, Fulgrin, Galar, Hengal, Honir, Imborg, Ivaldi, Lofar, Magni, Módi, Mosonir, Narfi, Nari, Olrik, Regin, Rurik, Storlin, Torveg, Vali, Vik, Zarlin</p><h4>Nomes Femininos</h4><p>Agda, Brena, Brunhild, Dagma, Disa, Ead, Edila, Eirild, Embla, Fria, Hnossa, Ida, Idhuna, Indunna, Ingrid, Ingvild, Irpa, Kelda, Nagla, Nanna, Niela, Nornild, Ostara, Rind, Skulda, Thorhild, Urda, Valla, Verdanda, Voluspa</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/anao.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "anao",
+      "tipo": "raca"
+    }
+  }
+}

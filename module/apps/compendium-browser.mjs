@@ -23,6 +23,8 @@ export class MightyBladeCompendiumBrowser extends Application {
     const packMap = {
       raca: "mighty-blade.racas",
       classe: "mighty-blade.classes",
+      caminho: "mighty-blade.caminhos",
+      organizacao: "mighty-blade.organizacoes",
       habilidade: "mighty-blade.habilidades",
       magia: "mighty-blade.magias",
       equipamento: "mighty-blade.equipamentos",
@@ -90,8 +92,20 @@ export class MightyBladeCompendiumBrowser extends Application {
       const TextEditor = foundry.applications.ux.TextEditor.implementation;
       const description = await TextEditor.enrichHTML(item.system.description ?? "");
 
+      // Arte oficial com destaque Dark Obsidian
+      const hasForjaImg = item.img && !item.img.includes("mystery-man.svg") && !item.img.includes("item-bag.svg");
+      let imgBanner = "";
+      if (hasForjaImg) {
+        imgBanner = `
+          <div class="browser-hero-art" style="text-align:center;margin-bottom:12px;padding:8px;background:rgba(0,0,0,0.35);border:1px solid rgba(255,255,255,0.1);border-radius:8px;">
+            <img src="${item.img}" alt="${item.name}" style="max-height:160px;max-width:100%;object-fit:contain;background:#ffffff;border-radius:4px;padding:6px;box-shadow:0 4px 10px rgba(0,0,0,0.5);display:inline-block;" />
+          </div>
+        `;
+      }
+
       // Build details HTML
       let detailsHtml = `
+        ${imgBanner}
         <h2>${item.name}</h2>
         <div class="item-description">${description}</div>
       `;
@@ -118,6 +132,22 @@ export class MightyBladeCompendiumBrowser extends Application {
           <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
             <b>Bônus de Atributos:</b> FOR +${at.forca || 0} | AGI +${at.agilidade || 0} | INT +${at.inteligencia || 0} | VON +${at.vontade || 0}
           </div>`;
+      } else if (item.type === "caminho") {
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Pré-Requisitos:</b> ${item.system.requisitos || "Nenhum"}
+          </div>`;
+        if (item.system.racasComuns) {
+          detailsHtml += `<div class="item-meta" style="margin-top:4px;"><strong>Raças Comuns:</strong> ${item.system.racasComuns}</div>`;
+        }
+      } else if (item.type === "organizacao") {
+        detailsHtml += `
+          <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
+            <b>Tipo:</b> ${item.system.tipo || "Ordem"} · <b>Sede:</b> ${item.system.sede || "Não especificada"}
+          </div>`;
+        if (item.system.lideranca) {
+          detailsHtml += `<div class="item-meta" style="margin-top:4px;"><b>Liderança:</b> ${item.system.lideranca}</div>`;
+        }
       } else if (item.type === "magia") {
         detailsHtml += `
           <div class="item-meta" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);">
@@ -141,6 +171,33 @@ export class MightyBladeCompendiumBrowser extends Application {
       }
 
       detailsContent.html(detailsHtml);
+
+      // Ouvinte de clique para abrir Diários vinculados
+      detailsContent.find(".open-lore-journal-btn, a[data-uuid]").on("click", async (evClick) => {
+        evClick.preventDefault();
+        evClick.stopPropagation();
+        const target = $(evClick.currentTarget);
+        const uuid = target.data("uuid") || target.attr("data-uuid");
+        if (uuid) {
+          const doc = await fromUuid(uuid);
+          if (doc) {
+            doc.sheet.render(true);
+            return;
+          }
+        }
+        // Fallback: buscar pelo slug do item no compêndio de diários
+        const slug = target.data("slug") || item.flags?.["mighty-blade"]?.slug;
+        if (slug) {
+          const diariosPack = game.packs.get("mighty-blade.diarios");
+          if (diariosPack) {
+            const docs = await diariosPack.getDocuments();
+            const match = docs.find((d) => d.flags?.["mighty-blade"]?.slug === slug);
+            if (match) {
+              match.sheet.render(true);
+            }
+          }
+        }
+      });
     });
 
     // Click to select

@@ -1,0 +1,39 @@
+{
+  "_id": "064542aa1e26fcfe",
+  "name": "Diário: Senescal",
+  "pages": [
+    {
+      "_id": "59fffd0a97167e97",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/senescal.png\" alt=\"Senescal\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><p>Senescais não lideram necessariamente pelo exemplo. Eles sabem tirar o melhor de cada indivíduo em sua área de atuação específica, direcionando-os para que melhorem suas próprias capacidades para que elas adicionem ao grupo de forma efetiva, ao invés de tentar padronizar as aptidões de um grupo. Fortalecer o papel de um indivíduo num grupo para que ele seja eficiente – e se sinta útil – é muito mais eficiente aos olhos de um bom Senescal do que fazer com que todos se foquem em melhorar uma área específica de atuação.</p><p>Essa capacidade de tirar o melhor de cada indivíduo torna os Senescais extremamente eficientes em grupos de aventureiros. Embora seja bastante incomum a um Senescal se aventurar, preferindo atuar em áreas administrativas ou lidando diretamente com a coordenação de pessoas dentro de uma organização, alguns deles, eventualmente, o fazem. Enquanto por um lado Senescais com treinamento militar possam desejar uma experiência diferente para aplicar suas táticas e melhorar suas capacidades como um todo, muitos nobres treinados para se tornarem administradores acabam ouvindo o chamado da aventura – e descobrem que suas habilidades podem, realmente, ser eficientes para manter grupos de aventureiros com moral alto e uma organização eficiente dentro e fora de combate. Sua influência e contatos também fazem deles excelentes para encontrar as pessoas certas para serviços que o grupo precise – ou para descobrir pistas sobre o paradeiro de alvos que o grupo esteja procurando.</p><p>A maioria dos Senescais que se aventuram, no entanto, fazem isso por um curto espaço de tempo. A maioria acaba se aborrecendo com as longas viagens, as infindáveis explorações de masmorras e os encontros com mortos-vivos, bestas e outras criaturas contra as quais suas capacidades têm pouca eficiência. É muito mais comum, no entanto, que aventureiros aposentados se tornem Aprendizes de Senescal para afiar suas capacidades de administrar os bens que conseguiram ao longo de suas aventuras.</p><p><strong>Raças Mais Frequentes:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "ade2cf21af385b29",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (37 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>energia-sombria-2</strong></li><li><strong>imunidade-espiritual</strong></li><li><strong>resistencia-dos-mortos</strong></li><li><strong>resistencia-necromantica</strong></li><li><strong>mestre-dos-mortos</strong></li><li><strong>posicao-distinta</strong></li><li><strong>contatos-na-corte</strong></li><li><strong>contatos-politicos</strong></li><li><strong>distintivo-de-oficio</strong></li><li><strong>distracao</strong></li><li><strong>eloquente</strong></li><li><strong>erudito</strong></li><li><strong>farda</strong></li><li><strong>formacao-de-batalha-1</strong></li><li><strong>gregario</strong></li><li><strong>guarda-costas</strong></li><li><strong>inspirar-coragem</strong></li><li><strong>lingua-afiada</strong></li><li><strong>mastim</strong></li><li><strong>presenca-confiante</strong></li><li><strong>presenca-inspiradora</strong></li><li><strong>reposicionar</strong></li><li><strong>sequito</strong></li><li><strong>taticas-de-batalha</strong></li><li><strong>um-bom-conselho-1</strong></li><li><strong>voz-de-comando-1</strong></li><li><strong>abrir-a-guarda</strong></li><li><strong>conselheiro-pessoal</strong></li><li><strong>formacao-de-batalha-2</strong></li><li><strong>guarda-de-honra</strong></li><li><strong>juiz</strong></li><li><strong>persuadir</strong></li><li><strong>restaurar-conviccao</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>magistrado</strong></li><li><strong>um-bom-conselho-2</strong></li><li><strong>voz-de-comando-2</strong></li></ul>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/senescal.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "senescal",
+      "tipo": "classe"
+    }
+  }
+}

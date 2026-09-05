@@ -1,7 +1,7 @@
 {
   "name": "Juban",
   "type": "raca",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/mighty-blade/assets/forja/juban.png",
   "system": {
     "atributos": {
       "forca": 4,
@@ -24,11 +24,82 @@
       }
     ],
     "classesComuns": "Paladino, Sacerdote e Guerreiro (Nota: Também formam grandes e inspiradores Oradores e são frequentemente vistos atuando em exércitos como tropas de defesa Aegis)",
-    "description": "\n      <div class=\"faixas-etarias\" style=\"margin-top:8px;\">\n        <strong>Faixas Etárias:</strong> Filhote (0-3 anos) · Adulto (18 anos) · Idoso (80(14) anos) · Ancião (140(2) anos)\n      </div>\n    <div class=\"biologia\" style=\"margin-top:8px;\"><strong>Biologia:</strong><p><ul><li><strong>Fisiologia e Aparência:</strong> Humanoides com pernas digitígradas e feições que lembram grandes felinos. Possuem uma estatura que varia de 1,8 a 2 metros, e sua musculatura densa e pesada faz com que cheguem facilmente a 140 quilos (com média de 120 kg). Possuem um focinho curto munido de presas fortes, quatro dedos nos pés e mãos com garras curvas curtas, e uma cauda de cerca de um metro, cuja utilidade para o equilíbrio se perdeu na evolução da raça.</li><br><li><strong>Pele e Pelagem:</strong> A pele é rosada, encoberta quase inteiramente por uma pelagem fina e cerrada que varia do dourado ao marrom escuro (os tons castanho-avermelhados são os mais comuns, existindo ocorrências de manchas e listras). Alguns raríssimos Jubans apresentam pelo inteiramente branco, o que é uma anomalia parecida com o albinismo, porém sem a sensibilidade ao sol de outras raças.</li><br><li><strong>Dimorfismo Sexual:</strong> Os machos são facilmente reconhecíveis por ostentarem uma pelagem bem mais densa e abundante no pescoço e alto da cabeça (uma juba), geralmente numa tonalidade mais escura que o resto do corpo. As fêmeas são distinguidas por não desenvolverem jubas e por apresentarem duas mamas diminutas, geralmente difíceis de notar por conta da forte constituição muscular da raça.</li><br><li><strong>Ciclo de Vida:</strong> A gestação dura em média nove meses e a maturidade chega aos 18 anos. O declínio da idade (que se mostra primeiro pelo enfraquecimento das garras e presas) começa por volta dos 80 anos, e vivem em média até os 140 anos.</li></ul></p></div><div class=\"cultura\" style=\"margin-top:8px;\"><strong>Cultura & Sociedade:</strong><p><ul><li><strong>Habitat e Estrutura Política:</strong> Costumam se estabelecer em planícies e savanas. Valorizam enormemente estruturas militares, e frequentemente aplainam o cume de colinas próximas aos seus assentamentos para a construção de praças fortificadas (como Kommos, a capital administrativa do reino de Parband, que repousa segura sobre um planalto).</li><br><li><strong>Disciplina, Religião e Justiça:</strong> A sociedade é disciplinada e embasada nos dogmas de seu padroeiro e criador, Ahogr, o Ruge-Mundos. Eles prezam a força nos campos físico, espiritual e de caráter. A mentira, a intriga e a covardia são consideradas falhas de caráter inaceitáveis e são punidas mais severamente do que roubos ou homicídios. Ironicamente, eles tendem a ser lenientes ao julgarem membros de outras raças por atos covardes, pois acreditam que quem não foi criado por Ahogr possui um \"espírito fraco\" e não pode ser culpado de sua natureza.</li><br><li><strong>Treinamento e Armas Naturais:</strong> Desde os 8 anos até os 14 anos, todos os Jubans recebem rígido treinamento em quartéis (aprendendo táticas, armas, matemática, história e literatura) para forjar um caráter inquebrável. Os civilizados adotaram o hábito social de manter suas garras curtas e polidas, acreditando que usá-las como armas (e as presas também) é um ato desesperado, bárbaro e extremamente desonroso (apesar de caçadores e rastreadores não compartilharem dessa visão de desonra). O rugido, no entanto, é a arma natural respeitada e adorada por todos, e seus bardos e guerreiros fazem intenso uso dele em batalha para encorajar os companheiros e causar medo nos oponentes.</li><br><li><strong>Relações Interpessoais (Família e Assimilação):</strong> Existe total igualdade entre gêneros em sua sociedade; ambos passam por exatamente o mesmo duro treinamento e atuam nas mesmas posições e patentes militares sem restrições. Os casais não veem a necessidade de terem dezenas de filhos, pois abominam a ideia de serem \"fardos para a sociedade\" (sendo comum que, quando engravidam, o casal seja liberado de seus postos por um ano, tendo duas ou três crias seguidas, e então voltando à rotina para não se manterem improdutivos). Eles também acolheram os furtivos Tailox de Gaian, que fugiam das ameaças Gnolls, assimilando sua sociedade em uma união produtiva, onde a agilidade pequena do Tailox serve como espiões perfeitos para a força do Juban.</li></ul></p></div>\n      <div class=\"nomes\" style=\"margin-top:8px;\">\n        <strong>Nomes e Tradições:</strong><br><p>A criação de nomes Jubans (e de seus aliados Tailox) gera palavras de uma a três sílabas, em que os nomes iídiches do mundo real funcionam com perfeição. Jubans nunca utilizam sobrenomes, e não são definidos por suas linhagens ou famílias. Em seu lugar, identificam-se dizendo a sua patente ou função somada ao nome da guilda ou ordem a qual pertencem.</p>\n        <div style=\"font-size:12px;opacity:0.85;margin-top:4px;\"><b>Masculinos:</b> Anshel, Avro, Benesh, Celegur, Chatzkel, Erek, Ferato, Gavrel<br><b>Femininos:</b> Alte, Beyle, Beylke, Bluma, Breida, Faiga, Faiva, Freyde</div>\n      </div>\n    "
+    "description": "<div class=\"mb-item-summary\"><p>Raça Juban de Mighty Blade 3e.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Biologia, Cultura e Nomes</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6552939f6d14d4bf\" data-slug=\"juban\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div class=\"faixas-etarias\" style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Faixas Etárias:</strong> Filhote (0-3a) · Adulto (18a) · Idoso (80(14)a) · Ancião (140(2)a)</div><div class=\"classes-comuns\" style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Classes Comuns:</strong> Paladino, Sacerdote e Guerreiro (Nota: Também formam grandes e inspiradores Oradores e são frequentemente vistos atuando em exércitos como tropas de defesa Aegis)</div></div>"
   },
   "flags": {
     "mighty-blade": {
-      "slug": "juban"
+      "slug": "juban",
+      "diarioId": "6552939f6d14d4bf",
+      "lore": {
+        "biologia": "* **Fisiologia e Aparência:** Humanoides com pernas digitígradas e feições que lembram grandes felinos. Possuem uma estatura que varia de 1,8 a 2 metros, e sua musculatura densa e pesada faz com que cheguem facilmente a 140 quilos (com média de 120 kg). Possuem um focinho curto munido de presas fortes, quatro dedos nos pés e mãos com garras curvas curtas, e uma cauda de cerca de um metro, cuja utilidade para o equilíbrio se perdeu na evolução da raça.\n* **Pele e Pelagem:** A pele é rosada, encoberta quase inteiramente por uma pelagem fina e cerrada que varia do dourado ao marrom escuro (os tons castanho-avermelhados são os mais comuns, existindo ocorrências de manchas e listras). Alguns raríssimos Jubans apresentam pelo inteiramente branco, o que é uma anomalia parecida com o albinismo, porém sem a sensibilidade ao sol de outras raças.\n* **Dimorfismo Sexual:** Os machos são facilmente reconhecíveis por ostentarem uma pelagem bem mais densa e abundante no pescoço e alto da cabeça (uma juba), geralmente numa tonalidade mais escura que o resto do corpo. As fêmeas são distinguidas por não desenvolverem jubas e por apresentarem duas mamas diminutas, geralmente difíceis de notar por conta da forte constituição muscular da raça.\n* **Ciclo de Vida:** A gestação dura em média nove meses e a maturidade chega aos 18 anos. O declínio da idade (que se mostra primeiro pelo enfraquecimento das garras e presas) começa por volta dos 80 anos, e vivem em média até os 140 anos.",
+        "cultura": "* **Habitat e Estrutura Política:** Costumam se estabelecer em planícies e savanas. Valorizam enormemente estruturas militares, e frequentemente aplainam o cume de colinas próximas aos seus assentamentos para a construção de praças fortificadas (como Kommos, a capital administrativa do reino de Parband, que repousa segura sobre um planalto).\n* **Disciplina, Religião e Justiça:** A sociedade é disciplinada e embasada nos dogmas de seu padroeiro e criador, Ahogr, o Ruge-Mundos. Eles prezam a força nos campos físico, espiritual e de caráter. A mentira, a intriga e a covardia são consideradas falhas de caráter inaceitáveis e são punidas mais severamente do que roubos ou homicídios. Ironicamente, eles tendem a ser lenientes ao julgarem membros de outras raças por atos covardes, pois acreditam que quem não foi criado por Ahogr possui um \"espírito fraco\" e não pode ser culpado de sua natureza.\n* **Treinamento e Armas Naturais:** Desde os 8 anos até os 14 anos, todos os Jubans recebem rígido treinamento em quartéis (aprendendo táticas, armas, matemática, história e literatura) para forjar um caráter inquebrável. Os civilizados adotaram o hábito social de manter suas garras curtas e polidas, acreditando que usá-las como armas (e as presas também) é um ato desesperado, bárbaro e extremamente desonroso (apesar de caçadores e rastreadores não compartilharem dessa visão de desonra). O rugido, no entanto, é a arma natural respeitada e adorada por todos, e seus bardos e guerreiros fazem intenso uso dele em batalha para encorajar os companheiros e causar medo nos oponentes.\n* **Relações Interpessoais (Família e Assimilação):** Existe total igualdade entre gêneros em sua sociedade; ambos passam por exatamente o mesmo duro treinamento e atuam nas mesmas posições e patentes militares sem restrições. Os casais não veem a necessidade de terem dezenas de filhos, pois abominam a ideia de serem \"fardos para a sociedade\" (sendo comum que, quando engravidam, o casal seja liberado de seus postos por um ano, tendo duas ou três crias seguidas, e então voltando à rotina para não se manterem improdutivos). Eles também acolheram os furtivos Tailox de Gaian, que fugiam das ameaças Gnolls, assimilando sua sociedade em uma união produtiva, onde a agilidade pequena do Tailox serve como espiões perfeitos para a força do Juban.",
+        "faixasEtarias": {
+          "filhote": "0-3",
+          "crianca": "4-13",
+          "adolescente": "14-17",
+          "adulto": "18",
+          "idoso": "80(14)",
+          "anciao": "140(2)"
+        },
+        "nomes": {
+          "lore": "A criação de nomes Jubans (e de seus aliados Tailox) gera palavras de uma a três sílabas, em que os nomes iídiches do mundo real funcionam com perfeição. Jubans nunca utilizam sobrenomes, e não são definidos por suas linhagens ou famílias. Em seu lugar, identificam-se dizendo a sua patente ou função somada ao nome da guilda ou ordem a qual pertencem.",
+          "masculinos": [
+            "Anshel",
+            "Avro",
+            "Benesh",
+            "Celegur",
+            "Chatzkel",
+            "Erek",
+            "Ferato",
+            "Gavrel",
+            "Havanker",
+            "Hirsh",
+            "Inkur",
+            "Issur",
+            "Kirmadek",
+            "Koppel",
+            "Laion",
+            "Menahek",
+            "Motker",
+            "Raziel",
+            "Rubio",
+            "Sender",
+            "Urkon",
+            "Yanko",
+            "Ysroel",
+            "Zalmo",
+            "Zelek"
+          ],
+          "femininos": [
+            "Alte",
+            "Beyle",
+            "Beylke",
+            "Bluma",
+            "Breida",
+            "Faiga",
+            "Faiva",
+            "Freyde",
+            "Glyka",
+            "Hadassa",
+            "Haska",
+            "Henda",
+            "Hirsha",
+            "Inka",
+            "Isa",
+            "Kreine",
+            "Liba",
+            "Merra",
+            "Rayna",
+            "Rifka",
+            "Riha",
+            "Shainda",
+            "Sirague",
+            "Sura",
+            "Yuda",
+            "Zelde"
+          ]
+        }
+      }
     }
   }
 }

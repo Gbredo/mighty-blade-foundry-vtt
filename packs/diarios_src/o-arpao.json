@@ -1,0 +1,26 @@
+{
+  "_id": "2845c3fb7e77d4f3",
+  "name": "Diário: O Arpão",
+  "pages": [
+    {
+      "_id": "70926f6b20073e0f",
+      "name": "Crônicas e Estatuto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/org_arpao.png\" alt=\"O Arpão\" style=\"max-height:220px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Crônicas e História</h2><p>Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><hr><h3>Estatuto da Organização</h3><ul><li><strong>Tipo:</strong> Naval</li><li><strong>Sede Oficial:</strong> Lonjágua</li><li><strong>Liderança:</strong> Não identificado</li><li><strong>Condições de Ingresso:</strong> Não mencionado</li></ul>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/org_arpao.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "o-arpao",
+      "tipo": "organizacao"
+    }
+  }
+}

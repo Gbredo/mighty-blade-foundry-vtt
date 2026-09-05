@@ -1,0 +1,26 @@
+{
+  "_id": "72144f07e1e5047d",
+  "name": "Diário: Artífice",
+  "pages": [
+    {
+      "_id": "74bd4a565f29140a",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/artifice.png\" alt=\"Artífice\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Artífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.</p><p>A grande maioria dos Artífices cria apenas itens de pouco poder, rápidos e fáceis de produzir, enquanto alguns se especializam em itens com fins específicos, geralmente trabalhando para a corte de um determinado reino ou metrópole. Na Academia Argêntea há Artífices especializados em itens de proteção, usados por estudantes durante seus primeiros testes (e pela maioria dos professores) enquanto Tebrynia, Arbrat e Tell’Est Triadha mantém Artífices que produzem armas e armaduras mágicas para as tropas que protegem essas capitais, e Arkânia possui Artífices que produzem itens mágicos exclusivamente para a Aurora dos Dragões.</p><p>Há ainda alguns Artífices que dedicam suas vidas à produção de itens mágicos com propriedades realmente impressionantes, e que requerem anos para serem produzidos. Em geral estes itens que consomem grandes quantidades de energia e recursos são criados com um propósito bastante específico – derrotar um perigo particularmente terrível, defender um reino de uma ameaça específica ou produzir uma ameaça ou perigo terríveis! Estes itens mágicos via de regra não estão à disposição de aventureiros, exceto, eventualmente, como pilhagem de suas aventuras.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 5, Conhecimento Arcano.</p><p><strong>Raças Comuns:</strong> Aesir, Anão, Elfo, Fira, Metadílio.</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/artifice.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "artifice",
+      "tipo": "caminho"
+    }
+  }
+}

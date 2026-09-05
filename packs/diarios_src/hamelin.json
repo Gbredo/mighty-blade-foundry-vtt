@@ -1,0 +1,52 @@
+{
+  "_id": "6ad900578dbca255",
+  "name": "Diário: Hamelin",
+  "pages": [
+    {
+      "_id": "fc6ac2ab60093a72",
+      "name": "Biologia & Fisiologia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/hamelin.png\" alt=\"Hamelin\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Visão Geral & Biologia</h2><p><ul><li><strong>Fisiologia e Aparência:</strong> São pequenos humanoides com feições de roedores, medindo em média 1,5 metros (embora pareçam menores devido à postura curvada) e pesando de 40 a 50 quilos (até 60 kg em locais com muita comida). Possuem uma visão perfeita no escuro e um rabo fino e musculoso de cerca de um metro, usado para se apoiar em escaladas ou para manusear objetos toscamente. O focinho longo é dotado de incisivos altamente resistentes que servem como tesouras, alicates ou enxadas. Têm um sistema imunológico perfeito, sendo imunes a doenças e venenos naturais, mas suas mordidas são extremamente virulentas, transmitindo doenças perigosas (como Tétano, Peste Negra e Tuberculose) para quem for ferido.</li><br><li><strong>Pele e Pelagem:</strong> A pele varia do rosado ao pardo. O corpo é recoberto por uma pelagem grossa e curta. A pelagem dos machos vai do cinza claro ao preto, às vezes com manchas mais escuras. Já as fêmeas têm pelos que variam do bege ao marrom escuro, com castanho sendo o mais comum.</li><br><li><strong>Dimorfismo Sexual:</strong> Além da diferença nas cores da pelagem, as fêmeas possuem seis mamas muito pequenas que ficam inchadas durante a gravidez e a amamentação.</li><br><li><strong>Ciclo de Vida:</strong> A fertilidade da espécie é assustadora: fêmeas engravidam até duas vezes por ano, a gestação dura 4 meses e meio, e as ninhadas geram quase sempre gêmeos, trigêmeos ou até heptagêmeos. A vida adulta chega rápido, aos 10 anos, com os sinais de velhice já aparecendo aos 30. É muito raro um Hamelin viver além dos 40 anos.</li></ul></p><hr><h3>Faixas Etárias & Ciclos</h3><ul><li><strong>Filhote:</strong> 0-2 anos</li><li><strong>Criança:</strong> 3-5 anos</li><li><strong>Adolescente:</strong> 6-9 anos</li><li><strong>Adulto:</strong> 10 anos</li><li><strong>Idoso:</strong> 30(4) anos</li><li><strong>Ancião:</strong> 40(1/2) anos</li></ul>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "78dd897c67d20243",
+      "name": "Cultura & Sociedade",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Cultura & Sociedade</h2><p><ul><li><strong>Habitat e Organização:</strong> Vivem à margem das sociedades de outras raças, não possuindo cultura duradoura. Habitam qualquer porão, esgoto, gruta, ruína ou bueiro que caiba a sua ninhada. Em Parband, organizam-se em comunidades nômades nas montanhas, mas na maioria das metrópoles de Tebryn sobrevivem dos lixos e despojos alheios, pois possuem um paladar pouco desenvolvido e devoram qualquer material orgânico.</li><br><li><strong>Comportamento:</strong> Prezam a liberdade e espontaneidade, ignorando cadeias de comando, rotinas e qualquer noção de propriedade privada ou higiene (o que os torna vetores de doenças para outras espécies). São muito curiosos em relação aos costumes de outras raças. A maioria das espécies humanoides não confia neles e os trata como pestes a serem eliminadas.</li><br><li><strong>Aventureiros:</strong> Uma rara minoria de Hamelins — geralmente os que nascem sem irmãos ou que se afastam da espécie — não adota o instinto de esconder e fugir, e tenta negociar, roubar ou conversar com outras raças. Esses Hamelins aventureiros entendem que precisam adotar hábitos de higiene e seguir padrões para não atraírem predadores ou serem mortos pelas autoridades.</li></ul></p>",
+        "format": 1
+      }
+    },
+    {
+      "_id": "a971539e27895102",
+      "name": "Nomes & Tradições",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Nomes & Tradições</h2><p>Assim como os Gnolls, o idioma nativo dos Hamelins é o Zihassás (uma língua não-escrita focada em chiados, que muitos usam como língua oficial do submundo e do crime). Seus nomes possuem de duas a quatro sílabas e abusam de sons chiados como \"S\", \"Z\", \"F\", \"CH\" e \"X\". Para formar os nomes, traduz-se uma palavra para o árabe, adaptando-a para ficar chiada. Hamelins quase nunca usam sobrenomes familiares. Utilizam apenas títulos (apelidos) ganhos pelo grupo em virtude de uma qualidade ou feito, como \"O Sorrateiro\", \"Pernas Rápidas\" ou \"Cauda Longa\".</p><h4>Nomes Masculinos</h4><p>Aldabauss, Assaris, Baltosh, Catemoc, Fuzal, Haribus, Mahajuss, Muheiefos, Mukhif, Munsifin, Ratharyn, Retch, Savis, Sefnus, Shimoshi, Treffen, Zagig, Zaszafizle, Zatmec, Zazempur, Zotspox</p><h4>Nomes Femininos</h4><p>Alfirani, Alharibina, Alraufa, Chunchia, Faquiri, Hissa, Isazi, Jabeni, Lezisle, Nassifa, Neezza, Pasha, Piferva, Sazila, Shike, Shoola, Siska, Szaidzisnska, Tisha, Tsintsi, Zusza</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/hamelin.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "hamelin",
+      "tipo": "raca"
+    }
+  }
+}

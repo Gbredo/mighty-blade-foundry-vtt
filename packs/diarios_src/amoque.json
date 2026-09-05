@@ -1,0 +1,26 @@
+{
+  "_id": "5483fa0277bff76e",
+  "name": "Diário: Amoque",
+  "pages": [
+    {
+      "_id": "e231a01e7d570db5",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/amoque.png\" alt=\"Amoque\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Amoques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.</p><p>Amoques tendem a se juntar a tropas menos organizadas, como grupos de assalto, guerrilheiros e até mesmo batedores, já que estas tropas costumam ter uma organização menos regular, permitindo que eles utilizem sua fúria com menos moderação. No entanto, a maioria dos Amoques não faz parte de tropas regulares. A maioria deles será encontrada em grupos de mercenários, piratas, leões de chácara ou algum outro posto onde a força-bruta é o requisito mais importante.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 6, Uma habilidade de Fúria qualquer.</p><p><strong>Raças Comuns:</strong> Aesir, Centauro, Fauno e Orc.</p>",
+        "format": 1
+      }
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/amoque.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "amoque",
+      "tipo": "caminho"
+    }
+  }
+}
