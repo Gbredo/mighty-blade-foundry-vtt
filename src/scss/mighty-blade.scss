@@ -1,115 +1,887 @@
-@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap");
 
-/* Aplica a fonte em toda a ficha */
-.mighty-blade .window-content {
-  font-family: "MedievalSharp", cursive;
-  background-color: #e8e2c9; /* Cor de pergaminho (fallback) */
-  background-image: url("../assets/parchment.jpg");
-  background-repeat: repeat;
-  font-size: 14px;
-  color: #191813; /* Cor do texto padrão */
+/* ════════════════════════════════════════════════════════════════════
+   DESIGN SYSTEM DARK OBSIDIAN — MIGHTY BLADE 3.5 FOUNDRY VTT
+   Inspirado no visual cinematográfico e Magitech do Webapp oficial
+   ════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --mb-bg-dark: #090d16;
+  --mb-bg-card: rgba(22, 30, 46, 0.75);
+  --mb-bg-card-hover: rgba(30, 41, 59, 0.9);
+  --mb-bg-input: rgba(15, 23, 42, 0.7);
+  --mb-border: rgba(255, 255, 255, 0.08);
+  --mb-border-gold: rgba(245, 158, 11, 0.35);
+  --mb-gold: #fbbf24;
+  --mb-gold-glow: rgba(251, 191, 36, 0.25);
+  --mb-vida: #ef4444;
+  --mb-vida-glow: rgba(239, 68, 68, 0.3);
+  --mb-vida-grad: linear-gradient(90deg, #b91c1c 0%, #ef4444 100%);
+  --mb-mana: #6366f1;
+  --mb-mana-glow: rgba(99, 102, 241, 0.3);
+  --mb-mana-grad: linear-gradient(90deg, #4338ca 0%, #6366f1 100%);
+  --mb-text: #f8fafc;
+  --mb-text-muted: #94a3b8;
+  --mb-font-title: "Cinzel", Georgia, serif;
+  --mb-font-body: "Outfit", "Inter", -apple-system, sans-serif;
 }
 
-/* Tira a borda e o fundo branco dos inputs para parecer escrito no papel */
+/* Janela do Foundry VTT */
+.window-app.mighty-blade {
+  font-family: var(--mb-font-body);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 1px rgba(245, 158, 11, 0.4);
+}
+
+.window-app.mighty-blade .window-header {
+  background: #0d1322;
+  border-bottom: 1px solid var(--mb-border-gold);
+  color: #f1f5f9;
+  font-family: var(--mb-font-title);
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.window-app.mighty-blade .window-content {
+  background: radial-gradient(circle at 50% 0%, #131b2e 0%, #080c14 100%);
+  color: var(--mb-text);
+  font-family: var(--mb-font-body);
+  font-size: 13px;
+  padding: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--mb-border-gold) rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Scrollbar */
+.window-app.mighty-blade .window-content::-webkit-scrollbar {
+  width: 6px;
+}
+.window-app.mighty-blade .window-content::-webkit-scrollbar-thumb {
+  background: var(--mb-border-gold);
+  border-radius: 4px;
+}
+.window-app.mighty-blade .window-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Reset & Global Input Styles */
 .mighty-blade input[type="text"],
-.mighty-blade input[type="number"] {
-  background: none;
-  border: none;
-  border-bottom: 2px solid #444; /* Uma linha embaixo estilo formulário */
-  border-radius: 0;
-  font-family: "MedievalSharp", cursive;
-  color: #191813;
+.mighty-blade input[type="number"],
+.mighty-blade select,
+.mighty-blade textarea {
+  background: var(--mb-bg-input);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  color: var(--mb-text);
+  padding: 4px 8px;
+  font-family: var(--mb-font-body);
+  font-size: 13px;
+  box-sizing: border-box;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-// Add custom fonts by visiting and search https://fonts.google.com
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.mighty-blade input:focus,
+.mighty-blade select:focus,
+.mighty-blade textarea:focus {
+  border-color: var(--mb-gold);
+  box-shadow: 0 0 8px var(--mb-gold-glow);
+  outline: none;
+}
 
-// Import utilities.
-@import "utils/typography";
-@import "utils/colors";
-@import "utils/mixins";
-@import "utils/variables";
+/* ════════════════════════════════════════════════════════════════════
+   1. CABEÇALHO & IDENTIDADE HEROICA
+   ════════════════════════════════════════════════════════════════════ */
 
-/* Global styles */
-@import "global/window";
-@import "global/grid";
-@import "global/flex";
+.mighty-blade .sheet-header {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 12px;
+  background: var(--mb-bg-card);
+  border: 1px solid var(--mb-border);
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 
-/* Styles limited to mighty-blade sheets */
-.mighty-blade {
-  @import "components/forms";
-  @import "components/resource";
-  @import "components/items";
-  @import "components/effects";
-  @import "components/browser";
+/* Avatar e Badge de Nível */
+.mighty-blade .header-avatar-col {
+  flex: 0 0 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
 
-  .sheet-config-container {
-    flex: 0 0 30px;
-    text-align: right;
-    padding-top: 5px;
-  }
+.mighty-blade .avatar-frame {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--mb-border-gold);
+  box-shadow: 0 0 12px var(--mb-gold-glow);
+  background: #000;
+  transition: transform 0.2s ease;
+}
 
-  .sheet-config {
-    color: #444;
-    font-size: 1.5em;
-    cursor: pointer;
-    transition: color 0.2s;
+.mighty-blade .avatar-frame:hover {
+  transform: scale(1.02);
+}
 
-    &:hover {
-      color: #000;
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    }
+.mighty-blade .profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  cursor: pointer;
+}
 
-    &.editing {
-      color: #27ae60; /* Green for active editing/save */
+.mighty-blade .level-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid var(--mb-border-gold);
+  border-radius: 6px;
+  padding: 2px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-      &:hover {
-        color: #2ecc71;
-        text-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
-      }
-    }
-  }
+.mighty-blade .level-num {
+  font-family: var(--mb-font-title);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--mb-gold);
+}
 
-  /* Tabs */
-  .sheet-tabs {
-    flex: 0 0 40px;
-    border-top: 1px solid #aaa;
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 10px;
-    line-height: 40px;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-evenly;
+.mighty-blade .xp-val {
+  font-size: 0.7rem;
+  color: var(--mb-text-muted);
+}
 
-    .item {
-      display: inline-block;
-      padding: 0 10px;
-      border-bottom: 3px solid transparent;
-      color: #444;
-      cursor: pointer;
+/* Campos Centrais */
+.mighty-blade .header-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
 
-      &:hover {
-        color: #000;
-        text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-      }
+.mighty-blade .charname-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 
-      &.active {
-        border-bottom: 3px solid #444;
-        color: #000;
-      }
-    }
-  }
+.mighty-blade h1.charname {
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 1;
+}
 
-  /* Hover Effects */
-  input[type="text"]:hover,
-  input[type="number"]:hover {
-    border-bottom-color: #000;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
+.mighty-blade h1.charname input {
+  font-family: var(--mb-font-title);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--mb-border);
+  border-radius: 0;
+  padding: 2px 4px;
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.25);
+  width: 100%;
+}
 
-  .item-create:hover {
-    color: #000;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  }
+.mighty-blade h1.charname input:focus {
+  border-color: var(--mb-gold);
+  box-shadow: none;
+}
+
+.mighty-blade .sheet-config-container .sheet-config {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--mb-border);
+  color: var(--mb-text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mighty-blade .sheet-config-container .sheet-config:hover {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: var(--mb-gold);
+  color: var(--mb-gold);
+}
+
+.mighty-blade .sheet-config-container .sheet-config.editing {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: #22c55e;
+  color: #4ade80;
+}
+
+/* Grid 2x2 Simétrico de Identidade */
+.mighty-blade .identity-grid-2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.mighty-blade .id-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  padding: 5px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-height: 48px;
+  justify-content: center;
+}
+
+.mighty-blade .id-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--mb-gold);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.mighty-blade .id-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.mighty-blade .id-item-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 6px;
+}
+
+.mighty-blade .id-item-pill .item-name {
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.88rem;
+}
+
+.mighty-blade .placeholder-btn {
+  font-size: 0.78rem;
+  color: var(--mb-text-muted);
+  font-style: italic;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.mighty-blade .placeholder-btn:hover {
+  color: var(--mb-gold);
+}
+
+.mighty-blade .id-value-text {
+  font-weight: 600;
+  color: #f1f5f9;
+  font-size: 0.85rem;
+}
+
+.mighty-blade .id-value-text.is-empty {
+  color: var(--mb-text-muted);
+  font-weight: normal;
+}
+
+.mighty-blade .id-text-input {
+  width: 100%;
+  font-size: 0.82rem;
+  padding: 2px 6px;
+}
+
+/* Sub-badge de Aprendiz */
+.mighty-blade .aprendiz-badge {
+  font-size: 0.72rem;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-top: 2px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.mighty-blade .aprendiz-input-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+  width: 100%;
+}
+
+.mighty-blade .aprendiz-prefix {
+  font-size: 0.7rem;
+  color: #38bdf8;
+}
+
+.mighty-blade .aprendiz-input {
+  flex: 1;
+  font-size: 0.75rem;
+  padding: 1px 4px;
+}
+
+/* Sub-bar de Antecedentes */
+.mighty-blade .header-sub-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.75rem;
+  border-top: 1px solid var(--mb-border);
+  padding-top: 6px;
+}
+
+.mighty-blade .antecedente-tags-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.mighty-blade .sub-bar-label {
+  color: var(--mb-text-muted);
+  font-weight: 600;
+}
+
+.mighty-blade .antecedente-tag {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid var(--mb-border-gold);
+  border-radius: 4px;
+  padding: 1px 6px;
+  color: #fde68a;
+  font-size: 0.72rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mighty-blade .text-muted-italic {
+  color: var(--mb-text-muted);
+  font-style: italic;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   2. ABAS DE NAVEGAÇÃO (.sheet-tabs)
+   ════════════════════════════════════════════════════════════════════ */
+
+.mighty-blade nav.sheet-tabs {
+  display: flex;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid var(--mb-border);
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 12px;
+}
+
+.mighty-blade nav.sheet-tabs .item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: var(--mb-text-muted);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.mighty-blade nav.sheet-tabs .item:hover {
+  color: #f1f5f9;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.mighty-blade nav.sheet-tabs .item.active {
+  color: var(--mb-gold);
+  background: rgba(245, 158, 11, 0.14);
+  border-color: var(--mb-border-gold);
+  box-shadow: 0 0 10px var(--mb-gold-glow);
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   3. ABA DE ATRIBUTOS, VITAIS & DEFESAS
+   ════════════════════════════════════════════════════════════════════ */
+
+/* 4 Caixas Táteis de Atributos */
+.mighty-blade .attributes-boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.mighty-blade .attr-card {
+  background: linear-gradient(145deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid var(--mb-border);
+  border-radius: 8px;
+  padding: 8px 6px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 86px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.mighty-blade .attr-card:hover {
+  border-color: var(--mb-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4), 0 0 12px var(--mb-gold-glow);
+}
+
+.mighty-blade .attr-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 4px;
+}
+
+.mighty-blade .attr-name {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--mb-text-muted);
+}
+
+.mighty-blade .attr-dice-icon {
+  font-size: 0.75rem;
+  color: var(--mb-gold);
+  opacity: 0.75;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.mighty-blade .attr-card:hover .attr-dice-icon {
+  opacity: 1;
+  transform: rotate(20deg) scale(1.2);
+}
+
+.mighty-blade .attr-card-body {
+  margin: 2px 0;
+}
+
+.mighty-blade .attr-number {
+  font-family: var(--mb-font-body);
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+
+.mighty-blade .attr-input {
+  width: 50px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.mighty-blade .attr-badge-sub {
+  font-size: 0.65rem;
+  color: var(--mb-gold);
+  background: rgba(245, 158, 11, 0.1);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-weight: 600;
+}
+
+/* Recursos Vitais (Vida & Mana) */
+.mighty-blade .resources-bars-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.mighty-blade .resource-panel {
+  background: var(--mb-bg-card);
+  border: 1px solid var(--mb-border);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.mighty-blade .resource-panel-vida {
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.mighty-blade .resource-panel-mana {
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.mighty-blade .resource-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.mighty-blade .resource-panel-vida .res-title {
+  color: #fca5a5;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mighty-blade .resource-panel-mana .res-title {
+  color: #a5b4fc;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mighty-blade .res-inputs-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mighty-blade .res-input-current,
+.mighty-blade .res-input-max {
+  width: 48px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 2px 4px;
+}
+
+.mighty-blade .res-slash {
+  color: var(--mb-text-muted);
+  font-weight: 700;
+}
+
+.mighty-blade .resource-track {
+  width: 100%;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mighty-blade .resource-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mighty-blade .fill-vida {
+  background: var(--mb-vida-grad);
+  box-shadow: 0 0 8px var(--mb-vida-glow);
+}
+
+.mighty-blade .fill-mana {
+  background: var(--mb-mana-grad);
+  box-shadow: 0 0 8px var(--mb-mana-glow);
+}
+
+/* Sub-atributos Táticos (Iniciativa, Deslocamento, Corrida, Carga) */
+.mighty-blade .tactical-subattributes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mighty-blade .tactical-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  padding: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.mighty-blade .tactical-card.rollable:hover {
+  border-color: var(--mb-gold);
+  cursor: pointer;
+}
+
+.mighty-blade .tactical-label {
+  font-size: 0.68rem;
+  color: var(--mb-text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.mighty-blade .tactical-val {
+  font-size: 0.88rem;
+  color: #f1f5f9;
+}
+
+/* Defesas Canônicas */
+.mighty-blade .defenses-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.mighty-blade .defense-card {
+  background: var(--mb-bg-card);
+  border: 1px solid var(--mb-border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mighty-blade .defense-header {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--mb-gold);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mighty-blade .defense-body {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.mighty-blade .defense-formula {
+  font-size: 0.75rem;
+  color: var(--mb-text-muted);
+}
+
+.mighty-blade .defense-total {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   4. SEÇÃO DE ATAQUES & TABELAS DE ITENS
+   ════════════════════════════════════════════════════════════════════ */
+
+.mighty-blade .attacks-section {
+  background: var(--mb-bg-card);
+  border: 1px solid var(--mb-border);
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 14px;
+}
+
+.mighty-blade .section-title-bar {
+  font-family: var(--mb-font-title);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--mb-gold);
+  border-bottom: 1px solid var(--mb-border);
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mighty-blade .items-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mighty-blade .items-header {
+  display: flex;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--mb-text-muted);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.mighty-blade .item.flexrow {
+  display: flex;
+  align-items: center;
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.mighty-blade .item.flexrow:hover {
+  background: var(--mb-bg-card-hover);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.mighty-blade .item-name {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mighty-blade .item-name h4 {
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.mighty-blade .item-image img {
+  border-radius: 4px;
+  border: 1px solid var(--mb-border);
+}
+
+.mighty-blade .item-formula {
+  flex: 1;
+  text-align: center;
+}
+
+.mighty-blade .badge-dano {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #fca5a5;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.mighty-blade .item-detail {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--mb-text-muted);
+}
+
+.mighty-blade .item-controls {
+  flex: 0 0 70px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.mighty-blade .item-controls a {
+  color: var(--mb-text-muted);
+  transition: color 0.15s;
+}
+
+.mighty-blade .item-controls a:hover {
+  color: var(--mb-gold);
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   5. ECONOMIA & NOTAS
+   ════════════════════════════════════════════════════════════════════ */
+
+.mighty-blade .notes-economy-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mighty-blade .wallet-badge-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid var(--mb-border-gold);
+  border-radius: 6px;
+  padding: 6px 12px;
+  align-self: flex-start;
+}
+
+.mighty-blade .wallet-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #fef08a;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mighty-blade .wallet-input {
+  width: 80px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--mb-gold);
+}
+
+.mighty-blade .wallet-currency {
+  font-size: 0.78rem;
+  color: var(--mb-text-muted);
+}
+
+.mighty-blade .notes-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.mighty-blade .note-card {
+  background: var(--mb-bg-card);
+  border: 1px solid var(--mb-border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mighty-blade .note-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--mb-gold);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mighty-blade .note-card textarea {
+  resize: vertical;
+  min-height: 48px;
+  font-size: 0.8rem;
+  line-height: 1.3;
 }

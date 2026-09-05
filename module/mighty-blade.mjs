@@ -135,10 +135,9 @@ Hooks.once("ready", async () => {
   if (racasPack) {
     const index = await racasPack.getIndex();
     if (index.size === 0) {
-      ui.notifications.warn(
-        "Os compêndios canônicos do Mighty Blade estão vazios. Clique no botão 'Sincronizar Compêndios' na aba de Compêndios ou execute game.mightyBlade.buildCompendios().",
-        { permanent: true }
-      );
+      console.log("MIGHTY BLADE: Compêndios vazios detectados. Populando automaticamente...");
+      ui.notifications.info("Detectados compêndios vazios. Populando 1.120+ itens canônicos automaticamente...");
+      await buildCompendios();
     }
   }
 });
