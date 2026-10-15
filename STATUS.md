@@ -1,19 +1,19 @@
-# STATUS TATICO — mighty-blade-foundry-vtt
+# STATUS TÁTICO — mighty-blade-foundry-vtt
 
 - Data/Hora: 2026-10-15
 - Branch Ativa: main
-- Agente na Ultima Sessao: Claude Code (sessão 08b62ea7)
+- Último Commit: 7241bd3 (docs: AGENTS.md Perfil de Regras)
 
 ## Estado Atual
 - **789/789 testes passando (0 falhas)** — suite completa verde.
-- Aguardando aprovação do usuário para commitar as correções de regras GB 2023.
+- Repositório limpo, nada pendente para commitar.
 
-## Correções Aplicadas (não commitadas)
-- actor-character.mjs: PM dupla contagem corrigida em _prepareEfeitos
-- canonical-packs-data.mjs: "Força Interior" removida (GB 2017, ausente no GB 2023)
-- requisitos.mjs: "ataque furioso" sem Força 4; "imparavel" inclui Juban
-- Testes 02, 03, 04, 05, 10, 11, 17: fórmulas deslocamento (+5 GB p.19) e determinação (8+max(VON,INT) GB p.36) corrigidas
+## O Que Foi Feito (sessão 08b62ea7)
+- PM dupla contagem corrigida em _prepareEfeitos
+- "Força Interior" removida de canonical-packs-data (GB 2017, ausente GB 2023)
+- requisitos: "ataque furioso" sem Força 4; "imparavel" inclui Juban
+- Fórmulas corrigidas nos testes: Determinação = 8+max(VON,INT) (GB p.36); Deslocamento = ⌊AGI/2⌋+5 (GB p.19)
+- AGENTS.md: seção 5 com Perfil de Regras GB 2023
 
-## Proximo Passo Recomendado
-- Usuário aprovar e commitar (ver proposta de commit no chat).
-- Atualizar AGENTS.md com Perfil de Regras (seção sugerida).
+## Próximo Passo
+- Nenhum bloqueador técnico. Ver TODO.md do Cofre Obsidian para próximas features.
