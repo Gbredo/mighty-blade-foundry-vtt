@@ -40,3 +40,24 @@ Ao iniciar qualquer sessao neste repositorio:
 * npm run build:watch — Monitora e compila alteracoes de Sass em tempo real.
 * npm run build:packs — Importa e compila todos os pacotes LevelDB do Foundry a partir dos JSONs fonte em packs/*_src/.
 * npm run build:habilidades / build:equipamentos / build:racas / build:classes — Compila pacotes especificos.
+
+---
+
+## 5. Perfil de Regras GB 2023 (Canônico)
+Fórmulas vigentes — NÃO altere sem consultar o GB 2023 ou o Cofre Obsidian:
+
+| Atributo | Fórmula | Fonte |
+|---|---|---|
+| Determinação | `8 + max(VON, INT) + bônus` | GB p.36 |
+| Deslocamento | `⌊AGI/2⌋ + 5` | GB p.19 |
+| Corrida | `Deslocamento × 3` | GB p.19 |
+| PM | `Classe base + bônus de itens/pactos (sem dupla contagem)` | GB p.30 |
+
+Habilidades removidas do GB 2023 (presentes no GB 2017, ausentes agora):
+- "Força Interior" — não incluir em canonical-packs-data.mjs
+
+Contagem SSOT esperada:
+- 556 habilidades principais (`habilidades.base`)
+- 164 magias
+
+Histórico de decisão: `RPG/MB/specs/Auditoria de Regras 2026-10-15.md` no Cofre Obsidian.
