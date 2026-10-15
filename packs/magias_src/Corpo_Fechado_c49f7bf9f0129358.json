@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "mistica",
     "custo": 20,
-    "dificuldade": 8,
+    "custoVariavel": false,
+    "dificuldade": 12,
+    "dificuldadeTexto": "12",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Proteção Mística</p><p>Dificuldade da Magia: 12 Desenhando um Selo Místico sobre um alvo, você confere Resistência à Contusão, Corte ou Perfuração a ele. Esse Selo Místico dura por 1 minuto.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Proteção Mística",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 180-181",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Proteção Mística</p><p>Desenhando um Selo Místico sobre um alvo, você confere Resistência à Contusão, Corte ou Perfuração a ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura por 1 minuto. Requer a habilidade Proteção Mística.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "corpo-fechado",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "c49f7bf9f0129358",

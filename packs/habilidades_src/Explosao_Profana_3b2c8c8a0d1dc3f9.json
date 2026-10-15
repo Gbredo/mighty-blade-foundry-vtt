@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Pacto da",
+    "dificuldadeTexto": "",
+    "requisitos": "Pacto da Destruição",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 88",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de causar uma explosão de destruição profana. Você e todas as criaturas a uma distância em metros igual à sua Vontade sofrem uma quantidade de dano igual à sua Determinação/Contusão. Criaturas que possuam um Dogma, Código ou Conhecimento Místico sofrem o dobro do dano. Flagelo de Shyama Habilidade (Característica) – Suporte Destruição. Você possui uma aura de violência ao seu redor que faz com que você e todas as criaturas vivas numa área em metros igual à sua Determinação ao seu redor recebam +2 nas suas rolagens e danos em ataques corporais.</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de causar uma explosão de destruição profana. Você e todas as criaturas a uma distância em metros igual à sua Vontade sofrem uma quantidade de dano igual à sua Determinação/Contusão. Criaturas que possuam um Dogma, Código ou Conhecimento Místico sofrem o dobro do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Destruição. Habilidade exclusiva do Caminho Cultista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "explosao-profana",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

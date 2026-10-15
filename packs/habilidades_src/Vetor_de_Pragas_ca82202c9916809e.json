@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Hamelin, Rei dos Ratos",
+    "dificuldadeTexto": "",
+    "requisitos": "Rei dos Ratos",
+    "acesso": [
+      "Hamelin"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 35",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Os roedores que o acompanham tornam-se vetores da sua infecção. No início de cada um dos seus turnos, qualquer criatura que tiver realizado ataques corporais contra você será atacada por um roedor, sofrendo dano e risco de contaminação.</p>"
+    "concessoes": [],
+    "description": "<p>Os roedores que o acompanham se tornaram vetores para a doença que você é capaz de transmitir, e em combate atacarão qualquer criatura que o ameace – embora façam isso com certa cautela, atacando e fugindo. No começo de cada um de seus turnos, cada criatura que tiver realizado ataques corporais contra você (tenham acertado ou não) será atacada por 1 roedor, que além de dano pode infectar criatura com a mesma doença que sua mordida transmite (a dificuldade da contaminação será baseada na própria doença, não na sua Determinação).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Rei dos Ratos. No início do turno do Hamelin, cada oponente que desferiu ataques corporais no turno anterior sofre um ataque automático de roedor.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vetor-de-pragas",
       "automatica": false,
+      "acesso": [
+        "Hamelin"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

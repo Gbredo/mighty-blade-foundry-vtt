@@ -6,20 +6,50 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Humano",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Geral",
+      "Humano"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você expandiu seus talentos em múltiplas áreas. Escolha um Atributo diferente do selecionado na habilidade Adaptabilidade; você ganha permanentemente +1 nesse Atributo.</p>"
+    "concessoes": [
+      {
+        "tipo": "escolhaAtributo",
+        "valor": 1,
+        "titulo": "Diversidade",
+        "excluirDeHabilidade": "Adaptabilidade",
+        "descricao": "Escolha um Atributo diferente do selecionado em Adaptabilidade para receber +1 permanente."
+      }
+    ],
+    "description": "<p>Você focou seus esforços em aprender coisas novas. Você pode escolher uma Habilidade de qualquer Classe ou Raça como se fosse uma Habilidade Geral, desde que atenda a seus requisitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A habilidade escolhida passa a integrar a lista do seu personagem normalmente.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "diversidade",
       "automatica": false,
-      "opcoes": []
+      "acesso": [
+        "Geral",
+        "Humano"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "hasAdvancement": true,
+      "advancementType": "escolhaAtributo",
+      "excluirDeHabilidade": "Adaptabilidade"
     }
   },
   "_id": "93d23a73a4cc7552",

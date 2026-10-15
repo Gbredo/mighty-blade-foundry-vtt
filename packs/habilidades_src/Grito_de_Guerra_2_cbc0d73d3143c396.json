@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Grito de Guerra 1",
+    "acesso": [
+      "Guerreiro",
+      "Paladino",
+      "Bardo"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 108; Canção do Bardo, pág. 24",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Você e todos os seus aliados em um raio de 10 metros recebem +2 em todas as rolagens até o final da batalha. Além disso, remova todos os efeitos de Medo de todos os aliados dentro da área dessa Habilidade. Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Você e todos os seus aliados em um raio de 10 metros recebem +2 em todas as rolagens até o final da batalha. Além disso, remova todos os efeitos de Medo de todos os aliados dentro da área dessa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo. Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "grito-de-guerra-2",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Paladino",
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

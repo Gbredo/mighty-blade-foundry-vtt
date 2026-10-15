@@ -3,11 +3,21 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Orc",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 43",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "forca",
       "valor": 2
@@ -19,12 +29,19 @@
         "valor": 2
       }
     ],
-    "description": "<p>Seu sangue ferve em combate, entrando em fúria destrutiva ao ser atacado, sofrer dano ou ser alvo de magia. Enquanto estiver em Fúria, você recebe +2 em Força, Determinação e Deslocamento até o final do combate (ou até ficar 2 turnos sem atacar). Incompatível com Fúria de Batalha.</p>"
+    "concessoes": [],
+    "description": "<p>Quando você entra em combate, seu sangue ferve e você é tomado por uma fúria destrutiva, ficando neste estado até o final do combate — ou até ficar 2 turnos sem atacar. Você pode entrar em um estado de Fúria sempre que for atacado (tendo sido atingido ou não), for alvo de uma Habilidade do tipo Magia ou sofrer dano causado por outra criatura. Enquanto estiver em Fúria, você recebe +2 em Força, Determinação e Deslocamento. Você não pode estar em Fúria Orc e Fúria de Batalha ao mesmo tempo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Incompatível com a habilidade Fúria de Batalha.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "furia-orc",
       "automatica": false,
+      "acesso": [
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

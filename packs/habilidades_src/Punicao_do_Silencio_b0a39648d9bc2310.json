@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Arconte"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 71; Guia de Tebryn, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Usada para punir crimes menores, normalmente relacionados a difamação ou outras formas de mentira (como o perjúrio). Tocando em um alvo, você faz com que ele fique mudo por uma quantidade de turnos igual à sua Vontade. Se o alvo estiver Indefeso, você determina uma duração para o efeito – até no máximo uma quantidade de meses igual à sua Determinação. O alvo ainda pode grunhir e gritar, mas não consegue formular palavras coerentes.</p>"
+    "concessoes": [],
+    "description": "<p>Usada para punir crimes menores, normalmente relacionados a difamação ou perjúrio. Tocando em um alvo, você faz com que ele fique mudo por uma quantidade de turnos igual à sua Vontade. Se o alvo estiver Indefeso, você determina uma duração para o efeito – até no máximo uma quantidade de meses igual à sua Determinação. O alvo ainda pode grunhir e emitir sons, mas não consegue formular palavras coerentes (sendo incapaz de conjurar magias verbais).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige pertencer ao Caminho Arconte. Serve de pré-requisito para Punição da Confissão.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "punicao-do-silencio",
       "automatica": false,
+      "acesso": [
+        "Arconte"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 10, Pacto da Destruição.",
+    "dificuldadeTexto": "Determinação do conjurador",
+    "requisitos": "Nível 10, Pacto da Destruição",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia do Vilão, pág. 88",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você concentra o ódio de Shyama em um ataque capaz de romper a barreira entre os planos! Faça um ataque corporal contra uma criatura. Esse ataque causa uma quantidade de dano extra igual à sua Determinação. Se o ataque reduzir uma criatura dos tipos Infernal, Deva, Morto-vivo, Espírito ou Elemental à metade ou menos de seus Pontos de Vida, o alvo precisa imediatamente fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se passar no teste, sua consciência é enviada para o plano de origem por um breve momento, e o alvo fica Paralisado por 1 turno. Se rodar no teste, o alvo é imediatamente destruído e enviado para seu plano de origem. Se o alvo tiver um Dogma ou Pacto, sua consciência é enviada para o plano de seu patrono por um breve momento, e o alvo fica Paralisado por 1 turno. Qualquer criatura que não seja destruída por esse ataque fica Atordoada por um número de turnos igual à sua Vontade. Pacto da Escuridão Nehemoth, Aquela Que Sussurra na Escuridão, senhora dos segredos, da cegueira e do conhecimento perdido. Muitas vezes procurada por aqueles que perderam a visão, muitos Cultistas de Nehemoth são aqueles que se favorecem da escuridão – como ladrões, assassinos, Vampiros e</p>"
+    "concessoes": [],
+    "description": "<p>Você concentra o ódio de Shyama em um ataque capaz de romper a barreira entre os planos! Faça um ataque corporal contra uma criatura. Esse ataque causa uma quantidade de dano extra igual à sua Determinação. Se o ataque reduzir uma criatura dos tipos Infernal, Deva, Morto-vivo, Espírito ou Elemental à metade ou menos de seus Pontos de Vida, o alvo precisa imediatamente fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se passar no teste, sua consciência é enviada para o plano de origem por um breve momento, e o alvo fica Paralisado por 1 turno. Se falhar no teste, o alvo é imediatamente destruído e enviado para seu plano de origem.</p><p>Se o alvo tiver um Dogma ou Pacto, sua consciência é enviada para o plano de seu patrono por um breve momento, e o alvo fica Paralisado por 1 turno. Qualquer criatura que não seja destruída por esse ataque fica Atordoada por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10 e o Pacto da Destruição. Habilidade Final exclusiva do Caminho Cultista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "execrar",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

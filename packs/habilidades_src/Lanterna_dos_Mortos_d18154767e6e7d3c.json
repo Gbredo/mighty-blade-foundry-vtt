@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Contato com Espíritos",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 56",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você exerce uma estranha atração sobrenatural sobre espíritos. Uma quantidade de Sombras igual à sua Vontade estão constantemente te acompanhando e, caso sejam destruídas de alguma forma, outras aparecerão assim que você estiver em um local onde existam Sombras. Além disso, você recebe +2 em todos os seus testes referentes a Espíritos e a dificuldade de qualquer Espírito resistir a um efeito conjurado por você é aumentado em 2.</p>"
+    "concessoes": [],
+    "description": "<p>Você exerce uma estranha atração sobrenatural sobre espíritos. Uma quantidade de Sombras igual à sua Vontade estão constantemente te acompanhando e, caso sejam destruídas de alguma forma, outras aparecerão assim que você estiver em um local onde existam Sombras. Além disso, você recebe +2 em todos os seus testes referentes a Espíritos e a dificuldade de qualquer Espírito resistir a um efeito conjurado por você é aumentado em 2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Contato com Espíritos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "lanterna-dos-mortos",
       "automatica": false,
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,50 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 8,
+    "dificuldadeTexto": "8",
     "requisitos": "",
+    "acesso": [
+      "Dracomante",
+      "Druida",
+      "Feiticeiro",
+      "Rúnico",
+      "Sacerdote",
+      "Xamã",
+      "Geral",
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico, pág. 98; Guia do Vilão, pág. 22",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Concentrando-se nos fluxos de energias mágicas, você pode enxergar a aura de objetos mágicos, Runas Arcanas e Selos Místicos. Você pode analisar a aura mágica de um Selo, Runa ou objeto para entender suas propriedades observando-a por 1 minuto.</p>"
+    "concessoes": [],
+    "description": "<p>Concentrando-se nos fluxos de energias mágicas, você pode enxergar a aura de objetos mágicos, Runas Arcanas e Selos Místicos. Você pode analisar a aura mágica de um Selo, Runa ou objeto para entender suas propriedades observando-a por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta habilidade é compartilhada entre todas as classes conjuradoras do sistema.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "detectar-magia",
       "automatica": false,
+      "acesso": [
+        "Dracomante",
+        "Druida",
+        "Feiticeiro",
+        "Rúnico",
+        "Sacerdote",
+        "Xamã",
+        "Geral",
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,20 +6,242 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Dragano",
+      "Draconiano",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia do Vilão, pág. 27–29",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Concede a herança elemental de seus ancestrais. Escolha feita na seleção da raça.</p>"
+    "concessoes": [
+      {
+        "tipo": "origemDraconica",
+        "ref": "linhagem-draconica",
+        "titulo": "Linhagem & Características Dracônicas",
+        "escolhaDraconica": true,
+        "escolhasRaciais": [
+          {
+            "id": "linhagem",
+            "nome": "Linhagem Dracônica",
+            "min": 1,
+            "max": 1,
+            "opcoes": [
+              {
+                "id": "fogo-vuln-frio",
+                "nome": "Vermelho (Res. Fogo / Vuln. Frio)",
+                "descricao": "Resistência a Fogo, Vulnerabilidade a Frio.",
+                "efeitos": [
+                  {
+                    "tipo": "resistencia",
+                    "dano": "fogo",
+                    "grau": "resistente"
+                  },
+                  {
+                    "tipo": "resistencia",
+                    "dano": "frio",
+                    "grau": "vulneravel"
+                  }
+                ]
+              },
+              {
+                "id": "fogo-vuln-eletr",
+                "nome": "Vermelho (Res. Fogo / Vuln. Raio)",
+                "descricao": "Resistência a Fogo, Vulnerabilidade a Eletricidade.",
+                "efeitos": [
+                  {
+                    "tipo": "resistencia",
+                    "dano": "fogo",
+                    "grau": "resistente"
+                  },
+                  {
+                    "tipo": "resistencia",
+                    "dano": "eletricidade",
+                    "grau": "vulneravel"
+                  }
+                ]
+              },
+              {
+                "id": "frio-vuln-fogo",
+                "nome": "Branco (Res. Frio / Vuln. Fogo)",
+                "descricao": "Resistência a Frio, Vulnerabilidade a Fogo.",
+                "efeitos": [
+                  {
+                    "tipo": "resistencia",
+                    "dano": "frio",
+                    "grau": "resistente"
+                  },
+                  {
+                    "tipo": "resistencia",
+                    "dano": "fogo",
+                    "grau": "vulneravel"
+                  }
+                ]
+              },
+              {
+                "id": "frio-vuln-eletr",
+                "nome": "Branco (Res. Frio / Vuln. Raio)",
+                "descricao": "Resistência a Frio, Vulnerabilidade a Eletricidade.",
+                "efeitos": [
+                  {
+                    "tipo": "resistencia",
+                    "dano": "frio",
+                    "grau": "resistente"
+                  },
+                  {
+                    "tipo": "resistencia",
+                    "dano": "eletricidade",
+                    "grau": "vulneravel"
+                  }
+                ]
+              },
+              {
+                "id": "eletr-vuln-fogo",
+                "nome": "Verde (Res. Raio / Vuln. Fogo)",
+                "descricao": "Resistência a Eletricidade, Vulnerabilidade a Fogo.",
+                "efeitos": [
+                  {
+                    "tipo": "resistencia",
+                    "dano": "eletricidade",
+                    "grau": "resistente"
+                  },
+                  {
+                    "tipo": "resistencia",
+                    "dano": "fogo",
+                    "grau": "vulneravel"
+                  }
+                ]
+              },
+              {
+                "id": "eletr-vuln-frio",
+                "nome": "Verde (Res. Raio / Vuln. Frio)",
+                "descricao": "Resistência a Eletricidade, Vulnerabilidade a Frio.",
+                "efeitos": [
+                  {
+                    "tipo": "resistencia",
+                    "dano": "eletricidade",
+                    "grau": "resistente"
+                  },
+                  {
+                    "tipo": "resistencia",
+                    "dano": "frio",
+                    "grau": "vulneravel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "caracteristicas",
+            "nome": "Características Dracônicas",
+            "min": 3,
+            "max": 3,
+            "opcoes": [
+              {
+                "id": "asas",
+                "nome": "Asas",
+                "descricao": "Necessário para Asas Pesadas. Permite amenizar quedas (imune a dano de queda) e voar com prática.",
+                "efeitos": [
+                  {
+                    "tipo": "imunidadeSituacional",
+                    "situacao": "dano de queda"
+                  }
+                ]
+              },
+              {
+                "id": "barbatanas",
+                "nome": "Barbatanas",
+                "descricao": "Necessário para Anfíbio. Concede +1 em testes para nadar, se equilibrar e evitar ser derrubado.",
+                "efeitos": [
+                  {
+                    "tipo": "bonusDadoTeste",
+                    "valor": 1,
+                    "contexto": "nadar, se equilibrar e evitar ser derrubado"
+                  }
+                ]
+              },
+              {
+                "id": "cauda",
+                "nome": "Cauda",
+                "descricao": "Necessário para Reflexos Dracônicos. Pode realizar ataques desarmados de Força/Contusão.",
+                "efeitos": [
+                  {
+                    "tipo": "ataqueNatural",
+                    "parte": "cauda",
+                    "dano": "Forca",
+                    "tipoDano": "Contusao"
+                  }
+                ]
+              },
+              {
+                "id": "garras",
+                "nome": "Chifres, Garras e Presas",
+                "descricao": "Necessário para Armas Naturais. Concede +1 em ataques desarmados, agarrar e escalar.",
+                "efeitos": [
+                  {
+                    "tipo": "bonusDadoTeste",
+                    "valor": 1,
+                    "contexto": "ataques desarmados, agarrar e escalar"
+                  }
+                ]
+              },
+              {
+                "id": "escamas",
+                "nome": "Escamas",
+                "descricao": "Necessário para Escamas Pesadas. Oferece bônus de Armadura na Defesa de +2.",
+                "efeitos": [
+                  {
+                    "tipo": "bonusDefesa",
+                    "defesa": "bloqueio",
+                    "valor": 2
+                  }
+                ]
+              },
+              {
+                "id": "olhos",
+                "nome": "Olhos Dracônicos",
+                "descricao": "Requisito para Membrana Nictitante. Concede +1 em testes visuais e ataques à distância.",
+                "efeitos": [
+                  {
+                    "tipo": "bonusDadoTeste",
+                    "valor": 1,
+                    "contexto": "testes visuais e ataques à distância"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "description": "<p>O sangue dos dragões corre em suas veias. Escolha um elemento entre Fogo, Frio ou Eletricidade: você adquire Resistência ao elemento escolhido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Ao escolher sua resistência, você obrigatoriamente adquire Vulnerabilidade a um dos outros dois elementos (à sua escolha ou determinado pela sua linhagem).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "linhagem-draconica",
       "automatica": true,
-      "opcoes": []
+      "acesso": [
+        "Dragano",
+        "Draconiano",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "hasAdvancement": true,
+      "advancementType": "origemDraconica"
     }
   },
   "_id": "7eb93a2ad1372d55",

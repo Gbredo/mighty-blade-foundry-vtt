@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "mistica",
     "custo": 5,
+    "custoVariavel": false,
     "dificuldade": 8,
+    "dificuldadeTexto": "8",
     "circulo": 1,
-    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você imbui ela com a graça de sua Divindade. O alvo recebe +1 em todas as suas rolagens. Este Selo Místico dura por 1 minuto.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 144",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você imbui ela com a graça de sua Divindade. O alvo recebe +1 em todas as suas rolagens.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura por 1 minuto. Serve de pré-requisito para Abençoar Aliados 1 e Abençoar Objeto.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "graca-divina",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "291dcc39a38377b2",

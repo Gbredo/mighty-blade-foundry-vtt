@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const FOUNDRY_DIR = "d:\\Projetos\\mighty-blade-foundry-vtt";
-const WEBSITE_DIR = "d:\\Projetos\\MightyBlade3eWebsite";
+const FOUNDRY_DIR = path.resolve(__dirname, "..");
+const WEBSITE_DIR = path.resolve(__dirname, "../../MightyBlade3eWebsite");
 
 // Load compiled rules-core data
 const { RACAS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/racas.js"));
@@ -159,7 +159,21 @@ function buildRaceItem(raca) {
 
   const concessoes = [];
   if (raca.id === "humano") {
-    concessoes.push({ tipo: "escolhaAtributo", ref: autoSlug, valor: 1 });
+    concessoes.push({
+      tipo: "escolhaAtributo",
+      ref: autoSlug,
+      valor: 1,
+      titulo: "Adaptabilidade",
+      descricao: "Você recebe +1 em qualquer um dos seus Atributos à sua escolha.",
+    });
+  } else if (raca.id === "dragano" || raca.escolhaDraconica) {
+    concessoes.push({
+      tipo: "origemDraconica",
+      ref: autoSlug,
+      titulo: "Linhagem & Características Dracônicas",
+      escolhaDraconica: true,
+      escolhasRaciais: raca.escolhasRaciais || [],
+    });
   } else {
     concessoes.push({ tipo: "habilidade", ref: autoSlug });
   }
@@ -378,30 +392,184 @@ function buildOrganizacaoItem(org) {
   };
 }
 
+const OBSIDIAN_HABILIDADES_DIR = "D:\\ArquivosObsidian\\Cofre Obsidian Principal\\RPG\\MB\\banco de dados\\notas das bases mb\\Habilidades";
+
+function cleanObsidianWikilinks(str) {
+  if (!str) return "";
+  return String(str)
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .trim();
+}
+
+function parseObsidianFrontmatterAndBody(content, fallbackTitle) {
+  const fmMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+  const fm = {};
+  let body = content;
+  if (fmMatch) {
+    const lines = fmMatch[1].split(/\r?\n/);
+    body = fmMatch[2] || "";
+    let currentKey = null;
+    for (const line of lines) {
+      const kv = line.match(/^([a-zA-Z0-9_]+):\s*(.*)$/);
+      if (kv) {
+        currentKey = kv[1];
+        const val = kv[2].trim();
+        if (val === "") {
+          fm[currentKey] = [];
+        } else {
+          fm[currentKey] = val.replace(/^["']|["']$/g, "");
+        }
+      } else if (currentKey && /^\s+-\s+/.test(line)) {
+        if (!Array.isArray(fm[currentKey])) {
+          fm[currentKey] = fm[currentKey] ? [fm[currentKey]] : [];
+        }
+        fm[currentKey].push(line.replace(/^\s+-\s+/, "").replace(/^["']|["']$/g, "").trim());
+      }
+    }
+  }
+
+  const titleMatch = body.match(/^#\s+(.+)$/m);
+  const nome = titleMatch ? titleMatch[1].trim() : fallbackTitle;
+
+  const descMatch = body.match(/###\s*Descri[çc][ãa]o\s*\r?\n([\s\S]*?)(?=\r?\n###\s|$)/i);
+  const regrasMatch = body.match(/###\s*Regras Adicionais\s*\r?\n([\s\S]*?)(?=\r?\n###\s|$)/i);
+
+  const descricaoMd = descMatch ? cleanObsidianWikilinks(descMatch[1].trim()) : cleanObsidianWikilinks(body.replace(/^#\s+.+$/m, "").trim());
+  const regrasMd = regrasMatch ? cleanObsidianWikilinks(regrasMatch[1].trim()) : "";
+
+  return { fm, nome, descricaoMd, regrasMd, rawBody: body };
+}
+
+function loadObsidianHabilidades() {
+  if (!fs.existsSync(OBSIDIAN_HABILIDADES_DIR)) {
+    throw new Error("Diretório SSOT do Obsidian não encontrado: " + OBSIDIAN_HABILIDADES_DIR);
+  }
+  const files = fs.readdirSync(OBSIDIAN_HABILIDADES_DIR).filter((f) => f.endsWith(".md")).sort((a, b) => a.localeCompare(b, "pt-BR"));
+  const rulesCoreByNorm = new Map();
+  for (const rc of Object.values(HABILIDADES || {})) {
+    const k = (rc.nome || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
+    if (k) rulesCoreByNorm.set(k, rc);
+    if (rc.id) rulesCoreByNorm.set(rc.id, rc);
+  }
+
+  return files.map((file) => {
+    const fullPath = path.join(OBSIDIAN_HABILIDADES_DIR, file);
+    const content = fs.readFileSync(fullPath, "utf-8");
+    const fallbackTitle = file.replace(/\.md$/i, "");
+    const { fm, nome, descricaoMd, regrasMd, rawBody } = parseObsidianFrontmatterAndBody(content, fallbackTitle);
+
+    const categoria = cleanObsidianWikilinks(fm.categoria || "Técnica");
+    const tipo = cleanObsidianWikilinks(fm.tipo || "Suporte");
+    const rawAcesso = Array.isArray(fm.acesso) ? fm.acesso : (fm.acesso ? [fm.acesso] : []);
+    const acesso = rawAcesso.map((a) => cleanObsidianWikilinks(a)).filter(Boolean);
+    const tipoAcesso = cleanObsidianWikilinks(fm.tipo_acesso || "");
+    const nivel = cleanObsidianWikilinks(fm.nivel || "Nv1");
+
+    const rawCusto = String(fm.custo ?? "0").trim();
+    const custoNum = parseInt(rawCusto, 10);
+    const custo = Number.isNaN(custoNum) ? 0 : custoNum;
+    const custoVariavel = /[xX\/\+]|vari[áa]vel/i.test(rawCusto);
+
+    const rawDif = String(fm.dificuldade ?? "N/A").trim();
+    const difNum = /^\d+$/.test(rawDif) ? parseInt(rawDif, 10) : 0;
+    const dificuldadeTexto = rawDif && rawDif.toUpperCase() !== "N/A" ? cleanObsidianWikilinks(rawDif) : "";
+
+    const rawReq = Array.isArray(fm.requisito) ? fm.requisito.join(", ") : String(fm.requisito || "");
+    const reqCleaned = cleanObsidianWikilinks(rawReq);
+    const requisitos = reqCleaned && reqCleaned.toUpperCase() !== "N/A" && reqCleaned.toLowerCase() !== "nenhum" ? reqCleaned : "";
+
+    const rawExcl = Array.isArray(fm.exclusivo_com) ? fm.exclusivo_com : (fm.exclusivo_com ? [fm.exclusivo_com] : []);
+    const exclusivoCom = rawExcl.map((e) => cleanObsidianWikilinks(e)).filter(Boolean);
+
+    const rawSub = Array.isArray(fm.sub_escolhas) ? fm.sub_escolhas : (fm.sub_escolhas ? [fm.sub_escolhas] : []);
+    const subEscolhas = rawSub.map((s) => cleanObsidianWikilinks(s)).filter(Boolean);
+
+    const rawAliases = Array.isArray(fm.aliases) ? fm.aliases : (fm.aliases ? [fm.aliases] : []);
+    const aliases = rawAliases.map((a) => cleanObsidianWikilinks(a)).filter(Boolean);
+
+    const fonteLivro = cleanObsidianWikilinks(fm.fonte || "");
+
+    const normKey = nome.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
+    let rcMatch = rulesCoreByNorm.get(normKey) || rulesCoreByNorm.get(slugify(nome));
+    if (!rcMatch) {
+      for (const al of aliases) {
+        const ak = al.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
+        if (rulesCoreByNorm.has(ak)) {
+          rcMatch = rulesCoreByNorm.get(ak);
+          break;
+        }
+      }
+    }
+
+    return {
+      nome,
+      categoria,
+      tipo,
+      acesso,
+      tipoAcesso,
+      nivel,
+      custo,
+      custoTexto: rawCusto,
+      custoVariavel,
+      dificuldade: difNum,
+      dificuldadeTexto,
+      requisitos,
+      exclusivoCom,
+      subEscolhas,
+      aliases,
+      fonteLivro,
+      descricaoMd,
+      regrasMd,
+      rawBody,
+      efeitos: rcMatch?.efeitos || [],
+      opcoes: subEscolhas.length > 0 ? subEscolhas : (rcMatch?.opcoes || []),
+      automatica: nivel.toLowerCase() === "automática" || nivel.toLowerCase() === "automatica" || !!rcMatch?.automatica,
+    };
+  });
+}
+
 function buildAbilityOrSpellItem(hab) {
   const isMagia = hab.categoria === "Magia" || hab.tipo === "Magia";
   const slug = slugify(hab.nome || hab.id);
 
   const reqStr = Array.isArray(hab.requisitos) ? hab.requisitos.join(", ") : (hab.requisitos || "");
-  let descHtml = mdToHtml(hab.descricao || "");
+  let descHtml = mdToHtml(hab.descricaoMd || hab.descricao || "");
+  if (hab.regrasMd && hab.regrasMd.toLowerCase() !== "nenhuma." && hab.regrasMd.toLowerCase() !== "nenhum.") {
+    descHtml += '<div class="mb-regras-adicionais" style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);"><p><strong>Regras Adicionais:</strong> ' + hab.regrasMd.replace(/\r?\n/g, "<br>") + "</p></div>";
+  }
+
+  const tipoLower = (hab.tipo || "suporte").toLowerCase();
+  let tipoFoundry = "suporte";
+  if (tipoLower.includes("reacao") || tipoLower.includes("reação")) tipoFoundry = "reacao";
+  else if (tipoLower.includes("acao") || tipoLower.includes("ação")) tipoFoundry = "acao";
+
+  const acesso = Array.isArray(hab.acesso) ? hab.acesso : [];
+  const tipoAcesso = hab.tipoAcesso || "";
+  const nivel = hab.nivel || "Nv1";
+  const fonteLivro = hab.fonteLivro || "";
+  const exclusivoCom = Array.isArray(hab.exclusivoCom) ? hab.exclusivoCom : [];
 
   if (isMagia) {
+    const bodyText = (hab.descricaoMd || "") + " " + (hab.regrasMd || "");
+    const hasSelo = /Selos?\s+M[íi]sticos?/i.test(bodyText);
+    const hasRuna = /Runas?\s+Arcanas?/i.test(bodyText);
     let fonte = "arcana";
-    const reqLower = reqStr.toLowerCase();
-    const nomeLower = (hab.nome || "").toLowerCase();
-    if (
-      reqLower.includes("místic") ||
-      reqLower.includes("mistic") ||
-      reqLower.includes("sacerdote") ||
-      reqLower.includes("druida") ||
-      reqLower.includes("xamã") ||
-      reqLower.includes("xama") ||
-      nomeLower.includes("divin") ||
-      nomeLower.includes("sagrad") ||
-      nomeLower.includes("cura")
-    ) {
+    if (hasSelo && !hasRuna) {
+      fonte = "mistica";
+    } else if (hasRuna && !hasSelo) {
+      fonte = "arcana";
+    } else if (/desenhando um selo m[íi]stico/i.test(bodyText)) {
+      fonte = "mistica";
+    } else if (/desenhando uma runa arcana/i.test(bodyText)) {
+      fonte = "arcana";
+    } else if (acesso.some((a) => ["Sacerdote", "Druida", "Oráculo", "Dracomante"].includes(a)) && !acesso.includes("Feiticeiro")) {
       fonte = "mistica";
     }
+
+    let circulo = 1;
+    if (nivel === "Nv3") circulo = 3;
+    else if (nivel === "Nv2") circulo = 2;
 
     return {
       isMagia: true,
@@ -410,30 +578,38 @@ function buildAbilityOrSpellItem(hab) {
         type: "magia",
         img: "icons/magic/symbols/rune-sigil-horned-blue.webp",
         system: {
+          tipo: tipoFoundry,
           fonte,
-          custo: Number(hab.custoMana ?? hab.custo) || 0,
-          dificuldade: Number(hab.dificuldade) || 8,
-          circulo: Number(hab.circulo) || 1,
+          custo: Number(hab.custo) || 0,
+          custoVariavel: !!hab.custoVariavel,
+          dificuldade: Number(hab.dificuldade) || 0,
+          dificuldadeTexto: hab.dificuldadeTexto || (hab.dificuldade ? String(hab.dificuldade) : ""),
+          circulo,
+          nivel,
+          requisitos: reqStr,
+          acesso,
+          tipoAcesso,
+          fonteLivro,
+          exclusivoCom,
           description: reqStr ? "<p><strong>Requisitos:</strong> " + reqStr + "</p>" + descHtml : descHtml,
         },
         flags: {
           "mighty-blade": {
             slug,
-            tipo: hab.tipo || "Acao",
+            tipo: hab.tipo || "Ação",
+            acesso,
+            tipoAcesso,
+            nivel,
+            aliases: hab.aliases || [],
           },
         },
       },
     };
   }
 
-  const tipoLower = (hab.tipo || "suporte").toLowerCase();
-  let tipoFoundry = "suporte";
-  if (tipoLower.includes("acao") || tipoLower.includes("ação")) tipoFoundry = "acao";
-  else if (tipoLower.includes("reacao") || tipoLower.includes("reação")) tipoFoundry = "reacao";
-
   const catLower = (hab.categoria || "tecnica").toLowerCase();
   let catFoundry = "tecnica";
-  if (catLower.includes("caracteristica")) catFoundry = "caracteristica";
+  if (catLower.includes("caracteristica") || catLower.includes("característica")) catFoundry = "caracteristica";
   else if (catLower.includes("padrao") || catLower.includes("padrão")) catFoundry = "padrao";
   else if (catLower.includes("musica") || catLower.includes("música")) catFoundry = "musica";
   else if (catLower.includes("especial")) catFoundry = "especial";
@@ -442,6 +618,54 @@ function buildAbilityOrSpellItem(hab) {
   const attrEfeito = hab.efeitos?.find((e) => e.tipo === "bonusAtributo");
   if (attrEfeito) {
     bonusAtributo = { atributo: attrEfeito.atributo, valor: Number(attrEfeito.valor) || 0 };
+  }
+
+  const somenteCriacao = /comprada durante a cria[çc][ãa]o do personagem|apenas na cria[çc][ãa]o do personagem/i.test(
+    (hab.descricaoMd || "") + " " + (hab.regrasMd || "")
+  );
+
+  const concessoes = [];
+  const mbFlags = {
+    slug,
+    automatica: !!hab.automatica,
+    acesso,
+    tipoAcesso,
+    nivel,
+    aliases: hab.aliases || [],
+    opcoes: hab.opcoes || [],
+  };
+
+  if (slug === "adaptabilidade") {
+    concessoes.push({
+      tipo: "escolhaAtributo",
+      valor: 1,
+      titulo: "Adaptabilidade",
+      descricao: "Escolha 1 dos seus Atributos para receber +1 de bônus permanente.",
+    });
+    mbFlags.hasAdvancement = true;
+    mbFlags.advancementType = "escolhaAtributo";
+  } else if (slug === "diversidade") {
+    concessoes.push({
+      tipo: "escolhaAtributo",
+      valor: 1,
+      titulo: "Diversidade",
+      excluirDeHabilidade: "Adaptabilidade",
+      descricao: "Escolha um Atributo diferente do selecionado em Adaptabilidade para receber +1 permanente.",
+    });
+    mbFlags.hasAdvancement = true;
+    mbFlags.advancementType = "escolhaAtributo";
+    mbFlags.excluirDeHabilidade = "Adaptabilidade";
+  } else if (slug === "linhagem-draconica") {
+    const racaDragano = RACAS?.dragano || Object.values(RACAS || {}).find((r) => r.id === "dragano");
+    concessoes.push({
+      tipo: "origemDraconica",
+      ref: "linhagem-draconica",
+      titulo: "Linhagem & Características Dracônicas",
+      escolhaDraconica: true,
+      escolhasRaciais: racaDragano?.escolhasRaciais || [],
+    });
+    mbFlags.hasAdvancement = true;
+    mbFlags.advancementType = "origemDraconica";
   }
 
   return {
@@ -453,22 +677,144 @@ function buildAbilityOrSpellItem(hab) {
       system: {
         tipo: tipoFoundry,
         categoria: catFoundry,
-        custo: Number(hab.custoMana ?? hab.custo) || 0,
+        custo: Number(hab.custo) || 0,
+        custoVariavel: !!hab.custoVariavel,
         dificuldade: Number(hab.dificuldade) || 0,
+        dificuldadeTexto: hab.dificuldadeTexto || "",
         requisitos: reqStr,
+        acesso,
+        tipoAcesso,
+        nivel,
+        fonteLivro,
+        exclusivoCom,
+        somenteCriacao,
         bonusAtributo,
         efeitos: hab.efeitos || [],
+        concessoes,
         description: descHtml,
       },
       flags: {
-        "mighty-blade": {
-          slug,
-          automatica: !!hab.automatica,
-          opcoes: hab.opcoes || [],
-        },
+        "mighty-blade": mbFlags,
       },
     },
   };
+}
+
+function buildDraconicSubFeatures() {
+  const subFeatures = [
+    {
+      id: "asas",
+      slug: "carac-draconica-asas",
+      name: "Asas",
+      tipo: "suporte",
+      img: "icons/svg/wing.svg",
+      descricao:
+        "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Suas asas permitem amenizar quedas (você é <strong>Imune a dano de queda</strong>) e realizar planeios curtos. Pré-requisito para a habilidade <em>Asas Pesadas</em>.</p>",
+      efeitos: [
+        { tipo: "imunidadeSituacional", situacao: "dano de queda" },
+        { tipo: "imunidade", dano: "queda" },
+      ],
+    },
+    {
+      id: "barbatanas",
+      slug: "carac-draconica-barbatanas",
+      name: "Barbatanas",
+      tipo: "suporte",
+      img: "icons/svg/aura.svg",
+      descricao:
+        "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Concede <strong>+1d6</strong> em testes para nadar, equilibrar-se e evitar ser derrubado. Pré-requisito para a habilidade <em>Anfíbio</em>.</p>",
+      efeitos: [
+        { tipo: "bonusDadoTeste", valor: 1, contexto: "nadar, se equilibrar e evitar ser derrubado" },
+      ],
+    },
+    {
+      id: "cauda",
+      slug: "carac-draconica-cauda",
+      name: "Cauda",
+      tipo: "acao",
+      img: "icons/svg/sword.svg",
+      descricao:
+        "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Você possui uma cauda longa e musculosa capaz de realizar ataques desarmados corporais (<strong>Dano: Força / Contusão</strong>). Pré-requisito para a habilidade <em>Reflexos Dracônicos</em>.</p>",
+      efeitos: [
+        { tipo: "ataqueNatural", parte: "cauda", dano: "Forca", tipoDano: "Contusao" },
+      ],
+    },
+    {
+      id: "garras",
+      slug: "carac-draconica-garras",
+      name: "Chifres, Garras e Presas",
+      tipo: "suporte",
+      img: "icons/svg/pawprint.svg",
+      descricao:
+        "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Concede <strong>+1d6</strong> em ataques desarmados e em testes para agarrar e escalar. Pré-requisito para a habilidade <em>Armas Naturais</em>.</p>",
+      efeitos: [
+        { tipo: "bonusDadoTeste", valor: 1, contexto: "ataques desarmados, agarrar e escalar" },
+      ],
+    },
+    {
+      id: "escamas",
+      slug: "carac-draconica-escamas",
+      name: "Escamas",
+      tipo: "suporte",
+      img: "icons/svg/shield.svg",
+      descricao:
+        "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Seu corpo é recoberto por escamas queratinosas que oferecem Bônus de Armadura na Defesa de <strong>+2</strong> (+2 Bloqueio e +2 Esquiva). Pré-requisito para a habilidade <em>Escamas Pesadas</em>.</p>",
+      efeitos: [
+        { tipo: "bonusDefesa", defesa: "bloqueio", valor: 2 },
+        { tipo: "bonusDefesa", defesa: "esquiva", valor: 2 },
+      ],
+    },
+    {
+      id: "olhos",
+      slug: "carac-draconica-olhos",
+      name: "Olhos Dracônicos",
+      tipo: "suporte",
+      img: "icons/svg/eye.svg",
+      descricao:
+        "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Concede <strong>+1d6</strong> em testes de percepção visual e em ataques à distância. Pré-requisito para a habilidade <em>Membrana Nictitante</em>.</p>",
+      efeitos: [
+        { tipo: "bonusDadoTeste", valor: 1, contexto: "testes visuais e ataques à distância" },
+      ],
+    },
+  ];
+
+  return subFeatures.map((sf) => ({
+    name: sf.name,
+    type: "habilidade",
+    img: sf.img,
+    system: {
+      tipo: sf.tipo,
+      categoria: "caracteristica",
+      custo: 0,
+      custoVariavel: false,
+      dificuldade: 0,
+      dificuldadeTexto: "",
+      requisitos: "Dragano (Origem Dracônica)",
+      acesso: ["Dragano"],
+      tipoAcesso: "Raça",
+      nivel: "Automática",
+      fonteLivro: "Guia Básico - 3ª Edição",
+      exclusivoCom: [],
+      bonusAtributo: { atributo: "", valor: 0 },
+      efeitos: sf.efeitos,
+      concessoes: [],
+      description: sf.descricao,
+    },
+    flags: {
+      "mighty-blade": {
+        slug: sf.slug,
+        subFeatureId: sf.id,
+        parentSlug: "linhagem-draconica",
+        originLabel: "Origem Dracônica",
+        isSubFeature: true,
+        automatica: true,
+        acesso: ["Dragano"],
+        tipoAcesso: "Raça",
+        nivel: "Automática",
+        opcoes: [],
+      },
+    },
+  }));
 }
 
 function buildEquipmentItem(eqp) {
@@ -839,7 +1185,7 @@ async function run() {
   const canonicalOrganizacoes = orgsList.map(buildOrganizacaoItem);
   console.log("✓ Organizações processadas: " + canonicalOrganizacoes.length);
 
-  const habsList = Object.values(HABILIDADES);
+  const habsList = loadObsidianHabilidades();
   const canonicalHabilidades = [];
   const canonicalMagias = [];
 
@@ -851,8 +1197,9 @@ async function run() {
       canonicalHabilidades.push(res.data);
     }
   }
-  console.log("✓ Habilidades processadas: " + canonicalHabilidades.length);
-  console.log("✓ Magias processadas: " + canonicalMagias.length);
+  canonicalHabilidades.push(...buildDraconicSubFeatures());
+  console.log("✓ Habilidades processadas do Obsidian SSOT (incluindo sub-features dracônicas): " + canonicalHabilidades.length);
+  console.log("✓ Magias processadas do Obsidian SSOT: " + canonicalMagias.length);
 
   const equipList = Object.values(EQUIPAMENTOS);
   const canonicalEquipamentos = equipList.map(buildEquipmentItem);
@@ -948,7 +1295,7 @@ async function run() {
 
     try {
       console.log("📦 Empacotando LevelDB para packs/" + packName + "...");
-      execSync(`npx fvtt package pack -n ${packName} --in packs/${packName}_src --out packs`, {
+      execSync(`node "./node_modules/@foundryvtt/foundryvtt-cli/fvtt.mjs" package pack -n ${packName} --in packs/${packName}_src --out packs`, {
         cwd: FOUNDRY_DIR,
         stdio: "inherit",
       });

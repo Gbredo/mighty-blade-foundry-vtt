@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 10, Olho da Ser-",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Olho da Serpente",
+    "acesso": [
+      "Assassino"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia do Vilão, pág. 78–81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>pente. Você é extremamente mortal ao atacar alvos surpresos. Sempre que você fizer um ataque corporal contra um alvo que esteja Desprevenido em relação a você, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade 1 vez por turno. Descrição Avantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio. A conexão deles com as energias espirituais ainda é um mistério para a maioria dos estudiosos, e embora seja necessário passar por algum tipo de contato com energias necromânticas, nem todos aqueles que são afetados por estas energias desenvolvem esta conexão com o plano espiritual. Embora a maioria dos Avantesmas sejam gerados por acidente, geralmente envolvendo encontros com um Necromante ou morto-vivo, existem casos de Necromantes que usam seus poderes em si próprios na tentativa de criar a distinta ligação que os Avantesmas possuem com o plano espiritual, enquanto alguns registros indicam que</p>"
+    "concessoes": [],
+    "description": "<p>Você é extremamente mortal ao atacar alvos surpresos. Sempre que você fizer um ataque corporal contra um alvo que esteja Desprevenido em relação a você, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade 1 vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Olho da Serpente. Caminho Assassino.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mestre-assassino",
       "automatica": false,
+      "acesso": [
+        "Assassino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

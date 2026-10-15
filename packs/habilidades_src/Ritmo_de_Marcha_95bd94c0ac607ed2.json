@@ -1,0 +1,46 @@
+{
+  "name": "Ritmo de Marcha",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 5,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 70",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca um compasso cadenciado, que faz com que seus aliados mantenham um ritmo cadenciado em suas ações. Enquanto tocar essa Música, todos os seus aliados que puderem ouvir a Música e estiverem realizando uma ação repetitiva – marchar, remar, forjar, varrer, içar – reduzem o tempo para realizar a ação em um quarto. Além disso, em combate, os aliados que puderem lhe ouvir recebem Deslocamento +2 e +1 metro em seus alcances de salto, desde que se movimentem pelo menos 2 metros naquele turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esta música pode ser mantida por até 10 minutos antes que você precise gastar o custo em Mana novamente.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ritmo-de-marcha",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "95bd94c0ac607ed2",
+  "_key": "!items!95bd94c0ac607ed2"
+}

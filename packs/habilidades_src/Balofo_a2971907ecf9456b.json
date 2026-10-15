@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Metadílio",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Metadílio"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 16",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "escapar de amarras, algemas e constrição"
       }
     ],
-    "description": "<p>Você é um exímio exemplar dos Metadílios: rotundo e macio. Graças a isso, quando você cai, tende a rolar e quicar ao invés de se espatifar, sofrendo metade do dano por quedas. Além disso, é relativamente fácil para você escorregar de dentro de um aperto. Você rola +1d6 para escapar de amarras, algemas e adversários que o estejam constringindo.</p>"
+    "concessoes": [],
+    "description": "<p>Seu corpo apresenta um formato característico dos Metadílios: rotundo e macio. Graças a isso, quando você cai, tende a rolar e quicar ao invés de se espatifar, sofrendo metade do dano por quedas. Além disso, é relativamente fácil para você escorregar de dentro de um aperto. Você rola +1d6 para escapar de amarras, algemas e adversários que o estejam constringindo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Reduz o dano por quedas pela metade e concede +1d6 em testes para escapar de amarras, algemas e constrição.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "balofo",
       "automatica": false,
+      "acesso": [
+        "Metadílio"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

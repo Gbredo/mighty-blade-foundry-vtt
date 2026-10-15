@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Elfo, Faen, Herança Feérica",
+    "dificuldadeTexto": "",
+    "requisitos": "Herança Feérica",
+    "acesso": [
+      "Elfo",
+      "Faen"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de se mesclar à vegetação ao seu redor em áreas de vegetação densa, ficando invisível por até 1 hora. O efeito é cancelado se sair da vegetação, sofrer dano, atacar ou lançar magia.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma das habilidades mais características das fadas. Você é capaz de se mesclar à vegetação à sua volta, ficando invisível por até uma hora. É preciso estar em uma área com vegetação densa – um bosque, um jardim de topiarias ou uma estufa, por exemplo – e o efeito é cancelado se você deixar a área de vegetação, sofrer algum dano, atacar ou lançar uma magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Herança Feérica. Concede a condição Invisível. Exige a presença de vegetação densa no local para ativação e manutenção do estado invisível.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "invisibilidade-natural",
       "automatica": false,
+      "acesso": [
+        "Elfo",
+        "Faen"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

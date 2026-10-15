@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "mistica",
-    "custo": 10,
-    "dificuldade": 9,
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 11,
+    "dificuldadeTexto": "11",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Curar Ferimentos 1</p><p>Você desenha um Selo Místico sobre sí mesmo que recupera 10 Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este selo também são afetados por ele. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Caminhada Mágica Habilidade (Magia) – Ação Desenhando um Selo Místico sobre uma criatura viva, você permite que ela possa caminhar sobre qualquer tipo de superfície (incluindo líquidos), paredes ou teto e não sofre nenhum tipo de redutor ou penalidade de movimentação por terrenos difíceis ou acidentados. Finalmente, o alvo pode escolher á vontade se vai deixar rastros ou não enquanto esta runa estiver ativa sobre ele. Esse Selo Místico dura 1 hora.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Curar Ferimentos 1",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 178",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Curar Ferimentos 1</p><p>Você desenha um Selo Místico sobre si mesmo que recupera 10 Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este selo também são afetados por ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer a habilidade Curar Ferimentos 1. Servindo de pré-requisito para Aura de Cura 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "aura-de-cura-1",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "e409a4463bbe1bb5",

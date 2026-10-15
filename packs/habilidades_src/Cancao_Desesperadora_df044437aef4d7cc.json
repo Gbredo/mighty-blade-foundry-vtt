@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
-    "custo": 30,
+    "categoria": "musica",
+    "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Canção da",
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "Canção da Provocação",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 73",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Provocação Você canta uma música que fala sobre a morte, destruição e derrotas dos seus adversários, instilando medo em seus corações. Escolha uma profissão, raça, cultura ou classe social. Todas as criaturas do grupo escolhido que puderem entendê-lo e ouvirem sua música por pelo menos 2 turnos rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado menor que o seu precisam usar sua ação de movimento para tentar se afastar de você enquanto você continuar a tocar essa Música. Este é um efeito de medo.</p>"
+    "concessoes": [],
+    "description": "<p>Você canta uma música que fala sobre a morte, destruição e derrotas dos seus adversários, instilando medo em seus corações. Escolha uma profissão, raça, cultura ou classe social. Todas as criaturas vivas do grupo escolhido a uma distância em metros de você igual à sua Determinação, e que puderem ouvir e entender essa Música por pelo menos 2 turnos, rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado menor que o seu precisam usar sua ação de movimento para tentar se afastar de você enquanto você continuar a cantar essa Música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de Medo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cancao-desesperadora",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

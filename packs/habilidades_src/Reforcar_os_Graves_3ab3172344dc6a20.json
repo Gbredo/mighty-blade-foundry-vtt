@@ -1,0 +1,48 @@
+{
+  "name": "Reforçar os Graves",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel",
+      "Orador"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 42",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Sempre que estiver mantendo um Ritmo ou Melodia e uma criatura se aproximar de você, até uma distância máxima de sua Determinação em metros, você pode adicionar algumas notas a mais em sua música para dissuadi-lo. O alvo sofre imediatamente uma quantidade de dano igual à sua Vontade/Contusão e precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo fica Atordoado por 1 turno e perde o Deslocamento restante do seu turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada 1 vez por turno.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "reforcar-os-graves",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel",
+        "Orador"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "3ab3172344dc6a20",
+  "_key": "!items!3ab3172344dc6a20"
+}

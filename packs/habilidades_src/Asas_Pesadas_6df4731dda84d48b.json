@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Dragano, Asas",
+    "dificuldadeTexto": "",
+    "requisitos": "Características Dracônicas (Asas) para Draganos",
+    "acesso": [
+      "Dragano",
+      "Fira"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 27; Guia Básico - 3ª Edição, pág. 50",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -18,12 +29,20 @@
         "velocidade": "dobro"
       }
     ],
-    "description": "<p>Desenvolve asas grandes. Você não pode parar no ar, mas sua velocidade de voo é o dobro do seu deslocamento normal. Manobras de Encontrão realizadas em voo têm o dano duplicado.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui grandes asas e pode voar, precisando de um espaço igual à sua envergadura para pegar impulso antes de alçar voo. Quando estiver voando, você não pode parar no ar (mas pode planar) e seu deslocamento em voo é o dobro de seu deslocamento normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Para Draganos, requer a Característica Dracônica *Asas*. A envergadura é igual a duas vezes a altura do personagem. Especial: O dano de qualquer manobra de Encontrão realizada em voo é duplicado (mas o dano da arma não é alterado).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "asas-pesadas",
       "automatica": false,
+      "acesso": [
+        "Dragano",
+        "Fira"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

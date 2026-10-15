@@ -1,0 +1,46 @@
+{
+  "name": "Poeta Itinerante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 33",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você está acostumado a se apresentar enquanto caminha entre a plateia – ou acompanhando a plateia! Suas Músicas passam a ser iniciadas como uma ação de movimento ao invés de uma ação padrão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige Nível 5 do personagem.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "poeta-itinerante",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "fc5dcd4b6be93fc6",
+  "_key": "!items!fc5dcd4b6be93fc6"
+}

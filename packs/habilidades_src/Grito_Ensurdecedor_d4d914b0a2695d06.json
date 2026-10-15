@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel",
+      "Skald"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 20, 60",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você solta um grito tão alto e poderoso que faz com que todos ao redor fiquem atordoados. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p>"
+    "concessoes": [],
+    "description": "<p>Você solta um grito tão alto e poderoso que atordoa a todos na sua frente. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Grito Estilhaçador e Grito Retumbante.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "grito-ensurdecedor",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel",
+        "Skald"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

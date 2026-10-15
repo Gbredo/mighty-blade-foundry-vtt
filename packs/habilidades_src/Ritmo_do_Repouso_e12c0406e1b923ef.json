@@ -1,0 +1,46 @@
+{
+  "name": "Ritmo do Repouso",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 72",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca um ritmo simples e relaxante que permite que todos que o ouvirem repousem com serenidade e recobrem suas forças. Qualquer criatura viva a uma distância em metros de você igual à sua Determinação, e que puderem ouvir essa Música por pelo menos 5 minutos – mesmo que esteja dormindo, recupera o dobro de Pontos de Mana e de Pontos de Vida devido ao descanso por aquele período.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Tocar Ritmo do Repouso é considerado descanso, e os efeitos dessa música também afetam você.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ritmo-do-repouso",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "e12c0406e1b923ef",
+  "_key": "!items!e12c0406e1b923ef"
+}

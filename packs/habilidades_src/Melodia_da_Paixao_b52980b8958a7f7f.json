@@ -1,0 +1,46 @@
+{
+  "name": "Melodia da Paixão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 76-77",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca um ritmo lento que desperta os sentimentos amorosos de todos. Enquanto estiver tocando esta música, todos os seus aliados no mesmo ambiente que você recebem +2 em testes sociais. Além disso, enquanto estiver tocando essa Música, sempre que uma criatura que possa entendê-lo for atacar você, ela deve antes ter um resultado igual ou maior do que o seu em um confronto de Vontade – se tiver um resultado mais baixo, sua ação padrão só pode ser utilizada como uma ação de movimento nesse turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-da-paixao",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "b52980b8958a7f7f",
+  "_key": "!items!b52980b8958a7f7f"
+}

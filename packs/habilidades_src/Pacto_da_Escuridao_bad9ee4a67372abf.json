@@ -1,0 +1,46 @@
+{
+  "name": "Pacto da Escuridão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Pacto",
+    "acesso": [
+      "Geral",
+      "Cultista"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 88",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Nehemoth, Aquela Que Sussurra na Escuridão, senhora dos segredos, da cegueira e do conhecimento perdido. Muitas vezes procurada por aqueles que perderam a visão, muitos Cultistas de Nehemoth são aqueles que se favorecem da escuridão — como ladrões, assassinos, Vampiros e Necromantes.</p><p>Você não precisa mais de seus olhos para enxergar, e pode ver, normalmente, mesmo com os olhos fechados ou vendados — ou mesmo se eles forem removidos. Além disso, você consegue ver através de ilusões e distingue criaturas invisíveis sem dificuldades. No entanto, sempre que estiver sob luz direta do sol, todos os seus testes são realizados como se você fosse Inapto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pacto-da-escuridao",
+      "automatica": false,
+      "acesso": [
+        "Geral",
+        "Cultista"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "bad9ee4a67372abf",
+  "_key": "!items!bad9ee4a67372abf"
+}

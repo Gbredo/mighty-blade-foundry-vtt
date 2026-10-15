@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Saber falar Arkadis, Ctónico, Draen, Quoratus ou Track'kar'a",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Estudo dos ritos e magias divinas através de métodos arcanos ou filosóficos. Permite compreender símbolos sagrados e rituais de qualquer divindade.</p>"
+    "concessoes": [],
+    "description": "<p>Você utiliza sua voz como um foco auxiliar quando conjura efeitos mágicos. Sempre que pronunciar palavras num idioma apropriado para sua prática de Magia, você recebe +2 no seu teste para conjurar aquela Magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer saber falar pelo menos um idioma exótico (Arkadis, Ctónico, Draen, Quoratus ou Track'kar'a). Comumente Feiticeiros, Rúnicos e Dracomantes utilizam Arkadis; Sacerdotes utilizam Quoratus; e Druidas utilizam Draen. Necromantes que recorrem à Teurgia costumam utilizar o Ctónico.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "teurgia",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

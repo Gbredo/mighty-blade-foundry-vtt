@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "suporte",
-    "categoria": "tecnica",
-    "custo": 0,
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Forma Animal 1",
+    "acesso": [
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 139",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Habilidade de combate selvagem do Xamã. Efeito mecânico exato pendente.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode transformar uma pequena parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus olhos para captar mais luz como uma coruja, recebendo Visão no Escuro, tornar suas unhas em garras de um tigre e receber Garras ou modificar seu nariz para que se pareça com o de um lobo, recebendo Faro, por exemplo. Apenas pequenas modificações são possíveis, e as possibilidades devem ser discutidas com o Mestre. Esse efeito dura 1 hora, mas você pode cancelá-lo quando quiser.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Forma Animal 1. Serve de pré-requisito para Vantagem Animal 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vantagem-animal-1",
       "automatica": false,
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

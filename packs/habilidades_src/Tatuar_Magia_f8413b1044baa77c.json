@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Detectar Magia",
+    "acesso": [
+      "Tohunga"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 80–83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de tatuar magias em sua pele, como se ela tivesse a característica Registro. Quando conjurar uma Magia registrada em sua pele, reduza a dificuldade daquela Magia em 1 e reduz seu Custo de Mana em 5. Em todos os outros aspectos, as regras referentes à magias lançadas a partir de um item com a característica registro se aplicam normalmente (veja o Guia Básico, página 38, para detalhes).</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de tatuar magias em sua pele, como se ela tivesse a característica Registro. Quando conjurar uma Magia registrada em sua pele, reduza a dificuldade daquela Magia em 1 e reduz seu Custo de Mana em 5. Em todos os outros aspectos, as regras referentes à magias lançadas a partir de um item com a característica registro se aplicam normalmente (veja o Guia Básico, página 38, para detalhes).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Detectar Magia. Caminho Tohunga.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "tatuar-magia",
       "automatica": false,
+      "acesso": [
+        "Tohunga"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

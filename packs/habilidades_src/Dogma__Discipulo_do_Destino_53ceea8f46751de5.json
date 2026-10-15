@@ -1,0 +1,48 @@
+{
+  "name": "Dogma: Discípulo do Destino",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você segue os caminhos de Ran, divindade dos dados, da fortuna e dos caprichos do destino. Uma vez por sessão de jogo, você pode re-rolar qualquer teste que tenha resultado em fracasso, ficando com o segundo resultado obtido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Maré de Sorte. Código de conduta: aceitar as reviravoltas do destino e nunca recusar um desafio ou aposta formal.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-do-destino",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo do Destino"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "53ceea8f46751de5",
+  "_key": "!items!53ceea8f46751de5"
+}

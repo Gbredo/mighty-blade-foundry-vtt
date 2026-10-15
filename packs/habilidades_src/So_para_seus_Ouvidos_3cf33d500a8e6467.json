@@ -1,0 +1,46 @@
+{
+  "name": "Só para seus Ouvidos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Ventriloquismo",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 33",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é capaz de fazer sua canção ser direcionada para apenas um único alvo. Sempre que usar uma Música, você pode escolher um único alvo para afetar, ao invés de afetar todos que lhe ouvirem. Além disso, você pode escolher se as outras criaturas na área escutam a sua Música ou não, e pode utilizar os efeitos de Ventriloquismo quando utilizar uma habilidade do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ventriloquismo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "so-para-seus-ouvidos",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "3cf33d500a8e6467",
+  "_key": "!items!3cf33d500a8e6467"
+}

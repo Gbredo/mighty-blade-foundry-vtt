@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Defletor",
+    "acesso": [
+      "Guerreiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 103",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você entende que a melhor defesa é um ataque eficiente. Quando estiver empunhando uma arma corporal de duas mãos, duas armas corporais ou um escudo, você recebe +1 em seus testes de ataque corporal e +1 na sua Defesa. Esse bônus de Defesa é considerado um bônus de Bloqueio. Defletor Habilidade (Técnica) – Suporte Você está acostumado a se defender de projéteis. Enquanto estiver empunhando uma arma corporal de duas mãos, duas armas corporais ou um escudo, você recebe +2 no seu bônus de Bloqueio contra ataques à distância. Esse bônus de Defesa é considerado um bônus de Bloqueio.</p>"
+    "concessoes": [],
+    "description": "<p>Você entende que a melhor defesa é um ataque eficiente. Quando estiver empunhando uma arma corporal de duas mãos, duas armas corporais ou um escudo, você recebe +1 em seus testes de ataque corporal e +1 na sua Defesa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de Defesa é considerado um bônus de Bloqueio. Requer a habilidade Defletor.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "defesa-agressiva",
       "automatica": false,
+      "acesso": [
+        "Guerreiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

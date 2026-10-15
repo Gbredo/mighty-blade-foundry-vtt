@@ -1,13 +1,23 @@
 {
-  "name": "Agilidade Heróica",
+  "name": "Agilidade Heroica",
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "agilidade",
       "valor": 1
@@ -19,12 +29,21 @@
         "valor": 1
       }
     ],
-    "description": "<p>Concede Agilidade +1 permanentemente.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma agilidade e flexibilidade que já lhe salvaram em muitas ocasiões. Você tem Agilidade +1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Disponível para todas as raças.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "agilidade-heroica",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [
+        "Agilidade Heróica"
+      ],
       "opcoes": []
     }
   },

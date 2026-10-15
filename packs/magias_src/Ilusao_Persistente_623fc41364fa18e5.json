@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
-    "custo": 0,
-    "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento.</p>"
+    "custo": 30,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Ilusionista"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 101–103",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento. Invisibilidade 2 Habilidade (Magia) – Ação Requisito: Nível 5, Invisibilidade 1 Mana: 30 Dificuldade da Magia: 13 Descrição: Desenhando uma Runa Arcana sobre uma criatura, você a torna – assim como todas as suas posses – invisível. Essa Runa Arcana ou Selo Místico dura por uma quantidade de horas igual à Inteligência do conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Ilusionista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ilusao-persistente",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "623fc41364fa18e5",

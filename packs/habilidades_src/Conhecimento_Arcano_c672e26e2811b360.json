@@ -3,22 +3,43 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "suporte",
+    "tipo": "acao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Feiticeiro",
+      "Necromante",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 66, 96; Guia do Vilão, pág. 35",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de decifrar e canalizar os fenômenos do sobrenatural. Você pode ler e utilizar tomos mágicos e desenhar Runas Arcanas (veja o Guia Básico, pág. 36 do Guia Básico para regras sobre magia). Você também é capaz de canalizar sua energia para a conjuração de fenômenos mágicos com eficiência. Sempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada 2 Pontos de Vida equivalem a 1 Ponto de Mana.</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de decifrar e canalizar os fenômenos do sobrenatural. Você pode ler e utilizar tomos mágicos e desenhar Runas Arcanas (veja a página 36 para regras sobre magia). Você também é capaz de canalizar sua energia para a conjuração de fenômenos mágicos com eficiência. Sempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada 2 Pontos de Vida equivalem à 1 Ponto de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática recebida ao escolher qualquer classe de conjuradores arcanos (Feiticeiro, Necromante ou Rúnico).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "conhecimento-arcano",
-      "automatica": false,
+      "automatica": true,
+      "acesso": [
+        "Feiticeiro",
+        "Necromante",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

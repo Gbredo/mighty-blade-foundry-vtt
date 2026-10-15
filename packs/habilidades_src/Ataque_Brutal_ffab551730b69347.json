@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Amoque"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 70",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode realizar ataques brutais se concentrando apenas em derrotar o oponente em detrimento da sua defesa. Faça um ataque corporal contra o alvo, adicionando uma quantidade extra de dano igual ao triplo do seu bônus de Bloqueio. Se o alvo for atingido, além do dano extra ele é arremessado para trás uma quantidade de metros igual ao valor do bônus escolhido e precisa fazer um teste de Agilidade (Dificuldade igual à sua Determinação) para não cair. Até o início do seu próximo turno você não soma o bônus de Bloqueio na sua Defesa.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode realizar ataques brutais se concentrando apenas em derrotar o oponente em detrimento da sua defesa. Faça um ataque corporal contra o alvo, adicionando uma quantidade extra de dano igual ao triplo do seu bônus de Bloqueio. Se o alvo for atingido, além de sofrer o dano do ataque, você não poderá somar seu bônus de Bloqueio na sua Defesa até o seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige pertencer ao Caminho Amoque (cujos requisitos de entrada são Força 6 e qualquer Habilidade de Fúria). Caso atinja o alvo, impõe a perda da soma do bônus de Bloqueio à Defesa até o início do seu próximo turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-brutal",
       "automatica": false,
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 25,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Empurrão Cinético</p><p>Desenhando uma Runa Arcana sobre um alvo, você o arremessa no ar a uma altura igual à sua Determinação. O alvo (e qualquer criatura atingida por ele) sofre o dano apropriado pela altura que cair (causando essa mesma quantidade de dano em qualquer criatura que atingir). Além disso, quando atingir o solo, o alvo (e qualquer criatura que ele tenha atingido) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. Você pode utilizar essa Magia sobre si mesmo ou sobre um aliado, para alcançar uma área elevada. Nesse caso, diminua a Vontade do alvo da Dificuldade da Magia e o alvo não sofre dano nem chance de queda.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Empurrão Cinético",
+    "acesso": [
+      "Argênteo"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 83–85",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Empurrão Cinético</p><p>Desenhando uma Runa Arcana sobre um alvo, você o arremessa no ar a uma altura igual à sua Determinação. O alvo (e qualquer criatura atingida por ele) sofre o dano apropriado pela altura que cair (causando essa mesma quantidade de dano em qualquer criatura que atingir). Além disso, quando atingir o solo, o alvo (e qualquer criatura que ele tenha atingido) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. Você pode utilizar essa Magia sobre si mesmo ou sobre um aliado, para alcançar uma área elevada. Nesse caso, diminua a Vontade do alvo da Dificuldade da Magia e o alvo não sofre dano nem chance de queda.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Empurrão Cinético. Caminho Argênteo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arremesso-cinetico",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Argênteo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "bf4ffaaf85817c91",

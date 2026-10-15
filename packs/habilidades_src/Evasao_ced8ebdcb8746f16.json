@@ -3,22 +3,43 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Espadachim",
+      "Ladino",
+      "Patrulheiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 110, 121",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Se o seu inimigo fizer um ataque corporal e acertar, você pode declarar evasão, e obrigar o inimigo a rolar novamente o teste de ataque. Você pode escolher com qual dos resultados o oponente vai ficar. Você só pode usar esta Habilidade 1 vez por turno.</p>"
+    "concessoes": [],
+    "description": "<p>Se o seu inimigo fizer um ataque corporal e acertar, você pode declarar evasão, e obrigar o inimigo a rolar novamente o teste de ataque. Você pode escolher com qual dos resultados o oponente vai ficar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada 1 vez por turno (ou 1 vez por rodada). Serve de pré-requisito para Ataque Redirecionado, Truque Sujo e Ataque Evasivo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "evasao",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Ladino",
+        "Patrulheiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

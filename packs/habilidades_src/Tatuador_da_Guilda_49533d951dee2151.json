@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Crânios Vermelhos"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 94",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você aprendeu a realizar tatuagens de forma eficiente e sabe fazer isso da forma mais indolor – ou dolorosa – que desejar. Você recebe +2 em seus testes para realizar tatuagens e quando fizer testes para detectar mentiras de um alvo Indefeso que você possa interrogar. O bônus de detectar mentiras aumenta para +1d6 caso você tenha acesso à ferramentas adequadas (instrumentos de escrita, de talha, de forja ou de costura).</p>"
+    "concessoes": [],
+    "description": "<p>Você aprendeu a realizar tatuagens de forma eficiente e sabe fazer isso da forma mais indolor – ou dolorosa – que desejar. Você recebe +2 em seus testes para realizar tatuagens e quando fizer testes para detectar mentiras de um alvo Indefeso que você possa interrogar. O bônus de detectar mentiras aumenta para +1d6 caso você tenha acesso à ferramentas adequadas (instrumentos de escrita, de talha, de forja ou de costura).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esta Habilidade pode substituir o Antecedente Artesão/Artesã [Arte] como Requisito para o Caminho Tohunga.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "tatuador-da-guilda",
       "automatica": false,
+      "acesso": [
+        "Crânios Vermelhos"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

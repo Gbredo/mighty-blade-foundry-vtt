@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Mente Disciplinada",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 56",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui um domínio considerável sobre os fluxos de energias necromânticas. Todas as suas magias custam 5 Pontos de Mana a menos para serem conjuradas e todas as suas magias que causam perda de vida ou Perda de Mana causam uma perda adicional igual à sua Vontade. Além disso, você é imune a efeitos de dreno de energia.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um domínio considerável sobre os fluxos de energias necromânticas. Todas as suas magias custam 5 Pontos de Mana a menos para serem conjuradas e todas as suas magias que causam perda de vida ou Perda de Mana causam uma perda adicional igual à sua Vontade. Além disso, você é imune a efeitos de dreno de energia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Mente Disciplinada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "aptidao-necromantica",
       "automatica": false,
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

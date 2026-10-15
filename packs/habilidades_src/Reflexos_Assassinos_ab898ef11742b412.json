@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 5,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Assassino"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 78–81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Qualquer demonstração de fraqueza de um oponente é uma oportunidade a ser explorada! Sempre que um oponente estiver Desprevenido com relação a você e perder Pontos de Vida por um efeito de Sangramento, sofrer alguma Condição ou ficar sob um efeito de Medo ou um efeito Mental, você pode imediatamente fazer um ataque corporal normal contra ele. Habilidades avançadas</p>"
+    "concessoes": [],
+    "description": "<p>Qualquer demonstração de fraqueza de um oponente é uma oportunidade a ser explorada! Sempre que um oponente estiver Desprevenido com relação a você e perder Pontos de Vida por um efeito de Sangramento, sofrer alguma Condição ou ficar sob um efeito de Medo ou um efeito Mental, você pode imediatamente fazer um ataque corporal normal contra ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Assassino.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "reflexos-assassinos",
       "automatica": false,
+      "acesso": [
+        "Assassino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

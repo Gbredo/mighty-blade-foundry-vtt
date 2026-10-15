@@ -5,20 +5,37 @@
   "system": {
     "tipo": "acao",
     "categoria": "caracteristica",
-    "custo": 10,
+    "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Gnoll",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Gnoll"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 29",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sempre que causar dano com um ataque desarmado de mordida ou golpe corporal em uma criatura viva com sangue, você pode beber o sangue da vítima. Você recebe +1 em um Atributo à sua escolha até o final do combate (cumulativo até o limite da sua Inteligência). Se o bônus exceder sua Inteligência, você entra em um frenesi sanguinário.</p>"
+    "concessoes": [],
+    "description": "<p>Como uma ação de rodada completa, você bebe o sangue de um cadáver que ainda esteja quente (morto no último minuto) ou uma criatura que esteja Indefesa ou Por um Fio e recebe um bônus de +1 em Força, Agilidade e Vontade durante uma quantidade de minutos iguais à sua Vontade. Este bônus é cumulativo, mas seus benefícios só podem ser conseguidos uma vez de cada alvo. Se o bônus em um Atributo exceder a sua Inteligência, você entra em um frenesi sanguinário, ficando imune a efeitos de Medo e atacando a criatura mais próxima até matá-la (e utilizando Sede de Sangue nela) enquanto os efeitos dessa Habilidade persistirem.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige uma Ação Completa. Caso o acúmulo de bônus supere o valor de Inteligência do Gnoll, ele entra em um frenesi incontrolável atacando a criatura mais próxima.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sede-de-sangue",
       "automatica": false,
+      "acesso": [
+        "Gnoll"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

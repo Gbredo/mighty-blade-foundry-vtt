@@ -1,0 +1,53 @@
+{
+  "name": "Cauda",
+  "type": "habilidade",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dragano (Origem Dracônica)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição",
+    "exclusivoCom": [],
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "cauda",
+        "dano": "Forca",
+        "tipoDano": "Contusao"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Você possui uma cauda longa e musculosa capaz de realizar ataques desarmados corporais (<strong>Dano: Força / Contusão</strong>). Pré-requisito para a habilidade <em>Reflexos Dracônicos</em>.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carac-draconica-cauda",
+      "subFeatureId": "cauda",
+      "parentSlug": "linhagem-draconica",
+      "originLabel": "Origem Dracônica",
+      "isSubFeature": true,
+      "automatica": true,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "opcoes": []
+    }
+  },
+  "_id": "02ad4bf1a969164b",
+  "_key": "!items!02ad4bf1a969164b"
+}

@@ -6,19 +6,42 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Espadachim",
+      "Ladino",
+      "Guerreiro",
+      "Patrulheiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 107, 119; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Faça um ataque corpo-a-corpo ou à distância visando o quadril, joelho ou tornozelo do alvo, comprometendo sua locomoção e deixando um ferimento doloroso. Além de receber o dano normal pelo ataque, o alvo fica com seu Deslocamento reduzido em 1 e sempre que se deslocar ou fizer um teste de Movimentação sofre 10 pontos de dano. Esse é um efeito de Sangramento. Benção de Ellenis Habilidade (Característica) – Suporte Você é capaz de se comunicar com qualquer Besta do tipo Mamífero, Ave, Réptil ou Peixe. Essa comunicação é rudimentar, baseada nas capacidades da criatura em questão. Além disso, você receber +2 em todas as rolagens envolvendo essas criaturas e poder alterar o temperamento delas em 1 passo (Furioso ou Cruel para Agressivo, Agressivo para Sobrevivente, Sobrevivente para Pacífico e Pacífico para Covarde ou vice-versa) com um teste de Vontade (Dificuldade igual à Determinação do alvo) – esse efeito não funciona em animais com temperamento Servo ou Protetor. Animais selvagens só irão aceitar “conversar” se tiverem temperamento pacífico ou sobrevivente, a menos que estejam aprisionados ou encurralados de alguma forma.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corpo-a-corpo ou à distância visando o quadril, joelho ou tornozelo do alvo, comprometendo sua locomoção e deixando um ferimento doloroso. Além de receber o dano normal pelo ataque, o alvo fica com seu Deslocamento reduzido em 1 e sempre que se deslocar ou fizer um teste de Agilidade que envolva as pernas ele sofre 10 pontos de dano (perda de vida).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito de Sangramento. Requisito necessário para a aquisição da habilidade Corte Arterial.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-aleijador",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Ladino",
+        "Guerreiro",
+        "Patrulheiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

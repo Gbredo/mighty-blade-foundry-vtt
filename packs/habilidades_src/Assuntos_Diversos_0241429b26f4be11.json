@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Humano",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Humano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 56; Guia do Herói, pág. 21",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você estudou e praticou um pouco de tudo ao longo da vida. Você pode gastar 30 PM para rolar +1d6 em um teste qualquer à sua escolha.</p>"
+    "concessoes": [],
+    "description": "<p>Você estudou e praticou um pouco de tudo ao longo da sua vida. Você pode rolar +1d6 em um teste qualquer à sua escolha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Consome 30 Pontos de Mana para adicionar +1d6 a uma rolagem de teste selecionada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "assuntos-diversos",
       "automatica": false,
+      "acesso": [
+        "Humano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

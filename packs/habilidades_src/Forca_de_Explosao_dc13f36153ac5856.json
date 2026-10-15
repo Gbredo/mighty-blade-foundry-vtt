@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Ataque do Búfalo",
+    "acesso": [
+      "Guerreiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 106",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando fizer ataques que têm chance de derrubar o oponente você pode afetar alvos até 10 vezes mais pesados do que você (a maioria dos ataques que derrubam oponentes só afetam alvos com até o dobro do seu peso). Além disso, se você usar qualquer Habilidade que derrube o oponente, a dificuldade para resistir ao efeito e aumentada em +2.</p>"
+    "concessoes": [],
+    "description": "<p>Quando fizer ataques que têm chance de derrubar o oponente você pode afetar alvos até 10 vezes mais pesados do que você (a maioria dos ataques que derrubam oponentes só afetam alvos com até o dobro do seu peso).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, se você usar qualquer Habilidade que derrube o oponente, a dificuldade para resistir ao efeito é aumentada em +2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "forca-de-explosao",
       "automatica": false,
+      "acesso": [
+        "Guerreiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

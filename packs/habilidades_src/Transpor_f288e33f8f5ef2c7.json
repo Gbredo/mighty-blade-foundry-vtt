@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Defesa Agressiva",
+    "acesso": [
+      "Guerreiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 105; Manual do Combatente, pág. 65",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você sabe encontrar os espaços deixados pelo escudo do adversário. Ignore sempre o bônus de Bloqueio da Defesa do oponente. Habilidades Avançadas</p>"
+    "concessoes": [],
+    "description": "<p>Você sabe encontrar os espaços deixados pelo escudo do adversário. Ignore sempre o bônus de Bloqueio da Defesa do oponente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No Manual do Combatente (pág. 65), o texto atualizado estabelece que seus ataques ignoram o bônus de Defesa oferecido por Escudos ou por qualquer Habilidade que exija o uso de itens (como Defesa Agressiva e Aparar). Além disso, ataques com armas que possuam a Propriedade Transpor causam +2 de dano.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "transpor",
       "automatica": false,
+      "acesso": [
+        "Guerreiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

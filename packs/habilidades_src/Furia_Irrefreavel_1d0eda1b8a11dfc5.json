@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Amoque"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 70",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando você está em fúria, não há como pará-lo! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +2 e enquanto você estiver sob um efeito de Fúria você fica imune a efeitos</p>"
+    "concessoes": [],
+    "description": "<p>Quando você está em fúria, não há como pará-lo! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +2 e enquanto você estiver sob um efeito de Fúria você fica imune a efeitos Mentais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Aumenta em +2 o bônus de Força concedido por Habilidades de Fúria e confere imunidade a efeitos Mentais enquanto mantiver o estado de Fúria ativo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "furia-irrefreavel",
       "automatica": false,
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

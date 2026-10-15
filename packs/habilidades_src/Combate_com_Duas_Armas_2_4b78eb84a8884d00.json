@@ -6,19 +6,42 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Combate com Duas",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Combate com Duas Armas 1",
+    "acesso": [
+      "Guerreiro",
+      "Espadachim",
+      "Ladino",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 105, 110, 115; Manual do Combatente, pág. 63",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Armas 1. Como em Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN. Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.</p>"
+    "concessoes": [],
+    "description": "<p>Como em Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação. No Manual do Combatente (pág. 63), ao usar a Manobra Atacar com Duas Armas sem exceder sua Força, você não sofre Inaptidão e a manobra consome uma Ação Livre em vez de uma Ação de Movimento.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "combate-com-duas-armas-2",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Espadachim",
+        "Ladino",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

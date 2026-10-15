@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Ataque do Búfalo",
+    "acesso": [
+      "Xamã",
+      "Amoque"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Manual do Combatente, pág. 216; Codex Monstrorum, pág. 161",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando usar Ataque do Búfalo, se o alvo for derrubado ele sofre um dano adicional igual a 6/Contusão para cada 100 quilos de peso que você tiver.</p>"
+    "concessoes": [],
+    "description": "<p>Quando usar Ataque do Búfalo, se o alvo for derrubado ele sofre um dano adicional igual a 6/Contusão para cada 100 quilos de peso que você tiver.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ataque do Búfalo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "atropelar",
       "automatica": false,
+      "acesso": [
+        "Xamã",
+        "Amoque"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

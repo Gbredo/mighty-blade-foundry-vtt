@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Estrige"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 89–91",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você recebe +2 em todas as suas rolagens relativas a criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Você também causa +3 de dano em todos os seus ataques contra essas criaturas. 116 Capítulo 4 Capítulo 4 das Ordens oficiais de Tebryn, e atualmente a quantidade de Estrigoi vindos de outras Ordens é uma minoria dentro dela. De fato, a maioria dos Sacerdotes que ingressa na Ordem segue os Dogmas de Sarfion. Patrulheiros, Xamãs e Druidas também são comuns na Ordem, acostumados em rastrear e caçar – ou lidar com espíritos e criaturas sobrenaturais. Há um bom número de Ladinos na Ordem também, já que habilidades de infiltração são extremamente valorizadas pelos Estrigoi.</p>"
+    "concessoes": [],
+    "description": "<p>Você recebe +2 em todas as suas rolagens relativas a criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Você também causa +3 de dano em todos os seus ataques contra essas criaturas. das Ordens oficiais de Tebryn, e atualmente a quantidade de Estrigoi vindos de outras Ordens é uma minoria dentro dela. De fato, a maioria dos Sacerdotes que ingressa na Ordem segue os Dogmas de Sarfion. Patrulheiros, Xamãs e Druidas também são comuns na Ordem, acostumados em rastrear e caçar – ou lidar com espíritos e criaturas sobrenaturais. Há um bom número de Ladinos na Ordem também, já que habilidades de infiltração são extremamente valorizadas pelos Estrigoi.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Estrige.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "caca-sobrenatural",
       "automatica": false,
+      "acesso": [
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

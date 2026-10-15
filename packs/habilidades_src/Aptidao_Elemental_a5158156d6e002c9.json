@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Mente Disciplinada",
+    "acesso": [
+      "Feiticeiro",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 99, 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui um domínio considerável sobre as energias mais elementares da magia. Todas as suas magias custam 5 Pontos de Mana a menos para serem conjuradas e todas as suas magias e técnicas que causam dano por Fogo, Frio ou Eletricidade causam 5 pontos de dano a mais.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um domínio considerável sobre as energias mais elementares da magia. Todas as suas magias custam 5 Pontos de Mana a menos para serem conjuradas e todas as suas magias e técnicas que causam dano por Fogo, Frio ou Eletricidade causam 5 pontos de dano a mais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Mente Disciplinada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "aptidao-elemental",
       "automatica": false,
+      "acesso": [
+        "Feiticeiro",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

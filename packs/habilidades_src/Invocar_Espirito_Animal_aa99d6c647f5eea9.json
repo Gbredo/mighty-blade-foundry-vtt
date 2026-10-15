@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Espírito Animal, Contato com Espíritos",
+    "acesso": [
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Invoca espectro físico na forma do Espírito Animal (30 PV, 30 PM, Mente Bloqueada; atributos = sua Vontade).</p>"
+    "concessoes": [],
+    "description": "<p>Você invoca um espírito animal espectral para protegê-lo. Esse espectro tem a forma do seu Espírito Animal, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades normais do animal, todos os Espíritos Animais terão Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Corte, Perfuração ou Esmagamento – o que for mais apropriado, de acordo com os ataques do animal – e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana. Espíritos Animais são sempre Bestas do tipo Espírito com o temperamento Servo. Essa magia dura 1 minuto ou até o animal espectral ser destruído.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu e esclareceu os tipos de dano e habilidades espectrais. Requer Espírito Animal e Contato com Espíritos. Serve de pré-requisito para a habilidade avançada Companheiro Espiritual. Especial: Águias Espectrais recebem +1 em seus ataques corporais ao invés do bônus normal.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "invocar-espirito-animal",
       "automatica": false,
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

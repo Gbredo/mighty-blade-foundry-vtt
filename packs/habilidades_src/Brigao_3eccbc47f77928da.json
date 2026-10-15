@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Guerreiro",
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 103; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você está acostumado à combater desarmado. Você rola +1 em seus ataques desarmados e adiciona +2 nos danos desses ataques.</p>"
+    "concessoes": [],
+    "description": "<p>Você está acostumado a combater desarmado. Você rola +1 em seus ataques desarmados e adiciona +2 nos danos desses ataques.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Quando estiver realizando apenas ataques desarmados, você pode realizar 2 ataques sem incorrer nas regras de Inaptidão. (Originalmente publicada como Característica, sua categoria foi unificada e corrigida para Técnica na Errata do Guia Básico, pág. 1).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "brigao",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

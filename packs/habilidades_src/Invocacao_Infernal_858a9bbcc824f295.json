@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de ler magias em itens com a característica Registro e pode conjurar Magias que exijam um Círculo de Invocação como se você possuísse Conhecimento Arcano – mas realiza magias Arcanas como se fosse Inapto e não pode realizar Magias Místicas. Além disso, você não perde Pontos de Vida devido à conjuração de Círculos de Invocação (veja Contactando o Inferno na página 9 para mais detalhes).</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de ler magias em itens com a característica Registro e pode conjurar Magias que exijam um Círculo de Invocação como se você possuísse Conhecimento Arcano – mas realiza magias Arcanas como se fosse Inapto e não pode realizar Magias Místicas. Além disso, você não perde Pontos de Vida devido à conjuração de Círculos de Invocação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Cultista. Permite traçar Círculos de Invocação sem sofrer perda direta de PV.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "invocacao-infernal",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -1,0 +1,39 @@
+{
+  "name": "Marca da Verdade",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "tipo": "acao",
+    "fonte": "mistica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 12,
+    "dificuldadeTexto": "12",
+    "circulo": 1,
+    "nivel": "Nv1",
+    "requisitos": "Dogma: Discípulo da Sabedoria",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia de Tebryn, pág. 103",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Sabedoria</p><p>Esta Marca é amplamente utilizada pela maioria dos Sacerdotes de Sarfion em julgamentos, principalmente entre membros da própria igreja. Desenhando um Selo Místico sobre uma criatura, você faz com que o alvo sinta dores terríveis sempre que faltar com a verdade. Sempre que o alvo quebrar um dos Dogmas de Sarfion, o símbolo dessa divindade brilha em sua testa e ele sentirá dores terríveis, perdendo uma quantidade de Pontos de Vida igual à Determinação do conjurador. Um alvo que perca todos os seus Pontos de Vida dessa forma é considerado automaticamente estabilizado, e recupera 1 Ponto de Vida dentro de 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo dura uma quantidade de horas igual à Vontade do conjurador, mas você pode dissipá-lo a qualquer momento. Requer Dogma: Discípulo da Sabedoria.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "marca-da-verdade",
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
+    }
+  },
+  "_id": "1d441a26981169f2",
+  "_key": "!items!1d441a26981169f2"
+}

@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Todas exceto Metadílios",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 40",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é menor do que a média de sua raça – em média entre 1 e 1,2 metros de altura. Você pode rolar +1d6 quando fizer testes para se esconder, se mover em silêncio ou passar despercebido de qualquer forma. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, armas corporais que requerem duas mãos são grandes demais para que você possa usá-las com eficiência, e você precisa usar ambas as mãos para usar qualquer arma corporal com FN 5 ou mais.</p>"
+    "concessoes": [],
+    "description": "<p>Você é menor do que a média de sua raça – em média entre 1 e 1,2 metros de altura. Você pode rolar +1d6 quando fizer testes para se esconder, se mover em silêncio ou passar despercebido de qualquer forma. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, armas corporais que requerem duas mãos são grandes demais para que você possa usá-las com eficiência, e você precisa usar ambas as mãos para usar qualquer arma corporal com FN 5 ou mais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Metadílios. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "nanismo",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

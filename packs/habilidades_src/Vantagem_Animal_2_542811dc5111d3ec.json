@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Vantagem Animal 1",
+    "acesso": [
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 139-140",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode transformar uma parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus braços em asas de grifo, recebendo Asas Pesadas, transformar sua cabeça para a de um lobo atroz e receber Mordida Poderosa ou desenvolver guelras como as de um tubarão, recebendo Anfíbio, por exemplo. Quaisquer modificações são possíveis, mas as possibilidades devem ser discutidas com o Mestre. Esse efeito dura 10 minutos, mas você pode cancelá-lo a qualquer momento. Habilidade Final</p>"
+    "concessoes": [],
+    "description": "<p>Você pode transformar uma parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus braços em asas de grifo, recebendo Asas Pesadas, transformar sua cabeça para a de um lobo atroz e receber Mordida Poderosa ou desenvolver guelras como as de um tubarão, recebendo Anfíbio, por exemplo. Quaisquer modificações são possíveis, mas as possibilidades devem ser discutidas com o Mestre. Esse efeito dura 10 minutos, mas você pode cancelá-lo a qualquer momento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Vantagem Animal 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vantagem-animal-2",
       "automatica": false,
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

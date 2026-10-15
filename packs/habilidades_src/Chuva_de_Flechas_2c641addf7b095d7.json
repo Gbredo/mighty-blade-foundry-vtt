@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Flechas Rápidas",
+    "acesso": [
+      "Patrulheiro",
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 119",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode atirar até 4 flechas em um só ataque em múltiplos oponentes. Faça uma rolagem para cada flecha, que devem ter alvos diferentes.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode atirar até 4 flechas em um só ataque em múltiplos oponentes. Faça uma rolagem para cada flecha, que devem ter alvos diferentes.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Flechas Rápidas. Serve de pré-requisito para Chuva de Flechas 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "chuva-de-flechas",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro",
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

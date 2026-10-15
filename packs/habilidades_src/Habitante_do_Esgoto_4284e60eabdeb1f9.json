@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Hamelin",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia do Vilão, pág. 32–34",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -40,12 +51,20 @@
         "efeitoAdicional": "Alvo ferido testa Força ou contrai doença natural"
       }
     ],
-    "description": "<p>Visão no escuro perfeita. Imune a doenças e venenos naturais. +1d6 para resistir a doenças e venenos mágicos. Alvos feridos pela mordida devem testar Força para não contrair uma doença natural.</p>"
+    "concessoes": [],
+    "description": "<p>Acostumado à escuridão e ao submundo das cidades, você possui Visão no Escuro perfeita e é completamente imune a venenos e doenças de origem natural.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Seu ataque desarmado de mordida transmite doenças naturais caso cause dano a uma criatura viva. Personagens Hamelin são proibidos de selecionar a Habilidade Geral Recursos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "habitante-do-esgoto",
       "automatica": true,
+      "acesso": [
+        "Hamelin",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

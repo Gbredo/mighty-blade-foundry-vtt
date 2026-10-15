@@ -3,22 +3,47 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Combate Tático",
+    "acesso": [
+      "Guerreiro",
+      "Espadachim",
+      "Paladino",
+      "Rúnico",
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 104, 110",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Se um oponente que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer um ataque corporal normal contra ele. Se acertar, além de sofrer o dano normal pelo ataque, o oponente não poderá se movimentar neste turno.</p>"
+    "concessoes": [],
+    "description": "<p>Se um oponente que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer um ataque corporal normal contra ele. Se acertar, além de sofrer o dano normal pelo ataque, o oponente não poderá se movimentar neste turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requisito obrigatório para a habilidade avançada Implacável (Guia Básico, pág. 106). No Manual do Combatente (pág. 216), o texto revisado atualiza o alcance para \"oponente dentro do seu alcance corporal\".</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sem-escapatoria",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Espadachim",
+        "Paladino",
+        "Rúnico",
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

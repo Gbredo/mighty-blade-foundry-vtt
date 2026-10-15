@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Presas Vermelhas",
+    "acesso": [
+      "Crânios Vermelhos"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 94",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você aprendeu a ser letal em emboscadas. Quando fizer um ataque contra um alvo que esteja Desprevenido com relação a você, você pode escolher utilizar Inteligência ou Agilidade (o que for mais alto) ao invés de sua Força para calcular o dano do ataque.</p>"
+    "concessoes": [],
+    "description": "<p>Você aprendeu a ser letal em emboscadas. Quando fizer um ataque contra um alvo que esteja Desprevenido com relação a você, você pode escolher utilizar Inteligência ou Agilidade (o que for mais alto) ao invés de sua Força para calcular o dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Presas Vermelhas. Serve de pré-requisito para Crânio Vermelho.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mandibula-vermelha",
       "automatica": false,
+      "acesso": [
+        "Crânios Vermelhos"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

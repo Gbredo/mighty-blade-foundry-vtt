@@ -6,19 +6,40 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Orc, Gnoll, Naga (Macho), Naga (Fêmea)",
+    "dificuldadeTexto": "Confronto de Força ou Vontade",
+    "requisitos": "",
+    "acesso": [
+      "Geral\r  - \"Naga ♂",
+      "Naga ♀",
+      "Orc"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 18",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você intimida um oponente a até 3 metros de você. Faça um Confronto de Força ou Vontade contra a Vontade do alvo (+1d6 para você). Com sucesso, o alvo fica Amedrontado enquanto você estiver na linha de visão dele e é forçado a responder a uma pergunta direta sem mentir (efeito de Medo).</p>"
+    "concessoes": [],
+    "description": "<p>Você é particularmente assustador quando quer. Você pode intimidar um oponente que esteja a até 3 metros de você. Faça um Confronto de Força ou Vontade (o que for mais alto) contra a Vontade do alvo. Este é um teste Social e você recebe +1d6 nele. Se você tiver sucesso, o alvo é considerado Amedrontado com relação a você até que você saia da linha de visão dele. Além disso, imediatamente depois de usar esta Habilidade com sucesso, você pode fazer uma pergunta direta contra o alvo e ele terá que responder da melhor forma possível.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um teste Social.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "intimidador",
       "automatica": false,
+      "acesso": [
+        "Geral\r  - \"Naga ♂",
+        "Naga ♀",
+        "Orc"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

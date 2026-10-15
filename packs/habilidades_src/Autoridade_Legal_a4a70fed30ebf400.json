@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Arconte"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 71; Guia de Tebryn, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você foi imbuído pelo Reino para executar a lei e punir a transgressores. Ao determina sentenças e arbitrar disputas sua palavra só pode ser questionada por outro Arconte ou por um Nobre, e se ela foi tomada dentro de um tribunal, com a anuência de outros Arcontes (ver pág. 19), ela só pode ser questionada por um tribunal acima do seu. Você recebe um símbolo sagrado especial, que pode ser verificado por qualquer um com Detectar Magia, que serve para comprovar sua autoridade – além de não poder ser separado de você. Você também não pode ser preso ou questionado por ninguém menos que outro Arconte ou alguém com um título militar ou de nobreza enquanto estiver no seu reino.</p>"
+    "concessoes": [],
+    "description": "<p>Você foi imbuído pelo Reino para executar a lei e punir transgressores. Ao determinar sentenças e arbitrar disputas, sua palavra só pode ser questionada por outro Arconte ou por um Nobre. Se foi tomada dentro de um tribunal com a anuência de outros Arcontes, ela só pode ser questionada por um tribunal superior. Você recebe um símbolo sagrado especial que pode ser verificado por qualquer um com Detectar Magia, comprovando sua autoridade e que nunca pode ser separado de você. Você não pode ser preso ou questionado por ninguém de patente inferior a outro Arconte ou portador de título militar/nobreza no reino.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática do Caminho Arconte.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "autoridade-legal",
       "automatica": false,
+      "acesso": [
+        "Arconte"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

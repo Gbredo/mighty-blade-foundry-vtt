@@ -1,0 +1,46 @@
+{
+  "name": "Chamas de Hou",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma: Discípulo da Forja",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>As chamas de Hou queimam fortes dentro de você, e se manifestam sempre que você clama pela divindade da forja! Você adiciona uma quantidade de dano por Fogo igual à sua Vontade sempre que utilizar uma Habilidade que cause dano por Fogo e em qualquer Habilidade do tipo Magia que cause qualquer tipo de dano ou perda de vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Dogma: Discípulo da Forja.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chamas-de-hou",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "df7b5b586944100a",
+  "_key": "!items!df7b5b586944100a"
+}

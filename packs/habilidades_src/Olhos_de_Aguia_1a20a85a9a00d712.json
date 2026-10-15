@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Levent",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Levent"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "testes de percepção visual"
       }
     ],
-    "description": "<p>Sua visão é extraordinária. Rola +1d6 em testes de percepção visual, distingue detalhes a uma distância em quilômetros igual à sua Inteligência e enxerga silhuetas na penumbra.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui olhos naturalmente potentes, com capacidades de percepção únicas. Você pode rolar +1d6 quando fizer testes que envolvam a visão, e consegue distinguir detalhes a uma distância em quilômetros igual à sua Inteligência. Você também consegue ver pobremente na escuridão, sendo capaz de distinguir vultos e formas, mas não detalhes específicos (como cores, inscrições ou fisionomias).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "olhos-de-aguia",
       "automatica": false,
+      "acesso": [
+        "Levent"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Centauro",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Centauro",
+      "Fauno"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 46",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +30,20 @@
         "contexto": "testes de corrida, salto e para evitar quedas"
       }
     ],
-    "description": "<p>Você possui pernas musculares e mais fortes do que a média. Você rola +1d6 quando fizer testes de corrida, salto e para evitar quedas. Além disso, o dano dos seus ataques desarmados com cascos é aumentado em +2.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui pernas mais fortes do que a maioria dos membros da sua raça. Você pode rolar +1d6 quando fizer testes de corrida, salto, evitar quedas, etc. Além disso, o dano dos seus ataques com cascos é aumentado em +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede +1d6 em testes de corrida/salto/equilíbrio e +2 no dano de ataques desarmados com cascos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "patas-fortes",
       "automatica": false,
+      "acesso": [
+        "Centauro",
+        "Fauno"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

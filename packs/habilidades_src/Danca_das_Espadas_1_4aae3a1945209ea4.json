@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Espadachim",
+      "Dançarino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 92; Canção do Bardo, pág. 38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Entra em estado de transe de lâminas. Aumenta dano e fluidez de movimentos. Com a habilidade final Tempestade de Lâminas, concede AGI +2 e DET +2 e pode ser ativada como Reação ao se mover.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode entrar em um fluxo incessante de movimentos fluidos e vigorosos. Enquanto estiver neste estado você recebe Agilidade +2 e recebe +1d6 em seus testes de dança. Este efeito dura até 5 minutos ou até que você pare, ou seja alvo de um efeito que o impeça de continuar se movendo continuamente (Constringido, Derrubado, Amedrontado, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito obrigatório para Dança das Espadas 2 e para a habilidade avançada Dança das Lâminas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "danca-das-espadas-1",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Dançarino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

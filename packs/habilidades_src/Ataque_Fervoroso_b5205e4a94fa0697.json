@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Cruzado"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 92–94",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p>"
+    "concessoes": [],
+    "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Cruzado.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-fervoroso",
       "automatica": false,
+      "acesso": [
+        "Cruzado"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

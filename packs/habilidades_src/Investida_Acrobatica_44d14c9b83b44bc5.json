@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Lobos dos Mares"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 97",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode usar o ambiente para ganhar impulso e desferir um ataque de uma direção inusitada. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode fazer uma manobra de encontrão contra o alvo mesmo que esteja à menos de 3 metros dele. Esse ataque causa +10 de dano e ignora quaisquer bônus de escudo e Esquiva do alvo.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode usar o ambiente para ganhar impulso e desferir um ataque de uma direção inusitada. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode fazer uma manobra de Encontrão contra o alvo mesmo que esteja a menos de 3 metros dele. Esse ataque causa +10 de dano e ignora quaisquer bônus de escudo e Esquiva do alvo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Não pode ser usada com armadura Pesada, carga acima da básica ou se o ataque for realizado como Inapto.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "investida-acrobatica",
       "automatica": false,
+      "acesso": [
+        "Lobos dos Mares"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

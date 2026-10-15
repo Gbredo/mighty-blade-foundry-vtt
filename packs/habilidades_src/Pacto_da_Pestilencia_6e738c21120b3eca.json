@@ -1,0 +1,46 @@
+{
+  "name": "Pacto da Pestilência",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Pacto",
+    "acesso": [
+      "Geral",
+      "Cultista"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 89-90",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Ereshkigal, A Impura, Aquela que Polui, é responsável por trazer doença e sofrimento. Aqueles que procuram pactos com ela tanto podem desejar infligir violentas moléstias sobre outros quanto ficarem intocados pela carícia de Ereshkigal. Muitos doentes terminais também procuram A Impura na tentativa de sobreviver às suas enfermidades.</p><p>Sempre que for exposto a uma doença (natural ou mágica), você falha automaticamente no teste de infecção e nos testes para resistir aos sintomas da doença (mesmo que seja imune a doenças). No entanto, você não é afetado pelos sintomas da doença (embora possa apresentar manifestações estéticas dela) e pode transmiti-la normalmente. Além disso, você sempre sabe quais doenças o estão infectando, assim como é capaz de detectar doenças em outras criaturas apenas com um toque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Se você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pacto-da-pestilencia",
+      "automatica": false,
+      "acesso": [
+        "Geral",
+        "Cultista"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "6e738c21120b3eca",
+  "_key": "!items!6e738c21120b3eca"
+}

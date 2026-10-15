@@ -3,16 +3,37 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva, você faz surgir em suas costas um grande par de asas. O alvo ganha a Habilidade Asas Pesadas. Esse Selo Místico dura por 1 Hora.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Caminhada Mágica",
+    "acesso": [
+      "Druida",
+      "Feiticeiro",
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 84; Guia para Iniciantes, pág. 60",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva, você faz surgir em suas costas um grande par de asas. O alvo ganha a Habilidade Asas Pesadas. Esse Selo Místico dura por 1 Hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo afetado adquire a capacidade de voar conforme a Habilidade Asas Pesadas pela duração do efeito.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "asas-celestiais",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Druida",
+        "Feiticeiro",
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "433fe90ad1547bbb",

@@ -1,0 +1,46 @@
+{
+  "name": "Melodia Desconcertante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 30,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você canta uma canção com tom jocoso e com uma melodia irritante, que prende a atenção dos ouvintes e não permite que eles se concentrem. Todas as criaturas vivas (exceto você e seus aliados) a uma distância em metros de você igual à sua Determinação, e que puderem entender e ouvir essa Música, rolam um confronto de Vontade contra você a cada turno que você continuar cantando. Alvos que tenham um resultado menor do que o seu são considerados Distraídos até o final de seus turnos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-desconcertante",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "07a9083c47c34aa9",
+  "_key": "!items!07a9083c47c34aa9"
+}

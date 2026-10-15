@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 25,
+    "custoVariavel": false,
     "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Entrelaçar, Rajada</p><p>de Espinhos Desenhando um Selo Místico sobre o solo você faz com que plantas espinhosas comecem a brotar e agarrem um alvo que esteja com os pés no chão. O alvo fica com Deslocamento 0, é considerado Desprevenido e sofre uma quantidade de dano igual a 10/Perfuração. Para se soltar ele (ou outro personagem) deve passar uma quantidade de turnos igual à sua Vontade cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador). Toda vez que ataca as plantas ou fracassa no teste de Força, o alvo sofre dano igual a 10/Perfuração. As plantas murcham e se desfazem após 1 minuto. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+    "dificuldadeTexto": "12",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Entrelaçar, Rajada de Espinhos",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 88",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Entrelaçar, Rajada de Espinhos</p><p>Desenhando um Selo Místico sobre o solo você faz com que plantas espinhosas comecem a brotar e agarrem um alvo que esteja com os pés no chão. O alvo fica com Deslocamento 0, é considerado Desprevenido e sofre uma quantidade de dano igual a 10/Perfuração. Para se soltar ele (ou outro personagem) deve passar uma quantidade de turnos igual à sua Vontade cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador). Toda vez que ataca as plantas ou fracassa no teste de Força, o alvo sofre dano igual a 10/Perfuração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> As plantas murcham e se desfazem após 1 minuto. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer Nível 5, Entrelaçar e Rajada de Espinhos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "gavinhas-e-espinhos",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "3cc0a9a4675f253f",

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Criar Golem</p><p>Você desenha um Selo Místico sobre um Golem que você tenha criado, com o objetivo de fortalecer sua coesão. Cada vez que você desenhar este Selo Místico sobre o Golem, a duração do Selo que o mantém ativo será duplicada. Você pode desenhar quantos selos desses quiser sobre um Golem, e seus efeitos são cumulativos.</p>"
+    "dificuldadeTexto": "12",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Criar Golem",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 146",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Criar Golem</p><p>Você desenha um Selo Místico sobre um Golem que você tenha criado, com o objetivo de fortalecer sua coesão. Cada vez que você desenhar este Selo Místico sobre o Golem, a duração do Selo que o mantém ativo será duplicada. Você pode desenhar quantos selos desses quiser sobre um Golem, e seus efeitos são cumulativos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Criar Golem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "manter-golem",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "b4cb63890577c401",

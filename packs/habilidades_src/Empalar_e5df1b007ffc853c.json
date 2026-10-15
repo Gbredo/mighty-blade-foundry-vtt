@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Ataque Aleijador",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Ataque Aleijador, Disparo Certeiro",
+    "acesso": [
+      "Patrulheiro",
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 121-122",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Disparo Certeiro Se você rolar um Sucesso Crítico em um ataque à distância (incluindo arremessos) usando uma arma que cause dano por Perfuração, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.</p>"
+    "concessoes": [],
+    "description": "<p>Se você rolar um Sucesso Crítico em um ataque à distância (incluindo arremessos) usando uma arma que cause dano por Perfuração, o dano será multiplicado por 3 ao invés de 2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de sangramento. Requer Nível 5, Ataque Aleijador e Disparo Certeiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "empalar",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro",
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

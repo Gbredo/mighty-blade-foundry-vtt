@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 14,
-    "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a 10/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.</p>"
+    "dificuldadeTexto": "14",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Congelar",
+    "acesso": [
+      "Corvos Negros"
+    ],
+    "tipoAcesso": "Organização",
+    "fonteLivro": "Guia de Tebryn, pág. 92",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Congelar</p><p>Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a 10/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Congelar. A Runa se dissipa imediatamente, mas o gelo criado é permanente.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sopro-gelido",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Corvos Negros"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "12b96ea3e3330b5c",

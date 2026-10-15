@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 35",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você consegue se adaptar rapidamente aos trejeitos, dialetos, costumes e linguagem corporal de qualquer grupo social ou cultura após poucos minutos de observação, recebendo +2 em testes de interação social e disfarce com aquele grupo.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma grande capacidade de observar e absorver trejeitos, costumes e formas de se portar de outras culturas. Ao interagir com pessoas de uma cultura diferente da sua por pelo menos 1 hora, você assimila a postura e os gestos de seus falantes, recebendo +2 em testes e confrontos sociais (incluindo Técnicas e Músicas, e o cálculo de sua Determinação para estes efeitos), e +1d6 para se disfarçar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Astérios e Tritão.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mimetismo-social",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

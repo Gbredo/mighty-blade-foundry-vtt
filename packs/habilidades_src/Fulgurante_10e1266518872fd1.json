@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "suporte",
+    "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Fira",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Fira"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 60",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seus olhos ardem com o fogo sagrado de Hou. Você enxerga perfeitamente no escuro e através de fumaça, poeira e areia. Contudo, seus olhos brilham constantemente no escuro e você realiza testes de Furtividade para se esconder como Inapto.</p>"
+    "concessoes": [],
+    "description": "<p>Seus olhos são um reflexo do brilho de Hou que queima dentro de você. Você é capaz de enxergar normalmente no escuro, e não é afetado por efeitos que restrinjam a visão – como fumaça, poeira, areia, chuva, magias que causem cegueira, etc. No entanto, seus olhos sempre emitem um brilho considerável, e isso torna sua presença extremamente fácil de notar, principalmente no escuro. Você sempre realiza seus testes para se esconder como se fosse Inapto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem. Confere imunidade a efeitos de visão obstruída e cegueira, mas impõe a condição Inapto em testes de Furtividade para se esconder.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "fulgurante",
       "automatica": false,
+      "acesso": [
+        "Fira"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -1,0 +1,37 @@
+{
+  "name": "Arco Voltaico",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "tipo": "reacao",
+    "fonte": "arcana",
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 12,
+    "dificuldadeTexto": "12",
+    "circulo": 1,
+    "nivel": "Nv1",
+    "requisitos": "Relâmpago 1, Teleporte 1",
+    "acesso": [
+      "Feiticeiro"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 68; Errata, pág. 1",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Relâmpago 1, Teleporte 1</p><p>Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata Oficial (pág. 1), os efeitos dessa Runa Arcana só podem ser desencadeados uma única vez antes de ela se dissipar, exigindo uma nova conjuração a cada uso.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arco-voltaico",
+      "tipo": "Reação",
+      "acesso": [
+        "Feiticeiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
+    }
+  },
+  "_id": "01dc2fbffbb62fbe",
+  "_key": "!items!01dc2fbffbb62fbe"
+}

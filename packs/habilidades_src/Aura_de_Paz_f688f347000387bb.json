@@ -1,0 +1,46 @@
+{
+  "name": "Aura de Paz",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma: Discípulo da Paz",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você emana uma poderosa aura de paz, fazendo com que todas as criaturas vivas ao seu redor resistam em recorrer à violência. Sempre que uma criatura estiver em uma distância em metros de você igual à sua Determinação, ela precisa realizar um teste de Vontade (dificuldade igual à sua Determinação) para poder realizar qualquer ação que possa causar qualquer tipo de dano – tanto a ela mesma ou a outras criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esses efeitos não se aplicam a mortos-vivos, demônios ou construtos de forma alguma – essas criaturas ignoram os efeitos desta Habilidade, e todas as criaturas ignoram os efeitos se forem atacadas. Requer Dogma: Discípulo da Paz.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aura-de-paz",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "f688f347000387bb",
+  "_key": "!items!f688f347000387bb"
+}

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 60,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia.</p><p>alvo Desenhando um Símbolo Pro-</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Maldição: Fobia",
+    "acesso": [
+      "Aziago"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Vilão, pág. 85–88",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você domina sua</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Maldição: Fobia. Caminho Aziago.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "maldicao-da-dominacao",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Aziago"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "08b69d2c4044e4dd",

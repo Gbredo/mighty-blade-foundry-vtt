@@ -1,0 +1,57 @@
+{
+  "name": "Escamas",
+  "type": "habilidade",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dragano (Origem Dracônica)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição",
+    "exclusivoCom": [],
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "bloqueio",
+        "valor": 2
+      },
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "esquiva",
+        "valor": 2
+      }
+    ],
+    "concessoes": [],
+    "description": "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Seu corpo é recoberto por escamas queratinosas que oferecem Bônus de Armadura na Defesa de <strong>+2</strong> (+2 Bloqueio e +2 Esquiva). Pré-requisito para a habilidade <em>Escamas Pesadas</em>.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carac-draconica-escamas",
+      "subFeatureId": "escamas",
+      "parentSlug": "linhagem-draconica",
+      "originLabel": "Origem Dracônica",
+      "isSubFeature": true,
+      "automatica": true,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "opcoes": []
+    }
+  },
+  "_id": "c4b95e64e81766ab",
+  "_key": "!items!c4b95e64e81766ab"
+}

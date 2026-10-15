@@ -6,19 +6,42 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Sabedoria Selvagem",
+    "acesso": [
+      "Íris de Maltas",
+      "Druida",
+      "Patrulheiro",
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 86, 120, 139",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode rolar testes de Inteligência para criar poções básicas. Além disso, enquanto estiver em um ambiente selvagem, você e seus aliados não são afetados por doenças e venenos de origem natural – seus aliados passam a ser imunes depois de um dia inteiro que estiverem com você (desde que eles aceitem suas dicas do que comer e do que não comer) – e você é sempre considerado como tendo um Kit de Cura á mão, a menos que o ambiente seja completamente estéril (desertos ou áreas glaciais).</p>"
+    "concessoes": [],
+    "description": "<p>Você pode rolar testes de Inteligência para criar poções básicas e, enquanto estiver em um ambiente selvagem, você e seus aliados não são afetados por doenças e venenos naturais – seus aliados passam a ser imunes depois de um dia inteiro que estiverem com você, desde que eles aceitem suas dicas do que comer e do que não comer. Além disso, enquanto estiver em terreno natural que possa fornecer ervas, folhas e frutos (qualquer lugar exceto cidades, desertos ou regiões glaciais) você sempre faz testes de primeiros socorros como se tivesse um Kit de Cura à mão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede imunidade grupal a venenos e doenças naturais em ambiente selvagem e facilita primeiros socorros sem necessidade de consumíveis.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "herbalismo",
       "automatica": false,
+      "acesso": [
+        "Íris de Maltas",
+        "Druida",
+        "Patrulheiro",
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Silfo",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 24, 30; Guia do Herói, pág. 15",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +30,20 @@
         "restricoes": "Não pode planar; deve bater asas continuamente; requer descanso após 1 hora de voo"
       }
     ],
-    "description": "<p>Voo livre com dobro do deslocamento normal. Deve bater asas continuamente: não pode planar e deve descansar após 1 hora de voo.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui asas translúcidas e uma conexão direta com o reino das fadas. Você pode voar com o dobro do seu deslocamento normal. No entanto, suas asas produzem um zumbido característico e contínuo — é impossível se mover em silêncio enquanto estiver voando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não consegue planar nem permanecer no ar por mais de 1 hora contínua sem descansar pelo menos meia hora. Devido ao seu tamanho pequeno, armas de duas mãos são grandes demais para uso eficiente e armas com FN 5+ exigem o uso de ambas as mãos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "constituicao-feerica",
       "automatica": true,
+      "acesso": [
+        "Silfo",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

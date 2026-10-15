@@ -6,19 +6,40 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Dracomante",
+      "Druida",
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Automática",
+    "fonteLivro": "Guia do Vilão, pág. 21; Guia Básico, pág. 50",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você está ligado às energias místicas provenientes de forças superiores e consegue comungar com elas. Você pode ler e utilizar tomos mágicos e desenhar Selos Místicos (veja o Guia Básico, pág. 36 para regras sobre magia). Você também pode entrar em um estado de transe se concentrando por 1 minuto. Enquanto continuar meditando dessa forma, você recupera uma quantidade de Pontos de Mana igual à sua Vontade a cada 10 minutos.</p>"
+    "concessoes": [],
+    "description": "<p>Você está ligado às energias místicas provenientes de forças superiores e consegue comungar com elas. Você pode ler e utilizar tomos mágicos e desenhar Selos Místicos (veja o Guia Básico, pág. 36 para regras sobre magia). Você também pode entrar em um estado de transe se concentrando por 1 minuto. Enquanto continuar meditating dessa forma, você recupera uma quantidade de Pontos de Mana igual à sua Vontade a cada 10 minutos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática da classe Dracomante (bem como das classes Druida e Sacerdote).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "conhecimento-mistico",
-      "automatica": false,
+      "automatica": true,
+      "acesso": [
+        "Dracomante",
+        "Druida",
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

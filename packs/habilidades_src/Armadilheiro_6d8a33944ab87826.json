@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Ladino",
+      "Patrulheiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 46, 90",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Se encontrar armadilhas, você pode fazer testes de Inteligência para desarmá-las. Além disso, se tiver os materiais e o tempo necessários, você pode armar uma armadilha. Faça um teste de Inteligência: O resultado do teste será a dificuldade para a armadilha ser percebida e desarmada.</p>"
+    "concessoes": [],
+    "description": "<p>Você se especializou em desarmar e preparar armadilhas. Você nunca é considerado Inapto para desarmar armadilhas e se tiver os materiais e o tempo necessários, você pode armar uma armadilha. Faça um teste de Inteligência: O resultado do teste será a dificuldade para a armadilha ser percebida e desarmada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sem a Habilidade Armadilheiro ou sem um Kit de Arrombamento, o personagem é considerado Inapto tanto no teste para desarmar armadilhas quanto no teste para montá-las, e sem ambos, estes testes não são possíveis.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "armadilheiro",
       "automatica": false,
+      "acesso": [
+        "Ladino",
+        "Patrulheiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -1,0 +1,48 @@
+{
+  "name": "Dogma: Discípulo da Liberdade",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você segue Taranis, divindade dos ventos, dos viajantes e da liberdade irrestrita. Você recebe +2 em testes e Confrontos para escapar das condições Agarrado e Imobilizado, ou para se livrar de amarras físicas e mágicas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Quebrar os Grilhões. Código de conduta: lutar ativamente contra a escravidão e jamais aprisionar seres livres sem julgamento legítimo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-da-liberdade",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo da Liberdade"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "56819a27195691d1",
+  "_key": "!items!56819a27195691d1"
+}

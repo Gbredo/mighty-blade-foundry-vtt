@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 25-26",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui um séquito composto por um número de PDMs de nível 0 igual à sua Vontade. Esses seguidores devem exercer funções distintas e que não sejam combativas – eles podem acompanhar o grupo em aventuras oferecendo suporte e realizando serviços para o grupo, mas não entrarão em masmorras ou ruínas para auxiliar o grupo em combates, a menos que sejam forçados a isso. Perceba que seguidores descontentes podem simplesmente abandonar você se o considerarem tirânico ou despótico – e podem até mesmo traí-lo ou roubá-lo! Caso algum seguidor seu morra, seja dispensado, lhe abandone ou de alguma outra forma deixe de servir você, você pode contratar novos ou atrair novos seguidores até um máximo de igual à sua Vontade. Seguidores têm roupas e equipamentos comuns para sua função, mas você pode fornecer equipamentos melhores se tiver condições. Seguidores comuns incluem aias, pajens, cartógrafos, cozinheiros, apotecários, mensageiros, menestréis, clérigos, curandeiros, médicos e secretários.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um séquito composto por um número de PDMs de nível 0 igual à sua Vontade. Esses seguidores devem exercer funções distintas e que não sejam combativas – eles podem acompanhar o grupo em aventuras oferecendo suporte e realizando serviços para o grupo, mas não entrarão em masmorras ou ruínas para auxiliar o grupo em combates, a menos que sejam forçados a isso. Perceba que seguidores descontentes podem simplesmente abandonar você se o considerarem tirânico ou despótico – e podem até mesmo traí-lo ou roubá-lo!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caso algum seguidor seu morra, seja dispensado, lhe abandone ou de alguma outra forma deixe de servir você, você pode contratar novos ou atrair novos seguidores até um máximo igual à sua Vontade. Seguidores têm roupas e equipamentos comuns para sua função. Seguidores comuns incluem aias, pajens, cartógrafos, cozinheiros, apotecários, mensageiros, menestréis, clérigos, curandeiros, médicos e secretários. Serve de pré-requisito para Guarda-Costas e Conselheiro Pessoal.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sequito",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

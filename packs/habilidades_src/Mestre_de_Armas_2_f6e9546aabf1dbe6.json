@@ -6,19 +6,40 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Mestre de Armas 1",
+    "acesso": [
+      "Guerreiro",
+      "Espadachim",
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 96, 111, 124; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é extremamente eficaz no uso de armas brancas. Sempre que acertar um ataque corporal adicione 3 ao dano do ataque. Esse bônus de dano se acumula com o bônus fornecido por Mestre de armas 1. Habilidade Final</p>"
+    "concessoes": [],
+    "description": "<p>Você é extremamente eficaz no uso de armas brancas. Sempre que acertar um ataque corporal adicione 3 ao dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de dano se acumula com o bônus fornecido por Mestre de Armas 1. Na Errata oficial (pág. 1), a habilidade foi removida da lista do Rúnico (sendo substituída por Arma Elemental) e seu bônus de dano foi estendido também para ataques desarmados.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mestre-de-armas-2",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Espadachim",
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

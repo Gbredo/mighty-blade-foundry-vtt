@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "padrao",
-    "custo": 0,
+    "categoria": "tecnica",
+    "custo": 25,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Grito Estilhaçador",
+    "acesso": [
+      "Bardo",
+      "Menestrel",
+      "Skald"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 27",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Versão física do grito sônico. Dano de Contusão em área.</p>"
+    "concessoes": [],
+    "description": "<p>Você produz um som tão forte e focado que é capaz de impactar fisicamente seus alvos. Todos os alvos em uma área de até 10 metros à sua frente sofrem dano igual a 15/Contusão e precisam fazer um teste de Força (Dificuldade igual à sua Determinação) ou serão empurrados 2 metros para trás e derrubados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Grito Estilhaçador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "grito-contundente",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel",
+        "Skald"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

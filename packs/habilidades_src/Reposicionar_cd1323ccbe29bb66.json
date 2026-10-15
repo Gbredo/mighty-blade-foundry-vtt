@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 25",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Verificando a melhor disposição de seus aliados em campo, você dá ordens para que eles se posicionem melhor. Um número de aliados igual à sua Vontade pode, imediatamente, realizar uma Ação de Movimento. Nenhuma criatura pode usar Habilidades do tipo Reação contra estes aliados durante essa movimentação. Utilizar esta Habilidade requer uma Ação de Rodada Completa, e você não se beneficia dos efeitos da Habilidade.</p>"
+    "concessoes": [],
+    "description": "<p>Verificando a melhor disposição de seus aliados em campo, você dá ordens para que eles se posicionem melhor. Um número de aliados igual à sua Vontade pode, imediatamente, realizar uma Ação de Movimento. Nenhuma criatura pode usar Habilidades do tipo Reação contra estes aliados durante essa movimentação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Utilizar esta Habilidade requer uma Ação de Rodada Completa, e você não se beneficia dos efeitos da Habilidade.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "reposicionar",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

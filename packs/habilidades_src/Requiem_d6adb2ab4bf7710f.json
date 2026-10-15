@@ -1,0 +1,44 @@
+{
+  "name": "Réquiem",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 80,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "Nível 10, Virtuoso",
+    "acesso": [
+      "Bardo"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 28, 118",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca uma música que fala sobre a morte, derrota e fracasso dos ancestrais do alvo e do sofrimento e amarguras que ele ainda provará no futuro. A cada turno em que você canta essa canção e o alvo puder escutá-lo e entender o que você diz, ele rola um Confronto de Vontade contra você. O alvo tem sua moral tão profundamente atingida pela canção que perde 20 Pontos de Mana sempre que rolar esse Confronto (independente do resultado). Além disso, se tiver um resultado menor do que o seu no teste, ele é tomado por uma completa aflição decorrente dos desgostos e sofrimentos que já viveu, além das perspectivas de um futuro negro, perdendo 50 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No começo de cada turno em que estiver tocando esta Música, você pode escolher um novo alvo como uma ação livre. O novo alvo deve estar a uma distância de você igual à sua Determinação em metros. Esta é a Habilidade Final da classe Bardo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "requiem",
+      "automatica": false,
+      "acesso": [
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv3",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "d6adb2ab4bf7710f",
+  "_key": "!items!d6adb2ab4bf7710f"
+}

@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 84",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sua pele se torna mais rija e grossa e adquire uma aparência não natural (escamas disformes, manchas de hematomas, crostas ósseas…). Você tem um bônus de Defesa +2 (este bônus conta como Armadura), se torna Resistente a [Corte, Contusão ou Perfuração]. Esta escolha é permanente e não pode ser mudada mais tarde. Especial: Se você já for resistente a algum tipo de dano físico, você não pode selecionar aquele tipo de dano para se tornar Imune a ele. Ao invés disso, escolha um tipo de dano diferente para se tornar Resistente.</p>"
+    "concessoes": [],
+    "description": "<p>Sua pele se torna mais rija e grossa e adquire uma aparência não natural (escamas disformes, manchas de hematomas, crostas ósseas…). Você tem um bônus de Defesa +2 (este bônus conta como Armadura), se torna Resistente a [Corte, Contusão ou Perfuração]. Esta escolha é permanente e não pode ser mudada mais tarde.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede +2 de Defesa (Armadura) e Resistência a um tipo de dano físico escolhido permanentemente.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "couro-infernal",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

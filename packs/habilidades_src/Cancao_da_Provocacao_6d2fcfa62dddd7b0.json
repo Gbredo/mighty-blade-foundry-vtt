@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "musica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 73",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Alvos num raio de DET metros rolam Vontade vs você. Se falharem, sofrem -2 na Defesa enquanto a Música for mantida.</p>"
+    "concessoes": [],
+    "description": "<p>Você canta uma música de teor ofensivo para seus adversários, deixando-os irritados e desconcentrados em combate. Escolha uma profissão, raça, cultura ou classe social. Todas as criaturas vivas do grupo selecionado a uma distância em metros de você igual à sua Determinação, e que puderem ouvir e entender essa Música, rolam um confronto de Vontade contra você. Aqueles que perderem o confronto ficam com -2 na Defesa enquanto você continuar a tocar essa Música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Requer manutenção com Ação de Movimento a cada turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cancao-da-provocacao",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

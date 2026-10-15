@@ -3,22 +3,41 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Patrulheiro",
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 120",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Após fazer um ataque normal usando um arco, você pode fazer imediatamente outro ataque normal com o arco. Especial: Esta Habilidade só pode ser usada 1 vez por turno.</p>"
+    "concessoes": [],
+    "description": "<p>Após fazer um ataque normal usando um arco, você pode fazer imediatamente outro ataque normal com o arco.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esta Habilidade só pode ser usada 1 vez por turno. Serve de pré-requisito para Chuva de Flechas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "flechas-rapidas",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro",
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

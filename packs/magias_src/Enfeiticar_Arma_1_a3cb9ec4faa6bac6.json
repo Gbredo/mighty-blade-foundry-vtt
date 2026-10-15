@@ -3,16 +3,35 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +1 nas rolagens de ataque e nos danos dessa arma. Essa Runa Arcana dura 1 minuto.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Rúnico",
+      "Artífice"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Guia do Herói, pág. 30",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +1 nas rolagens de ataque e nos danos dessa arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Serve de pré-requisito para Arma Fiel, Golpe do Vento e Enfeitiçar Arma 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "enfeiticar-arma-1",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Rúnico",
+        "Artífice"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "a3cb9ec4faa6bac6",

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Ataque Redirecionado",
+    "acesso": [
+      "Espadachim"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 92",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode usar a sua arma para tirar a arma do seu oponente. Faça um teste resistido de Agilidade contra Força ou Agilidade do adversário (dependendo do que ele usar para combater), somando a FN das armas (a sua e a do seu adversário) nas suas respectivas rolagens. Se você estiver desarmado, use apenas Agilidade. Se o seu adversário tiver um sucesso igual ou menor do que o seu, a arma dele cairá no chão entre você e ele.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode usar a sua arma para tirar a arma do seu oponente. Faça um teste resistido de Agilidade contra Força ou Agilidade do adversário (dependendo do que ele usar para combater), somando a FN das armas (a sua e a do seu adversário) nas suas respectivas rolagens. Se você estiver desarmado, use apenas Agilidade. Se o seu adversário tiver um sucesso igual ou menor do que o seu, a arma dele cairá no chão entre você e ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Ataque Redirecionado. Para regras gerais de desarmar via manobra de combate sem consumo de habilidade específica, veja a regra de Alvo Específico / Desarmar no Manual do Combatente pág. 47 e Guia Básico pág. 35.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "desarmar-oponente",
       "automatica": false,
+      "acesso": [
+        "Espadachim"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

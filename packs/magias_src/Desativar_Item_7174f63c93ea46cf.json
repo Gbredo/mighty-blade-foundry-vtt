@@ -3,16 +3,35 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 11,
+    "dificuldadeTexto": "11",
     "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana sobre um item, você desativa temporariamente seus encantamentos por 10 minutos por ponto de Inteligência do conjurador. O item ainda é considerado encantado enquanto estiver desativado. Esta Runa também dissipa todas as Runas Arcanas e Selos Místicos do item afetado. Itens abençoados não são afetados por essa Habilidade. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Rúnico",
+      "Artífice"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Errata, pág. 1; Guia do Herói, pág. 30",
+    "exclusivoCom": [],
+    "description": "<p>Você pode desativar temporariamente um item mágico desenhando uma Runa Arcana sobre ele, fazendo com que todos os efeitos mágicos fornecidos pelo item (incluindo sua resistência, que será definida pelo material original do item ao invés de ser calculada como se ele fosse feito de Drakonite) deixem de funcionar. Além disso, todas as Runas Arcanas e Selos Místicos sobre o item são dissipadas imediatamente. Itens abençoados não são afetados por essa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o item mágico permanece desativado por 10 minutos por ponto de Inteligência que você tiver.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "desativar-item",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Rúnico",
+        "Artífice"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "7174f63c93ea46cf",

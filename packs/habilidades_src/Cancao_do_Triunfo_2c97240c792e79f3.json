@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
-    "custo": 25,
+    "categoria": "musica",
+    "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Melodia do Repouso",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 119; Canção do Bardo, pág. 74",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você canta uma música relembrando os êxitos e vitórias do grupo, seus feitos mais memoráveis e exaltando seus laços de amizade, aumentando a moral do grupo. Todos os seus aliados (incluindo você) que puderem ouvir essa canção recuperam 5 Pontos de Vida por turno, enquanto você continuar a tocar essa Música.</p>"
+    "concessoes": [],
+    "description": "<p>Você canta uma música relembrando as vitórias do grupo e seus feitos mais memoráveis de modo a motivá-los. Você e todos os seus aliados a uma distância em metros de você igual à sua Determinação, e que puderem ouvir essa Música, recebem +1 em todos os seus testes enquanto você continuar a cantar esta Música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: A partir do nível 5, o bônus nos testes passa a ser de +2 ao invés de +1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cancao-do-triunfo",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

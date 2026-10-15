@@ -5,20 +5,37 @@
   "system": {
     "tipo": "acao",
     "categoria": "tecnica",
-    "custo": 0,
+    "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Espadachim"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 93",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Habilidade de contra-ataque elegante do Espadachim. Efeito mecânico exato pendente.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma que estiver empunhando com apenas 1 mão, rolando +1d6 no teste.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito direto para a Habilidade Final de Nível 10, Senhor das Lâminas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "touche",
       "automatica": false,
+      "acesso": [
+        "Espadachim"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

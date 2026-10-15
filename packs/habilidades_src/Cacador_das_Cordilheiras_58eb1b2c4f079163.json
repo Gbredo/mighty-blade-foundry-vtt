@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Fronteiras Rochosas"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 99",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você se especializou em combater as criaturas mais comuns das Cordilheiras dos Cristais e das terras ao redor. Você recebe +2 em seus testes e causa +2 pontos de dano em todos os ataques contra a Raça Orcs e criaturas do tipo Gigante e Artrópode.</p>"
+    "concessoes": [],
+    "description": "<p>Você se especializou em combater as criaturas mais comuns das Cordilheiras dos Cristais e das terras ao redor. Você recebe +2 em seus testes e causa +2 pontos de dano em todos os ataques contra a Raça Orcs e criaturas do tipo Gigante e Artrópode.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Matador das Cordilheiras.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cacador-das-cordilheiras",
       "automatica": false,
+      "acesso": [
+        "Fronteiras Rochosas"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
-    "dificuldade": 8,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Determinação do Alvo",
     "circulo": 1,
-    "description": "<p>do Alvo Desenhando uma Runa Arcana sobre um morto-vivo ou espírito, ele fica sob seu controle. Se o morto-vivo estiver sendo controlado por outra criatura, a dificuldade será igual à Determinação do controlador. Um morto-vivo ou espírito controlado dessa forma será completamente leal ao conjurador e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.). Alvos com Mente Bloqueada são imunes a este efeito. Essa Runa Arcana dura por uma quantidade de horas igual à sua Determinação.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 54",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana sobre um morto-vivo ou espírito, ele fica sob seu controle. Se o morto-vivo estiver sendo controlado por outra criatura, a dificuldade será igual à Determinação do controlador. Um morto-vivo ou espírito controlado dessa forma será completamente leal ao conjurador e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Alvos com Mente Bloqueada são imunes a este efeito. Essa Runa Arcana dura por uma quantidade de horas igual à sua Determinação.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "controlar-mortos-vivos",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "139a87f163cc2c20",

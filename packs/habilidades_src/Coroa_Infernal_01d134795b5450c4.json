@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Conhecimento Arcano.",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Conhecimento Arcano",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 85",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Os pelos, penas, rochas ou pele do alto da sua cabeça se transformam em uma profusão de pequenos chifres que lembram, vagamente, uma coroa. Você passa a ser capaz de realizar Círculos de Invocação como uma Ação Padrão ao invés de uma Ação de Turno Completo, desenhando o Círculo como traçaria uma Runa Arcana – geralmente no ar à sua frente, ao invés de sobre uma superfície. Além disso, você recebe +2 para realizar Magias que exijam um Círculo de Invocação, e estas magias custam 5 Pontos de Mana a menos.</p>"
+    "concessoes": [],
+    "description": "<p>Os pelos, penas, rochas ou pele do alto da sua cabeça se transformam em uma profusão de pequenos chifres que lembram, vagamente, uma coroa. Você passa a ser capaz de realizar Círculos de Invocação como uma Ação Padrão ao invés de uma Ação de Turno Completo, desenhando o Círculo como traçaria uma Runa Arcana – geralmente no ar à sua frente, ao invés de sobre uma superfície. Além disso, você recebe +2 para realizar Magias que exijam um Círculo de Invocação, e estas magias custam 5 Pontos de Mana a menos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Conhecimento Arcano. Círculos de Invocação passam a exigir apenas Ação Padrão, custam 5 PM a menos e recebem bônus de +2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "coroa-infernal",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

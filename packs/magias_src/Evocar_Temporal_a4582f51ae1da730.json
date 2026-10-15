@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
-    "custo": 0,
-    "dificuldade": 8,
+    "tipo": "acao",
+    "fonte": "mistica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 11,
+    "dificuldadeTexto": "11",
     "circulo": 1,
-    "description": "<p>Conjura tempestade sobrenatural na área. Efeito mecânico exato pendente.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Princípio Natural",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Princípio Natural</p><p>Desenhando um Selo Místico sobre si mesmo, você inicia uma poderosa tempestade de chuva ou vento. A tempestade cobre uma área de 1 km de diâmetro e se move conforme você se desloca, permanecendo centrada em você. Todos na área realizam seus testes como se fossem Inaptos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O temporal leva 3 turnos para se formar e o Selo Místico se dissipa em um número de minutos igual à sua Vontade.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "evocar-temporal",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "a4582f51ae1da730",

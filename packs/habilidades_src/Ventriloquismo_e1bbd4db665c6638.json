@@ -1,0 +1,46 @@
+{
+  "name": "Ventriloquismo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 31",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é capaz de falar sem mover os lábios, além de saber projetar sua voz e imitar sons com perfeição. Sempre que falar (mas não utilizar Músicas) você pode escolher não mover os lábios e/ou fazer com que sua voz pareça vir de um ponto a até sua Vontade em metros de distância. Além disso, você é capaz de imitar com perfeição a voz de criaturas que já tenha ouvido – incluindo sotaques de idiomas que conheça ou mesmo sons de animais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> N/A.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ventriloquismo",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "e1bbd4db665c6638",
+  "_key": "!items!e1bbd4db665c6638"
+}

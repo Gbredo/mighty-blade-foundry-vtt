@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Manter à Distância",
+    "acesso": [
+      "Lanceiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Herói, pág. 107–109",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sempre que você fizer um ataque devido a uma Habilidade do tipo Reação e estiver usando uma arma de haste, você recebe +2 no teste de ataque e no dano do ataque.</p>"
+    "concessoes": [],
+    "description": "<p>Sempre que você fizer um ataque devido a uma Habilidade do tipo Reação e estiver usando uma arma de haste, você recebe +2 no teste de ataque e no dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Manter à Distância. Caminho Lanceiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "fique-longe",
       "automatica": false,
+      "acesso": [
+        "Lanceiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

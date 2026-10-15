@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Dragano, Escamas",
+    "dificuldadeTexto": "",
+    "requisitos": "Características Dracônicas (Escamas)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 27",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contra": "qualquer fonte"
       }
     ],
-    "description": "<p>Suas escamas se tornam mais grossas, garantindo Redução de Dano (RD) 2 contra qualquer fonte. Só pode ser selecionada durante a criação do personagem.</p>"
+    "concessoes": [],
+    "description": "<p>Suas escamas são mais grossas e resistentes do que as de outros da sua raça. Você reduz todo o dano que sofrer em 2, independente da fonte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Escamas*. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "escamas-pesadas",
       "automatica": false,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

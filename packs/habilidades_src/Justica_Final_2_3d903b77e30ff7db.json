@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 50,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Justiça Final 1",
+    "acesso": [
+      "Espada de Mirah",
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 116; Guia de Tebryn, pág. 36",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um demônio, morto-vivo ou espírito.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um demônio, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Justiça Final 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "justica-final-2",
       "automatica": false,
+      "acesso": [
+        "Espada de Mirah",
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

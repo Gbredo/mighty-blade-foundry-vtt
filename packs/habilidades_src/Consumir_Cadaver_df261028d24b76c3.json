@@ -1,0 +1,44 @@
+{
+  "name": "Consumir Cadáver",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Gnoll"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 28-29",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Como uma ação de rodada completa, você devora parte de um cadáver que ainda esteja quente (morto no último minuto) ou uma criatura que esteja Indefesa ou Por um Fio e recupera uma quantidade de Pontos de Vida e de Mana iguais à sua Determinação. Se o alvo estiver Indefeso, ele perde todos os seus Pontos de Vida e fica Por um Fio. Se o alvo estiver Por um Fio, ele morre automaticamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige uma Ação Completa e que o alvo seja um cadáver recente (morto há menos de 1 minuto) ou uma criatura nas condições Indefesa ou Por um Fio.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "consumir-cadaver",
+      "automatica": false,
+      "acesso": [
+        "Gnoll"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "df261028d24b76c3",
+  "_key": "!items!df261028d24b76c3"
+}

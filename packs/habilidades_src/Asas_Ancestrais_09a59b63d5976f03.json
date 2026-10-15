@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Levent",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 33; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -24,12 +35,20 @@
         "restricoes": "Pode planar; não pode parar no ar — deve manter movimento constante"
       }
     ],
-    "description": "<p>Imune a envelhecimento. Voo com 2× o Deslocamento normal. Pode planar, mas não pode parar no ar (precisa manter movimento).</p>"
+    "concessoes": [],
+    "description": "<p>Você possui grandes asas emplumadas e constituição similar à de aves de rapina. Você é imune a efeitos de envelhecimento e pode voar com grande velocidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Para alçar voo a partir do chão, você precisa de um espaço de impulso igual à sua envergadura (o dobro da sua altura). No ar, você não pode pairar/ficar imóvel (apenas planar ou se mover continuamente). Armaduras pesadas e rígidas impedem o voo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "asas-ancestrais",
       "automatica": true,
+      "acesso": [
+        "Levent",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

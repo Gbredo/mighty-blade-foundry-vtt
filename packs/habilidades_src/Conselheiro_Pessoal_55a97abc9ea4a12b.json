@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Séquito.",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Séquito",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 26",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você tem um conselheiro fiel dentro do seu séquito. Um de seus seguidores passa a ser um PdM Bardo, Xamã ou de uma Classe conjuradora com metade do nível do</p>"
+    "concessoes": [],
+    "description": "<p>Você tem um conselheiro fiel dentro do seu séquito. Um de seus seguidores passa a ser um PdM Bardo, Xamã ou de uma Classe conjuradora com metade do nível do Senescal (arredondado para baixo). Você pode criar a ficha do seu conselheiro ou optar que o Mestre faça isso – Sacerdotes e Bardos são as Classes mais indicadas. O Conselheiro é um PDM controlado pelo Mestre, mas ele seguirá suas ordens desde que possa manter você dentro da sua linha de visão. Ele acompanhará você em aventuras, mas dará preferência a Habilidades defensivas – entrando em combate direto apenas em último caso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caso seu conselheiro morra, seja dispensado, lhe abandone ou de alguma outra forma deixe de servir você, você pode contratar ou atrair um novo conselheiro usando as mesmas regras listadas. O conselheiro terá equipamentos adequados à sua Classe que não ultrapassem 200 moedas, mas você pode fornecer equipamentos melhores se tiver condições. Requer Nível 5 e a habilidade Séquito.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "conselheiro-pessoal",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

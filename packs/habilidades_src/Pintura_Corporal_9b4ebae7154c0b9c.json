@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Fauno",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Fauno"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 57-58",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você utiliza pigmentos e símbolos tribais no corpo. Escolha uma pintura ativa: Pintura de Caça (+1 em visão e ataques à distância, +1 de dano à distância), Pintura de Guerra (+2 de dano corporal e Defesa +1), Pintura de Oração (+2 em voz/músicas) ou Pintura Ritual (+1 em linguagem corporal e Magias).</p>"
+    "concessoes": [],
+    "description": "<p>Pinturas corporais são comuns entre os Faunos, utilizadas em rituais ou simplesmente como forma de expressão artística. Você deposita muita fé nos significados tradicionais das pinturas, ao ponto de conseguir se beneficiar dessa convicção quando estiver usando uma pintura.\r<br>\r<br>Sempre que estiver usando uma pintura corporal e que ela esteja completamente à mostra, você recebe um dos benefícios listados. Apenas uma pintura corporal pode ser usada por vez. Uma pintura corporal dura até você tomar banho – intencionalmente ou não! - ou dormir.\r<br>\r<br>- <strong>Pintura de Caça:</strong> Realizada ao redor dos olhos e nas mãos. Você recebe +1 em seus testes ligados à visão e ataques à distância. Além disso, seus ataques à distância causam +1 de dano.\r<br>- <strong>Pintura de Guerra:</strong> Realizada nos braços, mãos e peito. Seus ataques corporais causam +2 de dano e você recebe Defesa +1 (Este é um bônus de esquiva).\r<br>- <strong>Pintura de Oração:</strong> Realizada ao redor da boca e pescoço. Você recebe +2 em todos os seus testes ligados à sua voz e instrumentos musicais de sopro, incluindo interações sociais (como convencer ou mentir) e cantar ou usar instrumentos musicais de sopro (incluindo Habilidades do tipo Música).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Permite escolher um entre os três padrões de pintura (Caça, Guerra ou Oração). O benefício permanece ativo enquanto a pintura estiver visível e cessa ao tomar banho ou dormir.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "pintura-corporal",
       "automatica": false,
+      "acesso": [
+        "Fauno"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

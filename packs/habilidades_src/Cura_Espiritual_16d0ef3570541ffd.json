@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Cura até 40 PV de uma criatura com Corpo Intangível. Remove efeitos mentais, Medo, Selos Místicos e Runas Arcanas do alvo.</p>"
+    "concessoes": [],
+    "description": "<p>Com seu toque você pode recuperar as energias de um espírito. Você pode curar até 40 Pontos de Vida de uma criatura com Corpo Intangível, além de remover quaisquer efeitos Mentais, de medo, Selos Místicos e Runas Arcanas que a estiverem afetando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu o tipo desta habilidade de Magia para Técnica, visto que Xamãs não são Conjuradores arcanos/místicos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cura-espiritual",
       "automatica": false,
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Dragano",
+    "dificuldadeTexto": "",
+    "requisitos": "Linhagem Dracônica",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 27-28",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Dispara uma rajada elemental numa distância igual à sua Vontade em metros. O efeito varia pela Linhagem: 20/Fogo (vermelhos), 10/Frio + alvo Enregelado (brancos) ou 15/Eletricidade + alvo Atordoado por 1 turno (verdes).</p>"
+    "concessoes": [],
+    "description": "<p>Você consegue concentrar sua vontade em uma potente rajada de energia, como seus ancestrais dracônicos. Este sopro atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente. O tipo de dano e os efeitos dependem de sua Linhagem Dracônica: 20/Fogo para dragões de fogo, 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado para dragões do frio ou 15/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno para dragões do relâmpago.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Automática Linhagem Dracônica. O alcance em metros é igual ao valor da Vontade do personagem e afeta todos em uma área cônica/reta à frente do conjurador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sopro-draconico",
       "automatica": false,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

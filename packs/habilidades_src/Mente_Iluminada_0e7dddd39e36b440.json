@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Fira, Levent",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Fira",
+      "Levent"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 69",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "vontade",
       "valor": 1
@@ -23,12 +34,20 @@
         "valor": 5
       }
     ],
-    "description": "<p>Você possui uma clareza única de raciocínio e serenidade de espírito. Você ganha permanentemente Vontade +1 e +5 Pontos de Mana.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma clareza única de raciocínio. Você tem Vontade +1 e +5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede bônus fixo de Vontade +1 e +5 Pontos de Mana.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mente-iluminada",
       "automatica": false,
+      "acesso": [
+        "Fira",
+        "Levent"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

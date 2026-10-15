@@ -6,19 +6,42 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Espada de Mirah",
+      "Paladino",
+      "Arconte",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia de Tebryn, pág. 33, 44",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você sempre cumpre suas promessas, não importa quão difícil isso seja, e preza a verdade acima de tudo, emanando uma aura de honestidade que deixa desconfortáveis aqueles que escondem a verdade. Você sempre saberá quando alguém estiver mentindo. Nem sempre omitir é mentir, depende das intenções da pessoa que está omitindo. Mentir é passar informações erradas propositalmente.</p>"
+    "concessoes": [],
+    "description": "<p>Você sempre cumpre suas promessas, não importa quão difícil isso seja, e preza a verdade acima de tudo, emanando uma aura de honestidade que deixa desconfortáveis aqueles que escondem a verdade. Você sempre saberá quando alguém estiver mentindo. Nem sempre omitir é mentir, depende das intenções da pessoa que está omitindo. Mentir é passar informações erradas propositalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Austeridade e Montaria Especial 3.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "codigo-da-honestidade",
       "automatica": false,
+      "acesso": [
+        "Espada de Mirah",
+        "Paladino",
+        "Arconte",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

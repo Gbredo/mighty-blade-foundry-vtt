@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Sintonia Dracônica",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 21",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui um considerável conhecimento e uma compreensão intuitiva sobre os desígnios da Aurora dos Dragões. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e criaturas dracônicas. Além disso, o custo em Mana de todas as Habilidades do tipo Magia que você conjurar é diminuído em 5.</p>"
+    "concessoes": [],
+    "description": "<p>Você acumulou um grande conhecimento e uma compreensão intuitiva sobre os desígnios da Aurora dos Dragões. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e criaturas dracônicas. Além disso, o custo em Mana de todas as Habilidades do tipo Magia que você conjurar é diminuído em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige a habilidade Sintonia Dracônica.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arcipreste",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

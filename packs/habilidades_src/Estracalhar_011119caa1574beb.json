@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 35,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "brigao",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Brigão",
+    "acesso": [
+      "Xamã",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Errata - Guia Básico, pág. 2; Codex Monstrorum, pág. 163",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Salta e realiza Encontrão com todos os ataques corporais possíveis ao mesmo tempo (garras, mordida, chutes).</p>"
+    "concessoes": [],
+    "description": "<p>Você salta sobre um alvo atacando com tudo o que tem! Faça um Encontrão realizando todos os seus possíveis ataques corporais (em geral dois socos/garradas/ataques com armas, dois chutes/ataques com cascos e uma cabeçada/mordida/marrada). Se você possuir Habilidades do tipo Característica que permitam mais ataques (como Reflexos Dracônicos ou Braços Extras) você pode realizar todos estes ataques.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata Oficial do Guia Básico atualizou o pré-requisito desta habilidade para Nível 5 e a habilidade Brigão (substituindo Combate com Duas Armas 1).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "estracalhar",
       "automatica": false,
+      "acesso": [
+        "Xamã",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

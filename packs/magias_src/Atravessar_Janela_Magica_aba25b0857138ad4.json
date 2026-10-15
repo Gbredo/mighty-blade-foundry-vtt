@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 30,
-    "dificuldade": 16,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Janela Mágica</p><p>Desenhando um Selo Místico sobre uma Janela Mágica, você cria um portal diretamente a frente da criatura, objeto ou superfície que você estiver observando, que pode ser atravessado em ambas as direções. Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Janela Mágica",
+    "acesso": [
+      "Oráculo"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 110–112",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Janela Mágica</p><p>Desenhando um Selo Místico sobre uma Janela Mágica, você cria um portal diretamente a frente da criatura, objeto ou superfície que você estiver observando, que pode ser atravessado em ambas as direções. Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Janela Mágica. Caminho Oráculo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "atravessar-janela-magica",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Oráculo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "aba25b0857138ad4",

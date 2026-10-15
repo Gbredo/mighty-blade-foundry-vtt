@@ -1,0 +1,44 @@
+{
+  "name": "Chamas Internas 2",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "caracteristica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Chamas Internas 1",
+    "acesso": [
+      "Fira"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 60",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>O Vigor de Hou incendeia seu espírito e encandece seu corpo. Você é capaz de produzir tanto calor em seu interior que se torna incandescente durante 1 minuto, ficando Imune a Fogo (ou, se você já possui Imunidade a Fogo, você passa a absorver fogo, recuperando uma quantidade de Pontos de Vida iguais à qualquer quantidade de dano por fogo que sofreria). Além disso, qualquer um que tocá-lo (ou que seja atingido por seus ataques desarmados) sofre dano igual à 6/Fogo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Chamas Internas 1.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "chamas-internas-2",
+      "automatica": false,
+      "acesso": [
+        "Fira"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "16e9bd1e46bf2731",
+  "_key": "!items!16e9bd1e46bf2731"
+}

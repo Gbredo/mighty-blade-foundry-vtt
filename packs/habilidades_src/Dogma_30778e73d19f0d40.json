@@ -4,22 +4,57 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Sacerdote",
+      "Cruzado",
+      "Oráculo",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 142",
+    "exclusivoCom": [
+      "Apóstata",
+      "Pacto"
+    ],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você segue estritamente os ensinamentos de uma divindade que, em troca, lhe concede um favor especial. Escolha um Dogma para seguir. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Dogmas no final desse capítulo.</p>"
+    "concessoes": [],
+    "description": "<p>Você segue estritamente os ensinamentos de uma divindade que, em troca, lhe concede um favor especial. Escolha um Dogma para seguir. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Dogmas no final do capítulo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um personagem que não siga os Dogmas de uma divindade específica é considerado um Discípulo do Panteão ou Sacerdote do Panteão e não está vinculado a nenhuma divindade em particular – nem recebe quaisquer benefícios ou precisa seguir nenhuma conduta específica. Serve de pré-requisito para as habilidades Conjurar Arma dos Deuses, Elo Natural, Marca da Justiça, Marca da Verdade, Maré de Sorte, Quebrar os Grilhões, Aura de Guerra e Aura de Paz.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "dogma",
       "automatica": false,
-      "opcoes": []
+      "acesso": [
+        "Sacerdote",
+        "Cruzado",
+        "Oráculo",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [
+        "Dogma: Discípulo da Forja",
+        "Dogma: Discípulo da Guerra",
+        "Dogma: Discípulo da Justiça",
+        "Dogma: Discípulo da Liberdade",
+        "Dogma: Discípulo da Natureza",
+        "Dogma: Discípulo da Paz",
+        "Dogma: Discípulo da Sabedoria",
+        "Dogma: Discípulo do Destino"
+      ]
     }
   },
   "_id": "30778e73d19f0d40",

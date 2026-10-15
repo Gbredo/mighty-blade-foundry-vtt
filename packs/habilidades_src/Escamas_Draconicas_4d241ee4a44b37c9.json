@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Vínculo Dracônico",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 22",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sua sintonia dracônica faz com que sua pele seja recoberta de escamas grossas e resistentes. As escamas lhe fornecem Defesa +2 (esse bônus de Defesa conta como Armadura) e você reduz todo o dano que sofrer em 2, independente da fonte.</p>"
+    "concessoes": [],
+    "description": "<p>Sua sintonia dracônica faz com que sua pele seja recoberta de escamas grossas e resistentes. As escamas lhe fornecem Defesa +2 (esse bônus de Defesa conta como Armadura) e você reduz todo o dano que sofrer em 2, independente da fonte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige a habilidade Vínculo Dracônico.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "escamas-draconicas",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -4,10 +4,22 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Mahok",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Fronteiras Rochosas",
+      "Anão",
+      "Mahok"
+    ],
+    "tipoAcesso": "Raça / Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Guia de Tebryn, pág. 99",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +31,21 @@
         "contexto": "testes em ambientes rochosos e minerais"
       }
     ],
-    "description": "<p>Recebe +2 em todos os testes ligados a ambientes rochosos e montanhosos: escalada, sobrevivência em montanhas, avaliação de gemas/rochas e perícias em alvenaria e joalheria.</p>"
+    "concessoes": [],
+    "description": "<p>Você nasceu ou passou grande parte da sua vida em ambientes montanhosos. Você recebe +2 em seus testes ligados a locais rochosos e montanhosos – como escalar rocha (nua ou trabalhada), percepção e sobrevivência em áreas montanhosas, identificar animais dessas regiões, avaliar formações rochosas e pedras brutas ou trabalhadas (incluindo construções de pedra e pedras preciosas) e para trabalhar em pedra – seja artesanato, alvenaria ou joalheria.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade racial de Anões e Mahoks, também acessível como habilidade de organização para a Fronteiras Rochosas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "nascido-nas-montanhas",
       "automatica": false,
+      "acesso": [
+        "Fronteiras Rochosas",
+        "Anão",
+        "Mahok"
+      ],
+      "tipoAcesso": "Raça / Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

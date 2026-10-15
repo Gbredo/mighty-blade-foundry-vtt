@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 5,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Amoque"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 71",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando lhe causam dano, seus oponentes costumam se arrepender amargamente! Enquanto estiver sob um efeito de Fúria e sofrer dano causado por uma criatura que você possa ver, você pode adicionar um bônus de dano igual à sua Vontade em seus ataques corporais contra ela.</p>"
+    "concessoes": [],
+    "description": "<p>Quando lhe causam dano, seus oponentes costumam se arrepender amargamente! Enquanto estiver sob um efeito de Fúria e sofrer dano causado por uma criatura que você possa ver, você pode adicionar um bônus de dano igual à sua Vontade em seus ataques corporais contra ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e estar sob um efeito de Fúria. Ativada como reação ao sofrer dano de uma criatura dentro de sua linha de visão.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "retribuicao-furiosa",
       "automatica": false,
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

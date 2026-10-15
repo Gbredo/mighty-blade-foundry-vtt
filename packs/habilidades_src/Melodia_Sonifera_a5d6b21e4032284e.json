@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "musica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 121",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Após tocar por 3 turnos, alvos rolam Vontade contra você. Quem perder cai em sono profundo (Efeito Mental) por 1 hora.</p>"
+    "concessoes": [],
+    "description": "<p>Você toca uma melodia lenta e ritmada, que acalma a ponto de fazer quem a escuta cair no sono. Após 3 turnos ouvindo essa Melodia, todos que puderem escutá-la (menos você) rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado menor que o seu caem em um sono profundo que dura 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "melodia-sonifera",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

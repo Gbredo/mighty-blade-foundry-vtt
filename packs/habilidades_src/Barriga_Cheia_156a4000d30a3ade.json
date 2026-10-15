@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Metadílio",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Metadílio"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 16",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você descansa muito melhor depois de comer tanto quanto possível. Você recupera o dobro de Pontos de Mana e de Pontos de Vida por repouso se descansar logo após uma refeição farta.</p>"
+    "concessoes": [],
+    "description": "<p>Você descansa muito melhor depois de comer tanto quanto possível. Você recupera o dobro de Pontos de Mana e de Pontos de Vida por repouso se descansar logo após uma refeição farta.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Recupera o dobro de Pontos de Vida e de Mana por repouso quando realizado imediatamente após uma refeição farta.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "barriga-cheia",
       "automatica": false,
+      "acesso": [
+        "Metadílio"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

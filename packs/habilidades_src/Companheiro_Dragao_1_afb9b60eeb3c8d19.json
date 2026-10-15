@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Sintonia Dracônica",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 22",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode conjurar um Ovo Elemental. Este Ovo é considerado um item de Drakonite com as Características Canalizador, Foco Mágico, Cerne Místico e Cerne Arcano. Um</p>"
+    "concessoes": [],
+    "description": "<p>Você pode conjurar um Ovo Elemental. Este Ovo é considerado um item de Drakonite com as Características Canalizador, Foco Mágico, Cerne Místico e Cerne Arcano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um Dracomante não pode conjurar mais do que um Ovo Elemental de cada vez, nem pode conjurar um Ovo Elemental se possuir um Companheiro Dragão. O Dracomante sempre sabe a direção e a distância de seu Ovo Elemental. Se ficar mais de um dia inteiro sem contato com o Dracomante – ou se estiver em um plano diferente do Dracomante – o Ovo se dissipa em energia elemental. Requer Sintonia Dracônica.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "companheiro-dragao-1",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

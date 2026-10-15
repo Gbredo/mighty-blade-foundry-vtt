@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Arpão",
+      "Lobos dos Mares"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 88, 97",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você passou muito tempo sobre as ondas e está acostumado com o balanço do mar. Você recebe +2 em todos os seus testes de Força e Agilidade quando estiver em uma embarcação ou dentro d’água. Capuzes Negros Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas.</p>"
+    "concessoes": [],
+    "description": "<p>Você passou muito tempo sobre as ondas e está acostumado com o balanço do mar. Você recebe +2 em todos os seus testes de Força e Agilidade quando estiver em uma embarcação ou dentro d’água.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Disponível para membros de O Arpão e dos Lobos dos Mares.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "pernas-do-mar",
       "automatica": false,
+      "acesso": [
+        "Arpão",
+        "Lobos dos Mares"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,42 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Forjas de Hou",
+      "Anão",
+      "Fira"
+    ],
+    "tipoAcesso": "Raça / Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Guia de Tebryn, pág. 84",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você passou muito tempo nas forjas ou nasceu abençoado por Hou com uma resistência inata ao fogo e seus malefícios. Você possui Resistência ao Fogo e sua visão e respiração não são afetadas por fumaça. Arte da Forja Apenas armas de metal podem ser alteradas pela Habilidade Arte da Forja 2, o que exclui o bordão/cajado, a clava/ cetro, a funda, a plumbata, o fustíbalo, a zarabatana e todos os arcos, assim como a túnica pesada e a armadura de couro. além disso, uma arma não pode ficar com FN 0, então a adaga/punhal e a soqueira/manopla não podem receber modificações de diminuição de FN – mas podem receber modificação de aumento de dano.</p>"
+    "concessoes": [],
+    "description": "<p>Você passou muito tempo nas forjas ou nasceu abençoado por Hou com uma resistência inata ao fogo e seus malefícios. Você possui Resistência ao Fogo e sua visão e respiração não são afetadas por fumaça.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede a Condição Resistente ao Fogo. Habilidade racial dos Anões e Firas, e também acessível para membros da organização Forjas de Hou.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "forjado-a-fogo",
       "automatica": false,
+      "acesso": [
+        "Forjas de Hou",
+        "Anão",
+        "Fira"
+      ],
+      "tipoAcesso": "Raça / Organização",
+      "nivel": "Nv1",
+      "aliases": [
+        "Forjado a Fogo"
+      ],
       "opcoes": []
     }
   },

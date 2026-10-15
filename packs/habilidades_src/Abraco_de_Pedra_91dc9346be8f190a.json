@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Mahok",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Mahok"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 71; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "testes de agarrar, apertar, escalar e resistir a desarmar"
       }
     ],
-    "description": "<p>Você possui mãos maciças feitas para agarrar e esmagar. Recebe +2 em testes de agarrar, apertar, escalar e resistir a desarmar. Além disso, causa +2 de dano ao apertar um alvo agarrado.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui mãos fortes, acostumadas a agarrar e segurar com eficiência. Você recebe +2 em seus testes de agarrar, apertar, escalar e para resistir a tentativas de desarmá-lo. Além disso, quando apertar um alvo você causa 2 pontos de dano adicionais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esses bônus se acumulam com os bônus da habilidade Braços Extras.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "abraco-de-pedra",
       "automatica": false,
+      "acesso": [
+        "Mahok"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

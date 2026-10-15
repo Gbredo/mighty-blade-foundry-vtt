@@ -6,8 +6,18 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +33,19 @@
         "situacao": "penalidade de atacar alvos Intangíveis e Incorpóreos"
       }
     ],
-    "description": "<p>+8 de dano com arma marcada por Runa pessoal. Afeta alvos Intangíveis e Incorpóreos como se fossem físicos.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa +8 de dano e afeta criaturas incorpóreas como se elas não tivessem essa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para a habilidade Onda Fantasma.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-fantasma",
       "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

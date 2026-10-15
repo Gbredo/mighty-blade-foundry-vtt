@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 23",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você está sintonizado com a energia elemental de um tipo de dragão. Escolha entre ser sintonizado com dragões de fogo e ter Resistência a Fogo, ser sintonizado aos dragões do frio e ter Resistência a Frio ou ser sintonizado com os dragões do relâmpago ser Resistente à Eletricidade. Em seguida, escolha um tipo de energia (Fogo, Frio ou Eletricidade) diferente daquele ligado ao tipo de dragão que você é sintonizado. Você perde Resistência ou Imunidade contra aquele elemento (se possuir) e não pode se tornar Resistente ou Imune a ele de forma alguma (nem mesmo através de magias ou itens mágicos). Essas escolhas são permanentes e não podem ser mudadas mais tarde. Especial: Sempre que utilizar uma Habilidade que cause o mesmo dano da Resistência que tiver escolhido, aquela Habilidade causa dano +6.</p>"
+    "concessoes": [],
+    "description": "<p>Você está sintonizado com a energia elemental de um tipo de dragão. Escolha entre ser sintonizado com dragões de fogo e ter Resistência a Fogo, ser sintonizado aos dragões do frio e ter Resistência a Frio ou ser sintonizado com os dragões do relâmpago e ser Resistente à Eletricidade. Em seguida, escolha um tipo de energia (Fogo, Frio ou Eletricidade) diferente daquele ligado ao tipo de dragão que você é sintonizado. Você perde Resistência ou Imunidade contra aquele elemento (se possuir) e não pode se tornar Resistente ou Imune a ele de forma alguma. Essas escolhas são permanentes e não podem ser mudadas mais tarde.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Sempre que utilizar uma Habilidade que cause o mesmo dano da Resistência que tiver escolhido, aquela Habilidade causa dano +6.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sintonia-draconica",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

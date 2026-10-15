@@ -1,0 +1,37 @@
+{
+  "name": "Conjurar Lança do Destino",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "tipo": "acao",
+    "fonte": "mistica",
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 10,
+    "dificuldadeTexto": "10",
+    "circulo": 1,
+    "nivel": "Nv1",
+    "requisitos": "Exorcismo",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 179-180",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Exorcismo</p><p>Você desenha um Selo Místico no ar que assume a forma de uma lança de luz. A lança arremete na direção de um alvo que você possa ver e causa dano igual a 10/Perfuração. Se a criatura for um demônio, morto-vivo ou espírito a lança causa o dobro do dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à sua Determinação) ou fica Distraído por 1 turno. Demônios, mortos-vivos ou espíritos não têm direito ao teste para evitar ficarem Distraídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer a habilidade Exorcismo. Servindo de pré-requisito para Conjurar Falange do Destino.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurar-lanca-do-destino",
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
+    }
+  },
+  "_id": "c6a6a4ce1b77db4e",
+  "_key": "!items!c6a6a4ce1b77db4e"
+}

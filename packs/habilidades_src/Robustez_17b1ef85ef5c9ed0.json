@@ -6,8 +6,24 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Aesir",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Aesir",
+      "Astério",
+      "Astéria",
+      "Centauro",
+      "Juban",
+      "Orc",
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -18,12 +34,25 @@
         "valor": 5
       }
     ],
-    "description": "<p>Possuindo uma constituição muito vigorosa, você ganha +5 Pontos de Vida máximos e rola +1d6 extra em testes de Força para resistir à fadiga, venenos e doenças.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma constituição vigorosa para os padrões da sua raça. Você tem +5 Pontos de vida e rola +1d6 em testes de Força para resistir à fadiga, venenos e doenças.</p>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "robustez",
       "automatica": false,
+      "acesso": [
+        "Aesir",
+        "Astério",
+        "Astéria",
+        "Centauro",
+        "Juban",
+        "Orc",
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

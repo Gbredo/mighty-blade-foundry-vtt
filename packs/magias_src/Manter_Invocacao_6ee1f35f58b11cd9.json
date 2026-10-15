@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
-    "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocação Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura que você tenha invocado, a duração da Runa ou Selo que mantém a invocação é duplicada. Você pode desenhar quantas Runas ou Selos desses quiser sobre uma criatura invocada, e seus efeitos são cumulativos.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Invocação Persistente",
+    "acesso": [
+      "Invocador"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 104–106",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocação Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura que você tenha invocado, a duração da Runa ou Selo que mantém a invocação é duplicada. Você pode desenhar quantas Runas ou Selos desses quiser sobre uma criatura invocada, e seus efeitos são cumulativos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Invocação Persistente. Caminho Invocador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "manter-invocacao",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "6ee1f35f58b11cd9",

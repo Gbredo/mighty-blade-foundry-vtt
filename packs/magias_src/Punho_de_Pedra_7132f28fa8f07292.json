@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Mover Terra</p><p>Você desenha um Selo Místico sobre o solo (ou em uma estrutura de pedra como Paredes de alvenaria, estátuas de pedra e tetos de cavernas), fazendo com que uma coluna se projete violentamente da estrutura. Um alvo dessa magia sofre dano igual à 30/Contusão e precisa vencer um teste de Força (dificuldade igual à Determinação do conjurador) para não ser derrubado. A coluna tem cerca de 1 metro de diâmetro e uma extensão em metros igual à Vontade do conjurador. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a coluna de pedra é permanente.</p>"
+    "dificuldadeTexto": "12",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Mover Terra",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 89",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Mover Terra</p><p>Você desenha um Selo Místico sobre o solo (ou em uma estrutura de pedra como paredes de alvenaria, estátuas de pedra e tetos de cavernas), fazendo com que uma coluna se projete violentamente da estrutura. Um alvo dessa magia sofre dano igual a 30/Contusão e precisa vencer um teste de Força (Dificuldade igual à Determinação do conjurador) para não ser derrubado. A coluna tem cerca de 1 metro de diâmetro e uma extensão em metros igual à Vontade do conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a coluna de pedra é permanente. Requer Nível 5 e Mover Terra.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "punho-de-pedra",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "7132f28fa8f07292",

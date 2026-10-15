@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Ladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 118",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode pegar garrafas quebradas, lascas de madeira ou osso, pedaços de vidro ou mesmo de gelo e usar como se fosse uma adaga. Em geral uma adaga improvisada dessa forma se torna inútil depois de um ataque. Você também pode montar ou desarmar armadilhas e abrir fechaduras sem ter os materiais apropriados, desde que possa improvisar gazuas ou ferramentas – com agulhas, galhos, lascas de pedra, pedaços de armas, etc.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode pegar garrafas quebradas, lascas de madeira ou osso, pedaços de vidro ou mesmo de gelo e usar como se fosse uma adaga. Em geral uma adaga improvisada dessa forma se torna inútil depois de um ataque. Você também pode montar ou desarmar armadilhas e abrir fechaduras sem ter os materiais apropriados, desde que possa improvisar gazuas ou ferramentas – com agulhas, galhos, lascas de pedra, pedaços de armas, etc..</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Permite contornar a Inaptidão por falta de Kit de Arrombamento ou Kit de Armadilhas via improvisação de ferramentas no ambiente.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "improvisacao-ladina",
       "automatica": false,
+      "acesso": [
+        "Ladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

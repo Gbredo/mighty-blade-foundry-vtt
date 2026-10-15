@@ -1,0 +1,48 @@
+{
+  "name": "Dogma: Discípulo da Paz",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é consagrado a Denalla, a deusa da misericórdia, da cura e da paz entre os povos. Todas as suas magias de Cura recuperam 5 Pontos de Vida adicionais quando conjuradas sobre criaturas vivas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Aura de Paz. Código de conduta: nunca desferir o primeiro golpe em combate e sempre priorizar a resolução diplomática e o socorro aos feridos.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-da-paz",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo da Paz"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "e6e2f6e1cb40ff9f",
+  "_key": "!items!e6e2f6e1cb40ff9f"
+}

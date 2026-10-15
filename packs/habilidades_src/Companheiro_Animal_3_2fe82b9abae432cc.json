@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Companheiro animal 2",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Companheiro Animal 2",
+    "acesso": [
+      "Druida",
+      "Patrulheiro",
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 87, 121, 140",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seu Companheiro Animal recebe +1 em todos os seus Atributos e +10 Pontos de Vida ou +10 Pontos de Mana à sua escolha. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p>"
+    "concessoes": [],
+    "description": "<p>Seu Companheiro Animal recebe +1 em todos os seus Atributos e +10 Pontos de Vida ou +10 Pontos de Mana à sua escolha. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Companheiro Animal 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "companheiro-animal-3",
       "automatica": false,
+      "acesso": [
+        "Druida",
+        "Patrulheiro",
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

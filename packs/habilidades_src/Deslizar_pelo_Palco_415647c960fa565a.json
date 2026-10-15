@@ -1,0 +1,46 @@
+{
+  "name": "Deslizar pelo Palco",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Evasão",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 45",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Sempre que você estiver mantendo uma Música e for alvo de um ataque, você pode tentar esquivar enquanto mantém a Música tocando – e faz isso com estilo! Você desliza sobre os joelhos, podendo se mover metade do seu Deslocamento total (arredondado para baixo) e recebendo +2 na sua Defesa contra aquele ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um bônus por posicionamento e não pode ser ignorado ou reduzido. Você pode utilizar esta Habilidade 1 vez por turno.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "deslizar-pelo-palco",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "415647c960fa565a",
+  "_key": "!items!415647c960fa565a"
+}

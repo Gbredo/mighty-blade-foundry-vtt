@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Alquimista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 80–82",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você se especializou na produção e utilização de Extratos – o que, via de regra, significa jogar frascos de poção à uma boa distância! Você recebe +2 nos seus testes para produzir Extratos e em seus teses de arremesso.</p>"
+    "concessoes": [],
+    "description": "<p>Especialista em Extratos. +2 em testes para produzir Extratos e em testes de arremesso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Alquimista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "espagiria",
       "automatica": false,
+      "acesso": [
+        "Alquimista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

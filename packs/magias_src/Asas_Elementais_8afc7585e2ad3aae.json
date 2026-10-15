@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você faz com que um par de asas de energia surjam em suas costas. O alvo ganha a Habilidade Asas Fortes. Esse Selo Místico dura uma quantidade de minutos igual à Determinação do conjurador.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 21",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você faz com que um par de asas de energia surjam em suas costas. O alvo ganha a Habilidade Asas Fortes.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura uma quantidade de minutos igual à Determinação do conjurador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "asas-elementais",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "8afc7585e2ad3aae",

@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 10, Princípio Na-",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Princípio Natural, Companheiro Animal 1, Sabedoria Selvagem",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 89",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>tural, Companheiro Animal 1, Sabedoria Selvagem Você adquiriu um vínculo poderoso com a natureza e um vasto entendimento de seu funcionamento. Você recebe +2 em seus testes com relação a natureza, animais e magias e o custo de todas as magias que você lançar é diminuído em 5. Além disso, você pode atrair um segundo Companheiro Animal seguindo as mesmas regras descritas em Companheiro Animal 1. Seu segundo Companheiro Animal recebe os benefícios de todas as Habilidades Companheiro Animal que você tiver.</p>"
+    "concessoes": [],
+    "description": "<p>Você adquiriu um vínculo poderoso com a natureza e um vasto entendimento de seu funcionamento. Você recebe +2 em seus testes com relação a natureza, animais e magias e o custo de todas as magias que você lançar é diminuído em 5. Além disso, você pode atrair um segundo Companheiro Animal seguindo as mesmas regras descritas em Companheiro Animal 1. Seu segundo Companheiro Animal recebe os benefícios de todas as Habilidades Companheiro Animal que você tiver.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Druida (requer Nível 10, Princípio Natural, Companheiro Animal 1 e Sabedoria Selvagem).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "hierofante",
       "automatica": false,
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

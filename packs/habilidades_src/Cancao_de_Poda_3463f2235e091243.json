@@ -1,0 +1,46 @@
+{
+  "name": "Canção de Poda",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 76",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Essa canção é usada por algumas comunidades tribais quando os recursos estão muito escassos, ou quando a população da tribo cresce demais. Você murmura um ritmo lento e compassado que induz alvos indefesos a um profundo estado de coma. Eles não irão despertar a menos que sofram dano; se permanecerem assim por um dia inteiro, irão parar de respirar gradativamente e morrer.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Afeta apenas alvos Indefesos.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cancao-de-poda",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "3463f2235e091243",
+  "_key": "!items!3463f2235e091243"
+}

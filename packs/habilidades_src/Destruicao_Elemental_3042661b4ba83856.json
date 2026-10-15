@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Arma Incandescente, Arma Gélida, Arma Relampejante",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 126",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Todo dano de Fogo, Frio ou Eletricidade causado pelo Rúnico (em magias e ataques elementares) é dobrado.</p>"
+    "concessoes": [],
+    "description": "<p>Você se tornou extremamente hábil no controle das energias elementais. Sempre que usar uma técnica ou magia que causa dano por Fogo, Frio ou Eletricidade, esse dano é dobrado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Rúnico (requer Nível 10, Arma Incandescente, Arma Gélida e Arma Relampejante).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "destruicao-elemental",
       "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Arma Incandescente",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma onda flamejante que causa dano igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis – mas não faz alvos vivos irromperem em chamas.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma onda flamejante que causa dano igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis – mas não faz alvos vivos irromperem em chamas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Arma Incandescente. No texto original do manual, esta habilidade figura sob a nomenclatura *Onda de Fogo*.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "onda-de-chamas",
       "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

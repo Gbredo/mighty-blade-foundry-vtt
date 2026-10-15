@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Orc, Gnoll",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 43",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "testes em ambiente de deserto ou savana"
       }
     ],
-    "description": "<p>Acostumado a terras áridas e estepes, você recebe +1 em todos os seus testes quando estiver em ambiente de deserto ou savana, suporta uma quantidade de dias igual à sua Força sem água antes de desidratar e é imune aos efeitos de calor extremo.</p>"
+    "concessoes": [],
+    "description": "<p>Você está acostumado a ambientes desérticos e aprendeu a viver nesses locais. Você recebe um bônus de +1 em todos os seus testes quando está em um ambiente de deserto ou savana. Além disso, você pode passar uma quantidade de dias iguais à sua Força sem precisar ingerir água antes de ficar Desidratado e não é afetado por climas particularmente quentes ou áridos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Garante bônus de +1 em testes no deserto/savana e aumenta a resistência à desidratação.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "nomade-do-deserto",
       "automatica": false,
+      "acesso": [
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

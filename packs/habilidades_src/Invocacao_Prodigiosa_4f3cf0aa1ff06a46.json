@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 10, Manter Invoca-",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Manter Invocação",
+    "acesso": [
+      "Invocador"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia do Herói, pág. 104–106",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>ção Você é extremamente talentoso em realizar magias de Invocação. Todas as suas magias de Invocação têm sua Dificuldade reduzida em 2 e custam 5 Pontos de Mana a menos. Além disso, você pode realizar suas magias de Invocação como ações de turno completo ao invés ações padrão, conjurando aquela magia duas vezes simultaneamente. Você precisa fazer o teste e pagar o custo em mana de cada magia separadamente.</p>"
+    "concessoes": [],
+    "description": "<p>Você é extremamente talentoso em realizar magias de Invocação. Todas as suas magias de Invocação têm sua Dificuldade reduzida em 2 e custam 5 Pontos de Mana a menos. Além disso, você pode realizar suas magias de Invocação como ações de turno completo ao invés ações padrão, conjurando aquela magia duas vezes simultaneamente. Você precisa fazer o teste e pagar o custo em mana de cada magia separadamente. 40</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Manter Invocação. Caminho Invocador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "invocacao-prodigiosa",
       "automatica": false,
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

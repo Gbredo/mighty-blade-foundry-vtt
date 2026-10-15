@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Benção de Ellenis",
+    "acesso": [
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Codex Monstrorum, pág. 175",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Uivo que atrai bestas (Ameaça 0) de um tipo escolhido num raio de 500m por ponto de Força. Inclinadas a ajudar conforme temperamento.</p>"
+    "concessoes": [],
+    "description": "<p>Você solta um poderoso uivo (ou uma poderosa vibração sob a água) que será entendida como um chamado irresistível para os animais que o ouvirem. Você consegue atrair todas as Bestas (Escolha entre Mamífero, Ave, Réptil ou Peixe) do tipo escolhido que estejam a até 500 metros por ponto de Força que você tenha. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais sobreviventes ou agressivos não terão problemas com isso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Benção de Ellenis. No Codex Monstrorum (pág. 175), a versão revisada especifica que a habilidade atrai uma quantidade de Bestas igual à sua Vontade com Ameaça 0. Especial: Você pode refinar o tipo específico de animal quando ativar esta habilidade.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "chamado-do-alfa",
       "automatica": false,
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

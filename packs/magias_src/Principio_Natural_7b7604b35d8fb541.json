@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
-    "custo": 0,
+    "tipo": "acao",
+    "fonte": "mistica",
+    "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 8,
+    "dificuldadeTexto": "8",
     "circulo": 1,
-    "description": "<p>Você desenha um Selo Místico no ar que se transforma em uma pequena quantidade de terra, água ou ar. Um punhado de terra pode ser usado para nutrir uma pequena planta, uma porção de água pode ser usada para matar a sede de uma pessoa e uma porção de ar criado desse modo permite que uma criatura respire normalmente por até 10 minutos debaixo d’água. Essa magia pode ser conjurada na forma de uma rajada mágica. Uma rajada de água pode apagar uma chama do tamanho de uma fogueira de acampamento, uma rajada de ar derruba ou espalha objetos leves e pequenos e uma rajada de pedras causa dano igual a 8/ Contusão. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de terra, água ou ar criada são permanentes.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando um Selo Místico no solo, na água ou no ar você cria uma pequena quantidade de um elemento básico (terra, água ou ar secos ou puros). Essa magia pode ser conjurada sobre objetos ou criaturas para purificá-los de contaminações (como venenos ou terra) ou para permitir que uma pessoa possa respirar sob a água ou debaixo d’água. Essa magia pode ser conjurada na forma de uma rajada mágica. Uma rajada de água pode apagar uma chama do tamanho de uma fogueira de acampamento, uma rajada de ar derruba ou espalha objetos leves e pequenos e uma rajada de pedras causa dano igual a 8/Contusão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de terra, água ou ar criada são permanentes.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "principio-natural",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "7b7604b35d8fb541",

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Assassino"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 78–81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sempre que você fizer um ataque contra um alvo que esteja Desprevenido em relação a você, você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade 1 vez por turno. Habilidade Final</p>"
+    "concessoes": [],
+    "description": "<p>Sempre que você fizer um ataque contra um alvo que esteja Desprevenido em relação a você, você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade 1 vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Assassino.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "olho-da-serpente",
       "automatica": false,
+      "acesso": [
+        "Assassino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

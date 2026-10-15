@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Levent, Dançarino do Ar",
+    "dificuldadeTexto": "",
+    "requisitos": "Dançarino do Ar",
+    "acesso": [
+      "Levent"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Com um bater veloz de asas, você desvia de golpes no ar ou à distância. Ao ser atingido, pode queimar Pontos de Mana ao invés de perder Pontos de Vida (1 PM por 1 PV de dano absorvido, 1x por rodada).</p>"
+    "concessoes": [],
+    "description": "<p>Você realiza um movimento veloz e potente com as suas asas para se deslocar rapidamente e escapar de um golpe iminente. Quando estiver voando e for atingido por um ataque, você pode anunciar que está realizando um movimento brusco, e perder a quantidade de dano que sofreria em Pontos de Mana ao invés de Pontos de Vida. Se estiver no chão, você só pode utilizar esta Habilidade contra ataques à distância.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dançarino do Ar. Só pode ser usada 1 vez por rodada. Se o dano for superior aos Pontos de Mana atuais, o excedente causa a perda normal de Pontos de Vida.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "movimento-brusco",
       "automatica": false,
+      "acesso": [
+        "Levent"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

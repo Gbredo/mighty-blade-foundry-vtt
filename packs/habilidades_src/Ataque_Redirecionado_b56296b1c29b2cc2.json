@@ -3,22 +3,47 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Evasão",
+    "acesso": [
+      "Bardo",
+      "Espadachim",
+      "Ladino",
+      "Menestrel",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 78, 110, 118; Canção do Bardo, pág. 21, 29",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando um oponente errar um ataque corporal contra você, você pode direcionar o ataque dele para outro alvo. O novo alvo precisa estar adjacente a você ou ao oponente que errou o ataque. Esse ataque acerta automaticamente – sem chance de errar ou de ser um sucesso decisivo. Esta Habilidade só pode ser usada uma vez por rodada. Combate com Duas</p>"
+    "concessoes": [],
+    "description": "<p>Quando um oponente errar um ataque corporal contra você, você pode direcionar o ataque dele para outro alvo. O novo alvo precisa estar adjacente a você ou ao oponente que errou o ataque. Esse ataque acerta automaticamente – sem chance de errar ou de ser um sucesso decisivo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada 1 vez por rodada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-redirecionado",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Espadachim",
+        "Ladino",
+        "Menestrel",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

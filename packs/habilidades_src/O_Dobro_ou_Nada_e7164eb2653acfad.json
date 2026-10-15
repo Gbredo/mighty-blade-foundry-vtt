@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "caracteristica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Humano, Sorte",
+    "dificuldadeTexto": "",
+    "requisitos": "Sorte",
+    "acesso": [
+      "Humano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 56; Guia do Herói, pág. 21",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Ao falhar em um teste, você pode arriscar tudo e rerrolar. Com sucesso, dobra todos os valores numéricos do efeito (dano, cura, duração). Em contrapartida, qualquer falha torna-se automaticamente uma falha crítica devastadora.</p>"
+    "concessoes": [],
+    "description": "<p>Você está acostumado a dar chance para sua sorte – às vezes, além do que seria considerado saudável. Quando falhar em um teste, você pode fazer o teste novamente, ignorando completamente o primeiro resultado. No caso de sucesso, além de passar no teste, qualquer efeito numérico proveniente do sucesso (dano causado por um ataque, duração de uma magia, PVs curados com uso de primeiros socorros, etc.) é dobrado. Mas se o teste for uma falha, ela deve ser considerada como uma falha crítica, com todos os seus possíveis efeitos numéricos dobrados. No caso de uma falha crítica nesse teste, o Mestre deve considerar que o fracasso foi uma falha crítica particularmente desastrosa – com efeitos limitados apenas pela sua imaginação sádica.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Geral Sorte. Se obtiver sucesso na nova rolagem, todos os efeitos numéricos são dobrados; em caso de falha, resulta em uma falha crítica catastrófica.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "o-dobro-ou-nada",
       "automatica": false,
+      "acesso": [
+        "Humano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

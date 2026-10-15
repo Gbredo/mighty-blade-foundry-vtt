@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Acrobata",
+    "acesso": [
+      "Espadachim",
+      "Ladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 93, 111",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você ganha +1 na sua defesa para cada 2 pontos que tiver em Agilidade. Esta habilidade só funciona se você estiver sem armadura. Esse é um bônus de Esquiva.</p>"
+    "concessoes": [],
+    "description": "<p>Você ganha +1 na sua Defesa para cada 2 pontos que tiver em Agilidade. Esta habilidade só funciona se você estiver sem armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um bônus de Esquiva. Requer a habilidade Acrobata.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "movimentos-evasivos",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Ladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

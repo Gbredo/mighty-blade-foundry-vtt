@@ -1,0 +1,44 @@
+{
+  "name": "Arma Elemental",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 5,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Errata - Guia Básico, pág. 1; Guia Básico - 3ª Edição, pág. 126",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Quando sacar uma arma que tenha sua Runa Pessoal desenhada sobre ela, você pode fazer com que a arma irrompa em energia elemental, causando uma quantidade de dano extra igual à sua Inteligência – este dano deve ser por Eletricidade, Fogo ou Frio. A escolha do tipo de energia é feita quando você saca a arma, e o efeito só se dissipa quando você soltar (ou embainhar) a arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Inclusa na Errata Oficial do Guia Básico para substituir Mestre de Armas 2 na lista de habilidades de Nível 5 do Rúnico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arma-elemental",
+      "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "6eb768c85dd61751",
+  "_key": "!items!6eb768c85dd61751"
+}

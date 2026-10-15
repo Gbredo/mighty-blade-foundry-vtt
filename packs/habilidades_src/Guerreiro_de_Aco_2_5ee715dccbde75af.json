@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Guerreiro de Aço 1",
+    "acesso": [
+      "Guerreiro",
+      "Paladino",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 109, 120; Errata, pág. 1; Manual do Combatente, pág. 64",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos. Essa redução se acumula com a redução fornecida por</p>"
+    "concessoes": [],
+    "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa redução se acumula com a redução fornecida por Guerreiro de Aço 1. Na Errata oficial (pág. 1), se alguma situação ou habilidade anular seu bônus de Defesa de Armadura, você ainda recebe metade do bônus normal (arredondado para cima) e da redução de dano da armadura pesada. No Manual do Combatente (pág. 64), aplica metade da RD (arredondada para baixo) de qualquer armadura usada quando o ataque do inimigo superar seu Bloqueio.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "guerreiro-de-aco-2",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Paladino",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

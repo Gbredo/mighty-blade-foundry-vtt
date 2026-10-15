@@ -6,19 +6,40 @@
     "tipo": "acao",
     "categoria": "padrao",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Grito Ensurdecedor",
+    "acesso": [
+      "Bardo",
+      "Menestrel",
+      "Skald"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 20, 60",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>10/Corte num cone frontal de 10 metros. Estruturas, amorfos e vidros sofrem dano dobrado.</p>"
+    "concessoes": [],
+    "description": "<p>Seu agudo é tão poderoso que você pode direcionar um grito capaz de romper vidros, cristais e tímpanos! Tudo e todos em até 10 metros à sua frente sofrem dano igual a 10/Corte. Criaturas com Corpo Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o dobro do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Grito Ensurdecedor.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "grito-estilhacador",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel",
+        "Skald"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

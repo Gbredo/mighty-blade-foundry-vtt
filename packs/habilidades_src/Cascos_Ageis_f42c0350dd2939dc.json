@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Fauno",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Fauno"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "agilidade",
       "valor": 1
@@ -19,12 +29,19 @@
         "valor": 1
       }
     ],
-    "description": "<p>Você é mais ágil e veloz do que a maioria dos Faunos. Você ganha Agilidade +1, Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui pernas ágeis e cascos flexíveis. Seu Deslocamento é aumentado em 1 metro e você rola +1d6 quando fizer testes para se equilibrar, escalar ou saltar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adiciona +1 metro ao Deslocamento base e concede +1d6 em testes físicos de equilíbrio, escalada e saltos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cascos-ageis",
       "automatica": false,
+      "acesso": [
+        "Fauno"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

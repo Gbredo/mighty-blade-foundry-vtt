@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 30,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 10, Deflagrar Ossos</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro de sua linha de visão, você faz com que os ossos do alvo vibrem violentamente sob seus músculos, fazendo o alvo perder 30 Pontos de Vida e fique Atordoado por uma quantidade de turnos igual à sua Inteligência. Se o alvo for um morto-vivo, ele sofre uma quantidade de dano adicional igual à sua Determinação. Se o alvo ficar sem Pontos de Vida graças a esse efeito, seus ossos explodem através da carne, matando o alvo imediatamente e causando dano como descrito em Deflagrar Ossos. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 3,
+    "nivel": "Nv3",
+    "requisitos": "Nível 10, Deflagrar Ossos",
+    "acesso": [
+      "Sanguíneo"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Vilão, pág. 92–94",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 10, Deflagrar Ossos</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro de sua linha de visão, você faz com que os ossos do alvo vibrem violentamente sob seus músculos, fazendo o alvo perder 30 Pontos de Vida e fique Atordoado por uma quantidade de turnos igual à sua Inteligência. Se o alvo for um morto-vivo, ele sofre uma quantidade de dano adicional igual à sua Determinação. Se o alvo ficar sem Pontos de Vida graças a esse efeito, seus ossos explodem através da carne, matando o alvo imediatamente e causando dano como descrito em Deflagrar Ossos. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Deflagrar Ossos. Caminho Sanguíneo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vibrar-os-ossos",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": []
     }
   },
   "_id": "33e83bb3b514dabe",

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 13,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Armadura Necro-</p><p>mântica. Desenhando uma Runa Arcana sobre uma Sombra, você drena a energia dela e a redireciona para uma criatura que possa tocar. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A criatura para qual a energia for redirecionada recebe as Habilidades Corpo Amórfico e Mente Bloqueada. Essa Runa Arcana dura 1 minuto. Habilidade Final</p>"
+    "dificuldadeTexto": "13",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Armadura Necromântica",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 58",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Armadura Necromântica</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você drena a energia dela e a redireciona para uma criatura que possa tocar. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A criatura para qual a energia for redirecionada recebe as Habilidades Corpo Amórfico e Mente Bloqueada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Requer Nível 5 e Armadura Necromântica.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "resistencia-necromantica",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "1bbf63bfa42c9803",

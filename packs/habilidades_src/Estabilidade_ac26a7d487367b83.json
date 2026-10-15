@@ -6,8 +6,23 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Mahok",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Anão",
+      "Fronteiras Rochosas",
+      "Guerreiro",
+      "Geral",
+      "Paladino",
+      "Mahok"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 48, 104",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +34,24 @@
         "contexto": "testes de evitar quedas e manter equilíbrio"
       }
     ],
-    "description": "<p>Com pés maciços e centro de gravidade pesado, você sempre rola +1d6 em todos os testes para evitar quedas, desequilíbrio ou ser derrubado.</p>"
+    "concessoes": [],
+    "description": "<p>Você gosta de ter os dois pés solidamente plantados no chão – e faz isso muito bem! Você sempre rola +1d6 em todos os seus testes de evitar quedas e manter o equilíbrio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta habilidade também é uma Habilidade Racial nata dos Anões (Guia Básico, pág. 48). No Manual do Combatente (pág. 212), adiciona-se que o personagem ignora a condição Caído sempre que fosse ficar caído automaticamente por qualquer motivo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "estabilidade",
       "automatica": false,
+      "acesso": [
+        "Anão",
+        "Fronteiras Rochosas",
+        "Guerreiro",
+        "Geral",
+        "Paladino",
+        "Mahok"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

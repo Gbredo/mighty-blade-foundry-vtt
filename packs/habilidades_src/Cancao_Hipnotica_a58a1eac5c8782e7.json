@@ -1,0 +1,46 @@
+{
+  "name": "Canção Hipnótica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você canta uma canção insistente sobre um determinado assunto, criando uma compulsão naqueles capazes de ouvi-la. Todas as criaturas vivas (exceto você e seus aliados) a uma distância em metros de você igual à sua Determinação, e que puderem entender essa Música, rolam um confronto de Vontade contra você a cada turno, enquanto você continuar cantando. Aqueles que tiverem um resultado mais baixo que o seu precisam gastar sua ação de movimento realizando a ação que você induziu.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A ação induzida precisa ser uma ação realizável como uma ação de movimento (pular, rodar, deitar...) e se a criatura não puder realizar a ação por algum motivo, ela ignora este efeito completamente. Este é um efeito mental.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cancao-hipnotica",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "a58a1eac5c8782e7",
+  "_key": "!items!a58a1eac5c8782e7"
+}

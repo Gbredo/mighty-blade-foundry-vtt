@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Mahok",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Mahok"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 71",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +33,19 @@
         "valor": 5
       }
     ],
-    "description": "<p>Sua couraça mineral engrossou para um nível monolítico. Você ganha Resistência a Perfuração, +5 Pontos de Vida e sua pele adquire a propriedade de Armadura Rígida (além de Pesada).</p>"
+    "concessoes": [],
+    "description": "<p>Sua pele é mais espessa do que a da maioria dos outros Mahoks, seja esta uma característica inata sua ou por você estar apresentando os primeiros sinais de envelhecimento. Você é Resistente à Perfuração e tem +5 Pontos de Vida. Além disso, sua pele adquire também as características de uma armadura Rígida (além da característica Pesada).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adiciona a característica Rígida à proteção natural da pele do Mahok concedida por Pele de Pedra.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "pele-de-pedra-2",
       "automatica": false,
+      "acesso": [
+        "Mahok"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

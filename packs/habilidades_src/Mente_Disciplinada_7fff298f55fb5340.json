@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Feiticeiro",
+      "Necromante",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 79, 98, 126",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui uma vontade extremamente organizada, acostumada a se concentrar em tarefas complexas. Você tem Determinação +2 e as dificuldades de todas as magias que você realiza são reduzidas em 1.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma vontade extremamente organizada, acostumada a se concentrar em tarefas complexas. Você tem Determinação +2 e as dificuldades de todas as magias que você realiza são reduzidas em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Característica de suporte essencial para conjuradores arcanos. Serve de pré-requisito para habilidades avançadas como *Aptidão Elemental* e *Barreira de Gelo*.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mente-disciplinada",
       "automatica": false,
+      "acesso": [
+        "Feiticeiro",
+        "Necromante",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

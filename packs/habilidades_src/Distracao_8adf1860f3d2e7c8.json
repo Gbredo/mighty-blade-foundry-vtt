@@ -6,19 +6,42 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Determinação do Bardo",
     "requisitos": "Eloquente",
+    "acesso": [
+      "Bardo",
+      "Ladino",
+      "Menestrel",
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 119; Guia do Vilão, pág. 32; Canção do Bardo, pág. 21",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de usar sua oratória para chamar a atenção de um alvo para você e confundi-lo no processo. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura precisa passar em um teste de Inteligência (Dificuldade igual à sua Determinação) ou ficará Distraída por 1 turno. Esse é um efeito mental.</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de usar sua oratória para chamar a atenção de um alvo para você e confundi-lo no processo. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura precisa passar em um teste de Inteligência (Dificuldade igual à sua Determinação) ou ficará Distraída por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito mental. Consulte a condição Distraído no apêndice de Condições.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "distracao",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Ladino",
+        "Menestrel",
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Alquimista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 80–82",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você tem uma afinidade ou preferência pelas poções de cura. Você recebe +2 em seus testes para produzir Elixires e Antídotos e em testes de cuidados médicos.</p>"
+    "concessoes": [],
+    "description": "<p>+2 em testes para produzir Elixires e Antídotos e em testes de cuidados médicos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Alquimista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "iatrica",
       "automatica": false,
+      "acesso": [
+        "Alquimista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,44 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Paladino",
+      "Guerreiro",
+      "Patrulheiro",
+      "Geral",
+      "Fira"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia do Herói, pág. 122; Codex Monstrorum, pág. 153",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você passou muito tempo com animais de montaria e conhece seus hábitos, características e como lidar com eles. Você recebe +1d6 em todas as suas rolagens referentes à criaturas com a Habilidade Montaria – incluindo cavalgar, treinar e atacar.</p>"
+    "concessoes": [],
+    "description": "<p>Você passou muito tempo com animais de montaria e conhece seus hábitos, características e como lidar com eles. Você recebe +1d6 em todos os seus testes referentes à criaturas com a Habilidade Montaria – incluindo cavalgar, treinar e atacar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para a habilidade Combate Montado.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cavaleiro-experiente",
       "automatica": false,
+      "acesso": [
+        "Paladino",
+        "Guerreiro",
+        "Patrulheiro",
+        "Geral",
+        "Fira"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

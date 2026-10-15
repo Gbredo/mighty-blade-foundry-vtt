@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Aesir",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Aesir"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 45",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Invocando a fúria do instinto de sobrevivência, você recebe Força +2 e fica imune a Efeitos de Medo. O efeito dura até o final do combate ou até você ficar dois turnos sem atacar. Você não pode usar esta habilidade simultaneamente com Fúria de Batalha.<br>Especial: Você só pode escolher o Lobo ou o Urso como seu Espírito Animal.</p>"
+    "concessoes": [],
+    "description": "<p>Você foi tocado pelo espírito do Urso ou pelo espírito do Lobo, e pode invocar a fúria que provém do instinto de sobrevivência deles. Enquanto estiver neste estado você recebe Força +2 e fica imune a Efeitos de Medo. Este efeito dura até o final da batalha ou até que você fique dois turnos sem atacar. Você não pode estar em Fúria Bestial e Fúria de Batalha ao mesmo tempo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você tiver um Espírito Animal que não seja o Urso ou o Lobo, você não pode possuir esta Habilidade. Se você possuir esta Habilidade, você só pode escolher o Lobo ou o Urso como seu Espírito Animal. Servindo de pré-requisito obrigatório para as habilidades Berserkir e Ulfhednar.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "furia-bestial",
       "automatica": false,
+      "acesso": [
+        "Aesir"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -4,21 +4,52 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "padrao",
+    "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Crânios Vermelhos",
+      "Cesto de Adagas",
+      "Capuzes Negros",
+      "Arpão",
+      "Anel",
+      "Ladino",
+      "Bardo",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 47, 92; Guia de Tebryn, pág. 42",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui muitos contatos entre os criminosos – pequenos e grandes. Com isto você pode descobrir informações privilegiadas ou comprar e vender mercadoria roubada. 109 Classes Obviamente o mestre poderá restringir informações se isso for atrapalhar o andamento ou a trama da campanha, e você nem sempre será capaz de encontrar qualquer item à disposição em qualquer lugar – mas o mercado negro nas grandes cidades costuma estar abastecido de praticamente qualquer item disponível na campanha.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui muitos contatos entre os criminosos – pequenos e grandes. Com isto você pode descobrir informações privilegiadas ou comprar e vender mercadoria roubada. Obviamente o mestre poderá restringir informações se isso for atrapalhar o andamento ou a trama da campanha, e você nem sempre será capaz de encontrar qualquer item à disposição em qualquer lugar – mas o mercado negro nas grandes cidades costuma estar abastecido de praticamente qualquer item disponível na campanha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Criminosos pagarão metade do preço normal de qualquer item que você quiser vender – desde que tenham dinheiro para tanto – e venderão itens com um custo um terço menor do que o normal. Itens proibidos ou controlados, no entanto, podem ser extremamente caros. Informações terão um preço dependendo da importância e dificuldade de obtê-las, de acordo com a vontade do Mestre. Permite escolher a *Língua das Ruas* como um dos idiomas iniciais.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "contatos-no-crime",
       "automatica": false,
+      "acesso": [
+        "Crânios Vermelhos",
+        "Cesto de Adagas",
+        "Capuzes Negros",
+        "Arpão",
+        "Anel",
+        "Ladino",
+        "Bardo",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

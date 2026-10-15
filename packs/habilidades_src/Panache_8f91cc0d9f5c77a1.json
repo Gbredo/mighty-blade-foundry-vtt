@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Língua Afiada",
+    "acesso": [
+      "Espadachim",
+      "Bardo"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 93; Canção do Bardo, pág. 26",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui uma bravura petulante e uma confiança inabalável nas suas próprias habilidades. Enquanto não estiver usando armadura, você recebe +1 na Defesa para cada 2 pontos de Vontade. Esse é um bônus de Esquiva.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma bravura petulante e uma confiança inabalável nas suas próprias habilidades. Enquanto não estiver usando armadura, você recebe +1 na Defesa para cada 2 pontos de Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um bônus de Esquiva. Requer a habilidade Língua Afiada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "panache",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

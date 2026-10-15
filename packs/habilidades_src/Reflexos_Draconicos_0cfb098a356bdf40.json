@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Dragano, Cauda",
+    "dificuldadeTexto": "",
+    "requisitos": "Características Dracônicas (Cauda)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 27",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Utiliza os reflexos dos ancestrais dracônicos. Se uma criatura entrar no seu alcance corporal, você pode usar uma Reação para atacar imediatamente com sua cauda (dano: Força/Contusão). Limite de uma vez por rodada.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui os reflexos agressivos dos seus ancestrais dracônicos. Se alguém se aproximar do seu alcance de ataques corporais, você pode imediatamente realizar um ataque com sua cauda contra o alvo. Esse é um ataque desarmado que causa dano igual à Força/Contusão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Cauda*. Esta Habilidade só pode ser usada 1 vez por rodada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "reflexos-draconicos",
       "automatica": false,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

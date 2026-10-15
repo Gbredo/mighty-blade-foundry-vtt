@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Presença Inspiradora",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 26",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você está acostumado a dar ordens – e ser prontamente obedecido! Você ordena um aliado a fazer uma ação, e ele imediatamente realiza aquela ação. O alvo pode se recusar, se desejar. Essa deve ser uma ação simples – o alvo não pode usar nenhuma Habilidade do tipo Ação quando realizá-la. Habilidades Avançadas</p>"
+    "concessoes": [],
+    "description": "<p>Você está acostumado a dar ordens – e ser prontamente obedecido! Você ordena um aliado a fazer uma ação, e ele imediatamente realiza aquela ação. O alvo pode se recusar, se desejar. Essa deve ser uma ação simples – o alvo não pode usar nenhuma Habilidade do tipo Ação quando realizá-la.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Presença Inspiradora. Serve de pré-requisito para Voz de Comando 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "voz-de-comando-1",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

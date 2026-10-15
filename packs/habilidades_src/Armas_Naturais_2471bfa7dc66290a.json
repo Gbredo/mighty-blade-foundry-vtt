@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Dragano, Chifres, Garras e Presas",
+    "dificuldadeTexto": "",
+    "requisitos": "Características Dracônicas (Chifres, garras e presas)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 27",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -20,12 +30,19 @@
         "tipoDano": "Corte/Contusão/Perfuração"
       }
     ],
-    "description": "<p>Desperta um arsenal natural (garras, chifres, espigões). Seus ataques desarmados passam a causar Força +3 de dano, podendo escolher entre Contusão, Corte ou Perfuração a cada golpe.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um arsenal de armas naturais à sua disposição na forma de garras, presas, chifres, escamas afiadas e espigões pontudos. Seus ataques desarmados causam dano igual à Força +3, e você sempre pode escolher se esse dano será por Contusão, Corte ou Perfuração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Chifres, garras e presas*.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "armas-naturais",
       "automatica": false,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

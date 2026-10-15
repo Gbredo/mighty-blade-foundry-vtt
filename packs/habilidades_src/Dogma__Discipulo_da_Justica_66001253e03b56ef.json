@@ -1,0 +1,52 @@
+{
+  "name": "Dogma: Discípulo da Justiça",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Espada de Mirah",
+      "Sacerdote",
+      "Paladino",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você serve a Mirah, a deusa da justiça inflexível e da retidão moral. Você recebe +1 em todos os Confrontos para resistir a mentiras, manipulações e engodos mundanos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para as habilidades Marca da Justiça e *Arma da Ordem*. Código de conduta: defender a lei justa, combater a tirania e nunca cometer perjúrio.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-da-justica",
+      "automatica": false,
+      "acesso": [
+        "Espada de Mirah",
+        "Sacerdote",
+        "Paladino",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo da Justiça"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "66001253e03b56ef",
+  "_key": "!items!66001253e03b56ef"
+}

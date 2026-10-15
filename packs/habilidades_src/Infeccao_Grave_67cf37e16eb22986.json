@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Hamelin",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Hamelin"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 35",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando você morde uma criatura viva, a infecção que você transmite age com violência devastadora. Um alvo que falhe no teste de resistência sofre imediatamente os efeitos dos sintomas iniciais da doença.</p>"
+    "concessoes": [],
+    "description": "<p>Quando você morde uma criatura viva, ela é afetada com muito mais violência pela doença que você transmite. Um alvo mordido por você que não tenha sucesso em resistir à sua infecção é afetado imediatamente pela doença que você transmite como se tivesse falhado no primeiro teste para verificar os efeitos dos sintomas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Ao selecionar esta Habilidade, você pode rolar novamente na tabela de Doenças Naturais e escolher se vai permanecer com sua infecção inicial ou se vai ficar com a nova doença – resultados que indiquem a mesma doença devem ser desconsiderados. Esta escolha é permanente.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "infeccao-grave",
       "automatica": false,
+      "acesso": [
+        "Hamelin"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

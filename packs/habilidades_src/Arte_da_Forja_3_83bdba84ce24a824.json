@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Arte da Forja 2",
+    "acesso": [
+      "Forjas de Hou"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de adicionar uma complexidade maior em suas criações. Você pode criar armas com lâminas flamberges, dotadas de ondulações – que dão uma semelhança às chamas – que diminuem a superfície de contato, assim facilitando o corte. Lâminas flamantes fazem com que qualquer arma de corte tenha +2 de dano, mas aumenta sua FN em 1. Você pode também aplicar estrias nas placas de alguns tipos de armaduras (excetuando-se cotas de malha ou armaduras de escamas). Estas estrias aumentam a resistência do metal e diminuem sua superfície de contato, mas não aumentam significativamente o peso.</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de adicionar uma complexidade maior em suas criações. Você pode criar armas com lâminas flamberges, dotadas de ondulações – que dão uma semelhança às chamas – que diminuem a superfície de contato, assim facilitando o corte. Lâminas flamantes fazem com que qualquer arma de corte tenha +2 de dano, mas aumenta sua FN em 1. Você pode também aplicar estrias nas placas de alguns tipos de armaduras (excetuando-se cotas de malha ou armaduras de escamas). Estas estrias aumentam a resistência do metal e diminuem sua superfície de contato, mas não aumentam significativamente o peso. Estrias fazem com que uma armadura com a Característica Pesada receba um bônus de Armadura +1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Arte da Forja 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arte-da-forja-3",
       "automatica": false,
+      "acesso": [
+        "Forjas de Hou"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

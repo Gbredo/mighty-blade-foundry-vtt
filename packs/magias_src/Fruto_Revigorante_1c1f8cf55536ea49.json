@@ -1,0 +1,37 @@
+{
+  "name": "Fruto Revigorante",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "tipo": "acao",
+    "fonte": "mistica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 10,
+    "dificuldadeTexto": "10",
+    "circulo": 1,
+    "nivel": "Nv1",
+    "requisitos": "Bons Frutos",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Bons Frutos</p><p>Desenhando um Selo Místico sobre uma planta frutífera – mesmo morta – você faz com que ela desenvolva um único fruto grande e suculento capaz de restaurar 30 Pontos de Vida de quem o ingerir. Se não for ingerida, a fruta perde sua capacidade de cura após 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "fruto-revigorante",
+      "tipo": "Ação",
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
+    }
+  },
+  "_id": "1c1f8cf55536ea49",
+  "_key": "!items!1c1f8cf55536ea49"
+}

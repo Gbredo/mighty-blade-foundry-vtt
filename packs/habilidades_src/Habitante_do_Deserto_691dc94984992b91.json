@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Fira"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 58",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -27,12 +37,19 @@
         "situacao": "privação de água por até 5 dias"
       }
     ],
-    "description": "<p>Resistente a Fogo. Pode passar até 5 dias sem água sem penalidades. Não sofre efeitos de climas quentes ou áridos.</p>"
+    "concessoes": [],
+    "description": "<p>Você descende de um povo que enfrentou os rigores do deserto sem esmorecer. Você é Resistente a Fogo e pode passar até 5 dias sem precisar ingerir água. Além disso, você não é afetado por climas particularmente quentes ou áridos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática da raça Fira.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "habitante-do-deserto",
       "automatica": true,
+      "acesso": [
+        "Fira"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

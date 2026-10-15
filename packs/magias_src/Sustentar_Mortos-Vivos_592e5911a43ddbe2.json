@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 11,
+    "dificuldadeTexto": "11",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana sobre um morto-vivo, você o imbui com energias necromânticas que o tornam mais resistente. – e reforça seu controle. O morto-vivo recebe +10 Pontos de Vida e Força +2. Além disso, se o alvo estiver sob controle de uma criatura (incluindo você), o tempo de controle se estende pela duração dessa Runa ao invés do tempo normal. Essa Runa Arcana dura uma quantidade de dias igual à sua Vontade.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Despertar dos Mortos 1",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 56",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana sobre um morto-vivo, você o imbui com energias necromânticas que o tornam mais resistente – e reforça seu controle. O morto-vivo recebe +10 Pontos de Vida e Força +2. Além disso, se o alvo estiver sob controle de uma criatura (incluindo você), o tempo de controle se estende pela duração dessa Runa ao invés do tempo normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de dias igual à sua Vontade. Requer a habilidade Despertar dos Mortos 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sustentar-mortos-vivos",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "592e5911a43ddbe2",

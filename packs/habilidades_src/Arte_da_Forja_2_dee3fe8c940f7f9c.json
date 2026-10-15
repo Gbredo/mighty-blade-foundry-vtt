@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Arte da Forja 1",
+    "acesso": [
+      "Forjas de Hou"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você exercitou sua maestria sobre a forja de metais e é capaz de criar itens mais eficientes do que os normais. Você pode criar ou modificar itens de metal de forma que eles tenham FN -1, ou, no caso de armas, causem Dano +1. Itens de qualidade baixa não podem ser modificados e itens de qualidade alta ou obra-prima acumulam seus benefícios de qualidade com essas modificações. Se estiver modificando um item, você deve fazer um teste de ferraria e o resultado precisa ser igual ou superior ao necessário para criar aquele item. Veja o Guia do Herói (página 52) para maiores detalhes.</p>"
+    "concessoes": [],
+    "description": "<p>Você exercitou sua maestria sobre a forja de metais e é capaz de criar itens mais eficientes do que os normais. Você pode criar ou modificar itens de metal de forma que eles tenham FN -1, ou, no caso de armas, causem Dano +1. Itens de qualidade baixa não podem ser modificados e itens de qualidade alta ou obra-prima acumulam seus benefícios de qualidade com essas modificações. Se estiver modificando um item, você deve fazer um teste de ferraria e o resultado precisa ser igual ou superior ao necessário para criar aquele item.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Arte da Forja 1. Apenas armas de metal podem ser alteradas (exclui bordões, clavas, arcos, etc.). Nenhuma arma pode ficar com FN 0. Serve de pré-requisito para Arte da Forja 3.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arte-da-forja-2",
       "automatica": false,
+      "acesso": [
+        "Forjas de Hou"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -1,0 +1,46 @@
+{
+  "name": "Ritmo Retumbante",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Teste de Agilidade",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 69-70",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você produz um ritmo tão violento, que faz a terra tremer! Todos os que estiverem a uma quantidade de metros ao seu redor igual à sua Determinação (exceto você), devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação), ou perderão o equilíbrio e cairão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Causa a condição Caído em caso de falha no teste de Agilidade.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ritmo-retumbante",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "e2d82597f4d06d7c",
+  "_key": "!items!e2d82597f4d06d7c"
+}

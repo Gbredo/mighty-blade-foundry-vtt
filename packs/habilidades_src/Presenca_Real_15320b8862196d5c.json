@@ -1,0 +1,44 @@
+{
+  "name": "Presença Real",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Faen"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Errata - Guia Básico, pág. 1; Guia Básico - 3ª Edição, pág. 54",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Artrópode, e é capaz de dar comandos simples que serão obedecidos prontamente, dentro das capacidades da criatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Texto atualizado conforme a Errata Oficial do *Guia Básico* (removendo o custo indevido de Mana e especificando a classificação da criatura afetada para o tipo Artrópode).</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "presenca-real",
+      "automatica": false,
+      "acesso": [
+        "Faen"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "15320b8862196d5c",
+  "_key": "!items!15320b8862196d5c"
+}

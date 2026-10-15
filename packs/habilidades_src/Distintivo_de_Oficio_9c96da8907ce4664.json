@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 23",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>O distintivo que aponta sua ocupação tem um poderoso efeito sobre a disposição geral daqueles ao seu redor. Sempre que seu distintivo estiver visível para alguém com quem você está negociando um bem ou serviço, você recebe automaticamente um desconto em moedas igual à sua Determinação no preço final do produto. Esse benefício se aplica apenas a você – seus aliados não recebem nenhum benefício por essa Habilidade.</p>"
+    "concessoes": [],
+    "description": "<p>O distintivo que aponta sua ocupação tem um poderoso efeito sobre a disposição geral daqueles ao seu redor. Sempre que seu distintivo estiver visível para alguém com quem você está negociando um bem ou serviço, você recebe automaticamente um desconto em moedas igual à sua Determinação no preço final do produto. Esse benefício se aplica apenas a você – seus aliados não recebem nenhum benefício por essa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Garante benefício financeiro direto e automático ao negociar bens e serviços enquanto o distintivo estiver visível.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "distintivo-de-oficio",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

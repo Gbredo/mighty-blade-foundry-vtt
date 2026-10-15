@@ -6,19 +6,43 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Humano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 56; Guia do Herói, pág. 21",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>No nível 1, escolha um atributo para receber +1.</p>"
+    "concessoes": [
+      {
+        "tipo": "escolhaAtributo",
+        "valor": 1,
+        "titulo": "Adaptabilidade",
+        "descricao": "Escolha 1 dos seus Atributos para receber +1 de bônus permanente."
+      }
+    ],
+    "description": "<p>Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu – ou precisou – desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática da raça Humano. Permite distribuir +1 ponto em qualquer Atributo à escolha durante a criação.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "adaptabilidade",
       "automatica": true,
+      "acesso": [
+        "Humano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": [
         {
           "id": "forca",
@@ -64,7 +88,9 @@
             }
           ]
         }
-      ]
+      ],
+      "hasAdvancement": true,
+      "advancementType": "escolhaAtributo"
     }
   },
   "_id": "6d0e2fdf4361504b",

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Tailox, Raça Florestal, Vontade 5",
+    "dificuldadeTexto": "",
+    "requisitos": "Raça Florestal, Vontade 5",
+    "acesso": [
+      "Tailox"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 78; Guia para Iniciantes, pág. 34",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Em comunhão profunda com o Mtii'Ruah e a deusa Ellenis, você transmuta seu corpo na forma de uma raposa. Ganha +2 em percepção, furtividade e saltos, Deslocamento +1, bônus de Defesa base 7 (em vez de 5) e mordida causando Força +2/Corte.</p>"
+    "concessoes": [],
+    "description": "<p>Você atingiu um estágio tão profundo de compreensão do Mtii’Ruah que se tornou capaz de assumir uma forma mais próxima da essência de Ellenis. Quando assume a forma de raposa, todos os itens que você estiver carregando são absorvidos pela nova forma (eles não oferecem nenhum bônus), mas estarão com você quando voltar à sua forma normal. Apesar de continuar entendendo qualquer linguagem que conheça, você consegue se comunicar apenas com raposas e você não pode lançar magias, ativar itens mágicos, usar armas ou qualquer item que requeira as mãos. Na forma de raposa você recebe +2 em todos os testes que envolvam percepção, se esconder, mover-se em silêncio e saltar e seu Deslocamento é aumentado em 1. Esses bônus se acumulam com os bônus de Pernas Vulpinas. Além disso seu bônus automático de Defesa é 7 ao invés de 5 e você pode usar suas presas para desferir ataques de mordida que causam dano igual à Força +2/Corte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Raça Florestal e Vontade 5.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "forma-da-raposa",
       "automatica": false,
+      "acesso": [
+        "Tailox"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

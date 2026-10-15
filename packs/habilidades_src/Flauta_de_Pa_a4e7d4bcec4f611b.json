@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Fauno",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Fauno"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "testes de instrumentos de sopro e Músicas de Bardo"
       }
     ],
-    "description": "<p>Você adquiriu maestria em instrumentos de sopro. Sempre que estiver utilizando flautas ou instrumentos semelhantes, recebe +2 em testes para executar canções e habilidades do tipo Música.</p>"
+    "concessoes": [],
+    "description": "<p>Você ouviu, tocou e dançou várias músicas ao redor de fogueiras com seu povo – e talvez com aqueles que você encontrou em suas andanças – e adquiriu uma imensa prática em vários estilos de instrumentos de sopro. Sempre que estiver usando uma flauta ou outro instrumento de sopro, você recebe +2 em seus testes para executar músicas (incluindo as Habilidades do tipo Música).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede bônus fixo de +2 em testes de execução musical e Habilidades do tipo Música ao utilizar instrumentos de sopro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "flauta-de-pa",
       "automatica": false,
+      "acesso": [
+        "Fauno"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

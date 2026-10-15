@@ -6,19 +6,44 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Capuzes Negros",
+      "Xamã",
+      "Druida",
+      "Patrulheiro",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Guia de Tebryn, pág. 103; Codex Monstrorum, pág. 151",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de domar animais com extrema facilidade. Quando você captura uma criatura do tipo Besta, pode fazer um teste de Vontade com dificuldade igual à soma de todos os Atributos do animal depois que tiver cativo e bem tratado por pelo menos 1 dia inteiro. Se conseguir sucesso no teste, a criatura passa a ser considerada seu Companheiro Animal e a ter o Temperamento Protetor. Se falhar no teste, você pode tentar novamente uma vez por dia. No caso de uma falha crítica no teste, você perde completamente a confiança do animal e não será capaz de domá-lo. Você pode ter, simultaneamente, uma quantidade de Companheiros Animais igual à metade da sua Vontade (arredondada para baixo).</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de domar animais com extrema facilidade. Quando você captura uma criatura do tipo Besta, pode fazer um teste de Vontade com dificuldade igual à soma de todos os Atributos do animal depois que tiver cativo e bem tratado por pelo menos 1 dia inteiro. Se conseguir sucesso no teste, a criatura passa a ser considerada seu Companheiro Animal e a ter o Temperamento Protetor. Se falhar no teste, você pode tentar novamente uma vez por dia. No caso de uma falha crítica no teste, você perde completamente a confiança do animal e não será capaz de domá-lo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode liberar um animal domado dessa forma. Nesse caso, o temperamento da criatura volta ao normal, mas quaisquer bônus que ele receba por suas Habilidades de Companheiro Animal permanecem. Você pode ter, simultaneamente, uma quantidade de Companheiros Animais igual à metade da sua Vontade (arredondada para baixo). Requer Nível 5.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mestre-domador",
       "automatica": false,
+      "acesso": [
+        "Capuzes Negros",
+        "Xamã",
+        "Druida",
+        "Patrulheiro",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

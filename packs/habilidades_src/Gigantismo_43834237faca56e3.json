@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Exceto Anão, Exceto Metadílio",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é mais alto do que o normal para sua raça. Seu peso continua em proporção, o que o torna consideravelmente maior. Você adiciona +2 à sua pontuação de Força para efeitos de cálculo de dano em ataques com armas ou ataques desarmados, mas não em testes de Atributos ou quaisquer outros cálculos (como Determinação).</p>"
+    "concessoes": [],
+    "description": "<p>Você é anormalmente grande para os padrões da sua espécie, sendo considerado de uma categoria de tamanho maior do que a normal para os membros da sua raça. Você recebe +10 Pontos de Vida e +2 na sua Carga.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Anões, Metadílios e Faens/Silfos. Qualquer vestimenta ou armadura sob medida para um personagem com Gigantismo custa o dobro do preço normal.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "gigantismo",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -3,16 +3,35 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Você projeta um poderoso golpe mágico capaz de derrubar oponentes – e estruturas! Desenhando uma runa arcana no ar, você projeta uma rajada de energia mágica bruta que causa dano igual a 10/Contusão em um alvo em sua linha de visão, e obriga o alvo a vencer um teste de Força com dificuldade igual à Determinação do conjurador para não ser derrubado. Itens inanimados e estruturas sofrem o dobro do dano normal. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Telecinésia",
+    "acesso": [
+      "Feiticeiro",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69, 95",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Você projeta um poderoso golpe mágico capaz de derrubar oponentes – e estruturas! Desenhando uma runa arcana no ar, você projeta uma rajada de energia mágica bruta que causa dano igual a 10/Contusão em um alvo em sua linha de visão, e obriga o alvo a vencer um teste de Força com dificuldade igual à Determinação do conjurador para não ser derrubado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Itens inanimados e estruturas sofrem o dobro do dano normal (20/Contusão). A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ariete-magico",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Feiticeiro",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "bb11feac277f41bd",

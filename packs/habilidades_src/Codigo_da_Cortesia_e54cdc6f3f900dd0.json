@@ -1,0 +1,46 @@
+{
+  "name": "Código da Cortesia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Paladino",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 113",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você se porta de maneira cortês e exala uma aura de autoconfiança e nobreza que inspira aqueles ao seu redor. Você sempre trata os nobres com o respeito que eles merecem e os seus inferiores com a cortesia devida. Você recebe Vontade +1, todos os seus aliados num raio de 1 metro por ponto de Vontade que você tiver também recebem +1 na Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Montaria Especial 1.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "codigo-da-cortesia",
+      "automatica": false,
+      "acesso": [
+        "Paladino",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "e54cdc6f3f900dd0",
+  "_key": "!items!e54cdc6f3f900dd0"
+}

@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Orc",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 43",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -18,12 +28,19 @@
         "valor": 10
       }
     ],
-    "description": "<p>Sua constituição orc é extraordinariamente resistente. Você é imune a todas as doenças naturais e ganha permanentemente +10 Pontos de Vida. Só pode ser selecionada durante a criação do personagem.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma fisiologia particularmente resistente, mesmo para os padrões Orcs. Você é imune a todas as doenças naturais e tem +10 Pontos de Vida adicionais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede imunidade completa a doenças de origem natural e adiciona +10 Pontos de Vida.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sangue-orc-2",
       "automatica": false,
+      "acesso": [
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

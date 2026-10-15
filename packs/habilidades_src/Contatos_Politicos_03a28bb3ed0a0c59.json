@@ -6,19 +6,42 @@
     "tipo": "suporte",
     "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Determinação do Alvo",
     "requisitos": "",
+    "acesso": [
+      "Capuzes Negros",
+      "Anel",
+      "Senescal",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 23; Guia de Tebryn, pág. 97",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui muitos contatos entre os oficiais da maioria dos locais, e o símbolo da sua guilda é reconhecido por todos. Graças a isso você pode descobrir informações privilegiadas ou evitar problemas com a lei. Com um sucesso bem sucedido de Vontade (dificuldade igual à Determinação do alvo) você pode conseguir que um guarda decida não lhe levar preso ou até mesmo uma saída da prisão.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui muitos contatos entre os oficiais da maioria dos locais, e o símbolo da sua guilda é reconhecido por todos. Graças a isso você pode descobrir informações privilegiadas ou evitar problemas com a lei. Com um teste bem sucedido de Vontade (dificuldade igual à Determinação do alvo) você pode conseguir que um guarda decida não lhe levar preso ou até mesmo conceda uma saída da prisão. Esses favores geralmente vêm acompanhados de algumas moedas (geralmente uma quantidade igual a 10 vezes a Vontade do alvo) para ser efetiva, além de sucesso no teste.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Note que nem todo guarda que o personagem encontrar vai aceitar suborno, e usar esta Habilidade indiscriminadamente pode trazer problemas para o personagem. Além disso, crimes graves provavelmente estarão além do alcance dessa Habilidade, bem como grupos grandes de guardas e oficiais da lei. As informações que o personagem pode conseguir com a guarda quase sempre serão referentes ao crime local ou organizações militares.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "contatos-politicos",
       "automatica": false,
+      "acesso": [
+        "Capuzes Negros",
+        "Anel",
+        "Senescal",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

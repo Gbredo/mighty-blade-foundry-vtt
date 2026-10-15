@@ -6,8 +6,20 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Dragano, Barbatanas",
+    "dificuldadeTexto": "",
+    "requisitos": "Características Dracônicas (Barbatanas) para Draganos",
+    "acesso": [
+      "Dragano",
+      "Naga ♂",
+      "Naga ♀"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 26, 38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +31,21 @@
         "contexto": "resistir a venenos, doenças e exaustão"
       }
     ],
-    "description": "<p>Organismo adaptado para ambientes subaquáticos. Respira e move-se sob a água normalmente e recebe +2 para resistir a venenos, doenças e exaustão.</p>"
+    "concessoes": [],
+    "description": "<p>Seu organismo é adaptado tanto para ambientes secos quanto subaquáticos. Você consegue respirar e se movimentar tanto sob quanto sobre a água normalmente. Além disso, você recebe +2 em todos os seus testes para resistir a venenos, doenças e exaustão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Para a raça Dragano, requer a Característica Dracônica *Barbatanas*. Permite respirar e nadar em velocidade normal de deslocamento debaixo d'água.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "anfibio",
       "automatica": false,
+      "acesso": [
+        "Dragano",
+        "Naga ♂",
+        "Naga ♀"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

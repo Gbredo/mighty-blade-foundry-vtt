@@ -3,22 +3,41 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Ataque Redirecionado",
+    "acesso": [
+      "Espadachim",
+      "Ladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 94, 112",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você está sempre atento à guarda do oponente, esperando uma falha para contra-atacar de modo oportuno. Sempre que um oponente fizer um ataque contra você e errar, você pode imediatamente fazer um ataque normal contra aquele oponente.</p>"
+    "concessoes": [],
+    "description": "<p>Você está sempre atento à guarda do oponente, esperando uma falha para contra-atacar de modo oportuno. Sempre que um oponente fizer um ataque contra você e errar, você pode imediatamente fazer um ataque normal contra aquele oponente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ataque Redirecionado.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ripostar",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Ladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

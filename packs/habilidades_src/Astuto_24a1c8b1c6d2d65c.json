@@ -6,8 +6,22 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Metadílio",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Geral",
+      "Gnoll",
+      "Hamelin",
+      "Metadílio",
+      "Tailox"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 18, 43",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "inteligencia",
       "valor": 1
@@ -24,12 +38,23 @@
         "contexto": "percepção, mover-se em silêncio, camuflagem e furtar bolsos"
       }
     ],
-    "description": "<p>Você é mais astuto que a maioria dos indivíduos da sua raça. Você tem Inteligência +1 e recebe +2 em todos os testes de Inteligência e Agilidade que envolvam percepção, mover-se em silêncio, camuflagem, furtar bolsos e testes semelhantes.</p>"
+    "concessoes": [],
+    "description": "<p>Você é mais astuto que a maioria dos indivíduos da sua raça. Você tem Inteligência +1 e recebe +2 em todos os testes de Inteligência e Agilidade que envolvam percepção, mover-se em silêncio, camuflagem, furtar bolsos, e testes semelhantes.</p>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "astuto",
       "automatica": false,
+      "acesso": [
+        "Geral",
+        "Gnoll",
+        "Hamelin",
+        "Metadílio",
+        "Tailox"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

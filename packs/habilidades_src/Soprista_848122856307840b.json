@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "musica",
+    "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 20-21",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Habilidade de Música do Bardo. Efeito mecânico exato pendente.</p>"
+    "concessoes": [],
+    "description": "<p>Você se especializou em usar instrumentos de sopro, o que lhe concedeu um fôlego invejável! Você pode usar Canções e Gritos utilizando instrumentos de sopro ao invés de sua voz e, quando o fizer, você recebe +2 nos seus Confrontos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música e que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "soprista",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

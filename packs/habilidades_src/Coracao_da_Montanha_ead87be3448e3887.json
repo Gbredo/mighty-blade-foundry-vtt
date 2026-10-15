@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Anão",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 25; Guia do Vilão, pág. 233",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -28,12 +39,20 @@
         "valor": 2
       }
     ],
-    "description": "<p>Imune a venenos (naturais e mágicos). +1d6 em testes para resistir a fadiga, doenças e efeitos físicos. Carga calculada como se tivesse Força +2.</p>"
+    "concessoes": [],
+    "description": "<p>Sua constituição anã é lendária por suportar as maiores adversidades das profundezas. Você é imune a venenos naturais e mágicos, e rola +1d6 em testes para resistir à fadiga e a doenças.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sua Carga máxima é calculada como Força +2. Anões são proibidos de selecionar a Habilidade Geral Gigantismo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "coracao-da-montanha",
       "automatica": true,
+      "acesso": [
+        "Anão",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Levent, Contato com Espíritos",
+    "dificuldadeTexto": "",
+    "requisitos": "Contato com Espíritos",
+    "acesso": [
+      "Xamã",
+      "Necromante",
+      "Levent"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Enquanto mantiver Contato com Espíritos, pode tocar um aliado para conceder-lhe a mesma visão e audição espiritual por 10 minutos.</p>"
+    "concessoes": [],
+    "description": "<p>Enquanto estiver utilizando Contato com Espíritos, você pode tocar outro personagem que será capaz de ouvir e ver qualquer espírito num raio de 20 metros por 10 minutos. Um personagem sob esse efeito pode gastar 10 Pontos de Mana para ser capaz de tocar espíritos por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu a classificação desta habilidade para Característica de Suporte. Requer Contato com Espíritos. Servindo de pré-requisito para a habilidade avançada Caminhada Fantasma.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "comunhao-com-espiritos",
       "automatica": false,
+      "acesso": [
+        "Xamã",
+        "Necromante",
+        "Levent"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

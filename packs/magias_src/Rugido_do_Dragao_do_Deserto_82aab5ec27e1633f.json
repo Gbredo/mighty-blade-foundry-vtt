@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 13,
+    "dificuldadeTexto": "13",
     "circulo": 1,
-    "description": "<p>Desenhando um Selo Místico no ar você cria um poderoso estrondo semelhante ao rugido de um grande dragão do deserto. Todas as criaturas a um número de metros igual à sua Vontade a sua frente ficam Atordoadas e surdas por uma quantidade de turnos igual à sua Vontade. Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 22",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando um Selo Místico no ar você cria um poderoso estrondo semelhante ao rugido de um grande dragão do deserto. Todas as criaturas a um número de metros igual à sua Vontade à sua frente ficam Atordoadas e surdas por uma quantidade de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "rugido-do-dragao-do-deserto",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "82aab5ec27e1633f",

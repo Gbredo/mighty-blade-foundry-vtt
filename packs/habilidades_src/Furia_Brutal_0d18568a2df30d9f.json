@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 10, Fúria Colérica.",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Fúria Colérica",
+    "acesso": [
+      "Amoque"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia do Vilão, pág. 71",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando você entra em fúria, seus adversários devem escolher entre fugir ou morrer! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +4, você pode utilizar Fúria Colérica até duas vezes por turno e você pode se mover antes e depois ou entre ataques, desde que não exceda seu Deslocamento a cada turno. Descrição Os Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar. Embora alguns matadores de aluguel utilizem táticas diversificadas para eliminar seus alvos, usando venenos ingeríveis, disparos de pontos imperceptíveis ou até mesmo magia, um Assassino prefere o método mais direto e pessoal. Ele gosta de ter certeza de que o seu alvo está morto, de fato, e o único meio de ter certeza é Requisitos Para seguir este Caminho você precisa preencher os seguintes Requisitos: • Ataque Aleijador (Habilidade) • Agilidade 4 Habilidade Automática:</p>"
+    "concessoes": [],
+    "description": "<p>Quando você entra em fúria, seus adversários devem escolher entre fugir ou morrer! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +4, você pode utilizar Fúria Colérica até duas vezes por turno e você pode se mover antes e depois ou entre ataques, desde que não exceda seu Deslocamento a cada turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Final do Caminho Amoque. Requer Nível 10 e a habilidade Fúria Colérica. Permite fracionar o deslocamento entre os ataques do mesmo turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "furia-brutal",
       "automatica": false,
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

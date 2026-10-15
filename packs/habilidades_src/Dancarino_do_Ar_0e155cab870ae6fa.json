@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Levent, Agilidade 5",
+    "dificuldadeTexto": "",
+    "requisitos": "Agilidade 5",
+    "acesso": [
+      "Levent"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "valor": 2
       }
     ],
-    "description": "<p>Suas acrobacias aéreas são impecáveis. Enquanto estiver voando, recebe +2 em acrobacia, encontrões e manobras aéreas, além de +2 em Esquiva (Defesa).</p>"
+    "concessoes": [],
+    "description": "<p>Você praticou voo com um entusiasmo incomum e aperfeiçoou enormemente suas perícias aéreas. Enquanto estiver voando, você recebe um bônus de +2 em testes de acrobacia, tentativas de realizar um Encontrão, testes de movimento e qualquer outra manobra aérea. Este bônus também estende-se à sua Defesa (considerado um bônus de Esquiva).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Agilidade 5. Serve de pré-requisito para Movimento Brusco.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "dancarino-do-ar",
       "automatica": false,
+      "acesso": [
+        "Levent"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

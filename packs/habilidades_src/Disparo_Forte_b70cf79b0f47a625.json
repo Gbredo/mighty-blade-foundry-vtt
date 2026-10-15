@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Retesar Eficiente",
+    "acesso": [
+      "Patrulheiro",
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 120; Guia do Herói, pág. 26",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Faça um ataque à distância. Se acertar, some +8 ao dano da arma.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque à distância. Se acertar, some +8 ao dano da arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Retesar Eficiente. Serve de pré-requisito para Disparo Devastador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "disparo-forte",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro",
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

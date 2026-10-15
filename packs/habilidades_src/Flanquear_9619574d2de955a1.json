@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Ladino",
+      "Guerreiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 47, 95; Codex Monstrorum, pág. 166",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você prefere atacar seus alvos quando eles estão desatentos – e é muito eficiente fazendo isso! Sempre que você e pelo menos mais um aliado estiverem em alcance corporal de um oponente, você considera aquele oponente Desprevenido em relação a você. Você só pode flanquear um alvo por turno. Se 2 ou mais adversários estiverem adjacentes a você e a um aliado ao mesmo tempo no início do seu turno você deve definir qual deles vai flanquear.</p>"
+    "concessoes": [],
+    "description": "<p>Você prefere atacar seus alvos quando eles estão desatentos – e é muito eficiente fazendo isso! Sempre que você e pelo menos mais um aliado estiverem em alcance corporal de um oponente, você considera aquele oponente Despreparado em relação a você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode flanquear um alvo por turno. Se 2 ou mais adversários estiverem adjacentes a você e a um aliado ao mesmo tempo, você deve definir qual deles vai flanquear. Serve de pré-requisito para as habilidades avançadas *En Passant* e *Explorar Surpresa*.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "flanquear",
       "automatica": false,
+      "acesso": [
+        "Ladino",
+        "Guerreiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

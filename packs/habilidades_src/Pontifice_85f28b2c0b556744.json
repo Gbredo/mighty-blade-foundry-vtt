@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 10, Primaz",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 146",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você adquiriu uma profunda ligação e um conhecimento extremamente amplo sobre a magia e seu fluxo das Divindades para o mundo material. Você rola +2 em todos os seus testes envolvendo magias (incluindo conjurá-las), todas as suas magias de Cura recuperam 5 Pontos de Vida a mais e o custo de todas as Habilidades do tipo Magia que você lançar é diminuído em 5. Além disso todos os Selos Místicos que você desenhar duram o dobro do tempo normal.</p>"
+    "concessoes": [],
+    "description": "<p>Você adquiriu uma profunda ligação e um conhecimento extremamente amplo sobre a magia e seu fluxo das Divindades para o mundo material. Você rola +2 em todos os seus testes envolvendo magias (incluindo conjurá-las), todas as suas magias de Cura recuperam 5 Pontos de Vida a mais e o custo de todas as Habilidades do tipo Magia que você lançar é diminuído em 5. Além disso todos os Selos Místicos que você desenhar duram o dobro do tempo normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Sacerdote (requer Nível 10 e a habilidade Primaz).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "pontifice",
       "automatica": false,
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

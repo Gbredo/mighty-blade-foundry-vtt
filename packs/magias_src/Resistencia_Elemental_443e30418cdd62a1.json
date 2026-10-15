@@ -3,16 +3,37 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 9,
+    "dificuldadeTexto": "9",
     "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura ou objeto, você confere Resistência a Fogo, Frio ou Eletricidade (o alvo sofre apenas metade do dano proveniente desse tipo de energia) a ele. Essa Runa Arcana dura por 1 minuto.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Feiticeiro",
+      "Rúnico",
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 99, 101",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura ou objeto, você confere Resistência ao Fogo, Frio ou Eletricidade a ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura por 1 minuto.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "resistencia-elemental",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Feiticeiro",
+        "Rúnico",
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "443e30418cdd62a1",

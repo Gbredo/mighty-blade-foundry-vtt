@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 40,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Pacto da Tirania.",
+    "dificuldadeTexto": "Determinação do conjurador",
+    "requisitos": "Nível 5, Pacto da Tirania",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 91",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você exerce a vontade de Virzú através de um comando contra uma criatura. Se a criatura for capaz de compreender o que você disse, ela precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação) ou realiza o comando imediatamente. O comando deve poder ser realizado em apenas um turno e não pode ter mais do que uma palavra por ponto de Vontade que você tiver (“ataque o anão”, “deite no chão”, “corra para longe de mim”). Se o comando disser respeito a ações involuntárias do alvo ou se for contra seus Dogmas ou Códigos, o alvo é automaticamente bem sucedido no teste, mas apenas Sacerdotes de Denalla consideram a ordem “cometa suicídio” como uma quebra de votos, e qualquer outra criatura ordenada a isso fará um ataque corporal contra si mesmo como se estivesse Desprevenido. Se um alvo falhar no teste, mas não for capaz – ou não compreender – a ordem, ele simplesmente fica confuso, não realizando nenhuma ação. Este é um efeito mental.</p>"
+    "concessoes": [],
+    "description": "<p>Você exerce a vontade de Virzú através de um comando contra uma criatura. Se a criatura for capaz de compreender o que você disse, ela precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação) ou realiza o comando imediatamente. O comando deve poder ser realizado em apenas um turno e não pode ter mais do que uma palavra por ponto de Vontade que você tiver (“ataque o anão”, “deite no chão”, “corra para longe de mim”). Se o comando disser respeito a ações involuntárias do alvo ou se for contra seus Dogmas ou Códigos, o alvo é automaticamente bem-sucedido no teste, mas apenas Sacerdotes de Denalla consideram a ordem “cometa suicídio” como uma quebra de votos, e qualquer outra criatura ordenada a isso fará um ataque corporal contra si mesmo como se estivesse Desprevenido.</p><p>Se um alvo falhar no teste, mas não for capaz — ou não compreender — a ordem, ele simplesmente fica confuso, não realizando nenhuma ação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e o Pacto da Tirania. Este é um efeito mental. Habilidade exclusiva do Caminho Cultista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "voz-de-virzu",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

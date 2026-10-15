@@ -6,19 +6,46 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Aparar Magia.",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Aparar Magia",
+    "acesso": [
+      "Dracomante",
+      "Feiticeiro",
+      "Sacerdote",
+      "Druida",
+      "Necromante",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico, pág. 50, 61; Guia do Vilão, pág. 36, 51, 61",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você dissipa todas as Runas Arcanas ou Selos Místicos de uma criatura, objeto ou estrutura com seu toque. Essa Habilidade não tem efeito em magias com efeitos instantâneos (como Curar Ferimentos, Rajada de Espinhos ou Teleporte) nem reverte efeitos permanentes de magia (como restaurar os Pontos de Vida perdidos devido a uma Bola de Fogo, consertar um objeto alvo de Ferrugem ou reverter água afetada por Raio Gélido de volta ao estado líquido). Você pode também escolher quais Runas ou Selos dissipar e quais não, caso o alvo tenha mais de um Selo ou Runa afetando-o. O custo para dissipar um Selo ou Runa é igual ao custo usado para conjurá-los.</p>"
+    "concessoes": [],
+    "description": "<p>Você dissipa todas as Runas Arcanas ou Selos Místicos de uma criatura, objeto ou estrutura com seu toque. Essa Habilidade não tem efeito em Runas ou Selos com efeitos instantâneos (como Curar Ferimentos, Rajada de Espinhos ou Teleporte) nem reverte efeitos permanentes de magia (como restaurar os Pontos de Vida perdidos devido a uma Bola de Fogo, dissipar água criada por Princípio Natural ou reverter água afetada por Raio Gélido de volta ao estado líquido). Você pode também escolher quais Runas ou Selos dissipar e quais não, caso o alvo tenha mais de um Selo ou Runa afetando-o.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O custo para dissipar um Selo ou Runa é igual ao custo usado para conjurá-los.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "dissipar-magia",
       "automatica": false,
+      "acesso": [
+        "Dracomante",
+        "Feiticeiro",
+        "Sacerdote",
+        "Druida",
+        "Necromante",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

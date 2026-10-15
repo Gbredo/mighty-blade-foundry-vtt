@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Mahok",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Mahok"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 71; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "testes de agarrar, apertar e escalar"
       }
     ],
-    "description": "<p>Você nasceu com um par adicional de braços rochosos. Você pode empunhar e utilizar duas armas de duas mãos simultaneamente (ou empunhar escudo e armas pesadas com liberdade). Concede +1 em testes de agarrar, apertar e escalar, e +2 de dano ao apertar vítimas.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um par de braços a mais. Estes braços podem ser utilizados para segurar itens — incluindo escudos e armas, permitindo que você utilize duas armas com a característica Duas Mãos ao mesmo tempo — e auxiliam em tentativas de segurar e agarrar com firmeza, oferecendo um bônus de +1 em seus testes de agarrar, apertar e escalar. Além disso, quando apertar um alvo você causa 2 pontos de dano adicionais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Texto atualizado conforme a Errata Oficial do *Guia Básico* (permitindo empunhar duas armas de Duas Mãos ao mesmo tempo). Esses bônus se acumulam com os bônus de Abraço de Pedra. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "bracos-extras",
       "automatica": false,
+      "acesso": [
+        "Mahok"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

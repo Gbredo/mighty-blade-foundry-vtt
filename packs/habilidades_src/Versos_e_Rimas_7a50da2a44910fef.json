@@ -1,0 +1,46 @@
+{
+  "name": "Versos e Rimas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 26-27",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você consegue se focar com eficiência em tocar instrumentos musicais ou cantar – embora não seja especialmente eficiente quando precisa fazer as duas coisas ao mesmo tempo. Você recebe +2 em todos os testes que envolvam entreter uma plateia – seja cantando, tocando instrumentos musicais, contando histórias ou declamando (incluindo utilizar Ritmos e Canções, mas não Melodias).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Habilidade do tipo Música que seja um Ritmo ou Canção e que preencha os requisitos. Esta escolha é permanente e não pode ser alterada.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "versos-e-rimas",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "7a50da2a44910fef",
+  "_key": "!items!7a50da2a44910fef"
+}

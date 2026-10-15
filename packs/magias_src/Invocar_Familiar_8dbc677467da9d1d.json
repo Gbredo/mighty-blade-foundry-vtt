@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 20,
-    "dificuldade": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
     "circulo": 1,
-    "description": "<p>Você conjura um golem ou elemental pequeno (de qualquer tipo) desenhando uma Runa Arcana ou Selo Místico sobre uma gema com valor de pelo menos 400 moedas. Enquanto a gema encantada estiver intacta, o Familiar tem duração permanente. Se o Familiar for destruído, a Runa ou Selo na gema se dissipa, mas a gema pode ser utilizada novamente. Se a gema for destruída ou se a Runa ou Selo for dissipada, o Familiar se dissipa imediatamente. Veja os dados dos Elementais e Golens no Monstrum Codex para mais detalhes.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Invocador"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 104–106",
+    "exclusivoCom": [],
+    "description": "<p>Você conjura um golem ou elemental pequeno (de qualquer tipo) desenhando uma Runa Arcana ou Selo Místico sobre uma gema com valor de pelo menos 400 moedas. Enquanto a gema encantada estiver intacta, o Familiar tem duração permanente. Se o Familiar for destruído, a Runa ou Selo na gema se dissipa, mas a gema pode ser utilizada novamente. Se a gema for destruída ou se a Runa ou Selo for dissipada, o Familiar se dissipa imediatamente. Veja os dados dos Elementais e Golens no Monstrum Codex para mais detalhes. DESCRIÇÃO Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Invocador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "invocar-familiar",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "8dbc677467da9d1d",

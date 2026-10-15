@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
-    "dificuldade": 8,
+    "custoVariavel": false,
+    "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p>Cria barreira de força flutuante temporária. Efeito mecânico exato pendente.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Manual do Combatente, pág. 218",
+    "exclusivoCom": [],
+    "description": "<p>Você desenha uma Runa Arcana no ar e ela se transforma em um escudo de energia para proteger uma criatura dentro de sua linha de visão. O escudo flutua ao redor do alvo, bloqueando ataques, mas pode ser segurado como um escudo normal. Ele garante um Bônus de Bloqueio de +2, e se for segurado tem FN 2 e ocupa 1 mão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana que mantém o escudo se dissipa depois de 1 minuto. No *Manual do Combatente* (pág. 218), o custo para esta magia é atualizado para 20 PM.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "conjurar-escudo",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "f9901f2dc51543e7",

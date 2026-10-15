@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 11,
+    "dificuldadeTexto": "11",
     "circulo": 1,
-    "description": "<p>Você desenha um Selo Místico no ar que expurga os mortos-vivos, demônios e espíritos que estiverem a uma distância em metros igual à sua Determinação ao seu redor, fazendo com que eles imediatamente percam 10 Pontos de Vida e 10 Pontos de Mana. Criaturas afetadas que tenham Mente Vazia perdem todos os seus Pontos devida e Mana imediatamente. Mortos-vivos destruídos por essa magia voltarão a ser cadáveres inanimados e não poderão ser reanimados novamente, demônios são imediatamente enviados de volta ao inferno e não podem sair de lá por 1 ano e espíritos são permanentemente dissipados. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 143",
+    "exclusivoCom": [],
+    "description": "<p>Você desenha um Selo Místico no ar que expurga os mortos-vivos, demônios e espíritos que estiverem a uma distância em metros igual à sua Determinação ao seu redor, fazendo com que eles imediatamente percam 10 Pontos de Vida e 10 Pontos de Mana. Criaturas afetadas que tenham Mente Vazia perdem todos os seus Pontos de Vida e Mana imediatamente. Mortos-vivos destruídos por essa magia voltarão a ser cadáveres inanimados e não poderão ser reanimados novamente, demônios são imediatamente enviados de volta ao inferno e não podem sair de lá por 1 ano e espíritos são permanentemente dissipados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Serve de pré-requisito para Conjurar Lança do Destino e Círculo da Proteção (Santuário Místico).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "exorcismo",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "079fb987944c8def",

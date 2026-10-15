@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Elfo",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Elfo"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 51",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "testes nas copas das árvores"
       }
     ],
-    "description": "<p>Você passou muitos anos explorando as copas das árvores. Você é automaticamente bem-sucedido em testes para escalar árvores, seu Deslocamento não é reduzido na copa das árvores e você recebe +2 em testes para mover-se em silêncio, esconder-se e equilibrar-se nelas.</p>"
+    "concessoes": [],
+    "description": "<p>Você passou muitos anos explorando as copas das árvores, e se sente à vontade entre os galhos. Você é automaticamente bem-sucedido em testes para escalar árvores e seu Deslocamento não é reduzido quando estiver se movimentando pelas copas das árvores.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você também recebe um bônus de +2 em todos os seus testes para se mover em silêncio, se esconder e se movimentar enquanto estiver em cima de uma árvore.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arboricola",
       "automatica": false,
+      "acesso": [
+        "Elfo"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

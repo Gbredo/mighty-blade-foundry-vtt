@@ -1,0 +1,46 @@
+{
+  "name": "Ritmo da Fúria",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 79, 82",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca um ritmo primitivo, que faz aflorar os instintos mais violentos nos seus aliados. Todos os seus aliados a uma distância igual à sua Determinação em metros desferem seus ataques com mais selvageria, causando +5 de dano enquanto você continuar a tocar essa música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Na 3ª Edição Básica figurava originalmente como *Melodia da Fúria*.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ritmo-da-furia",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "7a4817bf1b66a54b",
+  "_key": "!items!7a4817bf1b66a54b"
+}

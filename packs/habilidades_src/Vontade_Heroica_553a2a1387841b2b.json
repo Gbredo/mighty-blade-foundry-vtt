@@ -1,13 +1,23 @@
 {
-  "name": "Vontade Heróica",
+  "name": "Vontade Heroica",
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 40",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "vontade",
       "valor": 1
@@ -19,12 +29,21 @@
         "valor": 1
       }
     ],
-    "description": "<p>Concede Vontade +1 permanentemente.</p>"
+    "concessoes": [],
+    "description": "<p>Sua determinação e autoconfiança são quase inabaláveis. Você tem Vontade +1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Disponível para todas as raças.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vontade-heroica",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [
+        "Vontade Heróica"
+      ],
       "opcoes": []
     }
   },

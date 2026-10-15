@@ -1,0 +1,46 @@
+{
+  "name": "Melodia Ensurdecedora",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 78-79",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca e grita uma música tão alta e rápida que faz com que todos ao redor tenham dificuldades em ouvir. Enquanto estiver tocando essa Música, nenhuma outra Música ou efeitos que exijam que um alvo seja capaz de entender o que está sendo dito (Língua Afiada, Motivar, Voz de Comando, etc.) funcionam em uma área ao seu redor igual à sua Determinação em metros. Além disso, é muito difícil se concentrar propriamente; todos os testes para conjurar magias têm sua dificuldade aumentada em +2 dentro da área de efeito dessa Melodia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Bloqueia efeitos baseados em fala e aumenta dificuldades de feitiços arcanos/místicos.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-ensurdecedora",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "27891464be461f66",
+  "_key": "!items!27891464be461f66"
+}

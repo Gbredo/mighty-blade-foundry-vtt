@@ -1,0 +1,46 @@
+{
+  "name": "Código da Lealdade",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Paladino",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 114",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você nunca ataca um combatente que já está derrotado, nem luta ou permite que outros lutem de forma unfair ou com deslealdade, e jamais trai ou permite que outros traiam aqueles que confiam em você. Você recupera o dobro de Pontos de Vida (por descanso, através de poções, magias, etc.) e é imune a venenos e doenças naturais ou mágicas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para as habilidades Motivar e Comando Heroico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "codigo-da-lealdade",
+      "automatica": false,
+      "acesso": [
+        "Paladino",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "95954c404e5ca8b4",
+  "_key": "!items!95954c404e5ca8b4"
+}

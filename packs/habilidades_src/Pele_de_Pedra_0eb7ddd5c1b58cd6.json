@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Mahok",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 32; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -24,12 +35,20 @@
         "contexto": "evitar queda, resistir a venenos/doenças, empurrar/segurar peso"
       }
     ],
-    "description": "<p>Pele rígida fornece Defesa +4 (conta como Armadura Pesada; não pode usar armaduras). +1d6 para evitar queda, resistir a venenos/doenças, empurrar/segurar peso. Inapto em escalar, saltar e correr.</p>"
+    "concessoes": [],
+    "description": "<p>Seu corpo é composto por rocha maciça viva, concedendo Defesa natural +4 (o que impede você de vestir qualquer tipo de armadura convencional). Você rola +1d6 em testes para evitar ser derrubado, resistir a venenos ou doenças e para segurar peso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é considerado Inapto em testes de escalar, saltar, correr ou se mover com agilidade. É totalmente impossível para um Mahok nadar. Quando derrubado, você precisa gastar uma rodada completa para se levantar.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "pele-de-pedra",
       "automatica": true,
+      "acesso": [
+        "Mahok",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Companheiro Dragão 3.",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Companheiro Dragão 3",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 52",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seu Companheiro Dragão se torna uma criatura formidável com a qual você possui uma ligação profunda. Enquanto estiver em contato físico direto com seu Companheiro Dragão vocês compartilham seus Pontos de Mana e podem transferir Pontos de Mana um para o outro como uma Ação livre. Seu companheiro se torna uma criatura de tamanho Grande, ganha +1 em todos os seus Atributos, +1 em 2 Atributos à sua escolha. Além disso, ele recebe a Habilidade Montaria e mais 1 Habilidade da lista do Dragano (pagina 26) à sua escolha.</p>"
+    "concessoes": [],
+    "description": "<p>Seu Companheiro Dragão se torna uma criatura formidável com a qual você possui uma ligação profunda. Enquanto estiver em contato físico direto com seu Companheiro Dragão vocês compartilham seus Pontos de Mana e podem transferir Pontos de Mana um para o outro como uma Ação livre.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Seu companheiro se torna uma criatura de tamanho Grande, ganha +1 em todos os seus Atributos, +1 em 2 Atributos à sua escolha. Além disso, ele recebe a Habilidade Montaria e mais 1 Habilidade da lista do Dragano (pág. 26 do Guia do Vilão) à sua escolha. Requer Nível 5 e Companheiro Dragão 3.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "companheiro-dragao-4",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

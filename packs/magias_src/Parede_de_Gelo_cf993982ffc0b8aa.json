@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa Arcana no ar, você congela a umidade do ambiente na forma de uma grossa parede de gelo. A parede tem 3 metros de altura por 3 metros de largura e 1 metro de espessura, e deve ser conjurada diretamente sobre uma superfície firme, mas pode ser criada em qualquer ângulo ou formato desde que respeite seu volume e fique firmemente presa na posição onde foi conjurada. A parede tem 60 Pontos de Vida, Defesa 10, é Vulnerável ao Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ela pode suportar até 500 quilos de peso sobre ela antes de quebrar. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Congelar",
+    "acesso": [
+      "Feiticeiro"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 79-80; Errata, pág. 1; Guia de Tebryn, pág. 26",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma runa Arcana no ar, você congela a umidade do ambiente na forma de uma grossa parede de gelo. A parede tem 3 metros de altura por 3 de largura e 1 metro de espessura, e deve ser conjurada diretamente sobre uma superfície firme, mas pode ser criada em qualquer ângulo ou formato desde que respeite seu volume e fique firmemente presa na posição onde foi conjurada. A parede tem 60 Pontos de Vida, Defesa 10, é Vulnerável ao Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ela pode suportar até 500 quilos de peso sobre ela antes de quebrar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal. Serve de pré-requisito para *Armadura de Gelo*, *Barreira de Gelo* e *Prisão de Gelo*.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "parede-de-gelo",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Feiticeiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "cf993982ffc0b8aa",

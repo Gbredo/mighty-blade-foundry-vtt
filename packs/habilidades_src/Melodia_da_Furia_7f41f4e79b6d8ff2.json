@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "musica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Melodia Dançante",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Canção do Bardo, pág. 82",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você toca um ritmo primitivo, que faz com que todos os Humanoides que o escutem sintam seus instintos mais violentos aflorarem. Todos os Humanoides capazes de escutar essa canção desferem seus ataques com mais selvageria, causando +5 de dano, mas sofrendo um redutor de -2 em sua Defesa enquanto você continuar a tocar essa música. Este é um efeito mental.</p>"
+    "concessoes": [],
+    "description": "<p>Você toca um ritmo primitivo que faz aflorar os instintos mais violentos em seus aliados. Todos os seus aliados a uma distância igual à sua Determinação em metros desferem seus ataques com mais selvageria, causando +5 de dano enquanto você continuar a tocar essa música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. No suplemento *Canção do Bardo* (pág. 82), a habilidade foi revisada para o nome *Ritmo da Fúria*, concedendo bônus direto de +5 de dano aos aliados.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "melodia-da-furia",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

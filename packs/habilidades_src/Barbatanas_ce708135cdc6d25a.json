@@ -1,0 +1,52 @@
+{
+  "name": "Barbatanas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dragano (Origem Dracônica)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição",
+    "exclusivoCom": [],
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "nadar, se equilibrar e evitar ser derrubado"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Concede <strong>+1d6</strong> em testes para nadar, equilibrar-se e evitar ser derrubado. Pré-requisito para a habilidade <em>Anfíbio</em>.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carac-draconica-barbatanas",
+      "subFeatureId": "barbatanas",
+      "parentSlug": "linhagem-draconica",
+      "originLabel": "Origem Dracônica",
+      "isSubFeature": true,
+      "automatica": true,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "opcoes": []
+    }
+  },
+  "_id": "ce708135cdc6d25a",
+  "_key": "!items!ce708135cdc6d25a"
+}

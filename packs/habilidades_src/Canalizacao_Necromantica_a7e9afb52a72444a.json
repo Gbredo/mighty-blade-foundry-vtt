@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Avantesma"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 81–84",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Escolha uma Habilidade do tipo Magia que produza um efeito de Dreno de Energia e que não tenha nenhum requisito de nível. Você é capaz de conjurar aquela Magia como se fosse uma Habilidade do tipo Característica. Esta escolha é permanente e não pode ser mudada mais tarde. A magia sempre funciona automaticamente (ignore a Dificuldade da Magia), mas você precisa tocar no alvo ao invés de desenhar uma Runa Arcana ou Selo Místico para ativá-la. Todas as outras características da Magia são mantidas iguais.</p>"
+    "concessoes": [],
+    "description": "<p>Escolha uma Habilidade do tipo Magia que produza um efeito de Dreno de Energia e que não tenha nenhum requisito de nível. Você é capaz de conjurar aquela Magia como se fosse uma Habilidade do tipo Característica. Esta escolha é permanente e não pode ser mudada mais tarde. A magia sempre funciona automaticamente (ignore a Dificuldade da Magia), mas você precisa tocar no alvo ao invés de desenhar uma Runa Arcana ou Selo Místico para ativá-la. Todas as outras características da Magia são mantidas iguais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Avantesma.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "canalizacao-necromantica",
       "automatica": false,
+      "acesso": [
+        "Avantesma"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

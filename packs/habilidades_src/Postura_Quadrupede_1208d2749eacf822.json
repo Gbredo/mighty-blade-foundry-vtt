@@ -1,0 +1,44 @@
+{
+  "name": "Postura Quadrúpede",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Gnoll"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 29",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você pode usar seus quatro membros para locomoção. Seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Você não recebe estes benefícios em um turno que utilizar suas mãos para realizar qualquer outra tarefa que não seja se locomover.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige manter ambas as mãos livres para locomoção durante o turno. Não fornece benefícios caso utilize as mãos para atacar, segurar objetos ou conjurar.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "postura-quadrupede",
+      "automatica": false,
+      "acesso": [
+        "Gnoll"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "1208d2749eacf822",
+  "_key": "!items!1208d2749eacf822"
+}

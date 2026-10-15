@@ -3,22 +3,43 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
-    "categoria": "tecnica",
+    "tipo": "reacao",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Guerreiro",
+      "Espadachim",
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 97, 111, 122",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Cada vez que você derrota um oponente (isso inclui se ele se render ou fugir após a batalha) você recupera 5 pontos de vida e 5 pontos de mana. Habilidade Final</p>"
+    "concessoes": [],
+    "description": "<p>Cada vez que você derrota um oponente (isso inclui se ele se render ou fugir após a batalha) você recupera 5 pontos de vida e 5 pontos de mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta habilidade exige Nível 5 para ser adquirida.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "valor-da-vitoria",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Espadachim",
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

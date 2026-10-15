@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Invocar Espírito de Tinta",
+    "acesso": [
+      "Tohunga"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 80–83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Através da tatuagem do seu espírito animal, você é capaz de fortalecer sua determinação e em contrapartida seu espírito animal também se fortalece. Enquanto a tatuagem do seu espírito animal estiver à mostra, você (e quaisquer criaturas que você invocar) recebe +10 Pontos de Vida e +1 em Bloqueio, Esquiva e Determinação.</p>"
+    "concessoes": [],
+    "description": "<p>Através da tatuagem do seu espírito animal, você é capaz de fortalecer sua determinação e em contrapartida seu espírito animal também se fortalece. Enquanto a tatuagem do seu espírito animal estiver à mostra, você (e quaisquer criaturas que você invocar) recebe +10 Pontos de Vida e +1 em Bloqueio, Esquiva e Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Invocar Espírito de Tinta. Caminho Tohunga.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "coracao-de-tinta",
       "automatica": false,
+      "acesso": [
+        "Tohunga"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

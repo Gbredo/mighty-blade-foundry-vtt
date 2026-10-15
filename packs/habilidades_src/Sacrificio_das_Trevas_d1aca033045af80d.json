@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Pacto da Ambição",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 87",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode usar Círculo de Invocação de maneira muito mais eficiente que outros Cultistas. Sempre que realizar um Sacrifício de Sangue como parte da conjuração de um Círculo de Invocação você recebe +1d6 no teste para conjurar aquela magia.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode usar Círculo de Invocação de maneira muito mais eficiente que outros Cultistas. Sempre que realizar um Sacrifício de Sangue como parte da conjuração de um Círculo de Invocação você recebe +1d6 no teste para conjurar aquela magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer patrono Glycon via Pacto da Ambição. Concede +1d6 na conjuração de círculos com sacrifício de sangue.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sacrificio-das-trevas",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Alquimista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 80–82",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui um conhecimento considerável sobre fenômenos físicos e químicos e das características de substâncias de origem animal, vegetal e mineral que podem ter efeitos úteis. Você é considerado apto para processar matérias primas e recebe +2 em seus testes para encontrar jazidas e extrair material delas. Finalmente, você pode fazer testes de Inteligência para identificar qualquer poção (A dificuldade é igual ao processo com dificuldade mais baixa usado para produzir a poção) desde que possa ver ou cheirar a poção.</p>"
+    "concessoes": [],
+    "description": "<p>Habilidade Automática do Alquimista. Conhece os processos de produção de poções básicas, é apto para processar matérias-primas e recebe +2 em testes para encontrar jazidas e extrair material delas. Pode fazer testes de Inteligência para identificar qualquer poção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Alquimista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "alquimia-basica",
       "automatica": false,
+      "acesso": [
+        "Alquimista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

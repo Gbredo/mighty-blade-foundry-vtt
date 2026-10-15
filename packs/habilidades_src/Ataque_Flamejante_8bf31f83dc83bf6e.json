@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Arma Incandescente",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 126",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma além de 10/fogo e faz o alvo entrar em combustão (o alvo sofre uma quantidade de dano igual a 10/fogo no começo do seu turno) por uma quantidade de turnos igual à sua Inteligência ou até que as chamas sejam apagadas de alguma forma. Especial: Um personagem em combustão pode gastar seu turno rolando no chão para apagar as chamas. Ele será considerado Caído e Despreparado enquanto fizer isso (ver Condições, pág. 169).</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma além de 10/Fogo e faz o alvo entrar em combustão (o alvo sofre uma quantidade de dano igual a 10/Fogo no começo do seu turno) por uma quantidade de turnos igual à sua Inteligência ou até que as chamas sejam apagadas de alguma forma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um personagem em combustão pode gastar seu turno rolando no chão para apagar as chamas. Ele será considerado Caído e Desprevenido enquanto fizer isso. Requer Nível 5 e Arma Incandescente.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-flamejante",
       "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

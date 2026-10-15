@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Metadílio",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 31; Guia do Herói, pág. 15",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -27,12 +38,20 @@
         "condicao": "Armas com FN 5 ou mais exigem duas mãos"
       }
     ],
-    "description": "<p>+1d6 em testes de Furtividade. Defesa base 6. Usa duas mãos para empunhar armas com FN 5 ou mais.</p>"
+    "concessoes": [],
+    "description": "<p>Sua estatura diminuta dificulta que os oponentes o atinjam e facilita passar despercebido. Sua Defesa base inicial é 6 (em vez de 5) e você rola +1d6 em todos os testes de Furtividade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Armas corporais de duas mãos são grandes demais para serem empunhadas por você de forma eficiente. Qualquer arma com Força Necessária (FN) 5 ou superior exige que você use ambas as mãos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "tamanho-pequeno",
       "automatica": true,
+      "acesso": [
+        "Metadílio",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

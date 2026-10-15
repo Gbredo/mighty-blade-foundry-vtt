@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 5,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Amoque"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 71",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando você entra em fúria, você se torna um turbilhão de destruição. Enquanto estiver sob um efeito de Fúria, sempre que fizer um ataque corporal que cause dano em um alvo, você pode fazer mais um ataque corporal normal imediatamente. Esta Habilidade só pode ser usada uma vez por turno. Habilidade Final</p>"
+    "concessoes": [],
+    "description": "<p>Quando você entra em fúria, você se torna um turbilhão de destruição. Enquanto estiver sob um efeito de Fúria, sempre que fizer um ataque corporal que cause dano em um alvo, você pode fazer mais um ataque corporal normal imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e estar sob um efeito de Fúria. Esta Habilidade só pode ser usada uma vez por turno. Serve de pré-requisito obrigatório para a Habilidade Final Fúria Brutal.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "furia-colerica",
       "automatica": false,
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

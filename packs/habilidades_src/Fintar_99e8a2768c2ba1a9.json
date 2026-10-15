@@ -1,0 +1,46 @@
+{
+  "name": "Fintar",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Espadachim",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Manual do Combatente, pág. 49",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Como parte de um ataque (incluindo ataques como parte de uma Manobra ou Habilidade), o personagem pode declarar Finta como uma Reação. Esse ataque, se acertar, causa apenas metade do dano, mas seus outros ataques contra o alvo da Finta nesse turno são realizados com um bônus de +1d6 na rolagem de ataque – tendo a Finta acertado ou não.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta manobra consome a Ação de Movimento do personagem – assim, se utilizar esta Manobra, o personagem só terá sua Ação Padrão em seu próximo turno, e ele não pode realizar esta manobra se não puder usar sua Ação de Movimento ou se o seu Deslocamento estiver restringido de qualquer maneira.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "fintar",
+      "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "99e8a2768c2ba1a9",
+  "_key": "!items!99e8a2768c2ba1a9"
+}

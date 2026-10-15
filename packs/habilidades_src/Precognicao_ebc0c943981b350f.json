@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Psicometria, Retro-",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Psicometria, Retrocognição",
+    "acesso": [
+      "Oráculo"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Herói, pág. 110–112",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>cognição Fechando os olhos e concentrando-se por 1 hora, você visualiza eventos</p>"
+    "concessoes": [],
+    "description": "<p>Fechando os olhos e concentrando-se por 1 hora, você visualiza eventos</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Psicometria, Retrocognição. Caminho Oráculo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "precognicao",
       "automatica": false,
+      "acesso": [
+        "Oráculo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

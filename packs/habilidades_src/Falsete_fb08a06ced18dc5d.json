@@ -4,10 +4,22 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "musica",
+    "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel",
+      "Skald"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 27, 35",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +35,21 @@
         "situacao": "limitação de alcance normal em Gritos e Rugidos (alcance dobrado)"
       }
     ],
-    "description": "<p>Dobra o alcance de todos os Gritos e Rugidos. Acrescenta +5 de dano em cada um deles.</p>"
+    "concessoes": [],
+    "description": "<p>Você treinou no uso da extensão mais aguda da sua voz, projetando sua voz muito mais longe. O alcance dos seus Gritos e Rugidos é dobrado e o dano destas Habilidades é aumentado em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "falsete",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel",
+        "Skald"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

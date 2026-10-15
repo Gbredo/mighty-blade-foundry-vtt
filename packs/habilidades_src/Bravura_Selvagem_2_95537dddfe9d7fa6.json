@@ -4,21 +4,48 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Bravura Selvagem 1.",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Bravura Selvagem 1",
+    "acesso": [
+      "Aesir",
+      "Centauro",
+      "Xamã",
+      "Druida",
+      "Amoque",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 101, 139; Manual do Combatente, pág. 216; Guia do Herói, pág. 80",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você veste sua bravura em batalha melhor do que alguns vestem armaduras. O Bônus Defesa conferido por Bravura Selvagem 1 aumenta para +4 e você pode escolher se esse bônus será de Bloqueio ou Esquiva no início de cada um de seus turnos, como uma ação livre.</p>"
+    "concessoes": [],
+    "description": "<p>Você veste sua bravura em batalha melhor do que alguns vestem armaduras. O Bônus Defesa conferido por Bravura Selvagem 1 aumenta para +4 e você pode escolher se esse bônus será de Bloqueio ou Esquiva no início de cada um de seus turnos, como uma ação livre.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No *Manual do Combatente* (pág. 216), especifica-se que o Bônus de Esquiva oferecido por Bravura Selvagem 1 aumenta para +4. Requer Nível 5 e a habilidade Bravura Selvagem 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "bravura-selvagem-2",
       "automatica": false,
+      "acesso": [
+        "Aesir",
+        "Centauro",
+        "Xamã",
+        "Druida",
+        "Amoque",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

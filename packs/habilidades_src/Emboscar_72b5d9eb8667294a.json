@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Confronto",
     "requisitos": "Nível 5, Camuflagem",
+    "acesso": [
+      "Ladino",
+      "Patrulheiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 116; Guia do Vilão, pág. 69",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você se especializou em emboscar inimigos incapazes de percebê-lo. Quando fizer um ataque à distância contra um alvo Desprevenido, faça imediatamente um Confronto de com sua Agilidade versus Inteligência do alvo. Se o seu resultado for mais alto do que o do alvo, ele não consegue perceber de onde veio o ataque, tornando impossível para o alvo lhe atacar (ou mesmo ter uma ideia aproximada da sua posição, a menos que ela seja óbvia) enquanto você permanecer escondido.</p>"
+    "concessoes": [],
+    "description": "<p>Você se especializou em emboscar inimigos incapazes de percebê-lo. Quando fizer um ataque à distância contra um alvo Desprevenido, faça imediatamente um Confronto com sua Agilidade versus Inteligência do alvo. Se o seu resultado for mais alto do que o do alvo, ele não consegue perceber de onde veio o ataque, tornando impossível para o alvo lhe atacar (ou mesmo ter uma ideia aproximada da sua posição, a menos que ela seja óbvia) enquanto você permanecer escondido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige um teste de Confronto de Agilidade (Ladino) contra Inteligência (alvo). Requer Nível 5 e Camuflagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "emboscar",
       "automatica": false,
+      "acesso": [
+        "Ladino",
+        "Patrulheiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

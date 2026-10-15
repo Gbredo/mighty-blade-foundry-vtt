@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nocautear",
+    "acesso": [
+      "Guerreiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 42 e 104",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode fazer um ataque corporal que causa o dobro de dano, e se acertar, o alvo precisa vencer um confronto de Força (adicione a FN da arma que estiver usando no seu teste) contra você ou ficará Paralisado (veja Condições na página 169) por um turno.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode fazer um ataque corporal que causa o dobro de dano. Se acertar, o alvo precisa vencer um confronto de Força (adicione a FN da arma que estiver usando no seu teste) contra você ou ficará Paralisado por um turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Consulte a condição Paralisado na página 169 do Guia Básico.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "golpe-devastador-1",
       "automatica": false,
+      "acesso": [
+        "Guerreiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

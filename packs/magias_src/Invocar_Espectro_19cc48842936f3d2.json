@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 20,
-    "dificuldade": 8,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Determinação do Alvo",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>do Alvo Desenhando uma Runa Arcana sobre uma Sombra, você a transforma</p>"
+    "nivel": "Nv1",
+    "requisitos": "Contato com Espíritos",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 55-56",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você a transforma em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente. Requer a habilidade Contato com Espíritos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "invocar-espectro",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "19cc48842936f3d2",

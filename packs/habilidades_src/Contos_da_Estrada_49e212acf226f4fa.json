@@ -4,10 +4,21 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Tailox",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Geral",
+      "Tailox"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 11",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +30,20 @@
         "contexto": "testes de Inteligência para obter conhecimento"
       }
     ],
-    "description": "<p>Com base em histórias ouvidas em caravanas e fogueiras, você possui um vasto repertório de lendas e fatos. Rola +1d6 em todos os testes de Inteligência voltados para obter ou lembrar qualquer tipo de conhecimento.</p>"
+    "concessoes": [],
+    "description": "<p>Através de várias histórias e canções contadas ao redor de fogueiras com viajantes que você encontrou em suas andanças, você acumulou um vasto conhecimento oral sobre inúmeros assuntos. Você rola +1d6 quando fizer testes de Inteligência referentes a qualquer tipo de conhecimento, não importando o quão inacessível seja este conhecimento.</p>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "contos-da-estrada",
       "automatica": false,
+      "acesso": [
+        "Geral",
+        "Tailox"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 15,
-    "dificuldade": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
     "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana sobre um item, você o envia para o plano etéreo. Qualquer item cujo peso seja igual ou menor do que a Carga Básica (Guia Básico, pág. 20) do conjurador pode ser afetado por essa Magia. Quando a Runa desenhada sobre o item for dissipada, o objeto aparece imediatamente nas mãos do conjurador. Esta Runa Arcana dura indefinidamente, mas pode ser dissipada a qualquer momento pelo conjurador. Enquanto estiver ativa, os Pontos de Mana usados para Conjurar Objeto não podem ser recuperados.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Artífice"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 89–91",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana sobre um item, você o envia para o plano etéreo. Qualquer item cujo peso seja igual ou menor do que a Carga Básica (Guia Básico, pág. 20) do conjurador pode ser afetado por essa Magia. Quando a Runa desenhada sobre o item for dissipada, o objeto aparece imediatamente nas mãos do conjurador. Esta Runa Arcana dura indefinidamente, mas pode ser dissipada a qualquer momento pelo conjurador. Enquanto estiver ativa, os Pontos de Mana usados para Conjurar Objeto não podem ser recuperados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Artífice.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "conjurar-objeto",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Artífice"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "4ccd917ce969cfbc",

@@ -3,22 +3,51 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
-    "categoria": "tecnica",
+    "tipo": "reacao",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Guerreiro",
+      "Paladino",
+      "Espadachim",
+      "Ladino",
+      "Rúnico",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 124; Canção do Bardo, pág. 26, 62",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando sofrer algum dano proveniente de um ataque, Magia, ou Música você recupera 5 Pontos de Mana. Você só pode usar esta Habilidade uma vez por turno.</p>"
+    "concessoes": [],
+    "description": "<p>Quando sofrer algum dano ou perder Pontos de Vida fora de seu turno (ou proveniente de um ataque, Magia ou Música), você recupera 5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada 1 vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "coracao-da-batalha",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Guerreiro",
+        "Paladino",
+        "Espadachim",
+        "Ladino",
+        "Rúnico",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -1,0 +1,46 @@
+{
+  "name": "Ritmo do Enjoo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 71, 79",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca um ritmo perfeitamente desconexo e perturbador. Todas as criaturas vivas a uma distância em metros de você igual à sua Determinação, e que puderem lhe escutar, rolam um confronto de Vontade contra você no começo de cada um dos seus turnos, enquanto você continuar tocando. Aqueles que tiverem um resultado mais baixo do que você ficam Atordoados até o final da rodada. Qualquer um que obtenha 3 resultados mais baixos que os seus em confrontos para resistir a esse efeito durante um mesmo combate ficarão tão enjoados que vomitarão, perdendo sua ação padrão naquele turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Na versão do Guia Básico, aparecia catalogada como *Melodia do Enjoo*.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ritmo-do-enjoo",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "ef2cd29e7d17c575",
+  "_key": "!items!ef2cd29e7d17c575"
+}

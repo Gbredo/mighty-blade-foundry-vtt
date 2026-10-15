@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Patrulheiro",
+      "Arqueiro",
+      "Balesteiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Manual do Combatente, pág. 20; Guia do Herói, pág. 27",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui uma técnica eficiente em retesar arcos e bestas. Quando estiver usando uma besta ou prodd de qualquer tipo, você ignora a Característica Carregar dessas armas. Quando estiver usando um arco ou funda de qualquer tipo, o dano de seus ataques à distância é aumentado em +2.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma técnica eficiente em retesar arcos e bestas. Quando estiver usando uma besta ou prodd de qualquer tipo, você ignora a Característica Carregar dessas armas. Quando estiver usando um arco ou funda de qualquer tipo, o dano de seus ataques à distância é aumentado em +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Disparo Forte e para o Caminho de Prestígio Balesteiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "retesar-eficiente",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro",
+        "Arqueiro",
+        "Balesteiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

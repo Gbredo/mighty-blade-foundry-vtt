@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Cesto de Adagas"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 90",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de duplicar qualquer selo, assinatura ou mesmo documento escrito do qual tenha uma cópia, podendo realizar pequenas mudanças no texto – comumente os nomes. Também permite avaliar documentos, jóias e itens mágicos, identificando se são verdadeiros (no caso de documentos), quanto valem (no caso de jóias) ou se são mágicos ou mundanos (mas não identificar suas características, caso sejam mágicos). Quando realizar um teste para falsificar, faça um teste de Inteligência (com um bônus de +2) e verifique a tabela de qualidade dos itens (Guia do Herói, página 52).</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de duplicar qualquer selo, assinatura ou mesmo documento escrito do qual tenha uma cópia, podendo realizar pequenas mudanças no texto – comumente os nomes. Também permite avaliar documentos, jóias e itens mágicos, identificando se são verdadeiros (no caso de documentos), quanto valem (no caso de jóias) ou se são mágicos ou mundanos (mas não identificar suas características, caso sejam mágicos). Quando realizar um teste para falsificar, faça um teste de Inteligência (com um bônus de +2) e verifique a tabela de qualidade dos itens (Guia do Herói, pág. 52).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige instrumentos de escrita. Sem uma lupa, testes de avaliação são realizados como Inapto.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "falsificador",
       "automatica": false,
+      "acesso": [
+        "Cesto de Adagas"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

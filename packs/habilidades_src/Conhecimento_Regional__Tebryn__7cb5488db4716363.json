@@ -6,19 +6,45 @@
     "tipo": "suporte",
     "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Hoste de Hadorn",
+      "Espada de Mirah",
+      "Anel",
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Conhecimento Regional [Tebryn] — habilidade da organização (ver livro).</p>"
+    "concessoes": [],
+    "description": "<p>Você conhece profundamente a história e características de Tebryn. Você rola +1d6 em todos os seus testes ligados à história, geografia e folclore ligados ao reino, e conhece os nomes de todas as personalidades importantes (nobres com qualquer título acima de Cavaleiro, militares com títulos acima de Alferes, Burgomestres, Regentes e líderes de guildas e organizações) de Tebryn.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Pode ser adaptado para outros reinos com permissão do Mestre.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "conhecimento-regional-tebryn",
       "automatica": false,
+      "acesso": [
+        "Hoste de Hadorn",
+        "Espada de Mirah",
+        "Anel",
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [
+        "Conhecimento Regional [Tebryn]",
+        "Conhecimento Regional (Tebryn)"
+      ],
       "opcoes": []
     }
   },

@@ -6,19 +6,40 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Espadachim",
+      "Ladino",
+      "Patrulheiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 110, 122; Manual do Combatente, pág. 63",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você sabe como acertar ataques entre as frestas e falhas das armaduras do inimigo. Ignore sempre o bônus de armadura da defesa do oponente.</p>"
+    "concessoes": [],
+    "description": "<p>Você sabe como acertar ataques entre as frestas e falhas das armaduras do inimigo. Ignore sempre o bônus de Armadura da Defesa do oponente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Na revisão do Manual do Combatente (pág. 63), a regra é detalhada: seus ataques ignoram o bônus de Bloqueio oferecido pela Armadura do alvo (mas não sua RD ou Resistências).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "falhas-da-armadura",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Ladino",
+        "Patrulheiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

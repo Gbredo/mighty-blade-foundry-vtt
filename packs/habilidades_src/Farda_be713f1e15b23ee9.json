@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 23-24",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você sabe como envergar uma farda adequadamente e está ciente disso, o que lhe garante não apenas uma presença imponente, mas também um incremento em sua autoconfiança. Sempre que estiver utilizando uma vestimenta adequada ao seu posto você recebe +2 em todos os testes sociais e em sua Determinação.</p>"
+    "concessoes": [],
+    "description": "<p>Você sabe como envergar uma farda adequadamente e está ciente disso, o que lhe garante não apenas uma presença imponente, mas também um incremento em sua autoconfiança. Sempre que estiver utilizando uma vestimenta adequada ao seu posto você recebe +2 em todos os testes sociais e em sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito obrigatório para a habilidade Presença Confiante.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "farda",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

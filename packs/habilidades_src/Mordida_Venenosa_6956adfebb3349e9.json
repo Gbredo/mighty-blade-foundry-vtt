@@ -6,26 +6,38 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Naga ♂",
+      "Naga ♀"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
-    "efeitos": [
-      {
-        "tipo": "ataqueNatural",
-        "parte": "mordida",
-        "dano": "Forca+2",
-        "tipoDano": "Perfuracao"
-      }
-    ],
-    "description": "<p>Você possui glândulas que produzem veneno natural. Seus ataques desarmados com mordida causam Força +2/Perfuração e injetam uma dose de Veneno Paralisante natural na vítima.</p>"
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Suas presas injetam um veneno potente em suas vítimas. Quando você realiza um ataque de mordida e causa dano, o alvo deve fazer um teste de Força (Dificuldade igual à sua Determinação). Se falhar, o alvo perde 10 Pontos de Vida imediatamente e fica Atordoado por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Aplica veneno natural na mordida que causa perda de PV e atordoamento.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mordida-venenosa",
       "automatica": false,
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

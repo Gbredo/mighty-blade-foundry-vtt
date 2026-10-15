@@ -3,16 +3,35 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre sí mesmo que concede um bônus de +1 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. Esse Selo Místico dura 1 minuto.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Graça Divina",
+    "acesso": [
+      "Sacerdote",
+      "Centauro"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 59, 175",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre si mesmo que concede um bônus de +1 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto. Requer a habilidade Graça Divina. Servindo de pré-requisito para a magia Abençoar Aliados 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "abencoar-aliados-1",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sacerdote",
+        "Centauro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "47123d04958fec00",

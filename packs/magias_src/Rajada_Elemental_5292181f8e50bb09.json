@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 8,
+    "dificuldadeTexto": "8",
     "circulo": 1,
-    "description": "<p>Desenhando uma runa Arcana no ar você pode disparar uma rajada de energia elemental em qualquer alvo que possa ver. Essa magia causa 8 pontos de dano elemental (Fogo, Frio ou Eletricidade) escolhido no momento que o conjurador lança a magia. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Feiticeiro"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 99",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma runa Arcana no ar você pode disparar uma rajada de energia elemental em qualquer alvo que possa ver. Essa magia causa 8 pontos de dano elemental (Fogo, Frio ou Eletricidade) escolhido no momento que o conjurador lança a magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "rajada-elemental",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Feiticeiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "5292181f8e50bb09",

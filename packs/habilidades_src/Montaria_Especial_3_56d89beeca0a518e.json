@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Montaria Especial 2",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Montaria Especial 2, Código da Honestidade",
+    "acesso": [
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 116",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Código da Honestidade Sua montaria desenvolveu um vínculo profundo com você, permitindo que você veja pelos olhos dela apenas se concentrando. Ela também recebe +1 em Força e +1 em Vontade e é capaz de enxergar criaturas invisíveis.</p>"
+    "concessoes": [],
+    "description": "<p>Sua montaria desenvolveu um vínculo profundo com você, permitindo que você veja pelos olhos dela apenas se concentrando. Ela também recebe +1 em Força e +1 em Vontade e é capaz de enxergar criaturas invisíveis.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Montaria Especial 2 e Código da Honestidade.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "montaria-especial-3",
       "automatica": false,
+      "acesso": [
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

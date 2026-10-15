@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Cultista"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 84",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seus olhos adquirem um distinto brilho vermelho, e você se torna capaz de enxergar perfeitamente na mais completa escuridão. No entanto, você se torna incapaz de distinguir cores, e percebe tudo em tons de vermelho. Além disso, você consegue perceber Sombras e outros espíritos invisíveis como leves contornos bruxuleantes e é capaz de conversar com eles – mas não interagir fisicamente, a menos que eles possuam Corpo Intangível.</p>"
+    "concessoes": [],
+    "description": "<p>Seus olhos adquirem um distinto brilho vermelho, e você se torna capaz de enxergar perfeitamente na mais completa escuridão. No entanto, você se torna incapaz de distinguir cores, e percebe tudo em tons de vermelho. Além disso, você consegue perceber Sombras e outros espíritos invisíveis como leves contornos bruxuleantes e é capaz de conversar com eles – mas não interagir fisicamente, a menos que eles possuam Corpo Intangível.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Visão no escuro total (tons de vermelho) e capacidade de enxergar e dialogar com espíritos invisíveis.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "olhos-infernais",
       "automatica": false,
+      "acesso": [
+        "Cultista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

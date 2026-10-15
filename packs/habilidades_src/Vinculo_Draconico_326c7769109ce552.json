@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 51",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você passou muito tempo lidando com nexos dracônicos e/ou com Dragões em pessoa e foi alterado pelas energias que eles emanam. Seus olhos se tornaram semelhantes aos de um dragão, e você consegue enxergar no escuro com perfeição. Além disso, você ignora efeitos de climas extremos e não é afetado por efeitos de envelhecimento. Habilidades Avançadas</p>"
+    "concessoes": [],
+    "description": "<p>Você passou muito tempo lidando com nexos dracônicos e/ou com Dragões em pessoa e foi alterado pelas energias que eles emanam. Seus olhos se tornaram semelhantes aos de um dragão, e você consegue enxergar no escuro com perfeição. Além disso, você ignora efeitos de climas extremos e não é afetado por efeitos de envelhecimento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para diversas Habilidades Raciais e de Classe de mutação dracônica (como *Escamas Dracônicas*, *Cauda Dracônica*, *Arsenal Dracônico*, *Asas Dracônicas* e *Presença Dracônica*).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vinculo-draconico",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

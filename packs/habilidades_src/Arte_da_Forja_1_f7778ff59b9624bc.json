@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Forjas de Hou"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você recebeu treinamento formal nas técnicas mais avançadas de trabalho com metais. Sempre que fizer um teste de ferraria, você recebe um bônus de +2. Além disso, você gasta metade do tempo normal para criar ou consertar itens de metal, e metade do material normalmente necessário para consertar itens de metal – ou seja, um quarto do peso do item ao ser consertado, ao invés de metade do peso daquele item. Finalmente, quando desconstruir um item de metal, você pode reaproveitar todo o metal do item ao invés de apenas metade.</p>"
+    "concessoes": [],
+    "description": "<p>Você recebeu treinamento formal nas técnicas mais avançadas de trabalho com metais. Sempre que fizer um teste de ferraria, você recebe um bônus de +2. Além disso, você gasta metade do tempo normal para criar ou consertar itens de metal, e metade do material normalmente necessário para consertar itens de metal – ou seja, um quarto do peso do item ao ser consertado, ao invés de metade do peso daquele item. Finalmente, quando desconstruir um item de metal, você pode reaproveitar todo o metal do item ao invés de apenas metade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Arte da Forja 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arte-da-forja-1",
       "automatica": false,
+      "acesso": [
+        "Forjas de Hou"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

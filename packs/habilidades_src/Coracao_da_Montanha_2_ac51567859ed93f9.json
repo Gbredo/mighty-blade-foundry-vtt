@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Anão",
+    "dificuldadeTexto": "",
+    "requisitos": "Coração da Montanha",
+    "acesso": [
+      "Anão"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 48",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +33,19 @@
         "grau": "imune"
       }
     ],
-    "description": "<p>Você é ainda mais vigoroso e resistente que a maioria dos Anões. Você ganha +5 Pontos de Vida, torna-se imune à todas as doenças de origem natural ou mágica e passa a rolar +1d6 em todos os testes para resistir a quaisquer efeitos de fadiga ou outros efeitos físicos. Esse bônus se acumula com o bônus de Coração da Montanha 1.</p>"
+    "concessoes": [],
+    "description": "<p>Você é ainda mais vigoroso e resistente que a maioria dos Anões. Você tem +5 Pontos de Vida e é imune a todas as doenças de origem natural ou mágica e rola +1d6 em testes para resistir a quaisquer efeitos de fadiga ou outros efeitos físicos. Esse bônus se acumula com o bônus de Vigor da Montanha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Acumula-se com os benefícios fornecidos pela Habilidade Automática Coração da Montanha.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "coracao-da-montanha-2",
       "automatica": false,
+      "acesso": [
+        "Anão"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

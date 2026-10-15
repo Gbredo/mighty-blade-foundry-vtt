@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Anão",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Anão"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -18,12 +28,19 @@
         "valor": 10
       }
     ],
-    "description": "<p>Sua pele é mais grossa e resistente que a da maioria dos outros Anões. Você recebe +10 Pontos de Vida máximos e todos os danos que o personagem sofre são reduzidos em 1 (RD 1). Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p>"
+    "concessoes": [],
+    "description": "<p>Sua pele é mais grossa e resistente que a da maioria dos outros Anões. Você tem +10 Pontos de Vida e Defesa +1 (esse bônus de Defesa conta como Armadura).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata Oficial do *Guia Básico* (pág. 1), a versão revisada concede Redução de Dano (todos os danos sofridos são reduzidos em 1) ao invés do bônus de Armadura. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "duro-como-pedra",
       "automatica": false,
+      "acesso": [
+        "Anão"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

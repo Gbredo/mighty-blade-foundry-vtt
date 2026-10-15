@@ -1,0 +1,52 @@
+{
+  "name": "Chifres, Garras e Presas",
+  "type": "habilidade",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dragano (Origem Dracônica)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição",
+    "exclusivoCom": [],
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "ataques desarmados, agarrar e escalar"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Concede <strong>+1d6</strong> em ataques desarmados e em testes para agarrar e escalar. Pré-requisito para a habilidade <em>Armas Naturais</em>.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carac-draconica-garras",
+      "subFeatureId": "garras",
+      "parentSlug": "linhagem-draconica",
+      "originLabel": "Origem Dracônica",
+      "isSubFeature": true,
+      "automatica": true,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "opcoes": []
+    }
+  },
+  "_id": "940c63e0ede39c29",
+  "_key": "!items!940c63e0ede39c29"
+}

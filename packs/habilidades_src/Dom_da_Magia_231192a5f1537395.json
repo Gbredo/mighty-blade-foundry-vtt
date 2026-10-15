@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Elfo, Faen",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Elfo",
+      "Faen"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -18,12 +29,20 @@
         "valor": 5
       }
     ],
-    "description": "<p>Você canaliza energias arcanas com extrema fluidez. As dificuldades de todas as suas Magias são diminuídas em 1 e você recebe permanentemente +5 Pontos de Mana.</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de canalizar magias muito mais facilmente. As dificuldades de todas as Magias são diminuídas em 1 para você. Você também tem +5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede -1 na Dificuldade para conjurar qualquer magia e adiciona +5 Pontos de Mana ao total do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "dom-da-magia",
       "automatica": false,
+      "acesso": [
+        "Elfo",
+        "Faen"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Juban"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 34; Guia do Herói, pág. 12",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +33,19 @@
         "valor": 2
       }
     ],
-    "description": "<p>+1d6 para não ser derrubado e encontrões. Carga calculada como se tivesse Força +2. Inapto em nadar, escalar e saltar; levantar exige ação de rodada completa.</p>"
+    "concessoes": [],
+    "description": "<p>Seu porte maciço e chifres imponentes concedem grande estabilidade física. Você rola +1d6 em testes para evitar ser derrubado e para realizar manobras de encontrão, e sua Carga máxima é calculada como Força +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Em contrapartida, você é considerado Inapto em testes de natação, escalada e salto, e precisa de uma ação de rodada completa para se levantar do chão quando for derrubado.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "corpo-pesado",
       "automatica": true,
+      "acesso": [
+        "Juban"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

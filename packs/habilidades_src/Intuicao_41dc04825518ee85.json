@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Exceto Astério, Exceto Astéria",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 13",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seu instinto prevê perigos. Você usa sua Vontade ao invés de Agilidade para calcular sua Iniciativa e seu bônus básico de Esquiva. Além disso, recebe um bônus estático de +2 em testes de Iniciativa.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um instinto afiado e consegue prever perigo de modo quase sobrenatural. Você usa Vontade ao invés de Agilidade para calcular sua Iniciativa e seu bônus básico de Esquiva – Habilidades que oferecem bônus de Esquiva baseados em Agilidade são calculadas normalmente. Além disso, você recebe +2 em seus testes de Iniciativa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Astérios.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "intuicao",
       "automatica": false,
+      "acesso": [
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

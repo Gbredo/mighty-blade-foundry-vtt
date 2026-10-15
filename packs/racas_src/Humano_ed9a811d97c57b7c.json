@@ -21,7 +21,9 @@
       {
         "tipo": "escolhaAtributo",
         "ref": "adaptabilidade",
-        "valor": 1
+        "valor": 1,
+        "titulo": "Adaptabilidade",
+        "descricao": "Você recebe +1 em qualquer um dos seus Atributos à sua escolha."
       }
     ],
     "classesComuns": "Bardo, Espadachim, Feiticeiro, Guerreiro, Ladino, Mago, Sacerdote e Rúnico",

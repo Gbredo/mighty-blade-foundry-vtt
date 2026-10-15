@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Exarca, Vínculo Dracônico",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 52",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seu vínculo com as energias dracônicas faz com que você exale uma aura que faz com a maioria das criaturas se sinta perturbada em sua presença. Você tem Determinação +2 e em testes para perceber mentiras, intimidar e barganhar. Além disso, você é imune a efeitos de medo e efeitos mentais.</p>"
+    "concessoes": [],
+    "description": "<p>Seu vínculo com as energias dracônicas faz com que você exale uma aura que faz com que a maioria das criaturas se sinta perturbada em sua presença. Você tem Determinação +2 e bônus de +2 em testes para perceber mentiras, intimidar e barganhar. Além disso, você é imune a efeitos de medo e efeitos mentais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Exarca e Vínculo Dracônico.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "presenca-draconica",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

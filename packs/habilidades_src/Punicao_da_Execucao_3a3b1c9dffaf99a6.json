@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Punição da Clemência",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Arconte"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 71; Guia de Tebryn, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Tocando sobre um alvo você faz com que, se ele ficar sem Pontos de Vida dentro de um período de Horas igual à sua Determinação, ao invés de ficar Por um Fio, ele morra imediatamente – e seu espírito é enviado para o plano espiritual imediatamente, sem chances de que ele se torne uma Sombra. Além disso, o corpo e o espírito de um alvo morto sob efeito dessa Punição não podem ser alvos de magias ou efeitos necromânticos.</p>"
+    "concessoes": [],
+    "description": "<p>Tocando sobre um alvo você faz com que, se ele ficar sem Pontos de Vida dentro de um período de horas igual à sua Determinação, ao invés de ficar Por um Fio, ele morra imediatamente – e seu espírito seja enviado para o plano espiritual de imediato, sem chances de se tornar uma Sombra. Além disso, o corpo e o espírito de um alvo morto sob efeito dessa Punição não podem ser alvos de magias ou efeitos necromânticos. Se utilizada sobre um Espírito, ele será imediatamente destruído ou banido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige pertencer ao Caminho Arconte.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "punicao-da-execucao",
       "automatica": false,
+      "acesso": [
+        "Arconte"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

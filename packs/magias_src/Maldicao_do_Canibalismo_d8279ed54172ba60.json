@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 40,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>alvo. Desenhando um Símbolo Profano sobre uma criatura viva, você faz com que ela desenvolva um desejo insaciável por carne e sangue de sua própria Raça, precisando se alimentar dela uma vez ao dia. A cada meia-noite em que o alvo não for capaz de consumir um quilo de carne ou beber um litro de sangue de sua própria Raça, ele precisa passar em um teste de Vontade (Dificuldade igual à Determinação do conjurador) ou entrará em frenesi e atacará qualquer criatura inteligente nas proximidades, que tentará matar e devorar – o frenesi só cessa quando ele conseguir devorar um quilo de carne de uma criatura Humanoide ou Esfinge. Esse Símbolo Profano dura uma quantidade de dias igual à Vontade do conjurador. Este é um efeito mental.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Aziago"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Vilão, pág. 85–88",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com que ela desenvolva um desejo insaciável por carne e sangue de sua própria Raça, precisando se alimentar dela uma vez ao dia. A cada meia-noite em que o alvo não for capaz de consumir um quilo de carne ou beber um litro de sangue de sua própria Raça, ele precisa passar em um teste de Vontade (Dificuldade igual à Determinação do conjurador) ou entrará em frenesi e atacará qualquer criatura inteligente nas proximidades, que tentará matar e devorar – o frenesi só cessa quando ele conseguir devorar um quilo de carne de uma criatura Humanoide ou Esfinge.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Aziago.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "maldicao-do-canibalismo",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Aziago"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "d8279ed54172ba60",

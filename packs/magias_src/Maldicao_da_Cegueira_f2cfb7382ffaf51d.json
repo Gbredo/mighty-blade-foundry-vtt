@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 45,
-    "dificuldade": 8,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
     "circulo": 1,
-    "description": "<p>alvo Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela se torne incapaz de ver. Seus olhos ficam leitosos e sem cor, e a vítima fica cega. Esse Símbolo Profano dura um número de horas igual à sua Determinação. Este é considerado um efeito de dreno de energia.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Aziago"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Vilão, pág. 85–88",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela se torne incapaz de ver. Seus olhos ficam leitosos e sem cor, e a vítima fica cega. Esse Símbolo Profano dura um número de horas igual à sua Determinação. Este é considerado um efeito de dreno de energia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "maldicao-da-cegueira",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Aziago"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "f2cfb7382ffaf51d",

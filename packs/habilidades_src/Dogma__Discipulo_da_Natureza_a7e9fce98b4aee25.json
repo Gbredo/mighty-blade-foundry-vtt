@@ -1,0 +1,50 @@
+{
+  "name": "Dogma: Discípulo da Natureza",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Sacerdote",
+      "Druida",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você reverencia Ellenis / Lathellanis, protetoras das florestas, dos animais e do equilíbrio natural. Você é considerado em harmonia com os ermos, recebendo +1 em testes de Sobrevivência e Trato com Animais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Elo Natural. Código de conduta: caçar apenas para alimentação estritamente necessária e proteger bosques sagrados contra a destruição desmedida.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-da-natureza",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Druida",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo da Natureza"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "a7e9fce98b4aee25",
+  "_key": "!items!a7e9fce98b4aee25"
+}

@@ -3,29 +3,43 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Orc",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Gnoll",
+      "Juban",
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia do Vilão, pág. 28, 43; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
-    "efeitos": [
-      {
-        "tipo": "ataqueNatural",
-        "parte": "mordida",
-        "dano": "Forca+4",
-        "tipoDano": "Corte"
-      }
-    ],
-    "description": "<p>Você pode usar suas presas avantajadas para realizar um ataque desarmado. O dano da sua mordida é igual à sua Força +4/Corte.</p>"
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você pode usar seus dentes para fazer um ataque desarmado. O dano da sua mordida é igual a Força +4/Corte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata Oficial do *Guia Básico*, Mordida Poderosa é uma Habilidade do tipo Suporte (e não de Ação). Permite realizar ataques desarmados de mordida causando dano de Força +4/Corte.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mordida-poderosa",
       "automatica": false,
+      "acesso": [
+        "Gnoll",
+        "Juban",
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

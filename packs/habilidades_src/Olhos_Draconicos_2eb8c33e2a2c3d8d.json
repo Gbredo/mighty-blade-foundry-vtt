@@ -1,0 +1,52 @@
+{
+  "name": "Olhos Dracônicos",
+  "type": "habilidade",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dragano (Origem Dracônica)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição",
+    "exclusivoCom": [],
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "testes visuais e ataques à distância"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Concede <strong>+1d6</strong> em testes de percepção visual e em ataques à distância. Pré-requisito para a habilidade <em>Membrana Nictitante</em>.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carac-draconica-olhos",
+      "subFeatureId": "olhos",
+      "parentSlug": "linhagem-draconica",
+      "originLabel": "Origem Dracônica",
+      "isSubFeature": true,
+      "automatica": true,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "opcoes": []
+    }
+  },
+  "_id": "2eb8c33e2a2c3d8d",
+  "_key": "!items!2eb8c33e2a2c3d8d"
+}

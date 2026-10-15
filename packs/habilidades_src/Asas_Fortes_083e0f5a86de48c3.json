@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Levent, Força 4",
+    "dificuldadeTexto": "",
+    "requisitos": "Força 4",
+    "acesso": [
+      "Levent"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +29,19 @@
         "contexto": "encontrão em voo"
       }
     ],
-    "description": "<p>Você desenvolveu musculatura peitoral excepcional. É capaz de pairar no ar sem deslocamento mínimo e decolar sem impulso prévio. Em manobras de Encontrão em voo, soma sua Força ao dano e testes de derrubar.</p>"
+    "concessoes": [],
+    "description": "<p>Você desenvolveu suas capacidades musculares de forma que ultrapassa os limites naturais dos outros Levent durante o voo. Você é capaz de parar no ar e não precisa pegar impulso para decolar, desde que tenha espaço suficiente para abrir as asas. Além disso, em manobras de Encontrão quando estiver voando, você recebe um bônus igual à sua Força para qualquer efeito relevante, incluindo danos e tentativas de derrubar oponentes, por exemplo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Força 4.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "asas-fortes",
       "automatica": false,
+      "acesso": [
+        "Levent"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

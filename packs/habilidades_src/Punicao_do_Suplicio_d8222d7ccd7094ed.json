@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "",
+    "acesso": [
+      "Arconte"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 71; Guia de Tebryn, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Tocando em um alvo e vencendo um Confronto de Vontade contra ele, você faz todos os seus músculos se contraírem e Mikal Mikal Chanteur Chanteur 107 Caminhos Caminhos travarem, deixando-o Paralizado por 1 turno Se o alvo tiver um resultado maior do que o seu no teste de Vontade, ele fica Distraído por 1 turno.</p>"
+    "concessoes": [],
+    "description": "<p>Tocando em um alvo e vencendo um Confronto de Vontade contra ele, você faz todos os seus músculos se contraírem e travarem, deixando-o Paralisado por 1 turno. Se o alvo tiver um resultado maior do que o seu no teste de Vontade, ele fica Distraído por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige pertencer ao Caminho Arconte. Serve de pré-requisito para Punição do Açoite.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "punicao-do-suplicio",
       "automatica": false,
+      "acesso": [
+        "Arconte"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

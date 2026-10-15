@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Elfo, Faen, Herança Feérica",
+    "dificuldadeTexto": "",
+    "requisitos": "Herança Feérica",
+    "acesso": [
+      "Elfo",
+      "Faen"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você cria até três pequenos globos de luz dançantes que duram 1 hora. Você pode utilizá-los para iluminação (como tochas) ou arremessar um globo nos olhos de um oponente para deixá-lo Distraído por 1 turno.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma habilidade comum às fadas. Você pode criar até três pequenos globos de luz que ficam dançando pelo ar. Você pode comandá-los, mas eles não podem se afastar mais que três metros de você. Eles duram uma hora, mas você pode dispersá-los quando desejar. Os globos produzem iluminação igual à de uma tocha, e você pode realizar um ataque à distância para atingir os olhos de um alvo com um dos globos de luz (que se extingue no processo), deixando-o Distraído por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Herança Feérica.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "luzes-das-fadas",
       "automatica": false,
+      "acesso": [
+        "Elfo",
+        "Faen"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

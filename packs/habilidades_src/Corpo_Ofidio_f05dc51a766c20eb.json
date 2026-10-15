@@ -6,8 +6,20 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Naga ♂",
+      "Naga ♀",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia do Vilão, pág. 36–38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -29,12 +41,21 @@
         "situacao": "restrição de visão mundana (penalidades de escuridão não mágica)"
       }
     ],
-    "description": "<p>+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma longa cauda serpenteante no lugar das pernas. É impossível cavalgar (não pode usar montarias) e impossível saltar ou tirar todo o corpo do chão. Você realiza testes de natação e de agarrar com a cauda com +2. Possui extrema dificuldade para escalar ou subir escadas de mão (testes feitos como Inapto).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é imune a efeitos não-mágicos que restrinjam a visão (fumaça, poeira, chuva forte) e rola +1d6 para resistir a venenos. Sua pele coberta de escamas grossas funciona como proteção natural, impedindo o uso de armaduras convencionais.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "corpo-ofidio",
       "automatica": true,
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

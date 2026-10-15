@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Armadilheiro",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Caçador de [Criatura]",
+    "acesso": [
+      "Patrulheiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Codex Monstrorum, pág. 175",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Escolha um monstro (orc, troll, ogro, goblin ou qualquer outro monstro) quando comprar esta habilidade. Você sempre causa +6 de dano em todos os ataques contra este tipo de monstro e rola +1d6 em testes relacionados a eles.</p>"
+    "concessoes": [],
+    "description": "<p>Você expandiu seu conhecimento de caça para criaturas irracionais ou fantásticas de maior periculosidade. Escolha entre Amaldiçoados, Autômatos, Elementais, Demônios, Espíritos, Gigantes, Mortos-Vivos ou Répteis Gigantes. Você causa +2 de dano e recebe +2 em todos os testes contra o tipo escolhido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Caçador de [Criatura].</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cacador-de-monstro",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

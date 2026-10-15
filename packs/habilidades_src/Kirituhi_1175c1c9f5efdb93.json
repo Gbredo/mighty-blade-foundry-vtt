@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 60,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Tamoko",
+    "acesso": [
+      "Tohunga"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia de Tebryn, pág. 80–83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é capaz de realizar uma tatuagem em um Humanoide ou Esfinge com os efeitos de qualquer uma de suas Habilidades de Tohunga que não tenham Requisitos. O processo leva um dia inteiro, e você precisa ser capaz de falar em uma língua que o alvo entenda, explicando sobre os significados e propriedades da tatuagem que está produzindo.</p>"
+    "concessoes": [],
+    "description": "<p>Você é capaz de realizar uma tatuagem em um Humanoide ou Esfinge com os efeitos de qualquer uma de suas Habilidades de Tohunga que não tenham Requisitos. O processo leva um dia inteiro, e você precisa ser capaz de falar em uma língua que o alvo entenda, explicando sobre os significados e propriedades da tatuagem que está produzindo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Tamoko. Caminho Tohunga.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "kirituhi",
       "automatica": false,
+      "acesso": [
+        "Tohunga"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

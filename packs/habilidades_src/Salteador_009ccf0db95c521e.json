@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Gnoll"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia do Vilão, pág. 28",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +33,19 @@
         "valor": 1
       }
     ],
-    "description": "<p>+2 em testes de percepção, esconder-se, correr, escalar, equilibrar e Iniciativa. Deslocamento +1.</p>"
+    "concessoes": [],
+    "description": "<p>Você está acostumado a emboscar, lutar e fugir com o mesmo desprendimento. Você recebe +2 em seus testes de percepção, se esconder, correr, escalar, se equilibrar (incluindo evitar ser derrubado) e em sua Iniciativa. Além disso, seu Deslocamento é aumentado em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática da raça Gnoll.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "salteador",
       "automatica": true,
+      "acesso": [
+        "Gnoll"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

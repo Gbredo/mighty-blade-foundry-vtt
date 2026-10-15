@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Elfo",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Elfo"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 51",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "inteligencia",
       "valor": 1
@@ -23,12 +33,19 @@
         "valor": 5
       }
     ],
-    "description": "<p>Seu raciocínio é veloz, centenário e objetivo. Você ganha permanentemente Inteligência +1 e +5 Pontos de Mana.</p>"
+    "concessoes": [],
+    "description": "<p>Seu raciocínio é veloz e objetivo. Você tem Inteligência +1 e +5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede bônus fixo de Inteligência +1 e +5 Pontos de Mana.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "intelecto-elfico",
       "automatica": false,
+      "acesso": [
+        "Elfo"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

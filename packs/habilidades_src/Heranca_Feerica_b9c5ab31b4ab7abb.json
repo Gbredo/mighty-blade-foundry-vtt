@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Elfo, Faen",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Elfo",
+      "Faen"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -18,12 +29,20 @@
         "valor": 5
       }
     ],
-    "description": "<p>Você preserva traços puros de seus ancestrais feéricos. Você é imune a efeitos mentais e efeitos de Medo, percebe automaticamente ilusões e ganha +5 Pontos de Mana.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui algumas características comuns aos seus ancestrais feéricos. Você é imune a qualquer efeito mental e efeito de medo além de perceber automaticamente ilusões. Você também ganha +5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Confere imunidade completa a efeitos mentais e de medo, percepção automática de ilusões e +5 Pontos de Mana. Servindo de pré-requisito obrigatório para as habilidades Invisibilidade Natural e Luzes das Fadas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "heranca-feerica",
       "automatica": false,
+      "acesso": [
+        "Elfo",
+        "Faen"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

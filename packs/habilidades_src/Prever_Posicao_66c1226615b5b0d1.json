@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Vigília",
+    "acesso": [
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 86–88",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você aprendeu a perceber os indícios de alvos camuflados ou invisíveis – pequenos deslocamentos de folhas e poeira, cores e brilhos inadequados, sons (ou a falta deles) em lugares errados. Se você sabe que um alvo invisível ou camuflado existe, você pode fazer ataques à distância e testes de visão contra este alvo, mas realizará esses testes como se fosse Inapto. Além disso, você consegue prever os movimentos erráticos de alvos particularmente velozes, e não se deixa enganar por eles. Ignore sempre os bônus de Esquiva da Defesa do alvo.</p>"
+    "concessoes": [],
+    "description": "<p>Você aprendeu a perceber os indícios de alvos camuflados ou invisíveis – pequenos deslocamentos de folhas e poeira, cores e brilhos inadequados, sons (ou a falta deles) em lugares errados. Se você sabe que um alvo invisível ou camuflado existe, você pode fazer ataques à distância e testes de visão contra este alvo, mas realizará esses testes como se fosse Inapto. Além disso, você consegue prever os movimentos erráticos de alvos particularmente velozes, e não se deixa enganar por eles. Ignore sempre os bônus de Esquiva da Defesa do alvo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Vigília. Caminho Arqueiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "prever-posicao",
       "automatica": false,
+      "acesso": [
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

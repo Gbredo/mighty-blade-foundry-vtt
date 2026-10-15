@@ -1,0 +1,48 @@
+{
+  "name": "Dogma: Discípulo da Sabedoria",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você dedica sua fé a Sarfion, deus da verdade, dos livros e do conhecimento arcano e profano. Você recebe +1d6 em todos os testes de Conhecimento (História, Religião, Misticismo) e leitura de idiomas arcanos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para as habilidades Marca da Verdade e O Tomo das Muitas Línguas. Código de conduta: nunca queimar registros de conhecimento e sempre buscar a verdade absoluta dos fatos.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-da-sabedoria",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo da Sabedoria"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "63875b328a146812",
+  "_key": "!items!63875b328a146812"
+}

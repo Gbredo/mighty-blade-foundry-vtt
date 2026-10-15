@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Código da Lealdade",
+    "acesso": [
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você profere palavras de encorajamento que inspiram seus aliados, recuperando sua moral e vontade. Todos os aliados num raio de 1 metro por ponto de Vontade que você tiver e que puderem lhe ouvir recuperam imediatamente 10 Pontos de Vida e quaisquer efeitos de Medo que os estiver afetando é removido. Estes efeitos não afetam o personagem usando essa Habilidade.</p>"
+    "concessoes": [],
+    "description": "<p>Você profere palavras de encorajamento que inspiram seus aliados, recuperando sua moral e vontade. Todos os aliados num raio de 1 metro por ponto de Vontade que você tiver e que puderem lhe ouvir recuperam imediatamente 10 Pontos de Vida e quaisquer efeitos de Medo que os estiver afetando é removido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Estes efeitos não afetam o personagem usando essa Habilidade. Serve de pré-requisito para a habilidade Comando Heroico.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "motivar",
       "automatica": false,
+      "acesso": [
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

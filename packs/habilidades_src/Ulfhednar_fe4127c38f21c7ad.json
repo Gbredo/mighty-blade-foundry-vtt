@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Aesir, Fúria Bestial, Vontade 4",
+    "dificuldadeTexto": "",
+    "requisitos": "Fúria Bestial, Vontade 4",
+    "acesso": [
+      "Aesir"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 45",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Imbuído da selvageria do Lobo, o seu bônus de Força concedido pela Fúria Bestial aumenta para +4, e seus ataques desarmados passam a causar +2 de dano. Você não pode estar usando armadura ou escudo para que esta habilidade tenha efeito.<br>Especial: Você só pode escolher o Lobo como seu Espírito Animal.</p>"
+    "concessoes": [],
+    "description": "<p>O Lobo considerou você um guerreiro digno, e ele lhe imbuirá de sua selvageria quando você evocar a Fúria Bestial, desferindo ataques muito mais violentos. O bônus de Força de Fúria Bestial passa a ser +4 e seus ataques desarmados causam +2 de dano. Você não pode estar usando armadura ou escudos para que essa Habilidade tenha efeito – já que o Lobo despreza a defesa em detrimento do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você tiver um Espírito Animal que não seja o Lobo, você não pode possuir esta Habilidade. Se você possuir esta Habilidade, você só pode escolher o Lobo como seu Espírito Animal. Requer a habilidade Fúria Bestial e Vontade 4.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ulfhednar",
       "automatica": false,
+      "acesso": [
+        "Aesir"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
-    "dificuldade": 8,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Determinação do Alvo",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>do Alvo Desenhando uma Runa Arcana entre você e uma criatura viva consciente, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente tornando-se uma Sombra que virá até você o mais rápido que puder. Ela permanecerá sob seu controle até ser destruída de alguma forma. Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Contato com Espíritos",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 54",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana entre você e uma criatura viva consciente, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente tornando-se uma Sombra que virá até você o mais rápido que puder. Ela permanecerá sob seu controle até ser destruída de alguma forma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "condenar-a-alma",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "887071234ff70867",

@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Arcipreste",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Vilão, pág. 52",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você acumulou um grande conhecimento sobre os desígnios da Aurora dos Dragões. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e criaturas dracônicas. Além disso, o dano causado por todas as Habilidades do tipo Magia e Característica que causem dano elemental (Fogo, Frio e Eletricidade) causam uma quantidade de dano extra igual à sua Vontade. Estes bônus se acumulam com os bônus de Arcipreste.</p>"
+    "concessoes": [],
+    "description": "<p>Você acumulou um grande conhecimento sobre os desígnios da Aurora dos Dragões. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e criaturas dracônicas. Além disso, o dano causado por todas as Habilidades do tipo Magia e Característica que causem dano elemental (Fogo, Frio e Eletricidade) causam uma quantidade de dano extra igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Estes bônus se acumulam com os bônus de Arcipreste. Requer Nível 5 e Arcipreste.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "exarca",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

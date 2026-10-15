@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Escriba"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 98–100",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você passou tanto tempo estudando magias em tomos que é capaz de compreender magias que seriam incompreensíveis para outros conjuradores. Quando estiver conjurando uma magia através de um item com a característica Registro, você ignora todos os requisitos de nível das magias. Se seu nível for inferior a 5, você precisa gastar 10 Pontos de Mana a mais para conjurar magias que tenham como requisito Nível 5, e 20 Pontos de Mana a mais para lançar Magias que tenham como requisito Nível 10. Se seu nível for entre 5 e 9, você precisa gastar 10 Pontos de Mana a mais para lançar Magias que tenham como requisito Nível 10.</p>"
+    "concessoes": [],
+    "description": "<p>Você passou tanto tempo estudando magias em tomos que é capaz de compreender magias que seriam incompreensíveis para outros conjuradores. Quando estiver conjurando uma magia através de um item com a característica Registro, você ignora todos os requisitos de nível das magias. Se seu nível for inferior a 5, você precisa gastar 10 Pontos de Mana a mais para conjurar magias que tenham como requisito Nível 5, e 20 Pontos de Mana a mais para lançar Magias que tenham como requisito Nível 10. Se seu nível for entre 5 e 9, você precisa gastar 10 Pontos de Mana a mais para lançar Magias que tenham como requisito Nível 10.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Escriba.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "luminar",
       "automatica": false,
+      "acesso": [
+        "Escriba"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

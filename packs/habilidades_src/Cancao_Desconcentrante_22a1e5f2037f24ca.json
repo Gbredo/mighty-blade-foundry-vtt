@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "musica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "Nível 5, Melodia do Enjoo",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 123; Canção do Bardo, pág. 81",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você canta uma canção com tom jocoso e com uma melodia irritante que prende a atenção dos ouvintes e não permite que eles se concentrem. Todos que estiverem a até 10 metros de você e puderem ouvir a canção rolam um confronto de Vontade contra você a cada turno enquanto você continuar cantando. Alvos que tenham um resultado menor do que o seu são considerados Distraídos até o final do seu próximo turno. Este é um efeito mental.</p>"
+    "concessoes": [],
+    "description": "<p>Você canta uma canção com tom jocoso e com uma melodia irritante que prende a atenção dos ouvintes e não permite que eles se concentrem. Todos que estiverem a até 10 metros de você e puderem ouvir a canção rolam um confronto de Vontade contra você a cada turno enquanto você continuar cantando. Alvos que tenham um resultado menor do que o seu são considerados Distraídos até o final do seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Alvos Distraídos realizam testes como Inaptos e falham automaticamente em conjurar Magias.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cancao-desconcentrante",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

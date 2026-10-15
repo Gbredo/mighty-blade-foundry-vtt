@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Nível 5, Disparo Forte",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Disparo Forte, Aplicar Força",
+    "acesso": [
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Herói, pág. 86–88",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Aplicar Força Se você rolar um Sucesso Crítico em um ataque à distância, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.</p>"
+    "concessoes": [],
+    "description": "<p>Se você rolar um Sucesso Crítico em um ataque à distância, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Disparo Forte, Aplicar Força. Caminho Arqueiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "disparo-devastador",
       "automatica": false,
+      "acesso": [
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

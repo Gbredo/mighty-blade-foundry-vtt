@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 30,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhado uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Argênteo"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 83–85",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhado uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Argênteo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sala-oculta",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Argênteo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "b1104c3a81d525a7",

@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
-    "dificuldade": 11,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
     "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana sobre um osso, você o imbuí com energia espiritual, transformando-o em uma arma necromântica. A Arma dos Mortos será uma arma corporal com FN 1 que causa dano igual à Força + Inteligência do conjurador – o tipo de dano deve ser escolhido entre contusão, corte ou perfuração, no momento em que a magia é conjurada. A arma é considerada como tendo a sua Runa pessoal desenhada sobre ela, e, enquanto você estiver usando a Arma dos Mortos, qualquer ataque que atinja uma criatura viva faz com que o alvo perca uma quantidade de Pontos de Vida iguais à sua Vontade além do dano normal da arma (este é um efeito de sangramento). Esta Runa Arcana dura 1 minuto, e quando se dissipa, o osso volta à sua forma original.</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Sanguíneo"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Vilão, pág. 92–94",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana sobre um osso, você o imbuí com energia espiritual, transformando-o em uma arma necromântica. A Arma dos Mortos será uma arma corporal com FN 1 que causa dano igual à Força + Inteligência do conjurador – o tipo de dano deve ser escolhido entre contusão, corte ou perfuração, no momento em que a magia é conjurada. A arma é considerada como tendo a sua Runa pessoal desenhada sobre ela, e, enquanto você estiver usando a Arma dos Mortos, qualquer ataque que atinja uma criatura viva faz com que o alvo perca uma quantidade de Pontos de Vida iguais à sua Vontade além do dano normal da arma (este é um efeito de sangramento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arma-dos-mortos",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "faf59b8ced075ba5",

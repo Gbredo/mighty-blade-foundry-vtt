@@ -4,21 +4,42 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Companheiro animal 1",
+    "dificuldadeTexto": "",
+    "requisitos": "Companheiro Animal 1",
+    "acesso": [
+      "Druida",
+      "Patrulheiro",
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 120, 137",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seu companheiro animal recebe +1 em 2 Atributos à sua escolha, +5 Pontos de vida e +5 Pontos de Mana. Além disso, seu companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p>"
+    "concessoes": [],
+    "description": "<p>Seu Companheiro Animal recebe +1 em 2 Atributos à sua escolha, +5 Pontos de Vida e +5 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Melhoria direta aplicada ao animal atraído pela habilidade Companheiro Animal 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "companheiro-animal-2",
       "automatica": false,
+      "acesso": [
+        "Druida",
+        "Patrulheiro",
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

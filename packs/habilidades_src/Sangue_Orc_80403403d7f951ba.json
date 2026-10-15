@@ -6,8 +6,18 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 42",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -22,12 +32,19 @@
         "grau": "parcial"
       }
     ],
-    "description": "<p>+10 Pontos de Vida. Visão na completa escuridão (sem distinguir cores).</p>"
+    "concessoes": [],
+    "description": "<p>Você possui características aguçadas pelos hábitos noturnos e predatórios da sua raça. Você tem +10 Pontos de Vida e consegue enxergar na completa escuridão, mas nesses ambientes não consegue distinguir cores.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática da raça Orc. Concede visão na escuridão total (sem percepção de cores) e +10 Pontos de Vida.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "sangue-orc",
       "automatica": true,
+      "acesso": [
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

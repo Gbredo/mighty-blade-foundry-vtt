@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 10",
+    "acesso": [
+      "Ladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 111, 294",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sempre que uma Habilidade oferecer um bônus de +1d6 em uma determinada ação, você recebe +2d6 para aquela ação ao invés disso.</p>"
+    "concessoes": [],
+    "description": "<p>Sempre que uma Habilidade oferecer um bônus de +1d6 em uma determinada ação, você recebe +2d6 para aquela ação ao invés disso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Ladino (requer Nível 10).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mestre-especialista",
       "automatica": false,
+      "acesso": [
+        "Ladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "musica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 73-74",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Bestas de um tipo específico a até 2× DET metros seguem você docilmente enquanto tocar. Efeito quebra se elas sofrerem dano.</p>"
+    "concessoes": [],
+    "description": "<p>Escolha um tipo de Besta (Artrópode, Ave, Mamífero ou Réptil). Todas as criaturas do tipo escolhido a uma distância em metros de você igual ao dobro da sua Determinação, e que puderem ouvir essa Música, o seguirão enquanto você continuar a tocar. Os alvos não irão realizar qualquer ação além de se aproximar de você ou seguir você para onde for enquanto você continuar a tocar. Qualquer alvo deixa de estar sob efeito dessa Música se sofrer algum dano ou perda de vida, mas se você continuar a tocar essa Música, o alvo será afetado novamente no final do seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Criaturas com os temperamentos Servo e Protetor não o seguirão se isso for afastá-las da criatura que elas servem ou protegem, mas não irão realizar qualquer ação enquanto puderem lhe escutar.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ritmo-dos-animais",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

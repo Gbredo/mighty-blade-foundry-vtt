@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Faen",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Faen"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 54",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você nasceu com uma profunda afinidade com a magia elemental e primordial. Sua pele e cabelos exibem tons esverdeados, você pode selecionar Habilidades da lista do Feiticeiro como se fossem da sua Classe e as dificuldades de todas as suas Magias são diminuídas em 1.</p>"
+    "concessoes": [],
+    "description": "<p>Você nasceu com uma grande afinidade com a magia. Sua pele e seus cabelos são de tons esverdeados, e você pode selecionar Habilidades da lista do Feiticeiro como se fossem da sua Classe – desde que preencha os requisitos. Além disso, as dificuldades de todas as Magias são diminuídas em 1 para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem. Permite comprar Habilidades da classe Feiticeiro e reduz a Dificuldade de conjuração de qualquer Magia em 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "isnuu",
       "automatica": false,
+      "acesso": [
+        "Faen"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 10, Olho da Águia",
+    "acesso": [
+      "Patrulheiro",
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 122",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você sempre rola +1d6 para ataques à distância (incluindo arremessos).</p>"
+    "concessoes": [],
+    "description": "<p>Você sempre rola +1d6 para ataques à distância (incluindo arremessos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Patrulheiro (requer Nível 10 e Olho da Águia).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arqueria-de-mestre",
       "automatica": false,
+      "acesso": [
+        "Patrulheiro",
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv3",
+      "aliases": [],
       "opcoes": []
     }
   },

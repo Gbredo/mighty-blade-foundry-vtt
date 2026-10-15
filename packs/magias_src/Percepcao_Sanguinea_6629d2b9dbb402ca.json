@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 15,
-    "dificuldade": 11,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
     "circulo": 1,
-    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você faz com que ela ganhe uma percepção sobre o fluxo de sangue e batimentos cardíacos ao seu redor. Ele consegue perceber se uma criatura está viva, morta, se é um morto-vivo, espírito ou se possui Corpo Amórfico dentro de uma área em metros igual à Vontade do Conjurador ao seu redor. Além disso, o alvo recebe +2 em todos os seus testes de ataque contra criaturas vivas que não possuam Corpo Amórfico dentro dessa área, e não nunca é considerado Distraído ou Cego em relação a elas. Habilidades Avançadas</p>"
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Sanguíneo"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Vilão, pág. 92–94",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você faz com que ela ganhe uma percepção sobre o fluxo de sangue e batimentos cardíacos ao seu redor. Ele consegue perceber se uma criatura está viva, morta, se é um morto-vivo, espírito ou se possui Corpo Amórfico dentro de uma área em metros igual à Vontade do Conjurador ao seu redor. Além disso, o alvo recebe +2 em todos os seus testes de ataque contra criaturas vivas que não possuam Corpo Amórfico dentro dessa área, e não nunca é considerado Distraído ou Cego em relação a elas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "percepcao-sanguinea",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "6629d2b9dbb402ca",

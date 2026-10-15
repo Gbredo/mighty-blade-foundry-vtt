@@ -6,8 +6,23 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Astério, Astéria",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Astéria",
+      "Astério",
+      "Gnoll",
+      "Hamelin",
+      "Tailox",
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 11; Codex Monstrorum, pág. 177",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +34,24 @@
         "contexto": "testes de olfato e rastreio pelo cheiro"
       }
     ],
-    "description": "<p>Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.</p>"
+    "concessoes": [],
+    "description": "<p>Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Permite identificar odores e rastrear criaturas pelo cheiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "faro",
       "automatica": false,
+      "acesso": [
+        "Astéria",
+        "Astério",
+        "Gnoll",
+        "Hamelin",
+        "Tailox",
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

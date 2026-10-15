@@ -6,19 +6,38 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Ataque Aleijador",
+    "acesso": [
+      "Espadachim",
+      "Ladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 109",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Faça um ataque corporal com uma arma de corte ou perfuração. Se acertar, a vítima começará a sangrar, perdendo 10 Pontos de Vida no início de cada um de seus turnos.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma de corte ou perfuração. Se acertar, a vítima começará a sangrar, perdendo 10 Pontos de Vida no início de cada um de seus turnos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de sangramento. Requer a habilidade Ataque Aleijador. Serve como pré-requisito para a habilidade Retalhar.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "corte-arterial",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Ladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

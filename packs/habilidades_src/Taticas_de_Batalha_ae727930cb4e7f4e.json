@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 26; Manual do Combatente, pág. 238",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Discutindo táticas militares básicas com seus aliados ao longo de suas jornadas, você permite que eles fiquem mais bem preparados para entrarem em combate. Todos os seus aliados, incluindo você, recebem um bônus de +2 em seus testes de Iniciativa enquanto você estiver dentro do seu alcance de visão. Eles também recebem +2 na sua Defesa quando estiverem Surpresos ou Desprevenidos (esse bônus de Defesa pode ser tanto de Bloqueio quanto de Esquiva, à escolha do jogador que recebe o bônus), e podem utilizar suas Habilidades de Reação normalmente quando estiverem Cegos ou Distraídos.</p>"
+    "concessoes": [],
+    "description": "<p>Discutindo táticas militares básicas com seus aliados ao longo de suas jornadas, você permite que eles fiquem mais bem preparados para entrarem em combate. Todos os seus aliados, incluindo você, recebem um bônus de +2 em seus testes de Iniciativa enquanto você estiver dentro do seu alcance de visão. Eles também recebem +2 na sua Defesa quando estiverem Surpresos ou Desprevenidos (esse bônus de Defesa pode ser tanto de Bloqueio quanto de Esquiva, à escolha do jogador que recebe o bônus), e podem utilizar suas Habilidades de Reação normalmente quando estiverem Cegos ou Distraídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Servindo de pré-requisito para Formação de Batalha 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "taticas-de-batalha",
       "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

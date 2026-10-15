@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 0,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p>Anima plantas do ambiente para prender ou atacar inimigos. Poder escalona pelo custo de PM.</p>"
+    "custoVariavel": false,
+    "dificuldade": 13,
+    "dificuldadeTexto": "13",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Entrelaçar",
+    "acesso": [
+      "Druida"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 88",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Entrelaçar</p><p>Você desenha um Selo Místico sobre uma planta (árvore, arbusto, cipó) fazendo com que ela ganhe vida e obedeça aos seus comandos. Trate uma planta sob efeito dessa magia como um Golem de madeira do tamanho apropriado, exceto o Tipo que será Esfinge e o Temperamento que será Pacífico.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico dura 1 minuto por ponto de Vontade do conjurador. Requer Nível 5 e Entrelaçar.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "despertar-a-flora",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Druida"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "4555705df65541bc",

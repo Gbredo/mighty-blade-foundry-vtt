@@ -3,16 +3,35 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 11,
+    "dificuldadeTexto": "11",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana sobre uma criatura, você faz com que ela seja capaz de voar livremente no ar para qualquer direção no seu deslocamento normal. Essa Runa Arcana dura 1 hora, mas se dissipa automaticamente se alvo tocar o solo.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Telecinésia",
+    "acesso": [
+      "Feiticeiro",
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 78, 95",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana sobre uma criatura, você faz com que ela seja capaz de voar livremente no ar para qualquer direção no seu deslocamento normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 hora, mas se dissipa automaticamente se o alvo tocar o solo. Serve de pré-requisito para a magia *Teleporte 1*.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "levitar",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Feiticeiro",
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "a4175954effaf931",

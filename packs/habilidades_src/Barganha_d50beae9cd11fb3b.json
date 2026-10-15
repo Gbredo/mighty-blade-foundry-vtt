@@ -6,19 +6,42 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Anel",
+      "Geral",
+      "Humano",
+      "Metadílio"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 38; Guia do Herói, pág. 10",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é um praticante das artes da negociação, oratória, retórica e sofisma. Você pode rolar +1d6 em todos os seus testes que envolvam comércio e outras negociações. Conhecimento Regional [Tebryn] Habilidade – Suporte Descrição: Você conhece profundamente a história e características de Tebryn. Você rola +1d6 em todos os seus testes ligados à história, geografia e folclore ligados ao reino, e conhece os nomes de todas as personalidades importantes (nobres com qualquer título acima de Cavaleiro, militares com títulos acima de Alferes, Burgomestres, Regentes e líderes de guildas e organizações) de Tebryn.</p>"
+    "concessoes": [],
+    "description": "<p>Você é um praticante das artes da negociação, oratória, retórica e sofisma. Você pode rolar +1d6 em todos os seus testes que envolvam comércio e outras negociações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Pode ser usado em testes de Inteligência ou Vontade aplicados a negociações financeiras e trocas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "barganha",
       "automatica": false,
+      "acesso": [
+        "Anel",
+        "Geral",
+        "Humano",
+        "Metadílio"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

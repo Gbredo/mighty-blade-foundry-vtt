@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Asceta",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 146; Errata, pág. 1",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é uma autoridade religiosa reconhecida e tem um status considerável entre os membros de sua fé. Você pode solicitar abrigo, provisões e ajuda simples para qualquer templo, monastério ou seguidor de sua fé sem custos. Além disso, você tem +2 em testes sociais ao lidar com seguidores de sua fé.</p>"
+    "concessoes": [],
+    "description": "<p>Você acumulou um grande conhecimento sobre os desígnios das divindades. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e conhecimento (esse bônus se acumula com os bônus de Asceta). Além disso, o custo de todas as Habilidades do tipo Magia que você lançar é diminuído em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata oficial do Guia Básico, o pré-requisito correto é Asceta (substituindo a inexistente habilidade Clérigo). Requer Nível 5 e a habilidade Asceta. Servindo de pré-requisito para Pontífice.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "primaz",
       "automatica": false,
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

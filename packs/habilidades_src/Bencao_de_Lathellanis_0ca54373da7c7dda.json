@@ -1,13 +1,24 @@
 {
-  "name": "Benção de Lathellanis",
+  "name": "Bênção de Lathellanis",
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Elfo",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 26; Guia do Vilão, pág. 242",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -34,12 +45,20 @@
         "contexto": "perceber e rastrear alvos (Inteligência)"
       }
     ],
-    "description": "<p>Imune a doenças (naturais e mágicas), Dreno de Energia e efeitos de Envelhecimento. +1d6 em testes de Inteligência para perceber e rastrear alvos.</p>"
+    "concessoes": [],
+    "description": "<p>Os elfos foram agraciados pela deusa Lathellanis com graça e pureza sobrenaturais. Você é completamente imune a doenças (tanto naturais quanto mágicas), a efeitos de Dreno de Energia e a efeitos de envelhecimento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você rola +1d6 em testes de Inteligência para perceber e rastrear alvos na natureza. Elfos são incompatíveis com o Caminho Amoque.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "bencao-de-lathellanis",
       "automatica": true,
+      "acesso": [
+        "Elfo",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

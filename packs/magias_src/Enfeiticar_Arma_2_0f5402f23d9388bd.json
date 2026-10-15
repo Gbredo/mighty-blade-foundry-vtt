@@ -3,16 +3,35 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 25,
+    "custoVariavel": false,
     "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Enfeitiçar Arma</p><p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +3 nas rolagens de ataque e nos danos dessa arma. Essa Runa Arcana dura 1 minuto.</p>"
+    "dificuldadeTexto": "12",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Enfeitiçar Arma 1",
+    "acesso": [
+      "Rúnico",
+      "Artífice"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 126; Guia do Herói, pág. 31",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Enfeitiçar Arma 1</p><p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +3 nas rolagens de ataque e nos danos dessa arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Requer Nível 5 e a habilidade Enfeitiçar Arma 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "enfeiticar-arma-2",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Rúnico",
+        "Artífice"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "0f5402f23d9388bd",

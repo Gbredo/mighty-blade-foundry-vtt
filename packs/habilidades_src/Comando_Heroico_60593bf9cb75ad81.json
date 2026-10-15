@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Motivar",
+    "acesso": [
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você ordena uma palavra a um aliado (pule, resista, viva, acerte, etc.) e o alvo realiza imediatamente aquela ação. A ordem não pode ser negativa (falhe, morra, caia, etc.). O alvo ainda rola seu teste normalmente, apenas para verificar a possibilidade de um sucesso crítico – qualquer outro resultado (mesmo uma falha crítica) é considerado um sucesso normal.</p>"
+    "concessoes": [],
+    "description": "<p>Você ordena uma palavra a um aliado (pule, resista, viva, acerte, etc.) e o alvo realiza imediatamente aquela ação. A ordem não pode ser negativa (falhe, morra, caia, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo ainda rola seu teste normalmente, apenas para verificar a possibilidade de um sucesso crítico – qualquer outro resultado (mesmo uma falha crítica) é considerado um sucesso normal. Requer Nível 5 e Motivar.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "comando-heroico",
       "automatica": false,
+      "acesso": [
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

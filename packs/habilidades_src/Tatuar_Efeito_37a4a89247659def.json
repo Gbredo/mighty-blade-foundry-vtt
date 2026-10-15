@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Tatuar Magia",
+    "acesso": [
+      "Tohunga"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia de Tebryn, pág. 80–83",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando conjurar sobre si mesmo uma Magia que tenha tatuado em sua pele, a conjuração é realizada como uma ação livre. Você não pode usar conjurar outras Magias em turnos em que utilizar esta Habilidade nem pode utilizar esta Habilidade em turnos que já tiver conjurado uma Magia.</p>"
+    "concessoes": [],
+    "description": "<p>Quando conjurar sobre si mesmo uma Magia que tenha tatuado em sua pele, a conjuração é realizada como uma ação livre. Você não pode usar conjurar outras Magias em turnos em que utilizar esta Habilidade nem pode utilizar esta Habilidade em turnos que já tiver conjurado uma Magia. HAB</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Tatuar Magia. Caminho Tohunga.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "tatuar-efeito",
       "automatica": false,
+      "acesso": [
+        "Tohunga"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

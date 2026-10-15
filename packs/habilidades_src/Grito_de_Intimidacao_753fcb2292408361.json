@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 35,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Grito de Guerra 1",
+    "acesso": [
+      "Guerreiro",
+      "Bardo"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 109; Canção do Bardo, pág. 24",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode dar um grito para intimidar seus inimigos. Todos os oponentes que estiverem a até 10 metros à sua frente que tiverem uma Determinação menor do que a sua ficam Paralisados (veja Condições na página 169) por 2 turnos. Esse é um efeito de Medo.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode dar um grito para intimidar seus inimigos. Todos os oponentes que estiverem a até 10 metros à sua frente que tiverem uma Determinação menor do que a sua ficam Paralisados por 2 turnos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito de Medo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "grito-de-intimidacao",
       "automatica": false,
+      "acesso": [
+        "Guerreiro",
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

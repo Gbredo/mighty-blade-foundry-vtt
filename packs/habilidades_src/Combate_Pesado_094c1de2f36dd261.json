@@ -3,22 +3,39 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Combate Tático",
+    "acesso": [
+      "Guerreiro"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 104; Guia para Iniciantes, pág. 42",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sempre que você fizer uma manobra de encontrão ou um ataque corporal enquanto estiver portando uma arma de duas mãos ou um escudo, você pode rolar novamente 1 dos dados em seus testes de ataque. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade 1 vez por turno.</p>"
+    "concessoes": [],
+    "description": "<p>Sempre que você fizer uma manobra de encontrão ou um ataque corporal enquanto estiver portando uma arma de duas mãos ou um escudo, você pode rolar novamente 1 dos dados em seus testes de ataque. Você pode escolher com qual dos resultados vai ficar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode usar esta Habilidade 1 vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "combate-pesado",
       "automatica": false,
+      "acesso": [
+        "Guerreiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

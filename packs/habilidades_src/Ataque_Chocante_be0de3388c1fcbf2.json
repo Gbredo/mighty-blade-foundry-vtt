@@ -5,20 +5,37 @@
   "system": {
     "tipo": "acao",
     "categoria": "tecnica",
-    "custo": 25,
+    "custo": 30,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "",
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Arma Relampejante",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 126; Manual do Combatente, pág. 216",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Imbui eletricidade na arma junto ao golpe físico. Causa dano de Eletricidade adicional.</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma em conjunto com uma potente rajada elétrica que causa 10/Eletricidade e faz com que o alvo fique Paralisado por 2 turnos. Ignore bônus de Armadura e Bloqueio se o alvo estiver usando armaduras ou escudos de metal ou se estiver usando uma arma de metal para bloquear.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Alvos Imunes à Eletricidade não são afetados por essa Habilidade, mas alvos Resistentes à Eletricidade são afetados normalmente. Requer Nível 5 e Arma Relampejante. Na revisão do *Manual do Combatente* (pág. 216), o custo é de 25 PM e a condição aplicada é Distraído por 2 turnos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ataque-chocante",
       "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

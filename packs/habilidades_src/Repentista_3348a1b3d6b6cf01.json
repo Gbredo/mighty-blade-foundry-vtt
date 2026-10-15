@@ -4,10 +4,21 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "musica",
+    "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 20",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -28,12 +39,20 @@
         "situacao": "custo de 1 Melodia (repertório permanente)"
       }
     ],
-    "description": "<p>+2 em testes de tocar e cantar. Todas as Melodias custam 5 PM a menos. Adiciona 1 Melodia permanentemente ao repertório.</p>"
+    "concessoes": [],
+    "description": "<p>Você é muito bom em improvisar músicas e rimas rapidamente. Você recebe +2 em todos os testes para tocar instrumentos musicais e cantar (incluindo utilizar Músicas do tipo Melodia) e suas Melodias têm seu custo de Mana reduzido em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Habilidade do tipo Música que seja uma Melodia que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "repentista",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

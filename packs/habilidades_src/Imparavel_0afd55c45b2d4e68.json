@@ -3,22 +3,43 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "caracteristica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Astério, Astéria, Vontade 5, Fortaleza",
+    "dificuldadeTexto": "",
+    "requisitos": "Fortaleza, Vontade 5",
+    "acesso": [
+      "Astério",
+      "Astéria",
+      "Juban"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 15; Guia Básico - 3ª Edição, pág. 206",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Derrubar você permanentemente é uma tarefa bem difícil! Uma vez por combate, quando seus Pontos de vida chegarem à zero, você ignora totalmente o dano que o derrubaria.</p>"
+    "concessoes": [],
+    "description": "<p>Derrubar você permanentemente é uma tarefa bem difícil! Uma vez por combate, quando seus Pontos de Vida chegarem a zero, você ignora totalmente o dano que o derrubaria.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Fortaleza e Vontade 5. Só pode ser ativada 1 vez por combate.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "imparavel",
       "automatica": false,
+      "acesso": [
+        "Astério",
+        "Astéria",
+        "Juban"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

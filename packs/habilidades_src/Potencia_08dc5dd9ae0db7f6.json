@@ -6,8 +6,23 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Aesir",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Aesir",
+      "Astério",
+      "Astéria",
+      "Centauro",
+      "Orc",
+      "Geral"
+    ],
+    "tipoAcesso": "Geral",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "forca",
       "valor": 1
@@ -23,12 +38,24 @@
         "valor": 5
       }
     ],
-    "description": "<p>Você é mais forte e resistente do que a maioria dos indivíduos da sua raça. Você ganha permanentemente Força +1 e +5 Pontos de Vida máximos.</p>"
+    "concessoes": [],
+    "description": "<p>Você é mais forte e resistente do que a maioria dos indivíduos da sua raça. Você tem Força +1 e +5 Pontos de Vida.</p>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "potencia",
       "automatica": false,
+      "acesso": [
+        "Aesir",
+        "Astério",
+        "Astéria",
+        "Centauro",
+        "Orc",
+        "Geral"
+      ],
+      "tipoAcesso": "Geral",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

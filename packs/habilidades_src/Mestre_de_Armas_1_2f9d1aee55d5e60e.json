@@ -6,19 +6,40 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Guerreiro",
+      "Espadachim",
+      "Paladino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 41 e 103",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você é particularmente eficiente no uso de armas brancas. Sempre que realizar um ataque corporal bem sucedido, adicione 3 ao dano do ataque. Descrição O</p>"
+    "concessoes": [],
+    "description": "<p>Você é particularmente eficiente no uso de armas brancas. Sempre que realizar um ataque corporal bem-sucedido, adicione 3 ao dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática recebida ao escolher a classe Guerreiro no nível 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "mestre-de-armas-1",
-      "automatica": false,
+      "automatica": true,
+      "acesso": [
+        "Guerreiro",
+        "Espadachim",
+        "Paladino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

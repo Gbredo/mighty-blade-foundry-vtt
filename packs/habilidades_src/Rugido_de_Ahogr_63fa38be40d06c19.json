@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "caracteristica",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Juban",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Juban"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 66",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você canaliza a fúria trovejante de Ahogr em um rugido aterrorizante. Todos os oponentes a até 10 metros à sua frente devem fazer um teste de Vontade contra a sua Determinação; os que falharem ficam Amedrontados e Atordoados por 1 turno (efeito de Medo, 1x por combate por alvo).</p>"
+    "concessoes": [],
+    "description": "<p>Você aprendeu a canalizar a fúria de Ahogr em um poderoso rugido. Todos os oponentes que estiverem a até 10 metros à sua frente devem fazer um teste de Vontade (Dificuldade igual à sua Determinação). Aqueles que falharem no teste ficam Amedrontados e Atordoados por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Ataque de área frontal até 10 metros. Criaturas que falharem no teste de Vontade contra a Determinação do Juban recebem simultaneamente as condições Amedrontado e Atordoado por 1 turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "rugido-de-ahogr",
       "automatica": false,
+      "acesso": [
+        "Juban"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

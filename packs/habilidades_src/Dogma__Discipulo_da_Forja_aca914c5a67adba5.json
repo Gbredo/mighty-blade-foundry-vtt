@@ -1,0 +1,48 @@
+{
+  "name": "Dogma: Discípulo da Forja",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma",
+    "acesso": [
+      "Sacerdote",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Bônus",
+    "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você segue estritamente os ensinamentos de Hou, o deus da forja, do fogo e da criação. Você recebe desconto de 5 Pontos de Mana no custo de conjuração de magias de Cariátide e Golens (mínimo de 5 PM). Além disso, recebe +1 em testes de Forja e Manufatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Chamas de Hou. Código de conduta: nunca destruir uma obra-prima de forja intencionalmente e honrar o trabalho dos artesãos.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dogma-discipulo-da-forja",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Bônus",
+      "aliases": [
+        "Dogma: Discípulo da Forja"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "aca914c5a67adba5",
+  "_key": "!items!aca914c5a67adba5"
+}

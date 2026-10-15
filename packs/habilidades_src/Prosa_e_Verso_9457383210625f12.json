@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5",
+    "acesso": [
+      "Escriba"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Herói, pág. 98–100",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você possui uma paixão tão grande pela palavra escrita, que quando conjura magias a partir de um tomo você é capaz de transmitir seu entusiasmo para a magia. Sempre que conjurar uma magia que você conheça através de um item com a característica Registro, você recebe +1d6 nos seus testes de conjuração se puder falar enquanto conjura. 44</p>"
+    "concessoes": [],
+    "description": "<p>Você possui uma paixão tão grande pela palavra escrita, que quando conjura magias a partir de um tomo você é capaz de transmitir seu entusiasmo para a magia. Sempre que conjurar uma magia que você conheça através de um item com a característica Registro, você recebe +1d6 nos seus testes de conjuração se puder falar enquanto conjura. 44</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Escriba.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "prosa-e-verso",
       "automatica": false,
+      "acesso": [
+        "Escriba"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

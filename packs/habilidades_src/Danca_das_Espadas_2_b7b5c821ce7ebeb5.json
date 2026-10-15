@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Dança das Espadas 1",
+    "acesso": [
+      "Espadachim",
+      "Dançarino"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 94; Canção do Bardo, pág. 41",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Quando entra em combate, seu fluxo de movimentos pode criar um estado de hipnose autoinduzida, produzindo efeitos quase sobre-humanos de agilidade, velocidade e foco. Sempre que você estiver usando Dança das Espadas, você recebe um acréscimo de +2 na sua Agilidade (acumulado com o bônus de Dança das Espadas 1) e em sua Determinação. Este efeito dura enquanto durar o efeito de Dança das Espadas 1.</p>"
+    "concessoes": [],
+    "description": "<p>Quando entra em combate, seu fluxo de movimentos pode criar um estado de hipnose autoinduzida, produzindo efeitos quase sobre-humanos de agilidade, velocidade e foco. Sempre que você estiver usando Dança das Espadas, você recebe um acréscimo de +2 na sua Agilidade (acumulado com o bônus de Dança das Espadas 1) e em sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este efeito dura enquanto durar o efeito de Dança das Espadas 1. Requer Nível 5 e Dança das Espadas 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "danca-das-espadas-2",
       "automatica": false,
+      "acesso": [
+        "Espadachim",
+        "Dançarino"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

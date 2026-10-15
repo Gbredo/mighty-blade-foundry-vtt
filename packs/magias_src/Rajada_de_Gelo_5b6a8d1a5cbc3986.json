@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 20,
+    "custoVariavel": false,
     "dificuldade": 12,
+    "dificuldadeTexto": "12",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa arcana no ar você projeta a partir dela uma rajada de energia mágica que causa dano igual a 20/Frio em um alvo dentro da sua linha de visão. Se o alvo for uma criatura viva, ele fica Enregelado por 1 turno. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Congelar",
+    "acesso": [
+      "Feiticeiro"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 98",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa arcana no ar você projeta a partir dela uma rajada de energia mágica que causa dano igual a 20/Frio em um alvo dentro da sua linha de visão. Se o alvo for uma criatura viva, ele fica Enregelado por 1 turno. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "rajada-de-gelo",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Feiticeiro"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "5b6a8d1a5cbc3986",

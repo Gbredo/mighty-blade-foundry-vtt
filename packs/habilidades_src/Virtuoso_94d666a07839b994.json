@@ -6,19 +6,38 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Mestre das Notas",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 117; Canção do Bardo, pág. 27, 44",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você treinou exaustivamente até se tornar um mestre no uso de instrumentos musicais. Você rola +1d6 em todos os testes envolvendo tocar instrumentos musicais (incluindo Habilidades do tipo Música).</p>"
+    "concessoes": [],
+    "description": "<p>Você treinou exaustivamente até se tornar um mestre no uso de instrumentos musicais. Você rola +1d6 em todos os testes envolvendo tocar instrumentos musicais (incluindo Habilidades do tipo Música).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Mestre das Notas.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "virtuoso",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -1,0 +1,55 @@
+{
+  "name": "Asas",
+  "type": "habilidade",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dragano (Origem Dracônica)",
+    "acesso": [
+      "Dragano"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição",
+    "exclusivoCom": [],
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "imunidadeSituacional",
+        "situacao": "dano de queda"
+      },
+      {
+        "tipo": "imunidade",
+        "dano": "queda"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p><strong>Característica Dracônica (Origem Dracônica):</strong> Suas asas permitem amenizar quedas (você é <strong>Imune a dano de queda</strong>) e realizar planeios curtos. Pré-requisito para a habilidade <em>Asas Pesadas</em>.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "carac-draconica-asas",
+      "subFeatureId": "asas",
+      "parentSlug": "linhagem-draconica",
+      "originLabel": "Origem Dracônica",
+      "isSubFeature": true,
+      "automatica": true,
+      "acesso": [
+        "Dragano"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "opcoes": []
+    }
+  },
+  "_id": "201d1c430e5eacce",
+  "_key": "!items!201d1c430e5eacce"
+}

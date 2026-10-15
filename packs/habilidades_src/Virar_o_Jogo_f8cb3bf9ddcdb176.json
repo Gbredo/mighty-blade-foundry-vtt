@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Nível 5, Contra-Carga",
+    "acesso": [
+      "Lanceiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia do Herói, pág. 107–109",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Se um oponente não for paralisado por sua Contra-Carga, você recebe um bônus de Defesa igual à sua Inteligência contra o ataque de encontrão (este é um bônus de esquiva ou bloqueio, à sua escolha). Além disso, se esse ataque de encontrão errar, você pode imediatamente utilizar Manter à Distância como uma Reação contra o oponente.</p>"
+    "concessoes": [],
+    "description": "<p>Se um oponente não for paralisado por sua Contra-Carga, você recebe um bônus de Defesa igual à sua Inteligência contra o ataque de encontrão (este é um bônus de esquiva ou bloqueio, à sua escolha). Além disso, se esse ataque de encontrão errar, você pode imediatamente utilizar Manter à Distância como uma Reação contra o oponente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Contra-Carga. Caminho Lanceiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "virar-o-jogo",
       "automatica": false,
+      "acesso": [
+        "Lanceiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
       "opcoes": []
     }
   },

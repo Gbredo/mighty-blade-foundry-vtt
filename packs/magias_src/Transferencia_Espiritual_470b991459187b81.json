@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 10,
+    "dificuldadeTexto": "10",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você transfere a energia dela para outra criatura. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. Você então transfere a energia retirada da Sombra para uma criatura que possa tocar, que imediatamente recupera aquela quantidade de Pontos de Mana. Habilidades Avançadas</p>"
+    "nivel": "Nv1",
+    "requisitos": "Contato com Espíritos",
+    "acesso": [
+      "Necromante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 56",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você transfere a energia dela para outra criatura. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. Você então transfere a energia retirada da Sombra para uma criatura que possa tocar, que imediatamente recupera aquela quantidade de Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Contato com Espíritos.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "transferencia-espiritual",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Necromante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "470b991459187b81",

@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 10,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Lanceiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 107–109",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode atacar recuando, anulando os contra-ataques do oponente. Você realiza um ataque corporal normal e recua três metros como parte dessa ação, e o oponente não pode utilizar nenhuma Habilidade do tipo Reação contra você nesse turno. Esse recuo não conta para calcular seu Deslocamento no turno– assim, você pode recuar três metros como parte desse ataque e ainda utilizar uma Ação de Movimento para se deslocar normalmente.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode atacar recuando, anulando os contra-ataques do oponente. Você realiza um ataque corporal normal e recua três metros como parte dessa ação, e o oponente não pode utilizar nenhuma Habilidade do tipo Reação contra você nesse turno. Esse recuo não conta para calcular seu Deslocamento no turno– assim, você pode recuar três metros como parte desse ataque e ainda utilizar uma Ação de Movimento para se deslocar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Lanceiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "manter-a-distancia",
       "automatica": false,
+      "acesso": [
+        "Lanceiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

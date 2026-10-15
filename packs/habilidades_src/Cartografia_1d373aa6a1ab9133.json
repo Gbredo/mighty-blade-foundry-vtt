@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Capuzes Negros"
+    ],
+    "tipoAcesso": "Organização",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 89",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você nunca se perde em qualquer área que já tenha estado ao menos uma vez ou que tenha podido estudar em mapas adequados. Pode desenhar mapas acurados de áreas que estudou e rabiscar de memória mapas eficientes de qualquer área por onde tenha viajado.</p>"
+    "concessoes": [],
+    "description": "<p>Você nunca se perde em qualquer área que já tenha estado ao menos uma vez ou que tenha podido estudar em mapas adequados. Você pode desenhar mapas acurados de uma área que tenha tido tempo para estudar, e pode rabiscar de memória mapas eficientes de qualquer área através da qual você tenha viajado, não importa há quanto tempo tenha estado no local. Além disso, você pode desenhar linhas costeiras tanto por terra ou mar, e sabe tanto manufaturar quanto se orientar usando cartas náuticas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade dos Capuzes Negros (também acessível pelo CORREIO).</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cartografia",
       "automatica": false,
+      "acesso": [
+        "Capuzes Negros"
+      ],
+      "tipoAcesso": "Organização",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

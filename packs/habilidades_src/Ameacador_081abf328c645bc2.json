@@ -6,8 +6,20 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Orc, Intimidador",
+    "dificuldadeTexto": "",
+    "requisitos": "Intimidador",
+    "acesso": [
+      "Naga ♂",
+      "Naga ♀",
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 38, 43",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -19,12 +31,21 @@
         "valor": 2
       }
     ],
-    "description": "<p>Você é tão aterrorizante que é difícil manipulá-lo sem temer represálias. Você tem Determinação +2 contra Medo e Persuasão. Se um inimigo tentar afetá-lo com esses efeitos e falhar, ele sofre automaticamente os efeitos da sua Habilidade Intimidador sem necessidade de teste.</p>"
+    "concessoes": [],
+    "description": "<p>Você é tão assustador que é difícil para qualquer um tentar manipulá-lo sem pensar nos riscos. Você tem Determinação +2 se for alvo de um efeito de Medo e tentativa de Persuasão. Se um personagem tentar afetar você com um desses efeitos e falhar, ele sofrerá automaticamente (sem ser necessário qualquer teste) os efeitos da Habilidade Intimidador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Intimidador.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "ameacador",
       "automatica": false,
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀",
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

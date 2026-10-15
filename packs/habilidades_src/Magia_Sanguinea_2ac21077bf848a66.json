@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Sanguíneo"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 92–94",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Sempre que você usar seus Pontos de Vida no lugar de seus Pontos de Mana para abastecer magias, considere que 1 Ponto de Vida equivale a 1 Ponto de Mana. Além disso, sempre que abastecer uma Magia com pelo menos 5 Pontos de Vida dessa forma, a Dificuldade daquela Magia é reduzida em 2. Raças Não existe uma Raça mais inclinada a se tornar um Sanguíneo do que os Humanos. Eles são curiosos por natureza, e formam a maioria dos Feiticeiros, Rúnicos e – principalmente –</p>"
+    "concessoes": [],
+    "description": "<p>Sempre que você usar seus Pontos de Vida no lugar de seus Pontos de Mana para abastecer magias, considere que 1 Ponto de Vida equivale a 1 Ponto de Mana. Além disso, sempre que abastecer uma Magia com pelo menos 5 Pontos de Vida dessa forma, a Dificuldade daquela Magia é reduzida em 2. Raças Não existe uma Raça mais inclinada a se tornar um Sanguíneo do que os Humanos. Eles são curiosos por natureza, e formam a maioria dos Feiticeiros, Rúnicos e – principalmente – Necromantes de Cassiopéia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Sanguíneo.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "magia-sanguinea",
       "automatica": false,
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

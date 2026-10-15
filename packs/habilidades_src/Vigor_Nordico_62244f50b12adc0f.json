@@ -6,8 +6,19 @@
     "tipo": "suporte",
     "categoria": "caracteristica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Aesir",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 24, 128",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
@@ -23,12 +34,20 @@
         "situacao": "efeitos de climas frios"
       }
     ],
-    "description": "<p>Você nasceu em uma região glacial. Você é Resistente a Frio. Além disso, é imune a efeitos de climas frios e condições climáticas de baixa temperatura.</p>"
+    "concessoes": [],
+    "description": "<p>Você nasceu nas gélidas terras do norte e seu corpo é habituado ao frio extremo. Você é totalmente imune a efeitos de climas frios e a dano por frio de origem natural ou mágica.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Personagens Aesires são proibidos de selecionar a Habilidade Geral Fúria de Batalha (\"Raças: Todas exceto Aesires\").</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "vigor-nordico",
       "automatica": true,
+      "acesso": [
+        "Aesir",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
       "opcoes": []
     }
   },

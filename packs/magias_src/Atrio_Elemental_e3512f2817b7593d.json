@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
-    "fonte": "arcana",
+    "tipo": "acao",
+    "fonte": "mistica",
     "custo": 40,
+    "custoVariavel": false,
     "dificuldade": 12,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Aura do Dragão.</p><p>Você desenha um Selo Místico no ar que se transforma em uma aura elemental centrada em você e com um diâmetro em metros igual à sua Determinação. Quando conjurar esta magia, você deve escolher um tipo de energia elemental (Fogo, Frio ou Eletricidade). Todas as Magias e Habilidades que causem dano do tipo de energia escolhida causam um dano adicional igual à sua Vontade. Além disso, todas as criaturas dentro da área que forem Imunes àquele tipo de energia se tornam Resistentes a ela e criaturas Resistentes à energia selecionada perdem esta característica (você não é afetado por este efeito). Este Selo Místico dura 1 minuto.</p>"
+    "dificuldadeTexto": "12",
+    "circulo": 2,
+    "nivel": "Nv2",
+    "requisitos": "Nível 5, Aura do Dragão",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "fonteLivro": "Guia do Vilão, pág. 51-52",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Aura do Dragão</p><p>Você desenha um Selo Místico no ar que se transforma em uma aura elemental centrada em você e com um diâmetro em metros igual à sua Determinação. Quando conjurar esta magia, você deve escolher um tipo de energia elemental (Fogo, Frio ou Eletricidade). Todas as Magias e Habilidades que causem dano do tipo de energia escolhida causam um dano adicional igual à sua Vontade. Além disso, todas as criaturas dentro da área que forem Imunes àquele tipo de energia se tornam Resistentes a ela e criaturas Resistentes à energia selecionada perdem esta característica (você não é afetado por este efeito).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 minuto. Requer Nível 5 e Aura do Dragão.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "atrio-elemental",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": []
     }
   },
   "_id": "e3512f2817b7593d",

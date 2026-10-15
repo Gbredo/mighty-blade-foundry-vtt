@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 100,
-    "dificuldade": 8,
-    "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Nível 10, Dom do Artí-</p><p>fice. Desenhando uma Runa sobre um item mágico, o Artífice pode desestabilizar o encantamento do item temporariamente, permitindo que um segundo encantamento seja iniciado sobre o item enquanto esta Runa estiver ativa. A Dificuldade dessa Magia é igual à dificuldade do encantamento original do item. Um item só pode ser afetado por Abrir Encantamento uma vez. Esta Runa Arcana dura 12 horas.</p>"
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "circulo": 3,
+    "nivel": "Nv3",
+    "requisitos": "Nível 10, Dom do Artífice",
+    "acesso": [
+      "Artífice"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 89–91",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Nível 10, Dom do Artífice</p><p>Desenhando uma Runa sobre um item mágico, o Artífice pode desestabilizar o encantamento do item temporariamente, permitindo que um segundo encantamento seja iniciado sobre o item enquanto esta Runa estiver ativa. A Dificuldade dessa Magia é igual à dificuldade do encantamento original do item. Um item só pode ser afetado por Abrir Encantamento uma vez. Esta Runa Arcana dura 12 horas. Caminhos 31</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Dom do Artífice. Caminho Artífice.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "abrir-encantamento",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Artífice"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": []
     }
   },
   "_id": "c9a059e830cf562e",

@@ -6,19 +6,36 @@
     "tipo": "suporte",
     "categoria": "tecnica",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Arqueiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Herói, pág. 86–88",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Se você usar uma ação padrão mirando em um alvo, você pode rolar +1d6 no seu primeiro ataque à distância contra aquele alvo no seu próximo turno. Especial: Mirar mais de um turno não adiciona nenhum benefício extra.</p>"
+    "concessoes": [],
+    "description": "<p>Se você usar uma ação padrão mirando em um alvo, você pode rolar +1d6 no seu primeiro ataque à distância contra aquele alvo no seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Arqueiro.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "disparo-mirado",
       "automatica": false,
+      "acesso": [
+        "Arqueiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

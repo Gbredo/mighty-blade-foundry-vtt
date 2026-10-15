@@ -3,22 +3,41 @@
   "type": "habilidade",
   "img": "icons/svg/aura.svg",
   "system": {
-    "tipo": "acao",
+    "tipo": "reacao",
     "categoria": "caracteristica",
     "custo": 5,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Naga (Macho), Naga (Fêmea)",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Naga ♂",
+      "Naga ♀"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 38",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Seu corpo fecha ferimentos em velocidade impressionante. Sempre que sofrer dano, você pode gastar 5 PM como Reação para recuperar uma quantidade de Pontos de Vida igual à sua Vontade (limitado ao dano sofrido no ataque).</p>"
+    "concessoes": [],
+    "description": "<p>Seu corpo consegue se regenerar numa velocidade sobrenatural. Sempre que sofre dano, você pode recuperar uma quantidade de Pontos de Vida igual à sua Vontade (até no máximo o dano sofrido pelo ataque).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Ativada como Reação ao sofrer dano (custo: 5 PMs). Recupera até um valor de Pontos de Vida igual ao atributo Vontade do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "regeneracao-instantanea",
       "automatica": false,
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

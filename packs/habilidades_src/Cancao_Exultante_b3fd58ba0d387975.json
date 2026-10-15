@@ -4,21 +4,40 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
-    "custo": 0,
+    "categoria": "musica",
+    "custo": 15,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Melodia do Repouso",
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 119; Canção do Bardo, pág. 74-75",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você canta uma música exaltando as capacidades e qualidades dos seus aliados, deixando-os confiantes. Todos os seus aliados (incluindo você) que puderem ouvir essa canção recebem +1 em todos os seus testes enquanto você continuar a tocar essa Música.</p>"
+    "concessoes": [],
+    "description": "<p>Você canta uma música enaltecendo os laços de amizade do grupo, aumentando sua moral. Você e todos os seus aliados a uma distância em metros de você igual à sua Determinação, e que puderem ouvir essa Música, recuperam Pontos de Vida por turno igual à sua Vontade, enquanto você continuar a cantar essa Música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A música deve ser mantida com ação de movimento a cada turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "cancao-exultante",
       "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

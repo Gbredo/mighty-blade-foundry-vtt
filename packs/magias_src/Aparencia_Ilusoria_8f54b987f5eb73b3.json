@@ -3,16 +3,33 @@
   "type": "magia",
   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
   "system": {
+    "tipo": "acao",
     "fonte": "arcana",
     "custo": 10,
-    "dificuldade": 10,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
     "circulo": 1,
-    "description": "<p><strong>Requisitos:</strong> Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre um Humanóide, você pode modificar quaisquer características da aparência do alvo (raça, gênero, constituição, etc.) incluindo suas roupas, mas não seu tamanho relativo (um Metadílio não poderia se parecer com um Humano, nem um Elfo com um Mahok, por exemplo). Para copiar a aparência de alguém específico você precisa estar olhando para o alvo. A Runa Arcana dura até que a criatura afetada durma, mas se dissipa imediatamente se ela sofrer qualquer dano.</p>"
+    "nivel": "Nv1",
+    "requisitos": "Ilusão 2",
+    "acesso": [
+      "Ilusionista"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 101–103",
+    "exclusivoCom": [],
+    "description": "<p><strong>Requisitos:</strong> Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre um Humanóide, você pode modificar quaisquer características da aparência do alvo (raça, gênero, constituição, etc.) incluindo suas roupas, mas não seu tamanho relativo (um Metadílio não poderia se parecer com um Humano, nem um Elfo com um Mahok, por exemplo). Para copiar a aparência de alguém específico você precisa estar olhando para o alvo. A Runa Arcana dura até que a criatura afetada durma, mas se dissipa imediatamente se ela sofrer qualquer dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Ilusão 2. Caminho Ilusionista.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "aparencia-ilusoria",
-      "tipo": "Acao"
+      "tipo": "Ação",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
     }
   },
   "_id": "8f54b987f5eb73b3",

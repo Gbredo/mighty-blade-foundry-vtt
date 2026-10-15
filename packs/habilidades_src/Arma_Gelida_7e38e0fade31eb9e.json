@@ -6,19 +6,36 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 5,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "",
+    "acesso": [
+      "Rúnico"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 124",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma, mais um dano adicional igual a 8/Frio. Se esse efeito for conjurado enquanto a arma estiver submersa em líquido, ele congela uma esfera de meio metro de diâmetro (aproximadamente 125 litros).</p>"
+    "concessoes": [],
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma, mais um dano adicional igual a 8/Frio. Se esse efeito for conjurado enquanto a arma estiver submersa em líquido, ele congela uma esfera de meio metro de diâmetro (aproximadamente 125 litros).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para as habilidades Onda de Frio, Ataque Congelante e para a Habilidade Final Destruição Elemental.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "arma-gelida",
       "automatica": false,
+      "acesso": [
+        "Rúnico"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

@@ -4,21 +4,38 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 0,
+    "custoVariavel": false,
     "dificuldade": 0,
-    "requisitos": "Companheiro Dragão 1.",
+    "dificuldadeTexto": "",
+    "requisitos": "Companheiro Dragão 1",
+    "acesso": [
+      "Dracomante"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 22",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode transmutar seu ovo em um pequeno Dragão. Você possui um contato telepático com o</p>"
+    "concessoes": [],
+    "description": "<p>Você pode transmutar seu ovo em um pequeno Dragão. Você possui um contato telepático com o Companheiro Dragão e sempre sabe qual a direção e a distância dele, e, fechando os olhos e se concentrando, pode usar os sentidos do seu Companheiro Dragão (ficando Desprevenido com relação ao seu próprio corpo enquanto isso).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um Companheiro Dragão é uma Besta (Dragão) de tamanho pequeno, com o temperamento Servo, a mesma Sintonia Dracônica que você, 3 em todos os Atributos +1 em 2 Atributos à sua escolha. Ele tem 40 Pontos de Vida e Mana, +10 Pontos de Vida para cada nível que você tiver e uma quantidade de Pontos de Mana a mais iguais a 5 vezes a sua Vontade. Além disso, ele possui todas as Características Dracônicas listadas na raça Dragano (pág. 25). Requer Companheiro Dragão 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "companheiro-dragao-2",
       "automatica": false,
+      "acesso": [
+        "Dracomante"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },

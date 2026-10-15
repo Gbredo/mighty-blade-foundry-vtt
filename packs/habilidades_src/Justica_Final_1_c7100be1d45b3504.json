@@ -6,19 +6,40 @@
     "tipo": "acao",
     "categoria": "tecnica",
     "custo": 25,
+    "custoVariavel": false,
     "dificuldade": 0,
+    "dificuldadeTexto": "",
     "requisitos": "Código da Justiça",
+    "acesso": [
+      "Espada de Mirah",
+      "Paladino",
+      "Geral"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 115; Guia de Tebryn, pág. 36",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
       "valor": 0
     },
     "efeitos": [],
-    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um demônio, morto-vivo ou espírito.</p>"
+    "concessoes": [],
+    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um demônio, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Código da Justiça. Serve de pré-requisito para Justiça Final 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {
       "slug": "justica-final-1",
       "automatica": false,
+      "acesso": [
+        "Espada de Mirah",
+        "Paladino",
+        "Geral"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
       "opcoes": []
     }
   },
