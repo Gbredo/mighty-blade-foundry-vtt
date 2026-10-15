@@ -14,5 +14,10 @@ LOCK
 jsconfig.json
 foundry
 
+# LevelDB transient logs
+packs/**/LOG
+packs/**/LOG.old
+packs/**/*.log
+
 # mighty-blade
 build/
