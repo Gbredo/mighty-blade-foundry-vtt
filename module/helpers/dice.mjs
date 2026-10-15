@@ -11,6 +11,14 @@
  * extra (+1d6) NÃO é rolado, vira +2 fixo.
  */
 
+import { isActorInapto, consumirMana } from "./danos-condicoes.mjs";
+import {
+  calcularCustoMana,
+  calcularDificuldadeMagia,
+  verificarInaptidaoConjuracao,
+  validarConjuracaoMagia,
+} from "./magia.mjs";
+
 const CARD_TEMPLATE = "systems/mighty-blade/templates/chat/roll-card.hbs";
 
 const ATTRIBUTE_LABELS = {
@@ -185,7 +193,8 @@ export async function rollTest({
   extraContent = "",
   rollMode = null,
 } = {}) {
-  const r = await evaluatePool({ attribute, inapto, baseDice, extraDice, bonus });
+  const effectiveInapto = Boolean(inapto || (actor && isActorInapto(actor)));
+  const r = await evaluatePool({ attribute, inapto: effectiveInapto, baseDice, extraDice, bonus });
   const outcome = resolveOutcome({
     critSuccess: r.critSuccess,
     critFailure: r.critFailure,
@@ -201,7 +210,7 @@ export async function rollTest({
     bonus: r.effectiveBonus,
     inaptoNote: r.inaptoNote,
     difficulty,
-    inapto,
+    inapto: effectiveInapto,
     dice: r.faces.map((v) => ({ value: v, isMax: v === 6, isMin: v === 1 })),
     formula: r.formula,
     total: r.total,
@@ -283,8 +292,15 @@ export async function castSpell(item, { skipDialog = false, difficultyMod = 0, c
   const attrKey = fonte === "mistica" ? "vontade" : "inteligencia";
   const attrLabel = fonte === "mistica" ? "Vontade" : "Inteligência";
   const attrValue = actor.system?.attributes?.[attrKey]?.value ?? 0;
-  const dificuldade = Math.max(0, (Number(sys.dificuldade) || 0) + (Number(difficultyMod) || 0));
-  const custo = Math.max(0, (Number(sys.custo) || 0) - (Number(costMod) || 0));
+  const dificuldade = calcularDificuldadeMagia(item, actor, { difficultyMod });
+  const custo = calcularCustoMana(item, actor, { costMod });
+
+  // Validação de item de Registro / Canalizador exigido pela magia (Sub-módulo 8.4.2)
+  const checkRegistro = validarConjuracaoMagia(item, actor);
+  if (!checkRegistro.podeConjurar) {
+    ui?.notifications?.warn?.(checkRegistro.motivo);
+    return null;
+  }
 
   // Mãos: para conjurar é preciso 1 mão livre OU um item Canalizador equipado.
   const eq = actor.system?.equipamento ?? {};
@@ -305,8 +321,9 @@ export async function castSpell(item, { skipDialog = false, difficultyMod = 0, c
     opts = chosen;
   }
 
-  // Armadura equipada com FN > Força → conjura como Inapto.
-  const inapto = opts.inapto || !!eq.inaptoArmadura;
+  // Armadura corporal sem treino, FN > Força ou condição Exausto (0 PM) → conjura como Inapto.
+  const checkArmadura = verificarInaptidaoConjuracao(actor);
+  const inapto = Boolean(opts.inapto || eq.inaptoArmadura || checkArmadura.inapto || isActorInapto(actor));
 
   const r = await evaluatePool({
     attribute: attrValue,
@@ -337,13 +354,22 @@ export async function castSpell(item, { skipDialog = false, difficultyMod = 0, c
     spendMana = true; // sucesso normal → gasta
   } // falha / falha crítica → não gasta
 
-  // Deduz a Mana (clampando em 0) e monta a linha informativa.
+  // Deduz a Mana (com regra canônica de Exaustão de Mana: excedente vai para PV).
   let manaInfo;
   if (spendMana && custo > 0) {
-    const atual = actor.system?.resources?.mana?.value ?? 0;
-    if (atual < custo) ui.notifications.warn(`${actor.name} não tem Mana suficiente (${atual}/${custo} PM).`);
-    await actor.update({ "system.resources.mana.value": Math.max(0, atual - custo) });
-    manaInfo = `Custo: ${custo} PM (gasto)`;
+    const resMana = consumirMana(actor, custo);
+    if (resMana.danoEmVida > 0) {
+      ui.notifications?.warn?.(`${actor.name} esgotou sua Mana! ${resMana.danoEmVida} de custo excedente descontado dos Pontos de Vida.`);
+    }
+    await actor.update?.({
+      "system.resources.mana.value": resMana.manaRestante,
+      "system.resources.vida.value": resMana.vidaRestante,
+      "system.details.condicao": actor.system?.details?.condicao ?? "",
+      "system.details.aflicoes": actor.system?.details?.aflicoes ?? [],
+    });
+    manaInfo = resMana.danoEmVida > 0
+      ? `Custo: ${resMana.manaGasta} PM + ${resMana.danoEmVida} PV (Exausto)`
+      : `Custo: ${custo} PM (gasto)`;
   } else if (custo > 0) {
     manaInfo = r.critSuccess
       ? `Custo: ${custo} PM (não gasto — crítico)`

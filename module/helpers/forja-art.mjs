@@ -1,5 +1,5 @@
 /**
- * Utilitários e Mapeamentos Canônicos de Ilustrações da Forja do Mighty Blade 3e.
+ * Utilitários e Mapeamentos Canônicos de Ilustrações da Forja e Ícones Temáticos do Mighty Blade 3e.
  */
 
 export function slugify(s) {
@@ -97,19 +97,114 @@ export const ORGANIZACOES_FORJA_MAP = {
 };
 
 /**
- * Resolve a melhor imagem da Forja para um item ou documento.
- * Se já possuir imagem válida (diferente dos placeholders padrão do Foundry), preserva-a.
+ * Mapa direto de caminhos legados .webp quebrados para os novos SVGs temáticos próprios do sistema.
+ */
+export const BROKEN_WEBP_REPLACEMENT_MAP = {
+  "icons/consumables/potions/potion-flask-corked-red.webp": "systems/mighty-blade/assets/icons/potion.svg",
+  "icons/weapons/bows/bow-short-wood.webp": "systems/mighty-blade/assets/icons/bow.svg",
+  "icons/weapons/ammunition/arrow-head-steel.webp": "systems/mighty-blade/assets/icons/arrow.svg",
+  "icons/weapons/staves/staff-simple.webp": "systems/mighty-blade/assets/icons/staff.svg",
+  "icons/equipment/chest/breastplate-leather-brown.webp": "systems/mighty-blade/assets/icons/armor.svg",
+  "icons/equipment/shield/heater-wooden-brown.webp": "systems/mighty-blade/assets/icons/shield.svg",
+  "icons/magic/symbols/rune-sigil-horned-blue.webp": "systems/mighty-blade/assets/icons/spell.svg",
+};
+
+/**
+ * Resolve o ícone SVG temático mais adequado para equipamentos, armas, armaduras e magias.
+ * @param {object} item
+ * @returns {string}
+ */
+export function resolveThematicEquipmentIcon(item) {
+  if (!item) return "systems/mighty-blade/assets/icons/gear.svg";
+  const slug = item.flags?.["mighty-blade"]?.slug || slugify(item.name);
+  const cat = String(item.flags?.["mighty-blade"]?.categoria || item.system?.categoria || "").toLowerCase();
+  const sub = String(item.system?.subtipo || "").toLowerCase();
+  const type = item.type;
+
+  if (type === "magia") {
+    return "systems/mighty-blade/assets/icons/spell.svg";
+  }
+
+  // Poções, Antídotos, Elixires, Óleos, Venenos, Extratos
+  if (
+    /^(pocao|antidoto|elixir|oleo|veneno|extrato|unguento|tonico|frasco|acido|fogo-alquimico|cola-carne)/.test(slug) ||
+    slug.includes("pocao") ||
+    slug.includes("antidoto") ||
+    slug.includes("elixir") ||
+    slug.includes("veneno") ||
+    cat.includes("alquim") ||
+    cat.includes("pocao") ||
+    cat.includes("consumivel")
+  ) {
+    return "systems/mighty-blade/assets/icons/potion.svg";
+  }
+
+  // Anéis, Amuletos, Colares, Talismãs
+  if (
+    /^(anel|amuleto|colar|talisma|brinco|medalhao|broche|tiara|coroa)/.test(slug)
+  ) {
+    return "systems/mighty-blade/assets/icons/ring.svg";
+  }
+
+  // Munições e Aljavas
+  if (
+    /^(flecha|virote|bala|dardo|municao|aljava)/.test(slug) ||
+    cat.includes("municao")
+  ) {
+    return "systems/mighty-blade/assets/icons/arrow.svg";
+  }
+
+  // Cajados, Varinhas, Cetros, Orbes, Grimórios, Canalizadores
+  if (
+    /^(cajado|varinha|cetro|orbe|canalizador|grimorio|simbolo-sagrado)/.test(slug) ||
+    cat.includes("canalizador")
+  ) {
+    return "systems/mighty-blade/assets/icons/staff.svg";
+  }
+
+  // Arcos, Bestas, Fundas, Zarabatanas
+  if (
+    /^(arco|besta|funda|zarabatana)/.test(slug) ||
+    cat.includes("projetil") ||
+    (type === "arma" && String(item.system?.alcance || "").toLowerCase().includes("disparo"))
+  ) {
+    return "systems/mighty-blade/assets/icons/bow.svg";
+  }
+
+  // Armas Corporais
+  if (type === "arma") {
+    return "systems/mighty-blade/assets/icons/sword.svg";
+  }
+
+  // Escudos vs Armaduras
+  if (type === "armadura") {
+    if (sub === "escudo" || slug.includes("escudo") || slug.includes("broquel") || slug.includes("pavis")) {
+      return "systems/mighty-blade/assets/icons/shield.svg";
+    }
+    return "systems/mighty-blade/assets/icons/armor.svg";
+  }
+
+  return "systems/mighty-blade/assets/icons/gear.svg";
+}
+
+/**
+ * Resolve a melhor imagem da Forja ou ícone SVG temático para um item ou documento.
+ * Substitui automaticamente caminhos legados .webp inexistentes e placeholders genéricos.
  */
 export function resolveItemImage(item) {
-  if (!item) return "icons/svg/item-bag.svg";
+  if (!item) return "systems/mighty-blade/assets/icons/gear.svg";
 
-  if (item.img && !item.img.includes("mystery-man") && !item.img.includes("item-bag")) {
-    return item.img;
+  const rawImg = String(item.img || "").trim();
+
+  // 1. Intercepta imediatamente qualquer caminho .webp quebrado mapeado
+  if (BROKEN_WEBP_REPLACEMENT_MAP[rawImg]) {
+    return resolveThematicEquipmentIcon(item) || BROKEN_WEBP_REPLACEMENT_MAP[rawImg];
   }
 
   const slug = item.flags?.["mighty-blade"]?.slug || slugify(item.name);
   const type = item.type;
 
+  // 2. Ilustrações Oficiais da Forja (Raças, Classes, Caminhos, Organizações)
   if (type === "raca" || RACAS_FORJA_MAP[slug]) {
     const file = RACAS_FORJA_MAP[slug] || (slug + ".png");
     return "systems/mighty-blade/assets/forja/" + file;
@@ -127,5 +222,17 @@ export function resolveItemImage(item) {
     return "systems/mighty-blade/assets/forja/" + file;
   }
 
-  return item.img || "icons/svg/item-bag.svg";
+  // 3. Equipamentos, Armas, Armaduras e Magias que estejam usando placeholders genéricos ou .webp quebrados
+  const isGenericPlaceholder =
+    !rawImg ||
+    rawImg.includes("mystery-man") ||
+    rawImg.includes("item-bag") ||
+    rawImg === "icons/svg/sword.svg" ||
+    rawImg.endsWith(".webp");
+
+  if (isGenericPlaceholder && ["equipamento", "arma", "armadura", "magia"].includes(type)) {
+    return resolveThematicEquipmentIcon(item);
+  }
+
+  return rawImg || "icons/svg/item-bag.svg";
 }
