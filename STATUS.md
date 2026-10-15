@@ -15,5 +15,7 @@
 - Fórmulas corrigidas nos testes: Determinação = 8+max(VON,INT) (GB p.36); Deslocamento = ⌊AGI/2⌋+5 (GB p.19)
 - AGENTS.md: seção 5 com Perfil de Regras GB 2023
 
-## Próximo Passo
-- Nenhum bloqueador técnico. Ver TODO.md do Cofre Obsidian para próximas features.
+## Proximo Passo Recomendado
+- Investigar e reconciliar as 12 habilidades faltantes no Foundry (gap: 721 no Obsidian vs 709 no Foundry).
+- Avaliar status historico de "Forca Interior" no Obsidian (GB 2017 vs GB 2023).
+- Importar compendio de monstros (154 criaturas do Obsidian para o Foundry).
