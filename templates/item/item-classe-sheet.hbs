@@ -1,85 +1,123 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
-    <h1 class="charname">
-      <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Classe" />
-    </h1>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Classe" />
+      </h1>
+      <span class="item-type-pill">CLASSE HEROICA</span>
+    </div>
   </header>
 
-  <section class="sheet-body">
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
+    <a class="item" data-tab="advancement">AVANÇO</a>
+  </nav>
 
-    <h3>Bônus de Atributos</h3>
-    <div class="grid grid-4col">
-      <div class="resource flex-group-center">
-        <label>Força</label>
-        <input type="number" name="system.atributos.forca" value="{{system.atributos.forca}}" />
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">BÔNUS PV</span>
+          <span class="meta-value">+{{system.vida}} PV</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">BÔNUS PM</span>
+          <span class="meta-value">+{{system.mana}} PM</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">HABILIDADE INICIAL</span>
+          <span class="meta-value">{{#if linkedAbility}}{{linkedAbility.name}}{{else}}—{{/if}}</span>
+        </div>
       </div>
-      <div class="resource flex-group-center">
-        <label>Agilidade</label>
-        <input type="number" name="system.atributos.agilidade" value="{{system.atributos.agilidade}}" />
-      </div>
-      <div class="resource flex-group-center">
-        <label>Inteligência</label>
-        <input type="number" name="system.atributos.inteligencia" value="{{system.atributos.inteligencia}}" />
-      </div>
-      <div class="resource flex-group-center">
-        <label>Vontade</label>
-        <input type="number" name="system.atributos.vontade" value="{{system.atributos.vontade}}" />
+
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
       </div>
     </div>
 
-    <hr />
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="item-form-group">
+        <label><i class="fas fa-sack-dollar"></i> Equipamento Inicial Concedido:</label>
+        <textarea name="system.equipamentoInicial" rows="3" placeholder="Ex: Espada longa, escudo, armadura de couro...">{{system.equipamentoInicial}}</textarea>
+      </div>
+      <div class="item-form-group">
+        <label><i class="fas fa-link"></i> UUID da Habilidade Automática:</label>
+        <input type="text" name="system.habilidadeUuid" value="{{system.habilidadeUuid}}" placeholder="Compendium.mighty-blade.habilidades..." />
+      </div>
+    </div>
 
-    <h3>Habilidade Automática</h3>
-    <div class="form-group">
-      <label>Arraste uma Habilidade aqui para vincular:</label>
-      <div class="drop-zone {{#if linkedAbility}}has-item{{/if}}">
-        {{#if linkedAbility}}
-          <div class="linked-item flexrow flex-center">
-            <img src="{{linkedAbility.img}}" width="36" height="36" />
-            <span class="item-name">{{linkedAbility.name}}</span>
-            <a class="remove-link" title="Remover Vínculo"><i class="fas fa-times"></i></a>
+    {{!-- 3. ABA AVANÇO (ADVANCEMENT ESTILO D&D 5E) --}}
+    <div class="tab advancement" data-group="primary" data-tab="advancement">
+      <div class="advancement-panel">
+        
+        <div class="advancement-section-title">
+          <i class="fas fa-heart-pulse"></i> RECURSOS VITAIS INICIAIS DA CLASSE
+        </div>
+        <div class="advancement-attrs-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 14px;">
+          <div class="adv-attr-box">
+            <span class="adv-attr-label">BÔNUS DE PV</span>
+            <input type="number" name="system.vida" value="{{system.vida}}" class="adv-attr-input" />
           </div>
-        {{else}}
-          <div class="placeholder">
-            <i class="fas fa-download"></i> Arraste uma Habilidade
+          <div class="adv-attr-box">
+            <span class="adv-attr-label">BÔNUS DE PM</span>
+            <input type="number" name="system.mana" value="{{system.mana}}" class="adv-attr-input" />
           </div>
-        {{/if}}
+        </div>
+
+        <div class="advancement-section-title">
+          <i class="fas fa-sparkles"></i> ATRIBUTOS CONCEDIDOS PELA CLASSE
+        </div>
+        <div class="advancement-attrs-grid">
+          <div class="adv-attr-box">
+            <span class="adv-attr-label">FORÇA</span>
+            <input type="number" name="system.atributos.forca" value="{{system.atributos.forca}}" class="adv-attr-input" />
+          </div>
+          <div class="adv-attr-box">
+            <span class="adv-attr-label">AGILIDADE</span>
+            <input type="number" name="system.atributos.agilidade" value="{{system.atributos.agilidade}}" class="adv-attr-input" />
+          </div>
+          <div class="adv-attr-box">
+            <span class="adv-attr-label">INTELIGÊNCIA</span>
+            <input type="number" name="system.atributos.inteligencia" value="{{system.atributos.inteligencia}}" class="adv-attr-input" />
+          </div>
+          <div class="adv-attr-box">
+            <span class="adv-attr-label">VONTADE</span>
+            <input type="number" name="system.atributos.vontade" value="{{system.atributos.vontade}}" class="adv-attr-input" />
+          </div>
+        </div>
+
+        <div class="advancement-section-title" style="margin-top:16px;">
+          <i class="fas fa-award"></i> HABILIDADE INICIAL VINCULADA
+        </div>
+        <div class="adv-drop-zone drop-zone {{#if linkedAbility}}has-item{{/if}}">
+          {{#if linkedAbility}}
+            <div class="linked-item-pill">
+              <img src="{{linkedAbility.img}}" width="32" height="32" />
+              <div class="linked-item-text">
+                <strong>{{linkedAbility.name}}</strong>
+                <small>{{linkedAbility.system.tipo}} • {{linkedAbility.system.categoria}}</small>
+              </div>
+              <a class="remove-link" title="Remover Vínculo"><i class="fas fa-times"></i></a>
+            </div>
+          {{else}}
+            <div class="placeholder-drop">
+              <i class="fas fa-cloud-arrow-down"></i> Arraste uma Habilidade aqui para vincular à Classe
+            </div>
+          {{/if}}
+        </div>
+
       </div>
-      <input type="hidden" name="system.habilidadeUuid" value="{{system.habilidadeUuid}}" />
     </div>
-
-    <hr />
-
-    <div class="grid grid-2col">
-      <div class="resource flex-group-center">
-        <label>Bônus de PV</label>
-        <input type="number" name="system.vida" value="{{system.vida}}" />
-      </div>
-      <div class="resource flex-group-center">
-        <label>Bônus de PM</label>
-        <input type="number" name="system.mana" value="{{system.mana}}" />
-      </div>
-    </div>
-
-    <hr />
-
-    <div class="form-group">
-      <label>Equipamento Inicial</label>
-      <textarea name="system.equipamentoInicial" rows="2">{{system.equipamentoInicial}}</textarea>
-    </div>
-
-    <hr />
-
-    <h3>Descrição da Classe</h3>
-    {{editor
-      system.description
-      target="system.description"
-      rollData=rollData
-      button=true
-      owner=owner
-      editable=editable
-    }}
 
   </section>
+
 </form>

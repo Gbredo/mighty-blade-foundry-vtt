@@ -1,91 +1,140 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img
-      class="profile-img"
-      src="{{item.img}}"
-      data-edit="img"
-      title="{{item.name}}"
-    />
-    <div class="header-fields">
-      <h1 class="charname"><input
-          name="name"
-          type="text"
-          value="{{item.name}}"
-          placeholder="Nome da Habilidade"
-        /></h1>
-      <div class="grid grid-2col">
-        <div class="resource">
-          <label class="resource-label">Tipo de Ação</label>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Habilidade" />
+      </h1>
+      <span class="item-type-pill">HABILIDADE • {{#if system.categoria}}{{system.categoria}}{{else}}CARACTERÍSTICA{{/if}}</span>
+    </div>
+  </header>
+
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
+    <a class="item" data-tab="advancement">AVANÇO</a>
+  </nav>
+
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">TIPO DE AÇÃO</span>
+          <span class="meta-value">{{#if system.tipo}}{{system.tipo}}{{else}}Ação{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">CUSTO DE MANA</span>
+          <span class="meta-value">{{#if system.custo}}{{system.custo}} PM{{else}}0 PM{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">REQUISITOS</span>
+          <span class="meta-value">{{#if system.requisitos}}{{system.requisitos}}{{else}}Nenhum{{/if}}</span>
+        </div>
+      </div>
+
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+      </div>
+    </div>
+
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Tipo de Ação:</label>
           <select name="system.tipo">
             {{selectOptions config.tipos selected=system.tipo localize=false}}
           </select>
         </div>
-        <div class="resource">
-          <label class="resource-label">Categoria</label>
+        <div class="item-form-group">
+          <label>Categoria:</label>
           <select name="system.categoria">
-            {{selectOptions
-              config.categorias
-              selected=system.categoria
-              localize=false
-            }}
+            {{selectOptions config.categorias selected=system.categoria localize=false}}
           </select>
         </div>
       </div>
-    </div>
-  </header>
 
-  {{! Sheet Tab Navigation }}
-  <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="description">Descrição</a>
-    <a class="item" data-tab="details">Detalhes</a>
-  </nav>
-
-  {{! Sheet Body }}
-  <section class="sheet-body">
-
-    {{! Description Tab }}
-    <div class="tab" data-group="primary" data-tab="description">
-      {{editor
-        system.description
-        target="system.description"
-        button=true
-        owner=owner
-        editable=editable
-      }}
-    </div>
-
-    {{! Details Tab }}
-    <div class="tab details" data-group="primary" data-tab="details">
-      <div class="form-group">
-        <label>Custo (Mana)</label>
-        <input
-          type="number"
-          name="system.custo"
-          value="{{system.custo}}"
-          data-dtype="Number"
-        />
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Custo de Mana (PM):</label>
+          <input type="number" name="system.custo" value="{{system.custo}}" data-dtype="Number" />
+        </div>
+        <div class="item-form-group">
+          <label>Dificuldade do Teste (DV):</label>
+          <input type="number" name="system.dificuldade" value="{{system.dificuldade}}" data-dtype="Number" placeholder="Ex: 8, 10..." />
+        </div>
       </div>
 
-      <div class="form-group">
-        <label>Requisitos</label>
-        <input
-          type="text"
-          name="system.requisitos"
-          value="{{system.requisitos}}"
-          placeholder="Ex: Força 4, Nível 5"
-        />
-      </div>
-
-      <div class="form-group">
-        <label>Dificuldade</label>
-        <input
-          type="number"
-          name="system.dificuldade"
-          value="{{system.dificuldade}}"
-          data-dtype="Number"
-          placeholder="Ex: 8"
-        />
+      <div class="item-form-group">
+        <label>Requisitos:</label>
+        <input type="text" name="system.requisitos" value="{{system.requisitos}}" placeholder="Ex: Força 4, Nível 3..." />
       </div>
     </div>
+
+    {{!-- 3. ABA AVANÇO (ADVANCEMENT ESTILO D&D 5E) --}}
+    <div class="tab advancement" data-group="primary" data-tab="advancement">
+      <div class="advancement-panel">
+        <div class="advancement-section-title">
+          <i class="fas fa-sliders"></i> PASSOS DE AVANÇO & ESCOLHAS (PADRÃO D&D 5E)
+        </div>
+
+        {{#if advancementSteps.length}}
+          <div class="advancement-steps-list">
+            {{#each advancementSteps as |step|}}
+              <div class="advancement-step-card">
+                <div class="step-icon-box">
+                  <i class="fas {{step.icone}}"></i>
+                </div>
+                <div class="step-info-box">
+                  <strong>{{step.titulo}}</strong>
+                  <small>{{step.descricao}}</small>
+                </div>
+              </div>
+            {{/each}}
+          </div>
+        {{else}}
+          <div class="adv-drop-zone">
+            <div class="placeholder-drop">
+              <i class="fas fa-circle-info"></i> Esta habilidade não requer passos de escolha interativa.
+            </div>
+          </div>
+        {{/if}}
+
+        {{#if isEmbedded}}
+          {{#if hasAdvancement}}
+            <div class="advancement-active-box" style="margin-top:14px;">
+              <div class="active-choice-header">
+                <span><i class="fas fa-check-circle"></i> ESCOLHA ATIVA NO PERSONAGEM</span>
+                <button type="button" class="reconfigure-item-advancement-btn adv-reconfig-btn" data-item-id="{{advancementTargetId}}">
+                  <i class="fas fa-sliders"></i> Reconfigurar Escolha
+                </button>
+              </div>
+              {{#if activeChoiceSummary}}
+                <div class="active-choice-summary">{{activeChoiceSummary}}</div>
+              {{/if}}
+              {{#if activeTraitPills.length}}
+                <div class="active-trait-pills">
+                  {{#each activeTraitPills as |traitName|}}
+                    <span class="trait-pill-dnd">{{traitName}}</span>
+                  {{/each}}
+                </div>
+              {{/if}}
+              {{#if activeSacrificeSummary}}
+                <div class="active-sacrifice-note">{{activeSacrificeSummary}}</div>
+              {{/if}}
+            </div>
+          {{/if}}
+        {{/if}}
+
+      </div>
+    </div>
+
   </section>
+
 </form>

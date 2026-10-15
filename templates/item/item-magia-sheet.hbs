@@ -1,65 +1,79 @@
-<form class='{{cssClass}}' autocomplete='off'>
-  <header class='sheet-header'>
-    <img
-      class='profile-img'
-      src='{{item.img}}'
-      data-edit='img'
-      title='{{item.name}}'
-    />
-    <div class='header-fields'>
-      <h1 class='charname'><input
-          name='name'
-          type='text'
-          value='{{item.name}}'
-          placeholder='Name'
-        /></h1>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Magia" />
+      </h1>
+      <span class="item-type-pill">MAGIA • {{#if (eq system.fonte "mistica")}}FONTE MÍSTICA{{else}}FONTE ARCANA{{/if}}</span>
     </div>
   </header>
 
-  {{! Sheet Tab Navigation }}
-  <nav class='sheet-tabs tabs' data-group='primary'>
-    <a class='item' data-tab='description'>Description</a>
-    <a class='item' data-tab='attributes'>Attributes</a>
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
   </nav>
 
-  {{! Sheet Body }}
-  <section class='sheet-body'>
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
 
-    {{! Description Tab }}
-    <div class='tab' data-group='primary' data-tab='description'>
-      {{! Editors must receive enriched text data from getData to properly handle rolls }}
-      {{editor
-        enrichedDescription
-        target='system.description'
-        engine='prosemirror'
-        button=true
-        editable=editable
-      }}
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">CÍRCULO</span>
+          <span class="meta-value">{{system.circulo}}º Círculo</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">FONTE</span>
+          <span class="meta-value">{{#if (eq system.fonte "mistica")}}Mística (Vontade){{else}}Arcana (Inteligência){{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">CUSTO (PM)</span>
+          <span class="meta-value">{{system.custo}} PM</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">DIFICULDADE (DV)</span>
+          <span class="meta-value">DV {{system.dificuldade}}</span>
+        </div>
+      </div>
+
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+      </div>
     </div>
 
-    {{! Attributes Tab }}
-    <div class='tab attributes' data-group='primary' data-tab='attributes'>
-      <div class='grid grid-2col'>
-        <div class='resource'>
-          <label class='resource-label'>Fonte</label>
-          <select name='system.fonte'>
-            <option value='arcana' {{#if (eq system.fonte "arcana")}}selected{{/if}}>Arcana (Inteligência)</option>
-            <option value='mistica' {{#if (eq system.fonte "mistica")}}selected{{/if}}>Mística (Vontade)</option>
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Fonte da Magia:</label>
+          <select name="system.fonte">
+            <option value="arcana" {{#if (eq system.fonte "arcana")}}selected{{/if}}>Arcana (Inteligência)</option>
+            <option value="mistica" {{#if (eq system.fonte "mistica")}}selected{{/if}}>Mística (Vontade)</option>
           </select>
         </div>
-        <div class='resource'>
-          <label class='resource-label'>Círculo</label>
-          <input type='number' name='system.circulo' value='{{system.circulo}}' data-dtype='Number'/>
+        <div class="item-form-group">
+          <label>Círculo de Poder:</label>
+          <input type="number" name="system.circulo" value="{{system.circulo}}" data-dtype="Number" min="1" max="9" />
         </div>
-        <div class='resource'>
-          <label class='resource-label'>Custo (PM)</label>
-          <input type='number' name='system.custo' value='{{system.custo}}' data-dtype='Number'/>
+      </div>
+
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Custo de Mana (PM):</label>
+          <input type="number" name="system.custo" value="{{system.custo}}" data-dtype="Number" />
         </div>
-        <div class='resource'>
-          <label class='resource-label'>Dificuldade (DV)</label>
-          <input type='number' name='system.dificuldade' value='{{system.dificuldade}}' data-dtype='Number'/>
+        <div class="item-form-group">
+          <label>Dificuldade de Conjuração (DV):</label>
+          <input type="number" name="system.dificuldade" value="{{system.dificuldade}}" data-dtype="Number" />
         </div>
       </div>
     </div>
+
   </section>
+
 </form>

@@ -1,72 +1,72 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img
-      class="profile-img"
-      src="{{item.img}}"
-      data-edit="img"
-      title="{{item.name}}"
-    />
-    <div class="header-fields">
-      <h1 class="charname"><input
-          name="name"
-          type="text"
-          value="{{item.name}}"
-          placeholder="Nome do Equipamento"
-        /></h1>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome do Equipamento" />
+      </h1>
+      <span class="item-type-pill">EQUIPAMENTO • UTILITÁRIO</span>
     </div>
   </header>
 
-  {{! CORPO DA FICHA }}
-  <section class="sheet-body">
-    <div class="grid grid-3col">
-      <div class="resource flex-group-center">
-        <label class="resource-label">Quantidade</label>
-        <input
-          type="text"
-          name="system.quantidade"
-          value="{{system.quantidade}}"
-          data-dtype="Number"
-        />
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
+  </nav>
+
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">QUANTIDADE</span>
+          <span class="meta-value">{{item.system.quantidade}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">PESO UNITÁRIO</span>
+          <span class="meta-value">{{item.system.peso}} kg</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">CUSTO</span>
+          <span class="meta-value">{{item.system.custo}} MP</span>
+        </div>
       </div>
 
-      <div class="resource flex-group-center">
-        <label class="resource-label">Peso (kg)</label>
-        <input
-          type="text"
-          name="system.peso"
-          value="{{system.peso}}"
-          data-dtype="Number"
-        />
-      </div>
-
-      <div class="resource flex-group-center">
-        <label class="resource-label">Custo</label>
-        <input
-          type="text"
-          name="system.custo"
-          value="{{system.custo}}"
-          data-dtype="Number"
-        />
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
       </div>
     </div>
 
-    <label class="resource-label" style="display:flex;align-items:center;gap:6px;margin-top:8px;">
-      <input type="checkbox" name="system.canalizador" {{checked system.canalizador}} style="width:auto;" /> Canalizador (orbe/cajado — permite conjurar)
-    </label>
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="grid grid-3col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Quantidade:</label>
+          <input type="number" name="system.quantidade" value="{{system.quantidade}}" data-dtype="Number" />
+        </div>
+        <div class="item-form-group">
+          <label>Peso (kg):</label>
+          <input type="number" name="system.peso" value="{{system.peso}}" data-dtype="Number" />
+        </div>
+        <div class="item-form-group">
+          <label>Custo (MP):</label>
+          <input type="number" name="system.custo" value="{{system.custo}}" data-dtype="Number" />
+        </div>
+      </div>
 
-    <hr />
-
-    {{! ÁREA DE DESCRIÇÃO }}
-    <h3>Descrição</h3>
-    <div class="editor-box">
-      {{editor
-        system.description
-        target="system.description"
-        rollData=rollData
-        button=true
-        owner=owner
-        editable=editable
-      }}
+      <div class="item-form-group" style="padding-top:6px;">
+        <label style="display:flex;align-items:center;gap:6px;cursor:pointer;">
+          <input type="checkbox" name="system.canalizador" {{checked system.canalizador}} style="width:auto;" />
+          Canalizador Arcano / Místico (permite conjurar magias sem penalidade)
+        </label>
+      </div>
     </div>
+
   </section>
+
 </form>

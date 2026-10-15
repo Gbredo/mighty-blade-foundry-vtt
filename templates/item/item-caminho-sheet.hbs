@@ -1,54 +1,73 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img
-      class="profile-img"
-      src="{{item.img}}"
-      data-edit="img"
-      title="{{item.name}}"
-    />
-    <div class="header-fields">
-      <h1 class="charname"><input
-          name="name"
-          type="text"
-          value="{{item.name}}"
-          placeholder="Nome do Caminho"
-        /></h1>
-      <div class="grid grid-2col">
-        <div class="resource">
-          <label class="resource-label">Habilidade Automática</label>
-          <input
-            type="text"
-            name="system.habilidadeAutomatica"
-            value="{{system.habilidadeAutomatica}}"
-            placeholder="Ex: Alquimia Básica"
-          />
-        </div>
-        <div class="resource">
-          <label class="resource-label">Pré-Requisitos</label>
-          <input
-            type="text"
-            name="system.requisitos"
-            value="{{system.requisitos}}"
-            placeholder="Ex: Inteligência 5, Herbalismo"
-          />
-        </div>
-      </div>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome do Caminho" />
+      </h1>
+      <span class="item-type-pill">CAMINHO HEROICO • ESPECIALIZAÇÃO</span>
     </div>
   </header>
 
-  <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="description">Descrição & Lore</a>
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
+    <a class="item" data-tab="advancement">AVANÇO</a>
   </nav>
 
-  <section class="sheet-body">
-    <div class="tab" data-group="primary" data-tab="description">
-      {{editor
-        enrichedDescription
-        target="system.description"
-        engine="prosemirror"
-        button=true
-        editable=editable
-      }}
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">HABILIDADE AUTOMÁTICA</span>
+          <span class="meta-value">{{#if system.habilidadeAutomatica}}{{system.habilidadeAutomatica}}{{else}}—{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">PRÉ-REQUISITOS</span>
+          <span class="meta-value">{{#if system.requisitos}}{{system.requisitos}}{{else}}Nenhum{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">RAÇAS COMUNS</span>
+          <span class="meta-value">{{#if system.racasComuns}}{{system.racasComuns}}{{else}}Todas{{/if}}</span>
+        </div>
+      </div>
+
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+      </div>
     </div>
+
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="item-form-group">
+        <label>Pré-Requisitos:</label>
+        <input type="text" name="system.requisitos" value="{{system.requisitos}}" placeholder="Ex: Inteligência 5, Herbalismo..." />
+      </div>
+      <div class="item-form-group">
+        <label>Raças Comuns:</label>
+        <input type="text" name="system.racasComuns" value="{{system.racasComuns}}" placeholder="Ex: Anão, Humano..." />
+      </div>
+    </div>
+
+    {{!-- 3. ABA AVANÇO (ADVANCEMENT) --}}
+    <div class="tab advancement" data-group="primary" data-tab="advancement">
+      <div class="advancement-panel">
+        <div class="advancement-section-title">
+          <i class="fas fa-sparkles"></i> HABILIDADE AUTOMÁTICA CONCEDIDA
+        </div>
+        <div class="item-form-group">
+          <label>Nome ou UUID da Habilidade Concedida:</label>
+          <input type="text" name="system.habilidadeAutomatica" value="{{system.habilidadeAutomatica}}" placeholder="Ex: Alquimia Básica..." />
+        </div>
+      </div>
+    </div>
+
   </section>
+
 </form>

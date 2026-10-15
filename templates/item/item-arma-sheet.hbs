@@ -1,98 +1,94 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img
-      class="profile-img"
-      src="{{item.img}}"
-      data-edit="img"
-      title="{{item.name}}"
-    />
-    <div class="header-fields">
-      <h1 class="charname"><input
-          name="name"
-          type="text"
-          value="{{item.name}}"
-          placeholder="Nome da Arma"
-        /></h1>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
 
-      {{! DADOS PRINCIPAIS }}
-      <div class="grid grid-2col">
-        <div class="resource">
-          <label class="resource-label">Tipo de Dano</label>
-          <input
-            type="text"
-            name="system.tipo"
-            value="{{system.tipo}}"
-            placeholder="Ex: Corte"
-          />
-        </div>
-        <div class="resource">
-          <label class="resource-label">Distância</label>
-          <input
-            type="text"
-            name="system.distancia"
-            value="{{system.distancia}}"
-            placeholder="Ex: Corpo-a-corpo"
-          />
-        </div>
-      </div>
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Arma" />
+      </h1>
+      <span class="item-type-pill">ARMA • ARSENAL DE COMBATE</span>
     </div>
   </header>
 
-  {{! CORPO DA FICHA }}
-  <section class="sheet-body">
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
+  </nav>
 
-    <div class="grid grid-3col">
-      <div class="resource flex-group-center">
-        <label class="resource-label">Dano</label>
-        <div class="flexrow flex-center">
-          {{! Se for baseado em força, colocamos "For+" }}
-          <span>For + </span>
-          <input
-            type="text"
-            name="system.dano"
-            value="{{system.dano}}"
-            data-dtype="String"
-          />
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">FÓRMULA DE DANO</span>
+          <span class="meta-value badge-dano">{{item.system.dano}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">FN (FORÇA NEC.)</span>
+          <span class="meta-value">{{item.system.fn}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">ALCANCE</span>
+          <span class="meta-value">{{#if item.system.alcance}}{{item.system.alcance}}{{else}}Adjacente (1m){{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">PESO</span>
+          <span class="meta-value">{{item.system.peso}} kg</span>
         </div>
       </div>
 
-      <div class="resource flex-group-center">
-        <label class="resource-label">FN (Força Nec.)</label>
-        <input type="number" name="system.fn" value="{{system.fn}}" />
-      </div>
-
-      <div class="resource flex-group-center">
-        <label class="resource-label">Peso (kg)</label>
-        <input type="number" name="system.peso" value="{{system.peso}}" />
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
       </div>
     </div>
 
-    <div class="grid grid-2col">
-      <div class="resource flex-group-center">
-        <label class="resource-label">Mãos</label>
-        <select name="system.maos" data-dtype="Number">
-          <option value="1" {{#if (eq system.maos 1)}}selected{{/if}}>Uma mão</option>
-          <option value="2" {{#if (eq system.maos 2)}}selected{{/if}}>Duas mãos</option>
-        </select>
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Dano Base da Arma:</label>
+          <input type="text" name="system.dano" value="{{system.dano}}" placeholder="Ex: 4 ou 1d6+2" />
+        </div>
+        <div class="item-form-group">
+          <label>Força Necessária (FN):</label>
+          <input type="number" name="system.fn" value="{{system.fn}}" />
+        </div>
       </div>
-      <label class="resource-label" style="display:flex;align-items:center;gap:6px;">
-        <input type="checkbox" name="system.canalizador" {{checked system.canalizador}} style="width:auto;" /> Canalizador (permite conjurar)
-      </label>
+
+      <div class="grid grid-3col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Alcance:</label>
+          <input type="text" name="system.alcance" value="{{system.alcance}}" placeholder="Ex: Adjacente (1m), 10m..." />
+        </div>
+        <div class="item-form-group">
+          <label>Peso (kg):</label>
+          <input type="number" name="system.peso" value="{{system.peso}}" />
+        </div>
+        <div class="item-form-group">
+          <label>Custo (MP):</label>
+          <input type="number" name="system.custo" value="{{system.custo}}" />
+        </div>
+      </div>
+
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Mãos Necessárias:</label>
+          <select name="system.maos" data-dtype="Number">
+            <option value="1" {{#if (eq system.maos 1)}}selected{{/if}}>Uma Mão (1M)</option>
+            <option value="2" {{#if (eq system.maos 2)}}selected{{/if}}>Duas Mãos (2M)</option>
+          </select>
+        </div>
+        <div class="item-form-group" style="display:flex;align-items:center;gap:8px;padding-top:20px;">
+          <input type="checkbox" name="system.canalizador" {{checked system.canalizador}} id="chk_canalizador" />
+          <label for="chk_canalizador" style="cursor:pointer;margin:0;">Canalizador (Permite Conjurar Magias)</label>
+        </div>
+      </div>
     </div>
 
-    <hr />
-
-    {{! ÁREA DE DESCRIÇÃO (Editor de Texto Rico) }}
-    <h3>Descrição / Observações</h3>
-    <div class="editor-box">
-      {{editor
-        system.description
-        target="system.description"
-        rollData=rollData
-        button=true
-        owner=owner
-        editable=editable
-      }}
-    </div>
   </section>
+
 </form>

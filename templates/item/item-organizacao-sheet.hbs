@@ -1,63 +1,69 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img
-      class="profile-img"
-      src="{{item.img}}"
-      data-edit="img"
-      title="{{item.name}}"
-    />
-    <div class="header-fields">
-      <h1 class="charname"><input
-          name="name"
-          type="text"
-          value="{{item.name}}"
-          placeholder="Nome da Organização"
-        /></h1>
-      <div class="grid grid-3col">
-        <div class="resource">
-          <label class="resource-label">Tipo</label>
-          <input
-            type="text"
-            name="system.tipo"
-            value="{{system.tipo}}"
-            placeholder="Ex: Ordem, Guilda"
-          />
-        </div>
-        <div class="resource">
-          <label class="resource-label">Sede</label>
-          <input
-            type="text"
-            name="system.sede"
-            value="{{system.sede}}"
-            placeholder="Ex: Kommos, Tebryn"
-          />
-        </div>
-        <div class="resource">
-          <label class="resource-label">Liderança</label>
-          <input
-            type="text"
-            name="system.lideranca"
-            value="{{system.lideranca}}"
-            placeholder="Líder ou Conselho"
-          />
-        </div>
-      </div>
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Organização" />
+      </h1>
+      <span class="item-type-pill">ORGANIZAÇÃO • FACÇÃO DE DRAKON</span>
     </div>
   </header>
 
-  <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="description">Estatuto & Crônicas</a>
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
   </nav>
 
-  <section class="sheet-body">
-    <div class="tab" data-group="primary" data-tab="description">
-      {{editor
-        enrichedDescription
-        target="system.description"
-        engine="prosemirror"
-        button=true
-        editable=editable
-      }}
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">TIPO</span>
+          <span class="meta-value">{{#if system.tipo}}{{system.tipo}}{{else}}Ordem / Guilda{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">SEDE</span>
+          <span class="meta-value">{{#if system.sede}}{{system.sede}}{{else}}Drakon{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">LIDERANÇA</span>
+          <span class="meta-value">{{#if system.lideranca}}{{system.lideranca}}{{else}}Conselho{{/if}}</span>
+        </div>
+      </div>
+
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+      </div>
     </div>
+
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="grid grid-3col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Tipo de Organização:</label>
+          <input type="text" name="system.tipo" value="{{system.tipo}}" placeholder="Ex: Ordem, Guilda, Seita..." />
+        </div>
+        <div class="item-form-group">
+          <label>Sede / Fortaleza:</label>
+          <input type="text" name="system.sede" value="{{system.sede}}" placeholder="Ex: Kommos, Tebryn..." />
+        </div>
+        <div class="item-form-group">
+          <label>Liderança:</label>
+          <input type="text" name="system.lideranca" value="{{system.lideranca}}" placeholder="Líder ou Grão-Mestre..." />
+        </div>
+      </div>
+      <div class="item-form-group">
+        <label>Ingresso / Requisitos de Entrada:</label>
+        <input type="text" name="system.ingresso" value="{{system.ingresso}}" placeholder="Ex: Juramento, Rito de Passagem..." />
+      </div>
+    </div>
+
   </section>
+
 </form>

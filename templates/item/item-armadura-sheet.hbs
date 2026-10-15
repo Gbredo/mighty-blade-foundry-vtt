@@ -1,57 +1,94 @@
-<form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
-    <div class="header-fields">
-      <h1 class="charname">
+<form class="{{cssClass}} item-sheet-dnd" autocomplete="off">
+
+  {{!-- Header Estilo D&D 5e --}}
+  <header class="sheet-header-item">
+    <img class="item-profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <div class="item-header-meta">
+      <h1 class="item-charname">
         <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Armadura/Escudo" />
       </h1>
+      <span class="item-type-pill">{{#if (eq item.system.subtipo "escudo")}}ESCUDO DE PROTEÇÃO{{else}}ARMADURA DE COMBATE{{/if}}</span>
+    </div>
+  </header>
 
-      <div class="grid grid-2col">
-        <div class="resource">
-          <label class="resource-label">Tipo</label>
+  {{!-- Barra de Abas do Item --}}
+  <nav class="sheet-tabs tabs item-tabs" data-group="primary">
+    <a class="item active" data-tab="description">DESCRIÇÃO</a>
+    <a class="item" data-tab="details">DETALHES</a>
+  </nav>
+
+  {{!-- Corpo da Ficha em Abas --}}
+  <section class="sheet-body item-body">
+
+    {{!-- 1. ABA DESCRIÇÃO --}}
+    <div class="tab description active" data-group="primary" data-tab="description">
+      <div class="item-meta-strip">
+        <div class="meta-field">
+          <span class="meta-label">BÔNUS DEFESA</span>
+          <span class="meta-value badge-defesa">+{{item.system.defesa}} DEF</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">SUBTIPO</span>
+          <span class="meta-value">{{#if (eq item.system.subtipo "escudo")}}Escudo{{else}}Armadura{{/if}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">FN (FORÇA NEC.)</span>
+          <span class="meta-value">{{item.system.fn}}</span>
+        </div>
+        <div class="meta-field">
+          <span class="meta-label">PESO</span>
+          <span class="meta-value">{{item.system.peso}} kg</span>
+        </div>
+      </div>
+
+      <div class="item-editor-wrap">
+        {{editor enrichedDescription target="system.description" rollData=rollData button=true owner=owner editable=editable}}
+      </div>
+    </div>
+
+    {{!-- 2. ABA DETALHES --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Subtipo de Equipamento:</label>
           <select name="system.subtipo">
             <option value="armadura" {{#if (eq system.subtipo "armadura")}}selected{{/if}}>Armadura (Bloqueio + Esquiva)</option>
             <option value="escudo" {{#if (eq system.subtipo "escudo")}}selected{{/if}}>Escudo (só Bloqueio, ocupa 1 mão)</option>
           </select>
         </div>
-        <div class="resource">
-          <label class="resource-label">Defesa</label>
+        <div class="item-form-group">
+          <label>Bônus de Defesa:</label>
           <input type="number" name="system.defesa" value="{{system.defesa}}" data-dtype="Number" />
         </div>
       </div>
-    </div>
-  </header>
 
-  <section class="sheet-body">
-    <div class="grid grid-3col">
-      <div class="resource flex-group-center">
-        <label class="resource-label">FN (Força Nec.)</label>
-        <input type="number" name="system.fn" value="{{system.fn}}" data-dtype="Number" />
+      <div class="grid grid-3col" style="gap:12px; margin-bottom:12px;">
+        <div class="item-form-group">
+          <label>Força Necessária (FN):</label>
+          <input type="number" name="system.fn" value="{{system.fn}}" data-dtype="Number" />
+        </div>
+        <div class="item-form-group">
+          <label>Peso (kg):</label>
+          <input type="number" name="system.peso" value="{{system.peso}}" data-dtype="Number" />
+        </div>
+        <div class="item-form-group">
+          <label>Custo (MP):</label>
+          <input type="number" name="system.custo" value="{{system.custo}}" data-dtype="Number" />
+        </div>
       </div>
-      <div class="resource flex-group-center">
-        <label class="resource-label">Peso (kg)</label>
-        <input type="number" name="system.peso" value="{{system.peso}}" data-dtype="Number" />
+
+      <div class="grid grid-2col" style="gap:12px; margin-bottom:12px; padding-top:6px;">
+        <label style="display:flex;align-items:center;gap:6px;cursor:pointer;">
+          <input type="checkbox" name="system.pesada" {{checked system.pesada}} style="width:auto;" />
+          Pesada (Redução de Dano 1, Corrida restrita a ×2)
+        </label>
+        <label style="display:flex;align-items:center;gap:6px;cursor:pointer;">
+          <input type="checkbox" name="system.rigida" {{checked system.rigida}} style="width:auto;" />
+          Rígida / Restritiva (Inaptidão em acrobacias)
+        </label>
       </div>
-      <div class="resource flex-group-center">
-        <label class="resource-label">Custo</label>
-        <input type="number" name="system.custo" value="{{system.custo}}" data-dtype="Number" />
-      </div>
     </div>
 
-    <div class="grid grid-2col">
-      <label class="resource-label" style="display:flex;align-items:center;gap:6px;">
-        <input type="checkbox" name="system.pesada" {{checked system.pesada}} style="width:auto;" /> Pesada (RD 1, Corrida ×2)
-      </label>
-      <label class="resource-label" style="display:flex;align-items:center;gap:6px;">
-        <input type="checkbox" name="system.rigida" {{checked system.rigida}} style="width:auto;" /> Rígida / Restritiva
-      </label>
-    </div>
-
-    <hr />
-
-    <h3>Descrição / Observações</h3>
-    <div class="editor-box">
-      {{editor system.description target="system.description" rollData=rollData button=true owner=owner editable=editable}}
-    </div>
   </section>
+
 </form>
