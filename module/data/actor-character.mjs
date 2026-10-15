@@ -160,13 +160,20 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       } else if (nome === "vitalidade de gigante" || nome === "vitalidade") {
         acc.pv += 10;
       } else if (
-        nome === "mente expandida" ||
         nome === "reserva mistica" ||
         nome === "foco arcano" ||
+        nome === "dom arcano"
+      ) {
+        // Fallback apenas se o item não declarou bonusPM como efeito (evita dupla contagem)
+        const jaTemEfeitoPM = (item.system?.efeitos || []).some((e) => e.tipo === "bonusPM");
+        if (!jaTemEfeitoPM) acc.pm += 10; // GB: +10 PM
+      } else if (
         nome === "heranca feerica" ||
         nome === "intelecto elfico"
       ) {
-        acc.pm += 10;
+        // GB p.52: +5 PM cada (não +10)
+        const jaTemEfeitoPM = (item.system?.efeitos || []).some((e) => e.tipo === "bonusPM");
+        if (!jaTemEfeitoPM) acc.pm += 5;
       } else if (nome === "cabeca dura") {
         if (!item.system?.efeitos?.some((e) => e.tipo === "bonusDefesa" && e.defesa === "determinacao")) {
           acc.defesa.determinacao += 2;
@@ -286,7 +293,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const vontade = this.attributes.vontade.value;
 
     const bonusDet = ef.determinacao;
-    const detValue = vontade + bonusDet; // Caso 10: Vontade + Bônus de Habilidades
+    const detValue = 8 + Math.max(inteligencia, vontade) + bonusDet; // GB p.36: 8 + maior(VON, INT) + bônus
 
     const eqTextBloq = (eq.bonusArmadura + eq.bonusEscudo) > 0 ? ` + <span title="Armadura/Escudo" style="text-decoration: underline dotted; cursor: help;">${eq.bonusArmadura + eq.bonusEscudo}</span>` : "";
     const efTextBloq = ef.bloqueio > 0 ? ` + <span title="Efeitos" style="text-decoration: underline dotted; cursor: help;">${ef.bloqueio}</span>` : "";
@@ -303,7 +310,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const penalidadeCondicao = isCego ? -2 : 0;
 
     const efTextDet = bonusDet > 0 ? ` + <span title="Efeitos" style="text-decoration: underline dotted; cursor: help;">${bonusDet}</span>` : "";
-    const formulaDet = `<span title="Vontade" style="text-decoration: underline dotted; cursor: help;">${vontade}</span>${efTextDet}`;
+    const formulaDet = `8 + <span title="maior(VON, INT)" style="text-decoration: underline dotted; cursor: help;">${Math.max(inteligencia, vontade)}</span>${efTextDet}`;
 
     const bonusCanalizacao = this.canalizacaoApostata?.tipo === "rd"
       ? (Number(this.canalizacaoApostata.valor) || 0)
@@ -317,7 +324,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       defesaBase:   base,
       bloqueio:     { value: base + forca + eq.bonusArmadura + eq.bonusEscudo + ef.bloqueio + penalidadeCondicao, baseValor: forca, baseName: "Força", defesaBase: base, bonusArmadura: eq.bonusArmadura, bonusEscudo: eq.bonusEscudo, bonusBloqueio: ef.bloqueio, penalidadeCondicao, formulaVisual: formulaBloq },
       esquiva:      { value: base + agilidade + eq.bonusArmadura + ef.esquiva + penalidadeCondicao, baseValor: agilidade, baseName: "Agilidade", defesaBase: base, bonusArmadura: eq.bonusArmadura, bonusEsquiva: ef.esquiva, penalidadeCondicao, formulaVisual: formulaEsq },
-      determinacao: { value: detValue, baseValor: vontade, baseName: "Vontade", vontade, bonus: bonusDet, estatica: 8 + Math.max(inteligencia, vontade) + bonusDet, formulaVisual: formulaDet },
+      determinacao: { value: detValue, baseValor: Math.max(inteligencia, vontade), baseName: "maior(VON, INT)", vontade, inteligencia, bonus: bonusDet, estatica: detValue, formulaVisual: formulaDet },
       rd:           { value: (eq.rd ?? 0) + bonusRD },
       penalidadeCondicoes: penalidadeCondicao,
     };
@@ -330,10 +337,10 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const inteligencia = this.attributes.inteligencia.value;
 
     const bonusDesl = this._efeitos?.deslocamento ?? 0;
-    const deslocamento = Math.floor(agilidade / 2) + 4 + bonusDesl;
+    const deslocamento = Math.floor(agilidade / 2) + 5 + bonusDesl; // GB p.19: ⌊AGI/2⌋ + 5
 
     const efTextDesl = bonusDesl > 0 ? ` + <span title="Bônus/Efeitos" style="text-decoration: underline dotted; cursor: help;">${bonusDesl}</span>` : "";
-    const formulaDeslocamento = `4 + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agilidade / 2)}</span>${efTextDesl}`;
+    const formulaDeslocamento = `5 + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agilidade / 2)}</span>${efTextDesl}`;
 
     // Carga atual = soma do peso de todos os itens no inventário
     let cargaAtual = 0;
@@ -342,24 +349,30 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     }
 
     let forcaCarga = forca + (this._efeitos?.cargaForca ?? 0);
-    const basicaPadrao = forcaCarga * 10;
-    const basicaCombatente = forcaCarga * 20;
+    // GB p.21: Básica = FOR×7 kg; Pesada = até FOR×35 kg (5× básica); Máxima = até FOR×70 kg (10× básica)
+    // Manual do Combatente (expansão, não sobrepõe GB core): Básica = FOR×20 kg, Máxima = FOR×40 kg
+    const basicaPadrao = forcaCarga * 7;         // GB: FOR×7 kg
+    const pesadaPadrao = forcaCarga * 35;        // GB: FOR×35 kg (5× básica) — sobrecarga parcial
+    const maximaPadrao = forcaCarga * 70;        // GB: FOR×70 kg (10× básica) — imobilizado
+    const basicaCombatente = forcaCarga * 20;    // Combatente (expansão)
 
     const fatorCorrida = this.equipamento?.fatorCorrida ?? (this.equipamento?.pesadaEquipada ? 3 : 4);
 
     this.subattributes = {
       iniciativa:   { value: Math.max(agilidade, inteligencia) },
-      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agilidade / 2) + 4, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
+      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agilidade / 2) + 5, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
       corrida:      { value: deslocamento * fatorCorrida },
       carga: {
         value:            parseFloat(cargaAtual.toFixed(2)),
-        basica:           basicaPadrao,
+        basica:           basicaPadrao,       // GB: FOR×7 kg — sem penalidade
         basicaPadrao:     basicaPadrao,
-        basicaCombatente: basicaCombatente,
+        pesadaPadrao:     pesadaPadrao,       // GB: FOR×35 kg (5× básica) — metade deslocamento + inapto
+        maximaPadrao:     maximaPadrao,       // GB: FOR×70 kg (10× básica) — imobilizado
+        basicaCombatente: basicaCombatente,   // Combatente (expansão)
         max:              basicaPadrao,
-        maxima:           forcaCarga * 20,
+        maxima:           maximaPadrao,
         maximaCombatente: forcaCarga * 40,
-        maxAbsoluto:      forcaCarga * 20,
+        maxAbsoluto:      maximaPadrao,
         forcaEfetiva:     forcaCarga,
       },
     };

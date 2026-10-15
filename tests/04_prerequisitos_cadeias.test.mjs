@@ -3,9 +3,9 @@
  * Mighty Blade 3e (Foundry VTT v14 / Test Runner Nativo Node.js).
  *
  * Sub-módulos:
- * 4.1 Atributos Mínimos para Habilidades (Força Interior VON 4, Voador Exímio FOR 3, Aprendiz/Caminhos Arcanos INT 5).
+ * 4.1 Atributos Mínimos para Habilidades (Voador Exímio FOR 3, Aprendiz/Caminhos Arcanos INT 5).
  * 4.2 Trava de Nível Mínimo (Avançadas Nível 5+ e Finais/Mestre Nível 10).
- * 4.3 Cadeias Encadeadas e Habilidades Prévias (Chamas Internas 1->2, Ataque Furioso Nv5+FOR4, Imparável Astério+Fortaleza+VON5).
+ * 4.3 Cadeias Encadeadas e Habilidades Prévias (Chamas Internas 1->2, Ataque Furioso Nv5, Imparável Astério+Fortaleza+VON5 / Juban+Fortaleza+VON5).
  * 4.4 Exclusividade Mútua de Fúrias (Fúria Bestial, Fúria de Batalha e Fúria Orc).
  * 4.5 Integração Runtime com MightyBladeActor (_onHabilidadeCreated e addLevelAbility).
  */
@@ -42,35 +42,16 @@ const findCaminho = (nome) =>
 describe("Bloco 4 — Pré-requisitos de Habilidades, Níveis e Cadeias Encadeadas", () => {
   // ===========================================================================
   describe("Sub-módulo 4.1 — Atributos Mínimos para Habilidades", () => {
-    test("4.1.1 Força Interior exige Vontade 4 (Rejeita VON <= 3; Permite VON >= 4)", () => {
-      // Humano Guerreiro com bônus em Força possui Vontade 3
-      const charVon3 = createCharacter({
-        raceId: "humano",
-        classId: "guerreiro",
-        humanBonusAttribute: "forca",
-        level: 1,
-      });
-      assert.equal(charVon3.attributes.vontade, 3);
-
-      assert.throws(() => {
-        addAbility(charVon3, "Força Interior");
-      }, /Requer Vontade 4 ou superior/i);
-
-      // Humano Sacerdote com bônus em Vontade possui Vontade 5 (3 base + 1 Sacerdote + 1 Humano)
-      const charVon4 = createCharacter({
-        raceId: "humano",
-        classId: "guerreiro",
-        humanBonusAttribute: "vontade",
-        level: 1,
-      });
-      assert.equal(charVon4.attributes.vontade, 4);
-      assert.doesNotThrow(() => {
-        addAbility(charVon4, "Força Interior");
-      });
-      assert.equal(charVon4.abilities.some((a) => a.name === "Força Interior"), true);
+    test("4.1.1 (obsoleto) Força Interior removida no GB 2023 — canonical_packs não deve incluí-la", () => {
+      // Força Interior existe no GB 2017 ("Web com Capa") mas foi REMOVIDA na edição 2023.
+      // Fonte: comparação dos PDFs (CreationDate 2023-11-06 vs 2017-08-06).
+      // Hierarquia de fontes adotada: GB 2023 é o core. Portanto, Força Interior não deve
+      // constar em CANONICAL_HABILIDADES. Este teste valida que ela não está no canônico.
+      const habForcaInterior = findHabilidade("Força Interior");
+      assert.equal(habForcaInterior, undefined, "Força Interior não deve constar no canônico GB 2023");
     });
 
-    test("4.1.2 Voador Exímio exige Força 3 (Rejeita FOR <= 2; Permite FOR >= 3)", () => {
+        test("4.1.2 Voador Exímio exige Força 3 (Rejeita FOR <= 2; Permite FOR >= 3)", () => {
       // Faen Feiticeiro possui Força 2
       const charFor2 = createCharacter({
         raceId: "faen",
@@ -230,27 +211,30 @@ describe("Bloco 4 — Pré-requisitos de Habilidades, Níveis e Cadeias Encadead
       assert.equal(char.abilities.some((a) => a.name === "Chamas Internas 2"), true);
     });
 
-    test("4.3.2 Cadeia Composta (Atributo + Nível): Ataque Furioso exige Nível 5 + Força 4", () => {
-      // Nível 4 com Força 4 -> falha por Nível
-      const charNv4For4 = createCharacter({ raceId: "anao", classId: "guerreiro", level: 4 });
-      assert.equal(charNv4For4.attributes.forca, 5);
+    test("4.3.2 Ataque Furioso exige apenas Nível 5 (Vilão p.72)", () => {
+      // Guia do Vilão p.72 (PDF): Ataque Furioso — Requisito: Nível 5. Sem requisito de Força.
+      // (Antes o teste exigia Nível 5 + Força 4; removido o requisito de Força por não constar no livro.)
+
+      // Nível 4 com Força alta -> falha por Nível
+      const charNv4 = createCharacter({ raceId: "anao", classId: "guerreiro", level: 4 });
       assert.throws(() => {
-        addAbility(charNv4For4, "Ataque Furioso");
+        addAbility(charNv4, "Ataque Furioso");
       }, /Requer Nível 5 ou superior/i);
 
-      // Nível 5 com Força 3 -> falha por Força
-      const charNv5For3 = createCharacter({ raceId: "elfo", classId: "guerreiro", level: 5 });
-      assert.equal(charNv5For3.attributes.forca, 3);
-      assert.throws(() => {
-        addAbility(charNv5For3, "Ataque Furioso");
-      }, /Requer Força 4 ou superior/i);
-
-      // Nível 5 com Força >= 4 -> sucesso
-      const charNv5For5 = createCharacter({ raceId: "anao", classId: "guerreiro", level: 5 });
+      // Nível 5 com Força qualquer -> sucesso
+      const charNv5ForBaixa = createCharacter({ raceId: "elfo", classId: "guerreiro", level: 5 });
+      assert.equal(charNv5ForBaixa.attributes.forca, 3); // Força baixa não bloqueia
       assert.doesNotThrow(() => {
-        addAbility(charNv5For5, "Ataque Furioso");
+        addAbility(charNv5ForBaixa, "Ataque Furioso");
+      }, "Nível 5 com Força 3 deve ser aceito — sem requisito de Força");
+      assert.equal(charNv5ForBaixa.abilities.some((a) => a.name === "Ataque Furioso"), true);
+
+      // Nível 5 com Força alta -> também sucesso
+      const charNv5ForAlta = createCharacter({ raceId: "anao", classId: "guerreiro", level: 5 });
+      assert.doesNotThrow(() => {
+        addAbility(charNv5ForAlta, "Ataque Furioso");
       });
-      assert.equal(charNv5For5.abilities.some((a) => a.name === "Ataque Furioso"), true);
+      assert.equal(charNv5ForAlta.abilities.some((a) => a.name === "Ataque Furioso"), true);
     });
 
     test("4.3.3 Cadeia Complexa (Raça + Habilidade + Atributo): Imparável exige Astério + Fortaleza + Vontade 5", () => {
@@ -303,6 +287,32 @@ describe("Bloco 4 — Pré-requisitos de Habilidades, Níveis e Cadeias Encadead
         addAbility(asterioCompleto, "Imparável");
       });
       assert.equal(asterioCompleto.items.some((i) => i.name === "Imparável"), true);
+
+      // 5. Juban com Fortaleza e Vontade 5 -> sucesso! (GB p.67)
+      // Imparável não é exclusiva de Astérios: Jubans também podem obtê-la (GB p.67).
+      // NLM confirmou: Herói p.15 (Astérios) e GB p.67 (Jubans) — ambos requerem Fortaleza + VON 5.
+      const jubanCompleto = createMockActor({
+        details: { raca: "Juban", nivel: 4 },
+        attributes: { vontade: { value: 5 } },
+        items: [
+          { name: "Juban", type: "raca" },
+          { name: "Fortaleza", type: "habilidade" },
+        ],
+      });
+      assert.doesNotThrow(() => {
+        addAbility(jubanCompleto, "Imparável");
+      }, "Juban com Fortaleza e Vontade 5 deve poder adquirir Imparável (GB p.67)");
+      assert.equal(jubanCompleto.items.some((i) => i.name === "Imparável"), true);
+
+      // 6. Juban SEM Fortaleza -> falha
+      const jubanSemFortaleza = createMockActor({
+        details: { raca: "Juban", nivel: 4 },
+        attributes: { vontade: { value: 5 } },
+        items: [{ name: "Juban", type: "raca" }],
+      });
+      assert.throws(() => {
+        addAbility(jubanSemFortaleza, "Imparável");
+      }, /Requer a habilidade Fortaleza/i);
     });
   });
 

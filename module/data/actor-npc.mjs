@@ -55,7 +55,7 @@ export default class MightyBladeNpcData extends foundry.abstract.TypeDataModel {
 
     this.subattributes = {
       iniciativa:   { value: Math.min(a.agilidade.value, a.inteligencia.value) },
-      deslocamento: { value: Math.floor(a.agilidade.value / 2) + 4 },
+      deslocamento: { value: Math.floor(a.agilidade.value / 2) + 5 }, // GB p.19: ⌊AGI/2⌋ + 5
     };
   }
 }

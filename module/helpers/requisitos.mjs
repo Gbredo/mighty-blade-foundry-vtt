@@ -577,8 +577,8 @@ export const REQUISITOS_HABILIDADES_CANONICAS = {
   "chamas internas 1": "Fira",
   "chamas internas 2": "Fira, Chamas Internas 1",
   "sopro de fogo": "Fira, Chamas Internas 1, Vontade 5",
-  "ataque furioso": "Nível 5, Força 4",
-  "imparavel": "Astério, Astéria, Vontade 5, Fortaleza",
+  "ataque furioso": "Nível 5", // GB Guia do Vilão p.72: apenas Nível 5, sem requisito de Força
+  "imparavel": "Astério, Astéria, Juban, Vontade 5, Fortaleza", // GB p.67: Astério, Astéria e Juban
   "sopro draconico": "Dragano, Linhagem Dracônica",
   "furia de batalha": "Todas exceto Aesires",
   "furia orc": "Orc",

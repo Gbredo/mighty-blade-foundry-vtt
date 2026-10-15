@@ -14833,50 +14833,6 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!e3cc2c17f56d1855"
   },
   {
-    "name": "Força Interior",
-    "type": "habilidade",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "tipo": "acao",
-      "categoria": "caracteristica",
-      "custo": 5,
-      "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
-      "requisitos": "Vontade 4",
-      "acesso": [
-        "Geral"
-      ],
-      "tipoAcesso": "Geral",
-      "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
-      "exclusivoCom": [],
-      "somenteCriacao": false,
-      "bonusAtributo": {
-        "atributo": "",
-        "valor": 0
-      },
-      "efeitos": [],
-      "concessoes": [],
-      "description": "<p>Você é capaz de se manter em pé usando sua vontade e força interiores. Você recupera 5 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Vontade 4 ou mais.</p></div>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "forca-interior",
-        "automatica": false,
-        "acesso": [
-          "Geral"
-        ],
-        "tipoAcesso": "Geral",
-        "nivel": "Nv1",
-        "aliases": [],
-        "opcoes": []
-      }
-    },
-    "_id": "284b9d3ca0730422",
-    "_key": "!items!284b9d3ca0730422"
-  },
-  {
     "name": "Forjado à Fogo",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",

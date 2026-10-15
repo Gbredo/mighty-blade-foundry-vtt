@@ -396,18 +396,18 @@ test("Subtítulo 17: Personagens de Nível Zero (Aspirantes e Desclassificados)"
       // Anão Guerreiro Aspirante:
       // Força: 4 (raça) + 1 (classe) = 5
       // Agilidade: 2 (raça)
-      // Vontade: 3 (raça)
+      // Inteligência: 3 (raça), Vontade: 3 (raça)
       // Bloqueio base = 5 + Força (5) = 10
       // Esquiva base = 5 + Agilidade (2) = 7
-      // Determinação = Vontade (3) = 3
+      // Determinação = 8 + max(VON=3, INT=3) = 11  (GB p.36)
       // Carga = Força (5) * 10 = 50 (sem contar Coração da Montanha) ou +20 com Coração da Montanha
-      // Deslocamento = 4 + floor(2 / 2) = 5
+      // Deslocamento = floor(AGI/2) + 5 = floor(2/2) + 5 = 6  (GB p.19)
       const aspirante = await criarAspirante("Anão", "Guerreiro", "forca");
 
       assert.equal(aspirante.system.defesas.bloqueio.value, 10, "Bloqueio deve ser 10");
       assert.equal(aspirante.system.defesas.esquiva.value, 7, "Esquiva deve ser 7");
-      assert.equal(aspirante.system.defesas.determinacao.value, 3, "Determinação deve ser 3");
-      assert.equal(aspirante.system.subattributes.deslocamento.value, 5, "Deslocamento deve ser 5");
+      assert.equal(aspirante.system.defesas.determinacao.value, 11, "Determinação deve ser 11 (8 + max(VON=3, INT=3), GB p.36)");
+      assert.equal(aspirante.system.subattributes.deslocamento.value, 6, "Deslocamento deve ser 6 (floor(2/2) + 5, GB p.19)");
     });
 
     await st.test("5.2 Preservação de ferimentos residuais na evolução (+20 PV no Aspirante)", async () => {

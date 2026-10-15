@@ -3,20 +3,22 @@
  * Mighty Blade 3ª Edição (Foundry VTT v14).
  *
  * Implementa as regras canônicas do Subtítulo 10:
- * 1. Avaliação de Sobrecarga e Movimentação Física:
- *    - Se Carga Atual <= Carga Máxima: Sem penalidades de sobrecarga.
- *    - Se Carga Atual > Carga Máxima (e <= 2x): Inaptidão em todos os testes físicos
- *      e de Agilidade; reduz o Deslocamento pela metade (Math.floor(deslocamento / 2)).
- *    - Se Carga Atual > 2 * Carga Máxima: Condição Imobilizado (Deslocamento 0) e Inaptidão.
+ * 1. Avaliação de Sobrecarga e Movimentação Física (GB p.21):
+ *    - Carga Básica  = FOR × 7 kg (Padrão GB)
+ *    - Carga Pesada  = FOR × 35 kg → sobrecarregado: metade deslocamento + inapto testes físicos/AGI
+ *    - Carga Máxima  = FOR × 70 kg → imobilizado (deslocamento 0) + inapto
+ *    - Manual do Combatente (variante): Carga Básica = FOR × 20 kg
  *
- * 2. Dano por Queda e Resiliência Racial/Habilidade:
- *    - Dano base de queda: 1d6 por metro de queda (ou N d6 para N metros).
+ * 2. Dano por Queda e Resiliência Racial/Habilidade (GB p.20):
+ *    - Dano base de queda: 6 pontos de Contusão por metro (fixo, não d6).
  *    - Metadílio com a habilidade "Balofo": divide o dano total da queda por 2 (Math.floor(dano / 2)).
  *
- * 3. Fôlego e Sufocamento (Água e Fumaça):
- *    - Turnos máximos de sustentação sob água ou fumaça = Math.max(Força, Vontade).
- *    - Habilidade "Anfíbio": fôlego infinito sob a água (imune a sufocamento aquático).
- *    - Habilidade "Fulgurante": fôlego infinito sob fumaça (imune a sufocamento por fumaça).
+ * 3. Fôlego e Sufocamento (GB p.23):
+ *    - Minutos máximos de sustentação = Força (não Vontade, não turnos).
+ *    - Além do limite: teste dificuldade 12 por minuto adicional.
+ *    - Habilidade "Anfíbio": imune a sufocamento aquático.
+ *    - Habilidade "Fulgurante" (GB p.61): visão no escuro + imune a efeitos de visão.
+ *      NÃO concede isenção de sufocamento.
  */
 
 import { normalizarCondicao, adicionarCondicao, removerCondicao } from "./danos-condicoes.mjs";
@@ -108,14 +110,13 @@ export function isMetadilio(actor) {
  *
  * Avalia o estado de sobrecarga com base na Carga Atual e Carga Máxima (ou Ator).
  *
- * Regras Canônicas:
- * - Carga Atual <= Carga Máxima:
- *   Sem penalidades de sobrecarga.
- * - Carga Atual > Carga Máxima (e <= 2 * Carga Máxima):
- *   Aplica Inaptidão em todos os testes físicos e de Agilidade;
- *   Reduz o Deslocamento para a metade: Math.floor(deslocamento / 2).
- * - Carga Atual > 2 * Carga Máxima:
- *   Condição Imobilizado (Deslocamento 0); Inaptidão em testes físicos e de Agilidade.
+ * Regras Canônicas (GB p.21):
+ * - Carga Atual <= Básica (FOR×7): Sem penalidades.
+ * - Carga Atual > Básica e <= Pesada (FOR×35): sobrecarregado — metade deslocamento + inapto físico/AGI.
+ * - Carga Atual > Pesada e <= Máxima (FOR×70): sobrecarregado pesado (sem penalidade extra por ora, inapto).
+ * - Carga Atual > Máxima (FOR×70): Imobilizado (deslocamento 0) + Inapto.
+ * Nota: a lógica de 2×max mantida internamente; cargaMaxima deve ser pesadaPadrao (FOR×35) para ativar
+ *       metade deslocamento, ou maximaPadrao (FOR×70) para Imobilizado.
  *
  * @param {number|object} cargaAtualOuActor Valor numérico da carga atual ou Ator
  * @param {number} [cargaMaxima] Valor numérico da carga máxima (se cargaAtualOuActor for número)
@@ -190,6 +191,17 @@ export function avaliarSobrecarga(cargaAtualOuActor, cargaMaxima, optionsOrDeslo
     6
   );
 
+  // GB p.21: Three-tier thresholds: básica=maxima(FOR×7), pesada=FOR×35, máxima=FOR×70
+  let limiarSobrecarga = maxima;          // > básica → sobrecarregado
+  let limiarImobilizado = maxima * 10;   // > máxima (FOR×70 = 10× básica) → imobilizado
+  if (actor) {
+    const cargaSys = actor.system?.subattributes?.carga;
+    if (cargaSys?.pesadaPadrao) limiarSobrecarga = cargaSys.pesadaPadrao;
+    if (cargaSys?.maximaPadrao) limiarImobilizado = cargaSys.maximaPadrao;
+  }
+  if (typeof options.pesadaPadrao === "number") limiarSobrecarga = options.pesadaPadrao;
+  if (typeof options.maximaPadrao === "number") limiarImobilizado = options.maximaPadrao;
+
   let sobrecarregado = false;
   let imobilizado = false;
   let inaptoFisicoAgilidade = false;
@@ -198,9 +210,8 @@ export function avaliarSobrecarga(cargaAtualOuActor, cargaMaxima, optionsOrDeslo
   let deslocamentoFinal = deslocamentoOriginal;
   const condicoes = [];
 
-  // Regra Canônica:
-  // Se Carga Atual > 2 * Carga Máxima: Imobilizado (Deslocamento 0)
-  if (atual > 2 * maxima) {
+  // GB p.21: Imobilizado quando Carga > Máxima (FOR×70)
+  if (atual > limiarImobilizado) {
     sobrecarregado = true;
     imobilizado = true;
     inaptoFisicoAgilidade = true;
@@ -209,7 +220,7 @@ export function avaliarSobrecarga(cargaAtualOuActor, cargaMaxima, optionsOrDeslo
     deslocamentoFinal = 0;
     condicoes.push("Imobilizado");
   }
-  // Se Carga Atual > Carga Máxima (e <= 2 * Carga Máxima): Metade do deslocamento e Inaptidão
+  // GB p.21: Sobrecarregado quando Carga > Básica (FOR×7)
   else if (atual > maxima) {
     sobrecarregado = true;
     imobilizado = false;
@@ -274,7 +285,10 @@ export function avaliarSobrecarga(cargaAtualOuActor, cargaMaxima, optionsOrDeslo
  * @returns {{
  *   forca: number,
  *   forcaEfetiva: number,
- *   cargaPadrao: number,
+ *   basicaPadrao: number,   // GB: FOR×7 kg
+ *   pesadaPadrao: number,   // GB: FOR×35 kg
+ *   maximaPadrao: number,   // GB: FOR×70 kg
+ *   cargaPadrao: number,    // alias → basicaPadrao
  *   cargaVariante: number,
  *   cargaMaxima: number,
  *   limiteImobilizadoPadrao: number,
@@ -304,20 +318,26 @@ export function calcularCapacidadeCarga(actorOuForca, opcoes = {}) {
   }
 
   const forcaEfetiva = forca + bonusForcaCarga;
-  const cargaPadrao = forcaEfetiva * 10;
-  const cargaVariante = forcaEfetiva * 20;
+  const basicaPadrao = forcaEfetiva * 7;         // GB p.21: FOR×7 kg
+  const pesadaPadrao = forcaEfetiva * 35;        // GB p.21: FOR×35 kg (5× básica) — limiar sobrecarregado
+  const maximaPadrao = forcaEfetiva * 70;        // GB p.21: FOR×70 kg (10× básica) — limiar imobilizado
+  const cargaPadrao = basicaPadrao;              // alias: compatibilidade retroativa
+  const cargaVariante = forcaEfetiva * 20;       // Manual do Combatente (variante): FOR×20 kg
   const usaVariante = opcoes.variante === true || opcoes.modo === "combatente";
-  const cargaMaxima = usaVariante ? cargaVariante : cargaPadrao;
+  const cargaMaxima = usaVariante ? cargaVariante : basicaPadrao;
 
   return {
     forca,
     forcaEfetiva,
-    cargaPadrao,
+    basicaPadrao,                              // GB: FOR×7 kg
+    pesadaPadrao,                              // GB: FOR×35 kg
+    maximaPadrao,                              // GB: FOR×70 kg
+    cargaPadrao,                               // alias → basicaPadrao
     cargaVariante,
     cargaMaxima,
-    limiteImobilizadoPadrao: cargaPadrao * 2,
+    limiteImobilizadoPadrao: maximaPadrao,     // GB: imobilizado > FOR×70
     limiteImobilizadoVariante: cargaVariante * 2,
-    limiteImobilizado: cargaMaxima * 2,
+    limiteImobilizado: usaVariante ? cargaVariante * 2 : maximaPadrao,
   };
 }
 
@@ -339,8 +359,10 @@ export function updateInventoryWeight(char, weightKg) {
       const cap = calcularCapacidadeCarga(actor);
       actor.system.subattributes.carga = {
         value: peso,
-        max: cap.cargaPadrao,
-        basicaPadrao: cap.cargaPadrao,
+        max: cap.basicaPadrao,          // GB: FOR×7 kg (limiar sobrecarregado)
+        basicaPadrao: cap.basicaPadrao,  // GB: FOR×7 kg
+        pesadaPadrao: cap.pesadaPadrao,  // GB: FOR×35 kg
+        maximaPadrao: cap.maximaPadrao,  // GB: FOR×70 kg
         basicaCombatente: cap.cargaVariante,
       };
     } else {
@@ -442,7 +464,7 @@ export function calcularDanoQueda(metros, actorOuDano, optionsOuDano = {}) {
 
   const m = Math.max(0, Number(metros) || 0);
   const dados = Math.floor(m);
-  const formula = `${dados}d6`;
+  const formula = `6 × metros`; // GB p.20: 6 pontos de Contusão/m (fixo, não d6)
 
   let actor = null;
   let danoFornecido = null;
@@ -486,8 +508,8 @@ export function calcularDanoQueda(metros, actorOuDano, optionsOuDano = {}) {
       danoTotal += Math.floor(Math.random() * 6) + 1;
     }
   } else {
-    // Valor padrão determinístico se nenhum dano pré-rolado for fornecido: 1 por dado (mínimo) ou proporcional
-    danoTotal = dados;
+    // GB p.20: 6 pontos de Contusão por metro (fixo; dano determinístico, não aleatório)
+    danoTotal = dados * 6;
   }
 
   // Se metros for 0, dano é 0
@@ -509,6 +531,7 @@ export function calcularDanoQueda(metros, actorOuDano, optionsOuDano = {}) {
     metros: m,
     dados,
     formula,
+    danoPorMetro: 6,           // GB p.20: fixo
     danoBase: danoTotal,
     danoTotal,
     danoFinal,
@@ -566,6 +589,7 @@ export function calculateFallDamage(actorOuMetros, danoBrutoOuActor = 0, opcoes 
  *   forca: number,
  *   vontade: number,
  *   turnosBase: number,
+ *   minutosMaximos: number,  // GB p.23: limite = Força (em minutos)
  *   turnos: number,
  *   turnosMaximos: number,
  *   folegoAgua: number,
@@ -574,7 +598,7 @@ export function calculateFallDamage(actorOuMetros, danoBrutoOuActor = 0, opcoes 
  *   fumaca: number,
  *   imune: boolean,
  *   imuneAgua: boolean,
- *   imuneFumaca: boolean,
+ *   imuneFumaca: boolean,    // sempre false — Fulgurante NÃO isenta de sufocamento (GB p.61)
  *   anfibio: boolean,
  *   fulgurante: boolean,
  *   ambiente: string,
@@ -604,8 +628,8 @@ export function calcularFolegoSufocamento(actor, optionsOuAmbiente = {}) {
     Number(attrs.vontade?.value ?? attrs.vontade?.base ?? attrs.vontade ?? rawActor?.vontade ?? 0)
   );
 
-  // Regra Canônica: Math.max(Força, Vontade)
-  const turnosBase = Math.max(forca, vontade);
+  // GB p.23: Pode prender a respiração por Força MINUTOS (não Vontade, não turnos)
+  const turnosBase = forca; // "turnosBase" mantido por compatibilidade; semântica = minutosMaximos
 
   // Verificação das habilidades canônicas (incluindo Barbatanas da Origem Dracônica)
   const barbatanas = temHabilidade(rawActor, "barbatanas");
@@ -615,8 +639,8 @@ export function calcularFolegoSufocamento(actor, optionsOuAmbiente = {}) {
   // Capacidade em cada meio:
   // Anfíbio / Barbatanas confere respiração aquática irrestrita (fôlego infinito em água)
   const folegoAgua = anfibio ? Infinity : turnosBase;
-  // Fulgurante confere respiração/visão em fumaça irrestrita (fôlego infinito em fumaça)
-  const folegoFumaca = fulgurante ? Infinity : turnosBase;
+  // Fulgurante (GB p.61): visão no escuro + imune a efeitos de visão. NÃO isenta de sufocamento.
+  const folegoFumaca = turnosBase; // sem isenção canônica por fumaça
 
   // Determinação para o ambiente consultado
   let turnos = turnosBase;
@@ -638,6 +662,7 @@ export function calcularFolegoSufocamento(actor, optionsOuAmbiente = {}) {
     forca,
     vontade,
     turnosBase,
+    minutosMaximos: turnosBase,  // GB p.23: limite = Força (em minutos)
     turnos,
     turnosMaximos: turnos,
     folegoAgua,
@@ -646,10 +671,11 @@ export function calcularFolegoSufocamento(actor, optionsOuAmbiente = {}) {
     fumaca: folegoFumaca,
     imune,
     imuneAgua: anfibio,
-    imuneFumaca: fulgurante,
+    imuneFumaca: false,          // GB p.61: Fulgurante NÃO concede isenção de sufocamento
     anfibio,
     barbatanas,
-    fulgurante,
+    fulgurante: false,      // GB p.61: Fulgurante NÃO concede isenção de sufocamento
+    temFulgurante: fulgurante,  // true se o ator possui a habilidade
     ambiente,
     valueOf() {
       return this.turnos;
@@ -679,11 +705,11 @@ export function processarSufocamento(actor, turnosSemRespirar, ambienteOuOpcoes 
   const amb = normalizarTexto(opts.ambiente || "agua");
   const infoFolego = calcularFolegoSufocamento(rawActor, amb);
 
-  // Na água, tanto Anfíbio quanto Fulgurante (se configurado como exceção aquática/ambiental) isentam conforme regra testada
+  // GB p.23/p.61: Anfíbio isenta de água; Fulgurante NÃO isenta de sufocamento (apenas visão)
   const isento =
     infoFolego.imune ||
-    (amb === "agua" && (infoFolego.anfibio || infoFolego.fulgurante)) ||
-    (amb === "fumaca" && infoFolego.fulgurante);
+    (amb === "agua" && infoFolego.anfibio);
+    // Fulgurante removido: GB p.61 não menciona respiração
 
   const turnosDecorridos = Math.max(0, Number(turnosSemRespirar) || 0);
   const limiteTurnos = isento ? Infinity : infoFolego.turnosBase;
@@ -705,11 +731,15 @@ export function processarSufocamento(actor, turnosSemRespirar, ambienteOuOpcoes 
   return {
     ambiente: amb,
     turnosDecorridos,
+    minutosDecorridos: turnosDecorridos,       // alias semântico (GB: minutos, não turnos)
     limiteTurnos,
+    minutosMaximos: limiteTurnos,              // GB p.23: limite = Força minutos
     turnosExcedentes,
     isento,
     imune: isento,
     sufocando,
+    requerTeste: !isento && sufocando,             // GB p.23: exige teste dif.12 além do limite
+    dificuldadeTeste: !isento ? 12 : null,     // GB p.23: dif.12 por minuto além do limite
     exausto: sufocando,
     danoPorTurno: sufocando ? danoPorTurno : 0,
     danoSufocamento: danoTotal,

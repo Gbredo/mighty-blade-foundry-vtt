@@ -45,12 +45,14 @@ test("Caso 50: Pacto da Loucura (O Inominável)", async (t) => {
       },
     });
 
-    assert.equal(cultista.system.defesas.determinacao.value, 4, "Determinação inicial deve ser 4 (Vontade 4)");
+    // GB p.36: Determinação = 8 + max(VON, INT) → 8 + max(4, 3) = 12
+    assert.equal(cultista.system.defesas.determinacao.value, 12, "Determinação inicial deve ser 12 (8 + max(VON=4, INT=3))");
 
     const res = aplicarEfeitosPacto("Pacto da Loucura", cultista);
     assert.equal(res.sucesso, true);
     assert.equal(res.bonusDeterminacao, 2, "Bônus deve ser +2");
-    assert.equal(cultista.system.defesas.determinacao.value, 6, "Determinação com Pacto da Loucura deve ser 6 (4 + 2)");
+    // Após pacto: INT reduz de 3 para 2; det = 8 + max(VON=4, INT=2) + 2 = 14
+    assert.equal(cultista.system.defesas.determinacao.value, 14, "Determinação com Pacto da Loucura deve ser 14 (8 + max(4, 2) + 2)");
   });
 
   await t.test("50.2 - Redução fixa de Inteligência (-1) com preservação estrita de idiomas", () => {
@@ -301,15 +303,16 @@ test("Caso 53: Pacto da Tirania (Virzú)", async (t) => {
       attributes: { vontade: { base: 4, value: 4 } },
     });
     aplicarEfeitosPacto("Pacto da Tirania", cultista);
-    const det = cultista.system.defesas.determinacao.value; // 4
+    // GB p.36: Determinação = 8 + max(VON=4, INT=0) = 12
+    const det = cultista.system.defesas.determinacao.value; // 12
 
     const atacante = createMockActor({
       name: "Paladino Determinado",
       attributes: { vontade: { base: 3, value: 3 } },
     });
 
-    // Rolagem 6 (maior ou igual a 4)
-    const avaliacao = avaliarAtaqueContraTirania(atacante, cultista, 6);
+    // Rolagem 13 (maior ou igual a 12 = Determinação do cultista)
+    const avaliacao = avaliarAtaqueContraTirania(atacante, cultista, 13);
     assert.equal(avaliacao.podeAtacar, true, "Deve permitir o ataque após sucesso no teste");
     assert.equal(avaliacao.redutor, 3, "Redutor no ataque deve ser igual à Vontade do atacante (3)");
     assert.equal(avaliacao.superouAura, true, "Deve registrar superação da aura");
@@ -359,12 +362,13 @@ test("Caso 54: Habilidade Virulência (Caminho Cultista)", async (t) => {
     // Determinação = 5
     const det = cultista.system.defesas.determinacao.value;
 
-    const alvoProximo = createMockActor({ name: "Guarda Próximo" }); // 4 metros
-    const alvoDistante = createMockActor({ name: "Arqueiro Longe" }); // 8 metros
+    // GB p.36: Determinação = 8 + max(VON=5, INT=3) = 13
+    const alvoProximo = createMockActor({ name: "Guarda Próximo" }); // 4 metros (dentro do raio=13)
+    const alvoDistante = createMockActor({ name: "Arqueiro Longe" }); // 15 metros (fora do raio=13)
 
     const alvos = [
       { target: alvoProximo, distancia: 4 },
-      { target: alvoDistante, distancia: 8 },
+      { target: alvoDistante, distancia: 15 },
     ];
 
     const res = aplicarVirulencia(cultista, alvos);
@@ -372,7 +376,7 @@ test("Caso 54: Habilidade Virulência (Caminho Cultista)", async (t) => {
     assert.equal(res.raioMetros, det, `Raio deve ser ${det} metros (Determinação do cultista)`);
     assert.equal(res.alvosAfetados.length, 1, "Apenas o alvo dentro do raio deve ser afetado");
     assert.equal(res.alvosAfetados[0].alvo.name, "Guarda Próximo");
-    assert.equal(res.alvosIgnorados.length, 1, "O alvo a 8m deve ser ignorado por estar fora do raio");
+    assert.equal(res.alvosIgnorados.length, 1, "O alvo a 15m deve ser ignorado por estar fora do raio");
     assert.equal(res.alvosIgnorados[0].alvo.name, "Arqueiro Longe");
   });
 

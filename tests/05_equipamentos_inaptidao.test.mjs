@@ -387,29 +387,30 @@ describe("Bloco 5 — Equipamentos, Armas, Armaduras e Regra de Inaptidão", () 
     });
 
     test("5.4.3 Restrição de Corrida: Reduz multiplicador de corrida para 3x o Deslocamento (ou 2x se Rígida)", () => {
-      // Agilidade 4 -> Deslocamento base = floor(4/2) + 4 = 6m
+      // Agilidade 4 -> Deslocamento base = floor(4/2) + 5 = 7m (GB p.19: ⌊AGI/2⌋ + 5)
+      // Nota: fórmula corrigida de +4 (MC) para +5 (GB core) — vide teste 2.5.1.
       const corredor = createMockActor({
         attributes: { forca: { value: 8, base: 8 }, agilidade: { value: 4, base: 4 } },
       });
-      assert.equal(corredor.system.subattributes.deslocamento.value, 6);
+      assert.equal(corredor.system.subattributes.deslocamento.value, 7);
 
-      // 1. Sem armadura pesada: Corrida = 4x Deslocamento = 24m
+      // 1. Sem armadura pesada: Corrida = 4x Deslocamento = 28m
       assert.equal(corredor.system.equipamento.fatorCorrida, 4);
-      assert.equal(corredor.system.subattributes.corrida.value, 24);
+      assert.equal(corredor.system.subattributes.corrida.value, 28);
 
-      // 2. Com Armadura Pesada padrão (Armadura de Batalha): Corrida = 3x Deslocamento = 18m
+      // 2. Com Armadura Pesada padrão (Armadura de Batalha): Corrida = 3x Deslocamento = 21m
       const armaduraBatalha = getEquip("Armadura de Batalha"); // pesada: true, rigida: false
       equiparItemSeguramente(corredor, armaduraBatalha);
       assert.equal(corredor.system.equipamento.fatorCorrida, 3);
-      assert.equal(corredor.system.subattributes.corrida.value, 18);
+      assert.equal(corredor.system.subattributes.corrida.value, 21);
 
-      // 3. Com Armadura Pesada Rígida (Armadura Completa): Corrida = 2x Deslocamento = 12m
+      // 3. Com Armadura Pesada Rígida (Armadura Completa): Corrida = 2x Deslocamento = 14m
       const armaduraCompleta = getEquip("Armadura Completa"); // pesada: true, rigida: true
       equiparItemSeguramente(corredor, armaduraCompleta, { substituir: true });
       assert.equal(corredor.system.equipamento.pesadaEquipada, true);
       assert.equal(corredor.system.equipamento.rigidaEquipada, true);
       assert.equal(corredor.system.equipamento.fatorCorrida, 2);
-      assert.equal(corredor.system.subattributes.corrida.value, 12);
+      assert.equal(corredor.system.subattributes.corrida.value, 14);
     });
   });
 

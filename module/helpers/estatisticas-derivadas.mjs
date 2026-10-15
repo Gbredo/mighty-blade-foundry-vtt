@@ -160,13 +160,16 @@ export function calcularPM(actor) {
     const desc = normalizarTexto(item.system?.description || "");
 
     if (
-      nomeNorm === "mente expandida" ||
       nomeNorm === "reserva mistica" ||
       nomeNorm === "foco arcano" ||
+      nomeNorm === "dom arcano"
+    ) {
+      bonus += 10; // GB: +10 PM
+    } else if (
       nomeNorm === "heranca feerica" ||
       nomeNorm === "intelecto elfico"
     ) {
-      bonus += 10;
+      bonus += 5; // GB p.52: +5 PM cada (não +10)
     } else {
       const match = desc.match(/\+(\d+)\s*(?:pontos de mana|pm\b)/i);
       if (match) {
@@ -225,9 +228,10 @@ export function calcularCarga(actor, { manualDoCombatente = false } = {}) {
   }
 
   const forcaEfetiva = forca + bonusForcaCarga;
-  const basicaPadrao = forcaEfetiva * 10;
-  const basicaCombatente = forcaEfetiva * 20;
-  const maximaPadrao = forcaEfetiva * 20;
+  const basicaPadrao = forcaEfetiva * 7;   // GB p.21: FOR×7 kg
+  const basicaCombatente = forcaEfetiva * 20;  // MC: FOR×20 kg
+  const pesadaPadrao = forcaEfetiva * 35;    // GB p.21: FOR×35 kg (sobrecarregado)
+  const maximaPadrao = forcaEfetiva * 70;    // GB p.21: FOR×70 kg (imobilizado)
   const maximaCombatente = forcaEfetiva * 40;
 
   const basica = manualDoCombatente ? basicaCombatente : basicaPadrao;
@@ -236,9 +240,10 @@ export function calcularCarga(actor, { manualDoCombatente = false } = {}) {
   return {
     forcaEfetiva,
     basica,
-    basicaPadrao,
+    basicaPadrao,                // GB p.21: FOR×7 kg
     basicaCombatente,
-    maximaPadrao,
+    pesadaPadrao,                // GB p.21: FOR×35 kg (limiar sobrecarregado)
+    maximaPadrao,               // GB p.21: FOR×70 kg (limiar imobilizado)
     maximaCombatente,
     max,
   };
@@ -255,7 +260,7 @@ export function calcularCarga(actor, { manualDoCombatente = false } = {}) {
 export function calcularDeslocamento(actor) {
   const attrs = actor?.system?.attributes || {};
   const agi = Number(attrs.agilidade?.value ?? attrs.agilidade?.base ?? 0);
-  const base = Math.floor(agi / 2) + 4;
+  const base = Math.floor(agi / 2) + 5; // GB p.19: ⌊AGI/2⌋ + 5
 
   const items = obterItensAtor(actor);
   const efeitos = extrairEfeitos(actor);
@@ -355,8 +360,9 @@ export function calcularDeterminacao(actor) {
   }
 
   return {
-    value: von + bonus,
+    value: 8 + Math.max(von, int) + bonus, // GB p.36: 8 + maior(VON, INT) + bônus
     vontade: von,
+    inteligencia: int,
     bonus,
     estatica: 8 + Math.max(von, int) + bonus,
   };

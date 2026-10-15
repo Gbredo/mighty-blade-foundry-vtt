@@ -1,17 +1,19 @@
 # STATUS TATICO — mighty-blade-foundry-vtt
 
-- Data/Hora: 2026-10-14 — 22:50
+- Data/Hora: 2026-10-15
 - Branch Ativa: main
-- Agente na Ultima Sessao: Antigravity
+- Agente na Ultima Sessao: Claude Code (sessão 08b62ea7)
 
 ## Estado Atual
-- Repositorio base 100% commitado, pacotes LevelDB atualizados e css/mighty-blade.css compilado.
-- Sistema compativel com Foundry VTT v14 (Build 369).
-- Suporte a fichas 2x2, compendios LDB e 29 suites de testes unitarios em tests/.
+- **789/789 testes passando (0 falhas)** — suite completa verde.
+- Aguardando aprovação do usuário para commitar as correções de regras GB 2023.
 
-## Decisoes Tecnicas e Pendencias
-- Logs transientes do LevelDB (LOG, LOG.old, *.log) ignorados no .gitignore.
-- Fontes JSON canonicas centralizadas em packs/*_src/.
+## Correções Aplicadas (não commitadas)
+- actor-character.mjs: PM dupla contagem corrigida em _prepareEfeitos
+- canonical-packs-data.mjs: "Força Interior" removida (GB 2017, ausente no GB 2023)
+- requisitos.mjs: "ataque furioso" sem Força 4; "imparavel" inclui Juban
+- Testes 02, 03, 04, 05, 10, 11, 17: fórmulas deslocamento (+5 GB p.19) e determinação (8+max(VON,INT) GB p.36) corrigidas
 
 ## Proximo Passo Recomendado
-- Testar carregamento do harness com Claude Code (comando "onde paramos?").
+- Usuário aprovar e commitar (ver proposta de commit no chat).
+- Atualizar AGENTS.md com Perfil de Regras (seção sugerida).
