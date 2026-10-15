@@ -9,11 +9,15 @@ export class MightyBladeItem extends Item {
   /** @override */
   prepareBaseData() {
     super.prepareBaseData();
-    if (!this.img || this.img.includes("mystery-man") || this.img.includes("item-bag")) {
-      const resolved = resolveItemImage(this);
-      if (resolved && !resolved.includes("mystery-man") && !resolved.includes("item-bag")) {
-        this.img = resolved;
-      }
+    const resolved = resolveItemImage(this);
+    if (
+      resolved &&
+      (!this.img ||
+        this.img.includes("mystery-man") ||
+        this.img.includes("item-bag") ||
+        this.img.endsWith(".webp"))
+    ) {
+      this.img = resolved;
     }
   }
 

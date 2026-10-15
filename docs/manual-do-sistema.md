@@ -132,7 +132,34 @@ Para mestres e jogadores que criam personagens no nosso Companion Web (`MightyBl
 
 ---
 
-## 6. 🗺️ Navegação Bidirecional de Documentos
+## 6. 🏛️ Organização e UX da Ficha no Padrão D&D 5e
+
+Inspirando-se no padrão arquitetural do sistema oficial de D&D 5e no Foundry VTT (`foundryvtt/dnd5e`), o Mighty Blade 3.5 organiza a experiência de jogo em 3 zonas integradas:
+
+```
+┌───────────────────┬───────────────────────────────────────────┬─────────┐
+│  SIDEBAR TÁTICA   │              CORPO PRINCIPAL              │  ABAS   │
+│                   │                                           │         │
+│  • Retrato        │  • 4 Atributos (FOR, AGI, INT, VON)       │  ⚙️ Núcleo│
+│  • Tríade Defesas │  • Armas & Ataques Rápidos                │  🎒 Invent│
+│    (Bloqueio/Esq/ │  • Slots de Identidade:                   │  📖 Hab   │
+│     Determinação) │    Raça, Classe, Caminho, Org, Antecedente│  ⚡ Magia │
+│  • Iniciativa/Desl│    (com botões de encaixe vazio [+ Add])  │  🛡️ Efeitos│
+│  • Barras PV & PM │                                           │  📜 Bio   │
+│  • Favoritos ⭐   │  • Inventário com Carga & Categorias      │         │
+└───────────────────┴───────────────────────────────────────────┴─────────┘
+```
+
+1. **Sidebar Tática Esquerda:** Sempre visível durante a navegação entre abas. Reúne o retrato do herói, o escudo de Bloqueio, mini-badges de Esquiva e Determinação, Iniciativa, Deslocamento, Corrida, barras reativas de PV/PM e a gaveta de Ações Favoritas (⭐).
+2. **Cabeçalho com Descanso & Nível:** Atalhos de Recuperação Rápida (Descanso Curto: +50% PV/PM) e Descanso Completo (Descanso Longo: 100% PV/PM), badge circular de Nível e barra dinâmica de XP para a próxima evolução.
+3. **Slots de Identidade com Encaixe Rápido:** Cards enriquecidos de Raça, Classe (com sub-badge de Aprendiz), Caminho, Organização e Antecedente com botões táteis de encaixe (`[ + Adicionar Raça ]`, similar ao `[ ADD SPECIES ]` do D&D 5e).
+4. **Inventário Estruturado:** Barra de Carga (*Encumbrance Bar*) calculada sobre Força ($\text{FOR} \times 5$ e $\text{FOR} \times 10$), carteira de moedas (Ouro, Prata e Cobre) e agrupamento colapsável de Armas, Armaduras, Consumíveis e Equipamentos.
+5. **Fichas de Item em Abas:** Padronização de todos os itens com abas `DESCRIÇÃO` (com badges rápidos no topo), `DETALHES` e `AVANÇO` (*Advancement*).
+6. **Diálogo de Avanço (*Advancement Wizard*):** Experiência em passos para concessão de atributos e habilidades ao arrastar itens de identidade para a ficha.
+
+---
+
+## 7. 🗺️ Navegação Bidirecional de Documentos
 
 ```mermaid
 graph LR

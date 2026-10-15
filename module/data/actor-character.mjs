@@ -1,3 +1,5 @@
+import { calcularEquipamento } from "../helpers/equipamento.mjs";
+
 export default class MightyBladeCharacterData extends foundry.abstract.TypeDataModel {
 
   static defineSchema() {
@@ -72,11 +74,27 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     this._prepareEquipamento();
     this._prepareDefesas();
     this._prepareSubattributes();
+
+    const pvBonus = this._efeitos?.pv ?? 0;
+    const pmBonus = this._efeitos?.pm ?? 0;
+
     if (this.resources?.vida) {
-      this.resources.vida.value = Math.min(Math.max(Number(this.resources.vida.value) || 0, 0), Number(this.resources.vida.max) || 60);
+      const baseVida = Number(this.resources.vida.baseMax) || Number(this.resources.vida.max) || 60;
+      this.resources.vida.baseMax = baseVida;
+      this.resources.vida.max = baseVida + pvBonus;
+      this.resources.vida.value = Math.min(
+        Math.max(Number(this.resources.vida.value) || 0, 0),
+        Number(this.resources.vida.max) || 60
+      );
     }
     if (this.resources?.mana) {
-      this.resources.mana.value = Math.min(Math.max(Number(this.resources.mana.value) || 0, 0), Number(this.resources.mana.max) || 60);
+      const baseMana = Number(this.resources.mana.baseMax) || Number(this.resources.mana.max) || 60;
+      this.resources.mana.baseMax = baseMana;
+      this.resources.mana.max = baseMana + pmBonus;
+      this.resources.mana.value = Math.min(
+        Math.max(Number(this.resources.mana.value) || 0, 0),
+        Number(this.resources.mana.max) || 60
+      );
     }
   }
 
@@ -92,9 +110,14 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       defesa:   { bloqueio: 0, esquiva: 0, determinacao: 0 },
       deslocamento: 0,
       cargaForca: 0,
+      pv: 0,
+      pm: 0,
+      defesaBase: 5,
+      rd: 0,
     };
 
-    for (const item of this.parent?.items ?? []) {
+    const items = this.parent?.items ?? [];
+    for (const item of items) {
       for (const ef of this._normalizeEfeitos(item)) {
         switch (ef.tipo) {
           case "bonusAtributo":
@@ -109,8 +132,71 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
           case "cargaComoForca":
             acc.cargaForca += Number(ef.valor) || 0;
             break;
-          // outros tipos (reduzCustoMana, reducaoDano, resistencia…) são reservados.
+          case "bonusPV":
+            acc.pv += Number(ef.valor) || 0;
+            break;
+          case "bonusPM":
+            acc.pm += Number(ef.valor) || 0;
+            break;
+          case "defesaBase":
+            if (Number(ef.valor) > acc.defesaBase) acc.defesaBase = Number(ef.valor);
+            break;
+          case "reducaoDano":
+          case "bonusRD":
+            acc.rd += Number(ef.valor) || 0;
+            break;
         }
+      }
+
+      // Reconhecimento de habilidades canônicas por nome
+      const nome = String(item.name || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+      const slug = String(item.flags?.["mighty-blade"]?.slug || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+      if (nome === "durao") {
+        acc.pv += 5;
+        acc.defesa.determinacao += 2;
+      } else if (nome === "sangue orc") {
+        acc.pv += 10;
+      } else if (nome === "vitalidade de gigante" || nome === "vitalidade") {
+        acc.pv += 10;
+      } else if (
+        nome === "mente expandida" ||
+        nome === "reserva mistica" ||
+        nome === "foco arcano" ||
+        nome === "heranca feerica" ||
+        nome === "intelecto elfico"
+      ) {
+        acc.pm += 10;
+      } else if (nome === "cabeca dura") {
+        if (!item.system?.efeitos?.some((e) => e.tipo === "bonusDefesa" && e.defesa === "determinacao")) {
+          acc.defesa.determinacao += 2;
+        }
+      } else if (nome === "pacto da loucura" || nome === "espelhar loucura") {
+        acc.defesa.determinacao += 2;
+      } else if (nome === "dancarino do ar") {
+        acc.defesa.esquiva += 1;
+      } else if (nome === "nanismo" || slug === "nanismo") {
+        acc.defesaBase = Math.max(acc.defesaBase, 6);
+      } else if (nome === "forma da raposa" || slug === "forma-da-raposa" || nome.includes("forma da raposa")) {
+        acc.defesaBase = Math.max(acc.defesaBase, 7);
+      } else if (nome === "patas com cascos" || nome === "pernas vulpinas" || nome === "salteador" || nome === "passo das planicies" || nome === "passo veloz") {
+        acc.deslocamento += 1;
+      } else if (nome === "coracao da montanha") {
+        acc.cargaForca += 2;
+      }
+    }
+
+    // Bônus racial de deslocamento caso a raça seja Fauno, Tailox ou Gnoll
+    const racaNome = String(this.parent?.system?.details?.raca || this.details?.raca || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+    const racaDoc = items.find((i) => i.type === "raca");
+    const racaDocNome = racaDoc ? String(racaDoc.name || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim() : "";
+    if (racaNome === "fauno" || racaDocNome === "fauno" || racaNome === "tailox" || racaDocNome === "tailox" || racaNome === "gnoll" || racaDocNome === "gnoll") {
+      const jaTemHabDesl = items.some((i) => {
+        const n = String(i.name || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+        return n === "patas com cascos" || n === "pernas vulpinas" || n === "salteador";
+      });
+      if (!jaTemHabDesl) {
+        acc.deslocamento += 1;
       }
     }
 
@@ -129,15 +215,48 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
 
   // Calcula o valor final de cada atributo: base + bônus da raça + bônus da classe
   _prepareAttributes() {
-    const race   = this.parent?.items?.find(i => i.type === "raca");
+    const faixa = String(this.parent?.system?.details?.faixaEtaria || this.details?.faixaEtaria || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+    // Filhotes: Todos os atributos são estritamente 1 e sem benefícios raciais
+    if (faixa === "filhote") {
+      if (!this.attributes) {
+        this.attributes = {
+          forca: { base: 1, value: 1 },
+          agilidade: { base: 1, value: 1 },
+          inteligencia: { base: 1, value: 1 },
+          vontade: { base: 1, value: 1 },
+        };
+      }
+      for (const key of ["forca", "agilidade", "inteligencia", "vontade"]) {
+        if (!this.attributes[key]) this.attributes[key] = { base: 1, value: 1 };
+        this.attributes[key].base = 1;
+        this.attributes[key].value = 1;
+      }
+      return;
+    }
+
+    const semBeneficiosRaciais = this.details?.beneficiosRaciais === false || this.parent?.system?.details?.beneficiosRaciais === false || faixa === "crianca";
+    const race   = semBeneficiosRaciais ? null : this.parent?.items?.find(i => i.type === "raca");
     const classe = this.parent?.items?.find(i => i.type === "classe");
     const raceAttrs   = race?.system?.atributos   ?? {};
     const classeAttrs = classe?.system?.atributos ?? {};
     const bonus = this._efeitos?.atributo ?? { forca: 0, agilidade: 0, inteligencia: 0, vontade: 0 };
 
+    if (!this.attributes) {
+      this.attributes = {
+        forca: { base: 0, value: 0 },
+        agilidade: { base: 0, value: 0 },
+        inteligencia: { base: 0, value: 0 },
+        vontade: { base: 0, value: 0 },
+      };
+    }
+
     for (const key of ["forca", "agilidade", "inteligencia", "vontade"]) {
+      if (!this.attributes[key]) {
+        this.attributes[key] = { base: 0, value: 0 };
+      }
       this.attributes[key].value =
-        (this.attributes[key].base   ?? 0) +
+        (this.attributes[key].base   ?? this.attributes[key].value ?? 0) +
         (Number(raceAttrs[key])   || 0) +
         (Number(classeAttrs[key]) || 0) +
         (bonus[key] ?? 0);
@@ -151,80 +270,56 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
   // Armadura com FN > Força não perde bônus, mas deixa o personagem Inapto.
   // -------------------------------------------------------------------------
   _prepareEquipamento() {
-    const forca = this.attributes.forca.value;
-    let bonusArmadura = 0;
-    let bonusEscudo = 0;
-    let maosOcupadas = 0;
-    let temCanalizador = false;
-    let inaptoArmadura = false;
-    let pesadaEquipada = false;
-
-    for (const item of this.parent?.items ?? []) {
-      const s = item.system ?? {};
-      if (!s.equipado) continue;
-
-      if (item.type === "armadura") {
-        const fn = Number(s.fn) || 0;
-        const defesa = Number(s.defesa) || 0;
-        if ((s.subtipo ?? "armadura") === "escudo") {
-          maosOcupadas += 1;
-          if (fn <= forca) bonusEscudo = Math.max(bonusEscudo, defesa);
-        } else {
-          bonusArmadura = Math.max(bonusArmadura, defesa);
-          if (fn > forca) inaptoArmadura = true;
-          if (s.pesada || s.rigida) pesadaEquipada = true;
-        }
-      } else if (item.type === "arma") {
-        const props = Array.isArray(s.propriedades) ? s.propriedades : [];
-        if (props.includes("DuasMaos")) maosOcupadas += 2;
-        else maosOcupadas += 1;
-        
-        if (props.includes("Canalizador") || s.canalizador) temCanalizador = true;
-      } else if (item.type === "equipamento") {
-        const props = Array.isArray(s.propriedades) ? s.propriedades : [];
-        if (props.includes("Canalizador") || s.canalizador) temCanalizador = true;
-      }
-    }
-
-    this.equipamento = {
-      bonusArmadura,
-      bonusEscudo,
-      maosOcupadas,
-      maosLivres: Math.max(0, 2 - maosOcupadas),
-      temCanalizador,
-      inaptoArmadura,
-      pesadaEquipada,
-    };
+    this.equipamento = calcularEquipamento(this.parent);
   }
 
-  // Bloqueio = 5 + Força + Armadura + Escudo | Esquiva = 5 + Agilidade + Armadura
-  // Determinação = 8 + MAX(Inteligência, Vontade)
+  // Bloqueio = Defesa Base + Força + Armadura + Escudo + Bônus
+  // Esquiva = Defesa Base + Agilidade + Armadura + Bônus
+  // Determinação = Vontade + Bônus de Habilidades (ex: Durão +2, Cabeça Dura +2, Pacto da Loucura +2)
   _prepareDefesas() {
-    const eq = this.equipamento ?? { bonusArmadura: 0, bonusEscudo: 0 };
+    const eq = this.equipamento ?? { bonusArmadura: 0, bonusEscudo: 0, rd: 0 };
     const ef = this._efeitos?.defesa ?? { bloqueio: 0, esquiva: 0, determinacao: 0 };
+    const base = this._efeitos?.defesaBase ?? 5;
     const forca = this.attributes.forca.value;
     const agilidade = this.attributes.agilidade.value;
     const inteligencia = this.attributes.inteligencia.value;
     const vontade = this.attributes.vontade.value;
 
-    const baseDeterminacao = Math.max(inteligencia, vontade);
-    const baseDeterminacaoNome = inteligencia > vontade ? "Inteligência" : "Vontade";
+    const bonusDet = ef.determinacao;
+    const detValue = vontade + bonusDet; // Caso 10: Vontade + Bônus de Habilidades
 
     const eqTextBloq = (eq.bonusArmadura + eq.bonusEscudo) > 0 ? ` + <span title="Armadura/Escudo" style="text-decoration: underline dotted; cursor: help;">${eq.bonusArmadura + eq.bonusEscudo}</span>` : "";
     const efTextBloq = ef.bloqueio > 0 ? ` + <span title="Efeitos" style="text-decoration: underline dotted; cursor: help;">${ef.bloqueio}</span>` : "";
-    const formulaBloq = `5 + <span title="Força" style="text-decoration: underline dotted; cursor: help;">${forca}</span>${eqTextBloq}${efTextBloq}`;
+    const formulaBloq = `${base} + <span title="Força" style="text-decoration: underline dotted; cursor: help;">${forca}</span>${eqTextBloq}${efTextBloq}`;
 
     const eqTextEsq = eq.bonusArmadura > 0 ? ` + <span title="Armadura" style="text-decoration: underline dotted; cursor: help;">${eq.bonusArmadura}</span>` : "";
     const efTextEsq = ef.esquiva > 0 ? ` + <span title="Efeitos" style="text-decoration: underline dotted; cursor: help;">${ef.esquiva}</span>` : "";
-    const formulaEsq = `5 + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${agilidade}</span>${eqTextEsq}${efTextEsq}`;
+    const formulaEsq = `${base} + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${agilidade}</span>${eqTextEsq}${efTextEsq}`;
 
-    const efTextDet = ef.determinacao > 0 ? ` + <span title="Efeitos" style="text-decoration: underline dotted; cursor: help;">${ef.determinacao}</span>` : "";
-    const formulaDet = `8 + <span title="${baseDeterminacaoNome}" style="text-decoration: underline dotted; cursor: help;">${baseDeterminacao}</span>${efTextDet}`;
+    // Penalidades de condições ativas (ex: Cego sofre penalidade de -2 na Defesa)
+    const condTexto = String(this.parent?.system?.details?.condicao || this.details?.condicao || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    const aflicoes = this.parent?.system?.details?.aflicoes || this.details?.aflicoes || [];
+    const isCego = condTexto.includes("cego") || aflicoes.some((a) => String(a.id || a.nome || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().includes("cego"));
+    const penalidadeCondicao = isCego ? -2 : 0;
+
+    const efTextDet = bonusDet > 0 ? ` + <span title="Efeitos" style="text-decoration: underline dotted; cursor: help;">${bonusDet}</span>` : "";
+    const formulaDet = `<span title="Vontade" style="text-decoration: underline dotted; cursor: help;">${vontade}</span>${efTextDet}`;
+
+    const bonusCanalizacao = this.canalizacaoApostata?.tipo === "rd"
+      ? (Number(this.canalizacaoApostata.valor) || 0)
+      : (this.parent?.system?.canalizacaoApostata?.tipo === "rd"
+        ? (Number(this.parent.system.canalizacaoApostata.valor) || 0)
+        : 0);
+
+    const bonusRD = (this._efeitos?.rd ?? 0) + bonusCanalizacao;
 
     this.defesas = {
-      bloqueio:     { value: 5 + forca + eq.bonusArmadura + eq.bonusEscudo + ef.bloqueio, baseValor: forca, baseName: "Força", formulaVisual: formulaBloq },
-      esquiva:      { value: 5 + agilidade + eq.bonusArmadura + ef.esquiva, baseValor: agilidade, baseName: "Agilidade", formulaVisual: formulaEsq },
-      determinacao: { value: 8 + baseDeterminacao + ef.determinacao, baseValor: baseDeterminacao, baseName: baseDeterminacaoNome, formulaVisual: formulaDet },
+      defesaBase:   base,
+      bloqueio:     { value: base + forca + eq.bonusArmadura + eq.bonusEscudo + ef.bloqueio + penalidadeCondicao, baseValor: forca, baseName: "Força", defesaBase: base, bonusArmadura: eq.bonusArmadura, bonusEscudo: eq.bonusEscudo, bonusBloqueio: ef.bloqueio, penalidadeCondicao, formulaVisual: formulaBloq },
+      esquiva:      { value: base + agilidade + eq.bonusArmadura + ef.esquiva + penalidadeCondicao, baseValor: agilidade, baseName: "Agilidade", defesaBase: base, bonusArmadura: eq.bonusArmadura, bonusEsquiva: ef.esquiva, penalidadeCondicao, formulaVisual: formulaEsq },
+      determinacao: { value: detValue, baseValor: vontade, baseName: "Vontade", vontade, bonus: bonusDet, estatica: 8 + Math.max(inteligencia, vontade) + bonusDet, formulaVisual: formulaDet },
+      rd:           { value: (eq.rd ?? 0) + bonusRD },
+      penalidadeCondicoes: penalidadeCondicao,
     };
   }
 
@@ -234,16 +329,10 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const agilidade    = this.attributes.agilidade.value;
     const inteligencia = this.attributes.inteligencia.value;
 
-    // Deslocamento = floor(Agilidade / 2) + 4, mais efeitos (bonusDeslocamento).
-    // Fallback legado por nome: Fauno ("Patas com Cascos") / Tailox ("Pernas Vulpinas").
-    let deslocamento = Math.floor(agilidade / 2) + 4 + (this._efeitos?.deslocamento ?? 0);
-    const items = this.parent?.items;
-    let bonusItemsDesl = 0;
-    if (items?.find(i => i.name === "Patas com Cascos")) { deslocamento += 1; bonusItemsDesl += 1; }
-    if (items?.find(i => i.name === "Pernas Vulpinas")) { deslocamento += 1; bonusItemsDesl += 1; }
+    const bonusDesl = this._efeitos?.deslocamento ?? 0;
+    const deslocamento = Math.floor(agilidade / 2) + 4 + bonusDesl;
 
-    const totalBonusDesl = (this._efeitos?.deslocamento ?? 0) + bonusItemsDesl;
-    const efTextDesl = totalBonusDesl > 0 ? ` + <span title="Bônus/Efeitos" style="text-decoration: underline dotted; cursor: help;">${totalBonusDesl}</span>` : "";
+    const efTextDesl = bonusDesl > 0 ? ` + <span title="Bônus/Efeitos" style="text-decoration: underline dotted; cursor: help;">${bonusDesl}</span>` : "";
     const formulaDeslocamento = `4 + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agilidade / 2)}</span>${efTextDesl}`;
 
     // Carga atual = soma do peso de todos os itens no inventário
@@ -252,19 +341,26 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       cargaAtual += (Number(item.system?.peso) || 0) * (Number(item.system?.quantidade) || 1);
     }
 
-    // Carga: Força × 5 (básica) e Força × 10 (máxima) — Errata/Manual do Combatente.
-    // Efeito cargaComoForca soma na Força usada; fallback legado: "Coração da Montanha" (+2).
     let forcaCarga = forca + (this._efeitos?.cargaForca ?? 0);
-    if (this.parent?.items?.find(i => i.name === "Coração da Montanha")) forcaCarga += 2;
+    const basicaPadrao = forcaCarga * 10;
+    const basicaCombatente = forcaCarga * 20;
+
+    const fatorCorrida = this.equipamento?.fatorCorrida ?? (this.equipamento?.pesadaEquipada ? 3 : 4);
 
     this.subattributes = {
       iniciativa:   { value: Math.max(agilidade, inteligencia) },
-      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, formulaVisual: formulaDeslocamento },
-      corrida:      { value: deslocamento * (this.equipamento?.pesadaEquipada ? 2 : 4) },
+      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agilidade / 2) + 4, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
+      corrida:      { value: deslocamento * fatorCorrida },
       carga: {
-        value:       parseFloat(cargaAtual.toFixed(2)),
-        max:         forcaCarga * 5,
-        maxAbsoluto: forcaCarga * 10,
+        value:            parseFloat(cargaAtual.toFixed(2)),
+        basica:           basicaPadrao,
+        basicaPadrao:     basicaPadrao,
+        basicaCombatente: basicaCombatente,
+        max:              basicaPadrao,
+        maxima:           forcaCarga * 20,
+        maximaCombatente: forcaCarga * 40,
+        maxAbsoluto:      forcaCarga * 20,
+        forcaEfetiva:     forcaCarga,
       },
     };
   }

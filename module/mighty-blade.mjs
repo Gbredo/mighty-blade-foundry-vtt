@@ -204,7 +204,7 @@ Hooks.on("renderItemDirectory", (app, html) => {
 Hooks.once("ready", async () => {
   if (!game.user.isGM) return;
 
-  const LAST_PACKS_VERSION = "2.3.0-clean-lore";
+  const LAST_PACKS_VERSION = "2.5.0-obsidian-ssot-acesso";
   const racasPack = game.packs.get("mighty-blade.racas");
   if (racasPack) {
     const index = await racasPack.getIndex();
@@ -220,8 +220,8 @@ Hooks.once("ready", async () => {
     }
 
     if (needsUpdate) {
-      console.log("MIGHTY BLADE: Atualizando compêndios para versão com ilustrações da Forja e Diários de Lore...");
-      ui.notifications.info("Sincronizando 1.150+ itens canônicos e 68 diários de Lore com ilustrações da Forja...");
+      console.log("MIGHTY BLADE: Atualizando compêndios para versão 2.5.0 com SSOT Obsidian (habilidades.base) e Controle Estrito de Acesso...");
+      ui.notifications.info("Sincronizando 1.160+ itens canônicos do SSOT Obsidian (habilidades.base), Acesso por Classe/Raça/Caminho e 68 diários...");
       await buildCompendios();
       localStorage.setItem("mb_packs_version", LAST_PACKS_VERSION);
     }

@@ -303,6 +303,188 @@ Este documento centraliza as funcionalidades planejadas, melhorias de experiênc
   * **Fluxo em Abas (Configuração ➔ Resultado):** Ao rolar, o modal transiciona para a visualização limpa de resultado (dados 48px, banner de sucesso/crítico/falha, dano total e botão de 1-toque `[ 🎲 Rolar Novamente ]`).
   * **Acentuação Canônica:** `Inteligência` no modal de testes, `Anão` e `Xamã` no Dashboard, tags da ficha e exportação em PDF, mais `Oráculo`, `Capitão`, `Espadachim` e `Rúnico`.
 
+### 22. 🎲 Reorganização do Sistema no Padrão D&D 5e (Foundry VTT) — ✅ [CONCLUÍDO]
+* **Objetivo:** Modernizar a arquitetura e experiência de usuário da ficha de personagem e dos itens do Mighty Blade 3.5, alinhando-se ao design e padrão do sistema oficial D&D 5e no Foundry VTT (`foundryvtt/dnd5e`).
+* **Implementação Realizada:**
+  * **Layout em 3 Zonas da Ficha de Personagem (`actor-character-sheet.hbs`):**
+    * **Sidebar Esquerda:** Retrato com moldura escura, Tríade de Defesas (Bloqueio em destaque, Esquiva e Determinação com fórmulas e tooltips), Métricas de Combate (Iniciativa rollable, Deslocamento e Corrida), Barras de Recursos Vitais (Vida carmesim e Mana azul com preenchimento reativo), e Gaveta de Favoritos com atalho de rolagem imediato.
+    * **Cabeçalho & Nível:** Nome do herói, atalhos de Descanso Curto (Recuperação Rápida: +50% PV/PM) e Descanso Longo (Descanso Completo: 100% PV/PM), Badge circular de Nível e Barra de XP dinâmica.
+    * **Aba Principal (Atributos & Identidade):** Os 4 atributos em badges geométricos com rolagem direta $2\text{d6} + \text{ATR}$, Armas equipadas para ataque rápido, Traços/Idiomas/Condições, e **Slots de Identidade** (Raça, Classe com Aprendiz, Caminho, Organização, Antecedente) com botões vazios de encaixe (`[ + Adicionar Raça ]`, similar ao `[ ADD SPECIES ]` do D&D 5e).
+    * **Barra de Navegação Vertical:** Abas à direita com ícones táteis para Atributos, Inventário, Habilidades, Magias, Efeitos e Biografia.
+  * **Aba de Inventário Estruturada (`actor-items.hbs`):** Barra de Carga (*Encumbrance Bar*) com pesos calculados sobre Força (básica e máxima), carteira de moedas (Ouro, Prata e Cobre), busca rápida e tabelas categorizadas colapsáveis para Armas, Armaduras & Escudos, Consumíveis e Equipamentos Gerais.
+  * **Padronização das Fichas de Item em Abas:** Todas as fichas (`item-raca-sheet.hbs`, `item-classe-sheet.hbs`, `item-caminho-sheet.hbs`, `item-arma-sheet.hbs`, `item-armadura-sheet.hbs`, etc.) reestruturadas com abas padronizadas: `DESCRIÇÃO` (com resumo de metadados em badges no topo), `DETALHES` e `AVANÇO` (*Advancement*).
+  * **Fluxo de Avanço & Concessões (*Advancement Wizard*):** Diálogos interativos de escolha de atributos e habilidades atualizados no padrão visual `Advancement — [Item] • Passo 1 de 1` com confirmação verde e cards táteis.
+  * **Estilização SCSS & CSS:** Compilação do SASS com 0 erros, aplicando paleta Obsidian/D&D 5e e tipografia canônica.
+  * **Correção de Hierarquia & Especificidade do Layout D&D 5e:** Resolvido bug onde seletores sem espaçamento (`.mighty-blade.dnd5e-theme`) não casavam com a estrutura de janela do Foundry (`window-app` > `window-content` > `form.dnd5e-theme`). Adicionado suporte a todas as permutações (`.mighty-blade .dnd5e-theme`, `form.dnd5e-theme`, etc.), classe `dnd5e-theme-sheet` no `ActorSheet.defaultOptions`, trava estrita de dimensões no avatar (`190px`) e nos ícones de slots de identidade (`28px`), e garantia de orientação vertical nas abas (`flex-direction: column !important`).
+  * **Regras Canônicas de Aprendiz de Classe & UI de Evolução (`LevelUpDialog`):**
+    * **Regra de Negócio (Exclusividade e Habilidade Automática):** Travado avanço para permitir no máximo 1 classe de aprendiz por personagem (disponível a partir do nível 2). Ao se tornar aprendiz de uma classe secundária, o herói adquire sua habilidade automática oficial (ex.: Bardo -> Poesia dos Bardos, Guerreiro -> Mestre de Armas 1, Feiticeiro -> Conhecimento Arcano, etc.), sem somar atributos extras. Bloqueado acúmulo de múltiplos aprendizes em níveis futuros.
+    * **UI Dark Obsidian para Evolução:** Modal de Level Up agora possui tema escuro completo (`#090b10`), gradientes radiais, cards com bordas coloridas temáticas, tipografia de alto contraste e banner informativo caso o herói já tenha escolhido seu aprendiz, eliminando o fundo claro ilegível do Foundry.
+
+---
+
+### 23. 🛡️ Motor Canônico de Pré-Requisitos e Bloqueio Estrito no Compêndio (Caminhos Heroicos) — ✅ [CONCLUÍDO]
+* **Objetivo:** Garantir que personagens só possam adotar Caminhos Heroicos (e habilidades avançadas) se cumprirem rigorosamente os pré-requisitos mecânicos estabelecidos pelas regras canônicas do Mighty Blade 3e (ex.: *Alquimista* requer "Inteligência 5, Herbalismo").
+* **Implementação Realizada:**
+  * **Motor de Regras (`module/helpers/requisitos.mjs`):**
+    * Funções `parseRequisitosTexto` e `avaliarRequisitos(requisitosTexto, actor)` para resolução de:
+      * **Atributos:** Força, Agilidade, Inteligência e Vontade com comparação contra o valor real do herói (`sistema.attributes[attr].value`).
+      * **Nível:** Requisitos de avanço heroico (ex.: "Nível 3", "Nível 5").
+      * **Habilidades / Magias / Antecedentes:** Verificação flexível por nome e slug, incluindo requisitos genéricos (ex.: *"Uma habilidade de Fúria qualquer"* para Amoque).
+      * **Raças:** Verificação contra a raça atual do personagem quando aplicável.
+      * **Requisitos Narrativos:** Identificação de condições interpretativas/históricas (ex.: *"Ter sido aceito como Irmão da Ordem..."*, *"Ficar Por um Fio devido a Sangramento"*) sinalizadas como informativas para o Mestre sem travar indevidamente a ficha.
+  * **Interface do Compêndio Browser (`MightyBladeCompendiumBrowser` & `compendium-browser.hbs`):**
+    * Lista dinâmica com badge de cadeado `🔒 Requisitos pendentes`, radio button desativado (`disabled`) e estilização opaca para opções não qualificadas.
+    * Painel interativo de detalhes com checklist visual verde/vermelho indicando o status exato de cada pré-requisito (ex.: `❌ Inteligência 5: Você possui 4 (Requer 5)`).
+    * Bloqueio imediato ao clique em itens não qualificados, mantendo o botão *Selecionar* desabilitado e exibindo alerta com as pendências no rodapé e notificações do Foundry.
+    * Salvaguarda final contra bypass no botão *Selecionar*.
+  * **Validação em Nível de Documento (`MightyBladeActor`):**
+    * Ganchos `_onCaminhoCreated` e `_onCaminhoDeleted` no ciclo de vida de itens embutidos: mesmo que o usuário tente arrastar o item diretamente por *Drag-and-Drop* para a ficha, a validação detecta a violação, emite `ui.notifications.error` com a lista de pendências e deleta o item imediatamente, garantindo a integridade dos dados e a regra de apenas 1 Caminho ativo.
+
+---
+
+### 25. 🧪 Suíte Completa de Testes Canônicos do Mighty Blade 3e (200 Testes Unitários) — ✅ [CONCLUÍDO]
+* **Objetivo:** Implementação, auditoria e automação dos 39 casos de teste / requisitos de validação das regras oficiais do Mighty Blade 3ª Edição divididos em 7 subagentes especializados.
+* **Implementação Realizada:**
+  * **Subtítulo 1 — Criação de Personagem: Atributos & Distribuição Básica (`tests/01_criacao_atributos.test.mjs`):**
+    * Módulos `tests/test-helper.mjs` (`createCharacter`, `levelUp`) e `module/helpers/progressao.mjs`:
+      * **Sub-módulo 1.1:** Validação das 21 Raças canônicas (atributos base, habilidades automáticas e trava de habilidades exclusivas de criação `somenteCriacao: true`).
+      * **Sub-módulo 1.2:** Validação das 14 Classes (+1 em dois atributos distintos, invariante de bônus único, injeção de habilidades automáticas).
+      * **Sub-módulo 1.3:** Regra Especial de Adaptabilidade Humana (concessão `escolhaAtributo`, alocação em cada um dos 4 atributos e impedimento de criação sem escolha).
+      * **Sub-módulo 1.4:** Fórmula Geral de Soma de Atributos ($\text{Atributo Final} = \text{Base} + \text{Classe} + \text{Adaptabilidade} + \text{Habilidades}$) para Humano Guerreiro, Orc Guerreiro e modificadores adicionais.
+      * **Sub-módulo 1.5:** Incremento de Atributos nos Níveis 4, 7 e 10 (+1 em dois atributos diferentes, rejeição de +2 no mesmo atributo, bloqueio em níveis não-marco e acúmulo sequencial Níveis 1 -> 4 -> 7 -> 10).
+  * **Subtítulo 2 — Cálculos de Estatísticas Derivadas (`tests/02_estatisticas_derivadas.test.mjs`):**
+    * Módulos `module/helpers/estatisticas-derivadas.mjs` e `module/data/actor-character.mjs`:
+      * **Sub-módulo 2.1 — Vitalidade e Mana (PV e PM):** Base canônica de 60 PV e 60 PM no Nível 1; bônus raciais e de habilidades cumulativos (*Sangue Orc* +10 PV, *Durão* +5 PV, *Mente Expandida* +10 PM, *Herança Feérica* +10 PM, *Intelecto Élfico* +10 PM); efeitos declarativos e recálculo reativo na remoção.
+      * **Sub-módulo 2.2 — Determinação:** Fórmula estrita `Determinação = Vontade + Modificadores` (*Durão* +2, *Cabeça Dura* +2, *Pacto da Loucura* +2, *Espelhar Loucura* +2, `bonusDefesa: determinacao`).
+      * **Sub-módulo 2.3 — Defesa Base & Prevalência:** Defesa Base padrão (5), Nanismo (6), Forma da Raposa Tailox (7); aplicação irrestrita do princípio de prevalência do maior valor (`Math.max(5, ...)`), garantindo que bases nunca se somam.
+      * **Sub-módulo 2.4 — Esquiva e Bloqueio Reativos:** Esquiva (`Defesa Base + Agilidade + Armadura + Bônus` como *Dançarino do Ar*); Bloqueio (`Defesa Base + Força + Armadura + Escudo com FN atendida`); perda total de bônus de escudo quando $\text{FN} > \text{Força}$.
+      * **Sub-módulo 2.5 — Deslocamento e Carga Física:** Fórmula de Deslocamento $\lfloor \text{Agilidade} / 2 \rfloor + 4$ com bônus de +1 para Fauno (*Patas com Cascos*), Tailox (*Pernas Vulpinas*) e Gnoll (*Salteador*); Carga básica padrão ($\text{Força} \times 10\text{ kg}$) e Manual do Combatente ($\text{Força} \times 20\text{ kg}$ e máxima $\text{Força} \times 40\text{ kg}$); bônus de *Coração da Montanha* (+2 Força para carga).
+  * **Subtítulo 3 — Restrições e Incompatibilidades Raciais / Pactos (`tests/03_restricoes_incompatibilidades.test.mjs`):**
+    * Módulos `module/helpers/restricoes.mjs`, `module/documents/actor.mjs` e `module/apps/compendium-browser.mjs`:
+      * **Sub-módulo 3.1 — Restrições da Raça Naga:** Bloqueio absoluto de Sacerdote e Dogma para qualquer Naga (macho ou fêmea); Naga Fêmea elegível para Feiticeiro, Necromante, Rúnico e Conhecimento Místico fora de Sacerdote/Dogma; Naga Macho elegível para Guerreiro, Espadachim, Paladino e Rúnico (magia militar rúnica), sem acesso a Feiticeiro, Necromante ou Conhecimento Místico.
+      * **Sub-módulo 3.2 — Incompatibilidade Absoluta Pacto × Misticismo:** Cultista/Pacto impede Conhecimento Místico, Dogma e Aprendiz de Sacerdote; Sacerdote, Druida e Dracomante que adquirem Pacto têm Dogma e Conhecimento Místico revogados automaticamente.
+      * **Sub-módulo 3.3 — Trava e Restrições Físicas de Nanismo:** Proibido para Metadílios; exclusivo do Nível 1 (bloqueado nos Níveis 2 a 10); armas corporais de duas mãos inaptas; armas corporais com $\text{FN} \ge 5$ exigem duas mãos.
+      * **Sub-módulo 3.4 — Proibições Raciais Específicas:** Astério/Astéria sem Intuição; Mahok sem Sentidos Apurados; Fúria Bestial exclusiva para Aesir com Espírito Animal Lobo ou Urso.
+      * **Sub-módulo 3.5 — Trava de Habilidades Exclusivas de Criação nos Níveis 2+:** Bloqueio de Isnuu, Fulgurante, Escamas Pesadas, Braços Extras, Olhos de Águia, Fortaleza, Duro como Pedra e flag `somenteCriacao: true` nos Níveis 2 a 10.
+      * **Sub-módulo 3.6 — Integração Runtime (Actor & Compendium Browser):** Hooks `_onRaceCreated`, `_onClassCreated`, `_onHabilidadeCreated`, `_onMagiaCreated`, `applyLevelUp`, `addLevelAbility` e `setAprendiz` integrados em `MightyBladeActor`; filtragem dinâmica `filtrarItensCompendioParaAtor` ativa no `MightyBladeCompendiumBrowser`; arquivo legado `03_restricoes_raciais.test.mjs` removido.
+  * **Subtítulo 4 — Pré-requisitos de Habilidades, Níveis e Cadeias Encadeadas (`tests/04_prerequisitos_cadeias.test.mjs`):**
+    * Módulos `module/helpers/requisitos.mjs`, `module/helpers/restricoes.mjs` e `module/documents/actor.mjs`:
+      * **Sub-módulo 4.1 — Atributos Mínimos para Habilidades:** *Força Interior* (Vontade 4+), *Voador Exímio* (Força 3+), *Aprendiz Arcano* e Caminhos Arcanos (*Argênteo*, *Artífice*, *Ilusionista*, *Alquimista*: Inteligência 5+).
+      * **Sub-módulo 4.2 — Trava de Nível Mínimo:** Habilidades Avançadas Nível 5+ (*Nervos de Aço*, *Vontade de Ferro*, *Mestre de Armas 2*) e Habilidades Finais/Mestre Nível 10 (*Mestre Especialista*, *Fúria Brutal*, *Mestre de Armas 3*).
+      * **Sub-módulo 4.3 — Cadeias Encadeadas e Habilidades Prévias:** *Chamas Internas 2* (exige *Chamas Internas 1*), *Ataque Furioso* (exige Nível 5 + Força 4), *Imparável* (exige Raça *Astério* + *Fortaleza* + *Vontade 5*).
+      * **Sub-módulo 4.4 — Exclusividade de Fúrias:** *Fúria Bestial*, *Fúria de Batalha* e *Fúria Orc* mutuamente exclusivas em aquisição e ativação simultânea (`ativarFuria`, `desativarFuria` com suporte a bloqueio ou substituição automática `{ substituir: true }`).
+      * **Sub-módulo 4.5 — Integração Runtime:** Hook `_onHabilidadeCreated` e `addLevelAbility` em `MightyBladeActor` validam pré-requisitos encadeados e removem/bloqueiam itens pendentes; arquivo legado `04_requisitos_habilidades.test.mjs` removido.
+  * **Subtítulo 5 — Equipamentos, Armas, Armaduras e Regra de Inaptidão (`tests/05_equipamentos_inaptidao.test.mjs`):**
+    * Módulos `module/helpers/equipamento.mjs` e `module/sheets/actor-sheet.mjs`:
+      * **Sub-módulo 5.1 — Força Necessária (FN) & Mecânica de Inaptidão:** Ativação automática da flag `inapto` (`item.system.inapto`) em armas/armaduras/escudos quando $\text{Força} < \text{FN}$; redução do pool de dados de 2d6 para 1d6 (ou variante `3d6kl2` descartando o maior dado) e conversão de dados extras em $+2$ numérico fixo.
+      * **Sub-módulo 5.2 — Limite de Armaduras Corporais:** Trava estrita de 1 Armadura Corporal por vez (escudos consomem slot de mão); `equiparItemSeguramente` bloqueia tentativa de 2ª armadura por padrão ou desequipa a anterior automaticamente com `{ substituir: true }`.
+      * **Sub-módulo 5.3 — Slots de Mão & Exceção Racial do Mahok:** Limite padrão de 2 slots de mão (armas 1 mão e escudos = 1 slot; armas 2 mãos = 2 slots) com bloqueio em runtime ao exceder; exceção racial de 4 slots para *Mahok* com *Braços Extras*, permitindo empunhar duas armas de duas mãos simultaneamente (ex: duas *Claymores*).
+      * **Sub-módulo 5.4 — Penalidades de Armaduras Pesadas:** Aplicação de Redução de Dano (RD 1) contra danos físicos corporais/projéteis (`aplicarReducaoDanoArmaduraPesada`), anulação dos benefícios de *Atletismo* (+2 $\to$ 0) e redução do multiplicador de corrida máxima para $3\times$ o Deslocamento (ou $2\times$ se a armadura for Rígida).
+      * **Sub-módulo 5.5 — Anulação de Bloqueio em Escudos com FN Insuficiente:** Zeramento integral ($0\%$) do bônus de Bloqueio/Defesa do escudo no Bloqueio Reativo quando $\text{Força} < \text{FN do Escudo}$.
+  * **Subtítulo 6 — Sistema de Danos, Imunidades e Condições (`tests/06_danos_imunidades_condicoes.test.mjs`):**
+    * Módulos `module/helpers/danos-condicoes.mjs` e `module/helpers/dice.mjs`:
+      * **Sub-módulo 6.1 — Imunidade Elemental:** Anulação completa (dano = 0) para todos os 6 elementos canônicos (*Corte*, *Perfuração*, *Contusão*, *Fogo*, *Frio*, *Eletricidade*) e integração via `system.efeitos`.
+      * **Sub-módulo 6.2 — Resistência Elemental:** Divisão de dano pela metade com arredondamento obrigatório para baixo ($\lfloor \text{Dano} / 2 \rfloor$, ex: $7 \to 3$).
+      * **Sub-módulo 6.3 — Vulnerabilidade Elemental:** Multiplicação de dano por 2 ($\text{Dano} \times 2$, ex: $5 \to 10$).
+      * **Sub-módulo 6.4 — Anulação Mútua (Resistência + Vulnerabilidade):** Cancelamento neutro ($1\times$) quando o alvo possui Resistência e Vulnerabilidade ao mesmo elemento simultaneamente; prevalência de Imunidade sobre ambos.
+      * **Sub-módulo 6.5 — Exaustão de Mana (0 PM) e Dreno de PV:** Ativação automática da condição *Exausto* ao atingir 0 PM (impondo Inaptidão em todos os testes via `isActorInapto` e `rollTest`/`castSpell`); gastos ou perdas de PM com saldo 0 ou insuficiente descontam o excedente diretamente dos Pontos de Vida (PV); arquivo legado `06_danos_condicoes.test.mjs` removido.
+  * **Subtítulo 7 — Subida de Nível e Pontos de Evolução (`tests/07_subida_nivel.test.mjs`):**
+    * Módulo `module/documents/actor.mjs`: Concessão de 1 nova habilidade por nível respeitando raça/classe e pré-requisitos; Escolha atômica obrigatória de 1 benefício de evolução (+10 PV, +10 PM, +5 PV/+5 PM, ou Aprendiz de Classe com limite estrito de 1 único aprendiz a partir do Nível 2 e sem atributos adicionais); Bloqueio absoluto acima do Teto de Nível 10.
+  * **Subtítulo 8 — Conjuração, Magias e Grimórios / Itens de Registro (`tests/08_conjuracao_magias.test.mjs`):**
+    * Módulo `module/helpers/magia.mjs`: Cálculo de custo de Mana com piso mínimo de 1 PM (Foco Mágico -5 PM); Dificuldade base e modificadores (Asseste Mágico -1, Isnuu -1, Dom da Magia -1); Inaptidão por armadura corporal para conjuradores sem treino; Sintonização via Runa Pessoal / Selo Simples (DV 8, 0 PM); Capacidade máxima de Grimórios (INT x 2) e exigência de Canalizador empunhado; Custo de 5 PV para símbolos profanos sem Conhecimento Nefasto.
+  * **Subtítulo 9 — Propriedades Táticas de Equipamentos e Combate (`tests/09_tatico_combatente.test.mjs`):**
+    * Módulo `module/helpers/combate-tatico.mjs`: Armas Mão-e-Meia (2 mãos: FN pela metade arredondada para cima e +2 no dano ou Força via Ataque Furioso; 1 mão: FN integral); Propriedades especiais (*Transpor* ignorando escudos e cobertura, *Trespassar* transferindo dano excedente, *Carregar* exigindo Ação de Movimento para recarregar sem penalidade adjacente, *Gancho* para derrubar/desarmar); Penalidade de Armadura Pesada sem túnica (-5 PM/turno).
+  * **Subtítulo 10 — Sistema de Carga, Sobrecarga e Movimentação Física (`tests/10_carga_sobrecarga_movimento.test.mjs`):**
+    * Módulo `module/helpers/carga-ambiente.mjs`: Sobrecarga parcial (Carga > Máx: Inaptidão física/Agilidade e metade do Deslocamento); Sobrecarga extrema (Carga > 2x Máx: Imobilizado com Deslocamento 0); Dano de Queda (1d6/metro, Metadílio com Balofo divide por 2); Fôlego de Sufocamento (turnos = max(FOR, VON), imunidade infinita para Anfíbio e Fulgurante).
+  * **Subtítulo 11 — Pactos, Maldições e Efeitos Colaterais (`tests/11_pactos_maldicoes_vilao.test.mjs`):**
+    * Módulo `module/helpers/pactos-vilao.mjs`: Pacto da Loucura (+2 Determinação, -1 INT, imunidade a medo e efeitos mentais); Pacto da Escuridão (visão no escuro sem olhos, Inaptidão sob luz solar direta); Pacto da Pestilência (vetor imune a sintomas); Pacto da Tirania (teste de Vontade contra Determinação para atacar); Habilidade Virulência (resistência contra infecções/venenos em raio como Inapta).
+  * **Subtítulo 12 — Companheiros Animais, Invocações e Construtos (`tests/12_invocacoes_companheiros.test.mjs`):**
+    * Módulo `module/helpers/invocacoes.mjs`: Limite de 1 invocação ativa por padrão e expansão via talentos ou caminhos de Domador/Invocador (VON / 2); Escalonamento proporcional de PV, Defesa e Dano de Golens/Familiares/Construtos por Vontade/Nível; Custo de manutenção sustentada de Mana por turno (Golens 3 PM, Construtos 2 PM, Familiares 1 PM).
+  * **Subtítulo 13 — Músicas de Bardo, Menestrel e Concentração (`tests/13_musicas_bardo.test.mjs`):**
+    * Módulo `module/helpers/musicas-bardo.mjs`: Teste de Vontade/Performance (dificuldade padrão 8 ou proporcional ao dano sofrido) para não interromper performance; Bônus de +2 em instrumentos de sopro para Faunos/Flauta de Pã/Soprista; Exclusividade estrita de no máximo 1 música contínua sustentada ao mesmo tempo.
+  * **Subtítulo 14 — Validação de Entrada em Caminhos de Prestígio (`tests/14_caminhos_prestigio.test.mjs`):**
+    * Módulo `module/helpers/requisitos.mjs` e `module/documents/actor.mjs`:
+      * Tabela canônica `CAMINHOS_PRESTIGIO` com os 8 caminhos canônicos (Amoque, Argênteo, Artífice, Assassino, Sanguíneo, Estrige, Tohunga, Lanceiro).
+      * Validação estrita de atributos, habilidades e marcos narrativos (`sangramentoPorUmFio`, `destruiuSobrenatural`, etc.).
+      * Exclusividade: adotar novo caminho substitui e limpa o anterior (máximo 1 ativo).
+  * **Subtítulo 15 — Máquina de Estados e Condições do Personagem (`tests/15_estados_condicoes.test.mjs`):**
+    * Módulo `module/helpers/estados-saude.mjs`: Ciclo de vida de saúde `Saudável` -> `Por um Fio` (em 0 PV) -> `Morto` (dano adicional em Por um Fio ou falha de sobrevivência); Cura restaura Por um Fio para Saudável; Condições ativas (*Atordoado* sem ações/reações, *Cego* com ataques/visão inaptos e -2 de defesa, *Amedrontado* com -2 em testes e bloqueio de aproximação).
+  * **Subtítulo 16 — Sistema de Alquimia, Preparo de Poções e Extratos (`tests/16_alquimia_pocoes.test.mjs`):**
+    * Módulo `module/helpers/alquimia.mjs`:
+      * `conheceReceita(habilidadesActor, receita)`: Herbalismo (poções básicas comuns e incomuns, sem destilação); Alquimia Básica (todas as poções básicas + destilação); Alquimia Avançada (todas as receitas).
+      * `processarEtapaAlquimia(...)`: 6 processos canônicos (Infusão, Maceração, Tintura, Tisana, Fermentação, Destilação). Falha em etapa descarta apenas ingredientes daquela etapa; ingredientes de etapas posteriores permanecem preservados no inventário.
+      * Sucesso Crítico (+1 dose adicional cumulativa da poção) e Falha Crítica (geração obrigatória de Poção do Caos sorteada na tabela canônica 2d6).
+  * **Subtítulo 17 — Personagens de Nível Zero (Aspirantes e Desclassificados) (`tests/17_nivel_zero.test.mjs`):**
+    * Módulo `module/helpers/nivel-zero.mjs`:
+      * Aspirantes: Início com 40 PV e 40 PM; Atributos da Raça + Habilidade da Raça; Habilidade Automática da Classe + apenas 1 modificador de Atributo da Classe (com trava de atributo $\le 5$); Evolução aos 10 XP (+20 PV, +20 PM, +1 no 2º atributo da classe podendo agora ultrapassar 5, 2 novas habilidades).
+      * Desclassificados: Início com 30 PV e 30 PM, sem pontos extras de atributo; definido obrigatoriamente por Antecedente (sem custo de Ponto de Atributo); Evolução aos 10 XP (+30 PV, +30 PM, Habilidade de Classe, modificadores da Classe com penalidade de -1 ponto no atributo por possuir Antecedente, 2 novas habilidades).
+  * **Subtítulo 18 — Faixas Etárias, Envelhecimento e Efeitos Biológicos (`tests/18_faixas_etarias.test.mjs`):**
+    * Módulo `module/helpers/envelhecimento.mjs`:
+      * 6 faixas etárias oficiais: Filhote (Atributos = 1, 5 PV/PM, sem bônus raciais, Tamanho Miúdo -2), Criança (Atributos -3 mín 1, 10 PV/PM, sem bônus raciais, Tamanho Pequeno -1), Adolescente (Atributos -1 mín 2, 30 PV/PM, ganha Habilidade Racial), Adulto (60 PV / 60 PM padrão), Idoso (teste FOR e AGI DV 10 com falha = -1 permanente mín 2, +1 livre em VON ou INT), Ancião (-1 imediato em todos os atributos mín 1, testes anuais DV 12).
+      * Exceção Elfos e Levents: Imunes à perda de atributos por idade; em Idoso ganham +1 livre em VON ou INT; testes de ciclo de anos (Elfos 50 anos, Levents 25 anos); 10 falhas acumuladas deflagram falência orgânica e morte placidamente em dias iguais à sua Vontade.
+  * **Subtítulo 19 — Sistema de Apostasia, Abandono de Votos e Código Sagrado (`tests/19_apostasia_votos.test.mjs`):**
+    * Módulo `module/helpers/apostasia.mjs`:
+      * `processarApostasia(actor, patronoOuVoto)`: Abandono de Dogmas/Códigos sagrados para Sacerdotes, Dracomantes e Paladinos revoga instantaneamente a conjuração de Punições, Magias Místicas e Mitos do patrono.
+      * `validarHabilidadeApostata(actor)`: Pré-requisito estrito "Ter abandonado um Voto", canalizando a perda de fé em Resistência Pura (+2 RD) ou Resistência Mágica (+2 RM).
+      * `validarIncompatibilidadeReligiosaProfana(actor, novoItem)`: Bloqueio absoluto entre Pacto Infernal e Dogma/Conhecimento Místico.
+  * **Subtítulo 20 — Tatuagens Místicas e Registro Cutâneo (`tests/20_tatuagens_misticas.test.mjs`):**
+    * Módulo `module/helpers/tatuagens.mjs`:
+      * Capacidade cutânea por porte: Médio (13 GC), Pequeno (10 GC), Grande/Gigantismo (15 GC); Tatuagens Tohunga (Primeira Marca, Tamoko, Tribais) ocupam 1 GC cada.
+      * Magias Tatuadas: Ocupam GC igual ao Círculo/Grau; reduzem Dificuldade em 1 (-1 DV) e Mana em 5 PM (-5 PM com piso de 1 PM).
+      * Tatuar Objeto: Permite fundir/invocar item na pele por 5 PM.
+  * **Subtítulo 21 — Manobras Táticas de Combate (`tests/21_manobras_taticas.test.mjs`):**
+    * Módulo `module/helpers/manobras-combate.mjs`:
+      * `processarAtaqueLocalizado`: Modificador de +4 na Defesa do alvo antes da rolagem.
+      * `processarEncontrao`: Ação Completa, mínimo 3 metros, dano soma maior FN entre arma e armadura + 1 a cada 3m percorridos, impõe -2 de Esquiva no atacante até o próximo turno.
+      * `processarFintar`: Reação, primeiro ataque causa metade do dano (floor), concede +1d6 nos ataques subsequentes contra o mesmo alvo no mesmo turno.
+      * `processarInterceptar`: Reação contra oponente adjacente com confronto de Agilidade; vitória bloqueia passagem e consome Ação de Movimento do próximo turno do interceptador.
+  * **Subtítulo 22 — Economia, Antecedentes e Progressão de Ouro (`tests/22_economia_ouro_antecedentes.test.mjs`):**
+    * Módulo `module/helpers/economia.mjs`:
+      * `calcularCustoAntecedenteCriacao(actor, classe)`: Selecionar Antecedente no Nível 1 consome 1 ponto de bônus de Atributo concedido pela Classe (resta +1 em apenas 1 atributo da classe).
+      * `validarAntecedentePosterior(actor)`: Aquisição após Nível 1 consome 1 Ponto de Evolução e penaliza o herói nos Níveis 4, 7 e 10 a receber +1 em apenas 1 Atributo (em vez de +1 em dois).
+      * `calcularOuroInicialPorNivel(nivel)`: Tabela e progressão canônica de moedas para campanhas iniciando acima do Nível 1 (Nv 1: 500, Nv 2: 850, Nv 3: 1450, Nv 4: 2450, Nv 5: 4200, Nv 6: 7200, Nv 7: 12000, Nv 8: 20500, Nv 9: 35000, Nv 10: 60000 moedas; Fórmula: $Ouro_N = Ouro_{N-1} + 70\% \text{ do } Ouro_{N-1}$); Bônus de Antecedentes (Nobre +200, Fidalgo +100).
+  * **Subtítulo 23 — Economia Estrita do Turno (`tests/23_economia_turno.test.mjs`):**
+    * Módulo `module/helpers/economia-turno.mjs`:
+      * Combinações válidas de turno: 1 Rodada Completa + Livres; 1 Padrão + 1 Movimento + Livres; 2 Movimentos + Livres.
+      * Regra negativa restritiva canônica: Proibição estrita de trocar Ação de Movimento por uma segunda Ação Padrão no mesmo turno (`podeTrocarMovimentoPorPadrao = false`).
+      * Suporte a exatamente 1 Reação por rodada fora do turno.
+  * **Subtítulo 24 — Resolução de Dados, Graus de Sucesso e Dupla Inaptidão (`tests/24_resolucao_dados_graus.test.mjs`):**
+    * Módulo `module/helpers/resolucao-dados.mjs`:
+      * Critérios de Sucesso Decisivo (Acerto Crítico): 2 ou mais dados com resultado 6. Em Magias: escolha estrita de exatamente 1 benefício (0 PM, dano 2x, ou área/duração 2x). Em Ataques Físicos: dano multiplicado por 2. Regra aditiva de multiplicadores ($2 + 2 = 4\times$, jamais exponencial $2 \times 2$).
+      * Falha Crítica: todos os dados rolados resultam em 1, aplicando falha automática e efeito colateral grave.
+      * Trava Absoluta de Dupla Inaptidão: duas ou mais condições impondo Inaptidão no mesmo teste encerram a ação em falha automática imediata (0% de chance de sucesso, sem rolagem).
+      * Resolução de Confrontos Opostos e Empates: Sucesso Decisivo vence não-crítico; se ambos críticos ou normais vence maior soma (Dados + Atributo); empate na soma vence maior Atributo; atributos idênticos desempata com rolagem rápida de 1d6.
+  * **Subtítulo 25 — Geografia, Clima e Modificadores Elementais do Ambiente (`tests/25_ambiente_elemental.test.mjs`):**
+    * Módulo `module/helpers/ambiente-elemental.mjs`:
+      * Ambientes Gelados (Eishelm, picos nevados): Gelo criado magicamente dura indefinidamente; Magias de Fogo sofrem +2 na Dificuldade (DV).
+      * Ambientes Quentes / Áridos (Terras Secas, Picos Orientais, Arkânia): Magias e objetos de Gelo duram metade do tempo; Magias de Fogo causam +5 de dano adicional.
+      * Ambientes Subaquáticos: Magias de Fogo não funcionam no padrão (fervem água e geram bolhas ferventes locais); Magias de Gelo duram metade do tempo e flutuam (exceto profundezas polares); Magias de Eletricidade afetam criaturas em raio de 10m ao redor do conjurador ou dobram área.
+  * **Subtítulo 26 — Sistema de Fabricação (Crafting), Mineração e Avaliação (`tests/26_crafting_fabricacao.test.mjs`):**
+    * Módulo `module/helpers/crafting.mjs`:
+      * Tabela Canônica de Produção (Artesão): $\le 6$ falha com perda de 50% de material (ou perda de 100% e ferramentas quebradas em Falha Crítica); 7 a 9 Qualidade Baixa; 10 a 15 Qualidade Mediana; 16 a 20 Qualidade Alta (+2 DV para encantar); $\ge 21$ Obra-Prima.
+      * Bônus por Dedicação de Tempo: gastar o dobro do tempo necessário concede +2 no teste de fabricação.
+      * Desmontagem para Matéria-Prima: destruir um item para reaproveitá-lo fornece exatamente metade (50%) do material necessário para criar um novo.
+      * Sistema de Avaliação (1 minuto: graus básico, detalhado e mágico), Prospecção Mineral (DV 16), Garimpagem e Mineração semanal.
+  * **Subtítulo 27 — Ilícitos, Leis e Status Legal de Equipamentos (`tests/27_status_legal_ilicitos.test.mjs`):**
+    * Módulo `module/helpers/status-legal.mjs`:
+      * Propriedade Legal de Itens: validação de flag `ilegal` para extratos e elixires proibidos (Elixir do Dragão Vermelho, Veneno Restrito, toxinas canônicas).
+      * Fiscalização Urbana: personagens portando itens ilegais acionam testes de Furtividade/Enganação ao passar por guardas estaduais ou Archons em metrópoles como Tebrynia; dispensa em ermos. Procedimento de apreensão seletiva.
+  * **Subtítulo 28 — Estatísticas de Objetos Inanimados e Alvos Específicos (`tests/28_objetos_inanimados.test.mjs`):**
+    * Módulo `module/helpers/objetos-inanimados.mjs`:
+      * Defesa Base de Objetos Inanimados por porte: Pequeno até 1m (6), Médio até 2m (5), Grande até 4m (4), Gigante/Colossal > 4m (3).
+      * Modificador de Movimento: objeto em movimento soma +1d6 (ou média +3) ao valor de Defesa.
+      * Alvo Específico / Ataque Localizado: visar membros específicos, garganta, armas empunhadas ou amuletos equipados adiciona +4 na Defesa do alvo.
+  * **Subtítulo 29 — Sistema de Avanço (D&D 5e) e Sub-Features Raciais: Humano & Dragano (`tests/29_avanco_humano_dragano.test.mjs`):**
+    * Concessões estruturadas `escolhaAtributo` (Adaptabilidade/Diversidade) e `origemDraconica` (Linhagem Dracônica + 6 Características Dracônicas como Sub-Features).
+  * **Subtítulo 30 — Sincronização Canônica com `habilidades.base` (Obsidian SSOT) e Filtro Estrito de Acesso (`tests/03_restricoes_incompatibilidades.test.mjs`):**
+    * **Causa Raiz Corrigida (Feiticeiro × Magias de Sacerdote):** Anteriormente, `CANONICAL_MAGIAS` e `CANONICAL_HABILIDADES` não exportavam os metadados `acesso`, `tipoAcesso`, `nivel` e `requisitos` das notas da Base do Obsidian (`D:\ArquivosObsidian\Cofre Obsidian Principal\RPG\MB\banco de dados\notas das bases mb\Habilidades\*.md`), e `validarAcessoMagia` verificava apenas a restrição racial de Naga Macho.
+    * **Pipeline SSOT (`scripts/export_canonical_content.cjs` & `module/data/canonical-packs-data.mjs`):** Exportação direta das **721 notas canônicas** do cofre Obsidian (557 Habilidades principais + 6 Sub-Features Dracônicas + 164 Magias), preservando `efeitos` mecânicos do `@mighty-blade/rules-core` e injetando `acesso`, `tipoAcesso`, `nivel`, `requisitos`, `fonte` (`arcana` via *Runa Arcana* vs `mistica` via *Selo Místico*), `dificuldadeTexto` e `fonteLivro`.
+    * **Motor de Acesso & Requisitos (`module/helpers/restricoes.mjs`, `module/helpers/requisitos.mjs`, `module/apps/compendium-browser.mjs`, `module/documents/actor.mjs`):**
+      * `obterAcessosAtor(actor)` e `validarAcessoItem(actor, item)`: Filtram estritamente Habilidades e Magias pelo conjunto de acessos ativos do personagem (`Geral`, Raça + dimorfismo Naga ♀/♂, Classe Principal, Classe de Aprendiz, Caminho, Organização e Antecedente).
+      * `enriquecerItemComSSOT(item)`: Garante enriquecimento em memória mesmo antes de rebuild de LevelDB, além de `LAST_PACKS_VERSION = "2.5.0-obsidian-ssot-acesso"` em `module/mighty-blade.mjs` para reconstrução automática dos compêndios ao recarregar (`F5`).
+      * No `CompendiumBrowser`, magias e habilidades de outras classes/raças/caminhos/organizações (ex.: *Abençoar Aliados 1/2*, *Abençoar Objeto* de `Sacerdote` para um `Feiticeiro`) são ocultadas automaticamente, e o painel de detalhes exibe `Acesso Canônico`, `Livro` e o Card de Checklist de Pré-Requisitos também para Magias.
+  * **Resultados Globais Consolidados:** 789 testes automatizados via `node --test tests/*.test.mjs` distribuídos em 68 suítes executados em ~800ms com **100% de aprovação (789 pass, 0 fail, 0 regressões)**.
+
 ---
 
 
