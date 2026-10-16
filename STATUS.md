@@ -6,13 +6,14 @@
 
 ## Estado Atual
 - **789/789 testes passando (0 falhas)** via `npm test`.
-- Gap de 12 habilidades refutado em 2026-10-16 (todas as 721 notas estão nos JSONs-fonte do Foundry; pendente: confirmar 727 itens (563 + 164) nos compêndios dentro do Foundry).
+- Gap de 12 habilidades refutado e encerrado em 2026-10-16 (todas as 721 notas estão nos JSONs-fonte do Foundry; 727 itens — 563 habilidades + 164 magias — confirmados nos compêndios LevelDB).
 - Perfil de Regras GB 2023 documentado no `AGENTS.md`.
 
 ## O Que Foi Feito
 1. Site: consertado teste do "Pacto da Ambição" em `packages/rules-core/src/rules/requisitos.test.ts` (`153/153` testes verdes).
 2. Foundry: adicionado `"test": "node --test tests/*.test.mjs"` ao `package.json` (`789/789` passando).
 3. Site: ignorado `LIVROS MB ATUALIZADOS/` e `*.pdf` no `.gitignore`.
+4. Foundry: confirmados 727 itens (`563` em `packs/habilidades` + `164` em `packs/magias`) extraídos via `@foundryvtt/foundryvtt-cli` e encerrado o item do gap.
 
 ## Próximo Passo Recomendado
 - Fazer `git push` e conferir a CI.
