@@ -9,7 +9,8 @@
     "build:equipamentos": "node scripts/import_equipamentos.mjs",
     "build:racas": "node scripts/import_racas.mjs",
     "build:classes": "node scripts/import_classes.mjs",
-    "build:habilidades": "node scripts/import_habilidades_e_magias.mjs"
+    "build:habilidades": "node scripts/import_habilidades_e_magias.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "browserslist": [
     "last 3 versions"
