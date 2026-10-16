@@ -1,0 +1,29 @@
+name: CI — Testes Canônicos
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Node.js 22 — Testes do Sistema
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Instalar Dependências
+        run: npm ci
+
+      - name: Executar Bateria de Testes Canônicos
+        run: npm test
