@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Elfo",
-      "Geral"
+      "Elfo"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -53,8 +52,7 @@
       "slug": "bencao-de-lathellanis",
       "automatica": true,
       "acesso": [
-        "Elfo",
-        "Geral"
+        "Elfo"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

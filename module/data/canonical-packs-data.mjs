@@ -5019,8 +5019,7 @@ export const CANONICAL_HABILIDADES = [
         "Espadachim",
         "Menestrel",
         "Paladino",
-        "Patrulheiro",
-        "Geral"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -5046,8 +5045,7 @@ export const CANONICAL_HABILIDADES = [
           "Espadachim",
           "Menestrel",
           "Paladino",
-          "Patrulheiro",
-          "Geral"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -5983,8 +5981,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Levent",
-        "Geral"
+        "Levent"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -6015,8 +6012,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "asas-ancestrais",
         "automatica": true,
         "acesso": [
-          "Levent",
-          "Geral"
+          "Levent"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -6317,13 +6313,12 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Geral",
         "Gnoll",
         "Hamelin",
         "Metadílio",
         "Tailox"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 75; Guia do Herói, pág. 19; Guia do Vilão, pág. 30, 34",
       "exclusivoCom": [],
@@ -6352,13 +6347,12 @@ export const CANONICAL_HABILIDADES = [
         "slug": "astuto",
         "automatica": false,
         "acesso": [
-          "Geral",
           "Gnoll",
           "Hamelin",
           "Metadílio",
           "Tailox"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -6931,8 +6925,7 @@ export const CANONICAL_HABILIDADES = [
         "Bardo",
         "Espadachim",
         "Ladino",
-        "Menestrel",
-        "Geral"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -6955,8 +6948,7 @@ export const CANONICAL_HABILIDADES = [
           "Bardo",
           "Espadachim",
           "Ladino",
-          "Menestrel",
-          "Geral"
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -6981,8 +6973,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Combate em Grupo",
       "acesso": [
         "Hoste de Hadorn",
-        "Guerreiro",
-        "Geral"
+        "Guerreiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -7003,8 +6994,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Hoste de Hadorn",
-          "Guerreiro",
-          "Geral"
+          "Guerreiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -7297,8 +7287,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Código da Honestidade",
       "acesso": [
         "Paladino",
-        "Arconte",
-        "Geral"
+        "Arconte"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -7319,8 +7308,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Paladino",
-          "Arconte",
-          "Geral"
+          "Arconte"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -7483,11 +7471,10 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Anel",
-        "Geral",
         "Humano",
         "Metadílio"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça / Organização",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63; Guia do Herói, pág. 19; Guia de Tebryn, pág. 71",
       "exclusivoCom": [],
@@ -7506,11 +7493,10 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Anel",
-          "Geral",
           "Humano",
           "Metadílio"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça / Organização",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -7624,8 +7610,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Elfo",
-        "Geral"
+        "Elfo"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -7666,8 +7651,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "bencao-de-lathellanis",
         "automatica": true,
         "acesso": [
-          "Elfo",
-          "Geral"
+          "Elfo"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -7848,8 +7832,7 @@ export const CANONICAL_HABILIDADES = [
         "Aesir",
         "Centauro",
         "Xamã",
-        "Druida",
-        "Geral"
+        "Druida"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -7873,8 +7856,7 @@ export const CANONICAL_HABILIDADES = [
           "Aesir",
           "Centauro",
           "Xamã",
-          "Druida",
-          "Geral"
+          "Druida"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -7902,8 +7884,7 @@ export const CANONICAL_HABILIDADES = [
         "Centauro",
         "Xamã",
         "Druida",
-        "Amoque",
-        "Geral"
+        "Amoque"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -7927,8 +7908,7 @@ export const CANONICAL_HABILIDADES = [
           "Centauro",
           "Xamã",
           "Druida",
-          "Amoque",
-          "Geral"
+          "Amoque"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -9108,7 +9088,6 @@ export const CANONICAL_HABILIDADES = [
         "Paladino",
         "Guerreiro",
         "Patrulheiro",
-        "Geral",
         "Fira"
       ],
       "tipoAcesso": "Classe",
@@ -9132,7 +9111,6 @@ export const CANONICAL_HABILIDADES = [
           "Paladino",
           "Guerreiro",
           "Patrulheiro",
-          "Geral",
           "Fira"
         ],
         "tipoAcesso": "Classe",
@@ -9698,8 +9676,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Hoste de Hadorn",
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -9720,8 +9697,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Hoste de Hadorn",
-          "Paladino",
-          "Geral"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -9745,8 +9721,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -9766,8 +9741,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "codigo-da-cortesia",
         "automatica": false,
         "acesso": [
-          "Paladino",
-          "Geral"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -9793,8 +9767,7 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Espada de Mirah",
         "Paladino",
-        "Arconte",
-        "Geral"
+        "Arconte"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -9816,8 +9789,7 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Espada de Mirah",
           "Paladino",
-          "Arconte",
-          "Geral"
+          "Arconte"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -9842,8 +9814,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Espada de Mirah",
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -9864,8 +9835,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Espada de Mirah",
-          "Paladino",
-          "Geral"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -9889,8 +9859,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -9910,8 +9879,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "codigo-da-lealdade",
         "automatica": false,
         "acesso": [
-          "Paladino",
-          "Geral"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -10173,8 +10141,7 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Paladino",
         "Guerreiro",
-        "Patrulheiro",
-        "Geral"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -10196,8 +10163,7 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Paladino",
           "Guerreiro",
-          "Patrulheiro",
-          "Geral"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -10923,10 +10889,9 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Hoste de Hadorn",
         "Espada de Mirah",
-        "Anel",
-        "Geral"
+        "Anel"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Organização",
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
@@ -10946,10 +10911,9 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Hoste de Hadorn",
           "Espada de Mirah",
-          "Anel",
-          "Geral"
+          "Anel"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [
           "Conhecimento Regional [Tebryn]",
@@ -11018,8 +10982,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Silfo",
-        "Geral"
+        "Silfo"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -11045,8 +11008,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "constituicao-feerica",
         "automatica": true,
         "acesso": [
-          "Silfo",
-          "Geral"
+          "Silfo"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -11164,8 +11126,7 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Anel",
         "Senescal",
-        "Bardo",
-        "Geral"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -11187,8 +11148,7 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Anel",
           "Senescal",
-          "Bardo",
-          "Geral"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -11218,8 +11178,7 @@ export const CANONICAL_HABILIDADES = [
         "Arpão",
         "Anel",
         "Ladino",
-        "Bardo",
-        "Geral"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -11245,8 +11204,7 @@ export const CANONICAL_HABILIDADES = [
           "Arpão",
           "Anel",
           "Ladino",
-          "Bardo",
-          "Geral"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -11272,8 +11230,7 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Capuzes Negros",
         "Anel",
-        "Senescal",
-        "Geral"
+        "Senescal"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -11295,8 +11252,7 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Capuzes Negros",
           "Anel",
-          "Senescal",
-          "Geral"
+          "Senescal"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -11320,10 +11276,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Geral",
         "Tailox"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 75; Canção do Bardo, pág. 30; Guia de Tebryn, pág. 113",
       "exclusivoCom": [],
@@ -11347,10 +11302,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "contos-da-estrada",
         "automatica": false,
         "acesso": [
-          "Geral",
           "Tailox"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -11421,8 +11375,7 @@ export const CANONICAL_HABILIDADES = [
         "Paladino",
         "Espadachim",
         "Ladino",
-        "Rúnico",
-        "Geral"
+        "Rúnico"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -11447,8 +11400,7 @@ export const CANONICAL_HABILIDADES = [
           "Paladino",
           "Espadachim",
           "Ladino",
-          "Rúnico",
-          "Geral"
+          "Rúnico"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -11472,8 +11424,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Anão",
-        "Geral"
+        "Anão"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -11508,8 +11459,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "coracao-da-montanha-1",
         "automatica": true,
         "acesso": [
-          "Anão",
-          "Geral"
+          "Anão"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -11675,8 +11625,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Centauro",
-        "Geral"
+        "Centauro"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -11720,8 +11669,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "corpo-equino",
         "automatica": true,
         "acesso": [
-          "Centauro",
-          "Geral"
+          "Centauro"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -11746,8 +11694,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Naga ♂",
-        "Naga ♀",
-        "Geral"
+        "Naga ♀"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -11784,8 +11731,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "acesso": [
           "Naga ♂",
-          "Naga ♀",
-          "Geral"
+          "Naga ♀"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -12545,7 +12491,6 @@ export const CANONICAL_HABILIDADES = [
         "Rúnico",
         "Sacerdote",
         "Xamã",
-        "Geral",
         "Necromante"
       ],
       "tipoAcesso": "Classe",
@@ -12572,7 +12517,6 @@ export const CANONICAL_HABILIDADES = [
           "Rúnico",
           "Sacerdote",
           "Xamã",
-          "Geral",
           "Necromante"
         ],
         "tipoAcesso": "Classe",
@@ -12686,8 +12630,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Patrulheiro",
-        "Arqueiro",
-        "Geral"
+        "Arqueiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -12708,8 +12651,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Patrulheiro",
-          "Arqueiro",
-          "Geral"
+          "Arqueiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -13059,10 +13001,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Geral",
         "Humano"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
       "exclusivoCom": [],
@@ -13088,10 +13029,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "diversidade",
         "automatica": false,
         "acesso": [
-          "Geral",
           "Humano"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -13699,8 +13639,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Código da Coragem",
       "acesso": [
         "Hoste de Hadorn",
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -13721,8 +13660,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Hoste de Hadorn",
-          "Paladino",
-          "Geral"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -13839,7 +13777,6 @@ export const CANONICAL_HABILIDADES = [
         "Menestrel",
         "Ladino",
         "Trovador",
-        "Geral",
         "Senescal"
       ],
       "tipoAcesso": "Classe",
@@ -13865,7 +13802,6 @@ export const CANONICAL_HABILIDADES = [
           "Menestrel",
           "Ladino",
           "Trovador",
-          "Geral",
           "Senescal"
         ],
         "tipoAcesso": "Classe",
@@ -14071,8 +14007,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Senescal",
-        "Escriba",
-        "Geral"
+        "Escriba"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -14093,8 +14028,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Senescal",
-          "Escriba",
-          "Geral"
+          "Escriba"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -14531,7 +14465,6 @@ export const CANONICAL_HABILIDADES = [
         "Anão",
         "Fronteiras Rochosas",
         "Guerreiro",
-        "Geral",
         "Paladino",
         "Mahok"
       ],
@@ -14562,7 +14495,6 @@ export const CANONICAL_HABILIDADES = [
           "Anão",
           "Fronteiras Rochosas",
           "Guerreiro",
-          "Geral",
           "Paladino",
           "Mahok"
         ],
@@ -14588,8 +14520,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Brigão",
       "acesso": [
-        "Xamã",
-        "Geral"
+        "Xamã"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -14609,8 +14540,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "estracalhar",
         "automatica": false,
         "acesso": [
-          "Xamã",
-          "Geral"
+          "Xamã"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -15146,10 +15076,9 @@ export const CANONICAL_HABILIDADES = [
         "Astério",
         "Gnoll",
         "Hamelin",
-        "Tailox",
-        "Geral"
+        "Tailox"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 11; Codex Monstrorum, pág. 177",
       "exclusivoCom": [],
@@ -15177,10 +15106,9 @@ export const CANONICAL_HABILIDADES = [
           "Astério",
           "Gnoll",
           "Hamelin",
-          "Tailox",
-          "Geral"
+          "Tailox"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -15478,7 +15406,6 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Ladino",
         "Espadachim",
-        "Geral",
         "Hamelin"
       ],
       "tipoAcesso": "Classe",
@@ -15507,7 +15434,6 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Ladino",
           "Espadachim",
-          "Geral",
           "Hamelin"
         ],
         "tipoAcesso": "Classe",
@@ -16541,8 +16467,7 @@ export const CANONICAL_HABILIDADES = [
         "Fronteiras Rochosas",
         "Cesto de Adagas",
         "Ladino",
-        "Patrulheiro",
-        "Geral"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -16565,8 +16490,7 @@ export const CANONICAL_HABILIDADES = [
           "Fronteiras Rochosas",
           "Cesto de Adagas",
           "Ladino",
-          "Patrulheiro",
-          "Geral"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -17039,7 +16963,6 @@ export const CANONICAL_HABILIDADES = [
         "Senescal",
         "Bardo",
         "Ladino",
-        "Geral",
         "Humano",
         "Mahok"
       ],
@@ -17070,7 +16993,6 @@ export const CANONICAL_HABILIDADES = [
           "Senescal",
           "Bardo",
           "Ladino",
-          "Geral",
           "Humano",
           "Mahok"
         ],
@@ -17668,8 +17590,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Hamelin",
-        "Geral"
+        "Hamelin"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -17716,8 +17637,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "habitante-do-esgoto",
         "automatica": true,
         "acesso": [
-          "Hamelin",
-          "Geral"
+          "Hamelin"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -19259,8 +19179,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Código da Justiça",
       "acesso": [
         "Espada de Mirah",
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -19281,8 +19200,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Espada de Mirah",
-          "Paladino",
-          "Geral"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -19440,7 +19358,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Eloquente",
       "acesso": [
-        "Geral",
         "Bardo",
         "Menestrel",
         "Ladino",
@@ -19466,7 +19383,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "lingua-afiada",
         "automatica": false,
         "acesso": [
-          "Geral",
           "Bardo",
           "Menestrel",
           "Ladino",
@@ -19546,8 +19462,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Dragano",
-        "Draconiano",
-        "Geral"
+        "Draconiano"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -19767,8 +19682,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": true,
         "acesso": [
           "Dragano",
-          "Draconiano",
-          "Geral"
+          "Draconiano"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -20161,8 +20075,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Ladino",
-        "Bardo",
-        "Geral"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -20183,8 +20096,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Ladino",
-          "Bardo",
-          "Geral"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -20429,8 +20341,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Senescal",
-        "Arconte",
-        "Geral"
+        "Arconte"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -20451,8 +20362,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Senescal",
-          "Arconte",
-          "Geral"
+          "Arconte"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -21541,8 +21451,7 @@ export const CANONICAL_HABILIDADES = [
         "Capuzes Negros",
         "Xamã",
         "Druida",
-        "Patrulheiro",
-        "Geral"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -21565,8 +21474,7 @@ export const CANONICAL_HABILIDADES = [
           "Capuzes Negros",
           "Xamã",
           "Druida",
-          "Patrulheiro",
-          "Geral"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -23797,8 +23705,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Mahok",
-        "Geral"
+        "Mahok"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -23829,8 +23736,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "pele-de-pedra",
         "automatica": true,
         "acesso": [
-          "Mahok",
-          "Geral"
+          "Mahok"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -24270,10 +24176,9 @@ export const CANONICAL_HABILIDADES = [
         "Astério",
         "Astéria",
         "Centauro",
-        "Orc",
-        "Geral"
+        "Orc"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45; Guia do Herói, pág. 15, 17; Guia do Vilão, pág. 43",
       "exclusivoCom": [],
@@ -24305,10 +24210,9 @@ export const CANONICAL_HABILIDADES = [
           "Astério",
           "Astéria",
           "Centauro",
-          "Orc",
-          "Geral"
+          "Orc"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -24553,8 +24457,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Senescal",
-        "Bardo",
-        "Geral"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -24575,8 +24478,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Senescal",
-          "Bardo",
-          "Geral"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -26522,10 +26424,9 @@ export const CANONICAL_HABILIDADES = [
         "Astéria",
         "Centauro",
         "Juban",
-        "Orc",
-        "Geral"
+        "Orc"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45, 66",
       "exclusivoCom": [],
@@ -26553,10 +26454,9 @@ export const CANONICAL_HABILIDADES = [
           "Astéria",
           "Centauro",
           "Juban",
-          "Orc",
-          "Geral"
+          "Orc"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -27592,11 +27492,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Geral",
         "Humano",
         "Metadílio"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
       "exclusivoCom": [],
@@ -27614,11 +27513,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "sorte",
         "automatica": false,
         "acesso": [
-          "Geral",
           "Humano",
           "Metadílio"
         ],
-        "tipoAcesso": "Geral",
+        "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": []
@@ -27640,8 +27538,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Metadílio",
-        "Geral"
+        "Metadílio"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -27675,8 +27572,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "tamanho-pequeno",
         "automatica": true,
         "acesso": [
-          "Metadílio",
-          "Geral"
+          "Metadílio"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -28566,7 +28462,6 @@ export const CANONICAL_HABILIDADES = [
         "Bardo",
         "Menestrel",
         "Ladino",
-        "Geral",
         "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
@@ -28590,7 +28485,6 @@ export const CANONICAL_HABILIDADES = [
           "Bardo",
           "Menestrel",
           "Ladino",
-          "Geral",
           "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
@@ -29201,8 +29095,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Aesir",
-        "Geral"
+        "Aesir"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -29232,8 +29125,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "vigor-nordico",
         "automatica": true,
         "acesso": [
-          "Aesir",
-          "Geral"
+          "Aesir"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -47688,23 +47580,29 @@ export const CANONICAL_DIARIOS = [
 ];
 
 export const CANONICAL_HABILIDADES_GERAIS_IDS = [
-  "atletismo",
-  "nanismo",
-  "gigantismo",
-  "recursos",
-  "furia-de-batalha",
-  "sentidos-apurados",
-  "intuicao",
-  "forca-heroica",
   "agilidade-heroica",
-  "inteligencia-heroica",
-  "vontade-heroica",
-  "nervos-de-aco",
-  "vontade-de-ferro",
-  "mimetismo-social",
-  "teurgia",
   "apostata",
-  "pacto"
+  "atletismo",
+  "forca-heroica",
+  "furia-de-batalha",
+  "gigantismo",
+  "inteligencia-heroica",
+  "intuicao",
+  "mimetismo-social",
+  "nanismo",
+  "nervos-de-aco",
+  "pacto-da-ambicao",
+  "pacto-da-destruicao",
+  "pacto-da-escuridao",
+  "pacto-da-loucura",
+  "pacto-da-pestilencia",
+  "pacto-da-tirania",
+  "pacto",
+  "recursos",
+  "sentidos-apurados",
+  "teurgia",
+  "vontade-de-ferro",
+  "vontade-heroica"
 ];
 
 export const CANONICAL_HABILIDADES_POR_NIVEL = {

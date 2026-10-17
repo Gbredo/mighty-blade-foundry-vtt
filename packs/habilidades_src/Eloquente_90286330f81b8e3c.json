@@ -16,7 +16,6 @@
       "Menestrel",
       "Ladino",
       "Trovador",
-      "Geral",
       "Senescal"
     ],
     "tipoAcesso": "Classe",
@@ -42,7 +41,6 @@
         "Menestrel",
         "Ladino",
         "Trovador",
-        "Geral",
         "Senescal"
       ],
       "tipoAcesso": "Classe",

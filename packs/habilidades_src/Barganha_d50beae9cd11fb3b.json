@@ -12,11 +12,10 @@
     "requisitos": "",
     "acesso": [
       "Anel",
-      "Geral",
       "Humano",
       "Metadílio"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça / Organização",
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 63; Guia do Herói, pág. 19; Guia de Tebryn, pág. 71",
     "exclusivoCom": [],
@@ -35,11 +34,10 @@
       "automatica": false,
       "acesso": [
         "Anel",
-        "Geral",
         "Humano",
         "Metadílio"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça / Organização",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

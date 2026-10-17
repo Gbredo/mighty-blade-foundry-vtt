@@ -12,8 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Espada de Mirah",
-      "Paladino",
-      "Geral"
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "automatica": false,
       "acesso": [
         "Espada de Mirah",
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

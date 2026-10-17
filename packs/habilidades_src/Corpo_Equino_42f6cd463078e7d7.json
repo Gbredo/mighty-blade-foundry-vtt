@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Centauro",
-      "Geral"
+      "Centauro"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -56,8 +55,7 @@
       "slug": "corpo-equino",
       "automatica": true,
       "acesso": [
-        "Centauro",
-        "Geral"
+        "Centauro"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

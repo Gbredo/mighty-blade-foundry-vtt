@@ -13,10 +13,9 @@
     "acesso": [
       "Hoste de Hadorn",
       "Espada de Mirah",
-      "Anel",
-      "Geral"
+      "Anel"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Organização",
     "nivel": "Nv1",
     "fonteLivro": "Guia de Tebryn, pág. 102",
     "exclusivoCom": [],
@@ -36,10 +35,9 @@
       "acesso": [
         "Hoste de Hadorn",
         "Espada de Mirah",
-        "Anel",
-        "Geral"
+        "Anel"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Organização",
       "nivel": "Nv1",
       "aliases": [
         "Conhecimento Regional [Tebryn]",

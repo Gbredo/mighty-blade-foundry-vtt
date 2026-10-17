@@ -12,8 +12,7 @@
     "requisitos": "Código da Honestidade",
     "acesso": [
       "Paladino",
-      "Arconte",
-      "Geral"
+      "Arconte"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "automatica": false,
       "acesso": [
         "Paladino",
-        "Arconte",
-        "Geral"
+        "Arconte"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

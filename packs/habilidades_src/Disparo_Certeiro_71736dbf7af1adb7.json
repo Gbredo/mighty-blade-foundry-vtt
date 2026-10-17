@@ -12,8 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Patrulheiro",
-      "Arqueiro",
-      "Geral"
+      "Arqueiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "automatica": false,
       "acesso": [
         "Patrulheiro",
-        "Arqueiro",
-        "Geral"
+        "Arqueiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

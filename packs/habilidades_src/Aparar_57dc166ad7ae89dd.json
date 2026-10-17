@@ -17,8 +17,7 @@
       "Espadachim",
       "Menestrel",
       "Paladino",
-      "Patrulheiro",
-      "Geral"
+      "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -44,8 +43,7 @@
         "Espadachim",
         "Menestrel",
         "Paladino",
-        "Patrulheiro",
-        "Geral"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

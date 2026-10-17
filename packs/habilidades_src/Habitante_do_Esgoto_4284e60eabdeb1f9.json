@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Hamelin",
-      "Geral"
+      "Hamelin"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -59,8 +58,7 @@
       "slug": "habitante-do-esgoto",
       "automatica": true,
       "acesso": [
-        "Hamelin",
-        "Geral"
+        "Hamelin"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

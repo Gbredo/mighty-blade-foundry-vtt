@@ -14,8 +14,7 @@
       "Fronteiras Rochosas",
       "Cesto de Adagas",
       "Ladino",
-      "Patrulheiro",
-      "Geral"
+      "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -38,8 +37,7 @@
         "Fronteiras Rochosas",
         "Cesto de Adagas",
         "Ladino",
-        "Patrulheiro",
-        "Geral"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

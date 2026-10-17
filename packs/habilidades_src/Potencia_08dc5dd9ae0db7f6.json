@@ -15,10 +15,9 @@
       "Astério",
       "Astéria",
       "Centauro",
-      "Orc",
-      "Geral"
+      "Orc"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 45; Guia do Herói, pág. 15, 17; Guia do Vilão, pág. 43",
     "exclusivoCom": [],
@@ -50,10 +49,9 @@
         "Astério",
         "Astéria",
         "Centauro",
-        "Orc",
-        "Geral"
+        "Orc"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

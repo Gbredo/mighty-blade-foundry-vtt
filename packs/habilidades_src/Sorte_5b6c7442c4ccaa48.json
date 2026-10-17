@@ -11,11 +11,10 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Geral",
       "Humano",
       "Metadílio"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
     "exclusivoCom": [],
@@ -33,11 +32,10 @@
       "slug": "sorte",
       "automatica": false,
       "acesso": [
-        "Geral",
         "Humano",
         "Metadílio"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

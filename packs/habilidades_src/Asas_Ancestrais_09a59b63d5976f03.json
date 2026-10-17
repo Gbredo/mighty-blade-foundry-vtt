@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Levent",
-      "Geral"
+      "Levent"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -43,8 +42,7 @@
       "slug": "asas-ancestrais",
       "automatica": true,
       "acesso": [
-        "Levent",
-        "Geral"
+        "Levent"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

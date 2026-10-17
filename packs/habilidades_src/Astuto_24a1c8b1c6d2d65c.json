@@ -11,13 +11,12 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Geral",
       "Gnoll",
       "Hamelin",
       "Metadílio",
       "Tailox"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 75; Guia do Herói, pág. 19; Guia do Vilão, pág. 30, 34",
     "exclusivoCom": [],
@@ -46,13 +45,12 @@
       "slug": "astuto",
       "automatica": false,
       "acesso": [
-        "Geral",
         "Gnoll",
         "Hamelin",
         "Metadílio",
         "Tailox"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

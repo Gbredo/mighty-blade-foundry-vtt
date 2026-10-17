@@ -1271,9 +1271,13 @@ async function run() {
     canonicalMagias.length +
     canonicalEquipamentos.length;
 
-  const canonicalHabilidadesGeraisIds = Object.values(HABILIDADES_GERAIS)
-    .map((h) => h.id)
-    .filter((id) => HABILIDADES[id] !== undefined);
+  const canonicalHabilidadesGeraisIds = canonicalHabilidades
+    .filter((h) => {
+      const acesso = Array.isArray(h.system?.acesso) ? h.system.acesso : [];
+      return acesso.some((a) => String(a).trim().toLowerCase() === "geral");
+    })
+    .map((h) => h.flags?.["mighty-blade"]?.slug || slugify(h.name || ""))
+    .filter(Boolean);
 
   const canonicalHabilidadesPorNivel = {};
   let habAcumulada = 3; // Nível 1 = 3

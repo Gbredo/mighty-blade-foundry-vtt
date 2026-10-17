@@ -11,10 +11,9 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Geral",
       "Tailox"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 75; Canção do Bardo, pág. 30; Guia de Tebryn, pág. 113",
     "exclusivoCom": [],
@@ -38,10 +37,9 @@
       "slug": "contos-da-estrada",
       "automatica": false,
       "acesso": [
-        "Geral",
         "Tailox"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

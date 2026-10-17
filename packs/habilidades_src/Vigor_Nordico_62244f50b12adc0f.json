@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Aesir",
-      "Geral"
+      "Aesir"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -42,8 +41,7 @@
       "slug": "vigor-nordico",
       "automatica": true,
       "acesso": [
-        "Aesir",
-        "Geral"
+        "Aesir"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

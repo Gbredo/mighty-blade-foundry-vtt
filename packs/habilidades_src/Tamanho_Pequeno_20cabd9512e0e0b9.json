@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Metadílio",
-      "Geral"
+      "Metadílio"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -46,8 +45,7 @@
       "slug": "tamanho-pequeno",
       "automatica": true,
       "acesso": [
-        "Metadílio",
-        "Geral"
+        "Metadílio"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

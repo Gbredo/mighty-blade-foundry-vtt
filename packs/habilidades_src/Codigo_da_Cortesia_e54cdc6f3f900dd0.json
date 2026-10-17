@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Paladino",
-      "Geral"
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -32,8 +31,7 @@
       "slug": "codigo-da-cortesia",
       "automatica": false,
       "acesso": [
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

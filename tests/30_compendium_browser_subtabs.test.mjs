@@ -24,6 +24,15 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
 
     const subAbas = obterSubAbasCompendio(gnollNecromante, "habilidade");
 
+    // 0. Sub-aba Gerais: Auditoria Geral r1 (15 só-Geral + 8 Pacto/Apóstata = 23)
+    const subGerais = subAbas.find((s) => s.id === "geral");
+    assert.ok(subGerais, "Sub-aba Gerais deve estar presente");
+    assert.equal(
+      subGerais.ids.length,
+      23,
+      "Sub-aba Gerais deve conter exatamente 23 habilidades (15 só-Geral + 8 Pacto/Apóstata)"
+    );
+
     // 1. Sub-aba Necromante (Classe)
     const subNecromante = subAbas.find((s) => s.id === "classe");
     assert.ok(subNecromante, "Sub-aba Necromante (classe) deve estar presente");

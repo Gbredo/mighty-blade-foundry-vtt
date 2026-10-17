@@ -15,8 +15,7 @@
       "Aesir",
       "Centauro",
       "Xamã",
-      "Druida",
-      "Geral"
+      "Druida"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -40,8 +39,7 @@
         "Aesir",
         "Centauro",
         "Xamã",
-        "Druida",
-        "Geral"
+        "Druida"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

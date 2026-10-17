@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Brigão",
     "acesso": [
-      "Xamã",
-      "Geral"
+      "Xamã"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -32,8 +31,7 @@
       "slug": "estracalhar",
       "automatica": false,
       "acesso": [
-        "Xamã",
-        "Geral"
+        "Xamã"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

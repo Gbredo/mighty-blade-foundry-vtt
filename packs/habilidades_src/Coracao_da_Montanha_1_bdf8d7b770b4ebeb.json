@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Anão",
-      "Geral"
+      "Anão"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -47,8 +46,7 @@
       "slug": "coracao-da-montanha-1",
       "automatica": true,
       "acesso": [
-        "Anão",
-        "Geral"
+        "Anão"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

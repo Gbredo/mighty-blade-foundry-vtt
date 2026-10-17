@@ -12,8 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Naga ♂",
-      "Naga ♀",
-      "Geral"
+      "Naga ♀"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -50,8 +49,7 @@
       "automatica": true,
       "acesso": [
         "Naga ♂",
-        "Naga ♀",
-        "Geral"
+        "Naga ♀"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

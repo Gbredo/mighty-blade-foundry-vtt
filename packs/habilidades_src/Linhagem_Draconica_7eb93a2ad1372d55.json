@@ -12,8 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Dragano",
-      "Draconiano",
-      "Geral"
+      "Draconiano"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -233,8 +232,7 @@
       "automatica": true,
       "acesso": [
         "Dragano",
-        "Draconiano",
-        "Geral"
+        "Draconiano"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

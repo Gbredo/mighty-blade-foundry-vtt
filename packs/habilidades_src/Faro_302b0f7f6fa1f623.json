@@ -15,10 +15,9 @@
       "Astério",
       "Gnoll",
       "Hamelin",
-      "Tailox",
-      "Geral"
+      "Tailox"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
     "fonteLivro": "Guia do Herói, pág. 11; Codex Monstrorum, pág. 177",
     "exclusivoCom": [],
@@ -46,10 +45,9 @@
         "Astério",
         "Gnoll",
         "Hamelin",
-        "Tailox",
-        "Geral"
+        "Tailox"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

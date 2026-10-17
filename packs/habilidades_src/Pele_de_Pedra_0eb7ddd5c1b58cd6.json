@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Mahok",
-      "Geral"
+      "Mahok"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -43,8 +42,7 @@
       "slug": "pele-de-pedra",
       "automatica": true,
       "acesso": [
-        "Mahok",
-        "Geral"
+        "Mahok"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

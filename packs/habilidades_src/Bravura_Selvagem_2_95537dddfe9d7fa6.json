@@ -15,8 +15,7 @@
       "Centauro",
       "Xamã",
       "Druida",
-      "Amoque",
-      "Geral"
+      "Amoque"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -40,8 +39,7 @@
         "Centauro",
         "Xamã",
         "Druida",
-        "Amoque",
-        "Geral"
+        "Amoque"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

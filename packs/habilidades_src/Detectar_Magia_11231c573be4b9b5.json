@@ -17,7 +17,6 @@
       "Rúnico",
       "Sacerdote",
       "Xamã",
-      "Geral",
       "Necromante"
     ],
     "tipoAcesso": "Classe",
@@ -44,7 +43,6 @@
         "Rúnico",
         "Sacerdote",
         "Xamã",
-        "Geral",
         "Necromante"
       ],
       "tipoAcesso": "Classe",

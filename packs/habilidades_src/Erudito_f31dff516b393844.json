@@ -12,8 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Senescal",
-      "Escriba",
-      "Geral"
+      "Escriba"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "automatica": false,
       "acesso": [
         "Senescal",
-        "Escriba",
-        "Geral"
+        "Escriba"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

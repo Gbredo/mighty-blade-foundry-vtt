@@ -16,10 +16,9 @@
       "Astéria",
       "Centauro",
       "Juban",
-      "Orc",
-      "Geral"
+      "Orc"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 45, 66",
     "exclusivoCom": [],
@@ -47,10 +46,9 @@
         "Astéria",
         "Centauro",
         "Juban",
-        "Orc",
-        "Geral"
+        "Orc"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []
