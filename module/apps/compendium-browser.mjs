@@ -580,8 +580,37 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       }
 
       // Cria uma cópia do item no ator
+      const itemData = typeof item.toObject === "function" ? item.toObject() : foundry.utils.deepClone(item);
+      if (!itemData.flags) itemData.flags = {};
+      if (!itemData.flags["mighty-blade"]) itemData.flags["mighty-blade"] = {};
+
+      const itemType = itemData.type || this.filterType;
+      if (itemType === "habilidade" || itemType === "magia") {
+        const mb = itemData.flags["mighty-blade"];
+        const rawItems = this.targetActor.items
+          ? (Array.isArray(this.targetActor.items) ? this.targetActor.items : Array.from(this.targetActor.items.values()))
+          : [];
+        const getActorItem = (t) => rawItems.find((i) => i.type === t);
+
+        if (this.subTab === "raca") {
+          const rDoc = getActorItem("raca");
+          mb.sourceRaceId = rDoc?.flags?.["mighty-blade"]?.slug || rDoc?.id || slugify(rDoc?.name || this.targetActor.system?.details?.raca || "");
+        } else if (this.subTab === "classe") {
+          const cDoc = getActorItem("classe");
+          mb.sourceClasseId = cDoc?.flags?.["mighty-blade"]?.slug || cDoc?.id || slugify(cDoc?.name || this.targetActor.system?.details?.classe || "");
+        } else if (this.subTab === "caminho") {
+          const camDoc = getActorItem("caminho");
+          mb.sourceCaminhoId = camDoc?.flags?.["mighty-blade"]?.slug || camDoc?.id || slugify(camDoc?.name || this.targetActor.system?.details?.caminho || "");
+        } else if (this.subTab === "organizacao") {
+          const orgDoc = getActorItem("organizacao");
+          mb.sourceOrganizacaoId = orgDoc?.flags?.["mighty-blade"]?.slug || orgDoc?.id || slugify(orgDoc?.name || this.targetActor.system?.details?.organizacao || "");
+        } else if (this.subTab === "geral") {
+          mb.origem = "geral";
+        }
+      }
+
       await this.targetActor.createEmbeddedDocuments("Item", [
-        item.toObject(),
+        itemData,
       ]);
 
       // Sincroniza metadados no ator para caminhos e organizações

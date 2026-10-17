@@ -12,9 +12,14 @@ import {
   ORGANIZACOES_FORJA_MAP,
 } from "../helpers/forja-art.mjs";
 import {
-  CANONICAL_CLASSES,
   CANONICAL_ANTECEDENTES,
 } from "../helpers/config.mjs";
+import {
+  CANONICAL_CLASSES,
+  CANONICAL_CAMINHOS,
+  CANONICAL_ORGANIZACOES,
+} from "../data/canonical-packs-data.mjs";
+import { norm } from "../helpers/requisitos.mjs";
 import { LevelUpDialog } from "../apps/dialogs/level-up-dialog.mjs";
 import { SelectionDialog } from "../apps/dialogs/selection-dialog.mjs";
 import {
@@ -287,20 +292,6 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
           antecedentes.push(i);
         } else {
           features.push(i);
-          if (
-            mbFlags.sourceRaceId ||
-            mbFlags.isSubFeature ||
-            mbFlags.parentAbilityId ||
-            i.system?.categoria === "caracteristica"
-          ) {
-            racialFeatures.push(i);
-          } else if (mbFlags.sourceClasseId) {
-            classFeatures.push(i);
-          } else if (mbFlags.sourceCaminhoId) {
-            pathFeatures.push(i);
-          } else {
-            generalFeatures.push(i);
-          }
         }
       }
       // 6. Magias
@@ -323,6 +314,75 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
       } else if (i.type === "organizacao") {
         i.img = resolveItemImage(i);
         organizacao = i;
+      }
+    }
+
+    // Classificação de Habilidades pela Origem (Flags explícitas ou listas de Classe/Caminho/Organização/Raça)
+    const classeNome = classe?.name || context.system?.details?.classe || this.actor?.system?.details?.classe || "";
+    const canonicalClass = CANONICAL_CLASSES.find(
+      (c) => norm(c.name) === norm(classeNome) || c.flags?.["mighty-blade"]?.slug === slugify(classeNome)
+    );
+    const classeLista = (classe?.system?.listaHabilidades && classe.system.listaHabilidades.length > 0)
+      ? classe.system.listaHabilidades
+      : (canonicalClass?.system?.listaHabilidades || []);
+
+    const caminhoNome = caminho?.name || context.system?.details?.caminho || this.actor?.system?.details?.caminho || "";
+    const canonicalCaminho = CANONICAL_CAMINHOS.find(
+      (c) => norm(c.name) === norm(caminhoNome) || c.flags?.["mighty-blade"]?.slug === slugify(caminhoNome)
+    );
+    const caminhoLista = (caminho?.system?.listaHabilidades && caminho.system.listaHabilidades.length > 0)
+      ? caminho.system.listaHabilidades
+      : (canonicalCaminho?.system?.listaHabilidades || []);
+
+    const orgNome = organizacao?.name || context.system?.details?.organizacao || this.actor?.system?.details?.organizacao || "";
+    const canonicalOrg = CANONICAL_ORGANIZACOES.find(
+      (o) => norm(o.name) === norm(orgNome) || o.flags?.["mighty-blade"]?.slug === slugify(orgNome)
+    );
+    const orgLista = (organizacao?.system?.listaHabilidades && organizacao.system.listaHabilidades.length > 0)
+      ? organizacao.system.listaHabilidades
+      : (canonicalOrg?.system?.listaHabilidades || []);
+
+    const racaNome = raca?.name || context.system?.details?.raca || this.actor?.system?.details?.raca || "";
+
+    for (const feat of features) {
+      const mbFlags = feat.flags?.["mighty-blade"] || {};
+      const slug = mbFlags.slug || slugify(feat.name || "");
+
+      // a) Flags de origem explícitas
+      if (mbFlags.sourceRaceId || mbFlags.isSubFeature || mbFlags.parentAbilityId) {
+        racialFeatures.push(feat);
+      } else if (mbFlags.sourceClasseId) {
+        classFeatures.push(feat);
+      } else if (mbFlags.sourceCaminhoId) {
+        pathFeatures.push(feat);
+      } else if (mbFlags.sourceOrganizacaoId) {
+        // Se houver grupo de organização no futuro; atualmente aloca em Gerais
+        generalFeatures.push(feat);
+      } else if (mbFlags.origem === "geral") {
+        generalFeatures.push(feat);
+      } else {
+        // b) Sem flag (itens antigos): dedução canônica
+        const reqStr = String(feat.system?.requisitos || "");
+        const acessoList = Array.isArray(feat.system?.acesso) ? feat.system.acesso : [];
+        const isRacial = Boolean(
+          racaNome && (
+            norm(reqStr).includes(norm(racaNome)) ||
+            ((feat.system?.tipoAcesso === "Raça" || mbFlags.tipoAcesso === "Raça") &&
+              acessoList.some((a) => norm(a) === norm(racaNome)))
+          )
+        );
+
+        if (classeLista.some((id) => slugify(id) === slug)) {
+          classFeatures.push(feat);
+        } else if (caminhoLista.some((id) => slugify(id) === slug)) {
+          pathFeatures.push(feat);
+        } else if (orgLista.some((id) => slugify(id) === slug)) {
+          generalFeatures.push(feat);
+        } else if (isRacial) {
+          racialFeatures.push(feat);
+        } else {
+          generalFeatures.push(feat);
+        }
       }
     }
 

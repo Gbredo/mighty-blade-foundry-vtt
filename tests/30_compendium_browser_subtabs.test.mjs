@@ -5,10 +5,7 @@ import {
   MightyBladeCompendiumBrowser,
   obterSubAbasCompendio,
 } from "../module/apps/compendium-browser.mjs";
-import { createRequire } from "node:module";
-
-const require = createRequire(import.meta.url);
-const { CLASSES } = require("../../MightyBlade3eWebsite/packages/rules-core/dist/index.js");
+import { CANONICAL_CLASSES } from "../module/data/canonical-packs-data.mjs";
 
 describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade com Seletor do Site)", () => {
   test("Para um Gnoll Necromante nível 1: sub-aba Necromante tem exatamente os ids de CLASSES.necromante.listaHabilidades (menos automáticas), sub-aba Gnoll não tem Asas Ancestrais, e Marca da Justiça não aparece em nenhuma sub-aba", async () => {
@@ -32,9 +29,14 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     assert.ok(subNecromante, "Sub-aba Necromante (classe) deve estar presente");
     assert.equal(subNecromante.label, "Necromante");
 
-    const necAuto = CLASSES.necromante.habilidadesAutomaticas || [];
-    const expectedNecIds = CLASSES.necromante.listaHabilidades.filter(
-      (id) => !necAuto.includes(id)
+    const canonicalNec = CANONICAL_CLASSES.find((c) => c.name === "Necromante");
+    assert.ok(canonicalNec, "Classe canônica Necromante deve existir em CANONICAL_CLASSES");
+
+    const autoConcessoes = (canonicalNec.system?.concessoes || [])
+      .filter((c) => c.tipo === "habilidade" && c.ref)
+      .map((c) => c.ref);
+    const expectedNecIds = (canonicalNec.system?.listaHabilidades || []).filter(
+      (id) => !autoConcessoes.includes(id)
     );
 
     assert.equal(
@@ -146,4 +148,78 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     assert.equal(data.subTabs, null, "subTabs deve ser null sem personagem");
     assert.ok(data.items.length > 500, "Deve listar catálogo completo de habilidades");
   });
+
+  test("Agrupamento na ficha: Gnoll Necromante com Contato com Espíritos (sem flag) e Comunhão com Espíritos (com flag de classe) ficam em Habilidades de Classe; Salteador fica em Raciais", async () => {
+    globalThis.foundry.appv1 = globalThis.foundry.appv1 || {};
+    globalThis.foundry.appv1.sheets = globalThis.foundry.appv1.sheets || {};
+    globalThis.foundry.appv1.sheets.ActorSheet = class {
+      async getData() {
+        return { items: [] };
+      }
+    };
+    globalThis.Item = globalThis.Item || { DEFAULT_ICON: "icons/svg/item-bag.svg" };
+
+    const { MightyBladeActorSheet } = await import("../module/sheets/actor-sheet.mjs");
+
+    const gnollNecromante = createMockActor({
+      name: "Gorguk",
+      details: {
+        raca: "Gnoll",
+        classe: "Necromante",
+        nivel: 1,
+      },
+      items: [
+        { name: "Gnoll", type: "raca" },
+        { name: "Necromante", type: "classe" },
+        {
+          name: "Contato com Espíritos",
+          type: "habilidade",
+          system: { categoria: "caracteristica" },
+          // sem flag de classe (item antigo)
+        },
+        {
+          name: "Comunhão com Espíritos",
+          type: "habilidade",
+          flags: {
+            "mighty-blade": {
+              sourceClasseId: "necromante",
+            },
+          },
+        },
+        {
+          name: "Salteador",
+          type: "habilidade",
+          system: {
+            requisitos: "Gnoll",
+          },
+        },
+      ],
+    });
+
+    const sheet = new MightyBladeActorSheet();
+    sheet.actor = gnollNecromante;
+
+    const context = {
+      items: [...gnollNecromante.items],
+      system: gnollNecromante.system,
+    };
+    sheet._prepareItems(context);
+
+    const classNames = context.classFeatures.map((f) => f.name);
+    const racialNames = context.racialFeatures.map((f) => f.name);
+
+    assert.ok(
+      classNames.includes("Contato com Espíritos"),
+      "Contato com Espíritos (sem flag, na lista da classe) deve estar em Habilidades de Classe"
+    );
+    assert.ok(
+      classNames.includes("Comunhão com Espíritos"),
+      "Comunhão com Espíritos (com sourceClasseId) deve estar em Habilidades de Classe"
+    );
+    assert.ok(
+      racialNames.includes("Salteador"),
+      "Salteador (requisito Gnoll) deve estar em Habilidades Raciais"
+    );
+  });
 });
+
