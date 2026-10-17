@@ -24,6 +24,8 @@ import {
   normalizarPontoEvolucao,
   resolverClasseCanonica,
 } from "../helpers/progressao.mjs";
+import { slugify } from "../helpers/forja-art.mjs";
+import { calcularEspacosHabilidades } from "../apps/compendium-browser.mjs";
 import {
   calcularDano,
   aplicarDano,
@@ -173,8 +175,13 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
     }
 
     const magias = documents.filter((d) => d.type === "magia");
+    if (magias.length > 1) {
+      if (typeof ui !== "undefined" && ui?.notifications?.info) {
+        ui.notifications.info(`${magias.length} magias adicionadas ao Grimório.`);
+      }
+    }
     for (const magia of magias) {
-      await this._onMagiaCreated(magia);
+      await this._onMagiaCreated(magia, { batch: magias.length > 1 });
     }
   }
 
@@ -331,11 +338,37 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
    * @returns {Promise<boolean>}
    */
   async _onHabilidadeCreated(hab) {
+    const habId = hab.id || hab._id;
+    const habSlug = hab.flags?.["mighty-blade"]?.slug || slugify(hab.name || "");
     const isAutoGrant = Boolean(
+      hab.flags?.["mighty-blade"]?.automatica ||
+      hab.flags?.["mighty-blade"]?.isSubFeature ||
       hab.flags?.["mighty-blade"]?.sourceRaceId ||
       hab.flags?.["mighty-blade"]?.sourceClasseId ||
-      hab.flags?.["mighty-blade"]?.sourceAprendiz
+      hab.flags?.["mighty-blade"]?.sourceAprendiz ||
+      hab.system?.nivel === "Automática" ||
+      hab.system?.nivel === "automatica" ||
+      MightyBladeActor._suppressConcessoes
     );
+
+    // Duplicata ao arrastar: se já existe um item com o mesmo slug, apaga o novo e avisa
+    if (!isAutoGrant && habSlug) {
+      const rawItems = Array.isArray(this.items) ? this.items : Array.from(this.items.values());
+      const jaExiste = rawItems.some((i) => {
+        if ((i.id || i._id) === habId) return false;
+        if (i.type !== "habilidade" && i.type !== "magia" && i.type !== "feature" && i.type !== "spell") return false;
+        const s = i.flags?.["mighty-blade"]?.slug || slugify(i.name || "");
+        return s === habSlug;
+      });
+
+      if (jaExiste) {
+        if (typeof ui !== "undefined" && ui?.notifications?.warn) {
+          ui.notifications.warn(`${hab.name} já está na ficha.`);
+        }
+        await this.deleteEmbeddedDocuments("Item", [habId]);
+        return false;
+      }
+    }
 
     if (!isAutoGrant) {
       const check = validarAquisicaoHabilidade(this, hab);
@@ -459,22 +492,63 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
       }
     }
 
+    // Limite ao arrastar: apenas avisa, sem bloquear
+    if (!isAutoGrant && !MightyBladeActor._suppressConcessoes) {
+      const espacos = calcularEspacosHabilidades(this);
+      if (espacos.escolhidas > espacos.limite) {
+        if (typeof ui !== "undefined" && ui?.notifications?.warn) {
+          ui.notifications.warn(`Espaços excedidos (${espacos.escolhidas} / ${espacos.limite})`);
+        }
+      }
+    }
+
     return true;
   }
 
   /**
    * Valida o acesso canônico (classe/raça/caminho/organização/Naga) e pré-requisitos de uma magia recém-adicionada.
    * @param {Item} magia
+   * @param {object} [options]
+   * @param {boolean} [options.batch=false] Se true, suprime a notificação individual pois haverá resumo em lote
    * @returns {Promise<boolean>}
    */
-  async _onMagiaCreated(magia) {
+  async _onMagiaCreated(magia, options = {}) {
+    const magiaId = magia.id || magia._id;
+    const magiaSlug = magia.flags?.["mighty-blade"]?.slug || slugify(magia.name || "");
+    const isAutoGrant = Boolean(
+      magia.flags?.["mighty-blade"]?.automatica ||
+      magia.flags?.["mighty-blade"]?.isSubFeature ||
+      magia.system?.nivel === "Automática" ||
+      magia.system?.nivel === "automatica" ||
+      MightyBladeActor._suppressConcessoes
+    );
+
+    // Duplicata ao arrastar
+    if (!isAutoGrant && magiaSlug) {
+      const rawItems = Array.isArray(this.items) ? this.items : Array.from(this.items.values());
+      const jaExiste = rawItems.some((i) => {
+        if ((i.id || i._id) === magiaId) return false;
+        if (i.type !== "habilidade" && i.type !== "magia" && i.type !== "feature" && i.type !== "spell") return false;
+        const s = i.flags?.["mighty-blade"]?.slug || slugify(i.name || "");
+        return s === magiaSlug;
+      });
+
+      if (jaExiste) {
+        if (typeof ui !== "undefined" && ui?.notifications?.warn) {
+          ui.notifications.warn(`${magia.name} já está na ficha.`);
+        }
+        await this.deleteEmbeddedDocuments("Item", [magiaId]);
+        return false;
+      }
+    }
+
     enriquecerItemComSSOT(magia, "magia");
     const check = validarAcessoMagia(this, magia);
     if (!check.permitido) {
       if (typeof ui !== "undefined" && ui?.notifications?.error) {
         ui.notifications.error(check.motivo);
       }
-      await this.deleteEmbeddedDocuments("Item", [magia.id || magia._id]);
+      await this.deleteEmbeddedDocuments("Item", [magiaId]);
       return false;
     }
 
@@ -485,13 +559,25 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
         if (typeof ui !== "undefined" && ui?.notifications?.error) {
           ui.notifications.error(msg);
         }
-        await this.deleteEmbeddedDocuments("Item", [magia.id || magia._id]);
+        await this.deleteEmbeddedDocuments("Item", [magiaId]);
         return false;
       }
     }
 
-    if (typeof ui !== "undefined" && ui?.notifications?.info) {
-      ui.notifications.info(`${magia.name} foi adicionada ao Grimório (aba Magias).`);
+    if (!options.batch) {
+      if (typeof ui !== "undefined" && ui?.notifications?.info) {
+        ui.notifications.info(`${magia.name} foi adicionada ao Grimório (aba Magias).`);
+      }
+    }
+
+    // Limite ao arrastar: apenas avisa, sem bloquear
+    if (!isAutoGrant && !MightyBladeActor._suppressConcessoes) {
+      const espacos = calcularEspacosHabilidades(this);
+      if (espacos.escolhidas > espacos.limite) {
+        if (typeof ui !== "undefined" && ui?.notifications?.warn) {
+          ui.notifications.warn(`Espaços excedidos (${espacos.escolhidas} / ${espacos.limite})`);
+        }
+      }
     }
 
     return true;

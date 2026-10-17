@@ -99,12 +99,75 @@ export function calcularEspacosHabilidades(actor) {
     escolhidas++;
   }
 
+  // 4. Habilidades Virtuais (Automáticas que foram substituídas por Caminho ou Habilidades com 'sobrescreve')
+  const CANONICAL_SOBRESCREVE_MAP = {
+    pacto: ["conhecimento-mistico", "dogma"],
+    apostata: ["conhecimento-mistico", "dogma"],
+  };
+
+  const idsSobrescritos = new Set();
+  for (const item of rawItems) {
+    const mbFlags = item.flags?.["mighty-blade"] || {};
+    const sob = item.system?.sobrescreve || mbFlags.sobrescreve || item.system?.substitui || mbFlags.substitui;
+    if (Array.isArray(sob)) {
+      for (const s of sob) idsSobrescritos.add(slugify(s));
+    } else if (typeof sob === "string" && sob) {
+      idsSobrescritos.add(slugify(sob));
+    }
+
+    const itemSlug = mbFlags.slug || slugify(item.name || "");
+    if (CANONICAL_SOBRESCREVE_MAP[itemSlug]) {
+      for (const s of CANONICAL_SOBRESCREVE_MAP[itemSlug]) idsSobrescritos.add(slugify(s));
+    }
+
+    const canonHab = CANONICAL_HABILIDADES.find((h) => (h.flags?.["mighty-blade"]?.slug || slugify(h.name)) === itemSlug);
+    const canonSob = canonHab?.system?.sobrescreve || canonHab?.flags?.["mighty-blade"]?.sobrescreve;
+    if (Array.isArray(canonSob)) {
+      for (const s of canonSob) idsSobrescritos.add(slugify(s));
+    } else if (typeof canonSob === "string" && canonSob) {
+      idsSobrescritos.add(slugify(canonSob));
+    }
+  }
+
+  // Caminho do personagem: se substitui ou sobrescreve automáticas
+  const camSob = camDoc?.system?.sobrescreve || camDoc?.flags?.["mighty-blade"]?.sobrescreve ||
+                 camCanon?.system?.sobrescreve || camCanon?.flags?.["mighty-blade"]?.sobrescreve ||
+                 camDoc?.system?.substitui || camCanon?.system?.substitui;
+  if (Array.isArray(camSob)) {
+    for (const s of camSob) idsSobrescritos.add(slugify(s));
+  } else if (typeof camSob === "string" && camSob) {
+    idsSobrescritos.add(slugify(camSob));
+  }
+
+  // Se o Caminho define explicitamente que substitui a habilidade automática da classe
+  if (camDoc?.system?.substituiAutomaticaClasse || camCanon?.system?.substituiAutomaticaClasse ||
+      camDoc?.system?.substituiAutomatica || camCanon?.system?.substituiAutomatica) {
+    if (classeDoc?.system?.habilidadeAutomatica) idsSobrescritos.add(slugify(classeDoc.system.habilidadeAutomatica));
+    if (classeCanon?.system?.habilidadeAutomatica) idsSobrescritos.add(slugify(classeCanon.system.habilidadeAutomatica));
+    for (const h of (classeDoc?.system?.habilidadesAutomaticas || [])) idsSobrescritos.add(slugify(h));
+    for (const h of (classeCanon?.system?.habilidadesAutomaticas || [])) idsSobrescritos.add(slugify(h));
+  }
+
+  // Automáticas que foram substituídas/perdidas
+  let totalSubstituidas = 0;
+  for (const autoId of autoIds) {
+    if (idsSobrescritos.has(autoId)) {
+      totalSubstituidas++;
+    }
+  }
+
   const nivelNum = Number(actor.system?.details?.nivel) || 1;
-  const limite = CANONICAL_HABILIDADES_POR_NIVEL?.[nivelNum] ?? CANONICAL_HABILIDADES_POR_NIVEL?.["1"] ?? 3;
+  const baseLimite = CANONICAL_HABILIDADES_POR_NIVEL?.[nivelNum] ?? CANONICAL_HABILIDADES_POR_NIVEL?.["1"] ?? 3;
+  // Como no site: virtuaisGanhasAteAgora = Math.min(totalPerdido, nivel)
+  const virtuais = Math.min(totalSubstituidas, nivelNum);
+  const limite = baseLimite + virtuais;
 
   return {
     escolhidas,
     limite,
+    baseLimite,
+    virtuais,
+    totalSubstituidas,
     esgotado: escolhidas >= limite,
   };
 }

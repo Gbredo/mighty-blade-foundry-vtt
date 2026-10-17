@@ -997,8 +997,11 @@ export function createMockActor(data = {}) {
     async _onHabilidadeCreated(hab) {
       return MightyBladeActor.prototype._onHabilidadeCreated.call(this, hab);
     },
-    async _onMagiaCreated(magia) {
-      return MightyBladeActor.prototype._onMagiaCreated.call(this, magia);
+    async _onMagiaCreated(magia, options = {}) {
+      return MightyBladeActor.prototype._onMagiaCreated.call(this, magia, options);
+    },
+    async _onCreateEmbeddedDocuments(embeddedName, documents, result, options, userId) {
+      return MightyBladeActor.prototype._onCreateEmbeddedDocuments.call(this, embeddedName, documents, result, options, userId);
     },
     validarAcoesTurno(acoes, opcoes = {}) {
       return validarAcoesTurno(acoes, { actor: this, ...opcoes });
