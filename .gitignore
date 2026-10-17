@@ -21,3 +21,6 @@ packs/**/*.log
 
 # mighty-blade
 build/
+
+# Scripts de investigacao / rascunho
+scripts/_rascunho/

@@ -61,3 +61,8 @@ Contagem SSOT esperada:
 - 164 magias
 
 Histórico de decisão: `RPG/MB/specs/Auditoria de Regras 2026-10-15.md` no Cofre Obsidian.
+
+---
+
+## 6. Scripts de Investigacao e Rascunho (Ad-hoc)
+* Scripts de investigação (inspecionar, ver, checar, testar…) vão em scripts/_rascunho/ e nunca são commitados. Só entram no repositório geradores reaproveitáveis, scripts de migração e testes em tests/.
