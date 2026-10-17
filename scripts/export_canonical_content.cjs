@@ -465,7 +465,7 @@ function loadObsidianHabilidades() {
     const { fm, nome, descricaoMd, regrasMd, rawBody } = parseObsidianFrontmatterAndBody(content, fallbackTitle);
 
     const status = String(fm.status || "").trim().toLowerCase();
-    if (status === "substituida" || status === "substituído" || status === "substituido" || status === "legado-gb") {
+    if (status === "substituida" || status === "substituído" || status === "substituido" || status === "legado-gb" || status === "inventada" || status === "inventado") {
       continue;
     }
 

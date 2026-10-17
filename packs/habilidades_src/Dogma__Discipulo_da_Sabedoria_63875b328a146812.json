@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você dedica sua fé a Sarfion, deus da verdade, dos livros e do conhecimento arcano e profano. Você recebe +1d6 em todos os testes de Conhecimento (História, Religião, Misticismo) e leitura de idiomas arcanos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para as habilidades Marca da Verdade e O Tomo das Muitas Línguas. Código de conduta: nunca queimar registros de conhecimento e sempre buscar a verdade absoluta dos fatos.</p></div>"
+    "description": "<p>Você segue os ensinamentos de Sarfion, o Guardião do Conhecimento, e tenta transmiti-lo aos outros sempre que possível. Você nunca pode mentir ou omitir uma informação, deve sempre que puder transmitir conhecimento e deve ler por pelo menos 1 hora por dia. Você tem Inteligência +1 enquanto seguir este dogma. Se em qualquer momento você mentir ou desprezar a educação, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Cajado da conjuração. Esse Cajado oferece os benefícios combinados de um Cajado, um Orbe e uma Varinha quando seu portador conjura magias.</p></div>"
   },
   "flags": {
     "mighty-blade": {

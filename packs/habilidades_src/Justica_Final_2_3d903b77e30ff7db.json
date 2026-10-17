@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um demônio, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Justiça Final 1.</p></div>"
+    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um infernal, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Justiça Final 1.</p></div>"
   },
   "flags": {
     "mighty-blade": {

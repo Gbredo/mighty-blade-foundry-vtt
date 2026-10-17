@@ -46,7 +46,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Os elfos foram agraciados pela deusa Lathellanis com graça e pureza sobrenaturais. Você é completamente imune a doenças (tanto naturais quanto mágicas), a efeitos de Dreno de Energia e a efeitos de envelhecimento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você rola +1d6 em testes de Inteligência para perceber e rastrear alvos na natureza. Elfos são incompatíveis com o Caminho Amoque.</p></div>"
+    "description": "<p>A proteção de Lathellanis é evidente em você, assim como uma pálida sombra da astúcia da divindade da natureza. Você é imune à todas as doenças de origem natural ou mágica, Dreno de Energia e efeitos que causem Envelhecimento (de qualquer tipo ou origem). Além disso, você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos.</p>"
   },
   "flags": {
     "mighty-blade": {

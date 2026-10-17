@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você segue os caminhos de Ran, divindade dos dados, da fortuna e dos caprichos do destino. Uma vez por sessão de jogo, você pode re-rolar qualquer teste que tenha resultado em fracasso, ficando com o segundo resultado obtido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Maré de Sorte. Código de conduta: aceitar as reviravoltas do destino e nunca recusar um desafio ou aposta formal.</p></div>"
+    "description": "<p>Você segue os ensinamentos da caprichosa Ran, a Senhora dos Mares. Você não pode procurar ou aceitar previsões sobre o futuro – e se você se mostrar muito cauteloso e planejar muito suas ações, você pode perder o favor de Ran. Sempre que uma rolagem tiver ao menos um dado com o resultado 6, você pode rolar novamente 1 dado cujo resultado não seja um 6 nem um 1. No entanto, sempre que você rolar 3 ou mais dados e apenas um deles não tiver um resultado 1, o resultado daquele dado passa a ser considerado 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Arpão das Marés. Este arpão, semelhante a uma presa de narval serrilhada, permite que seu portador role novamente qualquer dado uma vez por turno em qualquer teste que faça, mas deve manter o novo resultado. Essa rolagem não pode ser utilizada para modificar resultados que sejam sucessos decisivos ou falhas críticas.</p></div>"
   },
   "flags": {
     "mighty-blade": {

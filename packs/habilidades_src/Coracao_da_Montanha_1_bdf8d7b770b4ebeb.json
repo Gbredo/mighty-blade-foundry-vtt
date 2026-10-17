@@ -1,0 +1,61 @@
+{
+  "name": "Coração da Montanha 1",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Anão",
+      "Geral"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Automática",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 25; Guia do Vilão, pág. 233",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "resistencia",
+        "dano": "veneno",
+        "grau": "imune"
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 1,
+        "contexto": "resistir a fadiga, doenças e efeitos físicos"
+      },
+      {
+        "tipo": "cargaComoForca",
+        "valor": 2
+      }
+    ],
+    "concessoes": [],
+    "description": "<p>Sua constituição foi forjada nos subterrâneos agrestes e impiedosos, onde apenas os mais resistentes conseguem sobreviver. Você é imune a todos os venenos naturais e mágicos e rola +1d6 em testes para resistir à fadiga, doenças e quaisquer outros efeitos físicos. Além disso, sua Carga é calculada como se você tivesse Força +2.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "coracao-da-montanha-1",
+      "automatica": true,
+      "acesso": [
+        "Anão",
+        "Geral"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "bdf8d7b770b4ebeb",
+  "_key": "!items!bdf8d7b770b4ebeb"
+}

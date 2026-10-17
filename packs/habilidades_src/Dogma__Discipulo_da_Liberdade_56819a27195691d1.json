@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você segue Taranis, divindade dos ventos, dos viajantes e da liberdade irrestrita. Você recebe +2 em testes e Confrontos para escapar das condições Agarrado e Imobilizado, ou para se livrar de amarras físicas e mágicas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Quebrar os Grilhões. Código de conduta: lutar ativamente contra a escravidão e jamais aprisionar seres livres sem julgamento legítimo.</p></div>"
+    "description": "<p>Você segue os ensinamentos de Taranis Asas-de-Nuvens. Você nunca pode aprisionar, submeter ou forçar alguém a uma situação, condição ou ideia. Você tem Agilidade +1 enquanto seguir este dogma. Se em qualquer momento você aprisionar alguém de qualquer forma ou permitir que alguém seja preso contra sua vontade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Azagaia de gelo. Além do dano normal, se for arremessada essa arma causa um dano extra igual a 10/Frio, e se desfaz em um pó fino de gelo e retorna com um vento gelado até as mãos do portador onde reverte à sua forma de azagaia no final do turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {

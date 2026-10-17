@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você segue estritamente os ensinamentos de Hou, o deus da forja, do fogo e da criação. Você recebe desconto de 5 Pontos de Mana no custo de conjuração de magias de Cariátide e Golens (mínimo de 5 PM). Além disso, recebe +1 em testes de Forja e Manufatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Chamas de Hou. Código de conduta: nunca destruir uma obra-prima de forja intencionalmente e honrar o trabalho dos artesãos.</p></div>"
+    "description": "<p>Você segue os ensinamentos de Hou, o Fogo. Você nunca pode quebrar um juramento, faltar com a palavra ou desistir de uma tarefa que se prontificou a levar a cabo – mesmo que isso ameace sua vida. Suas magias de Conjuração, Cariátide e Golens têm seu custo de Mana reduzido em 5 enquanto seguir este Dogma. Se em qualquer momento você quebrar um juramento ou uma promessa ou desistir de uma tarefa que se prontificou a terminar, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Martelo de Guerra flamejante. Além do dano normal, esse martelo causa um dano extra igual a 10/Fogo.</p></div>"
   },
   "flags": {
     "mighty-blade": {

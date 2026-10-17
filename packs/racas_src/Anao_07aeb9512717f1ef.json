@@ -11,7 +11,7 @@
     },
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
-      "nome": "Coração da Montanha",
+      "nome": "Coração da Montanha 1",
       "descricao": "Imune a venenos (naturais e mágicos). +1d6 em testes para resistir a fadiga, doenças e efeitos físicos. Carga calculada como se tivesse Força +2.",
       "tipo": "suporte",
       "categoria": "caracteristica",
@@ -20,7 +20,7 @@
     "concessoes": [
       {
         "tipo": "habilidade",
-        "ref": "coracao-da-montanha"
+        "ref": "coracao-da-montanha-1"
       }
     ],
     "classesComuns": "Guerreiro, Paladino, Sacerdote e Rúnico",

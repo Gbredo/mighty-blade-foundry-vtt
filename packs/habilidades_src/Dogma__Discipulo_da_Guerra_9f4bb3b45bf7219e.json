@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você segue os ensinamentos marciais de Hadorn, o deus da guerra honrada, da coragem e das batalhas. Você recebe +1 em jogadas de dano com armas marciais dedicadas à sua divindade e +1 em testes para resistir a efeitos de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Aura de Guerra. Código de conduta: nunca demonstrar covardia em combate e aceitar a rendição de inimigos honrados.</p></div>"
+    "description": "<p>Você segue os ensinamentos de Hadorn Braço de Ferro. Você nunca pode fugir de uma luta (a menos que seja uma morte certa) e deve sempre honrar a morte de quem morreu lutando. Você tem Força +1 enquanto seguir este dogma. Se em qualquer momento você fugir de uma luta ou desonrar os mortos, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Machado Pesado de bronze. Esta arma é extremamente afiada e causa o dobro do dano normal.</p></div>"
   },
   "flags": {
     "mighty-blade": {

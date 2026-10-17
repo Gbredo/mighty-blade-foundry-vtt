@@ -65,7 +65,7 @@ test("Bloco 1: Criação de Personagem — Atributos e Distribuição Básica", 
     // 1.1.2 Habilidade Automática Concedida para cada uma das 21 raças
     await st.test("1.1.2 Habilidade Automática Concedida: Insere a habilidade automática correta no vetor de habilidades", () => {
       const habilidadesRaciaisEsperadas = {
-        "Anão": "Coração da Montanha",
+        "Anão": "Coração da Montanha 1",
         "Elfo": "Benção de Lathellanis",
         "Fauno": "Patas com Cascos",
         "Humano": "Adaptabilidade",

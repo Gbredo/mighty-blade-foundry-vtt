@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é consagrado a Denalla, a deusa da misericórdia, da cura e da paz entre os povos. Todas as suas magias de Cura recuperam 5 Pontos de Vida adicionais quando conjuradas sobre criaturas vivas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Aura de Paz. Código de conduta: nunca desferir o primeiro golpe em combate e sempre priorizar a resolução diplomática e o socorro aos feridos.</p></div>"
+    "description": "<p>Você é um discípulo de Denalla, a Vida. Você deve sempre trazer a paz, nunca poderá matar qualquer criatura e deve tentar encontrar um caminho que não exija combate em todas as situações. Você tem Vontade +2 enquanto seguir este dogma. Se em qualquer momento você matar ou permitir que alguém lute sem necessidade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Missal da paz. Um tomo mágico que contém todas as magias que restaurem Pontos de Vida que o Sacerdote conheça. Ele pode conjurar qualquer dessas magias a partir do tomo e essas magias curam 10 PVs a mais do que o normal.</p></div>"
   },
   "flags": {
     "mighty-blade": {

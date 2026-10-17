@@ -378,16 +378,17 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
 
   // ===========================================================================
   describe("Sub-módulo 3.7 — Paridade SSOT (habilidades.base) e Controle de Acesso (Feiticeiro × Sacerdote)", () => {
-    test("3.7.1 Todas as 164 magias e 553 habilidades principais possuem acesso e tipoAcesso do SSOT", () => {
-      assert.equal(CANONICAL_MAGIAS.length, 164, "Total exato de 164 magias de habilidades.base");
+    test("3.7.1 Todas as 163 magias e 550 habilidades principais possuem acesso e tipoAcesso do SSOT", () => {
+      // lote 5 r5: -1 magia (Marca da Ordem substituída por Marca da Justiça) -> 163
+      assert.equal(CANONICAL_MAGIAS.length, 163, "Total exato de 163 magias de habilidades.base");
       for (const m of CANONICAL_MAGIAS) {
         assert.ok(Array.isArray(m.system?.acesso) && m.system.acesso.length > 0, `Magia "${m.name}" deve ter acesso definido`);
         assert.ok(m.system?.tipoAcesso, `Magia "${m.name}" deve ter tipoAcesso definido`);
       }
 
       const habsPrincipais = CANONICAL_HABILIDADES.filter((h) => !h.flags?.["mighty-blade"]?.isSubFeature);
-      // lote 5: +4 (Ameaçador Naga/Orc, Faça-os Sangrar, Melodia do Frenesi), −2 substituídas (Ameaçador, Sangrar), −5 Músicas legado-gb (Canção Desconcentrante, Melodia da Fúria/do Enjoo/dos Animais/Sonífera); renomeações não mudam o total
-      assert.equal(habsPrincipais.length, 553, "Total exato de 553 habilidades principais de habilidades.base");
+      // lote 5: +4 (Ameaçador Naga/Orc, Faça-os Sangrar, Melodia do Frenesi), −2 substituídas (Ameaçador, Sangrar), −5 Músicas legado-gb; lote 5 r5: -2 inventadas (Atordoar, Lobo do Mar), -1 substituída (Vitalidade Heroica) -> 550
+      assert.equal(habsPrincipais.length, 550, "Total exato de 550 habilidades principais de habilidades.base");
       for (const h of habsPrincipais) {
         assert.ok(Array.isArray(h.system?.acesso) && h.system.acesso.length > 0, `Habilidade "${h.name}" deve ter acesso definido`);
         assert.ok(h.system?.tipoAcesso, `Habilidade "${h.name}" deve ter tipoAcesso definido`);

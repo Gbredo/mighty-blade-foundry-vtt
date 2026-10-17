@@ -1,0 +1,44 @@
+{
+  "name": "Aura da Guerra",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Dogma: Discípulo da Guerra",
+    "acesso": [
+      "Sacerdote"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 102",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você foi abençoado por Hadorn com uma aura que melhora as capacidades de combate da sua tropa! Quando você estiver engajado em combate com pelo menos mais um aliado e estiver lutando com pelo menos duas outras criaturas, você e todos os seus aliados que estejam a uma quantidade de metros iguais à sua Determinação recebem +1 em todas as suas rolagens de ataque e +1 para conjurar magias que causem dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se só houver um inimigo ativo no combate ou se você não tiver nenhum aliado lutando ao seu lado.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "aura-da-guerra",
+      "automatica": false,
+      "acesso": [
+        "Sacerdote"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "b780dcb073c50129",
+  "_key": "!items!b780dcb073c50129"
+}

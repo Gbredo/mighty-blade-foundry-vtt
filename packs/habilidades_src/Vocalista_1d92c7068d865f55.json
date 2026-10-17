@@ -9,7 +9,7 @@
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
-    "requisitos": "Nível 5, pelo menos uma Habilidade de Grito",
+    "requisitos": "",
     "acesso": [
       "Bardo",
       "Menestrel"
@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você treinou sua voz para se tornar mais potente e límpida e sua dicção mais clara e segura. Você recebe +2 em todos os testes que envolvam a fala – como mentir, seduzir, barganhar ou cantar (incluindo Canções, mas não Melodias) – e na sua Determinação para determinar se os alvos de seus Gritos e Rugidos são afetados por seus efeitos. Além disso, seus Gritos e Rugidos têm a área de efeito dobrada.</p>"
+    "description": "<p>Você sabe utilizar sua voz para cantar com harmonia. Você recebe +2 em todos os testes para cantar e declamar (incluindo utilizar Músicas do tipo Canção), e suas Canções tem seu custo de mana reduzido em 5.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -30,7 +30,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando sofrer algum dano proveniente de um ataque, Magia ou Música, você recupera 5 Pontos de Mana. Você só pode usar esta Habilidade uma vez por turno.</p>"
+    "description": "<p>Quando sofrer algum dano ou perder Pontos de Vida fora de seu turno, você recupera 5 Pontos de Mana. Esta Habilidade só pode ser utilizada uma vez por turno.</p>"
   },
   "flags": {
     "mighty-blade": {

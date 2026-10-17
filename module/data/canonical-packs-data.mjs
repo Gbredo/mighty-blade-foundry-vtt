@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1163 | Diários: 68
+ * Total de itens: 1159 | Diários: 68
  */
 
 export const CANONICAL_RACAS = [
@@ -18,7 +18,7 @@ export const CANONICAL_RACAS = [
       },
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
-        "nome": "Coração da Montanha",
+        "nome": "Coração da Montanha 1",
         "descricao": "Imune a venenos (naturais e mágicos). +1d6 em testes para resistir a fadiga, doenças e efeitos físicos. Carga calculada como se tivesse Força +2.",
         "tipo": "suporte",
         "categoria": "caracteristica",
@@ -27,7 +27,7 @@ export const CANONICAL_RACAS = [
       "concessoes": [
         {
           "tipo": "habilidade",
-          "ref": "coracao-da-montanha"
+          "ref": "coracao-da-montanha-1"
         }
       ],
       "classesComuns": "Guerreiro, Paladino, Sacerdote e Rúnico",
@@ -3948,7 +3948,6 @@ export const CANONICAL_ORGANIZACOES = [
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ac097694e091b93a\" data-slug=\"lobos-dos-mares\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Navio Lobo de Guerra, atracado no extremo do porto de Adieren</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não possui</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
       "listaHabilidades": [
         "investida-acrobatica",
-        "lobo-do-mar",
         "lutar-no-conves",
         "navegador",
         "pernas-do-mar"
@@ -7061,50 +7060,6 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!cc5ba2a55ebe93d2"
   },
   {
-    "name": "Atordoar",
-    "type": "habilidade",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "tipo": "reacao",
-      "categoria": "tecnica",
-      "custo": 10,
-      "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
-      "requisitos": "",
-      "acesso": [
-        "Geral"
-      ],
-      "tipoAcesso": "Geral",
-      "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 38",
-      "exclusivoCom": [],
-      "somenteCriacao": false,
-      "bonusAtributo": {
-        "atributo": "",
-        "valor": 0
-      },
-      "efeitos": [],
-      "concessoes": [],
-      "description": "<p>Quando realizar um ataque corporal e acertar, você pode abrir mão do dano para atordoar o alvo. O oponente precisa vencer um teste de Força (Dificuldade igual à sua Determinação) ou fica Atordoado por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se o alvo passar no teste de Força, não fica Atordoado, mas ainda assim não sofre o dano do ataque.</p></div>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "atordoar",
-        "automatica": false,
-        "acesso": [
-          "Geral"
-        ],
-        "tipoAcesso": "Geral",
-        "nivel": "Nv1",
-        "aliases": [],
-        "opcoes": []
-      }
-    },
-    "_id": "f7c44230d75590a3",
-    "_key": "!items!f7c44230d75590a3"
-  },
-  {
     "name": "Atropelar",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -7197,7 +7152,7 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!c0bb9e7c12952282"
   },
   {
-    "name": "Aura de Guerra",
+    "name": "Aura da Guerra",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
     "system": {
@@ -7222,11 +7177,11 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você foi abençoado por Hadorn com uma aura que melhora as capacidades de combate da sua tropa! Quando você estiver engajado em combate com pelo menos mais um aliado e estiver lutando com pelo menos duas outras criaturas, você e todos os seus aliados que estejam a uma quantidade de metros iguais à sua Determinação recebem +1 em todas as suas rolagens de ataque e +1 para conjurar magias que causem dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se só houver um inimigo ativo no combate ou se você não tiver nenhum aliado lutando ao seu lado. Requer Dogma: Discípulo da Guerra.</p></div>"
+      "description": "<p>Você foi abençoado por Hadorn com uma aura que melhora as capacidades de combate da sua tropa! Quando você estiver engajado em combate com pelo menos mais um aliado e estiver lutando com pelo menos duas outras criaturas, você e todos os seus aliados que estejam a uma quantidade de metros iguais à sua Determinação recebem +1 em todas as suas rolagens de ataque e +1 para conjurar magias que causem dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se só houver um inimigo ativo no combate ou se você não tiver nenhum aliado lutando ao seu lado.</p></div>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "aura-de-guerra",
+        "slug": "aura-da-guerra",
         "automatica": false,
         "acesso": [
           "Sacerdote"
@@ -7237,8 +7192,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": []
       }
     },
-    "_id": "2e13975dbe80b39f",
-    "_key": "!items!2e13975dbe80b39f"
+    "_id": "b780dcb073c50129",
+    "_key": "!items!b780dcb073c50129"
   },
   {
     "name": "Aura de Paz",
@@ -7704,7 +7659,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Os elfos foram agraciados pela deusa Lathellanis com graça e pureza sobrenaturais. Você é completamente imune a doenças (tanto naturais quanto mágicas), a efeitos de Dreno de Energia e a efeitos de envelhecimento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você rola +1d6 em testes de Inteligência para perceber e rastrear alvos na natureza. Elfos são incompatíveis com o Caminho Amoque.</p></div>"
+      "description": "<p>A proteção de Lathellanis é evidente em você, assim como uma pálida sombra da astúcia da divindade da natureza. Você é imune à todas as doenças de origem natural ou mágica, Dreno de Energia e efeitos que causem Envelhecimento (de qualquer tipo ou origem). Além disso, você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -10772,7 +10727,7 @@ export const CANONICAL_HABILIDADES = [
     "system": {
       "tipo": "suporte",
       "categoria": "caracteristica",
-      "custo": 10,
+      "custo": 0,
       "custoVariavel": false,
       "dificuldade": 0,
       "dificuldadeTexto": "",
@@ -11480,7 +11435,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Quando sofrer algum dano proveniente de um ataque, Magia ou Música, você recupera 5 Pontos de Mana. Você só pode usar esta Habilidade uma vez por turno.</p>"
+      "description": "<p>Quando sofrer algum dano ou perder Pontos de Vida fora de seu turno, você recupera 5 Pontos de Mana. Esta Habilidade só pode ser utilizada uma vez por turno.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -11505,61 +11460,7 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!aaf41845dccdcfc8"
   },
   {
-    "name": "Coração da Montanha 2",
-    "type": "habilidade",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "tipo": "suporte",
-      "categoria": "caracteristica",
-      "custo": 0,
-      "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
-      "requisitos": "Coração da Montanha",
-      "acesso": [
-        "Anão"
-      ],
-      "tipoAcesso": "Raça",
-      "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 48",
-      "exclusivoCom": [],
-      "somenteCriacao": false,
-      "bonusAtributo": {
-        "atributo": "",
-        "valor": 0
-      },
-      "efeitos": [
-        {
-          "tipo": "bonusPV",
-          "valor": 5
-        },
-        {
-          "tipo": "resistencia",
-          "dano": "doenca",
-          "grau": "imune"
-        }
-      ],
-      "concessoes": [],
-      "description": "<p>Você é ainda mais vigoroso e resistente que a maioria dos Anões. Você tem +5 Pontos de Vida e é imune a todas as doenças de origem natural ou mágica e rola +1d6 em testes para resistir a quaisquer efeitos de fadiga ou outros efeitos físicos. Esse bônus se acumula com o bônus de Coração da Montanha 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Acumula-se com os benefícios fornecidos pela Habilidade Automática Coração da Montanha.</p></div>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "coracao-da-montanha-2",
-        "automatica": false,
-        "acesso": [
-          "Anão"
-        ],
-        "tipoAcesso": "Raça",
-        "nivel": "Nv1",
-        "aliases": [],
-        "opcoes": []
-      }
-    },
-    "_id": "ac51567859ed93f9",
-    "_key": "!items!ac51567859ed93f9"
-  },
-  {
-    "name": "Coração da Montanha",
+    "name": "Coração da Montanha 1",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
     "system": {
@@ -11600,11 +11501,11 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Sua constituição anã é lendária por suportar as maiores adversidades das profundezas. Você é imune a venenos naturais e mágicos, e rola +1d6 em testes para resistir à fadiga e a doenças.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sua Carga máxima é calculada como Força +2. Anões são proibidos de selecionar a Habilidade Geral Gigantismo.</p></div>"
+      "description": "<p>Sua constituição foi forjada nos subterrâneos agrestes e impiedosos, onde apenas os mais resistentes conseguem sobreviver. Você é imune a todos os venenos naturais e mágicos e rola +1d6 em testes para resistir à fadiga, doenças e quaisquer outros efeitos físicos. Além disso, sua Carga é calculada como se você tivesse Força +2.</p>"
     },
     "flags": {
       "mighty-blade": {
-        "slug": "coracao-da-montanha",
+        "slug": "coracao-da-montanha-1",
         "automatica": true,
         "acesso": [
           "Anão",
@@ -11616,8 +11517,62 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": []
       }
     },
-    "_id": "ead87be3448e3887",
-    "_key": "!items!ead87be3448e3887"
+    "_id": "bdf8d7b770b4ebeb",
+    "_key": "!items!bdf8d7b770b4ebeb"
+  },
+  {
+    "name": "Coração da Montanha 2",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Coração da Montanha 1",
+      "acesso": [
+        "Anão"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 48",
+      "exclusivoCom": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "bonusPV",
+          "valor": 5
+        },
+        {
+          "tipo": "resistencia",
+          "dano": "doenca",
+          "grau": "imune"
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Você é ainda mais vigoroso e resistente que a maioria dos Anões. Você tem +5 Pontos de Vida e é imune a todas as doenças de origem natural ou mágica e rola +1d6 em testes para resistir a quaisquer efeitos de fadiga ou outros efeitos físicos. Esse bônus se acumula com o bônus de Coração da Montanha 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Acumula-se com os benefícios fornecidos pela Habilidade Automática Coração da Montanha 1.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "coracao-da-montanha-2",
+        "automatica": false,
+        "acesso": [
+          "Anão"
+        ],
+        "tipoAcesso": "Raça",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": []
+      }
+    },
+    "_id": "ac51567859ed93f9",
+    "_key": "!items!ac51567859ed93f9"
   },
   {
     "name": "Coração de Tinta",
@@ -13174,7 +13129,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você segue estritamente os ensinamentos de Hou, o deus da forja, do fogo e da criação. Você recebe desconto de 5 Pontos de Mana no custo de conjuração de magias de Cariátide e Golens (mínimo de 5 PM). Além disso, recebe +1 em testes de Forja e Manufatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Chamas de Hou. Código de conduta: nunca destruir uma obra-prima de forja intencionalmente e honrar o trabalho dos artesãos.</p></div>"
+      "description": "<p>Você segue os ensinamentos de Hou, o Fogo. Você nunca pode quebrar um juramento, faltar com a palavra ou desistir de uma tarefa que se prontificou a levar a cabo – mesmo que isso ameace sua vida. Suas magias de Conjuração, Cariátide e Golens têm seu custo de Mana reduzido em 5 enquanto seguir este Dogma. Se em qualquer momento você quebrar um juramento ou uma promessa ou desistir de uma tarefa que se prontificou a terminar, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Martelo de Guerra flamejante. Além do dano normal, esse martelo causa um dano extra igual a 10/Fogo.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13221,7 +13176,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você segue os ensinamentos marciais de Hadorn, o deus da guerra honrada, da coragem e das batalhas. Você recebe +1 em jogadas de dano com armas marciais dedicadas à sua divindade e +1 em testes para resistir a efeitos de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Aura de Guerra. Código de conduta: nunca demonstrar covardia em combate e aceitar a rendição de inimigos honrados.</p></div>"
+      "description": "<p>Você segue os ensinamentos de Hadorn Braço de Ferro. Você nunca pode fugir de uma luta (a menos que seja uma morte certa) e deve sempre honrar a morte de quem morreu lutando. Você tem Força +1 enquanto seguir este dogma. Se em qualquer momento você fugir de uma luta ou desonrar os mortos, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Machado Pesado de bronze. Esta arma é extremamente afiada e causa o dobro do dano normal.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13270,7 +13225,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é um devoto de Mirah, a Justiça ou de Ahogr Ruge-Mundos. Você deve seguir as leis e jamais pode permitir que alguém seja prejudicado injustamente se você puder evitar. Você tem Vontade +1 enquanto seguir este dogma. Se você quebrar uma lei ou permitir que alguém o faça de modo proposital sem exigir punição imediata, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma.</p></div>"
+      "description": "<p>Você é um devoto de Mirah, a Justiça ou de Ahogr Ruge-Mundos. Você deve seguir as leis e jamais pode permitir que alguém seja prejudicado injustamente se você puder evitar. Você tem Vontade +1 enquanto seguir este dogma. Se você quebrar uma lei ou permitir que alguém o faça de modo proposital sem exigir punição imediata, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Espada Longa cintilante. Além do dano normal, essa espada causa um dano extra igual a 10/Eletricidade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13318,7 +13273,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você segue Taranis, divindade dos ventos, dos viajantes e da liberdade irrestrita. Você recebe +2 em testes e Confrontos para escapar das condições Agarrado e Imobilizado, ou para se livrar de amarras físicas e mágicas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Quebrar os Grilhões. Código de conduta: lutar ativamente contra a escravidão e jamais aprisionar seres livres sem julgamento legítimo.</p></div>"
+      "description": "<p>Você segue os ensinamentos de Taranis Asas-de-Nuvens. Você nunca pode aprisionar, submeter ou forçar alguém a uma situação, condição ou ideia. Você tem Agilidade +1 enquanto seguir este dogma. Se em qualquer momento você aprisionar alguém de qualquer forma ou permitir que alguém seja preso contra sua vontade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Azagaia de gelo. Além do dano normal, se for arremessada essa arma causa um dano extra igual a 10/Frio, e se desfaz em um pó fino de gelo e retorna com um vento gelado até as mãos do portador onde reverte à sua forma de azagaia no final do turno.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13365,7 +13320,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você reverencia Ellenis / Lathellanis, protetoras das florestas, dos animais e do equilíbrio natural. Você é considerado em harmonia com os ermos, recebendo +1 em testes de Sobrevivência e Trato com Animais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Elo Natural. Código de conduta: caçar apenas para alimentação estritamente necessária e proteger bosques sagrados contra a destruição desmedida.</p></div>"
+      "description": "<p>Você segue os ensinamentos de Ellenis, a Dama da Natureza ou de Lathellanis, a Grande Matriarca. Você deve sempre proteger a natureza e os animais, e nunca deve extrair dela mais do que o estritamente necessário – e quando precisar fazer isso, deve repor o dano que causou de alguma forma. Você pode se comunicar com qualquer Besta do tipo Mamífero, Peixe, Ave ou Réptil por meio de gestos e olhares e recebe +1 em todas as rolagens relativas à esses tipos de criaturas. Se em qualquer momento você desrespeitar a natureza, deixar que outros o façam ou deixar de ajudar quando ela precisar, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Arco Recurvo urticante. O portador desse arco recebe um bônus de +2 em seus ataques à distância, e toda vez que a corda desse arco é puxada, um ramo verde com uma única folha farpada na ponta cresce no lugar da flecha. Qualquer alvo atingido por uma dessas flechas, além de sofrer o dano normal fica automaticamente envenenado, perdendo 2 Pontos de Vida por turno. Esse veneno é considerado mágico e seus efeitos perduram até serem curados ou até o arco ser dissipado.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13412,7 +13367,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é consagrado a Denalla, a deusa da misericórdia, da cura e da paz entre os povos. Todas as suas magias de Cura recuperam 5 Pontos de Vida adicionais quando conjuradas sobre criaturas vivas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Aura de Paz. Código de conduta: nunca desferir o primeiro golpe em combate e sempre priorizar a resolução diplomática e o socorro aos feridos.</p></div>"
+      "description": "<p>Você é um discípulo de Denalla, a Vida. Você deve sempre trazer a paz, nunca poderá matar qualquer criatura e deve tentar encontrar um caminho que não exija combate em todas as situações. Você tem Vontade +2 enquanto seguir este dogma. Se em qualquer momento você matar ou permitir que alguém lute sem necessidade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Missal da paz. Um tomo mágico que contém todas as magias que restaurem Pontos de Vida que o Sacerdote conheça. Ele pode conjurar qualquer dessas magias a partir do tomo e essas magias curam 10 PVs a mais do que o normal.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13458,7 +13413,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você dedica sua fé a Sarfion, deus da verdade, dos livros e do conhecimento arcano e profano. Você recebe +1d6 em todos os testes de Conhecimento (História, Religião, Misticismo) e leitura de idiomas arcanos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para as habilidades Marca da Verdade e O Tomo das Muitas Línguas. Código de conduta: nunca queimar registros de conhecimento e sempre buscar a verdade absoluta dos fatos.</p></div>"
+      "description": "<p>Você segue os ensinamentos de Sarfion, o Guardião do Conhecimento, e tenta transmiti-lo aos outros sempre que possível. Você nunca pode mentir ou omitir uma informação, deve sempre que puder transmitir conhecimento e deve ler por pelo menos 1 hora por dia. Você tem Inteligência +1 enquanto seguir este dogma. Se em qualquer momento você mentir ou desprezar a educação, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Cajado da conjuração. Esse Cajado oferece os benefícios combinados de um Cajado, um Orbe e uma Varinha quando seu portador conjura magias.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13504,7 +13459,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você segue os caminhos de Ran, divindade dos dados, da fortuna e dos caprichos do destino. Uma vez por sessão de jogo, você pode re-rolar qualquer teste que tenha resultado em fracasso, ficando com o segundo resultado obtido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para a habilidade Maré de Sorte. Código de conduta: aceitar as reviravoltas do destino e nunca recusar um desafio ou aposta formal.</p></div>"
+      "description": "<p>Você segue os ensinamentos da caprichosa Ran, a Senhora dos Mares. Você não pode procurar ou aceitar previsões sobre o futuro – e se você se mostrar muito cauteloso e planejar muito suas ações, você pode perder o favor de Ran. Sempre que uma rolagem tiver ao menos um dado com o resultado 6, você pode rolar novamente 1 dado cujo resultado não seja um 6 nem um 1. No entanto, sempre que você rolar 3 ou mais dados e apenas um deles não tiver um resultado 1, o resultado daquele dado passa a ser considerado 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Arma dos Deuses: Arpão das Marés. Este arpão, semelhante a uma presa de narval serrilhada, permite que seu portador role novamente qualquer dado uma vez por turno em qualquer teste que faça, mas deve manter o novo resultado. Essa rolagem não pode ser utilizada para modificar resultados que sejam sucessos decisivos ou falhas críticas.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13555,7 +13510,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você segue estritamente os ensinamentos de uma divindade que, em troca, lhe concede um favor especial. Escolha um Dogma para seguir. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Dogmas no final do capítulo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um personagem que não siga os Dogmas de uma divindade específica é considerado um Discípulo do Panteão ou Sacerdote do Panteão e não está vinculado a nenhuma divindade em particular – nem recebe quaisquer benefícios ou precisa seguir nenhuma conduta específica. Serve de pré-requisito para as habilidades Conjurar Arma dos Deuses, Elo Natural, Marca da Justiça, Marca da Verdade, Maré de Sorte, Quebrar os Grilhões, Aura de Guerra e Aura de Paz.</p></div>"
+      "description": "<p>Você segue estritamente os ensinamentos de uma divindade que, em troca, lhe concede um favor especial. Escolha um Dogma para seguir. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Dogmas no final do capítulo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um personagem que não siga os Dogmas de uma divindade específica é considerado um Discípulo do Panteão ou Sacerdote do Panteão e não está vinculado a nenhuma divindade em particular – nem recebe quaisquer benefícios ou precisa seguir nenhuma conduta específica. Serve de pré-requisito para as habilidades Conjurar Arma dos Deuses, Elo Natural, Marca da Justiça, Marca da Verdade, Maré de Sorte, Quebrar os Grilhões, Aura da Guerra e Aura de Paz.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -19365,7 +19320,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um demônio, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Justiça Final 1.</p></div>"
+      "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um infernal, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Justiça Final 1.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -19881,50 +19836,6 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "299c7a954759c2f1",
     "_key": "!items!299c7a954759c2f1"
-  },
-  {
-    "name": "Lobo do Mar",
-    "type": "habilidade",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "tipo": "suporte",
-      "categoria": "caracteristica",
-      "custo": 0,
-      "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
-      "requisitos": "Carta de Corso / Membro dos Lobos dos Mares",
-      "acesso": [
-        "Lobos dos Mares"
-      ],
-      "tipoAcesso": "Organização",
-      "nivel": "Nv1",
-      "fonteLivro": "Guia de Tebryn, pág. 97",
-      "exclusivoCom": [],
-      "somenteCriacao": false,
-      "bonusAtributo": {
-        "atributo": "",
-        "valor": 0
-      },
-      "efeitos": [],
-      "concessoes": [],
-      "description": "<p>Você é um membro reconhecido dos Lobos dos Mares, a frota oficial de corsários de Tebryn. Você possui uma Carta de Corso e mapas náuticos militares, garantindo isenção de taxas de aporte em portos tebrynianos e direito de patrulhar/abordar embarcações suspeitas no Mar do Comércio. Você recebe +2 em testes de interação social com marinheiros e autoridades portuárias.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Atesta a filiação aos Lobos dos Mares e concede os privilégios legais de navegação do reino.</p></div>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "lobo-do-mar",
-        "automatica": false,
-        "acesso": [
-          "Lobos dos Mares"
-        ],
-        "tipoAcesso": "Organização",
-        "nivel": "Nv1",
-        "aliases": [],
-        "opcoes": []
-      }
-    },
-    "_id": "f3cc3350873312cf",
-    "_key": "!items!f3cc3350873312cf"
   },
   {
     "name": "Loucura Revelada",
@@ -23102,7 +23013,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você fez um pacto com Glycon, A Serpente da Visão, primordial responsável por providenciar os meios, independente das consequências, que provê uma vida material plena em detrimento da espiritualidade. Esta escolha é permanente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe com Conhecimento Místico. Para selecionar Habilidades específicas deste pacto (como Sacrifício das Trevas, Olhar da Serpente, Toque de Glycon e Garantir o Planejamento), o personagem precisa seguir o Caminho Cultista.</p></div>"
+      "description": "<p>Glycon, A Serpente da Visão, responsável por providenciar os meios, independente das consequências, que provê uma vida material plena em detrimento da espiritualidade. Glycon é um dos Primordiais mais cultuados no plano material, já que, além de toda a cultura Naga ter se desenvolvido ao redor dele, a ambição é, certamente, um dos maiores motivadores dos mortais. Sempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada Ponto de Vida equivale a 1 Ponto de Mana. Sempre que conjurar uma Magia, você precisa gastar pelo menos metade do seu Custo em Mana (arredondado para baixo) com Pontos de Vida. Se a Magia tiver um custo de Mana igual à Zero, você precisa gastar 1 Ponto de Vida para conjurá-la. Para cada 5 Pontos de Mana gastos dessa forma, a dificuldade da magia é reduzida em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe com Conhecimento Místico. Para selecionar Habilidades específicas deste pacto (como Sacrifício das Trevas, Olhar da Serpente, Toque de Glycon e Garantir o Planejamento), o personagem precisa seguir o Caminho Cultista.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -23148,7 +23059,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Shyama, a Destruidora, Aquela que Provê a Morte, A que Quebra em Pedaços, cuja força não pode ser restrita. Aqueles que buscam este pacto geralmente são inclinados à violência de forma obsessiva ou possuem um desejo maníaco de destruir algo ou alguém.</p><p>Seu simples toque causa uma quantidade de dano igual à sua Vontade em qualquer criatura ou objeto. Esse dano extra se aplica sempre que você tocar ou fizer um ataque corporal — armado ou desarmado — contra uma criatura ou objeto. Você pode suprimir este efeito com relação a objetos ou Construtos (mas não às criaturas), mas precisa se concentrar na tarefa, e, portanto não pode usar nenhuma Habilidade de Ação ou Reação enquanto fizer isso. Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não são afetados por este efeito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
+      "description": "<p>Shyama, a Destruidora, Aquela que Provê a Morte, A que Quebra em Pedaços, cuja força não pode ser restrita. Aqueles que buscam este pacto geralmente são inclinados à violência de forma obsessiva ou possuem um desejo maníaco de destruir algo ou alguém. Seu simples toque causa uma quantidade de dano igual à sua Vontade em qualquer criatura ou objeto. Esse dano extra se aplica sempre que você tocar ou fizer um ataque corporal – armado ou desarmado – contra uma criatura ou objeto. Você pode suprimir este efeito com relação a objetos ou Construtos (mas não às criaturas), mas precisa se concentrar na tarefa, e, portanto não pode usar nenhuma Habilidade de Ação ou Reação enquanto fizer isso. Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não são afetados por este efeito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -23194,7 +23105,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Nehemoth, Aquela Que Sussurra na Escuridão, senhora dos segredos, da cegueira e do conhecimento perdido. Muitas vezes procurada por aqueles que perderam a visão, muitos Cultistas de Nehemoth são aqueles que se favorecem da escuridão — como ladrões, assassinos, Vampiros e Necromantes.</p><p>Você não precisa mais de seus olhos para enxergar, e pode ver, normalmente, mesmo com os olhos fechados ou vendados — ou mesmo se eles forem removidos. Além disso, você consegue ver através de ilusões e distingue criaturas invisíveis sem dificuldades. No entanto, sempre que estiver sob luz direta do sol, todos os seus testes são realizados como se você fosse Inapto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
+      "description": "<p>Nehemoth, Aquela Que Sussurra na Escuridão, senhora dos segredos, da cegueira e do conhecimento perdido. Muitas vezes procurada por aqueles que perderam a visão, muitos Cultistas de Nehemoth são aqueles que se favorecem da escuridão – como ladrões, assassinos, Vampiros e Necromantes. Você não precisa mais de seus olhos para enxergar, e pode ver, normalmente, mesmo com os olhos fechados ou vendados – ou mesmo se eles forem removidos. Além disso, você consegue ver através de ilusões e distingue criaturas invisíveis sem dificuldades. No entanto, sempre que estiver sob luz direta do sol, todos os seus testes são realizados como se você fosse Inapto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -23240,7 +23151,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>O Inominável, Aquele Cujo Nome Não Deve Ser Pronunciado, senhor da loucura, aquele que traz o horror. A maioria dos que cultuam o Inominável possuem algum desequilíbrio mental ou uma visão particularmente distorcida sobre o mundo ao seu redor.</p><p>Sua mente possui uma compreensão estranha da realidade. Graças a isso, você tem Determinação +2 e é imune a efeitos mentais e efeitos de Medo (Amedrontado), mas você tem Inteligência -1 (você não perde idiomas nesse processo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Se sua Inteligência for reduzida a 1 devido a este Pacto, você estará reduzido aos seus instintos mais básicos: você ainda é capaz de raciocinar, mas sempre procurará a resposta mais simples para qualquer problema, não sendo capaz de se concentrar para ler textos (embora ainda possa ler avisos e compreender sinais gráficos) nem usar Habilidades dos tipos Magia ou Música. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
+      "description": "<p>O Inominável, Aquele Cujo Nome Não Deve Ser Pronunciado, senhor da loucura, aquele que traz o horror. A maioria dos que cultuam o Inominável possuem algum desequilíbrio mental ou uma visão particularmente distorcida sobre o mundo ao seu redor. Sua mente possui uma compreensão estranha da realidade. Graças a isso, você tem Determinação +2 e é imune a efeitos mentais e efeitos de Medo, mas você tem Inteligência -1 (você não perde idiomas nesse processo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Se sua Inteligência for reduzida a 1 devido a este Pacto, você estará reduzido aos seus instintos mais básicos: você ainda é capaz de raciocinar, mas sempre procurará a resposta mais simples para qualquer problema, não sendo capaz de se concentrar para ler textos (embora ainda possa ler avisos e compreender sinais gráficos) nem usar Habilidades dos tipos Magia ou Música. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -23286,7 +23197,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Ereshkigal, A Impura, Aquela que Polui, é responsável por trazer doença e sofrimento. Aqueles que procuram pactos com ela tanto podem desejar infligir violentas moléstias sobre outros quanto ficarem intocados pela carícia de Ereshkigal. Muitos doentes terminais também procuram A Impura na tentativa de sobreviver às suas enfermidades.</p><p>Sempre que for exposto a uma doença (natural ou mágica), você falha automaticamente no teste de infecção e nos testes para resistir aos sintomas da doença (mesmo que seja imune a doenças). No entanto, você não é afetado pelos sintomas da doença (embora possa apresentar manifestações estéticas dela) e pode transmiti-la normalmente. Além disso, você sempre sabe quais doenças o estão infectando, assim como é capaz de detectar doenças em outras criaturas apenas com um toque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Se você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
+      "description": "<p>Ereshkigal, A Impura, Aquela que Polui, é responsável por trazer doença e sofrimento. Aqueles que procuram pactos com ela tanto podem desejar infligir violentas moléstias sobre outros quanto ficarem intocados pela carícia de Ereshkigal. Muitos doentes terminais também procuram A Impura na tentativa de sobreviver às suas enfermidades. Sempre que for exposto a uma doença (natural ou mágica), você falha automaticamente no teste de infecção e nos testes para resistir aos sintomas da doença (mesmo que seja imune a doenças). No entanto, você não é afetado pelos sintomas da doença (embora possa apresentar manifestações estéticas dela) e pode transmiti-la normalmente. Além disso, você sempre sabe quais doenças o estão infectando, assim como é capaz de detectar doenças em outras criaturas apenas com um toque. Se você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adquirido através da Habilidade Geral Pacto. Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto, e não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico. Se você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos. Apenas personagens do Caminho Cultista podem selecionar as Habilidades que possuem este Pacto como Requisito.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -23855,7 +23766,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Sua pele é mais espessa do que a da maioria dos outros Mahoks, seja esta uma característica inata sua ou por você estar apresentando os primeiros sinais de envelhecimento. Você é Resistente à Perfuração e tem +5 Pontos de Vida. Além disso, sua pele adquire também as características de uma armadura Rígida (além da característica Pesada).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adiciona a característica Rígida à proteção natural da pele do Mahok concedida por Pele de Pedra.</p></div>"
+      "description": "<p>Sua pele é mais espessa do que a da maioria dos outros Mahoks, seja esta uma característica inata sua ou por você estar apresentando os primeiros sinais de envelhecimento. Você é Resistente à Corte e tem +5 Pontos de Vida. Além disso, sua pele adquire também as características de uma armadura Rígida (além da característica Pesada).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -29702,52 +29613,6 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!bbaf396b634b05c6"
   },
   {
-    "name": "Vitalidade Heroica",
-    "type": "habilidade",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "tipo": "suporte",
-      "categoria": "caracteristica",
-      "custo": 0,
-      "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
-      "requisitos": "Nível 5",
-      "acesso": [
-        "Geral"
-      ],
-      "tipoAcesso": "Geral",
-      "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 40",
-      "exclusivoCom": [],
-      "somenteCriacao": false,
-      "bonusAtributo": {
-        "atributo": "",
-        "valor": 0
-      },
-      "efeitos": [],
-      "concessoes": [],
-      "description": "<p>Seu corpo suporta danos físicos extremos com facilidade e é muito difícil derrubar você em combate. Você tem +20 Pontos de vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Disponível para todas as raças.</p></div>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "vitalidade-heroica",
-        "automatica": false,
-        "acesso": [
-          "Geral"
-        ],
-        "tipoAcesso": "Geral",
-        "nivel": "Nv1",
-        "aliases": [
-          "Vitalidade Heróica"
-        ],
-        "opcoes": []
-      }
-    },
-    "_id": "78837dc3d3a25f23",
-    "_key": "!items!78837dc3d3a25f23"
-  },
-  {
     "name": "Voador Exímio",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -29802,7 +29667,7 @@ export const CANONICAL_HABILIDADES = [
       "custoVariavel": false,
       "dificuldade": 0,
       "dificuldadeTexto": "",
-      "requisitos": "Nível 5, pelo menos uma Habilidade de Grito",
+      "requisitos": "",
       "acesso": [
         "Bardo",
         "Menestrel"
@@ -29818,7 +29683,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você treinou sua voz para se tornar mais potente e límpida e sua dicção mais clara e segura. Você recebe +2 em todos os testes que envolvam a fala – como mentir, seduzir, barganhar ou cantar (incluindo Canções, mas não Melodias) – e na sua Determinação para determinar se os alvos de seus Gritos e Rugidos são afetados por seus efeitos. Além disso, seus Gritos e Rugidos têm a área de efeito dobrada.</p>"
+      "description": "<p>Você sabe utilizar sua voz para cantar com harmonia. Você recebe +2 em todos os testes para cantar e declamar (incluindo utilizar Músicas do tipo Canção), e suas Canções tem seu custo de mana reduzido em 5.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -34842,43 +34707,6 @@ export const CANONICAL_MAGIAS = [
     },
     "_id": "146760cb449dd8e4",
     "_key": "!items!146760cb449dd8e4"
-  },
-  {
-    "name": "Marca da Ordem",
-    "type": "magia",
-    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
-    "system": {
-      "tipo": "acao",
-      "fonte": "mistica",
-      "custo": 15,
-      "custoVariavel": false,
-      "dificuldade": 12,
-      "dificuldadeTexto": "12",
-      "circulo": 1,
-      "nivel": "Nv1",
-      "requisitos": "Dogma – Discípulo da Ordem",
-      "acesso": [
-        "Sacerdote"
-      ],
-      "tipoAcesso": "Classe",
-      "fonteLivro": "Guia de Tebryn, pág. 103",
-      "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Dogma – Discípulo da Ordem</p><p>Desenhando um Selo Místico sobre uma criatura, você vincula a conduta do alvo aos preceitos da ordem e da disciplina. O alvo fica ciente das restrições impostas pela fé ordeira e, caso tente agir contra a ordem estabelecida ou quebrar um juramento solene, o Selo brilha e o força a realizar um teste de Vontade (Dificuldade igual à Determinação do conjurador). Se falhar, fica Paralisado por 1 turno devido a um choque de consciência; se passar, sofre um redutor de -2 em todas as suas rolagens pelo restante do combate.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura uma quantidade de dias igual à Determinação do conjurador. Requer Dogma – Discípulo da Ordem.</p></div>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "marca-da-ordem",
-        "tipo": "Ação",
-        "acesso": [
-          "Sacerdote"
-        ],
-        "tipoAcesso": "Classe",
-        "nivel": "Nv1",
-        "aliases": []
-      }
-    },
-    "_id": "5a8b3e4838904bd8",
-    "_key": "!items!5a8b3e4838904bd8"
   },
   {
     "name": "Marca da Verdade",
