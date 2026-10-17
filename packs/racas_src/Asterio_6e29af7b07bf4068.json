@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Chifres Poderosos",
-      "descricao": "Ataque com chifres causa Força+4/Contusão. Alvos atingidos devem vencer confronto de Força ou caem e ficam Atordoados por 1 turno.",
+      "descricao": "Você pode desferir uma marrada poderosa com seus chifres, causando dano igual à Força +4/Contusão. Qualquer alvo atingido por um ataque feito com seus chifres precisa vencer um confronto de Força contra você ou será derrubado. Se o alvo for derrubado, ele ficará Atordoado por 1 turno.\n\nHabilidade Automática dos Astérios machos (as fêmeas recebem a Habilidade Faro como Habilidade Automática em vez desta).",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

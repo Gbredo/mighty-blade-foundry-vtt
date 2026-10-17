@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Pele de Pedra",
-      "descricao": "Pele rígida fornece Defesa +4 (conta como Armadura Pesada; não pode usar armaduras). +1d6 para evitar queda, resistir a venenos/doenças, empurrar/segurar peso. Inapto em escalar, saltar e correr.",
+      "descricao": "Sua pele é composta por uma grossa camada de rocha que o tornam extremamente resistente e pesado. Você recebe +1d6 em todos os seus testes para evitar ser derrubado, resistir à doenças e venenos, empurrar ou segurar peso, mas é considerado Inapto em testes de escalar, saltar, correr ou se mover com agilidade. Você precisa de um turno inteiro para se levantar, ao invés de uma ação de movimento e para você é impossível nadar. Você não possui o sentido do tato, mas não sente desconforto por ambientes com condições climáticas hostis. Seus ataques desarmados causam dano igual a Força +2/Contusão e você tem Defesa +4 (Esse bônus de Defesa conta como Armadura). Além disso, sua pele tem as características de uma armadura Pesada, mas a conformação única da sua pele o impede de usar armaduras, e qualquer roupa precisa ser feita sob medida para você, custando duas vezes mais que o normal.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

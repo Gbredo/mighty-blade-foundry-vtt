@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Corpo Equino",
-      "descricao": "Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Por seu tamanho, você é considerado Inapto para nadar, escalar ou se segurar apenas com os braços.",
+      "descricao": "Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Devido ao seu comprimento, estatura e peso, você tem dificuldades em uma série de atividades (como nadar, escalar e se segurar usando apenas os braços), realizando estas ações como se fosse Inapto, e o Mestre pode decidir que algumas atividades são impossíveis para você – como dar uma cambalhota ou subir uma escada de mão.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

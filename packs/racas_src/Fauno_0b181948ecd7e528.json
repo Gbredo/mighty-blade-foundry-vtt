@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Patas com Cascos",
-      "descricao": "+1d6 para correr, saltar ou desviar de obstáculos. Deslocamento +1. Ataque desarmado com cascos causa Força+2/Contusão.",
+      "descricao": "Você possui fortes patas munidas de cascos resistentes. Você pode rolar +1d6 quando fizer testes de correr, saltar ou desviar de obstáculos, e seu Deslocamento é aumentado em 1. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão.\n\nHabilidade Automática da raça Fauno.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

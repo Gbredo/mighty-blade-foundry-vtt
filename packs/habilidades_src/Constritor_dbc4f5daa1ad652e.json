@@ -1,0 +1,56 @@
+{
+  "name": "Constritor",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Naga ♂",
+      "Naga ♀"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 39",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de agarrar para constringir"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p>Você pode utilizar seu corpo serpentiforme para agarrar e apertar em combate. Você recebe +2 em seus testes de agarrar para tentar constringir um alvo. Como usa seu corpo para constringir o alvo, sem precisar de seus braços, você pode realizar ataques normais (mas não usar Habilidades de Ação) durante o seu turno, e pode usar sua ação de Movimento (ao invés de uma ação padrão) para apertar a sua vítima.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode atacar a criatura que estiver constringindo com qualquer arma de haste ou que tenha a característica Duas Mãos, e não pode se deslocar enquanto estiver constringindo um alvo.<br><br>Raça Naga ♂, Naga ♀.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "constritor",
+      "automatica": false,
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "dbc4f5daa1ad652e",
+  "_key": "!items!dbc4f5daa1ad652e"
+}

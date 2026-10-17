@@ -25,7 +25,23 @@
       "atributo": "",
       "valor": 0
     },
-    "efeitos": [],
+    "efeitos": [
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "bloqueio",
+        "valor": 2
+      },
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "esquiva",
+        "valor": 2
+      },
+      {
+        "tipo": "reducaoDano",
+        "valor": 2,
+        "contra": "qualquer fonte"
+      }
+    ],
     "concessoes": [],
     "description": "<p>Suas escamas são particularmente resistentes e fortes. Você tem Defesa +2 e você reduz todo o dano que sofrer em 2, independente da fonte (esses bônus de Defesa e redução de dano contam como Armadura).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede Defesa +2 e Redução de Dano 2 (ambos contam como Armadura).</p></div>"
   },

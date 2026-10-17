@@ -66,7 +66,7 @@ test("Bloco 1: Criação de Personagem — Atributos e Distribuição Básica", 
     await st.test("1.1.2 Habilidade Automática Concedida: Insere a habilidade automática correta no vetor de habilidades", () => {
       const habilidadesRaciaisEsperadas = {
         "Anão": "Coração da Montanha 1",
-        "Elfo": "Benção de Lathellanis",
+        "Elfo": "Bênção de Lathellanis",
         "Fauno": "Patas com Cascos",
         "Humano": "Adaptabilidade",
         "Juban": "Corpo Pesado",

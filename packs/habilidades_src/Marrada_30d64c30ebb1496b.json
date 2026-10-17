@@ -24,7 +24,14 @@
       "atributo": "",
       "valor": 0
     },
-    "efeitos": [],
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "chifres",
+        "dano": "Forca+2",
+        "tipoDano": "Contusao"
+      }
+    ],
     "concessoes": [],
     "description": "<p>Você pode desferir um poderoso golpe com seus chifres. Este é um ataque desarmado que causa dano igual à Força +2/Contusão. Caso use esse ataque com uma ação de Encontrão, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação +2) ou será derrubado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Ataque desarmado com chifres. Em manobras de Encontrão, pode impor a condição Caído caso o oponente falhe no teste de Força contra a Determinação do Fauno + 2.</p></div>"
   },

@@ -1,0 +1,48 @@
+{
+  "name": "Cavaleiro da Morte",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Vigor Necromântico, Devorador dos Mortos",
+    "acesso": [
+      "Avantesma"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia do Vilão, pág. 77",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>A frieza da sua alma é tão extrema que se torna um farol para espíritos perdidos. Você é Imune ao Frio e é constantemente acompanhado por uma quantidade de Sombras igual à sua Vontade (que, caso sejam destruídas de alguma forma, serão substituídas assim que você estiver em um local onde existam Sombras). Além disso, Devorador dos Mortos passa a ser considerada uma ação livre para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Vigor Necromântico, Devorador dos Mortos. Caminho Avantesma.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cavaleiro-da-morte",
+      "automatica": false,
+      "acesso": [
+        "Avantesma"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "34b59643d12cb10e",
+  "_key": "!items!34b59643d12cb10e"
+}

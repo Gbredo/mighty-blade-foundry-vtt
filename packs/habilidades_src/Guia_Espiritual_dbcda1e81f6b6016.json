@@ -1,0 +1,54 @@
+{
+  "name": "Guia Espiritual",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Xamã"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 136",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "Iniciativa"
+      }
+    ],
+    "concessoes": [],
+    "description": "<p>Você possui um Guia Espiritual que está constantemente com você. Este Guia pode assumir qualquer forma, mas normalmente escolhe a forma de um animal com o qual você tenha uma ligação ou de um de seus ancestrais. Ele se mantém sempre alerta e próximo de você, e irá lhe despertar se algum perigo se aproximar enquanto você estiver dormindo, além de lhe avisar de qualquer perigo imediato, garantindo um bônus de +2 em seus testes de Iniciativa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Guia Espiritual também pode oferecer conselhos e ajuda quando necessário. Quando estiver diante de uma situação que envolva um teste ligado a animais (adestrar, convocar um Companheiro Animal), natureza (rastrear, procurar abrigo) ou algum outro conhecimento que seu Guia poderia ter (como lidar com outros espíritos) você pode meditar por 1 hora em busca de orientação de seu Guia, recebendo +1d6 no teste apropriado.<br><br>Classe Xamã.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "guia-espiritual",
+      "automatica": true,
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "dbcda1e81f6b6016",
+  "_key": "!items!dbcda1e81f6b6016"
+}

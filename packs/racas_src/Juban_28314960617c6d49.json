@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Corpo Pesado",
-      "descricao": "+1d6 para não ser derrubado e encontrões. Carga calculada como se tivesse Força +2. Inapto em nadar, escalar e saltar; levantar exige ação de rodada completa.",
+      "descricao": "Você possui uma musculatura poderosa – e pesada. Você rola +1d6 em testes para não ser derrubado e para realizar encontrões, mas é considerado Inapto em testes de natação, escalada e salto. Além disso, você precisa de uma ação de rodada completa para se levantar ao invés de uma ação de movimento, mas sua Carga é calculada como se você tivesse Força +2.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

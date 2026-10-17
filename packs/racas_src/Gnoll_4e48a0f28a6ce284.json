@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Salteador",
-      "descricao": "+2 em testes de percepção, esconder-se, correr, escalar, equilibrar e Iniciativa. Deslocamento +1.",
+      "descricao": "Você está acostumado a emboscar, lutar e fugir com o mesmo desprendimento. Você recebe +2 em seus testes de percepção, se esconder, correr, escalar, se equilibrar (incluindo evitar ser derrubado) e em sua Iniciativa. Além disso, seu Deslocamento é aumentado em 1.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

@@ -25,7 +25,14 @@
       "atributo": "",
       "valor": 0
     },
-    "efeitos": [],
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "mordida",
+        "dano": "Forca+2",
+        "tipoDano": "Perfuracao"
+      }
+    ],
     "concessoes": [],
     "description": "<p>Você possui glândulas em sua boca que produzem veneno que pode ser injetado através da sua mordida. Você pode fazer um ataque desarmado com seus dentes que causa dano igual à Força +2/Perfuração. Qualquer alvo que sofra dano por sua mordida será injetado com uma dose de Veneno Paralisante (Guia do Herói, página 78). Esse veneno é considerado natural.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },

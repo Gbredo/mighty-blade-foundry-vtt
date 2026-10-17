@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Tamanho Pequeno",
-      "descricao": "+1d6 em testes de Furtividade. Defesa base 6. Usa duas mãos para empunhar armas com FN 5 ou mais.",
+      "descricao": "Você tem uma estatura baixa, o que torna difícil lhe atingir ou detectar. Você pode rolar +1d6 quando fizer testes de Furtividade. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, para você armas corporais que requerem duas mãos são grandes demais para serem usadas com eficiência, e você precisa de ambas as mãos para usar qualquer arma com FN 5 ou mais.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

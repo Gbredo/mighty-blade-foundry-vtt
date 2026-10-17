@@ -11,8 +11,8 @@
     },
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
-      "nome": "Benção de Lathellanis",
-      "descricao": "Imune a doenças (naturais e mágicas), Dreno de Energia e efeitos de Envelhecimento. +1d6 em testes de Inteligência para perceber e rastrear alvos.",
+      "nome": "Bênção de Lathellanis",
+      "descricao": "A proteção de Lathellanis é evidente em você, assim como uma pálida sombra da astúcia da divindade da natureza. Você é imune à todas as doenças de origem natural ou mágica, Dreno de Energia e efeitos que causem Envelhecimento (de qualquer tipo ou origem). Além disso, você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

@@ -26,7 +26,19 @@
       "atributo": "",
       "valor": 0
     },
-    "efeitos": [],
+    "efeitos": [
+      {
+        "tipo": "ataqueNatural",
+        "parte": "garras",
+        "dano": "Forca+2",
+        "tipoDano": "Perfuracao"
+      },
+      {
+        "tipo": "bonusDadoTeste",
+        "valor": 2,
+        "contexto": "testes de escalar, agarrar e segurar"
+      }
+    ],
     "concessoes": [],
     "description": "<p>Você treinou o uso de suas garras como ferramentas e armas. Você pode realizar ataques desarmados com suas garras, causando dano igual à Força+2/Perfuração. Suas garras também podem ser utilizadas para cortar cordas, panos e outros materiais com pouca dureza, e você recebe um bônus de +2 em seus testes de escalar, agarrar e segurar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Permite realizar ataques desarmados com garras causando Força+2/Perfuração e concede +2 em testes de escalar, agarrar e segurar.</p></div>"
   },

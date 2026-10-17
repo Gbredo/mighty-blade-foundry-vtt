@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1159 | Diários: 68
+ * Total de itens: 1194 | Diários: 68
  */
 
 export const CANONICAL_RACAS = [
@@ -19,7 +19,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Coração da Montanha 1",
-        "descricao": "Imune a venenos (naturais e mágicos). +1d6 em testes para resistir a fadiga, doenças e efeitos físicos. Carga calculada como se tivesse Força +2.",
+        "descricao": "Sua constituição foi forjada nos subterrâneos agrestes e impiedosos, onde apenas os mais resistentes conseguem sobreviver. Você é imune a todos os venenos naturais e mágicos e rola +1d6 em testes para resistir à fadiga, doenças e quaisquer outros efeitos físicos. Além disso, sua Carga é calculada como se você tivesse Força +2.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -136,8 +136,8 @@ export const CANONICAL_RACAS = [
       },
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
-        "nome": "Benção de Lathellanis",
-        "descricao": "Imune a doenças (naturais e mágicas), Dreno de Energia e efeitos de Envelhecimento. +1d6 em testes de Inteligência para perceber e rastrear alvos.",
+        "nome": "Bênção de Lathellanis",
+        "descricao": "A proteção de Lathellanis é evidente em você, assim como uma pálida sombra da astúcia da divindade da natureza. Você é imune à todas as doenças de origem natural ou mágica, Dreno de Energia e efeitos que causem Envelhecimento (de qualquer tipo ou origem). Além disso, você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -218,7 +218,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Patas com Cascos",
-        "descricao": "+1d6 para correr, saltar ou desviar de obstáculos. Deslocamento +1. Ataque desarmado com cascos causa Força+2/Contusão.",
+        "descricao": "Você possui fortes patas munidas de cascos resistentes. Você pode rolar +1d6 quando fizer testes de correr, saltar ou desviar de obstáculos, e seu Deslocamento é aumentado em 1. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão.\n\nHabilidade Automática da raça Fauno.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -294,7 +294,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Adaptabilidade",
-        "descricao": "No nível 1, escolha um atributo para receber +1.",
+        "descricao": "Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu – ou precisou – desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha.\n\nHabilidade Automática da raça Humano. Permite distribuir +1 ponto em qualquer Atributo à escolha durante a criação.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -419,7 +419,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Corpo Pesado",
-        "descricao": "+1d6 para não ser derrubado e encontrões. Carga calculada como se tivesse Força +2. Inapto em nadar, escalar e saltar; levantar exige ação de rodada completa.",
+        "descricao": "Você possui uma musculatura poderosa – e pesada. Você rola +1d6 em testes para não ser derrubado e para realizar encontrões, mas é considerado Inapto em testes de natação, escalada e salto. Além disso, você precisa de uma ação de rodada completa para se levantar ao invés de uma ação de movimento, mas sua Carga é calculada como se você tivesse Força +2.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -526,7 +526,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Pernas Vulpinas",
-        "descricao": "+1d6 para saltar, correr e mover em silêncio. Deslocamento +1. Distância de saltos aumentada em 1 metro.",
+        "descricao": "Suas pernas são flexíveis e próprias para saltar, terminando em pés pequenos dotados de solas acolchoadas que permitem que você ande quase sem fazer sons. Você rola +1d6 quando fizer testes para saltar, correr e se mover em silêncio. Além disso, você tem Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.\n\nHabilidade Automática da raça Tailox.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -580,7 +580,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Vigor Nórdico",
-        "descricao": "Você nasceu em uma região glacial. Você é Resistente a Frio. Além disso, é imune a efeitos de climas frios e condições climáticas de baixa temperatura.",
+        "descricao": "Você nasceu em uma região gelada, e os rigores climáticos de Eishelm tornaram você vigoroso e resiliente. Você é Resistente a Frio e não é afetado nem por efeitos de climas gelados nem por efeitos provenientes de danos por Frio (como Enregelamento).\n\nPersonagens Aesires são proibidos de selecionar a Habilidade Geral Fúria de Batalha (\"Raças: Todas exceto Aesires\").",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -698,7 +698,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Chifres Poderosos",
-        "descricao": "Ataque com chifres causa Força+4/Contusão. Alvos atingidos devem vencer confronto de Força ou caem e ficam Atordoados por 1 turno.",
+        "descricao": "Você pode desferir uma marrada poderosa com seus chifres, causando dano igual à Força +4/Contusão. Qualquer alvo atingido por um ataque feito com seus chifres precisa vencer um confronto de Força contra você ou será derrubado. Se o alvo for derrubado, ele ficará Atordoado por 1 turno.\n\nHabilidade Automática dos Astérios machos (as fêmeas recebem a Habilidade Faro como Habilidade Automática em vez desta).",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -783,7 +783,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Faro",
-        "descricao": "Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.",
+        "descricao": "Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.\n\nPermite identificar odores e rastrear criaturas pelo cheiro.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -849,7 +849,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Corpo Equino",
-        "descricao": "Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Por seu tamanho, você é considerado Inapto para nadar, escalar ou se segurar apenas com os braços.",
+        "descricao": "Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Devido ao seu comprimento, estatura e peso, você tem dificuldades em uma série de atividades (como nadar, escalar e se segurar usando apenas os braços), realizando estas ações como se fosse Inapto, e o Mestre pode decidir que algumas atividades são impossíveis para você – como dar uma cambalhota ou subir uma escada de mão.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -931,7 +931,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Linhagem Dracônica",
-        "descricao": "Concede a herança elemental de seus ancestrais. Escolha feita na seleção da raça.",
+        "descricao": "Você descende dos dragões, e possui a resistência – e fraqueza – elemental de seus ancestrais. Escolha entre ser descendente dos dragões vermelhos e ter Resistência a Fogo, descender dos dragões brancos e ter Resistência a Frio ou descender dos dragões verdes e ser Resistente à Eletricidade. Depois, escolha um dos dois elementos diferentes da sua herança dracônica para ser Vulnerável.\n\nEspecial: Estas escolhas são permanentes e não podem ser mudadas mais tarde.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1211,7 +1211,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Constituição Feérica",
-        "descricao": "Voo livre com dobro do deslocamento normal. Deve bater asas continuamente: não pode planar e deve descansar após 1 hora de voo.",
+        "descricao": "Você possui uma constituição leve e um par de asas que lhe permitem voar. Você pode voar em qualquer direção (com o dobro da sua movimentação normal) e pode parar no ar. No entanto, suas asas precisam bater continua e velozmente, e você não pode planar nem permanecer no ar por mais do que uma hora antes de ter que descansá-las por pelo menos meia hora. Enquanto está voando, o bater das suas asas produzem um zumbido característico e facilmente audível, e é impossível para você se mover em silêncio enquanto voa.\n\nEspecial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos de Encontrão).",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1284,7 +1284,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Habitante do Deserto",
-        "descricao": "Resistente a Fogo. Pode passar até 5 dias sem água sem penalidades. Não sofre efeitos de climas quentes ou áridos.",
+        "descricao": "Você descende de um povo que enfrentou os rigores do deserto sem esmorecer. Você é Resistente a Fogo e pode passar até 5 dias sem precisar ingerir água. Além disso, você não é afetado por climas particularmente quentes ou áridos.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1395,7 +1395,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Salteador",
-        "descricao": "+2 em testes de percepção, esconder-se, correr, escalar, equilibrar e Iniciativa. Deslocamento +1.",
+        "descricao": "Você está acostumado a emboscar, lutar e fugir com o mesmo desprendimento. Você recebe +2 em seus testes de percepção, se esconder, correr, escalar, se equilibrar (incluindo evitar ser derrubado) e em sua Iniciativa. Além disso, seu Deslocamento é aumentado em 1.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1462,7 +1462,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Habitante do Esgoto",
-        "descricao": "Visão no escuro perfeita. Imune a doenças e venenos naturais. +1d6 para resistir a doenças e venenos mágicos. Alvos feridos pela mordida devem testar Força para não contrair uma doença natural.",
+        "descricao": "Você está acostumado aos ambientes escuros e insalubres dos subterrâneos onde sua Raça costuma habitar. Você é capaz de enxergar no escuro com perfeição e é imune a todas as doenças e venenos naturais, além de receber +1d6 para resistir aos efeitos de doenças e venenos mágicos. Finalmente, qualquer alvo que sofra dano por seu ataque de mordida deve passar em um teste de Força (dificuldade igual à sua Determinação) ou ficará sob o efeito de uma doença natural – a doença específica que um Hamelin transmite deve ser decidida rolando 2d6 e verificando na tabela abaixo.\n\nTabela (2d6): 2 Lepra; 3 Larvas de Vermes; 4 Febre do Pântano; 5 Tétano; 6–8 Infecção Comum; 9 Malogro; 10 Tuberculose; 11 Olho de Goblin; 12 Peste Negra.\r\nEste resultado é permanente, e só poderá ser mudado se você adquirir a Habilidade Infecção Grave. A dificuldade de infecção da doença (igual à sua Determinação) não afeta a dificuldade para resistir aos sintomas da doença, que permanecem inalterados.\r\nO dano de sua mordida é igual à Força/Corte.\r\nPersonagens Hamelin são proibidos de selecionar a Habilidade Geral Recursos.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1560,7 +1560,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Asas Ancestrais",
-        "descricao": "Imune a envelhecimento. Voo com 2× o Deslocamento normal. Pode planar, mas não pode parar no ar (precisa manter movimento).",
+        "descricao": "Você é imune a efeitos de envelhecimento e possui grandes asas e pode voar, precisando de um espaço igual à sua envergadura para pegar impulso antes de alçar voo (sua envergadura é duas vezes a sua altura). Quando estiver voando, você não pode parar no ar (mas pode planar) e seu deslocamento em voo é o dobro de seu deslocamento normal.\n\nEspecial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos do Encontrão).",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1663,7 +1663,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Pele de Pedra",
-        "descricao": "Pele rígida fornece Defesa +4 (conta como Armadura Pesada; não pode usar armaduras). +1d6 para evitar queda, resistir a venenos/doenças, empurrar/segurar peso. Inapto em escalar, saltar e correr.",
+        "descricao": "Sua pele é composta por uma grossa camada de rocha que o tornam extremamente resistente e pesado. Você recebe +1d6 em todos os seus testes para evitar ser derrubado, resistir à doenças e venenos, empurrar ou segurar peso, mas é considerado Inapto em testes de escalar, saltar, correr ou se mover com agilidade. Você precisa de um turno inteiro para se levantar, ao invés de uma ação de movimento e para você é impossível nadar. Você não possui o sentido do tato, mas não sente desconforto por ambientes com condições climáticas hostis. Seus ataques desarmados causam dano igual a Força +2/Contusão e você tem Defesa +4 (Esse bônus de Defesa conta como Armadura). Além disso, sua pele tem as características de uma armadura Pesada, mas a conformação única da sua pele o impede de usar armaduras, e qualquer roupa precisa ser feita sob medida para você, custando duas vezes mais que o normal.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1770,7 +1770,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Tamanho Pequeno",
-        "descricao": "+1d6 em testes de Furtividade. Defesa base 6. Usa duas mãos para empunhar armas com FN 5 ou mais.",
+        "descricao": "Você tem uma estatura baixa, o que torna difícil lhe atingir ou detectar. Você pode rolar +1d6 quando fizer testes de Furtividade. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, para você armas corporais que requerem duas mãos são grandes demais para serem usadas com eficiência, e você precisa de ambas as mãos para usar qualquer arma com FN 5 ou mais.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1859,7 +1859,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Corpo Ofídio",
-        "descricao": "+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.",
+        "descricao": "Você possui um corpo alongado, flexível e forte com uma cauda no lugar de pernas. Você recebe +2 em seus testes de nadar e agarrar quando utiliza sua cauda, e você pode se levantar como uma ação livre. Sua cauda pode ser usada para segurar e arrastar objetos (mas não utilizá-los para realizar ataques), realizar ataques desarmados (dano igual à Força/Contusão) e desenhar Runas Arcanas ou Selos Místicos. Você não é capaz de cavalgar, e não é capaz de impulsionar seu corpo todo acima do chão. Além disso, você recebe +1d6 para resistir a efeitos de venenos naturais e mágicos e não é afetado por efeitos não-mágicos que restrinjam a visão – como água lamacenta, fumaça, poeira, areia, chuva, etc.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1941,7 +1941,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Corpo Ofídio",
-        "descricao": "+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.",
+        "descricao": "Você possui um corpo alongado, flexível e forte com uma cauda no lugar de pernas. Você recebe +2 em seus testes de nadar e agarrar quando utiliza sua cauda, e você pode se levantar como uma ação livre. Sua cauda pode ser usada para segurar e arrastar objetos (mas não utilizá-los para realizar ataques), realizar ataques desarmados (dano igual à Força/Contusão) e desenhar Runas Arcanas ou Selos Místicos. Você não é capaz de cavalgar, e não é capaz de impulsionar seu corpo todo acima do chão. Além disso, você recebe +1d6 para resistir a efeitos de venenos naturais e mágicos e não é afetado por efeitos não-mágicos que restrinjam a visão – como água lamacenta, fumaça, poeira, areia, chuva, etc.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -2019,7 +2019,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Sangue Orc",
-        "descricao": "+10 Pontos de Vida. Visão na completa escuridão (sem distinguir cores).",
+        "descricao": "Você possui características aguçadas pelos hábitos noturnos e predatórios da sua raça. Você tem +10 Pontos de Vida e consegue enxergar na completa escuridão, mas nesses ambientes não consegue distinguir cores.\n\nHabilidade Automática da raça Orc. Concede visão na escuridão total (sem percepção de cores) e +10 Pontos de Vida.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -2204,7 +2204,7 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.67c20d7803b462e2\" data-slug=\"guerreiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio...</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.67c20d7803b462e2\" data-slug=\"guerreiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (36 Habilidades):</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio...</div></div>",
       "listaHabilidades": [
         "relampago-2",
         "teleporte-2",
@@ -2217,7 +2217,6 @@ export const CANONICAL_CLASSES = [
         "ataque-simultaneo",
         "brigao",
         "combate-em-grupo",
-        "armas-1",
         "combate-pesado",
         "combate-tatico",
         "defesa-agressiva",
@@ -2276,7 +2275,7 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.28b8d9e8f991abe5\" data-slug=\"ladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, armas-1, contatos-no-crime...</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.28b8d9e8f991abe5\" data-slug=\"ladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (31 Habilidades):</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, contatos-no-crime, corte-arterial...</div></div>",
       "listaHabilidades": [
         "gatuno",
         "acrobata",
@@ -2284,7 +2283,6 @@ export const CANONICAL_CLASSES = [
         "ataque-aleijador",
         "ataque-evasivo",
         "ataque-redirecionado",
-        "armas-1",
         "contatos-no-crime",
         "corte-arterial",
         "evasao",
@@ -3713,13 +3711,7 @@ export const CANONICAL_ORGANIZACOES = [
       "lideranca": "Lars Finnigan (Humano Ladino 8)",
       "ingresso": "Indicação por um membro e aprovação de outros dois.",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.276f5d555b77d9e3\" data-slug=\"irmandade-do-anel-de-bronze\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Mercante</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Altéria</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</div></div>",
-      "listaHabilidades": [
-        "contatos-no-crime",
-        "contatos-na-corte",
-        "contatos-politicos",
-        "barganha",
-        "conhecimento-regional-tebryn"
-      ]
+      "listaHabilidades": []
     },
     "flags": {
       "mighty-blade": {
@@ -3741,8 +3733,6 @@ export const CANONICAL_ORGANIZACOES = [
       "ingresso": "Período como escudeiro, seguido de uma sabatina perante os juízes.",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5ce31fdfb296a239\" data-slug=\"espada-de-mirah\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Período como escudeiro, seguido de uma sabatina perante os juízes.</div></div>",
       "listaHabilidades": [
-        "codigo-da-honestidade",
-        "codigo-da-justica",
         "arma-da-ordem",
         "conhecimento-regional-tebryn"
       ]
@@ -3769,8 +3759,7 @@ export const CANONICAL_ORGANIZACOES = [
       "listaHabilidades": [
         "arte-da-forja-1",
         "arte-da-forja-2",
-        "arte-da-forja-3",
-        "forjado-a-fogo"
+        "arte-da-forja-3"
       ]
     },
     "flags": {
@@ -3816,12 +3805,7 @@ export const CANONICAL_ORGANIZACOES = [
       "lideranca": "Não identificado",
       "ingresso": "Não mencionado",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.2845c3fb7e77d4f3\" data-slug=\"o-arpao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Lonjágua</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
-      "listaHabilidades": [
-        "contatos-no-crime",
-        "durao",
-        "intimidar",
-        "pernas-do-mar"
-      ]
+      "listaHabilidades": []
     },
     "flags": {
       "mighty-blade": {
@@ -3843,8 +3827,6 @@ export const CANONICAL_ORGANIZACOES = [
       "ingresso": "Demonstração de habilidade",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1d6e6781ed62f892\" data-slug=\"capuzes-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>",
       "listaHabilidades": [
-        "contatos-no-crime",
-        "contatos-politicos",
         "cartografia"
       ]
     },
@@ -3868,8 +3850,6 @@ export const CANONICAL_ORGANIZACOES = [
       "ingresso": "Não mencionado",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8b8f8463666fe09b\" data-slug=\"cesto-de-adagas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
       "listaHabilidades": [
-        "trapaceiro-impecavel",
-        "contatos-no-crime",
         "falsificador"
       ]
     },
@@ -3920,7 +3900,6 @@ export const CANONICAL_ORGANIZACOES = [
       "ingresso": "Combate, tortura e tatuagem",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.edc9464c76248c66\" data-slug=\"cranios-vermelhos\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Desconhecido</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Combate, tortura e tatuagem</div></div>",
       "listaHabilidades": [
-        "contatos-no-crime",
         "cranio-vermelho",
         "mandibula-vermelha",
         "presas-vermelhas",
@@ -3973,10 +3952,9 @@ export const CANONICAL_ORGANIZACOES = [
       "ingresso": "Treinamento, seguido de alistamento",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.bf8bbb2c05baa928\" data-slug=\"hoste-de-hadorn\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> General Fengran Rosevox (Humano Sacerdote Cruzado 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>",
       "listaHabilidades": [
-        "codigo-da-coragem",
         "conhecimento-regional-tebryn",
-        "medico-de-campo",
-        "militar"
+        "militar",
+        "medico-de-campo"
       ]
     },
     "flags": {
@@ -3998,11 +3976,7 @@ export const CANONICAL_ORGANIZACOES = [
       "lideranca": "Ingvi Steinfinga (Anã Guerreira 10)",
       "ingresso": "Treinamento, seguido de alistamento",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e384d6d238e49c8\" data-slug=\"guarda-das-fronteiras-rochosas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Stord</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>",
-      "listaHabilidades": [
-        "estabilidade",
-        "cacador-das-cordilheiras",
-        "matador-das-cordilheiras"
-      ]
+      "listaHabilidades": []
     },
     "flags": {
       "mighty-blade": {
@@ -5400,6 +5374,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "ddc9d4bd4a725a58",
     "_key": "!items!ddc9d4bd4a725a58"
+  },
+  {
+    "name": "Apunhale Primeiro, Pergunte Depois",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Assassino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia do Vilão, pág. 73",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você está sempre pronto para a ação, e essa ação quase sempre é agressiva! Você rola +1d6 em seus testes de iniciativa e todos os outros personagens são considerados Desprevenidos com relação a você até que tenham feito uma Ação durante um combate.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Assassino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "apunhale-primeiro-pergunte-depois",
+        "automatica": false,
+        "acesso": [
+          "Assassino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4501904ebe525573",
+    "_key": "!items!4501904ebe525573"
   },
   {
     "name": "Arborícola",
@@ -7856,6 +7878,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!156a4000d30a3ade"
   },
   {
+    "name": "Beijo Sufocante",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Chega Mais",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seus beijos produzem efeitos que beiram o sobrenatural. Faça uma tentativa de sedução contra uma criatura adjacente. Se for bem-sucedido, você e o alvo são considerados Paralisados até o começo de seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Chega Mais. Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "beijo-sufocante",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "b2dffeff1a524d22",
+    "_key": "!items!b2dffeff1a524d22"
+  },
+  {
     "name": "Benção de Ellenis",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -9507,6 +9577,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!33a9b7a6266899c2"
   },
   {
+    "name": "Cavaleiro da Morte",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Vigor Necromântico, Devorador dos Mortos",
+      "acesso": [
+        "Avantesma"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Guia do Vilão, pág. 77",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>A frieza da sua alma é tão extrema que se torna um farol para espíritos perdidos. Você é Imune ao Frio e é constantemente acompanhado por uma quantidade de Sombras igual à sua Vontade (que, caso sejam destruídas de alguma forma, serão substituídas assim que você estiver em um local onde existam Sombras). Além disso, Devorador dos Mortos passa a ser considerada uma ação livre para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Vigor Necromântico, Devorador dos Mortos. Caminho Avantesma.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cavaleiro-da-morte",
+        "automatica": false,
+        "acesso": [
+          "Avantesma"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "34b59643d12cb10e",
+    "_key": "!items!34b59643d12cb10e"
+  },
+  {
     "name": "Cavaleiro Experiente",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -9751,6 +9869,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "16e9bd1e46bf2731",
     "_key": "!items!16e9bd1e46bf2731"
+  },
+  {
+    "name": "Charada Obtusa",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 35,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Satírico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 59",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você profere uma charada capaz de desestabilizar qualquer um. Todas as criaturas capazes de ouvi-lo e entender o que você diz devem ser bem-sucedidas num teste de Inteligência (dificuldade igual à sua Determinação) ou ficarão Paralisadas até o final de seu próximo turno – quando podem repetir o teste, reduzindo em 2 a dificuldade anterior, cumulativamente. Sempre que falha no teste, a criatura volta a ficar Paralisada até o final de seu próximo turno ou até que sofra dano ou perda de Vida – o que cessa o efeito imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Seus aliados já estão acostumados, e recebem +2 nos testes para resolver a charada – e se falharem, só ficarão Paralisados por 1 turno, descartando a charada em seguida.<br><br>Requer Nível 5. Caminho Satírico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "charada-obtusa",
+        "automatica": false,
+        "acesso": [
+          "Satírico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "03cbb5d117b22b2e",
+    "_key": "!items!03cbb5d117b22b2e"
+  },
+  {
+    "name": "Chega Mais",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Se um oponente que está adjacente a você tentar se afastar, você pode fazer uma tentativa de sedução contra ele. Se for bem-sucedido, ele não poderá se deslocar neste turno e será considerado Desprevenido para todos os seus aliados, mas não você, até o final de seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "chega-mais",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "1cd817d975b229cc",
+    "_key": "!items!1cd817d975b229cc"
   },
   {
     "name": "Chifres Grandes",
@@ -10965,6 +11179,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!2fe82b9abae432cc"
   },
   {
+    "name": "Companheiro Animal 4",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Companheiro Animal 3",
+      "acesso": [
+        "Domador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Guia do Herói, pág. 32",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seu Companheiro Animal recebe +1 em todos os seus Atributos, +10 Pontos de Vida e +10 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto). Você também recebe +2 em todos os seus testes relativos a animais e pode também atrair um segundo Companheiro Animal seguindo as mesmas regras de Companheiro Animal 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Companheiro Animal 3. Caminho Domador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "companheiro-animal-4",
+        "automatica": false,
+        "acesso": [
+          "Domador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "b5e93421772ab62a",
+    "_key": "!items!b5e93421772ab62a"
+  },
+  {
     "name": "Companheiro Dragão 1",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -11620,6 +11882,62 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "d641b1ef190cefe7",
     "_key": "!items!d641b1ef190cefe7"
+  },
+  {
+    "name": "Constritor",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia do Vilão, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "bonusDadoTeste",
+          "valor": 2,
+          "contexto": "testes de agarrar para constringir"
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Você pode utilizar seu corpo serpentiforme para agarrar e apertar em combate. Você recebe +2 em seus testes de agarrar para tentar constringir um alvo. Como usa seu corpo para constringir o alvo, sem precisar de seus braços, você pode realizar ataques normais (mas não usar Habilidades de Ação) durante o seu turno, e pode usar sua ação de Movimento (ao invés de uma ação padrão) para apertar a sua vítima.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode atacar a criatura que estiver constringindo com qualquer arma de haste ou que tenha a característica Duas Mãos, e não pode se deslocar enquanto estiver constringindo um alvo.<br><br>Raça Naga ♂, Naga ♀.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "constritor",
+        "automatica": false,
+        "acesso": [
+          "Naga ♂",
+          "Naga ♀"
+        ],
+        "tipoAcesso": "Raça",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "dbc4f5daa1ad652e",
+    "_key": "!items!dbc4f5daa1ad652e"
   },
   {
     "name": "Consumir Cadáver",
@@ -12701,6 +13019,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!16d0ef3570541ffd"
   },
   {
+    "name": "Dança da Guerra",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Dança das Espadas 1",
+      "acesso": [
+        "Dançarino Exótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 45",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Se estiver sob efeito de uma Técnica de Dança, adicione seu Bônus de Dança ao teste do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Dança das Espadas 1. Caminho Dançarino Exótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "danca-da-guerra",
+        "automatica": false,
+        "acesso": [
+          "Dançarino Exótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "8385a589f98caccc",
+    "_key": "!items!8385a589f98caccc"
+  },
+  {
     "name": "Dança das Espadas 1",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -12799,6 +13165,108 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "b7b5c821ce7ebeb5",
     "_key": "!items!b7b5c821ce7ebeb5"
+  },
+  {
+    "name": "Dança das Ruas",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino Exótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 45",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "bonusDefesa",
+          "defesa": "esquiva",
+          "valor": 2
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Você aprendeu a seguir um ritmo totalmente imprevisível, deixando seus oponentes confusos sobre como acertá-lo. Enquanto você estiver dançando você recebe +2 na Esquiva e caso você seja alvo de uma magia a dificuldade dela aumenta em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Exótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "danca-das-ruas",
+        "automatica": false,
+        "acesso": [
+          "Dançarino Exótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "2b8c3392c50e3b7e",
+    "_key": "!items!2b8c3392c50e3b7e"
+  },
+  {
+    "name": "Dança do Ventre",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Dança dos Sete Véus",
+      "acesso": [
+        "Dançarino Exótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 45",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você aprendeu a dançar de um jeito tão chamativo e sedutor que todos ficam admirados pela sua dança. Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste ficarão Distraídos enquanto puderem ver você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Dança dos Sete Véus. Caminho Dançarino Exótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "danca-do-ventre",
+        "automatica": false,
+        "acesso": [
+          "Dançarino Exótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4f81fe483e560272",
+    "_key": "!items!4f81fe483e560272"
   },
   {
     "name": "Dançarino do Ar",
@@ -14968,7 +15436,23 @@ export const CANONICAL_HABILIDADES = [
         "atributo": "",
         "valor": 0
       },
-      "efeitos": [],
+      "efeitos": [
+        {
+          "tipo": "bonusDefesa",
+          "defesa": "bloqueio",
+          "valor": 2
+        },
+        {
+          "tipo": "bonusDefesa",
+          "defesa": "esquiva",
+          "valor": 2
+        },
+        {
+          "tipo": "reducaoDano",
+          "valor": 2,
+          "contra": "qualquer fonte"
+        }
+      ],
       "concessoes": [],
       "description": "<p>Suas escamas são particularmente resistentes e fortes. Você tem Defesa +2 e você reduz todo o dano que sofrer em 2, independente da fonte (esses bônus de Defesa e redução de dano contam como Armadura).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede Defesa +2 e Redução de Dano 2 (ambos contam como Armadura).</p></div>"
     },
@@ -15373,7 +15857,7 @@ export const CANONICAL_HABILIDADES = [
         {
           "tipo": "bonusDadoTeste",
           "valor": 1,
-          "contexto": "testes de evitar quedas e manter equilíbrio"
+          "contexto": "evitar quedas e manter o equilíbrio"
         }
       ],
       "concessoes": [],
@@ -16062,6 +16546,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "302b0f7f6fa1f623",
     "_key": "!items!302b0f7f6fa1f623"
+  },
+  {
+    "name": "Ferida Cruel",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Ferimentos Abertos",
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Guia do Vilão, pág. 94",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Suas magias ou ataques causam ferimentos brutais que vertem sangue. Sempre que uma de suas Magias ou ataques corporais cause dano por Corte/Perfuração em um alvo, aquele alvo passa a perder 5 Pontos de Vida a cada turno, por uma quantidade de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de sangramento.<br><br>Requer Nível 5, Ferimentos Abertos. Caminho Sanguíneo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "ferida-cruel",
+        "automatica": false,
+        "acesso": [
+          "Sanguíneo"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "9d321d92208f4f2e",
+    "_key": "!items!9d321d92208f4f2e"
+  },
+  {
+    "name": "Ferimentos Abertos",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia do Vilão, pág. 93",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>O sangue parece querer escapar dos ferimentos quando você está por perto. Todos os efeitos de Sangramento que causem dano ou perda de vida em uma área em metros igual à sua Determinação ao seu redor causam o dobro do dano ou perda de vida normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sanguíneo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "ferimentos-abertos",
+        "automatica": false,
+        "acesso": [
+          "Sanguíneo"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4c5d67248c399ea6",
+    "_key": "!items!4c5d67248c399ea6"
   },
   {
     "name": "Fintar",
@@ -17647,7 +18227,19 @@ export const CANONICAL_HABILIDADES = [
         "atributo": "",
         "valor": 0
       },
-      "efeitos": [],
+      "efeitos": [
+        {
+          "tipo": "ataqueNatural",
+          "parte": "garras",
+          "dano": "Forca+2",
+          "tipoDano": "Perfuracao"
+        },
+        {
+          "tipo": "bonusDadoTeste",
+          "valor": 2,
+          "contexto": "testes de escalar, agarrar e segurar"
+        }
+      ],
       "concessoes": [],
       "description": "<p>Você treinou o uso de suas garras como ferramentas e armas. Você pode realizar ataques desarmados com suas garras, causando dano igual à Força+2/Perfuração. Suas garras também podem ser utilizadas para cortar cordas, panos e outros materiais com pouca dureza, e você recebe um bônus de +2 em seus testes de escalar, agarrar e segurar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Permite realizar ataques desarmados com garras causando Força+2/Perfuração e concede +2 em testes de escalar, agarrar e segurar.</p></div>"
     },
@@ -18012,6 +18604,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "a08343b5642421f7",
     "_key": "!items!a08343b5642421f7"
+  },
+  {
+    "name": "Golpe Inspirador",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 15,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 61",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando você derrota seus inimigos, faz isso de maneira sensacional!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sempre que você derrotar um oponente, você pode fazer uma demonstração de vitória que inspira seus aliados. Todos os seus aliados que puderem lhe ver imediatamente recuperam uma quantidade de Pontos de Vida e Mana iguais à sua Vontade.<br><br>Caminho Skald.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "golpe-inspirador",
+        "automatica": false,
+        "acesso": [
+          "Skald"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "7059a160dcc2088c",
+    "_key": "!items!7059a160dcc2088c"
   },
   {
     "name": "Golpes Rápidos",
@@ -18436,6 +19076,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!4ccffaa3cf6800d9"
   },
   {
+    "name": "Grito Retumbante",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "padrao",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Grito Ensurdecedor",
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 61",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você solta um grito tão poderoso, que faz a terra tremer! Todos os que estiverem à uma quantidade de metros à sua frente igual à sua Força devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação) ou perderão o equilíbrio e cairão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Grito Ensurdecedor. Caminho Skald.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "grito-retumbante",
+        "automatica": false,
+        "acesso": [
+          "Skald"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "3d99d9ea1ecf4332",
+    "_key": "!items!3d99d9ea1ecf4332"
+  },
+  {
     "name": "Guarda de Honra",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -18682,6 +19370,60 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "5ee715dccbde75af",
     "_key": "!items!5ee715dccbde75af"
+  },
+  {
+    "name": "Guia Espiritual",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Xamã"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 136",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "bonusDadoTeste",
+          "valor": 2,
+          "contexto": "Iniciativa"
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Você possui um Guia Espiritual que está constantemente com você. Este Guia pode assumir qualquer forma, mas normalmente escolhe a forma de um animal com o qual você tenha uma ligação ou de um de seus ancestrais. Ele se mantém sempre alerta e próximo de você, e irá lhe despertar se algum perigo se aproximar enquanto você estiver dormindo, além de lhe avisar de qualquer perigo imediato, garantindo um bônus de +2 em seus testes de Iniciativa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Guia Espiritual também pode oferecer conselhos e ajuda quando necessário. Quando estiver diante de uma situação que envolva um teste ligado a animais (adestrar, convocar um Companheiro Animal), natureza (rastrear, procurar abrigo) ou algum outro conhecimento que seu Guia poderia ter (como lidar com outros espíritos) você pode meditar por 1 hora em busca de orientação de seu Guia, recebendo +1d6 no teste apropriado.<br><br>Classe Xamã.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "guia-espiritual",
+        "automatica": true,
+        "acesso": [
+          "Xamã"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "dbcda1e81f6b6016",
+    "_key": "!items!dbcda1e81f6b6016"
   },
   {
     "name": "Habitante do Deserto",
@@ -20372,6 +21114,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!d45d6279f0956053"
   },
   {
+    "name": "Irrefreável",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia do Vilão, pág. 69",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>É extremamente difícil restringir seus movimentos – ou sua vontade. Sempre que você for alvo de uma Habilidade, efeito ou condição que restringiriam ou controlem suas ações – Grilhões, tentativas de derrubá-lo ou empurrá-lo, efeitos que causem redução do seu Deslocamento ou efeitos mentais de todos os tipos – você recebe +2 para resistir ao efeito, ou +1d6 caso seja possível rolar um teste ou um confronto. Além disso, seu Deslocamento passa a ser calculado baseado em sua Força ao invés de sua Agilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Amoque.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "irrefreavel",
+        "automatica": false,
+        "acesso": [
+          "Amoque"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "7c68b5848cecb3e2",
+    "_key": "!items!7c68b5848cecb3e2"
+  },
+  {
     "name": "Isnuu",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -21620,6 +22410,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!9954849343fe5ab8"
   },
   {
+    "name": "Manto de Ereshkigal",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "padrao",
+      "custo": 60,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Pacto da Pestilência",
+      "acesso": [
+        "Cultista de Ereshkigal"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Guia do Vilão, pág. 90",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você pode escolher uma das doenças que carrega e disparar um surto dela em uma área igual à sua Vontade em quilômetros. Todos dentro dessa área devem fazer um teste de Força (Dificuldade normal de acordo com a doença escolhida) para não contrair a doença. Todos os que permanecerem dentro da área devem fazer um novo teste a cada dia para resistir à infecção. A área permanece uma zona de virulência enquanto você permanecer dentro da área. Você só pode manter 1 Manto de Ereshkigal estendido de cada vez.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Pacto da Pestilência. Caminho Cultista de Ereshkigal.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "manto-de-ereshkigal",
+        "automatica": false,
+        "acesso": [
+          "Cultista de Ereshkigal"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "c5d2869c4b9152eb",
+    "_key": "!items!c5d2869c4b9152eb"
+  },
+  {
     "name": "Maré de Sorte",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -21693,7 +22531,14 @@ export const CANONICAL_HABILIDADES = [
         "atributo": "",
         "valor": 0
       },
-      "efeitos": [],
+      "efeitos": [
+        {
+          "tipo": "ataqueNatural",
+          "parte": "chifres",
+          "dano": "Forca+2",
+          "tipoDano": "Contusao"
+        }
+      ],
       "concessoes": [],
       "description": "<p>Você pode desferir um poderoso golpe com seus chifres. Este é um ataque desarmado que causa dano igual à Força +2/Contusão. Caso use esse ataque com uma ação de Encontrão, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação +2) ou será derrubado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Ataque desarmado com chifres. Em manobras de Encontrão, pode impor a condição Caído caso o oponente falhe no teste de Força contra a Determinação do Fauno + 2.</p></div>"
     },
@@ -23172,6 +24017,59 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!bc6d700ed8215023"
   },
   {
+    "name": "Mimicar",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Pantomima",
+      "acesso": [
+        "Bufão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 32",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "imunidadeSituacional",
+          "situacao": "pré-requisitos de habilidade em Técnicas de Ação copiadas via Mimicar"
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Sempre que um oponente ou aliado utilizar uma Habilidade de Ação do tipo Técnica e você consiga vê-lo, você pode realizar aquela Habilidade no seu próximo turno. Você ainda precisa preencher quaisquer exigências da Técnica (tipo de dano, itens, condições especiais, tipo de ação, etc.) além do Requisito de nível (mas ignora outros Requisitos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Pantomima. Caminho Bufão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "mimicar",
+        "automatica": false,
+        "acesso": [
+          "Bufão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "1a6e35cd63d6fdc7",
+    "_key": "!items!1a6e35cd63d6fdc7"
+  },
+  {
     "name": "Montaria Especial 1",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -23343,7 +24241,14 @@ export const CANONICAL_HABILIDADES = [
         "atributo": "",
         "valor": 0
       },
-      "efeitos": [],
+      "efeitos": [
+        {
+          "tipo": "ataqueNatural",
+          "parte": "mordida",
+          "dano": "Forca+4",
+          "tipoDano": "Corte"
+        }
+      ],
       "concessoes": [],
       "description": "<p>Você pode usar seus dentes para fazer um ataque desarmado. O dano da sua mordida é igual a Força +4/Corte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata Oficial do *Guia Básico*, Mordida Poderosa é uma Habilidade do tipo Suporte (e não de Ação). Permite realizar ataques desarmados de mordida causando dano de Força +4/Corte.</p></div>"
     },
@@ -23394,7 +24299,14 @@ export const CANONICAL_HABILIDADES = [
         "atributo": "",
         "valor": 0
       },
-      "efeitos": [],
+      "efeitos": [
+        {
+          "tipo": "ataqueNatural",
+          "parte": "mordida",
+          "dano": "Forca+2",
+          "tipoDano": "Perfuracao"
+        }
+      ],
       "concessoes": [],
       "description": "<p>Você possui glândulas em sua boca que produzem veneno que pode ser injetado através da sua mordida. Você pode fazer um ataque desarmado com seus dentes que causa dano igual à Força +2/Perfuração. Qualquer alvo que sofra dano por sua mordida será injetado com uma dose de Veneno Paralisante (Guia do Herói, página 78). Esse veneno é considerado natural.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
     },
@@ -23770,6 +24682,64 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "822f8791d52c0b00",
     "_key": "!items!822f8791d52c0b00"
+  },
+  {
+    "name": "Necromanto",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Esta Carcaça Mortal",
+      "acesso": [
+        "Dançarino Macabro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 49",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "bonusDadoTeste",
+          "valor": 1,
+          "contexto": "Intimidação (manto de sombras ativo)"
+        },
+        {
+          "tipo": "restricaoArma",
+          "condicao": "Inapto em testes sociais exceto Intimidação enquanto o manto de sombras estiver ativo"
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>As sombras ao seu redor se materializam na forma de um manto aterrorizante. Enquanto o Necromanto estiver materializado, você recebe +1d6 em seus testes em tentativas de Intimidação – mas é considerado Inapto em todos os seus outros testes sociais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode conjurar o Necromanto como uma ação livre, e pode mantê-lo pelo tempo que desejar.<br><br>Requer Esta Carcaça Mortal. Caminho Dançarino Macabro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "necromanto",
+        "automatica": false,
+        "acesso": [
+          "Dançarino Macabro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "a8c95351565a092d",
+    "_key": "!items!a8c95351565a092d"
   },
   {
     "name": "Nervos de Aço",
@@ -24905,6 +25875,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!79a39b51383af1f8"
   },
   {
+    "name": "Palavra Tóxica",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Devastação Emocional",
+      "acesso": [
+        "Satírico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 58",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Suas palavras não são verdadeiramente venenosas, apesar de suas vítimas muitas vezes discordarem. Sempre que afetar um alvo com Devastação Emocional, ele fica fisicamente enjoado e desgastado, perdendo uma quantidade de Pontos de Vida igual à sua Vontade por turno enquanto durar o efeito da habilidade original.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Devastação Emocional. Caminho Satírico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "palavra-toxica",
+        "automatica": false,
+        "acesso": [
+          "Satírico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "8d60fc0836d43387",
+    "_key": "!items!8d60fc0836d43387"
+  },
+  {
     "name": "Panache",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -25838,6 +26856,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!85f28b2c0b556744"
   },
   {
+    "name": "Posição Distinta",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia do Vilão, pág. 60",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Graças à função que exerce você costuma ser bem-vindo em praticamente qualquer círculo social, e as pessoas assumem que você tem todo o direito de estar ali. Aldeões, camponeses e serviçais sempre se esforçarão ao máximo para agradá-lo e nobres o tratarão como igual.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, sua posição lhe concede alguns benefícios materiais. Você possui uma vestimenta adequada ao seu cargo e um distintivo de sua posição. Finalmente, depois que tiver comprado seus itens iniciais, você pode selecionar um desses itens e ele será considerado de qualidade superior (veja o Guia do Herói página 53 para maiores detalhes) sem qualquer custo adicional.<br><br>Classe Senescal.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "posicao-distinta",
+        "automatica": false,
+        "acesso": [
+          "Senescal"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "16ffdf920f6957f5",
+    "_key": "!items!16ffdf920f6957f5"
+  },
+  {
     "name": "Postura Quadrúpede",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -26144,6 +27210,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "312051ab14477274",
     "_key": "!items!312051ab14477274"
+  },
+  {
+    "name": "Presença de Ereshkigal",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "padrao",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Pacto da Pestilência",
+      "acesso": [
+        "Cultista de Ereshkigal"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia do Vilão, pág. 90",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você emana um característico odor sulfúrico que não chega a ser incômodo, apesar de facilmente notável – e qualquer criatura que receba bônus para farejar pode escolher 6 como resultado de 1 de seus dados extras com relação a você. Você pode, no entanto, intensificar este odor ao ponto dele se tornar praticamente insuportável, fazendo com que todas as criaturas vivas a uma quantidade de metros de você iguais à sua Vontade precisem fazer um teste de Força (Dificuldade igual à sua Determinação) ou ficarão Distraídas por 1 turno. Criaturas que tiverem uma Falha Crítica neste teste ficam Paralisadas por 1 turno, incapazes de realizar qualquer ação exceto esvaziarem o conteúdo de seus estômagos sobre os próprios pés.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Pacto da Pestilência. Caminho Cultista de Ereshkigal.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "presenca-de-ereshkigal",
+        "automatica": false,
+        "acesso": [
+          "Cultista de Ereshkigal"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "de5ab05c9fd88176",
+    "_key": "!items!de5ab05c9fd88176"
   },
   {
     "name": "Presença Dracônica",
@@ -27495,6 +28609,59 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!cd1323ccbe29bb66"
   },
   {
+    "name": "Requebrado",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino Exótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 45",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "bonusDeslocamento",
+          "valor": 2
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Enquanto estiver dançando, você recebe +2 em seu deslocamento – exceto para calcular seu Deslocamento de Corrida ou de Encontrões. Além disso, você pode substituir seu bônus de Agilidade na Esquiva por seu valor de Deslocamento enquanto estiver dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Exótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "requebrado",
+        "automatica": false,
+        "acesso": [
+          "Dançarino Exótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "51e31638d1bff54c",
+    "_key": "!items!51e31638d1bff54c"
+  },
+  {
     "name": "Réquiem",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -28592,6 +29759,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "f90ec8c076020301",
     "_key": "!items!f90ec8c076020301"
+  },
+  {
+    "name": "Sabedoria Sobrenatural",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino Macabro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 49",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você recebe +1d6 em seus testes de conhecimento sobre maldições, criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Esse bônus também se aplica a testes para perceber e rastrear essas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Macabro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sabedoria-sobrenatural",
+        "automatica": false,
+        "acesso": [
+          "Dançarino Macabro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "07f6c5b2daca00b7",
+    "_key": "!items!07f6c5b2daca00b7"
   },
   {
     "name": "Sacrifício das Trevas",
@@ -35050,6 +36265,47 @@ export const CANONICAL_MAGIAS = [
     "_key": "!items!1b4bf38a6a2e6354"
   },
   {
+    "name": "Dom do Artífice",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 14,
+      "dificuldadeTexto": "14",
+      "circulo": 2,
+      "nivel": "Nv2",
+      "requisitos": "Nível 5, Mente Disciplinada",
+      "acesso": [
+        "Artífice"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 30",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Mente Disciplinada</p><p>Desenhando uma Runa Arcana sobre si mesmo, o conjurador recebe +2 em um Atributo à sua escolha. Além disso, se essa Runa for realizada antes de uma sessão de encantamento, o Artífice não fica exausto no fim do dia, recuperando metade dos seus Pontos de Mana totais durante o ritual. Isso não permite ao Artífice apressar o processo de um encantamento, mas ele pode se dedicar a dois encantamentos ao mesmo tempo. Essa Runa Arcana dura 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Mente Disciplinada. Caminho Artífice.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "dom-do-artifice",
+        "tipo": "Ação",
+        "acesso": [
+          "Artífice"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "5ec967d2c905d4cd",
+    "_key": "!items!5ec967d2c905d4cd"
+  },
+  {
     "name": "Eletricidade Estática",
     "type": "magia",
     "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
@@ -36122,6 +37378,88 @@ export const CANONICAL_MAGIAS = [
     "_key": "!items!0a10ea636ed4e361"
   },
   {
+    "name": "Ilusão 2",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 11,
+      "dificuldadeTexto": "11",
+      "circulo": 1,
+      "nivel": "Nv1",
+      "requisitos": "Ilusão 1",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 35",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Ilusão 1</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um elefante ou uma carruagem. A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Ilusão 1. Caminho Ilusionista.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "ilusao-2",
+        "tipo": "Ação",
+        "acesso": [
+          "Ilusionista"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "8428a3d936793fda",
+    "_key": "!items!8428a3d936793fda"
+  },
+  {
+    "name": "Ilusão 3",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 13,
+      "dificuldadeTexto": "13",
+      "circulo": 2,
+      "nivel": "Nv2",
+      "requisitos": "Nível 5, Ilusão 2",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 36",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um dragão ancião ou um casarão. A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Ilusão 2. Caminho Ilusionista.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "ilusao-3",
+        "tipo": "Ação",
+        "acesso": [
+          "Ilusionista"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "5cdd8fb8ea897110",
+    "_key": "!items!5cdd8fb8ea897110"
+  },
+  {
     "name": "Ilusão Eterna",
     "type": "magia",
     "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
@@ -36368,6 +37706,88 @@ export const CANONICAL_MAGIAS = [
     "_key": "!items!6501138cc587ba2f"
   },
   {
+    "name": "Invisibilidade 1",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 11,
+      "dificuldadeTexto": "11",
+      "circulo": 1,
+      "nivel": "Nv1",
+      "requisitos": "",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 35",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p>Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura, você a torna – assim como todas as suas posses – invisível. Essa Runa Arcana ou Selo Místico dura por uma quantidade de minutos igual à Inteligência do conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Ilusionista.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invisibilidade-1",
+        "tipo": "Ação",
+        "acesso": [
+          "Ilusionista"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "e1436904752a56cd",
+    "_key": "!items!e1436904752a56cd"
+  },
+  {
+    "name": "Invisibilidade 2",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 13,
+      "dificuldadeTexto": "13",
+      "circulo": 2,
+      "nivel": "Nv2",
+      "requisitos": "Nível 5, Invisibilidade 1",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 36",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Invisibilidade 1</p><p>Desenhando uma Runa Arcana sobre uma criatura, você a torna – assim como todas as suas posses – invisível. Essa Runa Arcana ou Selo Místico dura por uma quantidade de horas igual à Inteligência do conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Invisibilidade 1. Caminho Ilusionista.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invisibilidade-2",
+        "tipo": "Ação",
+        "acesso": [
+          "Ilusionista"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "2b731b5474f8a58d",
+    "_key": "!items!2b731b5474f8a58d"
+  },
+  {
     "name": "Invocar Asura",
     "type": "magia",
     "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
@@ -36532,6 +37952,170 @@ export const CANONICAL_MAGIAS = [
     "_key": "!items!e0f2ed66117bb694"
   },
   {
+    "name": "Invocar Elemental do Fogo 1",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 10,
+      "dificuldadeTexto": "10",
+      "circulo": 1,
+      "nivel": "Nv1",
+      "requisitos": "",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p>Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo pequeno custa 15 Pontos de Mana e um elemental do fogo médio custa 30 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.<br><br>Caminho Invocador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocar-elemental-do-fogo-1",
+        "tipo": "Ação",
+        "acesso": [
+          "Invocador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "e2a52c6252d3c67c",
+    "_key": "!items!e2a52c6252d3c67c"
+  },
+  {
+    "name": "Invocar Elemental do Fogo 2",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 14,
+      "dificuldadeTexto": "14",
+      "circulo": 2,
+      "nivel": "Nv2",
+      "requisitos": "Nível 5, Invocar Elemental do Fogo 1",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental do Fogo 1</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo grande custa 50 Pontos de Mana e um elemental do fogo gigante custa 100 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.<br><br>Requer Nível 5, Invocar Elemental do Fogo 1. Caminho Invocador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocar-elemental-do-fogo-2",
+        "tipo": "Ação",
+        "acesso": [
+          "Invocador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "595655264134d6d6",
+    "_key": "!items!595655264134d6d6"
+  },
+  {
+    "name": "Invocar Elemental do Gelo 1",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 10,
+      "dificuldadeTexto": "10",
+      "circulo": 1,
+      "nivel": "Nv1",
+      "requisitos": "",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p>Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.<br><br>Caminho Invocador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocar-elemental-do-gelo-1",
+        "tipo": "Ação",
+        "acesso": [
+          "Invocador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "84d7b53600d9a1d9",
+    "_key": "!items!84d7b53600d9a1d9"
+  },
+  {
+    "name": "Invocar Elemental do Gelo 2",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 14,
+      "dificuldadeTexto": "14",
+      "circulo": 2,
+      "nivel": "Nv2",
+      "requisitos": "Nível 5, Invocar Elemental do Gelo 1",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental do Gelo 1</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo grande custa 50 Pontos de Mana e um elemental do gelo gigante custa 100 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.<br><br>Requer Nível 5, Invocar Elemental do Gelo 1. Caminho Invocador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocar-elemental-do-gelo-2",
+        "tipo": "Ação",
+        "acesso": [
+          "Invocador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "5419c655c12bea52",
+    "_key": "!items!5419c655c12bea52"
+  },
+  {
     "name": "Invocar Espectro",
     "type": "magia",
     "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
@@ -36612,6 +38196,88 @@ export const CANONICAL_MAGIAS = [
     },
     "_id": "8dbc677467da9d1d",
     "_key": "!items!8dbc677467da9d1d"
+  },
+  {
+    "name": "Invocar Golem 1",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 12,
+      "dificuldadeTexto": "12",
+      "circulo": 1,
+      "nivel": "Nv1",
+      "requisitos": "",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p>Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. Um golem pequeno custa 20 Pontos de Mana e um golem médio custa 40 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.<br><br>Caminho Invocador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocar-golem-1",
+        "tipo": "Ação",
+        "acesso": [
+          "Invocador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "c2a0e4b5c8e6450d",
+    "_key": "!items!c2a0e4b5c8e6450d"
+  },
+  {
+    "name": "Invocar Golem 2",
+    "type": "magia",
+    "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+    "system": {
+      "tipo": "acao",
+      "fonte": "arcana",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 16,
+      "dificuldadeTexto": "16",
+      "circulo": 2,
+      "nivel": "Nv2",
+      "requisitos": "Nível 5, Invocar Golem 1",
+      "acesso": [
+        "Invocador"
+      ],
+      "tipoAcesso": "Caminho",
+      "fonteLivro": "Guia do Herói, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Golem 1</p><p>Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. Um golem grande custa 60 Pontos de Mana e um golem gigante custa 120 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.<br><br>Requer Nível 5, Invocar Golem 1. Caminho Invocador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "invocar-golem-2",
+        "tipo": "Ação",
+        "acesso": [
+          "Invocador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "32d69ddab7df3ded",
+    "_key": "!items!32d69ddab7df3ded"
   },
   {
     "name": "Invocar Lemure",
@@ -49060,7 +50726,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<h2>Arsenal da Classe (37 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>anular-golpe</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-simultaneo</strong></li><li><strong>brigao</strong></li><li><strong>combate-em-grupo</strong></li><li><strong>armas-1</strong></li><li><strong>combate-pesado</strong></li><li><strong>combate-tatico</strong></li><li><strong>defesa-agressiva</strong></li><li><strong>estabilidade</strong></li><li><strong>golpe-devastador-1</strong></li><li><strong>golpe-com-escudo</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>investida-mortal</strong></li><li><strong>nocautear</strong></li><li><strong>parede-de-escudos</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>transpor</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>forca-de-explosao</strong></li><li><strong>golpe-devastador-2</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>investida-forte</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>mestre-de-armas-3</strong></li><li><strong>gatuno</strong></li></ul>",
+          "content": "<h2>Arsenal da Classe (36 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>relampago-2</strong></li><li><strong>teleporte-2</strong></li><li><strong>tempestade-de-gelo</strong></li><li><strong>maestria-elemental</strong></li><li><strong>mestre-de-armas-1</strong></li><li><strong>anular-golpe</strong></li><li><strong>ataque-do-bufalo</strong></li><li><strong>ataque-giratorio</strong></li><li><strong>ataque-simultaneo</strong></li><li><strong>brigao</strong></li><li><strong>combate-em-grupo</strong></li><li><strong>combate-pesado</strong></li><li><strong>combate-tatico</strong></li><li><strong>defesa-agressiva</strong></li><li><strong>estabilidade</strong></li><li><strong>golpe-devastador-1</strong></li><li><strong>golpe-com-escudo</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>guerreiro-de-aco-1</strong></li><li><strong>investida-mortal</strong></li><li><strong>nocautear</strong></li><li><strong>parede-de-escudos</strong></li><li><strong>sem-escapatoria</strong></li><li><strong>transpor</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>forca-de-explosao</strong></li><li><strong>golpe-devastador-2</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>guerreiro-de-aco-2</strong></li><li><strong>implacavel</strong></li><li><strong>investida-forte</strong></li><li><strong>mestre-de-armas-2</strong></li><li><strong>valor-da-vitoria</strong></li><li><strong>mestre-de-armas-3</strong></li><li><strong>gatuno</strong></li></ul>",
           "format": 1
         },
         "_key": "!journal.pages!67c20d7803b462e2.118ff6ada080631d"
@@ -49102,7 +50768,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>gatuno</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-evasivo</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>armas-1</strong></li><li><strong>contatos-no-crime</strong></li><li><strong>corte-arterial</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flanquear</strong></li><li><strong>flexivel</strong></li><li><strong>furtivo</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>mestre-das-adagas-1</strong></li><li><strong>mestre-das-adagas-2</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>malabarista</strong></li><li><strong>truque-sujo</strong></li><li><strong>camuflagem</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>emboscar</strong></li><li><strong>en-passant</strong></li><li><strong>explorar-surpresa</strong></li><li><strong>improvisacao-ladina</strong></li><li><strong>mestre-das-adagas-3</strong></li><li><strong>passo-leve</strong></li><li><strong>ripostar</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>mestre-especialista</strong></li><li><strong>mestre-de-armas-1</strong></li></ul>",
+          "content": "<h2>Arsenal da Classe (31 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>gatuno</strong></li><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-aleijador</strong></li><li><strong>ataque-evasivo</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>contatos-no-crime</strong></li><li><strong>corte-arterial</strong></li><li><strong>evasao</strong></li><li><strong>falhas-da-armadura</strong></li><li><strong>flanquear</strong></li><li><strong>flexivel</strong></li><li><strong>furtivo</strong></li><li><strong>golpes-rapidos</strong></li><li><strong>mestre-das-adagas-1</strong></li><li><strong>mestre-das-adagas-2</strong></li><li><strong>movimentos-evasivos</strong></li><li><strong>malabarista</strong></li><li><strong>truque-sujo</strong></li><li><strong>camuflagem</strong></li><li><strong>combate-com-duas-armas-2</strong></li><li><strong>emboscar</strong></li><li><strong>en-passant</strong></li><li><strong>explorar-surpresa</strong></li><li><strong>improvisacao-ladina</strong></li><li><strong>mestre-das-adagas-3</strong></li><li><strong>passo-leve</strong></li><li><strong>ripostar</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>mestre-especialista</strong></li><li><strong>mestre-de-armas-1</strong></li></ul>",
           "format": 1
         },
         "_key": "!journal.pages!28b8d9e8f991abe5.2bc29accb6e76b74"

@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Habitante do Deserto",
-      "descricao": "Resistente a Fogo. Pode passar até 5 dias sem água sem penalidades. Não sofre efeitos de climas quentes ou áridos.",
+      "descricao": "Você descende de um povo que enfrentou os rigores do deserto sem esmorecer. Você é Resistente a Fogo e pode passar até 5 dias sem precisar ingerir água. Além disso, você não é afetado por climas particularmente quentes ou áridos.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

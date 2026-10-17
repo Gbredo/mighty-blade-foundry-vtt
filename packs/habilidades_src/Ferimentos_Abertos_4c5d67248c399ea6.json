@@ -1,0 +1,48 @@
+{
+  "name": "Ferimentos Abertos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Sanguíneo"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 93",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>O sangue parece querer escapar dos ferimentos quando você está por perto. Todos os efeitos de Sangramento que causem dano ou perda de vida em uma área em metros igual à sua Determinação ao seu redor causam o dobro do dano ou perda de vida normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sanguíneo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ferimentos-abertos",
+      "automatica": false,
+      "acesso": [
+        "Sanguíneo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "4c5d67248c399ea6",
+  "_key": "!items!4c5d67248c399ea6"
+}

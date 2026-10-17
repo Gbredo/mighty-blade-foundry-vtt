@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Habitante do Esgoto",
-      "descricao": "Visão no escuro perfeita. Imune a doenças e venenos naturais. +1d6 para resistir a doenças e venenos mágicos. Alvos feridos pela mordida devem testar Força para não contrair uma doença natural.",
+      "descricao": "Você está acostumado aos ambientes escuros e insalubres dos subterrâneos onde sua Raça costuma habitar. Você é capaz de enxergar no escuro com perfeição e é imune a todas as doenças e venenos naturais, além de receber +1d6 para resistir aos efeitos de doenças e venenos mágicos. Finalmente, qualquer alvo que sofra dano por seu ataque de mordida deve passar em um teste de Força (dificuldade igual à sua Determinação) ou ficará sob o efeito de uma doença natural – a doença específica que um Hamelin transmite deve ser decidida rolando 2d6 e verificando na tabela abaixo.\n\nTabela (2d6): 2 Lepra; 3 Larvas de Vermes; 4 Febre do Pântano; 5 Tétano; 6–8 Infecção Comum; 9 Malogro; 10 Tuberculose; 11 Olho de Goblin; 12 Peste Negra.\r\nEste resultado é permanente, e só poderá ser mudado se você adquirir a Habilidade Infecção Grave. A dificuldade de infecção da doença (igual à sua Determinação) não afeta a dificuldade para resistir aos sintomas da doença, que permanecem inalterados.\r\nO dano de sua mordida é igual à Força/Corte.\r\nPersonagens Hamelin são proibidos de selecionar a Habilidade Geral Recursos.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

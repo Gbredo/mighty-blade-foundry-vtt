@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Corpo Ofídio",
-      "descricao": "+2 em testes de nadar e agarrar usando a cauda. Levantar-se é ação livre. A cauda pode segurar/arrastar objetos, atacar (Força/Contusão) e desenhar Runas.",
+      "descricao": "Você possui um corpo alongado, flexível e forte com uma cauda no lugar de pernas. Você recebe +2 em seus testes de nadar e agarrar quando utiliza sua cauda, e você pode se levantar como uma ação livre. Sua cauda pode ser usada para segurar e arrastar objetos (mas não utilizá-los para realizar ataques), realizar ataques desarmados (dano igual à Força/Contusão) e desenhar Runas Arcanas ou Selos Místicos. Você não é capaz de cavalgar, e não é capaz de impulsionar seu corpo todo acima do chão. Além disso, você recebe +1d6 para resistir a efeitos de venenos naturais e mágicos e não é afetado por efeitos não-mágicos que restrinjam a visão – como água lamacenta, fumaça, poeira, areia, chuva, etc.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

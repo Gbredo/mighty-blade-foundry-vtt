@@ -1,0 +1,48 @@
+{
+  "name": "Palavra Tóxica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Devastação Emocional",
+    "acesso": [
+      "Satírico"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 58",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Suas palavras não são verdadeiramente venenosas, apesar de suas vítimas muitas vezes discordarem. Sempre que afetar um alvo com Devastação Emocional, ele fica fisicamente enjoado e desgastado, perdendo uma quantidade de Pontos de Vida igual à sua Vontade por turno enquanto durar o efeito da habilidade original.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Devastação Emocional. Caminho Satírico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "palavra-toxica",
+      "automatica": false,
+      "acesso": [
+        "Satírico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "8d60fc0836d43387",
+  "_key": "!items!8d60fc0836d43387"
+}

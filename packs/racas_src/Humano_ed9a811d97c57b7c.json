@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Adaptabilidade",
-      "descricao": "No nível 1, escolha um atributo para receber +1.",
+      "descricao": "Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu – ou precisou – desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha.\n\nHabilidade Automática da raça Humano. Permite distribuir +1 ponto em qualquer Atributo à escolha durante a criação.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Pernas Vulpinas",
-      "descricao": "+1d6 para saltar, correr e mover em silêncio. Deslocamento +1. Distância de saltos aumentada em 1 metro.",
+      "descricao": "Suas pernas são flexíveis e próprias para saltar, terminando em pés pequenos dotados de solas acolchoadas que permitem que você ande quase sem fazer sons. Você rola +1d6 quando fizer testes para saltar, correr e se mover em silêncio. Além disso, você tem Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.\n\nHabilidade Automática da raça Tailox.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

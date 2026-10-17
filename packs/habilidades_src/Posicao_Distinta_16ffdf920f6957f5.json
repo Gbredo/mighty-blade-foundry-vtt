@@ -1,0 +1,48 @@
+{
+  "name": "Posição Distinta",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Senescal"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 60",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Graças à função que exerce você costuma ser bem-vindo em praticamente qualquer círculo social, e as pessoas assumem que você tem todo o direito de estar ali. Aldeões, camponeses e serviçais sempre se esforçarão ao máximo para agradá-lo e nobres o tratarão como igual.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, sua posição lhe concede alguns benefícios materiais. Você possui uma vestimenta adequada ao seu cargo e um distintivo de sua posição. Finalmente, depois que tiver comprado seus itens iniciais, você pode selecionar um desses itens e ele será considerado de qualidade superior (veja o Guia do Herói página 53 para maiores detalhes) sem qualquer custo adicional.<br><br>Classe Senescal.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "posicao-distinta",
+      "automatica": false,
+      "acesso": [
+        "Senescal"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "16ffdf920f6957f5",
+  "_key": "!items!16ffdf920f6957f5"
+}

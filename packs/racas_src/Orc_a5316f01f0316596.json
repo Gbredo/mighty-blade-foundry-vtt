@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Sangue Orc",
-      "descricao": "+10 Pontos de Vida. Visão na completa escuridão (sem distinguir cores).",
+      "descricao": "Você possui características aguçadas pelos hábitos noturnos e predatórios da sua raça. Você tem +10 Pontos de Vida e consegue enxergar na completa escuridão, mas nesses ambientes não consegue distinguir cores.\n\nHabilidade Automática da raça Orc. Concede visão na escuridão total (sem percepção de cores) e +10 Pontos de Vida.",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

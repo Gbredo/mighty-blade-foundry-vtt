@@ -1,0 +1,48 @@
+{
+  "name": "Irrefreável",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Amoque"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 69",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>É extremamente difícil restringir seus movimentos – ou sua vontade. Sempre que você for alvo de uma Habilidade, efeito ou condição que restringiriam ou controlem suas ações – Grilhões, tentativas de derrubá-lo ou empurrá-lo, efeitos que causem redução do seu Deslocamento ou efeitos mentais de todos os tipos – você recebe +2 para resistir ao efeito, ou +1d6 caso seja possível rolar um teste ou um confronto. Além disso, seu Deslocamento passa a ser calculado baseado em sua Força ao invés de sua Agilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Amoque.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "irrefreavel",
+      "automatica": false,
+      "acesso": [
+        "Amoque"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "7c68b5848cecb3e2",
+  "_key": "!items!7c68b5848cecb3e2"
+}

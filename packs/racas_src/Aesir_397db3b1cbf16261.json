@@ -12,7 +12,7 @@
     "habilidadeUuid": "",
     "habilidadeAutomatica": {
       "nome": "Vigor Nórdico",
-      "descricao": "Você nasceu em uma região glacial. Você é Resistente a Frio. Além disso, é imune a efeitos de climas frios e condições climáticas de baixa temperatura.",
+      "descricao": "Você nasceu em uma região gelada, e os rigores climáticos de Eishelm tornaram você vigoroso e resiliente. Você é Resistente a Frio e não é afetado nem por efeitos de climas gelados nem por efeitos provenientes de danos por Frio (como Enregelamento).\n\nPersonagens Aesires são proibidos de selecionar a Habilidade Geral Fúria de Batalha (\"Raças: Todas exceto Aesires\").",
       "tipo": "suporte",
       "categoria": "caracteristica",
       "custo": 0

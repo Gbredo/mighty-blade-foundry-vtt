@@ -32,7 +32,7 @@
       {
         "tipo": "bonusDadoTeste",
         "valor": 1,
-        "contexto": "testes de evitar quedas e manter equilíbrio"
+        "contexto": "evitar quedas e manter o equilíbrio"
       }
     ],
     "concessoes": [],
