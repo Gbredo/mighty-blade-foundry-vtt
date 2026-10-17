@@ -12,6 +12,7 @@ const { HABILIDADES } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist
 const { EQUIPAMENTOS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/equipamentos.js"));
 const { CAMINHOS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/caminhos.js"));
 const { ORGANIZACOES } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/organizacoes.js"));
+const { HABILIDADES_GERAIS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/index.js"));
 
 function slugify(s) {
   return String(s ?? "")
@@ -273,6 +274,7 @@ function buildClassItem(classe) {
       mana: 60,
       equipamentoInicial: "",
       description: descHtml,
+      listaHabilidades: Array.isArray(classe.listaHabilidades) ? classe.listaHabilidades : [],
     },
     flags: {
       "mighty-blade": {
@@ -325,6 +327,7 @@ function buildCaminhoItem(caminho) {
       habilidadeAutomatica: caminho.habilidadeAutomatica || "",
       racasComuns: caminho.racasComuns || "",
       description: descHtml,
+      listaHabilidades: Array.isArray(caminho.listaHabilidades) ? caminho.listaHabilidades : (Array.isArray(caminho.habilidades) ? caminho.habilidades : []),
     },
     flags: {
       "mighty-blade": {
@@ -382,6 +385,7 @@ function buildOrganizacaoItem(org) {
       lideranca: org.lideranca || "",
       ingresso: org.ingresso || "",
       description: descHtml,
+      listaHabilidades: Array.isArray(org.listaHabilidades) ? org.listaHabilidades : Object.values(HABILIDADES).filter(h => h.organizacao && h.organizacao.includes(org.nome)).map(h => h.id),
     },
     flags: {
       "mighty-blade": {
@@ -1267,6 +1271,10 @@ async function run() {
     canonicalMagias.length +
     canonicalEquipamentos.length;
 
+  const canonicalHabilidadesGeraisIds = Object.values(HABILIDADES_GERAIS)
+    .map((h) => h.id)
+    .filter((id) => HABILIDADES[id] !== undefined);
+
   const mjsContent = '/**\n' +
     ' * CANONICAL CONTENT PACK DATA\n' +
     ' * Gerado automaticamente a partir de @mighty-blade/rules-core.\n' +
@@ -1279,7 +1287,8 @@ async function run() {
     'export const CANONICAL_HABILIDADES = ' + JSON.stringify(canonicalHabilidades, null, 2) + ';\n\n' +
     'export const CANONICAL_MAGIAS = ' + JSON.stringify(canonicalMagias, null, 2) + ';\n\n' +
     'export const CANONICAL_EQUIPAMENTOS = ' + JSON.stringify(canonicalEquipamentos, null, 2) + ';\n\n' +
-    'export const CANONICAL_DIARIOS = ' + JSON.stringify(canonicalDiarios, null, 2) + ';\n';
+    'export const CANONICAL_DIARIOS = ' + JSON.stringify(canonicalDiarios, null, 2) + ';\n\n' +
+    'export const CANONICAL_HABILIDADES_GERAIS_IDS = ' + JSON.stringify(canonicalHabilidadesGeraisIds, null, 2) + ';\n';
 
   const mjsPath = path.join(dataOutputDir, "canonical-packs-data.mjs");
   fs.writeFileSync(mjsPath, mjsContent, "utf-8");

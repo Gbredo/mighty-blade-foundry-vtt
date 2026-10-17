@@ -6,7 +6,7 @@ import {
   ORGANIZACOES_FORJA_MAP,
   resolveItemImage,
 } from "../helpers/forja-art.mjs";
-import { avaliarRequisitos } from "../helpers/requisitos.mjs";
+import { avaliarRequisitos, norm } from "../helpers/requisitos.mjs";
 import {
   validarClasseRaca,
   validarIncompatibilidadePactoMisticismo,
@@ -14,8 +14,196 @@ import {
   validarAcessoMagia,
   enriquecerItemComSSOT,
 } from "../helpers/restricoes.mjs";
+import {
+  CANONICAL_RACAS,
+  CANONICAL_CLASSES,
+  CANONICAL_CAMINHOS,
+  CANONICAL_ORGANIZACOES,
+  CANONICAL_HABILIDADES,
+  CANONICAL_MAGIAS,
+  CANONICAL_EQUIPAMENTOS,
+  CANONICAL_HABILIDADES_GERAIS_IDS,
+} from "../data/canonical-packs-data.mjs";
 
 export { resolveItemImage };
+
+/**
+ * Retorna as sub-abas disponíveis e suas respectivas listas de itens para um personagem nas abas de Habilidades e Magias.
+ *
+ * @param {object} actor Personagem alvo
+ * @param {string} filterType 'habilidade' | 'magia'
+ * @param {Array<object>} allCandidateItems Todos os itens do catálogo/compêndio
+ * @returns {Array<{ id: string, label: string, ids: string[], items: Array<object> }>}
+ */
+export function obterSubAbasCompendio(actor, filterType = "habilidade", allCandidateItems = []) {
+  if (!actor) return [];
+
+  // Se a lista de candidatos estiver vazia, utiliza o catálogo canônico completo
+  if (!allCandidateItems || allCandidateItems.length === 0) {
+    allCandidateItems = [...CANONICAL_HABILIDADES, ...CANONICAL_MAGIAS];
+  }
+
+  const rawItems = actor.items
+    ? (Array.isArray(actor.items) ? actor.items : Array.from(actor.items.values()))
+    : [];
+
+  const getActorItem = (type) => rawItems.find((i) => i.type === type);
+  const racaDoc = getActorItem("raca");
+  const racaNome = racaDoc?.name || actor.system?.details?.raca || "";
+
+  const classeDoc = getActorItem("classe");
+  const classeNome = classeDoc?.name || actor.system?.details?.classe || "";
+
+  const caminhoDoc = getActorItem("caminho");
+  const caminhoNome = caminhoDoc?.name || actor.system?.details?.caminho || "";
+
+  const orgDoc = getActorItem("organizacao");
+  const orgNome = orgDoc?.name || actor.system?.details?.organizacao || "";
+
+  const itemMap = new Map();
+  for (const item of allCandidateItems) {
+    const slug = item.flags?.["mighty-blade"]?.slug || slugify(item.name || "");
+    if (slug && !itemMap.has(slug)) {
+      itemMap.set(slug, item);
+    }
+    const n = norm(item.name || "");
+    if (n && !itemMap.has(n)) {
+      itemMap.set(n, item);
+    }
+  }
+
+  const findItem = (idOrSlug) => {
+    const s = slugify(idOrSlug);
+    if (itemMap.has(s)) return itemMap.get(s);
+    const n = norm(idOrSlug);
+    if (itemMap.has(n)) return itemMap.get(n);
+    return null;
+  };
+
+  const subTabs = [];
+
+  // 1. Gerais
+  const geralIds = [...(CANONICAL_HABILIDADES_GERAIS_IDS || [])];
+  const geralItems = geralIds.map(findItem).filter(Boolean);
+  subTabs.push({
+    id: "geral",
+    label: "Gerais",
+    ids: geralIds,
+    items: filterType === "magia" ? geralItems.filter((i) => i.type === "magia") : geralItems,
+  });
+
+  // 2. Raça (se houver)
+  if (racaNome) {
+    const racaItems = allCandidateItems.filter((i) => {
+      const isAuto = i.flags?.["mighty-blade"]?.automatica || i.system?.nivel === "Automática" || i.system?.nivel === "automatica";
+      if (isAuto) return false;
+      const req = String(i.system?.requisitos || "");
+      const acesso = Array.isArray(i.system?.acesso) ? i.system.acesso : [];
+      const matchesReq = norm(req).includes(norm(racaNome));
+      const matchesAcesso = (i.system?.tipoAcesso === "Raça" || i.flags?.["mighty-blade"]?.tipoAcesso === "Raça") &&
+        acesso.some((a) => norm(a) === norm(racaNome));
+      return matchesReq || matchesAcesso;
+    });
+
+    const racaIds = racaItems.map((i) => i.flags?.["mighty-blade"]?.slug || slugify(i.name || ""));
+    subTabs.push({
+      id: "raca",
+      label: racaNome,
+      ids: racaIds,
+      items: filterType === "magia" ? racaItems.filter((i) => i.type === "magia") : racaItems,
+    });
+  }
+
+  // 3. Classe (se houver)
+  if (classeNome) {
+    const canonicalClass = CANONICAL_CLASSES.find(
+      (c) => norm(c.name) === norm(classeNome) || c.flags?.["mighty-blade"]?.slug === slugify(classeNome)
+    );
+    const rawLista = (classeDoc?.system?.listaHabilidades && classeDoc.system.listaHabilidades.length > 0)
+      ? classeDoc.system.listaHabilidades
+      : (canonicalClass?.system?.listaHabilidades || []);
+
+    const autoIds = new Set();
+    if (Array.isArray(canonicalClass?.system?.concessoes)) {
+      for (const c of canonicalClass.system.concessoes) {
+        if (c.tipo === "habilidade" && c.ref) autoIds.add(slugify(c.ref));
+      }
+    }
+    if (Array.isArray(canonicalClass?.system?.habilidadesAutomaticas)) {
+      for (const h of canonicalClass.system.habilidadesAutomaticas) {
+        autoIds.add(slugify(h));
+      }
+    }
+    if (Array.isArray(classeDoc?.system?.concessoes)) {
+      for (const c of classeDoc.system.concessoes) {
+        if (c.tipo === "habilidade" && c.ref) autoIds.add(slugify(c.ref));
+      }
+    }
+
+    const classeIds = rawLista.filter((id) => !autoIds.has(slugify(id)));
+    const classeItems = classeIds.map((id) => {
+      const found = findItem(id);
+      if (found) return found;
+      return {
+        name: id.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" "),
+        type: "habilidade",
+        flags: { "mighty-blade": { slug: id, automatica: false } },
+        system: { requisitos: "", description: "" },
+        meetsPrereq: true,
+      };
+    }).filter(Boolean);
+
+    subTabs.push({
+      id: "classe",
+      label: classeNome,
+      ids: classeIds,
+      items: filterType === "magia" ? classeItems.filter((i) => i.type === "magia") : classeItems,
+    });
+  }
+
+  // 4. Caminho (se houver)
+  if (caminhoNome) {
+    const canonicalCaminho = CANONICAL_CAMINHOS.find(
+      (c) => norm(c.name) === norm(caminhoNome) || c.flags?.["mighty-blade"]?.slug === slugify(caminhoNome)
+    );
+    const rawLista = (caminhoDoc?.system?.listaHabilidades && caminhoDoc.system.listaHabilidades.length > 0)
+      ? caminhoDoc.system.listaHabilidades
+      : (canonicalCaminho?.system?.listaHabilidades || []);
+
+    const autoHab = slugify(caminhoDoc?.system?.habilidadeAutomatica || canonicalCaminho?.system?.habilidadeAutomatica || "");
+    const caminhoIds = rawLista.filter((id) => slugify(id) !== autoHab);
+    const caminhoItems = caminhoIds.map(findItem).filter(Boolean);
+
+    subTabs.push({
+      id: "caminho",
+      label: caminhoNome,
+      ids: caminhoIds,
+      items: filterType === "magia" ? caminhoItems.filter((i) => i.type === "magia") : caminhoItems,
+    });
+  }
+
+  // 5. Organização (se houver)
+  if (orgNome) {
+    const canonicalOrg = CANONICAL_ORGANIZACOES.find(
+      (o) => norm(o.name) === norm(orgNome) || o.flags?.["mighty-blade"]?.slug === slugify(orgNome)
+    );
+    const rawLista = (orgDoc?.system?.listaHabilidades && orgDoc.system.listaHabilidades.length > 0)
+      ? orgDoc.system.listaHabilidades
+      : (canonicalOrg?.system?.listaHabilidades || []);
+
+    const orgIds = [...rawLista];
+    const orgItems = orgIds.map(findItem).filter(Boolean);
+
+    subTabs.push({
+      id: "organizacao",
+      label: orgNome,
+      ids: orgIds,
+      items: filterType === "magia" ? orgItems.filter((i) => i.type === "magia") : orgItems,
+    });
+  }
+
+  return subTabs;
+}
 
 /**
  * Filtra dinamicamente os itens de um compêndio com base nas restrições canônicas e de acesso (habilidades.base) do personagem
@@ -59,6 +247,8 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
     this.filterType = options.type || "raca"; // 'raca', 'classe', 'caminho', etc.
     this.targetActor = options.actor;
     this.selectedId = null;
+    this.subTab = options.subTab || "geral";
+    this.onlyEligible = options.onlyEligible ?? true;
   }
 
   static get defaultOptions() {
@@ -110,6 +300,17 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
     return { permitido: falhas.length === 0, falhas };
   }
 
+  /**
+   * Retorna a lista de sub-abas disponíveis para o personagem atual nas abas de habilidades ou magias.
+   * @returns {Array<object>}
+   */
+  getSubTabs() {
+    if (!this.targetActor || (this.filterType !== "habilidade" && this.filterType !== "magia")) {
+      return [];
+    }
+    return obterSubAbasCompendio(this.targetActor, this.filterType);
+  }
+
   async getData() {
     // Prioriza o compêndio do sistema; cai nos itens do mundo se o pack estiver vazio.
     const packMap = {
@@ -124,22 +325,64 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       armadura: "mighty-blade.equipamentos",
     };
 
-    const packName = packMap[this.filterType] || "mighty-blade.racas";
-    const pack = game.packs.get(packName);
-    let items = pack ? await pack.getDocuments() : [];
-    if (!items.length) {
-      items = game.items.filter((i) => i.type === this.filterType);
-    }
+    let items = [];
+    let subTabs = null;
 
-    if (this.filterType === "arma" || this.filterType === "armadura") {
-      items = items.filter((i) => i.type === this.filterType);
-    } else if (this.filterType === "equipamento") {
-      items = items.filter((i) => i.type === "equipamento" || i.type === "arma" || i.type === "armadura");
-    }
+    if (this.targetActor && (this.filterType === "habilidade" || this.filterType === "magia")) {
+      const habPack = typeof game !== "undefined" && game.packs ? game.packs.get("mighty-blade.habilidades") : null;
+      const magPack = typeof game !== "undefined" && game.packs ? game.packs.get("mighty-blade.magias") : null;
+      const habDocs = habPack ? await habPack.getDocuments() : [];
+      const magDocs = magPack ? await magPack.getDocuments() : [];
+      let candidatePool = [...habDocs, ...magDocs];
+      if (!candidatePool.length) {
+        candidatePool = [...CANONICAL_HABILIDADES, ...CANONICAL_MAGIAS];
+      }
 
-    // Filtra dinamicamente opções incompatíveis para o ator (esconde Sacerdote para Nagas, magias de outras classes, Nanismo Nv 2+, etc.)
-    if (this.targetActor) {
-      items = filtrarItensCompendioParaAtor(items, this.filterType, this.targetActor);
+      const calculatedSubTabs = obterSubAbasCompendio(this.targetActor, this.filterType, candidatePool);
+      if (calculatedSubTabs.length > 0) {
+        if (!calculatedSubTabs.some((s) => s.id === this.subTab)) {
+          this.subTab = calculatedSubTabs[0].id;
+        }
+
+        subTabs = calculatedSubTabs.map((s) => ({
+          ...s,
+          active: s.id === this.subTab,
+        }));
+
+        const activeSub = calculatedSubTabs.find((s) => s.id === this.subTab) || calculatedSubTabs[0];
+        items = activeSub.items;
+      }
+    } else {
+      const packName = packMap[this.filterType] || "mighty-blade.racas";
+      const pack = typeof game !== "undefined" && game.packs ? game.packs.get(packName) : null;
+      items = pack ? await pack.getDocuments() : [];
+      if (!items.length && typeof game !== "undefined" && game.items) {
+        items = game.items.filter((i) => i.type === this.filterType);
+      }
+      if (!items.length) {
+        const canonicalFallback = {
+          raca: CANONICAL_RACAS,
+          classe: CANONICAL_CLASSES,
+          caminho: CANONICAL_CAMINHOS,
+          organizacao: CANONICAL_ORGANIZACOES,
+          habilidade: CANONICAL_HABILIDADES,
+          magia: CANONICAL_MAGIAS,
+          equipamento: CANONICAL_EQUIPAMENTOS,
+          arma: CANONICAL_EQUIPAMENTOS.filter((e) => e.type === "arma"),
+          armadura: CANONICAL_EQUIPAMENTOS.filter((e) => e.type === "armadura"),
+        };
+        items = canonicalFallback[this.filterType] || [];
+      }
+
+      if (this.filterType === "arma" || this.filterType === "armadura") {
+        items = items.filter((i) => i.type === this.filterType);
+      } else if (this.filterType === "equipamento") {
+        items = items.filter((i) => i.type === "equipamento" || i.type === "arma" || i.type === "armadura");
+      }
+
+      if (this.targetActor) {
+        items = filtrarItensCompendioParaAtor(items, this.filterType, this.targetActor);
+      }
     }
 
     items = items.map((i) => {
@@ -148,7 +391,7 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
         enriquecerItemComSSOT(obj, obj.type);
       }
       obj.img = resolveItemImage(i);
-      obj.uuid = i.uuid;
+      obj.uuid = i.uuid || `Compendium.mighty-blade.${obj.type === "magia" ? "magias" : "habilidades"}.${obj._id || slugify(obj.name)}`;
 
       if (this.targetActor) {
         const reqStr = obj.system?.requisitos || "";
@@ -164,6 +407,11 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       return obj;
     });
 
+    // Checkbox "Apenas elegíveis" (ligado por padrão): esconde os itens com "Requisitos pendentes"
+    if (this.targetActor && (this.filterType === "habilidade" || this.filterType === "magia") && this.onlyEligible) {
+      items = items.filter((i) => i.meetsPrereq);
+    }
+
     items = items.sort((a, b) => a.name.localeCompare(b.name));
 
     const categories = [
@@ -176,7 +424,15 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       { id: "equipamento", label: "Equipamentos", icon: "fas fa-sack-dollar", active: this.filterType === "equipamento" },
     ];
 
-    return { items, categories, activeType: this.filterType };
+    return {
+      items,
+      categories,
+      activeType: this.filterType,
+      subTabs,
+      activeSubTab: this.subTab,
+      onlyEligible: this.onlyEligible,
+      hasSubTabs: !!subTabs,
+    };
   }
 
   activateListeners(html) {
@@ -194,8 +450,28 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       const tab = ev.currentTarget.dataset.tab;
       if (tab && tab !== this.filterType) {
         this.filterType = tab;
+        this.subTab = "geral";
+        this.selectedId = null;
         this.render(false);
       }
+    });
+
+    // Alternar sub-abas
+    html.find(".browser-subtab-btn").on("click", (ev) => {
+      ev.preventDefault();
+      const subtab = ev.currentTarget.dataset.subtab;
+      if (subtab && subtab !== this.subTab) {
+        this.subTab = subtab;
+        this.selectedId = null;
+        this.render(false);
+      }
+    });
+
+    // Alternar filtro "Apenas elegíveis"
+    html.find("input[name='only-eligible']").on("change", (ev) => {
+      this.onlyEligible = ev.currentTarget.checked;
+      this.selectedId = null;
+      this.render(false);
     });
 
     // Botão de Sincronização direta

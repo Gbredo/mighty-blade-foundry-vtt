@@ -2137,7 +2137,41 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.01f81cd5a919ee25\" data-slug=\"feiticeiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros são conjuradores especializados na manipulação das formas mais básicas de energia: calor e eletricidade. São capazes de produzir quantidades imensas de calor, literalmente criando fogo a partir de suas mãos, de remover o calor do ambiente, criando colunas e paredes de gelo a partir do congelamento do próprio ar, ou gerar energia elétrica suficiente para projetar poderosas descargas de eletricidade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.01f81cd5a919ee25\" data-slug=\"feiticeiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Fira, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-arcano, aparar-magia, ariete-magico, bola-de-fogo, congelar, detectar-magia, eletricidade-estatica, inflamar...</div></div>",
+      "listaHabilidades": [
+        "conhecimento-arcano",
+        "aparar-magia",
+        "ariete-magico",
+        "bola-de-fogo",
+        "congelar",
+        "detectar-magia",
+        "eletricidade-estatica",
+        "inflamar",
+        "infravisao",
+        "invocar-elemental-1",
+        "invocar-elemental-2",
+        "levitar",
+        "manto-crepitante",
+        "mente-disciplinada",
+        "parede-de-gelo",
+        "rajada-de-gelo",
+        "relampago-1",
+        "rajada-elemental",
+        "resistencia-elemental",
+        "telecinesia",
+        "teleporte-1",
+        "aptidao-elemental",
+        "dissipar-magia",
+        "eletrosfera",
+        "incandescer",
+        "inferno",
+        "invocar-elemental-3",
+        "prisao-de-gelo",
+        "relampago-2",
+        "teleporte-2",
+        "tempestade-de-gelo",
+        "maestria-elemental"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2170,7 +2204,46 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.67c20d7803b462e2\" data-slug=\"guerreiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros são, de longe, a Classe mais comum de ser encontrada entre os combatentes de Drakon. Em um ambiente rico em metais e mão-de-obra especializada para fabricar armas e armaduras eficientes e com uma quantidade considerável de atritos entre reinos e ameaças palpáveis, os Guerreiros encontram um ambiente fértil para se desenvolverem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.67c20d7803b462e2\" data-slug=\"guerreiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Centauro, Humano, Juban e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> relampago-2, teleporte-2, tempestade-de-gelo, maestria-elemental, mestre-de-armas-1, anular-golpe, ataque-do-bufalo, ataque-giratorio...</div></div>",
+      "listaHabilidades": [
+        "relampago-2",
+        "teleporte-2",
+        "tempestade-de-gelo",
+        "maestria-elemental",
+        "mestre-de-armas-1",
+        "anular-golpe",
+        "ataque-do-bufalo",
+        "ataque-giratorio",
+        "ataque-simultaneo",
+        "brigao",
+        "combate-em-grupo",
+        "armas-1",
+        "combate-pesado",
+        "combate-tatico",
+        "defesa-agressiva",
+        "estabilidade",
+        "golpe-devastador-1",
+        "golpe-com-escudo",
+        "grito-de-guerra-1",
+        "guerreiro-de-aco-1",
+        "investida-mortal",
+        "nocautear",
+        "parede-de-escudos",
+        "sem-escapatoria",
+        "transpor",
+        "combate-com-duas-armas-2",
+        "forca-de-explosao",
+        "golpe-devastador-2",
+        "grito-de-guerra-2",
+        "grito-de-intimidacao",
+        "guerreiro-de-aco-2",
+        "implacavel",
+        "investida-forte",
+        "mestre-de-armas-2",
+        "valor-da-vitoria",
+        "mestre-de-armas-3",
+        "gatuno"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2203,7 +2276,41 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.28b8d9e8f991abe5\" data-slug=\"ladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, armas-1, contatos-no-crime...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Ladinos são especialistas em atingir seus objetivos por qualquer meio necessário. Seja através de subterfúgios, truques, manipulação, contatos ou mesmo meios criminosos, os Ladinos sempre conseguem o que querem – e os bons Ladinos conseguem fazer isso e viver para contar a história!</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.28b8d9e8f991abe5\" data-slug=\"ladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astéria, Faen, Humano e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> gatuno, acrobata, aparar, ataque-aleijador, ataque-evasivo, ataque-redirecionado, armas-1, contatos-no-crime...</div></div>",
+      "listaHabilidades": [
+        "gatuno",
+        "acrobata",
+        "aparar",
+        "ataque-aleijador",
+        "ataque-evasivo",
+        "ataque-redirecionado",
+        "armas-1",
+        "contatos-no-crime",
+        "corte-arterial",
+        "evasao",
+        "falhas-da-armadura",
+        "flanquear",
+        "flexivel",
+        "furtivo",
+        "golpes-rapidos",
+        "mestre-das-adagas-1",
+        "mestre-das-adagas-2",
+        "movimentos-evasivos",
+        "malabarista",
+        "truque-sujo",
+        "camuflagem",
+        "combate-com-duas-armas-2",
+        "emboscar",
+        "en-passant",
+        "explorar-surpresa",
+        "improvisacao-ladina",
+        "mestre-das-adagas-3",
+        "passo-leve",
+        "ripostar",
+        "trapaceiro-impecavel",
+        "mestre-especialista",
+        "mestre-de-armas-1"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2236,7 +2343,41 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Paladino é um guerreiro movido por um conjunto de códigos de conduta que usa para disciplinar seu espírito e realizar feitos que muitos veriam como sobrenaturais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.04269a145331afa6\" data-slug=\"paladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Astério, Fira e Juban</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> mestre-de-armas-1, austeridade, cavaleiro-experiente, codigo-da-coragem, codigo-da-honestidade, codigo-da-justica, combate-montado, combate-tatico...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Paladino é um guerreiro movido por um conjunto de códigos de conduta que usa para disciplinar seu espírito e realizar feitos que muitos veriam como sobrenaturais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.04269a145331afa6\" data-slug=\"paladino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Astério, Fira e Juban</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> mestre-de-armas-1, austeridade, cavaleiro-experiente, codigo-da-coragem, codigo-da-honestidade, codigo-da-justica, combate-montado, combate-tatico...</div></div>",
+      "listaHabilidades": [
+        "mestre-de-armas-1",
+        "austeridade",
+        "cavaleiro-experiente",
+        "codigo-da-coragem",
+        "codigo-da-honestidade",
+        "codigo-da-justica",
+        "combate-montado",
+        "combate-tatico",
+        "defletor",
+        "egide",
+        "grito-de-guerra-1",
+        "guerreiro-de-aco-1",
+        "justica-final-1",
+        "montaria-especial-1",
+        "montaria-especial-2",
+        "motivar",
+        "nocautear",
+        "parede-de-escudos",
+        "sem-escapatoria",
+        "banir",
+        "comando-heroico",
+        "coracao-da-batalha",
+        "destemor",
+        "grito-de-guerra-2",
+        "guerreiro-de-aco-2",
+        "implacavel",
+        "justica-final-2",
+        "montaria-especial-3",
+        "valor-da-vitoria",
+        "integridade",
+        "arqueria",
+        "acrobata"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2269,7 +2410,39 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.763480e886a66ce7\" data-slug=\"patrulheiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (30 Habilidades):</strong> acrobata, armadilheiro, ataque-aleijador, cacador-de-criatura, chuva-de-flechas, companheiro-animal-1, companheiro-animal-2, disparo-forte...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Patrulheiros são uma classe versátil, que atua em vários campos diferentes. Apesar da maioria dela ser composta por caçadores, rastreadores e guardiões de áreas florestais, muitos Patrulheiros são arqueiros de exércitos ou milícias, exploradores de regiões remotas, caçadores de recompensas e domadores de animais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.763480e886a66ce7\" data-slug=\"patrulheiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (30 Habilidades):</strong> acrobata, armadilheiro, ataque-aleijador, cacador-de-criatura, chuva-de-flechas, companheiro-animal-1, companheiro-animal-2, disparo-forte...</div></div>",
+      "listaHabilidades": [
+        "acrobata",
+        "armadilheiro",
+        "ataque-aleijador",
+        "cacador-de-criatura",
+        "chuva-de-flechas",
+        "companheiro-animal-1",
+        "companheiro-animal-2",
+        "disparo-forte",
+        "disparo-certeiro",
+        "evasao",
+        "falhas-da-armadura",
+        "flechas-rapidas",
+        "furtivo",
+        "herbalismo",
+        "precisao",
+        "retesar-eficiente",
+        "sabedoria-selvagem",
+        "truque-sujo",
+        "cacador-de-monstro",
+        "camuflagem",
+        "chuva-de-flechas-2",
+        "companheiro-animal-3",
+        "emboscar",
+        "empalar",
+        "matador-de-criatura",
+        "olho-da-aguia",
+        "passo-leve",
+        "veneficio",
+        "arqueria-de-mestre",
+        "conhecimento-arcano"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2302,7 +2475,41 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.74f4eb07d3561470\" data-slug=\"sacerdote\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, abencoar-aliados-1, abencoar-objeto, aparar-magia, asas-celestiais, asceta, aura-de-cura-1, cariatide...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sacerdotes são seguidores e protetores de uma divindade ou panteão, cuja fé é tão intensa que eles são capazes de canalizar parte do poder de sua divindade patrona na forma de magias.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.74f4eb07d3561470\" data-slug=\"sacerdote\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Elfo, Fira, Humano, Juban e Levent</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, abencoar-aliados-1, abencoar-objeto, aparar-magia, asas-celestiais, asceta, aura-de-cura-1, cariatide...</div></div>",
+      "listaHabilidades": [
+        "conhecimento-mistico",
+        "abencoar-aliados-1",
+        "abencoar-objeto",
+        "aparar-magia",
+        "asas-celestiais",
+        "asceta",
+        "aura-de-cura-1",
+        "cariatide",
+        "conjurar-arma-dos-deuses",
+        "do-destino",
+        "conjurar-broquel-mistico",
+        "corpo-fechado",
+        "curar-ferimentos-1",
+        "detectar-magia",
+        "dogma",
+        "exorcismo",
+        "graca-divina",
+        "protecao-mistica",
+        "purgar",
+        "toque-mistico",
+        "velocidade",
+        "abencoar-aliados-2",
+        "aura-de-cura-2",
+        "circulo-da-protecao",
+        "conjurar-falange-do-destino",
+        "criar-golem",
+        "curar-ferimentos-2",
+        "dissipar-magia",
+        "manter-golem",
+        "portal",
+        "primaz",
+        "pontifice"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2335,7 +2542,65 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a97cf858c04cd05a\" data-slug=\"bardo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (56 Habilidades):</strong> poesia-dos-bardos, aparar, ataque-redirecionado, cancao-da-provocacao, cancao-desesperadora, cancao-do-triunfo, cancao-exultante, eloquente...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar dos Bardos serem geralmente conhecidos como contadores de histórias, músicos itinerantes, atores mambembes, poetas líricos e menestréis da corte, eles são bem mais do que apenas isso. Diferente do trovador comum, que não passa, realmente, de um músico e contador de histórias, os Bardos são mestres em uma forma de arte complexa, capaz não só de encantar plateias como também produzir efeitos tão (e as vezes mais!) extraordinários que os das magias dos conjuradores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a97cf858c04cd05a\" data-slug=\"bardo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Fauno, Humano, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (56 Habilidades):</strong> poesia-dos-bardos, aparar, ataque-redirecionado, cancao-da-provocacao, cancao-desesperadora, cancao-do-triunfo, cancao-exultante, eloquente...</div></div>",
+      "listaHabilidades": [
+        "poesia-dos-bardos",
+        "aparar",
+        "ataque-redirecionado",
+        "cancao-da-provocacao",
+        "cancao-desesperadora",
+        "cancao-do-triunfo",
+        "cancao-exultante",
+        "eloquente",
+        "evasao",
+        "furtivo",
+        "gregario",
+        "grito-de-guerra-1",
+        "grito-ensurdecedor",
+        "grito-estilhacador",
+        "lingua-afiada",
+        "malabarista",
+        "melodia-dancante",
+        "ritmo-do-enjoo",
+        "melodia-do-repouso",
+        "cancao-de-ninar",
+        "mestre-das-notas",
+        "truque-sujo",
+        "cancao-da-sereia",
+        "melodia-desconcertante",
+        "coracao-da-batalha",
+        "grito-de-guerra-2",
+        "grito-de-intimidacao",
+        "ritmo-da-furia",
+        "ritmo-dos-animais",
+        "trapaceiro-impecavel",
+        "virtuoso",
+        "vocalista",
+        "cancao-do-requiem",
+        "conhecimento-mistico",
+        "distracao",
+        "instrumentista",
+        "lirico",
+        "grito-contundente",
+        "falsete",
+        "repentista",
+        "soprista",
+        "mimicar",
+        "pantomima",
+        "beijo-sufocante",
+        "chega-mais",
+        "requebrado",
+        "danca-das-ruas",
+        "danca-da-guerra",
+        "danca-do-ventre",
+        "solo",
+        "palavra-toxica",
+        "charada-obtusa",
+        "golpe-inspirador",
+        "grito-retumbante",
+        "presenca-inspiradora",
+        "um-bom-conselho-1"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2368,7 +2633,41 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c087084a68e94b7b\" data-slug=\"druida\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, asas-celestiais, bencao-de-ellenis, bestializar, bons-frutos, caminhada-magica, companheiro-animal-1...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Druidas são, em essência, pessoas cujo espírito está profundamente ligado à natureza. Apesar de muitos se isolarem da civilização, vivendo como ermitões solitários, membros de comunidades remotas ou ainda em círculos formados apenas por Druidas e Druidisas, muitos deles transitam por grandes cidades e, às vezes, até mesmo habitam em metrópoles. Alguns Druidas urbanos se especializam na natureza intrínseca das cidades enquanto outros se tornam moderadores entre as comunidades onde habitam e as regiões naturais ao redor delas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c087084a68e94b7b\" data-slug=\"druida\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Elfo, Fauno, Levent, Mahok, Metadílio e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, asas-celestiais, bencao-de-ellenis, bestializar, bons-frutos, caminhada-magica, companheiro-animal-1...</div></div>",
+      "listaHabilidades": [
+        "conhecimento-mistico",
+        "aparar-magia",
+        "asas-celestiais",
+        "bencao-de-ellenis",
+        "bestializar",
+        "bons-frutos",
+        "caminhada-magica",
+        "companheiro-animal-1",
+        "companheiro-animal-2",
+        "convocar-animais",
+        "detectar-magia",
+        "entrelacar",
+        "espirito-animal",
+        "evocar-temporal",
+        "herbalismo",
+        "mover-terra",
+        "principio-natural",
+        "rajada-de-agua",
+        "rajada-de-espinhos",
+        "sabedoria-selvagem",
+        "turbilhao",
+        "companheiro-animal-3",
+        "conjurar-abrigo",
+        "despertar-a-flora",
+        "dissipar-magia",
+        "evocar-nevasca",
+        "gavinhas-e-espinhos",
+        "olho-do-furacao",
+        "orbe-de-contencao",
+        "punho-de-pedra",
+        "veneficio",
+        "hierofante"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2401,7 +2700,47 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.271a8d443f5c85f6\" data-slug=\"espadachim\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Humano, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (38 Habilidades):</strong> orbe-de-contencao, punho-de-pedra, veneficio, hierofante, mestre-de-armas-1, acrobata, aparar, ataque-aleijador...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Espadachins são combatentes especializados no uso de armamentos leves, focados na mobilidade e na velocidade para vencer obstáculos. Preferem armas corporais que prezem a rapidez e precisão ao invés de potência, geralmente usando armas de corte e perfuração, ideais para ferir e incapacitar oponentes através de golpes bem aplicados, seja com o intuito de causar ferimentos profundos, causar ferimentos incapacitantes ou enfraquecer os oponentes aos poucos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.271a8d443f5c85f6\" data-slug=\"espadachim\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Humano, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (38 Habilidades):</strong> orbe-de-contencao, punho-de-pedra, veneficio, hierofante, mestre-de-armas-1, acrobata, aparar, ataque-aleijador...</div></div>",
+      "listaHabilidades": [
+        "orbe-de-contencao",
+        "punho-de-pedra",
+        "veneficio",
+        "hierofante",
+        "mestre-de-armas-1",
+        "acrobata",
+        "aparar",
+        "ataque-aleijador",
+        "ataque-giratorio",
+        "ataque-redirecionado",
+        "combate-com-duas-armas-1",
+        "combate-tatico",
+        "corte-arterial",
+        "danca-das-espadas-1",
+        "desarmar-oponente",
+        "eloquente",
+        "evasao",
+        "falhas-da-armadura",
+        "golpes-rapidos",
+        "investida-mortal",
+        "lingua-afiada",
+        "movimentos-evasivos",
+        "panache",
+        "sem-escapatoria",
+        "touche",
+        "truque-sujo",
+        "combate-com-duas-armas-2",
+        "coracao-da-batalha",
+        "danca-das-espadas-2",
+        "decapitar",
+        "implacavel",
+        "mestre-de-armas-2",
+        "retalhar",
+        "ripostar",
+        "tempestade-de-laminas",
+        "valor-da-vitoria",
+        "senhor-das-laminas",
+        "conhecimento-arcano"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2434,7 +2773,43 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4562a02d414f1816\" data-slug=\"runico\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Astério, Fira e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, aparar-magia, arma-fiel, arma-incandescente, arma-gelida, arma-relampejante, armadura-fiel, ataque-fantasma...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Rúnico é um conjurador arcano cujo estudo da estrutura da conjuração é reprimido em detrimento do estudo marcial e do uso de ambas as técnicas em conjunto. Assim, o Rúnico utiliza seus conhecimentos arcanos de forma restrita, incapaz de realizar fenômenos particularmente espetaculares de conjuração de magias, incapaz de realizar fenômenos particularmente espetaculares de conjuração – a menos que tenha acesso a um Grimório – mas, em contra partida, possui capacidades combativas muito superiores às de outros conjuradores, sendo capaz, inclusive, de se engajar em combate com eficiência sem precisar lançar mão de nenhuma magia – uma capacidade particularmente útil em áreas de magia morta.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4562a02d414f1816\" data-slug=\"runico\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Astério, Fira e Mahok</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, aparar-magia, arma-fiel, arma-incandescente, arma-gelida, arma-relampejante, armadura-fiel, ataque-fantasma...</div></div>",
+      "listaHabilidades": [
+        "conhecimento-arcano",
+        "aparar-magia",
+        "arma-fiel",
+        "arma-incandescente",
+        "arma-gelida",
+        "arma-relampejante",
+        "armadura-fiel",
+        "ataque-fantasma",
+        "combate-tatico",
+        "conjurar-escudo",
+        "desativar-item",
+        "detectar-magia",
+        "enfeiticar-arma-1",
+        "enfeiticar-armadura",
+        "guerreiro-de-aco-1",
+        "mente-disciplinada",
+        "onda-de-chamas",
+        "onda-de-frio",
+        "onda-de-raios",
+        "onda-fantasma",
+        "resistencia-elemental",
+        "sem-escapatoria",
+        "aptidao-elemental",
+        "ataque-chocante",
+        "ataque-congelante",
+        "ataque-flamejante",
+        "golpe-do-vento",
+        "dissipar-magia",
+        "enfeiticar-arma-2",
+        "guerreiro-de-aco-2",
+        "implacavel",
+        "mestre-de-armas-2",
+        "destruicao-elemental",
+        "conhecimento-mistico"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2467,7 +2842,41 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.424f6b2129452ab1\" data-slug=\"dracomante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Dracomantes são conjuradores místicos que canalizam as energias dos planos elementais através de sua devoção aos dragões – o que faz com que eles não possam adorar outras entidades, impedindo que se tornem aprendizes de outras Classes de conjuração mística, assumam Dogmas ou realizem Pactos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.424f6b2129452ab1\" data-slug=\"dracomante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério, Elfo, Humano e Orc</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> conhecimento-mistico, aparar-magia, arcipreste, arsenal-draconico, asas-elementais, aura-do-dragao, bafo-do-dragao-negro, cauda-draconica...</div></div>",
+      "listaHabilidades": [
+        "conhecimento-mistico",
+        "aparar-magia",
+        "arcipreste",
+        "arsenal-draconico",
+        "asas-elementais",
+        "aura-do-dragao",
+        "bafo-do-dragao-negro",
+        "cauda-draconica",
+        "companheiro-dragao-1",
+        "companheiro-dragao-2",
+        "defesa-do-dragao-do-relampago",
+        "detectar-magia",
+        "escamas-draconicas",
+        "exalacao-do-dragao-do-frio",
+        "folego-do-dragao-marinho",
+        "furia-do-dragao",
+        "halito-do-dragao",
+        "rugido-do-dragao-do-deserto",
+        "sintonia-draconica",
+        "travessia-do-dragao-do-fogo",
+        "vinculo-draconico",
+        "asas-draconicas",
+        "companheiro-dragao-4",
+        "dissipar-magia",
+        "exarca",
+        "atrio-elemental",
+        "bencao-do-dragao",
+        "companheiro-dragao-3",
+        "forma-draconica",
+        "halito-do-dragao-anciao",
+        "presenca-draconica",
+        "flagelo-da-aurora"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2500,7 +2909,43 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.457f1f8417f52a7e\" data-slug=\"necromante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, absorver-alma, aparar-magia, armadura-necromantica, comunhao-com-espiritos, condenar-o-corpo, condenar-a-alma, contato-com-espiritos...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Necromantes são os mestres absolutos das energias espirituais. Eles se dedicam ao entendimento do Plano Espiritual e das barreiras entre as dimensões da mesma forma como os Feiticeiros e Rúnicos estudam as energias e a ligação com os planos elementais. Suas habilidades vão desde criar, controlar e fortalecer mortos-vivos, passando pela capacidade de invocar e comandar espíritos, absorver a energia vital de criaturas vivas e manipular as energias necromânticas criando efeitos tanto defensivos como ofensivos eficientes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.457f1f8417f52a7e\" data-slug=\"necromante\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Goblin, Levent, Hamelin, Humano e Naga</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (34 Habilidades):</strong> conhecimento-arcano, absorver-alma, aparar-magia, armadura-necromantica, comunhao-com-espiritos, condenar-o-corpo, condenar-a-alma, contato-com-espiritos...</div></div>",
+      "listaHabilidades": [
+        "conhecimento-arcano",
+        "absorver-alma",
+        "aparar-magia",
+        "armadura-necromantica",
+        "comunhao-com-espiritos",
+        "condenar-o-corpo",
+        "condenar-a-alma",
+        "contato-com-espiritos",
+        "controlar-mortos-vivos",
+        "cranio-sentinela",
+        "cura-sombria",
+        "despertar-dos-mortos-1",
+        "detectar-magia",
+        "energia-sombria-1",
+        "esconjurar",
+        "invocar-espectro",
+        "sustentar-mortos-vivos",
+        "transferencia-espiritual",
+        "aptidao-necromantica",
+        "caminhada-fantasma",
+        "lanterna-dos-mortos",
+        "mente-disciplinada",
+        "protecao-cadaverica",
+        "dissipar-magia",
+        "encarnar-espirito",
+        "cranio-guardiao",
+        "despertar-dos-mortos-2",
+        "bloqueio-necromantico",
+        "energia-sombria-2",
+        "imunidade-espiritual",
+        "resistencia-dos-mortos",
+        "resistencia-necromantica",
+        "necromanto",
+        "sabedoria-sobrenatural"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2533,7 +2978,46 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.064542aa1e26fcfe\" data-slug=\"senescal\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> energia-sombria-2, imunidade-espiritual, resistencia-dos-mortos, resistencia-necromantica, mestre-dos-mortos, posicao-distinta, contatos-na-corte, contatos-politicos...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Senescais são administradores, conselheiros e estrategistas que utilizam seu carisma, inteligência, conhecimento e determinação para organizar instituições e pessoas de forma eficiente. Embora alguns Senescais sejam negociantes isolados, trabalhando na administração de pequenos empreendimentos – como uma taverna, um pequeno barco comercial ou um bazar – a maioria deles procura atuar em posições onde serão capazes de lidar com grandes grupos de pessoas direta ou indiretamente, como na administração de vilas, cidades e organizações. Muitos Senescais são líderes eficientes, enquanto outros preferem agir como conselheiros ou administradores, onde suas capacidades também são eficientes. Um Mastim que seja um bom guerreiro será eficiente quando trabalha à frente de seus homens, mas um Mastim capaz de aconselhar e disciplinar seus soldados de forma efetiva terá um grupo mais organizado mesmo que não esteja sempre presente na hora da ação. De forma semelhante, portar-se de forma austera e competente pode ser tão proveitoso para a moral de um grupo quanto demonstrar bravura e sagacidade diante de adversidades – e, às vezes, até mais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.064542aa1e26fcfe\" data-slug=\"senescal\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anões, Astérios, Elfos, Firas, Humanos, Juban, Levent e Metadílio</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (37 Habilidades):</strong> energia-sombria-2, imunidade-espiritual, resistencia-dos-mortos, resistencia-necromantica, mestre-dos-mortos, posicao-distinta, contatos-na-corte, contatos-politicos...</div></div>",
+      "listaHabilidades": [
+        "energia-sombria-2",
+        "imunidade-espiritual",
+        "resistencia-dos-mortos",
+        "resistencia-necromantica",
+        "mestre-dos-mortos",
+        "posicao-distinta",
+        "contatos-na-corte",
+        "contatos-politicos",
+        "distintivo-de-oficio",
+        "distracao",
+        "eloquente",
+        "erudito",
+        "farda",
+        "formacao-de-batalha-1",
+        "gregario",
+        "guarda-costas",
+        "inspirar-coragem",
+        "lingua-afiada",
+        "mastim",
+        "presenca-confiante",
+        "presenca-inspiradora",
+        "reposicionar",
+        "sequito",
+        "taticas-de-batalha",
+        "um-bom-conselho-1",
+        "voz-de-comando-1",
+        "abrir-a-guarda",
+        "conselheiro-pessoal",
+        "formacao-de-batalha-2",
+        "guarda-de-honra",
+        "juiz",
+        "persuadir",
+        "restaurar-conviccao",
+        "trapaceiro-impecavel",
+        "magistrado",
+        "um-bom-conselho-2",
+        "voz-de-comando-2"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2566,7 +3050,44 @@ export const CANONICAL_CLASSES = [
       "vida": 60,
       "mana": 60,
       "equipamentoInicial": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b89d37f86c189b3e\" data-slug=\"xama\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (35 Habilidades):</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico...</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Xamãs são pessoas com uma poderosa ligação com os espíritos. Apesar de muitos deles lidarem com os espíritos dos mortos, a maioria preferem lidar com os espíritos da natureza.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b89d37f86c189b3e\" data-slug=\"xama\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Astério, Centauro, Elfo, Fauno, Levent e Tailox</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (35 Habilidades):</strong> primaz, pontifice, guia-espiritual, ataque-do-bufalo, bencao-de-ellenis, brigao, bravura-selvagem-1, combate-tatico...</div></div>",
+      "listaHabilidades": [
+        "primaz",
+        "pontifice",
+        "guia-espiritual",
+        "ataque-do-bufalo",
+        "bencao-de-ellenis",
+        "brigao",
+        "bravura-selvagem-1",
+        "combate-tatico",
+        "companheiro-animal-1",
+        "companheiro-animal-2",
+        "comunhao-com-espiritos",
+        "contato-com-espiritos",
+        "chamado-do-alfa",
+        "combate-com-duas-armas-1",
+        "cura-espiritual",
+        "espirito-animal",
+        "forma-animal-1",
+        "herbalismo",
+        "invocar-espirito-animal",
+        "rugido-do-alfa",
+        "rugido-do-predador",
+        "sabedoria-selvagem",
+        "sem-escapatoria",
+        "vantagem-animal-1",
+        "atropelar",
+        "caminhada-fantasma",
+        "companheiro-animal-3",
+        "companheiro-espiritual",
+        "estracalhar",
+        "forma-animal-2",
+        "implacavel",
+        "imunidade-espiritual",
+        "mestre-domador",
+        "vantagem-animal-2",
+        "guardiao-da-natureza"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2589,7 +3110,16 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Força 6, Uma habilidade de Fúria qualquer.",
       "habilidadeAutomatica": "Irrefreável",
       "racasComuns": "Aesir, Centauro, Fauno e Orc.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Amoques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5483fa0277bff76e\" data-slug=\"amoque\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 6, Uma habilidade de Fúria qualquer.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Fauno e Orc.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Amoques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5483fa0277bff76e\" data-slug=\"amoque\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 6, Uma habilidade de Fúria qualquer.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Centauro, Fauno e Orc.</div></div>",
+      "listaHabilidades": [
+        "ataque-brutal",
+        "furia-irrefreavel",
+        "retribuicao-furiosa",
+        "investida-brutal",
+        "ataque-furioso",
+        "furia-colerica",
+        "furia-brutal"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2608,7 +3138,21 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.",
       "habilidadeAutomatica": "Autoridade Legal",
       "racasComuns": "Fira, Juban e Humano.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da Espada de Mirah, e precisam ser admitidos como Irmãos dentro da ordem – embora não precisem se tornar Jurados ou Priores, muitos deles também almejam estes títulos dentro da Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.caefda4857de50b1\" data-slug=\"arconte\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Juban e Humano.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da Espada de Mirah, e precisam ser admitidos como Irmãos dentro da ordem – embora não precisem se tornar Jurados ou Priores, muitos deles também almejam estes títulos dentro da Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.caefda4857de50b1\" data-slug=\"arconte\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fira, Juban e Humano.</div></div>",
+      "listaHabilidades": [
+        "austeridade",
+        "codigo-da-honestidade",
+        "mastim",
+        "punicao-da-escuridao",
+        "punicao-da-execucao",
+        "punicao-do-silencio",
+        "punicao-do-suplicio",
+        "juiz",
+        "punicao-do-acoite",
+        "punicao-da-amputacao",
+        "punicao-do-exilio",
+        "punicao-da-confissao"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2627,7 +3171,18 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Agilidade 4, Ataque Aleijador.",
       "habilidadeAutomatica": "Atacar pelas Costas",
       "racasComuns": "Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c3073b46befe34a1\" data-slug=\"assassino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Agilidade 4, Ataque Aleijador.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.c3073b46befe34a1\" data-slug=\"assassino\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Agilidade 4, Ataque Aleijador.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.</div></div>",
+      "listaHabilidades": [
+        "corte-arterial",
+        "faca-os-sangrar",
+        "flanquear",
+        "reflexos-assassinos",
+        "en-passant",
+        "esquartejar",
+        "explorar-surpresa",
+        "olho-da-serpente",
+        "mestre-assassino"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2646,7 +3201,18 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.",
       "habilidadeAutomatica": "Frio Cadavérico",
       "racasComuns": "Humano, por chance.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Avantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1ad387a37682d486\" data-slug=\"avantesma\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano, por chance.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Avantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1ad387a37682d486\" data-slug=\"avantesma\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano, por chance.</div></div>",
+      "listaHabilidades": [
+        "aura-gelida",
+        "bloqueio-necromantico",
+        "canalizacao-necromantica",
+        "contato-com-espiritos",
+        "toque-da-morte",
+        "canalizacao-necromantica-maior",
+        "devorador-dos-mortos",
+        "furia-fria",
+        "vigor-necromantico"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2665,7 +3231,19 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 5, Conhecimento Arcano.",
       "habilidadeAutomatica": "Conhecimento Nefasto",
       "racasComuns": "Humano e Naga.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Aziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.aa729f69111ff630\" data-slug=\"aziago\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Aziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.aa729f69111ff630\" data-slug=\"aziago\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>",
+      "listaHabilidades": [
+        "causar-horror",
+        "maldicao-da-assombracao",
+        "maldicao-da-debilidade",
+        "maldicao-da-dor",
+        "maldicao-do-medo",
+        "remover-maldicoes",
+        "maldicao-da-cegueira",
+        "maldicao-do-canibalismo",
+        "maldicao-da-dominacao",
+        "eternizar-maldicao"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2684,7 +3262,17 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 5, Herbalismo.",
       "habilidadeAutomatica": "Alquimia Básica",
       "racasComuns": "Anão, Fira, Elfo, Faen, Humano.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a93b2b300ce3fb9c\" data-slug=\"alquimista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Herbalismo.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Elfo, Faen, Humano.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.a93b2b300ce3fb9c\" data-slug=\"alquimista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Herbalismo.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Elfo, Faen, Humano.</div></div>",
+      "listaHabilidades": [
+        "iatrica",
+        "espagiria",
+        "nigredo",
+        "alquimia-avancada",
+        "elixir-da-longa-vida",
+        "citrinitas",
+        "toxicologo",
+        "pedra-filosofal"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2703,7 +3291,19 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 5, Teleporte 1.",
       "habilidadeAutomatica": "Aporte",
       "racasComuns": "Elfo, Faen, Humano, Levent, Tailox.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Argênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.0ab960d2e795b6ce\" data-slug=\"argenteo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Teleporte 1.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Humano, Levent, Tailox.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Argênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.0ab960d2e795b6ce\" data-slug=\"argenteo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Teleporte 1.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Humano, Levent, Tailox.</div></div>",
+      "listaHabilidades": [
+        "analisar-magia",
+        "empurrao-cinetico",
+        "permutacao-instantanea",
+        "runa-de-localizacao",
+        "teleportar-objeto",
+        "teologo",
+        "area-de-anti-magia",
+        "arremesso-cinetico",
+        "porta-oculta",
+        "sala-oculta"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2722,7 +3322,21 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Força 4, Inteligência 4, Sentidos Apurados.",
       "habilidadeAutomatica": "Arqueria",
       "racasComuns": "Anão, Centauro, Humano, Juban.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Em Cassiopéia, um Arqueiro é qualquer especialista no uso de um arco, seja o tradicional arco de caça ou guerra, o arco horizontal montado sobre um cabo como no caso das bestas ou mesmo os arcos das forquilhas de bodoques. No entanto, como muitos caçadores, rastreadores e batedores costumam usar essas armas, o termo Arqueiro é utilizado entre Patrulheiros, Guerreiros e outros homens-de-armas para definir um grupo mais restrito de soldados: aqueles usuários de arcos que guardam e vigiam.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1a4f5a5d76d435a0\" data-slug=\"arqueiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 4, Inteligência 4, Sentidos Apurados.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Centauro, Humano, Juban.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Em Cassiopéia, um Arqueiro é qualquer especialista no uso de um arco, seja o tradicional arco de caça ou guerra, o arco horizontal montado sobre um cabo como no caso das bestas ou mesmo os arcos das forquilhas de bodoques. No entanto, como muitos caçadores, rastreadores e batedores costumam usar essas armas, o termo Arqueiro é utilizado entre Patrulheiros, Guerreiros e outros homens-de-armas para definir um grupo mais restrito de soldados: aqueles usuários de arcos que guardam e vigiam.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1a4f5a5d76d435a0\" data-slug=\"arqueiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 4, Inteligência 4, Sentidos Apurados.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Centauro, Humano, Juban.</div></div>",
+      "listaHabilidades": [
+        "aplicar-forca",
+        "disparo-certeiro",
+        "disparo-mirado",
+        "disparo-forte",
+        "prever-posicao",
+        "retesar-eficiente",
+        "vigilia",
+        "agarra-flechas",
+        "disparo-cego",
+        "disparo-devastador",
+        "olho-da-aguia",
+        "disparo-perfeito"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2741,7 +3355,14 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 5, Conhecimento Arcano.",
       "habilidadeAutomatica": "Encantar Talismã",
       "racasComuns": "Aesir, Anão, Elfo, Fira, Metadílio.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Artífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.72144f07e1e5047d\" data-slug=\"artifice\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Conhecimento Arcano.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Elfo, Fira, Metadílio.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Artífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.72144f07e1e5047d\" data-slug=\"artifice\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Conhecimento Arcano.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Elfo, Fira, Metadílio.</div></div>",
+      "listaHabilidades": [
+        "conjurar-objeto",
+        "desativar-item",
+        "enfeiticar-armadura",
+        "soldar-magia",
+        "abrir-encantamento"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2760,7 +3381,38 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Pacto.",
       "habilidadeAutomatica": "Círculo de Invocação Infernal",
       "racasComuns": "Humano e Naga.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.62e5078a5daba2bd\" data-slug=\"cultista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Pacto.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.62e5078a5daba2bd\" data-slug=\"cultista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Pacto.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Humano e Naga.</div></div>",
+      "listaHabilidades": [
+        "cauda-farpada",
+        "chifres-pequenos",
+        "couro-infernal",
+        "invocar-lemure",
+        "olhos-infernais",
+        "patas-infernais",
+        "resistencia-infernal",
+        "asas-infernais",
+        "coroa-infernal",
+        "chifres-grandes",
+        "invocar-shedin",
+        "invocar-asura",
+        "portal-infernal",
+        "sacrificio-das-trevas",
+        "olhar-da-serpente",
+        "toque-de-glycon",
+        "garantir-o-planejamento",
+        "explosao-profana",
+        "flagelo-de-shyama",
+        "execrar",
+        "abraco-da-escuridao",
+        "servo-de-nehemoth",
+        "visao-de-nehemoth",
+        "loucura-revelada",
+        "espelhar-loucura",
+        "corrente-de-loucura",
+        "visao-do-vazio",
+        "olhar-de-virzu",
+        "voz-de-virzu"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2779,7 +3431,13 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 4, Dogma.",
       "habilidadeAutomatica": "Força Divina",
       "racasComuns": "Anão, Elfo, Humano, Juban, Levent, Tailox.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.46dc69095da17431\" data-slug=\"cruzado\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 4, Dogma.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Elfo, Humano, Juban, Levent, Tailox.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Cruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.46dc69095da17431\" data-slug=\"cruzado\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 4, Dogma.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Elfo, Humano, Juban, Levent, Tailox.</div></div>",
+      "listaHabilidades": [
+        "ataque-fervoroso",
+        "expurgo-elemental",
+        "seguir-em-frente",
+        "vontade-inabalavel"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2798,7 +3456,16 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 5, Benção de Ellenis.",
       "habilidadeAutomatica": "Companheiro Animal 1",
       "racasComuns": "Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Domadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ebef2b7cb8f4737\" data-slug=\"domador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Benção de Ellenis.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Domadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ebef2b7cb8f4737\" data-slug=\"domador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Benção de Ellenis.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox.</div></div>",
+      "listaHabilidades": [
+        "ataque-simultaneo",
+        "cavaleiro-experiente",
+        "combate-em-grupo",
+        "combate-montado",
+        "horda-selvagem",
+        "mestre-domador",
+        "comando-do-alfa"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2817,7 +3484,17 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 4.",
       "habilidadeAutomatica": "Escrivão",
       "racasComuns": "Anão, Fira, Humano, Metadílio.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Escribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8f06be0ffc374af7\" data-slug=\"escriba\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Humano, Metadílio.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Escribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8f06be0ffc374af7\" data-slug=\"escriba\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Humano, Metadílio.</div></div>",
+      "listaHabilidades": [
+        "escrivao-magico",
+        "gnostico",
+        "luminar",
+        "teologo",
+        "prosa-e-verso",
+        "pergaminho-magico",
+        "mensagem-magica",
+        "a-verdade-das-palavras"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2836,7 +3513,12 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 4, Matado algo sobrenatural.",
       "habilidadeAutomatica": "Caça Sobrenatural",
       "racasComuns": "Elfo, Fauno, Humano, Levent, Metadílio, Tailox.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Estrige é o nome dado aos membros da Ordem dos Caçadores Sobrenaturais, homens e mulheres que dedicam suas vidas para caçar e destruir criaturas amaldiçoadas de todos os tipos, como fantasmas, lobisomens, demônios e mortos-vivos – assim como aqueles que lidam com essas criaturas, como Cultistas e Necromantes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.94efab307dba9fd2\" data-slug=\"estrige\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Matado algo sobrenatural.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Fauno, Humano, Levent, Metadílio, Tailox.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Estrige é o nome dado aos membros da Ordem dos Caçadores Sobrenaturais, homens e mulheres que dedicam suas vidas para caçar e destruir criaturas amaldiçoadas de todos os tipos, como fantasmas, lobisomens, demônios e mortos-vivos – assim como aqueles que lidam com essas criaturas, como Cultistas e Necromantes.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.94efab307dba9fd2\" data-slug=\"estrige\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Matado algo sobrenatural.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Fauno, Humano, Levent, Metadílio, Tailox.</div></div>",
+      "listaHabilidades": [
+        "sentidos-de-cacador",
+        "matador-sobrenatural",
+        "quebrar-a-defesa-sombria"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2855,7 +3537,16 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 5, Detectar Magia.",
       "habilidadeAutomatica": "Ilusão 1",
       "racasComuns": "Elfo, Faen, Metadílio.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5fcd20ace39eef3b\" data-slug=\"ilusionista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Detectar Magia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Metadílio.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5fcd20ace39eef3b\" data-slug=\"ilusionista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 5, Detectar Magia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Elfo, Faen, Metadílio.</div></div>",
+      "listaHabilidades": [
+        "aparencia-ilusoria",
+        "ilusao-sonora",
+        "luz-magica",
+        "som-ilusorio",
+        "abrigo-invisivel",
+        "ilusao-persistente",
+        "ilusao-eterna"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2874,7 +3565,14 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 6, Detectar Magia.",
       "habilidadeAutomatica": "Invocar Familiar",
       "racasComuns": "Anão, Fira, Mahok, Levent.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los. Apesar das óbvias aplicações combativas, muitos Invocadores na verdade usam suas habilidades para atividades mais mundanas. Como são incansáveis, seguem ordens com exatidão e não se distraem, golens e elementais são trabalhadores extremamente eficientes. A Academia Argêntea e algumas metrópoles de Tebryn, Parband e Dagothar empregam Invocadores como arquitetos e construtores, enquanto muitos utilizam suas invocações como auxiliares em laboratórios, forjas e oficinas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.9a48179272b7e7cb\" data-slug=\"invocador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 6, Detectar Magia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Mahok, Levent.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los. Apesar das óbvias aplicações combativas, muitos Invocadores na verdade usam suas habilidades para atividades mais mundanas. Como são incansáveis, seguem ordens com exatidão e não se distraem, golens e elementais são trabalhadores extremamente eficientes. A Academia Argêntea e algumas metrópoles de Tebryn, Parband e Dagothar empregam Invocadores como arquitetos e construtores, enquanto muitos utilizam suas invocações como auxiliares em laboratórios, forjas e oficinas.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.9a48179272b7e7cb\" data-slug=\"invocador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 6, Detectar Magia.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Fira, Mahok, Levent.</div></div>",
+      "listaHabilidades": [
+        "invocacao-persistente",
+        "invocacao-versatil",
+        "ampliar-invocacao",
+        "manter-invocacao",
+        "invocacao-prodigiosa"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2893,7 +3591,17 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Força 3, Sem Escapatória.",
       "habilidadeAutomatica": "Manter a Linha",
       "racasComuns": "Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Lanceiros são especialistas no uso de armas de haste. Apesar de usualmente eles preferirem lanças, particularmente eficientes quando usadas em formação, muitos Lanceiros favorecem alabardas, glaives ou martelos lucernos ao invés de lanças.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b57e55f99ca1c3b7\" data-slug=\"lanceiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 3, Sem Escapatória.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Lanceiros são especialistas no uso de armas de haste. Apesar de usualmente eles preferirem lanças, particularmente eficientes quando usadas em formação, muitos Lanceiros favorecem alabardas, glaives ou martelos lucernos ao invés de lanças.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b57e55f99ca1c3b7\" data-slug=\"lanceiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 3, Sem Escapatória.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Anão, Centauro, Elfo, Fauno, Fira, Humano, Levent.</div></div>",
+      "listaHabilidades": [
+        "contra-carga",
+        "derrubar",
+        "empunhadura-flexivel",
+        "manter-a-distancia",
+        "acuar",
+        "fique-longe",
+        "virar-o-jogo",
+        "mestre-da-lanca"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2912,7 +3620,16 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 6, Conhecimento Místico.",
       "habilidadeAutomatica": "Clarividência",
       "racasComuns": "Aesir, Humano, Juban, Levent, Metadílio, Tailox.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.315953a25883abba\" data-slug=\"oraculo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 6, Conhecimento Místico.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Humano, Juban, Levent, Metadílio, Tailox.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.315953a25883abba\" data-slug=\"oraculo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 6, Conhecimento Místico.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Humano, Juban, Levent, Metadílio, Tailox.</div></div>",
+      "listaHabilidades": [
+        "janela-magica",
+        "psicometria",
+        "retrocognicao",
+        "abrir-janela-magica",
+        "atravessar-janela-magica",
+        "precognicao",
+        "interferir-no-fluxo"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2931,7 +3648,17 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.",
       "habilidadeAutomatica": "Magia Sanguínea",
       "racasComuns": "Aesir, Elfo, Fira e Humano.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sanguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ae10c0e7b21d3531\" data-slug=\"sanguineo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Elfo, Fira e Humano.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sanguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ae10c0e7b21d3531\" data-slug=\"sanguineo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Elfo, Fira e Humano.</div></div>",
+      "listaHabilidades": [
+        "arma-dos-mortos",
+        "deflagrar-ossos",
+        "ligacao-de-sangue",
+        "percepcao-sanguinea",
+        "coagular-sangue",
+        "fonte-de-sangue",
+        "sifao-de-sangue",
+        "vibrar-os-ossos"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2950,7 +3677,19 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Vontade 3, Artesão.",
       "habilidadeAutomatica": "Primeira Marca",
       "racasComuns": "Aesir, Anão, Astério.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Em Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.61a019366e15ebfe\" data-slug=\"tohunga\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 3, Artesão.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Em Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.61a019366e15ebfe\" data-slug=\"tohunga\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 3, Artesão.</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Aesir, Anão, Astério.</div></div>",
+      "listaHabilidades": [
+        "tamoko",
+        "tribal-de-protecao",
+        "tribal-de-poder",
+        "invocar-espirito-de-tinta",
+        "tatuar-objeto",
+        "tatuar-magia",
+        "coracao-de-tinta",
+        "kirituhi",
+        "tatuar-efeito",
+        "invocar-exercito-de-tinta"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2973,7 +3712,14 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Altéria",
       "lideranca": "Lars Finnigan (Humano Ladino 8)",
       "ingresso": "Indicação por um membro e aprovação de outros dois.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.276f5d555b77d9e3\" data-slug=\"irmandade-do-anel-de-bronze\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Mercante</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Altéria</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.276f5d555b77d9e3\" data-slug=\"irmandade-do-anel-de-bronze\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Mercante</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Altéria</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</div></div>",
+      "listaHabilidades": [
+        "contatos-no-crime",
+        "contatos-na-corte",
+        "contatos-politicos",
+        "barganha",
+        "conhecimento-regional-tebryn"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -2993,7 +3739,13 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "?",
       "lideranca": "Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)",
       "ingresso": "Período como escudeiro, seguido de uma sabatina perante os juízes.",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5ce31fdfb296a239\" data-slug=\"espada-de-mirah\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Período como escudeiro, seguido de uma sabatina perante os juízes.</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5ce31fdfb296a239\" data-slug=\"espada-de-mirah\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Período como escudeiro, seguido de uma sabatina perante os juízes.</div></div>",
+      "listaHabilidades": [
+        "codigo-da-honestidade",
+        "codigo-da-justica",
+        "arma-da-ordem",
+        "conhecimento-regional-tebryn"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3013,7 +3765,13 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Tebrynia",
       "lideranca": "Noa Abir (Fira Senescal 7)",
       "ingresso": "Demonstração de habilidade",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada em Tebrynia pelo Rei Kirk van Strauss como parte da revitalização da cidade, o Rei de Ferro concedeu benefícios para os artesãos que quisessem estabelecer suas oficinas em uma das áreas mais pobres de Tebrynia na época. Em pouco tempo vários artesãos haviam criado suas oficinas na região, e uma grande maioria dessas oficinas eram forjas de Anões vindos de Stord e Forjaguardas. Esses ferreiros rapidamente se integraram formando uma guilda de ferreiros, e adotaram, eventualmente, o nome do deus patrono dos ferreiros para nomear sua guilda. O próprio nome do bairro onde hoje a guilda se instala se deve ao fato do primeiro grande contrato da guilda ter sido a fabricação de espadas para a guarda de Tebryn.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e199f3077cca010\" data-slug=\"forjas-de-hou\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Guilda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Noa Abir (Fira Senescal 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Fundada em Tebrynia pelo Rei Kirk van Strauss como parte da revitalização da cidade, o Rei de Ferro concedeu benefícios para os artesãos que quisessem estabelecer suas oficinas em uma das áreas mais pobres de Tebrynia na época. Em pouco tempo vários artesãos haviam criado suas oficinas na região, e uma grande maioria dessas oficinas eram forjas de Anões vindos de Stord e Forjaguardas. Esses ferreiros rapidamente se integraram formando uma guilda de ferreiros, e adotaram, eventualmente, o nome do deus patrono dos ferreiros para nomear sua guilda. O próprio nome do bairro onde hoje a guilda se instala se deve ao fato do primeiro grande contrato da guilda ter sido a fabricação de espadas para a guarda de Tebryn.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e199f3077cca010\" data-slug=\"forjas-de-hou\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Guilda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Noa Abir (Fira Senescal 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>",
+      "listaHabilidades": [
+        "arte-da-forja-1",
+        "arte-da-forja-2",
+        "arte-da-forja-3",
+        "forjado-a-fogo"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3033,7 +3791,11 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Tebrynia, Ambrook e Braktar",
       "lideranca": "Não identificado",
       "ingresso": "Habitante de Tebryn sem ofensas registradas contra o governo",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Esta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.05e801a84d8cfe98\" data-slug=\"iris-de-maltas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Guilda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia, Ambrook e Braktar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Habitante de Tebryn sem ofensas registradas contra o governo</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Esta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.05e801a84d8cfe98\" data-slug=\"iris-de-maltas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Guilda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia, Ambrook e Braktar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Habitante de Tebryn sem ofensas registradas contra o governo</div></div>",
+      "listaHabilidades": [
+        "alquimista-de-campo",
+        "alquimista-de-combate"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3053,7 +3815,13 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Lonjágua",
       "lideranca": "Não identificado",
       "ingresso": "Não mencionado",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.2845c3fb7e77d4f3\" data-slug=\"o-arpao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Lonjágua</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.2845c3fb7e77d4f3\" data-slug=\"o-arpao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Lonjágua</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
+      "listaHabilidades": [
+        "contatos-no-crime",
+        "durao",
+        "intimidar",
+        "pernas-do-mar"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3073,7 +3841,12 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Tebrynia",
       "lideranca": "Não identificado",
       "ingresso": "Demonstração de habilidade",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1d6e6781ed62f892\" data-slug=\"capuzes-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1d6e6781ed62f892\" data-slug=\"capuzes-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Demonstração de habilidade</div></div>",
+      "listaHabilidades": [
+        "contatos-no-crime",
+        "contatos-politicos",
+        "cartografia"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3093,7 +3866,12 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Tebrynia",
       "lideranca": "Não identificado",
       "ingresso": "Não mencionado",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8b8f8463666fe09b\" data-slug=\"cesto-de-adagas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">O Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.8b8f8463666fe09b\" data-slug=\"cesto-de-adagas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
+      "listaHabilidades": [
+        "trapaceiro-impecavel",
+        "contatos-no-crime",
+        "falsificador"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3113,7 +3891,14 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Miralda",
       "lideranca": "Brunn Fracta (Humano Feiticeiro 7)",
       "ingresso": "Ser um conjurador arcano e seis meses de serviço probatório",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4ede745be60451c1\" data-slug=\"corvos-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Miralda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Brunn Fracta (Humano Feiticeiro 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Ser um conjurador arcano e seis meses de serviço probatório</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.4ede745be60451c1\" data-slug=\"corvos-negros\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Ordem</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Miralda</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Brunn Fracta (Humano Feiticeiro 7)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Ser um conjurador arcano e seis meses de serviço probatório</div></div>",
+      "listaHabilidades": [
+        "armadura-de-gelo",
+        "aura-congelante",
+        "barreira-de-gelo",
+        "frio-intenso",
+        "sopro-gelido"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3133,7 +3918,14 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Tebrynia",
       "lideranca": "Desconhecido",
       "ingresso": "Combate, tortura e tatuagem",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.edc9464c76248c66\" data-slug=\"cranios-vermelhos\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Desconhecido</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Combate, tortura e tatuagem</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.edc9464c76248c66\" data-slug=\"cranios-vermelhos\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Criminal</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Tebrynia</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Desconhecido</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Combate, tortura e tatuagem</div></div>",
+      "listaHabilidades": [
+        "contatos-no-crime",
+        "cranio-vermelho",
+        "mandibula-vermelha",
+        "presas-vermelhas",
+        "tatuador-da-guilda"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3153,7 +3945,14 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Navio Lobo de Guerra, atracado no extremo do porto de Adieren",
       "lideranca": "Não possui",
       "ingresso": "Não mencionado",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ac097694e091b93a\" data-slug=\"lobos-dos-mares\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Navio Lobo de Guerra, atracado no extremo do porto de Adieren</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não possui</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ac097694e091b93a\" data-slug=\"lobos-dos-mares\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Navio Lobo de Guerra, atracado no extremo do porto de Adieren</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não possui</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
+      "listaHabilidades": [
+        "investida-acrobatica",
+        "lobo-do-mar",
+        "lutar-no-conves",
+        "navegador",
+        "pernas-do-mar"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3173,7 +3972,13 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "?",
       "lideranca": "General Fengran Rosevox (Humano Sacerdote Cruzado 10)",
       "ingresso": "Treinamento, seguido de alistamento",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.bf8bbb2c05baa928\" data-slug=\"hoste-de-hadorn\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> General Fengran Rosevox (Humano Sacerdote Cruzado 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Sua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.bf8bbb2c05baa928\" data-slug=\"hoste-de-hadorn\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> ?</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> General Fengran Rosevox (Humano Sacerdote Cruzado 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>",
+      "listaHabilidades": [
+        "codigo-da-coragem",
+        "conhecimento-regional-tebryn",
+        "medico-de-campo",
+        "militar"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3193,7 +3998,12 @@ export const CANONICAL_ORGANIZACOES = [
       "sede": "Stord",
       "lideranca": "Ingvi Steinfinga (Anã Guerreira 10)",
       "ingresso": "Treinamento, seguido de alistamento",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e384d6d238e49c8\" data-slug=\"guarda-das-fronteiras-rochosas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Stord</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>"
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e384d6d238e49c8\" data-slug=\"guarda-das-fronteiras-rochosas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Stord</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>",
+      "listaHabilidades": [
+        "estabilidade",
+        "cacador-das-cordilheiras",
+        "matador-das-cordilheiras"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -47047,4 +47857,24 @@ export const CANONICAL_DIARIOS = [
     },
     "_key": "!journal!3e384d6d238e49c8"
   }
+];
+
+export const CANONICAL_HABILIDADES_GERAIS_IDS = [
+  "atletismo",
+  "nanismo",
+  "gigantismo",
+  "recursos",
+  "furia-de-batalha",
+  "sentidos-apurados",
+  "intuicao",
+  "forca-heroica",
+  "agilidade-heroica",
+  "inteligencia-heroica",
+  "vontade-heroica",
+  "nervos-de-aco",
+  "vontade-de-ferro",
+  "mimetismo-social",
+  "teurgia",
+  "apostata",
+  "pacto"
 ];

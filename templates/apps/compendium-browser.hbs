@@ -14,6 +14,28 @@
     {{/each}}
   </nav>
 
+  {{#if hasSubTabs}}
+    {{!-- Barra de Sub-Abas de Habilidades/Magias do Personagem --}}
+    <nav class="browser-subtabs-bar" style="display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:8px;padding:4px 8px;background:rgba(15,23,42,0.65);border:1px solid rgba(255,255,255,0.08);border-radius:6px;flex-shrink:0;">
+      <div class="subtabs-buttons" style="display:flex;flex-direction:row;align-items:center;gap:6px;overflow-x:auto;">
+        {{#each subTabs}}
+          <button
+            type="button"
+            class="browser-subtab-btn {{#if this.active}}active{{/if}}"
+            data-subtab="{{this.id}}"
+            style="padding:3px 10px;height:26px;border-radius:4px;border:1px solid {{#if this.active}}#f59e0b{{else}}rgba(255,255,255,0.1){{/if}};background:{{#if this.active}}rgba(245,158,11,0.22){{else}}rgba(15,23,42,0.4){{/if}};color:{{#if this.active}}#fbbf24{{else}}#94a3b8{{/if}};font-size:0.78rem;font-weight:{{#if this.active}}700{{else}}500{{/if}};cursor:pointer;white-space:nowrap;"
+          >
+            {{this.label}}
+          </button>
+        {{/each}}
+      </div>
+      <label class="browser-eligible-toggle" style="display:inline-flex;align-items:center;gap:6px;font-size:0.78rem;color:#cbd5e1;cursor:pointer;white-space:nowrap;user-select:none;margin-left:auto;">
+        <input type="checkbox" name="only-eligible" {{#if onlyEligible}}checked{{/if}} style="cursor:pointer;margin:0;" />
+        <span>Apenas elegíveis</span>
+      </label>
+    </nav>
+  {{/if}}
+
   {{!-- Corpo Principal: Lista à Esquerda + Detalhes à Direita --}}
   <div class="browser-body" style="display:flex;flex-direction:row;flex:1 1 auto;min-height:0;overflow:hidden;gap:12px;">
     <section class="browser-sidebar" style="flex:0 0 280px;width:280px;min-width:280px;max-width:280px;display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,0.1);padding-right:10px;overflow:hidden;">
