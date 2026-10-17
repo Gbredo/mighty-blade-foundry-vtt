@@ -47878,3 +47878,26 @@ export const CANONICAL_HABILIDADES_GERAIS_IDS = [
   "apostata",
   "pacto"
 ];
+
+export const CANONICAL_HABILIDADES_POR_NIVEL = {
+  "1": 3,
+  "2": 4,
+  "3": 5,
+  "4": 6,
+  "5": 7,
+  "6": 8,
+  "7": 9,
+  "8": 10,
+  "9": 11,
+  "10": 12,
+  "11": 13,
+  "12": 13,
+  "13": 14,
+  "14": 14,
+  "15": 15,
+  "16": 15,
+  "17": 16,
+  "18": 16,
+  "19": 17,
+  "20": 17
+};

@@ -2,8 +2,10 @@ import {
   onManageActiveEffect,
   prepareActiveEffectCategories,
 } from "../helpers/effects.mjs";
-import { MightyBladeCompendiumBrowser } from "../apps/compendium-browser.mjs";
-import { rollAttribute } from "../helpers/dice.mjs";
+import {
+  MightyBladeCompendiumBrowser,
+  calcularEspacosHabilidades,
+} from "../apps/compendium-browser.mjs";
 import {
   resolveItemImage,
   slugify,
@@ -296,6 +298,9 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
       }
       // 6. Magias
       else if (i.type === "spell" || i.type === "magia") {
+        const difStr = String(i.system?.dificuldade ?? "").trim();
+        const isNum = difStr !== "" && !isNaN(Number(difStr));
+        i.displayDificuldade = isNum ? `DV ${difStr}` : (difStr || "—");
         magias.push(i);
         if (spells[i.system?.circulo] !== undefined) {
           spells[i.system.circulo].push(i);
@@ -471,6 +476,15 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
     context.caminho = caminho;
     context.organizacao = organizacao;
     context.equippedWeapons = weapons.filter((w) => w.system?.equipado);
+
+    // Cálculo de espaços de habilidades e magias do nível
+    if (this.actor) {
+      const espacos = calcularEspacosHabilidades(this.actor);
+      context.espacosEscolhidas = espacos.escolhidas;
+      context.espacosLimite = espacos.limite;
+      context.espacosEsgotado = espacos.esgotado;
+      context.espacosTexto = `${espacos.escolhidas} / ${espacos.limite}`;
+    }
   }
 
   /* -------------------------------------------- */
@@ -478,6 +492,16 @@ export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
   /** @override */
   activateListeners(html) {
     super.activateListeners(html);
+
+    // Navegar diretamente para a aba Magias a partir da lista resumida de magias
+    html.on("click", ".open-spells-tab", (ev) => {
+      ev.preventDefault();
+      if (this._tabs?.[0]) {
+        this._tabs[0].activate("spells");
+      } else {
+        html.find('.sheet-tabs a[data-tab="spells"]').trigger("click");
+      }
+    });
 
     // Render the item sheet for viewing/editing prior to the editable check.
     html.on("click", ".item-edit", (ev) => {

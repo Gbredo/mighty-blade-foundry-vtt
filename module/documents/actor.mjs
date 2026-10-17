@@ -490,6 +490,10 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
       }
     }
 
+    if (typeof ui !== "undefined" && ui?.notifications?.info) {
+      ui.notifications.info(`${magia.name} foi adicionada ao Grimório (aba Magias).`);
+    }
+
     return true;
   }
 

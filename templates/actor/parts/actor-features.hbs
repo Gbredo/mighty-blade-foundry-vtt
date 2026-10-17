@@ -2,7 +2,14 @@
 
   {{!-- Barra de Ações Superior --}}
   <div class="features-tools-bar">
-    <span class="features-total-count">Total de Habilidades: <strong>{{features.length}}</strong></span>
+    <span class="features-total-count">
+      Total de Habilidades: <strong>{{features.length}}</strong>
+      {{#if espacosTexto}}
+        <span class="features-espacos-tag" style="margin-left: 8px; font-weight: normal; color: {{#if espacosEsgotado}}#f87171{{else}}#94a3b8{{/if}};">
+          (Espaços: <strong>{{espacosTexto}}</strong>)
+        </span>
+      {{/if}}
+    </span>
     <div class="features-tools-actions">
       <a class="open-compendium-browser tool-btn" data-type="habilidade" title="Explorar Compêndio de Habilidades">
         <i class="fas fa-book-open"></i> Compêndio
@@ -200,5 +207,53 @@
       {{/each}}
     </ul>
   </section>
+
+  {{!-- 5. MAGIAS APRENDIDAS (RESUMO) --}}
+  {{#if magias.length}}
+    <section class="feature-group spells-summary-group">
+      <header class="feature-group-header" style="display:flex; justify-content:space-between; align-items:center;">
+        <div class="feature-group-title">
+          <i class="fas fa-wand-magic-sparkles group-icon" style="color: #c084fc;"></i>
+          <span>MAGIAS ({{magias.length}})</span>
+        </div>
+        <a class="open-spells-tab tool-btn" style="font-size: 0.75rem; padding: 2px 8px; cursor: pointer; color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.4); border-radius: 4px; background: rgba(192, 132, 252, 0.1);" title="Abrir Grimório de Magias">
+          <i class="fas fa-book-sparkles"></i> Ir para o Grimório <i class="fas fa-arrow-right"></i>
+        </a>
+      </header>
+      <ul class="features-list-dnd">
+        {{#each magias as |spell|}}
+          <li class="item feature-row-dnd spell-summary-row" data-item-id="{{spell._id}}">
+            <div class="feature-main-col">
+              <img src="{{spell.img}}" class="feature-thumb rollable" data-roll-type="item" data-tooltip="Conjurar {{spell.name}}" />
+              <div class="feature-name-wrap">
+                <div class="feature-title-line">
+                  <h4 class="feature-name-text rollable" data-roll-type="item">{{spell.name}}</h4>
+                  {{#if spell.system.circulo}}
+                    <span class="badge-origin-dnd" style="background: rgba(192, 132, 252, 0.15); color: #c084fc; border-color: rgba(192, 132, 252, 0.3);">{{spell.system.circulo}}º Círculo</span>
+                  {{/if}}
+                </div>
+                <span class="feature-sub-desc">{{#if (eq spell.system.fonte "mistica")}}Fonte Mística{{else}}Fonte Arcana{{/if}}{{#if spell.displayDificuldade}} • {{spell.displayDificuldade}}{{/if}}</span>
+              </div>
+            </div>
+            <div class="feature-cost-col">
+              {{#if spell.system.custo}}
+                <span class="badge-mana"><i class="fas fa-fire-flame-curved"></i> {{spell.system.custo}} PM</span>
+              {{else}}
+                <span class="badge-free">Sem Custo</span>
+              {{/if}}
+            </div>
+            <div class="feature-actions-col">
+              <a class="open-spells-tab" data-tooltip="Ver no Grimório" style="cursor: pointer; color: #c084fc; margin-right: 6px;"><i class="fas fa-arrow-up-right-from-square"></i></a>
+              <a class="item-favorite-toggle" data-tooltip="Favoritar"><i class="fas fa-star {{#if spell.flags.mighty-blade.isFavorite}}active-star{{/if}}"></i></a>
+              <a class="item-edit" data-tooltip="Editar"><i class="fas fa-edit"></i></a>
+              {{#if ../flags.mighty-blade.isEditing}}
+                <a class="item-delete" data-tooltip="Excluir"><i class="fas fa-trash"></i></a>
+              {{/if}}
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    </section>
+  {{/if}}
 
 </div>

@@ -23,9 +23,91 @@ import {
   CANONICAL_MAGIAS,
   CANONICAL_EQUIPAMENTOS,
   CANONICAL_HABILIDADES_GERAIS_IDS,
+  CANONICAL_HABILIDADES_POR_NIVEL,
 } from "../data/canonical-packs-data.mjs";
 
-export { resolveItemImage };
+export { resolveItemImage, CANONICAL_HABILIDADES_POR_NIVEL };
+
+/**
+ * Calcula o total de habilidades e magias escolhidas e o limite canônico para o nível do ator.
+ * Não contam: automáticas (de raça/classe/caminho), sub-features e itens concedidos por concessões.
+ *
+ * @param {object} actor
+ * @returns {{ escolhidas: number, limite: number, esgotado: boolean }}
+ */
+export function calcularEspacosHabilidades(actor) {
+  if (!actor) return { escolhidas: 0, limite: 3, esgotado: false };
+
+  const rawItems = actor.items
+    ? (Array.isArray(actor.items) ? actor.items : Array.from(actor.items.values()))
+    : [];
+
+  const autoIds = new Set();
+  const getActorItem = (type) => rawItems.find((i) => i.type === type);
+
+  // 1. Raça
+  const racaDoc = getActorItem("raca");
+  const racaNome = racaDoc?.name || actor.system?.details?.raca || "";
+  const racaCanon = CANONICAL_RACAS.find((r) => norm(r.name) === norm(racaNome) || r.flags?.["mighty-blade"]?.slug === slugify(racaNome));
+  const rConcessoes = [...(racaDoc?.system?.concessoes || []), ...(racaCanon?.system?.concessoes || [])];
+  for (const c of rConcessoes) {
+    if (c.tipo === "habilidade" && c.ref) autoIds.add(slugify(c.ref));
+    if (c.tipo === "escolhaAtributo" && c.ref) autoIds.add(slugify(c.ref));
+    if (c.tipo === "origemDraconica" && c.ref) autoIds.add(slugify(c.ref));
+  }
+  if (racaDoc?.system?.habilidadeAutomatica?.nome) autoIds.add(slugify(racaDoc.system.habilidadeAutomatica.nome));
+  if (racaCanon?.system?.habilidadeAutomatica?.nome) autoIds.add(slugify(racaCanon.system.habilidadeAutomatica.nome));
+
+  // 2. Classe
+  const classeDoc = getActorItem("classe");
+  const classeNome = classeDoc?.name || actor.system?.details?.classe || "";
+  const classeCanon = CANONICAL_CLASSES.find((c) => norm(c.name) === norm(classeNome) || c.flags?.["mighty-blade"]?.slug === slugify(classeNome));
+  const cConcessoes = [...(classeDoc?.system?.concessoes || []), ...(classeCanon?.system?.concessoes || [])];
+  for (const c of cConcessoes) {
+    if (c.tipo === "habilidade" && c.ref) autoIds.add(slugify(c.ref));
+  }
+  if (classeDoc?.system?.habilidadeAutomatica) autoIds.add(slugify(classeDoc.system.habilidadeAutomatica));
+  if (classeCanon?.system?.habilidadeAutomatica) autoIds.add(slugify(classeCanon.system.habilidadeAutomatica));
+  for (const h of (classeDoc?.system?.habilidadesAutomaticas || [])) autoIds.add(slugify(h));
+  for (const h of (classeCanon?.system?.habilidadesAutomaticas || [])) autoIds.add(slugify(h));
+
+  // 3. Caminho
+  const camDoc = getActorItem("caminho");
+  const camNome = camDoc?.name || actor.system?.details?.caminho || "";
+  const camCanon = CANONICAL_CAMINHOS.find((c) => norm(c.name) === norm(camNome) || c.flags?.["mighty-blade"]?.slug === slugify(camNome));
+  const camConcessoes = [...(camDoc?.system?.concessoes || []), ...(camCanon?.system?.concessoes || [])];
+  for (const c of camConcessoes) {
+    if (c.tipo === "habilidade" && c.ref) autoIds.add(slugify(c.ref));
+  }
+  if (camDoc?.system?.habilidadeAutomatica) autoIds.add(slugify(camDoc.system.habilidadeAutomatica));
+  if (camCanon?.system?.habilidadeAutomatica) autoIds.add(slugify(camCanon.system.habilidadeAutomatica));
+
+  // Contagem de itens escolhidos (habilidade ou magia)
+  let escolhidas = 0;
+  for (const item of rawItems) {
+    if (item.type !== "habilidade" && item.type !== "magia" && item.type !== "feature" && item.type !== "spell") continue;
+    if (item.system?.categoria === "antecedente") continue;
+
+    const mbFlags = item.flags?.["mighty-blade"] || {};
+    // Não contam: sub-features, automáticas explícitas
+    if (mbFlags.isSubFeature || item.isSubFeature || mbFlags.parentAbilityId) continue;
+    if (mbFlags.automatica || item.system?.nivel === "Automática" || item.system?.nivel === "automatica") continue;
+
+    const s = mbFlags.slug || slugify(item.name || "");
+    if (autoIds.has(s)) continue;
+
+    escolhidas++;
+  }
+
+  const nivelNum = Number(actor.system?.details?.nivel) || 1;
+  const limite = CANONICAL_HABILIDADES_POR_NIVEL?.[nivelNum] ?? CANONICAL_HABILIDADES_POR_NIVEL?.["1"] ?? 3;
+
+  return {
+    escolhidas,
+    limite,
+    esgotado: escolhidas >= limite,
+  };
+}
 
 /**
  * Retorna as sub-abas disponíveis e suas respectivas listas de itens para um personagem nas abas de Habilidades e Magias.
@@ -385,6 +467,21 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       }
     }
 
+    let espacosInfo = null;
+    if (this.targetActor) {
+      espacosInfo = calcularEspacosHabilidades(this.targetActor);
+    }
+
+    const rawActorItems = this.targetActor?.items
+      ? (Array.isArray(this.targetActor.items) ? this.targetActor.items : Array.from(this.targetActor.items.values()))
+      : [];
+    const ownedSlugs = new Set(
+      rawActorItems
+        .filter((i) => i.type === "habilidade" || i.type === "magia" || i.type === "feature" || i.type === "spell")
+        .map((i) => i.flags?.["mighty-blade"]?.slug || slugify(i.name || ""))
+        .filter(Boolean)
+    );
+
     items = items.map((i) => {
       const obj = (typeof i.toObject === "function") ? i.toObject() : { ...i };
       if (obj.type === "habilidade" || obj.type === "magia") {
@@ -393,11 +490,14 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       obj.img = resolveItemImage(i);
       obj.uuid = i.uuid || `Compendium.mighty-blade.${obj.type === "magia" ? "magias" : "habilidades"}.${obj._id || slugify(obj.name)}`;
 
+      const itemSlug = obj.flags?.["mighty-blade"]?.slug || slugify(obj.name || "");
+      obj.alreadyOwned = ownedSlugs.has(itemSlug);
+
       if (this.targetActor) {
         const reqStr = obj.system?.requisitos || "";
         const evalResult = avaliarRequisitos(reqStr, this.targetActor);
         const restEval = this._evaluateItemForActor(obj);
-        obj.meetsPrereq = evalResult.atende && restEval.permitido;
+        obj.meetsPrereq = evalResult.atende && restEval.permitido && !obj.alreadyOwned;
         obj.prereqEval = evalResult;
       } else {
         obj.meetsPrereq = true;
@@ -407,7 +507,7 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       return obj;
     });
 
-    // Checkbox "Apenas elegíveis" (ligado por padrão): esconde os itens com "Requisitos pendentes"
+    // Checkbox "Apenas elegíveis" (ligado por padrão): esconde os itens com "Requisitos pendentes" ou já possuídos
     if (this.targetActor && (this.filterType === "habilidade" || this.filterType === "magia") && this.onlyEligible) {
       items = items.filter((i) => i.meetsPrereq);
     }
@@ -424,6 +524,8 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       { id: "equipamento", label: "Equipamentos", icon: "fas fa-sack-dollar", active: this.filterType === "equipamento" },
     ];
 
+    const isHabOrMagia = this.filterType === "habilidade" || this.filterType === "magia";
+
     return {
       items,
       categories,
@@ -432,6 +534,10 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       activeSubTab: this.subTab,
       onlyEligible: this.onlyEligible,
       hasSubTabs: !!subTabs,
+      espacosInfo,
+      showEspacos: isHabOrMagia && !!espacosInfo,
+      espacosTexto: espacosInfo ? `${espacosInfo.escolhidas} / ${espacosInfo.limite}` : "",
+      limiteEsgotado: isHabOrMagia && !!espacosInfo?.esgotado,
     };
   }
 
@@ -515,6 +621,51 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
         await this._renderDetails(item, detailsContent);
       }
 
+      const itemType = item?.type || this.filterType;
+      const isHabOrMagia = itemType === "habilidade" || itemType === "magia";
+
+      // 1. Checagem de item já possuído no ator
+      if (item && this.targetActor && isHabOrMagia) {
+        const itemSlug = item.flags?.["mighty-blade"]?.slug || slugify(item.name || "");
+        const rawItems = this.targetActor.items
+          ? (Array.isArray(this.targetActor.items) ? this.targetActor.items : Array.from(this.targetActor.items.values()))
+          : [];
+        const alreadyHas = rawItems.some((i) => {
+          if (i.type !== "habilidade" && i.type !== "magia" && i.type !== "feature" && i.type !== "spell") return false;
+          const s = i.flags?.["mighty-blade"]?.slug || slugify(i.name || "");
+          return s === itemSlug;
+        });
+
+        if (alreadyHas) {
+          radio.prop("checked", false);
+          this.selectedId = null;
+          selectButton.prop("disabled", true);
+          listItems.removeClass("selected");
+          li.addClass("prereq-blocked");
+
+          html.find(".selection-status").html(
+            `<span style="color:#ef4444;"><i class="fas fa-ban"></i> <strong>${item.name}</strong> já está na ficha.</span>`
+          );
+          ui.notifications.warn(`${item.name} já está na ficha.`);
+          return;
+        }
+
+        // 2. Checagem de limite de espaços por nível
+        const espacos = calcularEspacosHabilidades(this.targetActor);
+        if (espacos.esgotado) {
+          radio.prop("checked", false);
+          this.selectedId = null;
+          selectButton.prop("disabled", true);
+          listItems.removeClass("selected");
+
+          html.find(".selection-status").html(
+            `<span style="color:#ef4444;"><i class="fas fa-lock"></i> Sem espaços de habilidade neste nível (${espacos.escolhidas}/${espacos.limite})</span>`
+          );
+          ui.notifications.warn("Sem espaços de habilidade neste nível.");
+          return;
+        }
+      }
+
       // Validação estrita de restrições e pré-requisitos para este herói
       if (item && this.targetActor) {
         const check = this._evaluateItemForActor(item);
@@ -558,6 +709,34 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       const item = await fromUuid(this.selectedId);
       if (!item || !this.targetActor) return;
 
+      const itemType = item.type || this.filterType;
+      const isHabOrMagia = itemType === "habilidade" || itemType === "magia";
+
+      // Verificação de duplicata
+      if (isHabOrMagia) {
+        const itemSlug = item.flags?.["mighty-blade"]?.slug || slugify(item.name || "");
+        const rawItems = this.targetActor.items
+          ? (Array.isArray(this.targetActor.items) ? this.targetActor.items : Array.from(this.targetActor.items.values()))
+          : [];
+        const alreadyHas = rawItems.some((i) => {
+          if (i.type !== "habilidade" && i.type !== "magia" && i.type !== "feature" && i.type !== "spell") return false;
+          const s = i.flags?.["mighty-blade"]?.slug || slugify(i.name || "");
+          return s === itemSlug;
+        });
+
+        if (alreadyHas) {
+          ui.notifications.warn(`${item.name} já está na ficha.`);
+          return;
+        }
+
+        // Verificação de limite de espaços
+        const espacos = calcularEspacosHabilidades(this.targetActor);
+        if (espacos.esgotado) {
+          ui.notifications.warn("Sem espaços de habilidade neste nível.");
+          return;
+        }
+      }
+
       // Salvaguarda final contra bypass
       const check = this._evaluateItemForActor(item);
       if (!check.permitido) {
@@ -584,7 +763,6 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
       if (!itemData.flags) itemData.flags = {};
       if (!itemData.flags["mighty-blade"]) itemData.flags["mighty-blade"] = {};
 
-      const itemType = itemData.type || this.filterType;
       if (itemType === "habilidade" || itemType === "magia") {
         const mb = itemData.flags["mighty-blade"];
         const rawItems = this.targetActor.items

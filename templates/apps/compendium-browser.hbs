@@ -29,10 +29,17 @@
           </button>
         {{/each}}
       </div>
-      <label class="browser-eligible-toggle" style="display:inline-flex;align-items:center;gap:6px;font-size:0.78rem;color:#cbd5e1;cursor:pointer;white-space:nowrap;user-select:none;margin-left:auto;">
-        <input type="checkbox" name="only-eligible" {{#if onlyEligible}}checked{{/if}} style="cursor:pointer;margin:0;" />
-        <span>Apenas elegíveis</span>
-      </label>
+      <div style="display:flex;align-items:center;gap:10px;margin-left:auto;">
+        {{#if showEspacos}}
+          <span class="espacos-counter-badge" style="display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:4px;font-size:0.78rem;font-weight:700;background:{{#if limiteEsgotado}}rgba(239,68,68,0.2){{else}}rgba(16,185,129,0.15){{/if}};border:1px solid {{#if limiteEsgotado}}#ef4444{{else}}#10b981{{/if}};color:{{#if limiteEsgotado}}#f87171{{else}}#34d399{{/if}};" title="{{#if limiteEsgotado}}Sem espaços de habilidade neste nível{{else}}Espaços de habilidades e magias disponíveis no nível{{/if}}">
+            <i class="fas {{#if limiteEsgotado}}fa-lock{{else}}fa-bolt{{/if}}"></i> Espaços: {{espacosTexto}}
+          </span>
+        {{/if}}
+        <label class="browser-eligible-toggle" style="display:inline-flex;align-items:center;gap:6px;font-size:0.78rem;color:#cbd5e1;cursor:pointer;white-space:nowrap;user-select:none;">
+          <input type="checkbox" name="only-eligible" {{#if onlyEligible}}checked{{/if}} style="cursor:pointer;margin:0;" />
+          <span>Apenas elegíveis</span>
+        </label>
+      </div>
     </nav>
   {{/if}}
 
@@ -59,10 +66,11 @@
       <ul class="item-list" style="list-style:none;margin:0;padding:0;overflow-y:auto;flex:1 1 auto;">
         {{#each items}}
           <li
-            class="item browser-item {{#unless this.meetsPrereq}}prereq-failed{{/unless}}"
+            class="item browser-item {{#if this.alreadyOwned}}already-owned{{else}}{{#unless this.meetsPrereq}}prereq-failed{{/unless}}{{/if}}"
             data-item-id="{{this.uuid}}"
             data-meets-prereq="{{this.meetsPrereq}}"
-            style="display:flex;align-items:center;gap:8px;padding:5px 6px;border-bottom:1px solid rgba(255,255,255,0.06);cursor:pointer;border-radius:4px;margin-bottom:2px;{{#unless this.meetsPrereq}}opacity:0.65;background:rgba(239,68,68,0.06);{{/unless}}"
+            data-already-owned="{{this.alreadyOwned}}"
+            style="display:flex;align-items:center;gap:8px;padding:5px 6px;border-bottom:1px solid rgba(255,255,255,0.06);cursor:pointer;border-radius:4px;margin-bottom:2px;{{#if this.alreadyOwned}}opacity:0.5;background:rgba(100,116,139,0.08);{{else}}{{#unless this.meetsPrereq}}opacity:0.65;background:rgba(239,68,68,0.06);{{/unless}}{{/if}}"
           >
             <img
               src="{{this.img}}"
@@ -73,20 +81,26 @@
               style="flex:0 0 34px !important;width:34px !important;height:34px !important;min-width:34px !important;max-width:34px !important;min-height:34px !important;max-height:34px !important;object-fit:contain !important;border-radius:6px;display:block;border:1px solid rgba(255,255,255,0.08);background:rgba(15,23,42,0.6);"
             />
             <div class="item-text-info" style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;justify-content:center;">
-              <span class="item-name" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.85rem;font-weight:600;color:{{#if this.meetsPrereq}}#f1f5f9{{else}}#cbd5e1{{/if}};">{{this.name}}</span>
-              {{#unless this.meetsPrereq}}
-                <span class="prereq-tag" style="font-size:0.68rem;color:#f87171;display:flex;align-items:center;gap:4px;margin-top:1px;font-weight:600;">
-                  <i class="fas fa-lock"></i> Requisitos pendentes
+              <span class="item-name" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.85rem;font-weight:600;color:{{#if this.alreadyOwned}}#94a3b8{{else}}{{#if this.meetsPrereq}}#f1f5f9{{else}}#cbd5e1{{/if}}{{/if}};">{{this.name}}</span>
+              {{#if this.alreadyOwned}}
+                <span class="owned-tag" style="font-size:0.68rem;color:#38bdf8;display:flex;align-items:center;gap:4px;margin-top:1px;font-weight:600;">
+                  <i class="fas fa-check"></i> Já possui
                 </span>
-              {{/unless}}
+              {{else}}
+                {{#unless this.meetsPrereq}}
+                  <span class="prereq-tag" style="font-size:0.68rem;color:#f87171;display:flex;align-items:center;gap:4px;margin-top:1px;font-weight:600;">
+                    <i class="fas fa-lock"></i> Requisitos pendentes
+                  </span>
+                {{/unless}}
+              {{/if}}
             </div>
             <div class="item-controls" style="flex:0 0 auto;display:flex;align-items:center;">
               <input
                 type="radio"
                 name="selected-item"
                 value="{{this.uuid}}"
-                {{#unless this.meetsPrereq}}disabled title="Pré-requisitos não atendidos"{{/unless}}
-                style="cursor:{{#if this.meetsPrereq}}pointer{{else}}not-allowed{{/if}};margin:0;"
+                {{#if this.alreadyOwned}}disabled title="Já está na ficha"{{else}}{{#unless this.meetsPrereq}}disabled title="Pré-requisitos não atendidos"{{/unless}}{{/if}}
+                style="cursor:{{#if this.alreadyOwned}}not-allowed{{else}}{{#if this.meetsPrereq}}pointer{{else}}not-allowed{{/if}}{{/if}};margin:0;"
               />
             </div>
           </li>
@@ -103,10 +117,14 @@
       </div>
       <div class="browser-footer" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.1);display:flex;justify-content:space-between;align-items:center;flex-shrink:0;">
         <div class="selection-status" style="font-style:italic;color:#94a3b8;font-size:0.82rem;">
-          <i class="fas fa-info-circle"></i>
-          Selecione 1 opção
+          {{#if limiteEsgotado}}
+            <span style="color:#ef4444;"><i class="fas fa-lock"></i> Sem espaços de habilidade neste nível</span>
+          {{else}}
+            <i class="fas fa-info-circle"></i>
+            Selecione 1 opção
+          {{/if}}
         </div>
-        <button type="button" class="select-button" disabled style="width:auto !important;min-width:140px !important;padding:6px 20px !important;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.85rem;">
+        <button type="button" class="select-button" disabled {{#if limiteEsgotado}}title="Sem espaços de habilidade neste nível"{{/if}} style="width:auto !important;min-width:140px !important;padding:6px 20px !important;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.85rem;">
           <i class="fas fa-check"></i>
           Selecionar
         </button>

@@ -12,7 +12,7 @@ const { HABILIDADES } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist
 const { EQUIPAMENTOS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/equipamentos.js"));
 const { CAMINHOS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/caminhos.js"));
 const { ORGANIZACOES } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/organizacoes.js"));
-const { HABILIDADES_GERAIS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/index.js"));
+const { HABILIDADES_GERAIS, beneficiosDoNivel } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/index.js"));
 
 function slugify(s) {
   return String(s ?? "")
@@ -1275,6 +1275,15 @@ async function run() {
     .map((h) => h.id)
     .filter((id) => HABILIDADES[id] !== undefined);
 
+  const canonicalHabilidadesPorNivel = {};
+  let habAcumulada = 3; // Nível 1 = 3
+  for (let n = 1; n <= 20; n++) {
+    if (n > 1 && beneficiosDoNivel(n).habilidade) {
+      habAcumulada++;
+    }
+    canonicalHabilidadesPorNivel[n] = habAcumulada;
+  }
+
   const mjsContent = '/**\n' +
     ' * CANONICAL CONTENT PACK DATA\n' +
     ' * Gerado automaticamente a partir de @mighty-blade/rules-core.\n' +
@@ -1288,7 +1297,8 @@ async function run() {
     'export const CANONICAL_MAGIAS = ' + JSON.stringify(canonicalMagias, null, 2) + ';\n\n' +
     'export const CANONICAL_EQUIPAMENTOS = ' + JSON.stringify(canonicalEquipamentos, null, 2) + ';\n\n' +
     'export const CANONICAL_DIARIOS = ' + JSON.stringify(canonicalDiarios, null, 2) + ';\n\n' +
-    'export const CANONICAL_HABILIDADES_GERAIS_IDS = ' + JSON.stringify(canonicalHabilidadesGeraisIds, null, 2) + ';\n';
+    'export const CANONICAL_HABILIDADES_GERAIS_IDS = ' + JSON.stringify(canonicalHabilidadesGeraisIds, null, 2) + ';\n\n' +
+    'export const CANONICAL_HABILIDADES_POR_NIVEL = ' + JSON.stringify(canonicalHabilidadesPorNivel, null, 2) + ';\n';
 
   const mjsPath = path.join(dataOutputDir, "canonical-packs-data.mjs");
   fs.writeFileSync(mjsPath, mjsContent, "utf-8");
