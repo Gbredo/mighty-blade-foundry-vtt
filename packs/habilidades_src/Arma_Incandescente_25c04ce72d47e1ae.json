@@ -17,6 +17,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 124",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +38,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "25c04ce72d47e1ae",

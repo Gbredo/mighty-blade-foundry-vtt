@@ -17,6 +17,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia do Vilão, pág. 27",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -42,7 +44,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "8595c978704ee00a",

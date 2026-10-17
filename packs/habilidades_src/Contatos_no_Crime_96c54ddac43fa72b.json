@@ -23,6 +23,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 108; Guia de Tebryn, pág. 42",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -48,7 +50,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "96c54ddac43fa72b",

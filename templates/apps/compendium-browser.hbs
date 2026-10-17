@@ -89,7 +89,7 @@
               {{else}}
                 {{#unless this.meetsPrereq}}
                   <span class="prereq-tag" style="font-size:0.68rem;color:#f87171;display:flex;align-items:center;gap:4px;margin-top:1px;font-weight:600;">
-                    <i class="fas fa-lock"></i> Requisitos pendentes
+                    <i class="fas fa-lock"></i> {{#if this.ineligivelMotivo}}Não elegível: {{this.ineligivelMotivo}}{{else}}Requisitos pendentes{{/if}}
                   </span>
                 {{/unless}}
               {{/if}}
@@ -99,7 +99,7 @@
                 type="radio"
                 name="selected-item"
                 value="{{this.uuid}}"
-                {{#if this.alreadyOwned}}disabled title="Já está na ficha"{{else}}{{#unless this.meetsPrereq}}disabled title="Pré-requisitos não atendidos"{{/unless}}{{/if}}
+                {{#if this.alreadyOwned}}disabled title="Já está na ficha"{{else}}{{#unless this.meetsPrereq}}disabled title="{{#if this.ineligivelMotivo}}Não elegível: {{this.ineligivelMotivo}}{{else}}Pré-requisitos não atendidos{{/if}}"{{/unless}}{{/if}}
                 style="cursor:{{#if this.alreadyOwned}}not-allowed{{else}}{{#if this.meetsPrereq}}pointer{{else}}not-allowed{{/if}}{{/if}};margin:0;"
               />
             </div>

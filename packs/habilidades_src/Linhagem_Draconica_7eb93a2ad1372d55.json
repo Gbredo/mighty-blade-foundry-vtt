@@ -18,6 +18,8 @@
     "nivel": "Automática",
     "fonteLivro": "Guia do Vilão, pág. 27–29",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -238,6 +240,8 @@
       "nivel": "Automática",
       "aliases": [],
       "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "hasAdvancement": true,
       "advancementType": "origemDraconica"
     }

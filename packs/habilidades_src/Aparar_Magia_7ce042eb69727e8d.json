@@ -22,6 +22,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 84, 96, 124, 130; Guia do Vilão, pág. 47, 54",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -46,7 +48,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "7ce042eb69727e8d",

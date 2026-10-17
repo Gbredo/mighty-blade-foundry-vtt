@@ -17,6 +17,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 57-58",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +38,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "9b4ebae7154c0b9c",

@@ -490,4 +490,84 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
       assert.equal(sacNv1.items.some((i) => i.name === "Abençoar Aliados 2"), false);
     });
   });
+
+  // ===========================================================================
+  describe("Sub-módulo 3.8 — Restrições de Raça e Idioma das Habilidades Gerais (Etapa J)", () => {
+    test("3.8.1 Aesir não pode adquirir Fúria de Batalha", () => {
+      const aesir = createCharacter({ raceId: "aesir", classId: "guerreiro", level: 1 });
+      const res = validarAquisicaoHabilidade(aesir, "Fúria de Batalha");
+      assert.equal(res.permitido, false);
+      assert.match(res.motivo, /Não disponível para Aesir/i);
+    });
+
+    test("3.8.2 Astério (m e f) não pode adquirir Apóstata nem Mimetismo Social", () => {
+      const asterioM = createCharacter({ raceId: "asterio", classId: "guerreiro", level: 1 });
+      const asteriaF = createCharacter({ raceId: "asteria", classId: "guerreiro", level: 1 });
+
+      for (const char of [asterioM, asteriaF]) {
+        const checkApostata = validarAquisicaoHabilidade(char, "Apóstata");
+        assert.equal(checkApostata.permitido, false);
+        assert.match(checkApostata.motivo, /Não disponível para Astéri/i);
+
+        const checkMimetismo = validarAquisicaoHabilidade(char, "Mimetismo Social");
+        assert.equal(checkMimetismo.permitido, false);
+        assert.match(checkMimetismo.motivo, /Não disponível para Astéri/i);
+      }
+    });
+
+    test("3.8.3 Mahok não pode adquirir Sentidos Apurados", () => {
+      const mahok = createCharacter({ raceId: "mahok", classId: "guerreiro", level: 1 });
+      const res = validarAquisicaoHabilidade(mahok, "Sentidos Apurados");
+      assert.equal(res.permitido, false);
+      assert.match(res.motivo, /Não disponível para Mahok/i);
+    });
+
+    test("3.8.4 Teurgia: bloqueada sem idioma exótico, liberada se falar Arkadis (ou outro da lista)", () => {
+      const semIdioma = createCharacter({ raceId: "humano", classId: "guerreiro", level: 1 });
+      semIdioma.system.details.idiomas = "Burguês Tebryniano, Caint";
+
+      const resSem = validarAquisicaoHabilidade(semIdioma, "Teurgia");
+      assert.equal(resSem.permitido, false);
+      assert.match(resSem.motivo, /Requer falar um destes idiomas/i);
+
+      // Liberada se falar Arkadis
+      const comArkadis = createCharacter({ raceId: "humano", classId: "guerreiro", level: 1 });
+      comArkadis.system.details.idiomas = "Burguês Tebryniano, Arkadis";
+      const resArkadis = validarAquisicaoHabilidade(comArkadis, "Teurgia");
+      assert.equal(resArkadis.permitido, true);
+
+      // Liberada se falar Track'kar'a
+      const comTrack = createCharacter({ raceId: "humano", classId: "guerreiro", level: 1 });
+      comTrack.system.details.idiomas = "Track'kar'a";
+      const resTrack = validarAquisicaoHabilidade(comTrack, "Teurgia");
+      assert.equal(resTrack.permitido, true);
+    });
+
+    test("3.8.5 Humano pode adquirir todas as habilidades gerais canônicas", () => {
+      const humano = createCharacter({
+        raceId: "humano",
+        classId: "guerreiro",
+        humanBonusAttribute: "forca",
+        level: 1,
+      });
+      humano.system.details.idiomas = "Burguês Tebryniano, Arkadis";
+
+      const habsGerais = [
+        "Atletismo", "Recursos", "Fúria de Batalha", "Sentidos Apurados",
+        "Intuição", "Força Heróica", "Agilidade Heróica", "Inteligência Heróica",
+        "Vontade Heróica", "Nervos de Aço", "Vontade de Ferro", "Mimetismo Social",
+        "Apóstata", "Teurgia"
+      ];
+
+      for (const hab of habsGerais) {
+        const res = validarAquisicaoHabilidade(humano, hab);
+        assert.equal(res.permitido, true, `Humano deve poder adquirir ${hab}: ${res.motivo}`);
+      }
+
+      // Nanismo isolado: permitido
+      assert.equal(validarAquisicaoHabilidade(humano, "Nanismo").permitido, true);
+      // Gigantismo isolado: permitido
+      assert.equal(validarAquisicaoHabilidade(humano, "Gigantismo").permitido, true);
+    });
+  });
 });

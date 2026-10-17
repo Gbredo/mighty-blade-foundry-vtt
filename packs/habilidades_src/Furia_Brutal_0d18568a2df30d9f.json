@@ -17,6 +17,8 @@
     "nivel": "Nv3",
     "fonteLivro": "Guia do Vilão, pág. 71",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +38,9 @@
       "tipoAcesso": "Caminho",
       "nivel": "Nv3",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "0d18568a2df30d9f",

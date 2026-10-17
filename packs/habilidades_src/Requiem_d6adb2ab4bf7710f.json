@@ -17,6 +17,8 @@
     "nivel": "Nv3",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 27",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +38,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv3",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "d6adb2ab4bf7710f",

@@ -21,6 +21,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia do Herói, pág. 11; Codex Monstrorum, pág. 177",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -50,7 +52,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "302b0f7f6fa1f623",

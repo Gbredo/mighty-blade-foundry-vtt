@@ -18,6 +18,8 @@
     "nivel": "Nv2",
     "fonteLivro": "Canção do Bardo, pág. 26",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -48,7 +50,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "299c7a954759c2f1",

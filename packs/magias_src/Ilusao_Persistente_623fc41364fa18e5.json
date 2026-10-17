@@ -18,6 +18,8 @@
     "tipoAcesso": "Caminho",
     "fonteLivro": "Guia do Herói, pág. 36",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Ilusionista.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "623fc41364fa18e5",

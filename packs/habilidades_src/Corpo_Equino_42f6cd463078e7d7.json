@@ -17,6 +17,8 @@
     "nivel": "Automática",
     "fonteLivro": "Guia do Herói, pág. 15; Codex Monstrorum, pág. 153",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -60,7 +62,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Automática",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "42f6cd463078e7d7",

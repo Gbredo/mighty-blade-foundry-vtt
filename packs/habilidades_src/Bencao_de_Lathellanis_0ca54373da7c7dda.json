@@ -17,6 +17,8 @@
     "nivel": "Automática",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 26; Guia do Vilão, pág. 242",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -57,7 +59,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Automática",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "0ca54373da7c7dda",

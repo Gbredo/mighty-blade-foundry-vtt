@@ -18,6 +18,8 @@
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 68; Errata, pág. 1",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Relâmpago 1, Teleporte 1</p><p>Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, mas se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "01dc2fbffbb62fbe",

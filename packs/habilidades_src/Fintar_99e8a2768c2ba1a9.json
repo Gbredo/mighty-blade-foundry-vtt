@@ -17,6 +17,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Errata - Guia Básico, pág. 1; Guia Básico - 3ª Edição, pág. 94-95",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +38,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "99e8a2768c2ba1a9",

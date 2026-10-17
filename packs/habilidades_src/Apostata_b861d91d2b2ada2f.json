@@ -22,6 +22,11 @@
       "Dogma",
       "Pacto"
     ],
+    "racasExcluidas": [
+      "asterio-m",
+      "asteria-f"
+    ],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -49,7 +54,12 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [
+        "asterio-m",
+        "asteria-f"
+      ],
+      "idiomasRequeridos": []
     }
   },
   "_id": "b861d91d2b2ada2f",

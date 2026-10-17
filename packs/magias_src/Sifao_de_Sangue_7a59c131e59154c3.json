@@ -18,6 +18,8 @@
     "tipoAcesso": "Caminho",
     "fonteLivro": "Guia do Vilão, pág. 95",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Ferimentos Abertos</p><p>Desenhando uma Runa Arcana sobre si mesmo, você se torna um nexo de energia necromântica, absorvendo a força vital das criaturas vivas ao seu redor. Você absorve parte da energia vital contida nesse sangue, recuperando metade de todo dano ou perda de vida causada por efeitos de sangramento dentro da área de efeito da magia. Essa Runa Arcana dura por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Ferimentos Abertos. Caminho Sanguíneo.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "7a59c131e59154c3",

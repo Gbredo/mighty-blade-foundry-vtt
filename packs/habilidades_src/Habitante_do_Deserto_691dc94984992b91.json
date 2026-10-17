@@ -17,6 +17,8 @@
     "nivel": "Automática",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 58",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -50,7 +52,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Automática",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "691dc94984992b91",

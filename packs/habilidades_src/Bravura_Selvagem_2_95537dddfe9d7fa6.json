@@ -21,6 +21,8 @@
     "nivel": "Nv2",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 101, 139; Manual do Combatente, pág. 216; Guia do Herói, pág. 80",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -44,7 +46,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "95537dddfe9d7fa6",

@@ -17,6 +17,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -45,6 +47,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "hasAdvancement": true,
       "advancementType": "escolhaAtributo",
       "excluirDeHabilidade": "Adaptabilidade"

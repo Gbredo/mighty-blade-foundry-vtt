@@ -562,6 +562,11 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
         const restEval = this._evaluateItemForActor(obj);
         obj.meetsPrereq = evalResult.atende && restEval.permitido && !obj.alreadyOwned;
         obj.prereqEval = evalResult;
+        if (!restEval.permitido && restEval.falhas?.length > 0) {
+          obj.ineligivelMotivo = restEval.falhas.join(" | ");
+        } else if (!evalResult.atende && evalResult.falhas?.length > 0) {
+          obj.ineligivelMotivo = evalResult.falhas.join(" | ");
+        }
       } else {
         obj.meetsPrereq = true;
         obj.prereqEval = { atende: true, itens: [], falhas: [] };

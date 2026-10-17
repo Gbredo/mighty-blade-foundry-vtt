@@ -17,6 +17,11 @@
     "nivel": "Nv1",
     "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 40",
     "exclusivoCom": [],
+    "racasExcluidas": [
+      "asterio-m",
+      "asteria-f"
+    ],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +41,12 @@
       "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [
+        "asterio-m",
+        "asteria-f"
+      ],
+      "idiomasRequeridos": []
     }
   },
   "_id": "bc6d700ed8215023",

@@ -17,6 +17,10 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 40",
     "exclusivoCom": [],
+    "racasExcluidas": [
+      "mahok"
+    ],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +40,11 @@
       "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [
+        "mahok"
+      ],
+      "idiomasRequeridos": []
     }
   },
   "_id": "7ba629b542fa96c1",

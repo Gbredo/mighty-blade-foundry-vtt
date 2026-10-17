@@ -18,6 +18,8 @@
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia do Vilão, pág. 48",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p>Desenhando um Selo Místico sobre si mesmo, você gera uma aura de energia elemental (Fogo, Frio ou Eletricidade) – essa escolha é feita quando você conjura a magia. Qualquer criatura que esteja adjacente a você quando conjurar esta magia, quando ela terminar seu deslocamento ou quando ela iniciar seu turno sofre uma quantidade de dano do elemento selecionado igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 minuto.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "6422e3ae2a9f0378",

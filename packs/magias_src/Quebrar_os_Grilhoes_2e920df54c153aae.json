@@ -18,6 +18,8 @@
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia de Tebryn, pág. 103",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Liberdade</p><p>Desenhando um Selo Místico entre você e uma criatura, você imediatamente liberta o alvo de qualquer efeito que o esteja restringindo. Esta Magia imediatamente dissipa qualquer Runa ou Selo cujos efeitos restrinjam a movimentação do alvo – como Entrelaçar ou Eletricidade Estática, por exemplo. Essa Magia também pode ser usada para libertar alvos de amarras mundanas, soltando cordas, abrindo grilhões, afrouxando os braços de um captor ou destrancando e abrindo portas. A Magia afeta todo e qualquer objeto ou criatura que está restringindo o alvo – assim, se o alvo estiver em uma cela, a Magia abrirá a porta da cela, libertando quaisquer outras pessoas em seu interior.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Dogma: Discípulo da Liberdade.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "2e920df54c153aae",

@@ -230,5 +230,60 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
       "Salteador (requisito Gnoll) deve estar em Habilidades Raciais"
     );
   });
+
+  test("Restrições de Raça e Idioma no Compendium Browser (Etapa J)", async () => {
+    // 1. Aesir na sub-aba Gerais
+    const aesirGuerreiro = createMockActor({
+      name: "Ragnar",
+      details: { raca: "Aesir", classe: "Guerreiro", nivel: 1 },
+      items: [{ name: "Aesir", type: "raca" }, { name: "Guerreiro", type: "classe" }],
+    });
+
+    const browserAesir = new MightyBladeCompendiumBrowser({
+      type: "habilidade",
+      actor: aesirGuerreiro,
+      subTab: "geral",
+      onlyEligible: false,
+    });
+    const dataAesir = await browserAesir.getData();
+    const furia = dataAesir.items.find((i) => i.name === "Fúria de Batalha");
+    assert.ok(furia, "Fúria de Batalha deve constar na sub-aba geral com onlyEligible: false");
+    assert.equal(furia.meetsPrereq, false, "Aesir não pode ser elegível para Fúria de Batalha");
+    assert.match(furia.ineligivelMotivo, /Não disponível para Aesir/i);
+
+    // Com onlyEligible: true, Fúria de Batalha deve ser ocultada
+    browserAesir.onlyEligible = true;
+    const dataAesirElegiveis = await browserAesir.getData();
+    assert.equal(
+      dataAesirElegiveis.items.some((i) => i.name === "Fúria de Batalha"),
+      false,
+      "Fúria de Batalha deve ser ocultada para Aesir quando 'Apenas elegíveis' está ativo"
+    );
+
+    // 2. Teurgia no Compendium Browser
+    const humanoSemExotico = createMockActor({
+      name: "João",
+      details: { raca: "Humano", classe: "Guerreiro", nivel: 1, idiomas: "Burguês Tebryniano, Caint" },
+      items: [{ name: "Humano", type: "raca" }, { name: "Guerreiro", type: "classe" }],
+    });
+
+    const browserHumano = new MightyBladeCompendiumBrowser({
+      type: "habilidade",
+      actor: humanoSemExotico,
+      subTab: "geral",
+      onlyEligible: false,
+    });
+    const dataHumano = await browserHumano.getData();
+    const teurgia = dataHumano.items.find((i) => i.name === "Teurgia");
+    assert.ok(teurgia, "Teurgia deve constar com onlyEligible: false");
+    assert.equal(teurgia.meetsPrereq, false);
+    assert.match(teurgia.ineligivelMotivo, /Requer falar um destes idiomas/i);
+
+    // Com Arkadis, Teurgia se torna elegível
+    humanoSemExotico.system.details.idiomas = "Burguês Tebryniano, Arkadis";
+    const dataHumanoArkadis = await browserHumano.getData();
+    const teurgiaArkadis = dataHumanoArkadis.items.find((i) => i.name === "Teurgia");
+    assert.equal(teurgiaArkadis.meetsPrereq, true, "Teurgia deve ser elegível com idioma Arkadis");
+  });
 });
 

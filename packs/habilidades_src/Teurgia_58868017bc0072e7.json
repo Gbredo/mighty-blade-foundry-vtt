@@ -17,6 +17,14 @@
     "nivel": "Nv1",
     "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [
+      "arkadis",
+      "ctonico",
+      "draen",
+      "quoratus",
+      "trackkara"
+    ],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +44,15 @@
       "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [
+        "arkadis",
+        "ctonico",
+        "draen",
+        "quoratus",
+        "trackkara"
+      ]
     }
   },
   "_id": "58868017bc0072e7",

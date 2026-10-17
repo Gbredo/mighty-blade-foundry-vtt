@@ -20,6 +20,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Canção do Bardo, pág. 23, 36; Guia do Vilão, pág. 62",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -42,7 +44,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "8adf1860f3d2e7c8",

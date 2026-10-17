@@ -17,6 +17,8 @@
     "nivel": "Automática",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 61",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -89,6 +91,8 @@
           ]
         }
       ],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "hasAdvancement": true,
       "advancementType": "escolhaAtributo"
     }

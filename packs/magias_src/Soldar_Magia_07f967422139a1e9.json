@@ -18,6 +18,8 @@
     "tipoAcesso": "Caminho",
     "fonteLivro": "Guia do Herói, pág. 30",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana sobre um item, você faz com que os efeitos de uma outra Magia realizada sobre ele, cujos efeitos afetem o próprio personagem, fique armazenada naquele item. O efeito da Magia armazenada no item pode ser desencadeado por seu portador como uma ação livre. Habilidades e itens que alterem propriedades de uma Magia não tem efeitos sobre uma Magia conjurada a partir do item. Esta Runa Arcana dura indefinidamente (mas pode ser dissipada a qualquer momento pelo conjurador) se dissipando quando os efeitos da magia armazenada no item forem desencadeados. Enquanto uma Magia estiver armazenada no item, os Pontos de Mana usados para conjurar Soldar Magia não podem ser recuperados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Artífice.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "07f967422139a1e9",

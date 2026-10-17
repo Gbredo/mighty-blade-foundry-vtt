@@ -18,6 +18,8 @@
     "tipoAcesso": "Caminho",
     "fonteLivro": "Guia do Vilão, pág. 85",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Nível 10</p><p>Traçando um Círculo de Invocação, você abre um portal para o Inferno. O portal permite ver e ouvir o que acontece do outro lado sem impedimentos, mas criaturas, itens ou magias só podem atravessá-lo a partir do plano do qual ele foi aberto. Se este círculo de conjuração for utilizado no inferno, ele abre um portal para o plano de origem de seu conjurador, mas nesse caso apenas o próprio conjurador pode atravessá-lo – embora itens e magias conjuradas a partir do Inferno possam atravessar para o plano para onde o portal foi aberto. Se você souber o nome de uma criatura dentro do plano para o qual está abrindo o portal, ou se você for suficientemente familiar com um local dentro do plano para o qual está abrindo o portal, ele se abrirá diante dessa criatura ou no meio do local. Caso contrário, o portal se abrirá em um ponto aleatório dentro do plano. Este portal dura enquanto você se mantiver concentrado nele, mas se você atravessar o portal, ele imediatamente se fecha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Final (Nível 10) do caminho Cultista. Custo de 70 PM.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv3",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "82a11da02a9378e7",

@@ -17,6 +17,8 @@
     "nivel": "Nv2",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 94",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "agilidade",
@@ -47,7 +49,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "da3306bca3c0f3ab",

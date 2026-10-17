@@ -17,6 +17,8 @@
     "nivel": "Bônus",
     "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -38,7 +40,9 @@
       "aliases": [
         "Dogma: Discípulo da Liberdade"
       ],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "56819a27195691d1",

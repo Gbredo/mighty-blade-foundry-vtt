@@ -18,6 +18,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia do Herói, pág. 14",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -44,7 +46,9 @@
       "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "6ceeedbea6786de3",

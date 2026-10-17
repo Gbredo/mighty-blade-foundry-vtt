@@ -22,6 +22,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Errata - Guia Básico, pág. 3; Canção do Bardo, pág. 21, 56; Guia Básico, pág. 80, 93",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -46,7 +48,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "9ebd95115e0a3cf1",

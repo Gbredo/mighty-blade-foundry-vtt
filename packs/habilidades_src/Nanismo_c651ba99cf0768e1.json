@@ -17,6 +17,10 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 16",
     "exclusivoCom": [],
+    "racasExcluidas": [
+      "metadilio"
+    ],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +40,11 @@
       "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [
+        "metadilio"
+      ],
+      "idiomasRequeridos": []
     }
   },
   "_id": "c651ba99cf0768e1",

@@ -22,6 +22,8 @@
     "nivel": "Nv2",
     "fonteLivro": "Guia Básico, pág. 50, 61; Guia do Vilão, pág. 36, 51, 61",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -46,7 +48,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "e47273a4b717923a",

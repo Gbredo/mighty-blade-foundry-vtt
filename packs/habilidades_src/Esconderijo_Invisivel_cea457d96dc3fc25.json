@@ -18,6 +18,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia do Vilão, pág. 35; Guia do Herói, pág. 16",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -38,7 +40,9 @@
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "cea457d96dc3fc25",

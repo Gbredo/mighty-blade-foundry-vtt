@@ -17,6 +17,8 @@
     "nivel": "Nv3",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 140; Codex Monstrorum, pág. 176",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -36,7 +38,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv3",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "e3fbf83710c7e305",

@@ -19,6 +19,8 @@
     "tipoAcesso": "Classe",
     "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Sabedoria</p><p>Desenhando um Selo Místico sobre um item ou criatura que mostre uma escrita de qualquer origem, o Selo se materializa na forma de um livro mostrando o símbolo de Sarfion na capa. Ao abrir o livro, todas as páginas estarão cobertas em escritas da linguagem sobre a qual o Selo foi desenhado, e você é inundado por uma torrente de murmúrio naquele idioma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é capaz de ler o texto sobre o qual o Selo foi desenhado, enquanto se mantiver concentrado na leitura, independente do tempo que isso pode levar. O Selo Místico que conjura a Magia se dissipa imediatamente após seus efeitos serem desencadeados.</p></div>"
   },
   "flags": {
@@ -31,7 +33,9 @@
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "5594eeb6552ccfb5",

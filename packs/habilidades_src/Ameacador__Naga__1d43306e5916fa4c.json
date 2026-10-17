@@ -18,6 +18,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia do Vilão, pág. 39",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -40,7 +42,9 @@
       "aliases": [
         "[Ameaçador]"
       ],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "1d43306e5916fa4c",

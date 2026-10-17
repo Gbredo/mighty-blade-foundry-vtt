@@ -4035,6 +4035,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Herói, pág. 98–100",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4054,7 +4056,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f58287cee59f5e81",
@@ -4079,6 +4083,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4098,7 +4104,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "431a1ffdfc43fa4d",
@@ -4123,6 +4131,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 71; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4148,7 +4158,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "91dc9346be8f190a",
@@ -4173,6 +4185,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4192,7 +4206,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d16b70e8ef44c70d",
@@ -4219,6 +4235,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4240,7 +4258,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f2b2bc59abb8d0f0",
@@ -4265,6 +4285,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 121",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4284,7 +4306,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e9b8cf46a0ee4fd0",
@@ -4309,6 +4333,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 61",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4381,6 +4407,8 @@ export const CANONICAL_HABILIDADES = [
             ]
           }
         ],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
         "hasAdvancement": true,
         "advancementType": "escolhaAtributo"
       }
@@ -4407,6 +4435,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4426,7 +4456,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c955673d2fa8f27c",
@@ -4451,6 +4483,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "agilidade",
@@ -4478,7 +4512,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Agilidade Heróica"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "78f16963d5ed9185",
@@ -4503,6 +4539,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4522,7 +4560,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a1c2dbfde7ae416a",
@@ -4547,6 +4587,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4566,7 +4608,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dd68b4cab060e3f6",
@@ -4591,6 +4635,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 22",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4610,7 +4656,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f0eb767a370a8f96",
@@ -4635,6 +4683,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 78",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4654,7 +4704,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d727313478d38c20",
@@ -4679,6 +4731,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 78",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4698,7 +4752,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "86cab6fdf079766e",
@@ -4724,6 +4780,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4746,7 +4804,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "[Ameaçador]"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d43306e5916fa4c",
@@ -4771,6 +4831,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4798,7 +4860,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "[Ameaçador]"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fd0c29bae76b0c71",
@@ -4823,6 +4887,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 109",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4842,7 +4908,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "52881eb24ea71cb7",
@@ -4869,6 +4937,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 26, 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4896,7 +4966,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5287ac132e412f85",
@@ -4921,6 +4993,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103; Guia para Iniciantes, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4940,7 +5014,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c0d73c4e97a9adc1",
@@ -4970,6 +5046,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84, 96, 124, 130; Guia do Vilão, pág. 47, 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -4994,7 +5072,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7ce042eb69727e8d",
@@ -5025,6 +5105,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 78, 108, 118; Canção do Bardo, pág. 21",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5050,7 +5132,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "57dc166ad7ae89dd",
@@ -5075,6 +5159,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5094,7 +5180,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5fcb97e809f47d89",
@@ -5119,6 +5207,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 108",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5138,7 +5228,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3c6bac5554a18823",
@@ -5168,6 +5260,11 @@ export const CANONICAL_HABILIDADES = [
         "Dogma",
         "Pacto"
       ],
+      "racasExcluidas": [
+        "asterio-m",
+        "asteria-f"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5195,7 +5292,12 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "asterio-m",
+          "asteria-f"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b861d91d2b2ada2f",
@@ -5221,6 +5323,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99, 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5241,7 +5345,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a5158156d6e002c9",
@@ -5266,6 +5372,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5285,7 +5393,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ddc9d4bd4a725a58",
@@ -5310,6 +5420,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5335,7 +5447,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5ddb139efe7bb869",
@@ -5360,6 +5474,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 47–48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5379,7 +5495,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "af204d61d9e503da",
@@ -5404,6 +5522,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 75",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5423,7 +5543,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dab9b9128ae1e3d1",
@@ -5448,6 +5570,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Errata - Guia Básico, pág. 1; Guia Básico - 3ª Edição, pág. 126",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5467,7 +5591,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6eb768c85dd61751",
@@ -5492,6 +5618,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 124",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5511,7 +5639,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7e38e0fade31eb9e",
@@ -5536,6 +5666,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 124",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5555,7 +5687,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "25c04ce72d47e1ae",
@@ -5580,6 +5714,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 124; Manual do Combatente, pág. 216",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5599,7 +5735,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cf69e892cc925535",
@@ -5625,6 +5763,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 108, 119",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5645,7 +5785,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6d8a33944ab87826",
@@ -5670,6 +5812,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5696,7 +5840,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2471bfa7dc66290a",
@@ -5722,6 +5868,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 122",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5742,7 +5890,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8005d36dad9abd47",
@@ -5767,6 +5917,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 86–88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5786,7 +5938,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "826a0a28e29e4ac4",
@@ -5811,6 +5965,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5830,7 +5986,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8e39b6cef167e87d",
@@ -5855,6 +6013,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 77",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5874,7 +6034,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f7778ff59b9624bc",
@@ -5899,6 +6061,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 77",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5918,7 +6082,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dee3fe8c940f7f9c",
@@ -5943,6 +6109,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 83",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -5962,7 +6130,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "83bdba84ce24a824",
@@ -5987,6 +6157,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 67; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6017,7 +6189,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "09a59b63d5976f03",
@@ -6042,6 +6216,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 51",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6061,7 +6237,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1af2cc8651037ebf",
@@ -6086,6 +6264,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6111,7 +6291,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "083e0f5a86de48c3",
@@ -6136,6 +6318,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6155,7 +6339,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0ff093aaa26df425",
@@ -6181,6 +6367,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27; Guia Básico - 3ª Edição, pág. 50",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6206,7 +6394,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6df4731dda84d48b",
@@ -6231,6 +6421,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 131; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6250,7 +6442,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "61c895d16879398c",
@@ -6275,6 +6469,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6294,7 +6490,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0241429b26f4be11",
@@ -6322,6 +6520,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 75; Guia do Herói, pág. 19; Guia do Vilão, pág. 30, 34",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "inteligencia",
@@ -6355,7 +6555,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "24a1c8b1c6d2d65c",
@@ -6380,6 +6582,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 78–81",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6399,7 +6603,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2aac8a89a9c241e3",
@@ -6427,6 +6633,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 107, 119; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6449,7 +6657,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "84c384d6481b911a",
@@ -6474,6 +6684,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6493,7 +6705,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ffab551730b69347",
@@ -6518,6 +6732,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 126; Manual do Combatente, pág. 216",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6537,7 +6753,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "be0de3388c1fcbf2",
@@ -6562,6 +6780,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 126",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6581,7 +6801,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "256994dad8b70134",
@@ -6607,6 +6829,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 42 e 104",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6627,7 +6851,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9c667af2dc179460",
@@ -6652,6 +6878,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 108",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6671,7 +6899,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5e35798105e3bc0e",
@@ -6696,6 +6926,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6725,7 +6957,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f7459bf523667ec8",
@@ -6750,6 +6984,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6769,7 +7005,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b5205e4a94fa0697",
@@ -6794,6 +7032,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 126",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6813,7 +7053,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8bf31f83dc83bf6e",
@@ -6838,6 +7080,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6857,7 +7101,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "38a7b8fe61de632d",
@@ -6883,6 +7129,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 91, 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6903,7 +7151,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0bfc88d9a70e0c98",
@@ -6931,6 +7181,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 78, 110, 118; Canção do Bardo, pág. 21, 29",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6953,7 +7205,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b56296b1c29b2cc2",
@@ -6979,6 +7233,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103; Guia de Tebryn, pág. 46",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -6999,7 +7255,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "eb92165d731061a2",
@@ -7024,6 +7282,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 16; Codex Monstrorum, pág. 160",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7043,7 +7303,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cc5ba2a55ebe93d2",
@@ -7069,6 +7331,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Manual do Combatente, pág. 216; Codex Monstrorum, pág. 161",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7089,7 +7353,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7a4b24862f285e8c",
@@ -7115,6 +7381,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 56; Guia do Herói, pág. 21, 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7135,7 +7403,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c0bb9e7c12952282",
@@ -7160,6 +7430,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7179,7 +7451,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b780dcb073c50129",
@@ -7204,6 +7478,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7223,7 +7499,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f688f347000387bb",
@@ -7248,6 +7526,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 76",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7267,7 +7547,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "31f124bbeb53a9f1",
@@ -7293,6 +7575,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia de Tebryn, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7313,7 +7597,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "35e6d4588257991f",
@@ -7338,6 +7624,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 105",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7357,7 +7645,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a4a70fed30ebf400",
@@ -7382,6 +7672,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 19",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7407,7 +7699,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a2971907ecf9456b",
@@ -7432,6 +7726,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7451,7 +7747,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1bf86671880d7027",
@@ -7478,6 +7776,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63; Guia do Herói, pág. 19; Guia de Tebryn, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7499,7 +7799,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça / Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d50beae9cd11fb3b",
@@ -7524,6 +7826,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 19",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7543,7 +7847,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "156a4000d30a3ade",
@@ -7570,6 +7876,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84, 119, 137",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7591,7 +7899,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b0d923c3c5d757a1",
@@ -7616,6 +7926,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 26; Guia do Vilão, pág. 242",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7656,7 +7968,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0ca54373da7c7dda",
@@ -7681,6 +7995,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7700,7 +8016,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "94e454e0a465d659",
@@ -7725,6 +8043,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 81–84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7759,7 +8079,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0b16cb7a07054f42",
@@ -7784,6 +8106,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 71; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7809,7 +8133,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e0b7105969a0305d",
@@ -7838,6 +8164,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45, 137; Manual do Combatente, pág. 216",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7861,7 +8189,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "73522f28357874bf",
@@ -7890,6 +8220,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 101, 139; Manual do Combatente, pág. 216; Guia do Herói, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7913,7 +8245,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "95537dddfe9d7fa6",
@@ -7939,6 +8273,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -7959,7 +8295,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3eccbc47f77928da",
@@ -7987,6 +8325,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Guia do Herói, pág. 17",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "vontade",
@@ -8020,7 +8360,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cbbd0387d8376483",
@@ -8045,6 +8387,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 89–91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8064,7 +8408,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8a0d61787ba7c290",
@@ -8089,6 +8435,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8108,7 +8456,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "58eb1b2c4f079163",
@@ -8133,6 +8483,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 119",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8152,7 +8504,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3e4b62ba51130321",
@@ -8177,6 +8531,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8196,7 +8552,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "791946ce149f4df0",
@@ -8222,6 +8580,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Guia do Vilão, pág. 57, 96-97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8242,7 +8602,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f0c4ba5b8852a323",
@@ -8268,6 +8630,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 110, 121",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8288,7 +8652,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "06308a74530c0ce1",
@@ -8313,6 +8679,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 76",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8332,7 +8700,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "54039565cb06af4d",
@@ -8357,6 +8727,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 76",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8376,7 +8748,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a7e9afb52a72444a",
@@ -8402,6 +8776,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8422,7 +8798,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6d2fcfa62dddd7b0",
@@ -8448,6 +8826,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 81; Canção do Bardo, pág. 72",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8468,7 +8848,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6d892bd1760b1784",
@@ -8494,6 +8876,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Canção do Bardo, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8514,7 +8898,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b3c8e11b2a58002e",
@@ -8540,6 +8926,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8560,7 +8948,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3463f2235e091243",
@@ -8586,6 +8976,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 78; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8606,7 +8998,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "df044437aef4d7cc",
@@ -8632,6 +9026,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8652,7 +9048,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2c97240c792e79f3",
@@ -8678,6 +9076,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8698,7 +9098,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b3fd58ba0d387975",
@@ -8724,6 +9126,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 72",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8744,7 +9148,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a58a1eac5c8782e7",
@@ -8770,6 +9176,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 72",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8790,7 +9198,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8c4510780f126328",
@@ -8815,6 +9225,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 90",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8834,7 +9246,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7417d93844e112c9",
@@ -8859,6 +9273,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 81",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8878,7 +9294,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d373aa6a1ab9133",
@@ -8903,6 +9321,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "agilidade",
@@ -8928,7 +9348,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f42c0350dd2939dc",
@@ -8953,6 +9375,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8972,7 +9396,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8984bd2bf0c4d3fb",
@@ -8997,6 +9423,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 83",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9016,7 +9444,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ec76e431168d943f",
@@ -9041,6 +9471,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 34-35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9066,7 +9498,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "33a9b7a6266899c2",
@@ -9094,6 +9528,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia do Herói, pág. 122; Codex Monstrorum, pág. 153",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9116,7 +9552,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "29518983bf35319f",
@@ -9141,6 +9579,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9160,7 +9600,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7b356f2c46e7f59d",
@@ -9185,6 +9627,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9204,7 +9648,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "df7b5b586944100a",
@@ -9229,6 +9675,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9248,7 +9696,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "67e5d64d74793c8b",
@@ -9273,6 +9723,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9292,7 +9744,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "16e9bd1e46bf2731",
@@ -9317,6 +9771,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9336,7 +9792,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5e9987f241bd74b6",
@@ -9361,6 +9819,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 83",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9380,7 +9840,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fa9f2631ac7480c9",
@@ -9405,6 +9867,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Herói, pág. 13",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9432,7 +9896,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a21e5463d3655ae5",
@@ -9458,6 +9924,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 121",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9478,7 +9946,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "018e7d86f4ed0fca",
@@ -9504,6 +9974,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 119",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9524,7 +9996,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2c641addf7b095d7",
@@ -9549,6 +10023,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 83",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9568,7 +10044,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5a69a7a3a63ab576",
@@ -9593,6 +10071,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9612,7 +10092,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0a903b7958ffa4b2",
@@ -9637,6 +10119,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 40",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9656,7 +10140,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e10e00fc6d7add26",
@@ -9682,6 +10168,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia de Tebryn, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9702,7 +10190,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "37eeb5f4e7b2e3a7",
@@ -9727,6 +10217,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 113",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9746,7 +10238,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e54cdc6f3f900dd0",
@@ -9773,6 +10267,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia de Tebryn, pág. 75, 106",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9794,7 +10290,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "937b5b23422d657d",
@@ -9820,6 +10318,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 114; Guia de Tebryn, pág. 33",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9840,7 +10340,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "81b913b6a1b11d7e",
@@ -9865,6 +10367,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 114",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9884,7 +10388,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "95954c404e5ca8b4",
@@ -9909,6 +10415,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 33",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9928,7 +10436,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1f50d4f320361a6a",
@@ -9953,6 +10463,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9972,7 +10484,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "60593bf9cb75ad81",
@@ -10000,6 +10514,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10022,7 +10538,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b17bfde2357373ea",
@@ -10050,6 +10568,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 105, 110, 115; Manual do Combatente, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10072,7 +10592,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4b78eb84a8884d00",
@@ -10099,6 +10621,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10120,7 +10644,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0e8b748df094a062",
@@ -10147,6 +10673,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 114; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10168,7 +10696,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "db4f7998d13e96fe",
@@ -10193,6 +10723,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 104; Guia para Iniciantes, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10212,7 +10744,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "094c1de2f36dd261",
@@ -10241,6 +10775,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10264,7 +10800,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ed37384d0a2c317d",
@@ -10291,6 +10829,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 119, 137; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10312,7 +10852,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d31831e5c6a2cabb",
@@ -10339,6 +10881,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 120, 137",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10360,7 +10904,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "84885b10411c60c6",
@@ -10387,6 +10933,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 87, 121, 140",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10408,7 +10956,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2fe82b9abae432cc",
@@ -10433,6 +10983,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10452,7 +11004,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "afb9b60eeb3c8d19",
@@ -10477,6 +11031,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10496,7 +11052,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "aed54e67dd5a546d",
@@ -10521,6 +11079,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10540,7 +11100,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3efa490ba95e0c74",
@@ -10565,6 +11127,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10584,7 +11148,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "920039337f4bc6f6",
@@ -10609,6 +11175,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10628,7 +11196,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1e6ab6084b184694",
@@ -10654,6 +11224,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 14",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10680,7 +11252,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6ceeedbea6786de3",
@@ -10707,6 +11281,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10728,7 +11304,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "77a8f57293e23936",
@@ -10755,6 +11333,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 66, 96; Guia do Vilão, pág. 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10776,7 +11356,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c672e26e2811b360",
@@ -10803,6 +11385,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Vilão, pág. 21; Guia Básico, pág. 50",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10824,7 +11408,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bb2c379aab9f8bd2",
@@ -10849,6 +11435,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 85–88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10868,7 +11456,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f2dd24d55c8d5725",
@@ -10895,6 +11485,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10919,7 +11511,9 @@ export const CANONICAL_HABILIDADES = [
           "Conhecimento Regional [Tebryn]",
           "Conhecimento Regional (Tebryn)"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7cb5488db4716363",
@@ -10944,6 +11538,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10963,7 +11559,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "55a97abc9ea4a12b",
@@ -10988,6 +11586,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 24, 30; Guia do Herói, pág. 15",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11013,7 +11613,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d641b1ef190cefe7",
@@ -11038,6 +11640,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 28-29",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11057,7 +11661,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "df261028d24b76c3",
@@ -11084,6 +11690,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69, 138; Guia do Vilão, pág. 55, 76; Codex Monstrorum, pág. 162",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11105,7 +11713,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4e06ce0dbecb4889",
@@ -11132,6 +11742,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 23; Guia do Vilão, pág. 62; Guia de Tebryn, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11153,7 +11765,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bab2f8c3beb2347b",
@@ -11184,6 +11798,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 108; Guia de Tebryn, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11209,7 +11825,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "96c54ddac43fa72b",
@@ -11236,6 +11854,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 62; Guia de Tebryn, pág. 71, 82",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11257,7 +11877,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "03a28bb3ed0a0c59",
@@ -11282,6 +11904,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 75; Canção do Bardo, pág. 30; Guia de Tebryn, pág. 113",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11307,7 +11931,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "49e212acf226f4fa",
@@ -11332,6 +11958,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 120",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11351,7 +11979,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "147c738daabe349a",
@@ -11381,6 +12011,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 124; Canção do Bardo, pág. 26, 62",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11405,7 +12037,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "aaf41845dccdcfc8",
@@ -11430,6 +12064,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 25; Guia do Vilão, pág. 233",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11464,7 +12100,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bdf8d7b770b4ebeb",
@@ -11489,6 +12127,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11518,7 +12158,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ac51567859ed93f9",
@@ -11543,6 +12185,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11562,7 +12206,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "540aec3ca6a06f62",
@@ -11587,6 +12233,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11606,7 +12254,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "01d134795b5450c4",
@@ -11631,6 +12281,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Herói, pág. 15; Codex Monstrorum, pág. 153",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11674,7 +12326,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "42f6cd463078e7d7",
@@ -11700,6 +12354,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Vilão, pág. 36–38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11736,7 +12392,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f05dc51a766c20eb",
@@ -11761,6 +12419,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 34; Guia do Herói, pág. 12",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11790,7 +12450,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e9a53dfcf94c2bb2",
@@ -11815,6 +12477,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11834,7 +12498,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f77e96e876e08603",
@@ -11860,6 +12526,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 109",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11880,7 +12548,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3e0232d9fb363b92",
@@ -11905,6 +12575,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11924,7 +12596,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ac45a785c320b206",
@@ -11949,6 +12623,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -11968,7 +12644,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "892ae976b40549a4",
@@ -11993,6 +12671,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12012,7 +12692,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "16d0ef3570541ffd",
@@ -12038,6 +12720,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92; Canção do Bardo, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12058,7 +12742,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4aae3a1945209ea4",
@@ -12084,6 +12770,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94; Canção do Bardo, pág. 41",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12104,7 +12792,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b7b5c821ce7ebeb5",
@@ -12129,6 +12819,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69; Codex Monstrorum, pág. 162",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12154,7 +12846,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0e155cab870ae6fa",
@@ -12179,6 +12873,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12198,7 +12894,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5145a14143d3f9ac",
@@ -12224,6 +12922,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 104, 114",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12244,7 +12944,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cc80e94914ee0058",
@@ -12269,6 +12971,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 120; Guia do Herói, pág. 107–109",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12288,7 +12992,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ff835bf16f832be1",
@@ -12313,6 +13019,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12332,7 +13040,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7b975f2d14b23488",
@@ -12358,6 +13068,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12378,7 +13090,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "415647c960fa565a",
@@ -12403,6 +13117,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12422,7 +13138,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ec32f29ca03f7037",
@@ -12447,6 +13165,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 128",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12466,7 +13186,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3042661b4ba83856",
@@ -12497,6 +13219,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 97, 125, 132; Guia do Vilão, pág. 49, 56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12522,7 +13246,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "11231c573be4b9b5",
@@ -12547,6 +13273,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 77",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12566,7 +13294,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2b57463c201d5db2",
@@ -12591,6 +13321,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12610,7 +13342,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "21bc3fbb403ca5b0",
@@ -12636,6 +13370,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 120; Guia do Herói, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12656,7 +13392,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "71736dbf7af1adb7",
@@ -12681,6 +13419,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12700,7 +13440,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1eebae3dfceacc8f",
@@ -12726,6 +13468,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 120; Guia do Herói, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12746,7 +13490,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b70cf79b0f47a625",
@@ -12771,6 +13517,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12790,7 +13538,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c2a7c8206e1eb084",
@@ -12815,6 +13565,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12834,7 +13586,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "64054042487b021c",
@@ -12864,6 +13618,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico, pág. 50, 61; Guia do Vilão, pág. 36, 51, 61",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12888,7 +13644,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e47273a4b717923a",
@@ -12913,6 +13671,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 62",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12932,7 +13692,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9c96da8907ce4664",
@@ -12960,6 +13722,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 23, 36; Guia do Vilão, pág. 62",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -12982,7 +13746,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8adf1860f3d2e7c8",
@@ -13007,6 +13773,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13035,6 +13803,8 @@ export const CANONICAL_HABILIDADES = [
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
         "hasAdvancement": true,
         "advancementType": "escolhaAtributo",
         "excluirDeHabilidade": "Adaptabilidade"
@@ -13062,6 +13832,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13083,7 +13855,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Forja"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "aca914c5a67adba5",
@@ -13109,6 +13883,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13131,7 +13907,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Guerra"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9f4bb3b45bf7219e",
@@ -13158,6 +13936,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13181,7 +13961,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Justiça"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "66001253e03b56ef",
@@ -13206,6 +13988,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13227,7 +14011,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Liberdade"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "56819a27195691d1",
@@ -13253,6 +14039,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13275,7 +14063,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Natureza"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a7e9fce98b4aee25",
@@ -13300,6 +14090,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13321,7 +14113,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Paz"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e6e2f6e1cb40ff9f",
@@ -13346,6 +14140,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13367,7 +14163,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo da Sabedoria"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "63875b328a146812",
@@ -13392,6 +14190,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Bônus",
       "fonteLivro": "Guia Básico - 3ª Edição; Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13413,7 +14213,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Dogma: Discípulo do Destino"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "53ceea8f46751de5",
@@ -13443,6 +14245,8 @@ export const CANONICAL_HABILIDADES = [
         "Apóstata",
         "Pacto"
       ],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13473,7 +14277,9 @@ export const CANONICAL_HABILIDADES = [
           "Dogma: Discípulo da Paz",
           "Dogma: Discípulo da Sabedoria",
           "Dogma: Discípulo do Destino"
-        ]
+        ],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "30778e73d19f0d40",
@@ -13499,6 +14305,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13524,7 +14332,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "231192a5f1537395",
@@ -13549,6 +14359,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13570,7 +14382,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Durao"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "febe7c469ab01179",
@@ -13595,6 +14409,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13619,7 +14435,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cfe43ebf7c31bca0",
@@ -13645,6 +14463,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 114; Guia de Tebryn, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13665,7 +14485,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "813330a1081c0892",
@@ -13690,6 +14512,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13709,7 +14533,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "85e22d3629e0de55",
@@ -13734,6 +14560,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 102",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13753,7 +14581,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "891e08e66dcba687",
@@ -13783,6 +14613,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79, 92, 109; Guia do Vilão, pág. 32; Canção do Bardo, pág. 21, 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13807,7 +14639,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "90286330f81b8e3c",
@@ -13833,6 +14667,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 110, 121; Guia do Vilão, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13853,7 +14689,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "72b5d9eb8667294a",
@@ -13879,6 +14717,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 121-122",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13899,7 +14739,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e5df1b007ffc853c",
@@ -13924,6 +14766,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 120",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13943,7 +14787,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2f3b561dbf26bad0",
@@ -13968,6 +14814,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 117; Guia do Vilão, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -13987,7 +14835,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b4cbdce07667198f",
@@ -14013,6 +14863,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 62; Tomo das Muitas Línguas, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14033,7 +14885,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f31dff516b393844",
@@ -14058,6 +14912,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 49",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14077,7 +14933,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4d241ee4a44b37c9",
@@ -14103,6 +14961,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14123,7 +14983,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6a788691afe67873",
@@ -14148,6 +15010,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14173,7 +15037,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8595c978704ee00a",
@@ -14199,6 +15065,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 35; Guia do Herói, pág. 16",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14219,7 +15087,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cea457d96dc3fc25",
@@ -14244,6 +15114,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Tomo das Muitas Línguas, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14263,7 +15135,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9d3cd87f6dbb10ef",
@@ -14288,6 +15162,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 23",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14307,7 +15183,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4d8782aa2b4e32e0",
@@ -14332,6 +15210,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14351,7 +15231,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d24b89ce75813c2",
@@ -14378,6 +15260,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 86, 119, 137, 143",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14399,7 +15283,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d908bf4ab12a8e8b",
@@ -14424,6 +15310,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 74",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14443,7 +15331,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "665489b5ab960a05",
@@ -14472,6 +15362,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48, 104",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14501,7 +15393,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ac26a7d487367b83",
@@ -14526,6 +15420,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Errata - Guia Básico, pág. 2; Codex Monstrorum, pág. 163",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14545,7 +15441,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "011119caa1574beb",
@@ -14572,6 +15470,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79, 92, 109, 120; Canção do Bardo, pág. 23, 30; Codex Monstrorum, pág. 164; Manual do Combatente, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14593,7 +15493,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ced8ebdcb8746f16",
@@ -14618,6 +15520,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14637,7 +15541,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ad63c97aef022403",
@@ -14662,6 +15568,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14681,7 +15589,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0787fd9eefe4a131",
@@ -14706,6 +15616,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 111; Guia do Vilão, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14725,7 +15637,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c579be070989d18f",
@@ -14750,6 +15664,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14769,7 +15685,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3b2c8c8a0d1dc3f9",
@@ -14794,6 +15712,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 114",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14813,7 +15733,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a72f016a8219db8c",
@@ -14838,6 +15760,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 74",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14859,7 +15783,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "[Sangrar]"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b86718d1c1b2d426",
@@ -14886,6 +15812,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 110, 122; Manual do Combatente, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14907,7 +15835,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4278b602e9ced8ef",
@@ -14934,6 +15864,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 27, 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -14965,7 +15897,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fb08a06ced18dc5d",
@@ -14990,6 +15924,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 90",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15009,7 +15945,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8833d7374a08cbd6",
@@ -15034,6 +15972,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15053,7 +15993,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "be713f1e15b23ee9",
@@ -15082,6 +16024,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 11; Codex Monstrorum, pág. 177",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15111,7 +16055,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "302b0f7f6fa1f623",
@@ -15136,6 +16082,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Errata - Guia Básico, pág. 1; Guia Básico - 3ª Edição, pág. 94-95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15155,7 +16103,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "99e8a2768c2ba1a9",
@@ -15180,6 +16130,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 121",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15199,7 +16151,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8b19d432b843fd15",
@@ -15224,6 +16178,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15243,7 +16199,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d012cc49a551d524",
@@ -15269,6 +16227,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 109; Guia do Vilão, pág. 74; Codex Monstrorum, pág. 165",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15289,7 +16249,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9619574d2de955a1",
@@ -15314,6 +16276,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15339,7 +16303,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a4e7d4bcec4f611b",
@@ -15365,6 +16331,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 120",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15385,7 +16353,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "835dd3c9a83fe738",
@@ -15412,6 +16382,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 109; Canção do Bardo, pág. 30; Guia do Vilão, pág. 35; Codex Monstrorum, pág. 165",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15439,7 +16411,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a277418accae3c2c",
@@ -15464,6 +16438,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 106",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15483,7 +16459,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dc13f36153ac5856",
@@ -15508,6 +16486,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15527,7 +16507,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "33dcb24f62bfcbc3",
@@ -15552,6 +16534,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "forca",
@@ -15579,7 +16563,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Força Heróica"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e3cc2c17f56d1855",
@@ -15606,6 +16592,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Guia de Tebryn, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15629,7 +16617,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Forjado a Fogo"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ea5a1ba64335a66c",
@@ -15655,6 +16645,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15675,7 +16667,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7045876e815c7644",
@@ -15701,6 +16695,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Errata - Guia Básico, pág. 2; Codex Monstrorum, pág. 176",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15721,7 +16717,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "87ebcb6795427d34",
@@ -15746,6 +16744,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 75",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15765,7 +16765,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ff09da4c28fed4a9",
@@ -15790,6 +16792,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15809,7 +16813,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "146a26e86527d761",
@@ -15834,6 +16840,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15853,7 +16861,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b14d15a6787b0100",
@@ -15878,6 +16888,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15897,7 +16909,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5188f6d500c3da95",
@@ -15924,6 +16938,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia do Herói, pág. 14",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15955,7 +16971,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2ec80da54f788caa",
@@ -15980,6 +16998,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 75",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -15999,7 +17019,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8002d596fc36da5e",
@@ -16024,6 +17046,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 92",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16043,7 +17067,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4a92e9d92f6fa1e7",
@@ -16068,6 +17094,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16087,7 +17115,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "10e1266518872fd1",
@@ -16112,6 +17142,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16131,7 +17163,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cf0d6027dc612482",
@@ -16156,6 +17190,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16175,7 +17211,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0d18568a2df30d9f",
@@ -16200,6 +17238,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16219,7 +17259,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dcfa235b2f810ea3",
@@ -16244,6 +17286,10 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 16; Codex Monstrorum, pág. 165",
       "exclusivoCom": [],
+      "racasExcluidas": [
+        "aesir"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16263,7 +17309,11 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "aesir"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fa5bc683133e527e",
@@ -16288,6 +17338,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 49",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16307,7 +17359,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7796e5aa0a538164",
@@ -16332,6 +17386,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 77",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16351,7 +17407,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2d23946736d8f4de",
@@ -16376,6 +17434,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16395,7 +17455,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d0eda1b8a11dfc5",
@@ -16420,6 +17482,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "forca",
@@ -16445,7 +17509,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "25b754ff0003aea9",
@@ -16473,6 +17539,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79, 109, 120; Guia de Tebryn, pág. 84, 97; Codex Monstrorum, pág. 166",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16495,7 +17563,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fb135424a8f92fbc",
@@ -16520,6 +17590,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16539,7 +17611,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cfef9884005b9ceb",
@@ -16566,6 +17640,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia de Tebryn, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16587,7 +17663,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f523cf6f20307b05",
@@ -16612,6 +17690,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 46, 108",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16631,7 +17711,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a96d2b8bac500683",
@@ -16656,6 +17738,11 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 13",
       "exclusivoCom": [],
+      "racasExcluidas": [
+        "anao",
+        "metadilio"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16675,7 +17762,12 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "anao",
+          "metadilio"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "43834237faca56e3",
@@ -16700,6 +17792,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Tomo das Muitas Línguas, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16719,7 +17813,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9803332bef50f1a2",
@@ -16744,6 +17840,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 104",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16763,7 +17861,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3d62455b5d510c35",
@@ -16788,6 +17888,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 42 e 104",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16807,7 +17909,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fd4d9e720f563e6e",
@@ -16832,6 +17936,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 107; Errata, pág. 1; Manual do Combatente, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16851,7 +17957,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9d71370bf44b8a2e",
@@ -16876,6 +17984,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 126; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16895,7 +18005,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a08343b5642421f7",
@@ -16921,6 +18033,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 92, 110; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16941,7 +18055,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a5fa5fe0eb84b6d2",
@@ -16970,6 +18086,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63, 72, 79; Canção do Bardo, pág. 36; Guia do Vilão, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -16999,7 +18117,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b9b5409e6948ba08",
@@ -17026,6 +18146,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17047,7 +18169,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e43191ec193074c9",
@@ -17074,6 +18198,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79, 104, 114; Canção do Bardo, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17095,7 +18221,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "37f5d1508df4cbf8",
@@ -17122,6 +18250,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 108; Canção do Bardo, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17143,7 +18273,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cbc0d73d3143c396",
@@ -17169,6 +18301,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 81, 105; Canção do Bardo, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17189,7 +18323,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "753fcb2292408361",
@@ -17216,6 +18352,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 24, 30, 61",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17237,7 +18375,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d4d914b0a2695d06",
@@ -17264,6 +18404,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 24, 30, 61",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17285,7 +18427,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4ccffaa3cf6800d9",
@@ -17310,6 +18454,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17329,7 +18475,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1ee7fda46a56f4c0",
@@ -17354,6 +18502,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17373,7 +18523,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d7fcb63ca499ef90",
@@ -17398,6 +18550,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 140; Codex Monstrorum, pág. 176",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17417,7 +18571,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e3fbf83710c7e305",
@@ -17444,6 +18600,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 42 e 104",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17465,7 +18623,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "38e3aa4e1a587ba1",
@@ -17492,6 +18652,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 109, 120; Errata, pág. 1; Manual do Combatente, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17513,7 +18675,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5ee715dccbde75af",
@@ -17538,6 +18702,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17571,7 +18737,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "691dc94984992b91",
@@ -17596,6 +18764,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Vilão, pág. 32–34",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17642,7 +18812,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4284e60eabdeb1f9",
@@ -17668,6 +18840,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17693,7 +18867,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b9c5ab31b4ab7abb",
@@ -17721,6 +18897,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 86, 120, 139",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17743,7 +18921,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "724a99296f39506a",
@@ -17768,6 +18948,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17787,7 +18969,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bd7ce4f05700ceaa",
@@ -17812,6 +18996,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 33",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17831,7 +19017,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d774ffd776cae11c",
@@ -17856,6 +19044,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 23",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17875,7 +19065,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8e22f0ed72fc52db",
@@ -17900,6 +19092,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17919,7 +19113,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5b5b0c8d0733a827",
@@ -17946,6 +19142,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia do Herói, pág. 15",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -17967,7 +19165,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0afd55c45b2d4e68",
@@ -17996,6 +19196,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94, 106, 116, 128, 141; Manual do Combatente, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18019,7 +19221,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "88b6db6637ff0bff",
@@ -18044,6 +19248,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 111",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18063,7 +19269,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ad1956c7586e14ff",
@@ -18089,6 +19297,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Guia do Vilão, pág. 58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18109,7 +19319,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "38e678cc56cdc2a3",
@@ -18134,6 +19346,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18153,7 +19367,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "67cf37e16eb22986",
@@ -18179,6 +19395,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 64; Guia do Vilão, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18199,7 +19417,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "96c3fff569793db5",
@@ -18225,6 +19445,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18251,7 +19473,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "722a6212185ef9fd",
@@ -18276,6 +19500,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 116",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18295,7 +19521,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "873f2363910af547",
@@ -18320,6 +19548,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "inteligencia",
@@ -18349,7 +19579,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e5214d262192acbc",
@@ -18374,6 +19606,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 16",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "inteligencia",
@@ -18401,7 +19635,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Inteligência Heróica"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9d8fb04d9c2f8635",
@@ -18426,6 +19662,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Herói, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18445,7 +19683,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "497db6749576fb6e",
@@ -18472,6 +19712,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 39, 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18493,7 +19735,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f3795854d6a96e91",
@@ -18518,6 +19762,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18537,7 +19783,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3366fe89fe5d107b",
@@ -18562,6 +19810,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 13",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18581,7 +19831,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "41dc04825518ee85",
@@ -18606,6 +19858,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18625,7 +19879,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "44d14c9b83b44bc5",
@@ -18650,6 +19906,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18669,7 +19927,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "88eb01bc71629fb2",
@@ -18694,6 +19954,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 106; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18713,7 +19975,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d64507236b52a143",
@@ -18739,6 +20003,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 93; Codex Monstrorum, pág. 167",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18759,7 +20025,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ff4c04f028e2e5e8",
@@ -18785,6 +20053,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18805,7 +20075,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6d346dc67ac708d0",
@@ -18830,6 +20102,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18849,7 +20123,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "baf70d98d053725e",
@@ -18874,6 +20150,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Herói, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18893,7 +20171,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4f3cf0aa1ff06a46",
@@ -18918,6 +20198,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18937,7 +20219,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e226bb58a567709a",
@@ -18962,6 +20246,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18981,7 +20267,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "aa99d6c647f5eea9",
@@ -19006,6 +20294,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 44",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19025,7 +20315,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "24f6e59b02c66510",
@@ -19050,6 +20342,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Herói, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19069,7 +20363,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d45d6279f0956053",
@@ -19094,6 +20390,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19113,7 +20411,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "834509582a26d74c",
@@ -19139,6 +20439,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 65; Guia de Tebryn, pág. 107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19159,7 +20461,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7ae021db720e11ee",
@@ -19185,6 +20489,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115; Guia de Tebryn, pág. 36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19205,7 +20511,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c7100be1d45b3504",
@@ -19231,6 +20539,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 116; Guia de Tebryn, pág. 36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19251,7 +20561,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3d903b77e30ff7db",
@@ -19276,6 +20588,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19295,7 +20609,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1175c1c9f5efdb93",
@@ -19320,6 +20636,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19339,7 +20657,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d18154767e6e7d3c",
@@ -19369,6 +20689,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Errata - Guia Básico, pág. 3; Canção do Bardo, pág. 21, 56; Guia Básico, pág. 80, 93",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19393,7 +20715,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9ebd95115e0a3cf1",
@@ -19418,6 +20742,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19442,7 +20768,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "562fb5b70499344d",
@@ -19468,6 +20796,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Vilão, pág. 27–29",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19688,6 +21018,8 @@ export const CANONICAL_HABILIDADES = [
         "nivel": "Automática",
         "aliases": [],
         "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
         "hasAdvancement": true,
         "advancementType": "origemDraconica"
       }
@@ -19715,6 +21047,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19745,7 +21079,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "299c7a954759c2f1",
@@ -19770,6 +21106,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19789,7 +21127,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d5a577c589880861",
@@ -19814,6 +21154,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Tomo das Muitas Línguas, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19833,7 +21175,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "78fa98f70370fbeb",
@@ -19858,6 +21202,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19877,7 +21223,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7c4897bf961b26a4",
@@ -19903,6 +21251,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19923,7 +21273,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8cee9603ee9e823d",
@@ -19948,6 +21300,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19967,7 +21321,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "caed2ddfc2d00919",
@@ -19992,6 +21348,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20011,7 +21369,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2ac21077bf848a66",
@@ -20036,6 +21396,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20055,7 +21417,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "53d8eac7451ce08c",
@@ -20081,6 +21445,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 80, 110; Canção do Bardo, pág. 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20101,7 +21467,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8f05bee8325a0138",
@@ -20126,6 +21494,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20145,7 +21515,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8d72dac2b61ab402",
@@ -20170,6 +21542,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 107–109",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20189,7 +21563,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5e9ef9f4420be974",
@@ -20214,6 +21590,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 119",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20233,7 +21611,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9954849343fe5ab8",
@@ -20258,6 +21638,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20277,7 +21659,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c9e3d520d3c02b72",
@@ -20302,6 +21686,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20321,7 +21707,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "30d64c30ebb1496b",
@@ -20347,6 +21735,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 25; Guia de Tebryn, pág. 97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20367,7 +21757,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b7da2a0f0aa7778c",
@@ -20392,6 +21784,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20411,7 +21805,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8c6fb002883e86d9",
@@ -20436,6 +21832,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 122",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20455,7 +21853,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4e6a924fdf429bc8",
@@ -20480,6 +21880,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 118",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20499,7 +21901,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "104db16027e0696c",
@@ -20524,6 +21928,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20543,7 +21949,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3f169a371caa735e",
@@ -20569,6 +21977,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20589,7 +21999,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b52980b8958a7f7f",
@@ -20615,6 +22027,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 80; Canção do Bardo, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20635,7 +22049,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "487659407d589938",
@@ -20661,6 +22077,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 73",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20681,7 +22099,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "07a9083c47c34aa9",
@@ -20707,6 +22127,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 72",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20727,7 +22149,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "250ba9d9a14c0807",
@@ -20753,6 +22177,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 70",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20773,7 +22199,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "27891464be461f66",
@@ -20799,6 +22227,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20819,7 +22249,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0b60aa0cfb712bdf",
@@ -20844,6 +22276,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20869,7 +22303,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a975508d43d3cf47",
@@ -20894,6 +22330,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Tomo das Muitas Línguas, pág. 44",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20913,7 +22351,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "33c68f32eb733c85",
@@ -20940,6 +22380,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79, 98, 126",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -20961,7 +22403,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7fff298f55fb5340",
@@ -20987,6 +22431,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "vontade",
@@ -21017,7 +22463,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0e7dddd39e36b440",
@@ -21042,6 +22490,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 74",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21061,7 +22511,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "405451ecd15b546a",
@@ -21086,6 +22538,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 121",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21105,7 +22559,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a61da0464450149b",
@@ -21131,6 +22587,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 110; Canção do Bardo, pág. 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21151,7 +22609,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0c83b237a565c813",
@@ -21177,6 +22637,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 110; Canção do Bardo, pág. 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21197,7 +22659,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a23074f5781c25f6",
@@ -21223,6 +22687,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 111; Canção do Bardo, pág. 32",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21243,7 +22709,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6a7700f2f11cfb61",
@@ -21269,6 +22737,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 81; Canção do Bardo, pág. 24, 53",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21289,7 +22759,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "18da58187db6429b",
@@ -21316,6 +22788,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 41 e 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21337,7 +22811,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2f9d1aee55d5e60e",
@@ -21364,6 +22840,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94, 106; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21385,7 +22863,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f6e9546aabf1dbe6",
@@ -21410,6 +22890,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 106",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21429,7 +22911,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9b3d07922434e571",
@@ -21457,6 +22941,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139; Guia de Tebryn, pág. 103; Codex Monstrorum, pág. 151",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21479,7 +22965,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6c66fcf4dedd0b7f",
@@ -21504,6 +22992,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21523,7 +23013,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0694969f38605b2d",
@@ -21548,6 +23040,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 111, 294",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21567,7 +23061,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8e6590abdea60bb1",
@@ -21592,6 +23088,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21611,7 +23109,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "557bb9b8dfe38e71",
@@ -21636,6 +23136,11 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 40",
       "exclusivoCom": [],
+      "racasExcluidas": [
+        "asterio-m",
+        "asteria-f"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21655,7 +23160,12 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "asterio-m",
+          "asteria-f"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bc6d700ed8215023",
@@ -21680,6 +23190,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21699,7 +23211,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a69e6faa35b72d58",
@@ -21724,6 +23238,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21743,7 +23259,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9a476ead3d2d4a14",
@@ -21768,6 +23286,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 116",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21787,7 +23307,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "56d89beeca0a518e",
@@ -21814,6 +23336,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia do Vilão, pág. 31, 43; Codex Monstrorum, pág. 168; Codex Extra de Criaturas, pág. 21; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21835,7 +23359,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ca662bc700646d85",
@@ -21861,6 +23387,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21881,7 +23409,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6956adfebb3349e9",
@@ -21906,6 +23436,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 115",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21925,7 +23457,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "08348ce876cb290c",
@@ -21950,6 +23484,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -21969,7 +23505,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2dd0642ab4b48a7b",
@@ -21995,6 +23533,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 93, 111",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22015,7 +23555,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c835aca67a355f5a",
@@ -22041,6 +23583,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 22-23",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22061,7 +23605,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6e4973f4ea6eeeea",
@@ -22086,6 +23632,10 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 16",
       "exclusivoCom": [],
+      "racasExcluidas": [
+        "metadilio"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22105,7 +23655,11 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "metadilio"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c651ba99cf0768e1",
@@ -22132,6 +23686,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Guia de Tebryn, pág. 99",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22159,7 +23715,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça / Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f846a579611c832c",
@@ -22184,6 +23742,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22203,7 +23763,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "822f8791d52c0b00",
@@ -22228,6 +23790,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 16",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22252,7 +23816,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "44666389235f99f3",
@@ -22277,6 +23843,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 23",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22296,7 +23864,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ce89652331ee832e",
@@ -22324,6 +23894,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 104; Errata, pág. 2",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22346,7 +23918,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d0aa97f1e8ae33f1",
@@ -22371,6 +23945,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22396,7 +23972,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "42eded25b87dcecc",
@@ -22421,6 +23999,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22440,7 +24020,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e7164eb2653acfad",
@@ -22465,6 +24047,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22484,7 +24068,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c0980af19ef6c33d",
@@ -22509,6 +24095,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22528,7 +24116,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "927241369c64106f",
@@ -22554,6 +24144,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 122; Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22574,7 +24166,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f49cf0f9a3afa350",
@@ -22599,6 +24193,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 74",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22618,7 +24214,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "64607cefda6c48e2",
@@ -22643,6 +24241,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22668,7 +24268,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1a20a85a9a00d712",
@@ -22693,6 +24295,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22712,7 +24316,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "997352859fd4858e",
@@ -22737,6 +24343,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22756,7 +24364,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "779e623f11a63894",
@@ -22781,6 +24391,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22800,7 +24412,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "204869a5b4f04db4",
@@ -22825,6 +24439,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Manual do Combatente, pág. 216",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22844,7 +24460,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "630f915a67030ef5",
@@ -22869,6 +24487,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22888,7 +24508,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "722906f7fac7f7c4",
@@ -22914,6 +24536,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 13, 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22934,7 +24558,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d5101feb62d1267a",
@@ -22960,6 +24586,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22980,7 +24608,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "83bf5f5da05093b8",
@@ -23006,6 +24636,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23026,7 +24658,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bad9ee4a67372abf",
@@ -23052,6 +24686,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 88-89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23072,7 +24708,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "715c94441571cbee",
@@ -23098,6 +24736,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 89-90",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23118,7 +24758,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6e738c21120b3eca",
@@ -23144,6 +24786,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23164,7 +24808,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "76c1b6b85314dd3f",
@@ -23195,6 +24841,8 @@ export const CANONICAL_HABILIDADES = [
         "Dogma",
         "Apóstata"
       ],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23248,7 +24896,9 @@ export const CANONICAL_HABILIDADES = [
             "nome": "Pacto da Tirania",
             "descricao": "Virzú, Aquele que Rege, A Palavra que Não Pode ser Desafiada, O Trono Acima, é o Primordial da tirania e da regência pela força. Cultistas que procuram Virzú quase sempre são aqueles que se sentem inferiorizados quando acreditam que deveriam ser reconhecidos.\nSempre que uma criatura viva for atacar você (ou utilizar algum efeito que cause dano, como Magias, algumas Músicas e Gritos), ela precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se for bem sucedida, ela o ataca com um redutor igual à sua Vontade no seu teste. Se falhar, ela não pode atacar. Depois que passar no teste, uma criatura não é mais afetada até o próximo nascer ou por do sol.\nEste é um efeito mental."
           }
-        ]
+        ],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "79a39b51383af1f8",
@@ -23274,6 +24924,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 93; Canção do Bardo, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23294,7 +24946,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8f91cc0d9f5c77a1",
@@ -23320,6 +24974,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 29-30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23340,7 +24996,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bbc1cae4936334e5",
@@ -23366,6 +25024,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 104, 114",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23386,7 +25046,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "99fdd963a1fa8375",
@@ -23412,6 +25074,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 111, 122",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23432,7 +25096,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "42dfc00a177d2737",
@@ -23457,6 +25123,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 57, 161",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23492,7 +25160,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dcd6b4da3bd28b9b",
@@ -23518,6 +25188,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23544,7 +25216,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1e60a2aaec0cbc08",
@@ -23569,6 +25243,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23588,7 +25264,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9dcf7f199e91bb19",
@@ -23613,6 +25291,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Herói, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23632,7 +25312,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e31213f45f6a594f",
@@ -23657,6 +25339,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23686,7 +25370,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c819ddcb1207b4f9",
@@ -23711,6 +25397,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 32; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23741,7 +25429,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0eb7ddd5c1b58cd6",
@@ -23766,6 +25456,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Tomo das Muitas Línguas, pág. 44",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23785,7 +25477,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "06856bf7a57e40e1",
@@ -23811,6 +25505,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 88, 97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23831,7 +25527,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "172854950ccde3df",
@@ -23856,6 +25554,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 77; Guia para Iniciantes, pág. 34",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23885,7 +25585,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "97debe8f0a0f17c7",
@@ -23911,6 +25613,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 26; Canção do Bardo, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23931,7 +25635,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "38d65faa385f78c6",
@@ -23956,6 +25662,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 57-58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23975,7 +25683,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9b4ebae7154c0b9c",
@@ -24000,6 +25710,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 116; Canção do Bardo, pág. 15, 21",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24019,7 +25731,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "208c1c40aba4c1c5",
@@ -24045,6 +25759,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 33",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24065,7 +25781,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fc5dcd4b6be93fc6",
@@ -24090,6 +25808,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 135",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24109,7 +25829,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "85f28b2c0b556744",
@@ -24134,6 +25856,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24153,7 +25877,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1208d2749eacf822",
@@ -24182,6 +25908,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45; Guia do Herói, pág. 15, 17; Guia do Vilão, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "forca",
@@ -24215,7 +25943,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "08dc5dd9ae0db7f6",
@@ -24241,6 +25971,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 120",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24261,7 +25993,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "87a0207a2daa53b9",
@@ -24286,6 +26020,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24305,7 +26041,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ebc0c943981b350f",
@@ -24330,6 +26068,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24349,7 +26089,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a8e3869064ee5b34",
@@ -24374,6 +26116,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24393,7 +26137,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "312051ab14477274",
@@ -24418,6 +26164,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24437,7 +26185,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ed52d37cdc4cc5f6",
@@ -24463,6 +26213,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 25, 64; Guia do Vilão, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24483,7 +26235,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "25c13c9a7d32b1e4",
@@ -24508,6 +26262,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Errata - Guia Básico, pág. 1; Guia Básico - 3ª Edição, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24527,7 +26283,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "15320b8862196d5c",
@@ -24552,6 +26310,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24571,7 +26331,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "66c1226615b5b0d1",
@@ -24596,6 +26358,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 134; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24615,7 +26379,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7c5baf045dc68f78",
@@ -24640,6 +26406,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24659,7 +26427,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6247fd19cdf2a25f",
@@ -24684,6 +26454,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Tomo das Muitas Línguas, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24703,7 +26475,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9457383210625f12",
@@ -24728,6 +26502,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 41",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24747,7 +26523,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6ef379102eaf2f87",
@@ -24772,6 +26550,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24791,7 +26571,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5b94bae62d79a9cc",
@@ -24816,6 +26598,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia de Tebryn, pág. 107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24835,7 +26619,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b1de9d9427941f81",
@@ -24860,6 +26646,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 106",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24879,7 +26667,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5cf4d1c65d2c9baf",
@@ -24904,6 +26694,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 106",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24923,7 +26715,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3a3b1c9dffaf99a6",
@@ -24948,6 +26742,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24967,7 +26763,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6df15cb38205201f",
@@ -24992,6 +26790,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25011,7 +26811,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "15b5f615312a94e5",
@@ -25036,6 +26838,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 106",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25055,7 +26859,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b0a39648d9bc2310",
@@ -25080,6 +26886,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 106–107",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25099,7 +26907,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d8222d7ccd7094ed",
@@ -25124,6 +26934,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 118",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25143,7 +26955,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "702600c1eb8feda2",
@@ -25171,6 +26985,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 51, 57, 75; Guia do Herói, pág. 17",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25199,7 +27015,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fe23785fc5383081",
@@ -25225,6 +27043,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 48; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25255,7 +27075,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5643c0f80ad6ed17",
@@ -25280,6 +27102,10 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 16",
       "exclusivoCom": [],
+      "racasExcluidas": [
+        "hamelin"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25299,7 +27125,11 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "hamelin"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a04bb9b911479297",
@@ -25324,6 +27154,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 74",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25343,7 +27175,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ab898ef11742b412",
@@ -25368,6 +27202,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25387,7 +27223,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0cfb098a356bdf40",
@@ -25414,6 +27252,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25435,7 +27275,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3ab3172344dc6a20",
@@ -25461,6 +27303,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 40",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25481,7 +27325,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a9ee23dc5ab4e398",
@@ -25506,6 +27352,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25525,7 +27373,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "14053a91fe2256f9",
@@ -25551,6 +27401,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 25",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25586,7 +27438,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3348a1b3d6b6cf01",
@@ -25611,6 +27465,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25630,7 +27486,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cd1323ccbe29bb66",
@@ -25655,6 +27513,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25674,7 +27534,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d6adb2ab4bf7710f",
@@ -25699,6 +27561,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 57-58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25718,7 +27582,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "859d1e45a48d8a7a",
@@ -25743,6 +27609,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25762,7 +27630,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5bf6b3b1e3641a66",
@@ -25787,6 +27657,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25806,7 +27678,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7f6e14e4d76f3665",
@@ -25831,6 +27705,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25850,7 +27726,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7423ec0592ee1b9d",
@@ -25877,6 +27755,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Manual do Combatente, pág. 20; Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25898,7 +27778,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "774863719a7a4eaa",
@@ -25923,6 +27805,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25942,7 +27826,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "570988c64bb403a8",
@@ -25967,6 +27853,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 41",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25986,7 +27874,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "18243c84bdea902f",
@@ -26012,6 +27902,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94, 112",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26032,7 +27924,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c86041e43afe19b3",
@@ -26058,6 +27952,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 24-25",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26078,7 +27974,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "45917704a38cf246",
@@ -26104,6 +28002,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 73",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26124,7 +28024,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7a4817bf1b66a54b",
@@ -26150,6 +28052,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26170,7 +28074,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "95bd94c0ac607ed2",
@@ -26196,6 +28102,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 73",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26216,7 +28124,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4d9cb21430155cb9",
@@ -26242,6 +28152,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26262,7 +28174,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ef2cd29e7d17c575",
@@ -26288,6 +28202,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26308,7 +28224,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e12c0406e1b923ef",
@@ -26334,6 +28252,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26354,7 +28274,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "34bc2aec2e55d268",
@@ -26380,6 +28302,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26400,7 +28324,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e2d82597f4d06d7c",
@@ -26430,6 +28356,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45, 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26459,7 +28387,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "17b1ef85ef5c9ed0",
@@ -26484,6 +28414,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26503,7 +28435,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "63fa38be40d06c19",
@@ -26528,6 +28462,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Codex Monstrorum, pág. 172",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26547,7 +28483,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ed8ccc54c92b9332",
@@ -26572,6 +28510,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 138; Codex Monstrorum, pág. 172",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26591,7 +28531,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a15a5cabfb2577c7",
@@ -26619,6 +28561,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 87, 121, 139",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26641,7 +28585,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f90ec8c076020301",
@@ -26666,6 +28612,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26685,7 +28633,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d1aca033045af80d",
@@ -26710,6 +28660,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia do Vilão, pág. 28",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26739,7 +28691,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "009ccf0db95c521e",
@@ -26764,6 +28718,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26788,7 +28744,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "036f8fa192ff0e22",
@@ -26813,6 +28771,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26841,7 +28801,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "80403403d7f951ba",
@@ -26866,6 +28828,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26885,7 +28849,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "acfa04d4e572defe",
@@ -26910,6 +28876,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 114",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26929,7 +28897,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d7e391ae7df9edf8",
@@ -26958,6 +28928,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 104, 110",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26981,7 +28953,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0ccb7a979870c9f9",
@@ -27006,6 +28980,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27025,7 +29001,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7a4da7ce778022b3",
@@ -27050,6 +29028,10 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 40",
       "exclusivoCom": [],
+      "racasExcluidas": [
+        "mahok"
+      ],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27069,7 +29051,11 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [
+          "mahok"
+        ],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7ba629b542fa96c1",
@@ -27095,6 +29081,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 58, 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27115,7 +29103,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dcb6e1db2ac869b4",
@@ -27140,6 +29130,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27159,7 +29151,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ef86df439eae3df1",
@@ -27184,6 +29178,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27203,7 +29199,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "deb15553ee919560",
@@ -27228,6 +29226,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 50",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27247,7 +29247,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f36942ee8f300b79",
@@ -27273,6 +29275,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 33",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27293,7 +29297,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3cf33d500a8e6467",
@@ -27319,6 +29325,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 53",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27339,7 +29347,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e9782cdc7e9c0c59",
@@ -27365,6 +29375,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 25",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27385,7 +29397,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "848122856307840b",
@@ -27410,6 +29424,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27429,7 +29445,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2cd5e9b81cf2a98d",
@@ -27454,6 +29472,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 27-28",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27473,7 +29493,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a5d512d18ca387ce",
@@ -27499,6 +29521,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27519,7 +29543,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5b6c7442c4ccaa48",
@@ -27544,6 +29570,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 31; Guia do Herói, pág. 15",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27577,7 +29605,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "20cabd9512e0e0b9",
@@ -27602,6 +29632,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 44",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27621,7 +29653,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "140ab97bd851a5ee",
@@ -27646,6 +29680,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 64; Manual do Combatente, pág. 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27665,7 +29701,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ae727930cb4e7f4e",
@@ -27690,6 +29728,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 72; Guia do Herói, pág. 19",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27715,7 +29755,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6f751efe224e28ef",
@@ -27740,6 +29782,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27759,7 +29803,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "49533d951dee2151",
@@ -27784,6 +29830,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27803,7 +29851,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "37a4a89247659def",
@@ -27828,6 +29878,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27847,7 +29899,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f8413b1044baa77c",
@@ -27872,6 +29926,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27891,7 +29947,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a581d98229421a19",
@@ -27916,6 +29974,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "agilidade",
@@ -27946,7 +30006,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "da3306bca3c0f3ab",
@@ -27971,6 +30033,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia de Tebryn, pág. 110; Tomo das Muitas Línguas, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -27990,7 +30054,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "24420e55b7e18712",
@@ -28015,6 +30081,14 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [
+        "arkadis",
+        "ctonico",
+        "draen",
+        "quoratus",
+        "trackkara"
+      ],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28034,7 +30108,15 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [
+          "arkadis",
+          "ctonico",
+          "draen",
+          "quoratus",
+          "trackkara"
+        ]
       }
     },
     "_id": "58868017bc0072e7",
@@ -28060,6 +30142,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28080,7 +30164,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "77af989d5f39c83d",
@@ -28105,6 +30191,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 76",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28124,7 +30212,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b93991d34f7e0311",
@@ -28149,6 +30239,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28168,7 +30260,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4962bbd4ebf0376c",
@@ -28193,6 +30287,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 93",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28212,7 +30308,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "56269064368dda09",
@@ -28237,6 +30335,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Herói, pág. 24",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28256,7 +30356,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "04d66f7e0452e212",
@@ -28281,6 +30383,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 105; Manual do Combatente, pág. 65",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28300,7 +30404,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f288e33f8f5ef2c7",
@@ -28329,6 +30435,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 25-26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28352,7 +30460,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5d5c76fdf6119473",
@@ -28377,6 +30487,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 44",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28396,7 +30508,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "417684f1b9641427",
@@ -28421,6 +30535,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 44",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28440,7 +30556,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b1f29f8a24a76204",
@@ -28468,6 +30586,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 81, 93, 110, 121; Canção do Bardo, pág. 25, 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28490,7 +30610,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "da9a183b032915c2",
@@ -28515,6 +30637,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 45",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28534,7 +30658,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fe4127c38f21c7ad",
@@ -28560,6 +30686,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 65; Guia do Vilão, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28580,7 +30708,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f8317a1315cb2b3a",
@@ -28606,6 +30736,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 65; Guia do Vilão, pág. 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28626,7 +30758,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bfeb13350ae55811",
@@ -28653,6 +30787,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 94, 116",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28674,7 +30810,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "95969db3f8615ee0",
@@ -28699,6 +30837,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28718,7 +30858,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "107723bc70991bdf",
@@ -28743,6 +30885,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 139-140",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28762,7 +30906,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "542811dc5111d3ec",
@@ -28788,6 +30934,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28808,7 +30956,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5163d8f104ca1945",
@@ -28834,6 +30984,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 31",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28854,7 +31006,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e1bbd4db665c6638",
@@ -28880,6 +31034,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 26-27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28900,7 +31056,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7a50da2a44910fef",
@@ -28925,6 +31083,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28944,7 +31104,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ca82202c9916809e",
@@ -28969,6 +31131,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Herói, pág. 27",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28988,7 +31152,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f5380c7faad08413",
@@ -29013,6 +31179,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29032,7 +31200,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c65123df8fd88a12",
@@ -29057,6 +31227,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 77",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29076,7 +31248,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8298d688e88518d0",
@@ -29101,6 +31275,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Automática",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 43",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29130,7 +31306,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Automática",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "62244f50b12adc0f",
@@ -29155,6 +31333,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 51",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29174,7 +31354,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "326c7769109ce552",
@@ -29199,6 +31381,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 121",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29218,7 +31402,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f8cb3bf9ddcdb176",
@@ -29244,6 +31430,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 82; Canção do Bardo, pág. 27, 53",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29264,7 +31452,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "94d666a07839b994",
@@ -29289,6 +31479,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 90",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29308,7 +31500,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9e246487bad57977",
@@ -29333,6 +31527,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 75",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29358,7 +31554,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e3373c1cf5eb83c4",
@@ -29383,6 +31581,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29402,7 +31602,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0261c4ca966169ef",
@@ -29427,6 +31629,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv3",
       "fonteLivro": "Guia do Vilão, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29446,7 +31650,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "45aae65765c63902",
@@ -29472,6 +31678,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 38",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29498,7 +31706,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bbaf396b634b05c6",
@@ -29523,6 +31733,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29542,7 +31754,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c85402a1a52e890a",
@@ -29568,6 +31782,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 82; Canção do Bardo, pág. 22",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29588,7 +31804,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d92c7068d865f55",
@@ -29613,6 +31831,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 17",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29637,7 +31857,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "149cea00f30d4d64",
@@ -29662,6 +31884,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 40",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "vontade",
@@ -29689,7 +31913,9 @@ export const CANONICAL_HABILIDADES = [
         "aliases": [
           "Vontade Heróica"
         ],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "553a2a1387841b2b",
@@ -29714,6 +31940,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia de Tebryn, pág. 114",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29733,7 +31961,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "92b404a6c3e2d4d5",
@@ -29758,6 +31988,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 64",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29777,7 +32009,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7dee5b9cec3820ae",
@@ -29802,6 +32036,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 66",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29821,7 +32057,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "80df863263b6547d",
@@ -29847,6 +32085,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 31-32",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29867,7 +32107,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9bd6db900f229b94",
@@ -29892,6 +32134,8 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv2",
       "fonteLivro": "Guia do Vilão, pág. 91",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29911,7 +32155,9 @@ export const CANONICAL_HABILIDADES = [
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
         "aliases": [],
-        "opcoes": []
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b554a96e938b9e4a",
@@ -30262,6 +32508,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 130",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre si mesmo que concede um bônus de +1 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto. Requer a habilidade Graça Divina. Servindo de pré-requisito para a magia Abençoar Aliados 2.</p></div>"
     },
     "flags": {
@@ -30274,7 +32522,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "47123d04958fec00",
@@ -30300,6 +32550,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 133",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Abençoar Aliados 1</p><p>Você desenha um Selo Místico sobre si mesmo que concede um bônus de +2 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto. Requer Nível 5 e a habilidade Abençoar Aliados 1.</p></div>"
     },
     "flags": {
@@ -30311,7 +32563,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "fa3271a7dcdee706",
@@ -30337,6 +32591,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 59, 176",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre uma arma ou armadura para que ela se torne mais eficiente contra criaturas sobrenaturais. Uma arma abençoada causa +6 de dano contra infernais, mortos-vivos e espíritos, além de atingir criaturas incorpóreas como se elas não tivessem a Habilidade Corpo Intangível. Se você abençoar uma armadura, qualquer infernal, morto-vivo ou espírito que tocá-la (incluindo com ataques desarmados) perde imediatamente 6 Pontos de Vida – e perde 6 Pontos de vida a cada turno que comece em contato com a armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 hora.</p></div>"
     },
     "flags": {
@@ -30348,7 +32604,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c1e60c623ceaa851",
@@ -30374,6 +32632,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Invisibilidade 2</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma pequena construção (um casebre, uma carruagem, uma guarita) você torna ela e tudo em seu interior invisível. Se a construção tiver alguma abertura (uma janela aberta, uma carroça sem teto) o interior da construção será visível através da abertura. A Runa Arcana ou Selo Místico dura 24 horas, mas se a construção for perturbada (uma porta é aberta, a carruagem se move) ela se dissipa imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Invisibilidade 2. Caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -30385,7 +32645,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "952e0d7513e08f54",
@@ -30411,6 +32673,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, Dom do Artífice</p><p>Desenhando uma Runa sobre um item mágico, o Artífice pode desestabilizar o encantamento do item temporariamente, permitindo que um segundo encantamento seja iniciado sobre o item enquanto esta Runa estiver ativa. A Dificuldade dessa Magia é igual à dificuldade do encantamento original do item. Um item só pode ser afetado por Abrir Encantamento uma vez. Esta Runa Arcana dura 12 horas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Dom do Artífice. Caminho Artífice.</p></div>"
     },
     "flags": {
@@ -30422,7 +32686,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c9a059e830cf562e",
@@ -30448,6 +32714,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Janela Mágica</p><p>Desenhando um Selo Místico sobre uma Janela Mágica, você cria uma segunda Janela Mágica diretamente a frente da criatura, objeto ou superfície que você estiver observando, efetivamente criando um canal de comunicação em tempo real. Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Janela Mágica. Caminho Oráculo.</p></div>"
     },
     "flags": {
@@ -30459,7 +32727,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "873cabcb0fd94d83",
@@ -30485,6 +32755,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 53",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Se alguma criatura do tipo Humanoide ou Esfinge chegou a 0 Pontos de Vida no último minuto, você pode desenhar uma Runa Arcana sobre ela e absorver a energia vital daquela criatura, restaurando uma quantidade de Pontos de Mana igual à quantidade de Pontos de Mana permanentes do alvo – se a criatura estiver Por um Fio, ela morre imediatamente. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de dreno de energia.</p></div>"
     },
     "flags": {
@@ -30496,7 +32768,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "084ab88249d1db1a",
@@ -30522,6 +32796,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Invocação Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre um Elemental ou Golem, você pode fazer com ele aumente de tamanho uma categoria. A Runa ou Selo se mantém ativa por tanto tempo quanto o elemental ou golem estiver coeso, mas você pode dissipá-la a qualquer momento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Invocação Persistente. Caminho Invocador.</p></div>"
     },
     "flags": {
@@ -30533,7 +32809,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7d7736fb9ec0d57a",
@@ -30559,6 +32837,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 35",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre um Humanóide, você pode modificar quaisquer características da aparência do alvo (raça, gênero, constituição, etc.) incluindo suas roupas, mas não seu tamanho relativo (um Metadílio não poderia se parecer com um Humano, nem um Elfo com um Mahok, por exemplo). Para copiar a aparência de alguém específico você precisa estar olhando para o alvo. A Runa Arcana dura até que a criatura afetada durma, mas se dissipa imediatamente se ela sofrer qualquer dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Ilusão 2. Caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -30570,7 +32850,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8f54b987f5eb73b3",
@@ -30596,6 +32878,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 68; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Relâmpago 1, Teleporte 1</p><p>Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, mas se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -30607,7 +32891,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "01dc2fbffbb62fbe",
@@ -30633,6 +32919,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana no solo, você cria uma área esférica de magia morta cujo raio é igual à sua Vontade em metros. Dentro desta área é impossível conjurar Magias, e todos os efeitos de itens mágicos ficam inativos enquanto eles estiverem dentro dessa área, e o mesmo ocorre com qualquer construto. Além disso, qualquer morto-vivo com a Habilidade Mente Vazia, elementais ou qualquer criatura que tenha sido invocada que entrem na área são imediatamente destruídos. Essa área de magia morta persistirá até o próximo nascer do sol. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados. 111</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Argênteo.</p></div>"
     },
     "flags": {
@@ -30644,7 +32932,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "530fbc900b5f8155",
@@ -30671,6 +32961,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69, 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Você projeta um poderoso golpe mágico capaz de derrubar oponentes – e estruturas! Desenhando uma runa arcana no ar, você projeta uma rajada de energia mágica bruta que causa dano igual a 10/Contusão em um alvo em sua linha de visão, e obriga o alvo a vencer um teste de Força com dificuldade igual à Determinação do conjurador para não ser derrubado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Itens inanimados e estruturas sofrem o dobro do dano normal (20/Contusão). A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -30683,7 +32975,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bb11feac277f41bd",
@@ -30709,6 +33003,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um osso, você o imbuí com energia espiritual, transformando-o em uma arma necromântica. A Arma dos Mortos será uma arma corporal com FN 1 que causa dano igual à Força + Inteligência do conjurador – o tipo de dano deve ser escolhido entre contusão, corte ou perfuração, no momento em que a magia é conjurada. A arma é considerada como tendo a sua Runa pessoal desenhada sobre ela, e, enquanto você estiver usando a Arma dos Mortos, qualquer ataque que atinja uma criatura viva faz com que o alvo perca uma quantidade de Pontos de Vida iguais à sua Vontade além do dano normal da arma (este é um efeito de sangramento). Esta Runa Arcana dura 1 minuto, e quando se dissipa, o osso volta à sua forma original.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -30720,7 +33016,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "faf59b8ced075ba5",
@@ -30746,6 +33044,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 124",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Enfeitiçar Arma 1</p><p>Você pode fazer um item portátil vir até você desenhando uma Runa Arcana no ar entre você e o objeto. O item precisa estar em sua linha de visão, e irá desaparecer de onde está e aparecer na sua mão. Essa magia só funciona com itens portáteis como armas, escudos, ferramentas ou frascos e o item precisa estar marcado com sua Runa pessoal. Além disso, você precisa ter pelo menos uma mão livre para que essa magia funcione.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Enfeitiçar Arma 1. Serve de pré-requisito para a habilidade Armadura Fiel.</p></div>"
     },
     "flags": {
@@ -30757,7 +33057,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "859aa6fea288d12f",
@@ -30783,6 +33085,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Organização",
       "fonteLivro": "Guia de Tebryn, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Parede de Gelo</p><p>Desenhando uma Runa Arcana sobre uma criatura, você a envolve em uma camada de gelo mágico que age como uma armadura. A armadura não causa dano por frio à criatura dentro dela (mas transmite uma sensação de frescor), não compromete sua movimentação ou seus sentidos e permite respirar e falar normalmente. A armadura absorve os ataques que atingiriam a criatura dentro dela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Parede de Gelo. Dura 1 minuto ou até perder seus Pontos de Vida.</p></div>"
     },
     "flags": {
@@ -30794,7 +33098,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a44180cd88b0f42c",
@@ -30820,6 +33126,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Arma Fiel, Enfeitiçar Armadura</p><p>Você pode fazer uma vestimentas vir até você desenhando uma Runa Arcana no ar entre você e ela. O item precisa estar em sua linha de visão, e irá desaparecer de onde está e aparecer vestido no seu corpo. Essa magia só funciona com itens que possam ser vestidos, como armaduras, roupas, mochilas ou cintos e o item precisa estar marcado com sua Runa pessoal. Além disso, você precisa ter espaço para que o item seja vestido para que essa magia funcione – é impossível trazer uma mochila se você já estiver usando alguma coisa nas costas, ou trazer uma armadura se você já estiver usando uma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer as habilidades Arma Fiel e Enfeitiçar Armadura.</p></div>"
     },
     "flags": {
@@ -30831,7 +33139,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7438d8564730de41",
@@ -30857,6 +33167,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 53",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você transforma a energia dela em uma armadura de energia que protege o usuário. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A energia retirada da sombra é transferida para uma criatura que você possa tocar, que fica envolta em uma aura espiritual com uma Resistência igual aos Pontos de Mana da Sombra + a Determinação do conjurador. Quando um ataque, magia ou efeito causar dano, remover Pontos de Vida ou de Mana do alvo, o efeito afetará a Resistência da armadura antes de afetar o usuário.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto, ou até que a armadura fique sem Resistência. Servindo de pré-requisito para a habilidade avançada Resistência Necromântica.</p></div>"
     },
     "flags": {
@@ -30868,7 +33180,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4fd2b67b9ad542ae",
@@ -30894,6 +33208,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 83–85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Empurrão Cinético</p><p>Desenhando uma Runa Arcana sobre um alvo, você o arremessa no ar a uma altura igual à sua Determinação. O alvo (e qualquer criatura atingida por ele) sofre o dano apropriado pela altura que cair (causando essa mesma quantidade de dano em qualquer criatura que atingir). Além disso, quando atingir o solo, o alvo (e qualquer criatura que ele tenha atingido) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. Você pode utilizar essa Magia sobre si mesmo ou sobre um aliado, para alcançar uma área elevada. Nesse caso, diminua a Vontade do alvo da Dificuldade da Magia e o alvo não sofre dano nem chance de queda.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Criaturas com as Habilidades Combate Gigante ou Colosso são arremessadas a uma altura igual à metade da Determinação do Conjurador (arredondado para baixo). No entanto, elas causam quatro vezes o dano de queda que sofrerem em qualquer criatura sobre a qual caiam (se estas não tiverem as Habilidades Combate Gigante ou Colosso).</p></div>"
     },
     "flags": {
@@ -30905,7 +33221,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bf4ffaaf85817c91",
@@ -30933,6 +33251,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84; Guia para Iniciantes, pág. 60",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva, você faz surgir em suas costas um grande par de asas. O alvo ganha a Habilidade Asas Pesadas. Esse Selo Místico dura por 1 Hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo afetado adquire a capacidade de voar conforme a Habilidade Asas Pesadas pela duração do efeito.</p></div>"
     },
     "flags": {
@@ -30946,7 +33266,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "433fe90ad1547bbb",
@@ -30972,6 +33294,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você faz com que um par de asas de energia surjam em suas costas. O alvo ganha a Habilidade Asas Fortes.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura uma quantidade de minutos igual à Determinação do conjurador.</p></div>"
     },
     "flags": {
@@ -30983,7 +33307,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8afc7585e2ad3aae",
@@ -31009,6 +33335,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 42",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Janela Mágica</p><p>Desenhando um Selo Místico sobre uma Janela Mágica, você cria um portal diretamente a frente da criatura, objeto ou superfície que você estiver observando, que pode ser atravessado em ambas as direções. Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Janela Mágica. Caminho Oráculo.</p></div>"
     },
     "flags": {
@@ -31020,7 +33348,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "aba25b0857138ad4",
@@ -31046,6 +33376,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 51-52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Aura do Dragão</p><p>Você desenha um Selo Místico no ar que se transforma em uma aura elemental centrada em você e com um diâmetro em metros igual à sua Determinação. Quando conjurar esta magia, você deve escolher um tipo de energia elemental (Fogo, Frio ou Eletricidade). Todas as Magias e Habilidades que causem dano do tipo de energia escolhida causam um dano adicional igual à sua Vontade. Além disso, todas as criaturas dentro da área que forem Imunes àquele tipo de energia se tornam Resistentes a ela e criaturas Resistentes à energia selecionada perdem esta característica (você não é afetado por este efeito).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 minuto. Requer Nível 5 e Aura do Dragão.</p></div>"
     },
     "flags": {
@@ -31057,7 +33389,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e3512f2817b7593d",
@@ -31083,6 +33417,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Organização",
       "fonteLivro": "Guia de Tebryn, pág. 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa Arcana sobre um objeto ou criatura, você faz com que o alvo passe a emitir uma aura de frio intensa que causa dano igual a 6/Frio em todas as criaturas e objetos adjacentes quando você ativa esta Habilidade, quando eles terminam seu deslocamento ou quando ela iniciar seu turno dentro dessa área. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material – que então passa a emitir a aura de frio ao seu redor. Além disso, objetos inanimados se congelam depois de 3 turnos dentro da área de efeito da aura, enquanto criaturas que sofram dano pela aura por 3 turnos consecutivos ficam Enregeladas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Congelar. Esta Runa Arcana dura por 1 minuto, mas o gelo criado é permanente.</p></div>"
     },
     "flags": {
@@ -31094,7 +33430,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "acb7f3dc0e9d11b6",
@@ -31120,6 +33458,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 131",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Curar Ferimentos 1</p><p>Você desenha um Selo Místico sobre si mesmo que recupera 10 Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este selo também são afetados por ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer a habilidade Curar Ferimentos 1. Servindo de pré-requisito para Aura de Cura 2.</p></div>"
     },
     "flags": {
@@ -31131,7 +33471,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e409a4463bbe1bb5",
@@ -31157,6 +33499,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 133",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Aura de Cura 1</p><p>Você desenha um Selo Místico sobre si mesmo que recupera 30 Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer Nível 5 e a habilidade Aura de Cura 1.</p></div>"
     },
     "flags": {
@@ -31168,7 +33512,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5a7af76c18a94eca",
@@ -31194,6 +33540,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre si mesmo, você gera uma aura de energia elemental (Fogo, Frio ou Eletricidade) – essa escolha é feita quando você conjura a magia. Qualquer criatura que esteja adjacente a você quando conjurar esta magia, quando ela terminar seu deslocamento ou quando ela iniciar seu turno sofre uma quantidade de dano do elemento selecionado igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 minuto.</p></div>"
     },
     "flags": {
@@ -31205,7 +33553,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6422e3ae2a9f0378",
@@ -31231,6 +33581,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico no ar, você projeta uma rajada de fumaça que se espalha rapidamente por uma área igual à sua Determinação à sua frente. Todas as criaturas ficam cegas e distraídas e são consideradas Invisíveis enquanto estiverem dentro da área.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a fumaça dura por 1 minuto – metade disso em climas quentes ou o dobro disso em climas frios. Ventos intensos dissipam a neblina mais rapidamente, dependendo da sua intensidade – a critério do Mestre.</p></div>"
     },
     "flags": {
@@ -31242,7 +33594,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a5c227c494fcf7e1",
@@ -31268,6 +33622,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Organização",
       "fonteLivro": "Guia de Tebryn, pág. 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Parede de Gelo, Mente Disciplinada</p><p>Esta Runa Arcana desenvolvida especificamente para defesa tem um desenho simples e rápido de fazer, e gera uma fina camada de gelo que absorve danos direcionados contra o conjurador. Sempre que for alvo de um ataque ou magia que cause dano, você pode utilizar esta Runa. Ela reduz o dano que você sofreria em um valor igual à sua Determinação. Se o ataque causar dano por Frio a barreira absorve todo o dano daquele ataque. Se o ataque causar dano por Fogo, a barreira reduz o dano em um valor igual à sua Vontade. Essa Habilidade pode ser usada uma vez por rodada. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Parede de Gelo e Mente Disciplinada. Pode ser usada uma vez por rodada.</p></div>"
     },
     "flags": {
@@ -31279,7 +33635,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b6c50249c504100e",
@@ -31305,6 +33663,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Sintonia Dracônica</p><p>Desenhando um Selo Místico sobre um alvo, ele passa a absorver o elemento da sua Sintonia Dracônica (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria por aquele elemento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto. Especial: Se essa magia for lançada a partir de um item de registro sem que o conjurador tenha Sintonia Dracônica, ela funciona exatamente como Resistência Elemental. Requer Nível 5 e Sintonia Dracônica.</p></div>"
     },
     "flags": {
@@ -31316,7 +33676,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "90f66779066334af",
@@ -31343,6 +33705,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre uma criatura viva do tipo Besta, Humanóide ou Troglodita, ele recebe +2 de Força e Agilidade e desenvolve garras e dentes afiados (dano igual à Força +2/Corte) pela duração do efeito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto.</p></div>"
     },
     "flags": {
@@ -31355,7 +33719,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d548d855005f2fc5",
@@ -31381,6 +33747,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 96",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Inflamar</p><p>Desenhando uma runa Arcana no ar você projeta uma esfera de chamas de 20 cm de diâmetro contra um alvo na sua linha de visão. A esfera explode ao atingir o alvo, causando dano igual a 20/Fogo nele e 10/Fogo em tudo e todos em até 2 metros dele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Objetos inanimados inflamáveis atingidos por essa magia tendem a entrar em combustão. Serve de pré-requisito para a magia de Nível 5 *Inferno*. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -31392,7 +33760,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "353be04dd5536950",
@@ -31418,6 +33788,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Sabedoria Selvagem</p><p>Desenhando um Selo Místico sobre uma planta você faz com que ela desenvolva flores, frutas ou raízes. Uma planta só vai gerar flores ou frutos se ela normalmente for capaz disso. Utilizando essa magia sobre uma planta comestível, é possível alimentar um número de pessoas igual à sua Vontade. Um personagem que consuma uma dessas plantas recupera o dobro de Pontos de Vida e Mana por descanso durante as próximas 6 horas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -31429,7 +33801,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "422d2e703b522a0a",
@@ -31457,6 +33831,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84, 131; Guia para Iniciantes, pág. 60",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você permite que ela possa caminhar sobre qualquer tipo de superfície (incluindo líquidos), paredes ou teto e não sofre nenhum tipo de redutor ou penalidade de movimentação por terrenos difíceis ou acidentados. Finalmente, o alvo pode escolher à vontade se vai deixar rastros ou não enquanto esta runa estiver ativa sobre ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 hora.</p></div>"
     },
     "flags": {
@@ -31470,7 +33846,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d2dff23d0da71420",
@@ -31496,6 +33874,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 131",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você pode dar movimentos para uma estátua desenhando um Selo Místico sobre ela. A estátua precisa ter uma forma aproximadamente humanoide e toda feita de um mesmo material. O custo da magia depende do tamanho da estátua: 20 Pontos de Mana para uma estátua pequena, 40 Pontos de Mana para uma estátua média e 80 Pontos de Mana para uma estátua grande. A estátua terá as características de um Golem do material e tamanho apropriados. Esse Selo Místico dura 1 Minuto. Veja os dados dos Golens no Monstrum Codex para mais detalhes.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para a magia Criar Golem.</p></div>"
     },
     "flags": {
@@ -31507,7 +33887,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8a2255cafdc40a52",
@@ -31533,6 +33915,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre si mesmo, você se imbui de energias dos planos infernais que causam uma onda de repulsa à sua presença. Todos os oponentes que estiverem a até 10 metros de você recebem -1 em todas as rolagens. Além disso, qualquer criatura viva que tentar uma ação agressiva contra você precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação) ou ficará Amedrontado em relação a você até o final do seu próximo turno. Qualquer criatura que passe neste teste fica imune a este efeito – mas não ao redutor – pelo próximo dia. Esta Runa Arcana dura por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -31544,7 +33928,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "26dd4952ac431cc4",
@@ -31570,6 +33956,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 133",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Conjurar Broquel Místico, Exorcismo</p><p>Você desenha um Selo Místico no ar que se transforma em uma barreira de energia centrada em você e com um diâmetro igual à sua Vontade. A barreira é imaterial, indestrutível, imóvel, translúcida e bloqueia qualquer magia (tanto de fora para dentro quanto de dentro para fora). Além disso, qualquer demônio, morto-vivo ou espírito perde 20 Pontos de Vida a cada turno em que começar dentro da barreira.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico dura tanto tempo quanto você se mantiver dentro da barreira e concentrado em mantê-la. Requer Nível 5 e as habilidades Conjurar Broquel Místico e Exorcismo.</p></div>"
     },
     "flags": {
@@ -31581,7 +33969,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f595c4c31ec8ed00",
@@ -31607,6 +33997,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Percepção Sanguínea</p><p>Desenhando uma Runa Arcana sobre uma criatura viva, você pode engrossar seu sangue com efeitos benéficos – ou mortais! Você pode coagular apenas sangue exposto, cessando assim todos os efeitos de Sangramento que a criatura estiver sofrendo por um custo de 5 Pontos de Mana. Você pode engrossar levemente o sangue dentro das veias da criatura fazendo com que ela fique desorientada, ficando Atordoada por um número de turnos igual à Vontade do Conjurador por 15 Pontos de Mana. Ou você pode coagular o sangue do alvo, fazendo com que o alvo perca 30 Pontos de Vida e fique Distraído por 1 turno devido ao mal estar súbito por um custo de 30 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Percepção Sanguínea. Caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -31618,7 +34010,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b4ba8065cf08e558",
@@ -31644,6 +34038,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana entre você e uma criatura viva consciente, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente tornando-se uma Sombra que virá até você o mais rápido que puder. Ela permanecerá sob seu controle até ser destruída de alguma forma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação.</p></div>"
     },
     "flags": {
@@ -31655,7 +34051,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "887071234ff70867",
@@ -31681,6 +34079,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana entre você e uma criatura viva, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente, indo para o Plano Espiritual, enquanto o corpo se erguerá como um zumbi. Se o alvo desta magia estiver dentro da sua linha de visão no momento em que morrer, o zumbi estará automaticamente sob seu controle – caso contrário, ele se erguerá como um morto-vivo errante.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação, mas assim que o corpo morrer, ela se torna uma Runa Arcana idêntica àquela de Despertar dos Mortos 1.</p></div>"
     },
     "flags": {
@@ -31692,7 +34092,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b7ef6dfbaf01a936",
@@ -31718,6 +34120,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 71; Guia de Tebryn, pág. 29",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma runa Arcana sobre um objeto ou superfície, você infunde um frio intenso congelando-o. Essa magia pode congelar até 200 litros de líquido ou de material sólido por ponto de Inteligência do conjurador. Apenas matéria inanimada pode ser afetada por essa magia. Essa magia pode ser usada para criar uma camada de gelo grosso (cerca de 5 centímetros) e extremamente escorregadio numa área circular com um diâmetro igual à sua Inteligência. Qualquer criatura sobre essa superfície (incluindo você) precisa fazer um teste de Agilidade (Dificuldade 12) sempre que realizar um ataque, se mover ou tentar se levantar. Uma falha nesse teste significa que o personagem cai.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal. Serve de pré-requisito para *Parede de Gelo*, *Rajada de Gelo*, *Aura Congelante* e *Frio Intenso*.</p></div>"
     },
     "flags": {
@@ -31729,7 +34133,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b33476352a4c0165",
@@ -31755,6 +34161,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 87-88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Mover Terra</p><p>Você desenha um Selo Místico sobre o solo, de onde uma estrutura simples e resistente se ergue seguindo a sua vontade. O custo em Mana da Magia depende do tamanho da estrutura: 10 Pontos de Mana criam um domo para até 4 pessoas, 20 Pontos de Mana criam uma cabana para até 10 pessoas, 40 Pontos de Mana criam uma torre para até 20 pessoas e 80 Pontos de Mana criam um pequeno forte para até 40 pessoas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa depois de 24h, fazendo com que a estrutura comece a desmoronar lentamente. Requer Nível 5 e Mover Terra.</p></div>"
     },
     "flags": {
@@ -31766,7 +34174,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "352bac5a021c1a9f",
@@ -31792,6 +34202,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 131",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Dogma</p><p>Você desenha um Selo Místico no ar que se materializa na forma da arma favorecida pela sua divindade (consulte a lista de Dogmas na página 143 para ver a arma de sua divindade).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico que conjura a arma se dissipa após 1 minuto, mas se você soltar a arma ele se dissipa imediatamente. Requer a habilidade Dogma.</p></div>"
     },
     "flags": {
@@ -31803,7 +34215,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b2a166c8ccb3519e",
@@ -31829,6 +34243,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 180; Manual do Combatente, pág. 48",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você desenha um Selo Místico sobre uma criatura que se materializa na forma de um escudo que flutua ao redor do alvo defletindo ataques, mas pode ser segurado como um escudo normal. Ele garante Esquiva +2, e se for segurado tem FN 2, ocupa 1 mão e seu bônus passa a ser de Bloqueio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto. Na revisão do *Manual do Combatente* (pág. 48), o broquel voador garante Esquiva +1, e se for segurado tem FN 1, ocupa 1 mão e garante Esquiva +2. Servindo de pré-requisito para Círculo da Proteção.</p></div>"
     },
     "flags": {
@@ -31840,7 +34256,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "46370d8127fefd44",
@@ -31866,6 +34284,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Manual do Combatente, pág. 218",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você desenha uma Runa Arcana sobre uma criatura que se materializa na forma de um escudo que flutua ao redor do alvo defletindo ataques, mas pode ser segurado como um escudo normal. Ele garante Bloqueio +2, e se for segurado tem FN 2, ocupa 1 mão e seu bônus passa a ser de Bloqueio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana que mantém o escudo se dissipa depois de 1 minuto. O *Manual do Combatente* traz uma versão revisada desta magia (custo 20 PM); o site usa o Guia Básico.</p></div>"
     },
     "flags": {
@@ -31877,7 +34297,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f9901f2dc51543e7",
@@ -31903,6 +34325,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 133",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Conjurar Lança do Destino</p><p>Você desenha um Selo Místico no ar que se transforma em um conjunto de lanças de luz igual à metade da sua Vontade que arremetem imediatamente na direção de seus inimigos. Cada lança causa dano igual a 10/Perfuração. Se o alvo for um demônio, morto-vivo ou espírito, a lança causa o triplo de dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à Determinação do conjurador) ou fica Distraído por 1 turno. Demônios, mortos-vivos e espíritos não têm direito ao teste para evitarem ficar Distraídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Especial: Você pode atingir o mesmo alvo com várias lanças, ou um alvo com cada lança. Requer Nível 5 e a habilidade Conjurar Lança do Destino.</p></div>"
     },
     "flags": {
@@ -31914,7 +34338,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4140cd2a8d476d31",
@@ -31940,6 +34366,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 60, 179-180",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Exorcismo</p><p>Você desenha um Selo Místico no ar que assume a forma de uma lança de luz. A lança arremete na direção de um alvo que você possa ver e causa dano igual a 10/Perfuração. Se a criatura for um infernal, morto-vivo ou espírito a lança causa o dobro do dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à sua Determinação) ou fica Distraído por 1 turno. Infernais, mortos-vivos ou espíritos não têm direito ao teste para evitar ficarem Distraídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer a habilidade Exorcismo. Servindo de pré-requisito para Conjurar Falange do Destino.</p></div>"
     },
     "flags": {
@@ -31951,7 +34379,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c6a6a4ce1b77db4e",
@@ -31977,6 +34407,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 29",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um item, você o envia para o plano etéreo. Qualquer item cujo peso seja igual ou menor do que a Carga Básica (Guia Básico, pág. 20) do conjurador pode ser afetado por essa Magia. Quando a Runa desenhada sobre o item for dissipada, o objeto aparece imediatamente nas mãos do conjurador. Esta Runa Arcana dura indefinidamente, mas pode ser dissipada a qualquer momento pelo conjurador. Enquanto estiver ativa, os Pontos de Mana usados para Conjurar Objeto não podem ser recuperados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Artífice.</p></div>"
     },
     "flags": {
@@ -31988,7 +34420,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4ccd917ce969cfbc",
@@ -32014,6 +34448,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um morto-vivo ou espírito, ele fica sob seu controle. Se o morto-vivo estiver sendo controlado por outra criatura, a dificuldade será igual à Determinação do controlador. Um morto-vivo ou espírito controlado dessa forma será completamente leal ao conjurador e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Alvos com Mente Bloqueada são imunes a este efeito. Essa Runa Arcana dura por uma quantidade de horas igual à sua Determinação.</p></div>"
     },
     "flags": {
@@ -32025,7 +34461,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "139a87f163cc2c20",
@@ -32053,6 +34491,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 120; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre si mesmo, você consegue atrair uma quantidade de Bestas igual à sua Vontade escolhidas entre Mamífero, Ave, Réptil ou Peixe com Ameaça 0 que estejam a até 1 km de você. Em combate, 1 animal por vez chegará no início do seu turno até o número máximo de animais. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais Sobreviventes, Ferozes ou Furiosos não terão problemas com isso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade não tem efeito em Bestas com o comportamento Servo, e animais Protetores avisarão seus donos antes de virem até você – e agirão como se tivessem o Temperamento normal daquele tipo de animal ao invés de Protetor enquanto estiverem sob efeito do Selo (embora se recusem a atacar seus donos).<br><br>Esse Selo Místico dura 1 hora. Quando for dissipado, as Bestas afetadas voltarão pacificamente para os locais de onde vieram.<br><br>Especial: Você pode refinar o tipo específico de animal (“Cavalos”, “Carnívoros”, “Pacíficos”) ou até mesmo um animal específico (“Aquele rato com quem eu conversei ontem”, “meu Companheiro Animal”, “O cão do guarda-caça”) quando conjurar essa magia.</p></div>"
     },
     "flags": {
@@ -32066,7 +34506,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dfb842da3946e62c",
@@ -32092,6 +34534,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 132",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Proteção Mística</p><p>Desenhando um Selo Místico sobre um alvo, você confere Resistência à Contusão, Corte ou Perfuração a ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura por 1 minuto. Requer a habilidade Proteção Mística.</p></div>"
     },
     "flags": {
@@ -32103,7 +34547,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c49f7bf9f0129358",
@@ -32129,6 +34575,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Crânio Sentinela</p><p>Desenhando uma Runa Arcana sobre um crânio que esteja sob efeito de Crânio Sentinela, o Conjurador cria um elo poderoso entre si mesmo e o crânio. Além de todos os efeitos de um Crânio Vigia, o Conjurador será capaz de conjurar magias através dele – embora seja impossível fazer isso enquanto estiver dormindo ou desacordado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Um Crânio Guardião é considerado como um de seus Crânios Vigias para propósitos de definir o limite de Crânios ativos ao mesmo tempo. Essa Runa Arcana é perene. Requer Nível 5 e Crânio Sentinela.</p></div>"
     },
     "flags": {
@@ -32140,7 +34588,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "784b3d608cf33045",
@@ -32166,6 +34616,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 54",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um crânio intacto, você cria uma ligação necromântica com ele. Um Crânio Sentinela tem uma quantidade de Pontos de Vida igual à sua Determinação, e você pode ver através dos olhos dele (a visão será em preto-e-branco, mas funciona mesmo na escuridão completa), ouvir o que se passa em seus arredores e falar através dele (isso exige concentração e impede que você faça qualquer ação e o deixa Desprevenido). Além disso, sempre que uma criatura se aproxima a uma quantidade de metros do crânio igual à sua Determinação, ou se o crânio for destruído ou a Runa Arcana nele for dissipada, você ficará ciente disso imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se estiver dormindo ou desacordado, você ainda pode interagir com o crânio (como uma espécie de sonho consciente). Você pode ter uma quantidade máxima de Crânios Sentinelas ativos igual à sua Vontade. Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador. Servindo de pré-requisito para Crânio Guardião.</p></div>"
     },
     "flags": {
@@ -32177,7 +34629,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7bf4104dace7b30f",
@@ -32203,6 +34657,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 134",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Cariátide</p><p>Você pode dar movimentos para um receptáculo especialmente preparado. Você precisa de um receptáculo de forma aproximadamente humanoide todo feito de um mesmo material com uma pedra preciosa incrustada nele. A pedra preciosa precisa ter um valor de 400 moedas para cada metro de altura do Golem. Você então desenha um Selo Místico sobre o receptáculo, que se torna um Golem do material e tamanho apropriados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico que mantém o Golem dura 1 hora. Veja os dados de diversos tipos de Golens no *Monstrum Codex* para mais detalhes. Requer Nível 5 e a habilidade Cariátide. Servindo de pré-requisito para Manter Golem.</p></div>"
     },
     "flags": {
@@ -32214,7 +34670,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "31d033a858e1d608",
@@ -32240,6 +34698,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 54-55",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma criatura, você a envolve em energia espectral que cura uma quantidade de Pontos de Vida igual à sua Determinação se o alvo for um morto-vivo ou espírito. Se o alvo for uma criatura viva, ele perde uma quantidade de Pontos de Vida igual à sua Determinação e você recupera uma quantidade de Pontos de Vida igual à quantidade perdida pelo alvo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados. Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.</p></div>"
     },
     "flags": {
@@ -32251,7 +34711,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "58c390dece87bfdc",
@@ -32277,6 +34739,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 132",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma criatura viva que recupera imediatamente 10 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Servindo de pré-requisito para Aura de Cura 1 e Purgar.</p></div>"
     },
     "flags": {
@@ -32288,7 +34752,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "306d3d611e20bfc6",
@@ -32314,6 +34780,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 134",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Curar Ferimentos 1</p><p>Desenhando um Selo Místico sobre uma criatura viva, ela recupera imediatamente 60 pontos de vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer Nível 5 e a habilidade Curar Ferimentos 1.</p></div>"
     },
     "flags": {
@@ -32325,7 +34793,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d6348c24ca97d7cb",
@@ -32351,6 +34821,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 49",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Aura do Dragão</p><p>Você é capaz de produzir um campo de magnetismo ao seu redor, repelindo metal. Desenhando um Selo Místico sobre si mesmo, você sempre pode ativá-lo se for alvo de um ataque de uma arma com componentes de metal, impedindo que a arma o toque, evitando o ataque completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico se dissipa apenas quando você dormir (ou perder a consciência de alguma forma) e não quando é ativado – mas consome seu custo em Mana sempre que seu efeito for desencadeado. Requer Aura do Dragão.</p></div>"
     },
     "flags": {
@@ -32362,7 +34834,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1fd955483820f8f8",
@@ -32388,6 +34862,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana entre você e uma pilha de ossos ou um cadáver dentro da sua linha de visão, você faz com que os ossos explodam lançando estilhaços em todas as direções. Todas as criaturas a uma quantidade de metros igual à sua Determinação ao redor da pilha de ossos sofrem dano por Corte dependendo da quantidade de ossos afetados – o que também afeta o custo em Mana da magia. Um único osso grande (Fêmur, caixa torácica ou crânio) de uma criatura média terá um custo em Mana de 5 e causa 10 de dano. Restos de uma criatura pequena ou o único osso de uma criatura grande terá um custo em Mana de 10 e causa 15 de dano. Restos de uma criatura média ou o único osso de uma criatura enorme terá um custo de 15 pontos de Mana e causa 20 de dano. Restos de uma criatura grande terá um custo de 20 pontos de Mana e causa 25 pontos de dano. Restos de uma criatura colossal terá um custo de Mana de 25 e causa 30 pontos de dano. Mortos-vivos com Mente Vazia podem ser afetados por essa magia, e contam como restos de uma criatura de seu tamanho. Eles perdem uma quantidade de Pontos de Vida igual à quantidade de dano que causam, mais uma quantidade de Pontos de Vida iguais à sua Determinação. Essa Runa Arcana se dissipa assim que seus efeitos são desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -32399,7 +34875,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "18d2d5ce3d18bed5",
@@ -32426,6 +34904,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Errata, pág. 1; Guia do Herói, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você pode desativar temporariamente um item mágico desenhando uma Runa Arcana sobre ele, fazendo com que todos os efeitos mágicos fornecidos pelo item (incluindo sua resistência, que será definida pelo material original do item ao invés de ser calculada como se ele fosse feito de Drakonite) deixem de funcionar. Além disso, todas as Runas Arcanas e Selos Místicos sobre o item são dissipadas imediatamente. Itens abençoados não são afetados por essa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o item mágico permanece desativado por 10 minutos por ponto de Inteligência que você tiver.</p></div>"
     },
     "flags": {
@@ -32438,7 +34918,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7174f63c93ea46cf",
@@ -32464,6 +34946,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Entrelaçar</p><p>Você desenha um Selo Místico sobre uma planta, imbuindo ela com percepção e fala de uma criatura inteligente além de capacidade de movimentação. Um rosto se cria no caule ou tronco da planta e pode interagir com qualquer um. Nenhuma planta gosta de ser incomodada e elas tendem a não ser muito amistosas. O custo em Mana da Magia depende do tamanho da planta: 10 Pontos de Mana para afetar uma planta pequena, 20 Pontos de Mana para afetar uma planta média, 40 Pontos de Mana para afetar uma planta grande e 80 Pontos de Mana para afetar uma planta gigante. Trate uma planta sob efeito dessa magia como um Golem de madeira do tamanho apropriado, exceto o Tipo que será Esfinge e o Temperamento que será Pacífico.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico dura 1 minuto por ponto de Vontade do conjurador. Requer Nível 5 e Entrelaçar.</p></div>"
     },
     "flags": {
@@ -32475,7 +34959,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4555705df65541bc",
@@ -32501,6 +34987,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 55",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre os restos de uma Besta ou Humanoide de tamanho Médio ou menor, você o transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras e dificuldades para realizar certas ações. O morto-vivo estará sob seu controle e acatará quaisquer comandos verbais simples (Ataque aquela criatura, defenda esse local, carregue esses itens, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Determinação.</p></div>"
     },
     "flags": {
@@ -32512,7 +35000,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "431f12b9b234e75e",
@@ -32538,6 +35028,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 57",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana sobre os restos de uma criatura qualquer, você os transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras ou dificuldades para realizar certas ações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O morto-vivo criado é permanente, e será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia – quando a Runa se dissipa, o morto-vivo passa a agir de forma independente. Requer Nível 5 e a habilidade Despertar dos Mortos 1.</p></div>"
     },
     "flags": {
@@ -32549,7 +35041,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1b4bf38a6a2e6354",
@@ -32575,6 +35069,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma runa Arcana sobre um objeto ou criatura, você o carrega com uma forte carga de eletricidade estática, prendendo-o à qualquer superfície em que estiver tocando. Pode ser usado em um item portátil para tornar impossível que ele seja derrubado ou em uma criatura para impedir que ela tire os pés do chão – reduzindo seu Deslocamento para 0 e sua Agilidade em -2. Um alvo afetado dessa forma pode fazer um teste de Força com dificuldade igual à Determinação do conjurador como uma ação de movimento para tentar tirar os pés do chão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto, mas se a criatura afetada conseguir tirar um dos pés do chão, seus efeitos sobre ela se dissipam imediatamente. Serve de pré-requisito para *Manto Crepitante* e *Relâmpago 1*.</p></div>"
     },
     "flags": {
@@ -32586,7 +35082,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "287b4fe2d0b5fe82",
@@ -32612,6 +35110,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Relâmpago 2</p><p>Você desenha uma Runa Arcana sobre si mesmo, fazendo um turbilhão de raios elétricos emanarem a partir dela. No final do seu turno, tudo e todos que estiverem a uma quantidade de metros igual à sua Inteligência ao seu redor sofrem uma quantidade de dano igual a 20/Eletricidade. Alvos usando armaduras com a Característica Pesada que sofram esse dano também ficam Atordoadas por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de turnos igual à sua Vontade.</p></div>"
     },
     "flags": {
@@ -32623,7 +35123,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "619921cb0c58459d",
@@ -32649,6 +35151,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 83–85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana entre você e um alvo, você faz com que ele seja projetado em linha reta um número de metros igual à Vontade do conjurador. Se o alvo atingir uma superfície sólida ou outra criatura no trajeto que foi projetado, ele (e qualquer criatura que atinja no trajeto) sofre dano como se tivesse caído aquela distância. O alvo empurra tudo o que atingir no trajeto, que só será interrompido se o alvo atingir um objeto que não possa ser empurrado – como uma parede ou árvore. Além disso, no final do trajeto em que foi projetado, o alvo (e qualquer criatura que ele tenha atingido no trajeto) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.<br><br>Especial: Criaturas com as Habilidades Combate Gigante ou Colosso são empurrados apenas um número de metros igual à metade da Vontade do Conjurador (arredondado para baixo).</p></div>"
     },
     "flags": {
@@ -32660,7 +35164,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4d21555acede8840",
@@ -32686,6 +35192,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 28",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um item, você faz com que a próxima Magia conjurada sobre o item fique armazenada nele, podendo ser utilizada por seu portador como uma ação padrão. Habilidades e itens que alterem propriedades de uma Magia não tem efeitos sobre uma Magia conjurada a partir do Talismã. Esta Runa Arcana dura indefinidamente (mas pode ser dissipada a qualquer momento pelo conjurador) se dissipando quando os efeitos da magia armazenada no item forem desencadeados. Enquanto uma Magia estiver armazenada no item, os Pontos de Mana usados para conjurar Encantar Talismã não podem ser recuperados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Artífice.</p></div>"
     },
     "flags": {
@@ -32697,7 +35205,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cff9cee8c6b0615f",
@@ -32723,6 +35233,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 57",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Despertar dos Mortos 1, Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre um cadáver, você o reanima induzindo uma Sombra próxima para dentro dele. Ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Diferente de um esqueleto ou zumbi normal, no entanto, esse morto-vivo não terá Mente Vazia e possui a consciência da Sombra contida dentro dele – incluindo sua Inteligência, Vontade e quaisquer Habilidades que a Sombra possuísse em vida, exceto Características. Sombras encarnadas dessa forma não são capazes de Conjurar Magias ou utilizar Músicas que tenham um custo em Mana maior do que zero. Um morto-vivo criado dessa forma será completamente leal a você e aceitará quaisquer comandos verbais simples, mas ainda é capaz de raciocinar normalmente e criar táticas elaboradas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, e o morto-vivo se desfaz em pó quando a Runa se dissipa. Requer Nível 5, Despertar dos Mortos 1 e Contato com Espíritos.</p></div>"
     },
     "flags": {
@@ -32734,7 +35246,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b353c4bc957f58a6",
@@ -32760,6 +35274,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 55",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana no ar, você projeta uma rajada de energia espectral que, ao atingir uma criatura viva, faz com que ela perca uma quantidade de Pontos de Vida e Pontos de Mana igual à sua Vontade – se o alvo for um morto-vivo ou espírito, ele recupera uma quantidade de Pontos de Vida igual à sua Vontade ao invés disso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados. Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia. Servindo de pré-requisito para Energia Sombria 2.</p></div>"
     },
     "flags": {
@@ -32771,7 +35287,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e4b98fe53385242b",
@@ -32797,6 +35315,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 59",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Energia Sombria 1</p><p>Desenhando uma Runa Arcana no ar, você projeta uma rajada de energia espectral que, ao atingir uma criatura viva, faz com que ela perca uma quantidade de Pontos de Vida e Pontos de Mana igual à sua Determinação – se o alvo for um morto-vivo ou espírito, ele recupera uma quantidade de Pontos de Vida igual à sua Determinação ao invés disso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados. Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia. Requer Nível 5 e Energia Sombria 1.</p></div>"
     },
     "flags": {
@@ -32808,7 +35328,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "93a30696b7ca8b36",
@@ -32835,6 +35357,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Guia do Herói, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +1 nas rolagens de ataque e nos danos dessa arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Serve de pré-requisito para Arma Fiel, Golpe do Vento e Enfeitiçar Arma 2.</p></div>"
     },
     "flags": {
@@ -32847,7 +35371,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a3cb9ec4faa6bac6",
@@ -32874,6 +35400,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 128; Guia do Herói, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Enfeitiçar Arma 1</p><p>Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +3 nas rolagens de ataque e nos danos dessa arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Requer Nível 5 e a habilidade Enfeitiçar Arma 1.</p></div>"
     },
     "flags": {
@@ -32886,7 +35414,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0f5402f23d9388bd",
@@ -32913,6 +35443,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 125; Guia do Herói, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma armadura ou vestimenta, você aumenta o bônus de defesa do item em +1 (ou confere +1 de Armadura para uma peça de roupa comum).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Serve de pré-requisito para a habilidade Armadura Fiel.</p></div>"
     },
     "flags": {
@@ -32925,7 +35457,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a8093e7dbf39809b",
@@ -32951,6 +35485,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Sabedoria Selvagem</p><p>Desenhando um Selo Místico sobre o solo você faz com que plantas comecem a brotar e agarrem um alvo que esteja com os pés no chão, reduzindo seu Deslocamento a 0 e sua Agilidade em -2 enquanto estiver preso dessa forma. Para se soltar, ele (ou outro personagem) deve passar uma quantidade de turnos igual à Vontade do conjurador cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> As plantas murcham e se desfazem após 1 minuto. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -32962,7 +35498,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4525dfe48512e619",
@@ -32988,6 +35526,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 55",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma criatura, você desfaz quaisquer ligações sobrenaturais que ela possua. Se a criatura estiver sendo controlada, o controlador do alvo imediatamente perde 10 Pontos de Mana e fica Atordoada por um número de turnos igual à sua Vontade. Se o alvo for um elemental, infernal, deva, espírito ou criatura invocada, ela é imediatamente banida para seu plano de origem. Se for uma criatura convocada, ela retorna ao seu comportamento normal – geralmente fugindo em confusão. Se o alvo for um construto, todos os Selos Místicos e Runas Arcanas sobre ele são dissipados. Se o alvo for um morto-vivo, ele se torna um cadáver inanimado e não pode mais ser reanimado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A dificuldade desta magia é igual à Determinação da criatura OU da criatura controlando o alvo, se ele estiver sendo controlado. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -32999,7 +35539,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1c644fc2d55a1e93",
@@ -33025,6 +35567,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 85–88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, ao menos uma Habilidade de Maldição</p><p>Desenhando um Símbolo Profano sobre uma criatura afetada por uma Maldição, você faz com que a Runa Arcana da Maldição se dissipe e seus efeitos passem a ser permanentes. A Maldição pode ser revertida se você morrer ou sob uma condição específica – que sempre deve ser estipulada por você no momento que esta magia é conjurada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p></div>"
     },
     "flags": {
@@ -33036,7 +35580,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "4f5449c99e384bba",
@@ -33062,6 +35608,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Evocar Temporal</p><p>Desenhando um Selo Místico sobre si mesmo, você pode iniciar uma nevasca ou chuva de granizo que cobre uma área de 1 km de diâmetro. Essa área se move conforme você se desloca, permanecendo centrada em você. Todos na área, exceto você, sofrem dano igual a 6/Frio (nevasca) ou 6/Contusão (granizo) a cada turno que estiverem desabrigados e todos os testes dentro da área são realizados como se os personagens fossem Inaptos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O temporal leva 3 turnos para se formar e o Selo Místico se dissipa em um número de minutos igual à sua Vontade. Requer Nível 5 e Evocar Temporal.</p></div>"
     },
     "flags": {
@@ -33073,7 +35621,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1c9c1e86972e69a7",
@@ -33099,6 +35649,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Princípio Natural</p><p>Desenhando um Selo Místico sobre si mesmo, você inicia uma poderosa tempestade de chuva ou vento. A tempestade cobre uma área de 1 km de diâmetro e se move conforme você se desloca, permanecendo centrada em você. Todos na área realizam seus testes como se fossem Inaptos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O temporal leva 3 turnos para se formar e o Selo Místico se dissipa em um número de minutos igual à sua Vontade.</p></div>"
     },
     "flags": {
@@ -33110,7 +35662,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a4582f51ae1da730",
@@ -33136,6 +35690,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 49",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Aura do Dragão</p><p>Desenhando um Selo Místico no ar, você projeta uma rajada de ar refrescante que acalma e renova as criaturas dentro dela. Todas as criaturas dentro de uma área ao seu redor igual à sua Vontade restauram Pontos de Vida – mas não Pontos de Mana – como se tivessem descansado por um número de horas iguais à sua Vontade. Todos os efeitos que ocorreriam ou expirariam dentro desse tempo (fadiga, exaustão, venenos, magias, doenças) são dissipados sem produzir qualquer efeito. Além disso, os efeitos de desidratação (mas não fome) de todas as criaturas dentro da área são removidos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -33147,7 +35703,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "00bb02f5161b64ab",
@@ -33173,6 +35731,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 132",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você desenha um Selo Místico no ar que expurga os mortos-vivos, demônios e espíritos que estiverem a uma distância em metros igual à sua Determinação ao seu redor, fazendo com que eles imediatamente percam 10 Pontos de Vida e 10 Pontos de Mana. Criaturas afetadas que tenham Mente Vazia perdem todos os seus Pontos de Vida e Mana imediatamente. Mortos-vivos destruídos por essa magia voltarão a ser cadáveres inanimados e não poderão ser reanimados novamente, demônios são imediatamente enviados de volta ao inferno e não podem sair de lá por 1 ano e espíritos são permanentemente dissipados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Serve de pré-requisito para Conjurar Lança do Destino e Círculo da Proteção (Santuário Místico).</p></div>"
     },
     "flags": {
@@ -33184,7 +35744,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "079fb987944c8def",
@@ -33210,6 +35772,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, Exarca, Hálito do Dragão, Vínculo Dracônico</p><p>Desenhando um Selo Místico no ar, você abre um portal para os planos elementais, conjurando poderosas energias que assumem a forma de dragões de cada um dos diferentes tipos de elementos (Fogo, Frio e Eletricidade). Enquanto este Selo estiver ativo, você pode comandar essas energias para atingir alvos dentro da sua linha de visão, cada uma delas causando 30 Pontos de Dano do elemento referente – elas podem ser direcionadas contra um mesmo alvo, ou você podem direcionar cada uma delas contra um alvo diferente à sua escolha, e estes alvos podem ser alterados livremente no começo de cada um de seus turnos, como uma ação livre. Esse Selo Místico dura uma quantidade de turnos igual à sua Vontade, mas se dissipa imediatamente se você conjurar outra magia ou sofrer dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Dracomante. Requer Nível 10, Exarca, Hálito do Dragão e Vínculo Dracônico.</p></div>"
     },
     "flags": {
@@ -33221,7 +35785,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d96fd9406860841c",
@@ -33247,6 +35813,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 49",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você faz com que ela seja capaz de respirar sob a água e receba um bônus de +1d6 em testes de natação. Este efeito funciona mesmo que o alvo seja imerso em outros líquidos que não sejam água – como lama, óleo ou piche – e o torna imune a efeitos referentes à respiração – como fumaça ou gases venenosos, por exemplo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura por 1 hora.</p></div>"
     },
     "flags": {
@@ -33258,7 +35826,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "bc7bd2b10b674db0",
@@ -33284,6 +35854,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro da sua linha de visão, você faz com que o alvo verta sangue através da pele. O alvo perde uma quantidade de Pontos de Vida igual à sua Vontade por turno. Essa Runa Arcana dura por uma quantidade de turnos igual à sua Vontade. Este é um efeito de sangramento. Este efeito é considerado como uma Maldição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -33295,7 +35867,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f78b1f968333cbb2",
@@ -33321,6 +35895,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Bons Frutos</p><p>Desenhando um Selo Místico sobre uma planta frutífera – mesmo morta – você faz com que ela desenvolva um único fruto grande e suculento capaz de restaurar 30 Pontos de Vida de quem o ingerir. Se não for ingerida, a fruta perde sua capacidade de cura após 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -33332,7 +35908,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1c1f8cf55536ea49",
@@ -33358,6 +35936,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Entrelaçar, Rajada de Espinhos</p><p>Desenhando um Selo Místico sobre o solo você faz com que plantas espinhosas comecem a brotar e agarrem um alvo que esteja com os pés no chão. O alvo fica com Deslocamento 0, é considerado Desprevenido e sofre uma quantidade de dano igual a 10/Perfuração. Para se soltar ele (ou outro personagem) deve passar uma quantidade de turnos igual à sua Vontade cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador). Toda vez que ataca as plantas ou fracassa no teste de Força, o alvo sofre dano igual a 10/Perfuração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> As plantas murcham e se desfazem após 1 minuto. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer Nível 5, Entrelaçar e Rajada de Espinhos.</p></div>"
     },
     "flags": {
@@ -33369,7 +35949,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3cc0a9a4675f253f",
@@ -33395,6 +35977,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 132",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma criatura viva, você imbui ela com a graça de sua Divindade. O alvo recebe +1 em todas as suas rolagens.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura por 1 minuto. Serve de pré-requisito para Abençoar Aliados 1 e Abençoar Objeto.</p></div>"
     },
     "flags": {
@@ -33406,7 +35990,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "291dcc39a38377b2",
@@ -33432,6 +36018,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 52",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Hálito do Dragão</p><p>Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental com o poder da baforada de um grande dragão! Esta magia atinge tudo e todos a uma distância em metros igual à sua Determinação à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 40/Fogo. Hálito de Frio causa dano igual a 20/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado. Hálito de Eletricidade causa dano igual a 30/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados. Requer Nível 5 e Hálito do Dragão.</p></div>"
     },
     "flags": {
@@ -33443,7 +36031,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b6165904c6cf63e2",
@@ -33469,6 +36059,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 49",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental que simula o sopro dos dragões – essa escolha é feita quando você conjura a magia. Esta magia atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 20/Fogo. Hálito de Frio causa dano igual a 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado. Hálito de Eletricidade causa dano igual a 15/ Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno. Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados.</p>"
     },
     "flags": {
@@ -33480,7 +36072,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3187a3e009b41475",
@@ -33506,6 +36100,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 34",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de uma pessoa ou de um baú grande. A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -33517,7 +36113,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0a10ea636ed4e361",
@@ -33543,6 +36141,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, Ilusão Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, ela passa a ter duração permanente e você não precisa manter contato visual para que ela continue ativa. Além disso, ela não se dissipa sob condições em que isso normalmente aconteceria (como alguém sob efeito de Aparência Ilusória sofrer dano, por exemplo). O conjurador pode dissipar a ilusão a qualquer momento ou adicionar uma condição para que ela se dissipe (uma frase, uma conjunção astral, um prazo, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Ilusão Persistente. Caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -33554,7 +36154,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f07be48fa75b369f",
@@ -33580,6 +36182,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -33591,7 +36195,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "623fc41364fa18e5",
@@ -33617,6 +36223,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 100",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Inferno</p><p>Desenhando uma Runa Arcana sobre um objeto ou superfície, você faz com que ele se aqueça ao ponto de incandescer ou inflamar. Objetos de pedra e metal se tornarão quentes ao ponto de tornarem-se candentes, causando dano igual a 20/Fogo em qualquer coisa que tocarem – e produzindo uma quantidade considerável de calor. Metais aquecidos a esse ponto amolecem e podem ser facilmente dobrados ou quebrados. Objetos combustíveis irão se inflamar instantaneamente, e pegarão fogo mesmo que estejam ensopados – a água vai evaporar em segundos antes que eles entrem em combustão. Essa magia pode ser usada em armas, armaduras e vestimentas de criaturas vivas. Note que o objeto alvo se aquece por inteiro. Assim, uma árvore inteira secaria e então irromperia em chamas, e uma imensa seção de uma caverna poderia subitamente se tornar mortalmente quente. Essa Runa dura um número de turnos igual à sua Inteligência, mas materiais inflamáveis que irrompam em chamas vão queimar enquanto houver combustível disponível, mesmo depois da runa se dissipar.</p>"
     },
     "flags": {
@@ -33628,7 +36236,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7eb2307c8767c50d",
@@ -33654,6 +36264,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 100",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Bola de Fogo</p><p>Desenhando uma Runa arcana sobre o solo, você faz com que uma área de 4 metros de diâmetro dentro da sua linha de visão entre em combustão enquanto é atingido por uma chuva de brasas e fogo. Todos que tiverem nessa área sofrem dano igual a 30/Fogo quando essa magia for lançada e mais 30/Fogo no início de cada turno que iniciarem dentro da área. Esta Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você posse dissipá-la a qualquer momento. Material inflamável na área irrompe em chamas instantaneamente.</p>"
     },
     "flags": {
@@ -33665,7 +36277,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9832745befba0c1f",
@@ -33691,6 +36305,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 74-75",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana entre você e um objeto ou superfície dentro de sua linha de visão você faz com que ele irrompa em chamas. O custo depende do tamanho da chama criada: criar a chama em uma vela tem custo 0, enquanto uma chama suficiente para acender uma tocha tem custo 5 e fazer uma fogueira de acampamento irromper em chamas imediatamente tem custo 10. Você pode produzir uma explosão de chamas diretamente sobre um item segurado por uma criatura ou na superfície onde ela está, causando dano igual a 4/Fogo, por 0 Pontos de Mana, 8/Fogo por 5 Pontos de Mana ou 12/Fogo por 10 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas material combustível afetado se incendeia automaticamente. Serve de pré-requisito para *Bola de Fogo*, *Infravisão* e *Invocar Elemental 1*.</p></div>"
     },
     "flags": {
@@ -33702,7 +36318,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "c576f1155d6ea6f4",
@@ -33728,6 +36346,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 97",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Detectar Magia, Inflamar</p><p>Você desenha uma Runa Arcana sobre um alvo, que passa a perceber o calor que emana dos objetos e criaturas sobrepondo a sua visão normal. Ele pode enxergar normalmente em locais sem iluminação nenhuma, pode perceber criaturas invisíveis pelo calor (ou frio) que elas emanam e consegue identificar ilusões, já que elas não emanam calor nem frio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 hora. Requer as habilidades Detectar Magia e Inflamar.</p></div>"
     },
     "flags": {
@@ -33739,7 +36359,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6501138cc587ba2f",
@@ -33765,6 +36387,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Traçando um Círculo de Invocação (cujo sacrifício precisa ser, necessariamente, um Humanoide ou Esfinge) você invoca um Asura (Eligos sendo os mais comuns). Asuras não realizam qualquer ordem que não seja a de compartilhar conhecimento já que, se o Círculo de Invocação for rompido antes de ele ter atendido sua ordem, você perderá o controle sobre o Asura imediatamente – o que geralmente tem consequências bastante sérias! Você poderá fazer uma pergunta ou pedir um conhecimento específico ao Asura, que responderá o mais diretamente que puder, dentro de seu conhecimento. Assim que responder sua pergunta, ele retorna ao Inferno imediatamente se o Círculo de Invocação for rompido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e sacrifício humanoide/esfinge. Custo de 200 PM. O Asura responde a uma pergunta direta e volta imediatamente ao inferno.</p></div>"
     },
     "flags": {
@@ -33776,7 +36400,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2b29752a9f8ef769",
@@ -33802,6 +36428,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 76-77; Monstrum Codex, pág. 59",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Congelar, Inflamar</p><p>Você conjura um pequeno Elemental de Fogo ou do Gelo desenhando uma runa Elemental no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o Elemental coeso se dissipa depois de 10 minutos. Veja os dados dos Elementais no *Monstrum Codex* para mais detalhes. Requer Congelar e Inflamar. Serve de pré-requisito para Invocar Elemental 2.</p></div>"
     },
     "flags": {
@@ -33813,7 +36441,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6e5a6fac72f8e3ba",
@@ -33839,6 +36469,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 98",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Invocar Elemental 1</p><p>Você conjura um Elemental Médio de Fogo ou do Gelo desenhando uma Runa arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o Elemental coeso se dissipa depois de 10 minutos. Veja os dados estatísticos dos Elementais Médios no *Monstrum Codex*. Serve de pré-requisito para *Invocar Elemental 3*.</p></div>"
     },
     "flags": {
@@ -33850,7 +36482,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "dc244b2aa8b45635",
@@ -33876,6 +36510,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 100",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental 2</p><p>Você conjura um grande Elemental de Fogo ou do Gelo desenhando uma runa Arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana que mantém o Elemental coeso se dissipa depois de 10 minutos. Veja os dados dos Elementais no *Monstrum Codex* para mais detalhes.</p></div>"
     },
     "flags": {
@@ -33887,7 +36523,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e0f2ed66117bb694",
@@ -33913,6 +36551,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 55-56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você a transforma em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente. Requer a habilidade Contato com Espíritos.</p></div>"
     },
     "flags": {
@@ -33924,7 +36564,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "19cc48842936f3d2",
@@ -33950,6 +36592,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 37",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você conjura um golem ou elemental pequeno (de qualquer tipo) desenhando uma Runa Arcana ou Selo Místico sobre uma gema com valor de pelo menos 400 moedas. Enquanto a gema encantada estiver intacta, o Familiar tem duração permanente. Se o Familiar for destruído, a Runa ou Selo na gema se dissipa, mas a gema pode ser utilizada novamente. Se a gema for destruída ou se a Runa ou Selo for dissipada, o Familiar se dissipa imediatamente. Veja os dados dos Elementais e Golens no Monstrum Codex para mais detalhes. DESCRIÇÃO Invocadores são Conjuradores especializados em invocar criaturas para auxiliá-los.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Invocador.</p></div>"
     },
     "flags": {
@@ -33961,7 +36605,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8dbc677467da9d1d",
@@ -33987,6 +36633,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 84",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Traçando um Círculo de Invocação você invoca um Lemure (um Sabujo Infernal ou Diabrete se seu nível for menor do que 5 ou Mastim Infernal ou uma Malora se seu nível for 5 ou maior). O Lemure permanece no plano material por um número de horas igual à sua Determinação mais um número de horas igual à Vontade da criatura sacrificada para invocá-lo, mas você pode acender um braseiro quando invocá-lo, derramando o sangue da criatura sacrificada nele. Sacrificando outra criatura (não é preciso um novo ritual, mas a criatura ainda precisa estar Indefesa) e derramando seu sangue no braseiro, você renova a duração da invocação por uma quantidade de Horas igual à Determinação da criatura sacrificada. Essa operação pode ser realizada indefinidamente, e muitos Cultistas mantêm o mesmo Lemure por anos a frio sob seus serviços dessa forma. Se o braseiro for apagado ou você falhar em derramar mais sangue nas brasas dele quando o tempo de invocação acabar, o Lemure será imediatamente banido para o Inferno.</p>"
     },
     "flags": {
@@ -33998,7 +36646,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "0c318f5aa28b78e5",
@@ -34024,6 +36674,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Traçando um Círculo de Invocação você invoca um Shedin (um Cenodoxus, Incubus ou Labatut são os mais comuns). O Shedin permanece no plano material por um número de minutos igual à sua Determinação – se tiver sido invocado através de um ritual que tenha envolvido o sacrifício de um ou múltiplos Humanoides ou Esfinges, Você pode, como parte do ritual de invocação, acender um braseiro e colocando o coração das criaturas nas brasas depois do sacrifício. O Shedin permanecerá por mais 1 hora para cada coração que for consumido pelas brasas dessa forma. Sacrificando outra criatura (não é preciso um novo ritual, mas a criatura ainda precisa estar Indefesa) e jogando seu coração no braseiro, você renova a duração da invocação por uma quantidade de Horas igual à Vontade da criatura sacrificada. Essa operação pode ser realizada indefinidamente. Se o braseiro for apagado ou você falhar em jogar o coração de um Humanoide ou Esfinge nas brasas dele quando o tempo de invocação acabar, o Shedin será imediatamente banido para o Inferno. Você só pode manter 1 Shedin sob seus serviços de cada vez, ou 2 Shedins se você for de nível 10 ou mais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Custo de 60 PM. Duração em minutos igual à Determinação, estendida por 1 hora por coração humanoide/esfinge sacrificado.</p></div>"
     },
     "flags": {
@@ -34035,7 +36687,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a8f0e3a7644e52cc",
@@ -34061,6 +36715,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 41",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma superfície, você é capaz de canalizar os efeitos de Clarividência, Psicometria ou Retrocognição, criando uma espécie de janela onde os eventos que o Oráculo perceberia podem ser visualizados por qualquer um ao seu redor. O custo dessa Magia será igual ao custo da Habilidade canalizada. Esse Selo Místico dura 10 minutos, mas se o Selo Místico que estiver sendo observado com Clarividência for dissipado ou o conjurador perder contato com o objeto, superfície ou criatura na qual está usando Psicometria ou Retrocognição, o efeito é cancelado imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Oráculo.</p></div>"
     },
     "flags": {
@@ -34072,7 +36728,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1b6b7cd49895914e",
@@ -34099,6 +36757,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 98",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana sobre uma criatura, você faz com que ela seja capaz de voar livremente no ar para qualquer direção no seu deslocamento normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 hora, mas se dissipa automaticamente se o alvo tocar o solo. Serve de pré-requisito para a magia *Teleporte 1*.</p></div>"
     },
     "flags": {
@@ -34111,7 +36771,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a4175954effaf931",
@@ -34137,6 +36799,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você cria um vínculo vital entre ele e você. Sempre que o alvo sofrer dano ou perder Pontos de Vida, você recupera metade da quantidade de dano sofrido ou Pontos de Vida perdidos. Esta Runa Arcana dura 1 minuto. Este efeito é considerado como uma Maldição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -34148,7 +36812,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "074aed9444107b3e",
@@ -34174,6 +36840,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 35-36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana ou Selo Místico sobre um objeto, você imbui ele com uma luz própria. A duração dessa magia depende da intensidade da luz: uma luz fraca como de uma vela dura 6 horas, uma luz moderada semelhante à de uma tocha dura 1 hora, e uma luz intensa como a do sol dura 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -34185,7 +36853,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "109502489079430b",
@@ -34211,6 +36881,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela tenha alucinações visuais e auditivas – geralmente de figuras infernais ou fantasmagóricas. Enquanto estiver sob efeito dessa maldição, o alvo é considerado Distraído. Esse Símbolo Profano dura uma quantidade de minutos igual à sua Vontade. Este é um efeito mental.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34222,7 +36894,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "e8d77394b005659f",
@@ -34248,6 +36922,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela se torne incapaz de ver. Seus olhos ficam leitosos e sem cor, e a vítima fica cega. Esse Símbolo Profano dura um número de horas igual à sua Determinação. Este é considerado um efeito de dreno de energia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34259,7 +36935,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "f2cfb7382ffaf51d",
@@ -34285,6 +36963,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com que o alvo se sinta fraco e doente, ficando Vulnerável a um tipo de dano físico à sua escolha (Contusão, Corte ou Perfuração). Esse Símbolo Profano dura uma quantidade de minutos igual à sua Vontade. Este é um efeito de dreno de energia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34296,7 +36976,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "571563bccd2c00cf",
@@ -34322,6 +37004,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você domina sua</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Maldição: Fobia. Caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34333,7 +37017,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "08b69d2c4044e4dd",
@@ -34359,6 +37045,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz o alvo sentir dores musculares terríveis. O alvo precisa fazer um teste de Força (Dificuldade igual à Determinação do conjurador) no começo de cada um dos seus turnos para poder agir. Em cada turno que falhar, ele fica Paralisado, incapaz de agir, retorcendo-se de dor. Esse Símbolo Profano dura uma quantidade de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34370,7 +37058,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7846ecd1a0cd793c",
@@ -34396,6 +37086,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com que ela desenvolva um desejo insaciável por carne e sangue de sua própria Raça, precisando se alimentar dela uma vez ao dia. A cada meia-noite em que o alvo não for capaz de consumir um quilo de carne ou beber um litro de sangue de sua própria Raça, ele precisa passar em um teste de Vontade (Dificuldade igual à Determinação do conjurador) ou entrará em frenesi e atacará qualquer criatura inteligente nas proximidades, que tentará matar e devorar – o frenesi só cessa quando ele conseguir devorar um quilo de carne de uma criatura Humanoide ou Esfinge.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34407,7 +37099,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d8279ed54172ba60",
@@ -34433,6 +37127,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva você faz com que ela desenvolva um medo sobrenatural por alguma coisa à sua escolha – geralmente o próprio conjurador ou sua Raça, mas qualquer coisa (cavernas, a cor negra, cavalos, água, etc.) podem ser nomeados. O alvo ficará Amedrontado com relação à coisa nomeada. Esse Símbolo Profano dura uma quantidade de minutos igual à sua Determinação. Este é um efeito de medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -34444,7 +37140,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "9b166659330285c7",
@@ -34470,6 +37168,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 134",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Criar Golem</p><p>Você desenha um Selo Místico sobre um Golem que você tenha criado, com o objetivo de fortalecer sua coesão. Cada vez que você desenhar este Selo Místico sobre o Golem, a duração do Selo que o mantém ativo será duplicada. Você pode desenhar quantos selos desses quiser sobre um Golem, e seus efeitos são cumulativos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Criar Golem.</p></div>"
     },
     "flags": {
@@ -34481,7 +37181,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b4cb63890577c401",
@@ -34507,6 +37209,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 39",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Invocação Persistente</p><p>Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura que você tenha invocado, a duração da Runa ou Selo que mantém a invocação é duplicada. Você pode desenhar quantas Runas ou Selos desses quiser sobre uma criatura invocada, e seus efeitos são cumulativos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Invocação Persistente. Caminho Invocador.</p></div>"
     },
     "flags": {
@@ -34518,7 +37222,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6ee1f35f58b11cd9",
@@ -34545,6 +37251,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Errata, pág. 7; Guia Básico - 3ª Edição, pág. 98",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Eletricidade Estática</p><p>Você desenha uma Runa Arcana sobre uma criatura, envolvendo-a numa aura elétrica. A aura ilumina uma área de 20 metros ao seu redor, tornando-a clara como se fosse dia. A aura elétrica causa dano igual a 10/Eletricidade em qualquer um que tocar em você – o que inclui todos os ataques corporais feitos contra ou por você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata Oficial (pág. 1), o efeito de ofuscação foi removido, mantendo o dano explícito de 10/Eletricidade ao toque e em ataques corporais. Essa Runa dura 1 minuto, mas pode ser dissipada a qualquer momento pela criatura sobre a qual foi desenhada.</p></div>"
     },
     "flags": {
@@ -34557,7 +37265,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "ce45db6078bfc3b1",
@@ -34583,6 +37293,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia de Tebryn, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Justiça</p><p>Esta Marca é utilizada com frequência pelos Sacerdotes de Mirah em conjunto com qualquer outra punição a um criminoso. Ela costuma ser usada de forma cerimonial sobre qualquer Irmão da Ordem da Espada de Mirah que inicie uma Cruzada Justa, mas nem sempre é o caso. Desenhando um Selo Místico sobre um alvo, você faz com que ele se torne ciente de qualquer ato injusto que possa cometer. Sempre que o alvo quebrar um dos Dogmas de Mirah, o símbolo dessa divindade brilha em sua testa e ele sentirá dores terríveis, precisando vencer um teste de Vontade (Dificuldade igual à Determinação do conjurador) para não cair inconsciente. Se passar no teste, o alvo ainda pode ir contra o Dogma de Mirah, mas sua dor será visível para qualquer um ao seu redor e ele será considerado Atordoado enquanto estiver cometendo o crime em questão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo dura uma quantidade de dias igual à Determinação do conjurador, mas você pode dissipá-lo a qualquer momento. Requer Dogma: Discípulo da Justiça.</p></div>"
     },
     "flags": {
@@ -34594,7 +37306,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "146760cb449dd8e4",
@@ -34620,6 +37334,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia de Tebryn, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Sabedoria</p><p>Esta Marca é amplamente utilizada pela maioria dos Sacerdotes de Sarfion em julgamentos, principalmente entre membros da própria igreja. Desenhando um Selo Místico sobre uma criatura, você faz com que o alvo sinta dores terríveis sempre que faltar com a verdade. Sempre que o alvo quebrar um dos Dogmas de Sarfion, o símbolo dessa divindade brilha em sua testa e ele sentirá dores terríveis, perdendo uma quantidade de Pontos de Vida igual à Determinação do conjurador. Um alvo que perca todos os seus Pontos de Vida dessa forma é considerado automaticamente estabilizado, e recupera 1 Ponto de Vida dentro de 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo dura uma quantidade de horas igual à Vontade do conjurador, mas você pode dissipá-lo a qualquer momento. Requer Dogma: Discípulo da Sabedoria.</p></div>"
     },
     "flags": {
@@ -34631,7 +37347,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d441a26981169f2",
@@ -34657,6 +37375,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Princípio Natural</p><p>Você desenha um Selo Místico sobre o solo, fazendo com que ele se mova subitamente sob os pés de seus adversários (todos em uma área de 2 metros de diâmetro dentro de sua área de visão precisam fazer um teste de Agilidade com Dificuldade igual à sua Determinação ou cairão). Você também pode abrir uma passagem através de pedra ou terra. Essa passagem terá aproximadamente 2 metros de diâmetro e uma profundidade igual à sua Vontade em metros. Você pode deixar a passagem aberta, criando um túnel, ou fechá-la atrás de si depois que passar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Pode ser usada ofensivamente para derrubar alvos em área ou utilitariamente para abrir túneis e passagens.</p></div>"
     },
     "flags": {
@@ -34668,7 +37388,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "41efa83e8d428861",
@@ -34695,6 +37417,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Sabedoria</p><p>Desenhando um Selo Místico sobre um item ou criatura que mostre uma escrita de qualquer origem, o Selo se materializa na forma de um livro mostrando o símbolo de Sarfion na capa. Ao abrir o livro, todas as páginas estarão cobertas em escritas da linguagem sobre a qual o Selo foi desenhado, e você é inundado por uma torrente de murmúrio naquele idioma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é capaz de ler o texto sobre o qual o Selo foi desenhado, enquanto se mantiver concentrado na leitura, independente do tempo que isso pode levar. O Selo Místico que conjura a Magia se dissipa imediatamente após seus efeitos serem desencadeados.</p></div>"
     },
     "flags": {
@@ -34707,7 +37431,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5594eeb6552ccfb5",
@@ -34733,6 +37459,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 88",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Evocar Temporal</p><p>Desenhando um Selo Místico sobre si mesmo, você cria um poderoso turbilhão de vento em uma área com um diâmetro em metros igual à sua Vontade e uma altura igual a 10 vezes sua Vontade. Essa área tem um olho central com cerca de 2 metros de diâmetro onde não há vento. O furacão se move conforme você se desloca, permanecendo centrado em você. Todos dentro da área do furacão devem fazer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade, ficando caídos. Vencendo 2 testes consecutivos um personagem consegue chegar ao olho do furacão – mas o conjurador pode se deslocar para tentar engolfar personagens na parede de vento outra vez. O furacão impede a linha de visão através dele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura uma quantidade de turnos igual à Vontade do conjurador. Requer Nível 5 e Evocar Temporal.</p></div>"
     },
     "flags": {
@@ -34744,7 +37472,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3e02aae5961d81a5",
@@ -34770,6 +37500,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Convocar Animais</p><p>Conjurando um Selo Místico sobre um item esférico com pelo menos 10 cm de diâmetro (um ovo de canidrako ou uma maçã por exemplo) que não tenha nenhum Selo Místico ou Runa Arcana sobre ele, o item passa a ser capaz de absorver qualquer Besta que tenha o temperamento Protetor com relação a você, simplesmente tocando-o. Enquanto estiver dentro da orbe o tempo não passa para o animal (ele não envelhece, não precisa comer ou dormir e não é afetado por efeitos de sangramentos, venenos ou doenças, nem recupera Pontos de Vida e Mana por descanso). Liberar o animal exige que o conjurador destrua o item (geralmente arremessando-o no chão) o que exige uma ação padrão, mas não exige novos testes para conjurar a magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura indefinidamente até o item ser destruído. Requer Nível 5 e Convocar Animais.</p></div>"
     },
     "flags": {
@@ -34781,7 +37513,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "55a8e1d74de83a21",
@@ -34807,6 +37541,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79-80; Errata, pág. 1; Guia de Tebryn, pág. 26",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma runa Arcana no ar, você congela a umidade do ambiente na forma de uma grossa parede de gelo. A parede tem 3 metros de altura por 3 de largura e 1 metro de espessura, e deve ser conjurada diretamente sobre uma superfície firme, mas pode ser criada em qualquer ângulo ou formato desde que respeite seu volume e fique firmemente presa na posição onde foi conjurada. A parede tem 60 Pontos de Vida, Defesa 10, é Vulnerável ao Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ela pode suportar até 500 quilos de peso sobre ela antes de quebrar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal. Serve de pré-requisito para *Armadura de Gelo*, *Barreira de Gelo* e *Prisão de Gelo*.</p></div>"
     },
     "flags": {
@@ -34818,7 +37554,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cf993982ffc0b8aa",
@@ -34844,6 +37582,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 92–94",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você faz com que ela ganhe uma percepção sobre o fluxo de sangue e batimentos cardíacos ao seu redor. Ele consegue perceber se uma criatura está viva, morta, se é um morto-vivo, espírito ou se possui Corpo Amórfico dentro de uma área em metros igual à Vontade do Conjurador ao seu redor. Além disso, o alvo recebe +2 em todos os seus testes de ataque contra criaturas vivas que não possuam Corpo Amórfico dentro dessa área, e não nunca é considerado Distraído ou Cego em relação a elas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -34855,7 +37595,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6629d2b9dbb402ca",
@@ -34881,6 +37623,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Teleporte 1</p><p>Desenhando uma Runa Arcana entre você e um alvo, você é teleportado para a posição em que o alvo ocupa ao mesmo tempo em que o alvo é teleportado para o local que você está. Se por algum motivo o alvo ou não couber na área onde você está (e vice-versa), esta magia falha automaticamente. Se o alvo for uma criatura, a Dificuldade dessa magia será igual à Determinação do alvo. Se o alvo for um objeto, a Dificuldade será igual ao peso do objeto em quilos, dividido por 5 (arredondado para baixo). Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Teleporte 1. Caminho Argênteo.</p></div>"
     },
     "flags": {
@@ -34892,7 +37636,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6313018d7a42ef58",
@@ -34918,6 +37664,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia de Tebryn, pág. 111",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Sala Oculta</p><p>Desenhando uma Runa Arcana sobre uma porta, você cria um acesso permanente para a sua Sala Oculta. A porta em que você desenhar esta Runa aparece numa das paredes da sua Sala Oculta, e sempre que você abrir a porta por dentro da Sala Oculta, você sairá pela porta marcada. Assim que a porta for fechada, no entanto, ela não levará mais para a Sala Oculta – ou seja, ela serve para sair da Sala Oculta em um lugar fixo, mas não serve de entrada de emergência. Você pode ter um número de Portas Ocultas igual à sua Inteligência. Essa Runa Arcana é perene.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Sala Oculta. Caminho Argênteo.</p></div>"
     },
     "flags": {
@@ -34929,7 +37677,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8fc21b525e501be7",
@@ -34955,6 +37705,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10</p><p>Traçando um Círculo de Invocação, você abre um portal para o Inferno. O portal permite ver e ouvir o que acontece do outro lado sem impedimentos, mas criaturas, itens ou magias só podem atravessá-lo a partir do plano do qual ele foi aberto. Se este círculo de conjuração for utilizado no inferno, ele abre um portal para o plano de origem de seu conjurador, mas nesse caso apenas o próprio conjurador pode atravessá-lo – embora itens e magias conjuradas a partir do Inferno possam atravessar para o plano para onde o portal foi aberto. Se você souber o nome de uma criatura dentro do plano para o qual está abrindo o portal, ou se você for suficientemente familiar com um local dentro do plano para o qual está abrindo o portal, ele se abrirá diante dessa criatura ou no meio do local. Caso contrário, o portal se abrirá em um ponto aleatório dentro do plano. Este portal dura enquanto você se mantiver concentrado nele, mas se você atravessar o portal, ele imediatamente se fecha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Final (Nível 10) do caminho Cultista. Custo de 70 PM.</p></div>"
     },
     "flags": {
@@ -34966,7 +37718,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "82a11da02a9378e7",
@@ -34992,6 +37746,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 134",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Caminhada Mágica</p><p>Desenhando um Selo Místico no ar, ele se torna uma passagem (com o tamanho aproximado de uma porta) até um local onde haja outro Selo da sua divindade (pode ser uma igreja que você conheça, ou algum lugar onde você tenha escrito um Selo da sua divindade previamente). A distância entre os dois pontos é irrelevante.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 minuto, mas você pode dissipá-lo a qualquer momento. Requer Nível 5 e a habilidade Caminhada Mágica.</p></div>"
     },
     "flags": {
@@ -35003,7 +37759,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "046f364971b3fd57",
@@ -35029,6 +37787,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 86",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você desenha um Selo Místico no ar que se transforma em uma pequena quantidade de terra, água ou ar. Um punhado de terra pode ser usado para nutrir uma pequena planta, uma porção de água pode ser usada para matar a sede de uma pessoa e uma porção de ar criado desse modo permite que uma criatura respire normalmente por até 10 minutos debaixo d’água. Essa magia pode ser conjurada na forma de uma rajada mágica. Uma rajada de água pode apagar uma chama do tamanho de uma fogueira de acampamento, uma rajada de ar derruba ou espalha objetos leves e pequenos e uma rajada de pedras causa dano igual a 8/Contusão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de terra, água ou ar criada são permanentes.</p></div>"
     },
     "flags": {
@@ -35040,7 +37800,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7b7604b35d8fb541",
@@ -35066,6 +37828,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 100-101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Parede de Gelo</p><p>Desenhando uma runa arcana sobre uma criatura ou objeto você cria um imenso bloco de gelo ao redor dele. O alvo pode ter um peso máximo igual a 100 vezes sua Inteligência em quilos. Uma criatura presa dentro do bloco é considerada Paralisada, sofre dano igual a 10/Frio no começo de cada um de seus turnos e só pode ser alvo de efeitos mentais. O bloco tem 60 Pontos de Vida, Defesa 10, é Vulnerável a Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ataques de Eletricidade causam dano normal ao bloco, mas também causam a mesma quantidade de dano na criatura presa dentro dele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p></div>"
     },
     "flags": {
@@ -35077,7 +37841,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "13fe9ad86d55e881",
@@ -35103,6 +37869,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre o cadáver de uma criatura você o protege de efeitos de apodrecimento e impede que ele seja transformado em um morto-vivo por qualquer efeito. Essa magia pode ser conjurada sobre um corpo completo ou sobre partes removidas dele – útil para transportar cadáveres, manter partes decepadas inteiras para serem colocadas de volta no lugar ou mesmo para preservar comida!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Mortos-vivos afetados por esta Magia recebem Redução de Dano 2. Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador.</p></div>"
     },
     "flags": {
@@ -35114,7 +37882,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "32e096f70b76c23c",
@@ -35140,6 +37910,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 144; Errata, pág. 1",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Toque Místico</p><p>Desenhando um Selo Místico sobre uma criatura viva, você a deixa imune a todos os efeitos de Dreno de Energia. Além disso, a criatura afetada recebe +2 em todos os seus testes ou Confrontos para resistir a efeitos mentais ou efeitos de medo – e aumenta em 2 a dificuldade de qualquer Efeito Mental ou Efeito de Medo que vise a criatura afetada por este Selo e que não permita um teste ou Confronto para ser resistido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 hora.</p></div>"
     },
     "flags": {
@@ -35151,7 +37923,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d8ae0144a99387b",
@@ -35177,6 +37951,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 89",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Mover Terra</p><p>Você desenha um Selo Místico sobre o solo (ou em uma estrutura de pedra como paredes de alvenaria, estátuas de pedra e tetos de cavernas), fazendo com que uma coluna se projete violentamente da estrutura. Um alvo dessa magia sofre dano igual a 30/Contusão e precisa vencer um teste de Força (Dificuldade igual à Determinação do conjurador) para não ser derrubado. A coluna tem cerca de 1 metro de diâmetro e uma extensão em metros igual à Vontade do conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a coluna de pedra é permanente. Requer Nível 5 e Mover Terra.</p></div>"
     },
     "flags": {
@@ -35188,7 +37964,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7132f28fa8f07292",
@@ -35214,6 +37992,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 133",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Curar Ferimentos 1</p><p>Desenhando um Selo Místico sobre uma criatura, objeto ou superfície, você os purifica de impurezas mundanas. Qualquer veneno ou agente infeccioso de origem natural afetado por essa magia se torna água pura e límpida, incluindo substâncias que estiverem em alimentos ou bebidas. Qualquer criatura afetada é imediatamente curada de qualquer veneno, doença, infecção de origem natural e também de quaisquer efeitos de sangramento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. Requer a habilidade Curar Ferimentos 1.</p></div>"
     },
     "flags": {
@@ -35225,7 +38005,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "cf3628b43079dda5",
@@ -35251,6 +38033,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia de Tebryn, pág. 103",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Liberdade</p><p>Desenhando um Selo Místico entre você e uma criatura, você imediatamente liberta o alvo de qualquer efeito que o esteja restringindo. Esta Magia imediatamente dissipa qualquer Runa ou Selo cujos efeitos restrinjam a movimentação do alvo – como Entrelaçar ou Eletricidade Estática, por exemplo. Essa Magia também pode ser usada para libertar alvos de amarras mundanas, soltando cordas, abrindo grilhões, afrouxando os braços de um captor ou destrancando e abrindo portas. A Magia afeta todo e qualquer objeto ou criatura que está restringindo o alvo – assim, se o alvo estiver em uma cela, a Magia abrirá a porta da cela, libertando quaisquer outras pessoas em seu interior.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Dogma: Discípulo da Liberdade.</p></div>"
     },
     "flags": {
@@ -35262,7 +38046,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "2e920df54c153aae",
@@ -35288,6 +38074,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Princípio Natural</p><p>Você desenha um Selo Místico no ar de onde uma massa de água jorra em um poderoso jato. Um alvo dentro de sua linha de visão sofre dano igual a 6/Contusão e precisa vencer uma rolagem de Força (Dificuldade igual à Determinação do conjurador) para não cair.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas qualquer quantidade de água criada é permanente.</p></div>"
     },
     "flags": {
@@ -35299,7 +38087,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d41548f191d6504b",
@@ -35325,6 +38115,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Errata, pág. 9; Guia Básico - 3ª Edição, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Sabedoria Selvagem</p><p>Desenhando um Selo Místico em um item de madeira você faz com que ele desenvolva espinhos longos e afiados que se projetam atingindo um número de alvos igual à sua Vontade que estiverem a uma distância de até 10 metros à sua frente, causando dano igual a 12/Perfuração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados. A Errata oficial do Guia Básico ajustou o custo para 10 PM e o dano para 12/Perfuração.</p></div>"
     },
     "flags": {
@@ -35336,7 +38128,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "64ce88f7d9b4be1f",
@@ -35362,6 +38156,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 98",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Congelar</p><p>Desenhando uma Runa arcana no ar você projeta a partir dela uma rajada de energia mágica que causa dano igual a 20/Frio em um alvo dentro da sua linha de visão. Se o alvo for uma criatura viva, ele fica Enregelado por 1 turno. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.</p></div>"
     },
     "flags": {
@@ -35373,7 +38169,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5b6a8d1a5cbc3986",
@@ -35399,6 +38197,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma runa Arcana no ar você pode disparar uma rajada de energia elemental em qualquer alvo que possa ver. Essa magia causa 8 pontos de dano elemental (Fogo, Frio ou Eletricidade) escolhido no momento que o conjurador lança a magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -35410,7 +38210,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5292181f8e50bb09",
@@ -35436,6 +38238,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Eletricidade Estática</p><p>A partir de uma Runa Arcana que desenha no ar você dispara uma faísca elétrica contra um alvo dentro de seu campo de visão. O alvo sofre um dano igual a 20/Eletricidade e fica Atordoado por 2 rodadas. Alvos usando armaduras de metal sofrem o dobro do redutor (-2 na Defesa, no Deslocamento e em todos os seus testes).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -35447,7 +38251,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "3b54f2d59e560ac0",
@@ -35473,6 +38279,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Relâmpago 1</p><p>Você projeta uma poderosa rajada de energia elétrica em um alvo dentro de seu campo de visão a partir de uma runa Arcana que você desenha no ar. O alvo sofre um dano igual a 40/Eletricidade, e precisa fazer um teste de Força com dificuldade igual a sua Determinação ou ficará Paralisado por 1 turno. Alvos usando armaduras de metal realizam esse teste como se fossem Inaptos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -35484,7 +38292,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "42e74682a8255426",
@@ -35510,6 +38320,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você faz com que todos os um Símbolo Profano da categoria Maldição e Doenças Mágicas que estejam afetando a criatura sejam removidas imediatamente. Este Símbolo funciona sobre efeitos perenes que sejam considerados Maldições (como licantropia, Doença Carniçal ou criaturas afetadas por Eternizar Maldição), mas não alteram o Tipo da criatura afetada – Vampiros, Lobisomens e outros mortos-vivos ou amaldiçoados não são revertidos ao seu estado natural, mas essas criaturas ficam Amedrontadas com relação a você por um número de turnos igual à sua Vontade. O custo em Mana desta Magia será igual ao custo mais alto entre todas as Maldições afetando o alvo, ou, no caso de um efeito sem custo em Mana, 30. A dificuldade desta magia será igual à Determinação do conjurador da Maldição, ou, no caso de Doenças Mágicas, a dificuldade de contaminação da doença. Este Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
     "flags": {
@@ -35521,7 +38333,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "422bc59c470602f9",
@@ -35549,6 +38363,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99, 101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma criatura ou objeto, você confere Resistência ao Fogo, Frio ou Eletricidade a ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura por 1 minuto.</p></div>"
     },
     "flags": {
@@ -35562,7 +38378,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "443e30418cdd62a1",
@@ -35588,6 +38406,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 58",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Armadura Necromântica</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você drena a energia dela e a redireciona para uma criatura que possa tocar. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A criatura para qual a energia for redirecionada recebe as Habilidades Corpo Amórfico e Mente Bloqueada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura 1 minuto. Requer Nível 5 e Armadura Necromântica.</p></div>"
     },
     "flags": {
@@ -35599,7 +38419,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1bbf63bfa42c9803",
@@ -35625,6 +38447,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 50",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico no ar você cria um poderoso estrondo semelhante ao rugido de um grande dragão do deserto. Todas as criaturas a um número de metros igual à sua Vontade à sua frente ficam Atordoadas e surdas por uma quantidade de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -35636,7 +38460,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "82aab5ec27e1633f",
@@ -35662,6 +38488,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Você pode desenhar uma Runa Arcana em um item com a Característica Registro. Esta Runa fica ligada ao local geográfico em que você se encontra quando a conjura, e se torna um “atalho mágico” para o local. Você pode conjurar uma magia locomoção (Teleportar Objeto, Portal, Levitar, etc.) sobre esta Runa, indo para o local onde ela foi desenhada. A magia de locomoção conjurada sobre essa Runa custa metade dos Pontos de Mana normais para se a duração for menor do que o tempo necessário para chegar ao local, ela irá durar pelo tempo da viagem – mas será imediatamente dissipada se o personagem parar ou desviar da direção da Runa de Localização.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Argênteo.</p></div>"
     },
     "flags": {
@@ -35673,7 +38501,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "d5a589989eefb440",
@@ -35699,6 +38529,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 83–85",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhado uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez. A sala possui ar ilimitado, e a luz dentro dela é sempre semelhante à de um dia nublado, mas você pode usar outras fontes de luz – como lampiões ou tochas – para torná-la total ou parcialmente melhor iluminada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana é perene enquanto o portal estiver aberto. Se você estiver dentro da sala e o portal estiver fechado, a Runa continuará ativa, mas estará dentro da sala – e, portanto não pode ser detectada pelo lado de fora.</p></div>"
     },
     "flags": {
@@ -35710,7 +38542,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "b1104c3a81d525a7",
@@ -35736,6 +38570,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Ferimentos Abertos</p><p>Desenhando uma Runa Arcana sobre si mesmo, você se torna um nexo de energia necromântica, absorvendo a força vital das criaturas vivas ao seu redor. Você absorve parte da energia vital contida nesse sangue, recuperando metade de todo dano ou perda de vida causada por efeitos de sangramento dentro da área de efeito da magia. Essa Runa Arcana dura por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Ferimentos Abertos. Caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -35747,7 +38583,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "7a59c131e59154c3",
@@ -35773,6 +38611,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 30",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana sobre um item, você faz com que os efeitos de uma outra Magia realizada sobre ele, cujos efeitos afetem o próprio personagem, fique armazenada naquele item. O efeito da Magia armazenada no item pode ser desencadeado por seu portador como uma ação livre. Habilidades e itens que alterem propriedades de uma Magia não tem efeitos sobre uma Magia conjurada a partir do item. Esta Runa Arcana dura indefinidamente (mas pode ser dissipada a qualquer momento pelo conjurador) se dissipando quando os efeitos da magia armazenada no item forem desencadeados. Enquanto uma Magia estiver armazenada no item, os Pontos de Mana usados para conjurar Soldar Magia não podem ser recuperados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Artífice.</p></div>"
     },
     "flags": {
@@ -35784,7 +38624,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "07f967422139a1e9",
@@ -35810,6 +38652,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 35-36",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria um som vindo de um lugar que possa ver. Você pode criar múltiplos sons ao mesmo tempo e os controla totalmente, mas eles não podem ter intensidade maior que a capacidade da voz humana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana ou Selo Místico que mantém o som dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com o local de onde o som se origina. Habilidade do caminho Ilusionista.</p></div>"
     },
     "flags": {
@@ -35821,7 +38665,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "da64b4abd2a7338d",
@@ -35847,6 +38693,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Organização",
       "fonteLivro": "Guia de Tebryn, pág. 92",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Congelar</p><p>Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a 10/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.</p></div>"
     },
     "flags": {
@@ -35858,7 +38706,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "12b96ea3e3330b5c",
@@ -35884,6 +38734,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana sobre um morto-vivo, você o imbui com energias necromânticas que o tornam mais resistente – e reforça seu controle. O morto-vivo recebe +10 Pontos de Vida e Força +2. Além disso, se o alvo estiver sob controle de uma criatura (incluindo você), o tempo de controle se estende pela duração dessa Runa ao invés do tempo normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de dias igual à sua Vontade. Requer a habilidade Despertar dos Mortos 1.</p></div>"
     },
     "flags": {
@@ -35895,7 +38747,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "592e5911a43ddbe2",
@@ -35922,6 +38776,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99; Rúnico, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana entre você e um objeto ou criatura dentro de sua linha de visão, você pode mover o alvo através de uma energia mágica invisível. O alvo pode ser movido à vontade em qualquer direção, e até mesmo ser erguido no ar, mas apenas de forma lenta (1 metro por turno no máximo). A dificuldade será igual ao peso do alvo dividido por 5 (arredondado para baixo). Se estiver usando essa magia sobre si próprio, diminua a sua Vontade da Dificuldade final. A dificuldade mínima dessa magia será sempre 8, independente do peso do alvo ou da Vontade do Conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura por tanto tempo quanto você estiver concentrado nela, mas se o alvo for uma criatura, ela pode cancelar os efeitos dessa Runa no início do seu turno se vencer um teste de Força com dificuldade igual à Determinação do conjurador.</p></div>"
     },
     "flags": {
@@ -35934,7 +38790,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "1d444d811ac77f46",
@@ -35960,6 +38818,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um objeto, você pode teleportá-lo para um local que conheça. O local de destino pode ser uma localização geográfica (“Sobre a escrivaninha do meu quarto”, por exemplo), um recipiente capaz de conter o objeto e que tenha sua Runa Pessoal gravada nele (“para dentro da minha mochila”) ou até um aliado (“para a mão do Guerreiro”). Se teleportar o objeto para dentro de um objeto marcado com sua Runa Pessoal ou para um aliado, você não precisa saber onde o local de destino está. O objeto afetado pode ter uma FN máxima igual à Inteligência do conjurador. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Argênteo.</p></div>"
     },
     "flags": {
@@ -35971,7 +38831,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a53bf205a7c8bedd",
@@ -35997,6 +38859,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Levitar</p><p>Desenhando uma Runa Arcana sobre si mesmo enquanto fita um local você se teleporta de onde está para o ponto que está olhando. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -36008,7 +38872,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8f5816ab49b469e2",
@@ -36034,6 +38900,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Teleporte 1</p><p>Desenhando uma runa arcana sobre si mesmo enquanto se concentra em um local qualquer que já tenha visitado pelo menos uma vez, você se teleporta imediatamente para o local pretendido. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -36045,7 +38913,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "5be3bfcbbeb8d8fb",
@@ -36071,6 +38941,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 101",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Rajada de Gelo</p><p>Desenhando uma runa Arcana sobre o solo você pode evocar uma tempestade de gelo em uma área circular de 10 metros de diâmetro que você possa ver. Uma chuva de pedaços finos e afiados de gelo cai sobre a área. Todos que estiverem na área escolhida sofrerão dano igual a 10/Corte + 10/Frio quando essa magia for lançada. A cada turno em que começar dentro da área de efeito um personagem sofre dano igual a 10/Corte + 10/Frio e fica Enregelado por 1 rodada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você pode dissipá-la a qualquer momento.</p></div>"
     },
     "flags": {
@@ -36082,7 +38954,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "a9b69c60f6813091",
@@ -36108,6 +38982,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 133",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p>Desenhando um Selo Místico sobre uma criatura viva você a infunde com inspiração momentânea. Se o alvo usar uma Habilidade com Custo de Mana igual ou menor a 30, ele não gasta nenhum Ponto de Mana. Essa magia não tem efeito em Habilidades com Custo de Mana maiores do que 30 e não pode ser usada sobre você mesmo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura até o final do próximo turno do alvo, mas se ele gastar Pontos de Mana antes disso, o Selo se dissipa imediatamente. Serve de pré-requisito para Proteção Mística.</p></div>"
     },
     "flags": {
@@ -36119,7 +38995,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "56cc9dc2e18ad7f0",
@@ -36145,6 +39023,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 56",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você transfere a energia dela para outra criatura. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. Você então transfere a energia retirada da Sombra para uma criatura que possa tocar, que imediatamente recupera aquela quantidade de Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Contato com Espíritos.</p></div>"
     },
     "flags": {
@@ -36156,7 +39036,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "470b991459187b81",
@@ -36182,6 +39064,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 50-51",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Aura do Dragão</p><p>Desenhando um Selo Místico sobre uma chama com tamanho equivalente a uma fogueira de acampamento ou maior enquanto se concentra em um local que já tenha visitado pelo menos uma vez. A chama sobre a qual você conjurou a magia explode engolfando você e causando uma quantidade de dano igual à sua Determinação/Fogo em tudo e todos numa área de 3 metros de raio. Você surge no local em que se concentrou com uma explosão flamejante que causa o mesmo dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
@@ -36193,7 +39077,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "8bfe38599b9d47bf",
@@ -36219,6 +39105,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 87",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Rajada de Água</p><p>Desenhando um Selo Místico sobre você mesmo e em seguida realizando um rápido movimento circular com as mãos você dispara poderosas rajadas de água. Todas as criaturas a até 10 metros de você sofrem um dano igual a 6/Contusão e precisam vencer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade e ficando caídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de água criada é permanente.</p></div>"
     },
     "flags": {
@@ -36230,7 +39118,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "6375683e70e2e23d",
@@ -36256,6 +39146,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 135",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva você aumenta a velocidade dela, deixando-a com o dobro do Deslocamento e de ações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico se dissipa no final do próximo turno do alvo. Requer a habilidade Caminhada Mágica.</p></div>"
     },
     "flags": {
@@ -36267,7 +39159,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "912fed8e9cf971b7",
@@ -36293,6 +39187,8 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 95",
       "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, Deflagrar Ossos</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro de sua linha de visão, você faz com que os ossos do alvo vibrem violentamente sob seus músculos, fazendo o alvo perder 30 Pontos de Vida e fique Atordoado por uma quantidade de turnos igual à sua Inteligência. Se o alvo for um morto-vivo, ele sofre uma quantidade de dano adicional igual à sua Determinação. Se o alvo ficar sem Pontos de Vida graças a esse efeito, seus ossos explodem através da carne, matando o alvo imediatamente e causando dano como descrito em Deflagrar Ossos. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Deflagrar Ossos. Caminho Sanguíneo.</p></div>"
     },
     "flags": {
@@ -36304,7 +39200,9 @@ export const CANONICAL_MAGIAS = [
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
-        "aliases": []
+        "aliases": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
       }
     },
     "_id": "33e83bb3b514dabe",

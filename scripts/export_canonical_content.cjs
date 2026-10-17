@@ -498,6 +498,20 @@ function loadObsidianHabilidades() {
     const rawAliases = Array.isArray(fm.aliases) ? fm.aliases : (fm.aliases ? [fm.aliases] : []);
     const aliases = rawAliases.map((a) => cleanObsidianWikilinks(a)).filter(Boolean);
 
+    const rawRacasExcl = fm.racas_excluidas || fm.racasExcluidas || [];
+    const racasExcluidas = (Array.isArray(rawRacasExcl) ? rawRacasExcl : (rawRacasExcl ? [rawRacasExcl] : []))
+      .map((r) => slugify(cleanObsidianWikilinks(r)))
+      .filter(Boolean);
+
+    const rawIdiomasReq = fm.idiomas_requeridos || fm.idiomasRequeridos || [];
+    const idiomasRequeridos = (Array.isArray(rawIdiomasReq) ? rawIdiomasReq : (rawIdiomasReq ? [rawIdiomasReq] : []))
+      .map((i) => {
+        const s = slugify(cleanObsidianWikilinks(i));
+        if (s === "track-kar-a" || s === "trackkara") return "trackkara";
+        return s;
+      })
+      .filter(Boolean);
+
     const fonteLivro = cleanObsidianWikilinks(fm.fonte || "");
 
     const normKey = nome.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
@@ -532,6 +546,8 @@ function loadObsidianHabilidades() {
       descricaoMd,
       regrasMd,
       rawBody,
+      racasExcluidas: racasExcluidas.length > 0 ? racasExcluidas : (rcMatch?.racasExcluidas || []),
+      idiomasRequeridos: idiomasRequeridos.length > 0 ? idiomasRequeridos : (rcMatch?.idiomasRequeridos || []),
       efeitos: rcMatch?.efeitos || [],
       opcoes: subEscolhas.length > 0 ? subEscolhas : (rcMatch?.opcoes || []),
       automatica: nivel.toLowerCase() === "automática" || nivel.toLowerCase() === "automatica" || !!rcMatch?.automatica,
@@ -602,6 +618,8 @@ function buildAbilityOrSpellItem(hab) {
           tipoAcesso,
           fonteLivro,
           exclusivoCom,
+          racasExcluidas: hab.racasExcluidas || [],
+          idiomasRequeridos: hab.idiomasRequeridos || [],
           description: reqStr ? "<p><strong>Requisitos:</strong> " + reqStr + "</p>" + descHtml : descHtml,
         },
         flags: {
@@ -612,6 +630,8 @@ function buildAbilityOrSpellItem(hab) {
             tipoAcesso,
             nivel,
             aliases: hab.aliases || [],
+            racasExcluidas: hab.racasExcluidas || [],
+            idiomasRequeridos: hab.idiomasRequeridos || [],
           },
         },
       },
@@ -644,6 +664,8 @@ function buildAbilityOrSpellItem(hab) {
     nivel,
     aliases: hab.aliases || [],
     opcoes: hab.opcoes || [],
+    racasExcluidas: hab.racasExcluidas || [],
+    idiomasRequeridos: hab.idiomasRequeridos || [],
   };
 
   if (slug === "adaptabilidade") {
@@ -698,6 +720,8 @@ function buildAbilityOrSpellItem(hab) {
         nivel,
         fonteLivro,
         exclusivoCom,
+        racasExcluidas: hab.racasExcluidas || [],
+        idiomasRequeridos: hab.idiomasRequeridos || [],
         somenteCriacao,
         bonusAtributo,
         efeitos: hab.efeitos || [],

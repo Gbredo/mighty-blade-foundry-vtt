@@ -17,6 +17,7 @@ import {
   avaliarRequisitos,
   REQUISITOS_HABILIDADES_CANONICAS,
   formatarErroRequisitos,
+  obterIdiomasAtor,
 } from "./requisitos.mjs";
 import { CANONICAL_HABILIDADES, CANONICAL_MAGIAS } from "../data/canonical-packs-data.mjs";
 
@@ -595,8 +596,20 @@ export function enriquecerItemComSSOT(item, tipoHint = "") {
   if (!item.system.dificuldadeTexto && canon.system?.dificuldadeTexto) {
     item.system.dificuldadeTexto = canon.system.dificuldadeTexto;
   }
+  if (!Array.isArray(item.system.racasExcluidas) || item.system.racasExcluidas.length === 0) {
+    if (Array.isArray(canon.system?.racasExcluidas)) {
+      item.system.racasExcluidas = canon.system.racasExcluidas;
+    }
+  }
+  if (!Array.isArray(item.system.idiomasRequeridos) || item.system.idiomasRequeridos.length === 0) {
+    if (Array.isArray(canon.system?.idiomasRequeridos)) {
+      item.system.idiomasRequeridos = canon.system.idiomasRequeridos;
+    }
+  }
   return item;
 }
+
+export { obterIdiomasAtor };
 
 /**
  * Extrai o conjunto normalizado de tokens de acesso ativos do personagem:
@@ -769,6 +782,73 @@ export function validarAcessoItem(actor, itemOuNome, opcoes = {}) {
 export function validarAquisicaoHabilidade(actor, habilidade) {
   const habNome = typeof habilidade === "string" ? habilidade : habilidade?.name;
   const nHab = norm(habNome);
+
+  const canon = resolverItemCanonico(habilidade, "habilidade");
+  const habObj = typeof habilidade === "object" && habilidade !== null ? habilidade : canon;
+
+  const racasExcl =
+    habObj?.system?.racasExcluidas ||
+    habObj?.flags?.["mighty-blade"]?.racasExcluidas ||
+    canon?.system?.racasExcluidas ||
+    canon?.flags?.["mighty-blade"]?.racasExcluidas ||
+    [];
+
+  const idiomasReq =
+    habObj?.system?.idiomasRequeridos ||
+    habObj?.flags?.["mighty-blade"]?.idiomasRequeridos ||
+    canon?.system?.idiomasRequeridos ||
+    canon?.flags?.["mighty-blade"]?.idiomasRequeridos ||
+    [];
+
+  if (Array.isArray(racasExcl) && racasExcl.length > 0) {
+    const racaAtorNorm = getRacaAtor(actor);
+    if (racaAtorNorm) {
+      const isExcluida = racasExcl.some((r) => {
+        const rn = norm(r);
+        if (rn === racaAtorNorm) return true;
+        if (rn === "asterio" && (racaAtorNorm === "asterio-m" || racaAtorNorm === "asteria-f")) return true;
+        if (racaAtorNorm === "asterio" && (rn === "asterio-m" || rn === "asteria-f")) return true;
+        if (rn.includes("asterio") && racaAtorNorm.includes("asterio")) return true;
+        if (rn.includes("asteria") && racaAtorNorm.includes("asteria")) return true;
+        return false;
+      });
+      if (isExcluida) {
+        const rawItems = actor.items ? (Array.isArray(actor.items) ? actor.items : Array.from(actor.items.values())) : [];
+        const racaDoc = rawItems.find((i) => i.type === "raca");
+        const nomeExibicao = racaDoc?.name || actor.system?.details?.raca || (racaAtorNorm.charAt(0).toUpperCase() + racaAtorNorm.slice(1));
+        return {
+          permitido: false,
+          motivo: `Não disponível para ${nomeExibicao}.`,
+        };
+      }
+    }
+  }
+
+  if (Array.isArray(idiomasReq) && idiomasReq.length > 0) {
+    const idiomasAtor = obterIdiomasAtor(actor);
+    const falaAlgum = idiomasReq.some((id) => {
+      const nid = norm(id);
+      return (
+        idiomasAtor.has(nid) ||
+        (nid === "trackkara" && (idiomasAtor.has("track-kar-a") || idiomasAtor.has("trackkara") || idiomasAtor.has("lingua dos dragoes")))
+      );
+    });
+    if (!falaAlgum) {
+      const NOMES_IDIOMAS = {
+        arkadis: "Arkadis",
+        ctonico: "Ctónico",
+        draen: "Draen",
+        quoratus: "Quoratus",
+        trackkara: "Track'kar'a",
+        "track-kar-a": "Track'kar'a",
+      };
+      const listaNomes = idiomasReq.map((id) => NOMES_IDIOMAS[norm(id)] || id).join(", ");
+      return {
+        permitido: false,
+        motivo: `Requer falar um destes idiomas: ${listaNomes}.`,
+      };
+    }
+  }
 
   const nagaCheck = validarHabilidadeNaga(actor, habNome);
   if (!nagaCheck.permitido) return nagaCheck;

@@ -22,6 +22,8 @@
       "Apóstata",
       "Pacto"
     ],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -52,7 +54,9 @@
         "Dogma: Discípulo da Paz",
         "Dogma: Discípulo da Sabedoria",
         "Dogma: Discípulo do Destino"
-      ]
+      ],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "30778e73d19f0d40",

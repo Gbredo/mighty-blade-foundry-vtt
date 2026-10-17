@@ -18,6 +18,8 @@
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia do Vilão, pág. 50-51",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "description": "<p><strong>Requisitos:</strong> Aura do Dragão</p><p>Desenhando um Selo Místico sobre uma chama com tamanho equivalente a uma fogueira de acampamento ou maior enquanto se concentra em um local que já tenha visitado pelo menos uma vez. A chama sobre a qual você conjurou a magia explode engolfando você e causando uma quantidade de dano igual à sua Determinação/Fogo em tudo e todos numa área de 3 metros de raio. Você surge no local em que se concentrou com uma explosão flamejante que causa o mesmo dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
   },
   "flags": {
@@ -29,7 +31,9 @@
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "aliases": []
+      "aliases": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "8bfe38599b9d47bf",

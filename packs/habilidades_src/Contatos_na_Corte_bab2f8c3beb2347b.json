@@ -19,6 +19,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Canção do Bardo, pág. 23; Guia do Vilão, pág. 62; Guia de Tebryn, pág. 71",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -40,7 +42,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "bab2f8c3beb2347b",

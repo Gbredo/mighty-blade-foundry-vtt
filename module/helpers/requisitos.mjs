@@ -12,6 +12,14 @@ export function norm(s) {
     .trim();
 }
 
+export function cleanObsidianWikilinks(str) {
+  if (!str) return "";
+  return String(str)
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .trim();
+}
+
 /**
  * Quebra uma string de requisitos ("Inteligência 5, Herbalismo." ou "FOR 6 + Fúria") em array de requisitos individuais.
  * @param {string} texto
@@ -19,14 +27,22 @@ export function norm(s) {
  */
 export function parseRequisitosTexto(texto) {
   if (!texto) return [];
-  const raw = String(texto).replace(/Chifres,\s*Garras\s+e\s+Presas/gi, "Chifres__COMMA__Garras e Presas");
+  let raw = cleanObsidianWikilinks(String(texto))
+    .replace(/Chifres,\s*Garras\s+e\s+Presas/gi, "Chifres__CHIFRES_COMMA__Garras e Presas");
+
+  // Protege vírgulas dentro de sentenças de idioma (ex.: "Saber falar Arkadis, Ctónico, Draen ou Quoratus")
+  raw = raw.replace(/(?:saber\s+falar|falar|idioma:?)\s+[^.]+/gi, (match) => {
+    return match.replace(/,/g, "__LANG_COMMA__");
+  });
+
   const parts = raw.includes(",")
     ? raw.split(",")
     : raw.split(/\s*\+\s*/);
   return parts
     .map((t) =>
       t
-        .replace(/Chifres__COMMA__Garras e Presas/g, "Chifres, Garras e Presas")
+        .replace(/Chifres__CHIFRES_COMMA__Garras e Presas/g, "Chifres, Garras e Presas")
+        .replace(/__LANG_COMMA__/g, ",")
         .replace(/\.+\s*$/, "")
         .trim()
     )
@@ -125,6 +141,47 @@ export function checarMarcoNarrativo(nTexto, actor, rawItems = []) {
   }
 
   return false;
+}
+
+/**
+ * Extrai o conjunto normalizado de idiomas conhecidos pelo ator.
+ * @param {object} actor
+ * @returns {Set<string>}
+ */
+export function obterIdiomasAtor(actor) {
+  const tokens = new Set();
+  if (!actor) return tokens;
+
+  const rawItems = actor.items
+    ? (Array.isArray(actor.items) ? actor.items : Array.from(actor.items.values()))
+    : [];
+
+  for (const it of rawItems) {
+    if (it.type === "idioma") {
+      const slug = it.flags?.["mighty-blade"]?.slug || norm(it.name);
+      if (slug) tokens.add(norm(slug));
+      if (it.name) tokens.add(norm(it.name));
+    }
+  }
+
+  const rawDetailsIdiomas = actor.system?.details?.idiomas || actor.system?.idiomas || "";
+  if (typeof rawDetailsIdiomas === "string" && rawDetailsIdiomas.trim()) {
+    const partes = rawDetailsIdiomas.split(/[,;\n\r]+/).map((p) => norm(p.trim())).filter(Boolean);
+    for (const p of partes) {
+      tokens.add(p);
+      if (p === "track'kar'a" || p === "track-kar-a" || p === "trackkara") {
+        tokens.add("trackkara");
+        tokens.add("track-kar-a");
+      }
+    }
+  } else if (Array.isArray(rawDetailsIdiomas)) {
+    for (const p of rawDetailsIdiomas) {
+      const np = norm(String(p));
+      if (np) tokens.add(np);
+    }
+  }
+
+  return tokens;
 }
 
 /**
@@ -379,6 +436,28 @@ export function avaliarRequisitos(requisitosTexto, actor, options = {}) {
         tipo: "raca",
         atende: ehFlorestal,
         detalhe: ehFlorestal ? "Raça Florestal compatível" : "Requer Raça Florestal",
+      };
+    }
+
+    // 6.4 Requisito de Idioma ("Saber falar Arkadis, Ctónico, Draen, Quoratus ou Track'kar'a", "Saber falar...", "Falar...")
+    const mIdioma = texto.match(/^(?:saber\s+falar|falar|idioma:?)\s+(.+)$/i);
+    if (mIdioma) {
+      const idiomasOpcoes = mIdioma[1].split(/[,/]| ou /i).map(norm).filter(Boolean);
+      const idiomasAtor = obterIdiomasAtor(actor);
+      const atendeIdioma = idiomasOpcoes.some((id) => {
+        return (
+          idiomasAtor.has(id) ||
+          (id === "trackkara" && (idiomasAtor.has("track-kar-a") || idiomasAtor.has("trackkara"))) ||
+          (id === "track'kar'a" && (idiomasAtor.has("track-kar-a") || idiomasAtor.has("trackkara")))
+        );
+      });
+      return {
+        texto,
+        tipo: "idioma",
+        atende: atendeIdioma,
+        detalhe: atendeIdioma
+          ? "Idioma requerido conhecido"
+          : `Requer falar um dos seguintes idiomas: ${mIdioma[1]}`,
       };
     }
 

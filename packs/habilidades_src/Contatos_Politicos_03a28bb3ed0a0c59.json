@@ -19,6 +19,8 @@
     "nivel": "Nv1",
     "fonteLivro": "Guia do Vilão, pág. 62; Guia de Tebryn, pág. 71, 82",
     "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -40,7 +42,9 @@
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
       "aliases": [],
-      "opcoes": []
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
     }
   },
   "_id": "03a28bb3ed0a0c59",
