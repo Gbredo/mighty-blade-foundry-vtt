@@ -9,13 +9,13 @@
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
-    "requisitos": "",
+    "requisitos": "Exceto Anão, Exceto Metadílio",
     "acesso": [
       "Geral"
     ],
     "tipoAcesso": "Geral",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "fonteLivro": "Guia do Vilão, pág. 13",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é anormalmente grande para os padrões da sua espécie, sendo considerado de uma categoria de tamanho maior do que a normal para os membros da sua raça. Você recebe +10 Pontos de Vida e +2 na sua Carga.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Anões, Metadílios e Faens/Silfos. Qualquer vestimenta ou armadura sob medida para um personagem com Gigantismo custa o dobro do preço normal.</p></div>"
+    "description": "<p>Você é mais alto do que o normal para sua Raça. Você recebe +10 Pontos de Vida, +1 em seu Deslocamento e pode usar armas corporais de duas mãos com uma mão só (desde que não sejam armas de haste) desde que tenha Força suficiente (você não pode usar uma arma dessa forma usando as regras de Inaptidão por Força menor do que a FN da arma). No entanto, sua Defesa Básica é 4 ao invés de 5. Além disso, você realiza testes para se esconder, mover em silêncio e se disfarçar como se fosse Inapto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Anão e Metadílio.</p></div>"
   },
   "flags": {
     "mighty-blade": {

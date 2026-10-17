@@ -30,7 +30,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Seus olhos possuem uma membrana transparente que protege sua visão sem comprometer sua percepção. Você se torna imune a efeitos não-mágicos que causariam cegueira (areia, fumaça, poeira, produtos químicos ou flashes de luz).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Olhos Dracônicos*.</p></div>"
+    "description": "<p>Seus olhos possuem uma segunda pálpebra que serve para manter seus olhos limpos e ampliar a visão. Você consegue enxergar normalmente no escuro e não é afetado por efeitos não mágicos que restrinjam a visão – como água lamacenta, fumaça, poeira, areia, chuva, etc. – e você também recebe +2 em todos os seus testes de Percepção que envolvam a visão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Olhos Dracônicos*.</p></div>"
   },
   "flags": {
     "mighty-blade": {

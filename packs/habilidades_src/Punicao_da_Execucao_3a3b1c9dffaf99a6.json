@@ -9,13 +9,13 @@
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
-    "requisitos": "",
+    "requisitos": "Punição da Clemência",
     "acesso": [
       "Arconte"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Vilão, pág. 71; Guia de Tebryn, pág. 81",
+    "fonteLivro": "Guia de Tebryn, pág. 106",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {

@@ -31,7 +31,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui asas translúcidas e uma conexão direta com o reino das fadas. Você pode voar com o dobro do seu deslocamento normal. No entanto, suas asas produzem um zumbido característico e contínuo — é impossível se mover em silêncio enquanto estiver voando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não consegue planar nem permanecer no ar por mais de 1 hora contínua sem descansar pelo menos meia hora. Devido ao seu tamanho pequeno, armas de duas mãos são grandes demais para uso eficiente e armas com FN 5+ exigem o uso de ambas as mãos.</p></div>"
+    "description": "<p>Você possui uma constituição leve e um par de asas que lhe permitem voar. Você pode voar em qualquer direção (com o dobro da sua movimentação normal) e pode parar no ar. No entanto, suas asas precisam bater continua e velozmente, e você não pode planar nem permanecer no ar por mais do que uma hora antes de ter que descansá-las por pelo menos meia hora. Enquanto está voando, o bater das suas asas produzem um zumbido característico e facilmente audível, e é impossível para você se mover em silêncio enquanto voa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos de Encontrão).</p></div>"
   },
   "flags": {
     "mighty-blade": {

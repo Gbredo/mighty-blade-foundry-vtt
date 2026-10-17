@@ -225,7 +225,7 @@
         ]
       }
     ],
-    "description": "<p>O sangue dos dragões corre em suas veias. Escolha um elemento entre Fogo, Frio ou Eletricidade: você adquire Resistência ao elemento escolhido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Ao escolher sua resistência, você obrigatoriamente adquire Vulnerabilidade a um dos outros dois elementos (à sua escolha ou determinado pela sua linhagem).</p></div>"
+    "description": "<p>Você descende dos dragões, e possui a resistência – e fraqueza – elemental de seus ancestrais. Escolha entre ser descendente dos dragões vermelhos e ter Resistência a Fogo, descender dos dragões brancos e ter Resistência a Frio ou descender dos dragões verdes e ser Resistente à Eletricidade. Depois, escolha um dos dois elementos diferentes da sua herança dracônica para ser Vulnerável.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Estas escolhas são permanentes e não podem ser mudadas mais tarde.</p></div>"
   },
   "flags": {
     "mighty-blade": {

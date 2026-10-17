@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Herói, pág. 110–112",
+    "fonteLivro": "Guia do Herói, pág. 41",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Fechando os olhos e tocando um objeto ou superfície, você é capaz de ver e ouvir os eventos relevantes que aconteceram ao redor dele. Apenas acontecimentos intensos ou constantes deixam marcas perceptíveis, e impressões mais recentes tendem a desbotar as mais antigas. O Oráculo recebe impressões mais recentes primeiro, sobrepostas à impressões mais antigas, sem nenhuma informação de tempo relativo (quando o evento ocorreu ou o tempo decorrido entre uma impressão e outra). Essa Habilidade demora tanto tempo quanto os eventos impressos no objeto ou superfície duraram, já que eles são percebidos em tempo real.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Oráculo.</p></div>"
+    "description": "<p>Fechando os olhos e tocando um objeto ou superfície, você é capaz de ver e ouvir os eventos relevantes que aconteceram ao redor dele. Apenas acontecimentos intensos ou constantes deixam marcas perceptíveis, e impressões mais recentes tendem a desbotar as mais antigas. O Oráculo recebe impressões mais recentes primeiro, sobrepostas à impressões mais antigas, sem nenhuma informação de tempo relativo (quando o evento ocorreu ou o tempo decorrido entre uma impressão e outra). Essa Habilidade demora tanto tempo quanto os eventos impressos no objeto ou superfície duraram, já que eles são percebidos em tempo real. Raramente um item consegue reter mais do que 1 hora de impressões, e se acontecimentos relevantes mais longos tiverem ocorrido ao redor do item eles geralmente estarão fragmentadas na forma de cenas curtas. Depois de ver todas as impressões de um item, o Oráculo pode revê-las em qualquer ordem que desejar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Oráculo.</p></div>"
   },
   "flags": {
     "mighty-blade": {

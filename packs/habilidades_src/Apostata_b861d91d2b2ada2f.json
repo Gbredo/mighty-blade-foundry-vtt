@@ -9,7 +9,7 @@
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
-    "requisitos": "",
+    "requisitos": "Ter abandonado um Voto",
     "acesso": [
       "Sacerdote",
       "Herege",
@@ -17,7 +17,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Vilão, pág. 48",
+    "fonteLivro": "Guia do Vilão, pág. 13",
     "exclusivoCom": [
       "Dogma",
       "Pacto"
@@ -35,7 +35,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você rejeitou os dogmas das divindades ou foi excomungado por sua antiga ordem religiosa. Sua fé agora se apoia na sua própria convicção ou no desprezo pelo Panteão. Você não segue nenhum código de conduta divino e recebe +2 em testes para resistir a magias divinas ou de encantamento de seguidores do Panteão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade mutualmente exclusiva com Dogma e Pacto. Um personagem Apóstata não pode aprender magias que exijam a graça dos deuses (como Graça Divina ou Abençoar Aliados 1), mas adquire acesso a poderes profanos e heréticos do *Guia do Vilão*.</p></div>"
+    "description": "<p>Você perdeu sua fé em códigos de conduta e dogmas e sua descrença nesses ideais alimenta sua vontade. Você tem Determinação +2 e consegue perceber se uma criatura possui Conhecimento Místico, Sintonia Dracônica, um Código, Dogma ou Pacto (mas não qual Código, Dogma ou Pacto específico) se puder vê-la ou tocá-la mesmo que brevemente. Além disso, você recebe +2 em todos os testes envolvendo criaturas que possuam uma destas Habilidades e sempre que derrotar uma delas você recupera imediatamente 10 Pontos de Vida e 10 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Ao adquirir esta Habilidade, você perde Conhecimento Místico e quaisquer Códigos ou Dogma que possua além daquele que abandonou para adquirir esta Habilidade (veja Abandonando Votos para saber como adquirir novas Habilidades para repor aquelas que você tenha perdido) e nunca poderá adquirir um Código, Dogma ou Pacto ou se tornar aprendiz de uma Classe que tenha Conhecimento Místico como Habilidade Automática.</p></div>"
   },
   "flags": {
     "mighty-blade": {

@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Dogma: Discípulo da Forja",
     "acesso": [
-      "Sacerdote",
-      "Geral"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -32,8 +31,7 @@
       "slug": "chamas-de-hou",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Geral"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

@@ -16,7 +16,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 120; Canção do Bardo, pág. 77-78",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 80; Canção do Bardo, pág. 70",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você toca ritmos empolgantes acompanhados de uma canção simples que fazem com que todos que escutarem esta música sintam uma vontade incontrolável de dançar. Todas as criaturas vivas do tipo Humanoide e Esfinge a uma distância em metros de você igual à sua Determinação, e que puderem ouvir essa Música, rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu começarão a dançar incontrolavelmente, realizando todos os seus testes baseados em Agilidade como se fossem Inaptos e ficando com Deslocamento reduzido à metade enquanto você continuar a tocar essa Melodia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Especial: Personagens sob efeito de alguma habilidade de dança são imunes a este efeito.</p></div>"
+    "description": "<p>Você toca ritmos empolgantes acompanhados de uma canção simples – e geralmente repetitiva – que fazem com que todos que escutarem esta música sintam uma vontade incontrolável de dançar. Todas as criaturas vivas do tipo Humanoide e Esfinge a uma distância em metros de você igual à sua Determinação, e que puderem ouvir essa Música, rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu começarão a dançar incontrolavelmente, realizando todos os seus testes baseados em Agilidade como se fossem Inaptos e ficando com Deslocamento reduzido à metade (arredondado para cima) enquanto você continuar a tocar essa Melodia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Especial: Personagens sob efeito de alguma habilidade de dança são imunes a esse efeito.</p></div>"
   },
   "flags": {
     "mighty-blade": {

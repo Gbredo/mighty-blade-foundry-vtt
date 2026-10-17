@@ -39,7 +39,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Sua estatura diminuta dificulta que os oponentes o atinjam e facilita passar despercebido. Sua Defesa base inicial é 6 (em vez de 5) e você rola +1d6 em todos os testes de Furtividade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Armas corporais de duas mãos são grandes demais para serem empunhadas por você de forma eficiente. Qualquer arma com Força Necessária (FN) 5 ou superior exige que você use ambas as mãos.</p></div>"
+    "description": "<p>Você tem uma estatura baixa, o que torna difícil lhe atingir ou detectar. Você pode rolar +1d6 quando fizer testes de Furtividade. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, para você armas corporais que requerem duas mãos são grandes demais para serem usadas com eficiência, e você precisa de ambas as mãos para usar qualquer arma com FN 5 ou mais.</p>"
   },
   "flags": {
     "mighty-blade": {

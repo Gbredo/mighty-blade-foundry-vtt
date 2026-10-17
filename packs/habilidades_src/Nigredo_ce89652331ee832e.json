@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Herói, pág. 80–82",
+    "fonteLivro": "Guia do Herói, pág. 23",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>+2 em testes para produzir venenos e antídotos e para resistir aos efeitos de venenos de qualquer espécie.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Alquimista.</p></div>"
+    "description": "<p>Você concentrou seus estudos alquímicos na decomposição de elementos e no uso de venenos. Você recebe +2 nos seus testes para produzir venenos e antídotos e também em testes para resistir aos efeitos de venenos de qualquer espécie.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Alquimista.</p></div>"
   },
   "flags": {
     "mighty-blade": {

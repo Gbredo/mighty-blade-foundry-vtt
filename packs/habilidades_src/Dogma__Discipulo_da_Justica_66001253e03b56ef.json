@@ -13,8 +13,7 @@
     "acesso": [
       "Espada de Mirah",
       "Sacerdote",
-      "Paladino",
-      "Geral"
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Bônus",
@@ -27,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você serve a Mirah, a deusa da justiça inflexível e da retidão moral. Você recebe +1 em todos os Confrontos para resistir a mentiras, manipulações e engodos mundanos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma. Serve de pré-requisito sagrado para as habilidades Marca da Justiça e *Arma da Ordem*. Código de conduta: defender a lei justa, combater a tirania e nunca cometer perjúrio.</p></div>"
+    "description": "<p>Você é um devoto de Mirah, a Justiça ou de Ahogr Ruge-Mundos. Você deve seguir as leis e jamais pode permitir que alguém seja prejudicado injustamente se você puder evitar. Você tem Vontade +1 enquanto seguir este dogma. Se você quebrar uma lei ou permitir que alguém o faça de modo proposital sem exigir punição imediata, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Dogma.</p></div>"
   },
   "flags": {
     "mighty-blade": {
@@ -36,8 +35,7 @@
       "acesso": [
         "Espada de Mirah",
         "Sacerdote",
-        "Paladino",
-        "Geral"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",

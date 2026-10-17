@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sua inflexibilidade moral é tanta, que você não se dá por vencido nem diante da morte certa. Quando um ataque, magia, música ou técnica reduziriam seus Pontos de Vida a ponto de deixá-lo “Por Um Fio”, você ignora totalmente seu dano e quaisquer outros efeitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Paladino (requer Nível 10, Austeridade e Destemor).</p></div>"
+    "description": "<p>Sua inflexibilidade moral é tanta, que você não se dá por vencido nem diante da morte certa. Quando um ataque, magia, música ou técnica reduziriam seus Pontos de Vida a ponto de deixá-lo “Por Um Fio” (ver pág, 15), você ignora totalmente seu dano e quaisquer outros efeitos. Essa Habilidade não tem efeito em venenos, doenças ou fatores ambientais que causem dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Paladino (requer Nível 10, Austeridade e Destemor).</p></div>"
   },
   "flags": {
     "mighty-blade": {

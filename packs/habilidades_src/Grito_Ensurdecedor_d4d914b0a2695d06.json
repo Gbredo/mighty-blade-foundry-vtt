@@ -17,7 +17,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
-    "fonteLivro": "Canção do Bardo, pág. 20, 60",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 24, 30, 61",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você solta um grito tão alto e poderoso que atordoa a todos na sua frente. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Grito Estilhaçador e Grito Retumbante.</p></div>"
+    "description": "<p>Você solta um grito tão alto e poderoso que faz com que todos ao redor fiquem atordoados. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Grito Estilhaçador e Grito Retumbante.</p></div>"
   },
   "flags": {
     "mighty-blade": {

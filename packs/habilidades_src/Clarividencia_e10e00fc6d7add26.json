@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Herói, pág. 110–112",
+    "fonteLivro": "Guia do Herói, pág. 40",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Fechando os olhos e concentrando-se em uma criatura, item ou superfície onde haja um Selo Místico que você tenha desenhado, você é capaz de ver e ouvir o que estiver ocorrendo nos arredores daquele Selo. Você vê e ouve com suas próprias capacidades, e não pode usar seus outros sentidos para perceber o ambiente ao redor do Selo. Tanto Selos usados para conjurar magias ou Selos Místicos simples podem ser usados como alvos dessa Habilidade. Essa Habilidade funciona por tanto tempo quanto você se concentrar, mas se o Selo que você estiver observando for dissipado esse efeito é cancelado imediatamente. abertos à discussão e estão tão interessados em disseminar o conhecimento quanto em adquirí-lo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Oráculo.</p></div>"
+    "description": "<p>Fechando os olhos e concentrando-se em uma criatura, item ou superfície onde haja um Selo Místico que você tenha desenhado, você é capaz de ver e ouvir o que estiver ocorrendo nos arredores daquele Selo. Você vê e ouve com suas próprias capacidades, e não pode usar seus outros sentidos para perceber o ambiente ao redor do Selo. Tanto Selos usados para conjurar magias ou Selos Místicos simples podem ser usados como alvos dessa Habilidade. Essa Habilidade funciona por tanto tempo quanto você se concentrar, mas se o Selo que você estiver observando for dissipado esse efeito é cancelado imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Oráculo.</p></div>"
   },
   "flags": {
     "mighty-blade": {

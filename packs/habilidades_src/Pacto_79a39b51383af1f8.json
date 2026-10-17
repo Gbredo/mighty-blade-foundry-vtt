@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
     "custoVariavel": false,
     "dificuldade": 0,
@@ -18,7 +18,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Vilão, pág. 49",
+    "fonteLivro": "Guia do Vilão, pág. 13",
     "exclusivoCom": [
       "Dogma",
       "Apóstata"
@@ -30,7 +30,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você selou um pacto sobrenatural com uma entidade primordial ou patrono infernal em troca de poder proibido. Escolha um Patrono Primordial (Glycon, Shyama, Nehemoth, O Inominável, Ereshkigal ou Virzú). Você recebe a bênção sombria correspondente e passa a atender às exigências misteriosas daquela entidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade mutualmente exclusiva com Dogma e Apóstata. Selar um Pacto faz o personagem perder imediatamente a habilidade Conhecimento Místico clássica e o impede permanentemente de aprender magias divinas do Panteão. Libera a trilha de habilidades dos Pactos Infernais: Pacto da Ambição, Pacto da Destruição, Pacto da Escuridão, Pacto da Loucura, Pacto da Pestilência e Pacto da Tirania.</p></div>"
+    "description": "<p>Você fez um pacto com uma entidade infernal e recebeu um favor em troca. Escolha um Pacto. Esta escolha é permanente – para selecionar quaisquer outras Habilidades que tenham um Pacto como requisito, o personagem precisa seguir o Caminho Cultista.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você tiver Conhecimento Místico ou Dogma, você perde essas Habilidades ao selecionar um Pacto. Se você possuir um Pacto, você não pode se tornar Aprendiz de uma Classe cuja Habilidade Automática seja Conhecimento Místico.<br>Pactos disponíveis: Pacto da Ambição, Pacto da Destruição, Pacto da Escuridão, Pacto da Loucura, Pacto da Pestilência e Pacto da Tirania.</p></div>"
   },
   "flags": {
     "mighty-blade": {

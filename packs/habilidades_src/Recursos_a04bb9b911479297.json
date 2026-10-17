@@ -4,18 +4,18 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
-    "requisitos": "",
+    "requisitos": "Exceto Hamelin",
     "acesso": [
       "Geral"
     ],
     "tipoAcesso": "Geral",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 16",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você veio de uma família rica ou acumulou bens materiais consideráveis antes de se tornar um aventureiro. Você começa o jogo com o dobro do dinheiro inicial (800 moedas).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta habilidade só pode ser selecionada durante a criação do personagem. Proibida para a raça Hamelin.</p></div>"
+    "description": "<p>Você possui (ou possuía) um pequeno negócio ou vem de uma família nobre. Você começa o jogo com o dobro das moedas iniciais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: todas, exceto Hamelins. Especial: Esta habilidade só pode ser escolhida durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

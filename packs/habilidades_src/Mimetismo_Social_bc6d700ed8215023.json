@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Geral",
     "nivel": "Nv1",
-    "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 35",
+    "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 40",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você possui uma grande capacidade de observar e absorver trejeitos, costumes e formas de se portar de outras culturas. Ao interagir com pessoas de uma cultura diferente da sua por pelo menos 1 hora, você assimila a postura e os gestos de seus falantes, recebendo +2 em testes e confrontos sociais (incluindo Técnicas e Músicas, e o cálculo de sua Determinação para estes efeitos), e +1d6 para se disfarçar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Astérios e Tritão.</p></div>"
+    "description": "<p>Você possui uma grande facilidade em entender os maneirismos das culturas com as quais tem contato. Graças a isso, você absorve o sotaque dos idiomas que aprende, além de conseguir mimetizar as características de seus falantes. Você consegue imitar qualquer sotaque de qualquer idioma que conheça, e recebe +2 em todos os seus testes sociais envolvendo falantes nativos dos idiomas que você conhece, se estiver se comunicando no idioma deles.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Raças: Todas exceto Astérios e Tritão.</p></div>"
   },
   "flags": {
     "mighty-blade": {

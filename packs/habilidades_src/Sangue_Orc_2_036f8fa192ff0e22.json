@@ -29,7 +29,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui uma fisiologia particularmente resistente, mesmo para os padrões Orcs. Você é imune a todas as doenças naturais e tem +10 Pontos de Vida adicionais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede imunidade completa a doenças de origem natural e adiciona +10 Pontos de Vida.</p></div>"
+    "description": "<p>Você possui uma fisiologia particularmente resistente, mesmo para os padrões Orcs. Você é imune a todas as doenças naturais e tem +10 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

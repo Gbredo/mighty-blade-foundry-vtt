@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Suas presas injetam um veneno potente em suas vítimas. Quando você realiza um ataque de mordida e causa dano, o alvo deve fazer um teste de Força (Dificuldade igual à sua Determinação). Se falhar, o alvo perde 10 Pontos de Vida imediatamente e fica Atordoado por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Aplica veneno natural na mordida que causa perda de PV e atordoamento.</p></div>"
+    "description": "<p>Você possui glândulas em sua boca que produzem veneno que pode ser injetado através da sua mordida. Você pode fazer um ataque desarmado com seus dentes que causa dano igual à Força +2/Perfuração. Qualquer alvo que sofra dano por sua mordida será injetado com uma dose de Veneno Paralisante (Guia do Herói, página 78). Esse veneno é considerado natural.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

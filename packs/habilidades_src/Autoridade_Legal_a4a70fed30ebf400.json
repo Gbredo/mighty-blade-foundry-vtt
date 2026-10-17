@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Vilão, pág. 71; Guia de Tebryn, pág. 81",
+    "fonteLivro": "Guia de Tebryn, pág. 105",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você foi imbuído pelo Reino para executar a lei e punir transgressores. Ao determinar sentenças e arbitrar disputas, sua palavra só pode ser questionada por outro Arconte ou por um Nobre. Se foi tomada dentro de um tribunal com a anuência de outros Arcontes, ela só pode ser questionada por um tribunal superior. Você recebe um símbolo sagrado especial que pode ser verificado por qualquer um com Detectar Magia, comprovando sua autoridade e que nunca pode ser separado de você. Você não pode ser preso ou questionado por ninguém de patente inferior a outro Arconte ou portador de título militar/nobreza no reino.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática do Caminho Arconte.</p></div>"
+    "description": "<p>Você foi imbuído pelo Reino para executar a lei e punir transgressores. Ao determinar sentenças e arbitrar disputas, sua palavra só pode ser questionada por outro Arconte ou por um Nobre, e se ela foi tomada dentro de um tribunal, com a anuência de outros Arcontes, ela só pode ser questionada por um tribunal acima do seu. Você recebe um símbolo sagrado especial, que pode ser verificado por qualquer um com Detectar Magia, que serve para comprovar sua autoridade – além de não poder ser separado de você. Você também não pode ser preso ou questionado por ninguém menos que outro Arconte ou alguém com um título militar ou de nobreza enquanto estiver no seu reino.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática do Caminho Arconte.<br>Especial: Se o personagem cometer algum ato que contradiga o Código da Justiça ou o Dogma da Justiça (dependendo de qual dos dois o personagem possua), o símbolo sagrado especial imediatamente se rompe e passa a emanar um lamúrio constante; você perde a capacidade de usar Punições e o símbolo só poderá ser restaurado depois que você for julgado pelo crime que tiver cometido.</p></div>"
   },
   "flags": {
     "mighty-blade": {

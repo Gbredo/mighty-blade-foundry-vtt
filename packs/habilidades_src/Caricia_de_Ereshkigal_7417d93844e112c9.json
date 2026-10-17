@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 30,
     "custoVariavel": false,
     "dificuldade": 0,

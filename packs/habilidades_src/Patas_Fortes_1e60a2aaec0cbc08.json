@@ -16,7 +16,7 @@
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 46",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 57",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -31,7 +31,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui pernas mais fortes do que a maioria dos membros da sua raça. Você pode rolar +1d6 quando fizer testes de corrida, salto, evitar quedas, etc. Além disso, o dano dos seus ataques com cascos é aumentado em +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede +1d6 em testes de corrida/salto/equilíbrio e +2 no dano de ataques desarmados com cascos.</p></div>"
+    "description": "<p>Você possui pernas mais fortes do que a maioria dos membros da sua raça. Você pode rolar +1d6 quando fizer testes de corrida, salto, evitar quedas, etc. Além disso, o dano dos seus ataques com cascos é aumentado em +2.</p>"
   },
   "flags": {
     "mighty-blade": {

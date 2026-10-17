@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode fazer dois ataques corporais com uma arma que estiver empunhando, desde que esteja empunhando a arma com apenas 1 mão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico (pág. 1) padronizou o custo em Mana para 20 PM e restringiu o uso a uma arma usada com apenas 1 mão. Serve de pré-requisito para a habilidade avançada Tempestade de Lâminas.</p></div>"
+    "description": "<p>Você pode fazer 2 ataques corporais com uma arma que esteja empunhando com apenas 1 mão ou com um de seus ataques desarmados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Tempestade de Lâminas.</p></div>"
   },
   "flags": {
     "mighty-blade": {

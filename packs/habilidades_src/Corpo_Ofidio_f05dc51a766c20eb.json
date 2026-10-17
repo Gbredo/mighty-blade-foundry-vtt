@@ -42,7 +42,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui uma longa cauda serpenteante no lugar das pernas. É impossível cavalgar (não pode usar montarias) e impossível saltar ou tirar todo o corpo do chão. Você realiza testes de natação e de agarrar com a cauda com +2. Possui extrema dificuldade para escalar ou subir escadas de mão (testes feitos como Inapto).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é imune a efeitos não-mágicos que restrinjam a visão (fumaça, poeira, chuva forte) e rola +1d6 para resistir a venenos. Sua pele coberta de escamas grossas funciona como proteção natural, impedindo o uso de armaduras convencionais.</p></div>"
+    "description": "<p>Você possui um corpo alongado, flexível e forte com uma cauda no lugar de pernas. Você recebe +2 em seus testes de nadar e agarrar quando utiliza sua cauda, e você pode se levantar como uma ação livre. Sua cauda pode ser usada para segurar e arrastar objetos (mas não utilizá-los para realizar ataques), realizar ataques desarmados (dano igual à Força/Contusão) e desenhar Runas Arcanas ou Selos Místicos. Você não é capaz de cavalgar, e não é capaz de impulsionar seu corpo todo acima do chão. Além disso, você recebe +1d6 para resistir a efeitos de venenos naturais e mágicos e não é afetado por efeitos não-mágicos que restrinjam a visão – como água lamacenta, fumaça, poeira, areia, chuva, etc.</p>"
   },
   "flags": {
     "mighty-blade": {

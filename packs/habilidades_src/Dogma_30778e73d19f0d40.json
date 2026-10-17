@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "padrao",
     "custo": 0,
     "custoVariavel": false,
     "dificuldade": 0,
@@ -13,8 +13,7 @@
     "acesso": [
       "Sacerdote",
       "Cruzado",
-      "Oráculo",
-      "Geral"
+      "Oráculo"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -39,8 +38,7 @@
       "acesso": [
         "Sacerdote",
         "Cruzado",
-        "Oráculo",
-        "Geral"
+        "Oráculo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

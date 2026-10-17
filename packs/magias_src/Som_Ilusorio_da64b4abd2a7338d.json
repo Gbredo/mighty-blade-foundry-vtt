@@ -1,0 +1,37 @@
+{
+  "name": "Som Ilusório",
+  "type": "magia",
+  "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+  "system": {
+    "tipo": "acao",
+    "fonte": "arcana",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 8,
+    "dificuldadeTexto": "8",
+    "circulo": 1,
+    "nivel": "Nv1",
+    "requisitos": "",
+    "acesso": [
+      "Ilusionista"
+    ],
+    "tipoAcesso": "Caminho",
+    "fonteLivro": "Guia do Herói, pág. 35-36",
+    "exclusivoCom": [],
+    "description": "<p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria um som vindo de um lugar que possa ver. Você pode criar múltiplos sons ao mesmo tempo e os controla totalmente, mas eles não podem ter intensidade maior que a capacidade da voz humana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana ou Selo Místico que mantém o som dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com o local de onde o som se origina. Habilidade do caminho Ilusionista.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "som-ilusorio",
+      "tipo": "Ação",
+      "acesso": [
+        "Ilusionista"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": []
+    }
+  },
+  "_id": "da64b4abd2a7338d",
+  "_key": "!items!da64b4abd2a7338d"
+}

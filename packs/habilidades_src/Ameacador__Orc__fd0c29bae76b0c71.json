@@ -1,0 +1,52 @@
+{
+  "name": "Ameaçador (Orc)",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Intimidador",
+    "acesso": [
+      "Orc"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 43",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [
+      {
+        "tipo": "bonusDefesa",
+        "defesa": "determinacao",
+        "valor": 2
+      }
+    ],
+    "concessoes": [],
+    "description": "<p>Você é tão assustador que é difícil para qualquer um tentar manipulá-lo sem pensar nos riscos. Você tem Determinação +2 se for alvo de um efeito de Medo e tentativa de Persuasão ou se um personagem tentar afetar você com um desses efeitos e falhar, ele sofrerá automaticamente (sem ser necessário qualquer teste) os efeitos da Habilidade Intimidador.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ameacador-orc",
+      "automatica": false,
+      "acesso": [
+        "Orc"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [
+        "[Ameaçador]"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "fd0c29bae76b0c71",
+  "_key": "!items!fd0c29bae76b0c71"
+}

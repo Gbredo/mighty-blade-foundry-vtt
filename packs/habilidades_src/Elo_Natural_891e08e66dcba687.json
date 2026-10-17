@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Dogma: Discípulo da Natureza",
     "acesso": [
-      "Sacerdote",
-      "Geral"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -32,8 +31,7 @@
       "slug": "elo-natural",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Geral"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

@@ -29,7 +29,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>A linhagem dracônica dos seus ancestrais é mais pura do que a da maioria dos membros de sua raça. A Resistência concedida por sua Habilidade Automática Linhagem Dracônica se torna Imunidade àquele elemento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Automática Linhagem Dracônica. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
+    "description": "<p>A linhagem dracônica dos seus ancestrais é ainda mais perceptível em você. Se você tiver Resistência a Fogo você recebe Imunidade a Fogo, se você tiver Resistência a Frio você recebe Imunidade a Frio e se você for Resistente à Eletricidade você recebe Imunidade à Eletricidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Automática Linhagem Dracônica. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

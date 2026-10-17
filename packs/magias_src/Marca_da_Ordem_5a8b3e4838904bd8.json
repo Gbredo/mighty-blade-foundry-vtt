@@ -13,8 +13,7 @@
     "nivel": "Nv1",
     "requisitos": "Dogma – Discípulo da Ordem",
     "acesso": [
-      "Sacerdote",
-      "Geral"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia de Tebryn, pág. 103",
@@ -26,8 +25,7 @@
       "slug": "marca-da-ordem",
       "tipo": "Ação",
       "acesso": [
-        "Sacerdote",
-        "Geral"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

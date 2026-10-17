@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você reforça a determinação de um aliado através de palavras inspiradoras. Aquele aliado recupera imediatamente 20 Pontos de Vida e quaisquer efeitos de Medo que o estiver afetando são removidos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Requer a habilidade Presença Inspiradora. Serve de pré-requisito para as habilidades Inspirar Confiança e Restaurar Ânimo.</p></div>"
+    "description": "<p>Você reforça a determinação de um aliado através de palavras inspiradoras. Aquele aliado recupera imediatamente 20 Pontos de Vida e quaisquer efeitos de Medo que o estiver afetando são removidos. Este efeito não pode ser utilizado em você mesmo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Requer a habilidade Presença Inspiradora. Serve de pré-requisito para as habilidades Inspirar Confiança e Restaurar Ânimo.</p></div>"
   },
   "flags": {
     "mighty-blade": {

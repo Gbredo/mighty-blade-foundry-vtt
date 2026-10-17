@@ -16,7 +16,7 @@
     ],
     "tipoAcesso": "Geral",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 38",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -33,7 +33,7 @@
         "descricao": "Escolha um Atributo diferente do selecionado em Adaptabilidade para receber +1 permanente."
       }
     ],
-    "description": "<p>Você focou seus esforços em aprender coisas novas. Você pode escolher uma Habilidade de qualquer Classe ou Raça como se fosse uma Habilidade Geral, desde que atenda a seus requisitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A habilidade escolhida passa a integrar a lista do seu personagem normalmente.</p></div>"
+    "description": "<p>Você focou seus esforços e interesse em uma ampla gama de atividades. Escolha um Atributo diferente do que escolheu para Adaptabilidade. Você tem +1 nesse Atributo.</p>"
   },
   "flags": {
     "mighty-blade": {

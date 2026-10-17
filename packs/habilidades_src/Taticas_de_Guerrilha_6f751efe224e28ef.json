@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 72; Guia do Herói, pág. 16",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 72; Guia do Herói, pág. 19",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -30,7 +30,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você aprendeu a se utilizar da vegetação e da geografia para emboscar e atordoar seus inimigos. Você rola +1d6 em todos os seus testes de Furtividade e Percepção quando estiver em ambientes naturais (florestas, colinas, pântanos, etc.), e seus ataques à distância contra alvos Desprevenidos causam +2 de dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede +1d6 em Furtividade e Percepção em ambientes naturais e adiciona +2 de dano em ataques à distância contra alvos Desprevenidos.</p></div>"
+    "description": "<p>Você recebeu treinamento militar padrão dos Metadílios, e recebe +1 em todos os seus testes que envolvam armas de distância, rastreamento e armadilhas.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -36,7 +36,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Seu corpo é composto por rocha maciça viva, concedendo Defesa natural +4 (o que impede você de vestir qualquer tipo de armadura convencional). Você rola +1d6 em testes para evitar ser derrubado, resistir a venenos ou doenças e para segurar peso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é considerado Inapto em testes de escalar, saltar, correr ou se mover com agilidade. É totalmente impossível para um Mahok nadar. Quando derrubado, você precisa gastar uma rodada completa para se levantar.</p></div>"
+    "description": "<p>Sua pele é composta por uma grossa camada de rocha que o tornam extremamente resistente e pesado. Você recebe +1d6 em todos os seus testes para evitar ser derrubado, resistir à doenças e venenos, empurrar ou segurar peso, mas é considerado Inapto em testes de escalar, saltar, correr ou se mover com agilidade. Você precisa de um turno inteiro para se levantar, ao invés de uma ação de movimento e para você é impossível nadar. Você não possui o sentido do tato, mas não sente desconforto por ambientes com condições climáticas hostis. Seus ataques desarmados causam dano igual a Força +2/Contusão e você tem Defesa +4 (Esse bônus de Defesa conta como Armadura). Além disso, sua pele tem as características de uma armadura Pesada, mas a conformação única da sua pele o impede de usar armaduras, e qualquer roupa precisa ser feita sob medida para você, custando duas vezes mais que o normal.</p>"
   },
   "flags": {
     "mighty-blade": {

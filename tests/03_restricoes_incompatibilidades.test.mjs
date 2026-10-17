@@ -378,7 +378,7 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
 
   // ===========================================================================
   describe("Sub-módulo 3.7 — Paridade SSOT (habilidades.base) e Controle de Acesso (Feiticeiro × Sacerdote)", () => {
-    test("3.7.1 Todas as 164 magias e 556 habilidades principais possuem acesso e tipoAcesso do SSOT", () => {
+    test("3.7.1 Todas as 164 magias e 553 habilidades principais possuem acesso e tipoAcesso do SSOT", () => {
       assert.equal(CANONICAL_MAGIAS.length, 164, "Total exato de 164 magias de habilidades.base");
       for (const m of CANONICAL_MAGIAS) {
         assert.ok(Array.isArray(m.system?.acesso) && m.system.acesso.length > 0, `Magia "${m.name}" deve ter acesso definido`);
@@ -386,8 +386,8 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
       }
 
       const habsPrincipais = CANONICAL_HABILIDADES.filter((h) => !h.flags?.["mighty-blade"]?.isSubFeature);
-      // "Força Interior" removida — presente no GB 2017 mas ausente no GB 2023 (habilidades.base SSOT atualizado)
-      assert.equal(habsPrincipais.length, 556, "Total exato de 556 habilidades principais de habilidades.base");
+      // lote 5: +4 (Ameaçador Naga/Orc, Faça-os Sangrar, Melodia do Frenesi), −2 substituídas (Ameaçador, Sangrar), −5 Músicas legado-gb (Canção Desconcentrante, Melodia da Fúria/do Enjoo/dos Animais/Sonífera); renomeações não mudam o total
+      assert.equal(habsPrincipais.length, 553, "Total exato de 553 habilidades principais de habilidades.base");
       for (const h of habsPrincipais) {
         assert.ok(Array.isArray(h.system?.acesso) && h.system.acesso.length > 0, `Habilidade "${h.name}" deve ter acesso definido`);
         assert.ok(h.system?.tipoAcesso, `Habilidade "${h.name}" deve ter tipoAcesso definido`);

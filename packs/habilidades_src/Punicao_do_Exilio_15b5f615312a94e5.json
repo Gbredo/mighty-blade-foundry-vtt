@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
-    "fonteLivro": "Guia do Vilão, pág. 72; Guia de Tebryn, pág. 82",
+    "fonteLivro": "Guia de Tebryn, pág. 107",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Tocando em um alvo, você define uma quantidade de tempo de no máximo sua Determinação em anos. Durante este tempo, enquanto o alvo estiver em uma região geográfica definida por você (uma Metrópole, Condado ou mesmo o Reino de Tebryn), ele é assolado por dores terríveis que o deixam Distraído e fazem com que ele perca 10 Pontos de Vida e Mana por minuto. Você pode estabelecer uma quantidade de tempo em dias igual a no máximo sua Vontade para que este efeito tenha início – dando tempo para que o alvo possa deixar a área definida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e pertencer ao Caminho Arconte.</p></div>"
+    "description": "<p>Tocando em um alvo, você define uma quantidade de tempo de no máximo sua Determinação em anos. Durante este tempo, enquanto o alvo estiver em uma região geográfica definida por você (uma Metrópole, Condado ou mesmo o Reino de Tebryn são os mais comuns), ele é assolado por dores terríveis que o deixam Distraído e faz com que ele perca 10 Pontos de Vida e Mana por minuto. Você pode estabelecer uma quantidade de tempo em dias igual a, no máximo, sua Vontade para que este efeito tenha início – dando tempo, assim, para que o alvo possa deixar a área definida, caso esteja dentro dela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e pertencer ao Caminho Arconte.</p></div>"
   },
   "flags": {
     "mighty-blade": {

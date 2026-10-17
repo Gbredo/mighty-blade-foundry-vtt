@@ -14,8 +14,7 @@
     "requisitos": "Dogma: Discípulo da Sabedoria",
     "acesso": [
       "Sacerdote",
-      "Escriba",
-      "Geral"
+      "Escriba"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
@@ -28,8 +27,7 @@
       "tipo": "Ação",
       "acesso": [
         "Sacerdote",
-        "Escriba",
-        "Geral"
+        "Escriba"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
-    "fonteLivro": "Guia do Herói, pág. 80–82",
+    "fonteLivro": "Guia do Herói, pág. 24",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Pode preparar Poções Avançadas. +2 em testes para encontrar jazidas, forragear, rastrear e identificar poções.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Alquimista.</p></div>"
+    "description": "<p>Você possui um conhecimento profundo sobre substâncias de origem animal, vegetal e mineral que podem ter efeitos úteis e onde encontrá-las. Você pode preparar Poções Avançadas e também recebe +2 em seus testes para encontrar jazidas, forragear, rastrear e identificar poções.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Alquimista.</p></div>"
   },
   "flags": {
     "mighty-blade": {

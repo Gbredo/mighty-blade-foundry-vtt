@@ -453,11 +453,17 @@ function loadObsidianHabilidades() {
     if (rc.id) rulesCoreByNorm.set(rc.id, rc);
   }
 
-  return files.map((file) => {
+  const result = [];
+  for (const file of files) {
     const fullPath = path.join(OBSIDIAN_HABILIDADES_DIR, file);
     const content = fs.readFileSync(fullPath, "utf-8");
     const fallbackTitle = file.replace(/\.md$/i, "");
     const { fm, nome, descricaoMd, regrasMd, rawBody } = parseObsidianFrontmatterAndBody(content, fallbackTitle);
+
+    const status = String(fm.status || "").trim().toLowerCase();
+    if (status === "substituida" || status === "substituído" || status === "substituido" || status === "legado-gb") {
+      continue;
+    }
 
     const categoria = cleanObsidianWikilinks(fm.categoria || "Técnica");
     const tipo = cleanObsidianWikilinks(fm.tipo || "Suporte");
@@ -502,7 +508,7 @@ function loadObsidianHabilidades() {
       }
     }
 
-    return {
+    result.push({
       nome,
       categoria,
       tipo,
@@ -525,8 +531,9 @@ function loadObsidianHabilidades() {
       efeitos: rcMatch?.efeitos || [],
       opcoes: subEscolhas.length > 0 ? subEscolhas : (rcMatch?.opcoes || []),
       automatica: nivel.toLowerCase() === "automática" || nivel.toLowerCase() === "automatica" || !!rcMatch?.automatica,
-    };
-  });
+    });
+  }
+  return result;
 }
 
 function buildAbilityOrSpellItem(hab) {

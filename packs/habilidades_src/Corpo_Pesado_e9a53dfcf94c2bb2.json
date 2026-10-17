@@ -34,7 +34,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Seu porte maciço e chifres imponentes concedem grande estabilidade física. Você rola +1d6 em testes para evitar ser derrubado e para realizar manobras de encontrão, e sua Carga máxima é calculada como Força +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Em contrapartida, você é considerado Inapto em testes de natação, escalada e salto, e precisa de uma ação de rodada completa para se levantar do chão quando for derrubado.</p></div>"
+    "description": "<p>Você possui uma musculatura poderosa – e pesada. Você rola +1d6 em testes para não ser derrubado e para realizar encontrões, mas é considerado Inapto em testes de natação, escalada e salto. Além disso, você precisa de uma ação de rodada completa para se levantar ao invés de uma ação de movimento, mas sua Carga é calculada como se você tivesse Força +2.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Herói, pág. 101–103",
+    "fonteLivro": "Guia do Herói, pág. 35",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode acrescentar som a qualquer ilusão que crie. Você controla totalmente os sons que a ilusão irá produzir e pode adicionar múltiplos sons ao mesmo tempo (barulho de passos e vozes enquanto a ilusão de um casal caminha e conversa, ranger de metal, bater de cascos, e relinchos enquanto a ilusão de um guerreiro montado em um cavalo, etc.). A ilusão terá som durante toda a sua duração. Invisibilidade 1 Habilidade (Magia) – Ação Mana: 20 Dificuldade da Magia: 11 Descrição: Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura, você a torna – assim como todas as suas posses – invisível.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Som Ilusório. Caminho Ilusionista.</p></div>"
+    "description": "<p>Você pode acrescentar som a qualquer ilusão que crie. Você controla totalmente os sons que a ilusão irá produzir e pode adicionar múltiplos sons ao mesmo tempo (barulho de passos e vozes enquanto a ilusão de um casal caminha e conversa, ranger de metal, bater de cascos, e relinchos enquanto a ilusão de um guerreiro montado em um cavalo, etc.). A ilusão terá som durante toda a sua duração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Som Ilusório. Caminho Ilusionista.</p></div>"
   },
   "flags": {
     "mighty-blade": {

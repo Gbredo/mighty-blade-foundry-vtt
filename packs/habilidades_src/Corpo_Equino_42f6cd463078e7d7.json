@@ -16,7 +16,7 @@
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
-    "fonteLivro": "Guia do Herói, pág. 12–13; Codex Monstrorum, pág. 153",
+    "fonteLivro": "Guia do Herói, pág. 15; Codex Monstrorum, pág. 153",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -49,7 +49,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui a parte inferior do corpo de um cavalo e a parte superior de um humanoide, pesando cerca de 500 kg. Sua Carga é calculada como 2x Força e seu Deslocamento base é calculado como 2x Agilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Devido ao seu tamanho e peso, testes de nadar, escalar ou se segurar apenas com os braços são realizados como Inapto. Ações como dar cambalhotas ou subir escadas verticais são consideradas impossíveis. Em combate montado, você não pode se esquivar (usa apenas Bloqueio) e não usa ação de movimento para se deslocar.</p></div>"
+    "description": "<p>Você possui o dorso de um cavalo. Sua carga é calculada como se você tivesse duas vezes a sua Força normal, seu deslocamento é calculado como se você tivesse duas vezes sua Agilidade normal e você pode rolar +1d6 quando fizer testes de correr, saltar ou evitar ser derrubado. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão. Devido ao seu comprimento, estatura e peso, você tem dificuldades em uma série de atividades (como nadar, escalar e se segurar usando apenas os braços), realizando estas ações como se fosse Inapto, e o Mestre pode decidir que algumas atividades são impossíveis para você – como dar uma cambalhota ou subir uma escada de mão.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma descarga elétrica que causa dano igual a 10/Eletricidade. Esse ataque ignora bônus de Defesa (incluindo RD) oferecido por Escudos ou por qualquer Habilidade que exija o uso de itens (como Defesa Agressiva e Aparar) e armaduras com a Propriedade Pesada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Arma Relampejante.</p></div>"
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma descarga elétrica que causa dano igual a 10/Eletricidade. Esse ataque ignora qualquer escudo ou armadura com a Característica Pesada e quaisquer bônus de bloqueio do alvo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Arma Relampejante.</p></div>"
   },
   "flags": {
     "mighty-blade": {

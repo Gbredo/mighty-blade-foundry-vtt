@@ -5,7 +5,7 @@
   "system": {
     "tipo": "acao",
     "categoria": "tecnica",
-    "custo": 30,
+    "custo": 25,
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",

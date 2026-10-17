@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Organização",
     "nivel": "Nv2",
-    "fonteLivro": "Guia de Tebryn, pág. 94",
+    "fonteLivro": "Guia de Tebryn, pág. 89",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando você recebe um ataque corporal ou à distância que o atingiria, você pode realizar um contragolpe fulminante usando toda a sua letalidade. Você realiza um ataque contra o atacante usando Inteligência ou Agilidade no dano, e reduz o dano sofrido no ataque original em um valor igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Mandíbula Vermelha.</p></div>"
+    "description": "<p>Quando você recebe um contrato, você acha seu alvo – e ele morre! Sempre que você fizer um teste contra um alvo que você tenha sido contratado para matar, você pode rolar novamente um dos dados. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade uma vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Mandíbula Vermelha.<br>Especial: Uma vez que tenha aceito um contrato, a menos que ele seja rescindido ou que o alvo morra, você não pode selecionar um novo alvo. Se o contrato tiver múltiplos alvos, você recebe esse benefício para um número máximo de alvos igual à sua Vontade.</p></div>"
   },
   "flags": {
     "mighty-blade": {

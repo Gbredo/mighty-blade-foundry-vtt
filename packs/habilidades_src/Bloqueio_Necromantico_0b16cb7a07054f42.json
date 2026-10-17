@@ -39,7 +39,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Imune a Medo e Efeitos Mentais. O personagem não precisa mais dormir.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Avantesma.</p></div>"
+    "description": "<p>Você é imune a efeitos mentais e efeitos de medo e não precisa dormir (e é imune a efeitos que o façam dormir). Você ainda precisa ficar sem realizar tarefas extenuantes para recuperar Pontos de Vida e Pontos de Mana por descanso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Avantesma.</p></div>"
   },
   "flags": {
     "mighty-blade": {

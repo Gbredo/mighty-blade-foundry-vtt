@@ -11,13 +11,13 @@
     "dificuldadeTexto": "Confronto de Força ou Vontade",
     "requisitos": "",
     "acesso": [
-      "Geral\r  - \"Naga ♂",
+      "Naga ♂",
       "Naga ♀",
       "Orc"
     ],
-    "tipoAcesso": "Geral",
+    "tipoAcesso": "Raça",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Vilão, pág. 18",
+    "fonteLivro": "Guia do Vilão, pág. 39, 43",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -33,11 +33,11 @@
       "slug": "intimidador",
       "automatica": false,
       "acesso": [
-        "Geral\r  - \"Naga ♂",
+        "Naga ♂",
         "Naga ♀",
         "Orc"
       ],
-      "tipoAcesso": "Geral",
+      "tipoAcesso": "Raça",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": []

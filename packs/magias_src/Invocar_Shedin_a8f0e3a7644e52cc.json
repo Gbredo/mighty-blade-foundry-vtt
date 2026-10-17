@@ -7,8 +7,8 @@
     "fonte": "arcana",
     "custo": 60,
     "custoVariavel": false,
-    "dificuldade": 0,
-    "dificuldadeTexto": "",
+    "dificuldade": 16,
+    "dificuldadeTexto": "16",
     "circulo": 2,
     "nivel": "Nv2",
     "requisitos": "Nível 5",
@@ -18,7 +18,7 @@
     "tipoAcesso": "Caminho",
     "fonteLivro": "Guia do Vilão, pág. 85",
     "exclusivoCom": [],
-    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Traçando um Círculo de Invocação você invoca um Shedin (um Cenodoxus, Incubus ou Labatut são os mais comuns). O Shedin permanece no plano material por um número de minutos igual à sua Determinação – se tiver sido invocado através de um ritual que tenha envolvido o sacrifício de um ou múltiplos Humanoides ou Esfinges, você pode, como parte do ritual de invocação, acender um braseiro colocando o coração das criaturas nas brasas depois do sacrifício. O Shedin permanecerá por mais 1 hora para cada coração que for consumido pelas brasas dessa forma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Custo de 60 PM. Duração em minutos igual à Determinação, estendida por 1 hora por coração humanoide/esfinge sacrificado.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Traçando um Círculo de Invocação você invoca um Shedin (um Cenodoxus, Incubus ou Labatut são os mais comuns). O Shedin permanece no plano material por um número de minutos igual à sua Determinação – se tiver sido invocado através de um ritual que tenha envolvido o sacrifício de um ou múltiplos Humanoides ou Esfinges, Você pode, como parte do ritual de invocação, acender um braseiro e colocando o coração das criaturas nas brasas depois do sacrifício. O Shedin permanecerá por mais 1 hora para cada coração que for consumido pelas brasas dessa forma. Sacrificando outra criatura (não é preciso um novo ritual, mas a criatura ainda precisa estar Indefesa) e jogando seu coração no braseiro, você renova a duração da invocação por uma quantidade de Horas igual à Vontade da criatura sacrificada. Essa operação pode ser realizada indefinidamente. Se o braseiro for apagado ou você falhar em jogar o coração de um Humanoide ou Esfinge nas brasas dele quando o tempo de invocação acabar, o Shedin será imediatamente banido para o Inferno. Você só pode manter 1 Shedin sob seus serviços de cada vez, ou 2 Shedins se você for de nível 10 ou mais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Custo de 60 PM. Duração em minutos igual à Determinação, estendida por 1 hora por coração humanoide/esfinge sacrificado.</p></div>"
   },
   "flags": {
     "mighty-blade": {

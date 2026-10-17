@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você possui uma audição aguçada e uma visão treinada. Você rola +1d6 em todos os seus testes de Inteligência envolvendo percepção e rastreamento de alvos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede +1d6 em testes de Inteligência aplicados a notar presenças, rastrear e usar a percepção.</p></div>"
+    "description": "<p>Você possui uma audição aguçada e uma visão treinada. Você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos.</p>"
   },
   "flags": {
     "mighty-blade": {

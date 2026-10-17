@@ -1,0 +1,48 @@
+{
+  "name": "Ameaçador (Naga)",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Intimidador",
+    "acesso": [
+      "Naga ♂",
+      "Naga ♀"
+    ],
+    "tipoAcesso": "Raça",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia do Vilão, pág. 39",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é tão assustador que é difícil para qualquer um tentar manipulá-lo sem pensar nos riscos. Você tem Determinação +2 e se for alvo de um efeito de Medo ou tentativa de intimidação ou persuasão e o efeito não for um sucesso, o personagem que tentou afetá-lo sofrerá automaticamente (sem ser necessário qualquer teste) os efeitos da Habilidade Intimidador.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ameacador-naga",
+      "automatica": false,
+      "acesso": [
+        "Naga ♂",
+        "Naga ♀"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "aliases": [
+        "[Ameaçador]"
+      ],
+      "opcoes": []
+    }
+  },
+  "_id": "1d43306e5916fa4c",
+  "_key": "!items!1d43306e5916fa4c"
+}

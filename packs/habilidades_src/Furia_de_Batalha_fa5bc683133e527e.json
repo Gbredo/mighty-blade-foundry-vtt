@@ -9,13 +9,13 @@
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
-    "requisitos": "",
+    "requisitos": "Todas exceto Aesires",
     "acesso": [
       "Geral"
     ],
     "tipoAcesso": "Geral",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 16; Codex Monstrorum, pág. 165",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {

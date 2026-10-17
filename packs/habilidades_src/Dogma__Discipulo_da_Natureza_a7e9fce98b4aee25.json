@@ -12,8 +12,7 @@
     "requisitos": "Dogma",
     "acesso": [
       "Sacerdote",
-      "Druida",
-      "Geral"
+      "Druida"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Bônus",
@@ -34,8 +33,7 @@
       "automatica": false,
       "acesso": [
         "Sacerdote",
-        "Druida",
-        "Geral"
+        "Druida"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",

@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
-    "fonteLivro": "Guia do Vilão, pág. 81–84",
+    "fonteLivro": "Guia do Vilão, pág. 77",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você não possui órgãos internos funcionais, e é imune a efeitos de envelhecimento, efeitos de sangramento, morte instantânea, dano extra por acertos críticos ou golpes contra áreas vitais ou quaisquer efeito que envolvam afetar órgãos ou áreas vitais do corpo. Além disso, você se torna imune a efeitos de desidratação e desnutrição, mas não se be</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Bloqueio Necromântico. Caminho Avantesma.</p></div>"
+    "description": "<p>Você não possui órgãos internos funcionais, e é imune a efeitos de envelhecimento, efeitos de sangramento, morte instantânea, dano extra por acertos críticos ou golpes contra áreas vitais ou quaisquer efeito que envolvam afetar órgãos ou áreas vitais do corpo. Além disso, você se torna imune a efeitos de desidratação e desnutrição, mas não se beneficia de efeitos de Elixires. Especial: Você passa a ser considerado um morto-vivo para todos os efeitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Bloqueio Necromântico. Caminho Avantesma.</p></div>"
   },
   "flags": {
     "mighty-blade": {

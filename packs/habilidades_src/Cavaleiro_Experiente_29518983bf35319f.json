@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você passou muito tempo com animais de montaria e conhece seus hábitos, características e como lidar com eles. Você recebe +1d6 em todos os seus testes referentes à criaturas com a Habilidade Montaria – incluindo cavalgar, treinar e atacar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para a habilidade Combate Montado.</p></div>"
+    "description": "<p>Você passou muito tempo com animais de montaria e conhece seus hábitos, características e como lidar com eles. Você recebe +2 em todas as suas rolagens referentes a criaturas com as Habilidades Montaria e Paquiderme e recebe +2 em seus testes de ataque enquanto estiver montando uma dessas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para a habilidade Combate Montado.</p></div>"
   },
   "flags": {
     "mighty-blade": {

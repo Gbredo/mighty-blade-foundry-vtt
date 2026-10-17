@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 78",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 75",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -30,7 +30,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Suas orelhas grandes captam vibrações sonoras sutis. Você é capaz de perceber a localização de alvos mesmo no escuro total ou quando invisíveis, desde que eles façam qualquer som ao se mover ou respirar. Você rola +1d6 em todos os testes de Percepção baseados em ouvir.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Permite perceber a localização exata de criaturas camufladas/invisíveis ou no escuro através do som e concede +1d6 em testes de Percepção auditiva.</p></div>"
+    "description": "<p>Seus ouvidos são tão treinados e sensíveis que você não precisa usar seus olhos para se localizar. Você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor usando apenas a audição, e só é considerado cego se, além da sua visão, sua audição também for anulada de alguma forma. Quando estiver se guiando apenas pela audição você não é capaz de distinguir detalhes específicos (como cores, inscrições ou fisionomias). Você também pode rolar +1d6 quando fizer testes que envolvam a audição.</p>"
   },
   "flags": {
     "mighty-blade": {

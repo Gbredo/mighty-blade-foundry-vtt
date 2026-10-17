@@ -1,0 +1,46 @@
+{
+  "name": "Melodia do Frenesi",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "Confronto de Vontade",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Bardo",
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 72",
+    "exclusivoCom": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca um ritmo veloz enquanto canta uma música de guerra que inspira a violência em todos que a escutam. Todas as criaturas vivas a uma distância em metros de você igual à sua Determinação, e que puderem entender e ouvir essa Música, rolam um confronto de Vontade contra você a cada turno enquanto você continuar cantando. Aqueles que tiverem um resultado menor que o seu precisam realizar um ataque contra uma criatura durante seu turno – se não houver inimigos ao alcance, a criatura ataca um aliado, e se não houver qualquer criatura, ela ataca a si mesma (nesse caso, não faça o teste; apenas conte o dano diretamente). Todos os alvos que estiverem sob efeito dessa Música recebem +2 em seus testes de ataque corporal e -1 em seu Bloqueio e Esquiva.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-do-frenesi",
+      "automatica": false,
+      "acesso": [
+        "Bardo",
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": []
+    }
+  },
+  "_id": "250ba9d9a14c0807",
+  "_key": "!items!250ba9d9a14c0807"
+}

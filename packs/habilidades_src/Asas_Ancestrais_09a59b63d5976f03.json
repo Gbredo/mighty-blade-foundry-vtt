@@ -16,7 +16,7 @@
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 33; Errata, pág. 1",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 67; Errata, pág. 1",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -36,7 +36,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui grandes asas emplumadas e constituição similar à de aves de rapina. Você é imune a efeitos de envelhecimento e pode voar com grande velocidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Para alçar voo a partir do chão, você precisa de um espaço de impulso igual à sua envergadura (o dobro da sua altura). No ar, você não pode pairar/ficar imóvel (apenas planar ou se mover continuamente). Armaduras pesadas e rígidas impedem o voo.</p></div>"
+    "description": "<p>Você é imune a efeitos de envelhecimento e possui grandes asas e pode voar, precisando de um espaço igual à sua envergadura para pegar impulso antes de alçar voo (sua envergadura é duas vezes a sua altura). Quando estiver voando, você não pode parar no ar (mas pode planar) e seu deslocamento em voo é o dobro de seu deslocamento normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos do Encontrão).</p></div>"
   },
   "flags": {
     "mighty-blade": {

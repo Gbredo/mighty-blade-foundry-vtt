@@ -5,7 +5,7 @@
   "system": {
     "tipo": "reacao",
     "categoria": "caracteristica",
-    "custo": 0,
+    "custo": 10,
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",
@@ -17,7 +17,7 @@
     ],
     "tipoAcesso": "Geral",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 39",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 63",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>O destino parece favorecer você nos momentos mais críticos. Uma vez por dia, você pode optar por rolar novamente qualquer teste que acabou de fazer e escolher qual dos dois resultados vai manter.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Pode ser usada apenas 1 vez por dia.</p></div>"
+    "description": "<p>Você está acostumado a contar com a sorte – e ela costuma lhe sorrir. Você pode rolar novamente um dado cujo resultado seja 1. Você só pode usar essa Habilidade uma vez por turno.</p>"
   },
   "flags": {
     "mighty-blade": {

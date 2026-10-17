@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Dogma",
     "acesso": [
-      "Sacerdote",
-      "Geral"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Bônus",
@@ -32,8 +31,7 @@
       "slug": "dogma-discipulo-do-destino",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Geral"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",

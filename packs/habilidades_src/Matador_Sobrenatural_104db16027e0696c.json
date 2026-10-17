@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
-    "fonteLivro": "Guia do Vilão, pág. 89–91",
+    "fonteLivro": "Guia de Tebryn, pág. 118",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que acertar um ataque corporal em criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo, some sua Vontade ao dano daquele ataque. Além disso, você recebe +2 em todas as suas rolagens relacionadas a essas criaturas. Perceber Corrupção Habilidade – Suporte Requisitos: Nível 5, Sexto Sentido. Descrição: Criaturas sobrenaturais não são capazes de esconder sua natureza de você. Sempre que você estiver diante de uma criatura amaldiçoada, um morto-vivo, Infernal ou espírito, você é capaz de perceber a natureza sobrenatural daquela criatura imediatamente, mesmo que ela esteja disfarçada, transformada ou sob algum efeito ilusório – incluindo qualquer forma de invisibilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Estrige.</p></div>"
+    "description": "<p>Sempre que acertar um ataque corporal em criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo, some sua Vontade ao dano daquele ataque. Além disso, você recebe +2 em todas as suas rolagens relacionadas a essas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Estrige.</p></div>"
   },
   "flags": {
     "mighty-blade": {

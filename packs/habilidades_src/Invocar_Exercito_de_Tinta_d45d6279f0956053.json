@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv3",
-    "fonteLivro": "Guia de Tebryn, pág. 80–83",
+    "fonteLivro": "Guia do Herói, pág. 45",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {
@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Enquanto a tatuagem do seu Espírito Animal estiver à mostra, você pode invocar múltiplos espíritos animais espectrais a partir dela. Você pode invocar múltiplos espíritos de uma só vez usando Espírito de Tinta, mas só pode manter simultaneamente um número de espíritos igual à sua Vontade. 46 Capítulo 4 – Equipamentos Apresentamos aqui regras para criar, manter e modificar itens mundanos – como armas, armaduras, kits de arrombamento, roupas, etc. Assim como regras para a criação de poções e itens mágicos, tanto com relação à sua natureza quanto à sua fabricação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Espírito de Tinta. Caminho Tohunga.</p></div>"
+    "description": "<p>Enquanto a tatuagem do seu Espírito Animal estiver à mostra, você pode invocar múltiplos espíritos animais espectrais a partir dela. Você pode invocar múltiplos espíritos de uma só vez usando Espírito de Tinta, mas só pode manter simultaneamente um número de espíritos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Espírito de Tinta. Caminho Tohunga.</p></div>"
   },
   "flags": {
     "mighty-blade": {
