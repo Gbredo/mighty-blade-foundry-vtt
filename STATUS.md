@@ -1,14 +1,17 @@
 # STATUS TÁTICO — mighty-blade-foundry-vtt
 
-- Data/Hora: 2026-10-17 — 15:10
+- Data/Hora: 2026-10-17 — 15:25
 - Branch Ativa: main
-- Último Commit: f8a18a7 (feat(ficha): bloquear habilidade repetida, limite de espaços por nível (regra do rules-core) e aviso/grupo de magias na aba Habilidades)
+- Último Commit: baf77b9 (feat(regras): duplicata e limite ao arrastar, habilidades virtuais para automáticas substituídas e aviso em lote de magias)
 
 ## Estado Atual
-- **797/797 testes passando (0 falhas)** via `npm test` local e CI verde no GitHub Actions (run `39056784149`).
-- Navegador de compêndio e Ficha do Ator atualizados com cálculo estrito de espaços de habilidades por nível (`CANONICAL_HABILIDADES_POR_NIVEL` do `rules-core`).
-- Prevenção de duplicatas ativa no navegador com badge `Já possui` e bloqueio de re-aquisição via `ui.notifications.warn`.
-- UX de Magias aprimorada: exibição de grupo resumido "Magias (N)" com atalho para o Grimório na aba de habilidades, notificação `ui.notifications.info` ao aprender magias, e renderização limpa de dificuldades não-numéricas (sem prefixo `DV 0`).
+- **801/801 testes passando (0 falhas)** via `npm test` local e CI verde no GitHub Actions (run `39057846224`).
+- `packs/` limpo e sincronizado via `git checkout` e `git clean`.
+- Prevenção de duplicatas ativa no navegador e ao arrastar itens para a ficha (com remoção da cópia repetida e aviso `warn`).
+- Limite de espaços ao arrastar atua informativamente (`warn: Espaços excedidos (X / Y)`), sem bloquear importações de fichas prontas.
+- Habilidades Virtuais implementadas em paridade com o site (`removerEmCascata`), somando automáticas substituídas ao limite.
+- Aviso consolidado de magias em lote (`N magias adicionadas ao Grimório.`).
+- Glossário do Cofre atualizado com `LevelDB.md` e referenciado em `00_Glossario.md`.
 
 ## Próximo Passo Imediato
-- Pronto para as próximas tarefas do roadmap ou novas especificações canônicas.
+- Pronto para novas tarefas ou validação do usuário.
