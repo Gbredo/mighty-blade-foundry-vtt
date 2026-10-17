@@ -4491,7 +4491,7 @@ export const CANONICAL_HABILIDADES = [
     "img": "icons/svg/aura.svg",
     "system": {
       "tipo": "acao",
-      "categoria": "tecnica",
+      "categoria": "caracteristica",
       "custo": 40,
       "custoVariavel": false,
       "dificuldade": 0,
@@ -4502,7 +4502,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv3",
-      "fonteLivro": "Guia do Vilão, pág. 83–87",
+      "fonteLivro": "Guia do Vilão, pág. 91",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -6488,7 +6488,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode realizar ataques brutais se concentrando apenas em derrotar o oponente em detrimento da sua defesa. Faça um ataque corporal contra o alvo, adicionando uma quantidade extra de dano igual ao triplo do seu bônus de Bloqueio. Se o alvo for atingido, além de sofrer o dano do ataque, você não poderá somar seu bônus de Bloqueio na sua Defesa até o seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige pertencer ao Caminho Amoque (cujos requisitos de entrada são Força 6 e qualquer Habilidade de Fúria). Caso atinja o alvo, impõe a perda da soma do bônus de Bloqueio à Defesa até o início do seu próximo turno.</p></div>"
+      "description": "<p>Você pode realizar ataques brutais se concentrando apenas em derrotar o oponente em detrimento da sua defesa. Faça um ataque corporal contra o alvo, adicionando uma quantidade extra de dano igual ao triplo do seu bônus de Bloqueio. Se o alvo for atingido, além do dano extra ele é arremessado para trás uma quantidade de metros igual ao valor do bônus escolhido e precisa fazer um teste de Agilidade (Dificuldade igual à sua Determinação) para não cair. Até o início do seu próximo turno você não soma o bônus de Bloqueio na sua Defesa.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -6646,7 +6646,7 @@ export const CANONICAL_HABILIDADES = [
     "img": "icons/svg/aura.svg",
     "system": {
       "tipo": "acao",
-      "categoria": "tecnica",
+      "categoria": "padrao",
       "custo": 10,
       "custoVariavel": false,
       "dificuldade": 0,
@@ -6657,7 +6657,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 46, 91",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 108",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -9215,7 +9215,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você solta um poderoso uivo (ou uma poderosa vibração sob a água) que será entendida como um chamado irresistível para os animais que o ouvirem. Você consegue atrair todas as Bestas (Escolha entre Mamífero, Ave, Réptil ou Peixe) do tipo escolhido que estejam a até 500 metros por ponto de Força que você tenha. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais sobreviventes ou agressivos não terão problemas com isso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Benção de Ellenis. No Codex Monstrorum (pág. 175), a versão revisada especifica que a habilidade atrai uma quantidade de Bestas igual à sua Vontade com Ameaça 0. Especial: Você pode refinar o tipo específico de animal quando ativar esta habilidade.</p></div>"
+      "description": "<p>Você solta um poderoso uivo (ou uma poderosa vibração sob a água) que será entendida como um chamado irresistível para os animais que o ouvirem, atraindo uma quantidade de Bestas igual à sua Vontade escolhidas entre Mamífero, Ave, Réptil ou Peixe com Ameaça 0 que estejam a até 500 metros por ponto de Força que você tenha. Em combate, 1 animal por vez chegará no início do seu turno até o número máximo de animais. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais Sobreviventes, Ferozes ou Furiosos não terão problemas com isso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade não tem efeito em Bestas com o comportamento Servo, e animais Protetores avisarão seus donos antes de virem até você – e agirão como se tivessem o Temperamento normal daquele tipo de animal ao invés de Protetor enquanto durar o efeito (mas se recusarão a atacar seus donos).<br>Este efeito dura 1 hora, e depois disso as Bestas afetadas voltarão pacificamente para os locais de onde vieram.<br>Especial: Você pode refinar o tipo específico de animal (“Lobos”, “Herbívoros” ou “Ferozes”) ou até mesmo um animal específico (“Aquele cão que fica na volta da taverna”, “o companheiro animal do Druida” ou “O camelo do líder da caravana”) quando utilizar esta Habilidade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -9843,7 +9843,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia de Tebryn, pág. 33, 44",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 113; Guia de Tebryn, pág. 75, 106",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -10037,7 +10037,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você ordena uma palavra a um aliado (pule, resista, viva, acerte, etc.) e o alvo realiza imediatamente aquela ação. A ordem não pode ser negativa (falhe, morra, caia, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo ainda rola seu teste normalmente, apenas para verificar a possibilidade de um sucesso crítico – qualquer outro resultado (mesmo uma falha crítica) é considerado um sucesso normal. Requer Nível 5 e Motivar.</p></div>"
+      "description": "<p>Você ordena uma palavra a um aliado (pule, resista, viva, acerte, etc.) e o alvo realiza imediatamente aquela ação. A ordem não pode ser negativa (falhe, morra, caia, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo ainda rola seu teste normalmente, apenas para verificar a possibilidade de um sucesso crítico – qualquer outro resultado (mesmo uma falha crítica) é considerado um sucesso normal.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -10223,7 +10223,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 114; Codex Monstrorum, pág. 153",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 114; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -10731,7 +10731,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Geral",
       "nivel": "Nv1",
-      "fonteLivro": "Guia do Herói, pág. 11",
+      "fonteLivro": "Guia do Herói, pág. 14",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -12215,7 +12215,7 @@ export const CANONICAL_HABILIDADES = [
     "img": "icons/svg/aura.svg",
     "system": {
       "tipo": "suporte",
-      "categoria": "caracteristica",
+      "categoria": "tecnica",
       "custo": 0,
       "custoVariavel": false,
       "dificuldade": 0,
@@ -12226,7 +12226,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 69; Codex Monstrorum, pág. 162",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -18290,7 +18290,7 @@ export const CANONICAL_HABILIDADES = [
     "img": "icons/svg/aura.svg",
     "system": {
       "tipo": "acao",
-      "categoria": "tecnica",
+      "categoria": "caracteristica",
       "custo": 20,
       "custoVariavel": false,
       "dificuldade": 0,
@@ -18302,7 +18302,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "fonteLivro": "Guia do Vilão, pág. 24; Canção do Bardo, pág. 50",
+      "fonteLivro": "Canção do Bardo, pág. 64; Guia do Vilão, pág. 63",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -21993,7 +21993,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia do Vilão, pág. 28, 43; Errata, pág. 1",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 66; Guia do Vilão, pág. 31, 43; Codex Monstrorum, pág. 168; Codex Extra de Criaturas, pág. 21; Errata, pág. 1",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -23591,7 +23591,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 119",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 111, 122",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -25634,7 +25634,7 @@ export const CANONICAL_HABILIDADES = [
     "img": "icons/svg/aura.svg",
     "system": {
       "tipo": "reacao",
-      "categoria": "caracteristica",
+      "categoria": "padrao",
       "custo": 5,
       "custoVariavel": false,
       "dificuldade": 0,
@@ -29999,7 +29999,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
-      "fonteLivro": "Guia do Vilão, pág. 26",
+      "fonteLivro": "Guia do Vilão, pág. 64",
       "exclusivoCom": [],
       "somenteCriacao": false,
       "bonusAtributo": {
@@ -30644,7 +30644,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 100,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Varia",
       "circulo": 3,
       "nivel": "Nv3",
       "requisitos": "Nível 10, Dom do Artífice",
@@ -30652,7 +30652,7 @@ export const CANONICAL_MAGIAS = [
         "Artífice"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Herói, pág. 89–91",
+      "fonteLivro": "Guia do Herói, pág. 30",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, Dom do Artífice</p><p>Desenhando uma Runa sobre um item mágico, o Artífice pode desestabilizar o encantamento do item temporariamente, permitindo que um segundo encantamento seja iniciado sobre o item enquanto esta Runa estiver ativa. A Dificuldade dessa Magia é igual à dificuldade do encantamento original do item. Um item só pode ser afetado por Abrir Encantamento uma vez. Esta Runa Arcana dura 12 horas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Dom do Artífice. Caminho Artífice.</p></div>"
     },
@@ -30865,8 +30865,8 @@ export const CANONICAL_MAGIAS = [
       "fonte": "arcana",
       "custo": 60,
       "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldade": 16,
+      "dificuldadeTexto": "16",
       "circulo": 2,
       "nivel": "Nv2",
       "requisitos": "Nível 5",
@@ -30874,7 +30874,7 @@ export const CANONICAL_MAGIAS = [
         "Argênteo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Herói, pág. 83–85",
+      "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana no solo, você cria uma área esférica de magia morta cujo raio é igual à sua Vontade em metros. Dentro desta área é impossível conjurar Magias, e todos os efeitos de itens mágicos ficam inativos enquanto eles estiverem dentro dessa área, e o mesmo ocorre com qualquer construto. Além disso, qualquer morto-vivo com a Habilidade Mente Vazia, elementais ou qualquer criatura que tenha sido invocada que entrem na área são imediatamente destruídos. Essa área de magia morta persistirá até o próximo nascer do sol. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados. 111</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Argênteo.</p></div>"
     },
@@ -33517,7 +33517,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 10,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 2,
       "nivel": "Nv2",
       "requisitos": "Nível 5",
@@ -33525,7 +33525,7 @@ export const CANONICAL_MAGIAS = [
         "Sanguíneo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 92–94",
+      "fonteLivro": "Guia do Vilão, pág. 95",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro da sua linha de visão, você faz com que o alvo verta sangue através da pele. O alvo perde uma quantidade de Pontos de Vida igual à sua Vontade por turno. Essa Runa Arcana dura por uma quantidade de turnos igual à sua Vontade. Este é um efeito de sangramento. Este efeito é considerado como uma Maldição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Sanguíneo.</p></div>"
     },
@@ -34370,7 +34370,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 20,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -34378,7 +34378,7 @@ export const CANONICAL_MAGIAS = [
         "Sanguíneo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 92–94",
+      "fonteLivro": "Guia do Vilão, pág. 94",
       "exclusivoCom": [],
       "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você cria um vínculo vital entre ele e você. Sempre que o alvo sofrer dano ou perder Pontos de Vida, você recupera metade da quantidade de dano sofrido ou Pontos de Vida perdidos. Esta Runa Arcana dura 1 minuto. Este efeito é considerado como uma Maldição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
     },
@@ -34444,7 +34444,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 35,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -34452,7 +34452,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela tenha alucinações visuais e auditivas – geralmente de figuras infernais ou fantasmagóricas. Enquanto estiver sob efeito dessa maldição, o alvo é considerado Distraído. Esse Símbolo Profano dura uma quantidade de minutos igual à sua Vontade. Este é um efeito mental.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
@@ -34481,7 +34481,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 45,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -34489,7 +34489,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com ela se torne incapaz de ver. Seus olhos ficam leitosos e sem cor, e a vítima fica cega. Esse Símbolo Profano dura um número de horas igual à sua Determinação. Este é considerado um efeito de dreno de energia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
@@ -34518,7 +34518,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 30,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -34526,7 +34526,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com que o alvo se sinta fraco e doente, ficando Vulnerável a um tipo de dano físico à sua escolha (Contusão, Corte ou Perfuração). Esse Símbolo Profano dura uma quantidade de minutos igual à sua Vontade. Este é um efeito de dreno de energia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
@@ -34555,7 +34555,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 60,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 2,
       "nivel": "Nv2",
       "requisitos": "Nível 5, Maldição: Fobia",
@@ -34563,7 +34563,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você domina sua</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Maldição: Fobia. Caminho Aziago.</p></div>"
     },
@@ -34592,7 +34592,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 40,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -34600,7 +34600,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 79",
       "exclusivoCom": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz o alvo sentir dores musculares terríveis. O alvo precisa fazer um teste de Força (Dificuldade igual à Determinação do conjurador) no começo de cada um dos seus turnos para poder agir. Em cada turno que falhar, ele fica Paralisado, incapaz de agir, retorcendo-se de dor. Esse Símbolo Profano dura uma quantidade de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
@@ -34629,7 +34629,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 40,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 2,
       "nivel": "Nv2",
       "requisitos": "Nível 5",
@@ -34637,7 +34637,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz com que ela desenvolva um desejo insaciável por carne e sangue de sua própria Raça, precisando se alimentar dela uma vez ao dia. A cada meia-noite em que o alvo não for capaz de consumir um quilo de carne ou beber um litro de sangue de sua própria Raça, ele precisa passar em um teste de Vontade (Dificuldade igual à Determinação do conjurador) ou entrará em frenesi e atacará qualquer criatura inteligente nas proximidades, que tentará matar e devorar – o frenesi só cessa quando ele conseguir devorar um quilo de carne de uma criatura Humanoide ou Esfinge.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Aziago.</p></div>"
     },
@@ -34666,7 +34666,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 20,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -34674,7 +34674,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva você faz com que ela desenvolva um medo sobrenatural por alguma coisa à sua escolha – geralmente o próprio conjurador ou sua Raça, mas qualquer coisa (cavernas, a cor negra, cavalos, água, etc.) podem ser nomeados. O alvo ficará Amedrontado com relação à coisa nomeada. Esse Símbolo Profano dura uma quantidade de minutos igual à sua Determinação. Este é um efeito de medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
@@ -35151,7 +35151,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 30,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Varia",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "Teleporte 1",
@@ -35159,7 +35159,7 @@ export const CANONICAL_MAGIAS = [
         "Argênteo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Herói, pág. 83–85",
+      "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Teleporte 1</p><p>Desenhando uma Runa Arcana entre você e um alvo, você é teleportado para a posição em que o alvo ocupa ao mesmo tempo em que o alvo é teleportado para o local que você está. Se por algum motivo o alvo ou não couber na área onde você está (e vice-versa), esta magia falha automaticamente. Se o alvo for uma criatura, a Dificuldade dessa magia será igual à Determinação do alvo. Se o alvo for um objeto, a Dificuldade será igual ao peso do objeto em quilos, dividido por 5 (arredondado para baixo). Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Teleporte 1. Caminho Argênteo.</p></div>"
     },
@@ -35187,8 +35187,8 @@ export const CANONICAL_MAGIAS = [
       "fonte": "arcana",
       "custo": 20,
       "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldade": 14,
+      "dificuldadeTexto": "14",
       "circulo": 2,
       "nivel": "Nv2",
       "requisitos": "Nível 5, Sala Oculta",
@@ -35196,7 +35196,7 @@ export const CANONICAL_MAGIAS = [
         "Argênteo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Herói, pág. 83–85",
+      "fonteLivro": "Guia de Tebryn, pág. 111",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Sala Oculta</p><p>Desenhando uma Runa Arcana sobre uma porta, você cria um acesso permanente para a sua Sala Oculta. A porta em que você desenhar esta Runa aparece numa das paredes da sua Sala Oculta, e sempre que você abrir a porta por dentro da Sala Oculta, você sairá pela porta marcada. Assim que a porta for fechada, no entanto, ela não levará mais para a Sala Oculta – ou seja, ela serve para sair da Sala Oculta em um lugar fixo, mas não serve de entrada de emergência. Você pode ter um número de Portas Ocultas igual à sua Inteligência. Essa Runa Arcana é perene.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Sala Oculta. Caminho Argênteo.</p></div>"
     },
@@ -35780,7 +35780,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 0,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Especial",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -35788,7 +35788,7 @@ export const CANONICAL_MAGIAS = [
         "Aziago"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 85–88",
+      "fonteLivro": "Guia do Vilão, pág. 80",
       "exclusivoCom": [],
       "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você faz com que todos os um Símbolo Profano da categoria Maldição e Doenças Mágicas que estejam afetando a criatura sejam removidas imediatamente. Este Símbolo funciona sobre efeitos perenes que sejam considerados Maldições (como licantropia, Doença Carniçal ou criaturas afetadas por Eternizar Maldição), mas não alteram o Tipo da criatura afetada – Vampiros, Lobisomens e outros mortos-vivos ou amaldiçoados não são revertidos ao seu estado natural, mas essas criaturas ficam Amedrontadas com relação a você por um número de turnos igual à sua Vontade. O custo em Mana desta Magia será igual ao custo mais alto entre todas as Maldições afetando o alvo, ou, no caso de um efeito sem custo em Mana, 30. A dificuldade desta magia será igual à Determinação do conjurador da Maldição, ou, no caso de Doenças Mágicas, a dificuldade de contaminação da doença. Este Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
     },
@@ -35931,8 +35931,8 @@ export const CANONICAL_MAGIAS = [
       "fonte": "arcana",
       "custo": 20,
       "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldade": 10,
+      "dificuldadeTexto": "10",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -35940,7 +35940,7 @@ export const CANONICAL_MAGIAS = [
         "Argênteo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Herói, pág. 83–85",
+      "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
       "description": "<p>Você pode desenhar uma Runa Arcana em um item com a Característica Registro. Esta Runa fica ligada ao local geográfico em que você se encontra quando a conjura, e se torna um “atalho mágico” para o local. Você pode conjurar uma magia locomoção (Teleportar Objeto, Portal, Levitar, etc.) sobre esta Runa, indo para o local onde ela foi desenhada. A magia de locomoção conjurada sobre essa Runa custa metade dos Pontos de Mana normais para se a duração for menor do que o tempo necessário para chegar ao local, ela irá durar pelo tempo da viagem – mas será imediatamente dissipada se o personagem parar ou desviar da direção da Runa de Localização.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Argênteo.</p></div>"
     },
@@ -36005,8 +36005,8 @@ export const CANONICAL_MAGIAS = [
       "fonte": "arcana",
       "custo": 30,
       "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldade": 15,
+      "dificuldadeTexto": "15",
       "circulo": 2,
       "nivel": "Nv2",
       "requisitos": "Nível 5, Ferimentos Abertos",
@@ -36014,7 +36014,7 @@ export const CANONICAL_MAGIAS = [
         "Sanguíneo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 92–94",
+      "fonteLivro": "Guia do Vilão, pág. 95",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 5, Ferimentos Abertos</p><p>Desenhando uma Runa Arcana sobre si mesmo, você se torna um nexo de energia necromântica, absorvendo a força vital das criaturas vivas ao seu redor. Você absorve parte da energia vital contida nesse sangue, recuperando metade de todo dano ou perda de vida causada por efeitos de sangramento dentro da área de efeito da magia. Essa Runa Arcana dura por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Ferimentos Abertos. Caminho Sanguíneo.</p></div>"
     },
@@ -36229,8 +36229,8 @@ export const CANONICAL_MAGIAS = [
       "fonte": "arcana",
       "custo": 20,
       "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldade": 10,
+      "dificuldadeTexto": "10",
       "circulo": 1,
       "nivel": "Nv1",
       "requisitos": "",
@@ -36238,7 +36238,7 @@ export const CANONICAL_MAGIAS = [
         "Argênteo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Herói, pág. 83–85",
+      "fonteLivro": "Guia de Tebryn, pág. 110",
       "exclusivoCom": [],
       "description": "<p>Desenhando uma Runa Arcana sobre um objeto, você pode teleportá-lo para um local que conheça. O local de destino pode ser uma localização geográfica (“Sobre a escrivaninha do meu quarto”, por exemplo), um recipiente capaz de conter o objeto e que tenha sua Runa Pessoal gravada nele (“para dentro da minha mochila”) ou até um aliado (“para a mão do Guerreiro”). Se teleportar o objeto para dentro de um objeto marcado com sua Runa Pessoal ou para um aliado, você não precisa saber onde o local de destino está. O objeto afetado pode ter uma FN máxima igual à Inteligência do conjurador. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Argênteo.</p></div>"
     },
@@ -36525,18 +36525,18 @@ export const CANONICAL_MAGIAS = [
       "fonte": "mistica",
       "custo": 20,
       "custoVariavel": false,
-      "dificuldade": 11,
-      "dificuldadeTexto": "11",
+      "dificuldade": 13,
+      "dificuldadeTexto": "13",
       "circulo": 1,
       "nivel": "Nv1",
-      "requisitos": "Caminhada Mágica",
+      "requisitos": "Nível 5, Caminhada Mágica",
       "acesso": [
         "Sacerdote"
       ],
       "tipoAcesso": "Classe",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 145",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 135",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva você aumenta a velocidade dela, deixando-a com o dobro do Deslocamento e de ações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico se dissipa no final do próximo turno do alvo. Requer a habilidade Caminhada Mágica.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Caminhada Mágica</p><p>Desenhando um Selo Místico sobre uma criatura viva você aumenta a velocidade dela, deixando-a com o dobro do Deslocamento e de ações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico se dissipa no final do próximo turno do alvo. Requer a habilidade Caminhada Mágica.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -36563,7 +36563,7 @@ export const CANONICAL_MAGIAS = [
       "custo": 30,
       "custoVariavel": false,
       "dificuldade": 0,
-      "dificuldadeTexto": "",
+      "dificuldadeTexto": "Determinação do Alvo",
       "circulo": 3,
       "nivel": "Nv3",
       "requisitos": "Nível 10, Deflagrar Ossos",
@@ -36571,7 +36571,7 @@ export const CANONICAL_MAGIAS = [
         "Sanguíneo"
       ],
       "tipoAcesso": "Caminho",
-      "fonteLivro": "Guia do Vilão, pág. 92–94",
+      "fonteLivro": "Guia do Vilão, pág. 95",
       "exclusivoCom": [],
       "description": "<p><strong>Requisitos:</strong> Nível 10, Deflagrar Ossos</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro de sua linha de visão, você faz com que os ossos do alvo vibrem violentamente sob seus músculos, fazendo o alvo perder 30 Pontos de Vida e fique Atordoado por uma quantidade de turnos igual à sua Inteligência. Se o alvo for um morto-vivo, ele sofre uma quantidade de dano adicional igual à sua Determinação. Se o alvo ficar sem Pontos de Vida graças a esse efeito, seus ossos explodem através da carne, matando o alvo imediatamente e causando dano como descrito em Deflagrar Ossos. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Deflagrar Ossos. Caminho Sanguíneo.</p></div>"
     },

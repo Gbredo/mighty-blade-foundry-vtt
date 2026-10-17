@@ -8,7 +8,7 @@
     "custo": 60,
     "custoVariavel": false,
     "dificuldade": 0,
-    "dificuldadeTexto": "",
+    "dificuldadeTexto": "Determinação do Alvo",
     "circulo": 2,
     "nivel": "Nv2",
     "requisitos": "Nível 5, Maldição: Fobia",
@@ -16,7 +16,7 @@
       "Aziago"
     ],
     "tipoAcesso": "Caminho",
-    "fonteLivro": "Guia do Vilão, pág. 85–88",
+    "fonteLivro": "Guia do Vilão, pág. 80",
     "exclusivoCom": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você domina sua</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Maldição: Fobia. Caminho Aziago.</p></div>"
   },

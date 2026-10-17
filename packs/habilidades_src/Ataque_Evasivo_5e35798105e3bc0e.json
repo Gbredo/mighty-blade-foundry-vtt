@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "padrao",
     "custo": 10,
     "custoVariavel": false,
     "dificuldade": 0,
@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 46, 91",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 108",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {

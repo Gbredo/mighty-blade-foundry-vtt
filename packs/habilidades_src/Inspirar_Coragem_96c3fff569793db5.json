@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "acao",
-    "categoria": "tecnica",
+    "categoria": "caracteristica",
     "custo": 20,
     "custoVariavel": false,
     "dificuldade": 0,
@@ -16,7 +16,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
-    "fonteLivro": "Guia do Vilão, pág. 24; Canção do Bardo, pág. 50",
+    "fonteLivro": "Canção do Bardo, pág. 64; Guia do Vilão, pág. 63",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {

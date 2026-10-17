@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "tecnica",
     "custo": 0,
     "custoVariavel": false,
     "dificuldade": 0,
@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 69; Codex Monstrorum, pág. 162",
     "exclusivoCom": [],
     "somenteCriacao": false,
     "bonusAtributo": {

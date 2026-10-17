@@ -8,7 +8,7 @@
     "custo": 20,
     "custoVariavel": false,
     "dificuldade": 0,
-    "dificuldadeTexto": "",
+    "dificuldadeTexto": "Determinação do Alvo",
     "circulo": 1,
     "nivel": "Nv1",
     "requisitos": "",
@@ -16,7 +16,7 @@
       "Sanguíneo"
     ],
     "tipoAcesso": "Caminho",
-    "fonteLivro": "Guia do Vilão, pág. 92–94",
+    "fonteLivro": "Guia do Vilão, pág. 94",
     "exclusivoCom": [],
     "description": "<p>Desenhando uma Runa Arcana sobre uma criatura viva, você cria um vínculo vital entre ele e você. Sempre que o alvo sofrer dano ou perder Pontos de Vida, você recupera metade da quantidade de dano sofrido ou Pontos de Vida perdidos. Esta Runa Arcana dura 1 minuto. Este efeito é considerado como uma Maldição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Sanguíneo.</p></div>"
   },
