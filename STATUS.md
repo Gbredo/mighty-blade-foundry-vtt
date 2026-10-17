@@ -1,14 +1,14 @@
 # STATUS TÁTICO — mighty-blade-foundry-vtt
 
-- Data/Hora: 2026-10-17 — 16:40
+- Data/Hora: 2026-10-17 — 16:55
 - Branch Ativa: main
-- Último Commit: 6cc6fe8 (feat(compendios): atualizar packs com lote 5 r5 e status inventada)
+- Último Commit: 4fb0f5b (feat(compendios): atualizar packs com auditoria do Geral (23 habilidades gerais))
 
 ## Estado Atual
 - **801/801 testes passando (0 falhas)** via `npm test` local.
-- Compêndios LevelDB (`packs/`) e JSONs-fonte (`packs/*_src/`) sincronizados e compilados com Lote 5 r5 (não achados, inventadas e renomeações).
-- Status `inventada` implementado no exportador e suíte de testes (163 magias + 550 habs principais = 713 ativas).
-- `packs/` e working tree totalmente limpos (`git status` limpo). Commit e push realizados (`6cc6fe8`).
+- Auditoria do Geral aplicada: sub-aba "Gerais" do compêndio filtra exatamente as 23 habilidades gerais canônicas (15 só-Geral + 8 Pacto/Apóstata).
+- Compêndios LevelDB (`packs/`) e JSONs-fonte (`packs/*_src/`) totalmente sincronizados e limpos.
+- Push realizado com sucesso para `origin/main` (`4fb0f5b`).
 
 ## Próximo Passo Imediato
 - Pronto para novas tarefas ou validação do usuário.
