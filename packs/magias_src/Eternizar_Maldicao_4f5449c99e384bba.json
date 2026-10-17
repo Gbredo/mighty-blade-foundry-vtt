@@ -18,7 +18,7 @@
     "tipoAcesso": "Caminho",
     "fonteLivro": "Guia do Vilão, pág. 85–88",
     "exclusivoCom": [],
-    "description": "<p><strong>Requisitos:</strong> Nível 10, ao menos uma Habilidade de Maldição</p><p>Desenhando um Símbolo Profano sobre uma criatura afetada por uma Maldição, você faz com que a Runa Arcana da Maldição se dissipe e seus efeitos passem a ser permanentes. A Maldição pode ser revertida se você morrer ou sob uma condição específica – que sempre deve ser estipulada por você no momento que esta magia é conjurada. Esse Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, ao menos uma Habilidade de Maldição. Caminho Aziago.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Nível 10, ao menos uma Habilidade de Maldição</p><p>Desenhando um Símbolo Profano sobre uma criatura afetada por uma Maldição, você faz com que a Runa Arcana da Maldição se dissipe e seus efeitos passem a ser permanentes. A Maldição pode ser revertida se você morrer ou sob uma condição específica – que sempre deve ser estipulada por você no momento que esta magia é conjurada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p></div>"
   },
   "flags": {
     "mighty-blade": {

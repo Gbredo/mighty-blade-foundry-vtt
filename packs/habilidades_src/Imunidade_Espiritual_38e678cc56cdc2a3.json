@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você não recebe nenhum dano de criaturas etéreas (fantasmas, espectros, etc.), e rola +1d6 em todos os testes de Vontade ligados a estas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Comunhão com Espíritos. Anula os efeitos da habilidade Caminhada Fantasma enquanto ambas estiverem ativas.</p></div>"
+    "description": "<p>Você não recebe nenhum dano de criaturas do tipo Espírito e rola +1d6 em todos os testes de Vontade ligados a estas criaturas.</p>"
   },
   "flags": {
     "mighty-blade": {

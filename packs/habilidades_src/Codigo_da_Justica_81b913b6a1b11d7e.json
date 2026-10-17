@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você confia nas leis para se apoiar e possui uma crença inabalável na ordem. Você sempre respeita as leis vigentes nos locais onde está e não permite que outros as descumpram impunemente. Sua fé na ordem faz com que criaturas geradas no caos se sintam repelidas por você. Todo demônio, morto-vivo ou espírito deve ser bem sucedido em um teste Vontade (Dificuldade igual à sua Determinação) ou não será capaz de se aproximar ou atacar você. Criaturas desses tipos com Mente Vazia fazem seus testes baseados em Força, e se falhar serão completamente destruídas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Obrigatoriamente seguido por todos os membros da Ordem da Espada de Mirah. Serve de pré-requisito para a habilidade Justiça Final 1.</p></div>"
+    "description": "<p>Você confia nas leis para se apoiar e possui uma crença inabalável na ordem. Você sempre respeita as leis vigentes nos locais onde está e não permite que outros as descumpram impunemente. Sua fé na ordem faz com que criaturas geradas no caos se sintam repelidas por você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Todo infernal, morto-vivo ou espírito deve ser bem sucedido em um teste de Vontade (Dificuldade igual à sua Determinação) ou não será capaz de se aproximar ou atacar você. Criaturas desses tipos com Mente Vazia fazem seus testes baseados em Força, e se falharem serão completamente destruídas.</p></div>"
   },
   "flags": {
     "mighty-blade": {

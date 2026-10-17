@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um demônio, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Código da Justiça. Serve de pré-requisito para Justiça Final 2.</p></div>"
+    "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um infernal, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Código da Justiça. Serve de pré-requisito para Justiça Final 2.</p></div>"
   },
   "flags": {
     "mighty-blade": {

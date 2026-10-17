@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você vislumbrou vários futuros possíveis e consegue forçar determinados eventos a se tornarem realidade. Sempre que uma ação dentro da sua linha de visão exigir uma rolagem de dados, você pode modificar o resultado daquela rolagem em um grau para melhor ou pior – uma falha crítica se torna uma falha normal, uma falha se torna um sucesso ou um sucesso se torna um sucesso crítico, ou vice-versa. Você não interfere no resultado dos dados, apenas no resultado do teste. Essa Habilidade só pode ser usada uma vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Precognição. Caminho Oráculo.</p></div>"
+    "description": "<p>Você vislumbrou vários futuros possíveis e consegue forçar determinados eventos a se tornarem realidade. Sempre que uma ação dentro da sua linha de visão exigir uma rolagem de dados, você pode modificar o resultado daquela rolagem em um grau para melhor ou pior – uma falha crítica se torna uma falha normal, uma falha se torna um sucesso ou um sucesso se torna um sucesso crítico, ou vice-versa. Você não interfere no resultado dos dados, apenas no resultado do teste.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Habilidade só pode ser usada uma vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {

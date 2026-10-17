@@ -31,7 +31,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui um olfato extremamente apurado. Mesmo que não seja capaz de ver, você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor. Você só é considerado cego se, além da sua visão, seu olfato também for anulado de alguma forma. Quando estiver se localizando apenas pelo olfato, não consegue definir detalhes específicos (como cores, inscrições ou fisionomias). Além disso, você também rola +1d6 quando fizer testes que envolvam o sentido do olfato, e pode rastrear trilhas recentes — menos de 6 horas — usando este sentido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Anula as penalidades padrão de cegueira desde que o sentido do olfato esteja funcional e concede +1d6 em testes que envolvam o olfato.</p></div>"
+    "description": "<p>Você possui um olfato extremamente apurado. Mesmo que não seja capaz de ver, você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor. Você só é considerado cego se, além da sua visão, seu olfato também for anulado de alguma forma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Quando estiver se localizando apenas pelo olfato, não consegue definir detalhes específicos (como cores, inscrições ou fisionomias). Além disso, você também rola +1d6 quando fizer testes que envolvam o sentido do olfato, e pode rastrear trilhas recentes – menos de 6 horas – usando este sentido.</p></div>"
   },
   "flags": {
     "mighty-blade": {

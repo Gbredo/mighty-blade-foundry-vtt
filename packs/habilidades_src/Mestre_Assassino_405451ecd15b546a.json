@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é extremamente mortal ao atacar alvos surpresos. Sempre que você fizer um ataque corporal contra um alvo que esteja Desprevenido em relação a você, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade 1 vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Olho da Serpente. Caminho Assassino.</p></div>"
+    "description": "<p>Você é extremamente mortal ao atacar alvos surpresos. Sempre que você fizer um ataque corporal contra um alvo que esteja Desprevenido em relação a você, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade 1 vez por turno.</p>"
   },
   "flags": {
     "mighty-blade": {

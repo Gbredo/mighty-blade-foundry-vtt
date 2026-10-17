@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de fazer sua canção ser direcionada para apenas um único alvo. Sempre que usar uma Música, você pode escolher um único alvo para afetar, ao invés de afetar todos que lhe ouvirem. Além disso, você pode escolher se as outras criaturas na área escutam a sua Música ou não, e pode utilizar os efeitos de Ventriloquismo quando utilizar uma habilidade do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ventriloquismo.</p></div>"
+    "description": "<p>Você é capaz de fazer sua canção ser direcionada para apenas um único alvo. Sempre que usar uma Música, você pode escolher um único alvo para afetar, ao invés de afetar todos que lhe ouvirem. Além disso, você pode escolher se as outras criaturas na área escutam a sua Música ou não, e pode utilizar os efeitos de Ventriloquismo quando utilizar uma habilidade do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
   },
   "flags": {
     "mighty-blade": {

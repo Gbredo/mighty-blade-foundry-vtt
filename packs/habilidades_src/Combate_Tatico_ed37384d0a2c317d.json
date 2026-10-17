@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se você derrotar um oponente com um ataque corporal, você pode imediatamente realizar outro ataque corporal normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O ataque extra deve ser um ataque corporal comum (não permite o uso simultâneo de Habilidades de Ação).</p></div>"
+    "description": "<p>Se você derrotar um oponente com um ataque corporal, você pode imediatamente realizar outro ataque corporal normal (mas não Habilidades de Ação).</p>"
   },
   "flags": {
     "mighty-blade": {

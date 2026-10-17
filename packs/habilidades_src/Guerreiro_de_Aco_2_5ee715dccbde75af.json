@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa redução se acumula com a redução fornecida por Guerreiro de Aço 1. Na Errata oficial (pág. 1), se alguma situação ou habilidade anular seu bônus de Defesa de Armadura, você ainda recebe metade do bônus normal (arredondado para cima) e da redução de dano da armadura pesada. No Manual do Combatente (pág. 64), aplica metade da RD (arredondada para baixo) de qualquer armadura usada quando o ataque do inimigo superar seu Bloqueio.</p></div>"
+    "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos. Além disso, se alguma Habilidade ou situação anularem seu bônus de Defesa de Armadura, você ainda recebe metade do seu bônus normal (arredondado para cima) enquanto estiver utilizando uma armadura com a característica pesada (este efeito também se aplica à redução de dano oferecida pela armadura). A redução de FN se acumula com a redução fornecida por Guerreiro de Aço 1.</p>"
   },
   "flags": {
     "mighty-blade": {

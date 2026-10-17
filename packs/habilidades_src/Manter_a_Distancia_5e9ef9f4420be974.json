@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode atacar recuando, anulando os contra-ataques do oponente. Você realiza um ataque corporal normal e recua três metros como parte dessa ação, e o oponente não pode utilizar nenhuma Habilidade do tipo Reação contra você nesse turno. Esse recuo não conta para calcular seu Deslocamento no turno– assim, você pode recuar três metros como parte desse ataque e ainda utilizar uma Ação de Movimento para se deslocar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Lanceiro.</p></div>"
+    "description": "<p>Você pode atacar recuando, anulando os contra-ataques do oponente. Você realiza um ataque corporal normal e recua três metros como parte dessa ação, e o oponente não pode utilizar nenhuma Habilidade do tipo Reação contra você nesse turno. Esse recuo não conta para calcular seu Deslocamento no turno– assim, você pode recuar três metros como parte desse ataque e ainda utilizar uma Ação de Movimento para se deslocar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você precisa ter pelo menos 3 metros de espaço atrás de si para poder utilizar essa Habilidade.</p></div>"
   },
   "flags": {
     "mighty-blade": {

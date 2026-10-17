@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você está acostumado a usar armaduras pesadas. Você considera a FN de qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é uma Habilidade de suporte do tipo Característica.</p></div>"
+    "description": "<p>Você está acostumado a usar armaduras pesadas. Você considera a FN de qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos. Além disso, quando estiver utilizando uma armadura pesada, a redução de dano oferecida pela armadura é dobrada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esse bônus de redução de dano não se aplica à característica Rígida.</p></div>"
   },
   "flags": {
     "mighty-blade": {

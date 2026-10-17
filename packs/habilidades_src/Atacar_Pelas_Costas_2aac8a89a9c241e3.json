@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é particularmente bom em atacar alvos desprevenidos. Quando fizer um ataque corporal contra um alvo que esteja Desprevenido com relação a você, role +2d6 em seus ataques corporais ao invés de +1d6. Especial: Este benefício se aplica apenas a ataques corporais. Outras ações contra alvos Surpresos/Desprevenidos (como furtar bolsos ou ataques à distância) recebem apenas o bônus normal pela condição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Assassino.</p></div>"
+    "description": "<p>Você é particularmente bom em atacar alvos desprevenidos. Quando fizer um ataque corporal contra um alvo que esteja Desprevenido com relação a você, role +2d6 em seus ataques corporais ao invés de +1d6.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Este benefício se aplica apenas a ataques corporais. Outras ações contra alvos Surpresos/Desprevenidos (como furtar bolsos ou ataques à distância) recebem apenas o bônus normal pela condição.</p></div>"
   },
   "flags": {
     "mighty-blade": {

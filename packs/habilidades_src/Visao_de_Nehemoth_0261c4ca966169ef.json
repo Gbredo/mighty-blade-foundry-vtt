@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você envia a percepção dela para o Grande Abismo em sua completa escuridão. O alvo deve fazer um teste de Vontade (dificuldade igual à sua Determinação). Se tiver sucesso, ele será considerado Cego até que possa olhar diretamente para o sol. Se falhar, será considerado Cego permanentemente.</p><p>Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10 e o Pacto da Escuridão. Este efeito é considerado uma Maldição. Habilidade Final exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você envia a percepção dela para o Grande Abismo em sua completa escuridão. O alvo deve fazer um teste de Vontade (dificuldade igual à sua Determinação). Se tiver sucesso, ele será considerado Cego até que possa olhar diretamente para o sol. Se falhar, será considerado Cego permanentemente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados.<br><br>Este efeito é considerado uma Maldição.</p></div>"
   },
   "flags": {
     "mighty-blade": {

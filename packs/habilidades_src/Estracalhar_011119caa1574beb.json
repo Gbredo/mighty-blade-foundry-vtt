@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você salta sobre um alvo atacando com tudo o que tem! Faça um Encontrão realizando todos os seus possíveis ataques corporais (em geral dois socos/garradas/ataques com armas, dois chutes/ataques com cascos e uma cabeçada/mordida/marrada). Se você possuir Habilidades do tipo Característica que permitam mais ataques (como Reflexos Dracônicos ou Braços Extras) você pode realizar todos estes ataques.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata Oficial do Guia Básico atualizou o pré-requisito desta habilidade para Nível 5 e a habilidade Brigão (substituindo Combate com Duas Armas 1).</p></div>"
+    "description": "<p>Você salta sobre um alvo atacando com tudo o que tem! Faça um Encontrão realizando todos os seus possíveis ataques corporais (em geral dois socos/garradas/ataques com armas, dois chutes/ataques com cascos e uma cabeçada/mordida/marrada). Se você possuir Habilidades do tipo Característica que permitam mais ataques (como Reflexos Dracônicos) você pode realizar todos estes ataques.</p>"
   },
   "flags": {
     "mighty-blade": {

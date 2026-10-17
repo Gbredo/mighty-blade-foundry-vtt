@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você possui uma aura de autoridade que faz com que aqueles ao seu redor se sintam desconfortáveis em confrontá-lo. Você tem Determinação +2 e toda vez que alguém tentar mentir para você, intimidá-lo, manipulá-lo ou utilizar um efeito Mental ou efeito de Medo e falhar, o alvo fica Amedrontado em relação a você por um número de turnos igual à sua Vontade. Durante esse tempo, você pode fazer uma pergunta para o alvo que deve responder da maneira mais franca possível dentro de seus conhecimentos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Esta é a Habilidade Final da classe Senescal (requer Nível 10 e a habilidade Juiz).</p></div>"
+    "description": "<p>Você possui uma aura de autoridade que faz com que aqueles ao seu redor se sintam desconfortáveis em confrontá-lo. Você tem Determinação +2 e toda vez que alguém tentar mentir para você, intimidá-lo, manipulá-lo ou utilizar um efeito Mental ou efeito de Medo e falhar, o alvo fica Amedrontado em relação a você por um número de turnos igual à sua Vontade. Durante esse tempo, você pode fazer uma pergunta para o alvo que deve responder da maneira mais franca possível dentro de seus conhecimentos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {

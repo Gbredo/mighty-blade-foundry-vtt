@@ -19,7 +19,7 @@
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 84; Errata - Guia Básico, pág. 1",
     "exclusivoCom": [],
-    "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre qualquer aliado (ou sobre si próprio) do tipo Besta, Humanóide ou Troglodita, ele recebe +2 de Força e Agilidade e desenvolve garras e dentes afiados (dano igual à Força +2/Corte) pela duração do efeito. Esse Selo Místico dura 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico esclarece que esta magia pode ser utilizada sobre o próprio conjurador.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre uma criatura viva do tipo Besta, Humanóide ou Troglodita, ele recebe +2 de Força e Agilidade e desenvolve garras e dentes afiados (dano igual à Força +2/Corte) pela duração do efeito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto.</p></div>"
   },
   "flags": {
     "mighty-blade": {

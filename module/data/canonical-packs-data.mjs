@@ -4043,7 +4043,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você consegue passar uma mensagem tão poderosa com suas palavras, que é impossível não ser afetado pelo que você escreve. Você é capaz de escrever uma afirmação em um pergaminho, papiro, tecido ou item com a característica Registro, e qualquer um que ler a frase passa a considerar aquela afirmação como verdade absoluta. É possível escrever ordens diretas (como por exemplo “mate o rei”), conhecimentos específicos (“Mirah é uma mentira”) ou mesmo idéias abstratas (“A verdade está lá fora”).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Mensagem Mágica. Caminho Escriba.</p></div>"
+      "description": "<p>Você consegue passar uma mensagem tão poderosa com suas palavras, que é impossível não ser afetado pelo que você escreve. Você é capaz de escrever uma afirmação em um pergaminho, papiro, tecido ou item com a característica Registro, e qualquer um que ler a frase passa a considerar aquela afirmação como verdade absoluta. É possível escrever ordens diretas (como por exemplo “mate o rei”), conhecimentos específicos (“Mirah é uma mentira”) ou mesmo idéias abstratas (“A verdade está lá fora”).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se o personagem for confrontado sobre uma ordem ou um conhecimento que tenha adquirido através de A Verdade das Palavras, ele pode realizar um teste de Vontade (Dificuldade igual à Determinação do Escriba) para que a ordem ou conhecimento sejam dispersos. O personagem não saberá dizer a origem da ordem ou do conhecimento, no entanto, e irá considerar que foi uma idéia própria, mesmo que não seja capaz de fazer sentido nisso.<br><br>Especial: Não é possível utilizar A Verdade das Palavras através de Mensagem Mágica.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -5953,7 +5953,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de adicionar uma complexidade maior em suas criações. Você pode criar armas com lâminas flamberges, dotadas de ondulações – que dão uma semelhança às chamas – que diminuem a superfície de contato, assim facilitando o corte. Lâminas flamantes fazem com que qualquer arma de corte tenha +2 de dano, mas aumenta sua FN em 1. Você pode também aplicar estrias nas placas de alguns tipos de armaduras (excetuando-se cotas de malha ou armaduras de escamas). Estas estrias aumentam a resistência do metal e diminuem sua superfície de contato, mas não aumentam significativamente o peso. Estrias fazem com que uma armadura com a Característica Pesada receba um bônus de Armadura +1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Arte da Forja 2.</p></div>"
+      "description": "<p>Você é capaz de adicionar uma complexidade maior em suas criações. Você pode criar armas com lâminas flamberges, dotadas de ondulações – que dão uma semelhança às chamas – que diminuem a superfície de contato, assim facilitando o corte. Lâminas flamantes fazem com que qualquer arma de corte tenha +2 de dano, mas aumenta sua FN em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode também aplicar estrias nas placas de alguns tipos de armaduras (excetuando-se cotas de malha ou armaduras de escamas). Estas estrias aumentam a resistência do metal e diminuem sua superfície de contato, mas não aumentam significativamente o peso. Estrias fazem com que uma armadura com a Característica Pesada receba um bônus de Armadura +1.<br><br>Itens de qualidade baixa não podem ser modificados e itens de qualidade alta ou obra-prima acumulam seus benefícios de qualidade com essas modificações – bem como as modificações realizadas com Arte da Forja 2. Se estiver modificando um item, você deve fazer um teste de ferraria e o resultado precisa ser igual ou superior ao necessário para criar aquele item. Veja o Guia do Herói (página 52) para maiores detalhes.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -6198,7 +6198,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você possui grandes asas e pode voar, precisando de um espaço igual à sua envergadura para pegar impulso antes de alçar voo. Quando estiver voando, você não pode parar no ar (mas pode planar) e seu deslocamento em voo é o dobro de seu deslocamento normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Para Draganos, requer a Característica Dracônica *Asas*. A envergadura é igual a duas vezes a altura do personagem. Especial: O dano de qualquer manobra de Encontrão realizada em voo é duplicado (mas o dano da arma não é alterado).</p></div>"
+      "description": "<p>Você possui grandes asas e pode voar, precisando de um espaço igual à sua envergadura para pegar impulso antes de alçar voo. Quando estiver voando, você não pode parar no ar (mas pode planar) e seu deslocamento é o dobro de seu deslocamento normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos do Encontrão).</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -6394,7 +6394,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é particularmente bom em atacar alvos desprevenidos. Quando fizer um ataque corporal contra um alvo que esteja Desprevenido com relação a você, role +2d6 em seus ataques corporais ao invés de +1d6. Especial: Este benefício se aplica apenas a ataques corporais. Outras ações contra alvos Surpresos/Desprevenidos (como furtar bolsos ou ataques à distância) recebem apenas o bônus normal pela condição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Assassino.</p></div>"
+      "description": "<p>Você é particularmente bom em atacar alvos desprevenidos. Quando fizer um ataque corporal contra um alvo que esteja Desprevenido com relação a você, role +2d6 em seus ataques corporais ao invés de +1d6.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Este benefício se aplica apenas a ataques corporais. Outras ações contra alvos Surpresos/Desprevenidos (como furtar bolsos ou ataques à distância) recebem apenas o bônus normal pela condição.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -6441,7 +6441,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Faça um ataque corpo-a-corpo ou à distância visando o quadril, joelho ou tornozelo do alvo, comprometendo sua locomoção e deixando um ferimento doloroso. Além de receber o dano normal pelo ataque, o alvo fica com seu Deslocamento reduzido em 1 e sempre que se deslocar ou fizer um teste de Agilidade que envolva as pernas ele sofre 10 pontos de dano (perda de vida).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito de Sangramento. Requisito necessário para a aquisição da habilidade Corte Arterial.</p></div>"
+      "description": "<p>Faça um ataque corpo-a-corpo ou à distância contra uma criatura viva. Além de receber o dano normal pelo ataque, o alvo fica com seu Deslocamento reduzido em 1 e sempre que se deslocar ou fizer um teste que envolva movimentação ou equilíbrio (como se equilibrar, saltar, nadar ou mover-se em silêncio) ele perde 10 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito de Sangramento.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -6764,7 +6764,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Cruzado.</p></div>"
+      "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Essa Habilidade não tem efeito em criaturas que possuam um Dogma.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -7177,7 +7177,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você enfrenta ameaças e situações de perigo com entusiasmo. Sempre que estiver frente à uma situação de risco eminente – saltar entre duas bordas de um precipício, equilibrar-se em uma corda sobre um rio de lava, entrar em um combate ou qualquer situação em que você possa potencialmente perder a vida (ou pelo se ferir seriamente), você recupera imediatamente 10 Pontos de Vida ou 10 Pontos de Mana, à sua escolha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> É ativada no momento em que o personagem se engaja em uma situação de perigo iminente ou combate, recuperando 10 PVs ou 10 PMs.</p></div>"
+      "description": "<p>Você enfrenta ameaças e situações de perigo com entusiasmo. Sempre que estiver frente à uma situação de risco eminente – saltar entre duas bordas de um precipício, equilibrar-se em uma corda sobre um rio de lava, entrar em um combate ou qualquer situação em que você possa potencialmente perder a vida (ou pelo se ferir seriamente), você recupera imediatamente 10 Pontos de Vida ou 10 Pontos de Mana, à sua escolha.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Habilidade só pode ser usada uma vez para cada situação de risco, e apenas quando o risco se apresentar – não depois da sua primeira ação em um combate ou depois de cair, por exemplo.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -7266,7 +7266,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você emana uma poderosa aura de paz, fazendo com que todas as criaturas vivas ao seu redor resistam em recorrer à violência. Sempre que uma criatura estiver em uma distância em metros de você igual à sua Determinação, ela precisa realizar um teste de Vontade (dificuldade igual à sua Determinação) para poder realizar qualquer ação que possa causar qualquer tipo de dano – tanto a ela mesma ou a outras criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esses efeitos não se aplicam a mortos-vivos, demônios ou construtos de forma alguma – essas criaturas ignoram os efeitos desta Habilidade, e todas as criaturas ignoram os efeitos se forem atacadas. Requer Dogma: Discípulo da Paz.</p></div>"
+      "description": "<p>Você emana uma poderosa aura de paz, fazendo com que todas as criaturas vivas ao seu redor resistam em recorrer à violência. Sempre que uma criatura estiver em uma distância em metros de você igual à sua Determinação, ela precisa realizar um teste de Vontade (dificuldade igual à sua Determinação) para poder realizar qualquer ação que possa causar qualquer tipo de dano – tanto a ela mesma ou a outras criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esses efeitos não se aplicam a mortos-vivos, demônios ou construtos de forma alguma – essas criaturas ignoram os efeitos desta Habilidade, e todas as criaturas ignoram os efeitos dessa Habilidade em relação a mortos-vivos, demônios e construtos. Além disso, os efeitos dessa Habilidade deixam de ter efeito sobre criaturas dentro da área de efeito que sofram dano.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -8011,7 +8011,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você está acostumado a combater desarmado. Você rola +1 em seus ataques desarmados e adiciona +2 nos danos desses ataques.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Quando estiver realizando apenas ataques desarmados, você pode realizar 2 ataques sem incorrer nas regras de Inaptidão. (Originalmente publicada como Característica, sua categoria foi unificada e corrigida para Técnica na Errata do Guia Básico, pág. 1).</p></div>"
+      "description": "<p>Você está acostumado à combater desarmado. Você rola +1 em seus ataques desarmados e adiciona +2 nos danos desses ataques.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Quando estiver realizando apenas ataques desarmados, você pode realizar 2 ataques sem incorrer nas regras de Inaptidão.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -9259,7 +9259,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>As chamas de Hou queimam fortes dentro de você, e se manifestam sempre que você clama pela divindade da forja! Você adiciona uma quantidade de dano por Fogo igual à sua Vontade sempre que utilizar uma Habilidade que cause dano por Fogo e em qualquer Habilidade do tipo Magia que cause qualquer tipo de dano ou perda de vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Dogma: Discípulo da Forja.</p></div>"
+      "description": "<p>As chamas de Hou queimam fortes dentro de você, e se manifestam sempre que você clama pela divindade da forja! Você adiciona uma quantidade de dano por Fogo igual à sua Vontade sempre que utilizar uma Habilidade que cause dano por Fogo e em qualquer Habilidade do tipo Magia que cause qualquer tipo de dano ou perda de vida.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -9901,7 +9901,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você confia nas leis para se apoiar e possui uma crença inabalável na ordem. Você sempre respeita as leis vigentes nos locais onde está e não permite que outros as descumpram impunemente. Sua fé na ordem faz com que criaturas geradas no caos se sintam repelidas por você. Todo demônio, morto-vivo ou espírito deve ser bem sucedido em um teste Vontade (Dificuldade igual à sua Determinação) ou não será capaz de se aproximar ou atacar você. Criaturas desses tipos com Mente Vazia fazem seus testes baseados em Força, e se falhar serão completamente destruídas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Obrigatoriamente seguido por todos os membros da Ordem da Espada de Mirah. Serve de pré-requisito para a habilidade Justiça Final 1.</p></div>"
+      "description": "<p>Você confia nas leis para se apoiar e possui uma crença inabalável na ordem. Você sempre respeita as leis vigentes nos locais onde está e não permite que outros as descumpram impunemente. Sua fé na ordem faz com que criaturas geradas no caos se sintam repelidas por você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Todo infernal, morto-vivo ou espírito deve ser bem sucedido em um teste de Vontade (Dificuldade igual à sua Determinação) ou não será capaz de se aproximar ou atacar você. Criaturas desses tipos com Mente Vazia fazem seus testes baseados em Força, e se falharem serão completamente destruídas.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -10084,7 +10084,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você treinou para usar duas armas em combate de forma eficiente. Você pode fazer um ataque para cada arma que estiver segurando, desde que pelo menos uma delas tenha uma FN igual à metade (ou menos) do que a Força do personagem.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.</p></div>"
+      "description": "<p>Você treinou para usar duas armas em combate de forma eficiente. Quando estiver usando pelo menos uma arma cuja FN seja igual à metade (ou menos) da Força do personagem (incluindo ataques desarmados), você pode realizar 2 ataques sem incorrer nas regras de Inaptidão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -10327,7 +10327,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Se você derrotar um oponente com um ataque corporal, você pode imediatamente realizar outro ataque corporal normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O ataque extra deve ser um ataque corporal comum (não permite o uso simultâneo de Habilidades de Ação).</p></div>"
+      "description": "<p>Se você derrotar um oponente com um ataque corporal, você pode imediatamente realizar outro ataque corporal normal (mas não Habilidades de Ação).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -10377,7 +10377,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui uma ligação de fidelidade com um animal. Escolha uma Besta dos tipos Mamífero, Ave, Réptil ou Peixe e faça um teste de Vontade (Dificuldade igual à soma de todos os atributos do animal +1 para cada metro de tamanho que o animal tiver). Se passar no teste, o animal escolhido será atraído para você e lhe será fiel até a morte (ele passa a ter o temperamento Protetor). Se o animal morrer, você pode tentar atrair outro animal – que não precisa ser do mesmo tipo escolhido anteriormente – fazendo o mesmo teste.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este teste pode ser realizado 1 vez por dia. Você pode atrair 1 animal de cada vez com essa Habilidade. Especial: Se essa Habilidade for escolhida durante a criação do personagem, o animal já estará com você, sem necessidade de teste.</p></div>"
+      "description": "<p>Você possui uma ligação de fidelidade com um animal. Escolha uma Besta dos tipos Mamífero, Ave, Réptil ou Peixe com Ameaça 0 que exista na região em que você está. O animal escolhido será atraído para você e lhe será fiel até a morte (ele passa a ter o temperamento Protetor). Você pode liberar o animal à qualquer momento, e ele irá retornar à natureza, voltando a ter seu temperamento normal (mas retendo benefícios que tenha recebido por suas Habilidades de Companheiro Animal). Se você liberar o animal ou se o animal morrer, você pode atrair outro animal – que não precisa ser do mesmo tipo escolhido anteriormente. Você pode atrair um novo Companheiro Animal 1 vez a cada dia, e só pode atrair 1 animal de cada vez.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se essa Habilidade for escolhida durante a criação do personagem, o animal já estará com você, independente de onde você esteja e onde seja o habitat normal do animal.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -10889,7 +10889,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você está ligado às energias místicas provenientes de forças superiores e consegue comungar com elas. Você pode ler e utilizar tomos mágicos e desenhar Selos Místicos (veja o Guia Básico, pág. 36 para regras sobre magia). Você também pode entrar em um estado de transe se concentrando por 1 minuto. Enquanto continuar meditating dessa forma, você recupera uma quantidade de Pontos de Mana igual à sua Vontade a cada 10 minutos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática da classe Dracomante (bem como das classes Druida e Sacerdote).</p></div>"
+      "description": "<p>Você está ligado às energias místicas provenientes de forças superiores e consegue comungar com elas. Você pode ler e utilizar tomos mágicos e desenhar Selos Místicos (veja o Guia Básico, pág. 36, para regras sobre magia). Você também pode entrar em um estado de transe se concentrando por 1 minuto. Enquanto continuar meditando dessa forma, você recupera uma quantidade de Pontos de Mana igual à sua Vontade a cada 10 minutos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática da classe Dracomante (bem como das classes Druida e Sacerdote).</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -10935,7 +10935,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui um conhecimento considerável sobre os fluxos das energias infernais e como elas funcionam no plano material. Você não perde Pontos de Vida quando realiza uma magia que exija um Símbolo Profano – mas ainda sofre perda de PVs para realizar magias que envolvam Círculo de Invocação (veja Contactando o Inferno na página 9 para mais detalhes). Além disso, você é imune a Maldições, recebe +2 em todos os seus testes envolvendo criaturas infernais e a dificuldade de todos os testes de uma criatura infernal envolvendo você é aumentada em 1. Especial: Como parte dos seus estudos, o personagem também aprende o idioma Ctónico como um idioma extra.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Aziago.</p></div>"
+      "description": "<p>Você possui um conhecimento considerável sobre os fluxos das energias infernais e como elas funcionam no plano material. Você não perde Pontos de Vida quando realiza uma magia que exija um Símbolo Profano – mas ainda sofre perda de PVs para realizar magias que envolvam Círculo de Invocação (veja Contactando o Inferno na página 9 para mais detalhes).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você é imune a Maldições, recebe +2 em todos os seus testes envolvendo criaturas infernais e a dificuldade de todos os testes de uma criatura infernal envolvendo você é aumentada em 1.<br><br>Especial: Como parte dos seus estudos, o personagem também aprende o idioma Ctónico como um idioma extra.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -14297,7 +14297,7 @@ export const CANONICAL_HABILIDADES = [
     "system": {
       "tipo": "acao",
       "categoria": "caracteristica",
-      "custo": 10,
+      "custo": 0,
       "custoVariavel": false,
       "dificuldade": 0,
       "dificuldadeTexto": "",
@@ -14496,7 +14496,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Seu espírito possui a forma de um animal. Escolha um Espírito Animal para ser seu guia. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Espíritos Animais na pág. 169.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Espírito Animal escolhido concede bônus específicos e capacidade de comunicação rudimentar com criaturas do tipo correspondente (veja a lista detalhada na pág. 143 do Guia Básico).</p></div>"
+      "description": "<p>Seu espírito possui a forma de um animal. Escolha um Espírito Animal para ser seu guia. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Espíritos Animais na pág. 169.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -14647,7 +14647,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você salta sobre um alvo atacando com tudo o que tem! Faça um Encontrão realizando todos os seus possíveis ataques corporais (em geral dois socos/garradas/ataques com armas, dois chutes/ataques com cascos e uma cabeçada/mordida/marrada). Se você possuir Habilidades do tipo Característica que permitam mais ataques (como Reflexos Dracônicos ou Braços Extras) você pode realizar todos estes ataques.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata Oficial do Guia Básico atualizou o pré-requisito desta habilidade para Nível 5 e a habilidade Brigão (substituindo Combate com Duas Armas 1).</p></div>"
+      "description": "<p>Você salta sobre um alvo atacando com tudo o que tem! Faça um Encontrão realizando todos os seus possíveis ataques corporais (em geral dois socos/garradas/ataques com armas, dois chutes/ataques com cascos e uma cabeçada/mordida/marrada). Se você possuir Habilidades do tipo Característica que permitam mais ataques (como Reflexos Dracônicos) você pode realizar todos estes ataques.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -14784,7 +14784,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você concentra o ódio de Shyama em um ataque capaz de romper a barreira entre os planos! Faça um ataque corporal contra uma criatura. Esse ataque causa uma quantidade de dano extra igual à sua Determinação. Se o ataque reduzir uma criatura dos tipos Infernal, Deva, Morto-vivo, Espírito ou Elemental à metade ou menos de seus Pontos de Vida, o alvo precisa imediatamente fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se passar no teste, sua consciência é enviada para o plano de origem por um breve momento, e o alvo fica Paralisado por 1 turno. Se falhar no teste, o alvo é imediatamente destruído e enviado para seu plano de origem.</p><p>Se o alvo tiver um Dogma ou Pacto, sua consciência é enviada para o plano de seu patrono por um breve momento, e o alvo fica Paralisado por 1 turno. Qualquer criatura que não seja destruída por esse ataque fica Atordoada por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10 e o Pacto da Destruição. Habilidade Final exclusiva do Caminho Cultista.</p></div>"
+      "description": "<p>Você concentra o ódio de Shyama em um ataque capaz de romper a barreira entre os planos! Faça um ataque corporal contra uma criatura. Esse ataque causa uma quantidade de dano extra igual à sua Determinação. Se o ataque reduzir uma criatura dos tipos Infernal, Deva, Morto-vivo, Espírito ou Elemental à metade ou menos de seus Pontos de Vida, o alvo precisa imediatamente fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se passar no teste, sua consciência é enviada para o plano de origem por um breve momento, e o alvo fica Paralisado por 1 turno. Se falhar no teste, o alvo é imediatamente destruído e enviado para seu plano de origem.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se o alvo tiver um Dogma ou Pacto, sua consciência é enviada para o plano de seu patrono por um breve momento, e o alvo fica Paralisado por 1 turno.<br><br>Qualquer criatura que não seja destruída por esse ataque fica Atordoada por um número de turnos igual à sua Vontade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -15112,7 +15112,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de duplicar qualquer selo, assinatura ou mesmo documento escrito do qual tenha uma cópia, podendo realizar pequenas mudanças no texto – comumente os nomes. Também permite avaliar documentos, jóias e itens mágicos, identificando se são verdadeiros (no caso de documentos), quanto valem (no caso de jóias) ou se são mágicos ou mundanos (mas não identificar suas características, caso sejam mágicos). Quando realizar um teste para falsificar, faça um teste de Inteligência (com um bônus de +2) e verifique a tabela de qualidade dos itens (Guia do Herói, pág. 52).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige instrumentos de escrita. Sem uma lupa, testes de avaliação são realizados como Inapto.</p></div>"
+      "description": "<p>Você é capaz de duplicar qualquer selo, assinatura ou mesmo documento escrito do qual tenha uma cópia, podendo realizar pequenas mudanças no texto – comumente os nomes. Também permite avaliar documentos, jóias e itens mágicos, identificando se são verdadeiros (no caso de documentos), quanto valem (no caso de jóias) ou se são mágicos ou mundanos (mas não identificar suas características, caso sejam mágicos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Quando realizar um teste para falsificar, faça um teste de Inteligência (com um bônus de +2) e verifique a tabela de qualidade dos itens (Guia do Herói, página 52). Um item de qualidade baixa indica uma imitação grosseira e obviamente falsa, enquanto uma falsificação de qualidade mediana permite um teste de Inteligência por qualquer um que manipule o item para perceber a falsificação. Um item de qualidade alta ou obra-prima só pode ser identificado como falso mediante uma inspeção minuciosa (a dificuldade para perceber a falsificação será igual ao resultado do falsificador). Uma assinatura leva apenas 1 minuto para ser falsificada, enquanto um selo ou página leva 10 minutos para ser copiada. Verificar a autenticidade de um item leva o dobro desse tempo.<br><br>Especial: Instrumentos de escrita (Guia do Herói, página 61) são exigidos para que qualquer falsificação seja possível, e sem essas ferramentas é impossível realizar a falsificação corretamente. Sem uma lupa, um teste de avaliação é realizado como se o personagem fosse Inapto.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -15634,7 +15634,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você coloca toda sua vontade em seus golpes. Sempre que acertar um ataque corporal, some sua Vontade ao dano daquele ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Cruzado.</p></div>"
+      "description": "<p>Você coloca toda sua vontade em seus golpes. Sempre que acertar um ataque corporal, some sua Vontade ao dano daquele ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Essa Habilidade não tem efeito em criaturas que possuam um Dogma.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -16150,7 +16150,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você aprendeu a produzir magias que produzem um frio muito mais intenso. Suas magias que causem dano por Frio causam 6 pontos de dano adicionais. Além disso, se uma magia congelar objetos ou criaturas, elas permanecerão congeladas por uma quantidade de horas igual à sua Vontade antes de começarem a descongelar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Congelar. Em climas quentes o efeito dura metade do tempo e dano por fogo cancela o gelo.</p></div>"
+      "description": "<p>Você aprendeu a produzir magias que produzem um frio muito mais intenso. Suas magias que causem dano por Frio causam 6 pontos de dano adicionais. Além disso, se uma magia congelar objetos ou criaturas, elas permanecerão congeladas por uma quantidade de horas igual à sua Vontade antes de começarem a descongelar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Em climas particularmente quentes, como desertos ou áreas vulcânicas, esse efeito dura apenas metade do tempo (arredondado para baixo). Além disso, se o gelo for atingido por magias que causem dano por fogo, esse efeito é cancelado imediatamente, e o gelo passará a descongelar na sua velocidade normal.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -17574,7 +17574,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você está acostumado a usar armaduras pesadas. Você considera a FN de qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é uma Habilidade de suporte do tipo Característica.</p></div>"
+      "description": "<p>Você está acostumado a usar armaduras pesadas. Você considera a FN de qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos. Além disso, quando estiver utilizando uma armadura pesada, a redução de dano oferecida pela armadura é dobrada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esse bônus de redução de dano não se aplica à característica Rígida.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -17622,7 +17622,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa redução se acumula com a redução fornecida por Guerreiro de Aço 1. Na Errata oficial (pág. 1), se alguma situação ou habilidade anular seu bônus de Defesa de Armadura, você ainda recebe metade do bônus normal (arredondado para cima) e da redução de dano da armadura pesada. No Manual do Combatente (pág. 64), aplica metade da RD (arredondada para baixo) de qualquer armadura usada quando o ataque do inimigo superar seu Bloqueio.</p></div>"
+      "description": "<p>Você está extremamente acostumado a usar armaduras pesadas e se sente confortável quando verga uma. Você considera a FN de Qualquer armadura com a Característica Pesada como tendo FN-1 para todos os propósitos. Além disso, se alguma Habilidade ou situação anularem seu bônus de Defesa de Armadura, você ainda recebe metade do seu bônus normal (arredondado para cima) enquanto estiver utilizando uma armadura com a característica pesada (este efeito também se aplica à redução de dano oferecida pela armadura). A redução de FN se acumula com a redução fornecida por Guerreiro de Aço 1.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -17682,7 +17682,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você descende de um povo que enfrentou os rigores do deserto sem esmorecer. Você é Resistente a Fogo e pode passar até 5 dias sem precisar ingerir água. Além disso, você não é afetado por climas particularmente quentes ou áridos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática da raça Fira.</p></div>"
+      "description": "<p>Você descende de um povo que enfrentou os rigores do deserto sem esmorecer. Você é Resistente a Fogo e pode passar até 5 dias sem precisar ingerir água. Além disso, você não é afetado por climas particularmente quentes ou áridos.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -18221,7 +18221,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você não recebe nenhum dano de criaturas etéreas (fantasmas, espectros, etc.), e rola +1d6 em todos os testes de Vontade ligados a estas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Comunhão com Espíritos. Anula os efeitos da habilidade Caminhada Fantasma enquanto ambas estiverem ativas.</p></div>"
+      "description": "<p>Você não recebe nenhum dano de criaturas do tipo Espírito e rola +1d6 em todos os testes de Vontade ligados a estas criaturas.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -18558,7 +18558,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você vislumbrou vários futuros possíveis e consegue forçar determinados eventos a se tornarem realidade. Sempre que uma ação dentro da sua linha de visão exigir uma rolagem de dados, você pode modificar o resultado daquela rolagem em um grau para melhor ou pior – uma falha crítica se torna uma falha normal, uma falha se torna um sucesso ou um sucesso se torna um sucesso crítico, ou vice-versa. Você não interfere no resultado dos dados, apenas no resultado do teste. Essa Habilidade só pode ser usada uma vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Precognição. Caminho Oráculo.</p></div>"
+      "description": "<p>Você vislumbrou vários futuros possíveis e consegue forçar determinados eventos a se tornarem realidade. Sempre que uma ação dentro da sua linha de visão exigir uma rolagem de dados, você pode modificar o resultado daquela rolagem em um grau para melhor ou pior – uma falha crítica se torna uma falha normal, uma falha se torna um sucesso ou um sucesso se torna um sucesso crítico, ou vice-versa. Você não interfere no resultado dos dados, apenas no resultado do teste.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Habilidade só pode ser usada uma vez por turno.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -19094,7 +19094,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você invoca um espírito animal espectral para protegê-lo. Esse espectro tem a forma do seu Espírito Animal, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades normais do animal, todos os Espíritos Animais terão Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Corte, Perfuração ou Esmagamento – o que for mais apropriado, de acordo com os ataques do animal – e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana. Espíritos Animais são sempre Bestas do tipo Espírito com o temperamento Servo. Essa magia dura 1 minuto ou até o animal espectral ser destruído.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu e esclareceu os tipos de dano e habilidades espectrais. Requer Espírito Animal e Contato com Espíritos. Serve de pré-requisito para a habilidade avançada Companheiro Espiritual. Especial: Águias Espectrais recebem +1 em seus ataques corporais ao invés do bônus normal.</p></div>"
+      "description": "<p>Você invoca um espírito animal espectral para protegê-lo. Esse espectro tem a forma do seu Espírito Animal, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades normais do animal, todos os Espíritos Animais terão Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Contusão, Corte ou Perfuração – o que for mais apropriado de acordo com os ataques do animal – e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana. Espíritos Animais são sempre Bestas do tipo Espírito com o temperamento Servo. Essa magia dura 1 minuto ou até o animal espectral ser destruído.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu e esclareceu os tipos de dano e habilidades espectrais. Requer Espírito Animal e Contato com Espíritos. Serve de pré-requisito para a habilidade avançada Companheiro Espiritual. Especial: Águias Espectrais recebem +1 em seus ataques corporais ao invés do bônus normal.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -19318,7 +19318,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um demônio, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Código da Justiça. Serve de pré-requisito para Justiça Final 2.</p></div>"
+      "description": "<p>Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um infernal, morto-vivo ou espírito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Código da Justiça. Serve de pré-requisito para Justiça Final 2.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20130,7 +20130,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui um profundo conhecimento sobre a essência elemental da magia. Sempre que você for alvo de uma magia ou efeito que o deixa Resistente ao Frio, Fogo ou Eletricidade, você fica Imune àquele elemento. Se você já for Resistente a um elemento e receber Resistência a ele através de uma magia, você passa a absorver o elemento (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria daquele elemento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Feiticeiro (requer Nível 10, Resistência Elemental e Aptidão Elemental).</p></div>"
+      "description": "<p>Você possui um profundo conhecimento sobre a essência elemental da magia. Sempre que você for alvo de uma magia ou efeito que o deixa Resistente ao Frio, Fogo ou Eletricidade, você fica Imune aquele elemento. Se você já for Resistente a um elemento e receber Resistência a ele através de uma magia, você passa a absorver o elemento (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria daquele elemento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, todas as magias e técnicas que você conjura e que causem dano por fogo, frio ou eletricidade causam 5 pontos de dano a mais (esse bônus se acumula com o bônus de Aptidão Elemental).</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20218,7 +20218,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui uma aura de autoridade que faz com que aqueles ao seu redor se sintam desconfortáveis em confrontá-lo. Você tem Determinação +2 e toda vez que alguém tentar mentir para você, intimidá-lo, manipulá-lo ou utilizar um efeito Mental ou efeito de Medo e falhar, o alvo fica Amedrontado em relação a você por um número de turnos igual à sua Vontade. Durante esse tempo, você pode fazer uma pergunta para o alvo que deve responder da maneira mais franca possível dentro de seus conhecimentos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Esta é a Habilidade Final da classe Senescal (requer Nível 10 e a habilidade Juiz).</p></div>"
+      "description": "<p>Você possui uma aura de autoridade que faz com que aqueles ao seu redor se sintam desconfortáveis em confrontá-lo. Você tem Determinação +2 e toda vez que alguém tentar mentir para você, intimidá-lo, manipulá-lo ou utilizar um efeito Mental ou efeito de Medo e falhar, o alvo fica Amedrontado em relação a você por um número de turnos igual à sua Vontade. Durante esse tempo, você pode fazer uma pergunta para o alvo que deve responder da maneira mais franca possível dentro de seus conhecimentos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20354,7 +20354,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode atacar recuando, anulando os contra-ataques do oponente. Você realiza um ataque corporal normal e recua três metros como parte dessa ação, e o oponente não pode utilizar nenhuma Habilidade do tipo Reação contra você nesse turno. Esse recuo não conta para calcular seu Deslocamento no turno– assim, você pode recuar três metros como parte desse ataque e ainda utilizar uma Ação de Movimento para se deslocar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Lanceiro.</p></div>"
+      "description": "<p>Você pode atacar recuando, anulando os contra-ataques do oponente. Você realiza um ataque corporal normal e recua três metros como parte dessa ação, e o oponente não pode utilizar nenhuma Habilidade do tipo Reação contra você nesse turno. Esse recuo não conta para calcular seu Deslocamento no turno– assim, você pode recuar três metros como parte desse ataque e ainda utilizar uma Ação de Movimento para se deslocar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você precisa ter pelo menos 3 metros de espaço atrás de si para poder utilizar essa Habilidade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -21228,7 +21228,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é extremamente mortal ao atacar alvos surpresos. Sempre que você fizer um ataque corporal contra um alvo que esteja Desprevenido em relação a você, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade 1 vez por turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Olho da Serpente. Caminho Assassino.</p></div>"
+      "description": "<p>Você é extremamente mortal ao atacar alvos surpresos. Sempre que você fizer um ataque corporal contra um alvo que esteja Desprevenido em relação a você, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade 1 vez por turno.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -21502,7 +21502,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é particularmente eficiente no uso de armas brancas. Sempre que realizar um ataque corporal bem-sucedido, adicione 3 ao dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática recebida ao escolher a classe Guerreiro no nível 1.</p></div>"
+      "description": "<p>Você é particularmente eficiente no uso de armas brancas. Sempre que realizar um ataque corporal bem sucedido, adicione 3 ao dano do ataque.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -21644,7 +21644,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de domar animais com extrema facilidade. Quando você captura uma criatura do tipo Besta, pode fazer um teste de Vontade com dificuldade igual à soma de todos os Atributos do animal depois que tiver cativo e bem tratado por pelo menos 1 dia inteiro. Se conseguir sucesso no teste, a criatura passa a ser considerada seu Companheiro Animal e a ter o Temperamento Protetor. Se falhar no teste, você pode tentar novamente uma vez por dia. No caso de uma falha crítica no teste, você perde completamente a confiança do animal e não será capaz de domá-lo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode liberar um animal domado dessa forma. Nesse caso, o temperamento da criatura volta ao normal, mas quaisquer bônus que ele receba por suas Habilidades de Companheiro Animal permanecem. Você pode ter, simultaneamente, uma quantidade de Companheiros Animais igual à metade da sua Vontade (arredondada para baixo). Requer Nível 5.</p></div>"
+      "description": "<p>Você é capaz de domar animais com extrema facilidade. Quando você captura uma criatura do tipo Besta, o teste para ganhar a confiança do animal e para reduzir seu Temperamento pode ser feito em uma quantidade de dias igual à Vontade do animal, ao invés de sua Determinação – e se você tiver um sucesso decisivo no teste de doma, você reduz o tempo para o próximo teste para 1 dia. Além disso, se você tiver uma falha crítica nos testes para ganhar a confiança do animal ou para reduzir seu Temperamento, o resultado é considerado uma falha normal. Você pode ter, simultaneamente, uma quantidade de criaturas com o comportamento Protetor em relação à você igual à metade da sua Vontade (arredondada para baixo). Você pode ter outros animais domados, mas eles terão o comportamento Covarde até que você possa concluir seu treinamento (seja vendendo ou dando um de seus animais domados, seja aumentando sua Vontade).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Estas regras são uma revisão da Habilidade Mestre Domador (Guia Básico página 141 e Guia do Herói página 33) e portanto tem precedência sobre aquelas versões.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -24001,7 +24001,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você passou muito tempo sobre as ondas e está acostumado com o balanço do mar. Você recebe +2 em todos os seus testes de Força e Agilidade quando estiver em uma embarcação ou dentro d’água.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Disponível para membros de O Arpão e dos Lobos dos Mares.</p></div>"
+      "description": "<p>Você passou muito tempo sobre as ondas e está acostumado com o balanço do mar. Você recebe +2 em todos os seus testes de Força e Agilidade quando estiver em uma embarcação ou dentro d’água.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -24101,7 +24101,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e lhe dá um comando. Se a criatura for capaz de compreender o que você disse, ela precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação; o alvo pode escolher realizar a ação sem resistir) ou realiza o comando imediatamente. O comando não tem efeito depois disso – assim, um alvo que seja comandado a deitar-se no chão pode se levantar no próximo turno, enquanto um alvo comandado para correr para longe pode se aproximar novamente na sua próxima ação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O comando deve poder ser realizado como uma Ação Livre ou como uma Ação de Movimento e não pode ter mais do que uma palavra por ponto de Vontade que você tiver (“largue a espada”, “deite no chão”, “corra para longe de mim”). Se o comando disser respeito a ações involuntárias do alvo ou se for contra suas crenças ou sua segurança (“durma”, “se jogue pela janela”, “empurre o Rei do parapeito”) o alvo é automaticamente bem sucedido no teste. Este é um efeito mental. Requer Nível 5 e a habilidade Gregário.</p></div>"
+      "description": "<p>Dando uma ordem direta a um alvo, você o induz a realizá-la antes mesmo que ele seja capaz de racionalizar o que está fazendo. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz, e lhe dá um comando. Aquela criatura precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação) ou realiza o comando imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O comando deve poder ser realizado como uma Ação Livre ou como uma Ação de Movimento, e não pode ter mais do que uma palavra por ponto de Vontade que você tiver (“largue a espada”, “deite no chão”, “corra para longe de mim”). Se o comando disser respeito a ações involuntárias do alvo ou se for contra suas crenças ou sua segurança (“durma”, “se jogue pela janela”, “empurre o Rei do parapeito”) o alvo é automaticamente bem-sucedido no teste. O alvo realiza a ação imediatamente, mas esta habilidade não tem efeito depois disso – assim, um alvo que seja comandado a deitar-se no chão pode se levantar no próximo turno, enquanto um alvo comandado para correr para longe pode se aproximar novamente na sua próxima ação. Este é um efeito mental.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -24522,7 +24522,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui uma calma inquietante e parece sempre estar sob um auto-controle pronto para explodir em violência. Você recebe +2 em seus testes de Iniciativa, confrontos sociais e Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Exige ter passado pela iniciação dos Crânios Vermelhos e possuir uma tatuagem cobrindo os lábios. Serve de pré-requisito para Mandíbula Vermelha.</p></div>"
+      "description": "<p>Você possui uma calma inquietante e parece sempre estar sob um autocontrole pronto para explodir em violência. Você recebe +2 em seus testes de Iniciativa, confrontos sociais e Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você precisa ter passado pela iniciação dos Crânios Vermelhos, e portanto possuir uma tatuagem que cubra seus lábios para poder adquirir esta habilidade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -24702,7 +24702,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Artrópode, e é capaz de dar comandos simples que serão obedecidos prontamente, dentro das capacidades da criatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Texto atualizado conforme a Errata Oficial do *Guia Básico* (removendo o custo indevido de Mana e especificando a classificação da criatura afetada para o tipo Artrópode).</p></div>"
+      "description": "<p>Você é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Artrópode, e é capaz de dar comandos simples que serão obedecidos prontamente, dentro das capacidades da criatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você também é automaticamente bem sucedido em testes de Força para resistir quando for afetado por qualquer Habilidade do tipo Característica de todas as criaturas do tipo Artrópode. Além disso, todas as suas Habilidades que envolvam criaturas do tipo Besta (Companheiro Animal, Convocar animais, Forma Animal e guardião da Natureza) passam a incluir criaturas dos tipos Artrópode.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -25849,7 +25849,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você toca uma música que fala sobre a morte, derrota e fracasso dos ancestrais do alvo e do sofrimento e amarguras que ele ainda provará no futuro. A cada turno em que você canta essa canção e o alvo puder escutá-lo e entender o que você diz, ele rola um Confronto de Vontade contra você. O alvo tem sua moral tão profundamente atingida pela canção que perde 20 Pontos de Mana sempre que rolar esse Confronto (independente do resultado). Além disso, se tiver um resultado menor do que o seu no teste, ele é tomado por uma completa aflição decorrente dos desgostos e sofrimentos que já viveu, além das perspectivas de um futuro negro, perdendo 50 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No começo de cada turno em que estiver tocando esta Música, você pode escolher um novo alvo como uma ação livre. O novo alvo deve estar a uma distância de você igual à sua Determinação em metros. Este é um efeito mental. Especial: Esta Música é considerada uma Canção, um Ritmo e uma Melodia para todos os propósitos. Esta é a Habilidade Final da classe Bardo.</p></div>"
+      "description": "<p>Você toca uma música que fala sobre a morte, derrota e fracasso dos ancestrais do alvo e do sofrimento e amarguras que ele ainda provará no futuro. A cada turno em que você canta essa canção e o alvo puder escutá-lo e entender o que você diz, ele rola um Confronto de Vontade contra você. O alvo tem sua moral tão profundamente atingida pela canção que perde 20 Pontos de Mana sempre que rolar esse Confronto (independente do resultado). Além disso, se tiver um resultado menor do que o seu no teste, ele é tomado por uma completa aflição decorrente dos desgostos e sofrimentos que já viveu, além das perspectivas de um futuro negro, perdendo 50 Pontos de Vida. No começo de cada turno em que estiver tocando esta Música, você pode escolher um novo alvo como uma ação livre. O novo alvo deve estar a uma distância de você igual à sua Determinação em metros.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.<br><br>Especial: Esta Música é considerada uma Canção, um Ritmo e uma Melodia para todos os propósitos.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -26916,7 +26916,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você está acostumado a emboscar, lutar e fugir com o mesmo desprendimento. Você recebe +2 em seus testes de percepção, se esconder, correr, escalar, se equilibrar (incluindo evitar ser derrubado) e em sua Iniciativa. Além disso, seu Deslocamento é aumentado em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Automática da raça Gnoll.</p></div>"
+      "description": "<p>Você está acostumado a emboscar, lutar e fugir com o mesmo desprendimento. Você recebe +2 em seus testes de percepção, se esconder, correr, escalar, se equilibrar (incluindo evitar ser derrubado) e em sua Iniciativa. Além disso, seu Deslocamento é aumentado em 1.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -27062,7 +27062,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Como uma ação de rodada completa, você bebe o sangue de um cadáver que ainda esteja quente (morto no último minuto) ou uma criatura que esteja Indefesa ou Por um Fio e recebe um bônus de +1 em Força, Agilidade e Vontade durante uma quantidade de minutos iguais à sua Vontade. Este bônus é cumulativo, mas seus benefícios só podem ser conseguidos uma vez de cada alvo. Se o bônus em um Atributo exceder a sua Inteligência, você entra em um frenesi sanguinário, ficando imune a efeitos de Medo e atacando a criatura mais próxima até matá-la (e utilizando Sede de Sangue nela) enquanto os efeitos dessa Habilidade persistirem.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige uma Ação Completa. Caso o acúmulo de bônus supere o valor de Inteligência do Gnoll, ele entra em um frenesi incontrolável atacando a criatura mais próxima.</p></div>"
+      "description": "<p>Como uma ação de rodada completa, você bebe o sangue de um cadáver que ainda esteja quente (morto no último minuto) ou uma criatura que esteja Indefesa ou Por um Fio e recebe um bônus de +1 em Força, Agilidade e Vontade durante uma quantidade de minutos iguais à sua Vontade. Este bônus é cumulativo, mas seus benefícios só podem ser conseguidos uma vez de cada alvo. Se o bônus em um Atributo exceder a sua Inteligência, você entra em um frenesi sanguinário, ficando imune a efeitos de Medo e atacando a criatura mais próxima até matá-la (e utilizando Sede de Sangue nela) enquanto os efeitos dessa Habilidade persistirem.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se o alvo estiver Indefeso ele perde todos os seus Pontos de Vida e fica Por um Fio. Se o alvo estiver Por um Fio ele morre automaticamente.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -27380,7 +27380,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Um Mahr o segue lealmente. Esse Infernal é completamente leal a você e fará tudo o que lhe for pedido. Ele se comunica através de telepatia com você, e você é capaz de enxergar pelos olhos dele sempre que desejar — mas sua visão dividida faz com que você realize todos os seus testes como se fosse Inapto enquanto faz isso.</p><p>Se for destruído de alguma forma, ele aparecerá junto a você na próxima vez que você acordar de um período de sono de pelo menos 4 horas — que será acompanhado de pesadelos à medida que a entidade infernal se liga a você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Escuridão. Habilidade exclusiva do Caminho Cultista.</p></div>"
+      "description": "<p>Um Mahr o segue lealmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Infernal é completamente leal a você e fará tudo o que lhe for pedido. Ele se comunica através de telepatia com você, e você é capaz de enxergar pelos olhos dele sempre que desejar – mas sua visão dividida faz com que você realize todos os seus testes como se fosse Inapto enquanto faz isso.<br><br>Se for destruído de alguma forma, ele aparecerá junto a você na próxima vez que você acordar de um período de sono de pelo menos 4 horas – que será acompanhado de pesadelos à medida que a entidade infernal se liga a você.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -27469,7 +27469,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de fazer sua canção ser direcionada para apenas um único alvo. Sempre que usar uma Música, você pode escolher um único alvo para afetar, ao invés de afetar todos que lhe ouvirem. Além disso, você pode escolher se as outras criaturas na área escutam a sua Música ou não, e pode utilizar os efeitos de Ventriloquismo quando utilizar uma habilidade do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ventriloquismo.</p></div>"
+      "description": "<p>Você é capaz de fazer sua canção ser direcionada para apenas um único alvo. Sempre que usar uma Música, você pode escolher um único alvo para afetar, ao invés de afetar todos que lhe ouvirem. Além disso, você pode escolher se as outras criaturas na área escutam a sua Música ou não, e pode utilizar os efeitos de Ventriloquismo quando utilizar uma habilidade do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -28215,7 +28215,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você utiliza sua voz como um foco auxiliar quando conjura efeitos mágicos. Sempre que pronunciar palavras num idioma apropriado para sua prática de Magia, você recebe +2 no seu teste para conjurar aquela Magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer saber falar pelo menos um idioma exótico (Arkadis, Ctónico, Draen, Quoratus ou Track'kar'a). Comumente Feiticeiros, Rúnicos e Dracomantes utilizam Arkadis; Sacerdotes utilizam Quoratus; e Druidas utilizam Draen. Necromantes que recorrem à Teurgia costumam utilizar o Ctónico.</p></div>"
+      "description": "<p>Você utiliza sua voz como um foco auxiliar quando conjura efeitos mágicos. Sempre que pronunciar palavras num idioma apropriado para sua prática de Magia, você recebe +2 no seu teste para conjurar aquela Magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Não existe uma exigência para qual é o idioma mais adequado para cada prática de Magia mas, comumente Feiticeiros, Rúnicos e Dracomantes utilizam o Arkadis, Sacerdotes utilizam o Quoratus e Druidas utilizam o Draen. Necromantes não possuem ligação especial com nenhum idioma, mas aqueles que recorrem à Teurgia costumam utilizar o Ctónico. Leia a descrição dos Idiomas Exóticos para decidir qual deles seria mais adequado para o seu personagem.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -28260,7 +28260,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui um ótimo ouvido para música e é capaz de aprender canções ouvindo-as apenas uma vez. Você recebe +2 em todos os seus testes para tocar instrumentos musicais (incluindo Músicas).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> N/A.</p></div>"
+      "description": "<p>Você possui um ótimo ouvido para música e é capaz de aprender canções ouvindo-as apenas uma vez. Você recebe +2 em todos os seus testes para tocar instrumentos musicais (incluindo Músicas).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -29127,7 +29127,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Os roedores que o acompanham se tornaram vetores para a doença que você é capaz de transmitir, e em combate atacarão qualquer criatura que o ameace – embora façam isso com certa cautela, atacando e fugindo. No começo de cada um de seus turnos, cada criatura que tiver realizado ataques corporais contra você (tenham acertado ou não) será atacada por 1 roedor, que além de dano pode infectar criatura com a mesma doença que sua mordida transmite (a dificuldade da contaminação será baseada na própria doença, não na sua Determinação).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Rei dos Ratos. No início do turno do Hamelin, cada oponente que desferiu ataques corporais no turno anterior sofre um ataque automático de roedor.</p></div>"
+      "description": "<p>Os roedores que o acompanham se tornaram vetores para a doença que você é capaz de transmitir, e em combate atacarão qualquer criatura que o ameace – embora façam isso com certa cautela, atacando e fugindo. No começo de cada um de seus turnos, cada criatura que tiver realizado ataques corporais contra você (tenham acertado ou não) será atacada por 1 roedor, que além de dano pode infectar criatura com a mesma doença que sua mordida transmite (a dificuldade da contaminação será baseada na própria doença, não na sua Determinação).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você tiver a Habilidade Infecção Grave, considere que todos os roedores que seguem você também possuem esta Habilidade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -29587,7 +29587,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você envia a percepção dela para o Grande Abismo em sua completa escuridão. O alvo deve fazer um teste de Vontade (dificuldade igual à sua Determinação). Se tiver sucesso, ele será considerado Cego até que possa olhar diretamente para o sol. Se falhar, será considerado Cego permanentemente.</p><p>Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10 e o Pacto da Escuridão. Este efeito é considerado uma Maldição. Habilidade Final exclusiva do Caminho Cultista.</p></div>"
+      "description": "<p>Desenhando um Símbolo Profano sobre uma criatura, você envia a percepção dela para o Grande Abismo em sua completa escuridão. O alvo deve fazer um teste de Vontade (dificuldade igual à sua Determinação). Se tiver sucesso, ele será considerado Cego até que possa olhar diretamente para o sol. Se falhar, será considerado Cego permanentemente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados.<br><br>Este efeito é considerado uma Maldição.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -29682,7 +29682,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você possui um olfato extremamente apurado. Mesmo que não seja capaz de ver, você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor. Você só é considerado cego se, além da sua visão, seu olfato também for anulado de alguma forma. Quando estiver se localizando apenas pelo olfato, não consegue definir detalhes específicos (como cores, inscrições ou fisionomias). Além disso, você também rola +1d6 quando fizer testes que envolvam o sentido do olfato, e pode rastrear trilhas recentes — menos de 6 horas — usando este sentido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Anula as penalidades padrão de cegueira desde que o sentido do olfato esteja funcional e concede +1d6 em testes que envolvam o olfato.</p></div>"
+      "description": "<p>Você possui um olfato extremamente apurado. Mesmo que não seja capaz de ver, você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor. Você só é considerado cego se, além da sua visão, seu olfato também for anulado de alguma forma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Quando estiver se localizando apenas pelo olfato, não consegue definir detalhes específicos (como cores, inscrições ou fisionomias). Além disso, você também rola +1d6 quando fizer testes que envolvam o sentido do olfato, e pode rastrear trilhas recentes – menos de 6 horas – usando este sentido.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -30580,7 +30580,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 59, 176",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre uma arma ou armadura. Uma arma abençoada causa +6 de dano contra demônios, mortos-vivos e espíritos, além de atingir criaturas incorpóreas como se elas não tivessem a Habilidade Corpo Intangível. Em uma armadura, qualquer demônio, morto-vivo ou espírito que tocá-la (incluindo com ataques desarmados) perde imediatamente 6 Pontos de Vida – e perde 6 Pontos de vida a cada turno que comece em contato com a armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 hora. Requer a habilidade Graça Divina.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Graça Divina</p><p>Você desenha um Selo Místico sobre uma arma ou armadura para que ela se torne mais eficiente contra criaturas sobrenaturais. Uma arma abençoada causa +6 de dano contra infernais, mortos-vivos e espíritos, além de atingir criaturas incorpóreas como se elas não tivessem a Habilidade Corpo Intangível. Se você abençoar uma armadura, qualquer infernal, morto-vivo ou espírito que tocá-la (incluindo com ataques desarmados) perde imediatamente 6 Pontos de Vida – e perde 6 Pontos de vida a cada turno que comece em contato com a armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 hora.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -30839,7 +30839,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 68; Errata, pág. 1",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Relâmpago 1, Teleporte 1</p><p>Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata Oficial (pág. 1), os efeitos dessa Runa Arcana só podem ser desencadeados uma única vez antes de ela se dissipar, exigindo uma nova conjuração a cada uso.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Relâmpago 1, Teleporte 1</p><p>Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, mas se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -31137,7 +31137,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 83–85",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Nível 5, Empurrão Cinético</p><p>Desenhando uma Runa Arcana sobre um alvo, você o arremessa no ar a uma altura igual à sua Determinação. O alvo (e qualquer criatura atingida por ele) sofre o dano apropriado pela altura que cair (causando essa mesma quantidade de dano em qualquer criatura que atingir). Além disso, quando atingir o solo, o alvo (e qualquer criatura que ele tenha atingido) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. Você pode utilizar essa Magia sobre si mesmo ou sobre um aliado, para alcançar uma área elevada. Nesse caso, diminua a Vontade do alvo da Dificuldade da Magia e o alvo não sofre dano nem chance de queda.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Empurrão Cinético. Caminho Argênteo.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Empurrão Cinético</p><p>Desenhando uma Runa Arcana sobre um alvo, você o arremessa no ar a uma altura igual à sua Determinação. O alvo (e qualquer criatura atingida por ele) sofre o dano apropriado pela altura que cair (causando essa mesma quantidade de dano em qualquer criatura que atingir). Além disso, quando atingir o solo, o alvo (e qualquer criatura que ele tenha atingido) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. Você pode utilizar essa Magia sobre si mesmo ou sobre um aliado, para alcançar uma área elevada. Nesse caso, diminua a Vontade do alvo da Dificuldade da Magia e o alvo não sofre dano nem chance de queda.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Criaturas com as Habilidades Combate Gigante ou Colosso são arremessadas a uma altura igual à metade da Determinação do Conjurador (arredondado para baixo). No entanto, elas causam quatro vezes o dano de queda que sofrerem em qualquer criatura sobre a qual caiam (se estas não tiverem as Habilidades Combate Gigante ou Colosso).</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -31586,7 +31586,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84; Errata - Guia Básico, pág. 1",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre qualquer aliado (ou sobre si próprio) do tipo Besta, Humanóide ou Troglodita, ele recebe +2 de Força e Agilidade e desenvolve garras e dentes afiados (dano igual à Força +2/Corte) pela duração do efeito. Esse Selo Místico dura 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico esclarece que esta magia pode ser utilizada sobre o próprio conjurador.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre uma criatura viva do tipo Besta, Humanóide ou Troglodita, ele recebe +2 de Força e Agilidade e desenvolve garras e dentes afiados (dano igual à Força +2/Corte) pela duração do efeito.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -32296,7 +32296,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 120; Codex Monstrorum, pág. 175",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre si mesmo, você consegue atrair todas as Bestas escolhidas entre Mamífero, Ave, Réptil ou Peixe que estejam a até 1 km de você. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais sobreviventes ou agressivos não terão problemas com isso. Esse Selo Místico dura 1 hora. Depois disso, as Bestas afetadas voltarão pacificamente para os locais de onde vieram. Especial: Você pode refinar o tipo específico de animal (“Ursos”, “Marsupiais”, “Batráquios”) ou até mesmo um animal específico (“Aquele esquilo com quem eu conversei ontem”, “meu Companheiro Animal”, “O cão do guarda-caça”) quando conjurar essa magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 hora. Quando for dissipado, as Bestas afetadas voltarão pacificamente para os locais de onde vieram. Especial: Você pode refinar o tipo específico de animal quando conjurar essa magia.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Benção de Ellenis</p><p>Desenhando um Selo Místico sobre si mesmo, você consegue atrair uma quantidade de Bestas igual à sua Vontade escolhidas entre Mamífero, Ave, Réptil ou Peixe com Ameaça 0 que estejam a até 1 km de você. Em combate, 1 animal por vez chegará no início do seu turno até o número máximo de animais. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais Sobreviventes, Ferozes ou Furiosos não terão problemas com isso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade não tem efeito em Bestas com o comportamento Servo, e animais Protetores avisarão seus donos antes de virem até você – e agirão como se tivessem o Temperamento normal daquele tipo de animal ao invés de Protetor enquanto estiverem sob efeito do Selo (embora se recusem a atacar seus donos).<br><br>Esse Selo Místico dura 1 hora. Quando for dissipado, as Bestas afetadas voltarão pacificamente para os locais de onde vieram.<br><br>Especial: Você pode refinar o tipo específico de animal (“Cavalos”, “Carnívoros”, “Pacíficos”) ou até mesmo um animal específico (“Aquele rato com quem eu conversei ontem”, “meu Companheiro Animal”, “O cão do guarda-caça”) quando conjurar essa magia.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -32744,7 +32744,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia do Vilão, pág. 55",
       "exclusivoCom": [],
-      "description": "<p>Desenhando uma Runa Arcana sobre os restos de uma Besta ou Humanoide de tamanho Médio ou menor, você o transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras ou dificuldades para realizar certas ações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O morto-vivo criado é permanente, e será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia – quando a Runa se dissipa, o morto-vivo passa a agir de forma independente. Servindo de pré-requisito para Condenar o Corpo, Sustentar Mortos-Vivos, Encarnar Espírito e Despertar dos Mortos 2.</p></div>"
+      "description": "<p>Desenhando uma Runa Arcana sobre os restos de uma Besta ou Humanoide de tamanho Médio ou menor, você o transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras e dificuldades para realizar certas ações. O morto-vivo estará sob seu controle e acatará quaisquer comandos verbais simples (Ataque aquela criatura, defenda esse local, carregue esses itens, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Determinação.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -32892,7 +32892,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 83–85",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana entre você e um alvo, você faz com que ele seja projetado em linha reta um número de metros igual à Vontade do conjurador. Se o alvo atingir uma superfície sólida ou outra criatura no trajeto que foi projetado, ele (e qualquer criatura que atinja no trajeto) sofre dano como se tivesse caído aquela distância. O alvo empurra tudo o que atingir no trajeto, que só será interrompido se o alvo atingir um objeto que não possa ser empurrado – como uma parede ou árvore.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Telecinésia. Caminho Argênteo.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Telecinésia</p><p>Desenhando uma Runa Arcana entre você e um alvo, você faz com que ele seja projetado em linha reta um número de metros igual à Vontade do conjurador. Se o alvo atingir uma superfície sólida ou outra criatura no trajeto que foi projetado, ele (e qualquer criatura que atinja no trajeto) sofre dano como se tivesse caído aquela distância. O alvo empurra tudo o que atingir no trajeto, que só será interrompido se o alvo atingir um objeto que não possa ser empurrado – como uma parede ou árvore. Além disso, no final do trajeto em que foi projetado, o alvo (e qualquer criatura que ele tenha atingido no trajeto) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.<br><br>Especial: Criaturas com as Habilidades Combate Gigante ou Colosso são empurrados apenas um número de metros igual à metade da Vontade do Conjurador (arredondado para baixo).</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -33268,7 +33268,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Vilão, pág. 85–88",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Nível 10, ao menos uma Habilidade de Maldição</p><p>Desenhando um Símbolo Profano sobre uma criatura afetada por uma Maldição, você faz com que a Runa Arcana da Maldição se dissipe e seus efeitos passem a ser permanentes. A Maldição pode ser revertida se você morrer ou sob uma condição específica – que sempre deve ser estipulada por você no momento que esta magia é conjurada. Esse Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, ao menos uma Habilidade de Maldição. Caminho Aziago.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Nível 10, ao menos uma Habilidade de Maldição</p><p>Desenhando um Símbolo Profano sobre uma criatura afetada por uma Maldição, você faz com que a Runa Arcana da Maldição se dissipe e seus efeitos passem a ser permanentes. A Maldição pode ser revertida se você morrer ou sob uma condição específica – que sempre deve ser estipulada por você no momento que esta magia é conjurada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Símbolo Profano se dissipa assim que seus efeitos forem desencadeados.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -34975,7 +34975,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Sabedoria</p><p>Desenhando um Selo Místico sobre um item ou criatura que mostre uma escrita de qualquer origem, o Selo se materializa na forma de um livro mostrando o símbolo de Sarfion na capa. Ao abrir o livro, todas as páginas estarão cobertas em escritas da linguagem sobre a qual o Selo foi desenhado, e você é inundado por uma torrente de murmúrios naquele idioma. Você é capaz de ler o texto sobre o qual o Selo foi desenhado enquanto se mantiver concentrado na leitura, independente do tempo que isso possa levar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Magia também conhecida como *Conhecimento*. Requer Dogma: Discípulo da Sabedoria.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Dogma: Discípulo da Sabedoria</p><p>Desenhando um Selo Místico sobre um item ou criatura que mostre uma escrita de qualquer origem, o Selo se materializa na forma de um livro mostrando o símbolo de Sarfion na capa. Ao abrir o livro, todas as páginas estarão cobertas em escritas da linguagem sobre a qual o Selo foi desenhado, e você é inundado por uma torrente de murmúrio naquele idioma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você é capaz de ler o texto sobre o qual o Selo foi desenhado, enquanto se mantiver concentrado na leitura, independente do tempo que isso pode levar. O Selo Místico que conjura a Magia se dissipa imediatamente após seus efeitos serem desencadeados.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -35420,7 +35420,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 61, 144; Errata, pág. 1",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Toque Místico</p><p>Desenhando um Selo Místico sobre uma criatura viva, você a deixa imune a todos os efeitos de Dreno de Energia. Além disso, a criatura afetada recebe +2 em todos os seus testes ou Confrontos para resistir a efeitos mentais ou efeitos de medo – e aumenta em 2 a dificuldade de qualquer Efeito Mental ou Efeito de Medo que vise a criatura afetada por este Selo e que não permita um teste ou Confronto para ser resistido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico ajustou os efeitos da habilidade. Requer a habilidade Toque Místico. Este Selo dura uma quantidade de horas igual à Vontade do conjurador. Servindo de pré-requisito para Corpo Fechado e Círculo da Proteção (Santuário Místico).</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Toque Místico</p><p>Desenhando um Selo Místico sobre uma criatura viva, você a deixa imune a todos os efeitos de Dreno de Energia. Além disso, a criatura afetada recebe +2 em todos os seus testes ou Confrontos para resistir a efeitos mentais ou efeitos de medo – e aumenta em 2 a dificuldade de qualquer Efeito Mental ou Efeito de Medo que vise a criatura afetada por este Selo e que não permita um teste ou Confronto para ser resistido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este Selo Místico dura 1 hora.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -35979,7 +35979,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Caminho",
       "fonteLivro": "Guia do Herói, pág. 83–85",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhado uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Argênteo.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhado uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez. A sala possui ar ilimitado, e a luz dentro dela é sempre semelhante à de um dia nublado, mas você pode usar outras fontes de luz – como lampiões ou tochas – para torná-la total ou parcialmente melhor iluminada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana é perene enquanto o portal estiver aberto. Se você estiver dentro da sala e o portal estiver fechado, a Runa continuará ativa, mas estará dentro da sala – e, portanto não pode ser detectada pelo lado de fora.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -36127,7 +36127,7 @@ export const CANONICAL_MAGIAS = [
       "tipoAcesso": "Organização",
       "fonteLivro": "Guia de Tebryn, pág. 92",
       "exclusivoCom": [],
-      "description": "<p><strong>Requisitos:</strong> Nível 5, Congelar</p><p>Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a 10/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam. Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Congelar. A Runa se dissipa imediatamente, mas o gelo criado é permanente.</p></div>"
+      "description": "<p><strong>Requisitos:</strong> Nível 5, Congelar</p><p>Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a 10/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.</p></div>"
     },
     "flags": {
       "mighty-blade": {

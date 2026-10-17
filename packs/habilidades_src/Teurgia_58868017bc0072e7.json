@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você utiliza sua voz como um foco auxiliar quando conjura efeitos mágicos. Sempre que pronunciar palavras num idioma apropriado para sua prática de Magia, você recebe +2 no seu teste para conjurar aquela Magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer saber falar pelo menos um idioma exótico (Arkadis, Ctónico, Draen, Quoratus ou Track'kar'a). Comumente Feiticeiros, Rúnicos e Dracomantes utilizam Arkadis; Sacerdotes utilizam Quoratus; e Druidas utilizam Draen. Necromantes que recorrem à Teurgia costumam utilizar o Ctónico.</p></div>"
+    "description": "<p>Você utiliza sua voz como um foco auxiliar quando conjura efeitos mágicos. Sempre que pronunciar palavras num idioma apropriado para sua prática de Magia, você recebe +2 no seu teste para conjurar aquela Magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Não existe uma exigência para qual é o idioma mais adequado para cada prática de Magia mas, comumente Feiticeiros, Rúnicos e Dracomantes utilizam o Arkadis, Sacerdotes utilizam o Quoratus e Druidas utilizam o Draen. Necromantes não possuem ligação especial com nenhum idioma, mas aqueles que recorrem à Teurgia costumam utilizar o Ctónico. Leia a descrição dos Idiomas Exóticos para decidir qual deles seria mais adequado para o seu personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

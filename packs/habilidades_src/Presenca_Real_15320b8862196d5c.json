@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Artrópode, e é capaz de dar comandos simples que serão obedecidos prontamente, dentro das capacidades da criatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Texto atualizado conforme a Errata Oficial do *Guia Básico* (removendo o custo indevido de Mana e especificando a classificação da criatura afetada para o tipo Artrópode).</p></div>"
+    "description": "<p>Você é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Artrópode, e é capaz de dar comandos simples que serão obedecidos prontamente, dentro das capacidades da criatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você também é automaticamente bem sucedido em testes de Força para resistir quando for afetado por qualquer Habilidade do tipo Característica de todas as criaturas do tipo Artrópode. Além disso, todas as suas Habilidades que envolvam criaturas do tipo Besta (Companheiro Animal, Convocar animais, Forma Animal e guardião da Natureza) passam a incluir criaturas dos tipos Artrópode.</p></div>"
   },
   "flags": {
     "mighty-blade": {

@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seu espírito possui a forma de um animal. Escolha um Espírito Animal para ser seu guia. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Espíritos Animais na pág. 169.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O Espírito Animal escolhido concede bônus específicos e capacidade de comunicação rudimentar com criaturas do tipo correspondente (veja a lista detalhada na pág. 143 do Guia Básico).</p></div>"
+    "description": "<p>Seu espírito possui a forma de um animal. Escolha um Espírito Animal para ser seu guia. Essa escolha é permanente e não pode ser mudada posteriormente. Veja a descrição dos Espíritos Animais na pág. 169.</p>"
   },
   "flags": {
     "mighty-blade": {

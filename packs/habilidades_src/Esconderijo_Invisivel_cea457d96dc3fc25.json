@@ -5,7 +5,7 @@
   "system": {
     "tipo": "acao",
     "categoria": "caracteristica",
-    "custo": 10,
+    "custo": 0,
     "custoVariavel": false,
     "dificuldade": 0,
     "dificuldadeTexto": "",

@@ -25,7 +25,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você possui um ótimo ouvido para música e é capaz de aprender canções ouvindo-as apenas uma vez. Você recebe +2 em todos os seus testes para tocar instrumentos musicais (incluindo Músicas).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> N/A.</p></div>"
+    "description": "<p>Você possui um ótimo ouvido para música e é capaz de aprender canções ouvindo-as apenas uma vez. Você recebe +2 em todos os seus testes para tocar instrumentos musicais (incluindo Músicas).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
   },
   "flags": {
     "mighty-blade": {

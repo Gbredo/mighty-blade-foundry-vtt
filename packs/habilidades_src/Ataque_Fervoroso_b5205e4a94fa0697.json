@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Cruzado.</p></div>"
+    "description": "<p>Você pede pela inspiração de sua divindade para desferir um golpe preciso. Você pode fazer um ataque corporal que ignora o bônus de Atributo da Defesa do alvo e, se acertar, causa um dano adicional igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Essa Habilidade não tem efeito em criaturas que possuam um Dogma.</p></div>"
   },
   "flags": {
     "mighty-blade": {

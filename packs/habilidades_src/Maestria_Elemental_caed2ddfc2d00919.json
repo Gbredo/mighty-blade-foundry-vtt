@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você possui um profundo conhecimento sobre a essência elemental da magia. Sempre que você for alvo de uma magia ou efeito que o deixa Resistente ao Frio, Fogo ou Eletricidade, você fica Imune àquele elemento. Se você já for Resistente a um elemento e receber Resistência a ele através de uma magia, você passa a absorver o elemento (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria daquele elemento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Feiticeiro (requer Nível 10, Resistência Elemental e Aptidão Elemental).</p></div>"
+    "description": "<p>Você possui um profundo conhecimento sobre a essência elemental da magia. Sempre que você for alvo de uma magia ou efeito que o deixa Resistente ao Frio, Fogo ou Eletricidade, você fica Imune aquele elemento. Se você já for Resistente a um elemento e receber Resistência a ele através de uma magia, você passa a absorver o elemento (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria daquele elemento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, todas as magias e técnicas que você conjura e que causem dano por fogo, frio ou eletricidade causam 5 pontos de dano a mais (esse bônus se acumula com o bônus de Aptidão Elemental).</p></div>"
   },
   "flags": {
     "mighty-blade": {

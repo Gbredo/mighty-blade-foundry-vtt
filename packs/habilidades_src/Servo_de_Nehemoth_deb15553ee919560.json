@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Um Mahr o segue lealmente. Esse Infernal é completamente leal a você e fará tudo o que lhe for pedido. Ele se comunica através de telepatia com você, e você é capaz de enxergar pelos olhos dele sempre que desejar — mas sua visão dividida faz com que você realize todos os seus testes como se fosse Inapto enquanto faz isso.</p><p>Se for destruído de alguma forma, ele aparecerá junto a você na próxima vez que você acordar de um período de sono de pelo menos 4 horas — que será acompanhado de pesadelos à medida que a entidade infernal se liga a você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Escuridão. Habilidade exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Um Mahr o segue lealmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Infernal é completamente leal a você e fará tudo o que lhe for pedido. Ele se comunica através de telepatia com você, e você é capaz de enxergar pelos olhos dele sempre que desejar – mas sua visão dividida faz com que você realize todos os seus testes como se fosse Inapto enquanto faz isso.<br><br>Se for destruído de alguma forma, ele aparecerá junto a você na próxima vez que você acordar de um período de sono de pelo menos 4 horas – que será acompanhado de pesadelos à medida que a entidade infernal se liga a você.</p></div>"
   },
   "flags": {
     "mighty-blade": {

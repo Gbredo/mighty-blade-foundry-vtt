@@ -24,7 +24,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você aprendeu a produzir magias que produzem um frio muito mais intenso. Suas magias que causem dano por Frio causam 6 pontos de dano adicionais. Além disso, se uma magia congelar objetos ou criaturas, elas permanecerão congeladas por uma quantidade de horas igual à sua Vontade antes de começarem a descongelar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Congelar. Em climas quentes o efeito dura metade do tempo e dano por fogo cancela o gelo.</p></div>"
+    "description": "<p>Você aprendeu a produzir magias que produzem um frio muito mais intenso. Suas magias que causem dano por Frio causam 6 pontos de dano adicionais. Além disso, se uma magia congelar objetos ou criaturas, elas permanecerão congeladas por uma quantidade de horas igual à sua Vontade antes de começarem a descongelar normalmente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Em climas particularmente quentes, como desertos ou áreas vulcânicas, esse efeito dura apenas metade do tempo (arredondado para baixo). Além disso, se o gelo for atingido por magias que causem dano por fogo, esse efeito é cancelado imediatamente, e o gelo passará a descongelar na sua velocidade normal.</p></div>"
   },
   "flags": {
     "mighty-blade": {
