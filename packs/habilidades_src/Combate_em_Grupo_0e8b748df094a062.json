@@ -13,7 +13,8 @@
     "acesso": [
       "Hoste de Hadorn",
       "Guerreiro",
-      "Gnoll"
+      "Gnoll",
+      "Domador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -38,7 +39,8 @@
       "acesso": [
         "Hoste de Hadorn",
         "Guerreiro",
-        "Gnoll"
+        "Gnoll",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

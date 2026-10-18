@@ -13,7 +13,8 @@
     "acesso": [
       "Xamã",
       "Necromante",
-      "Levent"
+      "Levent",
+      "Avantesma"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -38,7 +39,8 @@
       "acesso": [
         "Xamã",
         "Necromante",
-        "Levent"
+        "Levent",
+        "Avantesma"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

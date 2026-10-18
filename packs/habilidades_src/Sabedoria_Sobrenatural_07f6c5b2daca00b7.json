@@ -11,7 +11,8 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Gótico"
+      "Gótico",
+      "Estrige"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -34,7 +35,8 @@
       "slug": "sabedoria-sobrenatural",
       "automatica": false,
       "acesso": [
-        "Gótico"
+        "Gótico",
+        "Estrige"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

@@ -11,7 +11,8 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Escriba"
+      "Escriba",
+      "Argênteo"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -34,7 +35,8 @@
       "slug": "teologo",
       "automatica": false,
       "acesso": [
-        "Escriba"
+        "Escriba",
+        "Argênteo"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

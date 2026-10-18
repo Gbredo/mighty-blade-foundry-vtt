@@ -41,19 +41,25 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     const canonicalNec = CANONICAL_CLASSES.find((c) => c.name === "Necromante");
     assert.ok(canonicalNec, "Classe canônica Necromante deve existir em CANONICAL_CLASSES");
 
-    const expectedNecIds = canonicalNec.system?.listaHabilidades || [];
+    const autoConcessoes = (canonicalNec.system?.concessoes || [])
+      .filter((c) => c.tipo === "habilidade" && c.ref)
+      .map((c) => c.ref);
+    const expectedNecIds = (canonicalNec.system?.listaHabilidades || []).filter(
+      (id) => !autoConcessoes.includes(id)
+    );
 
     assert.equal(
       subNecromante.ids.length,
-      32,
-      "Sub-aba Necromante deve ter exatamente 32 habilidades canônicas (paridade com o cofre/site)"
+      31,
+      "Sub-aba Necromante deve ter exatamente 31 habilidades no navegador (32 total - 1 automática)"
     );
 
     assert.deepEqual(
       [...subNecromante.ids].sort(),
       [...expectedNecIds].sort(),
-      "Sub-aba Necromante deve conter exatamente os ids de CLASSES.necromante.listaHabilidades"
+      "Sub-aba Necromante deve conter exatamente os ids de CLASSES.necromante.listaHabilidades (menos as automáticas)"
     );
+
 
     // 2. Sub-aba Gnoll (Raça) não tem "Asas Ancestrais"
     const subGnoll = subAbas.find((s) => s.id === "raca");
@@ -89,7 +95,7 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     }
   });
 
-  test("Paridade canônica de classes C3c-3a: sub-aba Bardo mostra exatamente 36 habilidades e sub-aba Menestrel mostra exatamente 32 habilidades", async () => {
+  test("Paridade canônica de classes C3c-3a: sub-aba Bardo mostra exatamente 35 habilidades e sub-aba Menestrel mostra exatamente 31 habilidades", async () => {
     const bardoActor = createMockActor({
       name: "Elidyr",
       details: { raca: "Humano", classe: "Bardo", nivel: 1 },
@@ -101,8 +107,9 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     const subAbasBardo = obterSubAbasCompendio(bardoActor, "habilidade");
     const subBardo = subAbasBardo.find((s) => s.id === "classe");
     assert.ok(subBardo, "Sub-aba Bardo (classe) deve estar presente");
-    assert.equal(subBardo.ids.length, 36, "Sub-aba Bardo deve conter exatamente 36 habilidades");
-    assert.ok(subBardo.ids.includes("poesia-dos-bardos"), "Sub-aba Bardo deve conter poesia-dos-bardos");
+    assert.equal(subBardo.ids.length, 35, "Sub-aba Bardo deve conter exatamente 35 habilidades (36 total - 1 automática)");
+    assert.ok(!subBardo.ids.includes("poesia-dos-bardos"), "Sub-aba Bardo não deve conter poesia-dos-bardos (pois é automática já concedida)");
+    assert.ok(subBardo.ids.includes("eloquente"), "Sub-aba Bardo deve conter eloquente");
 
     const menestrelActor = createMockActor({
       name: "Garrick",
@@ -115,9 +122,13 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     const subAbasMenestrel = obterSubAbasCompendio(menestrelActor, "habilidade");
     const subMenestrel = subAbasMenestrel.find((s) => s.id === "classe");
     assert.ok(subMenestrel, "Sub-aba Menestrel (classe) deve estar presente");
-    assert.equal(subMenestrel.ids.length, 32, "Sub-aba Menestrel deve conter exatamente 32 habilidades");
-    assert.ok(subMenestrel.ids.includes("jogral"), "Sub-aba Menestrel deve conter jogral");
+    assert.equal(subMenestrel.ids.length, 31, "Sub-aba Menestrel deve conter exatamente 31 habilidades (32 total - 1 automática)");
+    assert.ok(!subMenestrel.ids.includes("jogral"), "Sub-aba Menestrel não deve conter jogral (pois é automática já concedida)");
+    assert.ok(subMenestrel.ids.includes("fantasma-da-opera"), "Sub-aba Menestrel deve conter fantasma-da-opera");
+
+
   });
+
 
   test("Checkbox 'Apenas elegíveis' ligado por padrão esconde itens com pré-requisitos pendentes", async () => {
     const gnollNecromante = createMockActor({

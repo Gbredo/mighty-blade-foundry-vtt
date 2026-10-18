@@ -11,9 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Sacerdote",
-      "Cruzado",
-      "Oráculo"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -39,9 +37,7 @@
       "slug": "dogma",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Cruzado",
-        "Oráculo"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

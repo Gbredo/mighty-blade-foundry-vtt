@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Dogma",
     "acesso": [
-      "Sacerdote",
-      "Cruzado"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Bônus",
@@ -35,8 +34,7 @@
       "slug": "dogma-discipulo-da-guerra",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Cruzado"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",

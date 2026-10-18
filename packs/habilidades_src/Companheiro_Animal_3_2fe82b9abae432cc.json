@@ -13,7 +13,8 @@
     "acesso": [
       "Druida",
       "Patrulheiro",
-      "Xamã"
+      "Xamã",
+      "Domador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -38,7 +39,8 @@
       "acesso": [
         "Druida",
         "Patrulheiro",
-        "Xamã"
+        "Xamã",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

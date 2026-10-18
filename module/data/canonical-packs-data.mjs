@@ -8002,7 +8002,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Combate em Grupo",
       "acesso": [
         "Hoste de Hadorn",
-        "Guerreiro"
+        "Guerreiro",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -8026,7 +8027,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Hoste de Hadorn",
-          "Guerreiro"
+          "Guerreiro",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -8103,8 +8105,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Ataque do Búfalo",
       "acesso": [
-        "Xamã",
-        "Amoque"
+        "Xamã"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -8127,8 +8128,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "atropelar",
         "automatica": false,
         "acesso": [
-          "Xamã",
-          "Amoque"
+          "Xamã"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -10661,7 +10661,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Paladino",
-        "Fira"
+        "Fira",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -10685,7 +10686,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Paladino",
-          "Fira"
+          "Fira",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -11220,8 +11222,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Chuva de Flechas",
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -11244,8 +11245,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "chuva-de-flechas-2",
         "automatica": false,
         "acesso": [
-          "Patrulheiro",
-          "Arqueiro"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -11272,8 +11272,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Flechas Rápidas",
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -11296,8 +11295,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "chuva-de-flechas",
         "automatica": false,
         "acesso": [
-          "Patrulheiro",
-          "Arqueiro"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -11996,7 +11994,8 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Hoste de Hadorn",
         "Guerreiro",
-        "Gnoll"
+        "Gnoll",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -12021,7 +12020,8 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Hoste de Hadorn",
           "Guerreiro",
-          "Gnoll"
+          "Gnoll",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -12048,7 +12048,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Cavaleiro Experiente",
       "acesso": [
-        "Paladino"
+        "Paladino",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -12071,7 +12072,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "combate-montado",
         "automatica": false,
         "acesso": [
-          "Paladino"
+          "Paladino",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -12208,7 +12210,8 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Druida",
         "Patrulheiro",
-        "Xamã"
+        "Xamã",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -12233,7 +12236,8 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Druida",
           "Patrulheiro",
-          "Xamã"
+          "Xamã",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -12262,7 +12266,8 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Druida",
         "Patrulheiro",
-        "Xamã"
+        "Xamã",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -12287,7 +12292,8 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Druida",
           "Patrulheiro",
-          "Xamã"
+          "Xamã",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -12316,7 +12322,8 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Druida",
         "Patrulheiro",
-        "Xamã"
+        "Xamã",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -12341,7 +12348,8 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Druida",
           "Patrulheiro",
-          "Xamã"
+          "Xamã",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -13261,7 +13269,8 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Xamã",
         "Necromante",
-        "Levent"
+        "Levent",
+        "Avantesma"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -13286,7 +13295,8 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Xamã",
           "Necromante",
-          "Levent"
+          "Levent",
+          "Avantesma"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -13482,7 +13492,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Menestrel",
-        "Tailox"
+        "Tailox",
+        "Cruzado"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
@@ -13512,7 +13523,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Menestrel",
-          "Tailox"
+          "Tailox",
+          "Cruzado"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
@@ -14123,7 +14135,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Ataque Aleijador",
       "acesso": [
         "Espadachim",
-        "Ladino"
+        "Ladino",
+        "Assassino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -14147,7 +14160,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Espadachim",
-          "Ladino"
+          "Ladino",
+          "Assassino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -16035,8 +16049,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Dogma",
       "acesso": [
-        "Sacerdote",
-        "Cruzado"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",
@@ -16059,8 +16072,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "dogma-discipulo-da-guerra",
         "automatica": false,
         "acesso": [
-          "Sacerdote",
-          "Cruzado"
+          "Sacerdote"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Bônus",
@@ -16403,9 +16415,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Sacerdote",
-        "Cruzado",
-        "Oráculo"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -16431,9 +16441,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "dogma",
         "automatica": false,
         "acesso": [
-          "Sacerdote",
-          "Cruzado",
-          "Oráculo"
+          "Sacerdote"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -16897,8 +16905,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Ataque Aleijador, Disparo Certeiro",
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -16921,8 +16928,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "empalar",
         "automatica": false,
         "acesso": [
-          "Patrulheiro",
-          "Arqueiro"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -16999,7 +17005,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Flanquear",
       "acesso": [
-        "Ladino"
+        "Ladino",
+        "Assassino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -17022,7 +17029,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "en-passant",
         "automatica": false,
         "acesso": [
-          "Ladino"
+          "Ladino",
+          "Assassino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -18103,7 +18111,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Flanquear",
       "acesso": [
-        "Ladino"
+        "Ladino",
+        "Assassino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -18126,7 +18135,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "explorar-surpresa",
         "automatica": false,
         "acesso": [
-          "Ladino"
+          "Ladino",
+          "Assassino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -18985,7 +18995,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Ladino"
+        "Ladino",
+        "Assassino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -19008,7 +19019,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "flanquear",
         "automatica": false,
         "acesso": [
-          "Ladino"
+          "Ladino",
+          "Assassino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -19091,8 +19103,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -19115,8 +19126,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "flechas-rapidas",
         "automatica": false,
         "acesso": [
-          "Patrulheiro",
-          "Arqueiro"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -27263,7 +27273,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5",
       "acesso": [
         "Xamã",
-        "Capuzes Negros"
+        "Capuzes Negros",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -27287,7 +27298,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Xamã",
-          "Capuzes Negros"
+          "Capuzes Negros",
+          "Domador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -29554,8 +29566,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Cultista",
-        "Aziago",
         "Geral"
       ],
       "tipoAcesso": "Geral",
@@ -29585,8 +29595,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "pacto",
         "automatica": false,
         "acesso": [
-          "Cultista",
-          "Aziago",
           "Geral"
         ],
         "tipoAcesso": "Geral",
@@ -31031,8 +31039,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Disparo Certeiro",
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -31055,8 +31062,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "precisao",
         "automatica": false,
         "acesso": [
-          "Patrulheiro",
-          "Arqueiro"
+          "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -34114,7 +34120,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Gótico"
+        "Gótico",
+        "Estrige"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -34137,7 +34144,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "sabedoria-sobrenatural",
         "automatica": false,
         "acesso": [
-          "Gótico"
+          "Gótico",
+          "Estrige"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -34596,7 +34604,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Gótico"
+        "Gótico",
+        "Estrige"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -34619,7 +34628,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "semelhanca-cadaverica",
         "automatica": false,
         "acesso": [
-          "Gótico"
+          "Gótico",
+          "Estrige"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -34801,7 +34811,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Fauno",
-        "Juban"
+        "Juban",
+        "Estrige"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
@@ -34825,7 +34836,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Fauno",
-          "Juban"
+          "Juban",
+          "Estrige"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
@@ -35935,7 +35947,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Escriba"
+        "Escriba",
+        "Argênteo"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -35958,7 +35971,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "teologo",
         "automatica": false,
         "acesso": [
-          "Escriba"
+          "Escriba",
+          "Argênteo"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -44330,8 +44344,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Dogma: Discípulo da Sabedoria",
       "acesso": [
-        "Sacerdote",
-        "Escriba"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 41",
@@ -44346,8 +44359,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "o-tomo-das-muitas-linguas",
         "tipo": "Ação",
         "acesso": [
-          "Sacerdote",
-          "Escriba"
+          "Sacerdote"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",

@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Ataque Aleijador, Disparo Certeiro",
     "acesso": [
-      "Patrulheiro",
-      "Arqueiro"
+      "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -35,8 +34,7 @@
       "slug": "empalar",
       "automatica": false,
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
