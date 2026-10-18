@@ -4228,7 +4228,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você sempre rola +1d6 em seus testes de equilíbrio, salto, piruetas e qualquer outra tentativa de se deslocar que exija coordenação, flexibilidade e precisão. Além disso, você sofre apenas metade dos danos por queda.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Servindo de pré-requisito para as habilidades Movimentos Evasivos e Aú (Manual do Combatente, pág. 69).</p></div>"
+      "description": "<p>Você sempre rola +1d6 em seus testes de equilíbrio, salto, piruetas e qualquer outra tentativa de se deslocar que exija coordenação, flexibilidade e precisão. Além disso, você sofre apenas metade dos danos por queda.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada uma vez por rodada.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -7405,7 +7405,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Quando um oponente errar um ataque corporal contra você, você pode direcionar o ataque dele para outro alvo. O novo alvo precisa estar adjacente a você ou ao oponente que errou o ataque. Esse ataque acerta automaticamente – sem chance de errar ou de ser um sucesso decisivo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada 1 vez por rodada.</p></div>"
+      "description": "<p>Quando um oponente errar um ataque corporal contra você, você pode direcionar o ataque dele para outro alvo. O novo alvo precisa estar adjacente a você ou ao oponente que errou o ataque. Esse ataque acerta automaticamente – sem chance de errar ou de ser um sucesso decisivo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada uma vez por rodada.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -8290,7 +8290,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Seus beijos produzem efeitos que beiram o sobrenatural. Faça uma tentativa de sedução contra uma criatura adjacente. Se for bem-sucedido, você e o alvo são considerados Paralisados até o começo de seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Chega Mais. Caminho Dançarino.</p></div>"
+      "description": "<p>Seus beijos produzem efeitos que beiram o sobrenatural. Faça uma tentativa de sedução contra uma criatura adjacente. Se for bem-sucedido, você e o alvo são considerados Paralisados até o começo de seu próximo turno.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -9222,7 +9222,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 69",
+      "fonteLivro": "Canção do Bardo, pág. 69; Guia Básico, pág. 118",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -9270,7 +9270,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv2",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 81; Canção do Bardo, pág. 72",
+      "fonteLivro": "Canção do Bardo, pág. 72; Guia Básico, pág. 81",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -9318,7 +9318,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Canção do Bardo, pág. 70",
+      "fonteLivro": "Canção do Bardo, pág. 70; Guia Básico, pág. 121",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -9414,7 +9414,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 78; Canção do Bardo, pág. 69",
+      "fonteLivro": "Canção do Bardo, pág. 69; Guia Básico, pág. 78",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -9462,7 +9462,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 69",
+      "fonteLivro": "Canção do Bardo, pág. 69; Guia Básico, pág. 79",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -9510,7 +9510,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 69",
+      "fonteLivro": "Canção do Bardo, pág. 69; Guia Básico, pág. 79",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -10303,7 +10303,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você profere uma charada capaz de desestabilizar qualquer um. Todas as criaturas capazes de ouvi-lo e entender o que você diz devem ser bem-sucedidas num teste de Inteligência (dificuldade igual à sua Determinação) ou ficarão Paralisadas até o final de seu próximo turno – quando podem repetir o teste, reduzindo em 2 a dificuldade anterior, cumulativamente. Sempre que falha no teste, a criatura volta a ficar Paralisada até o final de seu próximo turno ou até que sofra dano ou perda de Vida – o que cessa o efeito imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Seus aliados já estão acostumados, e recebem +2 nos testes para resolver a charada – e se falharem, só ficarão Paralisados por 1 turno, descartando a charada em seguida.<br><br>Requer Nível 5. Caminho Satírico.</p></div>"
+      "description": "<p>Você profere uma charada capaz de desestabilizar qualquer um. Todas as criaturas capazes de ouvi-lo e entender o que você diz devem ser bem-sucedidas num teste de Inteligência (dificuldade igual à sua Determinação) ou ficarão Paralisadas até o final de seu próximo turno – quando podem repetir o teste, reduzindo em 2 a dificuldade anterior, cumulativamente. Sempre que falha no teste, a criatura volta a ficar Paralisada até o final de seu próximo turno ou até que sofra dano ou perda de Vida – o que cessa o efeito imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Seus aliados já estão acostumados, e recebem +2 nos testes para resolver a charada – e se falharem, só ficarão Paralisado por 1 turno, descartando a charada em seguida.<br><br>Este é um efeito mental.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -10351,7 +10351,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Se um oponente que está adjacente a você tentar se afastar, você pode fazer uma tentativa de sedução contra ele. Se for bem-sucedido, ele não poderá se deslocar neste turno e será considerado Desprevenido para todos os seus aliados, mas não você, até o final de seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+      "description": "<p>Se um oponente que está adjacente a você tentar se afastar, você pode fazer uma tentativa de sedução contra ele. Se for bem-sucedido, ele não poderá se deslocar neste turno e será considerado Desprevenido para todos os seus aliados, mas não você, até o final de seu próximo turno.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -11244,7 +11244,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Como em Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação. No Manual do Combatente (pág. 63), ao usar a Manobra Atacar com Duas Armas sem exceder sua Força, você não sofre Inaptidão e a manobra consome uma Ação Livre em vez de uma Ação de Movimento.</p></div>"
+      "description": "<p>Como Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.<br><br>Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o dobro do dano.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -13539,7 +13539,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Se estiver sob efeito de uma Técnica de Dança, adicione seu Bônus de Dança ao teste do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Dança das Espadas 1. Caminho Dançarino Exótico.</p></div>"
+      "description": "<p>Se estiver sob efeito de uma Técnica de Dança, adicione seu Bônus de Dança ao teste do ataque.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -13588,7 +13588,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode entrar em um fluxo incessante de movimentos fluidos e vigorosos. Enquanto estiver neste estado você recebe Agilidade +2 e recebe +1d6 em seus testes de dança. Este efeito dura até 5 minutos ou até que você pare, ou seja alvo de um efeito que o impeça de continuar se movendo continuamente (Constringido, Derrubado, Amedrontado, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito obrigatório para Dança das Espadas 2 e para a habilidade avançada Dança das Lâminas.</p></div>"
+      "description": "<p>Você pode entrar em um fluxo incessante de movimentos fluidos e vigorosos. Enquanto estiver neste estado, você recebe Agilidade +2 e recebe +1d6 em seus testes de dança. Este efeito dura até 5 minutos ou até que você pare, ou seja alvo de um efeito que o impeça de continuar se movendo continuamente (Constringido, Derrubado, Amedrontado, etc.).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -13741,7 +13741,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você aprendeu a seguir um ritmo totalmente imprevisível, deixando seus oponentes confusos sobre como acertá-lo. Enquanto você estiver dançando você recebe +2 na Esquiva e caso você seja alvo de uma magia a dificuldade dela aumenta em 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Exótico.</p></div>"
+      "description": "<p>Você aprendeu a seguir um ritmo totalmente imprevisível, deixando seus oponentes confusos sobre como acertá-lo. Enquanto você estiver dançando você recebe +2 na Esquiva e caso você seja alvo de uma magia a dificuldade dela aumenta em 1.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -13789,7 +13789,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você aprendeu a dançar de um jeito tão chamativo e sedutor que todos ficam admirados pela sua dança. Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste ficarão Distraídos enquanto puderem ver você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Dança dos Sete Véus. Caminho Dançarino Exótico.</p></div>"
+      "description": "<p>Você aprendeu a dançar de um jeito tão chamativo e sedutor que todos ficam admirados pela sua dança. Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste ficarão Distraídos enquanto puderem ver você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano, e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Especial: O custo em Mana desta ação só é gasto quando você realizar seu teste de Dança, e dura enquanto você se mantiver dançando – o que consome uma ação de movimento.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -15025,7 +15025,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de usar sua oratória para chamar a atenção de um alvo para você e confundi-lo no processo. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura precisa passar em um teste de Inteligência (Dificuldade igual à sua Determinação) ou ficará Distraída por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito mental. Consulte a condição Distraído no apêndice de Condições.</p></div>"
+      "description": "<p>Você é capaz de usar sua oratória para chamar a atenção de um alvo para você e confundi-lo no processo. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura precisa passar em um teste de Inteligência (Dificuldade igual à sua Determinação) ou ficará Distraída por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito mental.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -15911,7 +15911,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você tem um talento de oratória capaz de persuadir, convencer ou comover outras pessoas apenas falando do jeito certo. Você recebe +1d6 em todos os seus testes para persuadir, mentir, perceber mentiras, intimidar ou em qualquer outra interação social.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Servindo de pré-requisito para diversas habilidades de oratória e manipulação como *Distração*, *Língua Afiada* e *Canção da Sereia*.</p></div>"
+      "description": "<p>Você tem um talento de convencer ou comover outras pessoas apenas falando do jeito certo. Você recebe +1d6 em todos os seus testes para persuadir, mentir, perceber mentiras, intimidar ou em qualquer outra interação social.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -17026,7 +17026,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Se o seu inimigo fizer um ataque corporal e acertar, você pode declarar evasão, e obrigar o inimigo a rolar novamente o teste de ataque. Você pode escolher com qual dos resultados o oponente vai ficar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada 1 vez por turno (ou 1 vez por rodada). Serve de pré-requisito para Ataque Redirecionado, Truque Sujo e Ataque Evasivo.</p></div>"
+      "description": "<p>Se o seu inimigo fizer um ataque corporal e acertar, você pode declarar evasão, e obrigar o inimigo a rolar novamente o teste de ataque. Você pode escolher com qual dos resultados o oponente vai ficar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada uma vez por rodada.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -17431,7 +17431,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você treinou no uso da extensão mais aguda da sua voz, projetando sua voz muito mais longe. O alcance dos seus Gritos e Rugidos é dobrado e o dano destas Habilidades é aumentado em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5.</p></div>"
+      "description": "<p>Você treinou no uso da extensão mais aguda da sua voz, projetando sua voz muito mais longe O alcance dos seus Gritos e Rugidos é dobrado e o dano destas Habilidades é aumentado em 5.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -18182,7 +18182,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você tem o corpo muito flexível, capaz de se dobrar, esticar e espremer de maneiras extremas. Você pode passar por aberturas como se tivesse apenas metade do seu tamanho, consegue escorregar para fora de grilhões e amarras com facilidade, pode se esticar e dobrar de modos a alcançar pontos de apoio difíceis numa escalada além de ser mais ágil quando corre e escapa de obstáculos, recebendo um bônus de +2 em qualquer teste que envolva esse tipo de circunstância.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Armaduras com a Característica Pesada impedem que você receba os bônus por esta Habilidade.</p></div>"
+      "description": "<p>Você tem o corpo muito flexível, capaz de se dobrar, esticar e espremer de maneiras extremas. Você pode passar por aberturas como se tivesse apenas metade do seu tamanho, consegue escorregar para fora de grilhões e amarras com facilidade, pode se esticar e dobrar de modos a alcançar pontos de apoio difíceis numa escalada, além de ser mais ágil quando corre e escapa de obstáculos, recebendo um bônus de +2 em qualquer teste que envolva esse tipo de circunstância.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Armaduras com a Característica Pesada impedem que você receba os bônus por esta Habilidade.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -19980,7 +19980,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Quando você derrota seus inimigos, faz isso de maneira sensacional!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sempre que você derrotar um oponente, você pode fazer uma demonstração de vitória que inspira seus aliados. Todos os seus aliados que puderem lhe ver imediatamente recuperam uma quantidade de Pontos de Vida e Mana iguais à sua Vontade.<br><br>Caminho Skald.</p></div>"
+      "description": "<p>Quando você derrota seus inimigos, faz isso de maneira sensacional!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sempre que você derrotar um oponente, você pode fazer uma demonstração de vitória que inspira seus aliados. Todos os seus aliados que puderem lhe ver imediatamente recuperam uma quantidade de Pontos de Vida e Mana iguais à sua Vontade.<br><br>Grito</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20088,7 +20088,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Você consegue compreender muito rapidamente as estruturas sociais de uma cultura e seus indivíduos e é capaz de fazer amigos em qualquer lugar. Depois de cinco minutos de conversa, a pessoa com quem você esteja interagindo – e que não seja obviamente hostil a você, como um captor ou um inimigo jurado – torna-se propensa a ajudá-lo. Essa Habilidade geralmente serve para colher informações gerais (apesar de segredos não serem possíveis de conseguir) ou pequenos favores – como ser apresentado a alguém ou conseguir uma cerveja de graça. Você também recebe +2 em testes de seduzir, mentir, detectar mentiras ou qualquer outra interação social.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para as habilidades Persuadir e Abrir a Guarda.</p></div>"
+      "description": "<p>Você consegue compreender muito rapidamente as estruturas sociais de uma cultura e seus indivíduos e é capaz de fazer amigos em qualquer lugar. Depois de cinco minutos de conversa, a pessoa com quem você esteja interagindo – e que não seja obviamente hostil a você, como um captor ou um inimigo jurado – torna-se propensa a ajudá-lo. Essa Habilidade geralmente serve para colher informações gerais (apesar de segredos não serem possíveis de conseguir) ou pequenos favores – como ser apresentado a alguém ou conseguir uma cerveja de graça. Você também recebe +2 em testes de seduzir, mentir, detectar mentiras ou qualquer outra interação social.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -20140,7 +20140,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você produz um som tão violento que ele reverbera em tudo e todos ao seu redor, rompendo órgãos e provocando danos estruturais. Todas as criaturas a até 10 metros à sua frente devem fazer um teste de Força (Dificuldade igual à sua Determinação). Se passarem no teste, elas sofrem dano igual a 10/Contusão. Se falharem no teste, elas sofrem dano igual a 20/Contusão. Criaturas com Corpo Amórfico não têm direito a este teste e criaturas dos tipos Autômato e Elemental sofrem o dobro do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Grito Estilhaçador.</p></div>"
+      "description": "<p>Você produz um som tão violento que ele reverbera em tudo e todos ao seu redor, rompendo órgãos e provocando danos estruturais. Todas as criaturas a até 10 metros à sua frente devem fazer um teste de Força (Dificuldade igual à sua Determinação). Se passarem no teste, elas sofrem dano igual a 10/Contusão. Se falharem no teste, elas sofrem dano igual a 20/Contusão. Criaturas com Corpo Amórfico não têm direito a este teste e criaturas dos tipos Autômato e Elemental sofrem o dobro do dano.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -20191,7 +20191,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Você e todos os aliados que estiverem em um raio de 5 metros recebem +1 em todas as rolagens até o final da batalha. Além disso, remova todos os efeitos de Medo de todos os aliados dentro da área dessa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo. Este é um efeito mental. Serve de pré-requisito para o Caminho Skald (Canção do Bardo, pág. 20).</p></div>"
+      "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Eles recebem (assim como você) +1 em todos os testes até o final da batalha. Além disso, remova todos os efeitos de Medo que estiverem afetando os seus aliados. Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20245,7 +20245,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Você e todos os seus aliados em um raio de 10 metros recebem +2 em todas as rolagens até o final da batalha. Além disso, remova todos os efeitos de Medo de todos os aliados dentro da área dessa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo. Este é um efeito mental.</p></div>"
+      "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Eles recebem (assim como você) +2 em todos os testes até o final da batalha. Além disso, remova todos os efeitos de Medo que estiverem afetando os seus aliados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20298,7 +20298,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você pode dar um grito para intimidar seus inimigos. Todos os oponentes que estiverem a até 10 metros à sua frente que tiverem uma Determinação menor do que a sua ficam Paralisados por 2 turnos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito de Medo.</p></div>"
+      "description": "<p>Você pode dar um grito para intimidar seus inimigos. Todos os oponentes que estiverem a até 10 metros à sua frente que tiverem uma Determinação menor do que a sua ficam Paralisados por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um efeito de Medo.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -20350,7 +20350,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você solta um grito tão alto e poderoso que faz com que todos ao redor fiquem atordoados. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Grito Estilhaçador e Grito Retumbante.</p></div>"
+      "description": "<p>Você solta um grito tão alto e poderoso que faz com que todos ao redor fiquem atordoados. Todas as criaturas em uma área de 10 metros à sua frente ficam Atordoadas por um número de turnos igual à sua Vontade.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -20402,7 +20402,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Seu agudo é tão poderoso que você pode direcionar um grito capaz de romper vidros, cristais e tímpanos! Tudo e todos em até 10 metros à sua frente sofrem dano igual a 10/Corte. Criaturas com Corpo Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o dobro do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Grito Ensurdecedor.</p></div>"
+      "description": "<p>Seu agudo é tão poderoso que você pode direcionar um grito capaz de romper vidros, cristais e tímpanos! Tudo e todos em até 10 metros à sua frente sofrem dano igual a 10/Corte. Criaturas com Corpo Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o dobro do dano.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -20500,7 +20500,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você solta um grito tão poderoso, que faz a terra tremer! Todos os que estiverem à uma quantidade de metros à sua frente igual à sua Força devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação) ou perderão o equilíbrio e cairão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Grito Ensurdecedor. Caminho Skald.</p></div>"
+      "description": "<p>Você solta um grito tão poderoso, que faz a terra tremer! Todos os que estiverem à uma quantidade de metros à sua frente igual à sua Força devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação) ou perderão o equilíbrio e cairão.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -21979,7 +21979,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você reforça a determinação de um aliado através de palavras inspiradoras. Aquele aliado recupera imediatamente 20 Pontos de Vida e quaisquer efeitos de Medo que o estiver afetando são removidos. Este efeito não pode ser utilizado em você mesmo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Requer a habilidade Presença Inspiradora. Serve de pré-requisito para as habilidades Inspirar Confiança e Restaurar Ânimo.</p></div>"
+      "description": "<p>Você reforça a determinação de um aliado através de palavras inspiradoras. Aquele aliado recupera imediatamente 20 Pontos de Vida e quaisquer efeitos de Medo que o estiver afetando são removidos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este efeito não pode ser utilizado em você mesmo.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -23414,7 +23414,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui uma língua ferina e um talento especial para insultar seus adversários. Escolha um inimigo do tipo Humanoide ou Esfinge. Você faz uma série de comentários jocosos ou degradantes sobre ele. Faça um confronto de Vontade contra o alvo. Se você tiver um resultado igual ou maior do que o alvo e se ele for capaz de entendê-lo, ele ataca você em detrimento de qualquer outro alvo, e é considerado Desprevenido para todos os seus aliados – mas não para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. A Errata Oficial unificou o texto definitivo desta habilidade.</p></div>"
+      "description": "<p>Você possui uma língua ferina e um talento especial para insultar seus adversários. Escolha um inimigo do tipo Humanoide ou Esfinge. Você faz uma série de comentários jocosos ou degradantes sobre ele. Faça um confronto de Vontade contra o alvo. Se você tiver um resultado igual ou maior do que o alvo e se ele for capaz de entendê-lo, ele ataca você em detrimento de qualquer outro alvo, e é considerado Desprevenido para todos os seus aliados – mas não para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -24310,7 +24310,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você tem uma ótima coordenação para jogar e pegar objetos no ar. Além de poder realizar malabarismos – mesmo usando objetos perigosos como adagas ou tochas – como entretenimento, você recebe +2 em todas as suas jogadas para arremessar objetos e +1 na Defesa contra ataques à distância.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de Defesa conta como Esquiva. Serve de pré-requisito para a habilidade avançada *Malabares*.</p></div>"
+      "description": "<p>Você tem uma ótima coordenação para jogar e pegar objetos no ar. Além de poder realizar malabarismos – mesmo usando objetos perigosos como adagas ou tochas – como entretenimento, você recebe +2 em todos os seus testes para arremessar objetos e um Bônus de Esquiva de +1 contra ataques à distância.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -24982,7 +24982,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Lista",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 80; Canção do Bardo, pág. 70",
+      "fonteLivro": "Canção do Bardo, pág. 70; Guia Básico, pág. 80",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -25640,7 +25640,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você se especializou em arremessar armas pequenas de forma eficiente. Você pode arremessar 2 armas com a característica Arremesso e FN 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Servindo de pré-requisito direto para *Mestre das Adagas 2*.</p></div>"
+      "description": "<p>Você se especializou em arremessar armas pequenas de forma eficiente. Você pode arremessar 2 armas com a característica Arremesso e FN 1.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -25690,7 +25690,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você refinou sua técnica de arremesso de pequenos objetos. Você pode arremessar até 4 armas com a característica Arremesso e FN 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer *Mestre das Adagas 1*. Servindo de pré-requisito para *Mestre das Adagas 3*.</p></div>"
+      "description": "<p>Você refinou sua técnica de arremesso de pequenos objetos. Você pode arremessar até 4 armas com a característica Arremesso e FN 1.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -25740,7 +25740,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é um mestre da técnica de arremessar pequenos objetos! Você pode arremessar até 6 armas com a característica Arremesso e FN 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Mestre das Adagas 2.</p></div>"
+      "description": "<p>Você é um mestre da técnica de arremessar pequenos objetos! Você pode arremessar até 6 armas com a característica Arremesso e FN 1.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -25790,7 +25790,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Sempre que você fizer um teste que envolva contar histórias, entreter uma plateia, cantar ou tocar instrumentos musicais (incluindo Habilidades do tipo Música), você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada 1 vez por turno.</p></div>"
+      "description": "<p>Sempre que você fizer um teste que envolva contar histórias, entreter uma plateia, cantar ou tocar instrumento musicais (incluindo Habilidades do tipo Música), você pode rolar novamente um dado cujo resultado seja 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada uma vez por turno.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -26242,7 +26242,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Sempre que um oponente ou aliado utilizar uma Habilidade de Ação do tipo Técnica e você consiga vê-lo, você pode realizar aquela Habilidade no seu próximo turno. Você ainda precisa preencher quaisquer exigências da Técnica (tipo de dano, itens, condições especiais, tipo de ação, etc.) além do Requisito de nível (mas ignora outros Requisitos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Pantomima. Caminho Bufão.</p></div>"
+      "description": "<p>Sempre que um oponente ou aliado utilizar uma Habilidade de Ação do tipo Técnica e você consiga ve-lô, você pode realizar aquela Habilidade no seu próximo turno. Você ainda precisa preencher quaisquer exigências da Técnica (tipo de dano, itens, condições especiais, tipo de ação, etc.) além do Requisito de nível (mas ignora outros Requisitos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O custo dessa Habilidade é o mesmo da Técnica a ser copiada +5.<br><br>Esta Habilidade só pode ser utilizada uma vez por turno.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -26696,7 +26696,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui uma inclinação ao funesto e ao lúgubre, e suas Músicas podem afetar até mesmo criaturas com Mente Vazia como se elas não tivessem esta Habilidade. Você também recebe um bônus de +1 em seus testes relacionados a cadáveres ou partes deles – como preparação de carne para refeições, extrair couro ou partes de animais mortos ou determinar a causa da morte de uma criatura – o que inclui todos os tipos de mortos-vivos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música para a qual preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
+      "description": "<p>Você possui uma inclinação ao funesto e ao lúgubre, e suas Músicas podem afetar até mesmo criaturas com Mente Vazia como se eles não tivessem esta Habilidade. Você também recebe um bônus de +1 em seus testes relacionados a cadáveres ou partes deles – como preparação de carne para refeições, extrair couro ou partes de animais mortos ou determinar a causa da morte de uma criatura – o que inclui todos os tipos de mortos-vivos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música para a qual preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -26960,7 +26960,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>As sombras ao seu redor se materializam na forma de um manto aterrorizante. Enquanto o Necromanto estiver materializado, você recebe +1d6 em seus testes em tentativas de Intimidação – mas é considerado Inapto em todos os seus outros testes sociais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode conjurar o Necromanto como uma ação livre, e pode mantê-lo pelo tempo que desejar.<br><br>Requer Esta Carcaça Mortal. Caminho Dançarino Macabro.</p></div>"
+      "description": "<p>As sombras ao seu redor se materializam na forma de um manto aterrorizante. Enquanto o Necromanto estiver materializado, você recebe +1d6 em seus testes em tentativas de Intimidação – mas é considerado Inapto em todos os seus outros testes sociais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode conjurar o Necromanto como uma ação livre, e pode mantê-lo pelo tempo que desejar.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -28279,7 +28279,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Suas palavras não são verdadeiramente venenosas, apesar de suas vítimas muitas vezes discordarem. Sempre que afetar um alvo com Devastação Emocional, ele fica fisicamente enjoado e desgastado, perdendo uma quantidade de Pontos de Vida igual à sua Vontade por turno enquanto durar o efeito da habilidade original.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Devastação Emocional. Caminho Satírico.</p></div>"
+      "description": "<p>Suas palavras não são verdadeiramente venenosas, apesar de suas vítimas muitas vezes discordarem. Sempre que afetar um alvo com Devastação Emocional, ele fica fisicamente enjoado e desgastado, perdendo uma quantidade de Pontos de Vida igual à sua Vontade por turno enquanto durar o efeito da habilidade original.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -28328,7 +28328,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você possui uma bravura petulante e uma confiança inabalável nas suas próprias habilidades. Enquanto não estiver usando armadura, você recebe +1 na Defesa para cada 2 pontos de Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse é um bônus de Esquiva. Requer a habilidade Língua Afiada.</p></div>"
+      "description": "<p>Você possui uma bravura petulante e uma confiança inabalável nas suas próprias habilidades. Enquanto não estiver usando armadura, você recebe +1 na Defesa para cada 2 pontos de Vontade. Esse é um bônus de Esquiva.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -29256,7 +29256,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Através das inúmeras canções e poemas épicos, você conhece muitas histórias e lendas. Você pode rolar +1d6 quando fizer testes referentes a qualquer tipo de conhecimento.\r<br>Se o conhecimento em questão for considerado perdido, maçante ou técnico para figurar uma canção ou poema, não há como o Bardo conseguir informações sobre o assunto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Automática da classe Bardo. No suplemento *Canção do Bardo* (pág. 15, 21), esta habilidade também concede ao Bardo o direito de selecionar duas Músicas iniciais para as quais preencha os requisitos.</p></div>"
+      "description": "<p>Através das inúmeras canções e poemas épicos, você conhece muitas histórias e lendas. Você pode rolar +1d6 quando fizer testes referentes à qualquer tipo de conhecimento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se o conhecimento em questão for considerado perdido, maçante ou técnico para figurar uma canção ou poema, não há como o Bardo conseguir informações sobre o assunto.<br><br>Além disso, você pode selecionar duas Música para as quais preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -29352,7 +29352,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você está acostumado a se apresentar enquanto caminha entre a plateia – ou acompanhando a plateia! Suas Músicas passam a ser iniciadas como uma ação de movimento ao invés de uma ação padrão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige Nível 5 do personagem.</p></div>"
+      "description": "<p>Você está acostumado a se apresentar enquanto caminha entre a platéia – ou acompanhando a plateia! Suas Músicas passam a ser iniciadas como uma ação de movimento ao invés de uma ação padrão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidades Final</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -29998,7 +29998,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você inspira confiança em seus aliados com sua mera presença. Todos os seus aliados, mas não você, recebem Determinação +2 e +1 em todos os seus testes enquanto você estiver dentro do seu alcance de visão. Esses benefícios deixam de ter efeito se você ficar desacordado ou sob um efeito de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito obrigatório para as habilidades Inspirar Coragem e Voz de Comando 1.</p></div>"
+      "description": "<p>Você inspira confiança em seus aliados com sua mera presença. Todos os seus aliados, mas não você, recebem Determinação +2 e +1 em todos os testes enquanto você estiver dentro do seu alcance de visão. Esses benefícios deixam de ter efeito se você ficar desacordado ou sob um efeito de Medo.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -31084,7 +31084,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Sempre que estiver mantendo um Ritmo ou Melodia e uma criatura se aproximar de você, até uma distância máxima de sua Determinação em metros, você pode adicionar algumas notas a mais em sua música para dissuadi-lo. O alvo sofre imediatamente uma quantidade de dano igual à sua Vontade/Contusão e precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo fica Atordoado por 1 turno e perde o Deslocamento restante do seu turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada 1 vez por turno.</p></div>"
+      "description": "<p>Sempre que estiver mantendo um Ritmo ou Melodia e uma criatura se aproximar de você, até uma distância máxima de sua Determinação em metros, você pode adicionar algumas notas a mais em sua música para dissuadi-lo. O alvo sofre imediatamente uma quantidade de dano igual à sua Vontade/ Contusão e precisa realizar um teste de Vontade (Dificuldade igual a sua Determinação). Se falhar, o alvo fica Atordoado por 1 turno e perde o Deslocamento restante do seu turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode usar esta Habilidade uma vez por rodada.</p></div>"
     },
     "flags": {
       "mighty-blade": {
@@ -31346,7 +31346,7 @@ export const CANONICAL_HABILIDADES = [
         }
       ],
       "concessoes": [],
-      "description": "<p>Enquanto estiver dançando, você recebe +2 em seu deslocamento – exceto para calcular seu Deslocamento de Corrida ou de Encontrões. Além disso, você pode substituir seu bônus de Agilidade na Esquiva por seu valor de Deslocamento enquanto estiver dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Exótico.</p></div>"
+      "description": "<p>Enquanto estiver dançando, você recebe +2 em seu deslocamento – exceto para calcular seu Deslocamento de Corrida ou de Encontrões. Além disso, você pode substituir seu bônus de Agilidade na Esquiva por seu valor de Deslocamento enquanto estiver dançando.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -31383,7 +31383,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv3",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 27",
+      "fonteLivro": "Canção do Bardo, pág. 27; Guia Básico, pág. 118",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -32573,7 +32573,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você recebe +1d6 em seus testes de conhecimento sobre maldições, criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Esse bônus também se aplica a testes para perceber e rastrear essas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Macabro.</p></div>"
+      "description": "<p>Você recebe +1d6 em seus testes de conhecimento sobre maldições, criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Esse bônus também se aplica a testes para perceber e rastrear essas criaturas.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -34773,7 +34773,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você está acostumado a enganar e mentir, e seu raciocínio se tornou tão condicionado a extrapolar situações rapidamente que até ler (ou mesmo dominar) sua mente é mais difícil! Sua Inteligência é considerada o dobro em Confrontos para tentar esconder ou dissimular a verdade, e para calcular sua Determinação contra efeitos mentais – exceto os de medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Eloquente.</p></div>"
+      "description": "<p>Você está acostumado a enganar e mentir, e seu raciocínio se tornou tão condicionado a extrapolar situações rapidamente que até ler (ou mesmo dominar) sua mente é mais difícil! Sua Inteligência é considerada o dobro em Confrontos para tentar esconder ou dissimular a verdade, e para calcular sua Determinação contra efeitos mentais – exceto os de medo.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -34974,7 +34974,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Quando estiver em distância corporal do oponente e ele estiver lhe vendo, faça um Confronto de Inteligência contra o alvo. Se você tiver um resultado igual ou maior do que o do oponente, você realiza um truque sujo (joga areia nos olhos do oponente, joga um pano em seu rosto, enrola uma corda em suas pernas, etc.) fazendo com que o alvo fique confuso ou desequilibrado, não podendo realizar nenhuma ação no próximo turno, e sendo considerado Desprevenido por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Evasão.</p></div>"
+      "description": "<p>Quando estiver em distância corporal do oponente e ele estiver lhe vendo, faça um Confronto de Inteligência contra o alvo. Se você tiver um resultado igual ou maior do que o do oponente, você realiza um truque sujo (joga areia nos olhos do oponente, joga um pano em seu rosto, enrola uma corda em suas pernas, etc.) fazendo com que o alvo fique confuso ou desequilibrado, não podendo realizar nenhuma ação no próximo turno, e sendo considerado Desprevenido por 1 turno.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -35075,7 +35075,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você incentiva um aliado com palavras de encorajamento sobre as aptidões dele. Aquele aliado recebe +1 sua Determinação e em todos os seus testes por 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Um Bom Conselho 2.</p></div>"
+      "description": "<p>Você incentiva um aliado com palavras de encorajamento sobre as aptidões dele. Aquele aliado recebe +1 sua Determinação e em todos os seus testes por 1 hora.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -35125,7 +35125,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você incentiva um aliado exultando suas capacidades de modo excepcional. Aquele aliado recebe +2 em sua determinação e em todos os seus testes por 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Um Bom Conselho 1.</p></div>"
+      "description": "<p>Você incentiva um aliado exultando suas capacidades de modo excepcional. Aquele aliado recebe +2 em sua determinação e em todos os seus testes por 1 hora.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -35420,7 +35420,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você é capaz de falar sem mover os lábios, além de saber projetar sua voz e imitar sons com perfeição. Sempre que falar (mas não utilizar Músicas) você pode escolher não mover os lábios e/ou fazer com que sua voz pareça vir de um ponto a até sua Vontade em metros de distância. Além disso, você é capaz de imitar com perfeição a voz de criaturas que já tenha ouvido – incluindo sotaques de idiomas que conheça ou mesmo sons de animais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> N/A.</p></div>"
+      "description": "<p>Você é capaz de falar sem mover os lábios, além de saber projetar sua voz e imitar sons com perfeição. Sempre que falar (mas não utilizar Músicas) você pode escolher não mover os lábios e/ou fazer com que sua voz pareça vir de um ponto a até sua Vontade em metros de distância. Além disso, você é capaz de imitar com perfeição a voz de criaturas que já tenha ouvido – incluindo sotaques de idiomas que conheça ou mesmo sons de animais.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -35863,7 +35863,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você treinou exaustivamente até se tornar um mestre no uso de instrumentos musicais. Você rola +1d6 em todos os testes envolvendo tocar instrumentos musicais (incluindo Habilidades do tipo Música).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Mestre das Notas.</p></div>"
+      "description": "<p>Você treinou exaustivamente até se tornar um mestre no uso de instrumentos musicais. Você rola +1d6 em todos os testes envolvendo tocar instrumentos musicais (incluindo Habilidades do tipo Música).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -36214,7 +36214,7 @@ export const CANONICAL_HABILIDADES = [
       },
       "efeitos": [],
       "concessoes": [],
-      "description": "<p>Você sabe utilizar sua voz para cantar com harmonia. Você recebe +2 em todos os testes para cantar e declamar (incluindo utilizar Músicas do tipo Canção), e suas Canções tem seu custo de mana reduzido em 5.</p>"
+      "description": "<p>Você sabe utilizar sua voz para cantar com harmonia. Você recebe +2 em todos os testes para cantar e declamar (incluindo utilizar Músicas do tipo Canção), e suas Canções tem seu custo de mana reduzido em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Habilidade do tipo Música que seja uma Canção e que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada.</p></div>"
     },
     "flags": {
       "mighty-blade": {

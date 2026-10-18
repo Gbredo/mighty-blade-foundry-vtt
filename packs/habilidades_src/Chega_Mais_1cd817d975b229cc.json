@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se um oponente que está adjacente a você tentar se afastar, você pode fazer uma tentativa de sedução contra ele. Se for bem-sucedido, ele não poderá se deslocar neste turno e será considerado Desprevenido para todos os seus aliados, mas não você, até o final de seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    "description": "<p>Se um oponente que está adjacente a você tentar se afastar, você pode fazer uma tentativa de sedução contra ele. Se for bem-sucedido, ele não poderá se deslocar neste turno e será considerado Desprevenido para todos os seus aliados, mas não você, até o final de seu próximo turno.</p>"
   },
   "flags": {
     "mighty-blade": {

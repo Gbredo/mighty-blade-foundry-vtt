@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você inspira confiança em seus aliados com sua mera presença. Todos os seus aliados, mas não você, recebem Determinação +2 e +1 em todos os seus testes enquanto você estiver dentro do seu alcance de visão. Esses benefícios deixam de ter efeito se você ficar desacordado ou sob um efeito de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito obrigatório para as habilidades Inspirar Coragem e Voz de Comando 1.</p></div>"
+    "description": "<p>Você inspira confiança em seus aliados com sua mera presença. Todos os seus aliados, mas não você, recebem Determinação +2 e +1 em todos os testes enquanto você estiver dentro do seu alcance de visão. Esses benefícios deixam de ter efeito se você ficar desacordado ou sob um efeito de Medo.</p>"
   },
   "flags": {
     "mighty-blade": {

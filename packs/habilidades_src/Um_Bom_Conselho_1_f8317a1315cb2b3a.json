@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você incentiva um aliado com palavras de encorajamento sobre as aptidões dele. Aquele aliado recebe +1 sua Determinação e em todos os seus testes por 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Um Bom Conselho 2.</p></div>"
+    "description": "<p>Você incentiva um aliado com palavras de encorajamento sobre as aptidões dele. Aquele aliado recebe +1 sua Determinação e em todos os seus testes por 1 hora.</p>"
   },
   "flags": {
     "mighty-blade": {

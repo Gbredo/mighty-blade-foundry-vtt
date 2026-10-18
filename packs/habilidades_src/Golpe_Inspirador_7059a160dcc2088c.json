@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando você derrota seus inimigos, faz isso de maneira sensacional!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sempre que você derrotar um oponente, você pode fazer uma demonstração de vitória que inspira seus aliados. Todos os seus aliados que puderem lhe ver imediatamente recuperam uma quantidade de Pontos de Vida e Mana iguais à sua Vontade.<br><br>Caminho Skald.</p></div>"
+    "description": "<p>Quando você derrota seus inimigos, faz isso de maneira sensacional!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Sempre que você derrotar um oponente, você pode fazer uma demonstração de vitória que inspira seus aliados. Todos os seus aliados que puderem lhe ver imediatamente recuperam uma quantidade de Pontos de Vida e Mana iguais à sua Vontade.<br><br>Grito</p></div>"
   },
   "flags": {
     "mighty-blade": {

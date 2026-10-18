@@ -29,7 +29,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Você e todos os seus aliados em um raio de 10 metros recebem +2 em todas as rolagens até o final da batalha. Além disso, remova todos os efeitos de Medo de todos os aliados dentro da área dessa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo. Este é um efeito mental.</p></div>"
+    "description": "<p>Você pode dar um grito fervoroso que motiva todos seus aliados. Eles recebem (assim como você) +2 em todos os testes até o final da batalha. Além disso, remova todos os efeitos de Medo que estiverem afetando os seus aliados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo.</p></div>"
   },
   "flags": {
     "mighty-blade": {

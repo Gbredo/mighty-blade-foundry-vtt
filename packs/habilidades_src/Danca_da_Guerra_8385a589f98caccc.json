@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se estiver sob efeito de uma Técnica de Dança, adicione seu Bônus de Dança ao teste do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Dança das Espadas 1. Caminho Dançarino Exótico.</p></div>"
+    "description": "<p>Se estiver sob efeito de uma Técnica de Dança, adicione seu Bônus de Dança ao teste do ataque.</p>"
   },
   "flags": {
     "mighty-blade": {

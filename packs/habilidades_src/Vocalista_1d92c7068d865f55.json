@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sabe utilizar sua voz para cantar com harmonia. Você recebe +2 em todos os testes para cantar e declamar (incluindo utilizar Músicas do tipo Canção), e suas Canções tem seu custo de mana reduzido em 5.</p>"
+    "description": "<p>Você sabe utilizar sua voz para cantar com harmonia. Você recebe +2 em todos os testes para cantar e declamar (incluindo utilizar Músicas do tipo Canção), e suas Canções tem seu custo de mana reduzido em 5.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Habilidade do tipo Música que seja uma Canção e que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada.</p></div>"
   },
   "flags": {
     "mighty-blade": {

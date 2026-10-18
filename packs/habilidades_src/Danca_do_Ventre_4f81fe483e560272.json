@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você aprendeu a dançar de um jeito tão chamativo e sedutor que todos ficam admirados pela sua dança. Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste ficarão Distraídos enquanto puderem ver você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Dança dos Sete Véus. Caminho Dançarino Exótico.</p></div>"
+    "description": "<p>Você aprendeu a dançar de um jeito tão chamativo e sedutor que todos ficam admirados pela sua dança. Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste ficarão Distraídos enquanto puderem ver você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano, e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Especial: O custo em Mana desta ação só é gasto quando você realizar seu teste de Dança, e dura enquanto você se mantiver dançando – o que consome uma ação de movimento.</p></div>"
   },
   "flags": {
     "mighty-blade": {

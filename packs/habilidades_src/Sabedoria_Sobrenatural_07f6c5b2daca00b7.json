@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você recebe +1d6 em seus testes de conhecimento sobre maldições, criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Esse bônus também se aplica a testes para perceber e rastrear essas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino Macabro.</p></div>"
+    "description": "<p>Você recebe +1d6 em seus testes de conhecimento sobre maldições, criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Esse bônus também se aplica a testes para perceber e rastrear essas criaturas.</p>"
   },
   "flags": {
     "mighty-blade": {

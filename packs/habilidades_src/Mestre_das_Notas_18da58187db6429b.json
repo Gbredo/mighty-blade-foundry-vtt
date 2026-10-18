@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que você fizer um teste que envolva contar histórias, entreter uma plateia, cantar ou tocar instrumentos musicais (incluindo Habilidades do tipo Música), você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada 1 vez por turno.</p></div>"
+    "description": "<p>Sempre que você fizer um teste que envolva contar histórias, entreter uma plateia, cantar ou tocar instrumento musicais (incluindo Habilidades do tipo Música), você pode rolar novamente um dado cujo resultado seja 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada uma vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {

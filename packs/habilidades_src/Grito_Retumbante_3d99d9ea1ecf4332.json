@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você solta um grito tão poderoso, que faz a terra tremer! Todos os que estiverem à uma quantidade de metros à sua frente igual à sua Força devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação) ou perderão o equilíbrio e cairão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Grito Ensurdecedor. Caminho Skald.</p></div>"
+    "description": "<p>Você solta um grito tão poderoso, que faz a terra tremer! Todos os que estiverem à uma quantidade de metros à sua frente igual à sua Força devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação) ou perderão o equilíbrio e cairão.</p>"
   },
   "flags": {
     "mighty-blade": {

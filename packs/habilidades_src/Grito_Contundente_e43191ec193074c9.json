@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você produz um som tão violento que ele reverbera em tudo e todos ao seu redor, rompendo órgãos e provocando danos estruturais. Todas as criaturas a até 10 metros à sua frente devem fazer um teste de Força (Dificuldade igual à sua Determinação). Se passarem no teste, elas sofrem dano igual a 10/Contusão. Se falharem no teste, elas sofrem dano igual a 20/Contusão. Criaturas com Corpo Amórfico não têm direito a este teste e criaturas dos tipos Autômato e Elemental sofrem o dobro do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Grito Estilhaçador.</p></div>"
+    "description": "<p>Você produz um som tão violento que ele reverbera em tudo e todos ao seu redor, rompendo órgãos e provocando danos estruturais. Todas as criaturas a até 10 metros à sua frente devem fazer um teste de Força (Dificuldade igual à sua Determinação). Se passarem no teste, elas sofrem dano igual a 10/Contusão. Se falharem no teste, elas sofrem dano igual a 20/Contusão. Criaturas com Corpo Amórfico não têm direito a este teste e criaturas dos tipos Autômato e Elemental sofrem o dobro do dano.</p>"
   },
   "flags": {
     "mighty-blade": {

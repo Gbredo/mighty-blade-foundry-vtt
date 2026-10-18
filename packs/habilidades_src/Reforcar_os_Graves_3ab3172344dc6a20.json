@@ -26,7 +26,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que estiver mantendo um Ritmo ou Melodia e uma criatura se aproximar de você, até uma distância máxima de sua Determinação em metros, você pode adicionar algumas notas a mais em sua música para dissuadi-lo. O alvo sofre imediatamente uma quantidade de dano igual à sua Vontade/Contusão e precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo fica Atordoado por 1 turno e perde o Deslocamento restante do seu turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada 1 vez por turno.</p></div>"
+    "description": "<p>Sempre que estiver mantendo um Ritmo ou Melodia e uma criatura se aproximar de você, até uma distância máxima de sua Determinação em metros, você pode adicionar algumas notas a mais em sua música para dissuadi-lo. O alvo sofre imediatamente uma quantidade de dano igual à sua Vontade/ Contusão e precisa realizar um teste de Vontade (Dificuldade igual a sua Determinação). Se falhar, o alvo fica Atordoado por 1 turno e perde o Deslocamento restante do seu turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode usar esta Habilidade uma vez por rodada.</p></div>"
   },
   "flags": {
     "mighty-blade": {

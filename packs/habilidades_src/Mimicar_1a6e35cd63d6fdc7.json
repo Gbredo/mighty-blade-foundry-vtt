@@ -31,7 +31,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Sempre que um oponente ou aliado utilizar uma Habilidade de Ação do tipo Técnica e você consiga vê-lo, você pode realizar aquela Habilidade no seu próximo turno. Você ainda precisa preencher quaisquer exigências da Técnica (tipo de dano, itens, condições especiais, tipo de ação, etc.) além do Requisito de nível (mas ignora outros Requisitos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Pantomima. Caminho Bufão.</p></div>"
+    "description": "<p>Sempre que um oponente ou aliado utilizar uma Habilidade de Ação do tipo Técnica e você consiga ve-lô, você pode realizar aquela Habilidade no seu próximo turno. Você ainda precisa preencher quaisquer exigências da Técnica (tipo de dano, itens, condições especiais, tipo de ação, etc.) além do Requisito de nível (mas ignora outros Requisitos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O custo dessa Habilidade é o mesmo da Técnica a ser copiada +5.<br><br>Esta Habilidade só pode ser utilizada uma vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
