@@ -531,10 +531,10 @@ export function obterSubAbasCompendio(actor, filterType = "habilidade", allCandi
     const infoVagas = obterVagasMusicaAtor(actor);
     if (infoVagas.temConcessora) {
       const musicasItems = allCandidateItems.filter((i) => {
-        const cat = (i.system?.categoria || "").toLowerCase();
-        const acesso = Array.isArray(i.system?.acesso) ? i.system.acesso : [];
-        const hasTipoMusica = i.system?.tipoMusica || i.flags?.["mighty-blade"]?.tipoMusica;
-        return cat === "musica" || hasTipoMusica || acesso.some((a) => norm(a) === "musicas" || norm(a) === "musica");
+        const acesso = Array.isArray(i.system?.acesso)
+          ? i.system.acesso
+          : (Array.isArray(i.flags?.["mighty-blade"]?.acesso) ? i.flags["mighty-blade"].acesso : []);
+        return acesso.some((a) => norm(a) === "musicas" || norm(a) === "musica");
       });
       const musicasIds = musicasItems.map((i) => i.flags?.["mighty-blade"]?.slug || slugify(i.name || ""));
       subTabs.push({

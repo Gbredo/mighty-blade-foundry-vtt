@@ -103,14 +103,55 @@ describe("C3c-3c — Sistema de Músicas Concedidas no Foundry (Compendium Brows
     assert.ok(sereia.ineligivelMotivo.includes("Nível 5"));
   });
 
-  test("4. Fantasma da Ópera (três tipos) entra em qualquer filtro", () => {
-    const fantasma = CANONICAL_HABILIDADES.find((h) => h.name === "Fantasma da Ópera");
-    assert.ok(fantasma);
+  test("4a. Réquiem não aparece nas opções do Vocalista", () => {
+    // Vocalista concede 1 Canção
+    const vocalista = CANONICAL_HABILIDADES.find((h) => h.name === "Vocalista");
+    assert.ok(vocalista);
+    const conc = vocalista.system?.concedeMusicas || vocalista.flags?.["mighty-blade"]?.concedeMusicas;
+    assert.deepEqual(conc?.tipos, ["Canção"]);
 
-    assert.equal(musicaCompativelComTipos(fantasma, ["Ritmo"]), true);
-    assert.equal(musicaCompativelComTipos(fantasma, ["Canção"]), true);
-    assert.equal(musicaCompativelComTipos(fantasma, ["Melodia"]), true);
-    assert.equal(musicaCompativelComTipos(fantasma, "qualquer"), true);
+    // Ator com Vocalista
+    const atorVocalista = createMockActor({
+      name: "Cantor Lírico",
+      details: { raca: "Humano", classe: "Bardo", nivel: 1 },
+      items: [
+        { name: "Humano", type: "raca" },
+        { name: "Bardo", type: "classe" },
+        {
+          name: "Vocalista",
+          type: "habilidade",
+          flags: { "mighty-blade": { slug: "vocalista" } },
+          system: { concedeMusicas: conc },
+        },
+      ],
+    });
+
+    const subTabs = obterSubAbasCompendio(atorVocalista, "habilidade");
+    const subMusicas = subTabs.find((s) => s.id === "musicas");
+    assert.ok(subMusicas, "Sub-aba Músicas deve existir");
+
+    // Réquiem é exclusiva de Bardo (não tem 'Músicas' no acesso geral) e não deve estar na sub-aba Músicas
+    const temRequiem = subMusicas.items.some((i) => i.name === "Réquiem" || (i.flags?.["mighty-blade"]?.slug === "requiem"));
+    assert.equal(temRequiem, false, "Réquiem não deve aparecer nas opções da sub-aba Músicas do Vocalista");
+  });
+
+  test("4b. uma Música geral com dois tipos é aceita se qualquer um dos tipos servir", () => {
+    // Mock de Música geral com dois tipos (Canção e Ritmo)
+    const musicaMock = {
+      name: "Música Híbrida",
+      type: "habilidade",
+      flags: { "mighty-blade": { slug: "musica-hibrida", tipoMusica: ["Canção", "Ritmo"], acesso: ["Músicas"] } },
+      system: { categoria: "musica", tipoMusica: ["Canção", "Ritmo"], acesso: ["Músicas"] },
+    };
+
+    // Aceita se o filtro pede Canção (ex.: Vocalista)
+    assert.equal(musicaCompativelComTipos(musicaMock, ["Canção"]), true);
+    // Aceita se o filtro pede Ritmo (ex.: Instrumentista)
+    assert.equal(musicaCompativelComTipos(musicaMock, ["Ritmo"]), true);
+    // Rejeita se o filtro pede apenas Melodia (ex.: Repentista)
+    assert.equal(musicaCompativelComTipos(musicaMock, ["Melodia"]), false);
+    // Aceita se o filtro pede qualquer tipo (ex.: Poesia dos Bardos)
+    assert.equal(musicaCompativelComTipos(musicaMock, "qualquer"), true);
   });
 
   test("5. A mesma Música não pode ser escolhida duas vezes", () => {
