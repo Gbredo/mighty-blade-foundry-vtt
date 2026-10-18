@@ -3195,7 +3195,6 @@ export const CANONICAL_CAMINHOS = [
       "listaHabilidades": [
         "ataque-brutal",
         "ataque-furioso",
-        "atropelar",
         "bravura-selvagem-1",
         "bravura-selvagem-2",
         "furia-brutal",
@@ -3223,7 +3222,7 @@ export const CANONICAL_CAMINHOS = [
       "requisitos": "Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah",
       "habilidadeAutomatica": "Autoridade Legal",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da [[Espada de Mirah]], e precisam ser admitidos como Irmãos dentro da ordem.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.caefda4857de50b1\" data-slug=\"arconte\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da [[Espada de Mirah]], e precisam ser admitidos como Irmãos dentro da ordem.\r\n\r\nO Arconte que dá a sentença não precisa ser o mesmo que aplica a punição, mas normalmente é assim. Arcontes têm acesso a Punições, dons sobrenaturais conferidos pelos Celestiais que produzem efeitos similares às magias e servem para impingir a sentença adequada ao réu de forma padronizada, sem erros humanos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.caefda4857de50b1\" data-slug=\"arconte\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah</div></div>",
       "listaHabilidades": [
         "austeridade",
         "autoridade-legal",
@@ -3262,12 +3261,15 @@ export const CANONICAL_CAMINHOS = [
         "analisar-magia",
         "aporte",
         "arremesso-cinetico",
+        "conjurador-especialista-magia",
         "empurrao-cinetico",
+        "mestre-telecinetico",
         "permutacao-instantanea",
         "porta-oculta",
         "runa-de-localizacao",
         "sala-oculta",
         "teleportar-objeto",
+        "teologo",
         "area-de-anti-magia"
       ]
     },
@@ -3294,18 +3296,13 @@ export const CANONICAL_CAMINHOS = [
         "aplicar-forca",
         "arqueria-de-mestre",
         "arqueria",
-        "chuva-de-flechas-2",
-        "chuva-de-flechas",
         "disparo-cego",
         "disparo-certeiro",
         "disparo-devastador",
         "disparo-forte",
         "disparo-mirado",
         "disparo-perfeito",
-        "empalar",
-        "flechas-rapidas",
         "olho-da-aguia",
-        "precisao",
         "prever-posicao",
         "retesar-eficiente",
         "vigilia"
@@ -3362,8 +3359,12 @@ export const CANONICAL_CAMINHOS = [
       "listaHabilidades": [
         "apunhale-primeiro-pergunte-depois",
         "atacar-pelas-costas",
+        "corte-arterial",
+        "en-passant",
         "esquartejar",
+        "explorar-surpresa",
         "faca-os-sangrar",
+        "flanquear",
         "mestre-assassino",
         "olho-da-serpente",
         "reflexos-assassinos"
@@ -3393,6 +3394,7 @@ export const CANONICAL_CAMINHOS = [
         "canalizacao-necromantica-maior",
         "canalizacao-necromantica",
         "cavaleiro-da-morte",
+        "contato-com-espiritos",
         "devorador-dos-mortos",
         "frio-cadaverico",
         "furia-fria",
@@ -3429,7 +3431,6 @@ export const CANONICAL_CAMINHOS = [
         "maldicao-da-dor",
         "maldicao-do-canibalismo",
         "maldicao-do-medo",
-        "pacto",
         "remover-maldicoes"
       ]
     },
@@ -3516,12 +3517,14 @@ export const CANONICAL_CAMINHOS = [
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros santos em missão sagrada para expurgar o mal e os mortos-vivos de Tebryn, guiados por fervor inabalável e ira divina.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.46dc69095da17431\" data-slug=\"cruzado\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 4, Dogma</div></div>",
       "listaHabilidades": [
         "ataque-fervoroso",
-        "dogma-discipulo-da-guerra",
-        "dogma",
+        "contos-da-estrada",
         "expurgo-elemental",
         "forca-divina",
+        "golpe-justo",
         "seguir-em-frente",
-        "vontade-inabalavel"
+        "vontade-da-lei",
+        "vontade-inabalavel",
+        "vontade-sobrenatural"
       ]
     },
     "flags": {
@@ -3573,7 +3576,6 @@ export const CANONICAL_CAMINHOS = [
         "pacto-da-loucura",
         "pacto-da-pestilencia",
         "pacto-da-tirania",
-        "pacto",
         "patas-infernais",
         "portal-infernal",
         "presenca-de-ereshkigal",
@@ -3640,9 +3642,17 @@ export const CANONICAL_CAMINHOS = [
       "racasComuns": "",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Especialistas em animais selvagens, montarias de guerra e bestas fantásticas, capazes de comandar verdadeiras alcateias em combate.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ebef2b7cb8f4737\" data-slug=\"domador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Bênção de Ellenis</div></div>",
       "listaHabilidades": [
+        "ataque-simultaneo",
+        "cavaleiro-experiente",
         "comando-do-alfa",
+        "combate-em-grupo",
+        "combate-montado",
+        "companheiro-animal-1",
+        "companheiro-animal-2",
+        "companheiro-animal-3",
         "companheiro-animal-4",
-        "horda-selvagem"
+        "horda-selvagem",
+        "mestre-domador"
       ]
     },
     "flags": {
@@ -3667,10 +3677,10 @@ export const CANONICAL_CAMINHOS = [
         "a-verdade-das-palavras",
         "erudito",
         "escrivao-magico",
+        "escrivao",
         "gnostico",
         "luminar",
         "mensagem-magica",
-        "o-tomo-das-muitas-linguas",
         "pergaminho-magico",
         "prosa-e-verso",
         "teologo"
@@ -3695,9 +3705,18 @@ export const CANONICAL_CAMINHOS = [
       "racasComuns": "",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Caçadores impiedosos de criaturas sobrenaturais (Amaldiçoados, Demônios, Espíritos e Mortos-vivos), armados com lâminas de prata e rituais de purificação.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.94efab307dba9fd2\" data-slug=\"estrige\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter destruído pelo menos 1 criatura de tipo sobrenatural</div></div>",
       "listaHabilidades": [
+        "banir-a-perversao",
         "caca-sobrenatural",
+        "imunidade-sobrenatural",
         "matador-sobrenatural",
-        "quebrar-a-defesa-sombria"
+        "perceber-corrupcao",
+        "quebrar-a-defesa-sombria",
+        "sabedoria-sobrenatural",
+        "semelhanca-cadaverica",
+        "sentido-de-alerta",
+        "sentidos-de-cacador",
+        "sexto-sentido",
+        "vontade-sobrenatural"
       ]
     },
     "flags": {
@@ -3913,7 +3932,6 @@ export const CANONICAL_CAMINHOS = [
         "abrir-janela-magica",
         "atravessar-janela-magica",
         "clarividencia",
-        "dogma",
         "interferir-no-fluxo",
         "janela-magica",
         "precognicao",
@@ -8216,6 +8234,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -8238,7 +8260,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "d38cd25729c12270",
@@ -9907,6 +9933,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9929,7 +9956,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "6d2fcfa62dddd7b0",
@@ -9957,6 +9985,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -9979,7 +10008,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "6d892bd1760b1784",
@@ -10007,6 +10037,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10029,7 +10060,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "b3c8e11b2a58002e",
@@ -10057,6 +10089,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10079,7 +10112,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "3463f2235e091243",
@@ -10107,6 +10141,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10129,7 +10164,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "df044437aef4d7cc",
@@ -10157,6 +10193,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10179,7 +10216,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "2c97240c792e79f3",
@@ -10207,6 +10245,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10229,7 +10268,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "b3fd58ba0d387975",
@@ -10257,6 +10297,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10279,7 +10320,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "a58a1eac5c8782e7",
@@ -10307,6 +10349,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Canção",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -10329,7 +10372,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Canção"
       }
     },
     "_id": "8c4510780f126328",
@@ -18643,6 +18687,11 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": [
+        "Canção",
+        "Ritmo",
+        "Melodia"
+      ],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -18665,7 +18714,12 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": [
+          "Canção",
+          "Ritmo",
+          "Melodia"
+        ]
       }
     },
     "_id": "49497baf80ae2935",
@@ -19375,6 +19429,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -19397,7 +19455,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "487b7e038ac327a5",
@@ -22555,6 +22617,11 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": [
+        "Canção",
+        "Ritmo",
+        "Melodia"
+      ],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -22577,7 +22644,12 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": [
+          "Canção",
+          "Ritmo",
+          "Melodia"
+        ]
       }
     },
     "_id": "0f03ce1ca0c63b06",
@@ -23421,6 +23493,12 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": [
+          "Ritmo"
+        ]
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -23449,7 +23527,13 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": [
+            "Ritmo"
+          ]
+        }
       }
     },
     "_id": "722a6212185ef9fd",
@@ -24503,6 +24587,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 2,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -24525,7 +24613,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 2,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "2bf17583f5b4935e",
@@ -25323,6 +25415,13 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": [
+          "Canção",
+          "Melodia"
+        ]
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -25355,7 +25454,14 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": [
+            "Canção",
+            "Melodia"
+          ]
+        }
       }
     },
     "_id": "299c7a954759c2f1",
@@ -26448,6 +26554,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26470,7 +26577,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "b52980b8958a7f7f",
@@ -26498,6 +26606,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26520,7 +26629,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "487659407d589938",
@@ -26548,6 +26658,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26570,7 +26681,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "07a9083c47c34aa9",
@@ -26598,6 +26710,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26620,7 +26733,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "250ba9d9a14c0807",
@@ -26648,6 +26762,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26670,7 +26785,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "27891464be461f66",
@@ -26698,6 +26814,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26720,7 +26837,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "0b60aa0cfb712bdf",
@@ -26748,6 +26866,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26770,7 +26889,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "1258228042437d26",
@@ -26798,6 +26918,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Melodia",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -26820,7 +26941,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Melodia"
       }
     },
     "_id": "84f14867c69ca8fd",
@@ -28321,6 +28443,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -28343,7 +28469,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "6e4973f4ea6eeeea",
@@ -29516,6 +29646,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -29538,7 +29672,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "23c2f909f067ddb2",
@@ -31033,6 +31171,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 2,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -31055,7 +31197,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 2,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "208c1c40aba4c1c5",
@@ -33085,6 +33231,12 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": [
+          "Melodia"
+        ]
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33122,7 +33274,13 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": [
+            "Melodia"
+          ]
+        }
       }
     },
     "_id": "3348a1b3d6b6cf01",
@@ -33255,6 +33413,11 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": [
+        "Canção",
+        "Ritmo",
+        "Melodia"
+      ],
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33277,7 +33440,12 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": [
+          "Canção",
+          "Ritmo",
+          "Melodia"
+        ]
       }
     },
     "_id": "d6adb2ab4bf7710f",
@@ -33761,6 +33929,13 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": [
+          "Ritmo",
+          "Melodia"
+        ]
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33783,7 +33958,14 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": [
+            "Ritmo",
+            "Melodia"
+          ]
+        }
       }
     },
     "_id": "45917704a38cf246",
@@ -33811,6 +33993,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33833,7 +34016,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "7a4817bf1b66a54b",
@@ -33861,6 +34045,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33883,7 +34068,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "95bd94c0ac607ed2",
@@ -33911,6 +34097,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33933,7 +34120,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "4d9cb21430155cb9",
@@ -33961,6 +34149,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -33983,7 +34172,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "ef2cd29e7d17c575",
@@ -34011,6 +34201,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -34033,7 +34224,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "e12c0406e1b923ef",
@@ -34061,6 +34253,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -34083,7 +34276,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "34bc2aec2e55d268",
@@ -34111,6 +34305,7 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "tipoMusica": "Ritmo",
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -34133,7 +34328,8 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "tipoMusica": "Ritmo"
       }
     },
     "_id": "e2d82597f4d06d7c",
@@ -35526,6 +35722,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -35548,7 +35748,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "3cf33d500a8e6467",
@@ -35626,6 +35830,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -35648,7 +35856,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "e9782cdc7e9c0c59",
@@ -35676,6 +35888,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -35698,7 +35914,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "848122856307840b",
@@ -36523,6 +36743,10 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -36545,7 +36769,11 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": "qualquer"
+        }
       }
     },
     "_id": "77af989d5f39c83d",
@@ -37601,6 +37829,13 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": [
+          "Ritmo",
+          "Canção"
+        ]
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -37623,7 +37858,14 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": [
+            "Ritmo",
+            "Canção"
+          ]
+        }
       }
     },
     "_id": "7a50da2a44910fef",
@@ -38377,6 +38619,12 @@ export const CANONICAL_HABILIDADES = [
       "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": [
+          "Canção"
+        ]
+      },
       "somenteCriacao": false,
       "bonusAtributo": {
         "atributo": "",
@@ -38399,7 +38647,13 @@ export const CANONICAL_HABILIDADES = [
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
-        "sobrescreve": []
+        "sobrescreve": [],
+        "concedeMusicas": {
+          "quantidade": 1,
+          "tipos": [
+            "Canção"
+          ]
+        }
       }
     },
     "_id": "1d92c7068d865f55",
@@ -57260,7 +57514,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/arconte.png\" alt=\"Arconte\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da [[Espada de Mirah]], e precisam ser admitidos como Irmãos dentro da ordem.</p><p>O Arconte que dá a sentença não precisa ser o mesmo que aplica a punição, mas normalmente é assim. Arcontes têm acesso a Punições, dons sobrenaturais conferidos pelos Celestiais que produzem efeitos similares às magias e servem para impingir a sentença adequada ao réu de forma padronizada, sem erros humanos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/arconte.png\" alt=\"Arconte\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Arcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da [[Espada de Mirah]], e precisam ser admitidos como Irmãos dentro da ordem.\r<br>\r<br>O Arconte que dá a sentença não precisa ser o mesmo que aplica a punição, mas normalmente é assim. Arcontes têm acesso a Punições, dons sobrenaturais conferidos pelos Celestiais que produzem efeitos similares às magias e servem para impingir a sentença adequada ao réu de forma padronizada, sem erros humanos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Ter sido aceito como Irmão da Ordem da Espada de Mirah</p>",
           "format": 1
         },
         "_key": "!journal.pages!caefda4857de50b1.25a9b564736f8492"

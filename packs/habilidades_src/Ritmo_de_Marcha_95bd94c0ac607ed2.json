@@ -20,6 +20,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
+    "tipoMusica": "Ritmo",
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -42,7 +43,8 @@
       "opcoes": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
-      "sobrescreve": []
+      "sobrescreve": [],
+      "tipoMusica": "Ritmo"
     }
   },
   "_id": "95bd94c0ac607ed2",

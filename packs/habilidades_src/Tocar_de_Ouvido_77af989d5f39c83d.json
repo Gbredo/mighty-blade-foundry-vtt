@@ -20,6 +20,10 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
+    "concedeMusicas": {
+      "quantidade": 1,
+      "tipos": "qualquer"
+    },
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -42,7 +46,11 @@
       "opcoes": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
-      "sobrescreve": []
+      "sobrescreve": [],
+      "concedeMusicas": {
+        "quantidade": 1,
+        "tipos": "qualquer"
+      }
     }
   },
   "_id": "77af989d5f39c83d",
