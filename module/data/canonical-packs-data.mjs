@@ -58643,3 +58643,97 @@ export const CANONICAL_HABILIDADES_POR_NIVEL = {
   "19": 17,
   "20": 17
 };
+
+export const CANONICAL_ALIASES_HABILIDADES = {
+  "coracao-da-montanha": "coracao-da-montanha-1",
+  "decapitar": "fintar",
+  "cancao-do-requiem": "requiem",
+  "forjado-fogo": "forjado-a-fogo",
+  "do-destino": "dogma-discipulo-do-destino",
+  "escamas-grossas-naga": "escamas-grossas",
+  "estabilidade-mahok": "estabilidade",
+  "garras-juban": "garras",
+  "marrada-fauno": "marrada",
+  "mordida-poderosa-gnoll": "mordida-poderosa",
+  "mordida-poderosa-orc": "mordida-poderosa",
+  "mordida-venenosa-naga": "mordida-venenosa",
+  "sopro-de-fogo-fira": "sopro-de-fogo",
+  "constricao-naga": "constritor",
+  "pergunte-depois": "apunhale-primeiro-pergunte-depois",
+  "necromantica-maior": "canalizacao-necromantica-maior"
+};
+
+export const CANONICAL_HABILIDADES_RETIRADAS = [
+  {
+    "id": "ameacador",
+    "nome": "Ameaçador",
+    "status": "substituida",
+    "substitutaId": null
+  },
+  {
+    "id": "atordoar",
+    "nome": "Atordoar",
+    "status": "inventada",
+    "substitutaId": null
+  },
+  {
+    "id": "cancao-desconcentrante",
+    "nome": "Canção Desconcentrante",
+    "status": "legado-gb",
+    "substitutaId": "melodia-desconcertante"
+  },
+  {
+    "id": "forca-interior",
+    "nome": "Força Interior",
+    "status": "legado-gb",
+    "substitutaId": null
+  },
+  {
+    "id": "lobo-do-mar",
+    "nome": "Lobo do Mar",
+    "status": "inventada",
+    "substitutaId": null
+  },
+  {
+    "id": "marca-da-ordem",
+    "nome": "Marca da Ordem",
+    "status": "substituida",
+    "substitutaId": "marca-da-justica"
+  },
+  {
+    "id": "melodia-da-furia",
+    "nome": "Melodia da Fúria",
+    "status": "legado-gb",
+    "substitutaId": "ritmo-da-furia"
+  },
+  {
+    "id": "melodia-do-enjoo",
+    "nome": "Melodia do Enjoo",
+    "status": "legado-gb",
+    "substitutaId": "ritmo-do-enjoo"
+  },
+  {
+    "id": "melodia-dos-animais",
+    "nome": "Melodia dos Animais",
+    "status": "legado-gb",
+    "substitutaId": "ritmo-dos-animais"
+  },
+  {
+    "id": "melodia-sonifera",
+    "nome": "Melodia Sonífera",
+    "status": "legado-gb",
+    "substitutaId": "cancao-de-ninar"
+  },
+  {
+    "id": "sangrar",
+    "nome": "Sangrar",
+    "status": "substituida",
+    "substitutaId": "faca-os-sangrar"
+  },
+  {
+    "id": "vitalidade-heroica",
+    "nome": "Vitalidade Heroica",
+    "status": "substituida",
+    "substitutaId": "vontade-de-ferro"
+  }
+];

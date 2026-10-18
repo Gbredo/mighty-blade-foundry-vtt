@@ -62,6 +62,9 @@ if (!globalThis.Actor) {
     constructor(data = {}) {
       Object.assign(this, data);
     }
+    static async create(data = {}) {
+      return createMockActor(data);
+    }
   };
 }
 

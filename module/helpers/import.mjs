@@ -1,29 +1,122 @@
 import { MightyBladeActor } from "../documents/actor.mjs";
+import {
+  CANONICAL_ALIASES_HABILIDADES,
+  CANONICAL_HABILIDADES_RETIRADAS,
+  CANONICAL_HABILIDADES,
+} from "../data/canonical-packs-data.mjs";
 
 /**
- * Importa uma ficha no formato JSON canônico (schemaVersion 1.0) compartilhado
- * com o gerador de fichas. Cria um Actor "character" com os Items embutidos.
+ * Normaliza e resolve um ID antigo de habilidade no Foundry.
+ */
+export function resolverIdHabilidadeAntigaFoundry(id) {
+  const retirada = (CANONICAL_HABILIDADES_RETIRADAS || []).find((r) => r.id === id);
+  if (retirada) {
+    if (retirada.substitutaId) {
+      const canonSub = (CANONICAL_HABILIDADES || []).find(
+        (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === retirada.substitutaId
+      );
+      return {
+        idFinal: retirada.substitutaId,
+        motivo: `${retirada.nome} → ${canonSub?.name ?? retirada.substitutaId}`,
+        acao: "substituido",
+      };
+    }
+    const detalhe = retirada.status === "inventada" ? "não existe nos livros" : "retirada das regras oficiais";
+    return {
+      idFinal: null,
+      motivo: `${retirada.nome} removida (${detalhe})`,
+      acao: "removido",
+    };
+  }
+
+  const alias = CANONICAL_ALIASES_HABILIDADES?.[id];
+  if (alias) {
+    const canonOrig = (CANONICAL_HABILIDADES || []).find(
+      (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === id
+    );
+    const canonDest = (CANONICAL_HABILIDADES || []).find(
+      (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === alias
+    );
+    return {
+      idFinal: alias,
+      motivo: `${canonOrig?.name ?? id} → ${canonDest?.name ?? alias}`,
+      acao: "alias",
+    };
+  }
+
+  return { idFinal: id, acao: "inalterado" };
+}
+
+/**
+ * Importa uma ficha no formato JSON canônico compartilhado com o gerador de fichas.
+ * Aplica migração de habilidades retiradas/inventadas e aliases (Fase C5).
+ * Cria um Actor "character" com os Items embutidos.
  *
- * - Só os campos de ENTRADA são usados (attributes.<a>.base, resources, details,
- *   biography); os derivados são recalculados pelo DataModel.
- * - O `slug` (da raiz e de cada item) vai para flags["mighty-blade"].slug.
- * - As concessões NÃO são reprocessadas: a ficha já vem montada (as habilidades
- *   escolhidas chegam embutidas em items[]).
- *
- * @param {object} data  Objeto JSON canônico já parseado.
+ * @param {object} rawData  Objeto JSON canônico já parseado.
  * @returns {Promise<Actor|null>}
  */
-export async function importCharacter(data) {
-  if (!data || typeof data !== "object") {
+export async function importCharacter(rawData) {
+  if (!rawData || typeof rawData !== "object") {
     ui.notifications.error("Ficha inválida: JSON não reconhecido.");
     return null;
   }
 
-  const items = (data.items ?? []).map((it) => {
+  const data = JSON.parse(JSON.stringify(rawData));
+  const avisosPartes = [];
+
+  const rawItems = data.items ?? [];
+  const items = [];
+  const slugsVistos = new Set();
+
+  for (const it of rawItems) {
+    if (it.type !== "habilidade" && it.type !== "magia") {
+      const flags = { "mighty-blade": {} };
+      if (it.slug) flags["mighty-blade"].slug = it.slug;
+      items.push({ name: it.name ?? "Item", type: it.type, img: it.img, system: it.system ?? {}, flags });
+      continue;
+    }
+
+    const res = resolverIdHabilidadeAntigaFoundry(it.slug);
+    if (res.acao === "removido") {
+      if (res.motivo) avisosPartes.push(res.motivo);
+      continue;
+    }
+
+    let finalSlug = it.slug;
+    let finalName = it.name;
+
+    if (res.acao === "substituido" || res.acao === "alias") {
+      finalSlug = res.idFinal;
+      const canon = (CANONICAL_HABILIDADES || []).find(
+        (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === finalSlug
+      );
+      if (canon?.name) finalName = canon.name;
+      if (res.acao === "substituido" && res.motivo) avisosPartes.push(res.motivo);
+    }
+
+    if (slugsVistos.has(finalSlug)) continue;
+    slugsVistos.add(finalSlug);
+
     const flags = { "mighty-blade": {} };
-    if (it.slug) flags["mighty-blade"].slug = it.slug;
-    return { name: it.name ?? "Item", type: it.type, img: it.img, system: it.system ?? {}, flags };
-  });
+    flags["mighty-blade"].slug = finalSlug;
+    if (it.concedidaPor || it.system?.concedidaPor) {
+      flags["mighty-blade"].concedidaPor = it.concedidaPor || it.system.concedidaPor;
+    }
+
+    items.push({
+      name: finalName ?? "Item",
+      type: it.type,
+      img: it.img,
+      system: it.system ?? {},
+      flags,
+    });
+  }
+
+  // Se houver avisos de migração, emite aviso único consolidado
+  if (avisosPartes.length > 0) {
+    const avisosUnicos = Array.from(new Set(avisosPartes));
+    ui.notifications.warn(`Ficha atualizada: ${avisosUnicos.join("; ")}`);
+  }
 
   const actorData = {
     name: data.name ?? "Personagem Importado",
