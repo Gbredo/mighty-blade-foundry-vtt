@@ -83,6 +83,7 @@ const CLASSES_FORJA_MAP = {
   sacerdote: "sacerdote2.png",
   senescal: "senescal.png",
   xama: "xama1.png",
+  menestrel: "bardo2.png",
   ilusionista: "ilusionista.png",
   artifice: "artifice.png",
 };
@@ -526,6 +527,15 @@ function loadObsidianHabilidades() {
       }
     }
 
+    const rawTipoMusica = fm.tipo_musica || fm.tipoMusica || rcMatch?.tipoMusica;
+    let tipoMusica;
+    if (Array.isArray(rawTipoMusica)) {
+      tipoMusica = rawTipoMusica.map(cleanObsidianWikilinks).filter(Boolean);
+    } else if (rawTipoMusica) {
+      tipoMusica = cleanObsidianWikilinks(rawTipoMusica);
+    }
+    const concedeMusicas = rcMatch?.concedeMusicas || undefined;
+
     result.push({
       nome,
       categoria,
@@ -546,6 +556,8 @@ function loadObsidianHabilidades() {
       descricaoMd,
       regrasMd,
       rawBody,
+      tipoMusica,
+      concedeMusicas,
       racasExcluidas: racasExcluidas.length > 0 ? racasExcluidas : (rcMatch?.racasExcluidas || []),
       idiomasRequeridos: idiomasRequeridos.length > 0 ? idiomasRequeridos : (rcMatch?.idiomasRequeridos || []),
       sobrescreve: Array.isArray(rcMatch?.sobrescreve) ? rcMatch.sobrescreve : (rcMatch?.sobrescreve ? [rcMatch.sobrescreve] : []),
@@ -670,6 +682,8 @@ function buildAbilityOrSpellItem(hab) {
     racasExcluidas: hab.racasExcluidas || [],
     idiomasRequeridos: hab.idiomasRequeridos || [],
     sobrescreve: hab.sobrescreve || [],
+    tipoMusica: hab.tipoMusica,
+    concedeMusicas: hab.concedeMusicas,
   };
 
   if (slug === "adaptabilidade") {
@@ -727,6 +741,8 @@ function buildAbilityOrSpellItem(hab) {
         racasExcluidas: hab.racasExcluidas || [],
         idiomasRequeridos: hab.idiomasRequeridos || [],
         sobrescreve: hab.sobrescreve || [],
+        tipoMusica: hab.tipoMusica,
+        concedeMusicas: hab.concedeMusicas,
         somenteCriacao,
         bonusAtributo,
         efeitos: hab.efeitos || [],

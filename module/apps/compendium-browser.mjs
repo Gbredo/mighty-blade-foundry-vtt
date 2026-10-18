@@ -92,6 +92,7 @@ export function calcularEspacosHabilidades(actor) {
     // Não contam: sub-features, automáticas explícitas
     if (mbFlags.isSubFeature || item.isSubFeature || mbFlags.parentAbilityId) continue;
     if (mbFlags.automatica || item.system?.nivel === "Automática" || item.system?.nivel === "automatica") continue;
+    if (mbFlags.concedidaPor || item.system?.concedidaPor) continue;
 
     const s = mbFlags.slug || slugify(item.name || "");
     if (autoIds.has(s)) continue;
@@ -161,6 +162,193 @@ export function calcularEspacosHabilidades(actor) {
     totalSubstituidas,
     esgotado: escolhidas >= limite,
   };
+}
+
+/**
+ * Retorna os tipos associados a uma Música em formato de array.
+ * @param {object} item
+ * @returns {string[]}
+ */
+export function extrairTiposMusica(item) {
+  if (!item) return [];
+  const tm = item.system?.tipoMusica ?? item.flags?.["mighty-blade"]?.tipoMusica;
+  if (Array.isArray(tm)) return tm;
+  if (typeof tm === "string" && tm.trim() !== "") return [tm.trim()];
+  return [];
+}
+
+/**
+ * Verifica se uma Música é compatível com os tipos permitidos por uma concessão.
+ * @param {object} item
+ * @param {string[]|string} tiposPermitidos
+ * @returns {boolean}
+ */
+export function musicaCompativelComTipos(item, tiposPermitidos) {
+  if (!tiposPermitidos || tiposPermitidos === "qualquer") return true;
+  const arr = Array.isArray(tiposPermitidos) ? tiposPermitidos : [tiposPermitidos];
+  if (arr.includes("qualquer")) return true;
+  const tiposMusica = extrairTiposMusica(item);
+  if (tiposMusica.length === 0 && (item.system?.categoria === "musica" || item.type === "musica")) return true;
+  return tiposMusica.some((t) => arr.includes(t));
+}
+
+/**
+ * Calcula a disponibilidade de vagas de Música para um ator.
+ * @param {object} actor
+ * @returns {{ temConcessora: boolean, concessoras: Array<object>, totalVagas: number, totalOcupadas: number, totalLivres: number }}
+ */
+export function obterVagasMusicaAtor(actor) {
+  if (!actor) return { temConcessora: false, concessoras: [], totalVagas: 0, totalOcupadas: 0, totalLivres: 0 };
+
+  const rawItems = actor.items
+    ? (Array.isArray(actor.items) ? actor.items : Array.from(actor.items.values()))
+    : [];
+
+  const concessoras = [];
+
+  // 1. Concessoras explícitas nos itens do ator
+  for (const item of rawItems) {
+    const itemSlug = item.flags?.["mighty-blade"]?.slug || slugify(item.name || "");
+    const canonHab = CANONICAL_HABILIDADES.find(
+      (h) => (h.flags?.["mighty-blade"]?.slug || slugify(h.name)) === itemSlug
+    );
+    const conc = item.system?.concedeMusicas || item.flags?.["mighty-blade"]?.concedeMusicas || canonHab?.system?.concedeMusicas || canonHab?.flags?.["mighty-blade"]?.concedeMusicas;
+    if (conc && typeof conc === "object") {
+      concessoras.push({
+        id: itemSlug,
+        nome: item.name,
+        quantidade: Number(conc.quantidade) || 1,
+        tipos: conc.tipos,
+        tiposStr: Array.isArray(conc.tipos) ? conc.tipos.join(" / ") : (conc.tipos || "qualquer"),
+        vagasOcupadas: 0,
+        vagasLivres: 0,
+      });
+    }
+  }
+
+  // 2. Concessoras automáticas de classe/caminho (ex.: Poesia dos Bardos para Bardo, Jogral para Menestrel)
+  const getActorItem = (t) => rawItems.find((i) => i.type === t);
+  const classeDoc = getActorItem("classe");
+  const classeNome = classeDoc?.name || actor.system?.details?.classe || "";
+  const canonicalClass = CANONICAL_CLASSES.find(
+    (c) => norm(c.name) === norm(classeNome) || c.flags?.["mighty-blade"]?.slug === slugify(classeNome)
+  );
+  const autoHabsClasse = [
+    ...(classeDoc?.system?.habilidadesAutomaticas || []),
+    ...(canonicalClass?.system?.habilidadesAutomaticas || []),
+  ];
+  if (Array.isArray(canonicalClass?.system?.concessoes)) {
+    for (const c of canonicalClass.system.concessoes) {
+      if (c.tipo === "habilidade" && c.ref) autoHabsClasse.push(c.ref);
+    }
+  }
+  for (const hRef of autoHabsClasse) {
+    const s = slugify(hRef);
+    if (!concessoras.some((c) => c.id === s)) {
+      const canonHab = CANONICAL_HABILIDADES.find(
+        (h) => (h.flags?.["mighty-blade"]?.slug || slugify(h.name)) === s
+      );
+      const conc = canonHab?.system?.concedeMusicas || canonHab?.flags?.["mighty-blade"]?.concedeMusicas;
+      if (conc && typeof conc === "object") {
+        concessoras.push({
+          id: s,
+          nome: canonHab.name,
+          quantidade: Number(conc.quantidade) || 1,
+          tipos: conc.tipos,
+          tiposStr: Array.isArray(conc.tipos) ? conc.tipos.join(" / ") : (conc.tipos || "qualquer"),
+          vagasOcupadas: 0,
+          vagasLivres: 0,
+        });
+      }
+    }
+  }
+
+  // Contar vagas ocupadas
+  let totalOcupadas = 0;
+  for (const item of rawItems) {
+    const mbFlags = item.flags?.["mighty-blade"] || {};
+    const concedidaPor = mbFlags.concedidaPor || item.system?.concedidaPor;
+    if (concedidaPor) {
+      totalOcupadas++;
+      const targetConc = concessoras.find((c) => c.id === slugify(concedidaPor));
+      if (targetConc) {
+        targetConc.vagasOcupadas++;
+      }
+    }
+  }
+
+  let totalVagas = 0;
+  for (const c of concessoras) {
+    totalVagas += c.quantidade;
+    c.vagasLivres = Math.max(0, c.quantidade - c.vagasOcupadas);
+  }
+
+  const totalLivres = Math.max(0, totalVagas - totalOcupadas);
+
+  return {
+    temConcessora: concessoras.length > 0,
+    concessoras,
+    totalVagas,
+    totalOcupadas,
+    totalLivres,
+  };
+}
+
+/**
+ * Valida se há vaga de Música disponível no ator para a Música candidata e aloca a vaga mais específica.
+ * @param {object} actor
+ * @param {object} musicaItem
+ * @returns {{ sucesso: boolean, motivo?: string, msg?: string, concessora?: object }}
+ */
+export function alocarVagaMusica(actor, musicaItem) {
+  if (!actor || !musicaItem) return { sucesso: false, motivo: "invalido", msg: "Parâmetros inválidos." };
+
+  const musicaSlug = musicaItem.flags?.["mighty-blade"]?.slug || slugify(musicaItem.name || "");
+  const rawItems = actor.items
+    ? (Array.isArray(actor.items) ? actor.items : Array.from(actor.items.values()))
+    : [];
+
+  const jaPossui = rawItems.some((i) => {
+    const s = i.flags?.["mighty-blade"]?.slug || slugify(i.name || "");
+    return s === musicaSlug;
+  });
+  if (jaPossui) {
+    return { sucesso: false, motivo: "ja_possui", msg: `${musicaItem.name} já está na ficha.` };
+  }
+
+  const infoVagas = obterVagasMusicaAtor(actor);
+  if (!infoVagas.temConcessora) {
+    return { sucesso: false, motivo: "sem_concessora", msg: "O personagem não possui nenhuma habilidade que concede Músicas." };
+  }
+
+  const livres = infoVagas.concessoras.filter((c) => c.vagasLivres > 0);
+  if (livres.length === 0) {
+    const c0 = infoVagas.concessoras[0];
+    return {
+      sucesso: false,
+      motivo: "sem_vagas",
+      msg: `Sem vaga de Música (${c0.nome}: ${c0.quantidade} ${c0.tiposStr} — já usada)`,
+    };
+  }
+
+  const compativeis = livres.filter((c) => musicaCompativelComTipos(musicaItem, c.tipos));
+  if (compativeis.length === 0) {
+    const c0 = infoVagas.concessoras[0];
+    return {
+      sucesso: false,
+      motivo: "tipo_incompativel",
+      msg: `Sem vaga de Música (${c0.nome}: ${c0.quantidade} ${c0.tiposStr} — já usada)`,
+    };
+  }
+
+  // Prioriza concessora específica antes de 'qualquer'
+  compativeis.sort((a, b) => {
+    const aQ = a.tipos === "qualquer" || (Array.isArray(a.tipos) && a.tipos.includes("qualquer")) ? 1 : 0;
+    const bQ = b.tipos === "qualquer" || (Array.isArray(b.tipos) && b.tipos.includes("qualquer")) ? 1 : 0;
+    return aQ - bQ;
+  });
+
+  return { sucesso: true, concessora: compativeis[0] };
 }
 
 /**
@@ -336,6 +524,26 @@ export function obterSubAbasCompendio(actor, filterType = "habilidade", allCandi
       ids: orgIds,
       items: filterType === "magia" ? orgItems.filter((i) => i.type === "magia") : orgItems,
     });
+  }
+
+  // 6. Músicas (se o personagem tiver pelo menos uma habilidade que concede Música)
+  if (filterType === "habilidade") {
+    const infoVagas = obterVagasMusicaAtor(actor);
+    if (infoVagas.temConcessora) {
+      const musicasItems = allCandidateItems.filter((i) => {
+        const acesso = Array.isArray(i.system?.acesso)
+          ? i.system.acesso
+          : (Array.isArray(i.flags?.["mighty-blade"]?.acesso) ? i.flags["mighty-blade"].acesso : []);
+        return acesso.some((a) => norm(a) === "musicas" || norm(a) === "musica");
+      });
+      const musicasIds = musicasItems.map((i) => i.flags?.["mighty-blade"]?.slug || slugify(i.name || ""));
+      subTabs.push({
+        id: "musicas",
+        label: "Músicas",
+        ids: musicasIds,
+        items: musicasItems,
+      });
+    }
   }
 
   return subTabs;
@@ -558,6 +766,18 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
         } else if (!evalResult.atende && evalResult.falhas?.length > 0) {
           obj.ineligivelMotivo = evalResult.falhas.join(" | ");
         }
+
+        const isMusicaItem = this.subTab === "musicas" ||
+          obj.system?.categoria === "musica" ||
+          obj.system?.tipoMusica ||
+          obj.flags?.["mighty-blade"]?.tipoMusica;
+        if (isMusicaItem && obj.meetsPrereq) {
+          const aloc = alocarVagaMusica(this.targetActor, obj);
+          if (!aloc.sucesso) {
+            obj.meetsPrereq = false;
+            obj.ineligivelMotivo = aloc.msg;
+          }
+        }
       } else {
         obj.meetsPrereq = true;
         obj.prereqEval = { atende: true, itens: [], falhas: [] };
@@ -709,19 +929,41 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
           return;
         }
 
-        // 2. Checagem de limite de espaços por nível
-        const espacos = calcularEspacosHabilidades(this.targetActor);
-        if (espacos.esgotado) {
-          radio.prop("checked", false);
-          this.selectedId = null;
-          selectButton.prop("disabled", true);
-          listItems.removeClass("selected");
+        const isMusicaItem = this.subTab === "musicas" ||
+          item.system?.categoria === "musica" ||
+          item.system?.tipoMusica ||
+          item.flags?.["mighty-blade"]?.tipoMusica;
 
-          html.find(".selection-status").html(
-            `<span style="color:#ef4444;"><i class="fas fa-lock"></i> Sem espaços de habilidade neste nível (${espacos.escolhidas}/${espacos.limite})</span>`
-          );
-          ui.notifications.warn("Sem espaços de habilidade neste nível.");
-          return;
+        if (isMusicaItem) {
+          const aloc = alocarVagaMusica(this.targetActor, item);
+          if (!aloc.sucesso) {
+            radio.prop("checked", false);
+            this.selectedId = null;
+            selectButton.prop("disabled", true);
+            listItems.removeClass("selected");
+            li.addClass("prereq-blocked");
+
+            html.find(".selection-status").html(
+              `<span style="color:#ef4444;"><i class="fas fa-lock"></i> ${aloc.msg}</span>`
+            );
+            ui.notifications.warn(aloc.msg);
+            return;
+          }
+        } else {
+          // 2. Checagem de limite de espaços por nível
+          const espacos = calcularEspacosHabilidades(this.targetActor);
+          if (espacos.esgotado) {
+            radio.prop("checked", false);
+            this.selectedId = null;
+            selectButton.prop("disabled", true);
+            listItems.removeClass("selected");
+
+            html.find(".selection-status").html(
+              `<span style="color:#ef4444;"><i class="fas fa-lock"></i> Sem espaços de habilidade neste nível (${espacos.escolhidas}/${espacos.limite})</span>`
+            );
+            ui.notifications.warn("Sem espaços de habilidade neste nível.");
+            return;
+          }
         }
       }
 
@@ -788,11 +1030,24 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
           return;
         }
 
-        // Verificação de limite de espaços
-        const espacos = calcularEspacosHabilidades(this.targetActor);
-        if (espacos.esgotado) {
-          ui.notifications.warn("Sem espaços de habilidade neste nível.");
-          return;
+        const isMusicaItem = this.subTab === "musicas" ||
+          item.system?.categoria === "musica" ||
+          item.system?.tipoMusica ||
+          item.flags?.["mighty-blade"]?.tipoMusica;
+
+        if (isMusicaItem) {
+          const aloc = alocarVagaMusica(this.targetActor, item);
+          if (!aloc.sucesso) {
+            ui.notifications.warn(aloc.msg);
+            return;
+          }
+        } else {
+          // Verificação de limite de espaços
+          const espacos = calcularEspacosHabilidades(this.targetActor);
+          if (espacos.esgotado) {
+            ui.notifications.warn("Sem espaços de habilidade neste nível.");
+            return;
+          }
         }
       }
 
@@ -843,6 +1098,20 @@ export class MightyBladeCompendiumBrowser extends (typeof Application !== "undef
           mb.sourceOrganizacaoId = orgDoc?.flags?.["mighty-blade"]?.slug || orgDoc?.id || slugify(orgDoc?.name || this.targetActor.system?.details?.organizacao || "");
         } else if (this.subTab === "geral") {
           mb.origem = "geral";
+        }
+
+        const isMusica = this.subTab === "musicas" ||
+          item.system?.categoria === "musica" ||
+          item.system?.tipoMusica ||
+          item.flags?.["mighty-blade"]?.tipoMusica;
+
+        if (isMusica) {
+          const aloc = alocarVagaMusica(this.targetActor, item);
+          if (aloc.sucesso && aloc.concessora) {
+            mb.concedidaPor = aloc.concessora.id;
+            itemData.system = itemData.system || {};
+            itemData.system.concedidaPor = aloc.concessora.id;
+          }
         }
       }
 

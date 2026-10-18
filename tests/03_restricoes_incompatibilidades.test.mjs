@@ -387,7 +387,8 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
 
       const habsPrincipais = CANONICAL_HABILIDADES.filter((h) => !h.flags?.["mighty-blade"]?.isSubFeature);
       // Fase C3b: +70 habilidades novas adicionadas do Canção do Bardo (574 + 70 = 644)
-      assert.equal(habsPrincipais.length, 644, "Total exato de 644 habilidades principais de habilidades.base");
+      // Fase C3c: +11 habilidades novas adicionadas dos caminhos antigos (644 + 11 = 655)
+      assert.equal(habsPrincipais.length, 655, "Total exato de 655 habilidades principais de habilidades.base");
       for (const h of habsPrincipais) {
         assert.ok(Array.isArray(h.system?.acesso) && h.system.acesso.length > 0, `Habilidade "${h.name}" deve ter acesso definido`);
         assert.ok(h.system?.tipoAcesso, `Habilidade "${h.name}" deve ter tipoAcesso definido`);

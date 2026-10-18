@@ -12,7 +12,8 @@
     "requisitos": "Nível 5",
     "acesso": [
       "Xamã",
-      "Capuzes Negros"
+      "Capuzes Negros",
+      "Domador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -36,7 +37,8 @@
       "automatica": false,
       "acesso": [
         "Xamã",
-        "Capuzes Negros"
+        "Capuzes Negros",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

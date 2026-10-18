@@ -25,7 +25,7 @@ import {
   resolverClasseCanonica,
 } from "../helpers/progressao.mjs";
 import { slugify } from "../helpers/forja-art.mjs";
-import { calcularEspacosHabilidades } from "../apps/compendium-browser.mjs";
+import { calcularEspacosHabilidades, alocarVagaMusica } from "../apps/compendium-browser.mjs";
 import {
   calcularDano,
   aplicarDano,
@@ -215,17 +215,32 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
     const org = documents.find((d) => d.type === "organizacao");
     if (org) await this._onOrganizacaoDeleted(org);
 
-    const deletedHabIds = documents
-      .filter((d) => d.type === "habilidade")
-      .map((d) => d.id || d._id)
-      .filter(Boolean);
-    if (deletedHabIds.length) {
-      const childIds = this.items
-        .filter((i) => deletedHabIds.includes(i.getFlag?.("mighty-blade", "parentAbilityId") ?? i.flags?.["mighty-blade"]?.parentAbilityId))
-        .map((i) => i.id || i._id)
-        .filter(Boolean);
-      if (childIds.length) {
-        await this.deleteEmbeddedDocuments("Item", childIds);
+    const deletedHabs = documents.filter((d) => d.type === "habilidade");
+    for (const dHab of deletedHabs) {
+      const dSlug = dHab.getFlag?.("mighty-blade", "slug") ?? dHab.flags?.["mighty-blade"]?.slug ?? slugify(dHab.name || "");
+      const dId = dHab.id || dHab._id;
+
+      // 1. Deletar sub-features vinculadas por parentAbilityId
+      const childSubFeatures = this.items.filter((i) => {
+        const pId = i.getFlag?.("mighty-blade", "parentAbilityId") ?? i.flags?.["mighty-blade"]?.parentAbilityId;
+        return pId === dId;
+      });
+      if (childSubFeatures.length) {
+        await this.deleteEmbeddedDocuments("Item", childSubFeatures.map((i) => i.id || i._id));
+      }
+
+      // 2. Deletar Músicas concedidas pela habilidade desmarcada/removida
+      const musicasConcedidas = this.items.filter((i) => {
+        const cPor = i.getFlag?.("mighty-blade", "concedidaPor") ?? i.flags?.["mighty-blade"]?.concedidaPor ?? i.system?.concedidaPor;
+        return cPor === dSlug || cPor === dId;
+      });
+      if (musicasConcedidas.length) {
+        for (const m of musicasConcedidas) {
+          if (typeof ui !== "undefined" && ui?.notifications?.info) {
+            ui.notifications.info(`Música ${m.name} removida porque a habilidade ${dHab.name} foi desmarcada.`);
+          }
+        }
+        await this.deleteEmbeddedDocuments("Item", musicasConcedidas.map((i) => i.id || i._id));
       }
     }
   }
@@ -367,6 +382,42 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
         }
         await this.deleteEmbeddedDocuments("Item", [habId]);
         return false;
+      }
+    }
+
+    // Validação de Músicas Concedidas (vaga livre e tipo)
+    const isMusica = hab.system?.categoria === "musica" ||
+      hab.system?.tipoMusica ||
+      hab.flags?.["mighty-blade"]?.tipoMusica ||
+      (Array.isArray(hab.system?.acesso) && hab.system.acesso.some((a) => norm(a) === "musicas" || norm(a) === "musica"));
+
+    if (isMusica) {
+      const jaTemConcedidaPor = hab.getFlag?.("mighty-blade", "concedidaPor") ??
+        hab.flags?.["mighty-blade"]?.concedidaPor ??
+        hab.system?.concedidaPor;
+
+      if (!jaTemConcedidaPor) {
+        const aloc = alocarVagaMusica(this, hab);
+        if (!aloc.sucesso) {
+          if (typeof ui !== "undefined" && ui?.notifications?.warn) {
+            ui.notifications.warn(aloc.msg);
+          }
+          await this.deleteEmbeddedDocuments("Item", [habId]);
+          return false;
+        }
+
+        if (typeof hab.update === "function") {
+          await hab.update({
+            "flags.mighty-blade.concedidaPor": aloc.concessora.id,
+            "system.concedidaPor": aloc.concessora.id,
+          });
+        } else {
+          hab.flags = hab.flags || {};
+          hab.flags["mighty-blade"] = hab.flags["mighty-blade"] || {};
+          hab.flags["mighty-blade"].concedidaPor = aloc.concessora.id;
+          hab.system = hab.system || {};
+          hab.system.concedidaPor = aloc.concessora.id;
+        }
       }
     }
 

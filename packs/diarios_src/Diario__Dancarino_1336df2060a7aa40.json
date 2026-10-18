@@ -1,0 +1,28 @@
+{
+  "_id": "1336df2060a7aa40",
+  "name": "Diário: Dançarino",
+  "pages": [
+    {
+      "_id": "7e1451b3a9e4c2be",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Dançarino\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os Dançarinos são mestres da expressão corporal, capazes de movimentar seus corpos de forma atraente e envolvente, cativando multidões com suas performances de dança. Pessoas que trilham esse caminho possuem o poder de unir seu grupo, inspirando-os a agirem de forma harmoniosa no campo de batalha, enquanto intimidam seus oponentes com suas danças imponentes. Com suas coreografias impressionantes, os dançarinos são capazes de instilar medo nos corações dos inimigos, levando-os a fugir do campo de batalha. Além disso, esses artistas são verdadeiros virtuoses quando o assunto é música, utilizando-a para potencializar seus movimentos e criar uma dança imprevisível, pegando seus adversários desprevenidos. A habilidade dos Dançarinos de se mover em perfeita sincronia com o ritmo da música confere-lhes uma vantagem estratégica, permitindo que evitem ataques inimigos com elegância e graça. Seus movimentos fluidos e precisos tornam-nos extremamente ágeis e difíceis de serem atingidos, confundindo seus adversários com a imprevisibilidade de suas danças. A música se torna sua aliada, guiando-os em uma sinfonia de passos graciosos e poderosos, enquanto seus inimigos tentam acompanhar um ritmo que desconhecem. No campo de batalha, os dançarinos se tornam verdadeiros coreografos, guiando seu grupo com movimentos coordenados e inspiradores. Eles sabem como extrair o melhor de cada indivíduo, elevando suas habilidades e potencializando seus ataques. Com suas danças marciais, misturando beleza e destreza, eles se transformam em uma força imparável, capaz de enfrentar qualquer desafio que surja em seu caminho.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Atletismo, Agilidade 3, Vontade 3</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!1336df2060a7aa40.7e1451b3a9e4c2be"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "dancarino",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!1336df2060a7aa40"
+}

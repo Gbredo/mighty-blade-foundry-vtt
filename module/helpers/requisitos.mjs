@@ -494,6 +494,8 @@ export function avaliarRequisitos(requisitosTexto, actor, options = {}) {
       "ter sido aceito",
       "irmao da ordem",
       "ficar por um fio",
+      "ficado por um fio",
+      "por um fio",
       "matado algo",
       "destruido",
       "dreno de energia",

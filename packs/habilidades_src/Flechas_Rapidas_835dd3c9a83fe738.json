@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Patrulheiro",
-      "Arqueiro"
+      "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,8 +34,7 @@
       "slug": "flechas-rapidas",
       "automatica": false,
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

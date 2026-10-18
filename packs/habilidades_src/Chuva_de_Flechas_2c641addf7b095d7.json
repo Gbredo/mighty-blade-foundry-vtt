@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Flechas Rápidas",
     "acesso": [
-      "Patrulheiro",
-      "Arqueiro"
+      "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,8 +34,7 @@
       "slug": "chuva-de-flechas",
       "automatica": false,
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

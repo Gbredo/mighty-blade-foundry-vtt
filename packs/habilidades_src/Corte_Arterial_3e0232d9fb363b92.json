@@ -12,7 +12,8 @@
     "requisitos": "Ataque Aleijador",
     "acesso": [
       "Espadachim",
-      "Ladino"
+      "Ladino",
+      "Assassino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -36,7 +37,8 @@
       "automatica": false,
       "acesso": [
         "Espadachim",
-        "Ladino"
+        "Ladino",
+        "Assassino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

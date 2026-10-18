@@ -11,7 +11,8 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Flanquear",
     "acesso": [
-      "Ladino"
+      "Ladino",
+      "Assassino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -34,7 +35,8 @@
       "slug": "explorar-surpresa",
       "automatica": false,
       "acesso": [
-        "Ladino"
+        "Ladino",
+        "Assassino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

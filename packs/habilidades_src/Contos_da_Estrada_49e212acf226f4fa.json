@@ -12,7 +12,8 @@
     "requisitos": "",
     "acesso": [
       "Menestrel",
-      "Tailox"
+      "Tailox",
+      "Cruzado"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
@@ -42,7 +43,8 @@
       "automatica": false,
       "acesso": [
         "Menestrel",
-        "Tailox"
+        "Tailox",
+        "Cruzado"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",

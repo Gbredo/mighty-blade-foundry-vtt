@@ -1,0 +1,28 @@
+{
+  "_id": "e13770bd2614f045",
+  "name": "Diário: Sátiro",
+  "pages": [
+    {
+      "_id": "503fc76e70ee42d8",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Sátiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Sátiros são indivíduos que por uma razão ou outra se especializaram em fazer de sua voz a sua principal arma, não necessariamente por meio de canções como fazem alguns bardos. As palavras de um Satírico penetram mais fundo do que a maioria das espadas e machados, vão mais longe que a maioria das flechas e feitiços, e corroem os corações de seus alvos com mais letalidade do que os piores venenos. Ou ao menos é assim que as vítimas de seus abusos poderiam descrever seus encontros com estes peculiares (e muitas vezes detestáveis) indivíduos. No entanto, a habilidade dos Sátiros de causar impacto com suas palavras não se limita apenas em deixar os outros com raiva. Suas habilidades de entretenimento são capazes de encantar multidões, envolvendo-os em narrativas fascinantes e provocando risos com seu humor sagaz. Os Sátiros são frequentemente encontrados em tavernas e salões, onde suas performances são aguardadas ansiosamente pelos espectadores em busca de diversão e distração.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Língua Afiada, Inteligência 5</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!e13770bd2614f045.503fc76e70ee42d8"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "satiro",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!e13770bd2614f045"
+}

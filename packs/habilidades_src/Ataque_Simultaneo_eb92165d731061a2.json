@@ -12,7 +12,8 @@
     "requisitos": "Combate em Grupo",
     "acesso": [
       "Hoste de Hadorn",
-      "Guerreiro"
+      "Guerreiro",
+      "Domador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -36,7 +37,8 @@
       "automatica": false,
       "acesso": [
         "Hoste de Hadorn",
-        "Guerreiro"
+        "Guerreiro",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

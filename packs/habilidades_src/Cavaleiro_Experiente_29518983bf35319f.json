@@ -12,7 +12,8 @@
     "requisitos": "",
     "acesso": [
       "Paladino",
-      "Fira"
+      "Fira",
+      "Domador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -36,7 +37,8 @@
       "automatica": false,
       "acesso": [
         "Paladino",
-        "Fira"
+        "Fira",
+        "Domador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

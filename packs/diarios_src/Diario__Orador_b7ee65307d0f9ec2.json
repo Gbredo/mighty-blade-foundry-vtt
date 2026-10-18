@@ -1,0 +1,28 @@
+{
+  "_id": "b7ee65307d0f9ec2",
+  "name": "Diário: Orador",
+  "pages": [
+    {
+      "_id": "8fdb1a2ca0b5e042",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Orador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os seguidores deste caminho têm o dom da palavra e da música para transmitir os ensinamentos divinos e inspirar os corações daqueles que os ouvem. Com vozes melodiosas e melodias encantadoras, os Oradores entoam cânticos sagrados e recitam os dogmas, invocando a presença e a bênção dos deuses. Oradores combinam a habilidade vocal, domínio musical e profundo conhecimento dos dogmas religiosos. Eles estudam os textos sagrados, aprendem os rituais e se dedicam a aprimorar sua voz e técnica musical. Através de suas melodias, os Oradores tocam as emoções mais profundas das pessoas, despertando a fé, a esperança e a conexão com o divino. Em cerimônias e rituais sagrados, os Oradores desempenham um papel central, conduzindo as orações e entoando cânticos em honra aos deuses. Suas vozes ressoam nos templos e santuários, enchendo o ambiente com uma aura de reverência e sacralidade. Através da sua arte, os Oradores inspiram e fortalecem a fé, transmitindo os valores e princípios que regem a vida.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Conhecer ao menos uma Melodia, Dogma</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!b7ee65307d0f9ec2.8fdb1a2ca0b5e042"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "orador",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!b7ee65307d0f9ec2"
+}

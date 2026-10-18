@@ -1,0 +1,28 @@
+{
+  "_id": "7e3acd3d4f4dfc9f",
+  "name": "Diário: Metaleiro",
+  "pages": [
+    {
+      "_id": "3fc6fb7d3e5bcbdb",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Metaleiro\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Metaleiro são músicos especializados em performances agressivas e barulhentas. Eles recebem seu nome devido ao fato de darem preferência à armaduras de metal em suas apresentações, utilizando as vibrações das placas das armaduras para reverberar e distorcer as notas de suas músicas furiosas. Eles dominam a arte da música agressiva, canalizando emoções poderosas e expressando a fúria e a rebeldia através de suas composições. Em suas performances, eles não apenas entretêm, mas também inspiram a coragem e a força para enfrentar os desafios de cabeça erguida, sem nunca se deixar derrotar. Metaleiros possuem uma cultura particular, inspirada pelas chamadas Lendas do Metal: músicos virtuosos que romperam com os padrões tradicionais e canalizam atitude em performances arrebatadoras. O legado das Lendas do Metal vive através de cada Metaleiro que se esmera em aperfeiçoar cada vez mais suas músicas, impressionando plateias através de suas vozes poderosas e solos alucinantes. As notas distorcidas de suas músicas também ecoam pelos campos de batalha – o palco mais almejado pelos Metaleiros, onde sua música é realmente colocada à prova – inflamando o espírito dos valentes e aterrorizando seus inimigos, onde o som de seus instrumentos e de seus gritos de guerra retumbam nos ouvidos como trovões desabando! Música é tudo para um Metaleiro, e quanto mais barulhenta ela for, melhor!</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Grito de Guerra 1, Força 5</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!7e3acd3d4f4dfc9f.3fc6fb7d3e5bcbdb"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "metaleiro",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!7e3acd3d4f4dfc9f"
+}

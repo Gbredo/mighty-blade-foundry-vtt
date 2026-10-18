@@ -11,8 +11,6 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Cultista",
-      "Aziago",
       "Geral"
     ],
     "tipoAcesso": "Geral",
@@ -42,8 +40,6 @@
       "slug": "pacto",
       "automatica": false,
       "acesso": [
-        "Cultista",
-        "Aziago",
         "Geral"
       ],
       "tipoAcesso": "Geral",

@@ -1,0 +1,50 @@
+{
+  "name": "Vontade da Lei",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "padrao",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Cruzado"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Guia de Tebryn, pág. 113",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "sobrescreve": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você possui uma mentalidade tão rigidamente ordeira que é muito difícil manipulá-lo ou fazê-lo mudar de idéia. Você tem Determinação +2 e recebe +2 em todos os testes e confrontos para resistir a tentativas de manipulação, intimidação, efeitos mentais e efeitos de medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cruzado.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "vontade-da-lei",
+      "automatica": false,
+      "acesso": [
+        "Cruzado"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": []
+    }
+  },
+  "_id": "5299fa1078adbe97",
+  "_key": "!items!5299fa1078adbe97"
+}

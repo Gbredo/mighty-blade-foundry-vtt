@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Disparo Certeiro",
     "acesso": [
-      "Patrulheiro",
-      "Arqueiro"
+      "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,8 +34,7 @@
       "slug": "precisao",
       "automatica": false,
       "acesso": [
-        "Patrulheiro",
-        "Arqueiro"
+        "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
