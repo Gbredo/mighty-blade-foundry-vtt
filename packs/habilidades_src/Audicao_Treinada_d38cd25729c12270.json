@@ -1,0 +1,48 @@
+{
+  "name": "Audição Treinada",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 22",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você possui uma audição extremamente aguçada. Você recebe +1d6 em todos seus testes para ouvir (e consegue ouvir sussurros à uma distância em metros igual à sua Determinação), e +2 em seus testes e Confrontos para resistir aos efeitos de Músicas, Gritos e Rugidos. Além disso, você é muito bom em isolar sons, e pode entender claramente uma conversa do outro lado de uma taverna cheia ou outro ambiente barulhento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Classe Bardo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "audicao-treinada",
+      "automatica": false,
+      "acesso": [
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "d38cd25729c12270",
+  "_key": "!items!d38cd25729c12270"
+}

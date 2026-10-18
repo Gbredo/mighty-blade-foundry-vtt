@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Esta Carcaça Mortal",
     "acesso": [
-      "Dançarino Macabro"
+      "Gótico"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -43,7 +43,7 @@
       "slug": "necromanto",
       "automatica": false,
       "acesso": [
-        "Dançarino Macabro"
+        "Gótico"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

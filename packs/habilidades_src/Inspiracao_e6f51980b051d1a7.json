@@ -1,0 +1,48 @@
+{
+  "name": "Inspiração",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Trovador"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 63",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Enquanto você mantiver suas músicas, você inspira seus aliados cada vez mais. Você fornece um bônus de +1 em todos os testes de seus aliados para cada turno em que mantiver uma Música, a partir do segundo turno, até um máximo de +6. Este efeito termina se você for interrompido ou trocar de música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Fora do combate, essa Habilidade fornece um bônus de +1 (ou +2 se você for de Nível 5 ou mais) – mas você pode utilizá-la mesmo se estiver usando a ação de Tocar Instrumentos Musicais, ao invés de uma Música.<br><br>Caminho Trovador.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "inspiracao",
+      "automatica": true,
+      "acesso": [
+        "Trovador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "e6f51980b051d1a7",
+  "_key": "!items!e6f51980b051d1a7"
+}

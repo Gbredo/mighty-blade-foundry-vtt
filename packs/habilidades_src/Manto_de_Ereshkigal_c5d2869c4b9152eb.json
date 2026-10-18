@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 10, Pacto da Pestilência",
     "acesso": [
-      "Cultista de Ereshkigal"
+      "Cultista"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv3",
@@ -33,7 +33,7 @@
       "slug": "manto-de-ereshkigal",
       "automatica": false,
       "acesso": [
-        "Cultista de Ereshkigal"
+        "Cultista"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv3",

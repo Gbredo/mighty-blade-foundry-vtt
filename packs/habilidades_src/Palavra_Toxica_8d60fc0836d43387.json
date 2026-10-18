@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Devastação Emocional",
     "acesso": [
-      "Satírico"
+      "Sátiro"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "palavra-toxica",
       "automatica": false,
       "acesso": [
-        "Satírico"
+        "Sátiro"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

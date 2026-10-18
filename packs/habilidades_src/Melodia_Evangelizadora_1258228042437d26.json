@@ -1,0 +1,48 @@
+{
+  "name": "Melodia Evangelizadora",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 80,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10, Pregação da Fé",
+    "acesso": [
+      "Orador"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Canção do Bardo, pág. 56",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca uma melodia fervorosa e empolgante, que faz todos a sua volta cantarem junto a sua música. Todos que escutarem sua música devem realizar um Confronto de Vontade contra você, aqueles que tiverem um resultado menor do que o seu soltam suas armas e começam a entrar no ritmo da sua música, perdendo sua Ação Padrão durante seu próximo turno. Caso tenham um resultado igual ou maior do que o seu, eles ficam Distraídos por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Personagens que possuam Pacto ou Sintonia Dracônica recebem um redutor igual à sua Vontade em todos os testes enquanto você estiver tocando esta música.<br><br>Este é um efeito mental. Especial: Personagens que possuam Dogma não são afetados por esta Música.<br><br>Requer Nível 10, Pregação da Fé. Caminho Orador.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-evangelizadora",
+      "automatica": false,
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "1258228042437d26",
+  "_key": "!items!1258228042437d26"
+}

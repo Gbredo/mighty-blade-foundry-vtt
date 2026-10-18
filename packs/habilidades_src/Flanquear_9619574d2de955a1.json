@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Ladino",
-      "Guerreiro"
+      "Ladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "slug": "flanquear",
       "automatica": false,
       "acesso": [
-        "Ladino",
-        "Guerreiro"
+        "Ladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

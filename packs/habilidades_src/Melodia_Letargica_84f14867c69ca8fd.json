@@ -1,0 +1,48 @@
+{
+  "name": "Melodia Letárgica",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "musica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Gótico"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 48",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca uma música lenta e arrastada, que torna as criaturas que a escutem desanimadas e apáticas. Todas as criaturas vivas a uma distância em metros de você igual à sua Determinação que puderem ouvir essa Música rolam um Confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu têm seu Deslocamento reduzido à metade (arredondado para cima) e não podem utilizar ações que exijam movimentação como parte delas – como correr, dançar (incluindo Dança das Espadas) e realizar encontrões (ou Habilidades que exijam a realização de encontrões). Este é um efeito mental.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Gótico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "melodia-letargica",
+      "automatica": false,
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "84f14867c69ca8fd",
+  "_key": "!items!84f14867c69ca8fd"
+}

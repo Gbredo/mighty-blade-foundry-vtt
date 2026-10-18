@@ -11,9 +11,8 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Mestre de Armas 1",
     "acesso": [
-      "Guerreiro",
       "Espadachim",
-      "Paladino"
+      "Guerreiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -35,9 +34,8 @@
       "slug": "mestre-de-armas-2",
       "automatica": false,
       "acesso": [
-        "Guerreiro",
         "Espadachim",
-        "Paladino"
+        "Guerreiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

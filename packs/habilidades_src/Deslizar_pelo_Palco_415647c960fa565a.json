@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Evasão",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Metaleiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "slug": "deslizar-pelo-palco",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

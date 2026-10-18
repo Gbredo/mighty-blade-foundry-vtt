@@ -11,10 +11,9 @@
     "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "Nível 5",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Músicas"
     ],
-    "tipoAcesso": "Classe",
+    "tipoAcesso": "Lista",
     "nivel": "Nv2",
     "fonteLivro": "Canção do Bardo, pág. 72",
     "exclusivoCom": [],
@@ -34,10 +33,9 @@
       "slug": "cancao-hipnotica",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "aliases": [],
       "opcoes": [],

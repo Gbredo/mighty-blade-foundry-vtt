@@ -1,0 +1,48 @@
+{
+  "name": "Marcha Fúnebre",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Gótico"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 50",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Suas músicas sempre são pesadas e carregadas de sentimentos funestos. Enquanto estiver mantendo uma Música, todas as criaturas com Determinação menor do que a sua (exceto Aliados) ficam Amedrontadas em relação à você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de medo.<br><br>Requer Nível 5. Caminho Gótico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "marcha-funebre",
+      "automatica": false,
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "b343e3f1b30d03ea",
+  "_key": "!items!b343e3f1b30d03ea"
+}

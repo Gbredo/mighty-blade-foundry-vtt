@@ -11,9 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Cavaleiro Experiente",
     "acesso": [
-      "Paladino",
-      "Guerreiro",
-      "Patrulheiro"
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,9 +33,7 @@
       "slug": "combate-montado",
       "automatica": false,
       "acesso": [
-        "Paladino",
-        "Guerreiro",
-        "Patrulheiro"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

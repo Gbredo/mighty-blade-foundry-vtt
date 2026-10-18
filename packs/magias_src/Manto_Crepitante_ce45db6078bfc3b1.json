@@ -13,8 +13,7 @@
     "nivel": "Nv1",
     "requisitos": "Eletricidade Estática",
     "acesso": [
-      "Feiticeiro",
-      "Rúnico"
+      "Feiticeiro"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Errata, pág. 7; Guia Básico - 3ª Edição, pág. 98",
@@ -28,8 +27,7 @@
       "slug": "manto-crepitante",
       "tipo": "Ação",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

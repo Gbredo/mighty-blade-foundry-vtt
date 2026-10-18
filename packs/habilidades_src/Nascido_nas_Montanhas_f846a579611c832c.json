@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Fronteiras Rochosas",
+      "Guarda das Fronteiras Rochosas",
       "Anão",
       "Mahok"
     ],
@@ -41,7 +41,7 @@
       "slug": "nascido-nas-montanhas",
       "automatica": false,
       "acesso": [
-        "Fronteiras Rochosas",
+        "Guarda das Fronteiras Rochosas",
         "Anão",
         "Mahok"
       ],

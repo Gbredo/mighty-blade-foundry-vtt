@@ -12,8 +12,7 @@
     "requisitos": "Dogma",
     "acesso": [
       "Espada de Mirah",
-      "Sacerdote",
-      "Paladino"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Bônus",
@@ -36,8 +35,7 @@
       "automatica": false,
       "acesso": [
         "Espada de Mirah",
-        "Sacerdote",
-        "Paladino"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",

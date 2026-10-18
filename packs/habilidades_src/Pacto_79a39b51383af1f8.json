@@ -12,11 +12,10 @@
     "requisitos": "",
     "acesso": [
       "Cultista",
-      "Bruxo",
       "Aziago",
       "Geral"
     ],
-    "tipoAcesso": "Caminho",
+    "tipoAcesso": "Geral",
     "nivel": "Nv1",
     "fonteLivro": "Guia do Vilão, pág. 13",
     "exclusivoCom": [
@@ -40,11 +39,10 @@
       "automatica": false,
       "acesso": [
         "Cultista",
-        "Bruxo",
         "Aziago",
         "Geral"
       ],
-      "tipoAcesso": "Caminho",
+      "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": [

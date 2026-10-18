@@ -1,0 +1,48 @@
+{
+  "name": "Dançarino Irrefreável",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Dançarino"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 42",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você se tornou um dançarino incrível e lendário, onde ninguém consegue prever seus passos de dança. Você recebe +2 em seus testes de dança e tem +1d6 para resistir a efeitos que o impeçam de continuar se movendo (Constringido, Derrubado, Amedrontado, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "dancarino-irrefreavel",
+      "automatica": true,
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "d0a5f324580bf46a",
+  "_key": "!items!d0a5f324580bf46a"
+}

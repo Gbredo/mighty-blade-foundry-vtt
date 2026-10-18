@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Dançarino Exótico"
+      "Dançarino"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -38,7 +38,7 @@
       "slug": "requebrado",
       "automatica": false,
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

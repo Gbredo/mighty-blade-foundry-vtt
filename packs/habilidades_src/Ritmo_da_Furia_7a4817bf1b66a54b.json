@@ -11,10 +11,9 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Músicas"
     ],
-    "tipoAcesso": "Classe",
+    "tipoAcesso": "Lista",
     "nivel": "Nv2",
     "fonteLivro": "Canção do Bardo, pág. 73",
     "exclusivoCom": [],
@@ -34,10 +33,9 @@
       "slug": "ritmo-da-furia",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "aliases": [],
       "opcoes": [],

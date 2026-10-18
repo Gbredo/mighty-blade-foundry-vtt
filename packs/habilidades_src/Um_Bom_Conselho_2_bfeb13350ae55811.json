@@ -12,7 +12,7 @@
     "requisitos": "Nível 5, Um Bom Conselho 1",
     "acesso": [
       "Senescal",
-      "Bardo"
+      "Trovador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -35,7 +35,7 @@
       "automatica": false,
       "acesso": [
         "Senescal",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

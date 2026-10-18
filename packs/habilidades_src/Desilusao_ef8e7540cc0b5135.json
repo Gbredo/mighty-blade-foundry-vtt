@@ -1,0 +1,48 @@
+{
+  "name": "Desilusão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Charlatão"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 35",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é capaz de implantar crenças em qualquer indivíduo que possa entendê-lo, bastando para isso alguns instantes de conversa. Faça um confronto de Vontade contra um alvo. Se tiver um resultado mais alto do que o do alvo, você implanta nele uma Desilusão. Se o alvo tiver um resultado igual ou maior ao seu no teste, ele não poderá ser afetado por esta Habilidade por 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Uma Desilusão é uma crença (minimamente justificável) que não altera de forma direta o comportamento daqueles afetados. Você pode convencer alguém de que um aliado é na verdade um espião; de que a última bebida que ele consumiu estava envenenada e só você possui o antídoto; que ele é capaz (ou incapaz) de derrotar o melhor guerreiro da região; de que alguém insultou sua honra; etc.<br><br>Um alvo só pode ter uma Desilusão implantada de cada vez, que deixa de afetá-lo apenas caso seja provada falsa.<br><br>Este é um efeito mental.<br><br>Caminho Charlatão.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "desilusao",
+      "automatica": true,
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "ef8e7540cc0b5135",
+  "_key": "!items!ef8e7540cc0b5135"
+}

@@ -13,6 +13,7 @@
     "acesso": [
       "Espadachim",
       "Ladino",
+      "Menestrel",
       "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
@@ -37,6 +38,7 @@
       "acesso": [
         "Espadachim",
         "Ladino",
+        "Menestrel",
         "Patrulheiro"
       ],
       "tipoAcesso": "Classe",

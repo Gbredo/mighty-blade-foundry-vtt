@@ -1,0 +1,48 @@
+{
+  "name": "Língua de Nove Caudas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Sátiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 59",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Seus insultos são elaborados de forma precisa para ofender a nível pessoal, mas ditos de forma genérica o suficiente para servir a múltiplas criaturas. Escolha uma profissão, raça, cultura, classe social, ou qualquer grupo ao qual possa se referir com palavras. Faça um confronto de Vontade contra todas as criaturas deste grupo que puderem entendê-lo, e todas as que obtiverem um resultado menor ou igual ao seu o atacarão em detrimento de qualquer outro alvo, sendo consideradas Desprevenidas para seus aliados – mas não para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental, e equivalente à Língua Afiada para quaisquer benefícios.<br><br>Requer Nível 5. Caminho Sátiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lingua-de-nove-caudas",
+      "automatica": false,
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "1d8724228f8b812b",
+  "_key": "!items!1d8724228f8b812b"
+}

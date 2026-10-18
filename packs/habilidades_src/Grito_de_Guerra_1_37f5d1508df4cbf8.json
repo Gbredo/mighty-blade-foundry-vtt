@@ -11,9 +11,10 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Bardo",
       "Guerreiro",
-      "Paladino",
-      "Bardo"
+      "Menestrel",
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,9 +36,10 @@
       "slug": "grito-de-guerra-1",
       "automatica": false,
       "acesso": [
+        "Bardo",
         "Guerreiro",
-        "Paladino",
-        "Bardo"
+        "Menestrel",
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

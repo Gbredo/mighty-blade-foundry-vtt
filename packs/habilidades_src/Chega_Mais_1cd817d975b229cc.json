@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Dançarino"
+      "Cortesão"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "chega-mais",
       "automatica": false,
       "acesso": [
-        "Dançarino"
+        "Cortesão"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

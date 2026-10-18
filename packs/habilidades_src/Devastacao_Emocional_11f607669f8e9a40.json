@@ -1,0 +1,48 @@
+{
+  "name": "Devastação Emocional",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Sátiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 58",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Sempre que necessário você consegue colocar uma pitada a mais de sarcasmo, ódio, desprezo ou seja lá qual for a emoção necessária para afetar de forma mais profunda o ego de seus ouvintes. Sempre que afetar uma criatura com um efeito mental, você pode reduzir a Determinação do alvo em um total igual a metade de sua Vontade (arredondada para cima) enquanto durar o efeito mental original.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "devastacao-emocional",
+      "automatica": false,
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "11f607669f8e9a40",
+  "_key": "!items!11f607669f8e9a40"
+}

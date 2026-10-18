@@ -11,8 +11,6 @@
     "dificuldadeTexto": "",
     "requisitos": "Ter abandonado um Voto",
     "acesso": [
-      "Sacerdote",
-      "Herege",
       "Geral"
     ],
     "tipoAcesso": "Classe",
@@ -47,8 +45,6 @@
       "slug": "apostata",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Herege",
         "Geral"
       ],
       "tipoAcesso": "Classe",

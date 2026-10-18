@@ -1,0 +1,48 @@
+{
+  "name": "Orquestra de Um Homem Só",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Tocar de Ouvido",
+    "acesso": [
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 33",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você toca vários tipos de instrumentos – muitas vezes mais de um ao mesmo tempo! – e é excelente com todos eles.Você recebe +2 em todos os seus testes para tocar instrumentos musicais e em seus testes de Músicas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Requer Nível 5, Tocar de Ouvido. Classe Menestrel.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "orquestra-de-um-homem-so",
+      "automatica": false,
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "23c2f909f067ddb2",
+  "_key": "!items!23c2f909f067ddb2"
+}

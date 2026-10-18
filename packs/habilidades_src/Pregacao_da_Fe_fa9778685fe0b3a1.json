@@ -1,0 +1,48 @@
+{
+  "name": "Pregação da Fé",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Pregar a Palavra",
+    "acesso": [
+      "Orador"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 56",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Concentrando-se em uma pessoa, você é capaz de repreendê-la por todos os seus atos. Faça um confronto de Vontade contra um alvo que consiga ver. Se você vencer e se o alvo for capaz de entendê-lo, este perde imediatamente uma quantidade de Pontos de Mana igual sua Determinação e fica Distraído por 2 turnos. Além disso, se o alvo possuir um Pacto ou Sintonia Dracônica, ele ficará Paralisado por 2 turnos ao invés de Distraido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.<br><br>Requer Nível 5, Pregar a Palavra. Caminho Orador.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "pregacao-da-fe",
+      "automatica": false,
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "fa9778685fe0b3a1",
+  "_key": "!items!fa9778685fe0b3a1"
+}

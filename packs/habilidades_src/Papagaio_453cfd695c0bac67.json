@@ -1,0 +1,48 @@
+{
+  "name": "Papagaio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Sátiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 58",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você possui uma grande facilidade para entender os maneirismos e vozes das criaturas e culturas com as quais tem contato. Graças a isso, você consegue imitar qualquer som ou voz que tenha ouvido, assim como a postura e os gestos de seus falantes, recebendo +2 em testes e confrontos sociais (incluindo Técnicas e Músicas, e o cálculo de sua Determinação para estes efeitos), e +1d6 para se disfarçar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "papagaio",
+      "automatica": false,
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "453cfd695c0bac67",
+  "_key": "!items!453cfd695c0bac67"
+}

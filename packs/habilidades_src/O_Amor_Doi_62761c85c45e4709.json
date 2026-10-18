@@ -1,0 +1,48 @@
+{
+  "name": "O Amor Dói",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Cortesão"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 40",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Escondendo sua arma até o último segundo, você realiza um ataque corporal contra um alvo que esteja amigável devido a um teste de sedução bem-sucedido, ignorando qualquer bônus de Bloqueio ou Esquiva e causando o dobro de dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cortesão.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "o-amor-doi",
+      "automatica": false,
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "62761c85c45e4709",
+  "_key": "!items!62761c85c45e4709"
+}

@@ -14,7 +14,6 @@
     "requisitos": "Caminhada Mágica",
     "acesso": [
       "Druida",
-      "Feiticeiro",
       "Sacerdote"
     ],
     "tipoAcesso": "Classe",
@@ -30,7 +29,6 @@
       "tipo": "Ação",
       "acesso": [
         "Druida",
-        "Feiticeiro",
         "Sacerdote"
       ],
       "tipoAcesso": "Classe",

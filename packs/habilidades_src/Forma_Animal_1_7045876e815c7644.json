@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Benção de Ellenis",
     "acesso": [
-      "Xamã",
-      "Druida"
+      "Xamã"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "slug": "forma-animal-1",
       "automatica": false,
       "acesso": [
-        "Xamã",
-        "Druida"
+        "Xamã"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

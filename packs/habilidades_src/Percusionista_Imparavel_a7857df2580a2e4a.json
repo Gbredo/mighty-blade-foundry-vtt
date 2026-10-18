@@ -1,0 +1,48 @@
+{
+  "name": "Percusionista Imparável",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Golpe Inspirador",
+    "acesso": [
+      "Skald"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 62",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você sabe fazer músicas batendo em seus inimigos! Você pode usar sua ação padrão para realizar um ataque corporal desarmado e manter uma Música em seus turnos. Enquanto você atacar seus inimigos, eles são considerados instrumentos de percussão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Golpe Inspirador. Caminho Skald.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "percusionista-imparavel",
+      "automatica": false,
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "a7857df2580a2e4a",
+  "_key": "!items!a7857df2580a2e4a"
+}

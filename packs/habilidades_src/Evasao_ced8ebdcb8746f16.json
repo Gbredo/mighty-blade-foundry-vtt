@@ -11,8 +11,10 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Bardo",
       "Espadachim",
       "Ladino",
+      "Menestrel",
       "Patrulheiro"
     ],
     "tipoAcesso": "Classe",
@@ -35,8 +37,10 @@
       "slug": "evasao",
       "automatica": false,
       "acesso": [
+        "Bardo",
         "Espadachim",
         "Ladino",
+        "Menestrel",
         "Patrulheiro"
       ],
       "tipoAcesso": "Classe",

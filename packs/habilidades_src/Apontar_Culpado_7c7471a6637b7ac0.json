@@ -1,0 +1,48 @@
+{
+  "name": "Apontar Culpado",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Charlatão"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 37",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você possui um talento natural para apontar culpados – verdadeiros ou não. Quando uma criatura a uma quantidade de metros de você igual à sua Determinação for alvo de um ataque, Magia, Música ou efeito, faça um confronto de Vontade contra a Inteligência do alvo. Se você tiver um resultado mais alto do que o alvo, você pode apontar um culpado dentro do campo de visão dele. O alvo irá atacar a criatura apontada em detrimento de qualquer outra criatura – mesmo que seja um aliado! – até que ele ou o culpado apontado estejam Por um Fio ou que alguma outra criatura lhe cause dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo é considerado Desprevenido para você e todos os seus aliados, exceto se um deles for o culpado apontado.<br><br>Este é um efeito mental.<br><br>Requer Nível 5. Caminho Charlatão.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "apontar-culpado",
+      "automatica": false,
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "7c7471a6637b7ac0",
+  "_key": "!items!7c7471a6637b7ac0"
+}

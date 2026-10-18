@@ -1,0 +1,48 @@
+{
+  "name": "Espiral do Vazio",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Esta Carcaça Mortal",
+    "acesso": [
+      "Gótico"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 49",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você sabe como sintonizar brevemente um alvo ao Limiar, permitindo que ele seja capaz de ouvir as lamúrias de morte dos espíritos ao redor. O alvo fica Enregelado e precisa fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo perde uma quantidade de Pontos de Vida e Pontos de Mana iguais a sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Esta Carcaça Mortal. Caminho Gótico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "espiral-do-vazio",
+      "automatica": false,
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "76a689038de0f2f4",
+  "_key": "!items!76a689038de0f2f4"
+}

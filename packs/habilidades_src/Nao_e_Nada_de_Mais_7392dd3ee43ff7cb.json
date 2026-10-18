@@ -1,0 +1,48 @@
+{
+  "name": "Não é Nada de Mais",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 15,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Charlatão"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 36",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Quando uma ou mais criaturas capazes de entendê-lo forem afetadas por um efeito que provoque condições negativas, você pode imediatamente convencê-lo que não é nada de mais, permitindo que o alvo ignore 1 Condição – Exceto Indefeso e Paralisado. Em combate, esse efeito dura por 1 minuto, enquanto fora de combate dura até 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Cada criatura só pode ignorar uma Condição dessa forma. Se outro uso desta Habilidade for utilizada no mesmo alvo, o primeiro efeito deixa de funcionar.<br><br>Este é um efeito mental.<br><br>Caminho Charlatão.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "nao-e-nada-de-mais",
+      "automatica": false,
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "7392dd3ee43ff7cb",
+  "_key": "!items!7392dd3ee43ff7cb"
+}

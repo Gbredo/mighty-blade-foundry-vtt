@@ -1,0 +1,48 @@
+{
+  "name": "Compasso",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Dançarino"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 44",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Enquanto você escutar uma Música quando estiver dançando, você recebe +2 em todos os seus testes – exceto para conjurar Magias. Além disso, se escolher resistir aos efeitos de uma Música, você recebe +1d6 em seus Confrontos para não ser afetado por ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "compasso",
+      "automatica": false,
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "9e1beec31283622a",
+  "_key": "!items!9e1beec31283622a"
+}

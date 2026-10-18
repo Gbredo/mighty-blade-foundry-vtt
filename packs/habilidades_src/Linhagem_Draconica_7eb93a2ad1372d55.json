@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Dragano",
-      "Draconiano"
+      "Dragano"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -233,8 +232,7 @@
       "slug": "linhagem-draconica",
       "automatica": true,
       "acesso": [
-        "Dragano",
-        "Draconiano"
+        "Dragano"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

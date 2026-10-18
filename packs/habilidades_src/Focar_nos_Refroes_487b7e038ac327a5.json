@@ -1,0 +1,48 @@
+{
+  "name": "Focar nos Refrões",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Solo",
+    "acesso": [
+      "Metaleiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 53",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você mantém sua música ritmada, melhorando a concentração de seus aliados. Enquanto estiver mantendo uma Música, todos os seus aliados recebem Determinação +2 e ficam imunes a efeitos que os deixariam Distraídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar uma Música para a qual preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Requer Nível 5, Solo. Caminho Metaleiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "focar-nos-refroes",
+      "automatica": false,
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "487b7e038ac327a5",
+  "_key": "!items!487b7e038ac327a5"
+}

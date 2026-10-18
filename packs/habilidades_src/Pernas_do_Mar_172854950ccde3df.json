@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Arpão",
+      "O Arpão",
       "Lobos dos Mares"
     ],
     "tipoAcesso": "Organização",
@@ -34,7 +34,7 @@
       "slug": "pernas-do-mar",
       "automatica": false,
       "acesso": [
-        "Arpão",
+        "O Arpão",
         "Lobos dos Mares"
       ],
       "tipoAcesso": "Organização",

@@ -12,8 +12,7 @@
     "requisitos": "Nível 5",
     "acesso": [
       "Bardo",
-      "Menestrel",
-      "Skald"
+      "Menestrel"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -46,8 +45,7 @@
       "automatica": false,
       "acesso": [
         "Bardo",
-        "Menestrel",
-        "Skald"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

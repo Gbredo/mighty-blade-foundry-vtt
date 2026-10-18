@@ -12,8 +12,6 @@
     "requisitos": "",
     "acesso": [
       "Paladino",
-      "Guerreiro",
-      "Patrulheiro",
       "Fira"
     ],
     "tipoAcesso": "Classe",
@@ -37,8 +35,6 @@
       "automatica": false,
       "acesso": [
         "Paladino",
-        "Guerreiro",
-        "Patrulheiro",
         "Fira"
       ],
       "tipoAcesso": "Classe",

@@ -12,7 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Ladino",
-      "Espadachim",
+      "Menestrel",
       "Hamelin"
     ],
     "tipoAcesso": "Classe",
@@ -42,7 +42,7 @@
       "automatica": false,
       "acesso": [
         "Ladino",
-        "Espadachim",
+        "Menestrel",
         "Hamelin"
       ],
       "tipoAcesso": "Classe",

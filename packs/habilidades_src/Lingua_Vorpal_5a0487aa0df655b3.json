@@ -1,0 +1,48 @@
+{
+  "name": "Língua Vorpal",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Sátiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 57",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você refinou sua língua ferina e técnicas de insulto a ponto de conseguir proferi-los de forma praticamente instintiva. Você é capaz de utilizar Língua Afiada como uma ação livre uma vez por rodada – e não está mais restrito a 5 palavras quando for falar como uma Ação Livre.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "lingua-vorpal",
+      "automatica": true,
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "5a0487aa0df655b3",
+  "_key": "!items!5a0487aa0df655b3"
+}

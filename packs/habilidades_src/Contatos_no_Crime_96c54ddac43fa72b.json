@@ -11,13 +11,12 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Ladino",
       "Crânios Vermelhos",
       "Cesto de Adagas",
       "Capuzes Negros",
-      "Arpão",
-      "Anel",
-      "Ladino",
-      "Bardo"
+      "O Arpão",
+      "Irmandade do Anel de Bronze"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -39,13 +38,12 @@
       "slug": "contatos-no-crime",
       "automatica": false,
       "acesso": [
+        "Ladino",
         "Crânios Vermelhos",
         "Cesto de Adagas",
         "Capuzes Negros",
-        "Arpão",
-        "Anel",
-        "Ladino",
-        "Bardo"
+        "O Arpão",
+        "Irmandade do Anel de Bronze"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

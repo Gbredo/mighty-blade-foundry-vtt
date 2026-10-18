@@ -298,15 +298,14 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
   // ===========================================================================
   describe("Sub-módulo 3.6 — Integração Runtime: MightyBladeActor & Compendium Browser", () => {
     test("3.6.1 Naga Fêmea pode adquirir Conhecimento Místico e magias místicas compatíveis com seu acesso (fora de Sacerdote/Dogma)", () => {
-      const femea = createCharacter({ raceId: "naga_femea", classId: "feiticeiro", level: 2 });
-      assert.equal(validarAquisicaoHabilidade(femea, "Conhecimento Místico").permitido, true);
-      assert.doesNotThrow(() => addAbility(femea, "Conhecimento Místico"));
+      const femea = createCharacter({ raceId: "naga_femea", classId: "druida", level: 2 });
+      assert.ok(femea.items.some((i) => i.name === "Conhecimento Místico"), "Naga Druida possui Conhecimento Místico automaticamente");
 
-      const misticaFeiticeiro = CANONICAL_MAGIAS.find(
-        (m) => m.system?.fonte === "mistica" && m.system?.acesso?.includes("Feiticeiro"),
+      const misticaDruida = CANONICAL_MAGIAS.find(
+        (m) => m.system?.fonte === "mistica" && m.system?.acesso?.includes("Druida"),
       );
-      assert.ok(misticaFeiticeiro, "Deve existir magia mística acessível a Feiticeiro");
-      assert.equal(validarAcessoMagia(femea, misticaFeiticeiro).permitido, true);
+      assert.ok(misticaDruida, "Deve existir magia mística acessível a Druida");
+      assert.equal(validarAcessoMagia(femea, misticaDruida).permitido, true);
 
       const misticaSacerdote = CANONICAL_MAGIAS.find(
         (m) => m.system?.fonte === "mistica" && m.system?.acesso?.length === 1 && m.system.acesso[0] === "Sacerdote",
@@ -378,8 +377,8 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
 
   // ===========================================================================
   describe("Sub-módulo 3.7 — Paridade SSOT (habilidades.base) e Controle de Acesso (Feiticeiro × Sacerdote)", () => {
-    test("3.7.1 Todas as 174 magias e 574 habilidades principais possuem acesso e tipoAcesso do SSOT", () => {
-      // Fase C2: +11 magias adicionadas do Guia do Herói (Ilusão 2-3, Invisibilidade 1-2, Invocar Elemental/Golem 1-2, Dom do Artífice) -> 174
+    test("3.7.1 Todas as 174 magias e 644 habilidades principais possuem acesso e tipoAcesso do SSOT", () => {
+      // Fase C2: +11 magias adicionadas do Guia do Herói -> 174
       assert.equal(CANONICAL_MAGIAS.length, 174, "Total exato de 174 magias de habilidades.base");
       for (const m of CANONICAL_MAGIAS) {
         assert.ok(Array.isArray(m.system?.acesso) && m.system.acesso.length > 0, `Magia "${m.name}" deve ter acesso definido`);
@@ -387,8 +386,8 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
       }
 
       const habsPrincipais = CANONICAL_HABILIDADES.filter((h) => !h.flags?.["mighty-blade"]?.isSubFeature);
-      // Fase C2: +24 habilidades novas adicionadas do Canção do Bardo, Guia do Vilão, Guia do Herói e Guia Básico (550 + 24 = 574)
-      assert.equal(habsPrincipais.length, 574, "Total exato de 574 habilidades principais de habilidades.base");
+      // Fase C3b: +70 habilidades novas adicionadas do Canção do Bardo (574 + 70 = 644)
+      assert.equal(habsPrincipais.length, 644, "Total exato de 644 habilidades principais de habilidades.base");
       for (const h of habsPrincipais) {
         assert.ok(Array.isArray(h.system?.acesso) && h.system.acesso.length > 0, `Habilidade "${h.name}" deve ter acesso definido`);
         assert.ok(h.system?.tipoAcesso, `Habilidade "${h.name}" deve ter tipoAcesso definido`);
@@ -424,6 +423,8 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
         "Acalmar Animais",
         "Animação Necromântica",
         "Arma Espiritual",
+        "Asas Celestiais",
+        "Caminhada Mágica",
         "Cura Sagrada 1",
       ]) {
         assert.equal(magiasDaniel.includes(proibida), false, `"${proibida}" não pode aparecer para Feiticeiro`);
@@ -433,11 +434,11 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
       for (const permitida of [
         "Arco Voltaico",
         "Aríete Mágico",
-        "Asas Celestiais",
         "Bola de Fogo",
-        "Caminhada Mágica",
         "Congelar",
         "Incandescer",
+        "Relâmpago 1",
+        "Telecinésia",
       ]) {
         assert.equal(magiasDaniel.includes(permitida), true, `"${permitida}" deve aparecer para Feiticeiro`);
       }

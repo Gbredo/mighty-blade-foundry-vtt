@@ -11,6 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Guerreiro de Aço 1",
     "acesso": [
+      "Metaleiro",
       "Guerreiro",
       "Paladino",
       "Rúnico"
@@ -35,6 +36,7 @@
       "slug": "guerreiro-de-aco-2",
       "automatica": false,
       "acesso": [
+        "Metaleiro",
         "Guerreiro",
         "Paladino",
         "Rúnico"

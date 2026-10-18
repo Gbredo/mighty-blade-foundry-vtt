@@ -12,9 +12,10 @@
     "requisitos": "Evasão",
     "acesso": [
       "Bardo",
-      "Menestrel",
+      "Espadachim",
       "Ladino",
-      "Patrulheiro"
+      "Patrulheiro",
+      "Menestrel"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -37,9 +38,10 @@
       "automatica": false,
       "acesso": [
         "Bardo",
-        "Menestrel",
+        "Espadachim",
         "Ladino",
-        "Patrulheiro"
+        "Patrulheiro",
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

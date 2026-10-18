@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Bardo"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "slug": "musico-funebre",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

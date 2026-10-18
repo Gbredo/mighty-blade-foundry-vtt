@@ -12,12 +12,9 @@
     "requisitos": "",
     "acesso": [
       "Bardo",
-      "Guerreiro",
-      "Ladino",
       "Espadachim",
-      "Menestrel",
-      "Paladino",
-      "Patrulheiro"
+      "Ladino",
+      "Menestrel"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -40,12 +37,9 @@
       "automatica": false,
       "acesso": [
         "Bardo",
-        "Guerreiro",
-        "Ladino",
         "Espadachim",
-        "Menestrel",
-        "Paladino",
-        "Patrulheiro"
+        "Ladino",
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

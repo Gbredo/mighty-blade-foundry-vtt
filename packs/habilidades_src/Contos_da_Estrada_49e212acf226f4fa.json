@@ -11,6 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Menestrel",
       "Tailox"
     ],
     "tipoAcesso": "Raça",
@@ -39,6 +40,7 @@
       "slug": "contos-da-estrada",
       "automatica": false,
       "acesso": [
+        "Menestrel",
         "Tailox"
       ],
       "tipoAcesso": "Raça",

@@ -11,12 +11,12 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Cesto de Adagas",
       "Bardo",
-      "Menestrel",
+      "Espadachim",
       "Ladino",
-      "Trovador",
-      "Senescal"
+      "Senescal",
+      "Cesto de Adagas",
+      "Menestrel"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -38,12 +38,12 @@
       "slug": "eloquente",
       "automatica": false,
       "acesso": [
-        "Cesto de Adagas",
         "Bardo",
-        "Menestrel",
+        "Espadachim",
         "Ladino",
-        "Trovador",
-        "Senescal"
+        "Senescal",
+        "Cesto de Adagas",
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

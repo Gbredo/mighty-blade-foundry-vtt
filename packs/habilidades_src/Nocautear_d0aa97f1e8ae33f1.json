@@ -12,9 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Guerreiro",
-      "Ladino",
-      "Paladino",
-      "Espadachim"
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -37,9 +35,7 @@
       "automatica": false,
       "acesso": [
         "Guerreiro",
-        "Ladino",
-        "Paladino",
-        "Espadachim"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

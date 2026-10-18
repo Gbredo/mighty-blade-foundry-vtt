@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5",
     "acesso": [
-      "Satírico"
+      "Sátiro"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
@@ -33,7 +33,7 @@
       "slug": "charada-obtusa",
       "automatica": false,
       "acesso": [
-        "Satírico"
+        "Sátiro"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",

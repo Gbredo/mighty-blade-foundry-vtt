@@ -12,7 +12,7 @@
     "requisitos": "Nível 5, Gregário",
     "acesso": [
       "Senescal",
-      "Bardo"
+      "Charlatão"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -35,7 +35,7 @@
       "automatica": false,
       "acesso": [
         "Senescal",
-        "Bardo"
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

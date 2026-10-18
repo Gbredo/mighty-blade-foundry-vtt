@@ -15,7 +15,8 @@
       "Bardo",
       "Menestrel",
       "Ladino",
-      "Senescal"
+      "Senescal",
+      "Charlatão"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -41,7 +42,8 @@
         "Bardo",
         "Menestrel",
         "Ladino",
-        "Senescal"
+        "Senescal",
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

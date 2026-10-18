@@ -1,0 +1,48 @@
+{
+  "name": "Malabares",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 5,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Malabarista",
+    "acesso": [
+      "Menestrel"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 32",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você é tem uma precisão e agilidade muito boas com suas mãos, sendo capazes, de arremessar coisas a grandes distâncias. Sempre que arremessar uma arma com característica Arremesso e FN 1, você pode rolar +1d6.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada uma vez por turno.<br><br>Requer Nível 5, Malabarista. Classe Menestrel.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "malabares",
+      "automatica": false,
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "4490729f57c96070",
+  "_key": "!items!4490729f57c96070"
+}

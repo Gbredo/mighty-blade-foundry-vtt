@@ -1,0 +1,48 @@
+{
+  "name": "Sermão",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Orador"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 54",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Conversando com uma pessoa por pelo menos 10 minutos, você é capaz de cativá-la e trazer-lhe as boas novas. A pessoa que ouvi-lo recebe +1 em todos os seus testes por uma hora e recupera imediatamente uma quantidade de Pontos de Vida e Mana igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade uma vez por dia na mesma pessoa.<br><br>Caminho Orador.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sermao",
+      "automatica": true,
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "266a60bb0fc16378",
+  "_key": "!items!266a60bb0fc16378"
+}

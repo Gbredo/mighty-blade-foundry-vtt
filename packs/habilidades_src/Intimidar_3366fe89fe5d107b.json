@@ -11,7 +11,7 @@
     "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "",
     "acesso": [
-      "Arpão"
+      "O Arpão"
     ],
     "tipoAcesso": "Organização",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "intimidar",
       "automatica": false,
       "acesso": [
-        "Arpão"
+        "O Arpão"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",

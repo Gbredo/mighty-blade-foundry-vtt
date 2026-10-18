@@ -11,10 +11,10 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Combate com Duas Armas 1",
     "acesso": [
-      "Guerreiro",
       "Espadachim",
+      "Guerreiro",
       "Ladino",
-      "Rúnico"
+      "Skald"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -36,10 +36,10 @@
       "slug": "combate-com-duas-armas-2",
       "automatica": false,
       "acesso": [
-        "Guerreiro",
         "Espadachim",
+        "Guerreiro",
         "Ladino",
-        "Rúnico"
+        "Skald"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

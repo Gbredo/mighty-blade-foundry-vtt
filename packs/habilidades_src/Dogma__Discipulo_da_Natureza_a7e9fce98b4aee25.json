@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Dogma",
     "acesso": [
-      "Sacerdote",
-      "Druida"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Bônus",
@@ -34,8 +33,7 @@
       "slug": "dogma-discipulo-da-natureza",
       "automatica": false,
       "acesso": [
-        "Sacerdote",
-        "Druida"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",

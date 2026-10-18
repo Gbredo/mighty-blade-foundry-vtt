@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Bardo"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -49,8 +48,7 @@
       "slug": "repentista",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

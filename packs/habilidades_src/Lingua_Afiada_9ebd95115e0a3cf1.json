@@ -12,11 +12,10 @@
     "requisitos": "Eloquente",
     "acesso": [
       "Bardo",
+      "Espadachim",
+      "Senescal",
       "Menestrel",
-      "Ladino",
-      "Sátiro",
-      "Trovador",
-      "Senescal"
+      "Trovador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -39,11 +38,10 @@
       "automatica": false,
       "acesso": [
         "Bardo",
+        "Espadachim",
+        "Senescal",
         "Menestrel",
-        "Ladino",
-        "Sátiro",
-        "Trovador",
-        "Senescal"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

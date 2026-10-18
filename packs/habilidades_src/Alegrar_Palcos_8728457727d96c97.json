@@ -1,0 +1,48 @@
+{
+  "name": "Alegrar Palcos",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Entusiasmar Fiéis",
+    "acesso": [
+      "Orador"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 55",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Quando você começa a tocar, multidões se unem só para lhe escutar, se empolgando cada vez que você toca uma nota. Enquanto estiver mantendo uma Musica do tipo Melodia, todos recebem Determinação +2 e recebem +1d6 para evitar ser derrubado, evitar ser agarrado e apertado, e para a tentativas de desarmá-lo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Entusiasmar Fiéis. Caminho Orador.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "alegrar-palcos",
+      "automatica": false,
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "8728457727d96c97",
+  "_key": "!items!8728457727d96c97"
+}

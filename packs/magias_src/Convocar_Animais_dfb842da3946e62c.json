@@ -13,9 +13,7 @@
     "nivel": "Nv1",
     "requisitos": "Benção de Ellenis",
     "acesso": [
-      "Druida",
-      "Patrulheiro",
-      "Xamã"
+      "Druida"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 120; Codex Monstrorum, pág. 175",
@@ -29,9 +27,7 @@
       "slug": "convocar-animais",
       "tipo": "Ação",
       "acesso": [
-        "Druida",
-        "Patrulheiro",
-        "Xamã"
+        "Druida"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

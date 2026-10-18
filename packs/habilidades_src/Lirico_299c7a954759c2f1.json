@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Bardo"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -44,8 +43,7 @@
       "slug": "lirico",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

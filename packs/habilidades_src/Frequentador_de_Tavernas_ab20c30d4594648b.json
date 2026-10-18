@@ -1,0 +1,48 @@
+{
+  "name": "Frequentador de Tavernas",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Bardo"
+    ],
+    "tipoAcesso": "Classe",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 23",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você está acostumado com o ambiente – geralmente competitivo e cheio de falastrões – das tavernas. Sempre que realizar um Confronto, você recebe um bônus de +2 no seu teste – esse bônus se aplica a qualquer Habilidade que exija um Confronto, além de testes de percepção (como detectar criaturas escondidas), situações sociais (como mentir ou detectar mentiras) e passar despercebido (como se esconder e mover-se em silêncio).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Classe Bardo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "frequentador-de-tavernas",
+      "automatica": false,
+      "acesso": [
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "ab20c30d4594648b",
+  "_key": "!items!ab20c30d4594648b"
+}

@@ -11,11 +11,11 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Senescal",
       "Bardo",
-      "Ladino",
+      "Senescal",
       "Humano",
-      "Mahok"
+      "Mahok",
+      "Charlatão"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -43,11 +43,11 @@
       "slug": "gregario",
       "automatica": false,
       "acesso": [
-        "Senescal",
         "Bardo",
-        "Ladino",
+        "Senescal",
         "Humano",
-        "Mahok"
+        "Mahok",
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

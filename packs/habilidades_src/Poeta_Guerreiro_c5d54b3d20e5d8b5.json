@@ -1,0 +1,48 @@
+{
+  "name": "Poeta Guerreiro",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Skald"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 60",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você aprendeu no campo de batalha que o melhor jeito de uma conversa é com os punhos. Sempre que você estiver tocando em uma música e uma criatura se aproximar de você em alcance corporal, você pode realizar um Grito ou Rugido contra ela. Além disso, sempre que você utilizar uma habilidade do tipo Grito ou Rugido, você pode se movimentar uma quantidade de metros igual à metade da sua Agilidade (arredondado para baixo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade contra um mesmo alvo uma vez por turno.<br><br>Caminho Skald.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "poeta-guerreiro",
+      "automatica": true,
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "c5d54b3d20e5d8b5",
+  "_key": "!items!c5d54b3d20e5d8b5"
+}

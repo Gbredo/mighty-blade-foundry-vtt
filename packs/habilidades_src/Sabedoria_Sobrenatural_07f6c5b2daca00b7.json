@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Dançarino Macabro"
+      "Gótico"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "sabedoria-sobrenatural",
       "automatica": false,
       "acesso": [
-        "Dançarino Macabro"
+        "Gótico"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

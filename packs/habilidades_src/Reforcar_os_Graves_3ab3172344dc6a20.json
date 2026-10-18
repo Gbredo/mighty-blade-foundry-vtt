@@ -11,9 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Bardo",
-      "Menestrel",
-      "Orador"
+      "Metaleiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,9 +33,7 @@
       "slug": "reforcar-os-graves",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel",
-        "Orador"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

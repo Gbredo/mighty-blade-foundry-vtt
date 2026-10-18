@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Anel",
+      "Irmandade do Anel de Bronze",
       "Senescal",
       "Bardo"
     ],
@@ -35,7 +35,7 @@
       "slug": "contatos-na-corte",
       "automatica": false,
       "acesso": [
-        "Anel",
+        "Irmandade do Anel de Bronze",
         "Senescal",
         "Bardo"
       ],

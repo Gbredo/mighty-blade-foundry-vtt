@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Silfo"
+      "Faen"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Automática",
@@ -39,7 +39,7 @@
       "slug": "constituicao-feerica",
       "automatica": true,
       "acesso": [
-        "Silfo"
+        "Faen"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",

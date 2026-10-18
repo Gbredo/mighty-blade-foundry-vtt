@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Arpão"
+      "O Arpão"
     ],
     "tipoAcesso": "Organização",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "durao",
       "automatica": false,
       "acesso": [
-        "Arpão"
+        "O Arpão"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",

@@ -1,0 +1,48 @@
+{
+  "name": "Amplificadores",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Guerreiro de Aço 1",
+    "acesso": [
+      "Metaleiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 52",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>As placas de sua armadura amplificam os sons das suas Músicas! Enquanto estiver utilizando uma Armadura com a Característica Pesada, todas as dificuldades para resistir à efeitos de seus Gritos e Músicas são aumentadas em +2. Além disso, todos os seus Gritos, Músicas e Rugidos que causam dano passam a causar uma quantidade extra de dano igual à Defesa + Redução de Dano de sua armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Guerreiro de Aço 1. Caminho Metaleiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "amplificadores",
+      "automatica": false,
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "4f6efdb945377695",
+  "_key": "!items!4f6efdb945377695"
+}

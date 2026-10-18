@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Chega Mais",
     "acesso": [
-      "Dançarino"
+      "Cortesão"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "beijo-sufocante",
       "automatica": false,
       "acesso": [
-        "Dançarino"
+        "Cortesão"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",

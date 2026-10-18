@@ -12,7 +12,7 @@
     "requisitos": "Língua Afiada",
     "acesso": [
       "Espadachim",
-      "Bardo"
+      "Trovador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,7 +35,7 @@
       "automatica": false,
       "acesso": [
         "Espadachim",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

@@ -12,7 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Senescal",
-      "Bardo"
+      "Trovador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,7 +35,7 @@
       "automatica": false,
       "acesso": [
         "Senescal",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

@@ -11,7 +11,6 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5",
     "acesso": [
-      "Bardo",
       "Menestrel"
     ],
     "tipoAcesso": "Classe",
@@ -34,7 +33,6 @@
       "slug": "poeta-itinerante",
       "automatica": false,
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",

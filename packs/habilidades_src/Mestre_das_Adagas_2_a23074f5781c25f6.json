@@ -12,7 +12,7 @@
     "requisitos": "Mestre das Adagas 1",
     "acesso": [
       "Ladino",
-      "Espadachim"
+      "Menestrel"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -35,7 +35,7 @@
       "automatica": false,
       "acesso": [
         "Ladino",
-        "Espadachim"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

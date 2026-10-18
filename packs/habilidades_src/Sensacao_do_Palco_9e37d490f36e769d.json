@@ -1,0 +1,48 @@
+{
+  "name": "Sensação do Palco",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Metaleiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 51",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você adora se exibir para uma multidão! Sempre que estiver diante de um grupo com pelo menos 10 indivíduos – seja uma plateia, seus aliados ou um bando de inimigos! – você recebe +2 em todos os seus testes relacionados à tocar instrumentos musicais (incluindo o uso de Músicas) e Determinação +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Metaleiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sensacao-do-palco",
+      "automatica": true,
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "9e37d490f36e769d",
+  "_key": "!items!9e37d490f36e769d"
+}

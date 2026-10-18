@@ -1,0 +1,48 @@
+{
+  "name": "Imitação Zureta",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 30,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5, Papagaio",
+    "acesso": [
+      "Sátiro"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Canção do Bardo, pág. 59",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Ao invés de utilizar apenas sua língua afiada para insultar uma criatura, você faz uma imitação debochada de sua voz, sotaque, gestos, etc, para que os aliados desta também parem para rir dela. Faça um confronto de Vontade contra todas as criaturas inimigas, tendo uma delas como alvo de sua imitação. Se você tiver um resultado igual ou maior do que o alvo ele ataca você em detrimento de qualquer outro alvo, e é considerado Desprevenido para todos os seus aliados – mas não para você. Além disso, quaisquer aliados do alvo que não obtiverem um resultado maior do que o seu começarão a rir, ficando Distraídos enquanto você mantiver a imitação como uma ação padrão. Você pode parar a imitação a qualquer momento, mas ela é interrompida imediatamente se você for Derrubado, ficar Atordoado, Enregelado, Distraído ou Paralisado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Especial: Você não pode utilizar Língua Afiada na mesma rodada em que esta habilidade.<br><br>Requer Nível 5, Papagaio. Caminho Sátiro.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "imitacao-zureta",
+      "automatica": false,
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "9a86ae74ecca07c4",
+  "_key": "!items!9a86ae74ecca07c4"
+}

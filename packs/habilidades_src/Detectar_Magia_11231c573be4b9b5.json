@@ -11,12 +11,11 @@
     "dificuldadeTexto": "8",
     "requisitos": "",
     "acesso": [
-      "Dracomante",
       "Druida",
       "Feiticeiro",
       "Rúnico",
       "Sacerdote",
-      "Xamã",
+      "Dracomante",
       "Necromante"
     ],
     "tipoAcesso": "Classe",
@@ -39,12 +38,11 @@
       "slug": "detectar-magia",
       "automatica": false,
       "acesso": [
-        "Dracomante",
         "Druida",
         "Feiticeiro",
         "Rúnico",
         "Sacerdote",
-        "Xamã",
+        "Dracomante",
         "Necromante"
       ],
       "tipoAcesso": "Classe",

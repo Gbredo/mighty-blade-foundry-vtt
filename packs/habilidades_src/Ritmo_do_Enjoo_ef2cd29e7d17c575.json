@@ -11,10 +11,9 @@
     "dificuldadeTexto": "Confronto de Vontade",
     "requisitos": "",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Músicas"
     ],
-    "tipoAcesso": "Classe",
+    "tipoAcesso": "Lista",
     "nivel": "Nv1",
     "fonteLivro": "Canção do Bardo, pág. 71",
     "exclusivoCom": [],
@@ -34,10 +33,9 @@
       "slug": "ritmo-do-enjoo",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "aliases": [],
       "opcoes": [],

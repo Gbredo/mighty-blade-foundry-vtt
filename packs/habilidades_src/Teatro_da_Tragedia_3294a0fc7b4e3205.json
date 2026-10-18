@@ -1,0 +1,48 @@
+{
+  "name": "Teatro da Tragédia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "caracteristica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Gótico"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Automática",
+    "fonteLivro": "Canção do Bardo, pág. 47",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você compreende que muitas das decisões tomadas por um indivíduo vêm de seus impulsos mais instintivos, tanto quanto de suas angústias e inseguranças, e é capaz de se conectar com os outros através desses mecanismos – enquanto se tornou algo narcotizado a eles. Você tem Determinação +2 e recebe +2 em todos os seus testes sociais – ou +1d6 se o alvo estiver Amedrontado ou Distraído.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Gótico.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "teatro-da-tragedia",
+      "automatica": true,
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "3294a0fc7b4e3205",
+  "_key": "!items!3294a0fc7b4e3205"
+}

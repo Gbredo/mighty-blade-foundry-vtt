@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Mestre das Notas",
     "acesso": [
-      "Bardo",
-      "Menestrel"
+      "Metaleiro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +33,7 @@
       "slug": "solo",
       "automatica": false,
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

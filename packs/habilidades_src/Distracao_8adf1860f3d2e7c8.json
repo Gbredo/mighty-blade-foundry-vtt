@@ -12,9 +12,8 @@
     "requisitos": "Eloquente",
     "acesso": [
       "Bardo",
-      "Ladino",
-      "Menestrel",
-      "Senescal"
+      "Senescal",
+      "Charlatão"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -37,9 +36,8 @@
       "automatica": false,
       "acesso": [
         "Bardo",
-        "Ladino",
-        "Menestrel",
-        "Senescal"
+        "Senescal",
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

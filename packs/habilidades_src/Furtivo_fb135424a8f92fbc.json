@@ -11,10 +11,11 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Fronteiras Rochosas",
-      "Cesto de Adagas",
+      "Bardo",
       "Ladino",
-      "Patrulheiro"
+      "Patrulheiro",
+      "Guarda das Fronteiras Rochosas",
+      "Cesto de Adagas"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -36,10 +37,11 @@
       "slug": "furtivo",
       "automatica": false,
       "acesso": [
-        "Fronteiras Rochosas",
-        "Cesto de Adagas",
+        "Bardo",
         "Ladino",
-        "Patrulheiro"
+        "Patrulheiro",
+        "Guarda das Fronteiras Rochosas",
+        "Cesto de Adagas"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

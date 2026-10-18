@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Fronteiras Rochosas"
+      "Guarda das Fronteiras Rochosas"
     ],
     "tipoAcesso": "Organização",
     "nivel": "Nv1",
@@ -33,7 +33,7 @@
       "slug": "cacador-das-cordilheiras",
       "automatica": false,
       "acesso": [
-        "Fronteiras Rochosas"
+        "Guarda das Fronteiras Rochosas"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",

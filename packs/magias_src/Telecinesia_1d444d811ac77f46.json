@@ -13,8 +13,7 @@
     "nivel": "Nv1",
     "requisitos": "",
     "acesso": [
-      "Feiticeiro",
-      "Rúnico"
+      "Feiticeiro"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 99; Rúnico, pág. 95",
@@ -28,8 +27,7 @@
       "slug": "telecinesia",
       "tipo": "Ação",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

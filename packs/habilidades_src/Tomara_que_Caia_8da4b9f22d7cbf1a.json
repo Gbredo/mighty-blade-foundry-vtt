@@ -1,0 +1,48 @@
+{
+  "name": "Tomara que Caia",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "acao",
+    "categoria": "tecnica",
+    "custo": 20,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Cortesão"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 41",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você faz uma dança sedutora para atrair os olhos de todos! Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste soltam suas armas e ficam Desprevenidos enquanto verem você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano, e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Especial: O custo em Mana desta ação só é gasto quando você realizar seu teste de Dança, e dura enquanto você puder se manter dançando – o que consome uma ação de movimento.<br><br>Caminho Cortesão.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tomara-que-caia",
+      "automatica": false,
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "8da4b9f22d7cbf1a",
+  "_key": "!items!8da4b9f22d7cbf1a"
+}

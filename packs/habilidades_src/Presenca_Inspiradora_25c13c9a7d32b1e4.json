@@ -11,8 +11,9 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Bardo",
       "Senescal",
-      "Bardo"
+      "Trovador"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +35,9 @@
       "slug": "presenca-inspiradora",
       "automatica": false,
       "acesso": [
+        "Bardo",
         "Senescal",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

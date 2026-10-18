@@ -11,8 +11,9 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Grito de Guerra 1",
     "acesso": [
+      "Bardo",
       "Guerreiro",
-      "Bardo"
+      "Menestrel"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -34,8 +35,9 @@
       "slug": "grito-de-intimidacao",
       "automatica": false,
       "acesso": [
+        "Bardo",
         "Guerreiro",
-        "Bardo"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

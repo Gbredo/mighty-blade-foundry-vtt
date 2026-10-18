@@ -12,11 +12,9 @@
     "requisitos": "Nível 5",
     "acesso": [
       "Bardo",
-      "Guerreiro",
-      "Paladino",
+      "Skald",
       "Espadachim",
-      "Ladino",
-      "Rúnico"
+      "Paladino"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
@@ -39,11 +37,9 @@
       "automatica": false,
       "acesso": [
         "Bardo",
-        "Guerreiro",
-        "Paladino",
+        "Skald",
         "Espadachim",
-        "Ladino",
-        "Rúnico"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",

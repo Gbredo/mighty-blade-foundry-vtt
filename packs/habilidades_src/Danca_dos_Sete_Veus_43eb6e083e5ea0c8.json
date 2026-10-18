@@ -1,0 +1,50 @@
+{
+  "name": "Dança dos Sete Véus",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "",
+    "acesso": [
+      "Cortesão",
+      "Dançarino"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv1",
+    "fonteLivro": "Canção do Bardo, pág. 40",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você dança em um ritmo sensual e encantador. Enquanto estiver dançando, você pode escolher 1 criatura viva que esteja a uma distância em metros igual a sua Determinação e que esteja vendo você dançar. Você pode realizar uma tentativa de sedução contra aquela criatura. Se a criatura ficar amigável em relação a você, ela estará Desprevenida em relação a todas as outras criaturas, mas não com relação à você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Caminho Cortesão, Dançarino.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "danca-dos-sete-veus",
+      "automatica": false,
+      "acesso": [
+        "Cortesão",
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": []
+    }
+  },
+  "_id": "43eb6e083e5ea0c8",
+  "_key": "!items!43eb6e083e5ea0c8"
+}

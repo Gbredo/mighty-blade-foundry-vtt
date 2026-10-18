@@ -11,11 +11,10 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Xamã",
       "Amoque",
       "Aesir",
-      "Centauro",
-      "Xamã",
-      "Druida"
+      "Centauro"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -37,11 +36,10 @@
       "slug": "bravura-selvagem-1",
       "automatica": false,
       "acesso": [
+        "Xamã",
         "Amoque",
         "Aesir",
-        "Centauro",
-        "Xamã",
-        "Druida"
+        "Centauro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

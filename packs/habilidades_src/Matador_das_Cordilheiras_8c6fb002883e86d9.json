@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Caçador das Cordilheiras",
     "acesso": [
-      "Fronteiras Rochosas"
+      "Guarda das Fronteiras Rochosas"
     ],
     "tipoAcesso": "Organização",
     "nivel": "Nv2",
@@ -33,7 +33,7 @@
       "slug": "matador-das-cordilheiras",
       "automatica": false,
       "acesso": [
-        "Fronteiras Rochosas"
+        "Guarda das Fronteiras Rochosas"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv2",

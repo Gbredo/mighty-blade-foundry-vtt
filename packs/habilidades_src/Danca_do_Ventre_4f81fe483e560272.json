@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Dança dos Sete Véus",
     "acesso": [
-      "Dançarino Exótico"
+      "Dançarino"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
@@ -33,7 +33,7 @@
       "slug": "danca-do-ventre",
       "automatica": false,
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",

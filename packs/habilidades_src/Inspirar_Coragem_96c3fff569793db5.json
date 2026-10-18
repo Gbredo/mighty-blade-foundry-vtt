@@ -11,8 +11,8 @@
     "dificuldadeTexto": "",
     "requisitos": "Presença Inspiradora",
     "acesso": [
-      "Senescal",
-      "Bardo"
+      "Trovador",
+      "Senescal"
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv1",
@@ -34,8 +34,8 @@
       "slug": "inspirar-coragem",
       "automatica": false,
       "acesso": [
-        "Senescal",
-        "Bardo"
+        "Trovador",
+        "Senescal"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

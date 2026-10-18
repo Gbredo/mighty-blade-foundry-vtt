@@ -11,6 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
+      "Patrulheiro",
       "Arqueiro"
     ],
     "tipoAcesso": "Caminho",
@@ -33,6 +34,7 @@
       "slug": "arqueria",
       "automatica": false,
       "acesso": [
+        "Patrulheiro",
         "Arqueiro"
       ],
       "tipoAcesso": "Caminho",

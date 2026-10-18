@@ -13,8 +13,7 @@
     "nivel": "Nv1",
     "requisitos": "Telecinésia",
     "acesso": [
-      "Feiticeiro",
-      "Rúnico"
+      "Feiticeiro"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 98",
@@ -28,8 +27,7 @@
       "slug": "levitar",
       "tipo": "Ação",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

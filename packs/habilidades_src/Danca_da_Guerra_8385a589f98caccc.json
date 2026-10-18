@@ -11,7 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Nível 5, Dança das Espadas 1",
     "acesso": [
-      "Dançarino Exótico"
+      "Dançarino"
     ],
     "tipoAcesso": "Caminho",
     "nivel": "Nv2",
@@ -33,7 +33,7 @@
       "slug": "danca-da-guerra",
       "automatica": false,
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
