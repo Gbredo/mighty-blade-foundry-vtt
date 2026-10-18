@@ -1,0 +1,28 @@
+{
+  "_id": "5e50c1d7d6404983",
+  "name": "Diário: Trovador",
+  "pages": [
+    {
+      "_id": "d75b49d60e055c2f",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Trovador\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os trovadores são aqueles músicos interessados menos na virtuosidade e mais na emoção que suas canções podem transmitir. Eles praticam a música pela música, com uma leveza e descontração em suas canções, encantando aqueles mais simples e – se mais nada – entretendo os mais requintados. Praticando formas simples de cantar e tocar instrumentos, eles costumam ser fonte de conforto e simplicidade para aqueles que os rodeiam.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Eloquente, Vontade 5</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!5e50c1d7d6404983.d75b49d60e055c2f"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "trovador",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!5e50c1d7d6404983"
+}

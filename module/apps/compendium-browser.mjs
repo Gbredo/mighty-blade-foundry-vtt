@@ -276,7 +276,7 @@ export function obterSubAbasCompendio(actor, filterType = "habilidade", allCandi
       }
     }
 
-    const classeIds = rawLista.filter((id) => !autoIds.has(slugify(id)));
+    const classeIds = [...rawLista];
     const classeItems = classeIds.map((id) => {
       const found = findItem(id);
       if (found) return found;

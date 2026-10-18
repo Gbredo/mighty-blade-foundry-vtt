@@ -1,0 +1,28 @@
+{
+  "_id": "48bff373d4510b97",
+  "name": "Diário: Skald",
+  "pages": [
+    {
+      "_id": "7877c478b1533678",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Skald\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Skalds são poetas-guerreiros entre os povos do norte de Cassiopéia, responsáveis por passar adiante as tradições orais de seu povo e também oferecer inspiração no campo de batalha. Essa inspiração pode vir de suas melodias e gritos de guerra, mas também de seus feitos em combate. Como se postam na frente de combate, Skalds geralmente preferem o uso de Gritos e Canções ao invés de Músicas que exijam instrumentos musicais, embora muitos deles utilizem berrantes e chifres em combate, aumentando o alcance de seus gritos de guerra enquanto portam armas. Embora sejam famosos por seu papel em combate, inspirando aliados e amedrontando inimigos, os Skalds também possuem um papel importante fora dos campos de batalha. Eles são versados em várias canções, poemas e contos populares entre seus povos, e em comunidades mais afastadas e com poucos recursos, são uma fonte de conhecimento essencial para a manutenção da cultura. Graças a isso, muitos deles gozam de status elevados dentro de suas comunidades, e muitos deles ocupam posições de importância, como conselheiros e historiadores. Além disso, eles são, obviamente, requisitados como contadores de histórias, músicos e oradores, mantendo plateias entretidas ao redor das fogueiras.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Grito de Guerra 1, Força 5</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!48bff373d4510b97.7877c478b1533678"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "skald",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!48bff373d4510b97"
+}

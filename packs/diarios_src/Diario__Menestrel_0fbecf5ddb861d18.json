@@ -1,0 +1,42 @@
+{
+  "_id": "0fbecf5ddb861d18",
+  "name": "Diário: Menestrel",
+  "pages": [
+    {
+      "_id": "e3214196693b7d71",
+      "name": "História e Papel no Mundo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/bardo2.png\" alt=\"Menestrel\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>História e Papel no Mundo</h2><p>Menestréis são atores mambembes que viajam pelos reinos espalhando suas histórias de aventuras assim como realizando malabarismos e acrobacias para entreter o público. Diferente dos Bardos, os Menestréis geralmente não participam de eventos para nobres, realizando seus espetáculos para os plebeus – interagindo, fazendo piadas e pregando peças no público. Muitos Menestréis viajam sozinhos, alguns em bolantas modificadas para incluir um pequeno palco, outros trocando hospedagem em pousadas e tavernas por seu trabalho. No entanto, grupos de Menestréis itinerantes que se apresentam em conjunto, às vezes como uma espécie de pequena orquestra, outras vezes como saltimbancos – às vezes ambas as coisas – são encontros bastante comuns ao longo de Drakon.</p><p>A maioria dos vilarejos, cidades e metrópoles vibra com a chegada de companhias de menestréis e trovadores ambulantes, sabendo que eles trarão, além de entretenimento, notícias de outras áreas do reino.</p><p>Grupos de aventureiros, de forma semelhante, apreciam a presença de Menestréis não apenas pelos benefícios que eles trazem a moral do grupo e pelos efeitos que eles são capazes de produzir em combate, mas também porque eles são a melhor fonte de notícias – e possíveis novas aventuras! – que um grupo pode esperar.</p><p><strong>Raças Mais Frequentes:</strong> Fauno, Tailox, Humano e Elfo</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!0fbecf5ddb861d18.e3214196693b7d71"
+    },
+    {
+      "_id": "b3e1a2358d5c3ae9",
+      "name": "Arsenal & Habilidades",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Arsenal da Classe (32 Habilidades)</h2><p>Esta classe tem acesso às seguintes habilidades oficiais de treinamento:</p><ul><li><strong>acrobata</strong></li><li><strong>aparar</strong></li><li><strong>ataque-redirecionado</strong></li><li><strong>clamar-por-socorro</strong></li><li><strong>contos-da-estrada</strong></li><li><strong>eloquente</strong></li><li><strong>evasao</strong></li><li><strong>falsete</strong></li><li><strong>fantasma-da-opera</strong></li><li><strong>flexivel</strong></li><li><strong>grito-de-guerra-1</strong></li><li><strong>grito-de-guerra-2</strong></li><li><strong>grito-de-intimidacao</strong></li><li><strong>grito-ensurdecedor</strong></li><li><strong>grito-estilhacador</strong></li><li><strong>jogral</strong></li><li><strong>lingua-afiada</strong></li><li><strong>malabares</strong></li><li><strong>malabarista</strong></li><li><strong>mestre-das-adagas-1</strong></li><li><strong>mestre-das-adagas-2</strong></li><li><strong>mestre-das-adagas-3</strong></li><li><strong>mimicar</strong></li><li><strong>orquestra-de-um-homem-so</strong></li><li><strong>pantomima</strong></li><li><strong>poeta-itinerante</strong></li><li><strong>so-para-seus-ouvidos</strong></li><li><strong>tocar-de-ouvido</strong></li><li><strong>trapaceiro-impecavel</strong></li><li><strong>truque-sujo</strong></li><li><strong>ventriloquismo</strong></li><li><strong>voz-de-peito</strong></li></ul>",
+        "format": 1
+      },
+      "_key": "!journal.pages!0fbecf5ddb861d18.b3e1a2358d5c3ae9"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/bardo2.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "menestrel",
+      "tipo": "classe"
+    }
+  },
+  "_key": "!journal!0fbecf5ddb861d18"
+}

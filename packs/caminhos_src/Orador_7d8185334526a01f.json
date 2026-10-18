@@ -1,0 +1,31 @@
+{
+  "name": "Orador",
+  "type": "caminho",
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "system": {
+    "requisitos": "Conhecer ao menos uma Melodia, Dogma",
+    "habilidadeAutomatica": "Sermão",
+    "racasComuns": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Os seguidores deste caminho têm o dom da palavra e da música para transmitir os ensinamentos divinos e inspirar os corações daqueles que os ouvem. Com vozes melodiosas e melodias encantadoras, os Oradores entoam cânticos sagrados e recitam os dogmas, invocando a presença e a bênção dos deuses. Oradores combinam a habilidade vocal, domínio musical e profundo conhecimento dos dogmas religiosos. Eles estudam os textos sagrados, aprendem os rituais e se dedicam a aprimorar sua voz e técnica musical. Através de suas melodias, os Oradores tocam as emoções mais profundas das pessoas, despertando a fé, a esperança e a conexão com o divino. Em cerimônias e rituais sagrados, os Oradores desempenham um papel central, conduzindo as orações e entoando cânticos em honra aos deuses. Suas vozes ressoam nos templos e santuários, enchendo o ambiente com uma aura de reverência e sacralidade. Através da sua arte, os Oradores inspiram e fortalecem a fé, transmitindo os valores e princípios que regem a vida.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.b7ee65307d0f9ec2\" data-slug=\"orador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Conhecer ao menos uma Melodia, Dogma</div></div>",
+    "listaHabilidades": [
+      "alegrar-palcos",
+      "bater-de-palmas",
+      "entusiasmar-fieis",
+      "incognita-do-destino",
+      "melodia-evangelizadora",
+      "orientacao-mistica",
+      "pregar-a-palavra",
+      "pregacao-da-fe",
+      "sermao",
+      "solicitar-doacoes"
+    ]
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "orador",
+      "diarioId": "b7ee65307d0f9ec2"
+    }
+  },
+  "_id": "7d8185334526a01f",
+  "_key": "!items!7d8185334526a01f"
+}

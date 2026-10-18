@@ -1,0 +1,28 @@
+{
+  "_id": "97c1df0d62df41d7",
+  "name": "Diário: Cortesão",
+  "pages": [
+    {
+      "_id": "3b68f609ac61bd04",
+      "name": "Tradição e Práticas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/caminho.png\" alt=\"Cortesão\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Os Cortesãos são especialistas na arte da sedução e da enganação. São capazes de atrair seus alvos com falas e gestos sedutores, para no fim chegar nos seus propósitos, sendo o mais comum deles aproveitar-se de seu alvo. Cortesãos são treinados muitas vezes por outros cortesãos mais experiente, fazendo com que seus ensinamentos sempre sejam passados adiantes. Normalmente um cortesão mestre acolhe pelo menos até 5 alunos novos para instruir no ramo, ainda assim é extremamente raro encontrar um cortesão que praticou sozinho, já que muitas vezes os cortesãos são treinados em tavernas ou em bordéis. Apesar de serem pouco percebidos em Cassiopéia, os cortesãos têm seu ramo dentro de cidades e metrópoles, não só para atrair seus alvos para mata-lôs, mas também para servirem de espiões dentro de reinos vizinhos. Boa parte dos cortesãos são normalmente Menestréis, mas é possível avistar alguns Bardos e Ladinos seguindo este ramo, já que é uma das formas mais comuns e rápidas de conseguir dinheiro. Alguns cortesãos trabalham normalmente para organizações criminosas como Cesto das Adagas ou até mesmo os Capuzes Vermelhos para conseguir um dinheiro rápido, em raros casos é possível ver cortesãos trabalhando em conjunto com a Ordem da Espada de Mirah, ou com a Hoste de Hadorn, ajudando a divertir seus soldados ou realizando algumas missões de espionagem em Arkania, mas também é possível encontrá-los nas cortes trabalhando contra e a favor dos nobres.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Eloquente, Vontade 5</p>",
+        "format": 1
+      },
+      "_key": "!journal.pages!97c1df0d62df41d7.3b68f609ac61bd04"
+    }
+  ],
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "flags": {
+    "mighty-blade": {
+      "slug": "cortesao",
+      "tipo": "caminho"
+    }
+  },
+  "_key": "!journal!97c1df0d62df41d7"
+}

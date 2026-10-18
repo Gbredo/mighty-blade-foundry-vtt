@@ -8,7 +8,7 @@ import {
 import { CANONICAL_CLASSES } from "../module/data/canonical-packs-data.mjs";
 
 describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade com Seletor do Site)", () => {
-  test("Para um Gnoll Necromante nível 1: sub-aba Necromante tem exatamente os ids de CLASSES.necromante.listaHabilidades (menos automáticas), sub-aba Gnoll não tem Asas Ancestrais, e Marca da Justiça não aparece em nenhuma sub-aba", async () => {
+  test("Para um Gnoll Necromante nível 1: sub-aba Necromante tem exatamente os 32 ids de CLASSES.necromante.listaHabilidades, sub-aba Gnoll não tem Asas Ancestrais, e Marca da Justiça não aparece em nenhuma sub-aba", async () => {
     const gnollNecromante = createMockActor({
       name: "Gorguk",
       details: {
@@ -41,23 +41,18 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
     const canonicalNec = CANONICAL_CLASSES.find((c) => c.name === "Necromante");
     assert.ok(canonicalNec, "Classe canônica Necromante deve existir em CANONICAL_CLASSES");
 
-    const autoConcessoes = (canonicalNec.system?.concessoes || [])
-      .filter((c) => c.tipo === "habilidade" && c.ref)
-      .map((c) => c.ref);
-    const expectedNecIds = (canonicalNec.system?.listaHabilidades || []).filter(
-      (id) => !autoConcessoes.includes(id)
-    );
+    const expectedNecIds = canonicalNec.system?.listaHabilidades || [];
 
     assert.equal(
       subNecromante.ids.length,
-      expectedNecIds.length,
-      `Sub-aba Necromante deve ter ${expectedNecIds.length} habilidades (34 total - 1 automática)`
+      32,
+      "Sub-aba Necromante deve ter exatamente 32 habilidades canônicas (paridade com o cofre/site)"
     );
 
     assert.deepEqual(
       [...subNecromante.ids].sort(),
       [...expectedNecIds].sort(),
-      "Sub-aba Necromante deve conter exatamente os ids de CLASSES.necromante.listaHabilidades (menos as automáticas)"
+      "Sub-aba Necromante deve conter exatamente os ids de CLASSES.necromante.listaHabilidades"
     );
 
     // 2. Sub-aba Gnoll (Raça) não tem "Asas Ancestrais"
@@ -92,6 +87,36 @@ describe("Compendium Browser — Sub-abas e Filtro 'Apenas elegíveis' (Paridade
         `"Marca da Justiça" não pode aparecer nos itens da sub-aba ${sub.label} (${sub.id})`
       );
     }
+  });
+
+  test("Paridade canônica de classes C3c-3a: sub-aba Bardo mostra exatamente 36 habilidades e sub-aba Menestrel mostra exatamente 32 habilidades", async () => {
+    const bardoActor = createMockActor({
+      name: "Elidyr",
+      details: { raca: "Humano", classe: "Bardo", nivel: 1 },
+      items: [
+        { name: "Humano", type: "raca" },
+        { name: "Bardo", type: "classe" },
+      ],
+    });
+    const subAbasBardo = obterSubAbasCompendio(bardoActor, "habilidade");
+    const subBardo = subAbasBardo.find((s) => s.id === "classe");
+    assert.ok(subBardo, "Sub-aba Bardo (classe) deve estar presente");
+    assert.equal(subBardo.ids.length, 36, "Sub-aba Bardo deve conter exatamente 36 habilidades");
+    assert.ok(subBardo.ids.includes("poesia-dos-bardos"), "Sub-aba Bardo deve conter poesia-dos-bardos");
+
+    const menestrelActor = createMockActor({
+      name: "Garrick",
+      details: { raca: "Fauno", classe: "Menestrel", nivel: 1 },
+      items: [
+        { name: "Fauno", type: "raca" },
+        { name: "Menestrel", type: "classe" },
+      ],
+    });
+    const subAbasMenestrel = obterSubAbasCompendio(menestrelActor, "habilidade");
+    const subMenestrel = subAbasMenestrel.find((s) => s.id === "classe");
+    assert.ok(subMenestrel, "Sub-aba Menestrel (classe) deve estar presente");
+    assert.equal(subMenestrel.ids.length, 32, "Sub-aba Menestrel deve conter exatamente 32 habilidades");
+    assert.ok(subMenestrel.ids.includes("jogral"), "Sub-aba Menestrel deve conter jogral");
   });
 
   test("Checkbox 'Apenas elegíveis' ligado por padrão esconde itens com pré-requisitos pendentes", async () => {

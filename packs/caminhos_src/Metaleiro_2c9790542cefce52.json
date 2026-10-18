@@ -1,0 +1,32 @@
+{
+  "name": "Metaleiro",
+  "type": "caminho",
+  "img": "systems/mighty-blade/assets/forja/caminho.png",
+  "system": {
+    "requisitos": "Grito de Guerra 1, Força 5",
+    "habilidadeAutomatica": "Sensação do Palco",
+    "racasComuns": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Metaleiro são músicos especializados em performances agressivas e barulhentas. Eles recebem seu nome devido ao fato de darem preferência à armaduras de metal em suas apresentações, utilizando as vibrações das placas das armaduras para reverberar e distorcer as notas de suas músicas furiosas. Eles dominam a arte da música agressiva, canalizando emoções poderosas e expressando a fúria e a rebeldia através de suas composições. Em suas performances, eles não apenas entretêm, mas também inspiram a coragem e a força para enfrentar os desafios de cabeça erguida, sem nunca se deixar derrotar. Metaleiros possuem uma cultura particular, inspirada pelas chamadas Lendas do Metal: músicos virtuosos que romperam com os padrões tradicionais e canalizam atitude em performances arrebatadoras. O legado das Lendas do Metal vive através de cada Metaleiro que se esmera em aperfeiçoar cada vez mais suas músicas, impressionando plateias através de suas vozes poderosas e solos alucinantes. As notas distorcidas de suas músicas também ecoam pelos campos de batalha – o palco mais almejado pelos Metaleiros, onde sua música é realmente colocada à prova – inflamando o espírito dos valentes e aterrorizando seus inimigos, onde o som de seus instrumentos e de seus gritos de guerra retumbam nos ouvidos como trovões desabando! Música é tudo para um Metaleiro, e quanto mais barulhenta ela for, melhor!</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.7e3acd3d4f4dfc9f\" data-slug=\"metaleiro\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Grito de Guerra 1, Força 5</div></div>",
+    "listaHabilidades": [
+      "amplificadores",
+      "deslizar-pelo-palco",
+      "focar-nos-refroes",
+      "guerreiro-de-aco-1",
+      "guerreiro-de-aco-2",
+      "hino-de-guerra",
+      "mestre-das-notas",
+      "reforcar-os-graves",
+      "sensacao-do-palco",
+      "solo",
+      "virtuoso"
+    ]
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "metaleiro",
+      "diarioId": "7e3acd3d4f4dfc9f"
+    }
+  },
+  "_id": "2c9790542cefce52",
+  "_key": "!items!2c9790542cefce52"
+}

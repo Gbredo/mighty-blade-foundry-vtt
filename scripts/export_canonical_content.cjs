@@ -83,6 +83,7 @@ const CLASSES_FORJA_MAP = {
   sacerdote: "sacerdote2.png",
   senescal: "senescal.png",
   xama: "xama1.png",
+  menestrel: "bardo2.png",
   ilusionista: "ilusionista.png",
   artifice: "artifice.png",
 };

@@ -376,7 +376,7 @@ test("Subtítulo 14: Validação de Entrada em Caminhos de Prestígio (Classes A
     assert.ok(caminhoDoc, "Sanguíneo deve existir no compêndio");
     assert.match(caminhoDoc.system.requisitos, /vontade\s+5/i);
     assert.match(caminhoDoc.system.requisitos, /conhecimento\s+arcano/i);
-    assert.match(caminhoDoc.system.requisitos, /ficar por um fio.*sangramento/i);
+    assert.match(caminhoDoc.system.requisitos, /(ficar|ficado)\s+por\s+um\s+fio.*sangramento/i);
 
     await t5.test("14.5.1 - Sucesso com VON 5, Conhecimento Arcano e flag sangramentoPorUmFio", () => {
       const ator = createMockActor({

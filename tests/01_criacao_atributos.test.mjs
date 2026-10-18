@@ -147,7 +147,7 @@ test("Bloco 1: Criação de Personagem — Atributos e Distribuição Básica", 
   await t.test("Sub-módulo 1.2: Validação das 14 Classes (+1 em Dois Atributos Distintos)", async (st) => {
     // 1.2.1 Bônus da Classe: +1 em dois atributos diferentes para todas as 14 classes
     await st.test("1.2.1 Bônus da Classe: Cada uma das 14 classes injeta exatamente +1 em dois atributos diferentes", () => {
-      assert.equal(CANONICAL_CLASSES.length, 14, "Devem existir exatamente 14 classes canônicas");
+      assert.equal(CANONICAL_CLASSES.length, 15, "Devem existir exatamente 15 classes canônicas (14 base + Menestrel)");
 
       for (const classe of CANONICAL_CLASSES) {
         const bonus = classe.system?.atributos;

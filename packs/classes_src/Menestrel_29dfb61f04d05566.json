@@ -1,0 +1,67 @@
+{
+  "name": "Menestrel",
+  "type": "classe",
+  "img": "systems/mighty-blade/assets/forja/bardo2.png",
+  "system": {
+    "atributos": {
+      "forca": 0,
+      "agilidade": 1,
+      "inteligencia": 0,
+      "vontade": 1
+    },
+    "habilidadeUuid": "",
+    "concessoes": [
+      {
+        "tipo": "habilidade",
+        "ref": "jogral"
+      }
+    ],
+    "vida": 60,
+    "mana": 60,
+    "equipamentoInicial": "",
+    "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Menestréis são atores mambembes que viajam pelos reinos espalhando suas histórias de aventuras assim como realizando malabarismos e acrobacias para entreter o público. Diferente dos Bardos, os Menestréis geralmente não participam de eventos para nobres, realizando seus espetáculos para os plebeus – interagindo, fazendo piadas e pregando peças no público. Muitos Menestréis viajam sozinhos, alguns em bolantas modificadas para incluir um pequeno palco, outros trocando hospedagem em pousadas e tavernas por seu trabalho. No entanto, grupos de Menestréis itinerantes que se apresentam em conjunto, às vezes como uma espécie de pequena orquestra, outras vezes como saltimbancos – às vezes ambas as coisas – são encontros bastante comuns ao longo de Drakon.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> História e Tradição da Classe</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.0fbecf5ddb861d18\" data-slug=\"menestrel\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Raças Comuns:</strong> Fauno, Tailox, Humano e Elfo</div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Arsenal (32 Habilidades):</strong> acrobata, aparar, ataque-redirecionado, clamar-por-socorro, contos-da-estrada, eloquente, evasao, falsete...</div></div>",
+    "listaHabilidades": [
+      "acrobata",
+      "aparar",
+      "ataque-redirecionado",
+      "clamar-por-socorro",
+      "contos-da-estrada",
+      "eloquente",
+      "evasao",
+      "falsete",
+      "fantasma-da-opera",
+      "flexivel",
+      "grito-de-guerra-1",
+      "grito-de-guerra-2",
+      "grito-de-intimidacao",
+      "grito-ensurdecedor",
+      "grito-estilhacador",
+      "jogral",
+      "lingua-afiada",
+      "malabares",
+      "malabarista",
+      "mestre-das-adagas-1",
+      "mestre-das-adagas-2",
+      "mestre-das-adagas-3",
+      "mimicar",
+      "orquestra-de-um-homem-so",
+      "pantomima",
+      "poeta-itinerante",
+      "so-para-seus-ouvidos",
+      "tocar-de-ouvido",
+      "trapaceiro-impecavel",
+      "truque-sujo",
+      "ventriloquismo",
+      "voz-de-peito"
+    ]
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "menestrel",
+      "diarioId": "0fbecf5ddb861d18",
+      "conjurador": false
+    }
+  },
+  "_id": "29dfb61f04d05566",
+  "_key": "!items!29dfb61f04d05566"
+}
