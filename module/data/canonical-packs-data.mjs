@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1194 | Diários: 68
+ * Total de itens: 1264 | Diários: 68
  */
 
 export const CANONICAL_RACAS = [
@@ -3711,7 +3711,9 @@ export const CANONICAL_ORGANIZACOES = [
       "lideranca": "Lars Finnigan (Humano Ladino 8)",
       "ingresso": "Indicação por um membro e aprovação de outros dois.",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Poderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.276f5d555b77d9e3\" data-slug=\"irmandade-do-anel-de-bronze\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Mercante</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Altéria</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Lars Finnigan (Humano Ladino 8)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Indicação por um membro e aprovação de outros dois.</div></div>",
-      "listaHabilidades": []
+      "listaHabilidades": [
+        "conhecimento-regional-tebryn"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3805,7 +3807,11 @@ export const CANONICAL_ORGANIZACOES = [
       "lideranca": "Não identificado",
       "ingresso": "Não mencionado",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Apesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.2845c3fb7e77d4f3\" data-slug=\"o-arpao\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Naval</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Lonjágua</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Não identificado</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Não mencionado</div></div>",
-      "listaHabilidades": []
+      "listaHabilidades": [
+        "durao",
+        "intimidar",
+        "pernas-do-mar"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -3976,7 +3982,10 @@ export const CANONICAL_ORGANIZACOES = [
       "lideranca": "Ingvi Steinfinga (Anã Guerreira 10)",
       "ingresso": "Treinamento, seguido de alistamento",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">A Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Crônicas e Estatuto Oficial</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.3e384d6d238e49c8\" data-slug=\"guarda-das-fronteiras-rochosas\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#94a3b8;\"><strong>Tipo:</strong> Militar</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Sede:</strong> Stord</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Liderança:</strong> Ingvi Steinfinga (Anã Guerreira 10)</div><div style=\"margin-top:4px; font-size:0.85rem; color:#94a3b8;\"><strong>Ingresso:</strong> Treinamento, seguido de alistamento</div></div>",
-      "listaHabilidades": []
+      "listaHabilidades": [
+        "cacador-das-cordilheiras",
+        "matador-das-cordilheiras"
+      ]
     },
     "flags": {
       "mighty-blade": {
@@ -4203,6 +4212,7 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Espadachim",
         "Ladino",
+        "Menestrel",
         "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
@@ -4227,6 +4237,7 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Espadachim",
           "Ladino",
+          "Menestrel",
           "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
@@ -4543,6 +4554,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!a1c2dbfde7ae416a"
   },
   {
+    "name": "Alegrar Palcos",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Entusiasmar Fiéis",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 55",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando você começa a tocar, multidões se unem só para lhe escutar, se empolgando cada vez que você toca uma nota. Enquanto estiver mantendo uma Musica do tipo Melodia, todos recebem Determinação +2 e recebem +1d6 para evitar ser derrubado, evitar ser agarrado e apertado, e para a tentativas de desarmá-lo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Entusiasmar Fiéis. Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "alegrar-palcos",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "8728457727d96c97",
+    "_key": "!items!8728457727d96c97"
+  },
+  {
     "name": "Alquimia Avançada",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -4843,6 +4902,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!fd0c29bae76b0c71"
   },
   {
+    "name": "Amplificadores",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Guerreiro de Aço 1",
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 52",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>As placas de sua armadura amplificam os sons das suas Músicas! Enquanto estiver utilizando uma Armadura com a Característica Pesada, todas as dificuldades para resistir à efeitos de seus Gritos e Músicas são aumentadas em +2. Além disso, todos os seus Gritos, Músicas e Rugidos que causam dano passam a causar uma quantidade extra de dano igual à Defesa + Redução de Dano de sua armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Guerreiro de Aço 1. Caminho Metaleiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "amplificadores",
+        "automatica": false,
+        "acesso": [
+          "Metaleiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4f6efdb945377695",
+    "_key": "!items!4f6efdb945377695"
+  },
+  {
     "name": "Analisar Magia",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -5068,12 +5175,9 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Bardo",
-        "Guerreiro",
-        "Ladino",
         "Espadachim",
-        "Menestrel",
-        "Paladino",
-        "Patrulheiro"
+        "Ladino",
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -5096,12 +5200,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Guerreiro",
-          "Ladino",
           "Espadachim",
-          "Menestrel",
-          "Paladino",
-          "Patrulheiro"
+          "Ladino",
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -5161,6 +5262,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "5fcb97e809f47d89",
     "_key": "!items!5fcb97e809f47d89"
+  },
+  {
+    "name": "Apontar Culpado",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 15,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 37",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você possui um talento natural para apontar culpados – verdadeiros ou não. Quando uma criatura a uma quantidade de metros de você igual à sua Determinação for alvo de um ataque, Magia, Música ou efeito, faça um confronto de Vontade contra a Inteligência do alvo. Se você tiver um resultado mais alto do que o alvo, você pode apontar um culpado dentro do campo de visão dele. O alvo irá atacar a criatura apontada em detrimento de qualquer outra criatura – mesmo que seja um aliado! – até que ele ou o culpado apontado estejam Por um Fio ou que alguma outra criatura lhe cause dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O alvo é considerado Desprevenido para você e todos os seus aliados, exceto se um deles for o culpado apontado.<br><br>Este é um efeito mental.<br><br>Requer Nível 5. Caminho Charlatão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "apontar-culpado",
+        "automatica": false,
+        "acesso": [
+          "Charlatão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "7c7471a6637b7ac0",
+    "_key": "!items!7c7471a6637b7ac0"
   },
   {
     "name": "Aporte",
@@ -5223,8 +5372,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Ter abandonado um Voto",
       "acesso": [
-        "Sacerdote",
-        "Herege",
         "Geral"
       ],
       "tipoAcesso": "Classe",
@@ -5259,8 +5406,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "apostata",
         "automatica": false,
         "acesso": [
-          "Sacerdote",
-          "Herege",
           "Geral"
         ],
         "tipoAcesso": "Classe",
@@ -5374,6 +5519,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "ddc9d4bd4a725a58",
     "_key": "!items!ddc9d4bd4a725a58"
+  },
+  {
+    "name": "Apunhalar pelas Costas",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 39",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Após ser bem-sucedido em um teste de sedução, enquanto o alvo permanecer amigável em relação a você ele também é considerado Desprevenido em relação a você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, sempre que realizar um ataque em alvo específico em uma criatura Desprevenida, a defesa do alvo é aumentada em +2 ao invés de +4.<br><br>Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "apunhalar-pelas-costas",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "46c7a78d39030356",
+    "_key": "!items!46c7a78d39030356"
   },
   {
     "name": "Apunhale Primeiro, Pergunte Depois",
@@ -5933,6 +6126,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Patrulheiro",
         "Arqueiro"
       ],
       "tipoAcesso": "Caminho",
@@ -5955,6 +6149,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "arqueria",
         "automatica": false,
         "acesso": [
+          "Patrulheiro",
           "Arqueiro"
         ],
         "tipoAcesso": "Caminho",
@@ -6648,7 +6843,6 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Espadachim",
         "Ladino",
-        "Guerreiro",
         "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
@@ -6673,7 +6867,6 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Espadachim",
           "Ladino",
-          "Guerreiro",
           "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
@@ -7434,6 +7627,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!c0bb9e7c12952282"
   },
   {
+    "name": "Audição Treinada",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 22",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você possui uma audição extremamente aguçada. Você recebe +1d6 em todos seus testes para ouvir (e consegue ouvir sussurros à uma distância em metros igual à sua Determinação), e +2 em seus testes e Confrontos para resistir aos efeitos de Músicas, Gritos e Rugidos. Além disso, você é muito bom em isolar sons, e pode entender claramente uma conversa do outro lado de uma taverna cheia ou outro ambiente barulhento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Classe Bardo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "audicao-treinada",
+        "automatica": false,
+        "acesso": [
+          "Bardo"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "d38cd25729c12270",
+    "_key": "!items!d38cd25729c12270"
+  },
+  {
     "name": "Aura da Guerra",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -7790,7 +8031,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Anel",
+        "Irmandade do Anel de Bronze",
         "Humano",
         "Metadílio"
       ],
@@ -7814,7 +8055,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "barganha",
         "automatica": false,
         "acesso": [
-          "Anel",
+          "Irmandade do Anel de Bronze",
           "Humano",
           "Metadílio"
         ],
@@ -7878,6 +8119,150 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!156a4000d30a3ade"
   },
   {
+    "name": "Bater de Palmas",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Entusiasmar Fiéis",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 56",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Suas músicas são cativantes, fazendo com que todos à sua volta interajam com sua música. Enquanto estiver mantendo uma Música do tipo Melodia, você recebe +2 em seu Bloqueio e Esquiva contra alvos que estiverem lhe ouvindo. Além disso, todos os conjuradores que estiverem dentro dessa área têm as Dificuldades das suas magias aumentadas em +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Entusiasmar Fiéis. Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "bater-de-palmas",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "315c2b343603a2a2",
+    "_key": "!items!315c2b343603a2a2"
+  },
+  {
+    "name": "Beijo da Luxúria",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Beijo Sufocante",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Sempre que você terminar seu turno beijando uma criatura viva, ela perde uma quantidade de Pontos de Mana igual a sua Determinação enquanto você recupera a metade (arredondado para cima) desse total.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Beijo Sufocante. Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "beijo-da-luxuria",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "7f4c3b2b3c3b8e65",
+    "_key": "!items!7f4c3b2b3c3b8e65"
+  },
+  {
+    "name": "Beijo da Morte",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 60,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Beijo da Luxúria",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 41",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seus beijos são tão sedutores que são capazes de (literalmente) matar. Escolha uma criatura amigável devido a um teste de sedução bem-sucedido que você tenha realizado contra ela. Faça um teste de Sedução contra o alvo. Se for bem-sucedido, você pode fazer um Confronto de Vontade enquanto beija o alvo. Se você tiver um resultado maior, ele será considerado imediatamente Por um Fio. Se o alvo tiver um resultado maior do que o seu, ele imediatamente perde uma quantidade de Pontos de Vida e Pontos de Mana iguais à sua Determinação – e ele não será mais considerado amigável em relação a você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Beijo da Luxúria. Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "beijo-da-morte",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "723ecf9e8da4cea5",
+    "_key": "!items!723ecf9e8da4cea5"
+  },
+  {
     "name": "Beijo Sufocante",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -7890,7 +8275,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Chega Mais",
       "acesso": [
-        "Dançarino"
+        "Cortesão"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -7912,7 +8297,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "beijo-sufocante",
         "automatica": false,
         "acesso": [
-          "Dançarino"
+          "Cortesão"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -8224,11 +8609,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Xamã",
         "Amoque",
         "Aesir",
-        "Centauro",
-        "Xamã",
-        "Druida"
+        "Centauro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -8250,11 +8634,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "bravura-selvagem-1",
         "automatica": false,
         "acesso": [
+          "Xamã",
           "Amoque",
           "Aesir",
-          "Centauro",
-          "Xamã",
-          "Druida"
+          "Centauro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -8282,8 +8665,6 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Aesir",
         "Centauro",
-        "Xamã",
-        "Druida",
         "Amoque"
       ],
       "tipoAcesso": "Classe",
@@ -8308,8 +8689,6 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Aesir",
           "Centauro",
-          "Xamã",
-          "Druida",
           "Amoque"
         ],
         "tipoAcesso": "Classe",
@@ -8499,7 +8878,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Fronteiras Rochosas"
+        "Guarda das Fronteiras Rochosas"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",
@@ -8521,7 +8900,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cacador-das-cordilheiras",
         "automatica": false,
         "acesso": [
-          "Fronteiras Rochosas"
+          "Guarda das Fronteiras Rochosas"
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
@@ -8839,10 +9218,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 118; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
@@ -8862,10 +9240,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-da-provocacao",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -8889,10 +9266,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Nível 5, Eloquente",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 81; Canção do Bardo, pág. 72",
       "exclusivoCom": [],
@@ -8912,10 +9288,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-da-sereia",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -8939,10 +9314,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 121; Canção do Bardo, pág. 70",
       "exclusivoCom": [],
@@ -8962,10 +9336,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-de-ninar",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -8989,10 +9362,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 70",
       "exclusivoCom": [],
@@ -9012,10 +9384,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-de-poda",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -9039,10 +9410,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 78; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
@@ -9062,10 +9432,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-desesperadora",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -9089,10 +9458,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
@@ -9112,10 +9480,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-do-triunfo",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -9139,10 +9506,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 79; Canção do Bardo, pág. 69",
       "exclusivoCom": [],
@@ -9162,10 +9528,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-exultante",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -9189,10 +9554,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 72",
       "exclusivoCom": [],
@@ -9212,10 +9576,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-hipnotica",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -9239,10 +9602,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 72",
       "exclusivoCom": [],
@@ -9262,10 +9624,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "cancao-tenebrosa",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -9638,8 +9999,6 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Paladino",
-        "Guerreiro",
-        "Patrulheiro",
         "Fira"
       ],
       "tipoAcesso": "Classe",
@@ -9663,8 +10022,6 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Paladino",
-          "Guerreiro",
-          "Patrulheiro",
           "Fira"
         ],
         "tipoAcesso": "Classe",
@@ -9725,6 +10082,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "7b356f2c46e7f59d",
     "_key": "!items!7b356f2c46e7f59d"
+  },
+  {
+    "name": "Chamado do Sofista",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 15,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 57",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você tem um talento bem exercido para provocar e manter discussões desnecessárias por muito tempo. Faça um teste de Vontade. Todas as criaturas que puderem entendê-lo e possuírem uma Determinação menor ou igual ao seu resultado ficarão Distraídas enquanto você gastar uma ação de movimento por turno para manter a discussão acontecendo. Este efeito cessa imediatamente se o alvo sofrer algum dano ou perda de Vida – mas não perda de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode parar a discussão a qualquer momento, mas ela é interrompida imediatamente se você ficar Atordoado, Distraído, Enregelado.<br><br>Este é um efeito mental.<br><br>Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "chamado-do-sofista",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "03625680fe74ae3d",
+    "_key": "!items!03625680fe74ae3d"
   },
   {
     "name": "Chamas de Hou",
@@ -9883,7 +10288,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Satírico"
+        "Sátiro"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
@@ -9905,7 +10310,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "charada-obtusa",
         "automatica": false,
         "acesso": [
-          "Satírico"
+          "Sátiro"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
@@ -9931,7 +10336,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Dançarino"
+        "Cortesão"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -9953,7 +10358,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "chega-mais",
         "automatica": false,
         "acesso": [
-          "Dançarino"
+          "Cortesão"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -10313,6 +10718,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "0a903b7958ffa4b2",
     "_key": "!items!0a903b7958ffa4b2"
+  },
+  {
+    "name": "Clamar por Socorro",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 29",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando você é atacado, pode gritar em desespero para que seus aliados o ajudem. Sempre que você for atingido por um ataque corporal, todos os aliados que estiverem adjacentes ao seu atacante poderão fazer um ataque corporal normal contra ele imediatamente e aliados que não estiverem em alcance corporal do seu atacante podem, imediatamente, se mover na sua direção – e apenas na sua direção – uma quantidade de metros igual ao seu Deslocamento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Classe Menestrel.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "clamar-por-socorro",
+        "automatica": false,
+        "acesso": [
+          "Menestrel"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "142b559014a760f2",
+    "_key": "!items!142b559014a760f2"
   },
   {
     "name": "Clarividência",
@@ -10719,10 +11172,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Espadachim",
         "Guerreiro",
         "Ladino",
-        "Espadachim",
-        "Rúnico"
+        "Skald"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -10744,10 +11197,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "combate-com-duas-armas-1",
         "automatica": false,
         "acesso": [
+          "Espadachim",
           "Guerreiro",
           "Ladino",
-          "Espadachim",
-          "Rúnico"
+          "Skald"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -10773,10 +11226,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Combate com Duas Armas 1",
       "acesso": [
-        "Guerreiro",
         "Espadachim",
+        "Guerreiro",
         "Ladino",
-        "Rúnico"
+        "Skald"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -10798,10 +11251,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "combate-com-duas-armas-2",
         "automatica": false,
         "acesso": [
-          "Guerreiro",
           "Espadachim",
+          "Guerreiro",
           "Ladino",
-          "Rúnico"
+          "Skald"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -10879,9 +11332,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Cavaleiro Experiente",
       "acesso": [
-        "Paladino",
-        "Guerreiro",
-        "Patrulheiro"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -10903,9 +11354,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "combate-montado",
         "automatica": false,
         "acesso": [
-          "Paladino",
-          "Guerreiro",
-          "Patrulheiro"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -11467,6 +11916,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!1e6ab6084b184694"
   },
   {
+    "name": "Compasso",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 44",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Enquanto você escutar uma Música quando estiver dançando, você recebe +2 em todos os seus testes – exceto para conjurar Magias. Além disso, se escolher resistir aos efeitos de uma Música, você recebe +1d6 em seus Confrontos para não ser afetado por ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "compasso",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "9e1beec31283622a",
+    "_key": "!items!9e1beec31283622a"
+  },
+  {
     "name": "Competidor",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -11741,7 +12238,7 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Hoste de Hadorn",
         "Espada de Mirah",
-        "Anel"
+        "Irmandade do Anel de Bronze"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",
@@ -11765,7 +12262,7 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Hoste de Hadorn",
           "Espada de Mirah",
-          "Anel"
+          "Irmandade do Anel de Bronze"
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
@@ -11842,7 +12339,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Silfo"
+        "Faen"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -11870,7 +12367,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "constituicao-feerica",
         "automatica": true,
         "acesso": [
-          "Silfo"
+          "Faen"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -12052,7 +12549,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Anel",
+        "Irmandade do Anel de Bronze",
         "Senescal",
         "Bardo"
       ],
@@ -12076,7 +12573,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "contatos-na-corte",
         "automatica": false,
         "acesso": [
-          "Anel",
+          "Irmandade do Anel de Bronze",
           "Senescal",
           "Bardo"
         ],
@@ -12104,13 +12601,12 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Ladino",
         "Crânios Vermelhos",
         "Cesto de Adagas",
         "Capuzes Negros",
-        "Arpão",
-        "Anel",
-        "Ladino",
-        "Bardo"
+        "O Arpão",
+        "Irmandade do Anel de Bronze"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -12132,13 +12628,12 @@ export const CANONICAL_HABILIDADES = [
         "slug": "contatos-no-crime",
         "automatica": false,
         "acesso": [
+          "Ladino",
           "Crânios Vermelhos",
           "Cesto de Adagas",
           "Capuzes Negros",
-          "Arpão",
-          "Anel",
-          "Ladino",
-          "Bardo"
+          "O Arpão",
+          "Irmandade do Anel de Bronze"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -12165,7 +12660,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Capuzes Negros",
-        "Anel",
+        "Irmandade do Anel de Bronze",
         "Senescal"
       ],
       "tipoAcesso": "Classe",
@@ -12189,7 +12684,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Capuzes Negros",
-          "Anel",
+          "Irmandade do Anel de Bronze",
           "Senescal"
         ],
         "tipoAcesso": "Classe",
@@ -12216,6 +12711,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Menestrel",
         "Tailox"
       ],
       "tipoAcesso": "Raça",
@@ -12244,6 +12740,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "contos-da-estrada",
         "automatica": false,
         "acesso": [
+          "Menestrel",
           "Tailox"
         ],
         "tipoAcesso": "Raça",
@@ -12319,11 +12816,9 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5",
       "acesso": [
         "Bardo",
-        "Guerreiro",
-        "Paladino",
+        "Skald",
         "Espadachim",
-        "Ladino",
-        "Rúnico"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -12346,11 +12841,9 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Guerreiro",
-          "Paladino",
+          "Skald",
           "Espadachim",
-          "Ladino",
-          "Rúnico"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -13031,7 +13524,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Dança das Espadas 1",
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
@@ -13053,7 +13546,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "danca-da-guerra",
         "automatica": false,
         "acesso": [
-          "Dançarino Exótico"
+          "Dançarino"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
@@ -13167,6 +13660,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!b7b5c821ce7ebeb5"
   },
   {
+    "name": "Dança das Lâminas",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 46",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando entra em combate, seu fluxo de movimentos cria um estado de hipnose autoinduzido, produzindo efeitos sobre-humanos de agilidade, velocidade e foco. Sempre que você estiver usando Dança das Espadas, você recebe um acréscimo de +2 na sua Agilidade e em sua Determinação. Além disso, Dança das Espadas pode ser ativada como uma Reação sempre que você se deslocar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "danca-das-laminas",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "f0f228599d074b08",
+    "_key": "!items!f0f228599d074b08"
+  },
+  {
     "name": "Dança das Ruas",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -13179,7 +13720,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -13207,7 +13748,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "danca-das-ruas",
         "automatica": false,
         "acesso": [
-          "Dançarino Exótico"
+          "Dançarino"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -13233,7 +13774,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Dança dos Sete Véus",
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv2",
@@ -13255,7 +13796,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "danca-do-ventre",
         "automatica": false,
         "acesso": [
-          "Dançarino Exótico"
+          "Dançarino"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv2",
@@ -13267,6 +13808,56 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "4f81fe483e560272",
     "_key": "!items!4f81fe483e560272"
+  },
+  {
+    "name": "Dança dos Sete Véus",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cortesão",
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você dança em um ritmo sensual e encantador. Enquanto estiver dançando, você pode escolher 1 criatura viva que esteja a uma distância em metros igual a sua Determinação e que esteja vendo você dançar. Você pode realizar uma tentativa de sedução contra aquela criatura. Se a criatura ficar amigável em relação a você, ela estará Desprevenida em relação a todas as outras criaturas, mas não com relação à você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Caminho Cortesão, Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "danca-dos-sete-veus",
+        "automatica": false,
+        "acesso": [
+          "Cortesão",
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "43eb6e083e5ea0c8",
+    "_key": "!items!43eb6e083e5ea0c8"
   },
   {
     "name": "Dançarino do Ar",
@@ -13321,6 +13912,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "0e155cab870ae6fa",
     "_key": "!items!0e155cab870ae6fa"
+  },
+  {
+    "name": "Dançarino Experiente",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Compasso",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 45",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você sabe muito bem como mexer seu corpo em um ritmo fora de série. Sempre que realizar um teste de dança, você recebe +2 em seus testes de dança e para resistir a efeitos que o impeçam de continuar se movendo continuamente (Constringido, Derrubado, Amedrontado, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Compasso. Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "dancarino-experiente",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "c03d417efc926a79",
+    "_key": "!items!c03d417efc926a79"
+  },
+  {
+    "name": "Dançarino Irrefreável",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 42",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você se tornou um dançarino incrível e lendário, onde ninguém consegue prever seus passos de dança. Você recebe +2 em seus testes de dança e tem +1d6 para resistir a efeitos que o impeçam de continuar se movendo (Constringido, Derrubado, Amedrontado, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "dancarino-irrefreavel",
+        "automatica": true,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "d0a5f324580bf46a",
+    "_key": "!items!d0a5f324580bf46a"
   },
   {
     "name": "Defesa Agressiva",
@@ -13517,6 +14204,102 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!7b975f2d14b23488"
   },
   {
+    "name": "Desilusão Profunda",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Foi só um Arranhão",
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 38",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é um mestre da manipulação, recebendo +1d6 em seus testes sociais. Além disso, você pode afetar um mesmo alvo com uma quantidade de Desilusões igual à metade da sua Vontade (arredondada para cima). Finalmente, um alvo afetado por uma de suas Desilusões confrontado com a verdade deve obter um resultado maior do que sua Determinação num teste de Inteligência para deixar de acreditar nela. Se o alvo falhar três vezes em reconhecer a verdade, a desilusão estará internalizada até sua morte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Foi só um Arranhão. Caminho Charlatão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "desilusao-profunda",
+        "automatica": false,
+        "acesso": [
+          "Charlatão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "d59a34d6d32ac648",
+    "_key": "!items!d59a34d6d32ac648"
+  },
+  {
+    "name": "Desilusão",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 35",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é capaz de implantar crenças em qualquer indivíduo que possa entendê-lo, bastando para isso alguns instantes de conversa. Faça um confronto de Vontade contra um alvo. Se tiver um resultado mais alto do que o do alvo, você implanta nele uma Desilusão. Se o alvo tiver um resultado igual ou maior ao seu no teste, ele não poderá ser afetado por esta Habilidade por 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Uma Desilusão é uma crença (minimamente justificável) que não altera de forma direta o comportamento daqueles afetados. Você pode convencer alguém de que um aliado é na verdade um espião; de que a última bebida que ele consumiu estava envenenada e só você possui o antídoto; que ele é capaz (ou incapaz) de derrotar o melhor guerreiro da região; de que alguém insultou sua honra; etc.<br><br>Um alvo só pode ter uma Desilusão implantada de cada vez, que deixa de afetá-lo apenas caso seja provada falsa.<br><br>Este é um efeito mental.<br><br>Caminho Charlatão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "desilusao",
+        "automatica": true,
+        "acesso": [
+          "Charlatão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "ef8e7540cc0b5135",
+    "_key": "!items!ef8e7540cc0b5135"
+  },
+  {
     "name": "Deslizar pelo Palco",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -13529,8 +14312,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Evasão",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -13552,8 +14334,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "deslizar-pelo-palco",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Metaleiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -13675,12 +14456,11 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "8",
       "requisitos": "",
       "acesso": [
-        "Dracomante",
         "Druida",
         "Feiticeiro",
         "Rúnico",
         "Sacerdote",
-        "Xamã",
+        "Dracomante",
         "Necromante"
       ],
       "tipoAcesso": "Classe",
@@ -13703,12 +14483,11 @@ export const CANONICAL_HABILIDADES = [
         "slug": "detectar-magia",
         "automatica": false,
         "acesso": [
-          "Dracomante",
           "Druida",
           "Feiticeiro",
           "Rúnico",
           "Sacerdote",
-          "Xamã",
+          "Dracomante",
           "Necromante"
         ],
         "tipoAcesso": "Classe",
@@ -13721,6 +14500,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "11231c573be4b9b5",
     "_key": "!items!11231c573be4b9b5"
+  },
+  {
+    "name": "Devastação Emocional",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 58",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Sempre que necessário você consegue colocar uma pitada a mais de sarcasmo, ódio, desprezo ou seja lá qual for a emoção necessária para afetar de forma mais profunda o ego de seus ouvintes. Sempre que afetar uma criatura com um efeito mental, você pode reduzir a Determinação do alvo em um total igual a metade de sua Vontade (arredondada para cima) enquanto durar o efeito mental original.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "devastacao-emocional",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "11f607669f8e9a40",
+    "_key": "!items!11f607669f8e9a40"
   },
   {
     "name": "Devorador dos Mortos",
@@ -14182,9 +15009,8 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Eloquente",
       "acesso": [
         "Bardo",
-        "Ladino",
-        "Menestrel",
-        "Senescal"
+        "Senescal",
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -14207,9 +15033,8 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Ladino",
-          "Menestrel",
-          "Senescal"
+          "Senescal",
+          "Charlatão"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -14397,8 +15222,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Dogma",
       "acesso": [
         "Espada de Mirah",
-        "Sacerdote",
-        "Paladino"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",
@@ -14421,8 +15245,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Espada de Mirah",
-          "Sacerdote",
-          "Paladino"
+          "Sacerdote"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Bônus",
@@ -14500,8 +15323,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Dogma",
       "acesso": [
-        "Sacerdote",
-        "Druida"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Bônus",
@@ -14523,8 +15345,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "dogma-discipulo-da-natureza",
         "automatica": false,
         "acesso": [
-          "Sacerdote",
-          "Druida"
+          "Sacerdote"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Bônus",
@@ -14821,7 +15642,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Arpão"
+        "O Arpão"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",
@@ -14843,7 +15664,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "durao",
         "automatica": false,
         "acesso": [
-          "Arpão"
+          "O Arpão"
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
@@ -15070,12 +15891,12 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Cesto de Adagas",
         "Bardo",
-        "Menestrel",
+        "Espadachim",
         "Ladino",
-        "Trovador",
-        "Senescal"
+        "Senescal",
+        "Cesto de Adagas",
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -15097,12 +15918,12 @@ export const CANONICAL_HABILIDADES = [
         "slug": "eloquente",
         "automatica": false,
         "acesso": [
-          "Cesto de Adagas",
           "Bardo",
-          "Menestrel",
+          "Espadachim",
           "Ladino",
-          "Trovador",
-          "Senescal"
+          "Senescal",
+          "Cesto de Adagas",
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -15310,6 +16131,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "b4cbdce07667198f",
     "_key": "!items!b4cbdce07667198f"
+  },
+  {
+    "name": "Entusiasmar Fiéis",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 55",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você sabe como entusiasmar seus colegas e sabe como diverti-los com seus sermões. No final de cada turno em que você estiver utilizando uma habilidade do tipo Melodia, todos os seus aliados (exceto você) que estejam a uma distância em metros igual à sua Determinação e sejam capazes de entendê-lo recuperam 5 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Aliados que possuírem a Habilidade Dogma recuperam 10 Ponto de Vida ao invés de 5.<br><br>Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "entusiasmar-fieis",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4d435ab5585a76cf",
+    "_key": "!items!4d435ab5585a76cf"
+  },
+  {
+    "name": "Epitáfio",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 49",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando uma criatura é derrotada, você declama uma pequena frase descrevendo – geralmente de forma sarcástica ou denigrante – a derrota dela, o que provoca calafrios de seus inimigos enquanto estes vislumbram a própria derrota. Todos os inimigos que forem capazes de ouvir (e entender) o epitáfio imediatamente perdem uma quantidade de Pontos de Vida e Pontos de Mana igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de medo.<br><br>Requer Nível 5. Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "epitafio",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "edc354cbfcb1386e",
+    "_key": "!items!edc354cbfcb1386e"
   },
   {
     "name": "Erudito",
@@ -15724,6 +16641,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!1d24b89ce75813c2"
   },
   {
+    "name": "Espiral do Vazio",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Esta Carcaça Mortal",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 49",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você sabe como sintonizar brevemente um alvo ao Limiar, permitindo que ele seja capaz de ouvir as lamúrias de morte dos espíritos ao redor. O alvo fica Enregelado e precisa fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo perde uma quantidade de Pontos de Vida e Pontos de Mana iguais a sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Esta Carcaça Mortal. Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "espiral-do-vazio",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "76a689038de0f2f4",
+    "_key": "!items!76a689038de0f2f4"
+  },
+  {
     "name": "Espírito Animal",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -15824,6 +16789,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!665489b5ab960a05"
   },
   {
+    "name": "Esta Carcaça Mortal",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 48",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você percebe a efêmera existência mortal, e desenvolveu uma sutil sensibilidade em relação àqueles que já sucumbiram à ela. Você pode ver, ouvir e tocar criaturas do tipo Espírito ou com a Habilidade Corpo Intangível, e ignora quaisquer Resistências ou Imunidades a dano que elas tiverem.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "esta-carcaca-mortal",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "3a321dd17182fe67",
+    "_key": "!items!3a321dd17182fe67"
+  },
+  {
     "name": "Estabilidade",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -15837,7 +16850,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Anão",
-        "Fronteiras Rochosas",
+        "Guarda das Fronteiras Rochosas",
         "Guerreiro",
         "Paladino",
         "Mahok"
@@ -15869,7 +16882,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Anão",
-          "Fronteiras Rochosas",
+          "Guarda das Fronteiras Rochosas",
           "Guerreiro",
           "Paladino",
           "Mahok"
@@ -15934,6 +16947,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!011119caa1574beb"
   },
   {
+    "name": "Evanescência",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Necromanto",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 49",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Enquanto estiver sob efeito de Necromanto, você pode ativar essa Habilidade para receber os benefcícios de Corpo Intangível (veja detalhes na caixa em destaque). Este efeito dura por uma quantidade de minutos igual à sua Determinação – mas você pode desativá-lo a qualquer momento como uma ação livre. Se o efeito terminar enquanto você estiver dentro de algum material sólido, você é expelido para fora e sofre dano igual a 30/Contusão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Corpo Intangível: Você não tem peso, pode voar ao seu Deslocamento normal em qualquer direção e atravessar objetos sólidos. Você pode materializar partes do seu corpo, permitindo que você ataque ou conjure magias, e é Imune à Corte, Perfuração e Contusão (Magias que causem danos desses tipos, no entanto, afetam você normalmente). Além disso, você pode ver, ouvir e tocar criaturas do tipo Espírito ou com a Habilidade Corpo Intangível, e ignora quaisquer Resistências ou Imunidades a dano que elas tiverem.<br><br>Requer Nível 5, Necromanto. Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "evanescencia",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4c6d5f00c1afc31c",
+    "_key": "!items!4c6d5f00c1afc31c"
+  },
+  {
     "name": "Evasão",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -15946,8 +17007,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Bardo",
         "Espadachim",
         "Ladino",
+        "Menestrel",
         "Patrulheiro"
       ],
       "tipoAcesso": "Classe",
@@ -15970,8 +17033,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "evasao",
         "automatica": false,
         "acesso": [
+          "Bardo",
           "Espadachim",
           "Ladino",
+          "Menestrel",
           "Patrulheiro"
         ],
         "tipoAcesso": "Classe",
@@ -16341,8 +17406,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5",
       "acesso": [
         "Bardo",
-        "Menestrel",
-        "Skald"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -16375,8 +17439,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Menestrel",
-          "Skald"
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -16436,6 +17499,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "8833d7374a08cbd6",
     "_key": "!items!8833d7374a08cbd6"
+  },
+  {
+    "name": "Fantasma da Ópera",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "musica",
+      "custo": 60,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 33",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você canta uma música em um tom dramático contando histórias de assombrações e triângulos amorosos improváveis. Enquanto estiver tocando esta música, todas as criaturas vivas que puderem entender o que você diz (exceto seus aliados) realizam um confronto de Vontade contra você no começo de cada um dos seus turnos. Aqueles que falharem são considerados Desprevenidos – exceto em relação à você – e realizam todas as suas ações como se fossem Inaptos. Além disso, se um alvo tiver uma falha crítica em um desses confrontos, ele é considerado Indefeso até o final do seu próximo turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Especial: Esta Música é considerada uma Canção, um Ritmo e uma Melodia para todos os propósitos.<br><br>Classe Menestrel.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "fantasma-da-opera",
+        "automatica": false,
+        "acesso": [
+          "Menestrel"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "49497baf80ae2935",
+    "_key": "!items!49497baf80ae2935"
   },
   {
     "name": "Farda",
@@ -16644,6 +17755,102 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!4c5d67248c399ea6"
   },
   {
+    "name": "Figura Deslumbrante",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 38",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você cuida bem da sua aparência e sempre se mantém atento ao que atrai aqueles à sua volta. Você tem Determinação +2, nunca é considerado Inapto em testes sociais e ignora quaisquer redutores ao seduzir criaturas de outras raças.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "figura-deslumbrante",
+        "automatica": true,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "1ef17050643e6ed4",
+    "_key": "!items!1ef17050643e6ed4"
+  },
+  {
+    "name": "Figura Imponente",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 23",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você sabe se impor quando a situação requer. Você força todos os inimigos que possam vê-lo e ouvi-lo (mesmo que não sejam capazes de entender o que você diz) a fazer um Confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu passam a prestar atenção exclusiva no que você diz, e ficam Desprevenidos em relação a todas as criaturas, exceto você, por 1 turno. Uma criatura só pode ser afetada por essa Habilidade uma vez a cada minuto – ou combate.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Classe Bardo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "figura-imponente",
+        "automatica": false,
+        "acesso": [
+          "Bardo"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "86267b953ce63033",
+    "_key": "!items!86267b953ce63033"
+  },
+  {
     "name": "Fintar",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -16800,8 +18007,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Ladino",
-        "Guerreiro"
+        "Ladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -16823,8 +18029,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "flanquear",
         "automatica": false,
         "acesso": [
-          "Ladino",
-          "Guerreiro"
+          "Ladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -16955,7 +18160,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Ladino",
-        "Espadachim",
+        "Menestrel",
         "Hamelin"
       ],
       "tipoAcesso": "Classe",
@@ -16985,7 +18190,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Ladino",
-          "Espadachim",
+          "Menestrel",
           "Hamelin"
         ],
         "tipoAcesso": "Classe",
@@ -16998,6 +18203,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "a277418accae3c2c",
     "_key": "!items!a277418accae3c2c"
+  },
+  {
+    "name": "Focar nos Refrões",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Solo",
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 53",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você mantém sua música ritmada, melhorando a concentração de seus aliados. Enquanto estiver mantendo uma Música, todos os seus aliados recebem Determinação +2 e ficam imunes a efeitos que os deixariam Distraídos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar uma Música para a qual preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Requer Nível 5, Solo. Caminho Metaleiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "focar-nos-refroes",
+        "automatica": false,
+        "acesso": [
+          "Metaleiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "487b7e038ac327a5",
+    "_key": "!items!487b7e038ac327a5"
+  },
+  {
+    "name": "Foi só um Arranhão",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Não é Nada de Mais",
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 37",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando alguém capaz de ouvi-lo é afetado por um ataque ou habilidade que cause dano, você pode imediatamente convencê-lo de que foi só um arranhão, ignorando o dano sofrido. Ao final do combate, este dano será aplicado normalmente, exceto se o alvo já estiver Por um Fio. Fora de combate, o dano pode ser ignorado por uma quantidade de minutos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Cada criatura só pode ignorar uma fonte de dano dessa forma. Se outro uso desta Habilidade for utilizada no mesmo alvo, o primeiro efeito deixa de funcionar, e a criatura imediatamente sofre o dano que tinha ignorado. Este é um efeito mental.<br><br>Requer Nível 5, Não é Nada de Mais. Caminho Charlatão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "foi-so-um-arranhao",
+        "automatica": false,
+        "acesso": [
+          "Charlatão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "f09df175483a2a01",
+    "_key": "!items!f09df175483a2a01"
   },
   {
     "name": "Força de Explosão",
@@ -17218,8 +18519,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Benção de Ellenis",
       "acesso": [
-        "Xamã",
-        "Druida"
+        "Xamã"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -17241,8 +18541,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "forma-animal-1",
         "automatica": false,
         "acesso": [
-          "Xamã",
-          "Druida"
+          "Xamã"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -17268,8 +18567,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Forma Animal 1",
       "acesso": [
-        "Xamã",
-        "Druida"
+        "Xamã"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -17291,8 +18589,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "forma-animal-2",
         "automatica": false,
         "acesso": [
-          "Xamã",
-          "Druida"
+          "Xamã"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -17558,6 +18855,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "2ec80da54f788caa",
     "_key": "!items!2ec80da54f788caa"
+  },
+  {
+    "name": "Frequentador de Tavernas",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Bardo"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 23",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você está acostumado com o ambiente – geralmente competitivo e cheio de falastrões – das tavernas. Sempre que realizar um Confronto, você recebe um bônus de +2 no seu teste – esse bônus se aplica a qualquer Habilidade que exija um Confronto, além de testes de percepção (como detectar criaturas escondidas), situações sociais (como mentir ou detectar mentiras) e passar despercebido (como se esconder e mover-se em silêncio).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Classe Bardo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "frequentador-de-tavernas",
+        "automatica": false,
+        "acesso": [
+          "Bardo"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "ab20c30d4594648b",
+    "_key": "!items!ab20c30d4594648b"
   },
   {
     "name": "Frio Cadavérico",
@@ -18110,10 +19455,11 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Fronteiras Rochosas",
-        "Cesto de Adagas",
+        "Bardo",
         "Ladino",
-        "Patrulheiro"
+        "Patrulheiro",
+        "Guarda das Fronteiras Rochosas",
+        "Cesto de Adagas"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -18135,10 +19481,11 @@ export const CANONICAL_HABILIDADES = [
         "slug": "furtivo",
         "automatica": false,
         "acesso": [
-          "Fronteiras Rochosas",
-          "Cesto de Adagas",
+          "Bardo",
           "Ladino",
-          "Patrulheiro"
+          "Patrulheiro",
+          "Guarda das Fronteiras Rochosas",
+          "Cesto de Adagas"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -18716,11 +20063,11 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Senescal",
         "Bardo",
-        "Ladino",
+        "Senescal",
         "Humano",
-        "Mahok"
+        "Mahok",
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -18748,11 +20095,11 @@ export const CANONICAL_HABILIDADES = [
         "slug": "gregario",
         "automatica": false,
         "acesso": [
-          "Senescal",
           "Bardo",
-          "Ladino",
+          "Senescal",
           "Humano",
-          "Mahok"
+          "Mahok",
+          "Charlatão"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -18778,9 +20125,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Grito Estilhaçador",
       "acesso": [
-        "Bardo",
-        "Menestrel",
-        "Skald"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -18802,9 +20147,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "grito-contundente",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel",
-          "Skald"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -18830,9 +20173,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Bardo",
         "Guerreiro",
-        "Paladino",
-        "Bardo"
+        "Menestrel",
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -18854,9 +20198,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "grito-de-guerra-1",
         "automatica": false,
         "acesso": [
+          "Bardo",
           "Guerreiro",
-          "Paladino",
-          "Bardo"
+          "Menestrel",
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -18882,9 +20227,10 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Grito de Guerra 1",
       "acesso": [
+        "Bardo",
         "Guerreiro",
-        "Paladino",
-        "Bardo"
+        "Menestrel",
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -18906,9 +20252,10 @@ export const CANONICAL_HABILIDADES = [
         "slug": "grito-de-guerra-2",
         "automatica": false,
         "acesso": [
+          "Bardo",
           "Guerreiro",
-          "Paladino",
-          "Bardo"
+          "Menestrel",
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -18934,8 +20281,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Grito de Guerra 1",
       "acesso": [
+        "Bardo",
         "Guerreiro",
-        "Bardo"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -18957,8 +20305,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "grito-de-intimidacao",
         "automatica": false,
         "acesso": [
+          "Bardo",
           "Guerreiro",
-          "Bardo"
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -19076,6 +20425,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!4ccffaa3cf6800d9"
   },
   {
+    "name": "Grito Obliterador",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "padrao",
+      "custo": 50,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Grito Triturador",
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 62",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você emite um grito tão estrondoso e alto que é capaz de arremessar todos para longe! Tudo e todos que estiverem em um raio igual à até 10 metros ao seu redor sofrem dano igual a 40/Contusão e devem realizar um teste de Agilidade (Dificuldade igual à sua Determinação). Caso fracassem, os alvos são arremessados uma quantidade de metros igual à sua Força. Criaturas com Corpo Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o triplo do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Grito Triturador. Caminho Skald.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "grito-obliterador",
+        "automatica": false,
+        "acesso": [
+          "Skald"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "449d7271b909d499",
+    "_key": "!items!449d7271b909d499"
+  },
+  {
     "name": "Grito Retumbante",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -19122,6 +20519,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "3d99d9ea1ecf4332",
     "_key": "!items!3d99d9ea1ecf4332"
+  },
+  {
+    "name": "Grito Triturador",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "padrao",
+      "custo": 35,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Grito Estilhaçador",
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 62",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é capaz de emitir um grito ressonante capaz de vibrar rocha, metal – e ossos! – até que rachem. Tudo e todos em até 10 metros à sua frente sofrem dano igual a 24/Contusão. Criaturas com Corpo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Grito Estilhaçador. Caminho Skald.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "grito-triturador",
+        "automatica": false,
+        "acesso": [
+          "Skald"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "bbb973953920fd8e",
+    "_key": "!items!bbb973953920fd8e"
   },
   {
     "name": "Guarda de Honra",
@@ -19280,6 +20725,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Metaleiro",
         "Guerreiro",
         "Paladino",
         "Rúnico"
@@ -19304,6 +20750,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "guerreiro-de-aco-1",
         "automatica": false,
         "acesso": [
+          "Metaleiro",
           "Guerreiro",
           "Paladino",
           "Rúnico"
@@ -19332,6 +20779,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Guerreiro de Aço 1",
       "acesso": [
+        "Metaleiro",
         "Guerreiro",
         "Paladino",
         "Rúnico"
@@ -19356,6 +20804,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "guerreiro-de-aco-2",
         "automatica": false,
         "acesso": [
+          "Metaleiro",
           "Guerreiro",
           "Paladino",
           "Rúnico"
@@ -19563,6 +21012,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!4284e60eabdeb1f9"
   },
   {
+    "name": "Haka",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 44",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você dança em um ritmo que motiva seus aliados e intimida seus oponentes. Como uma ação de rodada completa, você realiza uma dança que adiciona +1 em todos os seus testes e no dos aliados que puderem ver você – e no turno em que ativar esta Habilidade, remova todos os efeitos de Medo que estiverem afetando os seus aliados. Você pode manter essa Dança como uma ação de movimento em turnos subsequentes, mas seu Deslocamento será considerado apenas metade enquanto faz isso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você não pode usar esta Habilidade se estiver sob qualquer efeito de Medo.<br><br>Este é um efeito mental. Especial: Se mais de um personagem possuir esta Habilidade e realizar esta ação ao mesmo tempo, o personagem com Vontade mais alta realizando o Haka faz um confronto de Vontade contra todos os oponentes que puderem ver o grupo dançando – adicione +1 no seu teste para cada personagem realizando o Haka. Oponentes com um resultado mais baixo que o seu neste teste ficarão Distraídos por um número de turnos igual ao número de personagens realizando o Haka.<br><br>Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "haka",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "9487927fa59b1540",
+    "_key": "!items!9487927fa59b1540"
+  },
+  {
     "name": "Herança Feérica",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -19720,6 +21217,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!bd7ce4f05700ceaa"
   },
   {
+    "name": "Hino de Guerra",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "musica",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 53",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você embala o campo de batalha com uma música sobre guerra, sacrifício e vitória, inspirando seus aliados e aterrorizando seus inimigos! Enquanto se mantiver tocando essa Música, todos os seus aliados que puderem lhe ouvir ficam imunes a efeitos de Medo. Além disso, uma vez por turno, você pode direcionar uma poderosa onda de som contra uma criatura que esteja a até sua Determinação em metros de distância. Essa onda sonora causa uma quantidade de dano igual à sua Determinação/Contusão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esta Música é considerada uma Canção, um Ritmo e uma Melodia para todos os propósitos.Este é um efeito de Medo.<br><br>Caminho Metaleiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "hino-de-guerra",
+        "automatica": false,
+        "acesso": [
+          "Metaleiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "0f03ce1ca0c63b06",
+    "_key": "!items!0f03ce1ca0c63b06"
+  },
+  {
     "name": "Horda Selvagem",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -19766,6 +21311,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "d774ffd776cae11c",
     "_key": "!items!d774ffd776cae11c"
+  },
+  {
+    "name": "Humorista Lacônico",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 58",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você aprendeu a ler as emoções dos outros tão bem ,que se tornou resistente à tentativas de manipular seu próprio humor. Você tem Determinação +2 e recebe +1d6 em todos os testes e confrontos para resistir efeitos que afetem sua mente – como perceber se você está mentindo, tentativas de sedução, efeitos mentais e efeitos de medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "humorista-laconico",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "6592646fa7bd41e8",
+    "_key": "!items!6592646fa7bd41e8"
   },
   {
     "name": "Iátrica",
@@ -19862,6 +21455,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "5b5b0c8d0733a827",
     "_key": "!items!5b5b0c8d0733a827"
+  },
+  {
+    "name": "Imitação Zureta",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Papagaio",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 59",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Ao invés de utilizar apenas sua língua afiada para insultar uma criatura, você faz uma imitação debochada de sua voz, sotaque, gestos, etc, para que os aliados desta também parem para rir dela. Faça um confronto de Vontade contra todas as criaturas inimigas, tendo uma delas como alvo de sua imitação. Se você tiver um resultado igual ou maior do que o alvo ele ataca você em detrimento de qualquer outro alvo, e é considerado Desprevenido para todos os seus aliados – mas não para você. Além disso, quaisquer aliados do alvo que não obtiverem um resultado maior do que o seu começarão a rir, ficando Distraídos enquanto você mantiver a imitação como uma ação padrão. Você pode parar a imitação a qualquer momento, mas ela é interrompida imediatamente se você for Derrubado, ficar Atordoado, Enregelado, Distraído ou Paralisado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Especial: Você não pode utilizar Língua Afiada na mesma rodada em que esta habilidade.<br><br>Requer Nível 5, Papagaio. Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "imitacao-zureta",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "9a86ae74ecca07c4",
+    "_key": "!items!9a86ae74ecca07c4"
   },
   {
     "name": "Imparável",
@@ -20070,6 +21711,102 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!38e678cc56cdc2a3"
   },
   {
+    "name": "Incitar Briga",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você não precisa sujar suas mãos. Quando duas ou mais criaturas estiverem amigáveis em relação a você por seus sucessos em testes de Sedução, você pode incitá-las a brigar entre si.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este efeito dura um minuto ou até que apenas um dos alvos não esteja Por um Fio.<br><br>Este é um efeito mental.<br><br>Requer Nível 5. Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "incitar-briga",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "102e62063d5ace59",
+    "_key": "!items!102e62063d5ace59"
+  },
+  {
+    "name": "Incógnita do Destino",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 55",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Suas músicas são algo que muda a vida das pessoas fazendo elas trilharem caminhos nunca antes vistos. Enquanto estiver tocando uma Melodia, você pode rolar novamente um dado cujo resultado tenha sido 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada uma vez por turno.<br><br>Especial: Todos os seus aliados que possam ouvir sua Melodia também recebem esse benefício.<br><br>Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "incognita-do-destino",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "70154e38b7692fa3",
+    "_key": "!items!70154e38b7692fa3"
+  },
+  {
     "name": "Infecção Grave",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -20118,6 +21855,102 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!67cf37e16eb22986"
   },
   {
+    "name": "Inspiração",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Trovador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 63",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Enquanto você mantiver suas músicas, você inspira seus aliados cada vez mais. Você fornece um bônus de +1 em todos os testes de seus aliados para cada turno em que mantiver uma Música, a partir do segundo turno, até um máximo de +6. Este efeito termina se você for interrompido ou trocar de música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Fora do combate, essa Habilidade fornece um bônus de +1 (ou +2 se você for de Nível 5 ou mais) – mas você pode utilizá-la mesmo se estiver usando a ação de Tocar Instrumentos Musicais, ao invés de uma Música.<br><br>Caminho Trovador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "inspiracao",
+        "automatica": true,
+        "acesso": [
+          "Trovador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "e6f51980b051d1a7",
+    "_key": "!items!e6f51980b051d1a7"
+  },
+  {
+    "name": "Inspirar Confiança",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Inspirar Coragem",
+      "acesso": [
+        "Trovador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 65",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é capaz de relaxar e encorajar seus aliados até mesmo nas situações mais complicadas. Quando um aliado tentar realizar um teste social e você estiver tocando uma música, você pode fazer com que ele receba +1d6 em seus testes sociais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade uma vez por Rodada.<br><br>Requer Nível 5, Inspirar Coragem. Caminho Trovador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "inspirar-confianca",
+        "automatica": false,
+        "acesso": [
+          "Trovador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "8f85644e93d770d3",
+    "_key": "!items!8f85644e93d770d3"
+  },
+  {
     "name": "Inspirar Coragem",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -20130,8 +21963,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Presença Inspiradora",
       "acesso": [
-        "Senescal",
-        "Bardo"
+        "Trovador",
+        "Senescal"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -20153,8 +21986,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "inspirar-coragem",
         "automatica": false,
         "acesso": [
-          "Senescal",
-          "Bardo"
+          "Trovador",
+          "Senescal"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -20180,8 +22013,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -20209,8 +22041,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "instrumentista",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -20498,7 +22329,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Arpão"
+        "O Arpão"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv1",
@@ -20520,7 +22351,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "intimidar",
         "automatica": false,
         "acesso": [
-          "Arpão"
+          "O Arpão"
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv1",
@@ -21210,6 +23041,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!834509582a26d74c"
   },
   {
+    "name": "Jogral",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 28",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você praticou várias formas de entretenimento, e é bastante hábil com sua voz e com suas mãos. Você recebe +2 em todos os testes que envolvam a fala – como mentir, seduzir, barganhar ou cantar – tocar instrumentos musicais (incluindo Músicas) e realizar malabarismos (incluindo arremessar objetos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar duas Músicas para as quais preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Classe Menestrel.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "jogral",
+        "automatica": true,
+        "acesso": [
+          "Menestrel"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "2bf17583f5b4935e",
+    "_key": "!items!2bf17583f5b4935e"
+  },
+  {
     "name": "Juiz",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -21408,6 +23287,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!1175c1c9f5efdb93"
   },
   {
+    "name": "Lambada",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Requebrado",
+      "acesso": [
+        "Dançarino"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 45",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Enquanto você estiver dançando, você pode realizar um rodopio e desferir um potente golpe no alvo. Enquanto estiver dançando, realize um ataque corporal com um bônus igual a sua Vontade. Se acertar, este ataque causa um dano adicional igual à quantidade de metros que você se deslocou neste turno antes de desferir este golpe, e o alvo fica Atordoado por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se o alvo estiver sob efeito de alguma Música quando for atingido por este golpe, ele ficará Paralisado por 1 turno ao invés de Atordoado. Se ele tiver resistido a algum efeito de Música que ainda estiver ativo na área, ele passa a sofrer os efeitos daquela Música como se tivesse falhado no teste.<br><br>Requer Nível 5, Requebrado. Caminho Dançarino.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "lambada",
+        "automatica": false,
+        "acesso": [
+          "Dançarino"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "f061b6126d8653e0",
+    "_key": "!items!f061b6126d8653e0"
+  },
+  {
     "name": "Lanterna dos Mortos",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -21469,11 +23396,10 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Eloquente",
       "acesso": [
         "Bardo",
+        "Espadachim",
+        "Senescal",
         "Menestrel",
-        "Ladino",
-        "Sátiro",
-        "Trovador",
-        "Senescal"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -21496,11 +23422,10 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
+          "Espadachim",
+          "Senescal",
           "Menestrel",
-          "Ladino",
-          "Sátiro",
-          "Trovador",
-          "Senescal"
+          "Trovador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -21512,6 +23437,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "9ebd95115e0a3cf1",
     "_key": "!items!9ebd95115e0a3cf1"
+  },
+  {
+    "name": "Língua de Nove Caudas",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 59",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seus insultos são elaborados de forma precisa para ofender a nível pessoal, mas ditos de forma genérica o suficiente para servir a múltiplas criaturas. Escolha uma profissão, raça, cultura, classe social, ou qualquer grupo ao qual possa se referir com palavras. Faça um confronto de Vontade contra todas as criaturas deste grupo que puderem entendê-lo, e todas as que obtiverem um resultado menor ou igual ao seu o atacarão em detrimento de qualquer outro alvo, sendo consideradas Desprevenidas para seus aliados – mas não para você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental, e equivalente à Língua Afiada para quaisquer benefícios.<br><br>Requer Nível 5. Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "lingua-de-nove-caudas",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "1d8724228f8b812b",
+    "_key": "!items!1d8724228f8b812b"
+  },
+  {
+    "name": "Língua Vorpal",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 57",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você refinou sua língua ferina e técnicas de insulto a ponto de conseguir proferi-los de forma praticamente instintiva. Você é capaz de utilizar Língua Afiada como uma ação livre uma vez por rodada – e não está mais restrito a 5 palavras quando for falar como uma Ação Livre.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "lingua-vorpal",
+        "automatica": true,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "5a0487aa0df655b3",
+    "_key": "!items!5a0487aa0df655b3"
   },
   {
     "name": "Linhagem Dracônica 2",
@@ -21579,8 +23600,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Dragano",
-        "Draconiano"
+        "Dragano"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Automática",
@@ -21801,8 +23821,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "linhagem-draconica",
         "automatica": true,
         "acesso": [
-          "Dragano",
-          "Draconiano"
+          "Dragano"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Automática",
@@ -21830,8 +23849,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -21863,8 +23881,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "lirico",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -22216,6 +24233,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!53d8eac7451ce08c"
   },
   {
+    "name": "Malabares",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 5,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Malabarista",
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 32",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é tem uma precisão e agilidade muito boas com suas mãos, sendo capazes, de arremessar coisas a grandes distâncias. Sempre que arremessar uma arma com característica Arremesso e FN 1, você pode rolar +1d6.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser utilizada uma vez por turno.<br><br>Requer Nível 5, Malabarista. Classe Menestrel.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "malabares",
+        "automatica": false,
+        "acesso": [
+          "Menestrel"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "4490729f57c96070",
+    "_key": "!items!4490729f57c96070"
+  },
+  {
     "name": "Malabarista",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -22228,6 +24293,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Menestrel",
         "Ladino",
         "Bardo"
       ],
@@ -22251,6 +24317,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "malabarista",
         "automatica": false,
         "acesso": [
+          "Menestrel",
           "Ladino",
           "Bardo"
         ],
@@ -22422,7 +24489,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 10, Pacto da Pestilência",
       "acesso": [
-        "Cultista de Ereshkigal"
+        "Cultista"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv3",
@@ -22444,7 +24511,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "manto-de-ereshkigal",
         "automatica": false,
         "acesso": [
-          "Cultista de Ereshkigal"
+          "Cultista"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv3",
@@ -22456,6 +24523,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "c5d2869c4b9152eb",
     "_key": "!items!c5d2869c4b9152eb"
+  },
+  {
+    "name": "Marcha Fúnebre",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 50",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Suas músicas sempre são pesadas e carregadas de sentimentos funestos. Enquanto estiver mantendo uma Música, todas as criaturas com Determinação menor do que a sua (exceto Aliados) ficam Amedrontadas em relação à você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de medo.<br><br>Requer Nível 5. Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "marcha-funebre",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "b343e3f1b30d03ea",
+    "_key": "!items!b343e3f1b30d03ea"
   },
   {
     "name": "Maré de Sorte",
@@ -22623,7 +24738,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Caçador das Cordilheiras",
       "acesso": [
-        "Fronteiras Rochosas"
+        "Guarda das Fronteiras Rochosas"
       ],
       "tipoAcesso": "Organização",
       "nivel": "Nv2",
@@ -22645,7 +24760,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "matador-das-cordilheiras",
         "automatica": false,
         "acesso": [
-          "Fronteiras Rochosas"
+          "Guarda das Fronteiras Rochosas"
         ],
         "tipoAcesso": "Organização",
         "nivel": "Nv2",
@@ -22815,10 +24930,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 70",
       "exclusivoCom": [],
@@ -22838,10 +24952,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "melodia-da-paixao",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -22865,10 +24978,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 80; Canção do Bardo, pág. 70",
       "exclusivoCom": [],
@@ -22888,10 +25000,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "melodia-dancante",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -22915,10 +25026,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 73",
       "exclusivoCom": [],
@@ -22938,10 +25048,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "melodia-desconcertante",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -22965,10 +25074,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 72",
       "exclusivoCom": [],
@@ -22988,10 +25096,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "melodia-do-frenesi",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -23015,10 +25122,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 70",
       "exclusivoCom": [],
@@ -23038,10 +25144,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "melodia-ensurdecedora",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -23065,10 +25170,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
@@ -23088,10 +25192,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "melodia-evanescente",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -23101,6 +25204,102 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "0b60aa0cfb712bdf",
     "_key": "!items!0b60aa0cfb712bdf"
+  },
+  {
+    "name": "Melodia Evangelizadora",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "musica",
+      "custo": 80,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Pregação da Fé",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 56",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você toca uma melodia fervorosa e empolgante, que faz todos a sua volta cantarem junto a sua música. Todos que escutarem sua música devem realizar um Confronto de Vontade contra você, aqueles que tiverem um resultado menor do que o seu soltam suas armas e começam a entrar no ritmo da sua música, perdendo sua Ação Padrão durante seu próximo turno. Caso tenham um resultado igual ou maior do que o seu, eles ficam Distraídos por um número de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Personagens que possuam Pacto ou Sintonia Dracônica recebem um redutor igual à sua Vontade em todos os testes enquanto você estiver tocando esta música.<br><br>Este é um efeito mental. Especial: Personagens que possuam Dogma não são afetados por esta Música.<br><br>Requer Nível 10, Pregação da Fé. Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "melodia-evangelizadora",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "1258228042437d26",
+    "_key": "!items!1258228042437d26"
+  },
+  {
+    "name": "Melodia Letárgica",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "musica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 48",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você toca uma música lenta e arrastada, que torna as criaturas que a escutem desanimadas e apáticas. Todas as criaturas vivas a uma distância em metros de você igual à sua Determinação que puderem ouvir essa Música rolam um Confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu têm seu Deslocamento reduzido à metade (arredondado para cima) e não podem utilizar ações que exijam movimentação como parte delas – como correr, dançar (incluindo Dança das Espadas) e realizar encontrões (ou Habilidades que exijam a realização de encontrões). Este é um efeito mental.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "melodia-letargica",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "84f14867c69ca8fd",
+    "_key": "!items!84f14867c69ca8fd"
   },
   {
     "name": "Membrana Nictitante",
@@ -23426,7 +25625,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Ladino",
-        "Espadachim"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -23449,7 +25648,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Ladino",
-          "Espadachim"
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -23476,7 +25675,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Mestre das Adagas 1",
       "acesso": [
         "Ladino",
-        "Espadachim"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -23499,7 +25698,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Ladino",
-          "Espadachim"
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -23526,7 +25725,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5, Mestre das Adagas 2",
       "acesso": [
         "Ladino",
-        "Espadachim"
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -23549,7 +25748,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Ladino",
-          "Espadachim"
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -23576,7 +25775,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Bardo",
-        "Menestrel"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -23599,7 +25798,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Menestrel"
+          "Metaleiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -23677,9 +25876,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Mestre de Armas 1",
       "acesso": [
-        "Guerreiro",
         "Espadachim",
-        "Paladino"
+        "Guerreiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -23701,9 +25899,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "mestre-de-armas-2",
         "automatica": false,
         "acesso": [
-          "Guerreiro",
           "Espadachim",
-          "Paladino"
+          "Guerreiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -23777,10 +25974,8 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Capuzes Negros",
         "Xamã",
-        "Druida",
-        "Patrulheiro"
+        "Capuzes Negros"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -23802,10 +25997,8 @@ export const CANONICAL_HABILIDADES = [
         "slug": "mestre-domador",
         "automatica": false,
         "acesso": [
-          "Capuzes Negros",
           "Xamã",
-          "Druida",
-          "Patrulheiro"
+          "Capuzes Negros"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -24029,9 +26222,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Pantomima",
       "acesso": [
-        "Bufão"
+        "Menestrel"
       ],
-      "tipoAcesso": "Caminho",
+      "tipoAcesso": "Classe",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 32",
       "exclusivoCom": [],
@@ -24056,9 +26249,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "mimicar",
         "automatica": false,
         "acesso": [
-          "Bufão"
+          "Menestrel"
         ],
-        "tipoAcesso": "Caminho",
+        "tipoAcesso": "Classe",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -24488,8 +26681,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -24511,8 +26703,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "musico-funebre",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -24578,6 +26769,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!c651ba99cf0768e1"
   },
   {
+    "name": "Não é Nada de Mais",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 15,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 36",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Quando uma ou mais criaturas capazes de entendê-lo forem afetadas por um efeito que provoque condições negativas, você pode imediatamente convencê-lo que não é nada de mais, permitindo que o alvo ignore 1 Condição – Exceto Indefeso e Paralisado. Em combate, esse efeito dura por 1 minuto, enquanto fora de combate dura até 1 hora.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Cada criatura só pode ignorar uma Condição dessa forma. Se outro uso desta Habilidade for utilizada no mesmo alvo, o primeiro efeito deixa de funcionar.<br><br>Este é um efeito mental.<br><br>Caminho Charlatão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "nao-e-nada-de-mais",
+        "automatica": false,
+        "acesso": [
+          "Charlatão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "7392dd3ee43ff7cb",
+    "_key": "!items!7392dd3ee43ff7cb"
+  },
+  {
     "name": "Nascido nas Montanhas",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -24590,7 +26829,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Fronteiras Rochosas",
+        "Guarda das Fronteiras Rochosas",
         "Anão",
         "Mahok"
       ],
@@ -24620,7 +26859,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "nascido-nas-montanhas",
         "automatica": false,
         "acesso": [
-          "Fronteiras Rochosas",
+          "Guarda das Fronteiras Rochosas",
           "Anão",
           "Mahok"
         ],
@@ -24696,7 +26935,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Esta Carcaça Mortal",
       "acesso": [
-        "Dançarino Macabro"
+        "Gótico"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -24728,7 +26967,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "necromanto",
         "automatica": false,
         "acesso": [
-          "Dançarino Macabro"
+          "Gótico"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -24856,9 +27095,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Guerreiro",
-        "Ladino",
-        "Paladino",
-        "Espadachim"
+        "Paladino"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -24881,9 +27118,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Guerreiro",
-          "Ladino",
-          "Paladino",
-          "Espadachim"
+          "Paladino"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -24949,6 +27184,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "42eded25b87dcecc",
     "_key": "!items!42eded25b87dcecc"
+  },
+  {
+    "name": "O Amor Dói",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 15,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Escondendo sua arma até o último segundo, você realiza um ataque corporal contra um alvo que esteja amigável devido a um teste de sedução bem-sucedido, ignorando qualquer bônus de Bloqueio ou Esquiva e causando o dobro de dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "o-amor-doi",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "62761c85c45e4709",
+    "_key": "!items!62761c85c45e4709"
   },
   {
     "name": "O Dobro ou Nada",
@@ -25487,6 +27770,102 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!722906f7fac7f7c4"
   },
   {
+    "name": "Orientação Mística",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 56",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você aprimorou seu discurso e oratória motivacionais, e consegue fazê-lo constantemente! A sua orientação mística – o seu sermão – recupera uma quantidade de Pontos de Vida e Mana iguais ao dobro da sua Determinação, e pode ser utilizado uma vez a cada duas horas na mesma pessoa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "orientacao-mistica",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "731a487a278eb4c0",
+    "_key": "!items!731a487a278eb4c0"
+  },
+  {
+    "name": "Orquestra de Um Homem Só",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Tocar de Ouvido",
+      "acesso": [
+        "Menestrel"
+      ],
+      "tipoAcesso": "Classe",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 33",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você toca vários tipos de instrumentos – muitas vezes mais de um ao mesmo tempo! – e é excelente com todos eles.Você recebe +2 em todos os seus testes para tocar instrumentos musicais e em seus testes de Músicas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Além disso, você pode selecionar 1 Música que você preencha os requisitos. Esta escolha é permanente e não pode ser alterada mais tarde.<br><br>Requer Nível 5, Tocar de Ouvido. Classe Menestrel.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "orquestra-de-um-homem-so",
+        "automatica": false,
+        "acesso": [
+          "Menestrel"
+        ],
+        "tipoAcesso": "Classe",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "23c2f909f067ddb2",
+    "_key": "!items!23c2f909f067ddb2"
+  },
+  {
     "name": "Pacto da Ambição",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -25800,11 +28179,10 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Cultista",
-        "Bruxo",
         "Aziago",
         "Geral"
       ],
-      "tipoAcesso": "Caminho",
+      "tipoAcesso": "Geral",
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 13",
       "exclusivoCom": [
@@ -25828,11 +28206,10 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Cultista",
-          "Bruxo",
           "Aziago",
           "Geral"
         ],
-        "tipoAcesso": "Caminho",
+        "tipoAcesso": "Geral",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [
@@ -25887,7 +28264,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Devastação Emocional",
       "acesso": [
-        "Satírico"
+        "Sátiro"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -25909,7 +28286,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "palavra-toxica",
         "automatica": false,
         "acesso": [
-          "Satírico"
+          "Sátiro"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -25936,7 +28313,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Língua Afiada",
       "acesso": [
         "Espadachim",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -25959,7 +28336,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Espadachim",
-          "Bardo"
+          "Trovador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -25985,7 +28362,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",
@@ -26008,7 +28384,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "pantomima",
         "automatica": false,
         "acesso": [
-          "Bardo",
           "Menestrel"
         ],
         "tipoAcesso": "Classe",
@@ -26021,6 +28396,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "bbc1cae4936334e5",
     "_key": "!items!bbc1cae4936334e5"
+  },
+  {
+    "name": "Papagaio",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 58",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você possui uma grande facilidade para entender os maneirismos e vozes das criaturas e culturas com as quais tem contato. Graças a isso, você consegue imitar qualquer som ou voz que tenha ouvido, assim como a postura e os gestos de seus falantes, recebendo +2 em testes e confrontos sociais (incluindo Técnicas e Músicas, e o cálculo de sua Determinação para estes efeitos), e +1d6 para se disfarçar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "papagaio",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "453cfd695c0bac67",
+    "_key": "!items!453cfd695c0bac67"
   },
   {
     "name": "Parede de Escudos",
@@ -26456,6 +28879,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!0eb7ddd5c1b58cd6"
   },
   {
+    "name": "Percusionista Imparável",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Golpe Inspirador",
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 62",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você sabe fazer músicas batendo em seus inimigos! Você pode usar sua ação padrão para realizar um ataque corporal desarmado e manter uma Música em seus turnos. Enquanto você atacar seus inimigos, eles são considerados instrumentos de percussão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Golpe Inspirador. Caminho Skald.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "percusionista-imparavel",
+        "automatica": false,
+        "acesso": [
+          "Skald"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "a7857df2580a2e4a",
+    "_key": "!items!a7857df2580a2e4a"
+  },
+  {
     "name": "Pergaminho Mágico",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -26504,6 +28975,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!06856bf7a57e40e1"
   },
   {
+    "name": "Perjuro",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Charlatão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 36",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>É praticamente impossível dizer se você está mentindo ou não, já que você aprendeu a questionar qualquer verdade considerada factual. Criaturas capazes de perceber mentiras automaticamente precisam fazer testes normalmente para perceber suas mentiras, e contra criaturas que não tenham esse tipo de habilidade, você recebe +1d6 para mentir. Além disso, por ter tido uma crença poderosa em uma verdade superior, você é muito bom em perceber a convicção nas palavras dos outros, e também recebe +1d6 para detectar mentiras.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Charlatão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "perjuro",
+        "automatica": false,
+        "acesso": [
+          "Charlatão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "c037e2141a5afeb9",
+    "_key": "!items!c037e2141a5afeb9"
+  },
+  {
     "name": "Pernas do Mar",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -26516,7 +29035,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Arpão",
+        "O Arpão",
         "Lobos dos Mares"
       ],
       "tipoAcesso": "Organização",
@@ -26539,7 +29058,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "pernas-do-mar",
         "automatica": false,
         "acesso": [
-          "Arpão",
+          "O Arpão",
           "Lobos dos Mares"
         ],
         "tipoAcesso": "Organização",
@@ -26625,7 +29144,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5, Gregário",
       "acesso": [
         "Senescal",
-        "Bardo"
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -26648,7 +29167,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Senescal",
-          "Bardo"
+          "Charlatão"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -26758,6 +29277,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!208c1c40aba4c1c5"
   },
   {
+    "name": "Poeta Guerreiro",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Skald"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 60",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você aprendeu no campo de batalha que o melhor jeito de uma conversa é com os punhos. Sempre que você estiver tocando em uma música e uma criatura se aproximar de você em alcance corporal, você pode realizar um Grito ou Rugido contra ela. Além disso, sempre que você utilizar uma habilidade do tipo Grito ou Rugido, você pode se movimentar uma quantidade de metros igual à metade da sua Agilidade (arredondado para baixo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade contra um mesmo alvo uma vez por turno.<br><br>Caminho Skald.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "poeta-guerreiro",
+        "automatica": true,
+        "acesso": [
+          "Skald"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "c5d54b3d20e5d8b5",
+    "_key": "!items!c5d54b3d20e5d8b5"
+  },
+  {
     "name": "Poeta Itinerante",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -26770,7 +29337,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",
@@ -26793,7 +29359,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "poeta-itinerante",
         "automatica": false,
         "acesso": [
-          "Bardo",
           "Menestrel"
         ],
         "tipoAcesso": "Classe",
@@ -27116,6 +29681,102 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!ebc0c943981b350f"
   },
   {
+    "name": "Pregação da Fé",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Pregar a Palavra",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 56",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Concentrando-se em uma pessoa, você é capaz de repreendê-la por todos os seus atos. Faça um confronto de Vontade contra um alvo que consiga ver. Se você vencer e se o alvo for capaz de entendê-lo, este perde imediatamente uma quantidade de Pontos de Mana igual sua Determinação e fica Distraído por 2 turnos. Além disso, se o alvo possuir um Pacto ou Sintonia Dracônica, ele ficará Paralisado por 2 turnos ao invés de Distraido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.<br><br>Requer Nível 5, Pregar a Palavra. Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "pregacao-da-fe",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "fa9778685fe0b3a1",
+    "_key": "!items!fa9778685fe0b3a1"
+  },
+  {
+    "name": "Pregar a Palavra",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Eloquente",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 55",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você sabe muito bem como utilizar sua lábia e convencimento para atrair seus fiéis. Faça um confronto de Vontade contra um alvo que você consiga ver. Se você tiver um resultado igual ou maior do que o alvo e se ele for capaz de entendê-lo, ele ficará Atordoado por um número de turnos igual à sua Vontade. Além disso, se o alvo possuir um Pacto ou Sintonia Dracônica, ele também ficará Distraído por 2 turnos. Este é um efeito mental.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Eloquente. Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "pregar-a-palavra",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "62904dc58b12874d",
+    "_key": "!items!62904dc58b12874d"
+  },
+  {
     "name": "Presas Vermelhas",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -27224,7 +29885,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Pacto da Pestilência",
       "acesso": [
-        "Cultista de Ereshkigal"
+        "Cultista"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -27246,7 +29907,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "presenca-de-ereshkigal",
         "automatica": false,
         "acesso": [
-          "Cultista de Ereshkigal"
+          "Cultista"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -27320,8 +29981,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
+        "Bardo",
         "Senescal",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -27343,8 +30005,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "presenca-inspiradora",
         "automatica": false,
         "acesso": [
+          "Bardo",
           "Senescal",
-          "Bardo"
+          "Trovador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -28198,6 +30861,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!5643c0f80ad6ed17"
   },
   {
+    "name": "Reação Desesperada",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "tecnica",
+      "custo": 10,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 40",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Se você não consegue seduzir alguém, coisas ruins acontecem. Sempre que você falhar num teste de Sedução contra uma única criatura, você pode imediatamente realizar um ataque corporal normal contra ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "reacao-desesperada",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "7b2fd698e5fb291a",
+    "_key": "!items!7b2fd698e5fb291a"
+  },
+  {
     "name": "Recursos",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -28358,9 +31069,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel",
-        "Orador"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -28382,9 +31091,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "reforcar-os-graves",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel",
-          "Orador"
+          "Metaleiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -28508,8 +31215,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -28546,8 +31252,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "repentista",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -28621,7 +31326,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Dançarino Exótico"
+        "Dançarino"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -28648,7 +31353,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "requebrado",
         "automatica": false,
         "acesso": [
-          "Dançarino Exótico"
+          "Dançarino"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -28804,6 +31509,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "5bf6b3b1e3641a66",
     "_key": "!items!5bf6b3b1e3641a66"
+  },
+  {
+    "name": "Restaurar Ânimo",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Inspirar Coragem",
+      "acesso": [
+        "Trovador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 65",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Suas palavras inspiram e restauram o fôlego e a determinação de todos os seus aliados! Todos os seus aliados, exceto você, que possam lhe ouvir e que estejam a uma distância em metros até à sua Vontade, imediatamente recuperam uma quantidade de Pontos de Mana igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Inspirar Coragem. Caminho Trovador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "restaurar-animo",
+        "automatica": false,
+        "acesso": [
+          "Trovador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "fe2d2edffb3b1681",
+    "_key": "!items!fe2d2edffb3b1681"
   },
   {
     "name": "Restaurar Convicção",
@@ -29112,8 +31865,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -29135,8 +31887,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmista",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -29162,10 +31913,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 73",
       "exclusivoCom": [],
@@ -29185,10 +31935,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-da-furia",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -29212,10 +31961,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
@@ -29235,10 +31983,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-de-marcha",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -29262,10 +32009,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv2",
       "fonteLivro": "Canção do Bardo, pág. 73",
       "exclusivoCom": [],
@@ -29285,10 +32031,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-do-coracao",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv2",
         "aliases": [],
         "opcoes": [],
@@ -29312,10 +32057,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Confronto de Vontade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
@@ -29335,10 +32079,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-do-enjoo",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -29362,10 +32105,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
@@ -29385,10 +32127,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-do-repouso",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -29412,10 +32153,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
@@ -29435,10 +32175,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-dos-animais",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -29462,10 +32201,9 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "Teste de Agilidade",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Músicas"
       ],
-      "tipoAcesso": "Classe",
+      "tipoAcesso": "Lista",
       "nivel": "Nv1",
       "fonteLivro": "Canção do Bardo, pág. 71",
       "exclusivoCom": [],
@@ -29485,10 +32223,9 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ritmo-retumbante",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Músicas"
         ],
-        "tipoAcesso": "Classe",
+        "tipoAcesso": "Lista",
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
@@ -29561,6 +32298,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "17b1ef85ef5c9ed0",
     "_key": "!items!17b1ef85ef5c9ed0"
+  },
+  {
+    "name": "Romance Alquímico",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 60,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Marcha Fúnebre",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 50",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Sua conexão com a escuridão lhe torna extremamente amedrontador – ou estranhamente atraente – para aqueles ao seu redor. Faça um teste de Intimidação contra um alvo que você consiga ver. Se o alvo tiver sucesso, ele será considerado Distraído por um número de turnos igual à sua Vontade – enquanto estiver Distraído por este efeito, ele não poderá atacar você. Se o alvo falhar no teste, ele perde uma quantidade de Pontos de Vida e Pontos de Mana igual a sua Determinação e ficará Amedrontado com relação a você por um número de turnos igual à sua Vontade. Enquanto estiver Amedrontado por este efeito, o alvo não poderá utilizar Habilidades que consumam Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de medo.<br><br>Requer Nível 10, Marcha Fúnebre. Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "romance-alquimico",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "ff1fe1893689b741",
+    "_key": "!items!ff1fe1893689b741"
   },
   {
     "name": "Rugido de Ahogr",
@@ -29773,7 +32558,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Dançarino Macabro"
+        "Gótico"
       ],
       "tipoAcesso": "Caminho",
       "nivel": "Nv1",
@@ -29795,7 +32580,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "sabedoria-sobrenatural",
         "automatica": false,
         "acesso": [
-          "Dançarino Macabro"
+          "Gótico"
         ],
         "tipoAcesso": "Caminho",
         "nivel": "Nv1",
@@ -30025,6 +32810,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!80403403d7f951ba"
   },
   {
+    "name": "Satiricon",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Imitação Zureta",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 59",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é um mestre do escárnio e deboche, adorado por todos, exceto os alvos de suas piadas. Você consegue ser entendido a um nível primordial, recebendo +2 em sua Determinação, e em todos os seus testes sociais e nos testes e Confrontos de suas habilidades de efeito mental. Além disso, todas as suas habilidades ignoram resistências e imunidades a efeitos mentais e são capazes de afetar criaturas normalmente incapazes de entendê-lo, como animais ou pessoas com as quais não compartilhe um idioma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Criaturas de Mente Vazia ainda são imunes a suas habilidades mentais.<br><br>Requer Nível 10, Imitação Zureta. Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "satiricon",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "f97a71d4261b78a1",
+    "_key": "!items!f97a71d4261b78a1"
+  },
+  {
     "name": "Sede de Sangue",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -30177,6 +33010,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!0ccb7a979870c9f9"
   },
   {
+    "name": "Semelhança Cadavérica",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 49",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seu corpo é capaz de baixar o batimento cardíaco, respirar muito lentamente e ficar de olhos abertos por até 1 hora. Enquanto estiver nesse estado, você é virtualmente indistinguível de um cadáver (ou zumbi, dependendo da situação) e recebe +1d6 em seus testes de camuflagem, mas fica Vulnerável ao Frio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode se manter nesse estado por uma quantidade de horas igual à sua Vontade, mas se você entrar em combate ou realizar alguma Habilidade do tipo Ação ou Reação o efeito é cancelado imediatamente – você também pode cancelar esse efeito a qualquer momento como uma ação livre.<br><br>Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "semelhanca-cadaverica",
+        "automatica": false,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "e11a8133c02b5bf6",
+    "_key": "!items!e11a8133c02b5bf6"
+  },
+  {
     "name": "Senhor das Lâminas",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -30223,6 +33104,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "7a4da7ce778022b3",
     "_key": "!items!7a4da7ce778022b3"
+  },
+  {
+    "name": "Sensação do Palco",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Metaleiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 51",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você adora se exibir para uma multidão! Sempre que estiver diante de um grupo com pelo menos 10 indivíduos – seja uma plateia, seus aliados ou um bando de inimigos! – você recebe +2 em todos os seus testes relacionados à tocar instrumentos musicais (incluindo o uso de Músicas) e Determinação +2.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Metaleiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sensacao-do-palco",
+        "automatica": true,
+        "acesso": [
+          "Metaleiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "9e37d490f36e769d",
+    "_key": "!items!9e37d490f36e769d"
   },
   {
     "name": "Sentidos Apurados",
@@ -30375,6 +33304,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!ef86df439eae3df1"
   },
   {
+    "name": "Sermão",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 54",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Conversando com uma pessoa por pelo menos 10 minutos, você é capaz de cativá-la e trazer-lhe as boas novas. A pessoa que ouvi-lo recebe +1 em todos os seus testes por uma hora e recupera imediatamente uma quantidade de Pontos de Vida e Mana igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade uma vez por dia na mesma pessoa.<br><br>Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sermao",
+        "automatica": true,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "266a60bb0fc16378",
+    "_key": "!items!266a60bb0fc16378"
+  },
+  {
     "name": "Servo de Nehemoth",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -30483,7 +33460,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5, Ventriloquismo",
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",
@@ -30506,7 +33482,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "so-para-seus-ouvidos",
         "automatica": false,
         "acesso": [
-          "Bardo",
           "Menestrel"
         ],
         "tipoAcesso": "Classe",
@@ -30521,6 +33496,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!3cf33d500a8e6467"
   },
   {
+    "name": "Solicitar Doações",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Orador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 55",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é um pedinte excepcional fazendo com que todos caiam em sua lábia enquanto declama algo. Você recebe +2 em seus testes para Declamar, e recebe o dobro de moedas ao fazê-lo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Orador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "solicitar-doacoes",
+        "automatica": false,
+        "acesso": [
+          "Orador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "743954fe2236ab48",
+    "_key": "!items!743954fe2236ab48"
+  },
+  {
     "name": "Solo",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -30533,8 +33556,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Mestre das Notas",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -30556,8 +33578,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "solo",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Metaleiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -30583,8 +33604,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -30606,8 +33626,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "soprista",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -31171,6 +34190,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!a581d98229421a19"
   },
   {
+    "name": "Teatro da Tragédia",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Gótico"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Automática",
+      "fonteLivro": "Canção do Bardo, pág. 47",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você compreende que muitas das decisões tomadas por um indivíduo vêm de seus impulsos mais instintivos, tanto quanto de suas angústias e inseguranças, e é capaz de se conectar com os outros através desses mecanismos – enquanto se tornou algo narcotizado a eles. Você tem Determinação +2 e recebe +2 em todos os seus testes sociais – ou +1d6 se o alvo estiver Amedrontado ou Distraído.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Gótico.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "teatro-da-tragedia",
+        "automatica": true,
+        "acesso": [
+          "Gótico"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Automática",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "3294a0fc7b4e3205",
+    "_key": "!items!3294a0fc7b4e3205"
+  },
+  {
     "name": "Tempestade de Lâminas",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -31350,7 +34417,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",
@@ -31373,7 +34439,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "tocar-de-ouvido",
         "automatica": false,
         "acesso": [
-          "Bardo",
           "Menestrel"
         ],
         "tipoAcesso": "Classe",
@@ -31386,6 +34451,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "77af989d5f39c83d",
     "_key": "!items!77af989d5f39c83d"
+  },
+  {
+    "name": "Tomara que Caia",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cortesão"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 41",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você faz uma dança sedutora para atrair os olhos de todos! Faça um teste de dança. Todas as criaturas vivas que puderem ver você dançar têm que realizar um teste de Vontade (dificuldade igual ao seu resultado no teste de dança). Aqueles que falharem nesse teste soltam suas armas e ficam Desprevenidos enquanto verem você dançando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano, e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Especial: O custo em Mana desta ação só é gasto quando você realizar seu teste de Dança, e dura enquanto você puder se manter dançando – o que consome uma ação de movimento.<br><br>Caminho Cortesão.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "tomara-que-caia",
+        "automatica": false,
+        "acesso": [
+          "Cortesão"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "8da4b9f22d7cbf1a",
+    "_key": "!items!8da4b9f22d7cbf1a"
   },
   {
     "name": "Toque da Morte",
@@ -31644,7 +34757,8 @@ export const CANONICAL_HABILIDADES = [
         "Bardo",
         "Menestrel",
         "Ladino",
-        "Senescal"
+        "Senescal",
+        "Charlatão"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -31670,7 +34784,8 @@ export const CANONICAL_HABILIDADES = [
           "Bardo",
           "Menestrel",
           "Ladino",
-          "Senescal"
+          "Senescal",
+          "Charlatão"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -31780,6 +34895,54 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!b1f29f8a24a76204"
   },
   {
+    "name": "Trilha Sonora",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Língua Afiada",
+      "acesso": [
+        "Trovador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Canção do Bardo, pág. 65",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Enquanto você mantém suas Músicas, você faz com que seus inimigos se sintam pressionados cada vez mais. Você impõe uma penalidade de -1 em todos os testes de seus inimigos para cada turno em que mantiver uma Habilidade do tipo Música, até um mínimo de -6. Este efeito termina se você for interrompido ou trocar de Música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Fora do combate, essa Habilidade impõe uma penalidade de -1 (ou -2 se você for de nível 5 ou mais) – mas você pode utilizá-la mesmo se estiver usando a ação de Tocar Instrumentos Musicais, ao invés de uma Música.<br><br>Requer Nível 10, Língua Afiada. Caminho Trovador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "trilha-sonora",
+        "automatica": false,
+        "acesso": [
+          "Trovador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "e1447f1ab22ff0af",
+    "_key": "!items!e1447f1ab22ff0af"
+  },
+  {
     "name": "Truque Sujo",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -31793,9 +34956,10 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Evasão",
       "acesso": [
         "Bardo",
-        "Menestrel",
+        "Espadachim",
         "Ladino",
-        "Patrulheiro"
+        "Patrulheiro",
+        "Menestrel"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -31818,9 +34982,10 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Menestrel",
+          "Espadachim",
           "Ladino",
-          "Patrulheiro"
+          "Patrulheiro",
+          "Menestrel"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -31895,7 +35060,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Senescal",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",
@@ -31918,7 +35083,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Senescal",
-          "Bardo"
+          "Trovador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -31945,7 +35110,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5, Um Bom Conselho 1",
       "acesso": [
         "Senescal",
-        "Bardo"
+        "Trovador"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -31968,7 +35133,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Senescal",
-          "Bardo"
+          "Trovador"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -31980,6 +35145,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "bfeb13350ae55811",
     "_key": "!items!bfeb13350ae55811"
+  },
+  {
+    "name": "Um Péssimo Comentário",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "acao",
+      "categoria": "tecnica",
+      "custo": 15,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Sátiro"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Canção do Bardo, pág. 58",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você faz uma piada ruim, trocadilho enfadonho ou apenas um comentário de mau gosto que atrai brevemente o ódio de qualquer um capaz de alcançá-lo naquele momento. Faça um teste de Vontade. Todas as criaturas capazes de entendê-lo (exceto seus aliados, que já devem estar acostumados com seu senso de humor) que possuam uma Determinação menor ou igual ao seu resultado e estejam em alcance corporal, ou segurando algum objeto que possa ser arremessado com aptidão, devem realizar um ataque inapto contra você que causa apenas metade do dano (arredondado para baixo), e ficarão Distraídas até o fim de seu próximo turno. Além disso, quaisquer criaturas que o tenham conseguido atingir também estarão Desprevenidas até o fim de seu próximo turno. Este é um efeito mental.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sátiro.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "um-pessimo-comentario",
+        "automatica": false,
+        "acesso": [
+          "Sátiro"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "c41f5544ec298655",
+    "_key": "!items!c41f5544ec298655"
   },
   {
     "name": "Valor da Vitória",
@@ -32192,7 +35405,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",
@@ -32215,7 +35427,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "ventriloquismo",
         "automatica": false,
         "acesso": [
-          "Bardo",
           "Menestrel"
         ],
         "tipoAcesso": "Classe",
@@ -32242,8 +35453,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Nível 5",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -32265,8 +35475,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "versos-e-rimas",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -32639,7 +35848,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "Nível 5, Mestre das Notas",
       "acesso": [
         "Bardo",
-        "Menestrel"
+        "Metaleiro"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -32662,7 +35871,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Bardo",
-          "Menestrel"
+          "Metaleiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -32990,8 +36199,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
-        "Menestrel"
+        "Bardo"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv2",
@@ -33013,8 +36221,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "vocalista",
         "automatica": false,
         "acesso": [
-          "Bardo",
-          "Menestrel"
+          "Bardo"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv2",
@@ -33026,6 +36233,54 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "1d92c7068d865f55",
     "_key": "!items!1d92c7068d865f55"
+  },
+  {
+    "name": "Vocalização Perfeita",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Trovador"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Canção do Bardo, pág. 65",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Sua voz é ótima para cantar e declamar, não precisando fazer esforços para que todos lhe ouçam. Você consome 5 Pontos de Mana a menos em todas as habilidade do tipo Grito, Rugido e Músicas do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Trovador.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "vocalizacao-perfeita",
+        "automatica": false,
+        "acesso": [
+          "Trovador"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": []
+      }
+    },
+    "_id": "98ae90f69b171ab8",
+    "_key": "!items!98ae90f69b171ab8"
   },
   {
     "name": "Vontade de Ferro",
@@ -33293,7 +36548,6 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Bardo",
         "Menestrel"
       ],
       "tipoAcesso": "Classe",
@@ -33316,7 +36570,6 @@ export const CANONICAL_HABILIDADES = [
         "slug": "voz-de-peito",
         "automatica": false,
         "acesso": [
-          "Bardo",
           "Menestrel"
         ],
         "tipoAcesso": "Classe",
@@ -34170,8 +37423,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Telecinésia",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 69, 95",
@@ -34185,8 +37437,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "ariete-magico",
         "tipo": "Ação",
         "acesso": [
-          "Feiticeiro",
-          "Rúnico"
+          "Feiticeiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -34460,7 +37711,6 @@ export const CANONICAL_MAGIAS = [
       "requisitos": "Caminhada Mágica",
       "acesso": [
         "Druida",
-        "Feiticeiro",
         "Sacerdote"
       ],
       "tipoAcesso": "Classe",
@@ -34476,7 +37726,6 @@ export const CANONICAL_MAGIAS = [
         "tipo": "Ação",
         "acesso": [
           "Druida",
-          "Feiticeiro",
           "Sacerdote"
         ],
         "tipoAcesso": "Classe",
@@ -34914,8 +38163,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Benção de Ellenis",
       "acesso": [
-        "Druida",
-        "Xamã"
+        "Druida"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 84; Errata - Guia Básico, pág. 1",
@@ -34929,8 +38177,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "bestializar",
         "tipo": "Ação",
         "acesso": [
-          "Druida",
-          "Xamã"
+          "Druida"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -35040,7 +38287,6 @@ export const CANONICAL_MAGIAS = [
       "requisitos": "",
       "acesso": [
         "Druida",
-        "Feiticeiro",
         "Sacerdote"
       ],
       "tipoAcesso": "Classe",
@@ -35056,7 +38302,6 @@ export const CANONICAL_MAGIAS = [
         "tipo": "Ação",
         "acesso": [
           "Druida",
-          "Feiticeiro",
           "Sacerdote"
         ],
         "tipoAcesso": "Classe",
@@ -35699,9 +38944,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Benção de Ellenis",
       "acesso": [
-        "Druida",
-        "Patrulheiro",
-        "Xamã"
+        "Druida"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 85, 120; Codex Monstrorum, pág. 175",
@@ -35715,9 +38958,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "convocar-animais",
         "tipo": "Ação",
         "acesso": [
-          "Druida",
-          "Patrulheiro",
-          "Xamã"
+          "Druida"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -38417,8 +41658,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Telecinésia",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 98",
@@ -38432,8 +41672,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "levitar",
         "tipo": "Ação",
         "acesso": [
-          "Feiticeiro",
-          "Rúnico"
+          "Feiticeiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -38911,8 +42150,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Eletricidade Estática",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Errata, pág. 7; Guia Básico - 3ª Edição, pág. 98",
@@ -38926,8 +42164,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "manto-crepitante",
         "tipo": "Ação",
         "acesso": [
-          "Feiticeiro",
-          "Rúnico"
+          "Feiticeiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -40023,8 +43260,7 @@ export const CANONICAL_MAGIAS = [
       "requisitos": "",
       "acesso": [
         "Feiticeiro",
-        "Rúnico",
-        "Dracomante"
+        "Rúnico"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99, 101",
@@ -40039,8 +43275,7 @@ export const CANONICAL_MAGIAS = [
         "tipo": "Ação",
         "acesso": [
           "Feiticeiro",
-          "Rúnico",
-          "Dracomante"
+          "Rúnico"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
@@ -40436,8 +43671,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "",
       "acesso": [
-        "Feiticeiro",
-        "Rúnico"
+        "Feiticeiro"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 99; Rúnico, pág. 95",
@@ -40451,8 +43685,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "telecinesia",
         "tipo": "Ação",
         "acesso": [
-          "Feiticeiro",
-          "Rúnico"
+          "Feiticeiro"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",
