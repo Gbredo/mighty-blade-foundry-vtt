@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental 2</p><p>Você conjura um grande Elemental de Fogo ou do Gelo desenhando uma runa Arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana que mantém o Elemental coeso se dissipa depois de 10 minutos. Veja os dados dos Elementais no *Monstrum Codex* para mais detalhes.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "e0f2ed66117bb694",

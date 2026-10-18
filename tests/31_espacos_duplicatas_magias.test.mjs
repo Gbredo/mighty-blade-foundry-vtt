@@ -424,7 +424,7 @@ describe("Espaços por Nível, Bloqueio de Duplicatas e UX de Magias (Gnoll Necr
     assert.equal(espacosAntes.limite, 3, "Limite base do nível 1 é 3");
     assert.equal(espacosAntes.virtuais, 0, "Sem virtuais antes de substituir");
 
-    // Sacerdote adquire Pacto (sobrescreve: ["conhecimento-mistico", "dogma"])
+    // Sacerdote adquire Pacto (sobrescreve resolvido via CANONICAL_HABILIDADES)
     sacerdote.items.push({
       _id: "hab-pacto",
       id: "hab-pacto",
@@ -433,17 +433,13 @@ describe("Espaços por Nível, Bloqueio de Duplicatas e UX de Magias (Gnoll Necr
       flags: {
         "mighty-blade": {
           slug: "pacto",
-          sobrescreve: ["conhecimento-mistico", "dogma"],
         },
-      },
-      system: {
-        sobrescreve: ["conhecimento-mistico", "dogma"],
       },
     });
 
     // Nível 1: ganha min(totalSubstituidas = 2, nivel = 1) = 1 habilidade virtual -> Limite = 3 + 1 = 4
     const espacosNv1 = calcularEspacosHabilidades(sacerdote);
-    assert.equal(espacosNv1.totalSubstituidas, 2, "2 automáticas substituídas");
+    assert.equal(espacosNv1.totalSubstituidas, 2, "2 automáticas substituídas por Pacto via CANONICAL_HABILIDADES");
     assert.equal(espacosNv1.virtuais, 1, "No nível 1, recebe 1 habilidade virtual");
     assert.equal(espacosNv1.limite, 4, "Limite expandido para 4 no nível 1");
 
@@ -453,6 +449,24 @@ describe("Espaços por Nível, Bloqueio de Duplicatas e UX de Magias (Gnoll Necr
     assert.equal(espacosNv2.virtuais, 2, "No nível 2, recebe 2 habilidades virtuais");
     assert.equal(espacosNv2.baseLimite, 4, "Base no nível 2 é 4");
     assert.equal(espacosNv2.limite, 6, "Limite expandido para 6 no nível 2");
+
+    // Teste com Apóstata: substitui Pacto por Apóstata e confere resolução canônica
+    sacerdote.items = sacerdote.items.filter((it) => it.id !== "hab-pacto");
+    sacerdote.items.push({
+      _id: "hab-apostata",
+      id: "hab-apostata",
+      name: "Apóstata",
+      type: "habilidade",
+      flags: {
+        "mighty-blade": {
+          slug: "apostata",
+        },
+      },
+    });
+    const espacosApostata = calcularEspacosHabilidades(sacerdote);
+    assert.equal(espacosApostata.totalSubstituidas, 2, "2 automáticas substituídas por Apóstata via CANONICAL_HABILIDADES");
+    assert.equal(espacosApostata.virtuais, 2, "No nível 2, Apóstata concede 2 virtuais");
+    assert.equal(espacosApostata.limite, 6, "Limite expandido para 6 com Apóstata no nível 2");
   });
 
   test("Aviso de Magia em Lote: se várias magias forem criadas juntas, mostra aviso único consolidado", async () => {

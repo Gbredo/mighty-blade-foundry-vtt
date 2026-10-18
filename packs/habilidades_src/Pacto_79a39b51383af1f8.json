@@ -24,6 +24,10 @@
     ],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [
+      "conhecimento-mistico",
+      "dogma"
+    ],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -78,7 +82,11 @@
         }
       ],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": [
+        "conhecimento-mistico",
+        "dogma"
+      ]
     }
   },
   "_id": "79a39b51383af1f8",

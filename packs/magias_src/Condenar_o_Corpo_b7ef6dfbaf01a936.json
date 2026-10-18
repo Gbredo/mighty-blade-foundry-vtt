@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Despertar dos Mortos 1</p><p>Desenhando uma Runa Arcana entre você e uma criatura viva, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente, indo para o Plano Espiritual, enquanto o corpo se erguerá como um zumbi. Se o alvo desta magia estiver dentro da sua linha de visão no momento em que morrer, o zumbi estará automaticamente sob seu controle – caso contrário, ele se erguerá como um morto-vivo errante.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação, mas assim que o corpo morrer, ela se torna uma Runa Arcana idêntica àquela de Despertar dos Mortos 1.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "b7ef6dfbaf01a936",

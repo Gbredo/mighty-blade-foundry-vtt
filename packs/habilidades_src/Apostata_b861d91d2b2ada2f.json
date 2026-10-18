@@ -25,6 +25,10 @@
       "asteria-f"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [
+      "conhecimento-mistico",
+      "dogma"
+    ],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -55,7 +59,11 @@
         "asterio-m",
         "asteria-f"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": [
+        "conhecimento-mistico",
+        "dogma"
+      ]
     }
   },
   "_id": "b861d91d2b2ada2f",

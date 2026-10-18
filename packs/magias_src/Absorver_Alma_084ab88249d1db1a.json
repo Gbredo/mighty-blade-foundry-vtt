@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p>Se alguma criatura do tipo Humanoide ou Esfinge chegou a 0 Pontos de Vida no último minuto, você pode desenhar uma Runa Arcana sobre ela e absorver a energia vital daquela criatura, restaurando uma quantidade de Pontos de Mana igual à quantidade de Pontos de Mana permanentes do alvo – se a criatura estiver Por um Fio, ela morre imediatamente. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito de dreno de energia.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "084ab88249d1db1a",

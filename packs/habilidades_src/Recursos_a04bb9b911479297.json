@@ -21,6 +21,7 @@
       "hamelin"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -44,7 +45,8 @@
       "racasExcluidas": [
         "hamelin"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "a04bb9b911479297",

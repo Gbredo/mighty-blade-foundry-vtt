@@ -21,6 +21,7 @@
       "aesir"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -44,7 +45,8 @@
       "racasExcluidas": [
         "aesir"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "fa5bc683133e527e",

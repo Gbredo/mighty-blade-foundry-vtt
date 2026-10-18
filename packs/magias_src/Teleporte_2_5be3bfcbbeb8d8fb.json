@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Teleporte 1</p><p>Desenhando uma runa arcana sobre si mesmo enquanto se concentra em um local qualquer que já tenha visitado pelo menos uma vez, você se teleporta imediatamente para o local pretendido. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "5be3bfcbbeb8d8fb",

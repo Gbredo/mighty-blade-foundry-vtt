@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Sintonia Dracônica</p><p>Desenhando um Selo Místico sobre um alvo, ele passa a absorver o elemento da sua Sintonia Dracônica (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria por aquele elemento).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico dura 1 minuto. Especial: Se essa magia for lançada a partir de um item de registro sem que o conjurador tenha Sintonia Dracônica, ela funciona exatamente como Resistência Elemental. Requer Nível 5 e Sintonia Dracônica.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "90f66779066334af",

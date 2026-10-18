@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Invisibilidade 1</p><p>Desenhando uma Runa Arcana sobre uma criatura, você a torna – assim como todas as suas posses – invisível. Essa Runa Arcana ou Selo Místico dura por uma quantidade de horas igual à Inteligência do conjurador.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Invisibilidade 1. Caminho Ilusionista.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "2b731b5474f8a58d",

@@ -548,6 +548,7 @@ function loadObsidianHabilidades() {
       rawBody,
       racasExcluidas: racasExcluidas.length > 0 ? racasExcluidas : (rcMatch?.racasExcluidas || []),
       idiomasRequeridos: idiomasRequeridos.length > 0 ? idiomasRequeridos : (rcMatch?.idiomasRequeridos || []),
+      sobrescreve: Array.isArray(rcMatch?.sobrescreve) ? rcMatch.sobrescreve : (rcMatch?.sobrescreve ? [rcMatch.sobrescreve] : []),
       efeitos: rcMatch?.efeitos || [],
       opcoes: subEscolhas.length > 0 ? subEscolhas : (rcMatch?.opcoes || []),
       automatica: nivel.toLowerCase() === "automática" || nivel.toLowerCase() === "automatica" || !!rcMatch?.automatica,
@@ -620,6 +621,7 @@ function buildAbilityOrSpellItem(hab) {
           exclusivoCom,
           racasExcluidas: hab.racasExcluidas || [],
           idiomasRequeridos: hab.idiomasRequeridos || [],
+          sobrescreve: hab.sobrescreve || [],
           description: reqStr ? "<p><strong>Requisitos:</strong> " + reqStr + "</p>" + descHtml : descHtml,
         },
         flags: {
@@ -632,6 +634,7 @@ function buildAbilityOrSpellItem(hab) {
             aliases: hab.aliases || [],
             racasExcluidas: hab.racasExcluidas || [],
             idiomasRequeridos: hab.idiomasRequeridos || [],
+            sobrescreve: hab.sobrescreve || [],
           },
         },
       },
@@ -666,6 +669,7 @@ function buildAbilityOrSpellItem(hab) {
     opcoes: hab.opcoes || [],
     racasExcluidas: hab.racasExcluidas || [],
     idiomasRequeridos: hab.idiomasRequeridos || [],
+    sobrescreve: hab.sobrescreve || [],
   };
 
   if (slug === "adaptabilidade") {
@@ -722,6 +726,7 @@ function buildAbilityOrSpellItem(hab) {
         exclusivoCom,
         racasExcluidas: hab.racasExcluidas || [],
         idiomasRequeridos: hab.idiomasRequeridos || [],
+        sobrescreve: hab.sobrescreve || [],
         somenteCriacao,
         bonusAtributo,
         efeitos: hab.efeitos || [],
@@ -830,6 +835,9 @@ function buildDraconicSubFeatures() {
       nivel: "Automática",
       fonteLivro: "Guia Básico - 3ª Edição",
       exclusivoCom: [],
+      racasExcluidas: [],
+      idiomasRequeridos: [],
+      sobrescreve: [],
       bonusAtributo: { atributo: "", valor: 0 },
       efeitos: sf.efeitos,
       concessoes: [],
@@ -847,6 +855,9 @@ function buildDraconicSubFeatures() {
         tipoAcesso: "Raça",
         nivel: "Automática",
         opcoes: [],
+        racasExcluidas: [],
+        idiomasRequeridos: [],
+        sobrescreve: [],
       },
     },
   }));

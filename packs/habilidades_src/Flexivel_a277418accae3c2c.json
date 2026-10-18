@@ -21,6 +21,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -50,7 +51,8 @@
       "aliases": [],
       "opcoes": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "a277418accae3c2c",

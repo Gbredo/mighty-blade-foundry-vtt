@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Aura do Dragão</p><p>Você é capaz de produzir um campo de magnetismo ao seu redor, repelindo metal. Desenhando um Selo Místico sobre si mesmo, você sempre pode ativá-lo se for alvo de um ataque de uma arma com componentes de metal, impedindo que a arma o toque, evitando o ataque completamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse Selo Místico se dissipa apenas quando você dormir (ou perder a consciência de alguma forma) e não quando é ativado – mas consome seu custo em Mana sempre que seu efeito for desencadeado. Requer Aura do Dragão.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "1fd955483820f8f8",

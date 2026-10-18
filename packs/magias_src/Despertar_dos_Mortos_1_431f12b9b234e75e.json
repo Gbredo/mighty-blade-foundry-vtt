@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p>Desenhando uma Runa Arcana sobre os restos de uma Besta ou Humanoide de tamanho Médio ou menor, você o transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras e dificuldades para realizar certas ações. O morto-vivo estará sob seu controle e acatará quaisquer comandos verbais simples (Ataque aquela criatura, defenda esse local, carregue esses itens, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de horas igual à sua Determinação.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "431f12b9b234e75e",

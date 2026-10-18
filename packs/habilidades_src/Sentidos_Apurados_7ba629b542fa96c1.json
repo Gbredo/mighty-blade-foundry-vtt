@@ -21,6 +21,7 @@
       "mahok"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -44,7 +45,8 @@
       "racasExcluidas": [
         "mahok"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "7ba629b542fa96c1",

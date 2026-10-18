@@ -22,6 +22,7 @@
       "metadilio"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -46,7 +47,8 @@
         "anao",
         "metadilio"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "43834237faca56e3",

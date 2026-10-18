@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p>Desenhando uma Runa Arcana sobre um morto-vivo ou espírito, ele fica sob seu controle. Se o morto-vivo estiver sendo controlado por outra criatura, a dificuldade será igual à Determinação do controlador. Um morto-vivo ou espírito controlado dessa forma será completamente leal ao conjurador e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Alvos com Mente Bloqueada são imunes a este efeito. Essa Runa Arcana dura por uma quantidade de horas igual à sua Determinação.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "139a87f163cc2c20",

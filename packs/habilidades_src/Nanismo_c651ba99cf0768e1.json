@@ -21,6 +21,7 @@
       "metadilio"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -44,7 +45,8 @@
       "racasExcluidas": [
         "metadilio"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "c651ba99cf0768e1",

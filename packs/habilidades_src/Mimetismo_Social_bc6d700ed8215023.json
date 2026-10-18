@@ -22,6 +22,7 @@
       "asteria-f"
     ],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -46,7 +47,8 @@
         "asterio-m",
         "asteria-f"
       ],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "bc6d700ed8215023",

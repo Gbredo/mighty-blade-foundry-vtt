@@ -19,6 +19,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -240,6 +241,7 @@
       "opcoes": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
+      "sobrescreve": [],
       "hasAdvancement": true,
       "advancementType": "origemDraconica"
     }

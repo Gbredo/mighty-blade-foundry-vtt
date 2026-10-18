@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você transfere a energia dela para outra criatura. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. Você então transfere a energia retirada da Sombra para uma criatura que possa tocar, que imediatamente recupera aquela quantidade de Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Contato com Espíritos.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "470b991459187b81",

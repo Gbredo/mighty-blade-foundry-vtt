@@ -19,6 +19,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -93,6 +94,7 @@
       ],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
+      "sobrescreve": [],
       "hasAdvancement": true,
       "advancementType": "escolhaAtributo"
     }

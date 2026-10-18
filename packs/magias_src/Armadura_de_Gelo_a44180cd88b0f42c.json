@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Parede de Gelo</p><p>Desenhando uma Runa Arcana sobre uma criatura, você a envolve em uma camada de gelo mágico que age como uma armadura. A armadura não causa dano por frio à criatura dentro dela (mas transmite uma sensação de frescor), não compromete sua movimentação ou seus sentidos e permite respirar e falar normalmente. A armadura absorve os ataques que atingiriam a criatura dentro dela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Parede de Gelo. Dura 1 minuto ou até perder seus Pontos de Vida.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "a44180cd88b0f42c",

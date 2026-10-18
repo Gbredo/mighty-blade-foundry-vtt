@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p>Desenhando uma Runa Arcana sobre uma criatura, você a envolve em energia espectral que cura uma quantidade de Pontos de Vida igual à sua Determinação se o alvo for um morto-vivo ou espírito. Se o alvo for uma criatura viva, ele perde uma quantidade de Pontos de Vida igual à sua Determinação e você recupera uma quantidade de Pontos de Vida igual à quantidade perdida pelo alvo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados. Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "58c390dece87bfdc",

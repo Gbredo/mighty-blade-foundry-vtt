@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5</p><p>Desenhando uma Runa Arcana entre você e uma criatura dentro da sua linha de visão, você faz com que o alvo verta sangue através da pele. O alvo perde uma quantidade de Pontos de Vida igual à sua Vontade por turno. Essa Runa Arcana dura por uma quantidade de turnos igual à sua Vontade. Este é um efeito de sangramento. Este efeito é considerado como uma Maldição.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Sanguíneo.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "f78b1f968333cbb2",

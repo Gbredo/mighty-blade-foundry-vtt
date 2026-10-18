@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p>Desenhando um Símbolo Profano sobre uma criatura viva, você faz o alvo sentir dores musculares terríveis. O alvo precisa fazer um teste de Força (Dificuldade igual à Determinação do conjurador) no começo de cada um dos seus turnos para poder agir. Em cada turno que falhar, ele fica Paralisado, incapaz de agir, retorcendo-se de dor. Esse Símbolo Profano dura uma quantidade de turnos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Aziago.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "7846ecd1a0cd793c",

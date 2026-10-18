@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p>Desenhando uma Runa Arcana sobre o cadáver de uma criatura você o protege de efeitos de apodrecimento e impede que ele seja transformado em um morto-vivo por qualquer efeito. Essa magia pode ser conjurada sobre um corpo completo ou sobre partes removidas dele – útil para transportar cadáveres, manter partes decepadas inteiras para serem colocadas de volta no lugar ou mesmo para preservar comida!</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Mortos-vivos afetados por esta Magia recebem Redução de Dano 2. Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv1",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "32e096f70b76c23c",

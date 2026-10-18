@@ -25,6 +25,7 @@
       "quoratus",
       "trackkara"
     ],
+    "sobrescreve": [],
     "somenteCriacao": false,
     "bonusAtributo": {
       "atributo": "",
@@ -52,7 +53,8 @@
         "draen",
         "quoratus",
         "trackkara"
-      ]
+      ],
+      "sobrescreve": []
     }
   },
   "_id": "58868017bc0072e7",

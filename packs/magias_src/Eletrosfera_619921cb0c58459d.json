@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Relâmpago 2</p><p>Você desenha uma Runa Arcana sobre si mesmo, fazendo um turbilhão de raios elétricos emanarem a partir dela. No final do seu turno, tudo e todos que estiverem a uma quantidade de metros igual à sua Inteligência ao seu redor sofrem uma quantidade de dano igual a 20/Eletricidade. Alvos usando armaduras com a Característica Pesada que sofram esse dano também ficam Atordoadas por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Essa Runa Arcana dura uma quantidade de turnos igual à sua Vontade.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "619921cb0c58459d",

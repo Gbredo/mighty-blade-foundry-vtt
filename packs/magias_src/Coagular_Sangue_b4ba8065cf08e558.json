@@ -20,6 +20,7 @@
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
+    "sobrescreve": [],
     "description": "<p><strong>Requisitos:</strong> Nível 5, Percepção Sanguínea</p><p>Desenhando uma Runa Arcana sobre uma criatura viva, você pode engrossar seu sangue com efeitos benéficos – ou mortais! Você pode coagular apenas sangue exposto, cessando assim todos os efeitos de Sangramento que a criatura estiver sofrendo por um custo de 5 Pontos de Mana. Você pode engrossar levemente o sangue dentro das veias da criatura fazendo com que ela fique desorientada, ficando Atordoada por um número de turnos igual à Vontade do Conjurador por 15 Pontos de Mana. Ou você pode coagular o sangue do alvo, fazendo com que o alvo perca 30 Pontos de Vida e fique Distraído por 1 turno devido ao mal estar súbito por um custo de 30 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Percepção Sanguínea. Caminho Sanguíneo.</p></div>"
   },
   "flags": {
@@ -33,7 +34,8 @@
       "nivel": "Nv2",
       "aliases": [],
       "racasExcluidas": [],
-      "idiomasRequeridos": []
+      "idiomasRequeridos": [],
+      "sobrescreve": []
     }
   },
   "_id": "b4ba8065cf08e558",

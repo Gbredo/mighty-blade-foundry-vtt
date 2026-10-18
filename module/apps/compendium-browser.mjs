@@ -100,11 +100,6 @@ export function calcularEspacosHabilidades(actor) {
   }
 
   // 4. Habilidades Virtuais (Automáticas que foram substituídas por Caminho ou Habilidades com 'sobrescreve')
-  const CANONICAL_SOBRESCREVE_MAP = {
-    pacto: ["conhecimento-mistico", "dogma"],
-    apostata: ["conhecimento-mistico", "dogma"],
-  };
-
   const idsSobrescritos = new Set();
   for (const item of rawItems) {
     const mbFlags = item.flags?.["mighty-blade"] || {};
@@ -116,10 +111,6 @@ export function calcularEspacosHabilidades(actor) {
     }
 
     const itemSlug = mbFlags.slug || slugify(item.name || "");
-    if (CANONICAL_SOBRESCREVE_MAP[itemSlug]) {
-      for (const s of CANONICAL_SOBRESCREVE_MAP[itemSlug]) idsSobrescritos.add(slugify(s));
-    }
-
     const canonHab = CANONICAL_HABILIDADES.find((h) => (h.flags?.["mighty-blade"]?.slug || slugify(h.name)) === itemSlug);
     const canonSob = canonHab?.system?.sobrescreve || canonHab?.flags?.["mighty-blade"]?.sobrescreve;
     if (Array.isArray(canonSob)) {
