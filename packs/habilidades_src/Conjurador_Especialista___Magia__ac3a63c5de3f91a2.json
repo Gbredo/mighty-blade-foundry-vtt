@@ -1,0 +1,53 @@
+{
+  "name": "Conjurador Especialista: [Magia]",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "suporte",
+    "categoria": "tecnica",
+    "custo": 0,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 5",
+    "acesso": [
+      "Argênteo"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv2",
+    "fonteLivro": "Guia de Tebryn, pág. 111",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "sobrescreve": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Você domina a conjuração de uma Magia de forma magistral. Quando seleciona esta Habilidade, você deve selecionar uma Habilidade do tipo Magia que você já possua OU que você possa aprender. A magia deve ter pelo menos uma Habilidade do tipo Magia como requisito. Se você não tiver aquela Habilidade, você agora é capaz de conjura-la e recebe um bônus de +2 em seus testes para fazê-lo. Além disso, você recebe um bônus de +1d6 para conjurar quaisquer magias que sejam Requisito da magia selecionada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Argênteo.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "conjurador-especialista-magia",
+      "automatica": false,
+      "acesso": [
+        "Argênteo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "aliases": [
+        "Conjurador Especialista: [Magia]",
+        "Conjurador Especialista"
+      ],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": []
+    }
+  },
+  "_id": "ac3a63c5de3f91a2",
+  "_key": "!items!ac3a63c5de3f91a2"
+}

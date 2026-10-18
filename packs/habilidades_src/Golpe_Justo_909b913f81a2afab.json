@@ -1,0 +1,50 @@
+{
+  "name": "Golpe Justo",
+  "type": "habilidade",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "tipo": "reacao",
+    "categoria": "padrao",
+    "custo": 30,
+    "custoVariavel": false,
+    "dificuldade": 0,
+    "dificuldadeTexto": "",
+    "requisitos": "Nível 10",
+    "acesso": [
+      "Cruzado"
+    ],
+    "tipoAcesso": "Caminho",
+    "nivel": "Nv3",
+    "fonteLivro": "Guia de Tebryn, pág. 114",
+    "exclusivoCom": [],
+    "racasExcluidas": [],
+    "idiomasRequeridos": [],
+    "sobrescreve": [],
+    "somenteCriacao": false,
+    "bonusAtributo": {
+      "atributo": "",
+      "valor": 0
+    },
+    "efeitos": [],
+    "concessoes": [],
+    "description": "<p>Sempre que realizar um ataque corporal contra uma criatura, você pode mudar o resultado de um dos dados para 6.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Essa Habilidade não tem efeito em criaturas que possuam um Dogma.<br><br>Requer Nível 10. Caminho Cruzado.</p></div>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "golpe-justo",
+      "automatica": false,
+      "acesso": [
+        "Cruzado"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "aliases": [],
+      "opcoes": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": []
+    }
+  },
+  "_id": "909b913f81a2afab",
+  "_key": "!items!909b913f81a2afab"
+}

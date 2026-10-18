@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1274 | Diários: 78
+ * Total de itens: 1285 | Diários: 78
  */
 
 export const CANONICAL_RACAS = [
@@ -8553,6 +8553,56 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!a2971907ecf9456b"
   },
   {
+    "name": "Banir a Perversão",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "padrao",
+      "custo": 20,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Quebrar a Defesa Sombria",
+      "acesso": [
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Guia de Tebryn, pág. 118",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Sempre que realizar um ataque corporal contra criaturas dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo, você pode declarar que aquele ataque foi um sucesso decisivo automático. Você deve declarar o uso desta Habilidade antes de realizar sua rolagem de ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Quebrar a Defesa Sombria. Caminho Estrige.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "banir-a-perversao",
+        "automatica": false,
+        "acesso": [
+          "Estrige"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "c2b5b292bf6c4705",
+    "_key": "!items!c2b5b292bf6c4705"
+  },
+  {
     "name": "Banir",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -13041,6 +13091,59 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!7cb5488db4716363"
   },
   {
+    "name": "Conjurador Especialista: [Magia]",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5",
+      "acesso": [
+        "Argênteo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Guia de Tebryn, pág. 111",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você domina a conjuração de uma Magia de forma magistral. Quando seleciona esta Habilidade, você deve selecionar uma Habilidade do tipo Magia que você já possua OU que você possa aprender. A magia deve ter pelo menos uma Habilidade do tipo Magia como requisito. Se você não tiver aquela Habilidade, você agora é capaz de conjura-la e recebe um bônus de +2 em seus testes para fazê-lo. Além disso, você recebe um bônus de +1d6 para conjurar quaisquer magias que sejam Requisito da magia selecionada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Argênteo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "conjurador-especialista-magia",
+        "automatica": false,
+        "acesso": [
+          "Argênteo"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [
+          "Conjurador Especialista: [Magia]",
+          "Conjurador Especialista"
+        ],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "ac3a63c5de3f91a2",
+    "_key": "!items!ac3a63c5de3f91a2"
+  },
+  {
     "name": "Conselheiro Pessoal",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -17473,6 +17576,56 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!9d3cd87f6dbb10ef"
   },
   {
+    "name": "Escrivão",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "tecnica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Escriba"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Drakon - O Tomo das Muitas Línguas, pág. 42",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você está acostumado a ler e escrever é extremamente eficiente nisso. Você leva metade do tempo normal para ler ou escrever qualquer texto (incluindo estudar Magias em itens com a característica Registro). Além disso, quando estudar magias em um item com Registro, você recebe +1d6 em seus testes de Inteligência ou Vontade para compreender aquelas magias.</p><p>Finalmente, você é capaz de conjurar Magias tanto Arcanas quanto Místicas a partir de um item com Registro e desenhar Runas ou Selos simples – mas realiza seus testes para conjurar estas magias como se fosse Inapto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Escriba.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "escrivao",
+        "automatica": false,
+        "acesso": [
+          "Escriba"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "471c0c61c81cb273",
+    "_key": "!items!471c0c61c81cb273"
+  },
+  {
     "name": "Espagiria",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -21069,6 +21222,56 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!7059a160dcc2088c"
   },
   {
+    "name": "Golpe Justo",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "padrao",
+      "custo": 30,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10",
+      "acesso": [
+        "Cruzado"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Guia de Tebryn, pág. 114",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Sempre que realizar um ataque corporal contra uma criatura, você pode mudar o resultado de um dos dados para 6.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Essa Habilidade não tem efeito em criaturas que possuam um Dogma.<br><br>Requer Nível 10. Caminho Cruzado.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "golpe-justo",
+        "automatica": false,
+        "acesso": [
+          "Cruzado"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "909b913f81a2afab",
+    "_key": "!items!909b913f81a2afab"
+  },
+  {
     "name": "Golpes Rápidos",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -22843,6 +23046,56 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "38e678cc56cdc2a3",
     "_key": "!items!38e678cc56cdc2a3"
+  },
+  {
+    "name": "Imunidade Sobrenatural",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia de Tebryn, pág. 117",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seu corpo possui uma resistência incrível a maldições. Você é imune a doenças mágicas e maldições, e recebe +1d6 para resistir a doenças naturais e venenos naturais mágicos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Estrige.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "imunidade-sobrenatural",
+        "automatica": false,
+        "acesso": [
+          "Estrige"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "f49b5ab84dbd8aa4",
+    "_key": "!items!f49b5ab84dbd8aa4"
   },
   {
     "name": "Incitar Briga",
@@ -27414,6 +27667,56 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!8e6590abdea60bb1"
   },
   {
+    "name": "Mestre Telecinético",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 10, Teólogo",
+      "acesso": [
+        "Argênteo"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv3",
+      "fonteLivro": "Guia de Tebryn, pág. 111",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você possui um controle profundo sobre Magias dedicados a mover criaturas e objetos. Você pode conjurar Telecinese e Caminhada Mágica (ou qualquer Magia que tenha uma dessas magias como Requisito mesmo que retroativamente) como uma ação de movimento ao invés de uma ação padrão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Teólogo. Caminho Argênteo.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "mestre-telecinetico",
+        "automatica": false,
+        "acesso": [
+          "Argênteo"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv3",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "73af20c38cd124f0",
+    "_key": "!items!73af20c38cd124f0"
+  },
+  {
     "name": "Militar",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -30293,6 +30596,56 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "0eb7ddd5c1b58cd6",
     "_key": "!items!0eb7ddd5c1b58cd6"
+  },
+  {
+    "name": "Perceber Corrupção",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Sexto Sentido",
+      "acesso": [
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Guia de Tebryn, pág. 118",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Criaturas sobrenaturais não são capazes de esconder sua natureza de você. Sempre que você estiver diante de uma criatura amaldiçoada, um morto-vivo, Infernal ou espírito, você é capaz de perceber a natureza sobrenatural daquela criatura imediatamente, mesmo que ela esteja disfarçada, transformada ou sob algum efeito ilusório – incluindo qualquer forma de invisibilidade. Você também é capaz de perceber automaticamente quaisquer mentiras que tais criaturas digam.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Sexto Sentido. Caminho Estrige.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "perceber-corrupcao",
+        "automatica": false,
+        "acesso": [
+          "Estrige"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "8dd461efa89bbb5e",
+    "_key": "!items!8dd461efa89bbb5e"
   },
   {
     "name": "Percusionista Imparável",
@@ -34744,6 +35097,56 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!9e37d490f36e769d"
   },
   {
+    "name": "Sentido de Alerta",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "reacao",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "Nível 5, Sentidos de Caçador",
+      "acesso": [
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv2",
+      "fonteLivro": "Guia de Tebryn, pág. 118",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Seus sentidos são sobrenaturalmente afiados e seu sono é extremamente leve. Você nunca é considerado Surpreso ou Desprevenido e recebe +2 em suas rolagens de Iniciativa. Além disso, se você estiver dormindo ou desacordado, você desperta imediatamente se for atacado, rolando sua Iniciativa – e se tiver um resultado maior do que o do atacante, pode agir antes dele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Sentidos de Caçador. Caminho Estrige.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sentido-de-alerta",
+        "automatica": false,
+        "acesso": [
+          "Estrige"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv2",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "cd4cd7857866cf12",
+    "_key": "!items!cd4cd7857866cf12"
+  },
+  {
     "name": "Sentidos Apurados",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -35000,6 +35403,56 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "deb15553ee919560",
     "_key": "!items!deb15553ee919560"
+  },
+  {
+    "name": "Sexto Sentido",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia de Tebryn, pág. 117",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você é capaz de sentir a presença de qualquer criatura dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo que se aproxime de você a uma distância em metros igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Estrige.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sexto-sentido",
+        "automatica": false,
+        "acesso": [
+          "Estrige"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "335aae1034ef88d7",
+    "_key": "!items!335aae1034ef88d7"
   },
   {
     "name": "Sintonia Dracônica",
@@ -38003,6 +38456,56 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!98ae90f69b171ab8"
   },
   {
+    "name": "Vontade da Lei",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cruzado"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia de Tebryn, pág. 113",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você possui uma mentalidade tão rigidamente ordeira que é muito difícil manipulá-lo ou fazê-lo mudar de idéia. Você tem Determinação +2 e recebe +2 em todos os testes e confrontos para resistir a tentativas de manipulação, intimidação, efeitos mentais e efeitos de medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cruzado.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "vontade-da-lei",
+        "automatica": false,
+        "acesso": [
+          "Cruzado"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "5299fa1078adbe97",
+    "_key": "!items!5299fa1078adbe97"
+  },
+  {
     "name": "Vontade de Ferro",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -38164,6 +38667,58 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "92b404a6c3e2d4d5",
     "_key": "!items!92b404a6c3e2d4d5"
+  },
+  {
+    "name": "Vontade Sobrenatural",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "padrao",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Cruzado",
+        "Estrige"
+      ],
+      "tipoAcesso": "Caminho",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia de Tebryn, pág. 113, 118",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [],
+      "concessoes": [],
+      "description": "<p>Você possui uma incrível resistência a efeitos sobrenaturais e influência mental. Você tem Determinação +2 e recebe +1d6 em todos os seus Confrontos contra criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo e em qualquer teste para resistir a qualquer efeito desse tipo de criatura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cruzado, Estrige.</p></div>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "vontade-sobrenatural",
+        "automatica": false,
+        "acesso": [
+          "Cruzado",
+          "Estrige"
+        ],
+        "tipoAcesso": "Caminho",
+        "nivel": "Nv1",
+        "aliases": [],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "0ec272887a36a1a8",
+    "_key": "!items!0ec272887a36a1a8"
   },
   {
     "name": "Voz de Comando 1",
