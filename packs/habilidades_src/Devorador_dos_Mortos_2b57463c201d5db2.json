@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de drenar a energia necromântica de espíritos ao seu redor, restaurando suas próprias energias no processo. Quando toca em uma sombra, você pode absorver todos os seus Pontos de Mana (a Sombra é imediatamente enviada para o plano espiritual), e você recupera uma quantidade de Pontos de Vida iguais à quantidade de Pontos de Mana retirada da Sombra. Além disso, quando tocar ou acertar um ataque desarmado contra uma criatura do tipo Espírito, você pode fazer alvo perder uma quantidade de Pontos de Mana iguais à sua Determinação. Você recupera uma quantidade de Pontos de Vida igual à quantidade de Pontos de Vida que o alvo perder.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Contato com Espíritos. Caminho Avantesma.</p></div>"
+    "description": "<p>Você é capaz de drenar a energia necromântica de espíritos ao seu redor, restaurando suas próprias energias no processo. Quando toca em uma sombra, você pode absorver todos os seus Pontos de Mana (a Sombra é imediatamente enviada para o plano espiritual), e você recupera uma quantidade de Pontos de Vida iguais à quantidade de Pontos de Mana retirada da Sombra. Além disso, quando tocar ou acertar um ataque desarmado contra uma criatura do tipo Espírito, você pode fazer alvo perder uma quantidade de Pontos de Mana iguais à sua Determinação. Você recupera uma quantidade de Pontos de Vida igual à quantidade de Pontos de Vida que o alvo perder.</p>"
   },
   "flags": {
     "mighty-blade": {

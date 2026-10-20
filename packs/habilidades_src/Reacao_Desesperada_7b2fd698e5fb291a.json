@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se você não consegue seduzir alguém, coisas ruins acontecem. Sempre que você falhar num teste de Sedução contra uma única criatura, você pode imediatamente realizar um ataque corporal normal contra ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Cortesão.</p></div>"
+    "description": "<p>Se você não consegue seduzir alguém, coisas ruins acontecem. Sempre que você falhar num teste de Sedução contra uma única criatura, você pode imediatamente realizar um ataque corporal normal contra ela.</p>"
   },
   "flags": {
     "mighty-blade": {

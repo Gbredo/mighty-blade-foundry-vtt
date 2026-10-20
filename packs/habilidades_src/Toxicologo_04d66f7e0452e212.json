@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é um especialista na fabricação, aplicação e cura de venenos. Você recebe +1d6 em rolagens para produzir venenos e antídotos, e venenos produzidos por você tem sua dificuldade para serem resistidos aumentada em +4.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Nigredo. Caminho Alquimista.</p></div>"
+    "description": "<p>Você é um especialista na fabricação, aplicação e cura de venenos. Você recebe +1d6 em rolagens para produzir venenos e antídotos, e venenos produzidos por você tem sua dificuldade para serem resistidos aumentada em +4.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando alguém capaz de ouvi-lo é afetado por um ataque ou habilidade que cause dano, você pode imediatamente convencê-lo de que foi só um arranhão, ignorando o dano sofrido. Ao final do combate, este dano será aplicado normalmente, exceto se o alvo já estiver Por um Fio. Fora de combate, o dano pode ser ignorado por uma quantidade de minutos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Cada criatura só pode ignorar uma fonte de dano dessa forma. Se outro uso desta Habilidade for utilizada no mesmo alvo, o primeiro efeito deixa de funcionar, e a criatura imediatamente sofre o dano que tinha ignorado. Este é um efeito mental.<br><br>Requer Nível 5, Não é Nada de Mais. Caminho Charlatão.</p></div>"
+    "description": "<p>Quando alguém capaz de ouvi-lo é afetado por um ataque ou habilidade que cause dano, você pode imediatamente convencê-lo de que foi só um arranhão, ignorando o dano sofrido. Ao final do combate, este dano será aplicado normalmente, exceto se o alvo já estiver Por um Fio. Fora de combate, o dano pode ser ignorado por uma quantidade de minutos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Cada criatura só pode ignorar uma fonte de dano dessa forma. Se outro uso desta Habilidade for utilizada no mesmo alvo, o primeiro efeito deixa de funcionar, e a criatura imediatamente sofre o dano que tinha ignorado. Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {

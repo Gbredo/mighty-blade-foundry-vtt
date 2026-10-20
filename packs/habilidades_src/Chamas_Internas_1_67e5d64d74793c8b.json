@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>A vontade de Hou incendeia seu coração e fortalece seu espírito. Você produz um enorme calor no interior do seu corpo que queima instantaneamente qualquer tipo de substância estranha (como venenos, álcool e infecções), removendo imediatamente efeitos de Enregelado e cauteriza feridas abertas, cessando imediatamente efeitos de sangramento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Conforme a Errata do *Guia Básico*, remove também a condição Enregelado. Servindo de pré-requisito obrigatório para Chamas Internas 2 e Sopro de Fogo.</p></div>"
+    "description": "<p>A vontade de Hou incendeia seu coração e fortalece seu espírito. Você produz um enorme calor no interior do seu corpo que queima instantaneamente qualquer tipo de substância estranha (como venenos, álcool e infecções), removendo imediatamente efeitos de Enregelamento e cauteriza feridas abertas, cessando imediatamente efeitos de sangramento.</p>"
   },
   "flags": {
     "mighty-blade": {

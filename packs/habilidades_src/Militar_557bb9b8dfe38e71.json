@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você faz – ou fez – parte da Hoste de Hadorn e recebe auxílio da organização. Você sempre pode contar com um catre em qualquer quartel da Hoste de Hadorn para você e um número de aliados igual à sua Vontade, e recebe primeiros socorros e manutenção do seu equipamento nesses locais sem qualquer custo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Ao adquirir esta habilidade, você recebe gratuitamente uma Armadura Simples com o brasão da Hoste de Hadorn engastado nela. Se devolver a armadura, você ganha 100 peças e se desliga oficialmente da Hoste de Hadorn.</p></div>"
+    "description": "<p>Você faz – ou fez – parte da Hoste de Hadorn e recebe auxílio da organização. Você sempre pode contar com um catre em qualquer quartel da Hoste de Hadorn para você e um número de aliados igual à sua Vontade, e recebe primeiros socorros e manutenção do seu equipamento nesses locais sem qualquer custo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Assim que adquire essa Habilidade – inclusive durante a criação de personagem – você recebe, gratuitamente, uma Armadura Simples com o brasão da Hoste de Hadorn engastado nela. Se devolver a armadura, você recebe 100 peças e perde essa Habilidade, se desligado oficialmente da Hoste de Hadorn – você pode selecionar uma nova Habilidade no lugar desta na próxima vez que subir de nível – efetivamente selecionado duas Habilidades ao invés de uma.</p></div>"
   },
   "flags": {
     "mighty-blade": {

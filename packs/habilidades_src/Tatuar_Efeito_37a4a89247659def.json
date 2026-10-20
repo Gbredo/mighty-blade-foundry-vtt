@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando conjurar sobre si mesmo uma Magia que tenha tatuado em sua pele, a conjuração é realizada como uma ação livre. Você não pode usar conjurar outras Magias em turnos em que utilizar esta Habilidade nem pode utilizar esta Habilidade em turnos que já tiver conjurado uma Magia. HAB</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Tatuar Magia. Caminho Tohunga.</p></div>"
+    "description": "<p>Quando conjurar sobre si mesmo uma Magia que tenha tatuado em sua pele, a conjuração é realizada como uma ação livre. Você não pode usar conjurar outras Magias em turnos em que utilizar esta Habilidade nem pode utilizar esta Habilidade em turnos que já tiver conjurado uma Magia.</p>"
   },
   "flags": {
     "mighty-blade": {

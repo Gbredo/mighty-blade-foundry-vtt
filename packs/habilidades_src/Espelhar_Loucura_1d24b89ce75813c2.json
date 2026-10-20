@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você tem Determinação +2, e qualquer criatura que tente afetar você com um efeito mental ou um efeito de medo deve fazer um teste de Vontade (Dificuldade igual à sua Determinação) ou será ela própria afetada pelo efeito que estava tentando usar sobre você — o alvo é afetado automaticamente, e se resistir ao efeito for possível, ele será afetado como se tivesse tido uma falha crítica no teste. Se a criatura for imune ao efeito, ela perde uma quantidade de Pontos de Mana igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Loucura. Servindo de pré-requisito para Corrente de Loucura. Habilidade exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Você tem Determinação +2, e qualquer criatura que tente afetar você com um efeito mental ou um efeito de medo deve fazer um teste de Vontade (Dificuldade igual à sua Determinação) ou será ela própria afetada pelo efeito que estava tentando usar sobre você — o alvo é afetado automaticamente, e se resistir ao efeito for possível, ele será afetado como se tivesse tido uma falha crítica no teste. Se a criatura for imune ao efeito, ela perde uma quantidade de Pontos de Mana igual à sua Vontade.</p>"
   },
   "flags": {
     "mighty-blade": {

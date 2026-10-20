@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>As placas de sua armadura amplificam os sons das suas Músicas! Enquanto estiver utilizando uma Armadura com a Característica Pesada, todas as dificuldades para resistir à efeitos de seus Gritos e Músicas são aumentadas em +2. Além disso, todos os seus Gritos, Músicas e Rugidos que causam dano passam a causar uma quantidade extra de dano igual à Defesa + Redução de Dano de sua armadura.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Guerreiro de Aço 1. Caminho Metaleiro.</p></div>"
+    "description": "<p>As placas de sua armadura amplificam os sons das suas Músicas! Enquanto estiver utilizando uma Armadura com a Característica Pesada, todas as dificuldades para resistir à efeitos de seus Gritos e Músicas são aumentadas em +2. Além disso, todos os seus Gritos, Músicas e Rugidos que causam dano passam a causar uma quantidade extra de dano igual à Defesa + Redução de Dano de sua armadura.</p>"
   },
   "flags": {
     "mighty-blade": {

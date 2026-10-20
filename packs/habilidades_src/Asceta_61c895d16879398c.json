@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Através de sua dedicação aos dogmas de sua divindade ou panteão, você adquiriu um considerável conhecimento e uma compreensão intuitiva sobre seus desígnios. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e conhecimento. Além disso, todas as suas magias de Cura recuperam 5 Pontos de Vida a mais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Servindo de pré-requisito corrigido pela Errata oficial para a habilidade Primaz.</p></div>"
+    "description": "<p>Através de sua dedicação aos dogmas de sua divindade ou panteão, você adquiriu um considerável conhecimento e uma compreensão intuitiva sobre seus desígnios. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e conhecimento. Além disso, todas as suas magias de Cura recuperam 5 Pontos de Vida a mais.</p>"
   },
   "flags": {
     "mighty-blade": {

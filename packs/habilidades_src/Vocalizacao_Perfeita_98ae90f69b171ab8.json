@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sua voz é ótima para cantar e declamar, não precisando fazer esforços para que todos lhe ouçam. Você consome 5 Pontos de Mana a menos em todas as habilidade do tipo Grito, Rugido e Músicas do tipo Canção.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Trovador.</p></div>"
+    "description": "<p>Sua voz é ótima para cantar e declamar, não precisando fazer esforços para que todos lhe ouçam. Você consome 5 Pontos de Mana a menos em todas as habilidade do tipo Grito, Rugido e Músicas do tipo Canção.</p>"
   },
   "flags": {
     "mighty-blade": {

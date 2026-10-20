@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça uma manobra de encontrão contra um alvo. Se acertar, esse ataque causa +10 de dano e deixa o alvo Atordoado por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Consulte as regras de Condições na página 169 do Guia Básico para os efeitos do estado Atordoado.</p></div>"
+    "description": "<p>Faça uma manobra de encontrão contra um alvo. Se acertar, esse ataque causa +10 de dano e deixa o alvo Atordoado por 1 turno.</p>"
   },
   "flags": {
     "mighty-blade": {

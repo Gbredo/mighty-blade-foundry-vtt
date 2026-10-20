@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é extremamente eficaz no uso de armas brancas. Sempre que acertar um ataque corporal adicione 3 ao dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de dano se acumula com o bônus fornecido por Mestre de Armas 1. Na Errata oficial (pág. 1), a habilidade foi removida da lista do Rúnico (sendo substituída por Arma Elemental) e seu bônus de dano foi estendido também para ataques desarmados.</p></div>"
+    "description": "<p>Você é extremamente eficaz no uso de armas brancas. Sempre que acertar um ataque corporal adicione 3 ao dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de dano se acumula com o bônus fornecido por Mestre de Armas 1. Mestre de Armas indica que apenas danos usando armas causam dano extra, quando na verdade o bônus de dano se aplica à danos desarmados também.</p></div>"
   },
   "flags": {
     "mighty-blade": {

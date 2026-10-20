@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando você entra em fúria, você se torna um turbilhão de destruição. Enquanto estiver sob um efeito de Fúria, sempre que fizer um ataque corporal que cause dano em um alvo, você pode fazer mais um ataque corporal normal imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e estar sob um efeito de Fúria. Esta Habilidade só pode ser usada uma vez por turno. Serve de pré-requisito obrigatório para a Habilidade Final Fúria Brutal.</p></div>"
+    "description": "<p>Quando você entra em fúria, você se torna um turbilhão de destruição. Enquanto estiver sob um efeito de Fúria, sempre que fizer um ataque corporal que cause dano em um alvo, você pode fazer mais um ataque corporal normal imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta Habilidade só pode ser usada uma vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {

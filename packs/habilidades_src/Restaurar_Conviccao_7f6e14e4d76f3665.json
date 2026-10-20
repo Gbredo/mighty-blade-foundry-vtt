@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você revigora o foco de um aliado através de palavras inspiradoras. Um aliado que possa lhe ouvir e que esteja a uma distância em metros igual à sua Vontade imediatamente recupera metade dos Pontos de Mana que tiver gastado e/ou perdido em seu último turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este efeito não pode ser utilizado em você mesmo. Requer Nível 5 e a habilidade Eloquente.</p></div>"
+    "description": "<p>Você revigora o foco de um aliado através de palavras inspiradoras. Um aliado que possa lhe ouvir e que esteja a uma distância em metros igual à sua Vontade imediatamente recupera metade dos Pontos de Mana que tiver gastado e/ou perdido em seu último turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este efeito não pode ser utilizado em você mesmo.</p></div>"
   },
   "flags": {
     "mighty-blade": {

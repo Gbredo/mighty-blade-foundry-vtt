@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando for atingido por uma arma arremessada (adaga, machadinha, azagaia, etc.) ou por um projétil (bala de funda, flecha, virote, etc.) e tiver uma mão livre, você pode agarrar aquele item no ar, antes que ele atinja você. Você não sofre nenhum dano físico (Corte, Perfuração e Contusão) que aquele item causaria – mas ainda sofre qualquer dano elemental (Fogo, Frio e Eletricidade) normalmente – e está com o item na mão. Essa Habilidade só pode ser usada uma vez por rodada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Vigília. Caminho Arqueiro.</p></div>"
+    "description": "<p>Quando for atingido por uma arma arremessada (adaga, machadinha, azagaia, etc.) ou por um projétil (bala de funda, flecha, virote, etc.) e tiver uma mão livre, você pode agarrar aquele item no ar, antes que ele atinja você. Você não sofre nenhum dano físico (Corte, Perfuração e Contusão) que aquele item causaria – mas ainda sofre qualquer dano elemental (Fogo, Frio e Eletricidade) normalmente – e está com o item na mão. Essa Habilidade só pode ser usada uma vez por rodada.</p>"
   },
   "flags": {
     "mighty-blade": {

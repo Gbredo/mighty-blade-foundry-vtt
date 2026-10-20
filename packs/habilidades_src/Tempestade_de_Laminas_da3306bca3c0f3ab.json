@@ -38,7 +38,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Sempre que acertar um ataque corporal você pode fazer 1 ataque normal extra com a mesma arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito só pode ser usado 1 vez por turno com cada arma que você estiver usando. Requer Nível 5 e Golpes Rápidos.</p></div>"
+    "description": "<p>Sempre que acertar um ataque corporal você pode fazer 1 ataque normal extra com a mesma arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito só pode ser usado 1 vez por turno com cada arma que você estiver usando.</p></div>"
   },
   "flags": {
     "mighty-blade": {

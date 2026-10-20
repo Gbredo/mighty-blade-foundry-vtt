@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você emite um grito tão estrondoso e alto que é capaz de arremessar todos para longe! Tudo e todos que estiverem em um raio igual à até 10 metros ao seu redor sofrem dano igual a 40/Contusão e devem realizar um teste de Agilidade (Dificuldade igual à sua Determinação). Caso fracassem, os alvos são arremessados uma quantidade de metros igual à sua Força. Criaturas com Corpo Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o triplo do dano.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Grito Triturador. Caminho Skald.</p></div>"
+    "description": "<p>Você emite um grito tão estrondoso e alto que é capaz de arremessar todos para longe! Tudo e todos que estiverem em um raio igual à até 10 metros ao seu redor sofrem dano igual a 40/Contusão e devem realizar um teste de Agilidade (Dificuldade igual à sua Determinação). Caso fracassem, os alvos são arremessados uma quantidade de metros igual à sua Força. Criaturas com Corpo Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o triplo do dano.</p>"
   },
   "flags": {
     "mighty-blade": {

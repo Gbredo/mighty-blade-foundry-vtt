@@ -31,7 +31,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é particularmente discreto quando quer. Você pode rolar +1d6 quando fizer testes para se mover em silêncio, se esconder, camuflar, ou usar disfarces.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Seus benefícios de dados adicionais em testes de se esconder e mover-se em silêncio se acumulam com a habilidade automática *Gatuno* do Ladino. Requisito necessário para a habilidade *Passo Leve*.</p></div>"
+    "description": "<p>Você é particularmente discreto quando quer. Você pode rolar +1d6 quando fizer testes para se mover em silêncio, se esconder, camuflar, ou usar disfarces.</p>"
   },
   "flags": {
     "mighty-blade": {

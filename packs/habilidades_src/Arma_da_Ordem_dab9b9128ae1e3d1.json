@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de imbuir seus ataques com a energia da própria Mirah! Você pode fazer um ataque corporal que, se acertar, causa um dano adicional igual a 10/Eletricidade. Ignore bônus de Armadura e Bloqueio fornecidos por itens de metal. Criaturas do tipo Demônio, Morto-vivo ou Espírito sofrem um dano adicional de 10/Eletricidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exclusiva para membros da Ordem da Espada de Mirah. Requer Dogma: Discípulo da Justiça.</p></div>"
+    "description": "<p>Você é capaz de imbuir seus ataques com a energia da própria Mirah! Você pode fazer um ataque corporal que, se acertar, causa um dano adicional igual a 10/Eletricidade. Ignore bônus de Armadura e Bloqueio fornecidos por itens de metal. Criaturas do tipo Demônio, Morto-vivo ou Espírito sofrem um dano adicional de 10/Eletricidade.</p>"
   },
   "flags": {
     "mighty-blade": {

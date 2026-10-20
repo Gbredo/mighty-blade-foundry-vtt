@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de se comunicar com todos os tipos de roedores, e essas criaturas são particularmente atraídas por você. Uma quantidade de roedores igual a duas vezes a sua Vontade estão constantemente te acompanhando e, caso morram, outros aparecerão assim que você estiver em um local onde existam roedores. Estes animais possuem temperamento Protetor com relação a você, realizando pequenas tarefas e até mesmo lhe protegendo se necessário. Se algum efeito (mágico ou mundano) for utilizado para controlar os roedores, eles fugirão em pânico ao invés de serem afetados e só retornarão depois que o tempo do efeito tiver passado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O número constante de roedores seguidores é igual a 2x a Vontade do personagem. Servindo de pré-requisito obrigatório para a habilidade Vetor de Pragas.</p></div>"
+    "description": "<p>Você é capaz de se comunicar com todos os tipos de roedores, e essas criaturas são particularmente atraídas por você. Uma quantidade de roedores igual a duas vezes a sua Vontade estão constantemente te acompanhando e, caso morram, outros aparecerão assim que você estiver em um local onde existam roedores. Estes animais possuem temperamento Protetor com relação a você, realizando pequenas tarefas e até mesmo lhe protegendo se necessário. Se algum efeito (mágico ou mundano) for utilizado para controlar os roedores, eles fugirão em pânico ao invés de serem afetados e só retornarão depois que o tempo do efeito tiver passado.</p>"
   },
   "flags": {
     "mighty-blade": {

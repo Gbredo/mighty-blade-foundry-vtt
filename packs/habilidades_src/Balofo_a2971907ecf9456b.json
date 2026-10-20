@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Seu corpo apresenta um formato característico dos Metadílios: rotundo e macio. Graças a isso, quando você cai, tende a rolar e quicar ao invés de se espatifar, sofrendo metade do dano por quedas. Além disso, é relativamente fácil para você escorregar de dentro de um aperto. Você rola +1d6 para escapar de amarras, algemas e adversários que o estejam constringindo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Reduz o dano por quedas pela metade e concede +1d6 em testes para escapar de amarras, algemas e constrição.</p></div>"
+    "description": "<p>Você é um exímio exemplar dos Metadílios: rotundo e macio. Graças a isso, quando você cai, tende a rolar e quicar ao invés de se espatifar, sofrendo metade do dano por quedas. Além disso, é relativamente fácil para você escorregar de dentro de um aperto. Você rola +1d6 para escapar de amarras, algemas e adversários que o estejam constringindo.</p>"
   },
   "flags": {
     "mighty-blade": {

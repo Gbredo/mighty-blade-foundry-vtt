@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sabe o que é necessário para pilotar um navio com eficiência. Você rola +1d6 em todos os testes ligados à navegação, incluindo ler mapas marítimos, fazer qualquer serviço de convés, escalar cordames, pescar, se localizar no mar e nadar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade da guilda Lobos dos Mares.</p></div>"
+    "description": "<p>Você sabe o que é necessário para pilotar um navio com eficiência. Você rola +1d6 em todos os testes ligados à navegação, incluindo ler mapas marítimos, fazer qualquer serviço de convés, escalar cordames, pescar, se localizar no mar e nadar.</p>"
   },
   "flags": {
     "mighty-blade": {

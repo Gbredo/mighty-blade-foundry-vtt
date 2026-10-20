@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você se tornou um dançarino incrível e lendário, onde ninguém consegue prever seus passos de dança. Você recebe +2 em seus testes de dança e tem +1d6 para resistir a efeitos que o impeçam de continuar se movendo (Constringido, Derrubado, Amedrontado, etc.).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    "description": "<p>Você se tornou um dançarino incrível e lendário, onde ninguém consegue prever seus passos de dança. Você recebe +2 em seus testes de dança e tem +1d6 para resistir a efeitos que o impeçam de continuar se movendo (Constringido, Derrubado, Amedrontado, etc.).</p>"
   },
   "flags": {
     "mighty-blade": {

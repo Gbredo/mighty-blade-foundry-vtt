@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode fazer 2 ataques corporais com uma arma que esteja empunhando com apenas 1 mão ou com um de seus ataques desarmados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Tempestade de Lâminas.</p></div>"
+    "description": "<p>Você pode fazer 2 ataques corporais com uma arma que esteja empunhando com apenas 1 mão ou com um de seus ataques desarmados.</p>"
   },
   "flags": {
     "mighty-blade": {

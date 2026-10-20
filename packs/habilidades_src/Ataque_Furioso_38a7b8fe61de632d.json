@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que estiver usando uma arma que possua dois números de FN, se você tiver força para usar a arma com apenas uma mão, mas a empunhar com as duas, some a sua Força ao dano da arma ao invés do bônus normal de +2. Você também aplica esse bônus de dano às armas que tenham a Característica Duas Mãos, desde que você possua Força suficiente para usá-la.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Substitui o bônus padrão de +2 por empunhar armas bastardas com duas mãos (ou armas de Duas Mãos) adicionando o valor total de Força do personagem ao dano da arma.</p></div>"
+    "description": "<p>Sempre que estiver usando uma arma que possua dois números de FN, se você tiver força para usar a arma com apenas uma mão, mas a empunhar com as duas, some a sua Força ao dano da arma ao invés do bônus normal de +2. Você também aplica esse bônus de dano às armas que tenham a Característica Duas Mãos, desde que você possua Força suficiente para usá-la.</p>"
   },
   "flags": {
     "mighty-blade": {

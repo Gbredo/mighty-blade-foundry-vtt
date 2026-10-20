@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que você fizer um ataque à distância, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade uma vez por turno. 28</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Disparo Mirado. Caminho Arqueiro.</p></div>"
+    "description": "<p>Sempre que você fizer um ataque à distância, você pode trocar o resultado de um dos dados por um 6. Você só pode usar esta Habilidade uma vez por turno.</p>"
   },
   "flags": {
     "mighty-blade": {

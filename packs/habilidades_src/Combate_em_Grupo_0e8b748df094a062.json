@@ -30,7 +30,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você ganha +1 nos testes de ataques corporais para cada aliado que esteja em combate corporal com o alvo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> N/A</p></div>"
+    "description": "<p>Você ganha +1 nos testes de ataques corporais para cada aliado que esteja em combate corporal com o alvo.</p>"
   },
   "flags": {
     "mighty-blade": {

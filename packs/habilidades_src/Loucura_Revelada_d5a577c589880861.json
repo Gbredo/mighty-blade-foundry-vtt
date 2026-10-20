@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Qualquer criatura que tente afetar você com um efeito mental ou um efeito de medo perde, imediatamente, uma quantidade de Pontos de Vida iguais à sua Vontade e uma quantidade de Pontos de Mana iguais à sua Determinação enquanto a sua própria loucura toca a mente do alvo.</p><p>Além disso, graças à sua natureza instável, é muito difícil perceber os padrões em seu comportamento, e você recebe +1d6 quando tentar mentir ou esconder a verdade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Loucura. Este é um efeito mental. Habilidade exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Qualquer criatura que tente afetar você com um efeito mental ou um efeito de medo perde, imediatamente, uma quantidade de Pontos de Vida iguais à sua Vontade e uma quantidade de Pontos de Mana iguais à sua Determinação enquanto a sua própria loucura toca a mente do alvo.</p><p>Além disso, graças à sua natureza instável, é muito difícil perceber os padrões em seu comportamento, e você recebe +1d6 quando tentar mentir ou esconder a verdade.</p>"
   },
   "flags": {
     "mighty-blade": {

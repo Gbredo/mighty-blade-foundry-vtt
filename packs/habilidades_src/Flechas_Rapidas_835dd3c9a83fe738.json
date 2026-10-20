@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Após fazer um ataque normal usando um arco, você pode fazer imediatamente outro ataque normal com o arco.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esta Habilidade só pode ser usada 1 vez por turno. Serve de pré-requisito para Chuva de Flechas.</p></div>"
+    "description": "<p>Após fazer um ataque normal usando um arco, você pode fazer imediatamente outro ataque normal com o arco.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Esta Habilidade só pode ser usada 1 vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {

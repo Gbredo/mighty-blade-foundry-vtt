@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que realizar um ataque corporal contra criaturas dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo, você pode declarar que aquele ataque foi um sucesso decisivo automático. Você deve declarar o uso desta Habilidade antes de realizar sua rolagem de ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Quebrar a Defesa Sombria. Caminho Estrige.</p></div>"
+    "description": "<p>Sempre que realizar um ataque corporal contra criaturas dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo, você pode declarar que aquele ataque foi um sucesso decisivo automático. Você deve declarar o uso desta Habilidade antes de realizar sua rolagem de ataque.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é um mestre da manipulação, recebendo +1d6 em seus testes sociais. Além disso, você pode afetar um mesmo alvo com uma quantidade de Desilusões igual à metade da sua Vontade (arredondada para cima). Finalmente, um alvo afetado por uma de suas Desilusões confrontado com a verdade deve obter um resultado maior do que sua Determinação num teste de Inteligência para deixar de acreditar nela. Se o alvo falhar três vezes em reconhecer a verdade, a desilusão estará internalizada até sua morte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Foi só um Arranhão. Caminho Charlatão.</p></div>"
+    "description": "<p>Você é um mestre da manipulação, recebendo +1d6 em seus testes sociais. Além disso, você pode afetar um mesmo alvo com uma quantidade de Desilusões igual à metade da sua Vontade (arredondada para cima). Finalmente, um alvo afetado por uma de suas Desilusões confrontado com a verdade deve obter um resultado maior do que sua Determinação num teste de Inteligência para deixar de acreditar nela. Se o alvo falhar três vezes em reconhecer a verdade, a desilusão estará internalizada até sua morte.</p>"
   },
   "flags": {
     "mighty-blade": {

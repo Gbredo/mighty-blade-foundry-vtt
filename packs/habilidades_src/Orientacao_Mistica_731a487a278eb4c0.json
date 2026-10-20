@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você aprimorou seu discurso e oratória motivacionais, e consegue fazê-lo constantemente! A sua orientação mística – o seu sermão – recupera uma quantidade de Pontos de Vida e Mana iguais ao dobro da sua Determinação, e pode ser utilizado uma vez a cada duas horas na mesma pessoa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Orador.</p></div>"
+    "description": "<p>Você aprimorou seu discurso e oratória motivacionais, e consegue fazê-lo constantemente! A sua orientação mística – o seu sermão – recupera uma quantidade de Pontos de Vida e Mana iguais ao dobro da sua Determinação, e pode ser utilizado uma vez a cada duas horas na mesma pessoa.</p>"
   },
   "flags": {
     "mighty-blade": {

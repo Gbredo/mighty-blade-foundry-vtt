@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça um ataque à distância. Se acertar, some +8 ao dano da arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Retesar Eficiente. Serve de pré-requisito para Disparo Devastador.</p></div>"
+    "description": "<p>Faça um ataque à distância. Se acertar, some +8 ao dano da arma.</p>"
   },
   "flags": {
     "mighty-blade": {

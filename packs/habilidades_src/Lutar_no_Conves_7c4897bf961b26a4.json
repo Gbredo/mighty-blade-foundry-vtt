@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você usa o que tiver à mão para vencer suas lutas. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode usar o ambiente para se proteger e atrapalhar o adversário, recebendo +1 em seus ataques corporais e +2 em Esquiva.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade exclusiva da guilda Lobos dos Mares.</p></div>"
+    "description": "<p>Você usa o que tiver à mão para vencer suas lutas. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode usar o ambiente para se proteger e atrapalhar o adversário, recebendo +1 em seus ataques corporais e +2 em Esquiva.</p>"
   },
   "flags": {
     "mighty-blade": {

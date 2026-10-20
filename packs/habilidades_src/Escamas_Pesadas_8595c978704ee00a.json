@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Suas escamas são mais grossas e resistentes do que as de outros da sua raça. Você reduz todo o dano que sofrer em 2, independente da fonte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Escamas*. Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
+    "description": "<p>Suas escamas são mais grossas e resistentes do que as de outros da sua raça. Você reduz todo o dano que sofrer em 2, independente da fonte.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

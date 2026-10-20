@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui algumas características comuns aos seus ancestrais feéricos. Você é imune a qualquer efeito mental e efeito de medo além de perceber automaticamente ilusões. Você também ganha +5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Confere imunidade completa a efeitos mentais e de medo, percepção automática de ilusões e +5 Pontos de Mana. Servindo de pré-requisito obrigatório para as habilidades Invisibilidade Natural e Luzes das Fadas.</p></div>"
+    "description": "<p>Você possui algumas características comuns aos seus ancestrais feéricos. Você é imune a qualquer efeito mental e efeito de medo além de perceber automaticamente ilusões. Você também ganha +5 Pontos de Mana.</p>"
   },
   "flags": {
     "mighty-blade": {

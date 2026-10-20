@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Sua cauda é bastante longa e musculosa, podendo ser usada para ajudar em diversas atividades. A cauda não tem estrutura para ser usada como arma, mas pode segurar e arrastar objetos, desenhar Runas Arcanas e Selos Místicos ou ser usada como apoio para auxiliar em escaladas ou usada para se segurar. Sempre que puder usar sua cauda para lhe auxiliar na tarefa que estiver realizando – como em testes de escalar ou Agarrar – você recebe +2 no teste. Este bônus não se aplica a testes de conjurar magias.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A cauda não causa dano de ataque direto, mas pode segurar objetos e desenhar Runas Arcanas e Selos Místicos.</p></div>"
+    "description": "<p>Você treinou para usar sua cauda para ajudar em diversas atividades. A cauda não tem estrutura para ser usada como arma, mas pode segurar e arrastar objetos, desenhar Runas Arcanas e Selos Místicos ou ser usada como apoio para auxiliar em escaladas ou usada para se segurar. Sempre que puder usar sua cauda para lhe auxiliar na tarefa que estiver realizando – como em testes de escalar ou Agarrar – você recebe +2 no teste. Este bônus não se aplica a testes de conjurar magias.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você dança em um ritmo sensual e encantador. Enquanto estiver dançando, você pode escolher 1 criatura viva que esteja a uma distância em metros igual a sua Determinação e que esteja vendo você dançar. Você pode realizar uma tentativa de sedução contra aquela criatura. Se a criatura ficar amigável em relação a você, ela estará Desprevenida em relação a todas as outras criaturas, mas não com relação à você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.<br><br>Caminho Cortesão, Dançarino.</p></div>"
+    "description": "<p>Você dança em um ritmo sensual e encantador. Enquanto estiver dançando, você pode escolher 1 criatura viva que esteja a uma distância em metros igual a sua Determinação e que esteja vendo você dançar. Você pode realizar uma tentativa de sedução contra aquela criatura. Se a criatura ficar amigável em relação a você, ela estará Desprevenida em relação a todas as outras criaturas, mas não com relação à você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse efeito cessa imediatamente se o alvo sofrer algum dano e ele fica imune aos efeitos dessa Habilidade até que tenha recuperado Pontos de Mana por descanso.</p></div>"
   },
   "flags": {
     "mighty-blade": {

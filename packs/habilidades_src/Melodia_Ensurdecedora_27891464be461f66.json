@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você toca e grita uma música tão alta e rápida que faz com que todos ao redor tenham dificuldades em ouvir. Enquanto estiver tocando essa Música, nenhuma outra Música ou efeitos que exijam que um alvo seja capaz de entender o que está sendo dito (Língua Afiada, Motivar, Voz de Comando, etc.) funcionam em uma área ao seu redor igual à sua Determinação em metros. Além disso, é muito difícil se concentrar propriamente; todos os testes para conjurar magias têm sua dificuldade aumentada em +2 dentro da área de efeito dessa Melodia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Bloqueia efeitos baseados em fala e aumenta dificuldades de feitiços arcanos/místicos.</p></div>"
+    "description": "<p>Você toca e grita uma música tão alta e rápida que faz com que todos ao redor tenham dificuldades em ouvir. Enquanto estiver tocando essa Música, nenhuma outra Música ou efeitos que exijam que um alvo seja capaz de entender o que está sendo dito (Língua Afiada, Motivar, Voz de Comando, etc.) funcionam em uma área ao seu redor igual à sua Determinação em metros. Além disso, é muito difícil se concentrar propriamente; todos os testes para conjurar magias têm sua dificuldade aumentada em +2 dentro da área de efeito dessa Melodia.</p>"
   },
   "flags": {
     "mighty-blade": {

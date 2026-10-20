@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que você estiver usando uma arma de haste e o seu oponente não, ele é considerado Desprevenido contra você.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Lanceiro.</p></div>"
+    "description": "<p>Sempre que você estiver usando uma arma de haste e o seu oponente não, ele é considerado Desprevenido contra você.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando você é atacado, pode gritar em desespero para que seus aliados o ajudem. Sempre que você for atingido por um ataque corporal, todos os aliados que estiverem adjacentes ao seu atacante poderão fazer um ataque corporal normal contra ele imediatamente e aliados que não estiverem em alcance corporal do seu atacante podem, imediatamente, se mover na sua direção – e apenas na sua direção – uma quantidade de metros igual ao seu Deslocamento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Classe Menestrel.</p></div>"
+    "description": "<p>Quando você é atacado, pode gritar em desespero para que seus aliados o ajudem. Sempre que você for atingido por um ataque corporal, todos os aliados que estiverem adjacentes ao seu atacante poderão fazer um ataque corporal normal contra ele imediatamente e aliados que não estiverem em alcance corporal do seu atacante podem, imediatamente, se mover na sua direção – e apenas na sua direção – uma quantidade de metros igual ao seu Deslocamento.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você é capaz de canalizar magias muito mais facilmente. As dificuldades de todas as Magias são diminuídas em 1 para você. Você também tem +5 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Concede -1 na Dificuldade para conjurar qualquer magia e adiciona +5 Pontos de Mana ao total do personagem.</p></div>"
+    "description": "<p>Você é capaz de canalizar magias muito mais facilmente. As dificuldades de todas as Magias são diminuídas em 1 para você. Você também tem +5 Pontos de Mana.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -36,7 +36,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você se sente confortável e renovado quando está sob a proteção da vegetação. Quando estiver dentro de uma floresta, bosque ou selva você recebe +2 em todos os seus testes.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Garante um bônus de +2 em todas as rolagens enquanto o personagem estiver dentro de ambientes florestais.</p></div>"
+    "description": "<p>Você se sente confortável e renovado quando está sob a proteção da vegetação. Quando estiver dentro de uma floresta, bosque ou selva você recebe +2 em todos os seus testes.</p>"
   },
   "flags": {
     "mighty-blade": {

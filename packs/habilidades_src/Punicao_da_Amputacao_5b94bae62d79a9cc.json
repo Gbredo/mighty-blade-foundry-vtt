@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Tocando um membro de uma criatura viva que esteja Indefesa, você faz com que aquele membro vire cinzas deixando apenas um cotoco no lugar (impondo a condição Inapto ao membro amputado). Você pode definir uma quantidade de tempo máxima igual à sua Vontade em anos durante a qual, se o membro for regenerado de alguma forma, você se tornará imediatamente ciente de que a Punição foi interrompida, qual a duração que ainda restava e qual a direção e distância do alvo em relação a você no momento da quebra.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Punição da Escuridão.</p></div>"
+    "description": "<p>Tocando um membro de uma criatura viva que esteja Indefesa, você faz com que aquele membro vire cinzas deixando apenas um cotoco no lugar. Você pode definir uma quantidade de tempo máxima igual à sua Vontade em anos durante a qual, se o membro for regenerado de alguma forma, você se tornará imediatamente ciente de que a Punição foi interrompida, qual a duração que ainda restava e qual a direção e distância do alvo em relação a você no momento em que essa Punição tiver sido interrompida.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -31,7 +31,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que errar um ataque corporal, o alvo sofre metade do dano normal do ataque (arredondando para baixo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No Manual do Combatente (pág. 64) e Guia Básico (pág. 121, 124), é classificada como Característica/Técnica de Suporte e requer ter previamente a habilidade Sem Escapatória e Nível 5.</p></div>"
+    "description": "<p>Sempre que errar um ataque corporal, o alvo sofre metade do dano normal do ataque (arredondando para baixo).</p>"
   },
   "flags": {
     "mighty-blade": {

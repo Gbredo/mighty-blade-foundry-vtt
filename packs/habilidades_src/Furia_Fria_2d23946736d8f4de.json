@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Todas as criaturas ao seu redor são capazes de sentir a frieza da sua convicção. Qualquer criatura que sofra dano por sua Aura Gélida ou que seja afetada por um efeito de Dreno de Energia que você use fica Enregelada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Aura Gélida. Caminho Avantesma.</p></div>"
+    "description": "<p>Todas as criaturas ao seu redor são capazes de sentir a frieza da sua convicção. Qualquer criatura que sofra dano por sua Aura Gélida ou que seja afetada por um efeito de Dreno de Energia que você use fica Enregelada.</p>"
   },
   "flags": {
     "mighty-blade": {

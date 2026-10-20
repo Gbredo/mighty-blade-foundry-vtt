@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você consegue concentrar sua vontade em uma potente rajada de energia, como seus ancestrais dracônicos. Este sopro atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente. O tipo de dano e os efeitos dependem de sua Linhagem Dracônica: 20/Fogo para dragões de fogo, 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado para dragões do frio ou 15/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno para dragões do relâmpago.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Automática Linhagem Dracônica. O alcance em metros é igual ao valor da Vontade do personagem e afeta todos em uma área cônica/reta à frente do conjurador.</p></div>"
+    "description": "<p>Você consegue concentrar sua vontade em uma potente rajada de energia, como seus ancestrais dracônicos. Este sopro atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente. O tipo de dano e os efeitos dependem de sua Linhagem Dracônica: 20/Fogo para dragões de fogo, 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado para dragões do frio ou 15/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno para dragões do relâmpago.</p>"
   },
   "flags": {
     "mighty-blade": {

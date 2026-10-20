@@ -39,7 +39,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você é particularmente robusto e estoico. Você tem Resistência à Contusão e tem +5 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem. Servindo de pré-requisito para a Habilidade Imparável.</p></div>"
+    "description": "<p>Você é particularmente robusto e estoico. Você tem Resistência à Contusão e tem +5 Pontos de Vida.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Você só pode selecionar essa Habilidade durante a criação do personagem.</p></div>"
   },
   "flags": {
     "mighty-blade": {

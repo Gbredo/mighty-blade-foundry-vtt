@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você está acostumado a usar poções e itens alquímicos em suas explorações! Você recebe +2 em todos os seus testes de arremesso e em testes nos quais um Kit de Cura seja necessário – como estabilizar uma criatura Por um Fio ou qualquer outro uso de Cuidados Médicos. Além disso, você pode beber uma poção como uma ação padrão, ao invés de uma ação de rodada completa.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para Alquimista de Combate.</p></div>"
+    "description": "<p>Você está acostumado a usar poções e itens alquímicos em suas explorações! Você recebe +2 em todos os seus testes de arremesso e em testes nos quais um Kit de Cura seja necessário – como estabilizar uma criatura Por um Fio ou qualquer outro uso de Cuidados Médicos. Além disso, você pode beber uma poção como uma ação padrão, ao invés de uma ação de rodada completa.</p>"
   },
   "flags": {
     "mighty-blade": {

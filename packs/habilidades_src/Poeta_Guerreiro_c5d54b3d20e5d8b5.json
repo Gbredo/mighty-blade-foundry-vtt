@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você aprendeu no campo de batalha que o melhor jeito de uma conversa é com os punhos. Sempre que você estiver tocando em uma música e uma criatura se aproximar de você em alcance corporal, você pode realizar um Grito ou Rugido contra ela. Além disso, sempre que você utilizar uma habilidade do tipo Grito ou Rugido, você pode se movimentar uma quantidade de metros igual à metade da sua Agilidade (arredondado para baixo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade contra um mesmo alvo uma vez por turno.<br><br>Caminho Skald.</p></div>"
+    "description": "<p>Você aprendeu no campo de batalha que o melhor jeito de uma conversa é com os punhos. Sempre que você estiver tocando em uma música e uma criatura se aproximar de você em alcance corporal, você pode realizar um Grito ou Rugido contra ela. Além disso, sempre que você utilizar uma habilidade do tipo Grito ou Rugido, você pode se movimentar uma quantidade de metros igual à metade da sua Agilidade (arredondado para baixo).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você só pode utilizar esta habilidade contra um mesmo alvo uma vez por turno.</p></div>"
   },
   "flags": {
     "mighty-blade": {
