@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Todos os mortos-vivos criados por você duram indefinidamente enquanto estiverem a uma quantidade de metros igual ao triplo da sua Determinação ao seu redor. Se forem destruídos enquanto estiverem dentro dessa área, eles retornam após 1 minuto (com todos os Pontos de Vida e Pontos de Mana).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Todas as Runas Arcanas que você tiver conjurado sobre um morto-vivo dentro desta área (incluindo aquelas que foram utilizadas para criá-los) são consideradas perenes, e se o morto-vivo deixar a área, sua duração é renovada (como se você tivesse acabado de conjurar a magia sobre ele). Esta é a Habilidade Final do Necromante (requer Nível 10 e Resistência dos Mortos).</p></div>"
+    "description": "<p>Todos os mortos-vivos criados por você duram indefinidamente enquanto estiverem a uma quantidade de metros igual ao triplo da sua Determinação ao seu redor. Se forem destruídos enquanto estiverem dentro dessa área, eles retornam após 1 minuto (com todos os Pontos de Vida e Pontos de Mana).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Todas as Runas Arcanas que você tiver conjurado sobre um morto-vivo dentro desta área (incluindo aquelas que foram utilizadas para criá-los) são consideradas perenes, e se o morto-vivo deixar a área, sua duração é renovada (como se você tivesse acabado de conjurar a magia sobre ele).</p></div>"
   },
   "flags": {
     "mighty-blade": {

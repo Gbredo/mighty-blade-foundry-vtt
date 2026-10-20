@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sua presença diminui a imunidade das criaturas vivas ao redor. Todas as criaturas vivas a uma quantidade de metros igual à sua Determinação ao seu redor fazem seus testes para resistir a infecções e aos efeitos de doenças e venenos como se fossem Inaptas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Pestilência. Habilidade exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Sua presença diminui a imunidade das criaturas vivas ao redor. Todas as criaturas vivas a uma quantidade de metros igual à sua Determinação ao seu redor fazem seus testes para resistir a infecções e aos efeitos de doenças e venenos como se fossem Inaptas.</p>"
   },
   "flags": {
     "mighty-blade": {

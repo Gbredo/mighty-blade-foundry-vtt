@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você aprendeu a confiar em um braço forte e firme para obter uma mira precisa. Você pode usar Força para ataques à distância. Além disso, sempre que usar Força para realizar arremessos ou ataques à distância com arcos ou fundas, adicione +2 ao dano da arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Arqueiro.</p></div>"
+    "description": "<p>Você aprendeu a confiar em um braço forte e firme para obter uma mira precisa. Você pode usar Força para ataques à distância. Além disso, sempre que usar Força para realizar arremessos ou ataques à distância com arcos ou fundas, adicione +2 ao dano da arma.</p>"
   },
   "flags": {
     "mighty-blade": {

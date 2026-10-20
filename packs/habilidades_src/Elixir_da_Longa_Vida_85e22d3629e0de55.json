@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é um especialista na fabricação e aplicação de Elixires e antídotos e recebe +1d6 em rolagens para produzir esse tipo de poção. Além disso, elixires produzidos por você que recuperem Pontos de Vida ou Mana recuperam 10 Pontos de Vida ou Mana a mais, e elixires produzidos por você que causem dano causam 5 pontos de dano a mais.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Iátrica. Caminho Alquimista.</p></div>"
+    "description": "<p>Você é um especialista na fabricação e aplicação de Elixires e antídotos e recebe +1d6 em rolagens para produzir esse tipo de poção. Além disso, elixires produzidos por você que recuperem Pontos de Vida ou Mana recuperam 10 Pontos de Vida ou Mana a mais, e elixires produzidos por você que causem dano causam 5 pontos de dano a mais.</p>"
   },
   "flags": {
     "mighty-blade": {

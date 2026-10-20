@@ -30,7 +30,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seu Companheiro Animal recebe +1 em 2 Atributos à sua escolha, +5 Pontos de Vida e +5 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Melhoria direta aplicada ao animal atraído pela habilidade Companheiro Animal 1.</p></div>"
+    "description": "<p>Seu Companheiro Animal recebe +1 em 2 Atributos à sua escolha, +5 Pontos de Vida e +5 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).</p>"
   },
   "flags": {
     "mighty-blade": {

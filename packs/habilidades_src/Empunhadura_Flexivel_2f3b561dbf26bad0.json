@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sabe como utilizar armas de haste em combate próximo de forma eficiente – e sabe aproveitar o tamanho de armas pouco tradicionais como se fossem armas de haste. Sempre que estiver utilizando uma arma de haste, você pode reduzir o alcance da arma para Corpo-a-corpo e considerar o cabo da arma como uma segunda arma. Considere que o cabo de uma arma de haste tem FN igual à metade da FN da arma (arredondando para baixo) e causa dano igual à Força +5/Contusão. Você pode mudar o modo como vai empunhar a arma no começo de cada um dos seus turnos, como uma ação livre. Além disso, você passa a considerar bordões, cajados e claymores como tendo alcance de haste para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Combater com Duas Armas 1. Caminho Lanceiro.</p></div>"
+    "description": "<p>Você sabe como utilizar armas de haste em combate próximo de forma eficiente – e sabe aproveitar o tamanho de armas pouco tradicionais como se fossem armas de haste. Sempre que estiver utilizando uma arma de haste, você pode reduzir o alcance da arma para Corpo-a-corpo e considerar o cabo da arma como uma segunda arma. Considere que o cabo de uma arma de haste tem FN igual à metade da FN da arma (arredondando para baixo) e causa dano igual à Força +5/Contusão. Você pode mudar o modo como vai empunhar a arma no começo de cada um dos seus turnos, como uma ação livre. Além disso, você passa a considerar bordões, cajados e claymores como tendo alcance de haste para todos os propósitos.</p>"
   },
   "flags": {
     "mighty-blade": {

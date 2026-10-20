@@ -21,7 +21,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
-    "description": "<p>Desenhando um Selo Místico sobre uma superfície, você é capaz de canalizar os efeitos de Clarividência, Psicometria ou Retrocognição, criando uma espécie de janela onde os eventos que o Oráculo perceberia podem ser visualizados por qualquer um ao seu redor. O custo dessa Magia será igual ao custo da Habilidade canalizada. Esse Selo Místico dura 10 minutos, mas se o Selo Místico que estiver sendo observado com Clarividência for dissipado ou o conjurador perder contato com o objeto, superfície ou criatura na qual está usando Psicometria ou Retrocognição, o efeito é cancelado imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Oráculo.</p></div>"
+    "description": "<p>Desenhando um Selo Místico sobre uma superfície, você é capaz de canalizar os efeitos de Clarividência, Psicometria ou Retrocognição, criando uma espécie de janela onde os eventos que o Oráculo perceberia podem ser visualizados por qualquer um ao seu redor. O custo dessa Magia será igual ao custo da Habilidade canalizada. Esse Selo Místico dura 10 minutos, mas se o Selo Místico que estiver sendo observado com Clarividência for dissipado ou o conjurador perder contato com o objeto, superfície ou criatura na qual está usando Psicometria ou Retrocognição, o efeito é cancelado imediatamente.</p>"
   },
   "flags": {
     "mighty-blade": {

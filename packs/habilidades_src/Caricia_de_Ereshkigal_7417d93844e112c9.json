@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Tocando em um alvo, você transmite uma doença que você possua, em sua potência máxima. O alvo deve passar em um teste de Força (Dificuldade igual à sua Determinação) ou será afetado imediatamente por uma das doenças que você estiver carregando (à sua escolha) como se tivesse falhado no primeiro teste para verificar os efeitos dos sintomas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e o Pacto da Pestilência. Habilidade exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Tocando em um alvo, você transmite uma doença que você possua, em sua potência máxima. O alvo deve passar em um teste de Força (Dificuldade igual à sua Determinação) ou será afetado imediatamente por uma das doenças que você estiver carregando (à sua escolha) como se tivesse falhado no primeiro teste para verificar os efeitos dos sintomas.</p>"
   },
   "flags": {
     "mighty-blade": {

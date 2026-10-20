@@ -34,7 +34,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você possui um arsenal de armas naturais à sua disposição na forma de garras, presas, chifres, escamas afiadas e espigões pontudos. Seus ataques desarmados causam dano igual à Força +3, e você sempre pode escolher se esse dano será por Contusão, Corte ou Perfuração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Característica Dracônica *Chifres, garras e presas*.</p></div>"
+    "description": "<p>Você possui um arsenal de armas naturais à sua disposição na forma de garras, presas, chifres, escamas afiadas e espigões pontudos. Seus ataques desarmados causam dano igual à Força +3, e você sempre pode escolher se esse dano será por Contusão, Corte ou Perfuração.</p>"
   },
   "flags": {
     "mighty-blade": {

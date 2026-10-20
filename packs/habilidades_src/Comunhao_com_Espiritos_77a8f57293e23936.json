@@ -29,7 +29,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Enquanto estiver utilizando Contato com Espíritos, você pode tocar outro personagem que será capaz de ouvir e ver qualquer espírito num raio de 20 metros por 10 minutos. Um personagem sob esse efeito pode gastar 10 Pontos de Mana para ser capaz de tocar espíritos por 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu a classificação desta habilidade para Característica de Suporte. Requer Contato com Espíritos. Servindo de pré-requisito para a habilidade avançada Caminhada Fantasma.</p></div>"
+    "description": "<p>Enquanto estiver utilizando Contato com Espíritos, você pode tocar outro personagem que será capaz de ouvir e ver qualquer espírito num raio de 20 metros por 10 minutos. Um personagem sob esse efeito pode gastar 10 Pontos de Mana para ser capaz de tocar espíritos por 1 minuto.</p>"
   },
   "flags": {
     "mighty-blade": {

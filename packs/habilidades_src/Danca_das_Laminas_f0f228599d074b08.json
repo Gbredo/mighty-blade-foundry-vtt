@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando entra em combate, seu fluxo de movimentos cria um estado de hipnose autoinduzido, produzindo efeitos sobre-humanos de agilidade, velocidade e foco. Sempre que você estiver usando Dança das Espadas, você recebe um acréscimo de +2 na sua Agilidade e em sua Determinação. Além disso, Dança das Espadas pode ser ativada como uma Reação sempre que você se deslocar.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Dançarino.</p></div>"
+    "description": "<p>Quando entra em combate, seu fluxo de movimentos cria um estado de hipnose autoinduzido, produzindo efeitos sobre-humanos de agilidade, velocidade e foco. Sempre que você estiver usando Dança das Espadas, você recebe um acréscimo de +2 na sua Agilidade e em sua Determinação. Além disso, Dança das Espadas pode ser ativada como uma Reação sempre que você se deslocar.</p>"
   },
   "flags": {
     "mighty-blade": {

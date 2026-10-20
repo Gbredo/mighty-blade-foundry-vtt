@@ -21,7 +21,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um dragão ancião ou um casarão. A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Ilusão 2. Caminho Ilusionista.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Ilusão 2</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um dragão ancião ou um casarão. A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.</p>"
   },
   "flags": {
     "mighty-blade": {

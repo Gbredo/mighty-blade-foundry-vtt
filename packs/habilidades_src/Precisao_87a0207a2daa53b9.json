@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você confia mais em uma pontaria bem feita do que em força bruta quando arremessa armas ou dispara com arcos. Quando fizer ataques à distância você pode usar Inteligência ou Agilidade ao invés de Força para calcular o dano de armas de distância e de arremesso.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Disparo Certeiro.</p></div>"
+    "description": "<p>Você confia mais em uma pontaria bem feita do que em força bruta quando arremessa armas ou dispara com arcos. Quando fizer ataques à distância você pode usar Inteligência ou Agilidade ao invés de Força para calcular o dano de armas de distância e de arremesso.</p>"
   },
   "flags": {
     "mighty-blade": {

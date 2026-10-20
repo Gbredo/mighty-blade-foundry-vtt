@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma onda flamejante que causa dano igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis – mas não faz alvos vivos irromperem em chamas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a habilidade Arma Incandescente. No texto original do manual, esta habilidade figura sob a nomenclatura *Onda de Fogo*.</p></div>"
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma onda flamejante que causa dano igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis – mas não faz alvos vivos irromperem em chamas.</p>"
   },
   "flags": {
     "mighty-blade": {

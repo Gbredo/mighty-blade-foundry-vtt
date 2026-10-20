@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que acertar um ataque corporal em criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo, some sua Vontade ao dano daquele ataque. Além disso, você recebe +2 em todas as suas rolagens relacionadas a essas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Estrige.</p></div>"
+    "description": "<p>Sempre que acertar um ataque corporal em criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo, some sua Vontade ao dano daquele ataque. Além disso, você recebe +2 em todas as suas rolagens relacionadas a essas criaturas.</p>"
   },
   "flags": {
     "mighty-blade": {

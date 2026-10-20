@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando você entra em fúria, seus adversários devem escolher entre fugir ou morrer! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +4, você pode utilizar Fúria Colérica até duas vezes por turno e você pode se mover antes e depois ou entre ataques, desde que não exceda seu Deslocamento a cada turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade Final do Caminho Amoque. Requer Nível 10 e a habilidade Fúria Colérica. Permite fracionar o deslocamento entre os ataques do mesmo turno.</p></div>"
+    "description": "<p>Quando você entra em fúria, seus adversários devem escolher entre fugir ou morrer! O bônus de Força de qualquer Habilidade de Fúria que você utilizar aumenta em +4, você pode utilizar Fúria Colérica até duas vezes por turno e você pode se mover antes e depois ou entre ataques, desde que não exceda seu Deslocamento a cada turno.</p>"
   },
   "flags": {
     "mighty-blade": {

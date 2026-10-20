@@ -21,7 +21,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
-    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você a transforma em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente. Requer a habilidade Contato com Espíritos.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Contato com Espíritos</p><p>Desenhando uma Runa Arcana sobre uma Sombra, você a transforma em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente.</p></div>"
   },
   "flags": {
     "mighty-blade": {

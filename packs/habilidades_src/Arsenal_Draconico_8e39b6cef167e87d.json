@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você desenvolve garras, presas, chifres, escamas afiadas e espigões pontudos que podem ser usados como armas naturais. Seus ataques desarmados sempre causam dano igual à Força +2 (ou Força +4 em manobras de Encontrão), e você sempre pode escolher se esse dano será por Contusão, Corte ou Perfuração.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige a habilidade Vínculo Dracônico.</p></div>"
+    "description": "<p>Você desenvolve garras, presas, chifres, escamas afiadas e espigões pontudos que podem ser usados como armas naturais. Seus ataques desarmados sempre causam dano igual à Força +2 (ou Força +4 em manobras de Encontrão), e você sempre pode escolher se esse dano será por Contusão, Corte ou Perfuração.</p>"
   },
   "flags": {
     "mighty-blade": {

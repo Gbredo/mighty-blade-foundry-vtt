@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sua montaria desenvolveu um vínculo profundo com você, permitindo que você veja pelos olhos dela apenas se concentrando. Ela também recebe +1 em Força e +1 em Vontade e é capaz de enxergar criaturas invisíveis.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Montaria Especial 2 e Código da Honestidade.</p></div>"
+    "description": "<p>Sua montaria desenvolveu um vínculo profundo com você, permitindo que você veja pelos olhos dela apenas se concentrando. Ela também recebe +1 em Força e +1 em Vontade e é capaz de enxergar criaturas invisíveis.</p>"
   },
   "flags": {
     "mighty-blade": {

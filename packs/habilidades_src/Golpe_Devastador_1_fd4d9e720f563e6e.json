@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode fazer um ataque corporal que causa o dobro de dano. Se acertar, o alvo precisa vencer um confronto de Força (adicione a FN da arma que estiver usando no seu teste) contra você ou ficará Paralisado por um turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Consulte a condição Paralisado na página 169 do Guia Básico.</p></div>"
+    "description": "<p>Você pode fazer um ataque corporal que causa o dobro de dano. Se acertar, o alvo precisa vencer um confronto de Força (adicione a FN da arma que estiver usando no seu teste) contra você ou ficará Paralisado por um turno.</p>"
   },
   "flags": {
     "mighty-blade": {

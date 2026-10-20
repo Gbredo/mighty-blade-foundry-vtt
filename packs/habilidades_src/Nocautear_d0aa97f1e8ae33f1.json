@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça um ataque corporal que cause dano por Contusão. Se acertar, além de sofrer o dano normal do ataque, o alvo fica Paralisado por 1 turno.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Consulte a condição Paralisado na página 169 do Guia Básico.</p></div>"
+    "description": "<p>Faça um ataque corporal que cause dano por Contusão. Se acertar, além de sofrer o dano normal do ataque, o alvo fica Paralisado por 1 turno.</p>"
   },
   "flags": {
     "mighty-blade": {

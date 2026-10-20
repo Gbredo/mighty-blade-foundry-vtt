@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>O sangue parece querer escapar dos ferimentos quando você está por perto. Todos os efeitos de Sangramento que causem dano ou perda de vida em uma área em metros igual à sua Determinação ao seu redor causam o dobro do dano ou perda de vida normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Sanguíneo.</p></div>"
+    "description": "<p>O sangue parece querer escapar dos ferimentos quando você está por perto. Todos os efeitos de Sangramento que causem dano ou perda de vida em uma área em metros igual à sua Determinação ao seu redor causam o dobro do dano ou perda de vida normal.</p>"
   },
   "flags": {
     "mighty-blade": {

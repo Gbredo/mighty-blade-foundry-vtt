@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma e um dano adicional igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis – mas não faz alvos vivos irromperem em chamas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para as habilidades Onda de Chamas (Onda de Fogo), Ataque Flamejante e para a Habilidade Final Destruição Elemental.</p></div>"
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa o dano normal da arma e um dano adicional igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis – mas não faz alvos vivos irromperem em chamas.</p>"
   },
   "flags": {
     "mighty-blade": {

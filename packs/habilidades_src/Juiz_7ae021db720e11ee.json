@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é muito bom em extrair a verdade de seus interlocutores. Quando tiver detectado uma mentira, você pode ordenar ao alvo que diga a verdade. O alvo realiza um teste de Vontade (dificuldade igual à sua Determinação) e se falhar ele deve, imediatamente, contar a verdade dentro dos seus conhecimentos (o alvo não pode modificar nenhum fato nem suprimir nenhuma informação que souber). Além disso, o alvo também fica Amedrontado em relação a você por um número de minutos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Requer Nível 5 e a habilidade Mastim. Servindo de pré-requisito para a Habilidade Final Magistrado.</p></div>"
+    "description": "<p>Você é muito bom em extrair a verdade de seus interlocutores. Quando tiver detectado uma mentira, você pode ordenar ao alvo que diga a verdade. O alvo realiza um teste de Vontade (dificuldade igual à sua Determinação) e se falhar ele deve, imediatamente, contar a verdade dentro dos seus conhecimentos (o alvo não pode modificar nenhum fato nem suprimir nenhuma informação que souber). Além disso, o alvo também fica Amedrontado em relação a você por um número de minutos igual à sua Vontade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {

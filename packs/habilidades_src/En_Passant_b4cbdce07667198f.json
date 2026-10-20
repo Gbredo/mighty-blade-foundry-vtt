@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se um alvo que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer uma ação normal contra ele. O alvo é considerado Desprevenido contra essa ação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Consome uma Reação contra o movimento de se afastar ou levantar de um alvo adjacente. Requer Nível 5 e Flanquear.</p></div>"
+    "description": "<p>Se um alvo que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer uma ação normal contra ele. O alvo é considerado Desprevenido contra essa ação.</p>"
   },
   "flags": {
     "mighty-blade": {

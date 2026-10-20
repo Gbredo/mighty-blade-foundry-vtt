@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Dizem que a melhor defesa é o ataque – e você sabe como tornar essa máxima em realidade! Sempre que fizer um ataque de encontrão ou utilizar uma Habilidade que exija uma manobra de encontrão como parte de sua ativação, adicione o seu bônus de Bloqueio ao dano do seu ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Adiciona o valor do bônus de Bloqueio do personagem ao dano total causado em qualquer manobra de Encontrão ou habilidade que exija um Encontrão para ser ativada.</p></div>"
+    "description": "<p>Dizem que a melhor defesa é o ataque – e você sabe como tornar essa máxima em realidade! Sempre que fizer um ataque de encontrão ou utilizar uma Habilidade que exija uma manobra de encontrão como parte de sua ativação, adicione o seu bônus de Bloqueio ao dano do seu ataque.</p>"
   },
   "flags": {
     "mighty-blade": {

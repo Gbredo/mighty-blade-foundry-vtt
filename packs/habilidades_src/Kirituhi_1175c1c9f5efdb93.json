@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de realizar uma tatuagem em um Humanoide ou Esfinge com os efeitos de qualquer uma de suas Habilidades de Tohunga que não tenham Requisitos. O processo leva um dia inteiro, e você precisa ser capaz de falar em uma língua que o alvo entenda, explicando sobre os significados e propriedades da tatuagem que está produzindo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Tamoko. Caminho Tohunga.</p></div>"
+    "description": "<p>Você é capaz de realizar uma tatuagem em um Humanoide ou Esfinge com os efeitos de qualquer uma de suas Habilidades de Tohunga que não tenham Requisitos. O processo leva um dia inteiro, e você precisa ser capaz de falar em uma língua que o alvo entenda, explicando sobre os significados e propriedades da tatuagem que está produzindo.</p>"
   },
   "flags": {
     "mighty-blade": {

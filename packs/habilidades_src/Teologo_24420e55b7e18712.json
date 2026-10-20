@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de interpretar perfeitamente os significados por trás de magias místicas contidas em qualquer missal. Sempre que conseguir estudar uma Magia Mística contida em um item com a característica Registro, você será capaz de conjurar aquela Magia sem qualquer penalidade. Além disso, se você puder atender aos requisitos daquela Magia, você pode aprendê-la como se ela estivesse na lista de Habilidades da sua Classe.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade do caminho Escriba.</p></div>"
+    "description": "<p>Você é capaz de interpretar perfeitamente os significados por trás de magias místicas contidas em qualquer missal. Sempre que conseguir estudar uma Magia Mística contida em um item com a característica Registro, você será capaz de conjurar aquela Magia sem qualquer penalidade. Além disso, se você puder atender aos requisitos daquela Magia, você pode aprendê-la como se ela estivesse na lista de Habilidades da sua Classe.</p>"
   },
   "flags": {
     "mighty-blade": {

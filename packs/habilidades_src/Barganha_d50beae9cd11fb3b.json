@@ -29,7 +29,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é um praticante das artes da negociação, oratória, retórica e sofisma. Você pode rolar +1d6 em todos os seus testes que envolvam comércio e outras negociações.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Pode ser usado em testes de Inteligência ou Vontade aplicados a negociações financeiras e trocas.</p></div>"
+    "description": "<p>Você é um praticante das artes da negociação, oratória, retórica e sofisma. Você pode rolar +1d6 em todos os seus testes que envolvam comércio e outras negociações.</p>"
   },
   "flags": {
     "mighty-blade": {

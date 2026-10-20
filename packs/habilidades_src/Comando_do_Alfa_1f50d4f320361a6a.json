@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você dá um comando para um de seus Companheiros Animais (pule, resista, viva, morda, etc.) e o alvo realiza imediatamente aquela ação. A ordem não pode ser negativa (falhe, morra, caia, etc.). O alvo ainda rola seu teste, apenas para verificar a possibilidade de um sucesso crítico – qualquer outro resultado (mesmo uma falha crítica) é considerado um sucesso normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Domador.</p></div>"
+    "description": "<p>Você dá um comando para um de seus Companheiros Animais (pule, resista, viva, morda, etc.) e o alvo realiza imediatamente aquela ação. A ordem não pode ser negativa (falhe, morra, caia, etc.). O alvo ainda rola seu teste, apenas para verificar a possibilidade de um sucesso crítico – qualquer outro resultado (mesmo uma falha crítica) é considerado um sucesso normal.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é extremamente hábil em se esconder, e consegue fazer isso de modo quase sobrenatural! O mestre deve estipular o custo de Mana de acordo com o esconderijo à disposição, entre 10 (se for um local escuro e/ou com boa cobertura, como um arbusto de folhagem densa com o dobro do seu tamanho) e 30 (atrás de uma pedra do seu tamanho, no meio de um dia ensolarado). Você pode permanecer no seu esconderijo por até 1 hora, e enquanto fizer isso, você é considerado Invisível.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> O custo de Mana varia de 10 a 30 PMs e é estipulado pelo Mestre com base na qualidade do esconderijo. A condição Invisível é mantida por até 1 hora no local.</p></div>"
+    "description": "<p>Você é extremamente hábil em se esconder, e consegue fazer isso de modo quase sobrenatural! O mestre deve estipular o custo de Mana de acordo com o esconderijo à disposição, entre 10 (se for um local escuro e/ou com boa cobertura, como um arbusto de folhagem densa com o dobro do seu tamanho) e 30 (atrás de uma pedra do seu tamanho, no meio de um dia ensolarado). Você pode permanecer no seu esconderijo por até 1 hora, e enquanto fizer isso, você é considerado Invisível.</p>"
   },
   "flags": {
     "mighty-blade": {

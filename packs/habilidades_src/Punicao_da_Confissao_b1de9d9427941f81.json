@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Tocando em um alvo e vencendo um confronto de Vontade contra ele, você faz com que ele recite, em detalhes, todos os crimes – ações que ele saiba que para você sejam considerados crimes, mesmo que ele próprio não os considere dessa forma – que tenha cometido e que não tenham sido julgados. Se o alvo tiver um resultado mais alto do que o seu no confronto de Vontade, ele não será obrigado a confessar seus crimes, mas se tentar falar qualquer outra coisa, não será capaz de produzir palavras coerentes por um número de minutos igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10 e Punição do Silêncio. Habilidade Final do Caminho Arconte.</p></div>"
+    "description": "<p>Tocando em um alvo e vencendo um confronto de Vontade contra ele, você faz com que ele recite, em detalhes, todos os crimes – ações que ele saiba que para você sejam considerados crimes, mesmo que ele próprio não os considere dessa forma – que ele tenha cometido e que não tenham sido julgados. Se o alvo tiver um resultado mais alto do que o seu no confronto de Vontade, ele não será obrigado a confessar seus crimes, mas se tentar falar qualquer outra coisa, não será capaz de produzir palavras coerentes – esse efeito dura por um número de minutos igual à sua Determinação.</p>"
   },
   "flags": {
     "mighty-blade": {

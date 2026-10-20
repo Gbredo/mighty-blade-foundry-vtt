@@ -34,7 +34,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você gosta de competir – e principalmente, de ganhar! Sempre que for fazer uma rolagem para decidir o resultado de um confronto, você recebe um bônus de +2 no seu teste.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Aplica-se a qualquer tipo de Confronto (físico, mágico, mental ou social).</p></div>"
+    "description": "<p>Você gosta de competir – e principalmente, de ganhar! Sempre que for fazer uma rolagem para decidir o resultado de um confronto, você recebe um bônus de +2 no seu teste.</p>"
   },
   "flags": {
     "mighty-blade": {

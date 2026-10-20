@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você recebe +2 em todas as suas rolagens relativas a criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Você também causa +3 de dano em todos os seus ataques contra essas criaturas.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Estrige.</p></div>"
+    "description": "<p>Você recebe +2 em todas as suas rolagens relativas a criaturas dos tipos Amaldiçoado, Infernal, Espírito e Morto-vivo. Você também causa +3 de dano em todos os seus ataques contra essas criaturas.</p>"
   },
   "flags": {
     "mighty-blade": {

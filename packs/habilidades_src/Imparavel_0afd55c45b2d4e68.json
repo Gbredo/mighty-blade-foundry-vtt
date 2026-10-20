@@ -29,7 +29,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Derrubar você permanentemente é uma tarefa bem difícil! Uma vez por combate, quando seus Pontos de Vida chegarem a zero, você ignora totalmente o dano que o derrubaria.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer a Habilidade Fortaleza e Vontade 5. Só pode ser ativada 1 vez por combate.</p></div>"
+    "description": "<p>Derrubar você permanentemente é uma tarefa bem difícil! Uma vez por combate, quando seus Pontos de Vida chegarem a zero, você ignora totalmente o dano que o derrubaria.</p>"
   },
   "flags": {
     "mighty-blade": {

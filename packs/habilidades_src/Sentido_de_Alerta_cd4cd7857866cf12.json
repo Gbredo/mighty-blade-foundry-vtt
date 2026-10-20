@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seus sentidos são sobrenaturalmente afiados e seu sono é extremamente leve. Você nunca é considerado Surpreso ou Desprevenido e recebe +2 em suas rolagens de Iniciativa. Além disso, se você estiver dormindo ou desacordado, você desperta imediatamente se for atacado, rolando sua Iniciativa – e se tiver um resultado maior do que o do atacante, pode agir antes dele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Sentidos de Caçador. Caminho Estrige.</p></div>"
+    "description": "<p>Seus sentidos são sobrenaturalmente afiados e seu sono é extremamente leve. Você nunca é considerado Surpreso ou Desprevenido e recebe +2 em suas rolagens de Iniciativa. Além disso, se você estiver dormindo ou desacordado, você desperta imediatamente se for atacado, rolando sua Iniciativa – e se tiver um resultado maior do que o do atacante, pode agir antes dele.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Com o seu toque, você transforma qualquer material com um peso em gramas igual a 100 vezes sua Vontade em outro material qualquer. O objeto permanecerá transformado por um número de dias igual à sua Vontade, quando, então, se tornará uma massa de lama fétida. Você só pode afetar um objeto com essa Habilidade uma vez, e Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não podem ser afetados.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Pacto da Ambição. Transmuta matéria não-mágica temporariamente por dias iguais à Vontade antes de virar lama fétida.</p></div>"
+    "description": "<p>Com o seu toque, você transforma qualquer material com um peso em gramas igual a 100 vezes sua Vontade em outro material qualquer. O objeto permanecerá transformado por um número de dias igual à sua Vontade, quando, então, se tornará uma massa de lama fétida. Você só pode afetar um objeto com essa Habilidade uma vez, e Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não podem ser afetados.</p>"
   },
   "flags": {
     "mighty-blade": {

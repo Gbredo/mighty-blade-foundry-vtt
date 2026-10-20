@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você aprendeu a ser letal em emboscadas. Quando fizer um ataque contra um alvo que esteja Desprevenido com relação a você, você pode escolher utilizar Inteligência ou Agilidade (o que for mais alto) ao invés de sua Força para calcular o dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Presas Vermelhas. Serve de pré-requisito para Crânio Vermelho.</p></div>"
+    "description": "<p>Você aprendeu a ser letal em emboscadas. Quando fizer um ataque contra um alvo que esteja Desprevenido com relação a você, você pode escolher utilizar Inteligência ou Agilidade (o que for mais alto) ao invés de sua Força para calcular o dano do ataque.</p>"
   },
   "flags": {
     "mighty-blade": {

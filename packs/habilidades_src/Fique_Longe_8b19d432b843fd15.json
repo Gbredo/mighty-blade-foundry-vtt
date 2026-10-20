@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que você fizer um ataque devido a uma Habilidade do tipo Reação e estiver usando uma arma de haste, você recebe +2 no teste de ataque e no dano do ataque.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Manter à Distância. Caminho Lanceiro.</p></div>"
+    "description": "<p>Sempre que você fizer um ataque devido a uma Habilidade do tipo Reação e estiver usando uma arma de haste, você recebe +2 no teste de ataque e no dano do ataque.</p>"
   },
   "flags": {
     "mighty-blade": {

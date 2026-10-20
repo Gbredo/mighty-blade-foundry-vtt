@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça um ataque contra um alvo Desprevenido. Esse ataque causa o dobro do dano normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No Guia do Vilão (pág. 69), o multiplicador de dano é classificado como um efeito de Sangramento. Requer Nível 5 e Flanquear.</p></div>"
+    "description": "<p>Faça um ataque contra um alvo Despreparado. Esse ataque causa o dobro do dano normal.</p>"
   },
   "flags": {
     "mighty-blade": {

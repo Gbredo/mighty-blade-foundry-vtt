@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se concentrando em um alvo, você começa a tocar um ritmo compassado. O alvo precisa ter um resultado igual ou maior do que o seu em um Confronto de Vontade, ou seu coração fica sincronizado com o ritmo que você está tocando. Enquanto mantiver essa Música, você pode, durante o seu turno, parar ou acelerar o ritmo, o que faz com que o alvo perca a ação de movimento do próximo turno e perca 20 Pontos de Vida – quando isso acontece, o alvo tem direito a um novo Confronto de Vontade para se livrar do controle da Música.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige Nível 5.</p></div>"
+    "description": "<p>Se concentrando em um alvo, você começa a tocar um ritmo compassado. O alvo precisa ter um resultado igual ou maior do que o seu em um Confronto de Vontade, ou seu coração fica sincronizado com o ritmo que você está tocando. Enquanto mantiver essa Música, você pode, durante o seu turno, parar ou acelerar o ritmo, o que faz com que o alvo perca a ação de movimento do próximo turno e perca 20 Pontos de Vida – quando isso acontece, o alvo tem direito a um novo Confronto de Vontade para se livrar do controle da Música.</p>"
   },
   "flags": {
     "mighty-blade": {

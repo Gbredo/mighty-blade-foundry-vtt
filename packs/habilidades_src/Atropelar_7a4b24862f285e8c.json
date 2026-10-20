@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Quando usar Ataque do Búfalo, se o alvo for derrubado ele sofre um dano adicional igual a 6/Contusão para cada 100 quilos de peso que você tiver.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ataque do Búfalo.</p></div>"
+    "description": "<p>Quando usar Ataque do Búfalo, se o alvo for derrubado ele sofre um dano adicional igual a 6/Contusão para cada 100 quilos de peso que você tiver.</p>"
   },
   "flags": {
     "mighty-blade": {

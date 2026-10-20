@@ -29,7 +29,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você está acostumado a lutar em grupo e sabe como abrir a guarda de um adversário para que seus aliados possam atingi-lo. Faça um ataque corporal contra um oponente. Se acertar, todos aliados que estiverem adjacentes ao mesmo oponente poderão fazer um ataque corporal normal contra ele imediatamente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta habilidade também está disponível como Habilidade Geral para todos os membros da Hoste de Hadorn (Guia de Tebryn, pág. 46).</p></div>"
+    "description": "<p>Você está acostumado a lutar em grupo e sabe como abrir a guarda de um adversário para que seus aliados possam atingi-lo. Faça um ataque corporal contra um oponente. Se acertar, todos aliados que estiverem adjacentes ao mesmo oponente poderão fazer um ataque corporal normal contra ele imediatamente.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seu corpo possui uma resistência incrível a maldições. Você é imune a doenças mágicas e maldições, e recebe +1d6 para resistir a doenças naturais e venenos naturais mágicos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Estrige.</p></div>"
+    "description": "<p>Seu corpo possui uma resistência incrível a maldições. Você é imune a doenças mágicas e maldições, e recebe +1d6 para resistir a doenças naturais e venenos naturais mágicos.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você tatuou uma marca pessoal que lhe concede um poderoso senso de propósito. Enquanto esta tatuagem estiver visível você tem +10 Pontos de Vida OU +10 Pontos de Mana (essa escolha é feita quando você seleciona essa Habilidade e não pode ser mudada mais tarde). Além disso, seus ataques desarmados são considerados armas marcadas com sua Runa Pessoal para todos os propósitos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Tohunga.</p></div>"
+    "description": "<p>Você tatuou uma marca pessoal que lhe concede um poderoso senso de propósito. Enquanto esta tatuagem estiver visível você tem +10 Pontos de Vida OU +10 Pontos de Mana (essa escolha é feita quando você seleciona essa Habilidade e não pode ser mudada mais tarde). Além disso, seus ataques desarmados são considerados armas marcadas com sua Runa Pessoal para todos os propósitos.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seu Companheiro Animal recebe +1 em todos os seus Atributos, +10 Pontos de Vida e +10 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto). Você também recebe +2 em todos os seus testes relativos a animais e pode também atrair um segundo Companheiro Animal seguindo as mesmas regras de Companheiro Animal 1.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Companheiro Animal 3. Caminho Domador.</p></div>"
+    "description": "<p>Seu Companheiro Animal recebe +1 em todos os seus Atributos, +10 Pontos de Vida e +10 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto). Você também recebe +2 em todos os seus testes relativos a animais e pode também atrair um segundo Companheiro Animal seguindo as mesmas regras de Companheiro Animal 1.</p>"
   },
   "flags": {
     "mighty-blade": {

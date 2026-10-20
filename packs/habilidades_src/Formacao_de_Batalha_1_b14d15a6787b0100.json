@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Dando ordens precisas para seus aliados você aumenta sua eficiência em combate. Todos os aliados que puderem lhe ouvir recebem um bônus de +1 na Defesa por 1 minuto. Esse efeito é cancelado se o personagem ficar desacordado ou sob um efeito de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de Defesa pode ser tanto de Bloqueio quanto de Esquiva, à escolha do jogador que recebe o bônus. Requer a habilidade Táticas de Batalha. Serve de pré-requisito para Formação de Batalha 2.</p></div>"
+    "description": "<p>Dando ordens precisas para seus aliados você aumenta sua eficiência em combate. Todos os aliados que puderem lhe ouvir recebem um bônus de +1 na Defesa por 1 minuto. Esse efeito é cancelado se o personagem ficar desacordado ou sob um efeito de Medo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esse bônus de Defesa pode ser tanto de Bloqueio quanto de Esquiva, à escolha do jogador que recebe o bônus.</p></div>"
   },
   "flags": {
     "mighty-blade": {

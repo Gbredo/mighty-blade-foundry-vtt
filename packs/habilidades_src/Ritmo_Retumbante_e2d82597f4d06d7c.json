@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você produz um ritmo tão violento, que faz a terra tremer! Todos os que estiverem a uma quantidade de metros ao seu redor igual à sua Determinação (exceto você), devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação), ou perderão o equilíbrio e cairão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Causa a condição Caído em caso de falha no teste de Agilidade.</p></div>"
+    "description": "<p>Você produz um ritmo tão violento, que faz a terra tremer! Todos os que estiverem a uma quantidade de metros ao seu redor igual à sua Determinação (exceto você), devem fazer um teste de Agilidade (Dificuldade igual à sua Determinação), ou perderão o equilíbrio e cairão.</p>"
   },
   "flags": {
     "mighty-blade": {

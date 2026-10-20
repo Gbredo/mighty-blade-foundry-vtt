@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Tocando sobre um alvo você faz com que, se ele ficar sem Pontos de Vida dentro de um período de horas igual à sua Determinação, ao invés de ficar Por um Fio, ele morra imediatamente – e seu espírito seja enviado para o plano espiritual de imediato, sem chances de se tornar uma Sombra. Além disso, o corpo e o espírito de um alvo morto sob efeito dessa Punição não podem ser alvos de magias ou efeitos necromânticos. Se utilizada sobre um Espírito, ele será imediatamente destruído ou banido.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Exige pertencer ao Caminho Arconte.</p></div>"
+    "description": "<p>Tocando sobre um alvo você faz com que, se ele ficar sem Pontos de Vida dentro de um período de Horas igual à sua Determinação, ao invés de ficar Por um Fio, ele morra imediatamente – e seu espírito é enviado para o plano espiritual imediatamente, sem chances de que ele se torne uma Sombra. Além disso, o corpo e o espírito de um alvo morto sob efeito dessa Punição não podem ser alvos de magias ou efeitos necromânticos. Especial: Se utilizada sobre um Espírito, ele será imediatamente destruído.</p>"
   },
   "flags": {
     "mighty-blade": {

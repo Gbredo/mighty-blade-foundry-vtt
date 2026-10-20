@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Suas palavras inspiram e restauram o fôlego e a determinação de todos os seus aliados! Todos os seus aliados, exceto você, que possam lhe ouvir e que estejam a uma distância em metros até à sua Vontade, imediatamente recuperam uma quantidade de Pontos de Mana igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Inspirar Coragem. Caminho Trovador.</p></div>"
+    "description": "<p>Suas palavras inspiram e restauram o fôlego e a determinação de todos os seus aliados! Todos os seus aliados, exceto você, que possam lhe ouvir e que estejam a uma distância em metros até à sua Vontade, imediatamente recuperam uma quantidade de Pontos de Mana igual à sua Determinação.</p>"
   },
   "flags": {
     "mighty-blade": {

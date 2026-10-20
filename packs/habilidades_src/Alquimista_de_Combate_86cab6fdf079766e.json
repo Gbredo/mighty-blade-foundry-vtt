@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você tem vasta experiência no uso de poções no calor do combate, e se tornou particularmente eficiente nisso. Você pode arremessar uma poção como uma ação livre, desde que possa sacá-la como uma ação livre no mesmo turno – ou seja, a poção deve estar em uma bandoleira ou cinto. Além disso, você recebe +1 em seus testes de arremesso – esse bônus se acumula com o bônus de Alquimista de Campo. Finalmente, você passa a poder beber uma poção como uma ação de movimento ao invés de uma ação padrão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Alquimista de Campo.</p></div>"
+    "description": "<p>Você tem vasta experiência no uso de poções no calor do combate, e se tornou particularmente eficiente nisso. Você pode arremessar uma poção como uma ação livre, desde que possa sacá-la como uma ação livre no mesmo turno – ou seja, a poção deve estar em uma bandoleira ou cinto. Além disso, você recebe +1 em seus testes de arremesso – esse bônus se acumula com o bônus de Alquimista de Campo. Finalmente, você passa a poder beber uma poção como uma ação de movimento ao invés de uma ação padrão.</p>"
   },
   "flags": {
     "mighty-blade": {

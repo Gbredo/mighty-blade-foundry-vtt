@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você passou anos estudando livros sobre os mais diversos assuntos. Você rola +1d6 em qualquer teste ligado à história, heráldica, geografia, religião, astrologia ou qualquer tipo de conhecimento teórico.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> No *Tomo das Muitas Línguas* (pág. 41), especifica-se que este bônus de +1d6 também se aplica a qualquer Selo ou Runa Simples que o personagem desenhar.</p></div>"
+    "description": "<p>Você passou anos estudando livros sobre os mais diversos assuntos. Você rola +1d6 em qualquer teste ligado à história, heráldica, geografia, religião, astrologia ou qualquer tipo de conhecimento teórico. Este bônus também se aplica à qualquer Selo ou Runa Simples que você desenhar.</p>"
   },
   "flags": {
     "mighty-blade": {

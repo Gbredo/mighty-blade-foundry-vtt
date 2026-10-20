@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sabe se impor quando a situação requer. Você força todos os inimigos que possam vê-lo e ouvi-lo (mesmo que não sejam capazes de entender o que você diz) a fazer um Confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu passam a prestar atenção exclusiva no que você diz, e ficam Desprevenidos em relação a todas as criaturas, exceto você, por 1 turno. Uma criatura só pode ser afetada por essa Habilidade uma vez a cada minuto – ou combate.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Classe Bardo.</p></div>"
+    "description": "<p>Você sabe se impor quando a situação requer. Você força todos os inimigos que possam vê-lo e ouvi-lo (mesmo que não sejam capazes de entender o que você diz) a fazer um Confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu passam a prestar atenção exclusiva no que você diz, e ficam Desprevenidos em relação a todas as criaturas, exceto você, por 1 turno. Uma criatura só pode ser afetada por essa Habilidade uma vez a cada minuto – ou combate.</p>"
   },
   "flags": {
     "mighty-blade": {

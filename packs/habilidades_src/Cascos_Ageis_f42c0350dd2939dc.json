@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você é mais ágil e veloz do que a maioria dos Faunos. Você ganha Agilidade +1, Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.</p>"
+    "description": "<p>Você é mais ágil e veloz do que a maioria dos Faunos. Você é mais ágil e veloz do que a maioria dos Faunos. Você tem Agilidade +1, Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.</p>"
   },
   "flags": {
     "mighty-blade": {

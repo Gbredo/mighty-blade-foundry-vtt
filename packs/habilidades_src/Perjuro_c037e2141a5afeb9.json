@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>É praticamente impossível dizer se você está mentindo ou não, já que você aprendeu a questionar qualquer verdade considerada factual. Criaturas capazes de perceber mentiras automaticamente precisam fazer testes normalmente para perceber suas mentiras, e contra criaturas que não tenham esse tipo de habilidade, você recebe +1d6 para mentir. Além disso, por ter tido uma crença poderosa em uma verdade superior, você é muito bom em perceber a convicção nas palavras dos outros, e também recebe +1d6 para detectar mentiras.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Charlatão.</p></div>"
+    "description": "<p>É praticamente impossível dizer se você está mentindo ou não, já que você aprendeu a questionar qualquer verdade considerada factual. Criaturas capazes de perceber mentiras automaticamente precisam fazer testes normalmente para perceber suas mentiras, e contra criaturas que não tenham esse tipo de habilidade, você recebe +1d6 para mentir. Além disso, por ter tido uma crença poderosa em uma verdade superior, você é muito bom em perceber a convicção nas palavras dos outros, e também recebe +1d6 para detectar mentiras.</p>"
   },
   "flags": {
     "mighty-blade": {

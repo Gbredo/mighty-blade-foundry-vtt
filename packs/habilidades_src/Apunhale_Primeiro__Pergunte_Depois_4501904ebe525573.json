@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você está sempre pronto para a ação, e essa ação quase sempre é agressiva! Você rola +1d6 em seus testes de iniciativa e todos os outros personagens são considerados Desprevenidos com relação a você até que tenham feito uma Ação durante um combate.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Assassino.</p></div>"
+    "description": "<p>Você está sempre pronto pra ação, e essa ação quase sempre é agressiva! Você rola +1d6 em seus testes de iniciativa e todos os outros personagens são considerados Desprevenidos com relação a você até que tenham feito uma Ação durante um combate.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Com seu toque você pode recuperar as energias de um espírito. Você pode curar até 40 Pontos de Vida de uma criatura com Corpo Intangível, além de remover quaisquer efeitos Mentais, de medo, Selos Místicos e Runas Arcanas que a estiverem afetando.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico corrigiu o tipo desta habilidade de Magia para Técnica, visto que Xamãs não são Conjuradores arcanos/místicos.</p></div>"
+    "description": "<p>Com seu toque você pode recuperar as energias de um espírito. Você pode curar até 40 Pontos de Vida de uma criatura com Corpo Intangível, além de remover quaisquer efeitos Mentais, de medo, Selos Místicos e Runas Arcanas que a estiverem afetando.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você está sempre atento à guarda do oponente, esperando uma falha para contra-atacar de modo oportuno. Sempre que um oponente fizer um ataque contra você e errar, você pode imediatamente fazer um ataque normal contra aquele oponente.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Ataque Redirecionado.</p></div>"
+    "description": "<p>Você está sempre atento à guarda do oponente, esperando uma falha para contra-atacar de modo oportuno. Sempre que um oponente fizer um ataque contra você e errar, você pode imediatamente fazer um ataque normal contra aquele oponente.</p>"
   },
   "flags": {
     "mighty-blade": {

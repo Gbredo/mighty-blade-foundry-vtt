@@ -33,7 +33,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Você praticou voo com um entusiasmo incomum e aperfeiçoou enormemente suas perícias aéreas. Enquanto estiver voando, você recebe um bônus de +2 em testes de acrobacia, tentativas de realizar um Encontrão, testes de movimento e qualquer outra manobra aérea. Este bônus também estende-se à sua Defesa (considerado um bônus de Esquiva).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Agilidade 5. Serve de pré-requisito para Movimento Brusco.</p></div>"
+    "description": "<p>Você praticou voo com um entusiasmo incomum e aperfeiçoou enormemente suas perícias aéreas. Enquanto estiver voando, você recebe um bônus de +2 em testes de acrobacia, tentativas de realizar um Encontrão, testes de movimento e qualquer outra manobra aérea. Este bônus também estende-se à sua Defesa (este é considerado um bônus de Esquiva).</p>"
   },
   "flags": {
     "mighty-blade": {

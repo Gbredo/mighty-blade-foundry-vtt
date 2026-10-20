@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que fizer um ataque corporal enquanto estiver sobre uma montaria (uma criatura com a Habilidade Montaria ou Paquiderme), acrescente +6 em seus danos.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Cavaleiro Experiente. Para regras gerais de combate a cavalo (bloqueio obrigatório, +1 na Defesa por posição elevada e manobras de Carga Montada), consulte o suplemento *Codex Monstrorum*, pág. 153.</p></div>"
+    "description": "<p>Sempre que fizer um ataque corporal enquanto estiver sobre uma montaria (uma criatura com a Habilidade Montaria ou Paquiderme), acrescente +6 em seus danos.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Faça uma manobra de encontrão. Se acertar o ataque, além de causar o dano normal pelo encontrão, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação mais a FN da arma que estiver usando) ou será derrubado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Alvos com o dobro do seu peso não são afetados por esta habilidade.</p></div>"
+    "description": "<p>Faça uma manobra de encontrão. Se acertar o ataque, além de causar o dano normal pelo encontrão, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação mais a FN da arma que estiver usando) ou será derrubado.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Alvos com o dobro do seu peso não são afetados.</p></div>"
   },
   "flags": {
     "mighty-blade": {

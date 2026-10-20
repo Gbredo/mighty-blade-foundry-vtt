@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de cortar o ar, enviando uma rajada de vento mágico que corta alvos distantes. Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal contra um alvo dentro da sua linha de visão. Esse ataque causa o dano normal da arma.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial do Guia Básico determina a remoção do valor de Dificuldade listado originalmente no manual, por se tratar de uma Habilidade do tipo Técnica. Requer Nível 5 e Enfeitiçar Arma 1.</p></div>"
+    "description": "<p>Você é capaz de cortar o ar, enviando uma rajada de vento mágico que corta alvos distantes. Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal contra um alvo dentro da sua linha de visão. Esse ataque causa o dano normal da arma.</p>"
   },
   "flags": {
     "mighty-blade": {

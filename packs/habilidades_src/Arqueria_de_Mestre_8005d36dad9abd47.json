@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sempre rola +1d6 para ataques à distância (incluindo arremessos).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Esta é a Habilidade Final da classe Patrulheiro (requer Nível 10 e Olho da Águia).</p></div>"
+    "description": "<p>Você sempre rola +1d6 para ataques à distância (incluindo arremessos).</p>"
   },
   "flags": {
     "mighty-blade": {

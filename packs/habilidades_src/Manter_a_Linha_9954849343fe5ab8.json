@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sabe como utilizar o alcance de uma arma de haste com eficiência. Sempre que estiver utilizando uma arma de haste e um oponente que esteja à distância de haste ou além dela se aproximar à distância corpo-a-corpo, você pode imediatamente realizar um ataque corporal normal contra ele.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Habilidade automática do caminho Lanceiro.</p></div>"
+    "description": "<p>Você sabe como utilizar o alcance de uma arma de haste com eficiência. Sempre que estiver utilizando uma arma de haste e um oponente que esteja à distância de haste ou além dela se aproximar à distância corpo-a-corpo, você pode imediatamente realizar um ataque corporal normal contra ele.</p>"
   },
   "flags": {
     "mighty-blade": {

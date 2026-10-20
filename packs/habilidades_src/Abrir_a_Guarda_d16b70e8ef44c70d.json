@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você chama a atenção de uma criatura fazendo com que ela perca o foco em combate e abra sua guarda. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura se desconcentra do combate e abre a guarda, permitindo que cada criatura adjacente a ela possa realizar, imediatamente, um ataque corporal contra ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental. Requer Nível 5 e a habilidade Distração.</p></div>"
+    "description": "<p>Você chama a atenção de uma criatura fazendo com que ela perca o foco em combate e abra sua guarda. Você escolhe uma criatura que esteja a uma distância em metros igual à sua Vontade e que seja capaz de compreender o que você diz. Aquela criatura se desconcentra do combate e abre a guarda, permitindo que cada criatura adjacente a ela possa realizar, imediatamente, um ataque corporal contra ela.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {

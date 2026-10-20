@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de sentir a presença de qualquer criatura dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo que se aproxime de você a uma distância em metros igual à sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Caminho Estrige.</p></div>"
+    "description": "<p>Você é capaz de sentir a presença de qualquer criatura dos tipos Amaldiçoado, Infernal, Espírito ou Morto-vivo que se aproxime de você a uma distância em metros igual à sua Determinação.</p>"
   },
   "flags": {
     "mighty-blade": {

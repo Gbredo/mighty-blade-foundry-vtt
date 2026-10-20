@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sabe como sintonizar brevemente um alvo ao Limiar, permitindo que ele seja capaz de ouvir as lamúrias de morte dos espíritos ao redor. O alvo fica Enregelado e precisa fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo perde uma quantidade de Pontos de Vida e Pontos de Mana iguais a sua Determinação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Esta Carcaça Mortal. Caminho Gótico.</p></div>"
+    "description": "<p>Você sabe como sintonizar brevemente um alvo ao Limiar, permitindo que ele seja capaz de ouvir as lamúrias de morte dos espíritos ao redor. O alvo fica Enregelado e precisa fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se falhar, o alvo perde uma quantidade de Pontos de Vida e Pontos de Mana iguais a sua Determinação.</p>"
   },
   "flags": {
     "mighty-blade": {

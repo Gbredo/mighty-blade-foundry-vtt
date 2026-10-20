@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Todos os mortos-vivos que você criar têm Defesa +2 (escolha entre Bloqueio ou Esquiva quando cria o morto-vivo; essa escolha é permanente e não pode ser mudada mais tarde), +10 Pontos de Vida e a Runa Arcana que o mantém sob controle passa a durar o dobro do tempo.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Sustentar Mortos-vivos.</p></div>"
+    "description": "<p>Todos os mortos-vivos que você criar têm Defesa +2 (escolha entre Bloqueio ou Esquiva quando cria o morto-vivo; essa escolha é permanente e não pode ser mudada mais tarde), +10 Pontos de Vida e a Runa Arcana que o mantém sob controle passa a durar o dobro do tempo.</p>"
   },
   "flags": {
     "mighty-blade": {

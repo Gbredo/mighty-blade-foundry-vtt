@@ -37,7 +37,7 @@
       }
     ],
     "concessoes": [],
-    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa +8 de dano e afeta criaturas incorpóreas como se elas não tivessem essa Habilidade.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Serve de pré-requisito para a habilidade Onda Fantasma.</p></div>"
+    "description": "<p>Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal. Esse ataque causa +8 de dano e afeta criaturas incorpóreas como se elas não tivessem essa Habilidade.</p>"
   },
   "flags": {
     "mighty-blade": {

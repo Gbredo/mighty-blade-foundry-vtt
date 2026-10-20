@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sua coragem o impulsiona em situações de perigo para si e para seus companheiros. Sempre que for realizar um teste que represente um risco direto para você ou para um amigo (incluindo praticamente todas as situações de combate), você soma +2 ao resultado de todas as suas rolagens.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Código da Coragem. Serve de pré-requisito para a Habilidade Final Integridade.</p></div>"
+    "description": "<p>Sua coragem o impulsiona em situações de perigo para si e para seus companheiros. Sempre que for realizar um teste que represente um risco direto para você ou para um amigo (incluindo praticamente todas as situações de combate), você soma +2 ao resultado de todas as suas rolagens.</p>"
   },
   "flags": {
     "mighty-blade": {

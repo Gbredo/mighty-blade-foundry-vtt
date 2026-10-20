@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que acertar uma manobra de encontrão usando um escudo, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação + a FN do escudo que você estiver usando) ou será derrubado. Alvos com o dobro do seu peso não são afetados. Um ataque com um escudo causa dano igual à Força + FN do escudo/Contusão.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A Errata oficial (pág. 1) corrigiu o teste de resistência para um teste de Força (Dificuldade = Determinação + FN do escudo).</p></div>"
+    "description": "<p>Sempre que acertar uma manobra de encontrão usando um escudo, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação + a FN do escudo que você estiver usando) ou será derrubado. Alvos com o dobro do seu peso não são afetados. Um ataque com um escudo causa dano igual à Força + FN do escudo/Contusão.</p>"
   },
   "flags": {
     "mighty-blade": {

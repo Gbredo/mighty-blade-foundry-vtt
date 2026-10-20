@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode escolher uma das doenças que carrega e disparar um surto dela em uma área igual à sua Vontade em quilômetros. Todos dentro dessa área devem fazer um teste de Força (Dificuldade normal de acordo com a doença escolhida) para não contrair a doença. Todos os que permanecerem dentro da área devem fazer um novo teste a cada dia para resistir à infecção. A área permanece uma zona de virulência enquanto você permanecer dentro da área. Você só pode manter 1 Manto de Ereshkigal estendido de cada vez.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 10, Pacto da Pestilência. Caminho Cultista de Ereshkigal.</p></div>"
+    "description": "<p>Você pode escolher uma das doenças que carrega e disparar um surto dela em uma área igual à sua Vontade em quilômetros. Todos dentro dessa área devem fazer um teste de Força (Dificuldade normal de acordo com a doença escolhida) para não contrair a doença. Todos os que permanecerem dentro da área devem fazer um novo teste a cada dia para resistir à infecção. A área permanece uma zona de virulência enquanto você permanecer dentro da área. Você só pode manter 1 Manto de Ereshkigal estendido de cada vez.</p>"
   },
   "flags": {
     "mighty-blade": {

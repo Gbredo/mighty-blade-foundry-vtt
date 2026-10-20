@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seus chifres se tornaram grandes e ameaçadores. Se forem utilizados para realizar ataques desarmados, eles causam dano igual à Força +4/Perfuração. Eles também lhe conferem um discernimento intrínseco sobre demônios e sobre o plano infernal, e você recebe +2 em todas as suas rolagens referentes a Infernais (este bônus se acumula com o bônus de Chifres Pequenos) e a conhecimento sobre o Inferno, incluindo conjuração de magias através de Círculos de Invocação.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Chifres Pequenos. Dano Força +4/Perfuração e +2 cumulativo em testes sobre Infernais e Círculos de Invocação.</p></div>"
+    "description": "<p>Seus chifres se tornaram grandes e ameaçadores. Se forem utilizados para realizar ataques desarmados, eles causam dano igual à Força +4/Perfuração. Eles também lhe conferem um discernimento intrínseco sobre demônios e sobre o plano infernal, e você recebe +2 em todas as suas rolagens referentes a Infernais (este bônus se acumula com o bônus de Chifres Pequenos) e a conhecimento sobre o Inferno, incluindo conjuração de magias através de Círculos de Invocação.</p>"
   },
   "flags": {
     "mighty-blade": {

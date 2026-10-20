@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que fizer um ataque contra um Alvo Específico, a Defesa do alvo é aumentada em +2 ao invés de +4. Além disso, sempre que você rolar um sucesso decisivo em um ataque corporal usando uma arma que cause dano por Corte ou Perfuração, o multiplicador de dano do seu ataque será igual ao número de dados que tiverem um resultado 6, ao invés do multiplicador normal.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5. Caminho Assassino.</p></div>"
+    "description": "<p>Sempre que fizer um ataque contra um Alvo Específico, a Defesa do alvo é aumentada em +2 ao invés de +4. Além disso, sempre que você rolar um sucesso decisivo em um ataque corporal usando uma arma que cause dano por Corte ou Perfuração, o multiplicador de dano do seu ataque será igual ao número de dados que tiverem um resultado 6, ao invés do multiplicador normal.</p>"
   },
   "flags": {
     "mighty-blade": {

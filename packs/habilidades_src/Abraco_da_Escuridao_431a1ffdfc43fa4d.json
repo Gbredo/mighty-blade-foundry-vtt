@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você passou muito tempo comungando com a escuridão, e nega a proteção que aqueles que a utilizam tentam conseguir. Sempre que uma criatura dos tipos Amaldiçoado, Espírito ou Morto-Vivo lhe causar dano ou perda de vida ou de mana por qualquer meio, você reduz aquele dano, perda de Vida ou Mana à metade. Além disso, você recebe +2 para se esconder, se mover em silêncio e mentir e em seus testes para perceber criaturas escondidas e detectar mentiras.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer o Pacto da Escuridão. Habilidade exclusiva do Caminho Cultista.</p></div>"
+    "description": "<p>Você passou muito tempo comungando com a escuridão, e nega a proteção que aqueles que a utilizam tentam conseguir. Sempre que uma criatura dos tipos Amaldiçoado, Espírito ou Morto-Vivo lhe causar dano ou perda de vida ou de mana por qualquer meio, você reduz aquele dano, perda de Vida ou Mana à metade. Além disso, você recebe +2 para se esconder, se mover em silêncio e mentir e em seus testes para perceber criaturas escondidas e detectar mentiras.</p>"
   },
   "flags": {
     "mighty-blade": {

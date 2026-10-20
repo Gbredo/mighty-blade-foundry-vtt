@@ -21,7 +21,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Mente Disciplinada</p><p>Desenhando uma Runa Arcana sobre si mesmo, o conjurador recebe +2 em um Atributo à sua escolha. Além disso, se essa Runa for realizada antes de uma sessão de encantamento, o Artífice não fica exausto no fim do dia, recuperando metade dos seus Pontos de Mana totais durante o ritual. Isso não permite ao Artífice apressar o processo de um encantamento, mas ele pode se dedicar a dois encantamentos ao mesmo tempo. Essa Runa Arcana dura 1 minuto.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5, Mente Disciplinada. Caminho Artífice.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Mente Disciplinada</p><p>Desenhando uma Runa Arcana sobre si mesmo, o conjurador recebe +2 em um Atributo à sua escolha. Além disso, se essa Runa for realizada antes de uma sessão de encantamento, o Artífice não fica exausto no fim do dia, recuperando metade dos seus Pontos de Mana totais durante o ritual. Isso não permite ao Artífice apressar o processo de um encantamento, mas ele pode se dedicar a dois encantamentos ao mesmo tempo. Essa Runa Arcana dura 1 minuto.</p>"
   },
   "flags": {
     "mighty-blade": {

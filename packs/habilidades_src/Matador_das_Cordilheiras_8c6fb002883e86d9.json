@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você sempre causa +2 pontos de dano em todos os ataques contra a Raça Orc e criaturas dos tipos Gigante e Artrópode (esse bônus se acumula com o bônus de Caçador das Cordilheiras). Além disso, você passa a rolar +1d6 em todos os testes relacionados a essa criatura (esse bônus substitui o bônus de Caçador das Cordilheiras).</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e Caçador das Cordilheiras.</p></div>"
+    "description": "<p>Você sempre causa +2 pontos de dano em todos os ataques contra a Raça Orc e criaturas dos tipos Gigante e Artrópode (esse bônus se acumula com o bônus de Caçador das Cordilheiras). Além disso, você passa a rolar +1d6 em todos os testes relacionados a essa criatura (esse bônus substitui o bônus de Caçador das Cordilheiras).</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você pode transformar uma parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus braços em asas de grifo, recebendo Asas Pesadas, transformar sua cabeça para a de um lobo atroz e receber Mordida Poderosa ou desenvolver guelras como as de um tubarão, recebendo Anfíbio, por exemplo. Quaisquer modificações são possíveis, mas as possibilidades devem ser discutidas com o Mestre. Esse efeito dura 10 minutos, mas você pode cancelá-lo a qualquer momento.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Requer Nível 5 e a habilidade Vantagem Animal 1.</p></div>"
+    "description": "<p>Você pode transformar uma parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus braços em asas de grifo, recebendo Asas Pesadas, transformar sua cabeça para a de um lobo atroz e receber Mordida Poderosa ou desenvolver guelras como as de um tubarão, recebendo Anfíbio, por exemplo. Quaisquer modificações são possíveis, mas as possibilidades devem ser discutidas com o Mestre. Esse efeito dura 10 minutos, mas você pode cancelá-lo a qualquer momento.</p>"
   },
   "flags": {
     "mighty-blade": {

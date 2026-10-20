@@ -21,7 +21,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental do Gelo 1</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo grande custa 50 Pontos de Mana e um elemental do gelo gigante custa 100 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.<br><br>Requer Nível 5, Invocar Elemental do Gelo 1. Caminho Invocador.</p></div>"
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Invocar Elemental do Gelo 1</p><p>Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo grande custa 50 Pontos de Mana e um elemental do gelo gigante custa 100 Pontos de Mana.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.</p></div>"
   },
   "flags": {
     "mighty-blade": {
