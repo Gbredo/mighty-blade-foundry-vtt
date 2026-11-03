@@ -21,7 +21,7 @@
     "racasExcluidas": [],
     "idiomasRequeridos": [],
     "sobrescreve": [],
-    "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você domina sua</p>"
+    "description": "<p><strong>Requisitos:</strong> Nível 5, Maldição: Fobia</p><p>Desenhando um Símbolo Profano sobre uma criatura viva, você domina sua vontade e ela realizará toda e qualquer ação que você ordenar em voz alta. A criatura ainda mantém seu raciocínio e age de maneira espontânea quando não está realizando uma ação ordenada por você, mas não é capaz de atacar o conjurador a menos que seja ordenada.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Se alguma ação que você ordenar violar algum dos Dogmas, Códigos ou Pactos do personagem, ele pode imediatamente realizar um teste de Vontade (dificuldade igual à Determinação do conjurador) para resistir à ordem, o que dissipa a Runa imediatamente – mas falha neste teste significa que ele realiza a ação, e viola seu voto.<br><br>Esse Símbolo Profano dura tanto tempo quanto você estiver concentrado nela e o alvo estiver dentro de seu campo de visão, ou até que o alvo seja capaz de resistir a uma de suas ordens.<br><br>Este é um efeito mental.</p></div>"
   },
   "flags": {
     "mighty-blade": {
