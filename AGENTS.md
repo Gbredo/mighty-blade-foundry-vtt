@@ -66,3 +66,14 @@ Histórico de decisão: `RPG/MB/specs/Auditoria de Regras 2026-10-15.md` no Cofr
 
 ## 6. Scripts de Investigacao e Rascunho (Ad-hoc)
 * Scripts de investigação (inspecionar, ver, checar, testar…) vão em scripts/_rascunho/ e nunca são commitados. Só entram no repositório geradores reaproveitáveis, scripts de migração e testes em tests/.
+
+---
+
+## 7. Regras de segurança (Bredo, 20/10/2026)
+Valem para qualquer agente que trabalhe neste repositório (cópia versionada de `.agent/rules/seguranca.md`).
+
+* **Duas falhas, pare.** Se um comando falhar duas vezes, PARE. Relate o comando e o erro exato. Não tente contornar.
+* **Ambiente só com "autorizo".** Nunca altere permissões, ACL, atributos de arquivo ou configuração do git (inclusive fsmonitor), e nunca rode comandos fora do sandbox, sem a palavra "autorizo" do Bredo na conversa.
+* **Merge e push só com "merge".** Merge e push só depois de o Bredo escrever "merge" na conversa. Um OK genérico não vale.
+* **Relatório com todas as falhas.** Todo relatório lista todos os comandos que falharam, com o erro, e não só o resultado final.
+* **Estado do repositório com a saída real.** Ao relatar o estado de um repositório, cole a saída real de `git status` e `git reflog -10`. Não resuma.
