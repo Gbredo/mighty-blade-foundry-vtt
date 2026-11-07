@@ -15,7 +15,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv3",
-    "fonteLivro": "Canção do Bardo, pág. 27; Guia Básico, pág. 118",
+    "fonteLivro": "Canção do Bardo, pág. 27; Guia Básico, pág. 82",
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
@@ -43,7 +43,9 @@
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv3",
-      "aliases": [],
+      "aliases": [
+        "Canção do Réquiem"
+      ],
       "opcoes": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],

@@ -218,7 +218,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Patas com Cascos",
-        "descricao": "Você possui fortes patas munidas de cascos resistentes. Você pode rolar +1d6 quando fizer testes de correr, saltar ou desviar de obstáculos, e seu Deslocamento é aumentado em 1. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão.\n\nHabilidade Automática da raça Fauno.",
+        "descricao": "Você possui fortes patas munidas de cascos resistentes. Você pode rolar +1d6 quando fizer testes de correr, saltar ou desviar de obstáculos, e seu Deslocamento é aumentado em 1. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -294,7 +294,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Adaptabilidade",
-        "descricao": "Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu – ou precisou – desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha.\n\nHabilidade Automática da raça Humano. Permite distribuir +1 ponto em qualquer Atributo à escolha durante a criação.",
+        "descricao": "Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu – ou precisou – desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -526,7 +526,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Pernas Vulpinas",
-        "descricao": "Suas pernas são flexíveis e próprias para saltar, terminando em pés pequenos dotados de solas acolchoadas que permitem que você ande quase sem fazer sons. Você rola +1d6 quando fizer testes para saltar, correr e se mover em silêncio. Além disso, você tem Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.\n\nHabilidade Automática da raça Tailox.",
+        "descricao": "Suas pernas são flexíveis e próprias para saltar, terminando em pés pequenos dotados de solas acolchoadas que permitem que você ande quase sem fazer sons. Você rola +1d6 quando fizer testes para saltar, correr e se mover em silêncio. Além disso, você tem Deslocamento +1 e a distância dos seus saltos é aumentada em 1 metro.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -580,7 +580,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Vigor Nórdico",
-        "descricao": "Você nasceu em uma região gelada, e os rigores climáticos de Eishelm tornaram você vigoroso e resiliente. Você é Resistente a Frio e não é afetado nem por efeitos de climas gelados nem por efeitos provenientes de danos por Frio (como Enregelamento).\n\nPersonagens Aesires são proibidos de selecionar a Habilidade Geral Fúria de Batalha (\"Raças: Todas exceto Aesires\").",
+        "descricao": "Você nasceu em uma região gelada, e os rigores climáticos de Eishelm tornaram você vigoroso e resiliente. Você é Resistente a Frio e não é afetado nem por efeitos de climas gelados nem por efeitos provenientes de danos por Frio (como Enregelamento).",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -698,7 +698,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Chifres Poderosos",
-        "descricao": "Você pode desferir uma marrada poderosa com seus chifres, causando dano igual à Força +4/Contusão. Qualquer alvo atingido por um ataque feito com seus chifres precisa vencer um confronto de Força contra você ou será derrubado. Se o alvo for derrubado, ele ficará Atordoado por 1 turno.\n\nHabilidade Automática dos Astérios machos (as fêmeas recebem a Habilidade Faro como Habilidade Automática em vez desta).",
+        "descricao": "Você pode desferir uma marrada poderosa com seus chifres, causando dano igual à Força +4/Contusão. Qualquer alvo atingido por um ataque feito com seus chifres precisa vencer um confronto de Força contra você ou será derrubado. Se o alvo for derrubado, ele ficará Atordoado por 1 turno.\n\nEspecial: As fêmeas recebem a Habilidade Faro como Habilidade Automática ao invés desta.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -783,7 +783,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Faro",
-        "descricao": "Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.\n\nPermite identificar odores e rastrear criaturas pelo cheiro.",
+        "descricao": "Você possui um faro extremamente aguçado. Você rola +1d6 quando puder fazer testes que envolvam o faro, e pode perceber, detectar, rastrear e identificar pessoas e locais através dele. O Mestre pode realizar testes para ver se você consegue farejar mesmo quando você não estiver ativamente procurando odores específicos.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -1462,7 +1462,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Habitante do Esgoto",
-        "descricao": "Você está acostumado aos ambientes escuros e insalubres dos subterrâneos onde sua Raça costuma habitar. Você é capaz de enxergar no escuro com perfeição e é imune a todas as doenças e venenos naturais, além de receber +1d6 para resistir aos efeitos de doenças e venenos mágicos. Finalmente, qualquer alvo que sofra dano por seu ataque de mordida deve passar em um teste de Força (dificuldade igual à sua Determinação) ou ficará sob o efeito de uma doença natural – a doença específica que um Hamelin transmite deve ser decidida rolando 2d6 e verificando na tabela abaixo.\n\nTabela (2d6): 2 Lepra; 3 Larvas de Vermes; 4 Febre do Pântano; 5 Tétano; 6–8 Infecção Comum; 9 Malogro; 10 Tuberculose; 11 Olho de Goblin; 12 Peste Negra.\r\nEste resultado é permanente, e só poderá ser mudado se você adquirir a Habilidade Infecção Grave. A dificuldade de infecção da doença (igual à sua Determinação) não afeta a dificuldade para resistir aos sintomas da doença, que permanecem inalterados.\r\nO dano de sua mordida é igual à Força/Corte.\r\nPersonagens Hamelin são proibidos de selecionar a Habilidade Geral Recursos.",
+        "descricao": "Você está acostumado aos ambientes escuros e insalubres dos subterrâneos onde sua Raça costuma habitar. Você é capaz de enxergar no escuro com perfeição e é imune a todas as doenças e venenos naturais, além de receber +1d6 para resistir aos efeitos de doenças e venenos mágicos. Finalmente, qualquer alvo que sofra dano por seu ataque de mordida deve passar em um teste de Força (dificuldade igual à sua Determinação) ou ficará sob o efeito de uma doença natural – a doença específica que um Hamelin transmite deve ser decidida rolando 2d6 e verificando na tabela abaixo.\n\nTabela (2d6): 2 Lepra; 3 Larvas de Vermes; 4 Febre do Pântano; 5 Tétano; 6–8 Infecção Comum; 9 Malogro; 10 Tuberculose; 11 Olho de Goblin; 12 Peste Negra.\r\nEste resultado é permanente, e só poderá ser mudado se você adquirir a Habilidade Infecção Grave. A dificuldade de infecção da doença (igual à sua Determinação) não afeta a dificuldade para resistir aos sintomas da doença, que permanecem inalterados.\r\nO dano de sua mordida é igual à Força/Corte.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -2019,7 +2019,7 @@ export const CANONICAL_RACAS = [
       "habilidadeUuid": "",
       "habilidadeAutomatica": {
         "nome": "Sangue Orc",
-        "descricao": "Você possui características aguçadas pelos hábitos noturnos e predatórios da sua raça. Você tem +10 Pontos de Vida e consegue enxergar na completa escuridão, mas nesses ambientes não consegue distinguir cores.\n\nHabilidade Automática da raça Orc. Concede visão na escuridão total (sem percepção de cores) e +10 Pontos de Vida.",
+        "descricao": "Você possui características aguçadas pelos hábitos noturnos e predatórios da sua raça. Você tem +10 Pontos de Vida e consegue enxergar na completa escuridão, mas nesses ambientes não consegue distinguir cores.",
         "tipo": "suporte",
         "categoria": "caracteristica",
         "custo": 0
@@ -30615,66 +30615,6 @@ export const CANONICAL_HABILIDADES = [
     "_key": "!items!e31213f45f6a594f"
   },
   {
-    "name": "Pele de Pedra 2",
-    "type": "habilidade",
-    "img": "icons/svg/aura.svg",
-    "system": {
-      "tipo": "suporte",
-      "categoria": "caracteristica",
-      "custo": 0,
-      "custoVariavel": false,
-      "dificuldade": 0,
-      "dificuldadeTexto": "",
-      "requisitos": "",
-      "acesso": [
-        "Mahok"
-      ],
-      "tipoAcesso": "Raça",
-      "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 72",
-      "exclusivoCom": [],
-      "racasExcluidas": [],
-      "idiomasRequeridos": [],
-      "sobrescreve": [],
-      "somenteCriacao": false,
-      "bonusAtributo": {
-        "atributo": "",
-        "valor": 0
-      },
-      "efeitos": [
-        {
-          "tipo": "resistencia",
-          "dano": "perfuracao",
-          "grau": "resistente"
-        },
-        {
-          "tipo": "bonusPV",
-          "valor": 5
-        }
-      ],
-      "concessoes": [],
-      "description": "<p>Sua pele é mais espessa do que a da maioria dos outros Mahoks, seja esta uma característica inata sua ou por você estar apresentando os primeiros sinais de envelhecimento. Você é Resistente à Corte e tem +5 Pontos de Vida. Além disso, sua pele adquire também as características de uma armadura Rígida (além da característica Pesada).</p>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "pele-de-pedra-2",
-        "automatica": false,
-        "acesso": [
-          "Mahok"
-        ],
-        "tipoAcesso": "Raça",
-        "nivel": "Nv1",
-        "aliases": [],
-        "opcoes": [],
-        "racasExcluidas": [],
-        "idiomasRequeridos": [],
-        "sobrescreve": []
-      }
-    },
-    "_id": "c819ddcb1207b4f9",
-    "_key": "!items!c819ddcb1207b4f9"
-  },
-  {
     "name": "Pele de Pedra",
     "type": "habilidade",
     "img": "icons/svg/aura.svg",
@@ -30734,6 +30674,68 @@ export const CANONICAL_HABILIDADES = [
     },
     "_id": "0eb7ddd5c1b58cd6",
     "_key": "!items!0eb7ddd5c1b58cd6"
+  },
+  {
+    "name": "Pele Rochosa",
+    "type": "habilidade",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "tipo": "suporte",
+      "categoria": "caracteristica",
+      "custo": 0,
+      "custoVariavel": false,
+      "dificuldade": 0,
+      "dificuldadeTexto": "",
+      "requisitos": "",
+      "acesso": [
+        "Mahok"
+      ],
+      "tipoAcesso": "Raça",
+      "nivel": "Nv1",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 72",
+      "exclusivoCom": [],
+      "racasExcluidas": [],
+      "idiomasRequeridos": [],
+      "sobrescreve": [],
+      "somenteCriacao": false,
+      "bonusAtributo": {
+        "atributo": "",
+        "valor": 0
+      },
+      "efeitos": [
+        {
+          "tipo": "resistencia",
+          "dano": "corte",
+          "grau": "resistente"
+        },
+        {
+          "tipo": "bonusPV",
+          "valor": 5
+        }
+      ],
+      "concessoes": [],
+      "description": "<p>Sua pele é mais espessa do que a da maioria dos outros Mahoks, seja esta uma característica inata sua ou por você estar apresentando os primeiros sinais de envelhecimento. Você é Resistente à Corte e tem +5 Pontos de Vida. Além disso, sua pele adquire também as características de uma armadura Rígida (além da característica Pesada).</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "pele-rochosa",
+        "automatica": false,
+        "acesso": [
+          "Mahok"
+        ],
+        "tipoAcesso": "Raça",
+        "nivel": "Nv1",
+        "aliases": [
+          "Pele de Pedra 2"
+        ],
+        "opcoes": [],
+        "racasExcluidas": [],
+        "idiomasRequeridos": [],
+        "sobrescreve": []
+      }
+    },
+    "_id": "4e4579db5f7405aa",
+    "_key": "!items!4e4579db5f7405aa"
   },
   {
     "name": "Perceber Corrupção",
@@ -33408,7 +33410,7 @@ export const CANONICAL_HABILIDADES = [
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv3",
-      "fonteLivro": "Canção do Bardo, pág. 27; Guia Básico, pág. 118",
+      "fonteLivro": "Canção do Bardo, pág. 27; Guia Básico, pág. 82",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -33436,7 +33438,9 @@ export const CANONICAL_HABILIDADES = [
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv3",
-        "aliases": [],
+        "aliases": [
+          "Canção do Réquiem"
+        ],
         "opcoes": [],
         "racasExcluidas": [],
         "idiomasRequeridos": [],
@@ -58660,7 +58664,8 @@ export const CANONICAL_ALIASES_HABILIDADES = {
   "sopro-de-fogo-fira": "sopro-de-fogo",
   "constricao-naga": "constritor",
   "pergunte-depois": "apunhale-primeiro-pergunte-depois",
-  "necromantica-maior": "canalizacao-necromantica-maior"
+  "necromantica-maior": "canalizacao-necromantica-maior",
+  "pele-de-pedra-2": "pele-rochosa"
 };
 
 export const CANONICAL_HABILIDADES_RETIRADAS = [

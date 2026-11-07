@@ -36,6 +36,8 @@ export const HABILIDADES_EXCLUSIVAS_CRIACAO = {
   "bracos-extras": ["mahok"],
   "pele de pedra 2": ["mahok"],
   "pele-de-pedra-2": ["mahok"],
+  "pele rochosa": ["mahok"],
+  "pele-rochosa": ["mahok"],
   "olhos de aguia": ["levent"],
   "olhos-de-aguia": ["levent"],
   "fortaleza": ["asterio", "asteria", "juban", "anao"],
