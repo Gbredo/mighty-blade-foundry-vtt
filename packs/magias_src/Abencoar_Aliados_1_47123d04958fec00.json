@@ -13,8 +13,7 @@
     "nivel": "Nv1",
     "requisitos": "Graça Divina",
     "acesso": [
-      "Sacerdote",
-      "Centauro"
+      "Sacerdote"
     ],
     "tipoAcesso": "Classe",
     "fonteLivro": "Guia Básico - 3ª Edição, pág. 130",
@@ -29,8 +28,7 @@
       "slug": "abencoar-aliados-1",
       "tipo": "Ação",
       "acesso": [
-        "Sacerdote",
-        "Centauro"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "nivel": "Nv1",

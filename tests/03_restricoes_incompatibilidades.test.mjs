@@ -216,7 +216,7 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
     test("3.4.1 Astério e Astéria não podem adquirir Intuição", () => {
       for (const raceId of ["asterio", "asteria"]) {
         const c = createCharacter({ raceId, classId: "guerreiro", level: 2 });
-        assert.throws(() => addAbility(c, "Intuição"), /Astério/i);
+        assert.throws(() => addAbility(c, "Intuição"), /Astéri/i);
       }
       const h = createCharacter({ raceId: "humano", classId: "ladino", humanBonusAttribute: "agilidade", level: 2 });
       assert.doesNotThrow(() => addAbility(h, "Intuição"));
@@ -502,14 +502,14 @@ describe("Bloco 3 — Restrições e Incompatibilidades Raciais / Pactos", () =>
       assert.match(res.motivo, /Não disponível para Aesir/i);
     });
 
-    test("3.8.2 Astério (m e f) não pode adquirir Apóstata nem Mimetismo Social", () => {
+    test("3.8.2 Astério (m e f) não pode adquirir Intuição nem Mimetismo Social", () => {
       const asterioM = createCharacter({ raceId: "asterio", classId: "guerreiro", level: 1 });
       const asteriaF = createCharacter({ raceId: "asteria", classId: "guerreiro", level: 1 });
 
       for (const char of [asterioM, asteriaF]) {
-        const checkApostata = validarAquisicaoHabilidade(char, "Apóstata");
-        assert.equal(checkApostata.permitido, false);
-        assert.match(checkApostata.motivo, /Não disponível para Astéri/i);
+        const checkIntuicao = validarAquisicaoHabilidade(char, "Intuição");
+        assert.equal(checkIntuicao.permitido, false);
+        assert.match(checkIntuicao.motivo, /Não disponível para Astéri/i);
 
         const checkMimetismo = validarAquisicaoHabilidade(char, "Mimetismo Social");
         assert.equal(checkMimetismo.permitido, false);

@@ -5871,10 +5871,7 @@ export const CANONICAL_HABILIDADES = [
         "Dogma",
         "Pacto"
       ],
-      "racasExcluidas": [
-        "asterio-m",
-        "asteria-f"
-      ],
+      "racasExcluidas": [],
       "idiomasRequeridos": [],
       "sobrescreve": [
         "conhecimento-mistico",
@@ -5906,10 +5903,7 @@ export const CANONICAL_HABILIDADES = [
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
-        "racasExcluidas": [
-          "asterio-m",
-          "asteria-f"
-        ],
+        "racasExcluidas": [],
         "idiomasRequeridos": [],
         "sobrescreve": [
           "conhecimento-mistico",
@@ -7121,8 +7115,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "Características Dracônicas (Asas) para Draganos",
       "acesso": [
-        "Dragano",
-        "Fira"
+        "Dragano"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
@@ -7150,8 +7143,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "asas-pesadas",
         "automatica": false,
         "acesso": [
-          "Dragano",
-          "Fira"
+          "Dragano"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
@@ -19687,8 +19679,7 @@ export const CANONICAL_HABILIDADES = [
       "requisitos": "",
       "acesso": [
         "Forjas de Hou",
-        "Anão",
-        "Fira"
+        "Anão"
       ],
       "tipoAcesso": "Raça / Organização",
       "nivel": "Nv1",
@@ -19712,8 +19703,7 @@ export const CANONICAL_HABILIDADES = [
         "automatica": false,
         "acesso": [
           "Forjas de Hou",
-          "Anão",
-          "Fira"
+          "Anão"
         ],
         "tipoAcesso": "Raça / Organização",
         "nivel": "Nv1",
@@ -20824,9 +20814,7 @@ export const CANONICAL_HABILIDADES = [
       "dificuldadeTexto": "",
       "requisitos": "",
       "acesso": [
-        "Juban\r  - Naga ♂",
-        "Naga ♀",
-        "Tailox"
+        "Juban"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
@@ -20861,9 +20849,7 @@ export const CANONICAL_HABILIDADES = [
         "slug": "garras",
         "automatica": false,
         "acesso": [
-          "Juban\r  - Naga ♂",
-          "Naga ♀",
-          "Tailox"
+          "Juban"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
@@ -23880,7 +23866,10 @@ export const CANONICAL_HABILIDADES = [
       "nivel": "Nv1",
       "fonteLivro": "Guia do Vilão, pág. 13",
       "exclusivoCom": [],
-      "racasExcluidas": [],
+      "racasExcluidas": [
+        "asterio-m",
+        "asteria-f"
+      ],
       "idiomasRequeridos": [],
       "sobrescreve": [],
       "somenteCriacao": false,
@@ -23903,7 +23892,10 @@ export const CANONICAL_HABILIDADES = [
         "nivel": "Nv1",
         "aliases": [],
         "opcoes": [],
-        "racasExcluidas": [],
+        "racasExcluidas": [
+          "asterio-m",
+          "asteria-f"
+        ],
         "idiomasRequeridos": [],
         "sobrescreve": []
       }
@@ -35415,11 +35407,12 @@ export const CANONICAL_HABILIDADES = [
       "acesso": [
         "Fauno",
         "Juban",
-        "Estrige"
+        "Estrige",
+        "Gnoll"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
-      "fonteLivro": "Guia Básico - 3ª Edição, pág. 57, 66",
+      "fonteLivro": "Guia Básico - 3ª Edição, pág. 57, 66; Guia do Vilão, pág. 31",
       "exclusivoCom": [],
       "racasExcluidas": [],
       "idiomasRequeridos": [],
@@ -35440,7 +35433,8 @@ export const CANONICAL_HABILIDADES = [
         "acesso": [
           "Fauno",
           "Juban",
-          "Estrige"
+          "Estrige",
+          "Gnoll"
         ],
         "tipoAcesso": "Raça",
         "nivel": "Nv1",
@@ -39553,8 +39547,7 @@ export const CANONICAL_MAGIAS = [
       "nivel": "Nv1",
       "requisitos": "Graça Divina",
       "acesso": [
-        "Sacerdote",
-        "Centauro"
+        "Sacerdote"
       ],
       "tipoAcesso": "Classe",
       "fonteLivro": "Guia Básico - 3ª Edição, pág. 130",
@@ -39569,8 +39562,7 @@ export const CANONICAL_MAGIAS = [
         "slug": "abencoar-aliados-1",
         "tipo": "Ação",
         "acesso": [
-          "Sacerdote",
-          "Centauro"
+          "Sacerdote"
         ],
         "tipoAcesso": "Classe",
         "nivel": "Nv1",

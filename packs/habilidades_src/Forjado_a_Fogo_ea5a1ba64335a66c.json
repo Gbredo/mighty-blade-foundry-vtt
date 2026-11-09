@@ -12,8 +12,7 @@
     "requisitos": "",
     "acesso": [
       "Forjas de Hou",
-      "Anão",
-      "Fira"
+      "Anão"
     ],
     "tipoAcesso": "Raça / Organização",
     "nivel": "Nv1",
@@ -37,8 +36,7 @@
       "automatica": false,
       "acesso": [
         "Forjas de Hou",
-        "Anão",
-        "Fira"
+        "Anão"
       ],
       "tipoAcesso": "Raça / Organização",
       "nivel": "Nv1",

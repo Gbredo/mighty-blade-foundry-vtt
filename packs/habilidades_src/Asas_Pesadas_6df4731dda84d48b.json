@@ -11,8 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "Características Dracônicas (Asas) para Draganos",
     "acesso": [
-      "Dragano",
-      "Fira"
+      "Dragano"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
@@ -40,8 +39,7 @@
       "slug": "asas-pesadas",
       "automatica": false,
       "acesso": [
-        "Dragano",
-        "Fira"
+        "Dragano"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",

@@ -11,9 +11,7 @@
     "dificuldadeTexto": "",
     "requisitos": "",
     "acesso": [
-      "Juban\r  - Naga ♂",
-      "Naga ♀",
-      "Tailox"
+      "Juban"
     ],
     "tipoAcesso": "Raça",
     "nivel": "Nv1",
@@ -48,9 +46,7 @@
       "slug": "garras",
       "automatica": false,
       "acesso": [
-        "Juban\r  - Naga ♂",
-        "Naga ♀",
-        "Tailox"
+        "Juban"
       ],
       "tipoAcesso": "Raça",
       "nivel": "Nv1",
