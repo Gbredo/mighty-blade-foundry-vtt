@@ -18,7 +18,7 @@
     ],
     "tipoAcesso": "Classe",
     "nivel": "Nv2",
-    "fonteLivro": "Guia Básico - 3ª Edição, pág. 105, 110; Manual do Combatente, pág. 63; Canção do Bardo, pág. 62",
+    "fonteLivro": "Guia Básico - 3ª Edição, pág. 105, 110; Canção do Bardo, pág. 62",
     "exclusivoCom": [],
     "racasExcluidas": [],
     "idiomasRequeridos": [],
@@ -30,7 +30,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Como Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.<br><br>Amórfico, objetos inanimados e estruturas que sejam atingidas por esse grito sofrem o dobro do dano.</p></div>"
+    "description": "<p>Como Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Especial: Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques – mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.</p></div>"
   },
   "flags": {
     "mighty-blade": {

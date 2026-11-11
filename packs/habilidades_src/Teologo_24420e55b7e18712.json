@@ -4,7 +4,7 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "tipo": "suporte",
-    "categoria": "caracteristica",
+    "categoria": "tecnica",
     "custo": 0,
     "custoVariavel": false,
     "dificuldade": 0,
@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Você é capaz de interpretar perfeitamente os significados por trás de magias místicas contidas em qualquer missal. Sempre que conseguir estudar uma Magia Mística contida em um item com a característica Registro, você será capaz de conjurar aquela Magia sem qualquer penalidade. Além disso, se você puder atender aos requisitos daquela Magia, você pode aprendê-la como se ela estivesse na lista de Habilidades da sua Classe.</p>"
+    "description": "<p>Você é capaz de interpretar perfeitamente os significados por trás de magias místicas contidas em qualquer missal. Sempre que tiver sucesso em estudar um item com a Característica Registro, você será capaz de conjurar qualquer Magia Mística contida no item como se possuísse Conhecimento Místico. Além disso, se você puder atender aos requisitos daquela Magia, você pode aprendê-la como se ela estivesse na lista de Habilidades da sua Classe.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Seu corpo é capaz de baixar o batimento cardíaco, respirar muito lentamente e ficar de olhos abertos por até 1 hora. Enquanto estiver nesse estado, você é virtualmente indistinguível de um cadáver (ou zumbi, dependendo da situação) e recebe +1d6 em seus testes de camuflagem, mas fica Vulnerável ao Frio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode se manter nesse estado por uma quantidade de horas igual à sua Vontade, mas se você entrar em combate ou realizar alguma Habilidade do tipo Ação ou Reação o efeito é cancelado imediatamente – você também pode cancelar esse efeito a qualquer momento como uma ação livre.<br><br>Caminho Gótico.</p></div>"
+    "description": "<p>Seu corpo é capaz de baixar o batimento cardíaco, respirar muito lentamente e ficar de olhos abertos por até 1 hora. Enquanto estiver nesse estado, você é virtualmente indistinguível de um cadáver (ou zumbi, dependendo da situação) e recebe +1d6 em seus testes de camuflagem, mas fica Vulnerável ao Frio.</p><div class=\"mb-regras-adicionais\" style=\"margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.1);\"><p><strong>Regras Adicionais:</strong> Você pode se manter nesse estado por uma quantidade de horas igual à sua Vontade, mas se você entrar em combate ou realizar alguma Habilidade do tipo Ação ou Reação o efeito é cancelado imediatamente – você também pode cancelar esse efeito a qualquer momento como uma ação livre.</p></div>"
   },
   "flags": {
     "mighty-blade": {

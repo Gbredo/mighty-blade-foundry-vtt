@@ -5,7 +5,7 @@
   "system": {
     "tipo": "acao",
     "fonte": "arcana",
-    "custo": 30,
+    "custo": 0,
     "custoVariavel": false,
     "dificuldade": 12,
     "dificuldadeTexto": "12",

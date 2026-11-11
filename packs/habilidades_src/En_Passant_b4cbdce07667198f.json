@@ -28,7 +28,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Se um alvo que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer uma ação normal contra ele. O alvo é considerado Desprevenido contra essa ação.</p>"
+    "description": "<p>Se um alvo que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer uma ação normal (sem Habilidades de Ação) contra ele. O alvo é considerado Despreparado contra essa ação.</p>"
   },
   "flags": {
     "mighty-blade": {

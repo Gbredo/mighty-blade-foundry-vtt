@@ -27,7 +27,7 @@
     },
     "efeitos": [],
     "concessoes": [],
-    "description": "<p>Sempre que você estiver empunhando uma arma de haste e um adversário realizar uma manobra de encontrão contra você, considere que Manter a Linha causa um dano extra igual à FN da arma que você estiver empunhando e, se o ataque acertar, o alvo deve ser bem sucedido em um teste de Força (dificuldade igual à sua Determinação mais a FN da arma que você estiver utilizando) ou fica Paralisado (Veja Condições na página 169 do Guia Básico) por 1 turno.</p>"
+    "description": "<p>Sempre que você estiver empunhando uma arma de haste e um adversário realizar uma manobra de encontrão contra você, considere que Manter a Linha causa um dano extra igual à FN da arma que você estiver empunhando e, se o ataque acertar, o alvo deve ser bem sucedido em um teste de Força (dificuldade igual à sua Determinação mais a FN da arma que você estiver utilizando) ou fica Paralisado por 1 turno.</p>"
   },
   "flags": {
     "mighty-blade": {
