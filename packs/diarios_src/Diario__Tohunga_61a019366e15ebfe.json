@@ -11,7 +11,7 @@
         "level": 1
       },
       "text": {
-        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Mestres da arte sagrada da tatuagem mágica (Ta Moko), marcando a carne de guerreiros e conjuradores com runas e espíritos de tinta protetores.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 3, Artesão</p>",
+        "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Mestres da arte sagrada da tatuagem mágica (Ta Moko), marcando a carne de guerreiros e conjuradores com runas e espíritos de tinta protetores.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Antecedente Artesão/Artesã [Arte], Vontade 3</p>",
         "format": 1
       },
       "_key": "!journal.pages!61a019366e15ebfe.2df940b381510f2c"

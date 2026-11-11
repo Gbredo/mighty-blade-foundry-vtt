@@ -376,7 +376,7 @@ test("Subtítulo 14: Validação de Entrada em Caminhos de Prestígio (Classes A
     assert.ok(caminhoDoc, "Sanguíneo deve existir no compêndio");
     assert.match(caminhoDoc.system.requisitos, /vontade\s+5/i);
     assert.match(caminhoDoc.system.requisitos, /conhecimento\s+arcano/i);
-    assert.match(caminhoDoc.system.requisitos, /(ficar|ficado)\s+por\s+um\s+fio.*sangramento/i);
+    assert.match(caminhoDoc.system.requisitos, /sangramento.*ficar\s+por\s+um\s+fio|(ficar|ficado)\s+por\s+um\s+fio.*sangramento/i);
 
     await t5.test("14.5.1 - Sucesso com VON 5, Conhecimento Arcano e flag sangramentoPorUmFio", () => {
       const ator = createMockActor({
@@ -450,7 +450,7 @@ test("Subtítulo 14: Validação de Entrada em Caminhos de Prestígio (Classes A
       const res = validarCaminhoPrestigio(caminhoDoc, ator);
       assert.equal(res.atende, false, "Validação estrita deve reprovar sem o marco registrado");
       assert.ok(
-        res.falhas.some((f) => f.includes("Sangramento") && f.includes("não registrado na ficha")),
+        res.falhas.some((f) => /sangramento/i.test(f) && f.includes("não registrado na ficha")),
         "Mensagem de erro deve detalhar que o marco narrativo não foi registrado"
       );
     });

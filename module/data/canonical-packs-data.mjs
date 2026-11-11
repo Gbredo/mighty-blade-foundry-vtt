@@ -3188,10 +3188,10 @@ export const CANONICAL_CAMINHOS = [
     "type": "caminho",
     "img": "systems/mighty-blade/assets/forja/amoque.png",
     "system": {
-      "requisitos": "Força 6, Uma habilidade de Fúria qualquer",
+      "requisitos": "Força 6, Uma Habilidade de Fúria qualquer",
       "habilidadeAutomatica": "Irrefreável",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros selvagens tomados pelo frenesi incontrolável do combate. Quando entram em fúria, ignoram a dor e tornam-se forças brutais de destruição.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5483fa0277bff76e\" data-slug=\"amoque\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 6, Uma habilidade de Fúria qualquer</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros selvagens tomados pelo frenesi incontrolável do combate. Quando entram em fúria, ignoram a dor e tornam-se forças brutais de destruição.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.5483fa0277bff76e\" data-slug=\"amoque\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Força 6, Uma Habilidade de Fúria qualquer</div></div>",
       "listaHabilidades": [
         "ataque-brutal",
         "ataque-furioso",
@@ -3384,10 +3384,10 @@ export const CANONICAL_CAMINHOS = [
     "type": "caminho",
     "img": "systems/mighty-blade/assets/forja/avantesma.png",
     "system": {
-      "requisitos": "Vontade 5, Ter sido afetado por um efeito de Dreno de Energia",
+      "requisitos": "Vontade 5, Ter sido afetado por pelo menos um efeito de Dreno de Energia",
       "habilidadeAutomatica": "Frio Cadavérico",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros marcados pelo toque do além e energias sepulcrais, canalizando o frio da morte e a intangibilidade espectral dos mortos-vivos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1ad387a37682d486\" data-slug=\"avantesma\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Guerreiros marcados pelo toque do além e energias sepulcrais, canalizando o frio da morte e a intangibilidade espectral dos mortos-vivos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.1ad387a37682d486\" data-slug=\"avantesma\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Ter sido afetado por pelo menos um efeito de Dreno de Energia</div></div>",
       "listaHabilidades": [
         "aura-gelida",
         "bloqueio-necromantico",
@@ -3541,10 +3541,10 @@ export const CANONICAL_CAMINHOS = [
     "type": "caminho",
     "img": "systems/mighty-blade/assets/forja/cultista.png",
     "system": {
-      "requisitos": "Possuir um Pacto com um Patrono Primordial",
+      "requisitos": "Possuir um Pacto",
       "habilidadeAutomatica": "Círculo de Invocação Infernal",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Servos devotos e pactuados com Entidades Primordiais ou Demônios Superiores, trocando a alma por poderes proibidos, mutações demoníacas e invocações infernais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.62e5078a5daba2bd\" data-slug=\"cultista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Possuir um Pacto com um Patrono Primordial</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Servos devotos e pactuados com Entidades Primordiais ou Demônios Superiores, trocando a alma por poderes proibidos, mutações demoníacas e invocações infernais.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.62e5078a5daba2bd\" data-slug=\"cultista\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Possuir um Pacto</div></div>",
       "listaHabilidades": [
         "abraco-da-escuridao",
         "ajoelhem-se",
@@ -3638,7 +3638,7 @@ export const CANONICAL_CAMINHOS = [
     "img": "systems/mighty-blade/assets/forja/domador.png",
     "system": {
       "requisitos": "Vontade 5, Bênção de Ellenis",
-      "habilidadeAutomatica": "Companheiro Animal 2",
+      "habilidadeAutomatica": "Companheiro Animal 1",
       "racasComuns": "",
       "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Especialistas em animais selvagens, montarias de guerra e bestas fantásticas, capazes de comandar verdadeiras alcateias em combate.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.6ebef2b7cb8f4737\" data-slug=\"domador\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Bênção de Ellenis</div></div>",
       "listaHabilidades": [
@@ -3700,10 +3700,10 @@ export const CANONICAL_CAMINHOS = [
     "type": "caminho",
     "img": "systems/mighty-blade/assets/forja/estrige.png",
     "system": {
-      "requisitos": "Inteligência 4, Ter destruído pelo menos 1 criatura de tipo sobrenatural",
+      "requisitos": "Inteligência 4, Ter destruído pelo menos 1 criatura sobrenatural (Amaldiçoado, Demônio, Espírito ou Morto-vivo)",
       "habilidadeAutomatica": "Caça Sobrenatural",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Caçadores impiedosos de criaturas sobrenaturais (Amaldiçoados, Demônios, Espíritos e Mortos-vivos), armados com lâminas de prata e rituais de purificação.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.94efab307dba9fd2\" data-slug=\"estrige\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter destruído pelo menos 1 criatura de tipo sobrenatural</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Caçadores impiedosos de criaturas sobrenaturais (Amaldiçoados, Demônios, Espíritos e Mortos-vivos), armados com lâminas de prata e rituais de purificação.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.94efab307dba9fd2\" data-slug=\"estrige\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Inteligência 4, Ter destruído pelo menos 1 criatura sobrenatural (Amaldiçoado, Demônio, Espírito ou Morto-vivo)</div></div>",
       "listaHabilidades": [
         "banir-a-perversao",
         "caca-sobrenatural",
@@ -3953,10 +3953,10 @@ export const CANONICAL_CAMINHOS = [
     "type": "caminho",
     "img": "systems/mighty-blade/assets/forja/sanguineo.png",
     "system": {
-      "requisitos": "Vontade 5, Conhecimento Arcano, Ter ficado Por um Fio devido a Sangramento",
+      "requisitos": "Conhecimento Arcano, Vontade 5, Ter sido afetado por um efeito de sangramento que o fez ficar Por um Fio",
       "habilidadeAutomatica": "Magia Sanguínea",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros do sangue proibido que manipulam o fluido vital, vasos, ossos e a própria essência física para destruir e coagular inimigos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ae10c0e7b21d3531\" data-slug=\"sanguineo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 5, Conhecimento Arcano, Ter ficado Por um Fio devido a Sangramento</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Feiticeiros do sangue proibido que manipulam o fluido vital, vasos, ossos e a própria essência física para destruir e coagular inimigos.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.ae10c0e7b21d3531\" data-slug=\"sanguineo\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Conhecimento Arcano, Vontade 5, Ter sido afetado por um efeito de sangramento que o fez ficar Por um Fio</div></div>",
       "listaHabilidades": [
         "arma-dos-mortos",
         "coagular-sangue",
@@ -4049,10 +4049,10 @@ export const CANONICAL_CAMINHOS = [
     "type": "caminho",
     "img": "systems/mighty-blade/assets/forja/tohunga.png",
     "system": {
-      "requisitos": "Vontade 3, Artesão",
+      "requisitos": "Antecedente Artesão/Artesã [Arte], Vontade 3",
       "habilidadeAutomatica": "Primeira Marca",
       "racasComuns": "",
-      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Mestres da arte sagrada da tatuagem mágica (Ta Moko), marcando a carne de guerreiros e conjuradores com runas e espíritos de tinta protetores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.61a019366e15ebfe\" data-slug=\"tohunga\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Vontade 3, Artesão</div></div>",
+      "description": "<div class=\"mb-item-summary\"><p class=\"mb-lead-lore\">Mestres da arte sagrada da tatuagem mágica (Ta Moko), marcando a carne de guerreiros e conjuradores com runas e espíritos de tinta protetores.</p><div class=\"mb-journal-link-card\" style=\"margin: 10px 0; padding: 10px; background: rgba(217, 119, 6, 0.12); border: 1px solid rgba(217, 119, 6, 0.4); border-radius: 6px; display: flex; align-items: center; justify-content: space-between;\"><span style=\"font-weight: bold; color: #f59e0b; font-size: 0.95rem;\"><i class=\"fas fa-book-open\"></i> Tradição e Segredos do Caminho</span><a class=\"content-link open-lore-journal-btn\" draggable=\"true\" data-uuid=\"Compendium.mighty-blade.diarios.61a019366e15ebfe\" data-slug=\"tohunga\" data-type=\"JournalEntry\" style=\"background:#d97706;color:#1e1e2d;padding:4px 10px;border-radius:4px;font-weight:bold;text-decoration:none;cursor:pointer;\"><i class=\"fas fa-book\"></i> Abrir Diário</a></div><div style=\"margin-top:6px; font-size:0.85rem; color:#f59e0b;\"><strong>Pré-Requisitos:</strong> Antecedente Artesão/Artesã [Arte], Vontade 3</div></div>",
       "listaHabilidades": [
         "coracao-de-tinta",
         "invocar-espirito-de-tinta",
@@ -57482,7 +57482,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/amoque.png\" alt=\"Amoque\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Guerreiros selvagens tomados pelo frenesi incontrolável do combate. Quando entram em fúria, ignoram a dor e tornam-se forças brutais de destruição.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 6, Uma habilidade de Fúria qualquer</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/amoque.png\" alt=\"Amoque\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Guerreiros selvagens tomados pelo frenesi incontrolável do combate. Quando entram em fúria, ignoram a dor e tornam-se forças brutais de destruição.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Força 6, Uma Habilidade de Fúria qualquer</p>",
           "format": 1
         },
         "_key": "!journal.pages!5483fa0277bff76e.e231a01e7d570db5"
@@ -57650,7 +57650,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/avantesma.png\" alt=\"Avantesma\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Guerreiros marcados pelo toque do além e energias sepulcrais, canalizando o frio da morte e a intangibilidade espectral dos mortos-vivos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Ter sido afetado por um efeito de Dreno de Energia</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/avantesma.png\" alt=\"Avantesma\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Guerreiros marcados pelo toque do além e energias sepulcrais, canalizando o frio da morte e a intangibilidade espectral dos mortos-vivos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Ter sido afetado por pelo menos um efeito de Dreno de Energia</p>",
           "format": 1
         },
         "_key": "!journal.pages!1ad387a37682d486.37af565eda27d4f7"
@@ -57790,7 +57790,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cultista.png\" alt=\"Cultista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Servos devotos e pactuados com Entidades Primordiais ou Demônios Superiores, trocando a alma por poderes proibidos, mutações demoníacas e invocações infernais.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Possuir um Pacto com um Patrono Primordial</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/cultista.png\" alt=\"Cultista\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Servos devotos e pactuados com Entidades Primordiais ou Demônios Superiores, trocando a alma por poderes proibidos, mutações demoníacas e invocações infernais.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Possuir um Pacto</p>",
           "format": 1
         },
         "_key": "!journal.pages!62e5078a5daba2bd.a4cbf7011431de26"
@@ -57902,7 +57902,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/estrige.png\" alt=\"Estrige\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Caçadores impiedosos de criaturas sobrenaturais (Amaldiçoados, Demônios, Espíritos e Mortos-vivos), armados com lâminas de prata e rituais de purificação.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Ter destruído pelo menos 1 criatura de tipo sobrenatural</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/estrige.png\" alt=\"Estrige\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Caçadores impiedosos de criaturas sobrenaturais (Amaldiçoados, Demônios, Espíritos e Mortos-vivos), armados com lâminas de prata e rituais de purificação.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Inteligência 4, Ter destruído pelo menos 1 criatura sobrenatural (Amaldiçoado, Demônio, Espírito ou Morto-vivo)</p>",
           "format": 1
         },
         "_key": "!journal.pages!94efab307dba9fd2.83933efce6d49f5f"
@@ -58126,7 +58126,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sanguineo.png\" alt=\"Sanguíneo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Feiticeiros do sangue proibido que manipulam o fluido vital, vasos, ossos e a própria essência física para destruir e coagular inimigos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 5, Conhecimento Arcano, Ter ficado Por um Fio devido a Sangramento</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/sanguineo.png\" alt=\"Sanguíneo\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Feiticeiros do sangue proibido que manipulam o fluido vital, vasos, ossos e a própria essência física para destruir e coagular inimigos.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Conhecimento Arcano, Vontade 5, Ter sido afetado por um efeito de sangramento que o fez ficar Por um Fio</p>",
           "format": 1
         },
         "_key": "!journal.pages!ae10c0e7b21d3531.9c8887c35c1db9f4"
@@ -58210,7 +58210,7 @@ export const CANONICAL_DIARIOS = [
           "level": 1
         },
         "text": {
-          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Mestres da arte sagrada da tatuagem mágica (Ta Moko), marcando a carne de guerreiros e conjuradores com runas e espíritos de tinta protetores.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Vontade 3, Artesão</p>",
+          "content": "<div style=\"text-align:center;margin-bottom:16px;\"><img src=\"systems/mighty-blade/assets/forja/tohunga.png\" alt=\"Tohunga\" style=\"max-height:300px;border-radius:8px;background:#ffffff;padding:8px;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:2px solid #30363d;\" /></div><h2>Tradição do Caminho</h2><p>Mestres da arte sagrada da tatuagem mágica (Ta Moko), marcando a carne de guerreiros e conjuradores com runas e espíritos de tinta protetores.</p><hr><p><strong>Pré-Requisitos de Acesso:</strong> Antecedente Artesão/Artesã [Arte], Vontade 3</p>",
           "format": 1
         },
         "_key": "!journal.pages!61a019366e15ebfe.2df940b381510f2c"

@@ -35,6 +35,9 @@ export function parseRequisitosTexto(texto) {
     return match.replace(/,/g, "__LANG_COMMA__");
   });
 
+  // Protege vírgulas dentro de parênteses e colchetes (ex.: "criatura sobrenatural (Amaldiçoado, Demônio, Espírito ou Morto-vivo)")
+  raw = raw.replace(/[([][^)\]]*[)\]]/g, (match) => match.replace(/,/g, "__PAREN_COMMA__"));
+
   const parts = raw.includes(",")
     ? raw.split(",")
     : raw.split(/\s*\+\s*/);
@@ -43,6 +46,7 @@ export function parseRequisitosTexto(texto) {
       t
         .replace(/Chifres__CHIFRES_COMMA__Garras e Presas/g, "Chifres, Garras e Presas")
         .replace(/__LANG_COMMA__/g, ",")
+        .replace(/__PAREN_COMMA__/g, ",")
         .replace(/\.+\s*$/, "")
         .trim()
     )
@@ -461,6 +465,22 @@ export function avaliarRequisitos(requisitosTexto, actor, options = {}) {
       };
     }
 
+    // 6.5 Requisito de Antecedente ("Antecedente Artesão/Artesã [Arte]"): vale o antecedente da ficha ou uma habilidade com o mesmo nome
+    const mAntecedente = texto.match(/^antecedente:?\s+(.+)$/i);
+    if (mAntecedente) {
+      const nomes = mAntecedente[1].replace(/\s*\[[^\]]*\]/g, "").trim();
+      const opcoes = nomes.split(/\/| ou /i).map(norm).filter(Boolean);
+      const atendeAntecedente = opcoes.some(
+        (op) => antecedenteAtor === op || antecedenteAtor.startsWith(op + " ") || habilidadesAtor.some((h) => h.normName === op || h.slug === op)
+      );
+      return {
+        texto,
+        tipo: "antecedente",
+        atende: atendeAntecedente,
+        detalhe: atendeAntecedente ? "Antecedente adquirido" : `não possui o Antecedente ${nomes}`,
+      };
+    }
+
     // 7. Requisitos de Habilidades / Magias / Antecedentes específicos
     // Ex: "Herbalismo", "Conhecimento Arcano", "Dogma", "Pacto", "Teleporte 1", "Artesão"
     const cleanPunc = (s) => s.replace(/[:\-–—]/g, " ").replace(/\bcombater\b/g, "combate").replace(/\bolho da aguia\b/g, "olhos de aguia").replace(/\s+/g, " ").trim();
@@ -834,27 +854,27 @@ export const CAMINHOS_PRESTIGIO = {
   sanguineo: {
     nome: "Sanguíneo",
     slug: "sanguineo",
-    requisitos: "Vontade 5, Conhecimento Arcano, Ficar Por um Fio devido a Sangramento.",
+    requisitos: "Conhecimento Arcano, Vontade 5, Ter sido afetado por um efeito de sangramento que o fez ficar Por um Fio.",
     atributos: { vontade: 5 },
     habilidades: ["Conhecimento Arcano"],
-    narrativo: "Ficar Por um Fio devido a Sangramento",
+    narrativo: "Ter sido afetado por um efeito de sangramento que o fez ficar Por um Fio",
     descricao: "Exige VON 5 + Conhecimento Arcano + ter ficado Por um Fio devido a Sangramento.",
   },
   estrige: {
     nome: "Estrige",
     slug: "estrige",
-    requisitos: "Inteligência 4, Matado algo sobrenatural.",
+    requisitos: "Inteligência 4, Ter destruído pelo menos 1 criatura sobrenatural (Amaldiçoado, Demônio, Espírito ou Morto-vivo).",
     atributos: { inteligencia: 4 },
-    narrativo: "Matado algo sobrenatural",
+    narrativo: "Ter destruído pelo menos 1 criatura sobrenatural (Amaldiçoado, Demônio, Espírito ou Morto-vivo)",
     descricao: "Exige INT 4 + ter destruído 1 criatura sobrenatural.",
   },
   tohunga: {
     nome: "Tohunga",
     slug: "tohunga",
-    requisitos: "Vontade 3, Artesão.",
+    requisitos: "Antecedente Artesão/Artesã [Arte], Vontade 3.",
     atributos: { vontade: 3 },
     habilidades: ["Artesão"],
-    descricao: "Exige VON 3 + Artesão.",
+    descricao: "Exige o Antecedente Artesão + VON 3.",
   },
   lanceiro: {
     nome: "Lanceiro",
