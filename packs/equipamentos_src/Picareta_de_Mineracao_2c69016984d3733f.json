@@ -7,14 +7,14 @@
     "tipoDano": [
       "Perfuracao"
     ],
-    "fn": 3,
+    "fn": 4,
     "alcance": "Adjacente (1m)",
     "propriedades": [
       "DuasMaos"
     ],
     "equipado": false,
     "efeitos": [],
-    "peso": 3,
+    "peso": 5,
     "quantidade": 1,
     "custo": 12,
     "description": "<p>Ferramenta pesada de corte e perfuração de rocha em galerias subterrâneas profundas.</p>"

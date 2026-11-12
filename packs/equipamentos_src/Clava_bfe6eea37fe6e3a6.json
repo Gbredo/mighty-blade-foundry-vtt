@@ -9,7 +9,9 @@
     ],
     "fn": 3,
     "alcance": "Adjacente (1m)",
-    "propriedades": [],
+    "propriedades": [
+      "Canalizador"
+    ],
     "equipado": false,
     "efeitos": [],
     "peso": 1.5,

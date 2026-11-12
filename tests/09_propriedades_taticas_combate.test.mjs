@@ -214,7 +214,7 @@ describe("Bloco 9 — Propriedades Táticas de Equipamentos e Combate", () => {
       assert.equal(comRecarga.podeDisparar, true);
 
       // Previamente carregada -> permite disparo imediato
-      const prod = getEquip("Prod");
+      const prod = getEquip("Prodd"); // nome do livro (GB pág. 160); antes "Prod"
       prod.system.carregada = true;
       assert.equal(verificarPropriedadeCarregar(prod, null).podeDisparar, true);
 
@@ -231,7 +231,10 @@ describe("Bloco 9 — Propriedades Táticas de Equipamentos e Combate", () => {
     });
 
     test("9.2.4 — Gancho: permite substituir o dano direto por teste de Derrubar ou para anular o bônus de escudo do alvo", () => {
-      const chicote = getEquip("Chicote");
+      // Gancho é do Manual do Combatente (opcional): nenhum item do livro que vence tem Gancho (o Chicote do GV pág. 107 tem só Segurar).
+      // O teste usa o Chicote com Gancho posto à mão, como faria uma mesa que adota o Manual do Combatente.
+      const base = getEquip("Chicote");
+      const chicote = { ...base, system: { ...base.system, propriedades: [...base.system.propriedades, "Gancho"] } };
       assert.ok(itemPossuiPropriedade(chicote, "Gancho"));
 
       // Opção 1: Substituir dano por teste de Derrubar (Confronto -> Caído)

@@ -8,7 +8,7 @@
     "efeitos": [],
     "peso": 1,
     "quantidade": 1,
-    "custo": 200,
+    "custo": 100,
     "description": "<p>Instrumento de navegação para fazer medições de distância até um determinado ponto, usando os astros e a linha do horizonte como referência.</p>"
   },
   "flags": {

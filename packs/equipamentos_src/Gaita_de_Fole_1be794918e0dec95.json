@@ -6,9 +6,9 @@
     "canalizador": false,
     "equipado": false,
     "efeitos": [],
-    "peso": 0.5,
+    "peso": 5,
     "quantidade": 1,
-    "custo": 100,
+    "custo": 200,
     "description": "<p>Reservatório de ar com tubo melódico, bocal e válvulas.</p>"
   },
   "flags": {

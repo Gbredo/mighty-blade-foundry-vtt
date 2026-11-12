@@ -6,10 +6,10 @@
     "canalizador": false,
     "equipado": false,
     "efeitos": [],
-    "peso": 3.4,
+    "peso": 4.4,
     "quantidade": 1,
-    "custo": 37,
-    "description": "<p>Corda simples, martelete, 10 pinos,</p>"
+    "custo": 49,
+    "description": "<p>Corda simples (15m), Martelete, Garatéia e Pinos para escalada.</p>"
   },
   "flags": {
     "mighty-blade": {

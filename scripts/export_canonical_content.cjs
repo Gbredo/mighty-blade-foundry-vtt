@@ -879,8 +879,15 @@ function buildDraconicSubFeatures() {
   }));
 }
 
+// Itens renomeados para o nome do livro (Fase 2, 11/11/2026): o _id do Foundry vem do slug do nome, então
+// estes usam o id do site (= slug do nome antigo) para manter o mesmo _id e não quebrar links do compêndio.
+const EQUIP_SLUG_PELO_ID = new Set([
+  "prod", "tabarda", "hurd-guli", "arco-de-ghlasaglais-1", "espada-vingadora-1",
+  "lanca-matadora-de-dragoes-1", "machado-do-gelo-1", "extrato-da-res-a-eletricidade",
+]);
+
 function buildEquipmentItem(eqp) {
-  const slug = slugify(eqp.nome || eqp.id);
+  const slug = EQUIP_SLUG_PELO_ID.has(eqp.id) ? eqp.id : slugify(eqp.nome || eqp.id);
   const cat = eqp.categoria;
   const obs = eqp.observacoes ? "<p>" + eqp.observacoes + "</p>" : "";
 

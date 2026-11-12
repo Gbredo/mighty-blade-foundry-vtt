@@ -8,7 +8,7 @@
     "efeitos": [],
     "peso": 0.12,
     "quantidade": 1,
-    "custo": 50,
+    "custo": 100,
     "description": "<p>Recupera 30 Pontos de Mana.</p>"
   },
   "flags": {

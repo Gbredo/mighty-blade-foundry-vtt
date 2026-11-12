@@ -47367,7 +47367,8 @@ export const CANONICAL_EQUIPAMENTOS = [
       "fn": 1,
       "alcance": "Adjacente (1m)",
       "propriedades": [
-        "Arremessavel"
+        "Arremessavel",
+        "Canalizador"
       ],
       "equipado": false,
       "efeitos": [],
@@ -47403,7 +47404,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 6,
       "quantidade": 1,
-      "custo": 250,
+      "custo": 275,
       "description": ""
     },
     "flags": {
@@ -47610,7 +47611,8 @@ export const CANONICAL_EQUIPAMENTOS = [
       "fn": 1,
       "alcance": "Adjacente (1m)",
       "propriedades": [
-        "DuasMaos"
+        "DuasMaos",
+        "Canalizador"
       ],
       "equipado": false,
       "efeitos": [],
@@ -47641,9 +47643,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "fn": 1,
       "alcance": "Haste (3m)",
       "propriedades": [
-        "Segurar",
-        "Transpor",
-        "Gancho"
+        "Segurar"
       ],
       "equipado": false,
       "efeitos": [],
@@ -47703,7 +47703,9 @@ export const CANONICAL_EQUIPAMENTOS = [
       ],
       "fn": 3,
       "alcance": "Adjacente (1m)",
-      "propriedades": [],
+      "propriedades": [
+        "Canalizador"
+      ],
       "equipado": false,
       "efeitos": [],
       "peso": 1.5,
@@ -47784,7 +47786,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "type": "arma",
     "img": "icons/svg/sword.svg",
     "system": {
-      "dano": "FOR+2",
+      "dano": "FOR+4",
       "tipoDano": [
         "Contusao"
       ],
@@ -47910,7 +47912,9 @@ export const CANONICAL_EQUIPAMENTOS = [
       ],
       "fn": 1,
       "alcance": "Adjacente (1m)",
-      "propriedades": [],
+      "propriedades": [
+        "Canalizador"
+      ],
       "equipado": false,
       "efeitos": [],
       "peso": 0.5,
@@ -48332,7 +48336,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       ],
       "equipado": false,
       "efeitos": [],
-      "peso": 4,
+      "peso": 5,
       "quantidade": 1,
       "custo": 175,
       "description": "<p>Ferramenta pesada de demolição de alvenaria e forja industrial.</p>"
@@ -48447,9 +48451,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       ],
       "fn": 2,
       "alcance": "Adjacente (1m)",
-      "propriedades": [
-        "DuasMaos"
-      ],
+      "propriedades": [],
       "equipado": false,
       "efeitos": [],
       "peso": 1,
@@ -48475,14 +48477,14 @@ export const CANONICAL_EQUIPAMENTOS = [
       "tipoDano": [
         "Perfuracao"
       ],
-      "fn": 3,
+      "fn": 4,
       "alcance": "Adjacente (1m)",
       "propriedades": [
         "DuasMaos"
       ],
       "equipado": false,
       "efeitos": [],
-      "peso": 3,
+      "peso": 5,
       "quantidade": 1,
       "custo": 12,
       "description": "<p>Ferramenta pesada de corte e perfuração de rocha em galerias subterrâneas profundas.</p>"
@@ -48672,7 +48674,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!44c8f4f6f556b3ad"
   },
   {
-    "name": "Espada Vingadora +1",
+    "name": "Espada Vingadora",
     "type": "arma",
     "img": "icons/svg/sword.svg",
     "system": {
@@ -48701,7 +48703,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!61d440a1b7c216d7"
   },
   {
-    "name": "Lança Matadora de Dragões +1",
+    "name": "Lança Matadora de Dragões",
     "type": "arma",
     "img": "icons/svg/sword.svg",
     "system": {
@@ -48729,7 +48731,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!f698ada06a71f871"
   },
   {
-    "name": "Machado do Gelo +1",
+    "name": "Machado do Gelo",
     "type": "arma",
     "img": "icons/svg/sword.svg",
     "system": {
@@ -49014,7 +49016,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0.5,
       "quantidade": 1,
-      "custo": 175,
+      "custo": 100,
       "description": ""
     },
     "flags": {
@@ -49027,7 +49029,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!fb651cb15c143c67"
   },
   {
-    "name": "Prod",
+    "name": "Prodd",
     "type": "arma",
     "img": "icons/weapons/bows/bow-short-wood.webp",
     "system": {
@@ -49045,7 +49047,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 3,
       "quantidade": 1,
-      "custo": 100,
+      "custo": 175,
       "description": ""
     },
     "flags": {
@@ -49067,7 +49069,7 @@ export const CANONICAL_EQUIPAMENTOS = [
         "Perfuracao"
       ],
       "fn": 1,
-      "alcance": "Disparo Médio (100m)",
+      "alcance": "Disparo Curto (30m)",
       "propriedades": [],
       "equipado": false,
       "efeitos": [],
@@ -49086,7 +49088,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!b93e52fbefb8e206"
   },
   {
-    "name": "Arco de Ghlasaglais +1",
+    "name": "Arco de Ghlasaglais",
     "type": "arma",
     "img": "icons/weapons/bows/bow-short-wood.webp",
     "system": {
@@ -49541,9 +49543,9 @@ export const CANONICAL_EQUIPAMENTOS = [
       "canalizador": false,
       "equipado": false,
       "efeitos": [],
-      "peso": 0.5,
+      "peso": 1.5,
       "quantidade": 1,
-      "custo": 20,
+      "custo": 40,
       "description": "<p>Dois pequenos tambores unidos, percutidos com as mãos.</p>"
     },
     "flags": {
@@ -49629,9 +49631,9 @@ export const CANONICAL_EQUIPAMENTOS = [
       "canalizador": false,
       "equipado": false,
       "efeitos": [],
-      "peso": 0.5,
+      "peso": 5,
       "quantidade": 1,
-      "custo": 100,
+      "custo": 200,
       "description": "<p>Reservatório de ar com tubo melódico, bocal e válvulas.</p>"
     },
     "flags": {
@@ -49644,7 +49646,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!1be794918e0dec95"
   },
   {
-    "name": "Hurd Guli",
+    "name": "Hurdi Gurdi",
     "type": "equipamento",
     "img": "icons/svg/item-bag.svg",
     "system": {
@@ -49932,7 +49934,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "type": "arma",
     "img": "icons/weapons/staves/staff-simple.webp",
     "system": {
-      "dano": "FOR+3",
+      "dano": "FOR+4",
       "tipoDano": [
         "Perfuracao"
       ],
@@ -49967,7 +49969,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "tipoDano": [
         "Corte"
       ],
-      "fn": 3,
+      "fn": 2,
       "alcance": "Adjacente (1m)",
       "propriedades": [
         "Canalizador",
@@ -50273,7 +50275,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0.12,
       "quantidade": 1,
-      "custo": 50,
+      "custo": 100,
       "description": "<p>Recupera 30 Pontos de Mana.</p>"
     },
     "flags": {
@@ -51813,7 +51815,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 2,
+      "custo": 1,
       "description": "<p>Uma tina de água fria em uma sala privada.</p>"
     },
     "flags": {
@@ -51835,7 +51837,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 3,
+      "custo": 2,
       "description": "<p>Uma tina de água quente em uma sala privada.</p>"
     },
     "flags": {
@@ -51857,7 +51859,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 2,
+      "custo": 1,
       "description": "<p>Qualquer bebida fermentada de baixa qualidade</p>"
     },
     "flags": {
@@ -51879,7 +51881,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 3,
+      "custo": 2,
       "description": "<p>Qualquer bebida fermentada de boa qualidade</p>"
     },
     "flags": {
@@ -51901,7 +51903,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 3,
+      "custo": 2,
       "description": "<p>Qualquer bebida destilada de baixa qualidade</p>"
     },
     "flags": {
@@ -51923,7 +51925,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 7,
+      "custo": 5,
       "description": "<p>Qualquer bebida destilada de boa qualidade</p>"
     },
     "flags": {
@@ -51945,7 +51947,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 3,
+      "custo": 1,
       "description": "<p>Preço da Diária. Uma cama de peles e um baú em um pequeno quarto particular</p>"
     },
     "flags": {
@@ -51967,7 +51969,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 5,
+      "custo": 2,
       "description": "<p>Preço da Diária. Por animal.</p>"
     },
     "flags": {
@@ -51989,7 +51991,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 12,
+      "custo": 1,
       "description": "<p>Suficiente pra um dia de viagem</p>"
     },
     "flags": {
@@ -52011,7 +52013,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 2,
+      "custo": 1,
       "description": "<p>Um pedaço de pão e queijo ou um caldo ralo de vegetais</p>"
     },
     "flags": {
@@ -52033,7 +52035,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 4,
+      "custo": 3,
       "description": "<p>Um pedaço de carne e pão ou uma sopa grossa de vegetais, além de frutas frescas</p>"
     },
     "flags": {
@@ -52055,7 +52057,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 7,
+      "custo": 5,
       "description": "<p>Carne, queijo e pão frescos ou uma sopa grossa de vegetais e carne, além de frutas frescas</p>"
     },
     "flags": {
@@ -52077,7 +52079,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 75,
+      "custo": 50,
       "description": "<p>Uma lauta refeição contendo vinhos, carnes, pães doces e salgados, queijos, vegetais frescos, saladas e frutas frescas e cristalizadas.</p>"
     },
     "flags": {
@@ -52099,7 +52101,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 5,
+      "custo": 2,
       "description": "<p>Um espaço privativo para até 6 pessoas. Custo por hora.</p>"
     },
     "flags": {
@@ -52121,7 +52123,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 3,
+      "custo": 2,
       "description": "<p>Tratamento padrão para as montarias, não inclui cuidados especiais.</p>"
     },
     "flags": {
@@ -52143,7 +52145,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 3,
+      "custo": 2,
       "description": "<p>Por conjunto de roupa.</p>"
     },
     "flags": {
@@ -52253,7 +52255,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 2,
+      "custo": 1,
       "description": "<p>Preço da Diária. Uma cama e um baú numa sala comum.</p>"
     },
     "flags": {
@@ -52275,7 +52277,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 7,
+      "custo": 5,
       "description": "<p>Preço da Diária. Cama de peles para duas pessoas, guarda-roupas e escrivaninha com cadeira.</p>"
     },
     "flags": {
@@ -52297,7 +52299,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 15,
+      "custo": 10,
       "description": "<p>Preço da Diária. Uma cama com colchão de penas para duas pessoas, guarda-roupas, baú, escrivaninha com cadeira, lareira e uma tina para banho.</p>"
     },
     "flags": {
@@ -52319,7 +52321,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 25,
+      "custo": 20,
       "description": "<p>Preço da Diária. Igual à um quarto comum, mas com duas camas e uma mesa com quatro cadeiras.</p>"
     },
     "flags": {
@@ -52341,7 +52343,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 0,
       "quantidade": 1,
-      "custo": 40,
+      "custo": 30,
       "description": "<p>Preço da Diária. Igual ao quarto grande, mas com quatro camas, uma mesa com quatro cadeiras e uma sala com latrina e tina de banho separada.</p>"
     },
     "flags": {
@@ -52992,7 +52994,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!27a9ce5c783fdb7e"
   },
   {
-    "name": "Extrato da Res. à Eletricidade",
+    "name": "Extrato da Resistência à Eletricidade",
     "type": "equipamento",
     "img": "icons/consumables/potions/potion-flask-corked-red.webp",
     "system": {
@@ -55023,10 +55025,10 @@ export const CANONICAL_EQUIPAMENTOS = [
       "canalizador": false,
       "equipado": false,
       "efeitos": [],
-      "peso": 3.4,
+      "peso": 4.4,
       "quantidade": 1,
-      "custo": 37,
-      "description": "<p>Corda simples, martelete, 10 pinos,</p>"
+      "custo": 49,
+      "description": "<p>Corda simples (15m), Martelete, Garatéia e Pinos para escalada.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -55421,7 +55423,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "efeitos": [],
       "peso": 1,
       "quantidade": 1,
-      "custo": 200,
+      "custo": 100,
       "description": "<p>Instrumento de navegação para fazer medições de distância até um determinado ponto, usando os astros e a linha do horizonte como referência.</p>"
     },
     "flags": {
@@ -55478,7 +55480,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!a5c40dcfd4d3c5bb"
   },
   {
-    "name": "Tabarda",
+    "name": "Tabardo",
     "type": "equipamento",
     "img": "icons/svg/item-bag.svg",
     "system": {

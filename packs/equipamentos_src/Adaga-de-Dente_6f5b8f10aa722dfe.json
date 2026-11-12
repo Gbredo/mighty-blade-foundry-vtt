@@ -3,7 +3,7 @@
   "type": "arma",
   "img": "icons/weapons/staves/staff-simple.webp",
   "system": {
-    "dano": "FOR+3",
+    "dano": "FOR+4",
     "tipoDano": [
       "Perfuracao"
     ],

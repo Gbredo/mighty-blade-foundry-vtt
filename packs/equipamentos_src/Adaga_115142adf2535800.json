@@ -11,7 +11,8 @@
     "fn": 1,
     "alcance": "Adjacente (1m)",
     "propriedades": [
-      "Arremessavel"
+      "Arremessavel",
+      "Canalizador"
     ],
     "equipado": false,
     "efeitos": [],

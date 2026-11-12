@@ -1,5 +1,5 @@
 {
-  "name": "Prod",
+  "name": "Prodd",
   "type": "arma",
   "img": "icons/weapons/bows/bow-short-wood.webp",
   "system": {
@@ -17,7 +17,7 @@
     "efeitos": [],
     "peso": 3,
     "quantidade": 1,
-    "custo": 100,
+    "custo": 175,
     "description": ""
   },
   "flags": {

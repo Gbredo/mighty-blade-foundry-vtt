@@ -3,7 +3,7 @@
   "type": "arma",
   "img": "icons/svg/sword.svg",
   "system": {
-    "dano": "FOR+2",
+    "dano": "FOR+4",
     "tipoDano": [
       "Contusao"
     ],
