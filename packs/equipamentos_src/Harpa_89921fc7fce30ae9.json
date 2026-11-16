@@ -1,0 +1,22 @@
+{
+  "name": "Harpa",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 35,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Um instrumento de corda pesado, com 70 a 80 cordas, que deve ser posicionado no chão para ser tocado, impossível de usar em movimento.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "harpa",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "89921fc7fce30ae9",
+  "_key": "!items!89921fc7fce30ae9"
+}

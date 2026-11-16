@@ -1,0 +1,22 @@
+{
+  "name": "Sela de Guerra",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 200,
+    "description": "<p>Arnês com reforço em metal na parte dianteira e traseira da sela, além de uma máscara de couro curtido e uma manta de tecido grosso para a montaria. Oferece um bônus de Armadura +1 para a montaria e um bônus situacional de +1 para o ginete.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "sela-de-guerra",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "da5778f89db71652",
+  "_key": "!items!da5778f89db71652"
+}

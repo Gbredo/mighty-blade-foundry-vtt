@@ -1,0 +1,22 @@
+{
+  "name": "Howdah",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 200,
+    "description": "<p>Uma cesta de madeira e tecido presa sobre o dorso de um Paquiderme. Não aumenta a carga do animal, mas é bastante confortável. Um animal Grande pode carregar até 2 passageiros numa howdah, enquanto um animal colossal pode carregar até 4.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "howdah",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "ad163eb4f022bb05",
+  "_key": "!items!ad163eb4f022bb05"
+}

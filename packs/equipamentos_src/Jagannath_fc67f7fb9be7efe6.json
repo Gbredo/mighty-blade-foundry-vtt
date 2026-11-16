@@ -1,0 +1,22 @@
+{
+  "name": "Jagannath",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 7000,
+    "description": "<p>Armadura de placas de metal que cobre as costas e cabeça de um elefante ou mamute, com uma manta de couro com reforço de metal protegendo as pernas do animal. Sobre o dorso da besta, uma howdah de metal comporta os cavaleiros. Jagannaths só podem ser usados em Paquidermes com treinamento como Animais de Guerra, e o peso da armadura diminui a velocidade normal do animal pela metade, a menos que não haja cavaleiros dentro do Howdah. Um jagannath oferece um bônus de armadura de +4 para o paquiderme, e +3 situacional para os ocupantes da howdah.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "jagannath",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "fc67f7fb9be7efe6",
+  "_key": "!items!fc67f7fb9be7efe6"
+}

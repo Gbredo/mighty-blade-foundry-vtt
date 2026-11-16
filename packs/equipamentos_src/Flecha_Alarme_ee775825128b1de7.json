@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 4,
-    "description": "<p>Metade do dano, mas produz som estridente audível a mais de 1km.</p>"
+    "description": "<p>Ao invés de uma ponta normal, esse projétil possui um apito simples. Quando disparada, emite um assobio estridente que pode ser ouvido a mais de um quilômetro de distância. A maioria dos Patrulheiros de Ambrook carrega pelo menos uma flecha desse tipo consigo para avisar sobre intrusos nas proximidades. Patrulheiros especializados na segurança de determinada região podem ter apitos diferentes, com sons diferentes, para comunicarem alertas específicos (Ataque em Larga Escala, Ataque Montado, Santuário Violado, etc.), sendo isto muito comum no reino élfico de Londérien, mas em Tebryn aparece apenas na Floresta dos Antigos. Se usada para atacar, causa apenas metade do dano normal, e o dano será por contusão.</p>"
   },
   "flags": {
     "mighty-blade": {

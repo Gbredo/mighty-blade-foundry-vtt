@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 5,
-    "description": "<p>Comporta e inocula veneno (uma dose para 3 flechas).</p>"
+    "description": "<p>Um projétil com um pequeno orifício na ponta que pode ser preenchido com qualquer tipo de veneno (veneno da lentidão costuma ser o mais utilizado). Quando atinge o alvo, além do dano do projétil, ele sofre os efeitos do veneno. Essas flechas são guardadas com a ponta enfiada em uma pequena peça de cortiça para que o veneno não se perca. Quando for remover a cortiça da ponta da flecha o personagem deve realizar um teste de Agilidade (Dificuldade 8). Se tiver sucesso, ele remove a cortiça como uma ação livre, mas se falhar, ele se atrapalha e precisa gastar uma ação padrão para remover a cortiça. O veneno a ser utilizado deve ser comprado separadamente, e um frasco normal de veneno é suficiente para preencher 3 projéteis.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 5000,
-    "description": "<p>Provoca 60 pontos de dano e paralisa por 1 turno. Esse veneno é considerado mágico.</p>"
+    "description": "<p>Esse veneno sem cor nem cheiro e de sabor levemente apimentado faz com que a vítima sofra um ataque cardíaco fulminante. O alvo deve fazer um teste de Força (dificuldade 12). Se passar no teste, o alvo perde imediatamente 10 Pontos de Vida e sofre um redutor de -2 em suas rolagens por uma rodada. Se falhar, o alvo perde 60 Pontos de Vida e se sobreviver - fica paralisado até o final do seu próximo turno. Esse veneno é considerado mágico.</p>"
   },
   "flags": {
     "mighty-blade": {

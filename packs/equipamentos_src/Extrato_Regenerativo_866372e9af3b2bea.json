@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 2000,
-    "description": "<p>Cura ou regenera membros decepados, mas apenas de ferimentos não cicatrizados.</p>"
+    "description": "<p>Essa poção tem a cor esverdeada, seu gosto é amargo, extremamente desagradável. Derramada sobre um ferimento de onde uma parte do corpo foi decepada, a parte perdida pode ser recolocada no lugar, imediatamente voltando a funcionar normalmente e removendo todos os efeitos de sangramento do alvo. Se a parte decepada tiver sido perdida ou destruída, a poção remove todos os efeito de sangramento do alvo e a parte perdida regenera lentamente (Dedos, olhos, língua, orelhas ou qualquer outra parte pequena cresce novamente em 1 hora. Um pé ou mão leva cerca de 6 hora, e um membro demora 1 dia para crescer completamente). Esse extrato só funciona em criaturas vivas, e só tem efeito em ferimentos que ainda não tenham cicatrizado.</p>"
   },
   "flags": {
     "mighty-blade": {

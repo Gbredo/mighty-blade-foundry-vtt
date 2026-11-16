@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 700,
-    "description": "<p>Levita com velocidade normal de deslocamento (sem correr) por 10 minutos.</p>"
+    "description": "<p>Esta poção de cor vermelha escura e gosto ácido permite que uma criatura viva que a beba levitar à uma velocidade igual ao seu deslocamento normal (sem poder correr) por 10 minutos ou até que a criatura toque no chão. Se uma criatura sob efeito da poção ficar inconsciente, ela desce lentamente até tocar o chão à metade do seu deslocamento normal. A glândula de um pirilampo é suficiente para apenas uma poção, e elas são consideradas componentes incomuns com custo de 50 moedas e aquisição por Caça (dificuldade 11) em florestas e subterrâneos.</p>"
   },
   "flags": {
     "mighty-blade": {

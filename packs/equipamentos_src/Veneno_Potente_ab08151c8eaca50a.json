@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 500,
-    "description": "<p>Causa 5 pontos de dano por turno. Esse veneno é considerado mágico.</p>"
+    "description": "<p>Uma pasta negra, de gosto ácido e cheiro forte. O alvo precisa realizar um teste de Força (dificuldade 12). Se falhar perde 5 pontos de vida por turno, por 1 minuto. Se passar no teste, o alvo perde apenas 5 Pontos de Vida imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado mágico.</p>"
   },
   "flags": {
     "mighty-blade": {

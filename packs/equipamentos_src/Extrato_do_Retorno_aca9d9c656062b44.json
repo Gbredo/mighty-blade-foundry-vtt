@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 750,
-    "description": "<p>Teleporta quem a ingerir (e até mais duas pessoas, se abraçadas) para o último local em que dormiu.</p>"
+    "description": "<p>Um líquido fosco de uma cor vermelho escura que, quando exposto ao ar, irrompe em uma nuvem de faíscas. Uma criatura viva pega pela núvem de faíscas é teleportada imediatamente para o último local em que dormiu. Esse elixir pode afetar até 3 criaturas, mas elas precisam estar, literalmente, abraçadas - perceba que cada uma delas retornará para o último local em que ela própria dormiu pela última vez. Uma criatura que queira evitar os efeitos da poção tem direito à um teste de Vontade (Dificuldade 12). Se passar no teste, ela não sofre nenhum efeito.</p>"
   },
   "flags": {
     "mighty-blade": {

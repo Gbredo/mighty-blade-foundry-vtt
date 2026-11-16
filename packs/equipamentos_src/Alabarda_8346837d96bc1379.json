@@ -5,7 +5,8 @@
   "system": {
     "dano": "FOR+11",
     "tipoDano": [
-      "Corte"
+      "Corte",
+      "Perfuracao"
     ],
     "fn": 6,
     "alcance": "Haste (3m)",

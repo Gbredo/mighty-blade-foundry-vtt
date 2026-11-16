@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 250,
-    "description": "<p>Permite disparar um sopro de fogo que causa dano igual à 20/Fogo num alcance de 10 metros.</p>"
+    "description": "<p>Esta poção tem um tom amarelado e está sempre morna. Quando uma criatura viva beber este elixir, ela se torna capaz de disparar um sopro de fogo que causa dano igual à 20/fogo em tudo e todos a até 10 metros à sua frente. A poção deixa de ter efeito depois de 1 minuto ou depois que o personagem disparar o sopro – o que acontecer primeiro.</p>"
   },
   "flags": {
     "mighty-blade": {

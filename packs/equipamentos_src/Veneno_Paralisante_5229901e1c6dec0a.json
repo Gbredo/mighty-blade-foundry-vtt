@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 500,
-    "description": "<p>Paralisa alvo por 2 turnos. Este veneno é considerado natural.</p>"
+    "description": "<p>uma pasta esverdeada de gosto muito amargo. O alvo sentirá uma breve e terrível dor muscular, e precisa realizar um teste de Vontade (dificuldade 10). Se passar, o personagem realiza todos os seus testes como se fosse Inapto por 2 turnos. Se falhar, o alvo fica Paralisado por 2 turnos. Este veneno é considerado natural.</p>"
   },
   "flags": {
     "mighty-blade": {

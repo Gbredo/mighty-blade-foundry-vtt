@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 9999,
-    "description": "<p>Veneno Mágico. For(12)/dia por 10 dias. Falha envelhece 10 anos. Sucesso crítico cura. Falha Crítica deixa Por um Fio.</p>"
+    "description": "<p>Este veneno, usado por uma civilização de Cassiopéia antes da Revoada dos Dragões como forma de punição, faz com que o alvo envelheça rapidamente. Uma vez inoculado pelo veneno, o alvo precisa fazer um teste de Força (dificuldade 12) a cada dia por 10 dias. Toda vez que falhar no teste, o alvo envelhece o equivalente a 10 anos. Um sucesso crítico em um dos testes elimina os efeitos do veneno, enquanto uma falha crítica faz com que a vítima perca todos os Pontos de Vida e fique Por um Fio, além de sofrer o efeito de envelhecimento. Se sobreviver, a vítima continuará sofrendo os efeitos do veneno normalmente. Esse veneno é considerado mágico.</p>"
   },
   "flags": {
     "mighty-blade": {

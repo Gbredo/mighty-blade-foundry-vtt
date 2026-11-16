@@ -20,7 +20,7 @@
     "peso": 1.5,
     "quantidade": 1,
     "custo": 75,
-    "description": "<p>Cetros são clavas sintonizadas a um conjurador por sua runa pessoal.</p>"
+    "description": "<p>Cetros são simplesmente clavas sintonizadas a um conjurador através de sua runa pessoal.</p>"
   },
   "flags": {
     "mighty-blade": {

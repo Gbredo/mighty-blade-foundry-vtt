@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 220,
-    "description": "<p>Recupera 50 Pontos de Mana.</p>"
+    "description": "<p>Essa poção de cor azul intensa tem gosto e cheiro levemente cítricos. Uma criatura viva que a beber recupera, imediatamente, 50 Pontos de Mana.</p>"
   },
   "flags": {
     "mighty-blade": {

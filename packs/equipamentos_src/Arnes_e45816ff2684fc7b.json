@@ -1,0 +1,22 @@
+{
+  "name": "Arnês",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Conjunto completo de arreios para montaria – sela, estribo, freio, rédeas e bucal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "arnes",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "e45816ff2684fc7b",
+  "_key": "!items!e45816ff2684fc7b"
+}

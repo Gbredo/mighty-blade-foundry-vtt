@@ -1,0 +1,22 @@
+{
+  "name": "Cangalha",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 30,
+    "description": "<p>Varas dispostas sobre o dorso do animal sobre um acolchoado de tecido, lã ou couro, para sustentar carga. A Força do animal usando uma Cangalha é aumentada em 1 para calcular sua Carga.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cangalha",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "1212edf64e08b8fb",
+  "_key": "!items!1212edf64e08b8fb"
+}

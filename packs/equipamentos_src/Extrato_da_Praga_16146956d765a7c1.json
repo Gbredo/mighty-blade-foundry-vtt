@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 800,
-    "description": "<p>Gás em área de 3m infecta com doença natural.</p>"
+    "description": "<p>Essa poção volátil tem uma cor verde fosca e com cheiro pútrido e geralmente é colocada em frascos de cerâmica lacrados com cera, tanto para ocultar a aparência doentia da poção quanto para tornar o manuseio mais seguro. Quando o frasco se rompe, a poção se espalha na forma de uma nuvem de gás que se estende por uma área de 3m, infectando todas as criaturas na área com uma doença Natural (Corpo de Ferro, Febre do Pântano ou Olho de Goblin, via de regra; receitas para outras doenças não são conhecidas). A nuvem de praga se dispersa depois de uma rodada, e todas as criaturas vivas na área devem fazer um teste de Força com a dificuldade normal para a infecção, mas se falharem são imediatamente afetados como se tivessem tido uma falha para resistir aos sintomas da doença, e passam a ser considerados infectados pela doença em questão.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -1,0 +1,22 @@
+{
+  "name": "Charrete",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Uma carroça com apenas 1 eixo de rodas com uma cobertura e bancos confortáveis para 2 ocupantes e mais 100 kg de carga. Permite que o animal trote a até o dobro de seu deslocamento normal.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "charrete",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "7efa1489855fd13f",
+  "_key": "!items!7efa1489855fd13f"
+}

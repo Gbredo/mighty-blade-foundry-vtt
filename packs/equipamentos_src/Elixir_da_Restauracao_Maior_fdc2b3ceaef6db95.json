@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 260,
-    "description": "<p>Recupera 50 Pontos de Vida e 50 Pontos de Mana.</p>"
+    "description": "<p>Esse líquido grosso de cor amarelo leitoso tem cheiro e sabor levemente adocicados. Uma criatura viva que a beber recupera, imediatamente, 50 Pontos de Vida e 50 Pontos de Mana.</p>"
   },
   "flags": {
     "mighty-blade": {

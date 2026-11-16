@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 3,
-    "description": "<p>Ignora metade do bônus de Armaduras e a RD de armaduras Pesadas.</p>"
+    "description": "<p>Estes projéteis possuem uma ponta longa e estreita, eficiente contra armaduras, entrando entre anéis de cota-de-malha, perfurando couro e acertando mais facilmente entre falhas das placas de armaduras pesadas. Ignora metade do bônus de Defesa fornecido por Armaduras (arredondado para baixo) e a resistência a dano de armaduras com a característica Pesada (mas não a resistência a dano oferecido pela característica Rígida).</p>"
   },
   "flags": {
     "mighty-blade": {

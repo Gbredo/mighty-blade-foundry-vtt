@@ -9,7 +9,7 @@
     "peso": 2,
     "quantidade": 1,
     "custo": 30,
-    "description": "<p>Instrumento de sopro feito de um grande chifre.</p>"
+    "description": "<p>Um instrumento de sopro produzido a partir de um grande chifre, cuja variação de som é feita pelo modo de soprar do músico</p>"
   },
   "flags": {
     "mighty-blade": {

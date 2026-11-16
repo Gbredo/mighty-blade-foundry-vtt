@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 150,
-    "description": "<p>Confere Resistência à Fogo por 1 hora.</p>"
+    "description": "<p>Um líquido azul escuro borbulhante, com a tampa lacrada com cera. Quando o lacre é removido, o líquido evapora engolfando a criatura ou objeto com até 3 metros de tamanho, aderindo à superfície e conferindo um leve matiz azulado. A criatura ou objeto afetado recebe Resistência à Fogo por 1 hora.</p>"
   },
   "flags": {
     "mighty-blade": {

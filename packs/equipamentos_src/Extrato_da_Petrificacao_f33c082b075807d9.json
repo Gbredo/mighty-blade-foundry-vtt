@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 9999,
-    "description": "<p>Arremesso ignora Bloqueio e Armadura, Petrifica alvo Von(12)</p>"
+    "description": "<p>Essa poção normalmente é colocada em frascos redondos para facilitar o seu arremesso. Quando o frasco se rompe, o líquido negro e viscoso se espalha sobre o alvo tornando tudo que tocar dentro de uma área de 1 metro em pedra. Criaturas atingidas pelo extrato têm direito a um teste de Vontade (Dificuldade 12) para não serem afetadas. Criaturas com Mente Vazia não têm direito a este teste, e são afetadas automaticamente. Se uma criatura não for afetada pelo extrato, os itens que estiver segurando também não serão afetados. Como essa poção afeta todos os objetos que cubra, bloquear o frasco não evita seus efeitos – ignore o bônus de bloqueio E armadura do alvo. O efeito dessa poção é permanente, e é considerado uma Maldição. Esse extrato não tem efeito sobre Mahoks, Gárgulas ou Autômatos.</p>"
   },
   "flags": {
     "mighty-blade": {

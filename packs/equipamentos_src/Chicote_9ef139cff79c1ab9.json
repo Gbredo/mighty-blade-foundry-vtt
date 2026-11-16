@@ -5,8 +5,7 @@
   "system": {
     "dano": "FOR+2",
     "tipoDano": [
-      "Contusao",
-      "Corte"
+      "Contusao"
     ],
     "fn": 1,
     "alcance": "Haste (3m)",

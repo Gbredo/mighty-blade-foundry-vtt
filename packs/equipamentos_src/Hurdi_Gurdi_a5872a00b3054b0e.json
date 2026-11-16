@@ -9,7 +9,7 @@
     "peso": 1.5,
     "quantidade": 1,
     "custo": 100,
-    "description": "<p>Corda com manivela que gira as cordas enquanto teclas geram notas.</p>"
+    "description": "<p>Um instrumento de corda com uma manivela que mantém as cordas girando, enquanto o músico aperta teclas que comprimem as cordas gerando notas</p>"
   },
   "flags": {
     "mighty-blade": {

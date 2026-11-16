@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 100,
-    "description": "<p>Efeito aleatório. Role 2d6 e verifique o efeito da poção na tabela na pg.76 do Guia do Herói.</p>"
+    "description": "<p>Essa poção é criada quando um Alquimista tem uma falha crítica ao produzir uma poção. Independente da poção desejada, a poção terá o efeito listado na tabela, apenas. Role 2d6 e verifique o efeito da poção na tabela a seguir. Alguns efeitos são aleatórios e devem ser decididos pelo Mestre (geralmente usando uma tabela criada especificamente para verificar o efeito). Estes efeitos são permanentes e só podem ser revertidos com um Antídoto Universal. 2 - Seus dedos se tornam tentáculos e todas as tarefas que exijam o uso das mãos são feitos como se você fosse Inapto. 3 - Um de seus Atributos é reduzido em -2. 4 - Você não consegue mais falar, apenas produzir o som de um animal aleatório. 5 - Você perde todos os pêlos do corpo. 6 - Seu corpo inteiro fica coberto de pelos de uma cor aleatória. 7 - Seus olhos adquiriem a aparência dos olhos de um animal aleatório. 8 - Todos os seus pelos mudam para uma cor aleatória. 9 - Você fica surdo por conta de plantas que começam a brotar de seus ouvidos. 10 - Você desenvolve uma cauda de um animal aleatório. 11 - A cor da sua pele muda para uma cor aleatória. 12 - Você se transforma em um pequeno animal aleatório. Especial: Se um personagem beber uma Poção do Caos enquanto está sob um dos efeitos acima, ignore efeitos iguais rolando novamente na tabela.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1285 | Diários: 78
+ * Total de itens: 1299 | Diários: 78
  */
 
 export const CANONICAL_RACAS = [
@@ -47137,7 +47137,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 2,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Cajados são bordões sintonizados a um conjurador.</p>"
+      "description": "<p>Cajados são simplesmente bordões sintonizados a um conjurador através de sua runa pessoal.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -47211,7 +47211,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Instrumento de cordas dedilhadas.</p>"
+      "description": "<p>um instrumento de corda em formato de meia-lua, com 40 à 60 cordas</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -47393,7 +47393,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "system": {
       "dano": "FOR+11",
       "tipoDano": [
-        "Corte"
+        "Corte",
+        "Perfuracao"
       ],
       "fn": 6,
       "alcance": "Haste (3m)",
@@ -47637,8 +47638,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "system": {
       "dano": "FOR+2",
       "tipoDano": [
-        "Contusao",
-        "Corte"
+        "Contusao"
       ],
       "fn": 1,
       "alcance": "Haste (3m)",
@@ -48475,6 +48475,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "system": {
       "dano": "FOR+5",
       "tipoDano": [
+        "Corte",
         "Perfuracao"
       ],
       "fn": 4,
@@ -49128,7 +49129,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1.5,
       "quantidade": 1,
       "custo": 10,
-      "description": "<p>Utensílio usado nas costas para carregar até 20 flechas (compradas à parte).</p>"
+      "description": "<p>Utensilio usado normalmente nas costas para carregar flechas. Comporta até 20 flechas (compradas separadamente).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49150,7 +49151,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1,
       "quantidade": 1,
       "custo": 20,
-      "description": "<p>Dividida em quatro bolsos, cada um comportando 5 flechas, para separar tipos diferentes.</p>"
+      "description": "<p>Dividida em quatro compartimentos, para 5 flechas cada.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49194,7 +49195,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 1,
-      "description": "<p>Agulhas para zarabatana; 200 pesam 1kg.</p>"
+      "description": "<p>Agulhas para zarabatana, 200 dessas pesam 1kg.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49216,7 +49217,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.2,
       "quantidade": 1,
       "custo": 10,
-      "description": "<p>Flecha para acoplar uma garatéia na ponta e uma corda.</p>"
+      "description": "<p>Fecha especial para acoplar uma garatéia na ponta e uma corda</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49238,7 +49239,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 4,
-      "description": "<p>Metade do dano, mas produz som estridente audível a mais de 1km.</p>"
+      "description": "<p>Ao invés de uma ponta normal, esse projétil possui um apito simples. Quando disparada, emite um assobio estridente que pode ser ouvido a mais de um quilômetro de distância. A maioria dos Patrulheiros de Ambrook carrega pelo menos uma flecha desse tipo consigo para avisar sobre intrusos nas proximidades. Patrulheiros especializados na segurança de determinada região podem ter apitos diferentes, com sons diferentes, para comunicarem alertas específicos (Ataque em Larga Escala, Ataque Montado, Santuário Violado, etc.), sendo isto muito comum no reino élfico de Londérien, mas em Tebryn aparece apenas na Floresta dos Antigos. Se usada para atacar, causa apenas metade do dano normal, e o dano será por contusão.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49282,7 +49283,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 10,
-      "description": "<p>Flecha tradicional banhada em prata.</p>"
+      "description": "<p>Uma flecha tradicional de metal, banhada em prata.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49304,7 +49305,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 5,
-      "description": "<p>Comporta e inocula veneno (uma dose para 3 flechas).</p>"
+      "description": "<p>Um projétil com um pequeno orifício na ponta que pode ser preenchido com qualquer tipo de veneno (veneno da lentidão costuma ser o mais utilizado). Quando atinge o alvo, além do dano do projétil, ele sofre os efeitos do veneno. Essas flechas são guardadas com a ponta enfiada em uma pequena peça de cortiça para que o veneno não se perca. Quando for remover a cortiça da ponta da flecha o personagem deve realizar um teste de Agilidade (Dificuldade 8). Se tiver sucesso, ele remove a cortiça como uma ação livre, mas se falhar, ele se atrapalha e precisa gastar uma ação padrão para remover a cortiça. O veneno a ser utilizado deve ser comprado separadamente, e um frasco normal de veneno é suficiente para preencher 3 projéteis.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49326,7 +49327,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 150,
-      "description": "<p>Causa dano adicional igual a 12/Fogo.</p>"
+      "description": "<p>Invenção da Iris de Malta, esse projétil possui um bulbo de vidro na ponta, com uma versão concentrada de Extrato Explosivo Menor que causa dano igual a 12/Fogo ao se romper, além do dano normal do projétil. O bulbo vem envolto em uma proteção de couro acolchoado que impede que ele exploda se cair no chão ou sofrer impactos leves e retém grande parte da explosão caso isso ocorra. Remover a proteção exige uma ação de movimento. Disparar o projétil sem tirar a proteção diminui consideravelmente o dano do projétil (o dano normal do projétil é reduzido à metade e o dano do Extrato é reduzido a 4/Fogo).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49348,7 +49349,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 5,
-      "description": "<p>Causa o mesmo dano ao ser removida + sangramento de metade do dano por 3 turnos.</p>"
+      "description": "<p>A ponta deste projétil possui farpas de ambos os lados, e quando é removida causa novamente seu dano normal (ao invés de apenas metade) além de um efeito de sangramento, fazendo o alvo perder metade do dano normal (arredondado para baixo) por 3 turnos. Se for removida através de um uso bem-sucedido de Primeiros Socorros, a flecha causa apenas metade do dano normal (arredondado para baixo) e não causa o efeito de sangramento.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49370,7 +49371,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 5,
-      "description": "<p>Dano comum + 4/Fogo ao atingir e 4/Fogo por 3 turnos ou até ser removida.</p>"
+      "description": "<p>Estes projéteis carregam uma pequena bucha embebida em óleo inflamável atrás da ponta. A bucha é acesa por uma pederneira especial, com a pedra fixada na haste do projétil e o isqueiro no arco da arma. Quando o projétil é disparado, a pedra risca o isqueiro produzindo uma pequena faísca que incendeia a bucha. Quando atinge o alvo, além do dano do projétil, ele sofre um dano extra igual à 4/Fogo. O alvo sofre o dano por fogo novamente no início do seu turno, por 3 turnos ou até ser removida – o que ocorrer primeiro. Setas não podem ser produzidas com este efeito.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49392,7 +49393,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 3,
-      "description": "<p>Ignora metade do bônus de Armaduras e a RD de armaduras Pesadas.</p>"
+      "description": "<p>Estes projéteis possuem uma ponta longa e estreita, eficiente contra armaduras, entrando entre anéis de cota-de-malha, perfurando couro e acertando mais facilmente entre falhas das placas de armaduras pesadas. Ignora metade do bônus de Defesa fornecido por Armaduras (arredondado para baixo) e a resistência a dano de armaduras com a característica Pesada (mas não a resistência a dano oferecido pela característica Rígida).</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49414,7 +49415,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Rede de Prata Fria. Mira Int(14); dispara ignorando Armadura/Bloqueio p/ prender. Arrebentar For(14); falha causa 6/Corte.</p>"
+      "description": "<p>desenvolvida por arqueiros Élficos, ela possui uma rede tramada com linhas de Prata Fria, conhecida por sua resistência e flexibilidade. Essa rede é dobrada e enrolada de uma forma específica (teste de Inteligência Dif. 14) ao redor de um carretel. Quando o projétil é disparado, a rede se abre no ar e cai sobre o alvo, prendendo-o. Para disparar esse projétil é necessário que o arqueiro tome um turno para calcular a distância e a força necessária, de modo que a rede não abra antes ou depois do alvo. Nesse turno, o personagem faz um teste de Inteligência (Dificuldade 14). Sucesso no teste significa que a rede funcionará com precisão, mas ele ainda deve acertar o disparo – que ignora os bônus de Armadura e Bloqueio do alvo. Um alvo preso pode tentar romper a rede com um teste de Força (Dificuldade 14), mas a cada tentativa ele sofre dano igual à 6/Corte. É possível tentar se desvencilhar da rede com um teste de Agilidade (Dificuldade 14), mas cada falha faz com que a rede fique mais enredada, aumentando a dificuldade em 1, cumulativamente. Alvos presos na rede tem seu movimento reduzido a 0, não adicionam seus bônus de Bloqueio ou Esquiva na Defesa, não podem utilizar Habilidades de Reação e realizam testes de ataque, Músicas e conjuram Magias como se fossem Inaptos.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49458,7 +49459,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.2,
       "quantidade": 1,
       "custo": 10,
-      "description": "<p>Virote para acoplar uma garatéia na ponta e uma corda.</p>"
+      "description": "<p>Virote especial para acoplar uma garatéia na ponta e uma corda</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49502,7 +49503,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 2,
       "quantidade": 1,
       "custo": 30,
-      "description": "<p>Instrumento de sopro feito de um grande chifre.</p>"
+      "description": "<p>Um instrumento de sopro produzido a partir de um grande chifre, cuja variação de som é feita pelo modo de soprar do músico</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49524,7 +49525,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.5,
       "quantidade": 1,
       "custo": 30,
-      "description": "<p>Percussão percutido com uma baqueta de ponta dupla.</p>"
+      "description": "<p>Um instrumento de percussão segurado com uma mão e percutido com uma baqueta de ponta dupla</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49546,7 +49547,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1.5,
       "quantidade": 1,
       "custo": 40,
-      "description": "<p>Dois pequenos tambores unidos, percutidos com as mãos.</p>"
+      "description": "<p>Um instrumento de percussão constituído de dois pequenos tambores unidos lado a lado que são percutidos com as mãos</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49568,7 +49569,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.5,
       "quantidade": 1,
       "custo": 20,
-      "description": "<p>Sopro feito de um pequeno chifre ou metal.</p>"
+      "description": "<p>instrumento de sopro que pode ser produzido com um pequeno chifre ou em metal, cuja variação de som é feita pelo modo de soprar do músico</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49590,7 +49591,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.2,
       "quantidade": 1,
       "custo": 15,
-      "description": "<p>Sopro de madeira com vários tubos.</p>"
+      "description": "<p>Um instrumento de sopro de madeira constituído de vários tubos que, quando soprados, produzem notas individuais e devem ser assoprados em sequência para produzir melodias</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49612,7 +49613,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.2,
       "quantidade": 1,
       "custo": 20,
-      "description": "<p>Sopro de madeira ou osso com orifícios.</p>"
+      "description": "<p>Um instrumento de sopro, geralmente de madeira ou osso, constituído de um tubo com orifícios que devem ser tampados com os dedos para tornar o som mais grave ou mais agudo</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49634,7 +49635,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 5,
       "quantidade": 1,
       "custo": 200,
-      "description": "<p>Reservatório de ar com tubo melódico, bocal e válvulas.</p>"
+      "description": "<p>Um instrumento de sopro constituído de um saco de couro ligado a uma série de foles e um bocal com orifíos que devem ser tampados para produzir sons mais graves ou mais agudos, enquanto o músico aperta o saco de couro para produzir notas mais altas ou baixas</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49656,7 +49657,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1.5,
       "quantidade": 1,
       "custo": 100,
-      "description": "<p>Corda com manivela que gira as cordas enquanto teclas geram notas.</p>"
+      "description": "<p>Um instrumento de corda com uma manivela que mantém as cordas girando, enquanto o músico aperta teclas que comprimem as cordas gerando notas</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49678,7 +49679,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.1,
       "quantidade": 1,
       "custo": 10,
-      "description": "<p>Sopro de um pequeno bloco de madeira com orifícios.</p>"
+      "description": "<p>instrumento de sopro constituído de um pequeno bloco de madeira com orifícios escavados que, quando soprados, produzem notas individuais e devem ser assoprados em sequencia para produzir melodias</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49700,7 +49701,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.2,
       "quantidade": 1,
       "custo": 20,
-      "description": "<p>Couro esticado numa moldura, percutido com a mão.</p>"
+      "description": "<p>instrumento de percussão constituído de um couro esticado em uma moldura, percutido com a mão</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49722,7 +49723,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.5,
       "quantidade": 1,
       "custo": 100,
-      "description": "<p>Corda tocada esfregando um arco sobre as cordas.</p>"
+      "description": "<p>Instrumento de corda que é tocado esfregando-se fibras montadas em um arco sobre as cordas</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49744,7 +49745,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1,
       "quantidade": 1,
       "custo": 30,
-      "description": "<p>Tubo de madeira com couro esticado, percutido com baqueta.</p>"
+      "description": "<p>instrumento de percussão constituído de um tubo de madeira encimado por um couro esticado, geralmente percutido com uma baqueta</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49777,7 +49778,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1.5,
       "quantidade": 1,
       "custo": 75,
-      "description": "<p>Cetros são clavas sintonizadas a um conjurador por sua runa pessoal.</p>"
+      "description": "<p>Cetros são simplesmente clavas sintonizadas a um conjurador através de sua runa pessoal.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49799,7 +49800,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.5,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Livro usado por conjuradores arcanos para registrar magias.</p>"
+      "description": "<p>Livro usado por conjuradores arcanos para registrar suas magias.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49821,7 +49822,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.5,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Livro usado por conjuradores místicos para registrar magias.</p>"
+      "description": "<p>Livro usado por conjuradores místicos para registrar suas magias.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49843,7 +49844,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.25,
       "quantidade": 1,
       "custo": 25,
-      "description": "<p>Globo de cristal ou pedra semipreciosa com ~20cm.</p>"
+      "description": "<p>Um globo de cristal ou qualquer outra pedra semipreciosa com cerca de 20 cm de diâmetro.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49861,6 +49862,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "system": {
       "dano": "FOR+2",
       "tipoDano": [
+        "Corte",
         "Perfuracao"
       ],
       "fn": 1,
@@ -49874,7 +49876,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.25,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Punhais são adagas sintonizadas a um conjurador por sua runa pessoal.</p>"
+      "description": "<p>Punhais são simplesmente adagas sintonizadas a um conjurador através de sua runa pessoal.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49918,7 +49920,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.15,
       "quantidade": 1,
       "custo": 25,
-      "description": "<p>Pequena haste de 25-40cm de madeira nobre.</p>"
+      "description": "<p>Uma pequena haste com 25 a 40 centímetros de comprimento feito de madeira nobre.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -49967,7 +49969,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "system": {
       "dano": "FOR+7",
       "tipoDano": [
-        "Corte"
+        "Contusao",
+        "Perfuracao"
       ],
       "fn": 2,
       "alcance": "Adjacente (1m)",
@@ -50342,7 +50345,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0,
       "quantidade": 1,
       "custo": 1,
-      "description": "<p>Para pescar.</p>"
+      "description": "<p>Para pescar</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -51552,7 +51555,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.5,
       "quantidade": 1,
       "custo": 1,
-      "description": "<p>Dura uma hora.</p>"
+      "description": "<p>Dura uma hora</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -51684,7 +51687,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0,
       "quantidade": 1,
       "custo": 300,
-      "description": "<p>Cavalo de Guerra descrito no Monstrum Codex p. 10</p>"
+      "description": "<p>Cavalo Comum com treinamento espedial Animal de Guerra, ver Codex Monstrorum p. 149.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -51970,7 +51973,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0,
       "quantidade": 1,
       "custo": 2,
-      "description": "<p>Preço da Diária. Por animal.</p>"
+      "description": "<p>Por animal.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52256,7 +52259,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0,
       "quantidade": 1,
       "custo": 1,
-      "description": "<p>Preço da Diária. Uma cama e um baú numa sala comum.</p>"
+      "description": "<p>Uma cama e um baú numa sala comum.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52366,7 +52369,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 150,
-      "description": "<p>Remove todos os efeitos de venenos naturais e mágicos.</p>"
+      "description": "<p>Esta poção de uma cor verde leitosa tem gosto e cheiro adocicados remove todos os efeitos de venenos naturais e mágicos da criatura que a beber.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52388,7 +52391,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Remove infecções naturais e estanca efeitos de sangramento do alvo.</p>"
+      "description": "<p>Essa pasta esverdeada com cheiro amadeirado e gosto travante deve ser aplicada diretamente sobre um ferimento, o que remove infecções naturais e efeitos de sangramento do alvo.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52410,7 +52413,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 300,
-      "description": "<p>Remove todos os efeitos de venenos naturais e mágicos, doenças naturais e mágicas e efeitos de sangramento.</p>"
+      "description": "<p>Esta poção de cor dourada sem cheiro ou gosto remove todos os efeitos de venenos naturais e mágicos, doenças naturais e mágicas e efeitos de sangramento da criatura que a beber.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52520,7 +52523,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 260,
-      "description": "<p>Recupera 50 Pontos de Vida e 50 Pontos de Mana.</p>"
+      "description": "<p>Esse líquido grosso de cor amarelo leitoso tem cheiro e sabor levemente adocicados. Uma criatura viva que a beber recupera, imediatamente, 50 Pontos de Vida e 50 Pontos de Mana.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52542,7 +52545,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 800,
-      "description": "<p>Infecta com doença natural por 12 horas. Alvo não é afetado, mas vetor da praga.</p>"
+      "description": "<p>Essa poção de cor verde fosca e cheiro de amônia infecta quem a beber com uma doença natural (à escolha do alquimista) por 12 horas. No entanto, a criatura infectada não é afetada pela doença, se tornando, no entanto, um vetor da mesma. Ao invés da forma de infecção normal, Os fluidos corporais da criatura (saliva, suor, lágrimas, etc.) são capazes de infectar outras criaturas, e qualquer ataque desarmado desferido pela ou contra o infectado exige um teste para verificar se o alvo contrai a doença. Além disso, o infectado pode untar uma arma branca com seus fluidos – geralmente lambendo a arma ou se ferindo com a mesma – com uma ação padrão, permitindo que a arma possa transferir a doença. Qualquer criatura ferida pelo primeiro ataque bem sucedido com uma arma infectada dessa forma precisa testar imediatamente para verificar se fica infectado pela doença. Em qualquer dos caso, o teste para resistir aos efeitos da poção é um teste de Força com a dificuldade normal para a infecção, mas se falhar, o alvo é imediatamente afetado como se tivesse tido uma falha para resistir aos sintomas da doença, e passa a ser considerado infectado pela doença em questão.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52564,7 +52567,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 800,
-      "description": "<p>Gás em área de 3m infecta com doença natural.</p>"
+      "description": "<p>Essa poção volátil tem uma cor verde fosca e com cheiro pútrido e geralmente é colocada em frascos de cerâmica lacrados com cera, tanto para ocultar a aparência doentia da poção quanto para tornar o manuseio mais seguro. Quando o frasco se rompe, a poção se espalha na forma de uma nuvem de gás que se estende por uma área de 3m, infectando todas as criaturas na área com uma doença Natural (Corpo de Ferro, Febre do Pântano ou Olho de Goblin, via de regra; receitas para outras doenças não são conhecidas). A nuvem de praga se dispersa depois de uma rodada, e todas as criaturas vivas na área devem fazer um teste de Força com a dificuldade normal para a infecção, mas se falharem são imediatamente afetados como se tivessem tido uma falha para resistir aos sintomas da doença, e passam a ser considerados infectados pela doença em questão.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52586,7 +52589,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 600,
-      "description": "<p>Invisibilidade por 1 hora.</p>"
+      "description": "<p>Essa poção é completamente transparente e mais leve do que o normal. Seu cheiro é adocicado e suave. Derramando o conteúdo do líquido sobre si mesmo e seus itens, o personagem ficará invisível por 1 hora. O líquido evapora quase imediatamente, à medida que deixa a criatura e os objetos que cobriu invisíveis. O efeito do extrato é cancelado imediatamente se o personagem se aproximar de alguma fonte de calor considerável – segurar uma tocha ou se aproximar a menos de um metro de uma fogueira de acampamento, por exemplo. Além disso, em regiões muito quentes – como ao meio dia no verão ou em uma região de savana ou deserto – o efeito do extrato dura apenas meia hora. Como essa invisibilidade não é um efeito ilusório nem sequer mágico, poucos efeitos conseguem perceber a criatura invisível.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52608,7 +52611,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 9999,
-      "description": "<p>Arremesso ignora Bloqueio e Armadura, Petrifica alvo Von(12)</p>"
+      "description": "<p>Essa poção normalmente é colocada em frascos redondos para facilitar o seu arremesso. Quando o frasco se rompe, o líquido negro e viscoso se espalha sobre o alvo tornando tudo que tocar dentro de uma área de 1 metro em pedra. Criaturas atingidas pelo extrato têm direito a um teste de Vontade (Dificuldade 12) para não serem afetadas. Criaturas com Mente Vazia não têm direito a este teste, e são afetadas automaticamente. Se uma criatura não for afetada pelo extrato, os itens que estiver segurando também não serão afetados. Como essa poção afeta todos os objetos que cubra, bloquear o frasco não evita seus efeitos – ignore o bônus de bloqueio E armadura do alvo. O efeito dessa poção é permanente, e é considerado uma Maldição. Esse extrato não tem efeito sobre Mahoks, Gárgulas ou Autômatos.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52652,7 +52655,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 9999,
-      "description": "<p>Doença mágica decompõe o corpo do alvo For(12) a cada 12 horas.</p>"
+      "description": "<p>Um veneno de origem desconhecida, cuja fórmula é conhecida por pouquíssimos Alquimistas – e guardada com muito zelo. Este veneno consiste em uma pasta negra com cheiro de carne em decomposição e cujo gosto terrível é impossível de descrever, fazendo da ingestão praticamente impossível (é necessário um teste de Vontade com Dificuldade 20 ou o personagem vomitará). Uma vez infectado pelo veneno da podridão, a vítima precisa fazer um teste de Força (dificuldade 12) a cada 12 horas. Falha no teste significa que o corpo do alvo se decompõe, e o total de Pontos de Vida do personagem é diminuído em 10 e sua Força e Agilidade são reduzidas em 1. O alvo perde suas extremidades ao longo do processo (orelhas, nariz, dentes e dedos) e sua pele fica enegrecida e cheia de pústulas. Se o veneno for removido do sistema da criatura, o personagem aumenta seus Pontos de Vida totais em +10, recebe +1 de Força e +1 de Agilidade a cada semana, até que todos os efeitos tenham sido revertidos. O alvo não recupera partes perdidas, e sua pele ficará com manchas e cicatrizes permanentes, no entanto, a menos que um Extrato Regenerativo seja aplicado antes dos efeitos do veneno terem sido totalmente revertidos, ou que um antídoto Cola-Carne seja aplicado uma vez por semana enquanto a criatura se recupera. Esse veneno é considerado uma doença mágica.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52674,7 +52677,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 6000,
-      "description": "<p>Veneno Mágico. For(12) ou -10PV a cada minuto. Após 10min For(13) ou -10 PV a cada 10min por 1h.</p>"
+      "description": "<p>Este veneno, atribuído às Naga, consiste em uma pasta marrom com cheiro de álcool e gosto apimentado. O alvo deve realizar um teste de Força (dificuldade 12). Se falhar, o alvo perde 10 Pontos de Vida a cada minuto, por 10 minutos. Se passar, o alvo perde 10 Pontos de Vida imediatamente. Passando ou rodando, o alvo precisa fazer outro teste de Força (Dificuldade 13) depois de 10 minutos. Se falhar, o alvo perde mais 10 Pontos de Vida a cada 10 minutos, por 1 hora. Se passar, o alvo perde mais 10 Pontos de Vida, imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado mágico.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52696,7 +52699,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 9999,
-      "description": "<p>Veneno Mágico. For(12)/dia por 10 dias. Falha envelhece 10 anos. Sucesso crítico cura. Falha Crítica deixa Por um Fio.</p>"
+      "description": "<p>Este veneno, usado por uma civilização de Cassiopéia antes da Revoada dos Dragões como forma de punição, faz com que o alvo envelheça rapidamente. Uma vez inoculado pelo veneno, o alvo precisa fazer um teste de Força (dificuldade 12) a cada dia por 10 dias. Toda vez que falhar no teste, o alvo envelhece o equivalente a 10 anos. Um sucesso crítico em um dos testes elimina os efeitos do veneno, enquanto uma falha crítica faz com que a vítima perca todos os Pontos de Vida e fique Por um Fio, além de sofrer o efeito de envelhecimento. Se sobreviver, a vítima continuará sofrendo os efeitos do veneno normalmente. Esse veneno é considerado mágico.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52718,7 +52721,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 700,
-      "description": "<p>Levita com velocidade normal de deslocamento (sem correr) por 10 minutos.</p>"
+      "description": "<p>Esta poção de cor vermelha escura e gosto ácido permite que uma criatura viva que a beba levitar à uma velocidade igual ao seu deslocamento normal (sem poder correr) por 10 minutos ou até que a criatura toque no chão. Se uma criatura sob efeito da poção ficar inconsciente, ela desce lentamente até tocar o chão à metade do seu deslocamento normal. A glândula de um pirilampo é suficiente para apenas uma poção, e elas são consideradas componentes incomuns com custo de 50 moedas e aquisição por Caça (dificuldade 11) em florestas e subterrâneos.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52740,7 +52743,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 1600,
-      "description": "<p>Garante uma ação padrão a mais por turno, durante 1 minuto.</p>"
+      "description": "<p>Esta poção de cor verde leitosa garante à quem bebe-la uma ação padrão a mais por turno, durante 1 minuto.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52806,7 +52809,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Recupera 30 Pontos de Vida.</p>"
+      "description": "<p>Essa poção opaca de cor avermelhada não tem gosto nem cheiro. Uma criatura viva que a beber recupera, imediatamente, 30 Pontos de Vida.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52828,7 +52831,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 180,
-      "description": "<p>Recupera 50 Pontos de Vida.</p>"
+      "description": "<p>Essa poção opaca de cor avermelhada tem gosto e cheiro levemente adocicado. Uma criatura viva que a beber recupera, imediatamente, 50 Pontos de Vida.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52872,7 +52875,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 220,
-      "description": "<p>Recupera 50 Pontos de Mana.</p>"
+      "description": "<p>Essa poção de cor azul intensa tem gosto e cheiro levemente cítricos. Uma criatura viva que a beber recupera, imediatamente, 50 Pontos de Mana.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52894,7 +52897,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 250,
-      "description": "<p>Permite disparar um sopro de frio que causa dano igual à 20/Frio num alcance de 10 metros.</p>"
+      "description": "<p>Esta poção tem um tom azulado e está sempre gelada. Quando uma criatura viva beber este elixir, ela se torna capaz de disparar um sopro de frio que causa dano igual à 20/ frio em tudo e todos a até 10 metros à sua frente. A poção deixa de ter efeito depois de 1 minuto ou depois que o personagem disparar o sopro – o que acontecer primeiro.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52916,7 +52919,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 250,
-      "description": "<p>Permite disparar um sopro de fogo que causa dano igual à 20/Fogo num alcance de 10 metros.</p>"
+      "description": "<p>Esta poção tem um tom amarelado e está sempre morna. Quando uma criatura viva beber este elixir, ela se torna capaz de disparar um sopro de fogo que causa dano igual à 20/fogo em tudo e todos a até 10 metros à sua frente. A poção deixa de ter efeito depois de 1 minuto ou depois que o personagem disparar o sopro – o que acontecer primeiro.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -52960,7 +52963,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 500,
-      "description": "<p>Causa a perda de 20 Pontos de Vida numa área de 1 metro.</p>"
+      "description": "<p>Essa poção normalmente é colocada em frascos redondos para facilitar o seu arremesso. Quando o frasco se rompe, o líquido verde se espalha sobre o alvo dissolvendo tudo numa área de 1 metro, causando a perda de 20 Pontos de Vida, imediatamente. Criaturas atingidas pelo extrato têm direito à um teste de Agilidade (Dificuldade 10) para sofrerem apenas metade da perda de Pontos de Vida. Criaturas com Mente Vazia não têm direito à este teste. Se a criatura passar no teste, considere que seus itens não foram afetados. Como essa poção afeta todos os objetos que cubra, bloquear o frasco não evita seus efeitos – ignore o bônus de bloqueio E armadura do alvo. Todos os itens afetados pela poção ficam inutilizados, exceto itens de aço que, apesar de não serem destruídos, ficam extremamente enfraquecido (eles passam a ser considerados itens de qualidade baixa). Essa poção não tem efeito sobre vidro, cristal, cerâmica e pedra.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53004,7 +53007,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 150,
-      "description": "<p>Confere Resistência à Eletricidade por 1 hora.</p>"
+      "description": "<p>Um líquido amarelo fosco borbulhante, com a tampa lacrada com cera. Quando o lacre é removido, o líquido evapora engolfando a criatura ou objeto com até 3 metros de tamanho, aderindo à superfície e conferindo um leve matiz amarelado. A criatura ou objeto afetado recebe Resistência à Eletricidade por 1 hora.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53026,7 +53029,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 150,
-      "description": "<p>Confere Resistência à Fogo por 1 hora.</p>"
+      "description": "<p>Um líquido azul escuro borbulhante, com a tampa lacrada com cera. Quando o lacre é removido, o líquido evapora engolfando a criatura ou objeto com até 3 metros de tamanho, aderindo à superfície e conferindo um leve matiz azulado. A criatura ou objeto afetado recebe Resistência à Fogo por 1 hora.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53048,7 +53051,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 150,
-      "description": "<p>Confere Resistência ao Frio por 1 hora.</p>"
+      "description": "<p>Um líquido vermelho claro borbulhante, com a tampa lacrada com cera. Quando o lacre é removido, o líquido evapora engolfando a criatura ou objeto com até 3 metros de tamanho, aderindo à superfície e conferindo um leve matiz avermelhado. A criatura ou objeto afetado recebe Resistência ao Frio por 1 hora.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53070,7 +53073,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 750,
-      "description": "<p>Teleporta quem a ingerir (e até mais duas pessoas, se abraçadas) para o último local em que dormiu.</p>"
+      "description": "<p>Um líquido fosco de uma cor vermelho escura que, quando exposto ao ar, irrompe em uma nuvem de faíscas. Uma criatura viva pega pela núvem de faíscas é teleportada imediatamente para o último local em que dormiu. Esse elixir pode afetar até 3 criaturas, mas elas precisam estar, literalmente, abraçadas - perceba que cada uma delas retornará para o último local em que ela própria dormiu pela última vez. Uma criatura que queira evitar os efeitos da poção tem direito à um teste de Vontade (Dificuldade 12). Se passar no teste, ela não sofre nenhum efeito.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53092,7 +53095,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 700,
-      "description": "<p>Explode causando dano igual à 30/fogo num raio de 5 metros.</p>"
+      "description": "<p>Este líquido alaranjado e viscoso deve ser bem lacrado em um frasco, normalmente contendo um aviso de perigo. Se o frasco se romper ou for exposto a chamas, uma grande explosão causa dano igual à 30/fogo em tudo e todos que estiverem à até 5 metros do frasco.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53114,7 +53117,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 250,
-      "description": "<p>Explode causando dano igual à 10/Fogo num raio de 3 metros.</p>"
+      "description": "<p>Se este frasco romper, causa 10/fogo de dano em tudo e todos que estiverem a até 3 metros de distância</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53136,7 +53139,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 200,
-      "description": "<p>Se chacoalhado brilha por 1 hora como uma tocha.</p>"
+      "description": "<p>Um líquido viscoso de cor azul escura que, quando agitado vigorosamente (uma ação de movimento) produz uma luminosidade consistente, semelhante à luz de uma tocha, por cerca de 1 hora. Geralmente uma pedra de rio ou bala de funda é colocada dentro do frasco para auxiliar o processo de agitar o líquido, já que exposição ao ar faz com que o líquido perca suas capacidades imediatamente. Quando o efeito do extrato está se esvaindo, basta voltar a chacoalhar o frasco – essa poção tem efeito perene, enquanto o frasco não for aberto, apenas exigindo que seja chacoalhada.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53158,7 +53161,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 2000,
-      "description": "<p>Cura ou regenera membros decepados, mas apenas de ferimentos não cicatrizados.</p>"
+      "description": "<p>Essa poção tem a cor esverdeada, seu gosto é amargo, extremamente desagradável. Derramada sobre um ferimento de onde uma parte do corpo foi decepada, a parte perdida pode ser recolocada no lugar, imediatamente voltando a funcionar normalmente e removendo todos os efeitos de sangramento do alvo. Se a parte decepada tiver sido perdida ou destruída, a poção remove todos os efeito de sangramento do alvo e a parte perdida regenera lentamente (Dedos, olhos, língua, orelhas ou qualquer outra parte pequena cresce novamente em 1 hora. Um pé ou mão leva cerca de 6 hora, e um membro demora 1 dia para crescer completamente). Esse extrato só funciona em criaturas vivas, e só tem efeito em ferimentos que ainda não tenham cicatrizado.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53180,7 +53183,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 100,
-      "description": "<p>Efeito aleatório. Role 2d6 e verifique o efeito da poção na tabela na pg.76 do Guia do Herói.</p>"
+      "description": "<p>Essa poção é criada quando um Alquimista tem uma falha crítica ao produzir uma poção. Independente da poção desejada, a poção terá o efeito listado na tabela, apenas. Role 2d6 e verifique o efeito da poção na tabela a seguir. Alguns efeitos são aleatórios e devem ser decididos pelo Mestre (geralmente usando uma tabela criada especificamente para verificar o efeito). Estes efeitos são permanentes e só podem ser revertidos com um Antídoto Universal. 2 - Seus dedos se tornam tentáculos e todas as tarefas que exijam o uso das mãos são feitos como se você fosse Inapto. 3 - Um de seus Atributos é reduzido em -2. 4 - Você não consegue mais falar, apenas produzir o som de um animal aleatório. 5 - Você perde todos os pêlos do corpo. 6 - Seu corpo inteiro fica coberto de pelos de uma cor aleatória. 7 - Seus olhos adquiriem a aparência dos olhos de um animal aleatório. 8 - Todos os seus pelos mudam para uma cor aleatória. 9 - Você fica surdo por conta de plantas que começam a brotar de seus ouvidos. 10 - Você desenvolve uma cauda de um animal aleatório. 11 - A cor da sua pele muda para uma cor aleatória. 12 - Você se transforma em um pequeno animal aleatório. Especial: Se um personagem beber uma Poção do Caos enquanto está sob um dos efeitos acima, ignore efeitos iguais rolando novamente na tabela.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53202,7 +53205,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 250,
-      "description": "<p>Causa 3 pontos de dano se o alvo estiver ativo, e 1 se descansando. Esse veneno é considerado natural.</p>"
+      "description": "<p>Este veneno consiste em uma pasta amarela de com cheiro e gosto pimentosos e tem um efeito mais potente se o alvo estiver em atividade. O alvo precisa realizar um teste de Força (dificuldade 10). Se falhar, o alvo perde 3 pontos de vida por turno, por um minuto. Se o personagem estiver descansando durante este tempo, no entanto, essa perda é reduzida para apenas 1 ponto de vida por turno. Se passar no teste, o personagem perde apenas 3 Pontos de Vida imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado natural.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53246,7 +53249,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 500,
-      "description": "<p>Paralisa alvo por 2 turnos. Este veneno é considerado natural.</p>"
+      "description": "<p>uma pasta esverdeada de gosto muito amargo. O alvo sentirá uma breve e terrível dor muscular, e precisa realizar um teste de Vontade (dificuldade 10). Se passar, o personagem realiza todos os seus testes como se fosse Inapto por 2 turnos. Se falhar, o alvo fica Paralisado por 2 turnos. Este veneno é considerado natural.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53268,7 +53271,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 500,
-      "description": "<p>Causa 5 pontos de dano por turno. Esse veneno é considerado mágico.</p>"
+      "description": "<p>Uma pasta negra, de gosto ácido e cheiro forte. O alvo precisa realizar um teste de Força (dificuldade 12). Se falhar perde 5 pontos de vida por turno, por 1 minuto. Se passar no teste, o alvo perde apenas 5 Pontos de Vida imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado mágico.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53290,7 +53293,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 5000,
-      "description": "<p>Provoca 60 pontos de dano e paralisa por 1 turno. Esse veneno é considerado mágico.</p>"
+      "description": "<p>Esse veneno sem cor nem cheiro e de sabor levemente apimentado faz com que a vítima sofra um ataque cardíaco fulminante. O alvo deve fazer um teste de Força (dificuldade 12). Se passar no teste, o alvo perde imediatamente 10 Pontos de Vida e sofre um redutor de -2 em suas rolagens por uma rodada. Se falhar, o alvo perde 60 Pontos de Vida e se sobreviver - fica paralisado até o final do seu próximo turno. Esse veneno é considerado mágico.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53312,7 +53315,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 150,
-      "description": "<p>O alvo cairá em um sono profundo. Este veneno é considerado natural.</p>"
+      "description": "<p>Essa poção transparente não tem gosto, mas é levemente travante. O alvo ficará sonolento e se não passar em um teste de Força (dificuldade 10) cairá em um sono profundo. O alvo é considerado Indefeso pelo primeiro minuto de sono (não podendo ser acordado de forma alguma) e depois permanecerá dormindo por 8 horas se não for interrompido, mas poderá ser acordado normalmente. Este veneno é considerado natural.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -53334,7 +53337,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 900,
-      "description": "<p>Alvo torna-se Inapto em todos os testes por 1 hora. Este veneno é considerado mágico.</p>"
+      "description": "<p>uma pasta esverdeada com cheiro e gosto ácido. O alvo é consumido por dores e contrações musculares severas e precisa realizar um teste de Vontade (dificuldade 12). Se passar, o alvo tem -2 em todos os seus testes por 1 hora. Se falhar, o alvo realiza todos os seus testes como se fosse Inapto por 1 hora. Este veneno é considerado mágico.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -54016,7 +54019,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.05,
       "quantidade": 1,
       "custo": 15,
-      "description": "<p>Usado para marcar uma passagem de tempo específica. Os mais comuns são os de 1 minuto, 10 minutos e 1 hora.</p>"
+      "description": "<p>Usada para marcar uma passagem de tempo específica. As mais comuns marcam 1 minuto, 10 minutos e 1 hora.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -54478,7 +54481,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 2,
       "quantidade": 1,
       "custo": 3,
-      "description": "<p>Suporta 200kg.</p>"
+      "description": "<p>Suporta 200 kg</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -54632,7 +54635,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0,
       "quantidade": 1,
       "custo": 20,
-      "description": "<p>Uma peça de metal (geralmente de aço) com um símbolo da Ordem ou Cargo que você representa.</p>"
+      "description": "<p>Um broche ou medalhão de metal com um símbolo da Ordem ou Cargo que você representa. Portar um Distintivo ilegalmente é considerado crime em Tebryn.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -55116,7 +55119,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 2,
       "quantidade": 1,
       "custo": 800,
-      "description": "<p>Fornece Resistência ao Fogo, mas torna o usuário Inapto para se esconder devido ao seu leve brilho.</p>"
+      "description": "<p>Confeccionado com penas de fênix – para confeccionar o manto são necessárias todas as penas de duas dessas aves, ou, se o fabricante não quiser matar nenhum animal, as penas trocadas por uma ave no período de 10 anos – esse manto com capuz de cor vibrante torna seu portador Resistente ao Fogo – mas não a ambientes particularmente quentes. No entanto, o manto brilha tenuemente em ambientes escuros, o que torna muito difícil para o usuário se esconder. Especial: O usuário recebe a Habilidade Resistência ao Fogo enquanto estiver usando o manto. Além disso, ele é considerado Inapto em todas as suas tentativas de passar despercebido enquanto usar o manto.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -55644,7 +55647,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 1,
       "quantidade": 1,
       "custo": 500,
-      "description": "<p>Esta cesta de madeira simples com bonitos entalhes emana um delicioso cheio de torta. 1 vez a cada hora, seu portador pode abrir a cesta e encontrará lá dentro uma torta de um sabor aleatório: Nozes, Baunilha, Morango, Maçã, Limão, ou Cereja.</p>"
+      "description": "<p>Esta cesta de madeira simples com bonitos entalhes emana um delicioso cheio de torta. 1 vez a cada hora, seu portador pode abrir a cesta e encontrará lá dentro uma torta de um sabor aleatório (role na tabela abaixo). 1d6 — Sabor da Torta: 1, Nozes; 2, Baunilha; 3, Morango; 4, Maçã; 5, Limão; 6, Cereja.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -55808,6 +55811,314 @@ export const CANONICAL_EQUIPAMENTOS = [
     },
     "_id": "b56f43540c5166ac",
     "_key": "!items!b56f43540c5166ac"
+  },
+  {
+    "name": "Ankusa",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 125,
+      "description": "<p>Uma haste com um gancho usado para cavalgar e treinar elefantes. Tem as mesmas características de um bico-de-corvo.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "ankusa",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "8636bba3bd0ffc3a",
+    "_key": "!items!8636bba3bd0ffc3a"
+  },
+  {
+    "name": "Arnês",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 100,
+      "description": "<p>Conjunto completo de arreios para montaria – sela, estribo, freio, rédeas e bucal.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "arnes",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "e45816ff2684fc7b",
+    "_key": "!items!e45816ff2684fc7b"
+  },
+  {
+    "name": "Cangalha",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 30,
+      "description": "<p>Varas dispostas sobre o dorso do animal sobre um acolchoado de tecido, lã ou couro, para sustentar carga. A Força do animal usando uma Cangalha é aumentada em 1 para calcular sua Carga.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cangalha",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "1212edf64e08b8fb",
+    "_key": "!items!1212edf64e08b8fb"
+  },
+  {
+    "name": "Charrete",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 100,
+      "description": "<p>Uma carroça com apenas 1 eixo de rodas com uma cobertura e bancos confortáveis para 2 ocupantes e mais 100 kg de carga. Permite que o animal trote a até o dobro de seu deslocamento normal.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "charrete",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "7efa1489855fd13f",
+    "_key": "!items!7efa1489855fd13f"
+  },
+  {
+    "name": "Howdah",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 200,
+      "description": "<p>Uma cesta de madeira e tecido presa sobre o dorso de um Paquiderme. Não aumenta a carga do animal, mas é bastante confortável. Um animal Grande pode carregar até 2 passageiros numa howdah, enquanto um animal colossal pode carregar até 4.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "howdah",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "ad163eb4f022bb05",
+    "_key": "!items!ad163eb4f022bb05"
+  },
+  {
+    "name": "Howdah de Guerra",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 400,
+      "description": "<p>Uma howdah de madeira reforçada com metal, com muretas que oferece um bônus situacional de +2 à Defesa dos ocupantes.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "howdah-de-guerra",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "cc954c721ebd0497",
+    "_key": "!items!cc954c721ebd0497"
+  },
+  {
+    "name": "Jagannath",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 7000,
+      "description": "<p>Armadura de placas de metal que cobre as costas e cabeça de um elefante ou mamute, com uma manta de couro com reforço de metal protegendo as pernas do animal. Sobre o dorso da besta, uma howdah de metal comporta os cavaleiros. Jagannaths só podem ser usados em Paquidermes com treinamento como Animais de Guerra, e o peso da armadura diminui a velocidade normal do animal pela metade, a menos que não haja cavaleiros dentro do Howdah. Um jagannath oferece um bônus de armadura de +4 para o paquiderme, e +3 situacional para os ocupantes da howdah.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "jagannath",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "fc67f7fb9be7efe6",
+    "_key": "!items!fc67f7fb9be7efe6"
+  },
+  {
+    "name": "Rações",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 5,
+      "description": "<p>Alfafa, capim fresco ou carne e água para alimentar a montaria. Um animal precisa, por dia, de uma porção de rações igual à sua Força. Cada 20 porções pesam FN 1.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "racoes",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "e2693299551fb338",
+    "_key": "!items!e2693299551fb338"
+  },
+  {
+    "name": "Sela de Guerra",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 200,
+      "description": "<p>Arnês com reforço em metal na parte dianteira e traseira da sela, além de uma máscara de couro curtido e uma manta de tecido grosso para a montaria. Oferece um bônus de Armadura +1 para a montaria e um bônus situacional de +1 para o ginete.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "sela-de-guerra",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "da5778f89db71652",
+    "_key": "!items!da5778f89db71652"
+  },
+  {
+    "name": "Selim",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 50,
+      "description": "<p>Uma peça simples de couro ou lã presa sobre o lombo do animal, presa por correias ao redor do dorso do animal. Pode ser usada em qualquer animal com as Habilidades Montaria ou Paquiderme.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "selim",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "9d2f750c1bc1d242",
+    "_key": "!items!9d2f750c1bc1d242"
+  },
+  {
+    "name": "Tapete Voador",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0,
+      "quantidade": 1,
+      "custo": 100,
+      "description": "<p>Peça de couro ou tecido grosso suspenso entre 2 ou 4 animais voadores. Geralmente cada animal carrega um cavaleiro, e o tapete suporta mais um ocupante para cada dois animais. Não é possível levar uma quantidade maior de passageiros; os animais simplesmente não são capazes de erguer uma carga maior.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "tapete-voador",
+        "categoria": "Mundano"
+      }
+    },
+    "_id": "d9336ac497e99027",
+    "_key": "!items!d9336ac497e99027"
+  },
+  {
+    "name": "Berimbau",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 1,
+      "quantidade": 1,
+      "custo": 20,
+      "description": "<p>Um instrumento usado mais comumente por povos tribais. Composto de um arco de madeira com uma caixa acústica perto de uma das extremidades, feita de uma cabaça. O arco é retesado com um tipo de corda vegetal, e ele é tocado com uma vareta batida na corda.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "berimbau",
+        "categoria": "Musical"
+      }
+    },
+    "_id": "613e18506382c8c3",
+    "_key": "!items!613e18506382c8c3"
+  },
+  {
+    "name": "Címbalo",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 0.5,
+      "quantidade": 1,
+      "custo": 35,
+      "description": "<p>Um instrumento de percussão comum. Consiste num par de discos metálicos, levemente côncavos no centro, onde uma alça de couro externa é colocada para prender nos dedos.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "cimbalo",
+        "categoria": "Musical"
+      }
+    },
+    "_id": "013e2b19f21856cd",
+    "_key": "!items!013e2b19f21856cd"
+  },
+  {
+    "name": "Harpa",
+    "type": "equipamento",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "canalizador": false,
+      "equipado": false,
+      "efeitos": [],
+      "peso": 35,
+      "quantidade": 1,
+      "custo": 100,
+      "description": "<p>Um instrumento de corda pesado, com 70 a 80 cordas, que deve ser posicionado no chão para ser tocado, impossível de usar em movimento.</p>"
+    },
+    "flags": {
+      "mighty-blade": {
+        "slug": "harpa",
+        "categoria": "Musical"
+      }
+    },
+    "_id": "89921fc7fce30ae9",
+    "_key": "!items!89921fc7fce30ae9"
   }
 ];
 

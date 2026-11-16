@@ -1,0 +1,22 @@
+{
+  "name": "Ankusa",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 125,
+    "description": "<p>Uma haste com um gancho usado para cavalgar e treinar elefantes. Tem as mesmas características de um bico-de-corvo.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "ankusa",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "8636bba3bd0ffc3a",
+  "_key": "!items!8636bba3bd0ffc3a"
+}

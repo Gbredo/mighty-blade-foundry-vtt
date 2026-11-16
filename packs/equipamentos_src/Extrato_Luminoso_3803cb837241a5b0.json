@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 200,
-    "description": "<p>Se chacoalhado brilha por 1 hora como uma tocha.</p>"
+    "description": "<p>Um líquido viscoso de cor azul escura que, quando agitado vigorosamente (uma ação de movimento) produz uma luminosidade consistente, semelhante à luz de uma tocha, por cerca de 1 hora. Geralmente uma pedra de rio ou bala de funda é colocada dentro do frasco para auxiliar o processo de agitar o líquido, já que exposição ao ar faz com que o líquido perca suas capacidades imediatamente. Quando o efeito do extrato está se esvaindo, basta voltar a chacoalhar o frasco – essa poção tem efeito perene, enquanto o frasco não for aberto, apenas exigindo que seja chacoalhada.</p>"
   },
   "flags": {
     "mighty-blade": {

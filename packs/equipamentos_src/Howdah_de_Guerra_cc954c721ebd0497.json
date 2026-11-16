@@ -1,0 +1,22 @@
+{
+  "name": "Howdah de Guerra",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 400,
+    "description": "<p>Uma howdah de madeira reforçada com metal, com muretas que oferece um bônus situacional de +2 à Defesa dos ocupantes.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "howdah-de-guerra",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "cc954c721ebd0497",
+  "_key": "!items!cc954c721ebd0497"
+}

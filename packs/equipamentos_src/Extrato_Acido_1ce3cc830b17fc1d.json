@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 500,
-    "description": "<p>Causa a perda de 20 Pontos de Vida numa área de 1 metro.</p>"
+    "description": "<p>Essa poção normalmente é colocada em frascos redondos para facilitar o seu arremesso. Quando o frasco se rompe, o líquido verde se espalha sobre o alvo dissolvendo tudo numa área de 1 metro, causando a perda de 20 Pontos de Vida, imediatamente. Criaturas atingidas pelo extrato têm direito à um teste de Agilidade (Dificuldade 10) para sofrerem apenas metade da perda de Pontos de Vida. Criaturas com Mente Vazia não têm direito à este teste. Se a criatura passar no teste, considere que seus itens não foram afetados. Como essa poção afeta todos os objetos que cubra, bloquear o frasco não evita seus efeitos – ignore o bônus de bloqueio E armadura do alvo. Todos os itens afetados pela poção ficam inutilizados, exceto itens de aço que, apesar de não serem destruídos, ficam extremamente enfraquecido (eles passam a ser considerados itens de qualidade baixa). Essa poção não tem efeito sobre vidro, cristal, cerâmica e pedra.</p>"
   },
   "flags": {
     "mighty-blade": {

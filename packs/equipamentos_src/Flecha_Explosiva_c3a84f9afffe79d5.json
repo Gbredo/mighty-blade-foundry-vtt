@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 150,
-    "description": "<p>Causa dano adicional igual a 12/Fogo.</p>"
+    "description": "<p>Invenção da Iris de Malta, esse projétil possui um bulbo de vidro na ponta, com uma versão concentrada de Extrato Explosivo Menor que causa dano igual a 12/Fogo ao se romper, além do dano normal do projétil. O bulbo vem envolto em uma proteção de couro acolchoado que impede que ele exploda se cair no chão ou sofrer impactos leves e retém grande parte da explosão caso isso ocorra. Remover a proteção exige uma ação de movimento. Disparar o projétil sem tirar a proteção diminui consideravelmente o dano do projétil (o dano normal do projétil é reduzido à metade e o dano do Extrato é reduzido a 4/Fogo).</p>"
   },
   "flags": {
     "mighty-blade": {

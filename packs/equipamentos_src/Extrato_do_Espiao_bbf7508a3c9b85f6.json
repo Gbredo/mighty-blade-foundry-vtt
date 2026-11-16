@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 600,
-    "description": "<p>Invisibilidade por 1 hora.</p>"
+    "description": "<p>Essa poção é completamente transparente e mais leve do que o normal. Seu cheiro é adocicado e suave. Derramando o conteúdo do líquido sobre si mesmo e seus itens, o personagem ficará invisível por 1 hora. O líquido evapora quase imediatamente, à medida que deixa a criatura e os objetos que cobriu invisíveis. O efeito do extrato é cancelado imediatamente se o personagem se aproximar de alguma fonte de calor considerável – segurar uma tocha ou se aproximar a menos de um metro de uma fogueira de acampamento, por exemplo. Além disso, em regiões muito quentes – como ao meio dia no verão ou em uma região de savana ou deserto – o efeito do extrato dura apenas meia hora. Como essa invisibilidade não é um efeito ilusório nem sequer mágico, poucos efeitos conseguem perceber a criatura invisível.</p>"
   },
   "flags": {
     "mighty-blade": {

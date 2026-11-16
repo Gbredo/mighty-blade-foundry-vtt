@@ -1,0 +1,22 @@
+{
+  "name": "Címbalo",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0.5,
+    "quantidade": 1,
+    "custo": 35,
+    "description": "<p>Um instrumento de percussão comum. Consiste num par de discos metálicos, levemente côncavos no centro, onde uma alça de couro externa é colocada para prender nos dedos.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "cimbalo",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "013e2b19f21856cd",
+  "_key": "!items!013e2b19f21856cd"
+}

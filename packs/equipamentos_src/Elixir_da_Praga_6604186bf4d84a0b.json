@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 800,
-    "description": "<p>Infecta com doença natural por 12 horas. Alvo não é afetado, mas vetor da praga.</p>"
+    "description": "<p>Essa poção de cor verde fosca e cheiro de amônia infecta quem a beber com uma doença natural (à escolha do alquimista) por 12 horas. No entanto, a criatura infectada não é afetada pela doença, se tornando, no entanto, um vetor da mesma. Ao invés da forma de infecção normal, Os fluidos corporais da criatura (saliva, suor, lágrimas, etc.) são capazes de infectar outras criaturas, e qualquer ataque desarmado desferido pela ou contra o infectado exige um teste para verificar se o alvo contrai a doença. Além disso, o infectado pode untar uma arma branca com seus fluidos – geralmente lambendo a arma ou se ferindo com a mesma – com uma ação padrão, permitindo que a arma possa transferir a doença. Qualquer criatura ferida pelo primeiro ataque bem sucedido com uma arma infectada dessa forma precisa testar imediatamente para verificar se fica infectado pela doença. Em qualquer dos caso, o teste para resistir aos efeitos da poção é um teste de Força com a dificuldade normal para a infecção, mas se falhar, o alvo é imediatamente afetado como se tivesse tido uma falha para resistir aos sintomas da doença, e passa a ser considerado infectado pela doença em questão.</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -1,0 +1,22 @@
+{
+  "name": "Selim",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 50,
+    "description": "<p>Uma peça simples de couro ou lã presa sobre o lombo do animal, presa por correias ao redor do dorso do animal. Pode ser usada em qualquer animal com as Habilidades Montaria ou Paquiderme.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "selim",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "9d2f750c1bc1d242",
+  "_key": "!items!9d2f750c1bc1d242"
+}

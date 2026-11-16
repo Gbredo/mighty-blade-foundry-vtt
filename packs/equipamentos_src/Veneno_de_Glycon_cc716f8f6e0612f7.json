@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 6000,
-    "description": "<p>Veneno Mágico. For(12) ou -10PV a cada minuto. Após 10min For(13) ou -10 PV a cada 10min por 1h.</p>"
+    "description": "<p>Este veneno, atribuído às Naga, consiste em uma pasta marrom com cheiro de álcool e gosto apimentado. O alvo deve realizar um teste de Força (dificuldade 12). Se falhar, o alvo perde 10 Pontos de Vida a cada minuto, por 10 minutos. Se passar, o alvo perde 10 Pontos de Vida imediatamente. Passando ou rodando, o alvo precisa fazer outro teste de Força (Dificuldade 13) depois de 10 minutos. Se falhar, o alvo perde mais 10 Pontos de Vida a cada 10 minutos, por 1 hora. Se passar, o alvo perde mais 10 Pontos de Vida, imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado mágico.</p>"
   },
   "flags": {
     "mighty-blade": {

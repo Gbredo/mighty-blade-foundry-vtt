@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 150,
-    "description": "<p>Remove todos os efeitos de venenos naturais e mágicos.</p>"
+    "description": "<p>Esta poção de uma cor verde leitosa tem gosto e cheiro adocicados remove todos os efeitos de venenos naturais e mágicos da criatura que a beber.</p>"
   },
   "flags": {
     "mighty-blade": {

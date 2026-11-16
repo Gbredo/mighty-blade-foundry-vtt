@@ -5,7 +5,8 @@
   "system": {
     "dano": "FOR+7",
     "tipoDano": [
-      "Corte"
+      "Contusao",
+      "Perfuracao"
     ],
     "fn": 2,
     "alcance": "Adjacente (1m)",

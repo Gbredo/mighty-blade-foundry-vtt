@@ -1,0 +1,22 @@
+{
+  "name": "Berimbau",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 1,
+    "quantidade": 1,
+    "custo": 20,
+    "description": "<p>Um instrumento usado mais comumente por povos tribais. Composto de um arco de madeira com uma caixa acústica perto de uma das extremidades, feita de uma cabaça. O arco é retesado com um tipo de corda vegetal, e ele é tocado com uma vareta batida na corda.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "berimbau",
+      "categoria": "Musical"
+    }
+  },
+  "_id": "613e18506382c8c3",
+  "_key": "!items!613e18506382c8c3"
+}

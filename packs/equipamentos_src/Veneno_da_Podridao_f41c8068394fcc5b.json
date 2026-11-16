@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 9999,
-    "description": "<p>Doença mágica decompõe o corpo do alvo For(12) a cada 12 horas.</p>"
+    "description": "<p>Um veneno de origem desconhecida, cuja fórmula é conhecida por pouquíssimos Alquimistas – e guardada com muito zelo. Este veneno consiste em uma pasta negra com cheiro de carne em decomposição e cujo gosto terrível é impossível de descrever, fazendo da ingestão praticamente impossível (é necessário um teste de Vontade com Dificuldade 20 ou o personagem vomitará). Uma vez infectado pelo veneno da podridão, a vítima precisa fazer um teste de Força (dificuldade 12) a cada 12 horas. Falha no teste significa que o corpo do alvo se decompõe, e o total de Pontos de Vida do personagem é diminuído em 10 e sua Força e Agilidade são reduzidas em 1. O alvo perde suas extremidades ao longo do processo (orelhas, nariz, dentes e dedos) e sua pele fica enegrecida e cheia de pústulas. Se o veneno for removido do sistema da criatura, o personagem aumenta seus Pontos de Vida totais em +10, recebe +1 de Força e +1 de Agilidade a cada semana, até que todos os efeitos tenham sido revertidos. O alvo não recupera partes perdidas, e sua pele ficará com manchas e cicatrizes permanentes, no entanto, a menos que um Extrato Regenerativo seja aplicado antes dos efeitos do veneno terem sido totalmente revertidos, ou que um antídoto Cola-Carne seja aplicado uma vez por semana enquanto a criatura se recupera. Esse veneno é considerado uma doença mágica.</p>"
   },
   "flags": {
     "mighty-blade": {

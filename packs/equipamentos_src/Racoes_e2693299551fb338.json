@@ -1,0 +1,22 @@
+{
+  "name": "Rações",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 5,
+    "description": "<p>Alfafa, capim fresco ou carne e água para alimentar a montaria. Um animal precisa, por dia, de uma porção de rações igual à sua Força. Cada 20 porções pesam FN 1.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "racoes",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "e2693299551fb338",
+  "_key": "!items!e2693299551fb338"
+}

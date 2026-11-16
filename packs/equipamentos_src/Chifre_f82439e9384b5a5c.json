@@ -9,7 +9,7 @@
     "peso": 0.5,
     "quantidade": 1,
     "custo": 20,
-    "description": "<p>Sopro feito de um pequeno chifre ou metal.</p>"
+    "description": "<p>instrumento de sopro que pode ser produzido com um pequeno chifre ou em metal, cuja variação de som é feita pelo modo de soprar do músico</p>"
   },
   "flags": {
     "mighty-blade": {

@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 5,
-    "description": "<p>Causa o mesmo dano ao ser removida + sangramento de metade do dano por 3 turnos.</p>"
+    "description": "<p>A ponta deste projétil possui farpas de ambos os lados, e quando é removida causa novamente seu dano normal (ao invés de apenas metade) além de um efeito de sangramento, fazendo o alvo perder metade do dano normal (arredondado para baixo) por 3 turnos. Se for removida através de um uso bem-sucedido de Primeiros Socorros, a flecha causa apenas metade do dano normal (arredondado para baixo) e não causa o efeito de sangramento.</p>"
   },
   "flags": {
     "mighty-blade": {

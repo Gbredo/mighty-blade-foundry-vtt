@@ -9,7 +9,7 @@
     "peso": 0,
     "quantidade": 1,
     "custo": 20,
-    "description": "<p>Uma peça de metal (geralmente de aço) com um símbolo da Ordem ou Cargo que você representa.</p>"
+    "description": "<p>Um broche ou medalhão de metal com um símbolo da Ordem ou Cargo que você representa. Portar um Distintivo ilegalmente é considerado crime em Tebryn.</p>"
   },
   "flags": {
     "mighty-blade": {

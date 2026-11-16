@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 5,
-    "description": "<p>Dano comum + 4/Fogo ao atingir e 4/Fogo por 3 turnos ou até ser removida.</p>"
+    "description": "<p>Estes projéteis carregam uma pequena bucha embebida em óleo inflamável atrás da ponta. A bucha é acesa por uma pederneira especial, com a pedra fixada na haste do projétil e o isqueiro no arco da arma. Quando o projétil é disparado, a pedra risca o isqueiro produzindo uma pequena faísca que incendeia a bucha. Quando atinge o alvo, além do dano do projétil, ele sofre um dano extra igual à 4/Fogo. O alvo sofre o dano por fogo novamente no início do seu turno, por 3 turnos ou até ser removida – o que ocorrer primeiro. Setas não podem ser produzidas com este efeito.</p>"
   },
   "flags": {
     "mighty-blade": {

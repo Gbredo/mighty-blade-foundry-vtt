@@ -9,7 +9,7 @@
     "peso": 1,
     "quantidade": 1,
     "custo": 500,
-    "description": "<p>Esta cesta de madeira simples com bonitos entalhes emana um delicioso cheio de torta. 1 vez a cada hora, seu portador pode abrir a cesta e encontrará lá dentro uma torta de um sabor aleatório: Nozes, Baunilha, Morango, Maçã, Limão, ou Cereja.</p>"
+    "description": "<p>Esta cesta de madeira simples com bonitos entalhes emana um delicioso cheio de torta. 1 vez a cada hora, seu portador pode abrir a cesta e encontrará lá dentro uma torta de um sabor aleatório (role na tabela abaixo). 1d6 — Sabor da Torta: 1, Nozes; 2, Baunilha; 3, Morango; 4, Maçã; 5, Limão; 6, Cereja.</p>"
   },
   "flags": {
     "mighty-blade": {

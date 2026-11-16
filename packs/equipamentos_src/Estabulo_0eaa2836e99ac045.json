@@ -9,7 +9,7 @@
     "peso": 0,
     "quantidade": 1,
     "custo": 2,
-    "description": "<p>Preço da Diária. Por animal.</p>"
+    "description": "<p>Por animal.</p>"
   },
   "flags": {
     "mighty-blade": {

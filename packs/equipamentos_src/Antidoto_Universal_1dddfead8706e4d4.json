@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 300,
-    "description": "<p>Remove todos os efeitos de venenos naturais e mágicos, doenças naturais e mágicas e efeitos de sangramento.</p>"
+    "description": "<p>Esta poção de cor dourada sem cheiro ou gosto remove todos os efeitos de venenos naturais e mágicos, doenças naturais e mágicas e efeitos de sangramento da criatura que a beber.</p>"
   },
   "flags": {
     "mighty-blade": {

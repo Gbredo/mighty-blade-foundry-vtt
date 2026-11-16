@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 150,
-    "description": "<p>O alvo cairá em um sono profundo. Este veneno é considerado natural.</p>"
+    "description": "<p>Essa poção transparente não tem gosto, mas é levemente travante. O alvo ficará sonolento e se não passar em um teste de Força (dificuldade 10) cairá em um sono profundo. O alvo é considerado Indefeso pelo primeiro minuto de sono (não podendo ser acordado de forma alguma) e depois permanecerá dormindo por 8 horas se não for interrompido, mas poderá ser acordado normalmente. Este veneno é considerado natural.</p>"
   },
   "flags": {
     "mighty-blade": {

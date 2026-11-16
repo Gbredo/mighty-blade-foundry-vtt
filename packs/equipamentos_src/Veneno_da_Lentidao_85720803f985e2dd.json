@@ -9,7 +9,7 @@
     "peso": 0.12,
     "quantidade": 1,
     "custo": 250,
-    "description": "<p>Causa 3 pontos de dano se o alvo estiver ativo, e 1 se descansando. Esse veneno é considerado natural.</p>"
+    "description": "<p>Este veneno consiste em uma pasta amarela de com cheiro e gosto pimentosos e tem um efeito mais potente se o alvo estiver em atividade. O alvo precisa realizar um teste de Força (dificuldade 10). Se falhar, o alvo perde 3 pontos de vida por turno, por um minuto. Se o personagem estiver descansando durante este tempo, no entanto, essa perda é reduzida para apenas 1 ponto de vida por turno. Se passar no teste, o personagem perde apenas 3 Pontos de Vida imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado natural.</p>"
   },
   "flags": {
     "mighty-blade": {

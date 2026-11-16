@@ -5,6 +5,7 @@
   "system": {
     "dano": "FOR+2",
     "tipoDano": [
+      "Corte",
       "Perfuracao"
     ],
     "fn": 1,
@@ -18,7 +19,7 @@
     "peso": 0.25,
     "quantidade": 1,
     "custo": 50,
-    "description": "<p>Punhais são adagas sintonizadas a um conjurador por sua runa pessoal.</p>"
+    "description": "<p>Punhais são simplesmente adagas sintonizadas a um conjurador através de sua runa pessoal.</p>"
   },
   "flags": {
     "mighty-blade": {

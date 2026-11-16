@@ -9,7 +9,7 @@
     "peso": 1.5,
     "quantidade": 1,
     "custo": 10,
-    "description": "<p>Utensílio usado nas costas para carregar até 20 flechas (compradas à parte).</p>"
+    "description": "<p>Utensilio usado normalmente nas costas para carregar flechas. Comporta até 20 flechas (compradas separadamente).</p>"
   },
   "flags": {
     "mighty-blade": {

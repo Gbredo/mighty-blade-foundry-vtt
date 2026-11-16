@@ -9,7 +9,7 @@
     "peso": 0.05,
     "quantidade": 1,
     "custo": 50,
-    "description": "<p>Rede de Prata Fria. Mira Int(14); dispara ignorando Armadura/Bloqueio p/ prender. Arrebentar For(14); falha causa 6/Corte.</p>"
+    "description": "<p>desenvolvida por arqueiros Élficos, ela possui uma rede tramada com linhas de Prata Fria, conhecida por sua resistência e flexibilidade. Essa rede é dobrada e enrolada de uma forma específica (teste de Inteligência Dif. 14) ao redor de um carretel. Quando o projétil é disparado, a rede se abre no ar e cai sobre o alvo, prendendo-o. Para disparar esse projétil é necessário que o arqueiro tome um turno para calcular a distância e a força necessária, de modo que a rede não abra antes ou depois do alvo. Nesse turno, o personagem faz um teste de Inteligência (Dificuldade 14). Sucesso no teste significa que a rede funcionará com precisão, mas ele ainda deve acertar o disparo – que ignora os bônus de Armadura e Bloqueio do alvo. Um alvo preso pode tentar romper a rede com um teste de Força (Dificuldade 14), mas a cada tentativa ele sofre dano igual à 6/Corte. É possível tentar se desvencilhar da rede com um teste de Agilidade (Dificuldade 14), mas cada falha faz com que a rede fique mais enredada, aumentando a dificuldade em 1, cumulativamente. Alvos presos na rede tem seu movimento reduzido a 0, não adicionam seus bônus de Bloqueio ou Esquiva na Defesa, não podem utilizar Habilidades de Reação e realizam testes de ataque, Músicas e conjuram Magias como se fossem Inaptos.</p>"
   },
   "flags": {
     "mighty-blade": {

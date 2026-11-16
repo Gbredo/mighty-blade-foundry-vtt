@@ -9,7 +9,7 @@
     "peso": 2,
     "quantidade": 1,
     "custo": 800,
-    "description": "<p>Fornece Resistência ao Fogo, mas torna o usuário Inapto para se esconder devido ao seu leve brilho.</p>"
+    "description": "<p>Confeccionado com penas de fênix – para confeccionar o manto são necessárias todas as penas de duas dessas aves, ou, se o fabricante não quiser matar nenhum animal, as penas trocadas por uma ave no período de 10 anos – esse manto com capuz de cor vibrante torna seu portador Resistente ao Fogo – mas não a ambientes particularmente quentes. No entanto, o manto brilha tenuemente em ambientes escuros, o que torna muito difícil para o usuário se esconder. Especial: O usuário recebe a Habilidade Resistência ao Fogo enquanto estiver usando o manto. Além disso, ele é considerado Inapto em todas as suas tentativas de passar despercebido enquanto usar o manto.</p>"
   },
   "flags": {
     "mighty-blade": {

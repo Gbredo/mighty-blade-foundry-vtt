@@ -9,7 +9,7 @@
     "peso": 0.5,
     "quantidade": 1,
     "custo": 50,
-    "description": "<p>Livro usado por conjuradores arcanos para registrar magias.</p>"
+    "description": "<p>Livro usado por conjuradores arcanos para registrar suas magias.</p>"
   },
   "flags": {
     "mighty-blade": {

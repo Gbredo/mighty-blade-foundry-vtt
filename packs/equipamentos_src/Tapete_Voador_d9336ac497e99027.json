@@ -1,0 +1,22 @@
+{
+  "name": "Tapete Voador",
+  "type": "equipamento",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "canalizador": false,
+    "equipado": false,
+    "efeitos": [],
+    "peso": 0,
+    "quantidade": 1,
+    "custo": 100,
+    "description": "<p>Peça de couro ou tecido grosso suspenso entre 2 ou 4 animais voadores. Geralmente cada animal carrega um cavaleiro, e o tapete suporta mais um ocupante para cada dois animais. Não é possível levar uma quantidade maior de passageiros; os animais simplesmente não são capazes de erguer uma carga maior.</p>"
+  },
+  "flags": {
+    "mighty-blade": {
+      "slug": "tapete-voador",
+      "categoria": "Mundano"
+    }
+  },
+  "_id": "d9336ac497e99027",
+  "_key": "!items!d9336ac497e99027"
+}

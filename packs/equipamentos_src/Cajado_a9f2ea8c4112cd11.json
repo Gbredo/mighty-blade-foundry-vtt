@@ -21,7 +21,7 @@
     "peso": 2,
     "quantidade": 1,
     "custo": 50,
-    "description": "<p>Cajados são bordões sintonizados a um conjurador.</p>"
+    "description": "<p>Cajados são simplesmente bordões sintonizados a um conjurador através de sua runa pessoal.</p>"
   },
   "flags": {
     "mighty-blade": {
