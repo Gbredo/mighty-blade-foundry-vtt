@@ -886,8 +886,13 @@ const EQUIP_SLUG_PELO_ID = new Set([
   "lanca-matadora-de-dragoes-1", "machado-do-gelo-1", "extrato-da-res-a-eletricidade",
 ]);
 
+// Itens unificados cujo id e nome mudaram (Fase 2B, 16/11/2026): mapeiam para o slug anterior para manter o _id.
+const EQUIP_SLUG_ESTAVEL = {
+  "elixir-de-vida": "elixir-de-cura",
+};
+
 function buildEquipmentItem(eqp) {
-  const slug = EQUIP_SLUG_PELO_ID.has(eqp.id) ? eqp.id : slugify(eqp.nome || eqp.id);
+  const slug = EQUIP_SLUG_ESTAVEL[eqp.id] || (EQUIP_SLUG_PELO_ID.has(eqp.id) ? eqp.id : slugify(eqp.nome || eqp.id));
   const cat = eqp.categoria;
   const obs = eqp.observacoes ? "<p>" + eqp.observacoes + "</p>" : "";
 

@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1299 | Diários: 78
+ * Total de itens: 1298 | Diários: 78
  */
 
 export const CANONICAL_RACAS = [
@@ -52799,7 +52799,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!ad9a281a3ca51a88"
   },
   {
-    "name": "Elixir de Cura",
+    "name": "Elixir de Vida",
     "type": "equipamento",
     "img": "icons/consumables/potions/potion-flask-corked-red.webp",
     "system": {
@@ -52809,7 +52809,7 @@ export const CANONICAL_EQUIPAMENTOS = [
       "peso": 0.12,
       "quantidade": 1,
       "custo": 50,
-      "description": "<p>Essa poção opaca de cor avermelhada não tem gosto nem cheiro. Uma criatura viva que a beber recupera, imediatamente, 30 Pontos de Vida.</p>"
+      "description": "<p>Recupera 30 Pontos de Vida.</p>"
     },
     "flags": {
       "mighty-blade": {
@@ -54843,28 +54843,6 @@ export const CANONICAL_EQUIPAMENTOS = [
     },
     "_id": "fff17f18c7986c12",
     "_key": "!items!fff17f18c7986c12"
-  },
-  {
-    "name": "Instrumentos de Cartografia",
-    "type": "equipamento",
-    "img": "icons/svg/item-bag.svg",
-    "system": {
-      "canalizador": false,
-      "equipado": false,
-      "efeitos": [],
-      "peso": 0.053,
-      "quantidade": 1,
-      "custo": 25,
-      "description": "<p>Pena, frasco de tinta, régua e compasso.</p>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "instrumentos-de-cartografia",
-        "categoria": "Mundano"
-      }
-    },
-    "_id": "33435787f5c0b14d",
-    "_key": "!items!33435787f5c0b14d"
   },
   {
     "name": "Instrumentos de Cerâmica",
