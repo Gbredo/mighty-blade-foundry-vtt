@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "armadura-animal-completa",
-      "categoria": "Mundano"
+      "categoria": "Mundano",
+      "origem": "homebrew"
     }
   },
   "_id": "c6811fdcd4d3f715",

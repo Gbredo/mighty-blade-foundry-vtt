@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "corda-10m",
-      "categoria": "Mundano"
+      "categoria": "Mundano",
+      "origem": "homebrew"
     }
   },
   "_id": "9ad8fd5dd6ce7671",

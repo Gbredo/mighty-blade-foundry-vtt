@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "pocao-de-cura-maior",
-      "categoria": "Pocao"
+      "categoria": "Pocao",
+      "origem": "homebrew"
     }
   },
   "_id": "81566fb141ad69fa",

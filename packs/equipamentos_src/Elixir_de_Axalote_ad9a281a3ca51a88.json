@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "elixir-de-axalote",
-      "categoria": "Pocao"
+      "categoria": "Pocao",
+      "origem": "homebrew"
     }
   },
   "_id": "ad9a281a3ca51a88",

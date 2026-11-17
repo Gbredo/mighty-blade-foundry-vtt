@@ -24,6 +24,25 @@ export const BONUS_ATAQUE_FINTAR = "+1d6";
 export const CONFRONTO_INTERCEPTAR_ATRIBUTO = "agilidade";
 
 /**
+ * Verifica se as regras opcionais do Manual do Combatente estão ativas para o ator/opções.
+ * Por padrão nos testes unitários diretos de manobras, permite a execução a menos que desativado explicitamente.
+ */
+export function isManualDoCombatenteAtivo(actor, opcoes = {}) {
+  if (typeof opcoes?.usarManualDoCombatente === "boolean") return opcoes.usarManualDoCombatente;
+  if (typeof actor?.system?.details?.usarManualDoCombatente === "boolean") {
+    return actor.system.details.usarManualDoCombatente;
+  }
+  if (globalThis.game?.settings?.get) {
+    try {
+      return Boolean(globalThis.game.settings.get("mighty-blade", "usarManualDoCombatente"));
+    } catch {
+      return false;
+    }
+  }
+  return true;
+}
+
+/**
  * Normaliza strings para comparações seguras sem acentos e em minúsculas.
  * @param {string} str
  * @returns {string}
@@ -300,6 +319,29 @@ export function processarFintar(atacante, defensor, opcoesOuDano = {}) {
  * @returns {object} Resultado do confronto, bloqueio de passagem e consumo da ação de movimento
  */
 export function processarInterceptar(atacante, oponentePassando, opcoes = {}) {
+  if (!isManualDoCombatenteAtivo(atacante, opcoes)) {
+    return {
+      valido: false,
+      sucesso: false,
+      venceu: false,
+      tipo: "interceptar",
+      origemRegra: "manual-do-combatente",
+      tipoAcao: "reacao",
+      reacao: true,
+      exigeReacao: true,
+      confrontoAtributo: CONFRONTO_INTERCEPTAR_ATRIBUTO,
+      bloqueiaPassagem: false,
+      passagemBloqueada: false,
+      oponenteBloqueado: false,
+      consomeAcaoMovimentoProximoTurno: false,
+      acaoMovimentoProximoTurnoConsumida: false,
+      atacante,
+      oponentePassando,
+      motivo: "Interceptar é uma manobra opcional do Manual do Combatente (desativado nesta ficha/mesa).",
+      descricao: "Manobra opcional do Manual do Combatente (pág. 27) desativada.",
+    };
+  }
+
   // Verifica se o atacante pode realizar reações
   let podeReagir = true;
   if (atacante && typeof podeRealizarReacoes === "function") {
@@ -339,6 +381,7 @@ export function processarInterceptar(atacante, oponentePassando, opcoes = {}) {
     sucesso: venceu,
     venceu,
     tipo: "interceptar",
+    origemRegra: "manual-do-combatente",
     tipoAcao: "reacao",
     reacao: true,
     exigeReacao: true,

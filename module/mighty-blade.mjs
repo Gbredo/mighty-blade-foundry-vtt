@@ -50,6 +50,17 @@ Hooks.once("init", async function () {
   // Add custom constants for configuration.
   CONFIG.MIGHTY_BLADE = MIGHTY_BLADE;
 
+  if (game.settings?.register) {
+    game.settings.register("mighty-blade", "usarManualDoCombatente", {
+      name: "Usar Regras do Manual do Combatente (Opcional)",
+      hint: "Ativa as Condições Revisadas, Manobras Táticas opcionais (como Interceptar), Antecedentes do Manual do Combatente e o cálculo alternativo de Deslocamento (+4) e Iniciativa (menor entre Agilidade e Inteligência).",
+      scope: "world",
+      config: true,
+      type: Boolean,
+      default: false,
+    });
+  }
+
   // Iniciativa do Mighty Blade: 2d6 + menor entre Agilidade e Inteligência (@init).
   CONFIG.Combat.initiative = { formula: "2d6 + @init", decimals: 0 };
 

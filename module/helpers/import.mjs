@@ -3,6 +3,8 @@ import {
   CANONICAL_ALIASES_HABILIDADES,
   CANONICAL_HABILIDADES_RETIRADAS,
   CANONICAL_HABILIDADES,
+  CANONICAL_ALIASES_EQUIPAMENTOS,
+  CANONICAL_EQUIPAMENTOS,
 } from "../data/canonical-packs-data.mjs";
 
 /**
@@ -71,8 +73,18 @@ export async function importCharacter(rawData) {
   for (const it of rawItems) {
     if (it.type !== "habilidade" && it.type !== "magia") {
       const flags = { "mighty-blade": {} };
-      if (it.slug) flags["mighty-blade"].slug = it.slug;
-      items.push({ name: it.name ?? "Item", type: it.type, img: it.img, system: it.system ?? {}, flags });
+      let eqSlug = it.slug;
+      let eqName = it.name ?? "Item";
+      if (eqSlug && CANONICAL_ALIASES_EQUIPAMENTOS?.[eqSlug]) {
+        const novoSlug = CANONICAL_ALIASES_EQUIPAMENTOS[eqSlug];
+        const canonEq = (CANONICAL_EQUIPAMENTOS || []).find(
+          (e) => e.flags?.["mighty-blade"]?.slug === novoSlug
+        );
+        eqSlug = novoSlug;
+        if (canonEq?.name) eqName = canonEq.name;
+      }
+      if (eqSlug) flags["mighty-blade"].slug = eqSlug;
+      items.push({ name: eqName, type: it.type, img: it.img, system: it.system ?? {}, flags });
       continue;
     }
 

@@ -1,7 +1,7 @@
 /**
  * CANONICAL CONTENT PACK DATA
  * Gerado automaticamente a partir de @mighty-blade/rules-core.
- * Total de itens: 1298 | Diários: 78
+ * Total de itens: 1295 | Diários: 78
  */
 
 export const CANONICAL_RACAS = [
@@ -47086,7 +47086,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-longo",
-        "categoria": "Projetil"
+        "categoria": "Projetil",
+        "origem": "homebrew"
       }
     },
     "_id": "3fd7c15f3f71442f",
@@ -47260,7 +47261,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-cura-menor",
-        "categoria": "Pocao"
+        "categoria": "Pocao",
+        "origem": "homebrew"
       }
     },
     "_id": "4e991f7b133d26ff",
@@ -47282,7 +47284,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-cura-maior",
-        "categoria": "Pocao"
+        "categoria": "Pocao",
+        "origem": "homebrew"
       }
     },
     "_id": "81566fb141ad69fa",
@@ -47304,7 +47307,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-mana-menor",
-        "categoria": "Pocao"
+        "categoria": "Pocao",
+        "origem": "homebrew"
       }
     },
     "_id": "ad6672f5a391f13e",
@@ -47326,7 +47330,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "oleo-de-fogo-alquimico",
-        "categoria": "Pocao"
+        "categoria": "Pocao",
+        "origem": "homebrew"
       }
     },
     "_id": "a38d9b441137c3d2",
@@ -47348,7 +47353,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "corda-10m",
-        "categoria": "Mundano"
+        "categoria": "Mundano",
+        "origem": "homebrew"
       }
     },
     "_id": "9ad8fd5dd6ce7671",
@@ -50731,50 +50737,6 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!03c663dfc2bf1b6a"
   },
   {
-    "name": "Corda Grossa (15m)",
-    "type": "equipamento",
-    "img": "icons/svg/item-bag.svg",
-    "system": {
-      "canalizador": false,
-      "equipado": false,
-      "efeitos": [],
-      "peso": 3,
-      "quantidade": 1,
-      "custo": 6,
-      "description": "<p>Corda reforçada aguenta 500 kg.</p>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "corda-grossa-15m",
-        "categoria": "Mundano"
-      }
-    },
-    "_id": "cc2c1f03e6020d78",
-    "_key": "!items!cc2c1f03e6020d78"
-  },
-  {
-    "name": "Corda simples (15m)",
-    "type": "equipamento",
-    "img": "icons/svg/item-bag.svg",
-    "system": {
-      "canalizador": false,
-      "equipado": false,
-      "efeitos": [],
-      "peso": 2,
-      "quantidade": 1,
-      "custo": 3,
-      "description": "<p>Suporta 200 kg.</p>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "corda-simples-15m",
-        "categoria": "Mundano"
-      }
-    },
-    "_id": "58daddc10d828110",
-    "_key": "!items!58daddc10d828110"
-  },
-  {
     "name": "Kit de Arrombamento",
     "type": "equipamento",
     "img": "icons/svg/item-bag.svg",
@@ -50839,28 +50801,6 @@ export const CANONICAL_EQUIPAMENTOS = [
     },
     "_id": "c732a3d12a23ba30",
     "_key": "!items!c732a3d12a23ba30"
-  },
-  {
-    "name": "Mochila Pequena/embornal",
-    "type": "equipamento",
-    "img": "icons/svg/item-bag.svg",
-    "system": {
-      "canalizador": false,
-      "equipado": false,
-      "efeitos": [],
-      "peso": 1,
-      "quantidade": 1,
-      "custo": 20,
-      "description": "<p>Mochila básica para guardar o essencial. Comporta até 5Kg.</p>"
-    },
-    "flags": {
-      "mighty-blade": {
-        "slug": "mochila-pequena-embornal",
-        "categoria": "Mundano"
-      }
-    },
-    "_id": "3e30eb2e0a2def0e",
-    "_key": "!items!3e30eb2e0a2def0e"
   },
   {
     "name": "Mochila Grande",
@@ -52792,7 +52732,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-de-axalote",
-        "categoria": "Pocao"
+        "categoria": "Pocao",
+        "origem": "homebrew"
       }
     },
     "_id": "ad9a281a3ca51a88",
@@ -54068,7 +54009,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-batalha",
-        "categoria": "Mundano"
+        "categoria": "Mundano",
+        "origem": "homebrew"
       }
     },
     "_id": "95ee503d031d2fb9",
@@ -54090,7 +54032,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-completa",
-        "categoria": "Mundano"
+        "categoria": "Mundano",
+        "origem": "homebrew"
       }
     },
     "_id": "c6811fdcd4d3f715",
@@ -54112,7 +54055,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-couro",
-        "categoria": "Mundano"
+        "categoria": "Mundano",
+        "origem": "homebrew"
       }
     },
     "_id": "5404ca4fbb73cec4",
@@ -54134,7 +54078,8 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-simples",
-        "categoria": "Mundano"
+        "categoria": "Mundano",
+        "origem": "homebrew"
       }
     },
     "_id": "92bc2883c28b824d",
@@ -55131,7 +55076,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "_key": "!items!de659a65fd95c0d0"
   },
   {
-    "name": "Mochila Pequena/Embornal",
+    "name": "Mochila Pequena/embornal",
     "type": "equipamento",
     "img": "icons/svg/item-bag.svg",
     "system": {
@@ -59025,3 +58970,612 @@ export const CANONICAL_HABILIDADES_RETIRADAS = [
     "substitutaId": "vontade-de-ferro"
   }
 ];
+
+export const CANONICAL_ANTECEDENTES = [
+  {
+    "id": "academico",
+    "nome": "Acadêmico",
+    "titulo": "Acadêmico/Acadêmica",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 4",
+      "Vontade 3"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Preparar Magias.\n**Equipamento Extra:** Uma cópia do Grimório das Pequenas Magias.\n\nNem só de aprendizes de conjuradores vive o corpo discente da Academia Argêntea. Muitos que aspiram cargos intelectuais a serviço de nobres também engrossam as fileiras dos alunos da instituição – mas, como diz o lema não oficial da academia “Todos os nossos estudantes se formam sendo capazes de conjurar magias”. Você se esforçou e conseguiu se tornar um dos estudantes da Academia, ficando dois anos estudando com as mentes mais brilhantes de Cassiopeia. Agora, já formado, você está pronto para seguir uma das carreiras de especialização dentro da Academia – talvez se tornando um Argênteo – ou ir em busca de aventuras e ganhar o mundo.",
+    "beneficio": "Você recebe a Habilidade Preparar Magias.",
+    "equipamentoExtra": [
+      "Uma cópia do Grimório das Pequenas Magias."
+    ],
+    "fonte": "Grimório das Pequenas Magias, pág. 19",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "apotecario",
+    "nome": "Apotecário",
+    "titulo": "Apotecário/Apotecária",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 4"
+    ],
+    "habilidadesConcedidas": [
+      "herbalismo"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Herbalismo.\n**Equipamento Extra:** Duas Poções comuns à sua escolha.\n\nVocê aprendeu a usar plantas e minerais para produzir poções, antídotos – e venenos! Enquanto alguns Apotecários recebem instrução formal em laboratórios de grandes cidades, com o objetivo de se tornarem Alquimistas, um grande número aprende o ofício com outros Apotecários, curandeiros e Druidas, produzindo suas poções em pequenas comunidades e vilas. Entre estes, alguns acabam indo para grandes centros à procura de aperfeiçoar suas habilidades, as vezes para retornar mais bem preparados para suas comunidades, as vezes para se tornarem Alquimistas. Há, é claro, aqueles cujos conhecimentos são empregados no campo de batalha, seja como curandeiros de campo, seja como aventureiros.",
+    "beneficio": "Você recebe a Habilidade Herbalismo.",
+    "equipamentoExtra": [
+      "Duas Poções comuns à sua escolha."
+    ],
+    "fonte": "Guia do Herói, pág. 8",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "artesao",
+    "nome": "Artesão",
+    "titulo": "Artesão/Artesã",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Escolha 1 área de produção. Você recebe +1d6 sempre que fizer qualquer teste relacionado com aquela área de produção.\n**Equipamento Extra:** Equipamento de artesão adequado ao seu ofício.\n\nVocê aprendeu a realizar um determinado tipo de artesanato ao longo de sua vida. Talvez você venha de uma família de artesãos, ou talvez tenha uma fascinação por um tipo de trabalho e teve sorte de conseguir se tornar aprendiz de um mestre no ofício. Tendo trabalhado profissionalmente ou não nessa área de produção, você recebeu treinamento suficiente para ser capaz de desempenhá-la de forma eficiente.",
+    "beneficio": "Escolha 1 área de produção. Você recebe +1d6 sempre que fizer qualquer teste relacionado com aquela área de produção.",
+    "equipamentoExtra": [
+      "Equipamento de artesão adequado ao seu ofício."
+    ],
+    "fonte": "Guia do Herói, pág. 9",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "cacador",
+    "nome": "Caçador",
+    "titulo": "Caçador/Caçadora",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 3"
+    ],
+    "descricao": "**Benefício:** Você recebe um bônus de +2 em todos os seus testes para Caçar/Rastrear, Encontrar Abrigo/Forragear, Mover-se em Silêncio e Ocultar-se/Camuflar-se. Este bônus também se aplica à testes para perceber itens e criaturas escondidas ou camufladas ou tentando se mover em silêncio.\n**Equipamento Extra:** Nenhum.\n\nVocê dedicou uma boa parte da sua vida aprendendo a perceber e compreender os sinais de passagens de criaturas e a localização mais provável de esconderijos e de plantas úteis. Provavelmente você tenha tido contato com Patrulheiros ou outros Caçadores, ou talvez tenham sido longas horas como vigia e guarda que lhe deram um olho para perceber pequenos padrões ignorados pelos outros – o que você aprendeu a usar não só para perceber a presença de coisas escondidas, mas também para se esconder com eficiência!",
+    "beneficio": "Você recebe um bônus de +2 em todos os seus testes para Caçar/Rastrear, Encontrar Abrigo/Forragear, Mover-se em Silêncio e Ocultar-se/Camuflar-se. Este bônus também se aplica à testes para perceber itens e criaturas escondidas ou camufladas ou tentando se mover em silêncio.",
+    "equipamentoExtra": [
+      "Nenhum."
+    ],
+    "fonte": "Guia do Herói, pág. 9",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "cartografo",
+    "nome": "Cartógrafo",
+    "titulo": "Cartógrafo/Cartógrafa",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 4"
+    ],
+    "habilidadesConcedidas": [
+      "cartografia"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Cartografia.\n**Equipamento Extra:** Bússola, Kit de Cartografia (Pena, frasco de tinta, régua e compasso), 5 folhas de velino – algumas com mapas parciais que começou a desenhar.\n\nVocê é um cartógrafo habilidoso, tendo conhecimento prático e teórico na manufatura de topografias e desenho de mapas. Talvez você tenha trabalhado com grupos de exploradores ou navegadores, ou talvez tenha aprendido sozinho – por necessidade ou por vocação – a desenhar mapas. O que importa é que você sabe produzir mapas de modo acurado e seu trabalho é valorizado por grupos de exploração e expedicionários, tanto em terra quanto no mar.",
+    "beneficio": "Você recebe a Habilidade Cartografia.",
+    "equipamentoExtra": [
+      "Bússola, Kit de Cartografia (Pena, frasco de tinta, régua e compasso), 5 folhas de velino – algumas com mapas parciais que começou a desenhar."
+    ],
+    "fonte": "Guia de Tebryn, pág. 99",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "cozinheiro",
+    "nome": "Cozinheiro",
+    "titulo": "Cozinheiro",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Você pode preparar qualquer alimento se tiver o tempo e os materiais adequados. Você recebe +1d6 para esse teste. Uma comida obra-prima tem aparência, cheiro, textura e gosto extremamente ricos, e recupera 5 Pontos de Vida e 5 Pontos de Mana em qualquer um que a consumir – o que leva pelo menos 5 minutos para que ela possa ser completamente apreciada. Além disso, qualquer um que consuma uma comida obra-prima recupera o dobro dos PVs e PMs normais por descanso pela próxima hora.\n**Equipamento Extra:** Cutelo de alta qualidade.\n\nTrabalhando na corte, em estalagens e tavernas ou produzindo alimentos para venda particular e para consumo próprio, cozinheiros são uma das mais comuns das profissões – afinal, todos precisam comer! Apesar de qualquer personagem poder fazer testes de Percepção para produzir alimentos adequados, como carnes assadas e vegetais cozidos, os cozinheiros são especialistas em preparar receitas complexas, incluindo pães, doces e bebidas fermentadas.",
+    "beneficio": "Você pode preparar qualquer alimento se tiver o tempo e os materiais adequados. Você recebe +1d6 para esse teste. Uma comida obra-prima tem aparência, cheiro, textura e gosto extremamente ricos, e recupera 5 Pontos de Vida e 5 Pontos de Mana em qualquer um que a consumir – o que leva pelo menos 5 minutos para que ela possa ser completamente apreciada. Além disso, qualquer um que consuma uma comida obra-prima recupera o dobro dos PVs e PMs normais por descanso pela próxima hora.",
+    "equipamentoExtra": [
+      "Cutelo de alta qualidade."
+    ],
+    "fonte": "Homebrew (sem fonte nos livros)",
+    "origemRegra": "homebrew",
+    "efeitos": []
+  },
+  {
+    "id": "criminoso",
+    "nome": "Criminoso",
+    "titulo": "Criminoso",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 3"
+    ],
+    "habilidadesConcedidas": [
+      "contatos-no-crime"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Contatos no Crime.\n**Equipamento Extra:** Cinto oculto. Um conjunto de dados comuns. Um conjunto de dados viciados.\n\nVocê conhece as ruas e sabe com quem falar para vender ou comprar itens... diferenciados. Talvez você tenha crescido na rua, trabalhando para criminosos locais, talvez você tenha sido um criminoso – ou ainda seja! Quem sabe você simplesmente tenha feito alguns amigos em círculos menos prestigiados. O fato é que você sempre sabe onde encontrar as pessoas certas para conseguir informações e itens ilegais, assim como captadores para essas informações e itens.",
+    "beneficio": "Você recebe a Habilidade Contatos no Crime.",
+    "equipamentoExtra": [
+      "Cinto oculto.",
+      "Um conjunto de dados comuns.",
+      "Um conjunto de dados viciados."
+    ],
+    "fonte": "Guia do Vilão, pág. 11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "curandeiro",
+    "nome": "Curandeiro",
+    "titulo": "Curandeiro/Curandeira",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 4"
+    ],
+    "habilidadesConcedidas": [
+      "medico-de-campo"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Médico de Campo.\n**Equipamento Extra:** Um kit de Cura.\n\nVocê possui habilidades de cura consideráveis, tendo estudado sob a tutela de algum médico ou curandeiro. Talvez você tenha trabalhado como médico de campo de um exército, ordem de cavalaria ou grupo mercenário, ou talvez você tenha sido aprendiz de um curandeiro tribal, ou mesmo estudado medicina em alguma corte ou escola nas grandes metrópoles do reino. O fato é que, onde quer que tenha aprendido sobre como curar ferimentos em uma emergência, você é muito bom nisso!",
+    "beneficio": "Você recebe a Habilidade Médico de Campo.",
+    "equipamentoExtra": [
+      "Um kit de Cura."
+    ],
+    "fonte": "Guia de Tebryn, pág. 99",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "dervixe",
+    "nome": "Dervixe",
+    "titulo": "Dervixe/Odalisca",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 4"
+    ],
+    "habilidadesConcedidas": [
+      "danca-dos-sete-veus"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Dança dos Sete Véus.\n**Equipamento Extra:** Roupas de Festa de qualidade alta.\n\nDançarinos dedicados à adoração de Hou, as Odaliscas e os Dervixes originalmente eram exclusivamente dedicados à realização de danças e cantorias durante os cultos ao sol. Quando esta tradição foi trazida pelos Firas para Parband, a dança se popularizou entre as outras Raças do reino, e apresentações sem finalidades religiosas se tornaram cada vez mais comuns com o passar do tempo. Eventualmente, as danças e cantos das Odaliscas e Dervixes se tornaram comuns ao longo de toda Parband como forma de entretenimento, e embora hoje ainda haja muitos Sacerdotes e Sacerdotisas de Hou que utilizam danças durante suas cerimônias, dançarinos seculares são muito mais comuns no reino.",
+    "beneficio": "Você recebe a Habilidade Dança dos Sete Véus.",
+    "equipamentoExtra": [
+      "Roupas de Festa de qualidade alta."
+    ],
+    "fonte": "Canção do Bardo, pág. 10–11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "devoto",
+    "nome": "Devoto",
+    "titulo": "Devoto/Devota",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "habilidadesConcedidas": [
+      "dogma"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Dogma.\n**Equipamento Extra:** Símbolo sagrado da sua divindade.\n\nVocê é um seguidor fiel de uma Divindade, acreditando em seus dogmas como a forma ideal de agir e pensar. Talvez você tenha sido um Sacerdote que se afastou da igreja – mas não de suas crenças – ou talvez simplesmente um seguidor fervoroso dos ensinamentos, dogmas e preceitos de uma divindade. Seja como for, sua devoção é tal que a divindade lhe concede suas bênçãos de forma palpável.",
+    "beneficio": "Você recebe a Habilidade Dogma.",
+    "equipamentoExtra": [
+      "Símbolo sagrado da sua divindade."
+    ],
+    "fonte": "Guia do Herói, pág. 10",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "escudeiro",
+    "nome": "Escudeiro",
+    "titulo": "Escudeiro/Escudeira",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "descricao": "**Benefício:** Escudeiros recebem +1 em todos os seus testes relacionados à conhecimento de qualquer tipo e em todos os seus ataques corporais quando estiverem empunhando uma arma – esse bônus não se aplica a combate desarmado.\n**Equipamento Extra:** Uma Tabarda com o símbolo da Ordem ou brasão da família que você serve – ou serviu.\n\nVocê passou boa parte de sua infância e adolescência dentro dos muros do Forte da Espada de Mirah, em um dos quartéis da Hoste de Hadorn ou sob a tutela de um Cavaleiro. Talvez você seja filho de um nobre que deseja ter um filho defendendo o reino, talvez seus pais sejam mercadores em ascensão e desejem o prestígio de ter um filho em uma Ordem de Cavalaria, ou talvez você seja filho de camponeses de Tebrynia que desejavam um futuro diferente para seu descendente. Escudeiros servem como pajens, aprendem sobre teologia, sobre a história de Tebryn e dos reinos vizinhos, recebem instruções em áreas de filosofia e tática e também treinamento militar tanto em estratégia quanto em combate singular. Talvez você esteja buscando se tornar membro da Ordem na qual passou seus anos, ou talvez já tenha se tornado membro. Talvez você tenha concluído seu tempo de aprendizagem e decidido não continuar na Ordem, ou talvez tenha falhado em ser admitido. Apesar da maioria dos Escudeiros de Ordens de Cavalaria se tornar membro da Ordem, alguns se cansam do confinamento e disciplina e desejam a liberdade de errar pelo mundo, enquanto outros aceitam que, apesar de sua aprendizagem na Ordem, seu coração está em outra atividade.",
+    "beneficio": "Escudeiros recebem +1 em todos os seus testes relacionados à conhecimento de qualquer tipo e em todos os seus ataques corporais quando estiverem empunhando uma arma – esse bônus não se aplica a combate desarmado.",
+    "equipamentoExtra": [
+      "Uma Tabarda com o símbolo da Ordem ou brasão da família que você serve – ou serviu."
+    ],
+    "fonte": "Guia de Tebryn, pág. 99–100",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "ex-escravo",
+    "nome": "Ex-Escravo",
+    "titulo": "Ex-Escravo/Ex-Escrava",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Você está acostumado a realizar trabalho pesado e fazer isso da forma mais despercebida possível – chamar a atenção de um escravagista nunca é bom. Você recebe um bônus de +2 em todos os seus testes para se esconder, disfarçar e mover-se em silêncio, e também em testes para evitar ficar fatigado. Além disso, sua Carga é calculada como se sua Força fosse 2 pontos mais alta.\n**Equipamento Extra:** Uma ferramenta qualquer de qualidade baixa (veja a lista de equipamentos no final desse Guia).\n\nVocê passou boa parte de sua vida como um escravo. Talvez seus pais tenham sido escravos e você tenha nascido sem sua liberdade, talvez você tenha sido preso e condenado a trabalhar para pagar sua pena ou talvez você simplesmente tenha tido que trabalhar para outros em um regime de semiescravidão para pagar saldar uma dívida. Talvez você tenha sido capturado por tropas arkanitas e forçado a trabalhar como escravo. Em Cassiopéia, a maioria dos reinos considera escravidão ilegal, mas ela ocorre – principalmente em áreas isoladas. Em Arkânia escravidão é legalizada e muitos crimes sentenciam o réu à escravidão. Habitantes de outros reinos capturados em Arkânia também são, via de regra, escravizados. Finalmente, nas Terras Secas, tribos bárbaras mantêm escravos capturados de culturas civilizadas – principalmente tebrynianos e parbani. Ou você fugiu das Terras secas ou de Arkânia ou era escravo de algum criminoso ou Coronel em Tebryn, Bryne, Parband, Londérien ou Dagothar. De uma forma ou outra, você agora está livre, tendo comprado sua liberdade, fugido ou sido libertado por inimigos do seu senhor, e provavelmente pretende se manter um homem livre pelo resto dos seus dias – e talvez ajudar a libertar outros dos muitos escravos de Cassiopéia.",
+    "beneficio": "Você está acostumado a realizar trabalho pesado e fazer isso da forma mais despercebida possível – chamar a atenção de um escravagista nunca é bom. Você recebe um bônus de +2 em todos os seus testes para se esconder, disfarçar e mover-se em silêncio, e também em testes para evitar ficar fatigado. Além disso, sua Carga é calculada como se sua Força fosse 2 pontos mais alta.",
+    "equipamentoExtra": [
+      "Uma ferramenta qualquer de qualidade baixa (veja a lista de equipamentos no final desse Guia)."
+    ],
+    "fonte": "Guia de Tebryn, pág. 100",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "expoente",
+    "nome": "Expoente",
+    "titulo": "Expoente",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Você recebe uma Habilidade Racial extra, à sua escolha.\n**Equipamento Extra:** Nenhum.\n\nVocê é um exemplar notável da sua raça, seja no aspecto físico, psicológico ou cultural – e talvez até mesmo em todos eles! Você é particularmente ligado à cultura da sua raça em algum aspecto, ao menos, e provavelmente despendeu uma boa quantidade de tempo entre os membros do seu próprio povo e provavelmente tem pouco interesse na cultura de outras raças.",
+    "beneficio": "Você recebe uma Habilidade Racial extra, à sua escolha.",
+    "equipamentoExtra": [
+      "Nenhum."
+    ],
+    "fonte": "Guia do Herói, pág. 10",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "fazendeiro",
+    "nome": "Fazendeiro",
+    "titulo": "Fazendeiro/Fazendeira",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Fazendeiros recebem +2 em todos os seus testes relacionados a plantas (incluindo criaturas do tipo Vegetal) e Bestas.\n**Equipamento Extra:** Uma ferramenta qualquer de qualidade normal (veja a lista de equipamentos no final desse Guia).\n\nFazendeiros são uma das profissões mais comuns de Tebryn. Mais de um quarto da população se dedica a trabalhar no campo e produzir alimentos para o reino. Como vivem do campo, possuem bons conhecimentos sobre plantas e animais, tanto no seu manejo como em evitar plantas e criaturas perigosas – ou lidar com elas caso tudo mais falhe! Em muitas regiões as fazendas ficam afastadas dos centros urbanos, e é necessário desbravar novas áreas, lidando com plantas e animais desconhecidos, e a maioria dos fazendeiros de Tebryn tem alguma história para contar sobre plantas com propriedades estranhas ou ataques de animais perigosos. Além disso, a maioria dos fazendeiros tem algum conhecimento sobre ervas medicinais, e a maioria deles possuem animais de tração, guarda ou transporte que devem ser adestrados e cuidados adequadamente.",
+    "beneficio": "Fazendeiros recebem +2 em todos os seus testes relacionados a plantas (incluindo criaturas do tipo Vegetal) e Bestas.",
+    "equipamentoExtra": [
+      "Uma ferramenta qualquer de qualidade normal (veja a lista de equipamentos no final desse Guia)."
+    ],
+    "fonte": "Guia de Tebryn, pág. 100",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "fidalgo",
+    "nome": "Fidalgo",
+    "titulo": "Fidalgo/Fidalga",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 3"
+    ],
+    "descricao": "**Benefício:** Fidalgos recebem +2 em todos os seus testes relacionados à pesquisa, conhecimento e em todos os seus testes sociais.\n**Equipamento Extra:** 100 moedas.\n\nFidalgos são aqueles cidadãos de Tebryn que receberam uma educação superior devido a títulos de nobreza ou posição social e financeira. Nobres, comerciantes, Regentes, Burgomestres, Juízes e Conselheiros precisam ser versados em uma variedade de campos teóricos para lidarem com suas atribuições. Fidalgos são treinados desde cedo em administração, estratégia, etiqueta e conhecimentos gerais para serem capazes de lidar com suas funções futuras. A maioria deles não possui títulos de nobreza de fato, sendo geralmente filhos de comerciantes prósperos ou de indivíduos com títulos de nobreza ou justiça que não serão passados para seus filhos, mas mesmo assim são considerados como “nobres menores” – particularmente porque muitos deles de fato acabam adquirindo títulos de nobreza eventualmente, seja por hereditariedade ou mérito pessoal.",
+    "beneficio": "Fidalgos recebem +2 em todos os seus testes relacionados à pesquisa, conhecimento e em todos os seus testes sociais.",
+    "equipamentoExtra": [
+      "100 moedas."
+    ],
+    "fonte": "Guia de Tebryn, pág. 100–101",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "fylgja",
+    "nome": "Fylgja",
+    "titulo": "Fylgja",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "habilidadesConcedidas": [
+      "espirito-animal"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Espírito Animal.\n**Equipamento Extra:** Nenhum.\n\nEntre os Aesires, cuja cultura é amplamente baseada na crença de animais guias, Fylgja significa, literalmente, “acompanhante” e é usado para designar tanto o Espírito Animal de uma pessoa como uma pessoa que possui uma forte ligação com seu Espírito Animal. Apesar de poucas culturas além dos Aesires terem uma ligação tão profunda com Espíritos Animais, a expressão é amplamente usada para designar aquelas pessoas cuja ligação com o seu Espírito Animal é mais do que simplesmente filosófica.",
+    "beneficio": "Você recebe a Habilidade Espírito Animal.",
+    "equipamentoExtra": [
+      "Nenhum."
+    ],
+    "fonte": "Guia do Herói, pág. 10",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "grumete",
+    "nome": "Grumete",
+    "titulo": "Grumete",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Grumetes recebem +2 em todos os seus testes relacionados à navegação, escalada, natação e equilíbrio.\n**Equipamento Extra:** Uma adaga.\n\nGrumetes são aprendizes de marinheiros que realizam os trabalhos mais simples a bordo de uma embarcação – como limpar o convés, distribuir comida à tripulação, levar mensagens e verificar o clima. Enquanto realizam essas tarefas, eles são ensinados pela tripulação sobre como cozinhar e estocar alimentos, os funcionamentos dos cordames, o modo correto de hastear velas e lidar com vários tipos de clima, como pilotar uma embarcação e todos os rudimentos do funcionamento de barcos e navios em geral. A maioria dos grumetes acaba por se tornar marinheiro, tanto em navios mercantes, pesqueiros ou em navios de guerra, mas alguns acabam por se tornar estivadores ou trabalhar em funções diversas em cidades portuárias. Não raro, no entanto, grumetes decidem abraçar a vida de aventureiro, tanto no mar quanto em terra, perseguindo riquezas e locais sobre os quais ouviram histórias nos seus anos servindo no mar.",
+    "beneficio": "Grumetes recebem +2 em todos os seus testes relacionados à navegação, escalada, natação e equilíbrio.",
+    "equipamentoExtra": [
+      "Uma adaga."
+    ],
+    "fonte": "Guia de Tebryn, pág. 101",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "informante",
+    "nome": "Informante",
+    "titulo": "Informante",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "habilidadesConcedidas": [
+      "contatos-politicos"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Contatos Políticos.\n**Equipamento Extra:** Embornal com 3 itens quaisquer com custo de 10 moedas ou menos cada.\n\nVocê está no negócio de informações. Você mantém as autoridades informadas sobre movimentações criminosas e fornece aos criminosos um mínimo de informações sobre os planos das autoridades para que eles não fiquem desconfiados. Talvez você tenha sido um membro da guarda ou de uma gangue local, talvez você esteja no meio criminoso contra a vontade e está tentando fazer a coisa certa – ou só esteja tentando tirar o maior proveito das cartas que a vida lhe deu. Seja como for, graças à sua atuação negociando informações você goza de certa consideração especial das autoridades. É fácil pra você conversar com guardas em qualquer lugar, e se souber encontrar as pessoas certas, pode conseguir alguns favores aqui e ali.",
+    "beneficio": "Você recebe a Habilidade Contatos Políticos.",
+    "equipamentoExtra": [
+      "Embornal com 3 itens quaisquer com custo de 10 moedas ou menos cada."
+    ],
+    "fonte": "Guia do Vilão, pág. 11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "kapa-haka",
+    "nome": "Kapa Haka",
+    "titulo": "Kapa Haka",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "habilidadesConcedidas": [
+      "haka"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Haka.\n**Equipamento Extra:** Uma arma a sua escolha que custe até 150 moedas.\n\nVocê aprendeu a realizar as danças tradicionais de intimidação dos Astérios, sendo você mesmo membro da Raça – natural ou adotivo – um estudioso da sua cultura, ou um dançarino buscando aprender formas tradicionais de dança de outras culturas. Entre os Astérios, é comum que os jovens sejam ensinados pelos guerreiros da Raça desde cedo, com os movimentos e ideias básicas sendo ensinadas igualmente para machos e fêmeas. À medida que crescem, os machos seguem recebendo mais ensinamentos para aprender o Kapa Haka em combate, desenvolvendo um senso de coordenação com os outros guerreiros e melhorando sua confiança e sua coragem à medida que seguem praticando. Enquanto isso, as fêmeas passam a receber treinamentos em outras formas de dança, com a base do Kapa Haka sendo aproveitada para expressões de fúria, raiva e dor em um estilo de dança focado em contar histórias.",
+    "beneficio": "Você recebe a Habilidade Haka.",
+    "equipamentoExtra": [
+      "Uma arma a sua escolha que custe até 150 moedas."
+    ],
+    "fonte": "Canção do Bardo, pág. 10",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "mascate",
+    "nome": "Mascate",
+    "titulo": "Mascate",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Sua capacidade de carga é calculada como se tivesse Força +2, e você recebe +2 em suas rolagens para resistir à efeitos de fadiga, venenos e doenças naturais. Finalmente, você recebe +2 em seus testes para reconhecer a qualidade de um item de qualquer tipo.\n**Equipamento Extra:** Mochila grande. 50 moedas em itens diversos com custo igual à 10 moedas ou menos cada um.\n\nVocê passou uma boa parte de sua vida carregando itens e vendendo-os em localidades distantes. Talvez você venha de uma família de vendedores ambulantes. Talvez você (ou sua família) tenha sido banido das guildas de mercadores por algum motivo ou você simplesmente não concorda com as práticas das guildas e prefere trabalhar sozinho. Seja como for, você trabalha (ou trabalhou) sozinho carregando grandes quantidades de itens por longas distâncias e está acostumado com o esforço envolvido – além de ter desenvolvido um olho treinado para reconhecer bons negócios.",
+    "beneficio": "Sua capacidade de carga é calculada como se tivesse Força +2, e você recebe +2 em suas rolagens para resistir à efeitos de fadiga, venenos e doenças naturais. Finalmente, você recebe +2 em seus testes para reconhecer a qualidade de um item de qualquer tipo.",
+    "equipamentoExtra": [
+      "Mochila grande.",
+      "50 moedas em itens diversos com custo igual à 10 moedas ou menos cada um."
+    ],
+    "fonte": "Guia de Tebryn, pág. 101",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "medium",
+    "nome": "Médium",
+    "titulo": "Médium",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "habilidadesConcedidas": [
+      "contato-com-espiritos"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Contato com Espíritos.\n**Equipamento Extra:** Um Orbe de Cristal.\n\nVocê é capaz de ver, ouvir e até mesmo interagir com espíritos desencarnados. Essa característica pode ser um dom natural, talvez herdado de seus pais através de uma linhagem de médiuns tradicionais ou talvez você tenha treinado para desenvolver essa capacidade – seja por um desejo pessoal de se contactar com os espíritos ou como parte de um treinamento de um grupo do qual pertenceu. Talvez você tenha tido contato com a cultura dos Levent ou com grupos de Xamãs ou Necromantes. O fato é que você consegue sentir a presença de espíritos e, com alguma concentração, interagir com eles.",
+    "beneficio": "Você recebe a Habilidade Contato com Espíritos.",
+    "equipamentoExtra": [
+      "Um Orbe de Cristal."
+    ],
+    "fonte": "Guia do Vilão, pág. 12",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "minerador",
+    "nome": "Minerador",
+    "titulo": "Minerador/Mineradora",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Força 4"
+    ],
+    "descricao": "**Benefício:** Você recebe um bônus de +1d6 em suas rolagens para encontrar veios de materiais em uma área e nos seus testes para calcular quanto de material você consegue extrair, independente do método escolhido.\n**Equipamento Extra:** Uma mochila, uma picareta e uma peneira.\n\nVocê tem experiência em encontrar, extrair e processar materiais de origem mineral. Você passou muito tempo explorando veios de minérios, aprendendo sobre os locais comuns onde eles aparecem e como identificá-los com eficiência. Não apenas isso, você também sabe como extrair minérios de um veio de forma eficiente.",
+    "beneficio": "Você recebe um bônus de +1d6 em suas rolagens para encontrar veios de materiais em uma área e nos seus testes para calcular quanto de material você consegue extrair, independente do método escolhido.",
+    "equipamentoExtra": [
+      "Uma mochila, uma picareta e uma peneira."
+    ],
+    "fonte": "Guia do Herói, pág. 10",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "nobre",
+    "nome": "Nobre",
+    "titulo": "Nobre",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Você possui status e muitos contatos e é reconhecido na região onde suas terras ficam e provavelmente pelas famílias nobres das regiões vizinhas à sua. Você pode conseguir uma audiência com qualquer figura importante do reino (incluindo o rei/imperador). Além disso, você possui terras que incluem uma casa grande (e provavelmente luxuosa, mas não fortificada) e recebe dos moradores 50 moedas por mês de impostos. Você pode mudar os impostos, mas isso provavelmente irá acarretar problemas para você (outros nobres irão usar seu abuso para convencer o rei a emancipar suas terras e os próprios aldeões podem decidir abandonar suas terras).\n**Equipamento Extra:** 200 moedas.\n\nVocê nasceu em uma família pertencente à nobreza do seu reino. Sua família (ou você, se for o único herdeiro da sua linhagem) possui terras onde vivem aldeões que trabalham para sua família e todos na região sabem quem você é.",
+    "beneficio": "Você possui status e muitos contatos e é reconhecido na região onde suas terras ficam e provavelmente pelas famílias nobres das regiões vizinhas à sua. Você pode conseguir uma audiência com qualquer figura importante do reino (incluindo o rei/imperador). Além disso, você possui terras que incluem uma casa grande (e provavelmente luxuosa, mas não fortificada) e recebe dos moradores 50 moedas por mês de impostos. Você pode mudar os impostos, mas isso provavelmente irá acarretar problemas para você (outros nobres irão usar seu abuso para convencer o rei a emancipar suas terras e os próprios aldeões podem decidir abandonar suas terras).",
+    "equipamentoExtra": [
+      "200 moedas."
+    ],
+    "fonte": "Guia do Herói, pág. 10–11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "pifaro",
+    "nome": "Pífaro",
+    "titulo": "Pífaro",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "descricao": "**Benefício:** Você sabe tocar uma Música Básica – Ritmo de Marcha sendo a escolha mais comum.\n**Equipamento Extra:** Um instrumento de sopro à sua escolha, de qualidade alta.\n\nPífaros são músicos especializados em tocar instrumentos em batalha, tanto no intuito de melhorar o moral da tropa mas, principalmente, coordenar movimentações através de avisos sonoros. Eles também utilizam músicas durante a movimentação de tropas para marcar a velocidade de marcha e, em navios, podem ser empregados para estabelecer o ritmo dos remadores – embora navios a remo não sejam muito comuns em Cassiopéia atualmente, particularmente em tempos de guerras. Pífaros recebem seu nome de um dos instrumentos mais comuns em combate, uma pequena flauta extremamente aguda que pode ser escutada mesmo durante uma batalha. No entanto, além dos pífaros propriamente ditos, muitos destes músicos utilizam tambores (particularmente em movimentações de tropas), berrantes e chifres. Instrumentos de sopro geralmente são favorecidos por serem (em geral) mais simples de fabricar, manter e carregar – e por serem mais sólidos e resistentes do que outros instrumentos, dada sua simplicidade. De fato, como costumam estar em ambientes de combate, a maioria dos Pífaros utiliza instrumentos feitos de metal – geralmente aço.",
+    "beneficio": "Você sabe tocar uma Música Básica – Ritmo de Marcha sendo a escolha mais comum.",
+    "equipamentoExtra": [
+      "Um instrumento de sopro à sua escolha, de qualidade alta."
+    ],
+    "fonte": "Canção do Bardo, pág. 11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "poliglota",
+    "nome": "Poliglota",
+    "titulo": "Poliglota",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 4"
+    ],
+    "descricao": "**Benefício:** Você é capaz de ler, escrever e falar todos os Idiomas Comuns - mas não os Idiomas Exóticos.\n**Equipamento Extra:** Uma quantidade de dicionários de diferentes idiomas igual a sua Inteligência.\n\nVocê dedicou uma grande parte de seu tempo estudando as diversas linguagens faladas e escritas em Cassiopéia e até mesmo algumas faladas em outros continentes. Seus estudos em uma quantidade tão grande de idiomas diferentes, no entanto, fizeram com que você não fosse capaz de apreender as minúcias de cada um desses idiomas, e você possui um sotaque carregado que será percebido como não sendo um falante nativo de nenhum idioma - isso não se aplica ao seu idioma automático, mas se aplica a todos os outros Idiomas Iniciais e quaisquer Idiomas Extras que você adquirir.",
+    "beneficio": "Você é capaz de ler, escrever e falar todos os Idiomas Comuns - mas não os Idiomas Exóticos.",
+    "equipamentoExtra": [
+      "Uma quantidade de dicionários de diferentes idiomas igual a sua Inteligência."
+    ],
+    "fonte": "O Tomo das Muitas Línguas, pág. 40",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "prodigio",
+    "nome": "Prodígio",
+    "titulo": "Prodígio",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "descricao": "**Benefício:** Você começa o jogo com o benefício Aprendiz de [Classe].\n**Equipamento Extra:** Um item qualquer que seja comum à Classe da qual você é segue, com custo de até 100 moedas.\n\nApesar de ter recebido treinamento – ou ter aprendido por si mesmo – os rudimentos de uma determinada Classe, você se manteve muito perto dos ensinamentos, táticas, conhecimentos e práticas de uma outra Classe. Dessa forma, você é considerado como um membro de ambas as Classes desde o início de sua carreira como Aventureiro.",
+    "beneficio": "Você começa o jogo com o benefício Aprendiz de [Classe].",
+    "equipamentoExtra": [
+      "Um item qualquer que seja comum à Classe da qual você é segue, com custo de até 100 moedas."
+    ],
+    "fonte": "Guia do Herói, pág. 11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "suburbano",
+    "nome": "Suburbano",
+    "titulo": "Suburbano/Suburbana",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 4"
+    ],
+    "habilidadesConcedidas": [
+      "raca-subterranea"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Raça Subterrânea.\n**Equipamento Extra:** Um embornal contendo: Meia dúzia de barras de giz. Odre cheio de água. 10 provisões.\n\nVocê é um habitante do Submundo de Tebrynia – a área subterrânea sob a capital de Tebryn – ou de outras áreas subterrâneas populosas, como as galerias montanhosas de Stord ou os túneis ancestrais dos Mahoks ao longo das Montanhas dos Cristais. Seja de onde for que você tenha vindo, você passou muito tempo nesse local, e provavelmente nasceu lá. Seja um marginal de Tebrynia, um trabalhador de Stord ou um explorador das rotas das Montanhas dos Cristais, você viveu a maior parte da sua vida na escuridão subterrânea, e se adaptou perfeitamente à ela.",
+    "beneficio": "Você recebe a Habilidade Raça Subterrânea.",
+    "equipamentoExtra": [
+      "Um embornal contendo:",
+      "Meia dúzia de barras de giz.",
+      "Odre cheio de água.",
+      "10 provisões."
+    ],
+    "fonte": "Guia de Tebryn, pág. 101",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "sussurrador",
+    "nome": "Sussurrador",
+    "titulo": "Sussurrador/Sussurradora",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "habilidadesConcedidas": [
+      "bencao-de-ellenis"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Benção de Ellenis.\n**Equipamento Extra:** Nenhum.\n\nEnquanto para alguns você nasceu abençoado pela divindade da natureza, outros sugerem que está é uma característica decorrente de uma natureza benevolente – ou particularmente selvagem, talvez – o fato é que você pode, de alguma forma, influenciar os animais. Talvez você use isso para se comunicar pacificamente com as feras ou talvez você domine os animais com uma presença imponente. Dissuadidas, coagidas ou apaziguadas à tanto, as bestas aceitam sua presença entre elas, talvez como um igual, talvez como um superior.",
+    "beneficio": "Você recebe a Habilidade Benção de Ellenis.",
+    "equipamentoExtra": [
+      "Nenhum."
+    ],
+    "fonte": "Guia do Herói, pág. 11",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "tarimbeiro",
+    "nome": "Tarimbeiro",
+    "titulo": "Tarimbeiro/Tarimbeira",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Inteligência 3",
+      "Vontade 3"
+    ],
+    "habilidadesConcedidas": [
+      "taticas-de-batalha"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Táticas de Batalha.\n**Equipamento Extra:** Uma armadura com a Propriedade Leve ou Média (à sua escolha) com o brasão da instituição pela qual foi treinado.\n\nVocê recebeu treinamento como soldado em um quartel militar ou em algum forte de uma Ordem de Paladinos ou grupo mercenário. Talvez você venha de uma família com tradição militar, talvez seja o filho mais novo de algum nobre ou você se concentrou principalmente em acumular experiência junto às tropas, preocupado com a manutenção do espírito de corpo, do treinamento em grupo e da manutenção do moral das tropas. Seu treinamento também o fez focar na disciplina e obediência aos seus superiores. Sua constante interação com as tropas permitiu que você tivesse um amplo conhecimento de diferentes nuances culturais, o que faz com que sua integração com seus companheiros de batalha seja bastante rápida e eficiente. Combinando isso com seu treinamento em táticas e disciplina em combate permite que você seja eficiente, dando conselhos práticos para melhorar a eficiência de seus companheiros, fazendo com que sua coordenação em combate seja bastante eficaz.",
+    "beneficio": "Você recebe a Habilidade Táticas de Batalha.",
+    "equipamentoExtra": [
+      "Uma armadura com a Propriedade Leve ou Média (à sua escolha) com o brasão da instituição pela qual foi treinado."
+    ],
+    "fonte": "Manual do Combatente, pág. 30",
+    "origemRegra": "manual-do-combatente",
+    "efeitos": []
+  },
+  {
+    "id": "valentao",
+    "nome": "Valentão",
+    "titulo": "Valentão/Valentona",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Força 4"
+    ],
+    "habilidadesConcedidas": [
+      "brigao"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Brigão (pág. 62).\n**Equipamento Extra:** Um par de Soqueiras.\n\nVocê está acostumado a lutar usando os punhos. Talvez você tenha vindo de uma área particularmente violenta, talvez venha de uma família de pugilistas ou talvez tenha entrado em contato com o pugilismo de alguma forma inusitada – foi salvo de uma surra por um pugilista experiente, teve um romance com um pugilista, etc. Talvez você tenha encontrado na luta uma forma de extravasar sua tensão ou como uma forma de usar seus dons naturais de forma a se defender, oprimir ou meramente se ajustar ao ambiente em que cresceu. Seja como for, você aprendeu a usar os punhos como armas, e faz isso muito bem. Talvez você esteja à procura de um mestre para lhe ensinar disciplina, ou talvez um oponente que o apresente um desafio definitivo. Ou talvez seus dias de luta tenham ficado para trás, e apenas suas capacidades de luta ainda permaneçam com você, como uma ferramenta que você usa no caminho que escolheu. Ainda, pode ser que suas capacidades de luta sejam o que tenha guiado você até onde está, ou o que pauta as suas decisões.",
+    "beneficio": "Você recebe a Habilidade Brigão (pág. 62).",
+    "equipamentoExtra": [
+      "Um par de Soqueiras."
+    ],
+    "fonte": "Manual do Combatente, pág. 30",
+    "origemRegra": "manual-do-combatente",
+    "efeitos": []
+  },
+  {
+    "id": "vigilante",
+    "nome": "Vigilante",
+    "titulo": "Vigilante",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 4"
+    ],
+    "descricao": "**Benefício:** Você possui duas identidades totalmente independentes e impossíveis de serem interligadas a menos que o assunto seja investigado intensamente – ou que você tenha sido particularmente descuidado. Você recebe um bônus de +2 em se esconder, camuflar e se disfarçar, escalar e se equilibrar. Este bônus também se aplica à sua Determinação e à dificuldade de investigar qualquer uma de suas identidades, por qualquer motivo.\n**Equipamento Extra:** Manto. 15 metros de corda simples. Garatéia furtiva.\n\nLutar contra o crime e a injustiça pode ser uma atividade bastante perigosa não apenas para a saúde e propriedades de um indivíduo mas também para aqueles ao redor dele. Devido a isso, muitos membros respeitáveis da sociedade não agem abertamente contra o mal – particularmente contra forças criminosas poderosas e bem estabelecidas. Alguns desses indivíduos se tornam Vigilantes, dedicados a combater o crime com suas próprias mãos, utilizando-se de uma identidade alternativa enquanto mantém uma fachada social respeitável. Você é um desses indivíduos, navegando pelas rotas tradicionais da sociedade durante o dia e levando a luta diretamente contra seus inimigos nas noites escuras.",
+    "beneficio": "Você possui duas identidades totalmente independentes e impossíveis de serem interligadas a menos que o assunto seja investigado intensamente – ou que você tenha sido particularmente descuidado. Você recebe um bônus de +2 em se esconder, camuflar e se disfarçar, escalar e se equilibrar. Este bônus também se aplica à sua Determinação e à dificuldade de investigar qualquer uma de suas identidades, por qualquer motivo.",
+    "equipamentoExtra": [
+      "Manto.",
+      "15 metros de corda simples.",
+      "Garatéia furtiva."
+    ],
+    "fonte": "Guia do Vilão, pág. 12",
+    "origemRegra": "oficial",
+    "efeitos": []
+  },
+  {
+    "id": "zelote",
+    "nome": "Zelote",
+    "titulo": "Zelote",
+    "tipo": "Suporte",
+    "categoria": "Caracteristica",
+    "requisitos": [
+      "Vontade 3"
+    ],
+    "habilidadesConcedidas": [
+      "sintonia-draconica"
+    ],
+    "descricao": "**Benefício:** Você recebe a Habilidade Sintonia Dracônica.\n**Equipamento Extra:** Um pingente feito de uma escama de dragão.\n\nVocê se dedicou e zelou pela crença da Aurora dos Dragões com fervor, acreditando em seus dogmas como a forma ideal de agir e pensar. Talvez você seja um membro da Armada da Aurora, talvez você sirva – ou tenha servido – um dragão pessoalmente e percebido sua majestade, ou talvez você seja simplesmente um seguidor fervoroso dos ensinamentos e preceitos da Aurora dos Dragões. Seja como for, seu zelo para com os dogmas dos dragões somado à presença dessas criaturas no seu cotidiano o infundiram com as energias elementais típicas de criaturas dracônicas – e seus devotos seguidores.",
+    "beneficio": "Você recebe a Habilidade Sintonia Dracônica.",
+    "equipamentoExtra": [
+      "Um pingente feito de uma escama de dragão."
+    ],
+    "fonte": "Guia do Vilão, pág. 12",
+    "origemRegra": "oficial",
+    "efeitos": []
+  }
+];
+
+export const CANONICAL_ALIASES_EQUIPAMENTOS = {
+  "instrumentos-de-cartografia": "kit-de-cartografia",
+  "elixir-de-cura": "elixir-de-vida",
+  "corda-grossa": "corda-grossa-15m",
+  "corda-simples": "corda-simples-15m",
+  "mochila-pequena": "mochila-pequena-embornal"
+};

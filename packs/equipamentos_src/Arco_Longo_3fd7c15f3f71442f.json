@@ -22,7 +22,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "arco-longo",
-      "categoria": "Projetil"
+      "categoria": "Projetil",
+      "origem": "homebrew"
     }
   },
   "_id": "3fd7c15f3f71442f",

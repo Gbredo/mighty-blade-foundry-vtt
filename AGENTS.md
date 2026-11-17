@@ -50,7 +50,7 @@ Fórmulas vigentes — NÃO altere sem consultar o GB 2023 ou o Cofre Obsidian:
 |---|---|---|
 | Determinação | `8 + max(VON, INT) + bônus` | GB p.36 |
 | Deslocamento | `⌊AGI/2⌋ + 5` | GB p.19 |
-| Corrida | `Deslocamento × 3` | GB p.19 |
+| Corrida | `Deslocamento × 4 (× 3 com armadura Pesada; × 2 com Rígida)` | GB p.19 |
 | PM | `Classe base + bônus de itens/pactos (sem dupla contagem)` | GB p.30 |
 
 Habilidades removidas do GB 2023 (presentes no GB 2017, ausentes agora):

@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "pocao-de-mana-menor",
-      "categoria": "Pocao"
+      "categoria": "Pocao",
+      "origem": "homebrew"
     }
   },
   "_id": "ad6672f5a391f13e",

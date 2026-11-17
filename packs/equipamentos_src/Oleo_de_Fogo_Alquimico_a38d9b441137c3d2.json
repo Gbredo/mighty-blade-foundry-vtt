@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "oleo-de-fogo-alquimico",
-      "categoria": "Pocao"
+      "categoria": "Pocao",
+      "origem": "homebrew"
     }
   },
   "_id": "a38d9b441137c3d2",

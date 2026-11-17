@@ -14,7 +14,8 @@
   "flags": {
     "mighty-blade": {
       "slug": "pocao-de-cura-menor",
-      "categoria": "Pocao"
+      "categoria": "Pocao",
+      "origem": "homebrew"
     }
   },
   "_id": "4e991f7b133d26ff",
