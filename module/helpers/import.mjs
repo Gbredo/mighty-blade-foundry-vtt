@@ -1,5 +1,6 @@
 import { MightyBladeActor } from "../documents/actor.mjs";
-import { montarDadosDoActor, exportarParaCanonico, resolverIdHabilidadeAntigaFoundry } from "./ida-e-volta.mjs";
+import MightyBladeCharacterData from "../data/actor-character.mjs";
+import { montarDadosDoActor, exportarParaCanonico, resolverIdHabilidadeAntigaFoundry, bonusRecursosPeloDataModel } from "./ida-e-volta.mjs";
 
 // Mantido para quem já importava daqui (testes, macros).
 export { resolverIdHabilidadeAntigaFoundry, montarDadosDoActor, exportarParaCanonico };
@@ -18,7 +19,9 @@ export async function importCharacter(rawData) {
     return null;
   }
 
-  const { actorData, avisos } = montarDadosDoActor(rawData);
+  const { actorData, avisos } = montarDadosDoActor(rawData, {
+    bonusRecursos: bonusRecursosPeloDataModel(MightyBladeCharacterData.prototype),
+  });
 
   // Se houver avisos de migração, emite aviso único consolidado
   if (avisos.length > 0) ui.notifications.warn(`Ficha atualizada: ${avisos.join("; ")}`);

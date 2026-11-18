@@ -196,7 +196,8 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       } else if (nome === "forma da raposa" || slug === "forma-da-raposa" || nome.includes("forma da raposa")) {
         acc.defesaBase = Math.max(acc.defesaBase, 7);
       } else if (nome === "patas com cascos" || nome === "pernas vulpinas" || nome === "salteador" || nome === "passo das planicies" || nome === "passo veloz") {
-        acc.deslocamento += 1;
+        // Só quando o item não traz o efeito bonusDeslocamento (senão contava em dobro: Fase 4, paridade)
+        if (!this._normalizeEfeitos(item).some((e) => e.tipo === "bonusDeslocamento")) acc.deslocamento += 1;
       } else if (nome === "coracao da montanha") {
         acc.cargaForca += 2;
       }
@@ -339,6 +340,23 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     };
   }
 
+  /**
+   * Opção do Manual do Combatente: a da ficha (vinda do site) vence; depois a da mesa do site; sem elas, a configuração do mundo.
+   * Com a opção: Deslocamento ⌊AGI/2⌋ + 4 (MC pág. 8) e Iniciativa = menor(AGI, INT) (MC pág. 15).
+   */
+  _usarManualDoCombatente() {
+    const site = this.parent?.flags?.["mighty-blade"]?.site;
+    const daFicha = site?.system?.details?.usarManualDoCombatente;
+    if (typeof daFicha === "boolean") return daFicha;
+    // herdada da mesa do site (Fase 4, Lote 4.6): o arquivo exportado pelo site leva a marca
+    if (site?.flags?.mesaUsarManualDoCombatente === true) return true;
+    try {
+      return game?.settings?.get?.("mighty-blade", "usarManualDoCombatente") === true;
+    } catch {
+      return false;
+    }
+  }
+
   // Iniciativa, Deslocamento, Corrida e Carga
   _prepareSubattributes() {
     const forca        = this.attributes.forca.value;
@@ -346,10 +364,12 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const inteligencia = this.attributes.inteligencia.value;
 
     const bonusDesl = this._efeitos?.deslocamento ?? 0;
-    const deslocamento = Math.floor(agilidade / 2) + 5 + bonusDesl; // GB p.19: ⌊AGI/2⌋ + 5
+    const usarMC = this._usarManualDoCombatente();
+    const baseDesl = usarMC ? 4 : 5; // GB p.19: ⌊AGI/2⌋ + 5; Manual do Combatente p.8: + 4
+    const deslocamento = Math.floor(agilidade / 2) + baseDesl + bonusDesl;
 
     const efTextDesl = bonusDesl > 0 ? ` + <span title="Bônus/Efeitos" style="text-decoration: underline dotted; cursor: help;">${bonusDesl}</span>` : "";
-    const formulaDeslocamento = `5 + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agilidade / 2)}</span>${efTextDesl}`;
+    const formulaDeslocamento = `${baseDesl} + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agilidade / 2)}</span>${efTextDesl}`;
 
     // Carga atual = soma do peso de todos os itens no inventário
     let cargaAtual = 0;
@@ -368,8 +388,8 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const fatorCorrida = this.equipamento?.fatorCorrida ?? (this.equipamento?.pesadaEquipada ? 3 : 4);
 
     this.subattributes = {
-      iniciativa:   { value: Math.max(agilidade, inteligencia) },
-      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agilidade / 2) + 5, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
+      iniciativa:   { value: usarMC ? Math.min(agilidade, inteligencia) : Math.max(agilidade, inteligencia) },
+      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agilidade / 2) + baseDesl, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
       corrida:      { value: deslocamento * fatorCorrida },
       carga: {
         value:            parseFloat(cargaAtual.toFixed(2)),

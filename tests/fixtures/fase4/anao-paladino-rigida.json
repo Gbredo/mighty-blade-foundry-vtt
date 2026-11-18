@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-anao-paladino-rigida",
+  "name": "anao-paladino-rigida",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 1
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 70,
+        "max": 70
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 4,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "",
+      "organizacao": "",
+      "antecedente": "",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "armadura-completa",
+          "equipado": true,
+          "qualidade": "Alta",
+          "material": "Aco_Anao",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "escudo-de-corpo",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "aflicoes": []
+    },
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "anao",
+      "name": "Anão",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 4,
+          "agilidade": 2,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "coracao-da-montanha-1",
+      "name": "Coração da Montanha 1",
+      "type": "habilidade",
+      "system": {
+        "efeitos": [
+          {
+            "tipo": "resistencia",
+            "dano": "veneno",
+            "grau": "imune"
+          },
+          {
+            "tipo": "bonusDadoTeste",
+            "valor": 1,
+            "contexto": "resistir a fadiga, doenças e efeitos físicos"
+          },
+          {
+            "tipo": "cargaComoForca",
+            "valor": 2
+          }
+        ]
+      }
+    },
+    {
+      "slug": "paladino",
+      "name": "Paladino",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 1,
+          "agilidade": 0,
+          "inteligencia": 0,
+          "vontade": 1
+        }
+      }
+    },
+    {
+      "slug": "duro-como-pedra",
+      "name": "Duro como Pedra",
+      "type": "habilidade",
+      "system": {
+        "efeitos": [
+          {
+            "tipo": "bonusPV",
+            "valor": 10
+          }
+        ]
+      }
+    }
+  ],
+  "flags": {}
+}

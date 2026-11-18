@@ -469,6 +469,10 @@ export function temCondicao(actor, condicaoNomeOuId) {
   const condTexto = normalizarCondicao(actor.system?.details?.condicao || "");
   if (condTexto.includes(nBusca)) return true;
 
+  // 3b. details.condicoesAtivas (ids das condições vindas da ficha do site, Fase 4)
+  const ativas = actor.system?.details?.condicoesAtivas || [];
+  if (ativas.some((c) => normalizarCondicao(c) === nBusca)) return true;
+
   // 4. details.aflicoes
   const aflicoes = actor.system?.details?.aflicoes || [];
   if (aflicoes.some((a) => normalizarCondicao(a.id) === nBusca || normalizarCondicao(a.nome) === nBusca)) {

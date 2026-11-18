@@ -190,6 +190,7 @@ export function montarDadosDoActor(ficha, opcoes = {}) {
     catalogo = CANONICAL_EQUIPAMENTOS,
     aliases = CANONICAL_ALIASES_EQUIPAMENTOS,
     contrato = CANONICAL_CONTRATO_SITE,
+    bonusRecursos = null,
   } = opcoes;
   const data = clonar(ficha) ?? {};
   const avisos = [];
@@ -274,7 +275,29 @@ export function montarDadosDoActor(ficha, opcoes = {}) {
       },
     },
   };
+  // 5. PV e PM: o site grava o máximo JÁ com os bônus (Duro como Pedra +10 PV...). O Foundry soma os
+  //    bônus em cima do máximo salvo a cada preparo; então salva o máximo sem eles (senão contava em dobro).
+  if (typeof bonusRecursos === "function") {
+    const { pv = 0, pm = 0 } = bonusRecursos(actorData) ?? {};
+    for (const [r, b] of [["vida", pv], ["mana", pm]]) {
+      const rec = actorData.system?.resources?.[r];
+      if (rec && Number.isFinite(Number(rec.max)) && b) rec.max = Math.max(0, Number(rec.max) - b);
+    }
+  }
   return { actorData, avisos: Array.from(new Set(avisos)) };
+}
+
+/**
+ * Bônus de PV e PM que o Foundry vai somar ao preparar o Actor (efeitos bonusPV/bonusPM e as
+ * habilidades reconhecidas pelo nome). `prototipo` = MightyBladeCharacterData.prototype.
+ */
+export function bonusRecursosPeloDataModel(prototipo) {
+  return (actorData) => {
+    const temp = { parent: { items: actorData.items ?? [], system: actorData.system, flags: actorData.flags }, details: actorData.system?.details };
+    temp._normalizeEfeitos = prototipo._normalizeEfeitos;
+    prototipo._prepareEfeitos.call(temp);
+    return { pv: temp._efeitos?.pv ?? 0, pm: temp._efeitos?.pm ?? 0 };
+  };
 }
 
 // ─── Foundry → site ─────────────────────────────────────────────────────────────
@@ -292,6 +315,8 @@ function numero(v, padrao = 0) {
 export function exportarParaCanonico(actor, opcoes = {}) {
   const { catalogo = CANONICAL_EQUIPAMENTOS } = opcoes;
   const fonte = typeof actor?.toObject === "function" ? actor.toObject() : clonar(actor) ?? {};
+  // PV/PM com os bônus já somados (o site grava assim): do Actor preparado, se houver
+  const recursosPreparados = opcoes.recursos ?? (typeof actor?.toObject === "function" ? actor.system?.resources : null);
   const avisos = [];
   const mb = fonte.flags?.[NS] ?? {};
   const site = clonar(mb.site) ?? {};
@@ -300,8 +325,9 @@ export function exportarParaCanonico(actor, opcoes = {}) {
 
   const atributo = (k) => ({ base: numero(sys.attributes?.[k]?.base) });
   const recurso = (r) => {
-    const max = numero(sys.resources?.[r]?.max, 60);
-    return { value: Math.max(0, Math.min(numero(sys.resources?.[r]?.value, max), max)), max };
+    const fonteR = recursosPreparados?.[r] ?? sys.resources?.[r];
+    const max = numero(fonteR?.max, 60);
+    return { value: Math.max(0, Math.min(numero(fonteR?.value, max), max)), max };
   };
 
   const details = {

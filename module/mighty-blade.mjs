@@ -124,6 +124,8 @@ Hooks.on("renderActorDirectory", (app, html) => {
 /* "Exportar para o site" no menu do Ator       */
 /* -------------------------------------------- */
 // Fase 4: clique direito num personagem na aba de Atores → baixa o JSON para importar no site.
+// Formato nativo do ContextMenuEntry no v14 (label / visible / onClick); name, condition e callback
+// são o formato antigo, que o v14 aceita com aviso e o v16 remove.
 Hooks.on("getActorContextOptions", (app, options) => {
   const acharActor = (li) => {
     const el = li instanceof HTMLElement ? li : li?.[0];
@@ -131,10 +133,10 @@ Hooks.on("getActorContextOptions", (app, options) => {
     return id ? game.actors.get(id) : null;
   };
   options.push({
-    name: "Exportar para o site",
+    label: "Exportar para o site",
     icon: '<i class="fas fa-file-export"></i>',
-    condition: (li) => acharActor(li)?.type === "character",
-    callback: (li) => exportarActorParaSite(acharActor(li)),
+    visible: (li) => acharActor(li)?.type === "character",
+    onClick: (event, li) => exportarActorParaSite(acharActor(li)),
   });
 });
 

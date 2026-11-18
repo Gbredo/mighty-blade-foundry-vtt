@@ -22,6 +22,7 @@ import {
   CANONICAL_ORGANIZACOES,
 } from "../data/canonical-packs-data.mjs";
 import { norm } from "../helpers/requisitos.mjs";
+import { exportarActorParaSite } from "../helpers/import.mjs";
 import { LevelUpDialog } from "../apps/dialogs/level-up-dialog.mjs";
 import { SelectionDialog } from "../apps/dialogs/selection-dialog.mjs";
 import {
@@ -34,6 +35,20 @@ import {
  * @extends {ActorSheet}
  */
 export class MightyBladeActorSheet extends foundry.appv1.sheets.ActorSheet {
+
+  /** Fase 4: botão "Exportar para o site" no cabeçalho da ficha de personagem (além do clique direito na aba de Atores). */
+  _getHeaderButtons() {
+    const botoes = super._getHeaderButtons();
+    if (this.actor?.type === "character") {
+      botoes.unshift({
+        label: "Exportar para o site",
+        class: "mb-exportar-site",
+        icon: "fas fa-file-export",
+        onclick: () => exportarActorParaSite(this.actor),
+      });
+    }
+    return botoes;
+  }
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {

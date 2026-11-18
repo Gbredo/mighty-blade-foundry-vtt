@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-humano-guerreiro-pesada",
+  "name": "humano-guerreiro-pesada",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 60,
+        "max": 60
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 1,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "",
+      "organizacao": "",
+      "antecedente": "",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "armadura-de-batalha",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "escudo-medio",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000003",
+          "refId": "corda",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 2
+        }
+      ],
+      "aflicoes": []
+    },
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "humano",
+      "name": "Humano",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 3,
+          "agilidade": 3,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "adaptabilidade",
+      "name": "Adaptabilidade",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "guerreiro",
+      "name": "Guerreiro",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 1,
+          "agilidade": 1,
+          "inteligencia": 0,
+          "vontade": 0
+        }
+      }
+    },
+    {
+      "slug": "mestre-de-armas-1",
+      "name": "Mestre de Armas 1",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "guerreiro-de-aco-1",
+      "name": "Guerreiro de Aço 1",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    }
+  ],
+  "flags": {}
+}

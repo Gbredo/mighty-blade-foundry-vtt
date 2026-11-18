@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-tailox-ladino-couro",
+  "name": "tailox-ladino-couro",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 60,
+        "max": 60
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 1,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "",
+      "organizacao": "",
+      "antecedente": "",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "armadura-de-couro",
+          "equipado": true,
+          "qualidade": "Obra-Prima",
+          "material": "Couro",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "aflicoes": []
+    },
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "tailox",
+      "name": "Tailox",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 2,
+          "agilidade": 4,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "pernas-vulpinas",
+      "name": "Pernas Vulpinas",
+      "type": "habilidade",
+      "system": {
+        "efeitos": [
+          {
+            "tipo": "bonusDadoTeste",
+            "valor": 1,
+            "contexto": "saltar, correr e mover em silêncio"
+          },
+          {
+            "tipo": "bonusDeslocamento",
+            "valor": 1
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ladino",
+      "name": "Ladino",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 0,
+          "agilidade": 1,
+          "inteligencia": 1,
+          "vontade": 0
+        }
+      }
+    }
+  ],
+  "flags": {}
+}

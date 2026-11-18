@@ -359,7 +359,13 @@ export function calcularPenalidadesArmaduraPesada(actor) {
     if (item.system?.rigida) rigidaEquipada = true;
   }
 
-  const rd = pesadaEquipada ? 1 : 0;
+  // GB pág. 163 (Armaduras): Pesada reduz todo dano em 1; Rígida em 2 (cumulativo com Pesada).
+  // Errata (Guerreiro de Aço 1): com armadura pesada, a redução da armadura é dobrada, menos a da Rígida.
+  const temGuerreiroAco1 = rawItems.some((i) => {
+    const slug = i.flags?.["mighty-blade"]?.slug;
+    return slug === "guerreiro-de-aco-1" || normalizarTexto(i.name || "") === "guerreiro de aco 1";
+  });
+  const rd = (pesadaEquipada ? (temGuerreiroAco1 ? 2 : 1) : 0) + (rigidaEquipada ? 2 : 0);
   const bloqueiaAtletismo = pesadaEquipada;
   const fatorCorrida = rigidaEquipada ? 2 : (pesadaEquipada ? 3 : 4);
 
@@ -558,6 +564,21 @@ export function equiparItemSeguramente(actor, itemOuNome, opcoes = {}) {
  * @param {object} actor
  * @returns {object} Resumo completo do equipamento equipado e seus efeitos mecânicos
  */
+/**
+ * Bônus de Defesa da qualidade e do material de uma armadura ou escudo (Fase 4, paridade com o site).
+ * Guia do Herói pág. 53–55: Obra-prima "armaduras e escudos tem Defesa +1"; Aço Anão "Defesa: +1".
+ * Mesma tabela de QUALIDADES_INFO / MATERIAIS_INFO do rules-core (Baixa -1; Pardal +1).
+ * A qualidade e o material vêm da mochila do site (flags["mighty-blade"].inventario) ou do system do item.
+ */
+const DEFESA_POR_QUALIDADE = { "Baixa": -1, "Mediana": 0, "Alta": 0, "Obra-Prima": 1 };
+const DEFESA_POR_MATERIAL = { "Aco_Anao": 1, "Pardal": 1 };
+export function bonusDefesaQualidadeMaterial(item) {
+  const inv = item?.flags?.["mighty-blade"]?.inventario ?? {};
+  const qualidade = inv.qualidade ?? item?.system?.qualidade;
+  const material = inv.material ?? item?.system?.material;
+  return (DEFESA_POR_QUALIDADE[qualidade] ?? 0) + (DEFESA_POR_MATERIAL[material] ?? 0);
+}
+
 export function calcularEquipamento(actor) {
   const attrs = actor?.system?.attributes || {};
   const forca = Number(attrs.forca?.value ?? attrs.forca?.base ?? 0);
@@ -591,7 +612,7 @@ export function calcularEquipamento(actor) {
 
     if (item.type === "armadura") {
       const subtipo = normalizarTexto(s.subtipo || "armadura");
-      const defesa = Number(s.defesa) || 0;
+      const defesa = (Number(s.defesa) || 0) + bonusDefesaQualidadeMaterial(item);
 
       if (subtipo === "escudo") {
         maosOcupadas += 1;
