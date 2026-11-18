@@ -1,58 +1,13 @@
 import { MightyBladeActor } from "../documents/actor.mjs";
-import {
-  CANONICAL_ALIASES_HABILIDADES,
-  CANONICAL_HABILIDADES_RETIRADAS,
-  CANONICAL_HABILIDADES,
-  CANONICAL_ALIASES_EQUIPAMENTOS,
-  CANONICAL_EQUIPAMENTOS,
-} from "../data/canonical-packs-data.mjs";
+import { montarDadosDoActor, exportarParaCanonico, resolverIdHabilidadeAntigaFoundry } from "./ida-e-volta.mjs";
+
+// Mantido para quem já importava daqui (testes, macros).
+export { resolverIdHabilidadeAntigaFoundry, montarDadosDoActor, exportarParaCanonico };
 
 /**
- * Normaliza e resolve um ID antigo de habilidade no Foundry.
- */
-export function resolverIdHabilidadeAntigaFoundry(id) {
-  const retirada = (CANONICAL_HABILIDADES_RETIRADAS || []).find((r) => r.id === id);
-  if (retirada) {
-    if (retirada.substitutaId) {
-      const canonSub = (CANONICAL_HABILIDADES || []).find(
-        (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === retirada.substitutaId
-      );
-      return {
-        idFinal: retirada.substitutaId,
-        motivo: `${retirada.nome} → ${canonSub?.name ?? retirada.substitutaId}`,
-        acao: "substituido",
-      };
-    }
-    const detalhe = retirada.status === "inventada" ? "não existe nos livros" : "retirada das regras oficiais";
-    return {
-      idFinal: null,
-      motivo: `${retirada.nome} removida (${detalhe})`,
-      acao: "removido",
-    };
-  }
-
-  const alias = CANONICAL_ALIASES_HABILIDADES?.[id];
-  if (alias) {
-    const canonOrig = (CANONICAL_HABILIDADES || []).find(
-      (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === id
-    );
-    const canonDest = (CANONICAL_HABILIDADES || []).find(
-      (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === alias
-    );
-    return {
-      idFinal: alias,
-      motivo: `${canonOrig?.name ?? id} → ${canonDest?.name ?? alias}`,
-      acao: "alias",
-    };
-  }
-
-  return { idFinal: id, acao: "inalterado" };
-}
-
-/**
- * Importa uma ficha no formato JSON canônico compartilhado com o gerador de fichas.
- * Aplica migração de habilidades retiradas/inventadas e aliases (Fase C5).
- * Cria um Actor "character" com os Items embutidos.
+ * Importa uma ficha do gerador (JSON canônico do site).
+ * Cria um Actor "character" com os Items embutidos. A mochila do site vira Items (arma, armadura,
+ * equipamento) e os campos só do site ficam guardados na ficha para voltar no "Exportar para o site".
  *
  * @param {object} rawData  Objeto JSON canônico já parseado.
  * @returns {Promise<Actor|null>}
@@ -63,91 +18,15 @@ export async function importCharacter(rawData) {
     return null;
   }
 
-  const data = JSON.parse(JSON.stringify(rawData));
-  const avisosPartes = [];
-
-  const rawItems = data.items ?? [];
-  const items = [];
-  const slugsVistos = new Set();
-
-  for (const it of rawItems) {
-    if (it.type !== "habilidade" && it.type !== "magia") {
-      const flags = { "mighty-blade": {} };
-      let eqSlug = it.slug;
-      let eqName = it.name ?? "Item";
-      if (eqSlug && CANONICAL_ALIASES_EQUIPAMENTOS?.[eqSlug]) {
-        const novoSlug = CANONICAL_ALIASES_EQUIPAMENTOS[eqSlug];
-        const canonEq = (CANONICAL_EQUIPAMENTOS || []).find(
-          (e) => e.flags?.["mighty-blade"]?.slug === novoSlug
-        );
-        eqSlug = novoSlug;
-        if (canonEq?.name) eqName = canonEq.name;
-      }
-      if (eqSlug) flags["mighty-blade"].slug = eqSlug;
-      items.push({ name: eqName, type: it.type, img: it.img, system: it.system ?? {}, flags });
-      continue;
-    }
-
-    const res = resolverIdHabilidadeAntigaFoundry(it.slug);
-    if (res.acao === "removido") {
-      if (res.motivo) avisosPartes.push(res.motivo);
-      continue;
-    }
-
-    let finalSlug = it.slug;
-    let finalName = it.name;
-
-    if (res.acao === "substituido" || res.acao === "alias") {
-      finalSlug = res.idFinal;
-      const canon = (CANONICAL_HABILIDADES || []).find(
-        (h) => (h.flags?.["mighty-blade"]?.slug || h.name) === finalSlug
-      );
-      if (canon?.name) finalName = canon.name;
-      if (res.acao === "substituido" && res.motivo) avisosPartes.push(res.motivo);
-    }
-
-    if (slugsVistos.has(finalSlug)) continue;
-    slugsVistos.add(finalSlug);
-
-    const flags = { "mighty-blade": {} };
-    flags["mighty-blade"].slug = finalSlug;
-    if (it.concedidaPor || it.system?.concedidaPor) {
-      flags["mighty-blade"].concedidaPor = it.concedidaPor || it.system.concedidaPor;
-    }
-
-    items.push({
-      name: finalName ?? "Item",
-      type: it.type,
-      img: it.img,
-      system: it.system ?? {},
-      flags,
-    });
-  }
+  const { actorData, avisos } = montarDadosDoActor(rawData);
 
   // Se houver avisos de migração, emite aviso único consolidado
-  if (avisosPartes.length > 0) {
-    const avisosUnicos = Array.from(new Set(avisosPartes));
-    ui.notifications.warn(`Ficha atualizada: ${avisosUnicos.join("; ")}`);
-  }
-
-  const actorData = {
-    name: data.name ?? "Personagem Importado",
-    type: data.type ?? "character",
-    img: data.img,
-    system: data.system ?? {},
-    items,
-    flags: {
-      "mighty-blade": {
-        ...(data.slug ? { slug: data.slug } : {}),
-        schemaVersion: data.schemaVersion ?? null,
-      },
-    },
-  };
+  if (avisos.length > 0) ui.notifications.warn(`Ficha atualizada: ${avisos.join("; ")}`);
 
   MightyBladeActor._suppressConcessoes = true;
   try {
     const actor = await Actor.create(actorData);
-    ui.notifications.info(`Ficha "${actor.name}" importada (${items.length} itens).`);
+    ui.notifications.info(`Ficha "${actor.name}" importada (${actorData.items.length} itens).`);
     return actor;
   } catch (err) {
     console.error("MIGHTY BLADE | Erro ao importar ficha:", err);
@@ -156,6 +35,25 @@ export async function importCharacter(rawData) {
   } finally {
     MightyBladeActor._suppressConcessoes = false;
   }
+}
+
+/**
+ * Baixa a ficha do Actor no formato do site (contrato v1.2). No site, "Importar" pergunta se
+ * atualiza a ficha de origem (quando o arquivo traz o id dela) ou cria uma cópia.
+ * @param {Actor} actor
+ * @returns {object|null} a ficha exportada
+ */
+export function exportarActorParaSite(actor) {
+  if (!actor || actor.type !== "character") {
+    ui.notifications.warn("Só fichas de personagem podem ir para o site.");
+    return null;
+  }
+  const { ficha, avisos } = exportarParaCanonico(actor);
+  const nomeArquivo = `${(actor.name || "Personagem").replace(/\s+/g, "_")}.json`;
+  foundry.utils.saveDataToFile(JSON.stringify(ficha, null, 2), "application/json", nomeArquivo);
+  if (avisos.length > 0) ui.notifications.warn(`Exportada com avisos: ${avisos.join("; ")}`);
+  else ui.notifications.info(`Ficha "${actor.name}" exportada para o site.`);
+  return ficha;
 }
 
 /**

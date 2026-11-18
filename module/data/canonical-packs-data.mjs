@@ -47056,6 +47056,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "espada-longa",
+        "siteId": "espada-longa",
         "categoria": "Arma"
       }
     },
@@ -47086,6 +47087,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-longo",
+        "siteId": "arco-longo",
         "categoria": "Projetil",
         "origem": "homebrew"
       }
@@ -47109,6 +47111,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-comum",
+        "siteId": "flecha-comum",
         "categoria": "Municao"
       }
     },
@@ -47143,6 +47146,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cajado",
+        "siteId": "cajado",
         "categoria": "Conjuracao"
       }
     },
@@ -47169,6 +47173,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-de-couro",
+        "siteId": "armadura-de-couro",
         "categoria": "Defesa"
       }
     },
@@ -47195,6 +47200,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "escudo-pequeno",
+        "siteId": "escudo-pequeno",
         "categoria": "Defesa"
       }
     },
@@ -47217,6 +47223,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lira",
+        "siteId": "lira",
         "categoria": "Musical"
       }
     },
@@ -47239,6 +47246,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "antidoto-basico",
+        "siteId": "antidoto-basico",
         "categoria": "Pocao"
       }
     },
@@ -47261,6 +47269,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-cura-menor",
+        "siteId": "pocao-de-cura-menor",
         "categoria": "Pocao",
         "origem": "homebrew"
       }
@@ -47284,6 +47293,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-cura-maior",
+        "siteId": "pocao-de-cura-maior",
         "categoria": "Pocao",
         "origem": "homebrew"
       }
@@ -47307,6 +47317,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-mana-menor",
+        "siteId": "pocao-de-mana-menor",
         "categoria": "Pocao",
         "origem": "homebrew"
       }
@@ -47330,6 +47341,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "oleo-de-fogo-alquimico",
+        "siteId": "oleo-de-fogo",
         "categoria": "Pocao",
         "origem": "homebrew"
       }
@@ -47353,6 +47365,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "corda-10m",
+        "siteId": "corda",
         "categoria": "Mundano",
         "origem": "homebrew"
       }
@@ -47386,6 +47399,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "adaga",
+        "siteId": "adaga",
         "categoria": "Arma"
       }
     },
@@ -47417,6 +47431,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "alabarda",
+        "siteId": "alabarda",
         "categoria": "Arma"
       }
     },
@@ -47448,6 +47463,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "alfange",
+        "siteId": "alfange",
         "categoria": "Arma"
       }
     },
@@ -47479,6 +47495,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arpao",
+        "siteId": "arpao",
         "categoria": "Arma"
       }
     },
@@ -47511,6 +47528,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "artavus",
+        "siteId": "artavus",
         "categoria": "Arma"
       }
     },
@@ -47541,6 +47559,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "azagaia",
+        "siteId": "azagaia",
         "categoria": "Arma"
       }
     },
@@ -47572,6 +47591,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bico-de-corvo",
+        "siteId": "bico-de-corvo",
         "categoria": "Arma"
       }
     },
@@ -47600,6 +47620,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bastao",
+        "siteId": "bastao",
         "categoria": "Arma"
       }
     },
@@ -47631,6 +47652,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bordao",
+        "siteId": "bordao",
         "categoria": "Arma"
       }
     },
@@ -47661,6 +47683,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "chicote",
+        "siteId": "chicote",
         "categoria": "Arma"
       }
     },
@@ -47692,6 +47715,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cimitarra",
+        "siteId": "cimitarra",
         "categoria": "Arma"
       }
     },
@@ -47722,6 +47746,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "clava",
+        "siteId": "clava",
         "categoria": "Arma"
       }
     },
@@ -47750,6 +47775,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cutelo",
+        "siteId": "cutelo",
         "categoria": "Arma"
       }
     },
@@ -47781,6 +47807,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "claymore",
+        "siteId": "claymore",
         "categoria": "Arma"
       }
     },
@@ -47811,6 +47838,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "debulhador",
+        "siteId": "debulhador",
         "categoria": "Arma"
       }
     },
@@ -47842,6 +47870,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "enxada",
+        "siteId": "enxada",
         "categoria": "Arma"
       }
     },
@@ -47871,6 +47900,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "espada-curta",
+        "siteId": "espada-curta",
         "categoria": "Arma"
       }
     },
@@ -47900,6 +47930,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "facao",
+        "siteId": "facao",
         "categoria": "Arma"
       }
     },
@@ -47931,6 +47962,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "foice",
+        "siteId": "foice",
         "categoria": "Arma"
       }
     },
@@ -47961,6 +47993,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "forcado",
+        "siteId": "forcado",
         "categoria": "Arma"
       }
     },
@@ -47992,6 +48025,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "gadanha",
+        "siteId": "gadanha",
         "categoria": "Arma"
       }
     },
@@ -48022,6 +48056,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "glaive",
+        "siteId": "glaive",
         "categoria": "Arma"
       }
     },
@@ -48053,6 +48088,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lanca",
+        "siteId": "lanca",
         "categoria": "Arma"
       }
     },
@@ -48081,6 +48117,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "maca-leve",
+        "siteId": "maca-leve",
         "categoria": "Arma"
       }
     },
@@ -48111,6 +48148,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "maca-pesada",
+        "siteId": "maca-pesada",
         "categoria": "Arma"
       }
     },
@@ -48141,6 +48179,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "maca-estrela",
+        "siteId": "maca-estrela",
         "categoria": "Arma"
       }
     },
@@ -48171,6 +48210,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "machadinha",
+        "siteId": "machadinha",
         "categoria": "Arma"
       }
     },
@@ -48202,6 +48242,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "machado-de-lenha",
+        "siteId": "machado-de-lenha",
         "categoria": "Arma"
       }
     },
@@ -48232,6 +48273,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "machado-de-batalha",
+        "siteId": "machado-de-batalha",
         "categoria": "Arma"
       }
     },
@@ -48262,6 +48304,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "machado-pesado",
+        "siteId": "machado-pesado",
         "categoria": "Arma"
       }
     },
@@ -48290,6 +48333,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "malho",
+        "siteId": "malho",
         "categoria": "Arma"
       }
     },
@@ -48320,6 +48364,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "mangual",
+        "siteId": "mangual",
         "categoria": "Arma"
       }
     },
@@ -48350,6 +48395,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "marreta",
+        "siteId": "marreta",
         "categoria": "Arma"
       }
     },
@@ -48378,6 +48424,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "martelo",
+        "siteId": "martelo",
         "categoria": "Arma"
       }
     },
@@ -48409,6 +48456,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "martelo-lucerno",
+        "siteId": "martelo-lucerno",
         "categoria": "Arma"
       }
     },
@@ -48440,6 +48488,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "martelo-de-guerra",
+        "siteId": "martelo-de-guerra",
         "categoria": "Arma"
       }
     },
@@ -48468,6 +48517,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "picareta-de-prospeccao",
+        "siteId": "picareta-de-prospeccao",
         "categoria": "Arma"
       }
     },
@@ -48499,6 +48549,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "picareta-de-mineracao",
+        "siteId": "picareta-de-mineracao",
         "categoria": "Arma"
       }
     },
@@ -48530,6 +48581,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pa",
+        "siteId": "pa",
         "categoria": "Arma"
       }
     },
@@ -48558,6 +48610,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "rapieira",
+        "siteId": "rapieira",
         "categoria": "Arma"
       }
     },
@@ -48586,6 +48639,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "relho",
+        "siteId": "relho",
         "categoria": "Arma"
       }
     },
@@ -48615,6 +48669,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "sabre",
+        "siteId": "sabre",
         "categoria": "Arma"
       }
     },
@@ -48643,6 +48698,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "soqueira-manopla",
+        "siteId": "soqueira-manopla",
         "categoria": "Arma"
       }
     },
@@ -48674,6 +48730,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tridente",
+        "siteId": "tridente",
         "categoria": "Arma"
       }
     },
@@ -48703,6 +48760,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "espada-vingadora-1",
+        "siteId": "espada-vingadora-1",
         "categoria": "Arma"
       }
     },
@@ -48731,6 +48789,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lanca-matadora-de-dragoes-1",
+        "siteId": "lanca-matadora-de-dragoes-1",
         "categoria": "Arma"
       }
     },
@@ -48761,6 +48820,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "machado-do-gelo-1",
+        "siteId": "machado-do-gelo-1",
         "categoria": "Arma"
       }
     },
@@ -48791,6 +48851,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-simples",
+        "siteId": "arco-simples",
         "categoria": "Projetil"
       }
     },
@@ -48821,6 +48882,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-composto",
+        "siteId": "arco-composto",
         "categoria": "Projetil"
       }
     },
@@ -48851,6 +48913,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-de-guerra",
+        "siteId": "arco-de-guerra",
         "categoria": "Projetil"
       }
     },
@@ -48881,6 +48944,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-recurvo",
+        "siteId": "arco-recurvo",
         "categoria": "Projetil"
       }
     },
@@ -48912,6 +48976,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "besta-leve",
+        "siteId": "besta-leve",
         "categoria": "Projetil"
       }
     },
@@ -48943,6 +49008,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "besta-pesada",
+        "siteId": "besta-pesada",
         "categoria": "Projetil"
       }
     },
@@ -48971,6 +49037,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "funda-estilingue",
+        "siteId": "funda-estilingue",
         "categoria": "Projetil"
       }
     },
@@ -49001,6 +49068,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "fustibalo",
+        "siteId": "fustibalo",
         "categoria": "Projetil"
       }
     },
@@ -49029,6 +49097,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "plumbata",
+        "siteId": "plumbata",
         "categoria": "Projetil"
       }
     },
@@ -49060,6 +49129,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "prod",
+        "siteId": "prod",
         "categoria": "Projetil"
       }
     },
@@ -49088,6 +49158,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "zarabatana",
+        "siteId": "zarabatana",
         "categoria": "Projetil"
       }
     },
@@ -49118,6 +49189,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arco-de-ghlasaglais-1",
+        "siteId": "arco-de-ghlasaglais-1",
         "categoria": "Projetil"
       }
     },
@@ -49140,6 +49212,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "aljava-comum",
+        "siteId": "aljava-comum",
         "categoria": "Municao"
       }
     },
@@ -49162,6 +49235,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "aljava-compartimentada",
+        "siteId": "aljava-compartimentada",
         "categoria": "Municao"
       }
     },
@@ -49184,6 +49258,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "balas",
+        "siteId": "balas",
         "categoria": "Municao"
       }
     },
@@ -49206,6 +49281,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "dardos",
+        "siteId": "dardos",
         "categoria": "Municao"
       }
     },
@@ -49228,6 +49304,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-garateia",
+        "siteId": "flecha-garateia",
         "categoria": "Municao"
       }
     },
@@ -49250,6 +49327,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-alarme",
+        "siteId": "flecha-alarme",
         "categoria": "Municao"
       }
     },
@@ -49272,6 +49350,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-cortante",
+        "siteId": "flecha-cortante",
         "categoria": "Municao"
       }
     },
@@ -49294,6 +49373,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-de-prata",
+        "siteId": "flecha-de-prata",
         "categoria": "Municao"
       }
     },
@@ -49316,6 +49396,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-envenenada",
+        "siteId": "flecha-envenenada",
         "categoria": "Municao"
       }
     },
@@ -49338,6 +49419,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-explosiva",
+        "siteId": "flecha-explosiva",
         "categoria": "Municao"
       }
     },
@@ -49360,6 +49442,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-farpada",
+        "siteId": "flecha-farpada",
         "categoria": "Municao"
       }
     },
@@ -49382,6 +49465,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-incendiaria",
+        "siteId": "flecha-incendiaria",
         "categoria": "Municao"
       }
     },
@@ -49404,6 +49488,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-perfurante",
+        "siteId": "flecha-perfurante",
         "categoria": "Municao"
       }
     },
@@ -49426,6 +49511,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flecha-rede",
+        "siteId": "flecha-rede",
         "categoria": "Municao"
       }
     },
@@ -49448,6 +49534,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "virote-comum",
+        "siteId": "virote-comum",
         "categoria": "Municao"
       }
     },
@@ -49470,6 +49557,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "virote-garateia",
+        "siteId": "virote-garateia",
         "categoria": "Municao"
       }
     },
@@ -49492,6 +49580,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "alaude",
+        "siteId": "alaude",
         "categoria": "Musical"
       }
     },
@@ -49514,6 +49603,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "berrante",
+        "siteId": "berrante",
         "categoria": "Musical"
       }
     },
@@ -49536,6 +49626,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bohdran",
+        "siteId": "bohdran",
         "categoria": "Musical"
       }
     },
@@ -49558,6 +49649,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bongo",
+        "siteId": "bongo",
         "categoria": "Musical"
       }
     },
@@ -49580,6 +49672,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "chifre",
+        "siteId": "chifre",
         "categoria": "Musical"
       }
     },
@@ -49602,6 +49695,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flauta-de-pa",
+        "siteId": "flauta-de-pa",
         "categoria": "Musical"
       }
     },
@@ -49624,6 +49718,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flauta-doce",
+        "siteId": "flauta-doce",
         "categoria": "Musical"
       }
     },
@@ -49646,6 +49741,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "gaita-de-fole",
+        "siteId": "gaita-de-fole",
         "categoria": "Musical"
       }
     },
@@ -49668,6 +49764,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "hurd-guli",
+        "siteId": "hurd-guli",
         "categoria": "Musical"
       }
     },
@@ -49690,6 +49787,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "jorvik",
+        "siteId": "jorvik",
         "categoria": "Musical"
       }
     },
@@ -49712,6 +49810,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pandeiro",
+        "siteId": "pandeiro",
         "categoria": "Musical"
       }
     },
@@ -49734,6 +49833,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "rabeca",
+        "siteId": "rabeca",
         "categoria": "Musical"
       }
     },
@@ -49756,6 +49856,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tamboril",
+        "siteId": "tamboril",
         "categoria": "Musical"
       }
     },
@@ -49789,6 +49890,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cetro",
+        "siteId": "cetro",
         "categoria": "Conjuracao"
       }
     },
@@ -49811,6 +49913,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "grimorio",
+        "siteId": "grimorio",
         "categoria": "Conjuracao"
       }
     },
@@ -49833,6 +49936,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "missal",
+        "siteId": "missal",
         "categoria": "Conjuracao"
       }
     },
@@ -49855,6 +49959,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "orbe-de-cristal",
+        "siteId": "orbe-de-cristal",
         "categoria": "Conjuracao"
       }
     },
@@ -49887,6 +49992,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "punhal",
+        "siteId": "punhal",
         "categoria": "Conjuracao"
       }
     },
@@ -49909,6 +50015,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "simbolo-sagrado",
+        "siteId": "simbolo-sagrado",
         "categoria": "Conjuracao"
       }
     },
@@ -49931,6 +50038,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "varinha",
+        "siteId": "varinha",
         "categoria": "Conjuracao"
       }
     },
@@ -49962,6 +50070,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "adaga-de-dente",
+        "siteId": "adaga-de-dente",
         "categoria": "Conjuracao"
       }
     },
@@ -49994,6 +50103,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "sabre-de-dente",
+        "siteId": "sabre-de-dente",
         "categoria": "Conjuracao"
       }
     },
@@ -50020,6 +50130,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tunica-pesada",
+        "siteId": "tunica-pesada",
         "categoria": "Defesa"
       }
     },
@@ -50046,6 +50157,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-simples",
+        "siteId": "armadura-simples",
         "categoria": "Defesa"
       }
     },
@@ -50072,6 +50184,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-de-batalha",
+        "siteId": "armadura-de-batalha",
         "categoria": "Defesa"
       }
     },
@@ -50098,6 +50211,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-completa",
+        "siteId": "armadura-completa",
         "categoria": "Defesa"
       }
     },
@@ -50124,6 +50238,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "escudo-medio",
+        "siteId": "escudo-medio",
         "categoria": "Defesa"
       }
     },
@@ -50150,6 +50265,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "escudo-de-corpo",
+        "siteId": "escudo-de-corpo",
         "categoria": "Defesa"
       }
     },
@@ -50176,6 +50292,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-de-tubarao",
+        "siteId": "armadura-de-tubarao",
         "categoria": "Defesa"
       }
     },
@@ -50202,6 +50319,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tunica-do-norte",
+        "siteId": "tunica-do-norte",
         "categoria": "Defesa"
       }
     },
@@ -50224,6 +50342,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-antidoto",
+        "siteId": "pocao-antidoto",
         "categoria": "Pocao"
       }
     },
@@ -50246,6 +50365,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-da-explosao",
+        "siteId": "pocao-da-explosao",
         "categoria": "Pocao"
       }
     },
@@ -50268,6 +50388,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-da-restauracao",
+        "siteId": "pocao-da-restauracao",
         "categoria": "Pocao"
       }
     },
@@ -50290,6 +50411,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-mana",
+        "siteId": "pocao-de-mana",
         "categoria": "Pocao"
       }
     },
@@ -50312,6 +50434,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-de-vida",
+        "siteId": "pocao-de-vida",
         "categoria": "Pocao"
       }
     },
@@ -50334,6 +50457,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "alforge",
+        "siteId": "alforge",
         "categoria": "Mundano"
       }
     },
@@ -50356,6 +50480,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "anzol-e-linha",
+        "siteId": "anzol-e-linha",
         "categoria": "Mundano"
       }
     },
@@ -50378,6 +50503,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-para-animais-couro",
+        "siteId": "armadura-para-animais-couro",
         "categoria": "Mundano"
       }
     },
@@ -50400,6 +50526,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-para-animais-simples",
+        "siteId": "armadura-para-animais-simples",
         "categoria": "Mundano"
       }
     },
@@ -50422,6 +50549,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-para-animais-batalha",
+        "siteId": "armadura-para-animais-batalha",
         "categoria": "Mundano"
       }
     },
@@ -50444,6 +50572,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-para-animais-completa",
+        "siteId": "armadura-para-animais-completa",
         "categoria": "Mundano"
       }
     },
@@ -50466,6 +50595,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "barril",
+        "siteId": "barril",
         "categoria": "Mundano"
       }
     },
@@ -50488,6 +50618,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "barrilete",
+        "siteId": "barrilete",
         "categoria": "Mundano"
       }
     },
@@ -50510,6 +50641,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bau-pequeno",
+        "siteId": "bau-pequeno",
         "categoria": "Mundano"
       }
     },
@@ -50532,6 +50664,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bau-grande",
+        "siteId": "bau-grande",
         "categoria": "Mundano"
       }
     },
@@ -50554,6 +50687,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "caixa-pequena",
+        "siteId": "caixa-pequena",
         "categoria": "Mundano"
       }
     },
@@ -50576,6 +50710,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "caixa-grande",
+        "siteId": "caixa-grande",
         "categoria": "Mundano"
       }
     },
@@ -50598,6 +50733,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cantil",
+        "siteId": "cantil",
         "categoria": "Mundano"
       }
     },
@@ -50620,6 +50756,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "capa-de-la",
+        "siteId": "capa-de-la",
         "categoria": "Mundano"
       }
     },
@@ -50642,6 +50779,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "capa-de-pele",
+        "siteId": "capa-de-pele",
         "categoria": "Mundano"
       }
     },
@@ -50664,6 +50802,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "chapeu",
+        "siteId": "chapeu",
         "categoria": "Mundano"
       }
     },
@@ -50686,6 +50825,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cinto-oculto",
+        "siteId": "cinto-oculto",
         "categoria": "Mundano"
       }
     },
@@ -50708,6 +50848,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cinturao-de-adagas",
+        "siteId": "cinturao-de-adagas",
         "categoria": "Mundano"
       }
     },
@@ -50730,6 +50871,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cinto-de-ferramentas",
+        "siteId": "cinto-de-ferramentas",
         "categoria": "Mundano"
       }
     },
@@ -50752,6 +50894,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "kit-de-arrombamento",
+        "siteId": "kit-de-arrombamento",
         "categoria": "Mundano"
       }
     },
@@ -50774,6 +50917,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "kit-de-cura",
+        "siteId": "kit-de-cura",
         "categoria": "Mundano"
       }
     },
@@ -50796,6 +50940,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "martelete",
+        "siteId": "martelete",
         "categoria": "Mundano"
       }
     },
@@ -50818,6 +50963,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "mochila-grande",
+        "siteId": "mochila-grande",
         "categoria": "Mundano"
       }
     },
@@ -50840,6 +50986,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "frasco-de-ceramica",
+        "siteId": "frasco-de-ceramica",
         "categoria": "Mundano"
       }
     },
@@ -50862,6 +51009,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "frasco-de-tinta",
+        "siteId": "frasco-de-tinta",
         "categoria": "Mundano"
       }
     },
@@ -50884,6 +51032,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "frasco-de-vidro",
+        "siteId": "frasco-de-vidro",
         "categoria": "Mundano"
       }
     },
@@ -50906,6 +51055,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "freio-redeas-e-bocal",
+        "siteId": "freio-redeas-e-bocal",
         "categoria": "Mundano"
       }
     },
@@ -50928,6 +51078,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "garateia",
+        "siteId": "garateia",
         "categoria": "Mundano"
       }
     },
@@ -50950,6 +51101,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "garateia-furtiva",
+        "siteId": "garateia-furtiva",
         "categoria": "Mundano"
       }
     },
@@ -50972,6 +51124,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "garrafa-de-ceramica",
+        "siteId": "garrafa-de-ceramica",
         "categoria": "Mundano"
       }
     },
@@ -50994,6 +51147,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lampiao",
+        "siteId": "lampiao",
         "categoria": "Mundano"
       }
     },
@@ -51016,6 +51170,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "luvas",
+        "siteId": "luvas",
         "categoria": "Mundano"
       }
     },
@@ -51038,6 +51193,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "luvas-de-couro",
+        "siteId": "luvas-de-couro",
         "categoria": "Mundano"
       }
     },
@@ -51060,6 +51216,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "manto",
+        "siteId": "manto",
         "categoria": "Mundano"
       }
     },
@@ -51082,6 +51239,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "mata-borrao",
+        "siteId": "mata-borrao",
         "categoria": "Mundano"
       }
     },
@@ -51104,6 +51262,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "odre",
+        "siteId": "odre",
         "categoria": "Mundano"
       }
     },
@@ -51126,6 +51285,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "oleo-combustivel",
+        "siteId": "oleo-combustivel",
         "categoria": "Mundano"
       }
     },
@@ -51148,6 +51308,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pa-de-acampamento",
+        "siteId": "pa-de-acampamento",
         "categoria": "Mundano"
       }
     },
@@ -51170,6 +51331,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "papiro",
+        "siteId": "papiro",
         "categoria": "Mundano"
       }
     },
@@ -51192,6 +51354,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pederneira-e-isqueiro",
+        "siteId": "pederneira-e-isqueiro",
         "categoria": "Mundano"
       }
     },
@@ -51214,6 +51377,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pelego",
+        "siteId": "pelego",
         "categoria": "Mundano"
       }
     },
@@ -51236,6 +51400,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pena",
+        "siteId": "pena",
         "categoria": "Mundano"
       }
     },
@@ -51258,6 +51423,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pergaminho",
+        "siteId": "pergaminho",
         "categoria": "Mundano"
       }
     },
@@ -51280,6 +51446,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pinos-para-escalada",
+        "siteId": "pinos-para-escalada",
         "categoria": "Mundano"
       }
     },
@@ -51302,6 +51469,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "provisoes",
+        "siteId": "provisoes",
         "categoria": "Mundano"
       }
     },
@@ -51324,6 +51492,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "roupas-comuns",
+        "siteId": "roupas-comuns",
         "categoria": "Mundano"
       }
     },
@@ -51346,6 +51515,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "roupas-de-festa",
+        "siteId": "roupas-de-festa",
         "categoria": "Mundano"
       }
     },
@@ -51368,6 +51538,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "roupas-de-viagem",
+        "siteId": "roupas-de-viagem",
         "categoria": "Mundano"
       }
     },
@@ -51390,6 +51561,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "sela-e-estribos",
+        "siteId": "sela-e-estribos",
         "categoria": "Mundano"
       }
     },
@@ -51412,6 +51584,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tenda-pequena-uma-pessoa",
+        "siteId": "tenda-pequena",
         "categoria": "Mundano"
       }
     },
@@ -51434,6 +51607,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tenda-media-duas-pessoas",
+        "siteId": "tenda-media",
         "categoria": "Mundano"
       }
     },
@@ -51456,6 +51630,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tenda-grande-quatro-pessoas",
+        "siteId": "tenda-grande",
         "categoria": "Mundano"
       }
     },
@@ -51478,6 +51653,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tenda-grupo-dez-pessoas",
+        "siteId": "tenda-grupo",
         "categoria": "Mundano"
       }
     },
@@ -51500,6 +51676,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tocha",
+        "siteId": "tocha",
         "categoria": "Mundano"
       }
     },
@@ -51522,6 +51699,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tunica",
+        "siteId": "tunica",
         "categoria": "Mundano"
       }
     },
@@ -51544,6 +51722,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "velino",
+        "siteId": "velino",
         "categoria": "Mundano"
       }
     },
@@ -51566,6 +51745,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bolanta",
+        "siteId": "bolanta",
         "categoria": "Montaria"
       }
     },
@@ -51588,6 +51768,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "burro",
+        "siteId": "burro",
         "categoria": "Montaria"
       }
     },
@@ -51610,6 +51791,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cavalo-comum",
+        "siteId": "cavalo-comum",
         "categoria": "Montaria"
       }
     },
@@ -51632,6 +51814,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cavalo-de-guerra",
+        "siteId": "cavalo-de-guerra",
         "categoria": "Montaria"
       }
     },
@@ -51654,6 +51837,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "carrocao",
+        "siteId": "carrocao",
         "categoria": "Montaria"
       }
     },
@@ -51676,6 +51860,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "carroca",
+        "siteId": "carroca",
         "categoria": "Montaria"
       }
     },
@@ -51698,6 +51883,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "carroca-coberta",
+        "siteId": "carroca-coberta",
         "categoria": "Montaria"
       }
     },
@@ -51720,6 +51906,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "carruagem",
+        "siteId": "carruagem",
         "categoria": "Montaria"
       }
     },
@@ -51742,6 +51929,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "carruagem-nobre",
+        "siteId": "carruagem-nobre",
         "categoria": "Montaria"
       }
     },
@@ -51764,6 +51952,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "banho-frio",
+        "siteId": "banho-frio",
         "categoria": "Servico"
       }
     },
@@ -51786,6 +51975,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "banho-quente",
+        "siteId": "banho-quente",
         "categoria": "Servico"
       }
     },
@@ -51808,6 +51998,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "caneco-de-cerveja",
+        "siteId": "caneco-de-cerveja",
         "categoria": "Servico"
       }
     },
@@ -51830,6 +52021,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "caneco-de-vinho",
+        "siteId": "caneco-de-vinho",
         "categoria": "Servico"
       }
     },
@@ -51852,6 +52044,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "caneco-de-grog",
+        "siteId": "caneco-de-grog",
         "categoria": "Servico"
       }
     },
@@ -51874,6 +52067,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "caneco-de-licor",
+        "siteId": "caneco-de-licor",
         "categoria": "Servico"
       }
     },
@@ -51896,6 +52090,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "catre",
+        "siteId": "catre",
         "categoria": "Servico"
       }
     },
@@ -51918,6 +52113,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "estabulo",
+        "siteId": "estabulo",
         "categoria": "Servico"
       }
     },
@@ -51940,6 +52136,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "provisao-para-viagem",
+        "siteId": "provisao-para-viagem",
         "categoria": "Servico"
       }
     },
@@ -51962,6 +52159,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "refeicao-simples",
+        "siteId": "refeicao-simples",
         "categoria": "Servico"
       }
     },
@@ -51984,6 +52182,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "refeicao-quente",
+        "siteId": "refeicao-quente",
         "categoria": "Servico"
       }
     },
@@ -52006,6 +52205,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "refeicao-completa",
+        "siteId": "refeicao-completa",
         "categoria": "Servico"
       }
     },
@@ -52028,6 +52228,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "banquete",
+        "siteId": "banquete",
         "categoria": "Servico"
       }
     },
@@ -52050,6 +52251,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "camarote",
+        "siteId": "camarote",
         "categoria": "Servico"
       }
     },
@@ -52072,6 +52274,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "comida-e-agua-para-cavalos",
+        "siteId": "comida-e-agua-para-cavalos",
         "categoria": "Servico"
       }
     },
@@ -52094,6 +52297,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lavanderia",
+        "siteId": "lavanderia",
         "categoria": "Servico"
       }
     },
@@ -52116,6 +52320,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "passagem-comum",
+        "siteId": "passagem-comum",
         "categoria": "Servico"
       }
     },
@@ -52138,6 +52343,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "passagem-completa",
+        "siteId": "passagem-completa",
         "categoria": "Servico"
       }
     },
@@ -52160,6 +52366,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "passagem-especial",
+        "siteId": "passagem-especial",
         "categoria": "Servico"
       }
     },
@@ -52182,6 +52389,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "passagem-privativa",
+        "siteId": "passagem-privativa",
         "categoria": "Servico"
       }
     },
@@ -52204,6 +52412,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "quarto-comunal",
+        "siteId": "quarto-comunal",
         "categoria": "Servico"
       }
     },
@@ -52226,6 +52435,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "quarto-comum",
+        "siteId": "quarto-comum",
         "categoria": "Servico"
       }
     },
@@ -52248,6 +52458,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "quarto-grande",
+        "siteId": "quarto-grande",
         "categoria": "Servico"
       }
     },
@@ -52270,6 +52481,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "quarto-comum-para-quatro-pessoas",
+        "siteId": "quarto-comum-para-quatro",
         "categoria": "Mundano"
       }
     },
@@ -52292,6 +52504,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "quarto-grande-para-oito-pessoas",
+        "siteId": "quarto-grande-para-oito",
         "categoria": "Mundano"
       }
     },
@@ -52314,6 +52527,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "antidoto-avancado",
+        "siteId": "antidoto-avancado",
         "categoria": "Pocao"
       }
     },
@@ -52336,6 +52550,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "antidoto-cola-carne",
+        "siteId": "antidoto-cola-carne",
         "categoria": "Pocao"
       }
     },
@@ -52358,6 +52573,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "antidoto-universal",
+        "siteId": "antidoto-universal",
         "categoria": "Pocao"
       }
     },
@@ -52380,6 +52596,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-agilidade",
+        "siteId": "elixir-da-agilidade",
         "categoria": "Pocao"
       }
     },
@@ -52402,6 +52619,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-forca",
+        "siteId": "elixir-da-forca",
         "categoria": "Pocao"
       }
     },
@@ -52424,6 +52642,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-inteligencia",
+        "siteId": "elixir-da-inteligencia",
         "categoria": "Pocao"
       }
     },
@@ -52446,6 +52665,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-restauracao",
+        "siteId": "elixir-da-restauracao",
         "categoria": "Pocao"
       }
     },
@@ -52468,6 +52688,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-restauracao-maior",
+        "siteId": "elixir-da-restauracao-maior",
         "categoria": "Pocao"
       }
     },
@@ -52490,6 +52711,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-praga",
+        "siteId": "elixir-da-praga",
         "categoria": "Pocao"
       }
     },
@@ -52512,6 +52734,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-da-praga",
+        "siteId": "extrato-da-praga",
         "categoria": "Pocao"
       }
     },
@@ -52534,6 +52757,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-do-espiao",
+        "siteId": "extrato-do-espiao",
         "categoria": "Pocao"
       }
     },
@@ -52556,6 +52780,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-da-petrificacao",
+        "siteId": "extrato-da-petrificacao",
         "categoria": "Pocao"
       }
     },
@@ -52578,6 +52803,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-fantasma",
+        "siteId": "extrato-fantasma",
         "categoria": "Pocao"
       }
     },
@@ -52600,6 +52826,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-da-podridao",
+        "siteId": "veneno-da-podridao",
         "categoria": "Pocao"
       }
     },
@@ -52622,6 +52849,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-de-glycon",
+        "siteId": "veneno-de-glycon",
         "categoria": "Pocao"
       }
     },
@@ -52644,6 +52872,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-de-koth",
+        "siteId": "veneno-de-koth",
         "categoria": "Pocao"
       }
     },
@@ -52666,6 +52895,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-levitacao",
+        "siteId": "elixir-da-levitacao",
         "categoria": "Pocao"
       }
     },
@@ -52688,6 +52918,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-velocidade",
+        "siteId": "elixir-da-velocidade",
         "categoria": "Pocao"
       }
     },
@@ -52710,6 +52941,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-da-vontade",
+        "siteId": "elixir-da-vontade",
         "categoria": "Pocao"
       }
     },
@@ -52732,6 +52964,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-de-axalote",
+        "siteId": "elixir-de-axalote",
         "categoria": "Pocao",
         "origem": "homebrew"
       }
@@ -52755,6 +52988,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-de-cura",
+        "siteId": "elixir-de-vida",
         "categoria": "Pocao"
       }
     },
@@ -52777,6 +53011,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-de-cura-maior",
+        "siteId": "elixir-de-cura-maior",
         "categoria": "Pocao"
       }
     },
@@ -52799,6 +53034,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-de-mana",
+        "siteId": "elixir-de-mana",
         "categoria": "Pocao"
       }
     },
@@ -52821,6 +53057,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-de-mana-maior",
+        "siteId": "elixir-de-mana-maior",
         "categoria": "Pocao"
       }
     },
@@ -52843,6 +53080,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-do-dragao-branco",
+        "siteId": "elixir-do-dragao-branco",
         "categoria": "Pocao"
       }
     },
@@ -52865,6 +53103,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-do-dragao-vermelho",
+        "siteId": "elixir-do-dragao-vermelho",
         "categoria": "Pocao"
       }
     },
@@ -52887,6 +53126,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "elixir-dos-deuses",
+        "siteId": "elixir-dos-deuses",
         "categoria": "Pocao"
       }
     },
@@ -52909,6 +53149,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-acido",
+        "siteId": "extrato-acido",
         "categoria": "Pocao"
       }
     },
@@ -52931,6 +53172,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-congelante",
+        "siteId": "extrato-congelante",
         "categoria": "Pocao"
       }
     },
@@ -52953,6 +53195,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-da-res-a-eletricidade",
+        "siteId": "extrato-da-res-a-eletricidade",
         "categoria": "Pocao"
       }
     },
@@ -52975,6 +53218,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-da-resistencia-ao-fogo",
+        "siteId": "extrato-da-resistencia-ao-fogo",
         "categoria": "Pocao"
       }
     },
@@ -52997,6 +53241,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-da-resistencia-ao-frio",
+        "siteId": "extrato-da-resistencia-ao-frio",
         "categoria": "Pocao"
       }
     },
@@ -53019,6 +53264,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-do-retorno",
+        "siteId": "extrato-do-retorno",
         "categoria": "Pocao"
       }
     },
@@ -53041,6 +53287,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-explosivo-maior",
+        "siteId": "extrato-explosivo-maior",
         "categoria": "Pocao"
       }
     },
@@ -53063,6 +53310,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-explosivo-menor",
+        "siteId": "extrato-explosivo-menor",
         "categoria": "Pocao"
       }
     },
@@ -53085,6 +53333,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-luminoso",
+        "siteId": "extrato-luminoso",
         "categoria": "Pocao"
       }
     },
@@ -53107,6 +53356,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "extrato-regenerativo",
+        "siteId": "extrato-regenerativo",
         "categoria": "Pocao"
       }
     },
@@ -53129,6 +53379,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pocao-do-caos",
+        "siteId": "pocao-do-caos",
         "categoria": "Pocao"
       }
     },
@@ -53151,6 +53402,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-da-lentidao",
+        "siteId": "veneno-da-lentidao",
         "categoria": "Pocao"
       }
     },
@@ -53173,6 +53425,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-da-verdade",
+        "siteId": "veneno-da-verdade",
         "categoria": "Pocao"
       }
     },
@@ -53195,6 +53448,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-paralisante",
+        "siteId": "veneno-paralisante",
         "categoria": "Pocao"
       }
     },
@@ -53217,6 +53471,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-potente",
+        "siteId": "veneno-potente",
         "categoria": "Pocao"
       }
     },
@@ -53239,6 +53494,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-real",
+        "siteId": "veneno-real",
         "categoria": "Pocao"
       }
     },
@@ -53261,6 +53517,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-sonifero",
+        "siteId": "veneno-sonifero",
         "categoria": "Pocao"
       }
     },
@@ -53283,6 +53540,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-torturante",
+        "siteId": "veneno-torturante",
         "categoria": "Pocao"
       }
     },
@@ -53305,6 +53563,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "asa-de-morcego",
+        "siteId": "asa-de-morcego",
         "categoria": "Ingrediente"
       }
     },
@@ -53327,6 +53586,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "azeviche",
+        "siteId": "azeviche",
         "categoria": "Ingrediente"
       }
     },
@@ -53349,6 +53609,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cogumelo-vermelho",
+        "siteId": "cogumelo-vermelho",
         "categoria": "Ingrediente"
       }
     },
@@ -53371,6 +53632,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "coracao-de-grifo",
+        "siteId": "coracao-de-grifo",
         "categoria": "Ingrediente"
       }
     },
@@ -53393,6 +53655,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "dente-de-dragao",
+        "siteId": "dente-de-dragao",
         "categoria": "Ingrediente"
       }
     },
@@ -53415,6 +53678,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "enxofre",
+        "siteId": "enxofre",
         "categoria": "Ingrediente"
       }
     },
@@ -53437,6 +53701,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "erva-da-lua",
+        "siteId": "erva-da-lua",
         "categoria": "Ingrediente"
       }
     },
@@ -53459,6 +53724,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "erva-dos-passos",
+        "siteId": "erva-dos-passos",
         "categoria": "Ingrediente"
       }
     },
@@ -53481,6 +53747,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flor-de-argusia",
+        "siteId": "flor-de-argusia",
         "categoria": "Ingrediente"
       }
     },
@@ -53503,6 +53770,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "flor-de-isura",
+        "siteId": "flor-de-isura",
         "categoria": "Ingrediente"
       }
     },
@@ -53525,6 +53793,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "folha-de-eucalipto",
+        "siteId": "folha-de-eucalipto",
         "categoria": "Ingrediente"
       }
     },
@@ -53547,6 +53816,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "folha-de-garraka",
+        "siteId": "folha-de-garraka",
         "categoria": "Ingrediente"
       }
     },
@@ -53569,6 +53839,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "folha-de-oliveira",
+        "siteId": "folha-de-oliveira",
         "categoria": "Ingrediente"
       }
     },
@@ -53591,6 +53862,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "glandula-de-pirilampo",
+        "siteId": "glandula-de-pirilampo",
         "categoria": "Ingrediente"
       }
     },
@@ -53613,6 +53885,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "olho-de-basilisco",
+        "siteId": "olho-de-basilisco",
         "categoria": "Ingrediente"
       }
     },
@@ -53635,6 +53908,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "ossos-de-hidra",
+        "siteId": "ossos-de-hidra",
         "categoria": "Ingrediente"
       }
     },
@@ -53657,6 +53931,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pele-de-camaleao",
+        "siteId": "pele-de-camaleao",
         "categoria": "Ingrediente"
       }
     },
@@ -53679,6 +53954,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "po-de-ambar",
+        "siteId": "po-de-ambar",
         "categoria": "Ingrediente"
       }
     },
@@ -53701,6 +53977,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "po-de-obsidiana",
+        "siteId": "po-de-obsidiana",
         "categoria": "Ingrediente"
       }
     },
@@ -53723,6 +54000,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "po-de-pirita",
+        "siteId": "po-de-pirita",
         "categoria": "Ingrediente"
       }
     },
@@ -53745,6 +54023,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "rabo-de-salamandra",
+        "siteId": "rabo-de-salamandra",
         "categoria": "Ingrediente"
       }
     },
@@ -53767,6 +54046,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "raiz-de-carvalho",
+        "siteId": "raiz-de-carvalho",
         "categoria": "Ingrediente"
       }
     },
@@ -53789,6 +54069,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "raiz-de-mandragora",
+        "siteId": "raiz-de-mandragora",
         "categoria": "Ingrediente"
       }
     },
@@ -53811,6 +54092,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tarantula",
+        "siteId": "tarantula",
         "categoria": "Ingrediente"
       }
     },
@@ -53833,6 +54115,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "trevo-de-quatro-folhas",
+        "siteId": "trevo-de-quatro-folhas",
         "categoria": "Ingrediente"
       }
     },
@@ -53855,6 +54138,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-de-cobra",
+        "siteId": "veneno-de-cobra",
         "categoria": "Ingrediente"
       }
     },
@@ -53877,6 +54161,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-de-escorpiao",
+        "siteId": "veneno-de-escorpiao",
         "categoria": "Ingrediente"
       }
     },
@@ -53899,6 +54184,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "veneno-de-planta-assassina",
+        "siteId": "veneno-de-planta-assassina",
         "categoria": "Ingrediente"
       }
     },
@@ -53921,6 +54207,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "agulhas",
+        "siteId": "agulhas",
         "categoria": "Mundano"
       }
     },
@@ -53943,6 +54230,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "almofariz",
+        "siteId": "almofariz",
         "categoria": "Mundano"
       }
     },
@@ -53965,6 +54253,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "ampulheta",
+        "siteId": "ampulheta",
         "categoria": "Mundano"
       }
     },
@@ -53987,6 +54276,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "anel",
+        "siteId": "anel",
         "categoria": "Mundano"
       }
     },
@@ -54009,6 +54299,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-batalha",
+        "siteId": "armadura-animal-batalha",
         "categoria": "Mundano",
         "origem": "homebrew"
       }
@@ -54032,6 +54323,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-completa",
+        "siteId": "armadura-animal-completa",
         "categoria": "Mundano",
         "origem": "homebrew"
       }
@@ -54055,6 +54347,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-couro",
+        "siteId": "armadura-animal-couro",
         "categoria": "Mundano",
         "origem": "homebrew"
       }
@@ -54078,6 +54371,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "armadura-animal-simples",
+        "siteId": "armadura-animal-simples",
         "categoria": "Mundano",
         "origem": "homebrew"
       }
@@ -54101,6 +54395,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "astrolabio",
+        "siteId": "astrolabio",
         "categoria": "Mundano"
       }
     },
@@ -54123,6 +54418,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "balanca",
+        "siteId": "balanca",
         "categoria": "Mundano"
       }
     },
@@ -54145,6 +54441,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "balao-de-vidro",
+        "siteId": "balao-de-vidro",
         "categoria": "Mundano"
       }
     },
@@ -54167,6 +54464,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "baralho",
+        "siteId": "baralho",
         "categoria": "Mundano"
       }
     },
@@ -54189,6 +54487,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "barra-de-giz",
+        "siteId": "barra-de-giz",
         "categoria": "Mundano"
       }
     },
@@ -54211,6 +54510,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "brinco",
+        "siteId": "brinco",
         "categoria": "Mundano"
       }
     },
@@ -54233,6 +54533,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "broche",
+        "siteId": "broche",
         "categoria": "Mundano"
       }
     },
@@ -54255,6 +54556,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bule-de-peltre",
+        "siteId": "bule-de-peltre",
         "categoria": "Mundano"
       }
     },
@@ -54277,6 +54579,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "buril",
+        "siteId": "buril",
         "categoria": "Mundano"
       }
     },
@@ -54299,6 +54602,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bussola",
+        "siteId": "bussola",
         "categoria": "Mundano"
       }
     },
@@ -54321,6 +54625,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cadinho",
+        "siteId": "cadinho",
         "categoria": "Mundano"
       }
     },
@@ -54343,6 +54648,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "carretel",
+        "siteId": "carretel",
         "categoria": "Mundano"
       }
     },
@@ -54365,6 +54671,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "compasso",
+        "siteId": "compasso",
         "categoria": "Mundano"
       }
     },
@@ -54387,6 +54694,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "condensador",
+        "siteId": "condensador",
         "categoria": "Mundano"
       }
     },
@@ -54409,6 +54717,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "corda-grossa-15m",
+        "siteId": "corda-grossa-15m",
         "categoria": "Mundano"
       }
     },
@@ -54431,6 +54740,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "corda-simples-15m",
+        "siteId": "corda-simples-15m",
         "categoria": "Mundano"
       }
     },
@@ -54453,6 +54763,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "coroa",
+        "siteId": "coroa",
         "categoria": "Mundano"
       }
     },
@@ -54475,6 +54786,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "corrente",
+        "siteId": "corrente",
         "categoria": "Mundano"
       }
     },
@@ -54497,6 +54809,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "dados",
+        "siteId": "dados",
         "categoria": "Mundano"
       }
     },
@@ -54519,6 +54832,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "dados-viciados",
+        "siteId": "dados-viciados",
         "categoria": "Mundano"
       }
     },
@@ -54541,6 +54855,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "diadema",
+        "siteId": "diadema",
         "categoria": "Mundano"
       }
     },
@@ -54563,6 +54878,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "diamante",
+        "siteId": "diamante",
         "categoria": "Mundano"
       }
     },
@@ -54585,6 +54901,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "distintivo",
+        "siteId": "distintivo",
         "categoria": "Mundano"
       }
     },
@@ -54607,6 +54924,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "esmeralda",
+        "siteId": "esmeralda",
         "categoria": "Mundano"
       }
     },
@@ -54629,6 +54947,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "espelho",
+        "siteId": "espelho",
         "categoria": "Mundano"
       }
     },
@@ -54651,6 +54970,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "espiriteira",
+        "siteId": "espiriteira",
         "categoria": "Mundano"
       }
     },
@@ -54673,6 +54993,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "esquadro",
+        "siteId": "esquadro",
         "categoria": "Mundano"
       }
     },
@@ -54695,6 +55016,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "estatueta",
+        "siteId": "estatueta",
         "categoria": "Mundano"
       }
     },
@@ -54717,6 +55039,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "faca",
+        "siteId": "faca",
         "categoria": "Mundano"
       }
     },
@@ -54739,6 +55062,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "formao-cinzel",
+        "siteId": "formao-cinzel",
         "categoria": "Mundano"
       }
     },
@@ -54761,6 +55085,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "guaiaca",
+        "siteId": "guaiaca",
         "categoria": "Mundano"
       }
     },
@@ -54783,6 +55108,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-alvenaria",
+        "siteId": "instrumentos-de-alvenaria",
         "categoria": "Mundano"
       }
     },
@@ -54805,6 +55131,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-ceramica",
+        "siteId": "instrumentos-de-ceramica",
         "categoria": "Mundano"
       }
     },
@@ -54827,6 +55154,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-costura",
+        "siteId": "instrumentos-de-costura",
         "categoria": "Mundano"
       }
     },
@@ -54849,6 +55177,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-escrita",
+        "siteId": "instrumentos-de-escrita",
         "categoria": "Mundano"
       }
     },
@@ -54871,6 +55200,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-forja",
+        "siteId": "instrumentos-de-forja",
         "categoria": "Mundano"
       }
     },
@@ -54893,6 +55223,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-precisao",
+        "siteId": "instrumentos-de-precisao",
         "categoria": "Mundano"
       }
     },
@@ -54915,6 +55246,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "instrumentos-de-talha",
+        "siteId": "instrumentos-de-talha",
         "categoria": "Mundano"
       }
     },
@@ -54937,6 +55269,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "kit-de-cartografia",
+        "siteId": "kit-de-cartografia",
         "categoria": "Mundano"
       }
     },
@@ -54959,6 +55292,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "kit-de-escalada",
+        "siteId": "kit-de-escalada",
         "categoria": "Mundano"
       }
     },
@@ -54981,6 +55315,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "laboratorio-de-alquimia-portatil",
+        "siteId": "laboratorio-de-alquimia-portatil",
         "categoria": "Mundano"
       }
     },
@@ -55003,6 +55338,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lima",
+        "siteId": "lima",
         "categoria": "Mundano"
       }
     },
@@ -55025,6 +55361,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "lupa",
+        "siteId": "lupa",
         "categoria": "Mundano"
       }
     },
@@ -55047,6 +55384,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "manto-da-fenix",
+        "siteId": "manto-da-fenix",
         "categoria": "Mundano"
       }
     },
@@ -55069,6 +55407,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "medalhao",
+        "siteId": "medalhao",
         "categoria": "Mundano"
       }
     },
@@ -55091,6 +55430,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "mochila-pequena-embornal",
+        "siteId": "mochila-pequena-embornal",
         "categoria": "Mundano"
       }
     },
@@ -55113,6 +55453,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pente",
+        "siteId": "pente",
         "categoria": "Mundano"
       }
     },
@@ -55135,6 +55476,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "picareta",
+        "siteId": "picareta",
         "categoria": "Mundano"
       }
     },
@@ -55157,6 +55499,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pincel",
+        "siteId": "pincel",
         "categoria": "Mundano"
       }
     },
@@ -55179,6 +55522,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pingente",
+        "siteId": "pingente",
         "categoria": "Mundano"
       }
     },
@@ -55201,6 +55545,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pinos-de-aco",
+        "siteId": "pinos-de-aco",
         "categoria": "Mundano"
       }
     },
@@ -55223,6 +55568,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pregos",
+        "siteId": "pregos",
         "categoria": "Mundano"
       }
     },
@@ -55245,6 +55591,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "pulseira",
+        "siteId": "pulseira",
         "categoria": "Mundano"
       }
     },
@@ -55267,6 +55614,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "quartzo",
+        "siteId": "quartzo",
         "categoria": "Mundano"
       }
     },
@@ -55289,6 +55637,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "regua",
+        "siteId": "regua",
         "categoria": "Mundano"
       }
     },
@@ -55311,6 +55660,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "rubi",
+        "siteId": "rubi",
         "categoria": "Mundano"
       }
     },
@@ -55333,6 +55683,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "safira",
+        "siteId": "safira",
         "categoria": "Mundano"
       }
     },
@@ -55355,6 +55706,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "sextante",
+        "siteId": "sextante",
         "categoria": "Mundano"
       }
     },
@@ -55377,6 +55729,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "soprador-de-vidro",
+        "siteId": "soprador-de-vidro",
         "categoria": "Mundano"
       }
     },
@@ -55399,6 +55752,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "sovela",
+        "siteId": "sovela",
         "categoria": "Mundano"
       }
     },
@@ -55421,6 +55775,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tabarda",
+        "siteId": "tabarda",
         "categoria": "Mundano"
       }
     },
@@ -55443,6 +55798,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tenazes",
+        "siteId": "tenazes",
         "categoria": "Mundano"
       }
     },
@@ -55465,6 +55821,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "amuleto-holdan",
+        "siteId": "amuleto-holdan",
         "categoria": "Especial"
       }
     },
@@ -55487,6 +55844,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "amuleto-dos-mortos",
+        "siteId": "amuleto-dos-mortos",
         "categoria": "Especial"
       }
     },
@@ -55509,6 +55867,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "anel-da-invisibilidade",
+        "siteId": "anel-da-invisibilidade",
         "categoria": "Especial"
       }
     },
@@ -55531,6 +55890,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "bolsa-do-espaco-infinito",
+        "siteId": "bolsa-do-espaco-infinito",
         "categoria": "Especial"
       }
     },
@@ -55553,6 +55913,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "botas-da-furtividade",
+        "siteId": "botas-da-furtividade",
         "categoria": "Especial"
       }
     },
@@ -55575,6 +55936,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cesta-das-infinitas-tortas",
+        "siteId": "cesta-das-infinitas-tortas",
         "categoria": "Especial"
       }
     },
@@ -55597,6 +55959,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cinto-da-forca",
+        "siteId": "cinto-da-forca",
         "categoria": "Especial"
       }
     },
@@ -55619,6 +55982,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "coroa-da-inteligencia",
+        "siteId": "coroa-da-inteligencia",
         "categoria": "Especial"
       }
     },
@@ -55641,6 +56005,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "corrente-da-vontade",
+        "siteId": "corrente-da-vontade",
         "categoria": "Especial"
       }
     },
@@ -55663,6 +56028,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "grevas-de-chutar-goblins",
+        "siteId": "grevas-de-chutar-goblins",
         "categoria": "Especial"
       }
     },
@@ -55685,6 +56051,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "espelhos-mensageiros",
+        "siteId": "espelhos-mensageiros",
         "categoria": "Especial"
       }
     },
@@ -55707,6 +56074,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "luvas-da-agilidade",
+        "siteId": "luvas-da-agilidade",
         "categoria": "Especial"
       }
     },
@@ -55729,6 +56097,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "manto-da-protecao",
+        "siteId": "manto-da-protecao",
         "categoria": "Especial"
       }
     },
@@ -55751,6 +56120,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "ankusa",
+        "siteId": "ankusa",
         "categoria": "Mundano"
       }
     },
@@ -55773,6 +56143,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "arnes",
+        "siteId": "arnes",
         "categoria": "Mundano"
       }
     },
@@ -55795,6 +56166,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cangalha",
+        "siteId": "cangalha",
         "categoria": "Mundano"
       }
     },
@@ -55817,6 +56189,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "charrete",
+        "siteId": "charrete",
         "categoria": "Mundano"
       }
     },
@@ -55839,6 +56212,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "howdah",
+        "siteId": "howdah",
         "categoria": "Mundano"
       }
     },
@@ -55861,6 +56235,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "howdah-de-guerra",
+        "siteId": "howdah-de-guerra",
         "categoria": "Mundano"
       }
     },
@@ -55883,6 +56258,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "jagannath",
+        "siteId": "jagannath",
         "categoria": "Mundano"
       }
     },
@@ -55905,6 +56281,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "racoes",
+        "siteId": "racoes",
         "categoria": "Mundano"
       }
     },
@@ -55927,6 +56304,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "sela-de-guerra",
+        "siteId": "sela-de-guerra",
         "categoria": "Mundano"
       }
     },
@@ -55949,6 +56327,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "selim",
+        "siteId": "selim",
         "categoria": "Mundano"
       }
     },
@@ -55971,6 +56350,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "tapete-voador",
+        "siteId": "tapete-voador",
         "categoria": "Mundano"
       }
     },
@@ -55993,6 +56373,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "berimbau",
+        "siteId": "berimbau",
         "categoria": "Musical"
       }
     },
@@ -56015,6 +56396,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "cimbalo",
+        "siteId": "cimbalo",
         "categoria": "Musical"
       }
     },
@@ -56037,6 +56419,7 @@ export const CANONICAL_EQUIPAMENTOS = [
     "flags": {
       "mighty-blade": {
         "slug": "harpa",
+        "siteId": "harpa",
         "categoria": "Musical"
       }
     },
@@ -59578,4 +59961,47 @@ export const CANONICAL_ALIASES_EQUIPAMENTOS = {
   "corda-grossa": "corda-grossa-15m",
   "corda-simples": "corda-simples-15m",
   "mochila-pequena": "mochila-pequena-embornal"
+};
+
+// Contrato v1.2 (Fase 4): para onde vai cada campo da ficha do site. Cópia de rules-core/src/schema/contrato-foundry.ts
+export const CANONICAL_CONTRATO_SITE = {
+  "schemaVersion": "envelope",
+  "slug": "envelope",
+  "name": "envelope",
+  "type": "envelope",
+  "img": "envelope",
+  "items": "envelope",
+  "flags": "flag-site",
+  "system.attributes": "foundry",
+  "system.resources": "foundry",
+  "system.biography": "foundry",
+  "system.progressao": "foundry",
+  "system.anotacoes": "flag-site",
+  "system.karma": "flag-site",
+  "system.relacionamentos": "flag-site",
+  "system.pastaId": "flag-site",
+  "system.ordem": "flag-site",
+  "system.visibilidade": "flag-site",
+  "system.details.nivel": "foundry",
+  "system.details.experiencia": "foundry",
+  "system.details.dinheiro": "foundry",
+  "system.details.aprendiz": "foundry",
+  "system.details.caminho": "foundry",
+  "system.details.organizacao": "foundry",
+  "system.details.antecedente": "foundry",
+  "system.details.evolucao": "foundry",
+  "system.details.idiomas": "foundry",
+  "system.details.motivacao": "foundry",
+  "system.details.condicao": "foundry",
+  "system.details.idade": "foundry",
+  "system.details.aflicoes": "foundry",
+  "system.details.condicoesAtivas": "foundry",
+  "system.details.resistenciasTemp": "foundry",
+  "system.details.vulnerabilidadesTemp": "foundry",
+  "system.details.imunidadesTemp": "foundry",
+  "system.details.inventario": "foundry-items",
+  "system.details.companheiro": "flag-site",
+  "system.details.historicoDinheiro": "flag-site",
+  "system.details.antecedenteDebitoAtributo": "flag-site",
+  "system.details.usarManualDoCombatente": "flag-site"
 };

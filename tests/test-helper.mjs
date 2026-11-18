@@ -19,6 +19,8 @@ if (!globalThis.foundry) {
         NumberField: class {},
         StringField: class {},
         ArrayField: class {},
+        ObjectField: class {},
+        BooleanField: class {},
       },
     },
     utils: {
@@ -1610,5 +1612,22 @@ globalThis.levelUp = levelUp;
 export function addAbility(char, habilidade) {
   adquirirHabilidadeSync(char, habilidade);
   return char;
+}
+
+
+// Fase 4: schema do personagem como árvore (fields que guardam os argumentos), para testes do contrato com o site.
+/** Troca os fields mockados por versões que guardam o que receberam, chama defineSchema e devolve a árvore. */
+export async function capturarSchema() {
+  const original = foundry.data.fields;
+  const campo = (tipo) => class { constructor(a, b) { this.tipo = tipo; this.args = a; this.opcoes = b; } };
+  foundry.data.fields = {
+    SchemaField: campo("schema"), NumberField: campo("number"), StringField: campo("string"),
+    ArrayField: campo("array"), ObjectField: campo("object"), BooleanField: campo("boolean"),
+  };
+  try {
+    return (await import("../module/data/actor-character.mjs")).default.defineSchema();
+  } finally {
+    foundry.data.fields = original;
+  }
 }
 

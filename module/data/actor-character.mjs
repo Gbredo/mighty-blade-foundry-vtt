@@ -3,7 +3,7 @@ import { calcularEquipamento } from "../helpers/equipamento.mjs";
 export default class MightyBladeCharacterData extends foundry.abstract.TypeDataModel {
 
   static defineSchema() {
-    const { SchemaField, NumberField, StringField, ArrayField } = foundry.data.fields;
+    const { SchemaField, NumberField, StringField, ArrayField, ObjectField } = foundry.data.fields;
 
     // Atalho para campos de número inteiro não-nulo
     const int = (initial = 0, min = 0) => ({
@@ -58,7 +58,16 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
           efeito:  new StringField({ initial: "" }),
           duracao: new StringField({ initial: "" })
         })),
+        // Vindos da ficha do site (contrato v1.2, Fase 4, decisão D3 do Bredo): antes eram descartados no import.
+        condicoesAtivas:      new ArrayField(new StringField({ blank: false })),
+        resistenciasTemp:     new ArrayField(new StringField({ blank: false })),
+        vulnerabilidadesTemp: new ArrayField(new StringField({ blank: false })),
+        imunidadesTemp:       new ArrayField(new StringField({ blank: false })),
       }),
+
+      // Histórico de level-up da ficha do site (v1.1+): uma entrada por nível subido.
+      // Guardado como veio ({ nivel, peGasto, peEscolhaId, habilidade, atributosUpados }).
+      progressao: new ArrayField(new ObjectField()),
 
       biography: new StringField({ initial: "", blank: true }),
     };

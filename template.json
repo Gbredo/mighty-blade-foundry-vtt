@@ -36,8 +36,13 @@
         "condicao": "",
         "idade": "",
         "dinheiro": 0,
-        "aflicoes": []
+        "aflicoes": [],
+        "condicoesAtivas": [],
+        "resistenciasTemp": [],
+        "vulnerabilidadesTemp": [],
+        "imunidadesTemp": []
       },
+      "progressao": [],
       "subattributes": {
         "carga": { "value": 0, "max": 0 },
         "deslocamento": { "value": 0 },

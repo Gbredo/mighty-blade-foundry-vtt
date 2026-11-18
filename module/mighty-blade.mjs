@@ -11,7 +11,7 @@ import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { MIGHTY_BLADE } from "./helpers/config.mjs";
 import { createRaces } from "./helpers/create-races.mjs";
 import { rollTest, rollAttribute, requestTestOptions, castSpell } from "./helpers/dice.mjs";
-import { importCharacter, importCharacterFromJSON, openImportDialog } from "./helpers/import.mjs";
+import { importCharacter, importCharacterFromJSON, openImportDialog, exportarActorParaSite } from "./helpers/import.mjs";
 import { buildCompendios } from "./helpers/packs.mjs";
 import { MightyBladeCompendiumBrowser, resolveItemImage } from "./apps/compendium-browser.mjs";
 
@@ -41,6 +41,7 @@ Hooks.once("init", async function () {
     importCharacter,
     importCharacterFromJSON,
     openImportDialog,
+    exportarActorParaSite,
     // Compêndios e Navegador Visual
     buildCompendios,
     CompendiumBrowser: MightyBladeCompendiumBrowser,
@@ -117,6 +118,24 @@ Hooks.on("renderActorDirectory", (app, html) => {
   btn.innerHTML = `<i class="fas fa-file-import"></i> Importar Ficha`;
   btn.addEventListener("click", () => openImportDialog());
   header.appendChild(btn);
+});
+
+/* -------------------------------------------- */
+/* "Exportar para o site" no menu do Ator       */
+/* -------------------------------------------- */
+// Fase 4: clique direito num personagem na aba de Atores → baixa o JSON para importar no site.
+Hooks.on("getActorContextOptions", (app, options) => {
+  const acharActor = (li) => {
+    const el = li instanceof HTMLElement ? li : li?.[0];
+    const id = el?.dataset?.entryId ?? el?.dataset?.documentId;
+    return id ? game.actors.get(id) : null;
+  };
+  options.push({
+    name: "Exportar para o site",
+    icon: '<i class="fas fa-file-export"></i>',
+    condition: (li) => acharActor(li)?.type === "character",
+    callback: (li) => exportarActorParaSite(acharActor(li)),
+  });
 });
 
 /* -------------------------------------------- */
