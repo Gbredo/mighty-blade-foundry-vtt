@@ -23,6 +23,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "lanca",
+      "siteId": "lanca",
       "categoria": "Arma"
     }
   },

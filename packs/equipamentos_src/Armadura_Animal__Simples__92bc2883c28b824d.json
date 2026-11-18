@@ -14,6 +14,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "armadura-animal-simples",
+      "siteId": "armadura-animal-simples",
       "categoria": "Mundano",
       "origem": "homebrew"
     }

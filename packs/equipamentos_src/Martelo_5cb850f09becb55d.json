@@ -20,6 +20,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "martelo",
+      "siteId": "martelo",
       "categoria": "Arma"
     }
   },

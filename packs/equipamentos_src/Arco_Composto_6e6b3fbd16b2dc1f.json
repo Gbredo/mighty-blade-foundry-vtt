@@ -22,6 +22,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "arco-composto",
+      "siteId": "arco-composto",
       "categoria": "Projetil"
     }
   },

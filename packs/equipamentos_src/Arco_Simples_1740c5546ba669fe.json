@@ -22,6 +22,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "arco-simples",
+      "siteId": "arco-simples",
       "categoria": "Projetil"
     }
   },

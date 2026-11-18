@@ -14,6 +14,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "compasso",
+      "siteId": "compasso",
       "categoria": "Mundano"
     }
   },

@@ -24,6 +24,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "punhal",
+      "siteId": "punhal",
       "categoria": "Conjuracao"
     }
   },

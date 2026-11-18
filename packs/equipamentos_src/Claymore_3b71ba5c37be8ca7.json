@@ -23,6 +23,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "claymore",
+      "siteId": "claymore",
       "categoria": "Arma"
     }
   },

@@ -23,6 +23,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "tridente",
+      "siteId": "tridente",
       "categoria": "Arma"
     }
   },

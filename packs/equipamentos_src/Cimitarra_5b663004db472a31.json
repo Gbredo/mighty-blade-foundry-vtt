@@ -23,6 +23,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "cimitarra",
+      "siteId": "cimitarra",
       "categoria": "Arma"
     }
   },

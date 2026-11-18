@@ -14,6 +14,7 @@
   "flags": {
     "mighty-blade": {
       "slug": "armadura-animal-couro",
+      "siteId": "armadura-animal-couro",
       "categoria": "Mundano",
       "origem": "homebrew"
     }
