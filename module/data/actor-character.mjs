@@ -1,4 +1,5 @@
 import { calcularEquipamento } from "../helpers/equipamento.mjs";
+import { aplicarCondicoesNoMovimento, condicoesDoActor } from "../helpers/condicoes-movimento.mjs";
 
 export default class MightyBladeCharacterData extends foundry.abstract.TypeDataModel {
 
@@ -411,10 +412,13 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
 
     const fatorCorrida = this.equipamento?.fatorCorrida ?? (this.equipamento?.pesadaEquipada ? 3 : 4);
 
+    // Condições no movimento (Atordoado, Enregelado, Imobilizado...): a mesma regra do site (Fase 4)
+    const mov = aplicarCondicoesNoMovimento(deslocamento, deslocamento * fatorCorrida, condicoesDoActor(this, this.parent), { usarManualDoCombatente: usarMC });
+
     this.subattributes = {
       iniciativa:   { value: usarMC ? Math.min(agilidade, inteligencia) : Math.max(agilidade, inteligencia) },
-      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agiDesl / 2) + baseDesl, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
-      corrida:      { value: deslocamento * fatorCorrida },
+      deslocamento: { value: mov.deslocamento, semCondicao: deslocamento, condicoes: mov.condicoes, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agiDesl / 2) + baseDesl, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
+      corrida:      { value: mov.corrida, semCondicao: deslocamento * fatorCorrida },
       carga: {
         value:            parseFloat(cargaAtual.toFixed(2)),
         basica:           basicaPadrao,       // GB: FOR×7 kg — sem penalidade

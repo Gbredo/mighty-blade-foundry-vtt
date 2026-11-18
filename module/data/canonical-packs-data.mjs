@@ -60005,3 +60005,187 @@ export const CANONICAL_CONTRATO_SITE = {
   "system.details.antecedenteDebitoAtributo": "flag-site",
   "system.details.usarManualDoCombatente": "flag-site"
 };
+
+// Movimento por condição (Fase 4): Guia Básico e Manual do Combatente. Cópia de rules-core tabelaDeMovimentoPorCondicao
+export const CANONICAL_CONDICOES_MOVIMENTO = {
+  "gb": {
+    "agarrando": {
+      "implica": [],
+      "semMovimento": true
+    },
+    "agarrado": {
+      "implica": [],
+      "semMovimento": true
+    },
+    "amedrontado": {
+      "implica": []
+    },
+    "atordoado": {
+      "implica": [],
+      "deslocamento": -1
+    },
+    "caido": {
+      "implica": []
+    },
+    "cego": {
+      "implica": []
+    },
+    "desidratado": {
+      "implica": []
+    },
+    "distraido": {
+      "implica": []
+    },
+    "dormindo": {
+      "implica": [
+        "surpreso"
+      ]
+    },
+    "enregelado": {
+      "implica": [],
+      "deslocamentoMetade": true
+    },
+    "faminto": {
+      "implica": []
+    },
+    "fatigado": {
+      "implica": [],
+      "semAcoes": true
+    },
+    "imobilizando": {
+      "implica": [
+        "surpreso"
+      ]
+    },
+    "imobilizado": {
+      "implica": [
+        "surpreso"
+      ],
+      "semAcoes": true
+    },
+    "inapto": {
+      "implica": []
+    },
+    "inconsciente": {
+      "implica": [
+        "indefeso"
+      ],
+      "semAcoes": true
+    },
+    "indefeso": {
+      "implica": []
+    },
+    "invisivel": {
+      "implica": []
+    },
+    "paralisado": {
+      "implica": [
+        "surpreso"
+      ],
+      "semAcoes": true
+    },
+    "por-um-fio": {
+      "implica": [
+        "inconsciente",
+        "indefeso"
+      ],
+      "semAcoes": true
+    },
+    "surpreso": {
+      "implica": []
+    },
+    "exausto": {
+      "implica": [],
+      "semAcoes": true
+    }
+  },
+  "mc": {
+    "agarrando": {
+      "implica": []
+    },
+    "agarrado": {
+      "implica": []
+    },
+    "amedrontado": {
+      "implica": []
+    },
+    "atordoado": {
+      "implica": []
+    },
+    "caido": {
+      "implica": [],
+      "deslocamentoMetade": true
+    },
+    "cego": {
+      "implica": []
+    },
+    "desidratado": {
+      "implica": []
+    },
+    "distraido": {
+      "implica": []
+    },
+    "dormindo": {
+      "implica": [
+        "surpreso"
+      ]
+    },
+    "enregelado": {
+      "implica": [],
+      "deslocamentoMetade": true
+    },
+    "faminto": {
+      "implica": []
+    },
+    "fatigado": {
+      "implica": [],
+      "deslocamentoMetade": true
+    },
+    "imobilizando": {
+      "implica": [
+        "surpreso"
+      ]
+    },
+    "imobilizado": {
+      "implica": [
+        "surpreso"
+      ],
+      "semAcoes": true
+    },
+    "inapto": {
+      "implica": []
+    },
+    "inconsciente": {
+      "implica": [
+        "surpreso"
+      ],
+      "semAcoes": true
+    },
+    "indefeso": {
+      "implica": []
+    },
+    "invisivel": {
+      "implica": []
+    },
+    "paralisado": {
+      "implica": [
+        "surpreso"
+      ],
+      "semAcoes": true
+    },
+    "por-um-fio": {
+      "implica": [
+        "inconsciente",
+        "indefeso"
+      ],
+      "semAcoes": true
+    },
+    "surpreso": {
+      "implica": []
+    },
+    "exausto": {
+      "implica": [],
+      "deslocamentoMetade": true
+    }
+  }
+};

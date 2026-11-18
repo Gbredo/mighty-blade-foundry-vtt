@@ -12,7 +12,7 @@ const { HABILIDADES } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist
 const { EQUIPAMENTOS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/equipamentos.js"));
 const { CAMINHOS } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/caminhos.js"));
 const { ORGANIZACOES } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/data/organizacoes.js"));
-const { HABILIDADES_GERAIS, beneficiosDoNivel, ALIASES_HABILIDADES, HABILIDADES_RETIRADAS, ANTECEDENTES, ALIASES_EQUIPAMENTOS, DESTINO_CAMPOS_FICHA } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/index.js"));
+const { HABILIDADES_GERAIS, beneficiosDoNivel, ALIASES_HABILIDADES, HABILIDADES_RETIRADAS, ANTECEDENTES, ALIASES_EQUIPAMENTOS, DESTINO_CAMPOS_FICHA, tabelaDeMovimentoPorCondicao } = require(path.join(WEBSITE_DIR, "packages/rules-core/dist/index.js"));
 
 function slugify(s) {
   return String(s ?? "")
@@ -1377,7 +1377,9 @@ async function run() {
     'export const CANONICAL_ANTECEDENTES = ' + JSON.stringify(Object.values(ANTECEDENTES || {}), null, 2) + ';\n\n' +
     'export const CANONICAL_ALIASES_EQUIPAMENTOS = ' + JSON.stringify(ALIASES_EQUIPAMENTOS || {}, null, 2) + ';\n\n' +
     '// Contrato v1.2 (Fase 4): para onde vai cada campo da ficha do site. Cópia de rules-core/src/schema/contrato-foundry.ts\n' +
-    'export const CANONICAL_CONTRATO_SITE = ' + JSON.stringify(DESTINO_CAMPOS_FICHA || {}, null, 2) + ';\n';
+    'export const CANONICAL_CONTRATO_SITE = ' + JSON.stringify(DESTINO_CAMPOS_FICHA || {}, null, 2) + ';\n\n' +
+    '// Movimento por condição (Fase 4): Guia Básico e Manual do Combatente. Cópia de rules-core tabelaDeMovimentoPorCondicao\n' +
+    'export const CANONICAL_CONDICOES_MOVIMENTO = ' + JSON.stringify({ gb: tabelaDeMovimentoPorCondicao({ usarManualDoCombatente: false }), mc: tabelaDeMovimentoPorCondicao({ usarManualDoCombatente: true }) }, null, 2) + ';\n';
 
   const mjsPath = path.join(dataOutputDir, "canonical-packs-data.mjs");
   fs.writeFileSync(mjsPath, mjsContent, "utf-8");

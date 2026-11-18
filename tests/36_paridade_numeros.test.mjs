@@ -25,12 +25,10 @@ const fixtures = fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && !f.end
  * Diferenças aceitas (escritas aqui de propósito, cada uma com o motivo):
  * - Condições ativas: o site desconta as penalidades no número da ficha; o Foundry aplica na hora
  *   do teste (obterPenalidadeDefesa). Fixtures com condição conferem a penalidade no Foundry à parte.
- * - Condições no movimento (Atordoado, Enregelado, Imobilizado...): o site reduz Deslocamento e Corrida;
- *   o Foundry AINDA NÃO tem penalidade de movimento por condição (pendência da Fase 4, docs/fase4-plano.md seção 8).
  * - Mochila: item de id antigo volta com o id de hoje (elixir-de-cura → elixir-de-vida), pelo alias.
  */
 const comIdDeHoje = (inv) => (inv ?? []).map((i) => ({ ...i, refId: CANONICAL_ALIASES_EQUIPAMENTOS?.[i.refId] ?? i.refId }));
-const CAMPOS_COM_CONDICAO = new Set(["bloqueio", "esquiva", "deslocamento", "corrida"]);
+const CAMPOS_COM_CONDICAO = new Set(["bloqueio", "esquiva"]);
 
 function prepararNoFoundry(ficha) {
   const { actorData } = montarDadosDoActor(ficha, { bonusRecursos: bonusRecursosPeloDataModel(MightyBladeCharacterData.prototype) });

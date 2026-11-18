@@ -1,12 +1,12 @@
 {
   "atributos": {
-    "forca": 5,
+    "forca": 6,
     "agilidade": 4,
     "inteligencia": 4,
-    "vontade": 3
+    "vontade": 4
   },
   "defesas": {
-    "bloqueio": 12,
+    "bloqueio": 13,
     "esquiva": 11,
     "determinacao": 12,
     "rd": 0
@@ -15,9 +15,9 @@
   "corrida": 36,
   "iniciativa": 4,
   "carga": {
-    "basica": 70,
-    "pesada": 350,
-    "maxima": 700
+    "basica": 84,
+    "pesada": 420,
+    "maxima": 840
   },
   "cargaAtual": 23.12,
   "pv": {

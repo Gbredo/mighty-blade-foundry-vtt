@@ -99,7 +99,8 @@
         "nivel": 4,
         "peGasto": "mais10PV",
         "atributosUpados": [
-          "vontade"
+          "vontade",
+          "forca"
         ]
       }
     ],

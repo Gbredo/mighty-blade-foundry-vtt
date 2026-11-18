@@ -1,19 +1,19 @@
 {
   "atributos": {
     "forca": 6,
-    "agilidade": 4,
+    "agilidade": 5,
     "inteligencia": 3,
-    "vontade": 5
+    "vontade": 6
   },
   "defesas": {
     "bloqueio": 20,
-    "esquiva": 15,
-    "determinacao": 13,
+    "esquiva": 16,
+    "determinacao": 14,
     "rd": 4
   },
   "deslocamento": 7,
   "corrida": 14,
-  "iniciativa": 4,
+  "iniciativa": 5,
   "carga": {
     "basica": 42,
     "pesada": 210,

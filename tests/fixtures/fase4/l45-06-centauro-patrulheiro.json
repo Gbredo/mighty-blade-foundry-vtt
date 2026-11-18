@@ -123,14 +123,16 @@
         "nivel": 4,
         "peGasto": "mais10PV",
         "atributosUpados": [
-          "agilidade"
+          "agilidade",
+          "forca"
         ]
       },
       {
         "nivel": 7,
         "peGasto": "mais10PV",
         "atributosUpados": [
-          "forca"
+          "forca",
+          "vontade"
         ]
       }
     ],

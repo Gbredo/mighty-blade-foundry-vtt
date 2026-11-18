@@ -1104,6 +1104,11 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
 
     const updates = { "system.details.nivel": targetLevel };
     let benefitText = "";
+    // Entrada do histórico de evolução, no formato do site (system.progressao, contrato v1.2):
+    // { nivel, peGasto, peEscolhaId?, habilidade?, atributosUpados? }
+    const PE_DO_SITE = { vida: "mais10PV", mana: "mais10PM", misto: "mais5PV5PM", aprendiz: "aprendizClasse", caminho: "aprendizCaminho" };
+    const entradaProgressao = { nivel: targetLevel };
+    if (PE_DO_SITE[parsedBenefit.tipo]) entradaProgressao.peGasto = PE_DO_SITE[parsedBenefit.tipo];
 
     const currentAprendiz = this.system?.details?.aprendiz?.trim();
     const alreadyHasAprendiz = Boolean(currentAprendiz);
@@ -1160,6 +1165,7 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
       }
 
       updates["system.details.aprendiz"] = resolvedAprendizClass;
+      entradaProgressao.peEscolhaId = slugify(resolvedAprendizClass);
       updates["system.details.evolucao"] = `Aprendiz de ${resolvedAprendizClass}`;
       benefitText = `Tornou-se Aprendiz de ${resolvedAprendizClass}`;
 
@@ -1171,6 +1177,7 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
     } else if (parsedBenefit.tipo === "caminho") {
       if (parsedBenefit.caminhoNome) {
         updates["system.details.caminho"] = parsedBenefit.caminhoNome;
+        entradaProgressao.peEscolhaId = slugify(parsedBenefit.caminhoNome);
         updates["system.details.evolucao"] = `Caminho: ${parsedBenefit.caminhoNome}`;
         benefitText = `Ingressou no Caminho ${parsedBenefit.caminhoNome}`;
       } else {
@@ -1214,11 +1221,10 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
           }
           throw new Error(val.erro);
         }
+        // Fase 4: o +1 fica na progressão (como no site), não na base. O DataModel soma a progressão
+        // aos atributos; assim a ficha vai e volta com o mesmo histórico e nada conta em dobro.
         const [a1, a2] = attributeIncreases;
-        const cur1 = Number(this.system?.attributes?.[a1]?.base) || 0;
-        const cur2 = Number(this.system?.attributes?.[a2]?.base) || 0;
-        updates[`system.attributes.${a1}.base`] = cur1 + 1;
-        updates[`system.attributes.${a2}.base`] = cur2 + 1;
+        entradaProgressao.atributosUpados = [a1, a2];
         benefitText += ` | +1 ${a1}, +1 ${a2}`;
       }
     } else if (attributeIncreases && attributeIncreases.length > 0) {
@@ -1229,6 +1235,9 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
       throw new Error(msg);
     }
 
+    const progressaoAtual = Array.isArray(this.system?.progressao) ? this.system.progressao.filter((p) => p?.nivel !== targetLevel) : [];
+    updates["system.progressao"] = [...progressaoAtual, entradaProgressao].sort((a, b) => a.nivel - b.nivel);
+
     await this.update(updates);
 
     // Regra Canônica (Caso 37 / 7.1): Se uma nova Habilidade foi indicada para este nível ganho
@@ -1236,6 +1245,9 @@ export class MightyBladeActor extends (typeof Actor !== "undefined" ? Actor : cl
       const addedHab = await this.addLevelAbility(singleNewAbility);
       if (addedHab) {
         benefitText += ` | Nova Habilidade: ${addedHab.name}`;
+        const slugHab = addedHab.flags?.["mighty-blade"]?.slug || slugify(addedHab.name);
+        const comHabilidade = (this.system?.progressao ?? []).map((p) => (p?.nivel === targetLevel ? { ...p, habilidade: slugHab } : p));
+        await this.update({ "system.progressao": comHabilidade });
       }
     }
 
