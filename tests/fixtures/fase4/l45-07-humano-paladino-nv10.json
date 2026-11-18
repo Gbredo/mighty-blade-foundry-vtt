@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-l45-07-humano-paladino-nv10",
+  "name": "l45-07-humano-paladino-nv10",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 90,
+        "max": 90
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 10,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "cruzado",
+      "organizacao": "espada-de-mirah",
+      "antecedente": "escudeiro",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "armadura-completa",
+          "equipado": true,
+          "qualidade": "Obra-Prima",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "escudo-de-corpo",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000003",
+          "refId": "elixir-de-cura",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000004",
+          "refId": "amuleto-homebrew-da-malevra",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "nomeCustomizado": "Amuleto da Malevra",
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "aflicoes": []
+    },
+    "progressao": [
+      {
+        "nivel": 4,
+        "peGasto": "mais10PV",
+        "atributosUpados": [
+          "forca"
+        ]
+      },
+      {
+        "nivel": 7,
+        "peGasto": "mais10PV",
+        "atributosUpados": [
+          "vontade"
+        ]
+      },
+      {
+        "nivel": 10,
+        "peGasto": "mais10PV",
+        "atributosUpados": [
+          "forca",
+          "agilidade"
+        ]
+      }
+    ],
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "humano",
+      "name": "Humano",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 3,
+          "agilidade": 3,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "adaptabilidade",
+      "name": "Adaptabilidade",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "paladino",
+      "name": "Paladino",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 1,
+          "agilidade": 0,
+          "inteligencia": 0,
+          "vontade": 1
+        }
+      }
+    },
+    {
+      "slug": "codigo-da-coragem",
+      "name": "Código da Coragem",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "guerreiro-de-aco-1",
+      "name": "Guerreiro de Aço 1",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    }
+  ],
+  "flags": {}
+}

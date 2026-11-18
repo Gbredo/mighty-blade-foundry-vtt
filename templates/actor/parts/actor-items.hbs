@@ -21,8 +21,10 @@
         ></div>
       </div>
       <div class="encumbrance-meta-row">
-        <span>Básica: <strong>FOR × 5</strong></span>
-        <span>Máxima: <strong>FOR × 10</strong></span>
+        {{!-- GB pág. 21: Básica = FOR × 7; Pesada = até 5× a Básica; Máxima = até 10× a Básica --}}
+        <span>Básica: <strong>FOR × 7</strong></span>
+        <span>Pesada: <strong>FOR × 35</strong></span>
+        <span>Máxima: <strong>FOR × 70</strong></span>
         {{#if isOverloaded}}
           <span class="enc-warning-badge"><i class="fas fa-triangle-exclamation"></i> Penalidade de Carga</span>
         {{/if}}

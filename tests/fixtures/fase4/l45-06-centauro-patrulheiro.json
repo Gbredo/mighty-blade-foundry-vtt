@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-l45-06-centauro-patrulheiro",
+  "name": "l45-06-centauro-patrulheiro",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 80,
+        "max": 80
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 7,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "arqueiro",
+      "organizacao": "",
+      "antecedente": "",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "arco-longo",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "armadura-de-couro",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000003",
+          "refId": "corda",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 2
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000004",
+          "refId": "elixir-de-cura",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000005",
+          "refId": "amuleto-homebrew-da-malevra",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "nomeCustomizado": "Amuleto da Malevra",
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "companheiro": {
+        "idBesta": "falcao",
+        "bonusAtributos": {
+          "forca": 0,
+          "agilidade": 1,
+          "inteligencia": 0,
+          "vontade": 0
+        },
+        "pvExtra": 5,
+        "pmExtra": 0,
+        "habilidadesExtra": [],
+        "inventario": []
+      },
+      "aflicoes": []
+    },
+    "progressao": [
+      {
+        "nivel": 4,
+        "peGasto": "mais10PV",
+        "atributosUpados": [
+          "agilidade"
+        ]
+      },
+      {
+        "nivel": 7,
+        "peGasto": "mais10PV",
+        "atributosUpados": [
+          "forca"
+        ]
+      }
+    ],
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "centauro",
+      "name": "Centauro",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 4,
+          "agilidade": 2,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "corpo-equino",
+      "name": "Corpo Equino",
+      "type": "habilidade",
+      "system": {
+        "efeitos": [
+          {
+            "tipo": "multiplicador",
+            "alvo": "carga",
+            "multiplicador": 2,
+            "baseAtributo": "forca"
+          },
+          {
+            "tipo": "multiplicador",
+            "alvo": "deslocamento",
+            "multiplicador": 2,
+            "baseAtributo": "agilidade"
+          },
+          {
+            "tipo": "bonusDadoTeste",
+            "valor": 1,
+            "contexto": "correr, saltar ou evitar ser derrubado"
+          },
+          {
+            "tipo": "ataqueNatural",
+            "parte": "cascos",
+            "dano": "Forca+2",
+            "tipoDano": "Contusao"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "patrulheiro",
+      "name": "Patrulheiro",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 0,
+          "agilidade": 1,
+          "inteligencia": 1,
+          "vontade": 0
+        }
+      }
+    }
+  ],
+  "flags": {}
+}

@@ -123,6 +123,9 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       pm: 0,
       defesaBase: 5,
       rd: 0,
+      // Efeito multiplicador (Corpo Equino, Guia do Herói pág. 16): atributo ×N só para Deslocamento / Carga
+      multDeslocamento: 1,
+      multCarga: 1,
     };
 
     const items = this.parent?.items ?? [];
@@ -149,6 +152,10 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
             break;
           case "defesaBase":
             if (Number(ef.valor) > acc.defesaBase) acc.defesaBase = Number(ef.valor);
+            break;
+          case "multiplicador":
+            if (ef.alvo === "deslocamento") acc.multDeslocamento *= Number(ef.multiplicador) || 1;
+            else if (ef.alvo === "carga") acc.multCarga *= Number(ef.multiplicador) || 1;
             break;
           case "reducaoDano":
           case "bonusRD":
@@ -268,6 +275,19 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       };
     }
 
+    // Débito de atributo do Antecedente (escolhido no site; fica na flag da ficha, Fase 4): -1 no atributo
+    const debito = this.parent?.flags?.["mighty-blade"]?.site?.system?.details?.antecedenteDebitoAtributo;
+
+    // Atributos ganhos nos níveis 4, 7 e 10 que vieram do site (system.progressao[].atributosUpados).
+    // O site guarda o ganho na progressão e não na base; o level-up do Foundry grava na base. Somando os dois,
+    // a ficha importada não perde o ganho e o que subir aqui volta para o site pela base (Fase 4, Lote 4.5).
+    const ganhoProgressao = { forca: 0, agilidade: 0, inteligencia: 0, vontade: 0 };
+    for (const p of Array.isArray(this.progressao) ? this.progressao : []) {
+      for (const a of Array.isArray(p?.atributosUpados) ? p.atributosUpados : []) {
+        if (ganhoProgressao[a] !== undefined) ganhoProgressao[a] += 1;
+      }
+    }
+
     for (const key of ["forca", "agilidade", "inteligencia", "vontade"]) {
       if (!this.attributes[key]) {
         this.attributes[key] = { base: 0, value: 0 };
@@ -276,7 +296,9 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
         (this.attributes[key].base   ?? this.attributes[key].value ?? 0) +
         (Number(raceAttrs[key])   || 0) +
         (Number(classeAttrs[key]) || 0) +
-        (bonus[key] ?? 0);
+        (bonus[key] ?? 0) +
+        ganhoProgressao[key] -
+        (debito === key ? 1 : 0);
     }
   }
 
@@ -366,10 +388,11 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
     const bonusDesl = this._efeitos?.deslocamento ?? 0;
     const usarMC = this._usarManualDoCombatente();
     const baseDesl = usarMC ? 4 : 5; // GB p.19: ⌊AGI/2⌋ + 5; Manual do Combatente p.8: + 4
-    const deslocamento = Math.floor(agilidade / 2) + baseDesl + bonusDesl;
+    const agiDesl = agilidade * (this._efeitos?.multDeslocamento ?? 1); // Corpo Equino: como se tivesse 2× a Agilidade
+    const deslocamento = Math.floor(agiDesl / 2) + baseDesl + bonusDesl;
 
     const efTextDesl = bonusDesl > 0 ? ` + <span title="Bônus/Efeitos" style="text-decoration: underline dotted; cursor: help;">${bonusDesl}</span>` : "";
-    const formulaDeslocamento = `${baseDesl} + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agilidade / 2)}</span>${efTextDesl}`;
+    const formulaDeslocamento = `${baseDesl} + <span title="Agilidade" style="text-decoration: underline dotted; cursor: help;">${Math.floor(agiDesl / 2)}</span>${efTextDesl}`;
 
     // Carga atual = soma do peso de todos os itens no inventário
     let cargaAtual = 0;
@@ -377,7 +400,8 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
       cargaAtual += (Number(item.system?.peso) || 0) * (Number(item.system?.quantidade) || 1);
     }
 
-    let forcaCarga = forca + (this._efeitos?.cargaForca ?? 0);
+    // Corpo Equino: carga como se tivesse 2× a Força; cargaComoForca (Coração da Montanha) soma depois, como no site
+    let forcaCarga = forca * (this._efeitos?.multCarga ?? 1) + (this._efeitos?.cargaForca ?? 0);
     // GB p.21: Básica = FOR×7 kg; Pesada = até FOR×35 kg (5× básica); Máxima = até FOR×70 kg (10× básica)
     // Manual do Combatente (expansão, não sobrepõe GB core): Básica = FOR×20 kg, Máxima = FOR×40 kg
     const basicaPadrao = forcaCarga * 7;         // GB: FOR×7 kg
@@ -389,7 +413,7 @@ export default class MightyBladeCharacterData extends foundry.abstract.TypeDataM
 
     this.subattributes = {
       iniciativa:   { value: usarMC ? Math.min(agilidade, inteligencia) : Math.max(agilidade, inteligencia) },
-      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agilidade / 2) + baseDesl, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
+      deslocamento: { value: deslocamento, baseName: "Agilidade", baseValor: agilidade, base: Math.floor(agiDesl / 2) + baseDesl, bonus: bonusDesl, formulaVisual: formulaDeslocamento },
       corrida:      { value: deslocamento * fatorCorrida },
       carga: {
         value:            parseFloat(cargaAtual.toFixed(2)),

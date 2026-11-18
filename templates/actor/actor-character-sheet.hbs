@@ -78,21 +78,21 @@
       {{!-- Tríade de Defesas do Mighty Blade (Escudos) --}}
       <div class="sidebar-defenses-grid">
         {{!-- Bloqueio (Defesa Primária) --}}
-        <div class="defense-shield-box defense-bloqueio" data-tooltip="<strong>Bloqueio:</strong> {{{system.defesas.bloqueio.formulaVisual}}}">
+        <div class="defense-shield-box defense-bloqueio" data-tooltip="<strong>Bloqueio:</strong> {{system.defesas.bloqueio.formulaVisual}}">
           <i class="fas fa-shield shield-icon"></i>
           <span class="defense-val">{{system.defesas.bloqueio.value}}</span>
           <span class="defense-name">BLOQUEIO</span>
         </div>
 
         {{!-- Esquiva --}}
-        <div class="defense-mini-box defense-esquiva" data-tooltip="<strong>Esquiva:</strong> {{{system.defesas.esquiva.formulaVisual}}}">
+        <div class="defense-mini-box defense-esquiva" data-tooltip="<strong>Esquiva:</strong> {{system.defesas.esquiva.formulaVisual}}">
           <i class="fas fa-angles-right mini-icon"></i>
           <span class="defense-val">{{system.defesas.esquiva.value}}</span>
           <span class="defense-name">ESQUIVA</span>
         </div>
 
         {{!-- Determinação --}}
-        <div class="defense-mini-box defense-determinacao" data-tooltip="<strong>Determinação:</strong> {{{system.defesas.determinacao.formulaVisual}}}">
+        <div class="defense-mini-box defense-determinacao" data-tooltip="<strong>Determinação:</strong> {{system.defesas.determinacao.formulaVisual}}">
           <i class="fas fa-brain mini-icon"></i>
           <span class="defense-val">{{system.defesas.determinacao.value}}</span>
           <span class="defense-name">DETERMINAÇÃO</span>
@@ -106,7 +106,7 @@
           <span class="tactical-num">+{{system.subattributes.iniciativa.value}}</span>
           <span class="tactical-lbl">INICIATIVA</span>
         </div>
-        <div class="tactical-item" data-tooltip="Deslocamento Normal: {{{system.subattributes.deslocamento.formulaVisual}}}">
+        <div class="tactical-item" data-tooltip="Deslocamento Normal: {{system.subattributes.deslocamento.formulaVisual}}">
           <i class="fas fa-person-walking"></i>
           <span class="tactical-num">{{system.subattributes.deslocamento.value}}m</span>
           <span class="tactical-lbl">DESLOC.</span>

@@ -1,0 +1,32 @@
+{
+  "atributos": {
+    "forca": 6,
+    "agilidade": 4,
+    "inteligencia": 3,
+    "vontade": 5
+  },
+  "defesas": {
+    "bloqueio": 20,
+    "esquiva": 15,
+    "determinacao": 13,
+    "rd": 4
+  },
+  "deslocamento": 7,
+  "corrida": 14,
+  "iniciativa": 4,
+  "carga": {
+    "basica": 42,
+    "pesada": 210,
+    "maxima": 420
+  },
+  "cargaAtual": 45.12,
+  "pv": {
+    "value": 90,
+    "max": 90
+  },
+  "pm": {
+    "value": 60,
+    "max": 60
+  },
+  "usarManualDoCombatente": false
+}

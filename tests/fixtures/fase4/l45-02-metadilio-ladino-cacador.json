@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-l45-02-metadilio-ladino-cacador",
+  "name": "l45-02-metadilio-ladino-cacador",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 60,
+        "max": 60
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 3,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "",
+      "organizacao": "",
+      "antecedente": "cacador",
+      "antecedenteDebitoAtributo": "vontade",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "armadura-de-couro",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "elixir-de-cura",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000003",
+          "refId": "amuleto-homebrew-da-malevra",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "nomeCustomizado": "Amuleto da Malevra",
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "aflicoes": []
+    },
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "metadilio",
+      "name": "Metadílio",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 2,
+          "agilidade": 4,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "tamanho-pequeno",
+      "name": "Tamanho Pequeno",
+      "type": "habilidade",
+      "system": {
+        "efeitos": [
+          {
+            "tipo": "bonusDadoTeste",
+            "valor": 1,
+            "contexto": "Furtividade"
+          },
+          {
+            "tipo": "defesaBase",
+            "valor": 6
+          },
+          {
+            "tipo": "restricaoArma",
+            "condicao": "Armas com FN 5 ou mais exigem duas mãos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ladino",
+      "name": "Ladino",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 0,
+          "agilidade": 1,
+          "inteligencia": 1,
+          "vontade": 0
+        }
+      }
+    }
+  ],
+  "flags": {}
+}

@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 import MightyBladeCharacterData from "../module/data/actor-character.mjs";
 import { montarDadosDoActor, exportarParaCanonico, bonusRecursosPeloDataModel } from "../module/helpers/ida-e-volta.mjs";
 import { temCondicao, obterPenalidadeDefesa } from "../module/helpers/estados-saude.mjs";
+import { CANONICAL_ALIASES_EQUIPAMENTOS } from "../module/data/canonical-packs-data.mjs";
 
 /**
  * Fase 4, Lote 4.4 — paridade de números entre o site e o Foundry.
@@ -24,8 +25,12 @@ const fixtures = fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && !f.end
  * Diferenças aceitas (escritas aqui de propósito, cada uma com o motivo):
  * - Condições ativas: o site desconta as penalidades no número da ficha; o Foundry aplica na hora
  *   do teste (obterPenalidadeDefesa). Fixtures com condição conferem a penalidade no Foundry à parte.
+ * - Condições no movimento (Atordoado, Enregelado, Imobilizado...): o site reduz Deslocamento e Corrida;
+ *   o Foundry AINDA NÃO tem penalidade de movimento por condição (pendência da Fase 4, docs/fase4-plano.md seção 8).
+ * - Mochila: item de id antigo volta com o id de hoje (elixir-de-cura → elixir-de-vida), pelo alias.
  */
-const CAMPOS_COM_CONDICAO = new Set(["bloqueio", "esquiva"]);
+const comIdDeHoje = (inv) => (inv ?? []).map((i) => ({ ...i, refId: CANONICAL_ALIASES_EQUIPAMENTOS?.[i.refId] ?? i.refId }));
+const CAMPOS_COM_CONDICAO = new Set(["bloqueio", "esquiva", "deslocamento", "corrida"]);
 
 function prepararNoFoundry(ficha) {
   const { actorData } = montarDadosDoActor(ficha, { bonusRecursos: bonusRecursosPeloDataModel(MightyBladeCharacterData.prototype) });
@@ -93,9 +98,10 @@ describe("Fase 4 — paridade de números site ↔ Foundry (fixtures do site)", 
       assert.deepEqual(avisos, []);
       assert.deepEqual(volta.system.resources, ficha.system.resources);
       assert.deepEqual(volta.system.attributes, ficha.system.attributes);
-      assert.deepEqual(volta.system.details.inventario, ficha.system.details.inventario);
+      assert.deepEqual(volta.system.details.inventario, comIdDeHoje(ficha.system.details.inventario));
+      assert.deepEqual(volta.system.progressao ?? [], ficha.system.progressao ?? []);
       assert.deepEqual(volta.items.map((i) => i.slug), ficha.items.map((i) => i.slug));
-      for (const k of ["nivel", "experiencia", "dinheiro", "condicoesAtivas", "usarManualDoCombatente"]) {
+      for (const k of ["nivel", "experiencia", "dinheiro", "condicoesAtivas", "usarManualDoCombatente", "antecedente", "antecedenteDebitoAtributo", "aprendiz", "caminho", "organizacao", "companheiro"]) {
         assert.deepEqual(volta.system.details[k], ficha.system.details[k], k);
       }
     });

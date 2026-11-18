@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-l45-09-aspirante-nivel-0",
+  "name": "l45-09-aspirante-nivel-0",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 30,
+        "max": 30
+      },
+      "mana": {
+        "value": 30,
+        "max": 30
+      }
+    },
+    "details": {
+      "nivel": 0,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "",
+      "organizacao": "",
+      "antecedente": "",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "elixir-de-cura",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "amuleto-homebrew-da-malevra",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "nomeCustomizado": "Amuleto da Malevra",
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "aflicoes": []
+    },
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "humano",
+      "name": "Humano",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 3,
+          "agilidade": 3,
+          "inteligencia": 3,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "adaptabilidade",
+      "name": "Adaptabilidade",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    }
+  ],
+  "flags": {}
+}

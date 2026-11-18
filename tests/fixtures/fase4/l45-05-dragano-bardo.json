@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "1.2",
+  "slug": "fixture-l45-05-dragano-bardo",
+  "name": "l45-05-dragano-bardo",
+  "type": "character",
+  "system": {
+    "attributes": {
+      "forca": {
+        "base": 0
+      },
+      "agilidade": {
+        "base": 0
+      },
+      "inteligencia": {
+        "base": 0
+      },
+      "vontade": {
+        "base": 0
+      }
+    },
+    "resources": {
+      "vida": {
+        "value": 70,
+        "max": 70
+      },
+      "mana": {
+        "value": 60,
+        "max": 60
+      }
+    },
+    "details": {
+      "nivel": 6,
+      "experiencia": 0,
+      "dinheiro": 0,
+      "historicoDinheiro": [],
+      "aprendiz": "",
+      "caminho": "",
+      "organizacao": "",
+      "antecedente": "",
+      "evolucao": "",
+      "idiomas": "",
+      "motivacao": "",
+      "condicao": "",
+      "condicoesAtivas": [],
+      "resistenciasTemp": [],
+      "vulnerabilidadesTemp": [],
+      "imunidadesTemp": [],
+      "inventario": [
+        {
+          "uid": "00000000-0000-4000-8000-000000000001",
+          "refId": "armadura-de-couro",
+          "equipado": true,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000002",
+          "refId": "elixir-de-cura",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "isEspolio": false,
+          "quantidade": 1
+        },
+        {
+          "uid": "00000000-0000-4000-8000-000000000003",
+          "refId": "amuleto-homebrew-da-malevra",
+          "equipado": false,
+          "qualidade": "Mediana",
+          "material": "Aco",
+          "maoEMeiaAtivo": false,
+          "sintonizado": false,
+          "nomeCustomizado": "Amuleto da Malevra",
+          "isEspolio": false,
+          "quantidade": 1
+        }
+      ],
+      "aflicoes": []
+    },
+    "progressao": [
+      {
+        "nivel": 4,
+        "peGasto": "mais10PV",
+        "atributosUpados": [
+          "vontade"
+        ]
+      }
+    ],
+    "biography": "",
+    "anotacoes": "",
+    "karma": 0,
+    "relacionamentos": [],
+    "visibilidade": "publico"
+  },
+  "items": [
+    {
+      "slug": "dragano",
+      "name": "Dragano",
+      "type": "raca",
+      "system": {
+        "atributos": {
+          "forca": 4,
+          "agilidade": 3,
+          "inteligencia": 2,
+          "vontade": 3
+        }
+      }
+    },
+    {
+      "slug": "linhagem-draconica",
+      "name": "Linhagem Dracônica",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "bardo",
+      "name": "Bardo",
+      "type": "classe",
+      "system": {
+        "atributos": {
+          "forca": 0,
+          "agilidade": 0,
+          "inteligencia": 1,
+          "vontade": 1
+        }
+      }
+    },
+    {
+      "slug": "escamas-draconicas",
+      "name": "Escamas Dracônicas",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "cancao-de-ninar",
+      "name": "Canção de Ninar",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    },
+    {
+      "slug": "cancao-da-provocacao",
+      "name": "Canção da Provocação",
+      "type": "habilidade",
+      "system": {
+        "efeitos": []
+      }
+    }
+  ],
+  "flags": {}
+}
